@@ -1,0 +1,23 @@
+Libosinfo 0.01
+_______________________________________________________________________________
+
+Virtualization tools, such as virtinst and virt-manager, need to track several
+pieces of information related to the work they do, including metadata related
+to operating systems, devices, hypervisors and more.
+
+In the past, this metadata has been stored as a sizable python dict inside the
+virtinst tool, which isn't a very elegant solution. Libosinfo aims to remedy
+this, by providing the metadata independent of any existing virtualization
+tools, and by providing an API to query the data.
+
+The basic idea would be as follows:
+
+1. All the data stored right now as a python dict is replaced with a collection
+of files encoding the same data.
+2. The data does *not* contain a fixed hierarchy. We do not segregate by
+vendors on a top level, followed by operating system, followed by revision -
+instead, we have a flat set of top level objects such as operating systems.
+Each such object has a collection of properties, such as vendor, that would
+allow an application using the API to impose any arbitrary sort of hierarchy 
+on the data.
+
