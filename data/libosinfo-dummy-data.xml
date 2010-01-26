@@ -1,13 +1,17 @@
-<device rdf:about="http://pci-ids.ucw.cz/read/PC/1274/5000">
+<libosinfo version="0.0.1">
+<!-- Backing Data Follows -->
+
+<device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
   <!-- ES1370 -->
   <class>audio</class>
   <bus-type>pci</bus-type>
   <vendor>0x1274</vendor>
   <product>0x5000</product>
   <name>ES1370</name>
+  <name>es1370</name>
 </device>
 
-<device rdf:about="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541">
+<device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541">
   <!-- ES1371 -->
   <class>audio</class>
   <bus-type>pci</bus-type>
@@ -17,7 +21,7 @@
   <name>D815EEA Motherboard</name>
 </device>
 
-<device rdf:about="http://pci-ids.ucw.cz/read/PC/1002/4382">
+<device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
   <!-- SB600 AC97 Audio -->
   <class>audio</class>
   <bus-type>pci</bus-type>
@@ -26,7 +30,7 @@
   <name>SB600 AC97 Audio</name>
 </device>
 
-<device rdf:about="http://pci-ids.ucw.cz/read/PC/a727/0013">
+<device id="http://pci-ids.ucw.cz/read/PC/a727/0013">
   <!-- 3CRPAG175 Wireless PC Card -->
   <class>network</class>
   <bus-type>pci</bus-type>
@@ -35,69 +39,86 @@
   <name>3CRPAG175 Wireless PC Card</name>
 </device>
 
-<hypervisor rdf:about="http://qemu.org/qemu-kvm-0.11.0">
+<hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
   <name>KVM</name>
   <version>0.11.0</version>
+  <updates-version>0.10.0</updates-version>
+  <updates-version>0.9.0</updates-version>
+  <updates-version>0.8.0</updates-version>
   <section type="audio">
-      <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382" />
-      <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1274/5000" />
+      <device id="http://pci-ids.ucw.cz/read/PC/1002/4382" />
+      <device id="http://pci-ids.ucw.cz/read/PC/1274/5000" />
+      <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
   </section>
   <section type="network">
-      <device rdf:resource="http://pci-ids.ucw.cz/read/PC/a727/0013" />
+      <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
   </section>
 </hypervisor>
 
-<hypervisor rdf:about="http://bits.xensource.com/oss-xen/release/3.4.1">
+<hypervisor id="http://bits.xensource.com/oss-xen/release/3.4.1">
   <name>Xen</name>
   <version>3.4.1</version>
   <section type="audio">
-      <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382" />
-      <device rdf:about="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
+      <device id="http://pci-ids.ucw.cz/read/PC/1002/4382" />
+      <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
   </section>
   <section type="network">
-      <device rdf:resource="http://pci-ids.ucw.cz/read/PC/a727/0013" />
+      <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
   </section>
 </hypervisor>
 
-<distro rdf:about="http://fedoraproject.org/fedora-11">
-  <upgrades rdf:about="http://fedoraproject.org/fedora-10">
+<os id="http://fedoraproject.org/fedora-11">
+  <upgrades id="http://fedoraproject.org/fedora-10" />
   <short-id>fedora11</short-id>
   <name>Fedora 11</name>
+  <vendor>Fedora Project</vendor>
+  <vendor>Red Hat</vendor>
 
-  <hypervisor rdf:about="http://qemu.org/qemu-kvm-0.11.0">
+  <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
       <section type="audio">
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">es1370</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">ac97</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541">es1371</device>
       </section>
       <section type="network">
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
       </section>
   </hypervisor>
-  
+
   <!-- Device support for unspecified hypervisor -->
   <section type="audio">
-    <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
-    <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97+</device>
   </section>
-</distro>
+</os>
 
-<distro rdf:about="http://fedoraproject.org/fedora-10">
+<os id="http://fedoraproject.org/fedora-10">
   <short-id>fedora10</short-id>
   <name>Fedora 10</name>
+  <vendor>Fedora Project</vendor>
 
-  <hypervisor rdf:about="http://qemu.org/qemu-kvm-0.11.0">
+  <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
       <section type="audio">
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">ac97</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ES1370</device>
       </section>
       <section type="network">
-          <device rdf:resource="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
       </section>
   </hypervisor>
-  
+
   <!-- Device support for unspecified hypervisor -->
   <section type="audio">
-    <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
-    <device rdf:resource="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
   </section>
-</distro>
+</os>
+
+<os id="http://software.opensuse.org/112">
+    <short-id>opensuse11.2</short-id>
+    <name>OpenSuse 11.2</name>
+    <vendor>OpenSuse Project</vendor>
+</os>
+
+<!-- End of backing data -->
+</libosinfo>
