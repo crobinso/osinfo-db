@@ -4,6 +4,9 @@ SRCDIR = ./src
 BINDIR = ./bin
 INCDIR = ./inc
 TESTDIR = ./test
+DATADIR = ./data
+LD_LIBRARY_PATH = $(shell echo $LD_LIBRARY_PATH):$(shell pwd)/$(BINDIR)
+DATA_PATH = $(shell pwd)/$(DATADIR)
 
 INCLUDES = -I ./$(SRCDIR) -I ./$(INCDIR) \
 	`xml2-config --cflags --libs`
