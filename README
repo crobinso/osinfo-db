@@ -1,0 +1,10 @@
+README
+
+Requirements:
+libxml2-devel
+
+To build and test:
+1. 'make lib' to build the library as bin/libosinfo.so
+2. 'make test' to compile all the tests and place them in bin/
+3. Change LD_LIBRARY_PATH to include the directory with libosinfo.so
+4. Run each test in bin/. Will return 0 on successful completion.
