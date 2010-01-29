@@ -66,9 +66,6 @@ static void clear_constraints(struct osi_internal_filter * filter)
 
 int osi_free_filter(osi_filter_t filter)
 {
-    struct list_head * cursor, * tmp;
-    struct osi_keyval * kv_pair;
-    struct osi_filter_relationship * filter_relationship;
     struct osi_internal_filter * internal_filter;
 
     if (!osi_check_filter(filter))
@@ -235,7 +232,6 @@ char** osi_get_filter_constraint_keys(osi_filter_t filter, int* len, int* err)
 {
     struct osi_internal_filter * internal_filter;
     struct osi_keyval * kv_pair;
-    struct list_head * cursor;
     char** keys;
     int i;
 

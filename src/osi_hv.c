@@ -8,7 +8,7 @@
 
 char** osi_get_all_hypervisor_ids(osi_lib_t lib, int* num, int* err)
 {
-    int i, len;
+    int i;
     char** ids;
     struct osi_internal_hv * hv;
     struct osi_internal_lib * internal_lib;
@@ -58,7 +58,6 @@ osi_hypervisor_t osi_get_hypervisor_by_id(osi_lib_t lib, char* hypervisor_id, in
     struct osi_internal_hv * hv, * test_hv;
     struct list_head * cursor;
     struct osi_internal_lib * internal_lib;
-    int i;
 
     if (!err)
         return NULL;
@@ -127,7 +126,6 @@ char* osi_get_hv_id(osi_hypervisor_t hv, int* err)
 
 int osi_set_lib_hypervisor(osi_lib_t lib, char* hypervisor_id)
 {
-    int i;
     struct osi_internal_hv * hv, * test_hv;
     struct list_head * cursor;
     struct osi_internal_lib * internal_lib;
@@ -355,7 +353,6 @@ error:
 
 char* osi_get_hv_property_first_value(osi_hypervisor_t hv, char* propname, int* err)
 {
-    int i;
     char* value;
     struct osi_internal_hv * internal_hv;
     struct osi_keyval_multi * kv, * test_kv;

@@ -350,7 +350,7 @@ static int process_os_hv_link(xmlTextReaderPtr reader,
      * On success add hv_link to os
      */
     int empty, node_type, err;
-    char* id, * key = NULL, * val = NULL;
+    char* id;
     const xmlChar* name;
     struct osi_hypervisor_link * hv_link;
 

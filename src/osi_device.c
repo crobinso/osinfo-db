@@ -227,7 +227,6 @@ osi_device_list_t osi_os_devices(osi_os_t os, char* type, osi_filter_t filter, i
     struct osi_device_section * dev_section = NULL, * test_dev_section;
     struct osi_device_link * device_link;
     struct list_head * cursor, * dev_sections_list = NULL;
-    struct osi_hypervisor_link * hv_link;
 
     if (!err)
         return NULL;
@@ -529,7 +528,6 @@ osi_device_t osi_get_device_by_id(osi_lib_t lib, char* device_id, int* err)
     struct osi_internal_dev * dev, * test_dev;
     struct list_head * cursor;
     struct osi_internal_lib * internal_lib;
-    int i;
 
     if (!err)
         return NULL;
@@ -634,7 +632,6 @@ char** osi_get_device_property_all_values(osi_device_t dev, char* propname, int*
 
 char* osi_get_device_property_value(osi_device_t dev, char* propname, int* err)
 {
-    int i;
     char* value;
     struct osi_internal_dev * internal_dev;
     struct osi_keyval_multi * kv, * test_kv;

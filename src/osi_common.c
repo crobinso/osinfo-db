@@ -75,7 +75,6 @@ struct osi_keyval_multi * __osi_find_or_create_kv(char* key, struct list_head * 
 
 int __osi_add_keyval_multi_value(struct osi_keyval_multi * kv, char* value)
 {
-    int ret;
     char* val_copy;
     struct osi_value * value_container;
 

@@ -83,7 +83,6 @@ int osi_close_lib(osi_lib_t lib)
 {
     struct osi_generic_type * external_lib;
     struct osi_internal_lib * internal_lib;
-    struct osi_keyval * pair, * tmp;
 
     if (!osi_check_lib(lib) || !lib->initialized)
         return -EINVAL;
@@ -194,7 +193,6 @@ int osi_set_lib_param(osi_lib_t lib, char* key, char* val)
 
 char* osi_get_lib_param(osi_lib_t lib, char* key, int* err)
 {
-    int ret;
     struct osi_internal_lib * internal_lib;
     struct osi_keyval * pair, * test_pair;
     struct list_head * cursor;
