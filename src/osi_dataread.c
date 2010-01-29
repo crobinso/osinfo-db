@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include <dirent.h>
 #include <errno.h>
 #include <unistd.h>
@@ -899,14 +900,23 @@ cleanup_error:
     return err;
 }
 
-static int read_data_file(struct osi_internal_lib * lib,
-                              const char *filename)
+static int read_data_file(struct osi_internal_lib *lib,
+			  const char *dir,
+			  const char *filename)
 {
     int ret;
     xmlTextReaderPtr reader;
-    reader = xmlReaderForFile(filename, NULL, 0);
-    if (!reader)
+    char *rel_name = malloc (strlen(dir) + 1 + strlen(filename) + 1);
+    if (!rel_name)
+      return -errno;
+
+    stpcpy(stpcpy(stpcpy(rel_name, dir), "/"), filename);
+
+    reader = xmlReaderForFile(rel_name, NULL, 0);
+    free(rel_name);
+    if (!reader) {
         return -EINVAL;
+    }
     ret = process_file(lib, reader);
     xmlFreeTextReader(reader);
     return ret;
@@ -923,17 +933,10 @@ int osi_initialize_data(struct osi_internal_lib * internal_lib, char* data_dir)
 
     /* Get directory with backing data. Defaults to CWD */
     if (!data_dir)
-        data_dir = getcwd(NULL, 0);
-    else {
-        ret = chdir(data_dir);
-        if (ret != 0) {
-            ret = errno;
-            goto cleanup;
-        }
-    }
+      data_dir = ".";
 
     if (!data_dir) {
-        ret = -ENOMEM;
+        ret = -errno;
         goto cleanup;
     }
 
@@ -947,7 +950,7 @@ int osi_initialize_data(struct osi_internal_lib * internal_lib, char* data_dir)
     while ((dp=readdir(dir)) != NULL) {
         if (dp->d_type != DT_REG)
             continue;
-        ret = read_data_file(internal_lib, dp->d_name);
+        ret = read_data_file(internal_lib, data_dir, dp->d_name);
         if (ret != 0)
             break;
     }
