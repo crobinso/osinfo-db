@@ -338,7 +338,6 @@ static int os_participates_in_relationship(struct osi_internal_os * os,
                                            osi_relationship relationship)
 {
     struct osi_os_link * os_link;
-    struct list_head * cursor;
 
     list_for_each_entry(os_link, &os->relationships_list, list)
         if (os_link->verb == relationship)
@@ -531,7 +530,7 @@ int osi_os_list_length(osi_os_list_t list)
     return os_list->length;
 }
 
-osi_os_t osi_get_os_by_index(osi_os_list_t list, int index, int* err)
+osi_os_t osi_get_os_by_index(osi_os_list_t list, int idx, int* err)
 {
     struct osi_os_list * os_list;
     struct osi_internal_os * os;
@@ -547,12 +546,12 @@ osi_os_t osi_get_os_by_index(osi_os_list_t list, int index, int* err)
     os_list = list->backing_object;
 
     /* Check bounds */
-    if (index < 0 || index >= os_list->length) {
+    if (idx < 0 || idx >= os_list->length) {
         *err = -EINVAL;
         return NULL;
     }
 
-    os = os_list->os_refs[index];
+    os = os_list->os_refs[idx];
     return wrapped_os(os, err);
 }
 
@@ -676,7 +675,6 @@ char** osi_get_os_property_all_values(osi_os_t os, char* propname, int* num, int
 
 char* osi_get_os_property_first_value(osi_os_t os, char* propname, int* err)
 {
-    int i;
     char* value;
     struct osi_internal_os * internal_os;
     struct osi_keyval_multi * kv, * test_kv;

@@ -350,7 +350,7 @@ static osi_device_t wrapped_dev(struct osi_internal_dev * dev, int* err)
     return dev_container;
 }
 
-osi_device_t osi_get_device_by_index(osi_device_list_t list, int index, int* err)
+osi_device_t osi_get_device_by_index(osi_device_list_t list, int idx, int* err)
 {
     struct osi_dev_list * dev_list;
     struct osi_internal_dev * dev;
@@ -366,12 +366,12 @@ osi_device_t osi_get_device_by_index(osi_device_list_t list, int index, int* err
     dev_list = list->backing_object;
 
     /* Check bounds */
-    if (index < 0 || index >= dev_list->length) {
+    if (idx < 0 || idx >= dev_list->length) {
         *err = -EINVAL;
         return NULL;
     }
 
-    dev = dev_list->dev_refs[index];
+    dev = dev_list->dev_refs[idx];
     return wrapped_dev(dev, err);
 }
 
