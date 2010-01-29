@@ -182,7 +182,7 @@ int osi_clear_filter_constraint(osi_filter_t filter, char* propname)
 
     /* Didn't find it, so we're done */
     if (!kv_pair)
-        return 0;
+        return -EINVAL;
 
     /* Found it, so delete it */
     list_del(&kv_pair->list);
