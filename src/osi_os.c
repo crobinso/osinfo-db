@@ -13,7 +13,8 @@ static char** os_property_all_values(struct osi_internal_os * os,
 {
     int i;
     char** property_values;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value;
 
@@ -677,7 +678,8 @@ char* osi_get_os_property_first_value(osi_os_t os, char* propname, int* err)
 {
     char* value;
     struct osi_internal_os * internal_os;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value_container;
 

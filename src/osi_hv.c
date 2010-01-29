@@ -293,7 +293,8 @@ char** osi_get_hv_property_all_values(osi_hypervisor_t hv, char* propname, int* 
     int i;
     char** property_values;
     struct osi_internal_hv * internal_hv;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value;
 
@@ -355,7 +356,8 @@ char* osi_get_hv_property_first_value(osi_hypervisor_t hv, char* propname, int* 
 {
     char* value;
     struct osi_internal_hv * internal_hv;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value_container;
 

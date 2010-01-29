@@ -28,7 +28,8 @@ static char** dev_property_all_values(struct osi_internal_dev * dev,
 {
     int i;
     char** property_values;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value;
 
@@ -634,7 +635,8 @@ char* osi_get_device_property_value(osi_device_t dev, char* propname, int* err)
 {
     char* value;
     struct osi_internal_dev * internal_dev;
-    struct osi_keyval_multi * kv, * test_kv;
+    struct osi_keyval_multi *kv = NULL;
+    struct osi_keyval_multi *test_kv;
     struct list_head * cursor;
     struct osi_value * value_container;
 
