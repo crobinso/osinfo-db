@@ -4,11 +4,9 @@
 #include <dirent.h>
 #include <errno.h>
 #include <unistd.h>
-#include <libosinfo.h>
 #include <libxml/xmlreader.h>
 
-#include "list.h"
-#include "osi_internal_types.h"
+#include <osinfo.h>
 
 #ifdef LIBXML_READER_ENABLED
 
@@ -34,142 +32,155 @@
  * object, is the same as the starting tag for the object).
  */
 
+struct __osinfoDbRet {
+    OsinfoDb *db;
+    int *ret;
+};
 
-static int resolve_section_devices(struct osi_internal_lib * lib,
-                                   struct osi_device_section * section)
+static gboolean __osinfoResolveDeviceLink(gpointer key, gpointer value, gpointer data)
 {
-    struct list_head * cursor;
-    struct osi_device_link * dev_link;
-    struct osi_internal_dev * dev;
+    gchar *id = (gchar *) key;
+    struct __osinfoDeviceLink *devLink = (struct __osinfoDeviceLink *) value;
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
 
-    if (!section)
+    OsinfoDevice *dev = g_tree_lookup(db->priv->devices, id);
+    if (!dev) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    devLink->dev = dev;
+    *ret = 0;
+    return FALSE;
+}
+
+static gboolean __osinfoResolveSectionDevices(gpointer key, gpointer value, gpointer data)
+{
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
+    GTree *section = (GTree *) value;
+    if (!section) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    g_tree_foreach(section, __osinfoResolveDeviceLink, dbRet);
+    if (*ret)
+        return TRUE;
+    return FALSE;
+}
+
+static gboolean __osinfoResolveHvLink(gpointer key, gpointer value, gpointer data)
+{
+    gchar *hvId = (gchar *) key;
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
+    struct __osinfoHvSection *hvSection = (struct __osinfoHvSection *) value;
+    OsinfoHypervisor *hv;
+
+    g_tree_foreach(hvSection->sections, __osinfoResolveSectionDevices, dbRet);
+    if (*ret)
+        return TRUE;
+
+    hv = g_tree_lookup(db->priv->hypervisors, hvId);
+    if (!hv) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    hvSection->hv = hv;
+    *ret = 0;
+    return FALSE;
+}
+
+static gboolean __osinfoResolveOsLink(gpointer key, gpointer value, gpointer data)
+{
+    gchar *targetOsId = (gchar *) key;
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
+    struct __osinfoOsLink *osLink = (struct __osinfoOsLink *) value;
+
+    OsinfoOs *targetOs;
+    targetOs = g_tree_lookup(db->priv->oses, targetOsId);
+    if (!targetOs) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    osLink->directObjectOs = targetOs;
+    *ret = 0;
+    return FALSE;
+}
+
+static gboolean __osinfoFixOsLinks(gpointer key, gpointer value, gpointer data)
+{
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
+    OsinfoOs *os = OSINFO_OS(value);
+    if (!os) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    g_tree_foreach(os->priv->sections, __osinfoResolveSectionDevices, dbRet);
+    if (*ret)
+        return TRUE;
+
+    g_tree_foreach(os->priv->relationshipsByOs, __osinfoResolveOsLink, dbRet);
+    if (*ret)
+        return TRUE;
+
+    g_tree_foreach(os->priv->hypervisors, __osinfoResolveHvLink, dbRet);
+    if (*ret)
+        return TRUE;
+
+    *ret = 0;
+    return FALSE;
+}
+
+static gboolean __osinfoFixHvLinks(gpointer key, gpointer value, gpointer data)
+{
+    struct __osinfoDbRet *dbRet = (struct __osinfoDbRet *) data;
+    OsinfoDb *db = dbRet->db;
+    int *ret = dbRet->ret;
+    OsinfoHypervisor *hv = OSINFO_HYPERVISOR(value);
+    if (!hv) {
+        *ret = -EINVAL;
+        return TRUE;
+    }
+
+    g_tree_foreach(hv->priv->sections, __osinfoResolveSectionDevices, dbRet);
+    if (*ret)
+        return TRUE;
+    return FALSE;
+}
+
+static int __osinfoFixObjLinks(OsinfoDb *db)
+{
+    OsinfoHypervisor *hv;
+    OsinfoOs *os;
+    int ret;
+
+    if (!OSINFO_IS_DB(db))
         return -EINVAL;
 
-    list_for_each(cursor, &section->devices_list) {
-        dev_link = list_entry(cursor, struct osi_device_link, list);
-        dev = __osi_find_dev_by_id(lib, dev_link->id);
-        if (!dev)
-            return -EINVAL;
-        dev_link->dev = dev;
-    }
+    struct __osinfoDbRet dbRet = {db, &ret};
 
-    return 0;
+    g_tree_foreach(db->priv->hypervisors, __osinfoFixHvLinks, &dbRet);
+    if (ret)
+        return ret;
+    g_tree_foreach(db->priv->oses, __osinfoFixOsLinks, &dbRet);
+
+    return ret;
 }
 
-static int resolve_hv_link(struct osi_internal_lib * lib,
-                           struct osi_hypervisor_link * hv_link)
-{
-    int ret;
-    struct list_head * cursor;
-    struct osi_device_section * section;
-    struct osi_internal_hv * hv;
-
-    list_for_each(cursor, &hv_link->dev_sections_list) {
-        section = list_entry(cursor, struct osi_device_section, list);
-        ret = resolve_section_devices(lib, section);
-        if (ret != 0)
-            return ret;
-    }
-
-    hv = __osi_find_hv_by_id(lib, hv_link->hv_id);
-    if (!hv)
-        return -EINVAL;
-
-    hv_link->hv = hv;
-    return 0;
-}
-
-static int resolve_os_link(struct osi_internal_lib * lib,
-                           struct osi_os_link * os_link)
-{
-    struct osi_internal_os * target_os;
-
-    target_os = __osi_find_os_by_id(lib, os_link->dobj_os_id);
-    if (!target_os)
-        return -EINVAL;
-
-    os_link->direct_object_os = target_os;
-    return 0;
-}
-
-static int fix_os_links(struct osi_internal_lib * lib,
-                        struct osi_internal_os * os)
-{
-    int ret;
-    struct list_head * cursor;
-    struct osi_device_section * section;
-    struct osi_hypervisor_link * hv_link;
-    struct osi_os_link * os_link;
-
-    list_for_each(cursor, &os->dev_sections_list) {
-        section = list_entry(cursor, struct osi_device_section, list);
-        ret = resolve_section_devices(lib, section);
-        if (ret != 0)
-            return ret;
-    }
-
-    list_for_each(cursor, &os->hypervisor_info_list) {
-        hv_link = list_entry(cursor, struct osi_hypervisor_link, list);
-        ret = resolve_hv_link(lib, hv_link);
-        if (ret != 0)
-            return ret;
-    }
-
-    list_for_each(cursor, &os->relationships_list) {
-        os_link = list_entry(cursor, struct osi_os_link, list);
-        ret = resolve_os_link(lib, os_link);
-        if (ret != 0)
-            return ret;
-    }
-
-    return 0;
-}
-
-static int fix_hv_links(struct osi_internal_lib * lib,
-                        struct osi_internal_hv * hv)
-{
-    int ret;
-    struct list_head * cursor;
-    struct osi_device_section * section;
-
-    list_for_each(cursor, &hv->dev_sections_list) {
-        section = list_entry(cursor, struct osi_device_section, list);
-        ret = resolve_section_devices(lib, section);
-        if (ret != 0)
-            return ret;
-    }
-
-    return 0;
-}
-
-static int fix_obj_links(struct osi_internal_lib * lib)
-{
-    struct list_head * cursor;
-    struct osi_internal_hv * hv;
-    struct osi_internal_os * os;
-    int ret;
-
-    if (!lib)
-        return -EINVAL;
-
-    list_for_each(cursor, &lib->hypervisor_list) {
-        hv = list_entry(cursor, struct osi_internal_hv, list);
-        ret = fix_hv_links(lib, hv);
-        if (ret != 0)
-            return ret;
-    }
-
-    list_for_each(cursor, &lib->os_list) {
-        os = list_entry(cursor, struct osi_internal_os, list);
-        ret = fix_os_links(lib, os);
-        if (ret != 0)
-            return ret;
-    }
-
-    return 0;
-}
-
-static int process_tag(xmlTextReaderPtr reader, char** ptr_to_key, char** ptr_to_val)
+static int __osinfoProcessTag(xmlTextReaderPtr reader, char** ptr_to_key, char** ptr_to_val)
 {
     int node_type, ret, err = 0;
     char* key = NULL;
@@ -235,36 +246,25 @@ error:
     return err;
 }
 
-static int process_dev_section(xmlTextReaderPtr reader,
-                               struct list_head * head,
-                               int * num)
+static int __osinfoProcessDevSection(xmlTextReaderPtr reader,
+                                     GTree *section, GTree *sectionAsList)
 {
     int err, empty, node_type;
-    char * type, * id, * key = NULL, * driver = NULL;
+    char * sectionType, * id, * key = NULL, * driver = NULL;
     const char * name;
-    struct osi_device_section * section;
-    struct osi_device_link * dev_link;
 
-    type = xmlTextReaderGetAttribute(reader, "type");
-    empty = xmlTextReaderIsEmptyElement(reader);
-
-    if (!type)
+    if (!section)
         return -EINVAL;
 
-    /* Alloc structure for section and store type */
-    section = malloc(sizeof(*section));
-    if (!section) {
-        free(type);
-        return -ENOMEM;
-    }
+    sectionType = xmlTextReaderGetAttribute(reader, "type");
+    empty = xmlTextReaderIsEmptyElement(reader);
 
-    section->type = type;
-    section->num_devices = 0;
-    INIT_LIST_HEAD(&section->devices_list);
+    if (!sectionType)
+        return -EINVAL;
 
     /* If no devices in section then we are done */
     if (empty)
-        goto finished;
+        return 0;
 
     /* Otherwise, read in devices and add to section */
     for (;;) {
@@ -301,42 +301,36 @@ static int process_dev_section(xmlTextReaderPtr reader,
         }
 
         if (!empty) {
-            err = process_tag(reader, &key, &driver);
+            err = __osinfoProcessTag(reader, &key, &driver);
             if (err != 0 || !key || !driver)
                 goto error;
             free(key);
             key = NULL; /* In case the next malloc fails, avoid a double free */
         }
 
-        /* Store link to device in structure */
-        dev_link = malloc(sizeof(*dev_link));
-        if (!dev_link) {
-            err = -ENOMEM;
-            free(id);
+        // Alright, we have the id and driver
+        err = __osinfoAddDeviceToSection(section, sectionAsList, sectionType, id, driver);
+        free (driver);
+        driver = NULL;
+        free (id);
+        id = NULL;
+        if (err != 0)
             goto error;
-        }
-
-        dev_link->id = id;
-        dev_link->driver = driver;
-        dev_link->dev = NULL;
-        section->num_devices += 1;
-        list_add_tail(&dev_link->list, &section->devices_list);
     }
+    free(sectionType);
 
 finished:
-    list_add_tail(&section->list, head);
-    *num += 1;
     return 0;
 
 error:
+    free(sectionType);
     free(key);
     free(driver);
-    __osi_free_device_section(section);
     return err;
 }
 
-static int process_os_hv_link(xmlTextReaderPtr reader,
-                              struct osi_internal_os *os)
+static int __osinfoProcessOsHvLink(xmlTextReaderPtr reader,
+                                   OsinfoOs *os)
 {
     /*
      * Get id for hypervisor else fail
@@ -352,7 +346,7 @@ static int process_os_hv_link(xmlTextReaderPtr reader,
     int empty, node_type, err;
     char* id;
     const xmlChar* name;
-    struct osi_hypervisor_link * hv_link;
+    struct __osinfoHvSection *hvSection;
 
     id = xmlTextReaderGetAttribute(reader, "id");
     empty = xmlTextReaderIsEmptyElement(reader);
@@ -360,17 +354,10 @@ static int process_os_hv_link(xmlTextReaderPtr reader,
     if (!id)
         return -EINVAL;
 
-    hv_link = malloc(sizeof(*hv_link));
-    if (!hv_link) {
-        free(id);
+    hvSection = __osinfoAddHypervisorSectionToOs(os, id);
+    free(id);
+    if (!hvSection)
         return -EINVAL;
-    }
-
-    hv_link->hv_id = id;
-    hv_link->os = os;
-    hv_link->hv = NULL; /* Will resolve link later */
-    hv_link->num_dev_sections = 0;
-    INIT_LIST_HEAD(&hv_link->dev_sections_list);
 
     if (empty)
         goto finished;
@@ -405,26 +392,23 @@ static int process_os_hv_link(xmlTextReaderPtr reader,
         }
 
         /* Process device type info for this <os, hv> combination */
-        err = process_dev_section(reader, &hv_link->dev_sections_list, &hv_link->num_dev_sections);
+        err = __osinfoProcessDevSection(reader, hvSection->sections, hvSection->sectionsAsList);
         if (err != 0)
             goto error;
     }
 
 finished:
-    os->num_hypervisors += 1;
-    list_add_tail(&hv_link->list, &os->hypervisor_info_list);
     return 0;
 
 error:
-    __osi_cleanup_hv_link(hv_link);
     return err;
 }
 
-static int process_os_relationship(xmlTextReaderPtr reader,
-                                   struct osi_internal_os * os,
-                                   osi_relationship relationship)
+static int __osinfoProcessOsRelationship(xmlTextReaderPtr reader,
+                                         OsinfoOs *os,
+                                         osinfoRelationship relationship)
 {
-    int empty;
+    int empty, ret;
     char* id;
     struct osi_os_link * os_link;
 
@@ -435,23 +419,12 @@ static int process_os_relationship(xmlTextReaderPtr reader,
         return -EINVAL;
     }
 
-    os_link = malloc(sizeof(*os_link));
-    if (!os_link) {
-        free(id);
-        return -ENOMEM;
-    }
-
-    os_link->subject_os = os;
-    os_link->verb = relationship;
-    os_link->direct_object_os = NULL; /* will resolve after reading all data */
-    os_link->dobj_os_id = id;
-
-    os->num_relationships += 1;
-    list_add_tail(&os_link->list, &os->relationships_list);
-    return 0;
+    ret = __osinfoAddOsRelationship (os, id, relationship);
+    free(id);
+    return ret;
 }
 
-static int process_os(struct osi_internal_lib * lib,
+static int __osinfoProcessOs(OsinfoDb *db,
                           xmlTextReaderPtr reader)
 {
     /* Cursor is at start of (possibly empty) os node */
@@ -466,7 +439,7 @@ static int process_os(struct osi_internal_lib * lib,
     int empty, node_type, err, ret;
     char* id, * key = NULL, * val = NULL;
     const xmlChar* name;
-    struct osi_internal_os * os;
+    OsinfoOs *os;
 
     id = xmlTextReaderGetAttribute(reader, "id");
     empty = xmlTextReaderIsEmptyElement(reader);
@@ -474,22 +447,10 @@ static int process_os(struct osi_internal_lib * lib,
     if (!id)
         return -EINVAL;
 
-    os = malloc(sizeof(*os));
-    if (!os) {
-        free(id);
+    os = g_object_new(OSINFO_TYPE_OS, "id", id, "db", db, NULL);
+    free(id);
+    if (!os)
         return -ENOMEM;
-    }
-
-    os->id = id;
-    os->num_params = 0;
-    INIT_LIST_HEAD(&os->param_list);
-    os->num_hypervisors = 0;
-    INIT_LIST_HEAD(&os->hypervisor_info_list);
-    os->num_dev_sections = 0;
-    INIT_LIST_HEAD(&os->dev_sections_list);
-    os->num_relationships = 0;
-    INIT_LIST_HEAD(&os->relationships_list);
-    os->lib = lib;
 
     if (empty)
         goto finished;
@@ -533,38 +494,37 @@ static int process_os(struct osi_internal_lib * lib,
 
         if (strcmp(name, "section") == 0) {
             /* Node is start of device section for os */
-            err = process_dev_section(reader, &os->dev_sections_list, &os->num_dev_sections);
+            err = __osinfoProcessDevSection(reader, (OSINFO_OS(os))->priv->sections, (OSINFO_OS(os))->priv->sectionsAsList);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "hypervisor") == 0) {
-            err = process_os_hv_link(reader, os);
+            err = __osinfoProcessOsHvLink(reader, os);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "upgrades") == 0) {
-            err = process_os_relationship(reader, os, UPGRADES);
+            err = __osinfoProcessOsRelationship(reader, os, UPGRADES);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "clones") == 0) {
-            err = process_os_relationship(reader, os, CLONES);
+            err = __osinfoProcessOsRelationship(reader, os, CLONES);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "derives-from") == 0) {
-            err = process_os_relationship(reader, os, DERIVES_FROM);
+            err = __osinfoProcessOsRelationship(reader, os, DERIVES_FROM);
             if (err != 0)
                 goto cleanup_error;
         }
         else {
             /* Node is start of element of known name */
-            err = process_tag(reader, &key, &val);
+            err = __osinfoProcessTag(reader, &key, &val);
             if (err != 0 || !key || !val)
                 goto cleanup_error;
 
-            /* Store <key,val> in device param_list */
-            err = __osi_store_keyval(key, val, &os->param_list, &os->num_params);
+            err = __osinfoAddParam(OSINFO_ENTITY(os), key, val);
             if (err != 0)
                 goto cleanup_error;
 
@@ -574,17 +534,16 @@ static int process_os(struct osi_internal_lib * lib,
     }
 
 finished:
-    lib->num_os += 1;
-    list_add_tail(&os->list, &lib->os_list);
+    __osinfoAddOsToDb(db, os);
     return 0;
     /* At end, cursor is at end of os node */
 
 cleanup_error:
-    __osi_free_os(os);
+    g_object_unref(os);
     return err;
 }
 
-static int process_hypervisor(struct osi_internal_lib * lib,
+static int __osinfoProcessHypervisor(OsinfoDb *db,
                                   xmlTextReaderPtr reader)
 {
     /* Cursor is at start of (possibly empty) hypervisor node */
@@ -598,9 +557,9 @@ static int process_hypervisor(struct osi_internal_lib * lib,
      */
 
     int empty, node_type, err, ret;
-    char* id, * key = NULL, * val = NULL;
+    char* id;
     const xmlChar* name;
-    struct osi_internal_hv * hv;
+    OsinfoHypervisor *hv;
 
     id = xmlTextReaderGetAttribute(reader, "id");
     empty = xmlTextReaderIsEmptyElement(reader);
@@ -608,18 +567,12 @@ static int process_hypervisor(struct osi_internal_lib * lib,
     if (!id)
         return -EINVAL;
 
-    hv = malloc(sizeof(*hv));
+
+    hv = g_object_new(OSINFO_TYPE_HYPERVISOR, "id", id, "db", db, NULL);
+    free(id);
     if (!hv) {
-        free(id);
         return -ENOMEM;
     }
-
-    hv->id = id;
-    hv->num_params = 0;
-    INIT_LIST_HEAD(&hv->param_list);
-    hv->num_dev_sections = 0;
-    INIT_LIST_HEAD(&hv->dev_sections_list);
-    hv->lib = lib;
 
     if (empty)
         goto finished;
@@ -671,41 +624,38 @@ static int process_hypervisor(struct osi_internal_lib * lib,
 
         if (strcmp(name, "section") == 0) {
             /* Node is start of device section for hv */
-            err = process_dev_section(reader, &hv->dev_sections_list, &hv->num_dev_sections);
+            err = __osinfoProcessDevSection(reader, (OSINFO_HYPERVISOR(hv))->priv->sections, (OSINFO_HYPERVISOR(hv))->priv->sectionsAsList);
             if (err != 0)
                 goto cleanup_error;
         }
         else {
             /* Node is start of element of known name */
-            err = process_tag(reader, &key, &val);
-            if (err != 0 || !key || !val)
-                goto cleanup_error;
-
-            /* Store <key,val> in device param_list */
-            err = __osi_store_keyval(key, val, &hv->param_list, &hv->num_params);
+            char *key = NULL, *val = NULL;
+            err = __osinfoProcessTag(reader, &key, &val);
             if (err != 0)
                 goto cleanup_error;
 
+
+            err = __osinfoAddParam(OSINFO_ENTITY(hv), key, val);
             free(key);
             free(val);
+            if (err != 0)
+                goto cleanup_error;
         }
     }
 
 finished:
-    lib->num_hypervisors += 1;
-    list_add_tail(&hv->list, &lib->hypervisor_list);
+    __osinfoAddHypervisorToDb(db, hv);
     return 0;
     /* At end, cursor is at end of hv node */
 
 cleanup_error:
-    free(key);
-    free(val);
-    __osi_free_hv(hv);
+    g_object_unref(hv);
     return err;
 }
 
-static int process_device(struct osi_internal_lib * lib,
-                            xmlTextReaderPtr reader)
+static int __osinfoProcessDevice(OsinfoDb *db,
+                                 xmlTextReaderPtr reader)
 {
     /* Cursor is at start of (possibly empty) device node */
 
@@ -720,7 +670,7 @@ static int process_device(struct osi_internal_lib * lib,
     int empty, node_type, err, ret;
     char* id, * key, * val;
     const xmlChar* name;
-    struct osi_internal_dev * dev;
+    OsinfoDevice *dev;
 
     id = xmlTextReaderGetAttribute(reader, "id");
     empty = xmlTextReaderIsEmptyElement(reader);
@@ -728,16 +678,12 @@ static int process_device(struct osi_internal_lib * lib,
     if (!id)
         return -EINVAL;
 
-    dev = malloc(sizeof(*dev));
+    dev = g_object_new(OSINFO_TYPE_DEVICE, "id", id, "db", db, NULL);
+    free(id);
     if (!dev) {
-        free(id);
+        // TODO: How do errors in gobject creation manifest themselves?
         return -ENOMEM;
     }
-
-    dev->id = id;
-    dev->num_params = 0;
-    INIT_LIST_HEAD(&dev->param_list);
-    dev->lib = lib;
 
     if (empty)
         goto finished;
@@ -780,12 +726,11 @@ static int process_device(struct osi_internal_lib * lib,
             continue;
 
         /* Node is start of element of known name */
-        err = process_tag(reader, &key, &val);
+        err = __osinfoProcessTag(reader, &key, &val);
         if (err != 0 || !key || !val)
             goto cleanup_error;
 
-        /* Store <key,val> in device param_list */
-        err = __osi_store_keyval(key, val, &dev->param_list, &dev->num_params);
+        err = __osinfoAddParam(OSINFO_ENTITY(dev), key, val);
         if (err != 0)
             goto cleanup_error;
 
@@ -794,20 +739,20 @@ static int process_device(struct osi_internal_lib * lib,
     }
 
 finished:
-    list_add_tail(&dev->list, &lib->device_list);
-    lib->num_devices += 1;
+    // Add dev to db
+    __osinfoAddDeviceToDb(db, dev);
     return 0;
     /* At end, cursor is at end of device node */
 
 cleanup_error:
     free(key);
     free(val);
-    __osi_free_device(dev);
+    g_object_unref(dev);
     return err;
 }
 
-static int process_file(struct osi_internal_lib * lib,
-                            xmlTextReaderPtr reader)
+static int __osinfoProcessFile(OsinfoDb *db,
+                               xmlTextReaderPtr reader)
 {
     /*
      * File assumed to contain data in XML format. All data
@@ -872,17 +817,17 @@ static int process_file(struct osi_internal_lib * lib,
 
         /* Process element node */
         if (strcmp(name, "device") == 0) {
-            err = process_device(lib, reader);
+            err = __osinfoProcessDevice(db, reader);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "hypervisor") == 0) {
-            err = process_hypervisor(lib, reader);
+            err = __osinfoProcessHypervisor(db, reader);
             if (err != 0)
                 goto cleanup_error;
         }
         else if (strcmp(name, "os") == 0) {
-            err = process_os(lib, reader);
+            err = __osinfoProcessOs(db, reader);
             if (err != 0)
                 goto cleanup_error;
         }
@@ -896,13 +841,13 @@ static int process_file(struct osi_internal_lib * lib,
     return 0;
 
 cleanup_error:
-    __osi_free_lib(lib);
+    // Db will be unsatisfactorily initiated, caller will call unref to clean it
     return err;
 }
 
-static int read_data_file(struct osi_internal_lib *lib,
-			  const char *dir,
-			  const char *filename)
+static int __osinfoReadDataFile(OsinfoDb *db,
+                                const char *dir,
+                                const char *filename)
 {
     int ret;
     xmlTextReaderPtr reader;
@@ -917,31 +862,29 @@ static int read_data_file(struct osi_internal_lib *lib,
     if (!reader) {
         return -EINVAL;
     }
-    ret = process_file(lib, reader);
+    ret = __osinfoProcessFile(db, reader);
     xmlFreeTextReader(reader);
     return ret;
 }
 
-int osi_initialize_data(struct osi_internal_lib * internal_lib, char* data_dir)
+int __osinfoInitializeData(OsinfoDb *db)
 {
     int ret;
     DIR* dir;
     struct dirent *dp;
 
+    char *backingDir;
+    g_object_get(G_OBJECT(db), "backing-dir", &backingDir, NULL);
+
     /* Initialize library and check version */
     LIBXML_TEST_VERSION
 
     /* Get directory with backing data. Defaults to CWD */
-    if (!data_dir)
-      data_dir = ".";
-
-    if (!data_dir) {
-        ret = -errno;
-        goto cleanup;
-    }
+    if (!backingDir)
+      backingDir = ".";
 
     /* Get XML files in directory */
-    dir = opendir(data_dir);
+    dir = opendir(backingDir);
     if (!dir) {
         ret = errno;
         goto cleanup;
@@ -950,21 +893,22 @@ int osi_initialize_data(struct osi_internal_lib * internal_lib, char* data_dir)
     while ((dp=readdir(dir)) != NULL) {
         if (dp->d_type != DT_REG)
             continue;
-        ret = read_data_file(internal_lib, data_dir, dp->d_name);
+        ret = __osinfoReadDataFile(db, backingDir, dp->d_name);
         if (ret != 0)
             break;
     }
     closedir(dir);
     if (ret == 0)
-        ret = fix_obj_links(internal_lib);
+        ret = __osinfoFixObjLinks(db);
 
 cleanup:
     xmlCleanupParser();
+    g_free(backingDir);
     return ret;
 }
 
 #else
-int osi_initialize_data(struct osi_internal_lib * internal_lib)
+int __osinfoInitializeData(OsinfoDb *db)
 {
     return -ENOSYS;
 }

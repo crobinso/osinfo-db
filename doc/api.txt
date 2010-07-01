@@ -1,391 +1,148 @@
-libosinfo 0.01
-_______________________________________________________________________________
+Proposed GObject based libosinfo API.
 
+See also:
 
-*******************************************************************************
+https://www.redhat.com/archives/virt-tools-list/2010-February/msg00000.html
+https://www.redhat.com/archives/virt-tools-list/2010-February/msg00013.html
 
-TYPES
+Quick summary:
+1. A few main object types, one abstract, the rest usable by interface users
+2. Each object has a collection of public methods that are listed below and
+   are the only interface with the library.
+3. Each method listed below is grouped with the object for which the functionality
+   makes the most sense.
 
-*******************************************************************************
+Current Status:
+1. All objects except lists and filters are specified fully, though a couple of
+   methods need to be filled in.
+2. Remaining tasks include implementing lists and filters, and filling in some
+   methods on the other objects.
 
-osi_lib_t : an opaque handle to a library instance.
-osi_hypervisor_t : represents a hypervisor.
+Request:
 
-osi_os_t : represents an operating system object.
-osi_os_list_t : a list of osi_os_t objects.
+1. If possible, go over the API real quick if you have the time, and see if
+anything else needs to be changed.
 
-osi_device_t : represents a device
-osi_device_list_t : represents a list of devices
+2. Observe the email at
+https://www.redhat.com/archives/virt-tools-list/2009-October/msg00162.html
+that specifies the data format, and verify that it matches the desired
+functionality. (I'm pretty certain that it does).
 
-osi_filter_t: filter for searching through distros or devices.
 
-enum_t osi_relationships : { DERIVES-FROM, UPGRADES, CLONES }
+-Arjun
 
-*******************************************************************************
+________________________________________________________________________________
 
-SINGLETON OBJECTS
+Main objects
 
-*******************************************************************************
+OsinfoDb : Main interface to libosinfo
+OsinfoEntity : Base class for all objects tracked by libosinfo
+OsinfoDevice : descends from OsinfoEntity
+OsinfoHypervisor : descends from OsinfoEntity
+OsinfoOs : descends from OsinfoEntity
+OsinfoFilter : used for list filtering
+OsinfoOsList, OsinfoDeviceList, OsinfoHypervisorList : Lists of objects
 
-osi_hypervisor_t : osi_default_hv
-osi_filter_t : osi_null_filter
+_________________________________________________
+OsinfoEntity: Implemented as a GObject
+Properties:
+ID
+Backpointer to OsinfoDb object
 
-*******************************************************************************
+gchar *osinfoGetId(OsinfoEntity *self, GError **err);
+GPtrArray *osinfoGetParams(OsinfoEntity *self, GError **err);
+gchar *osinfoGetParamValue(OsinfoEntity *self, gchar *key, GError **err);
+GPtrArray *osinfoGetParamAllValues(OsinfoEntity *self, gchar *key, GError **err);
 
-LIBRARY PARAMETERS
+_________________________________________________
 
-*******************************************************************************
+OsinfoDb: Main interface to libosinfo
 
-All library parameters are optional, though some are recommended. The following
-are a listing of parameters and possible values:
+int osinfoInitializeDb(OsinfoDb *self, GError **err);
 
-1. "libvirt-version" : Version # for libvirt, could affect some of the results
-of the various methods.
+OsinfoHypervisor *osinfoGetHypervisorById(OsinfoDb *self, gchar *hvId, GError **err);
+OsinfoDevice *osinfoGetDeviceById(OsinfoDb *self, gchar *devId, GError **err);
+OsinfoOs *osinfoGetOsById(OsinfoDb *self, gchar *osId, GError **err);
 
-2. "backing-data-loc" : Path to directory containing backing data for libosinfo.
-Given directory is recursively scanned for files containing libosinfo data. If
-unspecified, the current directory is used.
+OsinfoOsList *osinfoGetOsList(OsinfoDb *self, OsinfoFilter *filter, GError **err);
+OsinfoHypervisorList *osinfoGetHypervisorList(OsinfoDb *self, OsinfoFilter *filter, GError **err);
+OsinfoDeviceList *osinfoGetDeviceList(OsinfoDb *self, OsinfoFilter *filter, GError **err);
 
-*******************************************************************************
+// Get me all unique values for property "vendor" among operating systems
+GPtrArray *osinfoUniqueValuesForPropertyInOs(OsinfoDb *self, gchar *propName, GError **err);
 
-METHODS
+// Get me all unique values for property "vendor" among hypervisors
+GPtrArray *osinfoUniqueValuesForPropertyInHv(OsinfoDb *self, gchar *propName, GError **err);
 
-*******************************************************************************
-_______________________________________
+// Get me all unique values for property "vendor" among devices
+GPtrArray *osinfoUniqueValuesForPropertyInDev(OsinfoDb *self, gchar *propName, GError **err);
 
-Manipulating the Library
-_______________________________________
+// Get me all OSes that 'upgrade' another OS (or whatever relationship is specified)
+OsinfoOsList *osinfoUniqueValuesForOsRelationship(OsinfoDb *self, osinfoRelationship relshp, GError **err);
 
-osi_lib_t osi_get_lib_handle(void)
-         Get a handle to the library itself. The return type is either a valid
-         library handle, or an invalid structure should the operation fail. The
-         user must check the return value with a call to osi_is_error(handle).
+_________________________________________________
 
-int osi_set_lib_param(osi_lib_t lib, char* key, char* val)
-         Set an environment parameter for the library. This could be something
-         like libvirt version, which would affect the data query results. We
-         can only set parameters before the library has been initialized. See
-         the section on library parameters for more information.
+Hypervisor: All methods in OsinfoEntity, plus
 
-         Returns 0 on success, and an errno style error code otherwise.
+// Return a list of all device types handled by hypervisor on some OS
+GPtrArray *osinfoGetHypervisorDeviceTypes(OsinfoHypervisor *self, GError **err);
 
-char* osi_get_lib_param(osi_lib_t lib, char* key, int* err)
-         Returns the current value for a given parameter, or NULL if it has not
-         been set. The user must free the returned value after use. If an error
-         occurs, err is set to the relevant errno style error. If no error
-         occurs, err is set to 0. See the section on library parameters for
-         more information.
+// Get all devices of type. Note these are not OS specific, all we know is that the hypervisor
+// supports the device on some OS
+OsinfoDeviceList *osinfoGetHypervisorDevicesByType(OsinfoHypervisor *self, gchar *devType, OsinfoFilter *filter, GError **err);
+_________________________________________________
 
-int osi_init_lib(osi_lib_t lib)
-         Initializes the library given the current parameters. Once this
-         method is called, the library parameters cannot be changed.
+Devices: All methods in OsinfoEntity, plus
 
-         Returns 0 on success, and an errno style error code otherwise.
+// Get device driver for OS and HV combination. If HV is null, assume we want
+// driver used by OS when running on bare metal. Note we specify devType in case
+// we have a franken-device which does more than one task (eg. a video card that
+// can also handle...networking, I guess?)
+gchar *osinfoGetDeviceDriver(OsinfoDevice *self, gchar *devType, OsinfoOs *os, OsinfoHypervisor *hv, GError **err);
 
-         If the operation succeeds, then after the user is done querying the
-         library for information, he must close the library and dispose of
-         the handle with osi_dispose_lib(lib).
+_________________________________________________
 
-         If the operation fails, the user must still dispose of the library
-         handle using osi_dispose_lib(lib).
+Operating Systems: All methods in OsinfoEntity, plus
 
-int osi_close_lib(osi_lib_t lib)
-         Dispose of the library handle, possibly closing the library and
-         cleaning up resources if the library was initialized.
+// Get me the OS that 'clones' this one, for example
+OsinfoOsList *osinfoGetRelatedOs(OsinfoOs *self, osinfoRelationship relshp, GError **err);
 
-         Returns 0 on success, and an errno style error code otherwise.
+// Get me the best audio device for this OS on this hypervisor that isn't made by Realtek
+OsinfoDevice *osinfoGetPreferredDeviceForOs(OsinfoOs *self, OsinfoHypervisor *hv, gchar *devType, OsinfoFilter *filter, GError **err);
 
-int osi_is_error(<osi_type> t)
-         Returns 0 if the given osi object is valid, and 1 if it is not.
+// Get me all audio devices for this OS on this hypervisor that isn't made by Realtek, sorted by how 'preferable' they are
+OsinfoDeviceList *osinfoGetDevicesForOs(OsinfoOs *self, OsinfoHypervisor *hv, gchar *devType, OsinfoFilter *filter, GError **err);
 
-int osi_is_null(<osi_type> t)
-         Returns 0 if the given osi object is the osi_null_object singleton,
-         and 1 if it is not.
-
-int osi_cleanup_handle(osi_generic_t t)
-         Cleans up the given handle to an OSI type.
-_______________________________________
-
-Setting the Hypervisor
-_______________________________________
-
-char** osi_get_all_hypervisor_ids(osi_lib_t lib, int* num, int* err)
-         Returns an array of all hypervisor identifiers. If num == 0, the
-         returned result need not be freed. This would not be an error condition;
-         instead, it would signify that the library does not know of any
-         hypervisor specific information. If an error occurs, err is set to an
-         errno style error, else err is set to 0.
-
-osi_hypervisor_t osi_get_hypervisor_by_id(osi_lib_t lib, char* hypervisor_id)
-         Returns a handle to the hypervisor with the given id, or the 'default'
-         hypervisor that supports all devices if a NULL id is specified.
-
-         The return value must be checked with osi_is_error(handle).
-
-char* osi_get_hv_id(osi_hypervisor_t hv, int* err)
-         Returns a string representation of the hypervisor ID. Must be freed
-         when done with. If an error occurs, err is set to an errno style error,
-         else err is set to 0.
-
-int osi_set_lib_hypervisor(osi_lib_t lib, char* hypervisor_id)
-         Set the hypervisor before initializing the library. After the
-         library handle is initialized, the hypervisor is fixed. If the
-         given hypervisor_id is NULL, then we use the 'default' hypervisor
-         that supports all devices.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-osi_hypervisor_t osi_get_lib_hypervisor(osi_lib_t lib)
-         Returns a handle to the currently set hypervisor. If no hypervisor
-         is set, returns a handle to the 'generic' hypervisor that supports
-         all devices. If we get the hypervisor for the library before the
-         library is initialized, and then change the hypervisor for the library,
-         then the object returned from the previous call continues functioning
-         as a handle to the previously set hypervisor.
-
-         The return value must be checked with osi_is_error(handle).
-
-_______________________________________
-
-Manipulating a given hypervisor
-_______________________________________
-
-char** osi_get_hv_device_types(osi_hypervisor_t hv, int* num, int* err)
-         Returns an array containing the name of all device types defined
-         for this hypervisor. The length of the array is stored in num. Each char*
-         in the array, and the array itself, must be freed when finished with. 
-         If num == 0, the return value is uninitialized and must not be freed. 
-         If an error occured, err is set to an errno style error value, else err
-         is set to 0.
-
-char** osi_get_hv_all_property_keys(osi_hypervisor_t hv, int* num, int* err);
-         Returns an array containing the names of all properties defined for
-         this hypervisor. The length of the array is stored in num. Each char*
-         in the array, and the array itself, must be freed when finished with. 
-         If num == 0, the return value is uninitialized and must not be freed. 
-         If an error occured, err is set to an errno style error value, else err
-         is set to 0.
-
-char** osi_get_hv_property_all_values(osi_hypervisor_t hv, char* propname, int* num, int* err)
-         Returns all values for a given property as an array of char*. Each
-         char* in the array, and the array itself, must be freed when finished.
-         The number of returned results is stored in num. If num == 0 when the
-         method returns, the returned array is not initialized and must not be
-         freed. If an error occured, err is set to an errno style error value,
-         else err is set to 0.
-
-char* osi_get_hv_property_first_value(osi_hypervisor_t hv, char* propname, int* err);
-         Returns the value for a given property, for this hypervisor.
-         In the case where a property has multiple values, return the first.
-         This is considered to be the preferred value compared to all others.
-
-         Returns a dynamically allocated char*, or NULL if there is no value.
-         The user must free the char* when he is finished with it. If an error
-         occured, err is set to an errno style error value, else err is set to 0.
-
-_______________________________________
-
-Filtering Operating Systems and Devices
-_______________________________________
-
-osi_filter_t osi_get_filter(osi_lib_t lib);
-         Returns a filter object that we can use to filter operating systems.
-         Must be checked with osi_is_error(handle). Must be freed using
-         osi_free_filter(filter) when user is done using it.
-
-int osi_free_filter(osi_filter_t filter)
-         Frees a filter acquired with osi_get_filter(lib). Returns 0 on success,
-         or an errno style error code otherwise.
-
-int osi_add_filter_constraint(osi_filter_t filter, char* propname, char* propval)
-         Adds a constraint to a filter. Resulting filter will only match os
-         objects with the given property existing, and having the corresponding
-         value equal to the given value. Both propname and propval must be
-         pointers to valid C strings of non-zero lengths.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-int osi_add_relation_constraint(osi_filter_t filter, enum_t relationship, osi_os_t os);
-         Adds a relationship constraint to the filter. The resulting filter
-         will only accept operating systems that have the given relationship
-         with the given operating system. If the filter is used on devices,
-         any and all relationship constraints are ignored.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-int osi_clear_filter_constraint(osi_filter_t filter, char* propname)
-         Clears the given constraint on the filter.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-int osi_clear_relation_constraint(osi_filter_t filter, enum_t relationship)
-         Clears the given relationship constraint on the filter.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-int osi_clear_all_constraints(osi_filter_t filter)
-         Clears all constraints on the filter.
-
-         Returns 0 on success, or an errno style error code otherwise.
-
-char** osi_get_filter_constraint_keys(osi_filter_t filter, int* len, int* err)
-         Returns an array of property names that the filter is using as
-         constraints. After usage, the every string in the array and the array
-         itself must be freed. If len is 0, the return value is uninitialized
-         and need not be freed. If an error occurs, err is set to an errno style
-         error code. If not, err is set to 0.
-
-char* osi_get_filter_constraint_value(osi_filter_t filter, char* propname, int* err)
-         Returns the constrained value for the given property, for this filter.
-         Must be freed after use. If no value is set, returns NULL. If an error
-         occurs, err is set to an errno style error code. If not, err is set to 0.
-
-osi_os_t osi_get_relationship_constraint_value(osi_filter_t filter, enum_t relationship)
-         Returns a handle to the os for the given relationship property. If the
-         given relationship constraint is unset, the osi_null_object is returned.
-
-         Returned object must be checked by a call to osi_is_error.
-
-_______________________________________
-
-Getting Devices
-_______________________________________
+_________________________________________________
 
-osi_device_list_t osi_hypervisor_devices(osi_hypervisor_t hv, char* section, osi_filter_t filter)
-         Returns a list of devices supported by the hypervisor, in the
-         given section. The list returned by this method must be checked 
-         against osi_is_error(handle). The given filter determines what criteria
-         to match. The singleton osi_null_object can be used as a filter with no
-         constraints.
+All lists will have the following methods:
 
-         After finishing with the list, the user must free the list with
-         osi_put_devices_list(devices).
-
-osi_device_list_t osi_distro_devices(osi_os_t os, char* section, osi_filter_t filter)
-         Returns a list of devices supported by the os, given the currently
-         set hypervisor. The list returned by this method must be checked against
-         osi_is_error(handle). The given filter determines what criteria to match.
-         The singleton osi_null_object can be used as a filter with no constraints.
-
-         After finishing with the list, the user must free the list with
-         osi_put_devices_list(devices).
-
-int osi_put_devices_list(osi_device_list_t devices)
-         Frees the given device list. Returns 0 on success or an errno style
-         error otherwise.
-
-int osi_devices_list_length(osi_device_list_t devices, int* err)
-         Returns the length of a given device list. If there is an error, sets
-         err to an errno style error code. If no error, err is set to 0.
-
-osi_device_t osi_get_device_by_index(osi_device_list_t devices, int index)
-         Returns a handle to a device at a given index in a device list.
-
-osi_device_t osi_get_preferred_device(osi_os_t os, 
-                                      char* section, 
-                                      osi_filter_t filter)
-         Returns a handle to the preferred device matching the given property
-         and value, within the given section.
-
-_______________________________________
-
-Manipulating Devices
-_______________________________________
-
-char* osi_device_id(osi_device_t device, int* err)
-         Returns the device id for this device. If an error occured, err is set
-         to an errno style error code, else err is set to 0.
-
-osi_device_t osi_get_device_by_id(char* device_id)
-         Returns a handle to a device specified by the given opaque id.
-
-char** osi_get_all_property_keys(osi_device_t device, int* num, int* err)
-         Returns all properties for a given device. The length of the array is
-         stored in num. Must be freed when finished with use. If num == 0, the
-         the return value is valid and need not be freed. If an error occured,
-         err is set to an errno style error code, else err is set to 0.
-
-char** osi_get_device_property_all_values(osi_device_t device, char* property, int* num, int* err)
-         Returns all values for a given property, for the given device. The 
-         length of the array is stored in num. Must be freed when finished
-         with use. If num == 0, the return value is invalid and need not be 
-         freed. If an error occured, err is set to an errno style error code,
-         else err is set to 0.
-
-char* osi_get_device_property_value(osi_device_t device, char* property, int* err)
-         Get the first value for the given property, for the given device.
-         Must be freed when finished with use. If an error occured, err is set
-         to an errno style error code, else err is set to 0.
-
-char* osi_get_device_driver(osi_device_t device, osi_os_t os, int* err)
-         For a given device, os and hypervisor combination, return the
-         appropriate device driver, or NULL if there isn't any. Must be freed
-         when finished with use. If an error occured, err is set to an errno
-         style error code, else err is set to 0.
-
-_______________________________________
-
-Getting Operating System objects
-_______________________________________
-
-osi_os_list_t osi_get_os_list(osi_lib_t lib, osi_os_filter_t filter)
-         Return a list of all operating systems that satisfy the given filter.
-         The returned value must be checked with osi_is_error(handle). When
-         finished with use, we must use osi_free_os_list(list).
-
-int osi_free_os_list(osi_os_list_t list)
-         Frees the given os list. Returns 0 on success or an errno style error
-         code otherwise.
-
-int osi_distro_list_length(osi_os_list_t list)
-         Returns the length of the given os list.
-
-osi_os_t osi_get_os_by_index(osi_os_list_t list, int index)
-         Returns a handle to an os object from a list given the index.
-
-
-_______________________________________
-
-Manipulating Operating System objects
-_______________________________________
-
-char* osi_get_os_id(osi_os_t os, int* err)
-         Returns the id for the given os. If an error occurs, err is set to an
-         errno style error code, else err is set to 0. 
-
-osi_os_t osi_get_os_by_id(osi_lib_t lib, char* id)
-         Returns a handle to an os object given the id.
-
-char** osi_get_all_property_keys(osi_os_t os, int* num, int* err);
-         Returns all properties for an os in an array. The length of the
-         array is stored in num. Must be freed when done with use. If num == 0,
-         the return value is invalid and must not be freed. If an error occured,
-         err is set to an errno style error code, else err is set to 0.
-
-char** osi_get_property_all_values(osi_os_t os, char* propname, int* num, int* err)
-         Returns all values for a given property in an array. The length of the
-         array is stored in num. Must be freed when done with use. If num == 0,
-         the return value is invalid and must not be freed. If an error occured,
-         err is set to an errno style error code, else err is set to 0.
-
-char* osi_get_property_first_value(osi_os_t os, char* propname, int* err)
-         Returns the value for the os of a given property. If there is more
-         than one value, the first is considered to be the 'preferred' value.
-         The result must be freed when finished with use. If an error occured,
-         err is set to an errno style error code, else err is set to 0.
-
-char** osi_unique_property_values(osi_lib_t lib, char* propname, int* num, int* err)
-         Returns all unique values for a given property, across all operating
-         systems, in an array. The length of the array is stored in num. Must
-         be freed when done with use. If num == 0, the return value is invalid
-         and must not be freed. If an error occured, err is set to an errno style
-         error code, else err is set to 0.
-
-osi_os_t osi_get_related_os(osi_os_t os, enum_t relationship);
-         Returns the related operating system of the given relationship.
-         If there is no operating system with related in this fashion, returns
-         the osi_null_object.
-
-os_os_list_t osi_unique_relationship_values(osi_lib_t lib, enum_t relationship)
-         Returns all operating systems that participate in the given
-         relationship at least once.
+ie. Analogous methods for OsinfoOsList, OsinfoHypervisorList, OsinfoDeviceList
+
+// Free and length defined for List, subclasses do not override
+void osinfoFreeList(OsinfoList *self);
+gint osinfoListLength(OsinfoList *self);
+
+OsinfoList *osinfoListFilter(OsinfoList *self, OsinfoFilter *filter, GError **err);
+OsinfoEntity *osinfoGetEntityAtIndex(OsinfoList *self, gint idx);
+OsinfoList *osinfoListIntersect(OsinfoList *self, OsinfoList *otherList, GError **err);
+OsinfoList *osinfoListUnion(OsinfoList *self, OsinfoList *otherList, GError **err);
+
+_________________________________________________
+
+Filter:
+
+void osinfoFreeFilter(OsinfoFilter *self);
+
+gint osinfoAddFilterContstraint(OsinfoFilter *self, gchar *propName, gchar *propVal, GError **err);
+
+// Only applicable to OSes, ignored by other types of objects
+gint osinfoAddRelationConstraint(OsinfoFilter *self, osinfoRelationship relshp, OsinfoOs *os, GError **err);
+
+void osinfoClearFilterConstraint(OsinfoFilter *self, gchar *propName);
+void osinfoClearRelationshipConstraint(OsinfoFilter *self, osinfoRelationship relshp);
+void osinfoClearAllFilterConstraints(OsinfoFilter *self);
+
+GPtrArray *osinfoGetFilterConstraintKeys(OsinfoFilter *self, GError **err);
+gchar *osinfoGetFilterConstraintValue(OsinfoFilter *self, GError **err);
+OsinfoOsList *osinfoGetRelationshipConstraintValue(OsinfoFilter *self, osinfoRelationship relshp, GError **err);
