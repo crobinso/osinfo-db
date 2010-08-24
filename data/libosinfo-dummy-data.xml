@@ -45,26 +45,22 @@
   <updates-version>0.10.0</updates-version>
   <updates-version>0.9.0</updates-version>
   <updates-version>0.8.0</updates-version>
-  <section type="audio">
-      <device id="http://pci-ids.ucw.cz/read/PC/1002/4382" />
-      <device id="http://pci-ids.ucw.cz/read/PC/1274/5000" />
-      <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
-  </section>
-  <section type="network">
-      <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
-  </section>
+  <devices>
+    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382" />
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000" />
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
+    <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
+  </devices>
 </hypervisor>
 
 <hypervisor id="http://bits.xensource.com/oss-xen/release/3.4.1">
   <name>Xen</name>
   <version>3.4.1</version>
-  <section type="audio">
+  <devices>
       <device id="http://pci-ids.ucw.cz/read/PC/1002/4382" />
       <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
-  </section>
-  <section type="network">
       <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
-  </section>
+  </devices>
 </hypervisor>
 
 <os id="http://fedoraproject.org/fedora-11">
