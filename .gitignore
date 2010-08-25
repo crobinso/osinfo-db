@@ -19,3 +19,4 @@ m4
 stamp-h1
 test/test-skeleton
 test/test-skeleton.sh
+osinfo/libosinfo.pc
