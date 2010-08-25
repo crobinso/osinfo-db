@@ -1,0 +1,68 @@
+%define __strip %{_mingw32_strip}
+%define __objdump %{_mingw32_objdump}
+%define _use_internal_dependency_generator 0
+%define __find_requires %{_mingw32_findrequires}
+%define __find_provides %{_mingw32_findprovides}
+
+Name: mingw32-libosinfo
+Version: @VERSION@
+Release: 1%{?dist}%{?extra_release}
+Summary: MinGW Windows port of a library for managing OS information for virtualization
+License: LGPLv2+
+Group: Development/Libraries
+Source: libosinfo-%{version}.tar.gz
+URL: https://fedorahosted.org/libosinfo/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+BuildArch: noarch
+
+BuildRequires: mingw32-filesystem >= 40
+BuildRequires: mingw32-gcc
+BuildRequires: mingw32-binutils
+
+BuildRequires: mingw32-glib2
+BuildRequires: mingw32-libxml2
+BuildRequires: pkgconfig
+
+Requires: pkgconfig
+
+%description
+libosinfo is a library that allows virtualization provisioning tools to
+determine the optimal device settings for a hypervisor/operating system
+combination.
+
+%prep
+%setup -q -n libosinfo-%{version}
+
+%build
+%{_mingw32_configure} --enable-introspection=no
+make
+
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make DESTDIR=$RPM_BUILD_ROOT install
+
+# Remove static libraries but DON'T remove *.dll.a files.
+rm -f $RPM_BUILD_ROOT%{_mingw32_libdir}/libosinfo-1.0.a
+
+#find_lang libosinfo
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+
+%files
+%defattr(-,root,root)
+%{_mingw32_bindir}/libosinfo-1.0-0.dll
+%{_mingw32_libdir}/libosinfo-1.0.dll.a
+%{_mingw32_libdir}/libosinfo-1.0.la
+%{_mingw32_libdir}/pkgconfig/libosinfo-1.0.pc
+%dir %{_mingw32_includedir}/libosinfo-1.0/
+%dir %{_mingw32_includedir}/libosinfo-1.0/osinfo
+%{_mingw32_includedir}/libosinfo-1.0/osinfo/*.h
+
+%changelog
+* Wed Aug 25 2010 Daniel P. Berrange <berrange@redhat.com> - 0.2.0-1
+- Initial package
+
