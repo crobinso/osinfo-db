@@ -54,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
+%doc AUTHORS ChangeLog COPYING.LIB NEWS README
 %{_mingw32_bindir}/libosinfo-1.0-0.dll
 %{_mingw32_libdir}/libosinfo-1.0.dll.a
 %{_mingw32_libdir}/libosinfo-1.0.la
