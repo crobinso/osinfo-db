@@ -22,3 +22,14 @@ test/test-skeleton.sh
 osinfo/libosinfo.pc
 osinfo/Libosinfo-1.0.gir
 osinfo/Libosinfo-1.0.typelib
+*.gcno
+*.gcda
+coverage/
+*.spec
+*.pc
+test/test-device
+test/test-os
+test/test-entity
+test/test-hypervisor
+test/test-list
+build/
