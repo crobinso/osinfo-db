@@ -35,7 +35,7 @@ combination.
 %setup -q -n libosinfo-%{version}
 
 %build
-%{_mingw32_configure} --enable-introspection=no
+%{_mingw32_configure} --enable-introspection=no --enable-tests=no
 make
 
 

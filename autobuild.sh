@@ -14,6 +14,7 @@ cd build
     --enable-compile-warnings=error
 
 make
+make check
 make install
 
 rm -f *.tar.gz
@@ -42,6 +43,7 @@ if [ -x /usr/bin/i686-pc-mingw32-gcc ]; then
     --build=$(uname -m)-pc-linux \
     --host=i686-pc-mingw32 \
     --enable-introspection=no \
+    --enable-tests=no \
     --prefix="$AUTOBUILD_INSTALL_ROOT/i686-pc-mingw32/sys-root/mingw" \
 
   make
