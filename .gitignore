@@ -32,4 +32,11 @@ test/test-os
 test/test-entity
 test/test-hypervisor
 test/test-list
+test/test-db
+test/test-devicelist
+test/test-filter
+test/test-hypervisorlist
+test/test-loader
+test/test-osfilter
+test/test-oslist
 build/
