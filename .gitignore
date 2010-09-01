@@ -41,11 +41,3 @@ test/test-osfilter
 test/test-oslist
 build/
 gtk-doc.make
-docs/reference/tmpl
-docs/reference/html
-docs/reference/sgml
-docs/reference/.args
-docs/reference/.hierarchy
-docs/reference/.interfaces
-docs/reference/.prerequisites
-docs/reference/.signals
