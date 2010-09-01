@@ -45,7 +45,9 @@ make DESTDIR=$RPM_BUILD_ROOT install
 
 # Remove static libraries but DON'T remove *.dll.a files.
 rm -f $RPM_BUILD_ROOT%{_mingw32_libdir}/libosinfo-1.0.a
-
+# Kill gtk-doc stuff that just duplicates content from
+# the native package
+rm -rf $RPM_BUILD_ROOT%{_mingw32_datadir}
 #find_lang libosinfo
 
 %clean
