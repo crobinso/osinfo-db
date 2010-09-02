@@ -72,17 +72,29 @@
 
   <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
       <devices>
-          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">es1370</device>
-          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">ac97</device>
-          <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541">es1371</device>
-          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
+	    <driver>es1370</driver>
+	  </device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
+	    <driver>ac97</driver>
+	  </device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541">
+	    <driver>es1371</driver>
+	  </device>
+          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">
+	    <driver>3com</driver>
+	  </device>
       </devices>
   </hypervisor>
 
   <!-- Device support for unspecified hypervisor -->
   <devices>
-    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
-    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97+</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
+      <driver>es1391</driver>
+    </device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
+      <driver>ac97+</driver>
+    </device>
   </devices>
 </os>
 
@@ -93,16 +105,26 @@
 
   <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
       <devices>
-          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">ac97</device>
-          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ES1370</device>
-          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">3com</device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
+	    <driver>ac97</driver>
+	  </device>
+          <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
+	    <driver>ES1370</driver>
+	  </device>
+          <device id="http://pci-ids.ucw.cz/read/PC/a727/0013">
+	    <driver>3com</driver>
+	  </device>
       </devices>
   </hypervisor>
 
   <!-- Device support for unspecified hypervisor -->
   <devices>
-    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">ac97</device>
-    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">es1391</device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
+      <driver>ac97</driver>
+    </device>
+    <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
+      <driver>es1391</driver>
+    </device>
   </devices>
 </os>
 
