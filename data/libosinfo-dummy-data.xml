@@ -39,7 +39,7 @@
   <name>3CRPAG175 Wireless PC Card</name>
 </device>
 
-<hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
+<platform id="http://qemu.org/qemu-kvm-0.11.0">
   <name>KVM</name>
   <version>0.11.0</version>
   <updates-version>0.10.0</updates-version>
@@ -51,9 +51,9 @@
     <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
     <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
   </devices>
-</hypervisor>
+</platform>
 
-<hypervisor id="http://bits.xensource.com/oss-xen/release/3.4.1">
+<platform id="http://bits.xensource.com/oss-xen/release/3.4.1">
   <name>Xen</name>
   <version>3.4.1</version>
   <devices>
@@ -61,7 +61,7 @@
       <device id="http://pci-ids.ucw.cz/read/PC/1274/1371/80864541" />
       <device id="http://pci-ids.ucw.cz/read/PC/a727/0013" />
   </devices>
-</hypervisor>
+</platform>
 
 <os id="http://fedoraproject.org/fedora-11">
   <upgrades id="http://fedoraproject.org/fedora-10" />
@@ -70,7 +70,7 @@
   <vendor>Fedora Project</vendor>
   <vendor>Red Hat</vendor>
 
-  <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
+  <platform id="http://qemu.org/qemu-kvm-0.11.0">
       <devices>
           <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
 	    <driver>es1370</driver>
@@ -85,9 +85,9 @@
 	    <driver>3com</driver>
 	  </device>
       </devices>
-  </hypervisor>
+  </platform>
 
-  <!-- Device support for unspecified hypervisor -->
+  <!-- Device support for unspecified platform -->
   <devices>
     <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
       <driver>es1391</driver>
@@ -103,7 +103,7 @@
   <name>Fedora 10</name>
   <vendor>Fedora Project</vendor>
 
-  <hypervisor id="http://qemu.org/qemu-kvm-0.11.0">
+  <platform id="http://qemu.org/qemu-kvm-0.11.0">
       <devices>
           <device id="http://pci-ids.ucw.cz/read/PC/1002/4382">
 	    <driver>ac97</driver>
@@ -115,9 +115,9 @@
 	    <driver>3com</driver>
 	  </device>
       </devices>
-  </hypervisor>
+  </platform>
 
-  <!-- Device support for unspecified hypervisor -->
+  <!-- Device support for unspecified platform -->
   <devices>
     <device id="http://pci-ids.ucw.cz/read/PC/1274/5000">
       <driver>ac97</driver>
