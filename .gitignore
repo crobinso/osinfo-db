@@ -37,7 +37,10 @@ test/test-devicelist
 test/test-filter
 test/test-hypervisorlist
 test/test-loader
-test/test-osfilter
+test/test-productfilter
 test/test-oslist
+test/test-product
+test/test-platform
+test/test-platformlist
 build/
 gtk-doc.make
