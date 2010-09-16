@@ -70,6 +70,9 @@
   <name>Fedora 11</name>
   <version>11</version>
   <vendor>Fedora Project</vendor>
+  <x-fruit>apples</x-fruit>
+  <x-animal>marmot</x-animal>
+  <x-animal>aardvark</x-animal>
 
   <!-- Device support for unspecified platform -->
   <devices>
