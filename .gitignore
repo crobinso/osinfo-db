@@ -44,3 +44,5 @@ test/test-platform
 test/test-platformlist
 build/
 gtk-doc.make
+data/pci.ids
+data/usb.ids
