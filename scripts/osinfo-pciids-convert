@@ -1,0 +1,88 @@
+#!/usr/bin/perl -w
+
+use strict;
+use warnings;
+
+my $vendor;
+my $vendor_id;
+my $device;
+my $device_id;
+my $subsystem;
+my $subvendor_id;
+my $subdevice_id;
+
+use encoding 'utf8', STDIN => 'iso88591';
+
+print "<libosinfo version='1.0'>\n";
+while (<>) {
+
+    next if /^#/;
+    next if /^\s*$/;
+
+    if (/^([0-9a-f]{4})\s+(.*?)\s*$/) {
+	$vendor = $2;
+	$vendor_id = $1;
+    } elsif (/^\t([0-9a-f]{4})\s+(.*?)\s*$/) {
+	$device = $2;
+	$device_id = $1;
+
+	&one_device($vendor, $vendor_id, $device, $device_id);
+    } elsif (/^\t\t([0-9a-f]{4})\s+([0-9a-f]{4})\s+(.*?)\s*$/) {
+	$subsystem = $3;
+	$subvendor_id = $1;
+	$subdevice_id = $2;
+
+	&one_device($vendor, $vendor_id, $device, $device_id,
+		    $subsystem, $subvendor_id, $subdevice_id);
+    } else {
+	#warn $_;
+    }
+}
+print "</libosinfo>\n";
+
+sub escape {
+    my $data = shift;
+
+    $data =~ s/&/&amp;/g;
+    $data =~ s/</&lt;/g;
+    $data =~ s/>/&gt;/g;
+
+    return $data;
+}
+
+sub one_device {
+    my $vendor = shift;
+    my $vendor_id = shift;
+    my $device = shift;
+    my $device_id = shift;
+    my $subsystem = shift;
+    my $subvendor_id = shift;
+    my $subdevice_id = shift;
+
+    $vendor = &escape($vendor);
+    $device = &escape($device);
+    $subsystem = &escape($subsystem) if defined $subsystem;
+
+    my $id = "http://pciids.sourceforge.net/v2.2/pci.ids";
+    $id .= "/$vendor_id/$device_id";
+    $id .= "/$subvendor_id/$subdevice_id" if $subsystem;
+
+    print <<EOF;
+  <device id="$id">
+    <bus-type>pci</bus-type>
+    <vendor>$vendor</vendor>
+    <vendor-id>$vendor_id</vendor-id>
+    <device>$device</device>
+    <device-id>$device_id</device-id>
+EOF
+    if ($subsystem) {
+	print <<EOF;
+    <subsystem>$subsystem</subsystem>
+    <subvendor-id>$subvendor_id</subvendor-id>
+    <subdevice-id>$subdevice_id</subdevice-id>
+EOF
+    }
+    print <<EOF;
+  </device>
+EOF
+}
