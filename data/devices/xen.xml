@@ -1,0 +1,28 @@
+<!-- Xen 3.x / 4.x paravirt devices -->
+<libosinfo version="0.0.1">
+
+  <device id="http://xen.org/devices/block">
+    <class>block</class>
+    <bus-type>xen</bus-type>
+    <name>xen-block</name>
+  </device>
+
+  <device id="http://xen.org/devices/net">
+    <class>net</class>
+    <bus-type>xen</bus-type>
+    <name>xen-net</name>
+  </device>
+
+  <device id="http://xen.org/devices/console">
+    <class>console</class>
+    <bus-type>xen</bus-type>
+    <name>xen-console</name>
+  </device>
+
+  <device id="http://xen.org/devices/framebuffer">
+    <class>video</class>
+    <bus-type>xen</bus-type>
+    <name>xen-pvfb</name>
+  </device>
+
+</libosinfo>

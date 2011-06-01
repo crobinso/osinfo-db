@@ -47,7 +47,7 @@ make DESTDIR=$RPM_BUILD_ROOT install
 rm -f $RPM_BUILD_ROOT%{_mingw32_libdir}/libosinfo-1.0.a
 # Kill gtk-doc stuff that just duplicates content from
 # the native package
-rm -rf $RPM_BUILD_ROOT%{_mingw32_datadir}
+rm -rf $RPM_BUILD_ROOT%{_mingw32_datadir}/gtk-doc
 #find_lang libosinfo
 
 %clean
@@ -57,6 +57,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog COPYING.LIB NEWS README
+%{_mingw32_bindir}/osinfo-pciids-convert
+%{_mingw32_bindir}/osinfo-usbids-convert
 %{_mingw32_bindir}/libosinfo-1.0-0.dll
 %{_mingw32_libdir}/libosinfo-1.0.dll.a
 %{_mingw32_libdir}/libosinfo-1.0.la
@@ -64,6 +66,12 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_mingw32_includedir}/libosinfo-1.0/
 %dir %{_mingw32_includedir}/libosinfo-1.0/osinfo
 %{_mingw32_includedir}/libosinfo-1.0/osinfo/*.h
+%{_mingw32_datadir}/libosinfo/data/usb.ids
+%{_mingw32_datadir}/libosinfo/data/pci.ids
+%{_mingw32_datadir}/libosinfo/data/devices
+%{_mingw32_datadir}/libosinfo/data/oses
+%{_mingw32_datadir}/libosinfo/data/hypervisors
+
 
 %changelog
 * Wed Aug 25 2010 Daniel P. Berrange <berrange@redhat.com> - 0.2.0-1

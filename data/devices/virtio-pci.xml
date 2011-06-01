@@ -1,0 +1,54 @@
+<!-- VirtIO PCI devices -->
+<libosinfo version="0.0.1">
+
+  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+    <name>virtio-net</name>
+    <bus-type>pci</bus-type>
+    <class>net</class>
+    <vendor>Red Hat, Inc</vendor>
+    <vendor-id>1af4</vendor-id>
+    <device>Virtio network device</device>
+    <device-id>1000</device-id>
+  </device>
+
+  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    <name>virtio-block</name>
+    <bus-type>pci</bus-type>
+    <class>block</class>
+    <vendor>Red Hat, Inc</vendor>
+    <vendor-id>1af4</vendor-id>
+    <device>Virtio block device</device>
+    <device-id>1001</device-id>
+  </device>
+
+  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002">
+    <name>virtio-balloon</name>
+    <bus-type>pci</bus-type>
+    <class>memory.balloon</class>
+    <vendor>Red Hat, Inc</vendor>
+    <vendor-id>1af4</vendor-id>
+    <device>Virtio memory balloon</device>
+    <device-id>1002</device-id>
+  </device>
+
+  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003">
+    <name>virtio-console</name>
+    <bus-type>pci</bus-type>
+    <class>console</class>
+    <vendor>Red Hat, Inc</vendor>
+    <vendor-id>1af4</vendor-id>
+    <device>Virtio console</device>
+    <device-id>1003</device-id>
+  </device>
+
+  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1009">
+    <name>virtio-9p</name>
+    <bus-type>pci</bus-type>
+    <class>filesystem</class>
+    <vendor>Red Hat, Inc</vendor>
+    <vendor-id>1af4</vendor-id>
+    <device>Virtio 9p</device>
+    <device-id>1009</device-id>
+  </device>
+
+</libosinfo>

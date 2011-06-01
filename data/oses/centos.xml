@@ -1,0 +1,20 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://centos.org/centos/6.0">
+    <short-id>centos-6.0</short-id>
+    <name>CentOS 6.0</name>
+    <version>6.0</version>
+    <vendor>CentOS</vendor>
+    <clones id="http://redhat.com/rhel/6.0"/>
+  </os>
+
+  <os id="http://redhat.com/rhel-6.1">
+    <short-id>centos-6.1</short-id>
+    <name>CentOS 6.1</name>
+    <version>6.1</version>
+    <vendor>CentOS</vendor>
+    <upgrades id="http://centos.org/centos/6.0"/>
+    <clones id="http://redhat.com/rhel/6.0"/>
+  </os>
+
+</libosinfo>

@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://fedoraproject.org/fedora/13">
+    <short-id>fedora-13</short-id>
+    <name>Fedora 13</name>
+    <version>13</version>
+    <vendor>Fedora Project</vendor>
+
+    <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/x86_64/os/</url>
+    </media>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/14">
+    <short-id>fedora-14</short-id>
+    <name>Fedora 14</name>
+    <version>14</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/13"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/15">
+    <short-id>fedora-15</short-id>
+    <name>Fedora 15</name>
+    <version>15</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/14"/>
+  </os>
+
+
+</libosinfo>

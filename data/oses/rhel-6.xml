@@ -1,0 +1,18 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://redhat.com/rhel/6.0">
+    <short-id>rhel-6.0</short-id>
+    <name>Red Hat Enterprise Linux 6.0</name>
+    <version>6.0</version>
+    <vendor>Red Hat, Inc</vendor>
+  </os>
+
+  <os id="http://redhat.com/rhel/6.1">
+    <short-id>rhel-6.1</short-id>
+    <name>Red Hat Enterprise Linux 6.1</name>
+    <version>6.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <upgrades id="http://redhat.com/rhel/6.0"/>
+  </os>
+
+</libosinfo>
