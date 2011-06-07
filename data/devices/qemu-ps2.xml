@@ -1,0 +1,24 @@
+<!-- PS2 devices for QEMU/KVM(s) -->
+<libosinfo version="0.0.1">
+
+  <device id="http://qemu.org/ps2/keyboard">
+    <name>keyboard</name>
+    <bus-type>ps2</bus-type>
+    <class>input</class>
+    <vendor>Qemu/KVM</vendor>
+    <vendor-id>qemu-kvm</vendor-id>
+    <device>Keyboard</device>
+    <device-id>keyboard</device-id>
+  </device>
+
+  <device id="http://qemu.org/ps2/mouse">
+    <name>mouse</name>
+    <bus-type>ps2</bus-type>
+    <class>input</class>
+    <vendor>Qemu/KVM</vendor>
+    <vendor-id>qemu-kvm</vendor-id>
+    <device>Mouse</device>
+    <device-id>mouse</device-id>
+  </device>
+
+</libosinfo>
