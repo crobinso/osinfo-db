@@ -1,5 +1,35 @@
 <libosinfo version="0.0.1">
 
+  <os id="http://redhat.com/rhel/4.8">
+    <short-id>rhel-4.8</short-id>
+    <name>Red Hat Enterprise Linux 4.8</name>
+    <version>4.8</version>
+    <vendor>Red Hat, Inc</vendor>
+  </os>
+
+  <os id="http://redhat.com/rhel/4.9">
+    <short-id>rhel-4.9</short-id>
+    <name>Red Hat Enterprise Linux 4.9</name>
+    <version>4.9</version>
+    <vendor>Red Hat, Inc</vendor>
+    <upgrades id="http://redhat.com/rhel/4.8"/>
+  </os>
+
+  <os id="http://redhat.com/rhel/5.6">
+    <short-id>rhel-5.6</short-id>
+    <name>Red Hat Enterprise Linux 5.6</name>
+    <version>5.6</version>
+    <vendor>Red Hat, Inc</vendor>
+  </os>
+
+  <os id="http://redhat.com/rhel/5.7">
+    <short-id>rhel-5.7</short-id>
+    <name>Red Hat Enterprise Linux 5.7</name>
+    <version>5.7</version>
+    <vendor>Red Hat, Inc</vendor>
+    <upgrades id="http://redhat.com/rhel/5.6"/>
+  </os>
+
   <os id="http://redhat.com/rhel/6.0">
     <short-id>rhel-6.0</short-id>
     <name>Red Hat Enterprise Linux 6.0</name>
