@@ -20,6 +20,13 @@
     <version>14</version>
     <vendor>Fedora Project</vendor>
     <upgrades id="http://fedoraproject.org/fedora/13"/>
+
+    <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/x86_64/os/</url>
+    </media>
   </os>
 
   <os id="http://fedoraproject.org/fedora/15">
@@ -28,6 +35,13 @@
     <version>15</version>
     <vendor>Fedora Project</vendor>
     <upgrades id="http://fedoraproject.org/fedora/14"/>
+
+    <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/os/</url>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/x86_64/os/</url>
+    </media>
   </os>
 
 
