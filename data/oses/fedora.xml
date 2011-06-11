@@ -1,10 +1,97 @@
 <libosinfo version="0.0.1">
 
+  <os id="http://fedoraproject.org/fedora/5">
+    <short-id>fedora-5</short-id>
+    <name>Fedora 5</name>
+    <version>5</version>
+    <vendor>Fedora Project</vendor>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/6">
+    <short-id>fedora-6</short-id>
+    <name>Fedora 6</name>
+    <version>6</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/5"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/7">
+    <short-id>fedora-7</short-id>
+    <name>Fedora 7</name>
+    <version>7</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/6"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/8">
+    <short-id>fedora-8</short-id>
+    <name>Fedora 8</name>
+    <version>8</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/7"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/9">
+    <short-id>fedora-9</short-id>
+    <name>Fedora 9</name>
+    <version>9</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/8"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <!-- Apparently F9 has selinux errors when installing with virtio:
+           https://bugzilla.redhat.com/show_bug.cgi?id=470386
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+      -->
+    </devices>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/10">
+    <short-id>fedora-10</short-id>
+    <name>Fedora 10</name>
+    <version>10</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/9"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/11">
+    <short-id>fedora-11</short-id>
+    <name>Fedora 11</name>
+    <version>11</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/10"/>
+
+    <devices>
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
+    </devices>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/12">
+    <short-id>fedora-12</short-id>
+    <name>Fedora 12</name>
+    <version>12</version>
+    <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/11"/>
+
+    <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/12/Fedora/i386/os/</url>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/12/Fedora/x86_64/os/</url>
+    </media>
+  </os>
+
   <os id="http://fedoraproject.org/fedora/13">
     <short-id>fedora-13</short-id>
     <name>Fedora 13</name>
     <version>13</version>
     <vendor>Fedora Project</vendor>
+    <upgrades id="http://fedoraproject.org/fedora/12"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
