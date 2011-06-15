@@ -1,0 +1,55 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://kernel.org/linux/24">
+    <short-id>linux24</short-id>
+    <name>Generic 2.4.x kernel</name>
+    <version>2.4</version>
+    <vendor>Linux Kernel Developers</vendor>
+  </os>
+
+  <os id="http://kernel.org/linux/26">
+    <short-id>linux26</short-id>
+    <name>Generic 2.6.x kernel</name>
+    <version>2.6</version>
+    <vendor>Linux Kernel Developers</vendor>
+  </os>
+
+  <os id="http://kernel.org/linux/virtio/26">
+    <short-id>linuxvirtio26</short-id>
+    <name>Generic 2.6.25 or later kernel with virtio</name>
+    <version>2.6</version>
+    <vendor>Linux Kernel Developers</vendor>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+  <!-- Following clones only exists for backwards compatiblity reasons -->
+
+  <os id="http://kernel.org/generic/24">
+    <short-id>generic24</short-id>
+    <name>Generic 2.4.x kernel</name>
+    <version>2.4</version>
+    <vendor>Linux Kernel Developers</vendor>
+    <clones id="http://kernel.org/linux/24"/>
+  </os>
+
+  <os id="http://kernel.org/generic/26">
+    <short-id>generic26</short-id>
+    <name>Generic 2.6.x kernel</name>
+    <version>2.6</version>
+    <vendor>Linux Kernel Developers</vendor>
+    <clones id="http://kernel.org/linux/26"/>
+  </os>
+
+  <os id="http://kernel.org/virtio/26">
+    <short-id>virtio26</short-id>
+    <name>Generic 2.6.25 or later kernel with virtio</name>
+    <version>2.6</version>
+    <vendor>Linux Kernel Developers</vendor>
+    <clones id="http://kernel.org/linux/virtio/26"/>
+  </os>
+
+</libosinfo>
