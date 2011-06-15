@@ -1,0 +1,41 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://www.mandriva.com/linux/2009">
+    <short-id>mandriva2009</short-id>
+    <name>Mandriva Linux 2009</name>
+    <vendor>Mandriva</vendor>
+  </os>
+
+  <os id="http://www.mandriva.com/linux/2010">
+    <short-id>mandriva2010</short-id>
+    <name>Mandriva Linux 2010</name>
+    <vendor>Mandriva</vendor>
+    <upgrades id="http://www.mandriva.com/linux/2009"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+  <os id="http://www.mandriva.com/linux/server/5.0">
+    <short-id>mes5</short-id>
+    <name>Mandriva Enterprise Server 5.0</name>
+    <version>5.0</version>
+    <vendor>Mandriva</vendor>
+  </os>
+
+  <os id="http://www.mandriva.com/linux/server/5.1">
+    <short-id>mes5.1</short-id>
+    <name>Mandriva Enterprise Server 5.1</name>
+    <version>5.1</version>
+    <vendor>Mandriva</vendor>
+    <upgrades id="http://www.mandriva.com/linux/server/5.0"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+</libosinfo>
