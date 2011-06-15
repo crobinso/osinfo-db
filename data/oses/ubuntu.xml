@@ -1,0 +1,74 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://ubuntu.com/hardy">
+    <short-id>ubuntuhardy</short-id>
+    <name>Ubuntu Hardy Heron</name>
+    <version>8.04</version>
+    <vendor>Canonical</vendor>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+    </devices>
+  </os>
+
+  <os id="http://ubuntu.com/intrepid">
+    <short-id>ubuntuintrepid</short-id>
+    <name>Ubuntu Intrepid Ibex</name>
+    <version>8.10</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/hardy"/>
+  </os>
+
+  <os id="http://ubuntu.com/jaunty">
+    <short-id>ubuntujaunty</short-id>
+    <name>Ubuntu Jaunty Jackalope</name>
+    <version>9.04</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/intrepid"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+  <os id="http://ubuntu.com/karmic">
+    <short-id>ubuntukarmic</short-id>
+    <name>Ubuntu Karmic Koala</name>
+    <version>9.10</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/jaunty"/>
+  </os>
+
+  <os id="http://ubuntu.com/lucid">
+    <short-id>ubuntulucid</short-id>
+    <name>Ubuntu Lucid Lynx</name>
+    <version>10.04</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/karmic"/>
+  </os>
+
+  <os id="http://ubuntu.com/maverick">
+    <short-id>ubuntumaverick</short-id>
+    <name>Ubuntu Maverick Meerkat</name>
+    <version>10.10</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/lucid"/>
+  </os>
+
+  <os id="http://ubuntu.com/natty">
+    <short-id>ubuntunatty</short-id>
+    <name>Ubuntu Natty Narwhal</name>
+    <version>11.04</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/maverick"/>
+  </os>
+
+  <os id="http://ubuntu.com/oneiric">
+    <short-id>ubuntuoneiric</short-id>
+    <name>Ubuntu Oneiric Ocelot</name>
+    <version>11.10</version>
+    <vendor>Canonical</vendor>
+    <upgrades id="http://ubuntu.com/natty"/>
+  </os>
+
+</libosinfo>
