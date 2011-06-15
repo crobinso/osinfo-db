@@ -1,0 +1,35 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://debian.org/etch">
+    <short-id>debianetch</short-id>
+    <name>Debian Etch</name>
+    <version>4</version>
+    <vendor>Debian Project</vendor>
+  </os>
+
+  <os id="http://debian.org/lenny">
+    <short-id>debianlenny</short-id>
+    <name>Debian Lenny</name>
+    <version>5</version>
+    <vendor>Debian Project</vendor>
+    <upgrades id="http://debian.org/etch"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+    </devices>
+  </os>
+
+  <os id="http://debian.org/squeeze">
+    <short-id>debiansqueeze</short-id>
+    <name>Debian Squeeze</name>
+    <version>6</version>
+    <vendor>Debian Project</vendor>
+    <upgrades id="http://debian.org/lenny"/>
+
+    <devices>
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
+    </devices>
+  </os>
+
+</libosinfo>
