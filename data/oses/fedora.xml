@@ -39,10 +39,10 @@
     <upgrades id="http://fedoraproject.org/fedora/8"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
       <!-- Apparently F9 has selinux errors when installing with virtio:
            https://bugzilla.redhat.com/show_bug.cgi?id=470386
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
       -->
     </devices>
   </os>
@@ -55,7 +55,7 @@
     <upgrades id="http://fedoraproject.org/fedora/9"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
   </os>
 
@@ -67,7 +67,7 @@
     <upgrades id="http://fedoraproject.org/fedora/10"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
     </devices>
   </os>
 

@@ -21,8 +21,8 @@
     <vendor>Linux Kernel Developers</vendor>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
   </os>
 

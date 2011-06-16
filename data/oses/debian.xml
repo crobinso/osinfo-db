@@ -15,8 +15,8 @@
     <upgrades id="http://debian.org/etch"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
   </os>
 
@@ -28,7 +28,7 @@
     <upgrades id="http://debian.org/lenny"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
     </devices>
   </os>
 
