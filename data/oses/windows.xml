@@ -1,0 +1,73 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://microsoft.com/windows">
+    <short-id>windows</short-id>
+    <name>Microsoft Windows</name>
+    <vendor>Microsoft</vendor>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/>
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+    </devices>
+  </os>
+
+  <os id="http://microsoft.com/winxp">
+    <short-id>winxp</short-id>
+    <name>Microsoft Windows XP</name>
+    <version>5.1</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+  </os>
+
+  <os id="http://microsoft.com/winxp64">
+    <short-id>winxp64</short-id>
+    <name>Microsoft Windows XP (x86_64)</name>
+    <version>5.2</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+  </os>
+
+  <os id="http://microsoft.com/win2k">
+    <short-id>win2k</short-id>
+    <name>Microsoft Windows 2000</name>
+    <version>5.0</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+  </os>
+
+  <os id="http://microsoft.com/win2k3">
+    <short-id>win2k3</short-id>
+    <name>Microsoft Windows Server 2003</name>
+    <version>5.2</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+  </os>
+
+  <os id="http://microsoft.com/win2k8">
+    <short-id>win2k8</short-id>
+    <name>Microsoft Windows Server 2008</name>
+    <version>6.0</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win2k3"/>
+  </os>
+
+  <os id="http://microsoft.com/vista">
+    <short-id>vista</short-id>
+    <name>Microsoft Windows Vista</name>
+    <version>6.0</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/winxp"/>
+  </os>
+
+  <os id="http://microsoft.com/win7">
+    <short-id>win7</short-id>
+    <name>Microsoft Windows 7</name>
+    <version>6.1</version>
+    <vendor>Microsoft</vendor>
+    <derives id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/vista"/>
+  </os>
+
+</libosinfo>
