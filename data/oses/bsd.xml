@@ -1,0 +1,45 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://freebsd.org/freebsd6">
+    <short-id>freebsd6</short-id>
+    <name>FreeBSD 6</name>
+    <version>6.4</version>
+    <vendor>FreeBSD Project</vendor>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8029"/>
+    </devices>
+  </os>
+
+  <os id="http://freebsd.org/freebsd7">
+    <short-id>freebsd7</short-id>
+    <name>FreeBSD 7</name>
+    <version>7.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <upgrades id="http://freebsd.org/freebsd6"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd8">
+    <short-id>freebsd8</short-id>
+    <name>FreeBSD 8</name>
+    <version>8.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <upgrades id="http://freebsd.org/freebsd7"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/100e"/>
+    </devices>
+  </os>
+
+  <os id="http://openbsd.org/openbsd4">
+    <short-id>openbsd4</short-id>
+    <name>OpenBSD 4</name>
+    <version>4.9</version>
+    <vendor>OpenBSD Project</vendor>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000"/>
+    </devices>
+  </os>
+
+</libosinfo>
