@@ -5,6 +5,7 @@
     <name>Suse Linux Enterprise Server 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://www.novell.com/linux/sles11">
@@ -12,6 +13,7 @@
     <name>Suse Linux Enterprise Server 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
+    <family>Linux</family>
     <upgrades id='http://www.novell.com/linux/sles10'/>
 
     <devices>

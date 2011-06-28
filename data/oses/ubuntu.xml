@@ -5,6 +5,7 @@
     <name>Ubuntu Hardy Heron</name>
     <version>8.04</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -16,6 +17,7 @@
     <name>Ubuntu Intrepid Ibex</name>
     <version>8.10</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/hardy"/>
   </os>
 
@@ -24,6 +26,7 @@
     <name>Ubuntu Jaunty Jackalope</name>
     <version>9.04</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/intrepid"/>
 
     <devices>
@@ -36,6 +39,7 @@
     <name>Ubuntu Karmic Koala</name>
     <version>9.10</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/jaunty"/>
   </os>
 
@@ -44,6 +48,7 @@
     <name>Ubuntu Lucid Lynx</name>
     <version>10.04</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/karmic"/>
   </os>
 
@@ -52,6 +57,7 @@
     <name>Ubuntu Maverick Meerkat</name>
     <version>10.10</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/lucid"/>
   </os>
 
@@ -60,6 +66,7 @@
     <name>Ubuntu Natty Narwhal</name>
     <version>11.04</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/maverick"/>
   </os>
 
@@ -68,6 +75,7 @@
     <name>Ubuntu Oneiric Ocelot</name>
     <version>11.10</version>
     <vendor>Canonical</vendor>
+    <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
   </os>
 

@@ -1,10 +1,14 @@
 <libosinfo version="0.0.1">
 
+  <!-- FIXME: We really should put all these in 'BSD' family but we will need
+              to tweak python-virtinst before that or at the same time.
+   -->
   <os id="http://freebsd.org/freebsd6">
     <short-id>freebsd6</short-id>
     <name>FreeBSD 6</name>
     <version>6.4</version>
     <vendor>FreeBSD Project</vendor>
+    <family>UNIX</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8029"/>
@@ -16,6 +20,7 @@
     <name>FreeBSD 7</name>
     <version>7.4</version>
     <vendor>FreeBSD Project</vendor>
+    <family>UNIX</family>
     <upgrades id="http://freebsd.org/freebsd6"/>
   </os>
 
@@ -24,6 +29,7 @@
     <name>FreeBSD 8</name>
     <version>8.2</version>
     <vendor>FreeBSD Project</vendor>
+    <family>UNIX</family>
     <upgrades id="http://freebsd.org/freebsd7"/>
 
     <devices>
@@ -35,6 +41,7 @@
     <short-id>openbsd4</short-id>
     <name>OpenBSD 4</name>
     <version>4.9</version>
+    <family>UNIX</family>
     <vendor>OpenBSD Project</vendor>
 
     <devices>

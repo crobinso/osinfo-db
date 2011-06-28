@@ -4,6 +4,7 @@
     <short-id>windows</short-id>
     <name>Microsoft Windows</name>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/>
@@ -16,6 +17,7 @@
     <name>Microsoft Windows XP</name>
     <version>5.1</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
   </os>
 
@@ -24,6 +26,7 @@
     <name>Microsoft Windows XP (x86_64)</name>
     <version>5.2</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
   </os>
 
@@ -32,6 +35,7 @@
     <name>Microsoft Windows 2000</name>
     <version>5.0</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
   </os>
 
@@ -40,6 +44,7 @@
     <name>Microsoft Windows Server 2003</name>
     <version>5.2</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
   </os>
 
@@ -48,6 +53,7 @@
     <name>Microsoft Windows Server 2008</name>
     <version>6.0</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
   </os>
@@ -57,6 +63,7 @@
     <name>Microsoft Windows Vista</name>
     <version>6.0</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
   </os>
@@ -66,6 +73,7 @@
     <name>Microsoft Windows 7</name>
     <version>6.1</version>
     <vendor>Microsoft</vendor>
+    <family>Windows</family>
     <derives id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>
   </os>

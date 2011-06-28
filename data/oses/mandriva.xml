@@ -4,12 +4,14 @@
     <short-id>mandriva2009</short-id>
     <name>Mandriva Linux 2009</name>
     <vendor>Mandriva</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://www.mandriva.com/linux/2010">
     <short-id>mandriva2010</short-id>
     <name>Mandriva Linux 2010</name>
     <vendor>Mandriva</vendor>
+    <family>Linux</family>
     <upgrades id="http://www.mandriva.com/linux/2009"/>
 
     <devices>
@@ -23,6 +25,7 @@
     <name>Mandriva Enterprise Server 5.0</name>
     <version>5.0</version>
     <vendor>Mandriva</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://www.mandriva.com/linux/server/5.1">
@@ -30,6 +33,7 @@
     <name>Mandriva Enterprise Server 5.1</name>
     <version>5.1</version>
     <vendor>Mandriva</vendor>
+    <family>Linux</family>
     <upgrades id="http://www.mandriva.com/linux/server/5.0"/>
 
     <devices>

@@ -5,6 +5,7 @@
     <name>Debian Etch</name>
     <version>4</version>
     <vendor>Debian Project</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://debian.org/lenny">
@@ -12,6 +13,7 @@
     <name>Debian Lenny</name>
     <version>5</version>
     <vendor>Debian Project</vendor>
+    <family>Linux</family>
     <upgrades id="http://debian.org/etch"/>
 
     <devices>
@@ -25,6 +27,7 @@
     <name>Debian Squeeze</name>
     <version>6</version>
     <vendor>Debian Project</vendor>
+    <family>Linux</family>
     <upgrades id="http://debian.org/lenny"/>
 
     <devices>

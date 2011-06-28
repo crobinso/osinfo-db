@@ -5,6 +5,7 @@
     <name>Red Hat Enterprise Linux 2.1</name>
     <version>2.1</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://redhat.com/rhel/3">
@@ -12,6 +13,7 @@
     <name>Red Hat Enterprise Linux 3</name>
     <version>3</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://redhat.com/rhel/4.8">
@@ -19,6 +21,7 @@
     <name>Red Hat Enterprise Linux 4.8</name>
     <version>4.8</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://redhat.com/rhel/4.9">
@@ -26,6 +29,7 @@
     <name>Red Hat Enterprise Linux 4.9</name>
     <version>4.9</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
     <upgrades id="http://redhat.com/rhel/4.8"/>
   </os>
 
@@ -34,6 +38,7 @@
     <name>Red Hat Enterprise Linux 5.4</name>
     <version>5.6</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
   </os>
 
   <os id="http://redhat.com/rhel/5.6">
@@ -41,6 +46,7 @@
     <name>Red Hat Enterprise Linux 5.6</name>
     <version>5.6</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -53,6 +59,7 @@
     <name>Red Hat Enterprise Linux 5.7</name>
     <version>5.7</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
     <upgrades id="http://redhat.com/rhel/5.6"/>
   </os>
 
@@ -61,6 +68,7 @@
     <name>Red Hat Enterprise Linux 6.0</name>
     <version>6.0</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -74,6 +82,7 @@
     <name>Red Hat Enterprise Linux 6.1</name>
     <version>6.1</version>
     <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
     <upgrades id="http://redhat.com/rhel/6.0"/>
   </os>
 
