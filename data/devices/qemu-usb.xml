@@ -4,7 +4,7 @@
   <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
     <name>tablet</name>
     <bus-type>usb</bus-type>
-    <class>block</class>
+    <class>input</class>
     <vendor>VirtualBox</vendor>
     <vendor-id>80ee</vendor-id>
     <device>Tablet</device>
