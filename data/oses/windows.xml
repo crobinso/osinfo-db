@@ -18,7 +18,7 @@
     <version>5.1</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
   </os>
 
   <os id="http://microsoft.com/winxp64">
@@ -27,7 +27,7 @@
     <version>5.2</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
   </os>
 
   <os id="http://microsoft.com/win2k">
@@ -36,7 +36,7 @@
     <version>5.0</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
   </os>
 
   <os id="http://microsoft.com/win2k3">
@@ -45,7 +45,7 @@
     <version>5.2</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
   </os>
 
   <os id="http://microsoft.com/win2k8">
@@ -54,7 +54,7 @@
     <version>6.0</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
   </os>
 
@@ -64,7 +64,7 @@
     <version>6.0</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
   </os>
 
@@ -74,7 +74,7 @@
     <version>6.1</version>
     <vendor>Microsoft</vendor>
     <family>Windows</family>
-    <derives id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>
   </os>
 
