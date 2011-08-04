@@ -19,6 +19,13 @@
     <vendor>Microsoft</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>GRTMP</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://microsoft.com/winxp64">
@@ -46,6 +53,13 @@
     <vendor>Microsoft</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>CRMS</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://microsoft.com/win2k8">
@@ -56,6 +70,13 @@
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>GRMSX</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://microsoft.com/vista">
@@ -76,6 +97,19 @@
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>GSP1RMCEN</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>GSP1RMCENX</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
   </os>
 
 </libosinfo>
