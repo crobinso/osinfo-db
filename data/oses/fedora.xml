@@ -88,9 +88,17 @@
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/12/Fedora/i386/os/</url>
+      <iso>
+        <volume-id>Fedora 12 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/12/Fedora/x86_64/os/</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
   </os>
 
@@ -104,9 +112,17 @@
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
+      <iso>
+        <volume-id>Fedora 13 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/x86_64/os/</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
   </os>
 
@@ -120,9 +136,17 @@
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
+      <iso>
+        <volume-id>Fedora 14 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/x86_64/os/</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
   </os>
 
@@ -136,9 +160,17 @@
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/os/</url>
+      <iso>
+        <volume-id>Fedora 15 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/x86_64/os/</url>
+      <iso>
+        <volume-id>Fedora 15 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
     </media>
   </os>
 
