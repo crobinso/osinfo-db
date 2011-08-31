@@ -161,6 +161,25 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <media arch="i686" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Live/i686/Fedora-14-i686-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+14.+i686.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Live/x86_64/Fedora-14-x86_64-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+14.+x86_64.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
@@ -203,6 +222,25 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <media arch="i686" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Live/i686/Fedora-15-i686-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+15.+i686.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Live/x86_64/Fedora-15-x86_64-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+15.+x86_64.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
@@ -243,6 +281,25 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Live/i686/Fedora-16-i686-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+16.+i686.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Live/x86_64/Fedora-16-x86_64-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>.*Fedora.+16.+x86_64.+Live.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <resources arch="all">
