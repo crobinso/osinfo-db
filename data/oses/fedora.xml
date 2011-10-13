@@ -148,6 +148,19 @@
         <system-id>LINUX</system-id>
       </iso>
     </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>402653184</ram>
+        <storage>94371840</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>536870912</ram>
+      </recommended>
+    </resources>
   </os>
 
   <os id="http://fedoraproject.org/fedora/15">
@@ -172,6 +185,19 @@
         <system-id>LINUX</system-id>
       </iso>
     </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>671088640</ram>
+        <storage>94371840</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1207959552</ram>
+      </recommended>
+    </resources>
   </os>
 
 
