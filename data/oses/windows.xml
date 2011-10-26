@@ -191,13 +191,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>.*GSP1RMC.*</volume-id>
+        <volume-id>.*G.*RMC.*</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>.*GSP1RMC.*X.*</volume-id>
+        <volume-id>.*G.*RMC.*X.*</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
