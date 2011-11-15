@@ -216,5 +216,46 @@
     </resources>
   </os>
 
+  <os id="http://fedoraproject.org/fedora/16">
+    <short-id>fedora16</short-id>
+    <name>Fedora 16</name>
+    <version>16</version>
+    <vendor>Fedora Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://fedoraproject.org/fedora/15"/>
+
+    <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/os/</url>
+      <iso>
+        <volume-id>.*Fedora.+16.+i386.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/x86_64/os/</url>
+      <iso>
+        <volume-id>.*Fedora.+16.+x86_64.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>671088640</ram>
+        <storage>94371840</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1207959552</ram>
+      </recommended>
+    </resources>
+  </os>
+
 
 </libosinfo>
