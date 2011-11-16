@@ -171,6 +171,7 @@
       <recommended>
         <cpu>400000000</cpu>
         <ram>536870912</ram>
+        <storage>9663676416</storage>
       </recommended>
     </resources>
   </os>
@@ -212,6 +213,7 @@
       <recommended>
         <cpu>400000000</cpu>
         <ram>1207959552</ram>
+        <storage>9663676416</storage>
       </recommended>
     </resources>
   </os>
@@ -253,6 +255,7 @@
       <recommended>
         <cpu>400000000</cpu>
         <ram>1207959552</ram>
+        <storage>9663676416</storage>
       </recommended>
     </resources>
   </os>
