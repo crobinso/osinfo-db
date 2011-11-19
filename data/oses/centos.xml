@@ -7,6 +7,21 @@
     <vendor>CentOS</vendor>
     <family>Linux</family>
     <clones id="http://redhat.com/rhel/6.0"/>
+
+    <!-- there is no obvious difference between x86 and x86_64 isos,
+         maybe we can lookup files on the iso to decide which arch it is? -->
+    <media arch="i386">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.0_Final</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.0_Final</volume-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://centos.org/centos/6.1">
