@@ -68,6 +68,19 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/maverick"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>.*Ubuntu.* 11.04 i386.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Ubuntu.* 11.04 amd64.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://ubuntu.com/oneiric">
@@ -77,6 +90,17 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>.*Ubuntu.* 11.10 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>.*Ubuntu.* 11.10 amd64.*</volume-id>
+      </iso>
+    </media>
   </os>
 
 </libosinfo>
