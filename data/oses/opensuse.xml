@@ -1,0 +1,35 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://opensuse.org/linux/11.4">
+    <short-id>opensuse114</short-id>
+    <name>openSUSE 11.4</name>
+    <version>11.4</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+
+    <media arch="i386">
+      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso</url>
+      <iso>
+        <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-DVD-x86_640024</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://opensuse.org/linux/12.1">
+    <short-id>opensuse121</short-id>
+    <name>openSUSE 12.1</name>
+    <version>12.1</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+  </os>
+
+</libosinfo>
