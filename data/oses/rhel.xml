@@ -26,13 +26,13 @@
     <media arch="i386">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_4.8 i386.*</volume-id>
+        <volume-id>.*RHEL/4-U8 i386.*</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_4.8 x86_64.*</volume-id>
+        <volume-id>.*RHEL/4-U8 x86_64.*</volume-id>
       </iso>
     </media>
   </os>
