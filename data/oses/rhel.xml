@@ -62,7 +62,7 @@
   <os id="http://redhat.com/rhel/5.4">
     <short-id>rhel-5.4</short-id>
     <name>Red Hat Enterprise Linux 5.4</name>
-    <version>5.6</version>
+    <version>5.4</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
 
