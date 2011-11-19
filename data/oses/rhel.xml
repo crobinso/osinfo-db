@@ -69,13 +69,13 @@
     <media arch="i386">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.4 i386.*</volume-id>
+        <volume-id>.*RHEL/5.4 i386.*</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.4 x86_64.*</volume-id>
+        <volume-id>.*RHEL/5.4 x86_64.*</volume-id>
       </iso>
     </media>
   </os>
@@ -95,13 +95,13 @@
     <media arch="i386">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.6 i386.*</volume-id>
+        <volume-id>.*RHEL/5.6 i386.*</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.6 x86_64.*</volume-id>
+        <volume-id>.*RHEL/5.6 x86_64.*</volume-id>
       </iso>
     </media>
   </os>
@@ -117,13 +117,13 @@
     <media arch="i386">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.7 i386.*</volume-id>
+        <volume-id>.*RHEL/5.7 i386.*</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL_5.7 x86_64.*</volume-id>
+        <volume-id>.*RHEL/5.7 x86_64.*</volume-id>
       </iso>
     </media>
   </os>
