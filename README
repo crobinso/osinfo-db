@@ -11,6 +11,10 @@ common programming languages with demos for javascript (GJS/Seed) and python
 
 libosinfo is Free Software and licenced under LGPLv2+.
 
+The latest official releases can be found at:
+
+    https://fedorahosted.org/releases/l/i/libosinfo/
+
 Dependencies
 ============
 
@@ -23,3 +27,18 @@ Dependencies
   - gobject-introspection
   - Vala (build-time only)
 
+Patches sumissions
+==================
+
+Patch submissions are welcomed from any interested contributor. Please
+use the virt-tools-list for any patch submissions, or discussions
+about the code:
+
+    https://www.redhat.com/mailman/listinfo/virt-tools-list
+
+For further information about libosinfo please consult the project
+homepage
+
+   https://fedorahosted.org/libosinfo/
+
+--End
