@@ -145,7 +145,7 @@
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
       <iso>
-        <volume-id>.*Fedora.+14.+i386.*</volume-id>
+        <volume-id>.*Fedora.+14.+i386.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -154,7 +154,7 @@
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/x86_64/os/</url>
       <iso>
-        <volume-id>.*Fedora.+14.+x86_64.*</volume-id>
+        <volume-id>.*Fedora.+14.+x86_64.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -187,7 +187,7 @@
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/os/</url>
       <iso>
-        <volume-id>.*Fedora.+15.+i386.*</volume-id>
+        <volume-id>.*Fedora.+15.+i386.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -196,7 +196,7 @@
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/x86_64/os/</url>
       <iso>
-        <volume-id>.*Fedora.+15.+x86_64.*</volume-id>
+        <volume-id>.*Fedora.+15.+x86_64.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -229,7 +229,7 @@
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/os/</url>
       <iso>
-        <volume-id>.*Fedora.+16.+i386.*</volume-id>
+        <volume-id>.*Fedora.+16.+i386.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -238,7 +238,7 @@
     <media arch="x86_64">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/x86_64/os/</url>
       <iso>
-        <volume-id>.*Fedora.+16.+x86_64.*</volume-id>
+        <volume-id>.*Fedora.+16.+x86_64.+DVD.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
