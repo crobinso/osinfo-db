@@ -28,12 +28,14 @@ ACTION=="change", \
  ENV{ID_FS_TYPE}!="iso9660", \
  OSINFO_BOOTABLE="", \
  OSINFO_INSTALLER="" \
- OSINFO_LIVE=""
+ OSINFO_LIVE="" \
+ OSINFO_MEDIA=""
 
 ACTION=="change", \
  SUBSYSTEM=="block", \
  ENV{ID_FS_TYPE}!="udf", \
  OSINFO_BOOTABLE="", \
  OSINFO_INSTALLER="" \
- OSINFO_LIVE=""
+ OSINFO_LIVE="" \
+ OSINFO_MEDIA=""
 
