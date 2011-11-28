@@ -1,0 +1,94 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://apple.com/macosx/10.0">
+    <short-id>macosx100</short-id>
+    <name>MacOS X Cheetah</name>
+    <version>10.0</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+  </os>
+
+  <os id="http://apple.com/macosx/10.1">
+    <short-id>macosx101</short-id>
+    <name>MacOS X Puma</name>
+    <version>10.1</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.0" />
+  </os>
+
+  <os id="http://apple.com/macosx/10.2">
+    <short-id>macosx102</short-id>
+    <name>MacOS X Jaghuar</name>
+    <version>10.2</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.1" />
+  </os>
+
+  <os id="http://apple.com/macosx/10.3">
+    <short-id>macosx103</short-id>
+    <name>MacOS X Panther</name>
+    <version>10.3</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.2" />
+  </os>
+
+  <os id="http://apple.com/macosx/10.4">
+    <short-id>macosx104</short-id>
+    <name>MacOS X Tiger</name>
+    <version>10.4</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.3" />
+  </os>
+
+  <os id="http://apple.com/macosx/10.5">
+    <short-id>macosx105</short-id>
+    <name>MacOS X Leopard</name>
+    <version>10.5</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.4" />
+  </os>
+
+  <os id="http://apple.com/macosx/10.6">
+    <short-id>macosx106</short-id>
+    <name>MacOS X Snow Leopard</name>
+    <version>10.6</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.5" />
+
+    <resources arch="all">
+      <minimal>
+        <n-cpus>2</n-cpus>
+        <cpu>1600000000</cpu>
+        <ram>2147483648</ram>
+        <storage>7516192768</storage>
+      </minimal>
+    </resources>
+
+  </os>
+
+  <os id="http://apple.com/macosx/10.7">
+    <short-id>macosx107</short-id>
+    <name>MacOS X Lion</name>
+    <version>10.7</version>
+    <vendor>Apple Inc.</vendor>
+    <family>MacOS</family>
+    <upgrades id="http://apple.com/macosx/10.6" />
+
+    <resources arch="all">
+      <minimal>
+        <n-cpus>2</n-cpus>
+        <cpu>1600000000</cpu>
+        <ram>2147483648</ram>
+        <storage>7516192768</storage>
+      </minimal>
+    </resources>
+
+  </os>
+
+</libosinfo>
