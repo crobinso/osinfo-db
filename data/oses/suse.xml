@@ -1,25 +1,82 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://www.novell.com/linux/sles10">
+  <os id="http://suse.com/linux/sles9">
+    <short-id>sles9</short-id>
+    <name>Suse Linux Enterprise Server 9</name>
+    <version>9</version>
+    <vendor>Novell</vendor>
+    <family>Linux</family>
+  </os>
+
+  <os id="http://suse.com/linux/sles10">
     <short-id>sles10</short-id>
     <name>Suse Linux Enterprise Server 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
     <family>Linux</family>
+    <upgrades id="http://suse.com/linux/sles9"/>
   </os>
 
-  <os id="http://www.novell.com/linux/sles11">
+  <os id="http://suse.com/linux/sles11">
     <short-id>sles11</short-id>
     <name>Suse Linux Enterprise Server 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
     <family>Linux</family>
-    <upgrades id='http://www.novell.com/linux/sles10'/>
+    <upgrades id="http://suse.com/linux/sles10"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
+  </os>
+
+  <os id="http://suse.com/linux/sled9">
+    <short-id>sled9</short-id>
+    <name>Suse Linux Enterprise Desktop 9</name>
+    <version>9</version>
+    <vendor>Novell</vendor>
+    <family>Linux</family>
+  </os>
+
+  <os id="http://suse.com/linux/sled10">
+    <short-id>sled10</short-id>
+    <name>Suse Linux Enterprise Desktop 10</name>
+    <version>10</version>
+    <vendor>Novell</vendor>
+    <family>Linux</family>
+    <upgrades id="http://suse.com/linux/sled9"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
+  </os>
+
+  <os id="http://suse.com/linux/sled11">
+    <short-id>sled11</short-id>
+    <name>Suse Linux Enterprise Desktop 11</name>
+    <version>11</version>
+    <vendor>Novell</vendor>
+    <family>Linux</family>
+    <upgrades id="http://suse.com/linux/sled10"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
   </os>
 
 </libosinfo>

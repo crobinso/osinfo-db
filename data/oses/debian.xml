@@ -1,11 +1,84 @@
 <libosinfo version="0.0.1">
 
+  <os id="http://debian.org/buzz">
+    <short-id>debianbuzz</short-id>
+    <name>Debian Buzz</name>
+    <version>1.1</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+  </os>
+
+  <os id="http://debian.org/rex">
+    <short-id>debianrex</short-id>
+    <name>Debian Rex</name>
+    <version>1.2</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/buzz"/>
+  </os>
+
+  <os id="http://debian.org/bo">
+    <short-id>debianbo</short-id>
+    <name>Debian Bo</name>
+    <version>1.3</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/rex"/>
+  </os>
+
+  <os id="http://debian.org/hamm">
+    <short-id>debianhamm</short-id>
+    <name>Debian Hamm</name>
+    <version>2.0</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/bo"/>
+  </os>
+
+  <os id="http://debian.org/silnk">
+    <short-id>debiansilnk</short-id>
+    <name>Debian Silnk</name>
+    <version>2.1</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/hamm"/>
+  </os>
+
+  <os id="http://debian.org/potato">
+    <short-id>debianpotato</short-id>
+    <name>Debian Potato</name>
+    <version>2.2</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/silnk"/>
+  </os>
+
+  <os id="http://debian.org/woody">
+    <short-id>debianwoody</short-id>
+    <name>Debian Woody</name>
+    <version>3</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/potato"/>
+  </os>
+
+
+  <os id="http://debian.org/sarge">
+    <short-id>debiansarge</short-id>
+    <name>Debian Sarge</name>
+    <version>3.1</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/woody"/>
+  </os>
+
   <os id="http://debian.org/etch">
     <short-id>debianetch</short-id>
     <name>Debian Etch</name>
     <version>4</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <upgrades id="http://debian.org/sarge"/>
   </os>
 
   <os id="http://debian.org/lenny">
@@ -20,6 +93,20 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>134217728</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
   </os>
 
   <os id="http://debian.org/squeeze">
@@ -33,6 +120,61 @@
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
     </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>134217728</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i386">
+      <url>http://cdimage.debian.org/debian-cd/6.0.3/i386/iso-dvd/</url>
+      <iso>
+        <volume-id>Debian 6.0.3 i386 1</volume-id>
+      </iso>
+      <kernel>/vmlinuz</kernel>
+      <initrd>/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://cdimage.debian.org/debian-cd/6.0.3/amd64/iso-dvd/</url>
+      <iso>
+        <volume-id>Debian 6.0.3 amd64 1</volume-id>
+      </iso>
+    </media>
+
+    <media arch="i386" live="true">
+      <url>http://cdimage.debian.org/debian-cd/6.0.3-live/i386/iso-hybrid/</url>
+      <iso>
+        <volume-id>Debian squeeze 20111014-08:13</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://cdimage.debian.org/debian-cd/6.0.3-live/amd64/iso-hybrid/</url>
+      <iso>
+        <volume-id>Debian squeeze 20111014-08:11</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
   </os>
+
+<!-- Wheezy isn't released yet
+  <os id="http://debian.org/wheezy">
+    <short-id>debianwheezy</short-id>
+    <name>Debian Wheezy</name>
+    <version>7</version>
+    <vendor>Debian Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://debian.org/squeeze"/>
+  </os>
+-->
 
 </libosinfo>

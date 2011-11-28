@@ -1,27 +1,167 @@
 <libosinfo version="0.0.1">
 
+  <os id="http://opensuse.org/linux/10.2">
+    <short-id>opensuse102</short-id>
+    <name>openSUSE 10.2</name>
+    <version>10.2</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+  </os>
+
+  <os id="http://opensuse.org/linux/10.3">
+    <short-id>opensuse103</short-id>
+    <name>openSUSE 10.3</name>
+    <version>10.3</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/10.2" />
+  </os>
+
+  <os id="http://opensuse.org/linux/11.0">
+    <short-id>opensuse110</short-id>
+    <name>openSUSE 11.0</name>
+    <version>11.0</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/10.3" />
+  </os>
+
+  <os id="http://opensuse.org/linux/11.1">
+    <short-id>opensuse111</short-id>
+    <name>openSUSE 11.1</name>
+    <version>11.1</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/11.0" />
+  </os>
+
+  <os id="http://opensuse.org/linux/11.2">
+    <short-id>opensuse112</short-id>
+    <name>openSUSE 11.2</name>
+    <version>11.2</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/11.1" />
+  </os>
+
+  <os id="http://opensuse.org/linux/11.3">
+    <short-id>opensuse113</short-id>
+    <name>openSUSE 11.3</name>
+    <version>11.3</version>
+    <vendor>openSUSE</vendor>
+    <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/11.2" />
+
+    <media arch="i586">
+      <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-i586.iso?mirrorlist</url>
+      <iso>
+        <volume-id>openSUSE-DVD-i586-Build0702..001</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>vmlinuz</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-x86_64.iso?mirrorlist</url>
+      <iso>
+        <volume-id>openSUSE-DVD-x86_64.0702..001</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>vmlinuz</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+
+    <media arch="i586" live="true">
+      <url>http://software.opensuse.org/113/en</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>vmlinuz</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://software.opensuse.org/113/en</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>vmlinuz</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
+  </os>
+
   <os id="http://opensuse.org/linux/11.4">
     <short-id>opensuse114</short-id>
     <name>openSUSE 11.4</name>
     <version>11.4</version>
     <vendor>openSUSE</vendor>
     <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/11.3" />
 
-    <media arch="i386">
-      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso</url>
-      <iso>
-        <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
-        <system-id>LINUX</system-id>
-      </iso>
-
+    <media arch="i586">
+    <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso?mirrorlist</url>
+    <iso>
+      <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
+      <system-id>LINUX</system-id>
+      <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+    </iso>
     </media>
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-x86_64.iso</url>
+      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-x86_64.iso?mirrorlist</url>
       <iso>
         <volume-id>openSUSE-DVD-x86_640024</volume-id>
         <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
     </media>
+
+    <media arch="i586" live="true">
+      <url>http://software.opensuse.org/114/pl</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://software.opensuse.org/114/pl</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
   </os>
 
   <os id="http://opensuse.org/linux/12.1">
@@ -30,6 +170,54 @@
     <version>12.1</version>
     <vendor>openSUSE</vendor>
     <family>Linux</family>
+    <upgrades id="http://opensuse.org/linux/11.4" />
+
+    <media arch="i586">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-i586.iso?mirrorlist</url>
+      <iso>
+        <volume-id>openSUSE-DVD-i586-Build0039</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-x86_64.iso?mirrorlist</url>
+      <iso>
+        <volume-id>openSUSE-DVD-x86_640039</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+
+    <media arch="i586" live="true">
+      <url>http://software.opensuse.org/121/pl</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://software.opensuse.org/121/pl</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
   </os>
 
 </libosinfo>

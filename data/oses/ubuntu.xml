@@ -50,6 +50,39 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/karmic"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/10.04/</url>
+      <iso>
+        <volume-id>.*Ubuntu.* 10.04.3 .* amd64.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i386" live="true">
+      <url>http://releases.ubuntu.com/10.04/</url>
+      <iso>
+        <volume-id>.*Ubuntu.* 10.04.3 .* i386</volume-id>
+        <system-id>LINUX</system-id>
+    </iso>
+    <kernel>casper/vmlinuz</kernel>
+    <initrd>casper/initrd.img</initrd>
+    </media>
   </os>
 
   <os id="http://ubuntu.com/maverick">
@@ -59,6 +92,39 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/lucid"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i386" live="true">
+      <url>http://releases.ubuntu.com/10.10/</url>
+      <iso>
+        <volume-id>.*Ubuntu.* 10.10 i386.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/10.10/</url>
+      <iso>
+        <volume-id>.*Ubuntu.* 10.10 amd64.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
   </os>
 
   <os id="http://ubuntu.com/natty">
@@ -69,17 +135,37 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/maverick"/>
 
-    <media arch="i386">
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i386" live="true">
+      <url>http://releases.ubuntu.com/11.04/</url>
       <iso>
         <volume-id>.*Ubuntu.* 11.04 i386.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/11.04/</url>
       <iso>
-        <volume-id>Ubuntu.* 11.04 amd64.*</volume-id>
+        <volume-id>.*Ubuntu.* 11.04 amd64.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
     </media>
   </os>
 
@@ -91,15 +177,37 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
 
-    <media arch="i386">
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpu>1</n-cpu>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i386" live="true">
+      <url>http://releases.ubuntu.com/11.10/</url>
       <iso>
         <volume-id>.*Ubuntu.* 11.10 i386.*</volume-id>
+        <system-id>LINUX</system-id>
       </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/11.10/</url>
       <iso>
         <volume-id>.*Ubuntu.* 11.10 amd64.*</volume-id>
+        <system-id>LINUX</system-id>
       </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
     </media>
   </os>
 

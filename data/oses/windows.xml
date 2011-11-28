@@ -12,6 +12,95 @@
     </devices>
   </os>
 
+  <os id="http://microsoft.com/win95">
+    <short-id>win95</short-id>
+    <name>Microsoft Windows 95</name>
+    <version>4.0</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>12000000</cpu>
+        <ram>4194304</ram>
+        <storage>41943040</storage>
+      </minimum>
+    </resources>
+  </os>
+
+  <os id="http://microsoft.com/win98">
+    <short-id>win98</short-id>
+    <name>Microsoft Windows 98</name>
+    <version>4.1</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win95"/>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>66000000</cpu>
+        <ram>16777216</ram>
+        <storage>125829120</storage>
+      </minimum>
+      <recommended>
+        <cpu>233000000</cpu>
+        <ram>25165824</ram>
+        <storage>419430400</storage>
+      </recommended>
+    </resources>
+  </os>
+
+  <os id="http://microsoft.com/winme">
+    <short-id>winme</short-id>
+    <name>Microsoft Windows Millennium Edition</name>
+    <version>4.9</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win98"/>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>150000000</cpu>
+        <ram>33554432</ram>
+        <storage>335544320</storage>
+      </minimum>
+      <recommended>
+        <cpu>300000000</cpu>
+        <ram>67108864</ram>
+        <storage>2147483648</storage>
+      </recommended>
+    </resources>
+  </os>
+
+
+  <os id="http://microsoft.com/win2k">
+    <short-id>win2k</short-id>
+    <name>Microsoft Windows 2000</name>
+    <version>5.0</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>133000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>33554432</ram>
+        <storage>335544320</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>350000000</cpu>
+        <ram>100663296</ram>
+        <storage>1073741824</storage>
+      </recommended>
+    </resources>
+  </os>
+
+
   <os id="http://microsoft.com/winxp">
     <short-id>winxp</short-id>
     <name>Microsoft Windows XP</name>
@@ -19,6 +108,7 @@
     <vendor>Microsoft</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win2k"/>
 
     <media arch="i386">
       <iso>
@@ -50,15 +140,15 @@
     <vendor>Microsoft</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
-  </os>
 
-  <os id="http://microsoft.com/win2k">
-    <short-id>win2k</short-id>
-    <name>Microsoft Windows 2000</name>
-    <version>5.0</version>
-    <vendor>Microsoft</vendor>
-    <family>Windows</family>
-    <derives-from id="http://microsoft.com/windows"/>
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>733000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>268435456</ram>
+        <storage>1610612736</storage>
+      </minimum>
+    </resources>
   </os>
 
   <os id="http://microsoft.com/win2k3">
@@ -161,22 +251,18 @@
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
 
-    <resources arch="i386">
+    <resources arch="all">
       <minimum>
-        <cpu>1000000000</cpu>
+        <cpu>800000000</cpu>
         <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>16106127360</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
         <ram>1073741824</ram>
         <storage>42949672960</storage>
-      </minimum>
-    </resources>
-
-    <resources arch="x86_64">
-      <minimum>
-        <cpu>1000000000</cpu>
-        <n-cpus>1</n-cpus>
-        <ram>1073741824</ram>
-        <storage>42949672960</storage>
-      </minimum>
+      </recommended>
     </resources>
   </os>
 
