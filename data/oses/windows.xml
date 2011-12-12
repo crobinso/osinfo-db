@@ -206,7 +206,7 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>.*GRMSX.*</volume-id>
+        <volume-id>.*GRMS.*</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
