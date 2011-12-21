@@ -7,8 +7,9 @@
     <family>Windows</family>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/> <!-- VGA -->
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
     </devices>
   </os>
 
