@@ -9,6 +9,7 @@
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
     </devices>
   </os>
 
