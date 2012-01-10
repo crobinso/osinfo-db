@@ -20,6 +20,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/5"/>
+    <derives-from id="http://fedoraproject.org/fedora/5"/>
   </os>
 
   <os id="http://fedoraproject.org/fedora/7">
@@ -29,6 +30,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/6"/>
+    <derives-from id="http://fedoraproject.org/fedora/6"/>
   </os>
 
   <os id="http://fedoraproject.org/fedora/8">
@@ -38,6 +40,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/7"/>
+    <derives-from id="http://fedoraproject.org/fedora/7"/>
   </os>
 
   <os id="http://fedoraproject.org/fedora/9">
@@ -47,6 +50,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/8"/>
+    <derives-from id="http://fedoraproject.org/fedora/8"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
@@ -64,6 +68,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/9"/>
+    <derives-from id="http://fedoraproject.org/fedora/9"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
@@ -77,6 +82,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/10"/>
+    <derives-from id="http://fedoraproject.org/fedora/10"/>
 
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
@@ -90,6 +96,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/11"/>
+    <derives-from id="http://fedoraproject.org/fedora/11"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/12/Fedora/i386/os/</url>
@@ -118,6 +125,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/12"/>
+    <derives-from id="http://fedoraproject.org/fedora/12"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
@@ -146,6 +154,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/13"/>
+    <derives-from id="http://fedoraproject.org/fedora/13"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
@@ -207,6 +216,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/14"/>
+    <derives-from id="http://fedoraproject.org/fedora/14"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/os/</url>
@@ -268,6 +278,7 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/15"/>
+    <derives-from id="http://fedoraproject.org/fedora/15"/>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/os/</url>
