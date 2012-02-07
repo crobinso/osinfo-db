@@ -177,4 +177,26 @@
     </media>
   </os>
 
+  <os id="http://redhat.com/rhel/6.2">
+    <short-id>rhel-6.2</short-id>
+    <name>Red Hat Enterprise Linux 6.2</name>
+    <version>6.2</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <upgrades id="http://redhat.com/rhel/6.1"/>
+
+    <media arch="i386">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL_6.2 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL_6.2 x86_64.*</volume-id>
+      </iso>
+    </media>
+  </os>
+
 </libosinfo>
