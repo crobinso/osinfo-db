@@ -47,7 +47,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/warty"/>
-    <derives id="http://ubuntu.com/warty"/>
+    <derives-from id="http://ubuntu.com/warty"/>
 
     <release-date>2005-04-08</release-date>
     <eol-date>2006-10-31</eol-date>
@@ -117,7 +117,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/hoary"/>
-    <derives id="http://ubuntu.com/hoary"/>
+    <derives-from id="http://ubuntu.com/hoary"/>
 
     <release-date>2005-10-13</release-date>
     <eol-date>2007-04-13</eol-date>
@@ -215,7 +215,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/breezy"/>
-    <derives id="http://ubuntu.com/breezy"/>
+    <derives-from id="http://ubuntu.com/breezy"/>
 
     <release-date>2006-06-01</release-date>
     <eol-date>2011-06-01</eol-date>
@@ -340,7 +340,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/dapper"/>
-    <derives id="http://ubuntu.com/dapper"/>
+    <derives-from id="http://ubuntu.com/dapper"/>
 
     <release-date>2006-10-26</release-date>
     <eol-date>2008-04-25</eol-date>
@@ -418,7 +418,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/edgy"/>
-    <derives id="http://ubuntu.com/edgy"/>
+    <derives-from id="http://ubuntu.com/edgy"/>
 
     <release-date>2007-04-19</release-date>
     <eol-date>2008-10-19</eol-date>
@@ -478,7 +478,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/feisty"/>
-    <derives id="http://ubuntu.com/feisty"/>
+    <derives-from id="http://ubuntu.com/feisty"/>
 
     <release-date>2007-10-18</release-date>
     <eol-date>2009-04-18</eol-date>
@@ -538,7 +538,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/gutsy"/>
-    <derives id="http://ubuntu.com/gutsy"/>
+    <derives-from id="http://ubuntu.com/gutsy"/>
 
     <release-date>2008-04-24</release-date>
 
@@ -611,7 +611,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/hardy"/>
-    <derives id="http://ubuntu.com/hardy"/>
+    <derives-from id="http://ubuntu.com/hardy"/>
 
     <release-date>2008-10-30</release-date>
     <eol-date>2010-04-30</eol-date>
@@ -662,7 +662,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/intrepid"/>
-    <derives id="http://ubuntu.com/intrepid"/>
+    <derives-from id="http://ubuntu.com/intrepid"/>
 
     <release-date>2009-04-23</release-date>
     <eol-date>2010-10-23</eol-date>
@@ -717,7 +717,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/jaunty"/>
-    <derives id="http://ubuntu.com/jaunty"/>
+    <derives-from id="http://ubuntu.com/jaunty"/>
 
     <release-date>2009-10-29</release-date>
     <eol-date>2011-04-30</eol-date>
@@ -768,7 +768,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/karmic"/>
-    <derives id="http://ubuntu.com/karmic"/>
+    <derives-from id="http://ubuntu.com/karmic"/>
 
     <release-date>2010-04-29</release-date>
 
@@ -833,7 +833,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/lucid"/>
-    <derives id="http://ubuntu.com/lucid"/>
+    <derives-from id="http://ubuntu.com/lucid"/>
 
     <release-date>2010-10-10</release-date>
 
@@ -897,7 +897,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/maverick"/>
-    <derives id="http://ubuntu.com/maverick"/>
+    <derives-from id="http://ubuntu.com/maverick"/>
 
     <release-date>2011-04-28</release-date>
 
@@ -961,7 +961,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
-    <derives id="http://ubuntu.com/natty"/>
+    <derives-from id="http://ubuntu.com/natty"/>
 
     <release-date>2011-10-13</release-date>
 
