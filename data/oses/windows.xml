@@ -217,7 +217,7 @@
     <short-id>win2k3r2</short-id>
     <name>Microsoft Windows Server 2003 R2</name>
     <version>5.2</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
@@ -321,7 +321,7 @@
     <short-id>win2k8r2</short-id>
     <name>Microsoft Windows Server 2008 R2</name>
     <version>6.1</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k8"/>

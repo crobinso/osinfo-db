@@ -4,7 +4,7 @@
     <short-id>ubuntuwarty</short-id>
     <name>Ubuntu Warty Warthog</name>
     <version>4.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Warty Warthog</codename>
 
@@ -45,7 +45,7 @@
     <short-id>ubuntuhoary</short-id>
     <name>Ubuntu Hoary Hedgehog</name>
     <version>5.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Hoary Hedgehog</codename>
     <upgrades id="http://ubuntu.com/warty"/>
@@ -116,7 +116,7 @@
     <short-id>ubuntubreezy</short-id>
     <name>Ubuntu Breezy Badger</name>
     <version>5.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Breezy Badger</codename>
     <upgrades id="http://ubuntu.com/hoary"/>
@@ -215,7 +215,7 @@
     <short-id>ubuntudapper</short-id>
     <name>Ubuntu Dapper Drake LTS</name>
     <version>6.06</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Dapper Drake</codename>
     <upgrades id="http://ubuntu.com/breezy"/>
@@ -341,7 +341,7 @@
     <short-id>ubuntuedgy</short-id>
     <name>Ubuntu Edgy Eft</name>
     <version>6.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Edgy Eft</codename>
     <upgrades id="http://ubuntu.com/dapper"/>
@@ -420,7 +420,7 @@
     <short-id>ubuntufeisty</short-id>
     <name>Ubuntu Feisty Fawn</name>
     <version>7.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Feisty Fawn</codename>
     <upgrades id="http://ubuntu.com/edgy"/>
@@ -481,7 +481,7 @@
     <short-id>ubuntugutsy</short-id>
     <name>Ubuntu Gutsy Gibbon</name>
     <version>7.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Gutsy Gibbon</codename>
     <upgrades id="http://ubuntu.com/feisty"/>
