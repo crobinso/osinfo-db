@@ -3,7 +3,7 @@
   <os id="http://microsoft.com/windows">
     <short-id>windows</short-id>
     <name>Microsoft Windows</name>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
 
     <devices>
@@ -18,7 +18,7 @@
     <short-id>win95</short-id>
     <name>Microsoft Windows 95</name>
     <version>4.0</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
 
@@ -35,7 +35,7 @@
     <short-id>win98</short-id>
     <name>Microsoft Windows 98</name>
     <version>4.1</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win95"/>
@@ -58,7 +58,7 @@
     <short-id>winme</short-id>
     <name>Microsoft Windows Millennium Edition</name>
     <version>4.9</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win98"/>
@@ -82,7 +82,7 @@
     <short-id>win2k</short-id>
     <name>Microsoft Windows 2000</name>
     <version>5.0</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
 
@@ -115,7 +115,7 @@
     <short-id>winxp</short-id>
     <name>Microsoft Windows XP</name>
     <version>5.1</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k"/>
@@ -162,7 +162,7 @@
     <short-id>win2k3</short-id>
     <name>Microsoft Windows Server 2003</name>
     <version>5.2</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
 
@@ -263,7 +263,7 @@
     <short-id>win2k8</short-id>
     <name>Microsoft Windows Server 2008</name>
     <version>6.0</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3r2"/>
@@ -348,7 +348,7 @@
     <short-id>vista</short-id>
     <name>Microsoft Windows Vista</name>
     <version>6.0</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
@@ -386,7 +386,7 @@
     <short-id>win7</short-id>
     <name>Microsoft Windows 7</name>
     <version>6.1</version>
-    <vendor>Microsoft</vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>

@@ -542,7 +542,7 @@
     <short-id>ubuntuhardy</short-id>
     <name>Ubuntu Hardy Heron LTS</name>
     <version>8.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Hardy Heron</codename>
     <upgrades id="http://ubuntu.com/gutsy"/>
@@ -616,7 +616,7 @@
     <short-id>ubuntuintrepid</short-id>
     <name>Ubuntu Intrepid Ibex</name>
     <version>8.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Intrepid Ibex</codename>
     <upgrades id="http://ubuntu.com/hardy"/>
@@ -668,7 +668,7 @@
     <short-id>ubuntujaunty</short-id>
     <name>Ubuntu Jaunty Jackalope</name>
     <version>9.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Jaunty Jackalope</codename>
     <upgrades id="http://ubuntu.com/intrepid"/>
@@ -724,7 +724,7 @@
     <short-id>ubuntukarmic</short-id>
     <name>Ubuntu Karmic Koala</name>
     <version>9.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Karmic Koala</codename>
     <upgrades id="http://ubuntu.com/jaunty"/>
@@ -776,7 +776,7 @@
     <short-id>ubuntulucid</short-id>
     <name>Ubuntu Lucid Lynx LTS</name>
     <version>10.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Lucid Lynx</codename>
     <upgrades id="http://ubuntu.com/karmic"/>
@@ -842,7 +842,7 @@
     <short-id>ubuntumaverick</short-id>
     <name>Ubuntu Maverick Meerkat</name>
     <version>10.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Maverick Meerkat</codename>
     <upgrades id="http://ubuntu.com/lucid"/>
@@ -907,7 +907,7 @@
     <short-id>ubuntunatty</short-id>
     <name>Ubuntu Natty Narwhal</name>
     <version>11.04</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Natty Narwhal</codename>
     <upgrades id="http://ubuntu.com/maverick"/>
@@ -972,7 +972,7 @@
     <short-id>ubuntuoneiric</short-id>
     <name>Ubuntu Oneiric Ocelot</name>
     <version>11.10</version>
-    <vendor>Canonical</vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
     <codename>Oneiric Ocelot</codename>
     <upgrades id="http://ubuntu.com/natty"/>
