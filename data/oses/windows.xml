@@ -86,6 +86,14 @@
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
 
+    <media arch="i386">
+      <iso>
+        <volume-id>WIN2000</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+
+
     <resources arch="i386">
       <minimum>
         <cpu>133000000</cpu>
@@ -114,7 +122,14 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRTMP</volume-id>
+        <volume-id>GRTMP|(MX|VX)2PFPP|MRMSD2</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>AX2PXFPP</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -133,16 +148,6 @@
         <storage>2147483648</storage>
       </recommended>
     </resources>
-  </os>
-
-  <os id="http://microsoft.com/winxp64">
-    <short-id>winxp64</short-id>
-    <name>Microsoft Windows XP (x86_64)</name>
-    <version>5.2</version>
-    <vendor>Microsoft</vendor>
-    <family>Windows</family>
-    <derives-from id="http://microsoft.com/windows"/>
-
     <resources arch="x86_64">
       <minimum>
         <cpu>733000000</cpu>
@@ -163,7 +168,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>.*CRMS.*</volume-id>
+        <volume-id>CRMEFPP|CR0ECD2</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>CRMEXFPP|CR0ECD2</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -206,9 +217,15 @@
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
 
+    <media arch="i686">
+      <iso>
+        <volume-id>KRTMSVOL|GRMSVOL</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>.*GRMS.*</volume-id>
+        <volume-id>KRTMSXVOL|GRMSXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -253,6 +270,20 @@
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
 
+    <media arch="i686">
+      <iso>
+        <volume-id>FB1EVOL</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>FB1EXVOL</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+
+
     <resources arch="all">
       <minimum>
         <cpu>800000000</cpu>
@@ -279,13 +310,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>.*G.*RMC.*</volume-id>
+        <volume-id>GRMCULFRER|GSP1RMCPRFRER</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>.*G.*RMC.*X.*</volume-id>
+        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
