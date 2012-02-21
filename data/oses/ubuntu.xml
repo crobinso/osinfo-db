@@ -1,11 +1,81 @@
 <libosinfo version="0.0.1">
 
+  <os id="http://ubuntu.com/warty">
+    <short-id>ubuntuwarty</short-id>
+    <name>Ubuntu Warty Warthog</name>
+    <version>4.10</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+  </os>
+
+  <os id="http://ubuntu.com/hoary">
+    <short-id>ubuntuhoary</short-id>
+    <name>Ubuntu Hoary Hedgehog</name>
+    <version>5.04</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/warty"/>
+    <derives id="http://ubuntu.com/warty"/>
+  </os>
+
+  <os id="http://ubuntu.com/breezy">
+    <short-id>ubuntubreezy</short-id>
+    <name>Ubuntu Breezy Badger</name>
+    <version>5.10</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/hoary"/>
+    <derives id="http://ubuntu.com/hoary"/>
+  </os>
+
+  <os id="http://ubuntu.com/dapper">
+    <short-id>ubuntudapper</short-id>
+    <name>Ubuntu Dapper Drake LTS</name>
+    <version>6.06</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/breezy"/>
+    <derives id="http://ubuntu.com/breezy"/>
+  </os>
+
+  <os id="http://ubuntu.com/edgy">
+    <short-id>ubuntuedgy</short-id>
+    <name>Ubuntu Edgy Eft</name>
+    <version>6.10</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/dapper"/>
+    <derives id="http://ubuntu.com/dapper"/>
+  </os>
+
+  <os id="http://ubuntu.com/feisty">
+    <short-id>ubuntufeisty</short-id>
+    <name>Ubuntu Feisty Fawn</name>
+    <version>7.04</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/edgy"/>
+    <derives id="http://ubuntu.com/edgy"/>
+  </os>
+
+  <os id="http://ubuntu.com/gutsy">
+    <short-id>ubuntugutsy</short-id>
+    <name>Ubuntu Gutsy Gibbon</name>
+    <version>7.10</version>
+    <vendor>Canonical</vendor>
+    <family>Linux</family>
+    <upgrades id="http://ubuntu.com/feisty"/>
+    <derives id="http://ubuntu.com/feisty"/>
+  </os>
+
   <os id="http://ubuntu.com/hardy">
     <short-id>ubuntuhardy</short-id>
-    <name>Ubuntu Hardy Heron</name>
+    <name>Ubuntu Hardy Heron LTS</name>
     <version>8.04</version>
     <vendor>Canonical</vendor>
     <family>Linux</family>
+    <upgrades id="http://ubuntu.com/gutsy"/>
+    <derives id="http://ubuntu.com/gutsy"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -19,6 +89,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/hardy"/>
+    <derives id="http://ubuntu.com/hardy"/>
   </os>
 
   <os id="http://ubuntu.com/jaunty">
@@ -28,6 +99,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/intrepid"/>
+    <derives id="http://ubuntu.com/intrepid"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
@@ -41,15 +113,17 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/jaunty"/>
+    <derives id="http://ubuntu.com/jaunty"/>
   </os>
 
   <os id="http://ubuntu.com/lucid">
     <short-id>ubuntulucid</short-id>
-    <name>Ubuntu Lucid Lynx</name>
+    <name>Ubuntu Lucid Lynx LTS</name>
     <version>10.04</version>
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/karmic"/>
+    <derives id="http://ubuntu.com/karmic"/>
 
     <resources arch="all">
       <minimum>
@@ -92,6 +166,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/lucid"/>
+    <derives id="http://ubuntu.com/lucid"/>
 
     <resources arch="all">
       <minimum>
@@ -134,6 +209,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/maverick"/>
+    <derives id="http://ubuntu.com/maverick"/>
 
     <resources arch="all">
       <minimum>
@@ -176,6 +252,7 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
+    <derives id="http://ubuntu.com/natty"/>
 
     <resources arch="all">
       <minimum>
