@@ -7,6 +7,9 @@
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
 
+    <release-date>2003-11-05</release-date>
+    <eol-date>2004-09-20</eol-date>
+
     <!-- XXX upgrades/derives RHL -->
 
     <devices>
@@ -43,6 +46,9 @@
     <upgrades id="http://fedoraproject.org/fedora/1"/>
     <derives-from id="http://fedoraproject.org/fedora/1"/>
 
+    <release-date>2004-05-18</release-date>
+    <eol-date>2005-04-11</eol-date>
+
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/i386/iso/FC2-i386-disc1.iso</url>
       <iso>
@@ -72,6 +78,9 @@
     <upgrades id="http://fedoraproject.org/fedora/2"/>
     <derives-from id="http://fedoraproject.org/fedora/2"/>
 
+    <release-date>2004-11-08</release-date>
+    <eol-date>2006-01-16</eol-date>
+
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/i386/iso/FC3-i386-disc1.iso</url>
       <iso>
@@ -100,6 +109,9 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/3"/>
     <derives-from id="http://fedoraproject.org/fedora/3"/>
+
+    <release-date>2005-06-13</release-date>
+    <eol-date>2006-08-07</eol-date>
 
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/FC4-i386-disc1.iso</url>
@@ -139,6 +151,9 @@
     <upgrades id="http://fedoraproject.org/fedora/4"/>
     <derives-from id="http://fedoraproject.org/fedora/4"/>
 
+    <release-date>2006-03-20</release-date>
+    <eol-date>2007-07-02</eol-date>
+
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc1.iso</url>
       <iso>
@@ -177,6 +192,9 @@
     <upgrades id="http://fedoraproject.org/fedora/5"/>
     <derives-from id="http://fedoraproject.org/fedora/5"/>
 
+    <release-date>2006-10-24</release-date>
+    <eol-date>2007-12-07</eol-date>
+
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc1.iso</url>
       <iso>
@@ -214,6 +232,9 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/6"/>
     <derives-from id="http://fedoraproject.org/fedora/6"/>
+
+    <release-date>2007-05-31</release-date>
+    <eol-date>2008-06-13</eol-date>
 
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/iso/F-7-i386-DVD.iso</url>
@@ -271,6 +292,9 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/7"/>
     <derives-from id="http://fedoraproject.org/fedora/7"/>
+
+    <release-date>2007-11-08</release-date>
+    <eol-date>2009-01-07</eol-date>
 
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/i386/iso/Fedora-8-i386-DVD.iso</url>
@@ -338,6 +362,9 @@
     <upgrades id="http://fedoraproject.org/fedora/8"/>
     <derives-from id="http://fedoraproject.org/fedora/8"/>
 
+    <release-date>2008-05-13</release-date>
+    <eol-date>2009-07-10</eol-date>
+
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
       <!-- Apparently F9 has selinux errors when installing with virtio:
@@ -403,6 +430,9 @@
     <upgrades id="http://fedoraproject.org/fedora/9"/>
     <derives-from id="http://fedoraproject.org/fedora/9"/>
 
+    <release-date>2008-11-25</release-date>
+    <eol-date>2009-12-18</eol-date>
+
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
     </devices>
@@ -464,6 +494,9 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/10"/>
     <derives-from id="http://fedoraproject.org/fedora/10"/>
+
+    <release-date>2009-06-09</release-date>
+    <eol-date>2010-06-25</eol-date>
 
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
@@ -527,6 +560,9 @@
     <upgrades id="http://fedoraproject.org/fedora/11"/>
     <derives-from id="http://fedoraproject.org/fedora/11"/>
 
+    <release-date>2009-11-17</release-date>
+    <eol-date>2010-12-02</eol-date>
+
     <media arch="i386">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-DVD.iso</url>
       <iso>
@@ -584,6 +620,9 @@
     <upgrades id="http://fedoraproject.org/fedora/12"/>
     <derives-from id="http://fedoraproject.org/fedora/12"/>
 
+    <release-date>2010-05-25</release-date>
+    <eol-date>2011-06-04</eol-date>
+
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-DVD.iso</url>
       <iso>
@@ -631,6 +670,9 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/13"/>
     <derives-from id="http://fedoraproject.org/fedora/13"/>
+
+    <release-date>2010-11-02</release-date>
+    <eol-date>2011-12-08</eol-date>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-DVD.iso</url>
@@ -694,6 +736,8 @@
     <upgrades id="http://fedoraproject.org/fedora/14"/>
     <derives-from id="http://fedoraproject.org/fedora/14"/>
 
+    <release-date>2011-05-24</release-date>
+
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/iso/Fedora-15-i386-DVD.iso</url>
       <iso>
@@ -755,6 +799,8 @@
     <family>Linux</family>
     <upgrades id="http://fedoraproject.org/fedora/15"/>
     <derives-from id="http://fedoraproject.org/fedora/15"/>
+
+    <release-date>2011-11-08</release-date>
 
     <media arch="i386">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/iso/Fedora-16-i386-DVD.iso</url>

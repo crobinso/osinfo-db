@@ -7,6 +7,9 @@
     <vendor>Canonical</vendor>
     <family>Linux</family>
 
+    <release-date>2004-10-20</release-date>
+    <eol-date>2006-04-30</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
       <iso>
@@ -45,6 +48,9 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/warty"/>
     <derives id="http://ubuntu.com/warty"/>
+
+    <release-date>2005-04-08</release-date>
+    <eol-date>2006-10-31</eol-date>
 
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-i386.iso</url>
@@ -113,6 +119,8 @@
     <upgrades id="http://ubuntu.com/hoary"/>
     <derives id="http://ubuntu.com/hoary"/>
 
+    <release-date>2005-10-13</release-date>
+    <eol-date>2007-04-13</eol-date>
 
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-install-i386.iso</url>
@@ -208,6 +216,9 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/breezy"/>
     <derives id="http://ubuntu.com/breezy"/>
+
+    <release-date>2006-06-01</release-date>
+    <eol-date>2011-06-01</eol-date>
 
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-i386.iso</url>
@@ -331,6 +342,9 @@
     <upgrades id="http://ubuntu.com/dapper"/>
     <derives id="http://ubuntu.com/dapper"/>
 
+    <release-date>2006-10-26</release-date>
+    <eol-date>2008-04-25</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
       <iso>
@@ -406,6 +420,9 @@
     <upgrades id="http://ubuntu.com/edgy"/>
     <derives id="http://ubuntu.com/edgy"/>
 
+    <release-date>2007-04-19</release-date>
+    <eol-date>2008-10-19</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-i386.iso</url>
       <iso>
@@ -463,6 +480,9 @@
     <upgrades id="http://ubuntu.com/feisty"/>
     <derives id="http://ubuntu.com/feisty"/>
 
+    <release-date>2007-10-18</release-date>
+    <eol-date>2009-04-18</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-i386.iso</url>
       <iso>
@@ -519,6 +539,8 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/gutsy"/>
     <derives id="http://ubuntu.com/gutsy"/>
+
+    <release-date>2008-04-24</release-date>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -591,6 +613,9 @@
     <upgrades id="http://ubuntu.com/hardy"/>
     <derives id="http://ubuntu.com/hardy"/>
 
+    <release-date>2008-10-30</release-date>
+    <eol-date>2010-04-30</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-i386.iso</url>
       <iso>
@@ -638,6 +663,9 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/intrepid"/>
     <derives id="http://ubuntu.com/intrepid"/>
+
+    <release-date>2009-04-23</release-date>
+    <eol-date>2010-10-23</eol-date>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
@@ -691,6 +719,9 @@
     <upgrades id="http://ubuntu.com/jaunty"/>
     <derives id="http://ubuntu.com/jaunty"/>
 
+    <release-date>2009-10-29</release-date>
+    <eol-date>2011-04-30</eol-date>
+
     <media arch="i386">
       <url>http://old-releases.ubuntu.com/releases/karmic/ubuntu-9.10-server-i386.iso</url>
       <iso>
@@ -738,6 +769,8 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/karmic"/>
     <derives id="http://ubuntu.com/karmic"/>
+
+    <release-date>2010-04-29</release-date>
 
     <resources arch="all">
       <minimum>
@@ -802,6 +835,8 @@
     <upgrades id="http://ubuntu.com/lucid"/>
     <derives id="http://ubuntu.com/lucid"/>
 
+    <release-date>2010-10-10</release-date>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
@@ -864,6 +899,8 @@
     <upgrades id="http://ubuntu.com/maverick"/>
     <derives id="http://ubuntu.com/maverick"/>
 
+    <release-date>2011-04-28</release-date>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
@@ -925,6 +962,8 @@
     <family>Linux</family>
     <upgrades id="http://ubuntu.com/natty"/>
     <derives id="http://ubuntu.com/natty"/>
+
+    <release-date>2011-10-13</release-date>
 
     <resources arch="all">
       <minimum>
