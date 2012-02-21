@@ -22,6 +22,8 @@ BuildRequires: mingw32-binutils
 
 BuildRequires: mingw32-glib2
 BuildRequires: mingw32-libxml2
+BuildRequires: mingw32-libsoup
+BuildRequires: mingw32-libsoup-gnome
 BuildRequires: pkgconfig
 
 Requires: pkgconfig
