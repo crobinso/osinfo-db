@@ -1,11 +1,13 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://fedoraproject.org/fedora/5">
-    <short-id>fedora5</short-id>
-    <name>Fedora 5</name>
-    <version>5</version>
+  <os id="http://fedoraproject.org/fedora/1">
+    <short-id>fedora1</short-id>
+    <name>Fedora Core 1</name>
+    <version>1</version>
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
+
+    <!-- XXX upgrades/derives RHL -->
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
@@ -13,9 +15,49 @@
     </devices>
   </os>
 
+  <os id="http://fedoraproject.org/fedora/2">
+    <short-id>fedora2</short-id>
+    <name>Fedora Core 2</name>
+    <version>2</version>
+    <vendor>Fedora Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://fedoraproject.org/fedora/1"/>
+    <derives-from id="http://fedoraproject.org/fedora/1"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/3">
+    <short-id>fedora3</short-id>
+    <name>Fedora Core 3</name>
+    <version>3</version>
+    <vendor>Fedora Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://fedoraproject.org/fedora/2"/>
+    <derives-from id="http://fedoraproject.org/fedora/2"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/4">
+    <short-id>fedora4</short-id>
+    <name>Fedora Core 4</name>
+    <version>4</version>
+    <vendor>Fedora Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://fedoraproject.org/fedora/3"/>
+    <derives-from id="http://fedoraproject.org/fedora/3"/>
+  </os>
+
+  <os id="http://fedoraproject.org/fedora/5">
+    <short-id>fedora5</short-id>
+    <name>Fedora Core 5</name>
+    <version>5</version>
+    <vendor>Fedora Project</vendor>
+    <family>Linux</family>
+    <upgrades id="http://fedoraproject.org/fedora/4"/>
+    <derives-from id="http://fedoraproject.org/fedora/4"/>
+  </os>
+
   <os id="http://fedoraproject.org/fedora/6">
     <short-id>fedora6</short-id>
-    <name>Fedora 6</name>
+    <name>Fedora Core 6</name>
     <version>6</version>
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
