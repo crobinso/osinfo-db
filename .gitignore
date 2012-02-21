@@ -48,6 +48,7 @@ test/test-oslist
 test/test-product
 test/test-platform
 test/test-platformlist
+test/test-isodetect
 build/
 gtk-doc.make
 data/pci.ids
