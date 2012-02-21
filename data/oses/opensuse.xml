@@ -74,7 +74,7 @@
     </media>
 
     <media arch="i586" live="true">
-      <url>http://software.opensuse.org/113/en</url>
+<!--      <url>http://software.opensuse.org/113/en</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -84,7 +84,7 @@
       <initrd>initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://software.opensuse.org/113/en</url>
+<!--      <url>http://software.opensuse.org/113/en</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -134,7 +134,7 @@
     </media>
 
     <media arch="i586" live="true">
-      <url>http://software.opensuse.org/114/pl</url>
+<!--      <url>http://software.opensuse.org/114/pl</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -142,7 +142,7 @@
       </iso>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://software.opensuse.org/114/pl</url>
+<!--      <url>http://software.opensuse.org/114/pl</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -190,7 +190,7 @@
     </media>
 
     <media arch="i586" live="true">
-      <url>http://software.opensuse.org/121/pl</url>
+<!--      <url>http://software.opensuse.org/121/pl</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -198,7 +198,7 @@
       </iso>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://software.opensuse.org/121/pl</url>
+<!--      <url>http://software.opensuse.org/121/pl</url>-->
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
