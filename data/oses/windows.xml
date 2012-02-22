@@ -122,7 +122,7 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRTMP|(MX|VX)2PFPP|MRMSD2</volume-id>
+        <volume-id>GRTMP|MX2PFPP|VX2PFPP|MRMSD2|VX2PRMFPP</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -168,13 +168,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>CRMEFPP|CR0ECD2</volume-id>
+        <volume-id>CRMEFPP|CR0ECD2|BX2SFPP|BRMSCD2FRE|NRMSFPP</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>CRMEXFPP|CR0ECD2</volume-id>
+        <volume-id>CRMEXFPP|CR0ECD2|BX2SXFPP|BRMSCD2XFRE|ARMSXFPP</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -272,13 +272,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>FB1EVOL</volume-id>
+        <volume-id>FB1EVOL|LRMCFRE</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>FB1EXVOL</volume-id>
+        <volume-id>FB1EXVOL|LRMCXFRE</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -310,13 +310,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL</volume-id>
+        <volume-id>GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL</volume-id>
+        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL|GRMCNENXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
