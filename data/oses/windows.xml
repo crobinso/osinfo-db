@@ -310,13 +310,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRMCULFRER|GSP1RMCPRFRER</volume-id>
+        <volume-id>GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER</volume-id>
+        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
