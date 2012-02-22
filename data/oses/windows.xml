@@ -270,13 +270,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>KRTMSVOL</volume-id>
+        <volume-id>KRTMSVOL|KRTMSCHK</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>KRTMSXVOL</volume-id>
+        <volume-id>KRTMSXVOL|KRTMSXCHK</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -355,13 +355,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>FB1EVOL|LRMCFRE</volume-id>
+        <volume-id>FB1EVOL|LRMCFRE|FRTMBVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>FB1EXVOL|LRMCXFRE</volume-id>
+        <volume-id>FB1EXVOL|LRMCXFRE|FRTMBXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
