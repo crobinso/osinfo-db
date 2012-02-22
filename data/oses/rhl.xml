@@ -1,0 +1,280 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://redhat.com/rhl/1.0">
+    <short-id>rhl-1.0</short-id>
+    <name>Red Hat Linux 1.0</name>
+    <version>1.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Mother's Day</codename>
+
+    <release-date>1994-11-03</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/1.1">
+    <short-id>rhl-1.1</short-id>
+    <name>Red Hat Linux 1.1</name>
+    <version>1.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Mother's Day + 0.1</codename>
+    <upgrades id="http://redhat.com/rhl/1.0"/>
+    <derives-from id="http://redhat.com/rhl/1.0"/>
+
+    <release-date>1995-08-01</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/2.0">
+    <short-id>rhl-2.0</short-id>
+    <name>Red Hat Linux 2.0</name>
+    <version>2.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <upgrades id="http://redhat.com/rhl/1.1"/>
+    <derives-from id="http://redhat.com/rhl/1.1"/>
+
+    <release-date>1995-09-20</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/2.1">
+    <short-id>rhl-2.1</short-id>
+    <name>Red Hat Linux 2.1</name>
+    <version>2.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <upgrades id="http://redhat.com/rhl/2.0"/>
+    <derives-from id="http://redhat.com/rhl/2.0"/>
+
+    <release-date>1995-11-23</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/3.0.3">
+    <short-id>rhl-3.0.3</short-id>
+    <name>Red Hat Linux 3.0.3</name>
+    <version>3.0.3</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Picasso</codename>
+    <upgrades id="http://redhat.com/rhl/2.1"/>
+    <derives-from id="http://redhat.com/rhl/2.1"/>
+
+    <release-date>1996-05-01</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/4.0">
+    <short-id>rhl-4.0</short-id>
+    <name>Red Hat Linux 4.0</name>
+    <version>4.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Colgate</codename>
+    <upgrades id="http://redhat.com/rhl/3.0.3"/>
+    <derives-from id="http://redhat.com/rhl/3.0.3"/>
+
+    <release-date>1996-10-03</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/4.1">
+    <short-id>rhl-4.1</short-id>
+    <name>Red Hat Linux 4.1</name>
+    <version>4.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Vanderbilt</codename>
+    <upgrades id="http://redhat.com/rhl/4.0"/>
+    <derives-from id="http://redhat.com/rhl/4.0"/>
+
+    <release-date>1997-02-03</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/4.2">
+    <short-id>rhl-4.2</short-id>
+    <name>Red Hat Linux 4.2</name>
+    <version>4.2</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Biltmore</codename>
+    <upgrades id="http://redhat.com/rhl/4.1"/>
+    <derives-from id="http://redhat.com/rhl/4.1"/>
+
+    <release-date>1997-05-19</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/5.0">
+    <short-id>rhl-5.0</short-id>
+    <name>Red Hat Linux 5.0</name>
+    <version>5.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Hurricane</codename>
+    <upgrades id="http://redhat.com/rhl/4.2"/>
+    <derives-from id="http://redhat.com/rhl/4.2"/>
+
+    <release-date>1997-12-01</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/5.1">
+    <short-id>rhl-5.1</short-id>
+    <name>Red Hat Linux 5.1</name>
+    <version>5.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Manhattan</codename>
+    <upgrades id="http://redhat.com/rhl/5.0"/>
+    <derives-from id="http://redhat.com/rhl/5.0"/>
+
+    <release-date>1998-05-22</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/5.2">
+    <short-id>rhl-5.2</short-id>
+    <name>Red Hat Linux 5.2</name>
+    <version>5.2</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Apollo</codename>
+    <upgrades id="http://redhat.com/rhl/5.1"/>
+    <derives-from id="http://redhat.com/rhl/5.1"/>
+
+    <release-date>1998-11-02</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/6.0">
+    <short-id>rhl-6.0</short-id>
+    <name>Red Hat Linux 6.0</name>
+    <version>6.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Hedwig</codename>
+    <upgrades id="http://redhat.com/rhl/5.1"/>
+    <derives-from id="http://redhat.com/rhl/5.1"/>
+
+    <release-date>1999-04-26</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/6.1">
+    <short-id>rhl-6.1</short-id>
+    <name>Red Hat Linux 6.1</name>
+    <version>6.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Cartman</codename>
+    <upgrades id="http://redhat.com/rhl/6.0"/>
+    <derives-from id="http://redhat.com/rhl/6.0"/>
+
+    <release-date>1999-10-04</release-date>
+    <eol-date></eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/6.2">
+    <short-id>rhl-6.2</short-id>
+    <name>Red Hat Linux 6.2</name>
+    <version>6.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Zoot</codename>
+    <upgrades id="http://redhat.com/rhl/6.1"/>
+    <derives-from id="http://redhat.com/rhl/6.1"/>
+
+    <release-date>2000-04-03</release-date>
+    <eol-date>2003-03-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/7">
+    <short-id>rhl-7</short-id>
+    <name>Red Hat Linux 7</name>
+    <version>7</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Guinness</codename>
+    <upgrades id="http://redhat.com/rhl/6.1"/>
+    <derives-from id="http://redhat.com/rhl/6.1"/>
+
+    <release-date>2000-09-25</release-date>
+    <eol-date>2003-03-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/7.1">
+    <short-id>rhl-7.1</short-id>
+    <name>Red Hat Linux 7.1</name>
+    <version>7.1</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Seawolf</codename>
+    <upgrades id="http://redhat.com/rhl/7"/>
+    <derives-from id="http://redhat.com/rhl/7"/>
+
+    <release-date>2001-04-16</release-date>
+    <eol-date>2003-12-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/7.2">
+    <short-id>rhl-7.2</short-id>
+    <name>Red Hat Linux 7.2</name>
+    <version>7.2</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Enigma</codename>
+    <upgrades id="http://redhat.com/rhl/7.1"/>
+    <derives-from id="http://redhat.com/rhl/7.1"/>
+
+    <release-date>2001-10-22</release-date>
+    <eol-date>2003-12-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/7.3">
+    <short-id>rhl-7.3</short-id>
+    <name>Red Hat Linux 7.3</name>
+    <version>7.3</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Valhalla</codename>
+    <upgrades id="http://redhat.com/rhl/7.2"/>
+    <derives-from id="http://redhat.com/rhl/7.2"/>
+
+    <release-date>2002-05-06</release-date>
+    <eol-date>2003-12-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/8.0">
+    <short-id>rhl-8.0</short-id>
+    <name>Red Hat Linux 8.0</name>
+    <version>8.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Psyche</codename>
+    <upgrades id="http://redhat.com/rhl/7.3"/>
+    <derives-from id="http://redhat.com/rhl/7.3"/>
+
+    <release-date>2002-09-30</release-date>
+    <eol-date>2003-12-31</eol-date>
+  </os>
+
+  <os id="http://redhat.com/rhl/9">
+    <short-id>rhl-9</short-id>
+    <name>Red Hat Linux 9</name>
+    <version>9</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>Linux</family>
+    <codename>Shrike</codename>
+    <upgrades id="http://redhat.com/rhl/8.0"/>
+    <derives-from id="http://redhat.com/rhl/8.0"/>
+
+    <release-date>2003-03-31</release-date>
+    <eol-date>2004-05-01</eol-date>
+  </os>
+
+
+</libosinfo>

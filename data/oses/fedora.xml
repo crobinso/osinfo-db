@@ -6,6 +6,8 @@
     <version>1</version>
     <vendor>Fedora Project</vendor>
     <family>Linux</family>
+    <upgrades id="http://redhat.com/rhl/9"/>
+    <derives-from id="http://redhat.com/rhl/9"/>
 
     <release-date>2003-11-05</release-date>
     <eol-date>2004-09-20</eol-date>
