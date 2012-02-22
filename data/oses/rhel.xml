@@ -24,7 +24,7 @@
     <upgrades id="http://redhat.com/rhel/2.1"/>
     <derives-from id="http://redhat.com/rhel/2.1"/>
 
-    <release-date>2003-02-01</release-date>
+    <release-date>2003-02-14</release-date>
     <eol-date>2009-05-31</eol-date>
   </os>
 
@@ -38,7 +38,7 @@
     <upgrades id="http://redhat.com/rhel/2.1/u1"/>
     <derives-from id="http://redhat.com/rhel/2.1/u1"/>
 
-    <release-date>2003-06-02</release-date>
+    <release-date>2003-05-02</release-date>
     <eol-date>2009-05-31</eol-date>
   </os>
 
