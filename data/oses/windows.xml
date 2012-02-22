@@ -168,13 +168,64 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>CRMEFPP|CR0ECD2|BX2SFPP|BRMSCD2FRE|NRMSFPP</volume-id>
+        <volume-id>NRMSFPP</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>CRMEXFPP|CR0ECD2|BX2SXFPP|BRMSCD2XFRE|ARMSXFPP</volume-id>
+        <volume-id>ARMSXFPP</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>133000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>2147483648</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>550000000</cpu>
+        <ram>268435456</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>4294967296</storage>
+      </minimum>
+
+      <recommended>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+  </os>
+
+  <os id="http://microsoft.com/win2k3r2">
+    <short-id>win2k3r2</short-id>
+    <name>Microsoft Windows Server 2003 R2</name>
+    <version>5.2</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win2k3"/>
+
+    <media arch="i386">
+      <iso>
+        <volume-id>CRMEFPP|CR0ECD2|BX2SFPP|BRMSCD2FRE</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>CRMEXFPP|CR0ECD2|BX2SXFPP|BRMSCD2XFRE</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -215,17 +266,17 @@
     <vendor>Microsoft</vendor>
     <family>Windows</family>
     <derives-from id="http://microsoft.com/windows"/>
-    <upgrades id="http://microsoft.com/win2k3"/>
+    <upgrades id="http://microsoft.com/win2k3r2"/>
 
     <media arch="i686">
       <iso>
-        <volume-id>KRTMSVOL|GRMSVOL|GRMSFRER|GRMSHVOL</volume-id>
+        <volume-id>KRTMSVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>KRTMSXVOL|GRMSXVOL|GRMSXFRER|GRMSHXVOL</volume-id>
+        <volume-id>KRTMSXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -244,6 +295,38 @@
         <storage>42949672960</storage>
       </recommended>
     </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1400000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+  </os>
+
+  <os id="http://microsoft.com/win2k8r2">
+    <short-id>win2k8r2</short-id>
+    <name>Microsoft Windows Server 2008 R2</name>
+    <version>6.1</version>
+    <vendor>Microsoft</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win2k8"/>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>GRMSXVOL|GRMSXFRER|GRMSHXVOL</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
 
     <resources arch="x86_64">
       <minimum>
