@@ -219,13 +219,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>KRTMSVOL|GRMSVOL</volume-id>
+        <volume-id>KRTMSVOL|GRMSVOL|GRMSFRER|GRMSHVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>KRTMSXVOL|GRMSXVOL</volume-id>
+        <volume-id>KRTMSXVOL|GRMSXVOL|GRMSXFRER|GRMSHXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
