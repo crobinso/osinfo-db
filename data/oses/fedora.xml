@@ -41,19 +41,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/1/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>1</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/1/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>1</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
@@ -91,19 +87,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>2</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>2</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
@@ -141,19 +133,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>3</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>3</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
@@ -200,19 +188,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>4</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>4</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
@@ -259,19 +243,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>5</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>5</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
@@ -318,19 +298,15 @@
 
     <tree arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>6</version>
-	<arch>i386</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
     <tree arch="x86_64">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/os/</url>
-      <treeinfo>
-	<family>Fedora</family>
-	<version>6</version>
-	<arch>x86_64</arch>
-      </treeinfo>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
     </tree>
   </os>
 
