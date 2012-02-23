@@ -89,7 +89,6 @@
     <media arch="i386">
       <iso>
         <volume-id>WIN2000</volume-id>
-        <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
 

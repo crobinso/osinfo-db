@@ -142,7 +142,7 @@
     <device-id>25ab</device-id>
   </device>
 
-  <device id="isa-ib700">
+  <device id="isa://ib700">
     <name>ib700</name>
     <bus-type>isa</bus-type>
     <class>watchdog</class>

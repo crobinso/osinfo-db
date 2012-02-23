@@ -787,7 +787,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>67108864</ram>
         <storage>5368709120</storage>
       </minimum>
@@ -797,27 +797,6 @@
         <storage>5368709120</storage>
       </recommended>
     </resources>
-
-
-    <media arch="i386">
-      <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-server-i386.iso</url>
-      <iso>
-        <volume-id>Ubuntu(-Server)? 10.04 i386</volume-id>
-        <system-id>LINUX</system-id>
-      </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
-    </media>
-    <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-server-amd64.iso</url>
-      <iso>
-        <volume-id>Ubuntu(-Server)? 10.04 amd64</volume-id>
-        <system-id>LINUX</system-id>
-      </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
-    </media>
-
     <media arch="i386" live="true">
       <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-desktop-i386.iso</url>
       <iso>
@@ -853,7 +832,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>67108864</ram>
         <storage>5368709120</storage>
       </minimum>
@@ -918,7 +897,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>67108864</ram>
         <storage>5368709120</storage>
       </minimum>
@@ -983,7 +962,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>67108864</ram>
         <storage>5368709120</storage>
       </minimum>

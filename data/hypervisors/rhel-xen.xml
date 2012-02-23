@@ -1,11 +1,12 @@
 <libosinfo version="0.0.1">
 
   <platform id="http://redhat.com/rhel/5.0/xen/3.0.3">
-    <derives id="http://xen.org/xen/3.0.3"/>
-
     <short-id>xen-3.0.3-rhel-5.0</short-id>
     <name>Xen 3.0.3 (RHEL 5.0)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.0.3</version>
+
+    <derives-from id="http://xen.org/xen/3.0.3"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -16,11 +17,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.1/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.1</short-id>
     <name>Xen 3.1.0 (RHEL 5.1)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -31,11 +33,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.2/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.2</short-id>
     <name>Xen 3.1.0 (RHEL 5.2)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -46,11 +49,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.3/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.3</short-id>
     <name>Xen 3.1.0 (RHEL 5.3)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -61,11 +65,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.4/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.4</short-id>
     <name>Xen 3.1.0 (RHEL 5.4)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -76,11 +81,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.5/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.5</short-id>
     <name>Xen 3.1.0 (RHEL 5.5)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -91,11 +97,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.6/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.6</short-id>
     <name>Xen 3.1.0 (RHEL 5.6)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>
@@ -106,11 +113,12 @@
   </platform>
 
   <platform id="http://redhat.com/rhel/5.7/xen/3.1.0">
-    <derives id="http://xen.org/xen/3.1.0"/>
-
     <short-id>xen-3.1.0-rhel-5.7</short-id>
     <name>Xen 3.1.0 (RHEL 5.7)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0</version>
+
+    <derives-from id="http://xen.org/xen/3.1.0"/>
 
     <devices>
       <device id="http://xen.org/devices/block"/>

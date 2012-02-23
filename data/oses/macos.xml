@@ -62,12 +62,12 @@
     <upgrades id="http://apple.com/macosx/10.5" />
 
     <resources arch="all">
-      <minimal>
+      <minimum>
         <n-cpus>2</n-cpus>
         <cpu>1600000000</cpu>
         <ram>2147483648</ram>
         <storage>7516192768</storage>
-      </minimal>
+      </minimum>
     </resources>
 
   </os>
@@ -81,12 +81,12 @@
     <upgrades id="http://apple.com/macosx/10.6" />
 
     <resources arch="all">
-      <minimal>
+      <minimum>
         <n-cpus>2</n-cpus>
         <cpu>1600000000</cpu>
         <ram>2147483648</ram>
         <storage>7516192768</storage>
-      </minimal>
+      </minimum>
     </resources>
 
   </os>

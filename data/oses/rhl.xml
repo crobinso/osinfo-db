@@ -9,7 +9,6 @@
     <codename>Mother's Day</codename>
 
     <release-date>1994-11-03</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/1.1">
@@ -23,7 +22,6 @@
     <derives-from id="http://redhat.com/rhl/1.0"/>
 
     <release-date>1995-08-01</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/2.0">
@@ -36,7 +34,6 @@
     <derives-from id="http://redhat.com/rhl/1.1"/>
 
     <release-date>1995-09-20</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/2.1">
@@ -49,7 +46,6 @@
     <derives-from id="http://redhat.com/rhl/2.0"/>
 
     <release-date>1995-11-23</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/3.0.3">
@@ -63,7 +59,6 @@
     <derives-from id="http://redhat.com/rhl/2.1"/>
 
     <release-date>1996-05-01</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/4.0">
@@ -77,7 +72,6 @@
     <derives-from id="http://redhat.com/rhl/3.0.3"/>
 
     <release-date>1996-10-03</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/4.1">
@@ -91,7 +85,6 @@
     <derives-from id="http://redhat.com/rhl/4.0"/>
 
     <release-date>1997-02-03</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/4.2">
@@ -105,7 +98,6 @@
     <derives-from id="http://redhat.com/rhl/4.1"/>
 
     <release-date>1997-05-19</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/5.0">
@@ -119,7 +111,6 @@
     <derives-from id="http://redhat.com/rhl/4.2"/>
 
     <release-date>1997-12-01</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/5.1">
@@ -133,7 +124,6 @@
     <derives-from id="http://redhat.com/rhl/5.0"/>
 
     <release-date>1998-05-22</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/5.2">
@@ -147,7 +137,6 @@
     <derives-from id="http://redhat.com/rhl/5.1"/>
 
     <release-date>1998-11-02</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/6.0">
@@ -161,7 +150,6 @@
     <derives-from id="http://redhat.com/rhl/5.1"/>
 
     <release-date>1999-04-26</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/6.1">
@@ -175,7 +163,6 @@
     <derives-from id="http://redhat.com/rhl/6.0"/>
 
     <release-date>1999-10-04</release-date>
-    <eol-date></eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/6.2">
@@ -189,7 +176,6 @@
     <derives-from id="http://redhat.com/rhl/6.1"/>
 
     <release-date>2000-04-03</release-date>
-    <eol-date>2003-03-31</eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/7">
@@ -203,7 +189,6 @@
     <derives-from id="http://redhat.com/rhl/6.1"/>
 
     <release-date>2000-09-25</release-date>
-    <eol-date>2003-03-31</eol-date>
   </os>
 
   <os id="http://redhat.com/rhl/7.1">

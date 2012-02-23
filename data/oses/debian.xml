@@ -106,7 +106,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>134217728</ram>
         <storage>5368709120</storage>
       </minimum>
@@ -134,7 +134,7 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-        <n-cpu>1</n-cpu>
+        <n-cpus>1</n-cpus>
         <ram>134217728</ram>
         <storage>5368709120</storage>
       </minimum>
