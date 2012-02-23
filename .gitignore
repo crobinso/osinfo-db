@@ -49,7 +49,9 @@ test/test-product
 test/test-platform
 test/test-platformlist
 test/test-isodetect
+test/test-mediaurl
 build/
 gtk-doc.make
 data/pci.ids
 data/usb.ids
+tools/osinfo-detect
