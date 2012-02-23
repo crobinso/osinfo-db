@@ -69,11 +69,15 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_mingw32_includedir}/libosinfo-1.0/
 %dir %{_mingw32_includedir}/libosinfo-1.0/osinfo
 %{_mingw32_includedir}/libosinfo-1.0/osinfo/*.h
+%dir %{_mingw32_datadir}/libosinfo
+%dir %{_mingw32_datadir}/libosinfo/data
+%dir %{_mingw32_datadir}/libosinfo/schemas
 %{_mingw32_datadir}/libosinfo/data/usb.ids
 %{_mingw32_datadir}/libosinfo/data/pci.ids
 %{_mingw32_datadir}/libosinfo/data/devices
 %{_mingw32_datadir}/libosinfo/data/oses
 %{_mingw32_datadir}/libosinfo/data/hypervisors
+%{_mingw32_datadir}/libosinfo/schemas/libosinfo.rng
 
 
 %changelog
