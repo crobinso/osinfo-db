@@ -38,6 +38,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/1/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>1</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/1/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>1</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/2">
@@ -71,6 +88,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>2</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>2</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/3">
@@ -104,6 +138,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>3</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>3</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/4">
@@ -146,6 +197,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>4</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>4</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/5">
@@ -188,6 +256,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>5</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>5</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/6">
@@ -230,6 +315,23 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>6</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>6</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/7">
@@ -291,6 +393,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>7</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>7</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/8">
@@ -361,6 +480,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>8</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>8</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/9">
@@ -430,6 +566,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/9/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>9</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/9/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>9</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/10">
@@ -496,6 +649,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/10/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>10</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/10/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>10</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/11">
@@ -562,6 +732,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>11</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>11</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/12">
@@ -623,6 +810,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>12</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>12</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
   </os>
 
   <os id="http://fedoraproject.org/fedora/13">
@@ -675,6 +879,24 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>13</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>13</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
   </os>
 
   <os id="http://fedoraproject.org/fedora/14">
@@ -727,6 +949,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>14</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>14</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
 
     <resources arch="all">
       <minimum>
@@ -793,6 +1032,23 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
 
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>15</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>15</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
@@ -857,6 +1113,23 @@
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>16</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>16</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
 
     <resources arch="all">
       <minimum>
