@@ -148,7 +148,7 @@
     <media arch="i386">
 <!--      <url>http://cdimage.debian.org/debian-cd/6.0.3/i386/iso-dvd/</url>-->
       <iso>
-        <volume-id>Debian 6.0.3 i386 1</volume-id>
+        <volume-id>Debian 6.0.\d i386 1</volume-id>
       </iso>
       <kernel>/vmlinuz</kernel>
       <initrd>/initrd.img</initrd>
@@ -156,7 +156,7 @@
     <media arch="x86_64">
 <!--      <url>http://cdimage.debian.org/debian-cd/6.0.3/amd64/iso-dvd/</url>-->
       <iso>
-        <volume-id>Debian 6.0.3 amd64 1</volume-id>
+        <volume-id>Debian 6.0.\d amd64 1</volume-id>
       </iso>
     </media>
 
