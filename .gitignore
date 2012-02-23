@@ -56,3 +56,6 @@ gtk-doc.make
 data/pci.ids
 data/usb.ids
 tools/osinfo-detect
+tools/osinfo-db-validate
+tools/osinfo-db-validate.exe
+tools/osinfo-db-validate.1

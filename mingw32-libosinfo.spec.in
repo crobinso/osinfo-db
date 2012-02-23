@@ -62,6 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_bindir}/osinfo-pciids-convert
 %{_mingw32_bindir}/osinfo-usbids-convert
 %{_mingw32_bindir}/osinfo-detect.exe
+%{_mingw32_bindir}/osinfo-db-validate.exe
 %{_mingw32_bindir}/libosinfo-1.0-0.dll
 %{_mingw32_libdir}/libosinfo-1.0.dll.a
 %{_mingw32_libdir}/libosinfo-1.0.la
@@ -77,7 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_datadir}/libosinfo/data/devices
 %{_mingw32_datadir}/libosinfo/data/oses
 %{_mingw32_datadir}/libosinfo/data/hypervisors
-%{_mingw32_datadir}/libosinfo/schemas/libosinfo.rng
+%{_mingw32_mandir}/man1/osinfo-db-validate.1*
 
 
 %changelog
