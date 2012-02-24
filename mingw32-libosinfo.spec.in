@@ -78,6 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_datadir}/libosinfo/data/devices
 %{_mingw32_datadir}/libosinfo/data/oses
 %{_mingw32_datadir}/libosinfo/data/hypervisors
+%{_mingw32_datadir}/libosinfo/schemas/libosinfo.rng
 %{_mingw32_mandir}/man1/osinfo-db-validate.1*
 %{_mingw32_mandir}/man1/osinfo-detect.1*
 
