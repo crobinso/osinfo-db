@@ -38,4 +38,3 @@ ACTION=="change", \
  ENV{OSINFO_INSTALLER}="", \
  ENV{OSINFO_LIVE}="", \
  ENV{OSINFO_MEDIA}=""
-
