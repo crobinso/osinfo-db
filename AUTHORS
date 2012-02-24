@@ -1,4 +1,20 @@
-Arjun Roy <arroy@redhat.com>
-Daniel P. Berrange <berrange@redhat.com>
-Zeeshan Ali (Khattak) <zeeshanak@gnome.org>
-Jim Meyering <meyering@redhat.com>
+       libosinfo Authors
+       =================
+
+Current maintainers:
+
+  Zeeshan Ali (Khattak) <zeeshanak@gnome.org>
+  Daniel P. Berrange <berrange@redhat.com>
+
+Previous maintainers:
+
+  Arjun Roy <arroy@redhat.com>
+
+Patches contributed by:
+
+  Matthew Booth <mbooth@redhat.com>
+  Christophe Fergeau <cfergeau@redhat.com>
+  Jim Meyering <meyering@redhat.com>
+  ...send patches to get your name here...
+
+-- End
