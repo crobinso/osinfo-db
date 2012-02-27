@@ -37,16 +37,4 @@
     </devices>
   </os>
 
-  <os id="http://openbsd.org/openbsd4">
-    <short-id>openbsd4</short-id>
-    <name>OpenBSD 4</name>
-    <version>4.9</version>
-    <family>UNIX</family>
-    <vendor>OpenBSD Project</vendor>
-
-    <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000"/>
-    </devices>
-  </os>
-
 </libosinfo>

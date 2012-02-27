@@ -1,0 +1,203 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://openbsd.org/openbsd/4.2">
+    <short-id>openbsd42</short-id>
+    <name>OpenBSD 4.2</name>
+    <version>4.2</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.2 Install CD</volume-id>
+	<application-id>OpenBSD 4.2 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.2 Install CD</volume-id>
+	<application-id>OpenBSD 4.2 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/4.3">
+    <short-id>openbsd43</short-id>
+    <name>OpenBSD 4.3</name>
+    <version>4.3</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.2'/>
+    <derives-from id='http://openbsd.org/openbsd/4.2'/>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.3 Install CD</volume-id>
+	<application-id>OpenBSD 4.3 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.3 Install CD</volume-id>
+	<application-id>OpenBSD 4.3 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/4.4">
+    <short-id>openbsd44</short-id>
+    <name>OpenBSD 4.4</name>
+    <version>4.4</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.3'/>
+    <derives-from id='http://openbsd.org/openbsd/4.3'/>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.4 Install CD</volume-id>
+	<application-id>OpenBSD 4.4 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.4 Install CD</volume-id>
+	<application-id>OpenBSD 4.4 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/4.5">
+    <short-id>openbsd45</short-id>
+    <name>OpenBSD 4.5</name>
+    <version>4.5</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.4'/>
+    <derives-from id='http://openbsd.org/openbsd/4.4'/>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.5 Install CD</volume-id>
+	<application-id>OpenBSD 4.5 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.5 Install CD</volume-id>
+	<application-id>OpenBSD 4.5 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/4.8">
+    <short-id>openbsd48</short-id>
+    <name>OpenBSD 4.8</name>
+    <version>4.8</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.5'/>
+    <derives-from id='http://openbsd.org/openbsd/4.5'/>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.8 Install CD</volume-id>
+	<application-id>OpenBSD 4.8 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.8 Install CD</volume-id>
+	<application-id>OpenBSD 4.8 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/4.9">
+    <short-id>openbsd49</short-id>
+    <name>OpenBSD 4.9</name>
+    <version>4.9</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.8'/>
+    <derives-from id='http://openbsd.org/openbsd/4.8'/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000"/>
+    </devices>
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.9 Install CD</volume-id>
+	<application-id>OpenBSD 4.9 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.9 Install CD</volume-id>
+	<application-id>OpenBSD 4.9 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+
+  <os id="http://openbsd.org/openbsd/5.0">
+    <short-id>openbsd50</short-id>
+    <name>OpenBSD 5.0</name>
+    <version>5.0</version>
+    <family>BSD</family>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.9'/>
+    <derives-from id='http://openbsd.org/openbsd/4.9'/>
+
+
+    <media arch='i386'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    5.0 Install CD</volume-id>
+	<application-id>OpenBSD 5.0 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   5.0 Install CD</volume-id>
+	<application-id>OpenBSD 5.0 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+</libosinfo>
