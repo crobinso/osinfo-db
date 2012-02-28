@@ -121,7 +121,7 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRTMP|MX2PFPP|VX2PFPP|MRMSD2|VX2PRMFPP</volume-id>
+        <volume-id>GRTMP|MX2PFPP|VX2PFPP|MRMSD2|VX2PRMFPP|WXPFPP|X1APFPP|VRMSD2|XRMSD2</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -269,13 +269,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>KRTMSVOL|KRTMSCHK</volume-id>
+        <volume-id>KRTMSVOL|KRTMSCHK|KRMWVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>KRTMSXVOL|KRTMSXCHK</volume-id>
+        <volume-id>KRTMSXVOL|KRTMSXCHK|KRMWXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -326,6 +326,12 @@
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
+    <media arch="ia64">
+      <iso>
+        <volume-id>GRMSIAIVOL</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
 
     <resources arch="x86_64">
       <minimum>
@@ -354,13 +360,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>FB1EVOL|LRMCFRE|FRTMBVOL</volume-id>
+        <volume-id>FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>FB1EXVOL|LRMCXFRE|FRTMBXVOL</volume-id>
+        <volume-id>FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
