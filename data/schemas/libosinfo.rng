@@ -344,6 +344,18 @@
     </element>
   </define>
 
+  <define name='installer'>
+    <element name='installer'>
+      <zeroOrMore>
+	<element name="script">
+	  <attribute name='id'>
+	    <ref name='url'/>
+	  </attribute>
+	</element>
+      </zeroOrMore>
+    </element>
+  </define>
+
   <define name='os'>
     <element name='os'>
       <ref name='product-attr'/>
@@ -362,6 +374,9 @@
         </zeroOrMore>
         <zeroOrMore>
           <ref name='tree'/>
+        </zeroOrMore>
+	<zeroOrMore>
+          <ref name='installer'/>
         </zeroOrMore>
       </interleave>
     </element>
@@ -384,6 +399,53 @@
   <define name='deployment'>
     <element name='deployment'>
       <empty/>
+    </element>
+  </define>
+
+  <define name='install-script'>
+    <element name='install-script'>
+      <attribute name='id'>
+        <ref name='url'/>
+      </attribute>
+      <element name='profile'>
+	<text/>
+      </element>
+      <element name='product-key-format'>
+	<text/>
+      </element>
+      <element name='template'>
+	<choice>
+	  <group>
+	    <attribute name="uri"/>
+	    <empty/>
+	  </group>
+	  <ref name="customElement"/>
+	</choice>
+      </element>
+      <ref name='product-attr'/>
+      <ref name='product-content'/>
+      <interleave>
+        <ref name='product-dates'/>
+        <ref name='product-rel'/>
+        <optional>
+          <ref name='devices-rel'/>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+
+  <define name="customElement">
+    <element>
+      <anyName/>
+      <zeroOrMore>
+        <choice>
+          <attribute>
+            <anyName/>
+          </attribute>
+          <text/>
+          <ref name="customElement"/>
+        </choice>
+      </zeroOrMore>
     </element>
   </define>
 
