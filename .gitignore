@@ -42,6 +42,7 @@ test/test-db
 test/test-devicelist
 test/test-filter
 test/test-hypervisorlist
+test/test-install-script
 test/test-loader
 test/test-productfilter
 test/test-oslist
@@ -64,3 +65,6 @@ tools/osinfo-db-validate.1
 tools/osinfo-query
 tools/osinfo-query.1
 tools/osinfo-query.exe
+tools/osinfo-install-script
+tools/osinfo-install-script.exe
+tools/osinfo-install-script.1
