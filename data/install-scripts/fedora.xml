@@ -1,0 +1,97 @@
+<libosinfo version="0.0.1">
+  <install-script id='http://fedoraproject.org/scripts/fedora/jeos'>
+    <profile>jeos</profile>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+	<xsl:template name="disk">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 9">
+	      <!-- virtio -->
+	      <xsl:text>vda</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="os/version &gt; 6">
+	      <!-- libata IDE -->
+	      <xsl:text>sda</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <!-- IDE -->
+	      <xsl:text>hda</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="rootfs">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 10">
+	      <xsl:text>ext4</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>ext3</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="bootfs">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 11">
+	      <xsl:text>ext4</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>ext3</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+text
+keyboard <xsl:value-of select="config/l10n-keyboard"/>
+lang <xsl:value-of select="config/l10n-language"/>
+<xsl:if test="os/version &lt; 7">
+langsupport --default <xsl:value-of select="config/l10n-language"/> <xsl:value-of select="config/l10n-language"/>
+mouse generic3ps/2 --device psaux
+</xsl:if>
+skipx
+network --device eth0 --bootproto dhcp
+rootpw <xsl:value-of select="config/admin-password"/>
+firewall --disabled
+authconfig --enableshadow --enablemd5
+<xsl:if test="os/version &gt; 1">
+selinux --enforcing
+</xsl:if>
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr <xsl:if test="os/version &lt; 14">yes</xsl:if>
+
+clearpart --all --drives=<xsl:call-template name="disk"/>
+
+<xsl:if test="os/version &gt; 15">
+part biosboot --fstype=biosboot --size=1
+</xsl:if>
+part /boot --fstype <xsl:call-template name="bootfs"/> --size=200 --ondisk=<xsl:call-template name="disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="disk"/>
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+reboot
+
+%packages
+@base
+@core
+<xsl:if test="os/version &gt; 6">
+@hardware-support
+</xsl:if>
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+
+</libosinfo>

@@ -359,6 +359,10 @@
         <storage>1610612736</storage>
       </minimum>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/2k3">
@@ -420,6 +424,10 @@
         <storage>8589934592</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/2k3r2">
@@ -475,6 +483,10 @@
         <storage>8589934592</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/2k8">
@@ -532,6 +544,10 @@
         <storage>42949672960</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/2k8r2">
@@ -574,6 +590,10 @@
         <storage>42949672960</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/vista">
@@ -616,6 +636,10 @@
         <storage>42949672960</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/7">
@@ -717,6 +741,10 @@
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
     </devices>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend'/>
+    </installer>
   </os>
 
 </libosinfo>

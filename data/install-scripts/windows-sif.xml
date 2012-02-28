@@ -1,0 +1,59 @@
+<libosinfo version="0.0.1">
+  <install-script id='http://microsoft.com/windows/sif'>
+    <profile>jeos</profile>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+	<xsl:template match="/install-script-config">
+;SetupMgrTag
+[Data]
+    AutoPartition=1
+    MsDosInitiated=No
+    UnattendedInstall=Yes
+
+[Unattended]
+    UnattendMode=FullUnattended
+    OemSkipEula=Yes
+    OemPreinstall=No
+    TargetPath=\WINDOWS
+    Repartition=Yes
+    WaitForReboot=No
+    UnattendSwitch=Yes
+
+[GuiUnattended]
+    AdminPassword=<xsl:value-of select="config/admin-password"/>
+    EncryptedAdminPassword=NO
+    AutoLogon=No
+    AutoLogonCount=1
+    OEMSkipRegional=1
+    TimeZone=35
+    OemSkipWelcome=1
+
+[UserData]
+    ProductKey=<xsl:value-of select="config/reg-productkey"/>
+    FullName="<xsl:value-of select="config/user-realname"/>"
+    ComputerName=
+
+[Display]
+    BitsPerPel=16
+    Xresolution=640
+    YResolution=480
+    Vrefresh=60
+
+[RegionalSettings]
+    LanguageGroup=1
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+
+[Networking]
+    InstallDefaultComponents=Yes
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>

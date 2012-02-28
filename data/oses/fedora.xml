@@ -52,6 +52,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/2">
@@ -99,6 +103,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/3">
@@ -146,6 +154,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/4">
@@ -202,6 +214,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/5">
@@ -258,6 +274,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/6">
@@ -314,6 +334,10 @@
       <initrd>images/pxeboot/initrd.img</initrd>
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/7">
@@ -393,6 +417,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/8">
@@ -481,6 +509,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/9">
@@ -568,6 +600,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/10">
@@ -652,6 +688,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/11">
@@ -736,6 +776,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/12">
@@ -815,6 +859,10 @@
 	<arch>x86_64</arch>
       </treeinfo>
     </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/13">
@@ -886,6 +934,9 @@
       </treeinfo>
     </tree>
 
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/14">
@@ -970,6 +1021,10 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/15">
@@ -1053,6 +1108,10 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/16">
@@ -1136,6 +1195,10 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
   <os id="http://fedoraproject.org/fedora/17">
@@ -1217,6 +1280,10 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+    </installer>
   </os>
 
 </libosinfo>
