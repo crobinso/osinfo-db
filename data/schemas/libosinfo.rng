@@ -347,11 +347,11 @@
   <define name='installer'>
     <element name='installer'>
       <zeroOrMore>
-	<element name="script">
-	  <attribute name='id'>
-	    <ref name='url'/>
-	  </attribute>
-	</element>
+        <element name="script">
+          <attribute name='id'>
+            <ref name='url'/>
+          </attribute>
+        </element>
       </zeroOrMore>
     </element>
   </define>
@@ -375,7 +375,7 @@
         <zeroOrMore>
           <ref name='tree'/>
         </zeroOrMore>
-	<zeroOrMore>
+        <zeroOrMore>
           <ref name='installer'/>
         </zeroOrMore>
       </interleave>
@@ -408,19 +408,19 @@
         <ref name='url'/>
       </attribute>
       <element name='profile'>
-	<text/>
+        <text/>
       </element>
       <element name='product-key-format'>
-	<text/>
+        <text/>
       </element>
       <element name='template'>
-	<choice>
-	  <group>
-	    <attribute name="uri"/>
-	    <empty/>
-	  </group>
-	  <ref name="customElement"/>
-	</choice>
+        <choice>
+          <group>
+            <attribute name="uri"/>
+            <empty/>
+          </group>
+          <ref name="customElement"/>
+        </choice>
       </element>
       <ref name='product-attr'/>
       <ref name='product-content'/>
