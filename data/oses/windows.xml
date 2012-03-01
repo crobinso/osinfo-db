@@ -447,6 +447,12 @@
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win7"/>
 
+    <media arch="i386">
+      <iso>
+        <volume-id>HB1_CCPA_X86FRE_EN</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
     <media arch="x86_64">
       <iso>
         <volume-id>HB1_CCPA_X64FRE_EN</volume-id>
