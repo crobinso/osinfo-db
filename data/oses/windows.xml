@@ -121,14 +121,14 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRTMP|MX2PFPP|VX2PFPP|MRMSD2|VX2PRMFPP|WXPFPP|X1APFPP|VRMSD2|XRMSD2</volume-id>
+        <volume-id>(GRTMPFPP|GRTMPVOL|MX2PFPP|VX2PFPP|MRMSD2|VX2PRMFPP|WXPFPP|X1APFPP|VRMSD2|XRMSD2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
 
     <media arch="x86_64">
       <iso>
-        <volume-id>AX2PXFPP</volume-id>
+        <volume-id>(AX2PXFPP)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -167,13 +167,19 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>NRMSFPP</volume-id>
+        <volume-id>(NRMSFPP|ARMSFPP|ARMEFPP|CR0SP2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>ARMSXFPP</volume-id>
+        <volume-id>(ARMSXFPP|ARMEXFPP|CR0SPX2)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+    <media arch="ia64">
+      <iso>
+        <volume-id>(CR0SPI2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -218,13 +224,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>CRMEFPP|CR0ECD2|BX2SFPP|BRMSCD2FRE</volume-id>
+        <volume-id>(CRMEFPP|CRMSFPP|CR0SCD2|CR0ECD2|BX2SFPP|BX2EFPP|BRMECD2FRE|BRMSCD2FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>CRMEXFPP|CR0ECD2|BX2SXFPP|BRMSCD2XFRE</volume-id>
+        <volume-id>(CRMEXFPP|CRMSXFPP|CR0SCD2X|CR0ECD2X|BX2SXFPP|BX2EXFPP|BRMECD2XFRE|BRMSCD2XFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -269,13 +275,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>KRTMSVOL|KRTMSCHK|KRMWVOL</volume-id>
+        <volume-id>(KRTMSVOL|KRTMSCHK|KRMWVOL|KRMSVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>KRTMSXVOL|KRTMSXCHK|KRMWXVOL</volume-id>
+        <volume-id>(KRTMSXVOL|KRTMSXCHK|KRMWXVOL|KRMSXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -322,13 +328,13 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>GRMSXVOL|GRMSXFRER|GRMSHXVOL</volume-id>
+        <volume-id>(GRMSXVOL|GRMSXFRER|GRMSHXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="ia64">
       <iso>
-        <volume-id>GRMSIAIVOL</volume-id>
+        <volume-id>(GRMSIAIVOL|SRVHPCR2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -360,13 +366,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL</volume-id>
+        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL</volume-id>
+        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
@@ -398,13 +404,52 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL</volume-id>
+        <volume-id>(GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL|GRMCNENXVOL</volume-id>
+        <volume-id>(GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL|GRMCNENXVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="i386">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+    </devices>
+  </os>
+
+  <os id="http://microsoft.com/win8">
+    <short-id>win8</short-id>
+    <name>Microsoft Windows 8</name>
+    <version>6.2</version>
+    <vendor>Microsoft Corporation</vendor>
+    <family>Windows</family>
+    <derives-from id="http://microsoft.com/windows"/>
+    <upgrades id="http://microsoft.com/win7"/>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>HB1_CCPA_X64FRE_EN</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
