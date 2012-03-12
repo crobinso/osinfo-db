@@ -63,6 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_bindir}/osinfo-usbids-convert
 %{_mingw32_bindir}/osinfo-detect.exe
 %{_mingw32_bindir}/osinfo-db-validate.exe
+%{_mingw32_bindir}/osinfo-query.exe
 %{_mingw32_bindir}/libosinfo-1.0-0.dll
 %{_mingw32_libdir}/libosinfo-1.0.dll.a
 %{_mingw32_libdir}/libosinfo-1.0.la
