@@ -1,10 +1,10 @@
 <libosinfo version="0.0.1">
 
   <os id="http://openbsd.org/openbsd/4.2">
-    <short-id>openbsd42</short-id>
+    <short-id>openbsd4.2</short-id>
     <name>OpenBSD 4.2</name>
     <version>4.2</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
 
     <media arch='i386'>
@@ -27,10 +27,10 @@
   </os>
 
   <os id="http://openbsd.org/openbsd/4.3">
-    <short-id>openbsd43</short-id>
+    <short-id>openbsd4.3</short-id>
     <name>OpenBSD 4.3</name>
     <version>4.3</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.2'/>
     <derives-from id='http://openbsd.org/openbsd/4.2'/>
@@ -55,10 +55,10 @@
   </os>
 
   <os id="http://openbsd.org/openbsd/4.4">
-    <short-id>openbsd44</short-id>
+    <short-id>openbsd4.4</short-id>
     <name>OpenBSD 4.4</name>
     <version>4.4</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.3'/>
     <derives-from id='http://openbsd.org/openbsd/4.3'/>
@@ -83,10 +83,10 @@
   </os>
 
   <os id="http://openbsd.org/openbsd/4.5">
-    <short-id>openbsd45</short-id>
+    <short-id>openbsd4.5</short-id>
     <name>OpenBSD 4.5</name>
     <version>4.5</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.4'/>
     <derives-from id='http://openbsd.org/openbsd/4.4'/>
@@ -111,10 +111,10 @@
   </os>
 
   <os id="http://openbsd.org/openbsd/4.8">
-    <short-id>openbsd48</short-id>
+    <short-id>openbsd4.8</short-id>
     <name>OpenBSD 4.8</name>
     <version>4.8</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.5'/>
     <derives-from id='http://openbsd.org/openbsd/4.5'/>
@@ -139,10 +139,10 @@
   </os>
 
   <os id="http://openbsd.org/openbsd/4.9">
-    <short-id>openbsd49</short-id>
+    <short-id>openbsd4.9</short-id>
     <name>OpenBSD 4.9</name>
     <version>4.9</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.8'/>
     <derives-from id='http://openbsd.org/openbsd/4.8'/>
@@ -172,10 +172,10 @@
 
 
   <os id="http://openbsd.org/openbsd/5.0">
-    <short-id>openbsd50</short-id>
+    <short-id>openbsd5.0</short-id>
     <name>OpenBSD 5.0</name>
     <version>5.0</version>
-    <family>BSD</family>
+    <family>OpenBSD</family>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.9'/>
     <derives-from id='http://openbsd.org/openbsd/4.9'/>

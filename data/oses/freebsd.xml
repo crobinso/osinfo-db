@@ -1,0 +1,481 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://freebsd.org/freebsd/1.0">
+    <short-id>freebsd1.0</short-id>
+    <name>FreeBSD 1.0</name>
+    <version>1.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>1993-11-00</release-date>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/2.0">
+    <short-id>freebsd2.0</short-id>
+    <name>FreeBSD 2.0</name>
+    <version>2.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>1994-11-22</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/1.0"/>
+    <derives-from id="http://freebsd.org/freebsd/1.0"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/2.0.5">
+    <short-id>freebsd2.0.5</short-id>
+    <name>FreeBSD 2.0.5</name>
+    <version>2.0.5</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/2.0"/>
+    <derives-from id="http://freebsd.org/freebsd/2.0"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/2.2.8">
+    <short-id>freebsd2.2.8</short-id>
+    <name>FreeBSD 2.2.8</name>
+    <version>2.2.8</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/2.0.5"/>
+    <derives-from id="http://freebsd.org/freebsd/2.0.5"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/2.2.9">
+    <short-id>freebsd2.2.9</short-id>
+    <name>FreeBSD 2.2.9</name>
+    <version>2.2.9</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/2.2.8"/>
+    <derives-from id="http://freebsd.org/freebsd/2.2.8"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/3.0">
+    <short-id>freebsd3.0</short-id>
+    <name>FreeBSD 3.0</name>
+    <version>3.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>1998-10-16</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/2.2.8"/>
+    <derives-from id="http://freebsd.org/freebsd/2.2.8"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/3.2">
+    <short-id>freebsd3.2</short-id>
+    <name>FreeBSD 3.2</name>
+    <version>3.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/3.0"/>
+    <derives-from id="http://freebsd.org/freebsd/3.0"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.0">
+    <short-id>freebsd4.0</short-id>
+    <name>FreeBSD 4.0</name>
+    <version>4.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>2000-03-00</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/3.2"/>
+    <derives-from id="http://freebsd.org/freebsd/3.2"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.1">
+    <short-id>freebsd4.1</short-id>
+    <name>FreeBSD 4.1</name>
+    <version>4.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.0"/>
+    <derives-from id="http://freebsd.org/freebsd/4.0"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.2">
+    <short-id>freebsd4.2</short-id>
+    <name>FreeBSD 4.2</name>
+    <version>4.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.1"/>
+    <derives-from id="http://freebsd.org/freebsd/4.1"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.3">
+    <short-id>freebsd4.3</short-id>
+    <name>FreeBSD 4.3</name>
+    <version>4.3</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.2"/>
+    <derives-from id="http://freebsd.org/freebsd/4.2"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.4">
+    <short-id>freebsd4.4</short-id>
+    <name>FreeBSD 4.4</name>
+    <version>4.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.3"/>
+    <derives-from id="http://freebsd.org/freebsd/4.3"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.5">
+    <short-id>freebsd4.5</short-id>
+    <name>FreeBSD 4.5</name>
+    <version>4.5</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.4"/>
+    <derives-from id="http://freebsd.org/freebsd/4.4"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.6">
+    <short-id>freebsd4.6</short-id>
+    <name>FreeBSD 4.6</name>
+    <version>4.6</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.5"/>
+    <derives-from id="http://freebsd.org/freebsd/4.5"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.7">
+    <short-id>freebsd4.7</short-id>
+    <name>FreeBSD 4.7</name>
+    <version>4.7</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.6"/>
+    <derives-from id="http://freebsd.org/freebsd/4.6"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.8">
+    <short-id>freebsd4.8</short-id>
+    <name>FreeBSD 4.8</name>
+    <version>4.8</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.7"/>
+    <derives-from id="http://freebsd.org/freebsd/4.7"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.9">
+    <short-id>freebsd4.9</short-id>
+    <name>FreeBSD 4.9</name>
+    <version>4.9</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.8"/>
+    <derives-from id="http://freebsd.org/freebsd/4.8"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.10">
+    <short-id>freebsd4.10</short-id>
+    <name>FreeBSD 4.10</name>
+    <version>4.10</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/4.9"/>
+    <derives-from id="http://freebsd.org/freebsd/4.9"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/4.11">
+    <short-id>freebsd4.11</short-id>
+    <name>FreeBSD 4.11</name>
+    <version>4.11</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>2000-06-24</release-date>
+    <eol-date>2007-01-31</eol-date>
+
+    <upgrades id="http://freebsd.org/freebsd/4.10"/>
+    <derives-from id="http://freebsd.org/freebsd/4.10"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.0">
+    <short-id>freebsd5.0</short-id>
+    <name>FreeBSD 5.0</name>
+    <version>5.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>2003-01-00</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/4.11"/>
+    <derives-from id="http://freebsd.org/freebsd/4.11"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.1">
+    <short-id>freebsd5.1</short-id>
+    <name>FreeBSD 5.1</name>
+    <version>5.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/5.0"/>
+    <derives-from id="http://freebsd.org/freebsd/5.0"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.2">
+    <short-id>freebsd5.2</short-id>
+    <name>FreeBSD 5.2</name>
+    <version>5.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/5.1"/>
+    <derives-from id="http://freebsd.org/freebsd/5.1"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.2.1">
+    <short-id>freebsd5.2.1</short-id>
+    <name>FreeBSD 5.2.1</name>
+    <version>5.2.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/5.2"/>
+    <derives-from id="http://freebsd.org/freebsd/5.2"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.3">
+    <short-id>freebsd5.3</short-id>
+    <name>FreeBSD 5.3</name>
+    <version>5.3</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/5.2.1"/>
+    <derives-from id="http://freebsd.org/freebsd/5.2.1"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.4">
+    <short-id>freebsd5.4</short-id>
+    <name>FreeBSD 5.4</name>
+    <version>5.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <upgrades id="http://freebsd.org/freebsd/5.3"/>
+    <derives-from id="http://freebsd.org/freebsd/5.3"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/5.5">
+    <short-id>freebsd5.5</short-id>
+    <name>FreeBSD 5.5</name>
+    <version>5.5</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+
+    <release-date>2006-05-00</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/5.4"/>
+    <derives-from id="http://freebsd.org/freebsd/5.4"/>
+
+  </os>
+
+  <os id="http://freebsd.org/freebsd/6.0">
+    <short-id>freebsd6.0</short-id>
+    <name>FreeBSD 6.0</name>
+    <version>6.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/5.5"/>
+    <derives-from id="http://freebsd.org/freebsd/5.5"/>
+
+    <release-date>2005-11-04</release-date>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8029"/>
+    </devices>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/6.1">
+    <short-id>freebsd6.1</short-id>
+    <name>FreeBSD 6.1</name>
+    <version>6.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/6.0"/>
+    <derives-from id="http://freebsd.org/freebsd/6.0"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/6.2">
+    <short-id>freebsd6.2</short-id>
+    <name>FreeBSD 6.2</name>
+    <version>6.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/6.1"/>
+    <derives-from id="http://freebsd.org/freebsd/6.1"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/6.3">
+    <short-id>freebsd6.3</short-id>
+    <name>FreeBSD 6.3</name>
+    <version>6.3</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/6.2"/>
+    <derives-from id="http://freebsd.org/freebsd/6.2"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/6.4">
+    <short-id>freebsd6.4</short-id>
+    <name>FreeBSD 6.4</name>
+    <version>6.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/6.3"/>
+    <derives-from id="http://freebsd.org/freebsd/6.3"/>
+
+    <release-date>2008-11-11</release-date>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/7.0">
+    <short-id>freebsd7.0</short-id>
+    <name>FreeBSD 7.0</name>
+    <version>7.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/6.4"/>
+    <derives-from id="http://freebsd.org/freebsd/6.4"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/7.1">
+    <short-id>freebsd7.1</short-id>
+    <name>FreeBSD 7.1</name>
+    <version>7.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/7.0"/>
+    <derives-from id="http://freebsd.org/freebsd/7.0"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/7.2">
+    <short-id>freebsd7.2</short-id>
+    <name>FreeBSD 7.2</name>
+    <version>7.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/7.1"/>
+    <derives-from id="http://freebsd.org/freebsd/7.1"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/7.3">
+    <short-id>freebsd7.3</short-id>
+    <name>FreeBSD 7.3</name>
+    <version>7.3</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/7.2"/>
+    <derives-from id="http://freebsd.org/freebsd/7.2"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/7.4">
+    <short-id>freebsd7.4</short-id>
+    <name>FreeBSD 7.4</name>
+    <version>7.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/7.3"/>
+    <derives-from id="http://freebsd.org/freebsd/7.3"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/8.0">
+    <short-id>freebsd8.0</short-id>
+    <name>FreeBSD 8.0</name>
+    <version>8.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/7.4"/>
+    <derives-from id="http://freebsd.org/freebsd/7.4"/>
+
+    <release-date>2009-11-25</release-date>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/100e"/>
+    </devices>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/8.1">
+    <short-id>freebsd8.1</short-id>
+    <name>FreeBSD 8.1</name>
+    <version>8.1</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/8.0"/>
+    <derives-from id="http://freebsd.org/freebsd/8.0"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/8.2">
+    <short-id>freebsd8.2</short-id>
+    <name>FreeBSD 8.2</name>
+    <version>8.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/8.1"/>
+    <derives-from id="http://freebsd.org/freebsd/8.1"/>
+  </os>
+
+  <os id="http://freebsd.org/freebsd/9.0">
+    <short-id>freebsd9.0</short-id>
+    <name>FreeBSD 9.0</name>
+    <version>9.0</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>FreeBSD</family>
+    <upgrades id="http://freebsd.org/freebsd/8.2"/>
+    <derives-from id="http://freebsd.org/freebsd/8.2"/>
+
+    <release-date>2012-01-12</release-date>
+  </os>
+
+
+</libosinfo>
