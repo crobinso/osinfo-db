@@ -59,8 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog COPYING.LIB NEWS README
-%{_mingw32_bindir}/osinfo-pciids-convert
-%{_mingw32_bindir}/osinfo-usbids-convert
 %{_mingw32_bindir}/osinfo-detect.exe
 %{_mingw32_bindir}/osinfo-db-validate.exe
 %{_mingw32_bindir}/osinfo-query.exe
