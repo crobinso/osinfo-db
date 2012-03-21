@@ -467,8 +467,8 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/vista">
-    <short-id>vista</short-id>
+  <os id="http://microsoft.com/winvista">
+    <short-id>winvista</short-id>
     <name>Microsoft Windows Vista</name>
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
@@ -516,8 +516,8 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/vista"/>
-    <upgrades id="http://microsoft.com/vista"/>
+    <derives-from id="http://microsoft.com/winvista"/>
+    <upgrades id="http://microsoft.com/winvista"/>
 
     <release-date>2009-10-22</release-date>
     <eol-date>2015-01-13</eol-date>
