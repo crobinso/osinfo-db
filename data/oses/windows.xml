@@ -1,8 +1,84 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://microsoft.com/windows">
-    <short-id>windows</short-id>
-    <name>Microsoft Windows</name>
+  <!--
+
+      The upgrade/derives relationship for Windows is more complex than
+      you might think, because of the merge/fork between WinME/XP/2k/2k3:
+
+
+   Win1.0 (Nov 1985)
+     |
+     | U, D
+     |
+     V
+   Win2.0 (Dec 1987)
+     |
+     | U, D
+     |
+     V
+   Win2.1 (May 1988)
+     |
+     | U, D
+     |
+     V
+   Win3.0 (May 1990)
+     |
+     | U, D
+     |
+     V
+   Win3.1 (Apr 1992)            WinNT3.1  (July 1993)
+     |                            |
+     | U, D                       | U, D
+     |                            |
+     |                            V
+     |                          WinNT3.4  (Sept 1994)
+     |                            |
+     | U, D                       | U, D
+     |                            |
+     V                            V
+   Win95 (Aug 1995)             WinNT3.51 (May 1995)
+     |                            |
+     | U, D                       | U, D
+     |                            |
+     V                            V
+   Win98 (Jun 1998)             WinNT4.0 (Aug 1996)
+     |                            |
+     | U, D                       | U, D
+     |                            |
+     V                            |
+   WinME (Sep 2000)             Win2k  (Feb 2000)
+     |                           ||
+     \======+====================/| U, D
+       U    |  D                  |
+            V                     V
+          WinXP (Aug 2001)      Win2k3  (April 2003)
+            |                     |
+            | UD                  | U, D
+            |                     |
+            V                     V
+          WinVista (Jan 2007)   Win2k3r2 (Dec 2005)
+            |                     |
+            | U, D                | U, D
+            |                     |
+            |                     V
+            |                   Win2k8  (Feb 2008)
+            |                     |
+            |                     | U, D
+            |                     |
+            |                     V
+          Win7 (Oct 2009)       Win2k8r2 (Oct 2009)
+            |                     |
+            | U,D                 | U, D
+            |                     |
+            V                     V
+          Win8 (??? 2012)       ??????
+
+  -->
+
+  <os id="http://microsoft.com/win95">
+    <short-id>win95</short-id>
+    <name>Microsoft Windows 95</name>
+    <version>4.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
     <distro>windows</distro>
@@ -13,16 +89,6 @@
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
     </devices>
-  </os>
-
-  <os id="http://microsoft.com/win95">
-    <short-id>win95</short-id>
-    <name>Microsoft Windows 95</name>
-    <version>4.0</version>
-    <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
 
     <resources arch="i386">
       <minimum>
@@ -40,7 +106,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win95"/>
     <upgrades id="http://microsoft.com/win95"/>
 
     <resources arch="i386">
@@ -64,7 +130,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win98"/>
     <upgrades id="http://microsoft.com/win98"/>
 
     <resources arch="i386">
@@ -89,7 +155,14 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/winme"/>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/> <!-- VGA -->
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+    </devices>
 
     <media arch="i386">
       <iso>
@@ -122,8 +195,9 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
-    <upgrades id="http://microsoft.com/win2k"/>
+    <derives-from id="http://microsoft.com/win2k"/>
+    <derives-from id="http://microsoft.com/winme"/>
+    <upgrades id="http://microsoft.com/winme"/>
 
     <media arch="i386">
       <iso>
@@ -170,7 +244,8 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win2k"/>
+    <upgrades id="http://microsoft.com/win2k"/>
 
     <media arch="i386">
       <iso>
@@ -227,7 +302,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win2k3"/>
     <upgrades id="http://microsoft.com/win2k3"/>
 
     <media arch="i386">
@@ -279,7 +354,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win2k3r2"/>
     <upgrades id="http://microsoft.com/win2k3r2"/>
 
     <media arch="i686">
@@ -333,7 +408,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win2k8"/>
     <upgrades id="http://microsoft.com/win2k8"/>
 
     <media arch="x86_64">
@@ -372,7 +447,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/winxp"/>
     <upgrades id="http://microsoft.com/winxp"/>
 
     <media arch="i686">
@@ -411,7 +486,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/vista"/>
     <upgrades id="http://microsoft.com/vista"/>
 
     <media arch="i386">
@@ -457,7 +532,7 @@
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>windows</distro>
-    <derives-from id="http://microsoft.com/windows"/>
+    <derives-from id="http://microsoft.com/win7"/>
     <upgrades id="http://microsoft.com/win7"/>
 
     <media arch="i386">
