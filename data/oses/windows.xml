@@ -83,6 +83,9 @@
     <family>win9x</family>
     <distro>windows</distro>
 
+    <release-date>1995-08-24</release-date>
+    <eol-date>2001-12-13</eol-date>
+
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/> <!-- VGA -->
@@ -109,6 +112,9 @@
     <derives-from id="http://microsoft.com/win95"/>
     <upgrades id="http://microsoft.com/win95"/>
 
+    <release-date>1998-06-25</release-date>
+    <eol-date>2006-07-11</eol-date>
+
     <resources arch="i386">
       <minimum>
         <cpu>66000000</cpu>
@@ -133,6 +139,9 @@
     <derives-from id="http://microsoft.com/win98"/>
     <upgrades id="http://microsoft.com/win98"/>
 
+    <release-date>2000-09-14</release-date>
+    <eol-date>2006-07-11</eol-date>
+
     <resources arch="i386">
       <minimum>
         <cpu>150000000</cpu>
@@ -156,6 +165,9 @@
     <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/winme"/>
+
+    <release-date>2000-02-17</release-date>
+    <eol-date>2010-07-13</eol-date>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
@@ -198,6 +210,9 @@
     <derives-from id="http://microsoft.com/win2k"/>
     <derives-from id="http://microsoft.com/winme"/>
     <upgrades id="http://microsoft.com/winme"/>
+
+    <release-date>2001-10-25</release-date>
+    <eol-date>2009-04-19</eol-date>
 
     <media arch="i386">
       <iso>
@@ -246,6 +261,9 @@
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/win2k"/>
     <upgrades id="http://microsoft.com/win2k"/>
+
+    <release-date>2003-04-24</release-date>
+    <eol-date>2015-07-14</eol-date>
 
     <media arch="i386">
       <iso>
@@ -305,6 +323,9 @@
     <derives-from id="http://microsoft.com/win2k3"/>
     <upgrades id="http://microsoft.com/win2k3"/>
 
+    <release-date>2005-12-06</release-date>
+    <eol-date>2015-07-14</eol-date>
+
     <media arch="i386">
       <iso>
         <volume-id>(CRMEFPP|CRMSFPP|CR0SCD2|CR0ECD2|BX2SFPP|BX2EFPP|BRMECD2FRE|BRMSCD2FRE)_</volume-id>
@@ -356,6 +377,9 @@
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/win2k3r2"/>
     <upgrades id="http://microsoft.com/win2k3r2"/>
+
+    <release-date>2008-02-27</release-date>
+    <eol-date>2013-07-09</eol-date>
 
     <media arch="i686">
       <iso>
@@ -411,6 +435,9 @@
     <derives-from id="http://microsoft.com/win2k8"/>
     <upgrades id="http://microsoft.com/win2k8"/>
 
+    <release-date>2009-10-22</release-date>
+    <eol-date>2013-07-09</eol-date>
+
     <media arch="x86_64">
       <iso>
         <volume-id>(GRMSXVOL|GRMSXFRER|GRMSHXVOL)_</volume-id>
@@ -450,6 +477,9 @@
     <derives-from id="http://microsoft.com/winxp"/>
     <upgrades id="http://microsoft.com/winxp"/>
 
+    <release-date>2006-11-30</release-date>
+    <eol-date>2012-04-10</eol-date>
+
     <media arch="i686">
       <iso>
         <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL)_</volume-id>
@@ -488,6 +518,9 @@
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/vista"/>
     <upgrades id="http://microsoft.com/vista"/>
+
+    <release-date>2009-10-22</release-date>
+    <eol-date>2015-01-13</eol-date>
 
     <media arch="i386">
       <iso>
@@ -534,6 +567,11 @@
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/win7"/>
     <upgrades id="http://microsoft.com/win7"/>
+
+<!--
+    <release-date></release-date>
+    <eol-date></eol-date>
+-->
 
     <media arch="i386">
       <iso>
