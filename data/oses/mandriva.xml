@@ -4,7 +4,7 @@
     <short-id>mandriva2006</short-id>
     <name>Mandriva Linux 2006</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/mandrake/10.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/10.2"/>
@@ -15,7 +15,7 @@
     <short-id>mandriva2007</short-id>
     <name>Mandriva Linux 2007</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2006.0"/>
     <derives-from id="http://mandriva.com/linux/2006.0"/>
@@ -26,7 +26,7 @@
     <short-id>mandriva2007.1</short-id>
     <name>Mandriva Linux 2007 Spring</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2007"/>
     <derives-from id="http://mandriva.com/linux/2007"/>
@@ -37,7 +37,7 @@
     <short-id>mandriva2008</short-id>
     <name>Mandriva Linux 2008</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2007.1"/>
     <derives-from id="http://mandriva.com/linux/2007.1"/>
@@ -48,7 +48,7 @@
     <short-id>mandriva2008.1</short-id>
     <name>Mandriva Linux 2008 Spring</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2008.0"/>
     <derives-from id="http://mandriva.com/linux/2008.0"/>
@@ -59,7 +59,7 @@
     <short-id>mandriva2009.0</short-id>
     <name>Mandriva Linux 2009</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2008.1"/>
     <derives-from id="http://mandriva.com/linux/2008.1"/>
@@ -70,7 +70,7 @@
     <short-id>mandriva2009.1</short-id>
     <name>Mandriva Linux 2009 Spring</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2009.0"/>
     <derives-from id="http://mandriva.com/linux/2009.0"/>
@@ -81,7 +81,7 @@
     <short-id>mandriva2010.0</short-id>
     <name>Mandriva Linux 2010</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2009.1"/>
     <derives-from id="http://mandriva.com/linux/2009.1"/>
@@ -96,7 +96,7 @@
     <short-id>mandriva2010.1</short-id>
     <name>Mandriva Linux 2010 Spring</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2010.0"/>
     <derives-from id="http://mandriva.com/linux/2010.0"/>
@@ -107,7 +107,7 @@
     <short-id>mandriva2010.2</short-id>
     <name>Mandriva Linux 2010.2</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <upgrades id="http://mandriva.com/linux/2010.1"/>
     <derives-from id="http://mandriva.com/linux/2010.1"/>
@@ -118,7 +118,7 @@
     <short-id>mandriva2011</short-id>
     <name>Mandriva Linux 2011</name>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mandriva</distro>
     <codename>Hydrogen</codename>
     <upgrades id="http://mandriva.com/linux/2010.2"/>
@@ -131,7 +131,7 @@
     <name>Mandriva Enterprise Server 5.0</name>
     <version>5.0</version>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mes</distro>
 
   </os>
@@ -141,7 +141,7 @@
     <name>Mandriva Enterprise Server 5.1</name>
     <version>5.1</version>
     <vendor>Mandriva</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>mes</distro>
     <upgrades id="http://mandriva.com/linux/server/5.0"/>
     <derives-from id="http://mandriva.com/linux/server/5.0"/>

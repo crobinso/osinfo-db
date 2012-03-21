@@ -1,18 +1,9 @@
 <libosinfo version="0.0.1">
-
-  <os id="http://microsoft.com/msdos">
-    <short-id>msdos</short-id>
-    <name>Microsoft MS-DOS</name>
-    <vendor>Microsoft</vendor>
-    <family>Other</family>
-    <distro>msdos</distro>
-  </os>
-
   <os id="http://novell.com/netware4">
     <short-id>netware4</short-id>
     <name>Novell Netware 4</name>
     <vendor>Novell</vendor>
-    <family>Other</family>
+    <family>netware</family>
     <distro>netware</distro>
   </os>
 
@@ -20,7 +11,7 @@
     <short-id>netware5</short-id>
     <name>Novell Netware 5</name>
     <vendor>Novell</vendor>
-    <family>Other</family>
+    <family>netware</family>
     <distro>netware</distro>
   </os>
 
@@ -28,7 +19,7 @@
     <short-id>netware6</short-id>
     <name>Novell Netware 6</name>
     <vendor>Novell</vendor>
-    <family>Other</family>
+    <family>netware</family>
     <distro>netware</distro>
   </os>
 

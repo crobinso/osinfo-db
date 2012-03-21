@@ -1,0 +1,9 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/msdos">
+    <short-id>msdos</short-id>
+    <name>Microsoft MS-DOS</name>
+    <vendor>Microsoft</vendor>
+    <family>msdos</family>
+    <distro>msdos</distro>
+  </os>
+</libosinfo>

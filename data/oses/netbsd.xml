@@ -5,7 +5,7 @@
     <name>NetBSD 0.8</name>
     <version>0.8</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
 
     <release-date>1993-04-20</release-date>
@@ -16,7 +16,7 @@
     <name>NetBSD 0.9</name>
     <version>0.9</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/0.8"/>
     <derives-from id="http://netbsd.org/netbsd/0.8"/>
@@ -29,7 +29,7 @@
     <name>NetBSD 1.0</name>
     <version>1.0</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/0.9"/>
     <derives-from id="http://netbsd.org/netbsd/0.9"/>
@@ -42,7 +42,7 @@
     <name>NetBSD 1.1</name>
     <version>1.1</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.0"/>
     <derives-from id="http://netbsd.org/netbsd/1.0"/>
@@ -55,7 +55,7 @@
     <name>NetBSD 1.2</name>
     <version>1.2</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.1"/>
     <derives-from id="http://netbsd.org/netbsd/1.1"/>
@@ -68,7 +68,7 @@
     <name>NetBSD 1.3</name>
     <version>1.3</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.2"/>
     <derives-from id="http://netbsd.org/netbsd/1.2"/>
@@ -81,7 +81,7 @@
     <name>NetBSD 1.4</name>
     <version>1.4</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.3"/>
     <derives-from id="http://netbsd.org/netbsd/1.3"/>
@@ -94,7 +94,7 @@
     <name>NetBSD 1.5</name>
     <version>1.5</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.4"/>
     <derives-from id="http://netbsd.org/netbsd/1.4"/>
@@ -107,7 +107,7 @@
     <name>NetBSD 1.6</name>
     <version>1.6</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.5"/>
     <derives-from id="http://netbsd.org/netbsd/1.5"/>
@@ -120,7 +120,7 @@
     <name>NetBSD 2.0</name>
     <version>2.0</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.6"/>
     <derives-from id="http://netbsd.org/netbsd/1.6"/>
@@ -133,7 +133,7 @@
     <name>NetBSD 3.0</name>
     <version>3.0</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/2.0"/>
     <derives-from id="http://netbsd.org/netbsd/2.0"/>
@@ -146,7 +146,7 @@
     <name>NetBSD 4.0</name>
     <version>4.0</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/3.0"/>
     <derives-from id="http://netbsd.org/netbsd/3.0"/>
@@ -159,7 +159,7 @@
     <name>NetBSD 5.0</name>
     <version>5.0</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/4.0"/>
     <derives-from id="http://netbsd.org/netbsd/4.0"/>
@@ -172,7 +172,7 @@
     <name>NetBSD 5.1</name>
     <version>5.1</version>
     <vendor>NetBSD Project</vendor>
-    <family>NetBSD</family>
+    <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/5.0"/>
     <derives-from id="http://netbsd.org/netbsd/5.0"/>

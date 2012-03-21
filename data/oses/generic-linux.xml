@@ -5,7 +5,7 @@
     <name>Generic 2.4.x kernel</name>
     <version>2.4</version>
     <vendor>Linux Kernel Developers</vendor>
-    <family>Linux</family>
+    <family>linux</family>
   </os>
 
   <os id="http://kernel.org/linux/26">
@@ -20,7 +20,7 @@
     <name>Generic 2.6.25 or later kernel with virtio</name>
     <version>2.6</version>
     <vendor>Linux Kernel Developers</vendor>
-    <family>Linux</family>
+    <family>linux</family>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -35,7 +35,7 @@
     <name>Generic 2.4.x kernel</name>
     <version>2.4</version>
     <vendor>Linux Kernel Developers</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <clones id="http://kernel.org/linux/24"/>
   </os>
 
@@ -44,7 +44,7 @@
     <name>Generic 2.6.x kernel</name>
     <version>2.6</version>
     <vendor>Linux Kernel Developers</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <clones id="http://kernel.org/linux/26"/>
   </os>
 
@@ -53,7 +53,7 @@
     <name>Generic 2.6.25 or later kernel with virtio</name>
     <version>2.6</version>
     <vendor>Linux Kernel Developers</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <clones id="http://kernel.org/linux/virtio/26"/>
   </os>
 

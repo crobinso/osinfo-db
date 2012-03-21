@@ -5,7 +5,7 @@
     <name>Suse Linux Enterprise Server 9</name>
     <version>9</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sles</distro>
   </os>
 
@@ -14,7 +14,7 @@
     <name>Suse Linux Enterprise Server 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/linux/sles9"/>
   </os>
@@ -24,7 +24,7 @@
     <name>Suse Linux Enterprise Server 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/linux/sles10"/>
 
@@ -39,7 +39,7 @@
     <name>Suse Linux Enterprise Desktop 9</name>
     <version>9</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sled</distro>
   </os>
 
@@ -48,7 +48,7 @@
     <name>Suse Linux Enterprise Desktop 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/linux/sled9"/>
 
@@ -69,7 +69,7 @@
     <name>Suse Linux Enterprise Desktop 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/linux/sled10"/>
 

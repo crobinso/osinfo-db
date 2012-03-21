@@ -4,7 +4,7 @@
     <short-id>windows</short-id>
     <name>Microsoft Windows</name>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>win9x</family>
     <distro>windows</distro>
 
     <devices>
@@ -38,7 +38,7 @@
     <name>Microsoft Windows 98</name>
     <version>4.1</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>win9x</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win95"/>
@@ -62,7 +62,7 @@
     <name>Microsoft Windows Millennium Edition</name>
     <version>4.9</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>win9x</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win98"/>
@@ -87,7 +87,7 @@
     <name>Microsoft Windows 2000</name>
     <version>5.0</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
 
@@ -120,7 +120,7 @@
     <name>Microsoft Windows XP</name>
     <version>5.1</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k"/>
@@ -168,7 +168,7 @@
     <name>Microsoft Windows Server 2003</name>
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
 
@@ -225,7 +225,7 @@
     <name>Microsoft Windows Server 2003 R2</name>
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
@@ -277,7 +277,7 @@
     <name>Microsoft Windows Server 2008</name>
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3r2"/>
@@ -331,7 +331,7 @@
     <name>Microsoft Windows Server 2008 R2</name>
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k8"/>
@@ -370,7 +370,7 @@
     <name>Microsoft Windows Vista</name>
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
@@ -409,7 +409,7 @@
     <name>Microsoft Windows 7</name>
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>
@@ -455,7 +455,7 @@
     <name>Microsoft Windows 8</name>
     <version>6.2</version>
     <vendor>Microsoft Corporation</vendor>
-    <family>Windows</family>
+    <family>winnt</family>
     <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win7"/>

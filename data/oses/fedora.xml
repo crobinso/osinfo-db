@@ -5,7 +5,7 @@
     <name>Fedora Core 1</name>
     <version>1</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Yarrow</codename>
     <upgrades id="http://redhat.com/rhl/9"/>
@@ -59,7 +59,7 @@
     <name>Fedora Core 2</name>
     <version>2</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Tettnang</codename>
     <upgrades id="http://fedoraproject.org/fedora/1"/>
@@ -106,7 +106,7 @@
     <name>Fedora Core 3</name>
     <version>3</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Heidelberg</codename>
     <upgrades id="http://fedoraproject.org/fedora/2"/>
@@ -153,7 +153,7 @@
     <name>Fedora Core 4</name>
     <version>4</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Stentz</codename>
     <upgrades id="http://fedoraproject.org/fedora/3"/>
@@ -209,7 +209,7 @@
     <name>Fedora Core 5</name>
     <version>5</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Bordeaux</codename>
     <upgrades id="http://fedoraproject.org/fedora/4"/>
@@ -265,7 +265,7 @@
     <name>Fedora Core 6</name>
     <version>6</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Zod</codename>
     <upgrades id="http://fedoraproject.org/fedora/5"/>
@@ -321,7 +321,7 @@
     <name>Fedora 7</name>
     <version>7</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Moonshine</codename>
     <upgrades id="http://fedoraproject.org/fedora/6"/>
@@ -400,7 +400,7 @@
     <name>Fedora 8</name>
     <version>8</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Werewolf</codename>
     <upgrades id="http://fedoraproject.org/fedora/7"/>
@@ -488,7 +488,7 @@
     <name>Fedora 9</name>
     <version>9</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Sulphur</codename>
     <upgrades id="http://fedoraproject.org/fedora/8"/>
@@ -575,7 +575,7 @@
     <name>Fedora 10</name>
     <version>10</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Cambridge</codename>
     <upgrades id="http://fedoraproject.org/fedora/9"/>
@@ -659,7 +659,7 @@
     <name>Fedora 11</name>
     <version>11</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Leonidas</codename>
     <upgrades id="http://fedoraproject.org/fedora/10"/>
@@ -743,7 +743,7 @@
     <name>Fedora 12</name>
     <version>12</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Constantine</codename>
     <upgrades id="http://fedoraproject.org/fedora/11"/>
@@ -822,7 +822,7 @@
     <name>Fedora 13</name>
     <version>13</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Goddard</codename>
     <upgrades id="http://fedoraproject.org/fedora/12"/>
@@ -893,7 +893,7 @@
     <name>Fedora 14</name>
     <version>14</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Laughlin</codename>
     <upgrades id="http://fedoraproject.org/fedora/13"/>
@@ -977,7 +977,7 @@
     <name>Fedora 15</name>
     <version>15</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Lovelock</codename>
     <upgrades id="http://fedoraproject.org/fedora/14"/>
@@ -1060,7 +1060,7 @@
     <name>Fedora 16</name>
     <version>16</version>
     <vendor>Fedora Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>fedora</distro>
     <codename>Verne</codename>
     <upgrades id="http://fedoraproject.org/fedora/15"/>

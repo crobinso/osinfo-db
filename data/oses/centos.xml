@@ -5,7 +5,7 @@
     <name>CentOS 6.0</name>
     <version>6.0</version>
     <vendor>CentOS</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>centos</distro>
     <clones id="http://redhat.com/rhel/6.0"/>
 
@@ -30,7 +30,7 @@
     <name>CentOS 6.1</name>
     <version>6.1</version>
     <vendor>CentOS</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>centos</distro>
     <upgrades id="http://centos.org/centos/6.0"/>
     <clones id="http://redhat.com/rhel/6.1"/>

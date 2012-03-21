@@ -5,7 +5,7 @@
     <name>openSUSE 10.2</name>
     <version>10.2</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
   </os>
 
@@ -14,7 +14,7 @@
     <name>openSUSE 10.3</name>
     <version>10.3</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/10.2" />
     <derives-from id="http://opensuse.org/linux/10.2" />
@@ -25,7 +25,7 @@
     <name>openSUSE 11.0</name>
     <version>11.0</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/10.3" />
     <derives-from id="http://opensuse.org/linux/10.3" />
@@ -36,7 +36,7 @@
     <name>openSUSE 11.1</name>
     <version>11.1</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/11.0" />
     <derives-from id="http://opensuse.org/linux/11.0" />
@@ -47,7 +47,7 @@
     <name>openSUSE 11.2</name>
     <version>11.2</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/11.1" />
     <derives-from id="http://opensuse.org/linux/11.1" />
@@ -58,7 +58,7 @@
     <name>openSUSE 11.3</name>
     <version>11.3</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/11.2" />
     <derives-from id="http://opensuse.org/linux/11.2" />
@@ -124,7 +124,7 @@
     <name>openSUSE 11.4</name>
     <version>11.4</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/11.3" />
     <derives-from id="http://opensuse.org/linux/11.3" />
@@ -182,7 +182,7 @@
     <name>openSUSE 12.1</name>
     <version>12.1</version>
     <vendor>openSUSE</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/linux/11.4" />
     <derives-from id="http://opensuse.org/linux/11.4" />

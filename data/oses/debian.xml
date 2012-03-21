@@ -5,7 +5,7 @@
     <name>Debian Buzz</name>
     <version>1.1</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
   </os>
 
@@ -14,7 +14,7 @@
     <name>Debian Rex</name>
     <version>1.2</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/buzz"/>
     <derives-from id="http://debian.org/buzz"/>
@@ -25,7 +25,7 @@
     <name>Debian Bo</name>
     <version>1.3</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/rex"/>
     <derives-from id="http://debian.org/rex"/>
@@ -36,7 +36,7 @@
     <name>Debian Hamm</name>
     <version>2.0</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/bo"/>
     <derives-from id="http://debian.org/bo"/>
@@ -47,7 +47,7 @@
     <name>Debian Silnk</name>
     <version>2.1</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/hamm"/>
     <derives-from id="http://debian.org/hamm"/>
@@ -58,7 +58,7 @@
     <name>Debian Potato</name>
     <version>2.2</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/silnk"/>
     <derives-from id="http://debian.org/silnk"/>
@@ -69,7 +69,7 @@
     <name>Debian Woody</name>
     <version>3</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/potato"/>
     <derives-from id="http://debian.org/potato"/>
@@ -81,7 +81,7 @@
     <name>Debian Sarge</name>
     <version>3.1</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/woody"/>
     <derives-from id="http://debian.org/woody"/>
@@ -92,7 +92,7 @@
     <name>Debian Etch</name>
     <version>4</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/sarge"/>
     <derives-from id="http://debian.org/sarge"/>
@@ -103,7 +103,7 @@
     <name>Debian Lenny</name>
     <version>5</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/etch"/>
     <derives-from id="http://debian.org/etch"/>
@@ -133,7 +133,7 @@
     <name>Debian Squeeze</name>
     <version>6</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <distro>debian</distro>
     <upgrades id="http://debian.org/lenny"/>
     <derives-from id="http://debian.org/lenny"/>
@@ -193,7 +193,7 @@
     <name>Debian Wheezy</name>
     <version>7</version>
     <vendor>Debian Project</vendor>
-    <family>Linux</family>
+    <family>linux</family>
     <upgrades id="http://debian.org/squeeze"/>
   </os>
 -->

@@ -5,7 +5,7 @@
     <name>Sun Solaris 9</name>
     <version>9</version>
     <vendor>Sun</vendor>
-    <family>Solaris</family>
+    <family>solaris</family>
     <distro>solaris</distro>
   </os>
 
@@ -14,7 +14,7 @@
     <name>Sun Solaris 10</name>
     <version>10</version>
     <vendor>Sun</vendor>
-    <family>Solaris</family>
+    <family>solaris</family>
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris9"/>
 
@@ -28,7 +28,7 @@
     <name>Sun OpenSolaris</name>
     <version>2009.06</version>
     <vendor>Sun</vendor>
-    <family>Solaris</family>
+    <family>solaris</family>
     <distro>opensolaris</distro>
 
     <devices>
