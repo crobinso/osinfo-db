@@ -6,6 +6,7 @@
     <version>4.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Warty Warthog</codename>
 
     <release-date>2004-10-20</release-date>
@@ -47,6 +48,7 @@
     <version>5.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Hoary Hedgehog</codename>
     <upgrades id="http://ubuntu.com/warty"/>
     <derives-from id="http://ubuntu.com/warty"/>
@@ -118,6 +120,7 @@
     <version>5.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Breezy Badger</codename>
     <upgrades id="http://ubuntu.com/hoary"/>
     <derives-from id="http://ubuntu.com/hoary"/>
@@ -217,6 +220,7 @@
     <version>6.06</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Dapper Drake</codename>
     <upgrades id="http://ubuntu.com/breezy"/>
     <derives-from id="http://ubuntu.com/breezy"/>
@@ -343,6 +347,7 @@
     <version>6.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Edgy Eft</codename>
     <upgrades id="http://ubuntu.com/dapper"/>
     <derives-from id="http://ubuntu.com/dapper"/>
@@ -422,6 +427,7 @@
     <version>7.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Feisty Fawn</codename>
     <upgrades id="http://ubuntu.com/edgy"/>
     <derives-from id="http://ubuntu.com/edgy"/>
@@ -483,6 +489,7 @@
     <version>7.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Gutsy Gibbon</codename>
     <upgrades id="http://ubuntu.com/feisty"/>
     <derives-from id="http://ubuntu.com/feisty"/>
@@ -544,6 +551,7 @@
     <version>8.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Hardy Heron</codename>
     <upgrades id="http://ubuntu.com/gutsy"/>
     <derives-from id="http://ubuntu.com/gutsy"/>
@@ -618,6 +626,7 @@
     <version>8.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Intrepid Ibex</codename>
     <upgrades id="http://ubuntu.com/hardy"/>
     <derives-from id="http://ubuntu.com/hardy"/>
@@ -670,6 +679,7 @@
     <version>9.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Jaunty Jackalope</codename>
     <upgrades id="http://ubuntu.com/intrepid"/>
     <derives-from id="http://ubuntu.com/intrepid"/>
@@ -726,6 +736,7 @@
     <version>9.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Karmic Koala</codename>
     <upgrades id="http://ubuntu.com/jaunty"/>
     <derives-from id="http://ubuntu.com/jaunty"/>
@@ -778,6 +789,7 @@
     <version>10.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Lucid Lynx</codename>
     <upgrades id="http://ubuntu.com/karmic"/>
     <derives-from id="http://ubuntu.com/karmic"/>
@@ -823,6 +835,7 @@
     <version>10.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Maverick Meerkat</codename>
     <upgrades id="http://ubuntu.com/lucid"/>
     <derives-from id="http://ubuntu.com/lucid"/>
@@ -888,6 +901,7 @@
     <version>11.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Natty Narwhal</codename>
     <upgrades id="http://ubuntu.com/maverick"/>
     <derives-from id="http://ubuntu.com/maverick"/>
@@ -953,6 +967,7 @@
     <version>11.10</version>
     <vendor>Canonical Ltd</vendor>
     <family>Linux</family>
+    <distro>ubuntu</distro>
     <codename>Oneiric Ocelot</codename>
     <upgrades id="http://ubuntu.com/natty"/>
     <derives-from id="http://ubuntu.com/natty"/>

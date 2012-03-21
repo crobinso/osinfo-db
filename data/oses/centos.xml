@@ -6,6 +6,7 @@
     <version>6.0</version>
     <vendor>CentOS</vendor>
     <family>Linux</family>
+    <distro>centos</distro>
     <clones id="http://redhat.com/rhel/6.0"/>
 
     <!-- there is no obvious difference between x86 and x86_64 isos,
@@ -30,6 +31,7 @@
     <version>6.1</version>
     <vendor>CentOS</vendor>
     <family>Linux</family>
+    <distro>centos</distro>
     <upgrades id="http://centos.org/centos/6.0"/>
     <clones id="http://redhat.com/rhel/6.1"/>
   </os>

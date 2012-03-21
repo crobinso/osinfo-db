@@ -5,6 +5,7 @@
     <name>Mandrake Linux 5.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Venice</codename>
 
   </os>
@@ -14,6 +15,7 @@
     <name>Mandrake Linux 5.2</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Leeloo</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/5.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/5.1"/>
@@ -25,6 +27,7 @@
     <name>Mandrake Linux 5.3</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Festen</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/5.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/5.2"/>
@@ -36,6 +39,7 @@
     <name>Mandrake Linux 6.0</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Venus</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/5.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/5.2"/>
@@ -47,6 +51,7 @@
     <name>Mandrake Linux 6.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Helios</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/6.0"/>
     <derives-from id="http://mandriva.com/linux/mandrake/6.0"/>
@@ -58,6 +63,7 @@
     <name>Mandrake Linux 7.0</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Air</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/6.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/6.1"/>
@@ -69,6 +75,7 @@
     <name>Mandrake Linux 7.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Helium</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/7.0"/>
     <derives-from id="http://mandriva.com/linux/mandrake/7.0"/>
@@ -80,6 +87,7 @@
     <name>Mandrake Linux 7.2</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Odyssey</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/7.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/7.1"/>
@@ -91,6 +99,7 @@
     <name>Mandrake Linux 8.0</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Traktopel</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/7.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/7.2"/>
@@ -102,6 +111,7 @@
     <name>Mandrake Linux 8.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Vitamin</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/8.0"/>
     <derives-from id="http://mandriva.com/linux/mandrake/8.0"/>
@@ -113,6 +123,7 @@
     <name>Mandrake Linux 8.2</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Bluebird</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/8.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/8.1"/>
@@ -124,6 +135,7 @@
     <name>Mandrake Linux 9.0</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Dolphin</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/8.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/8.2"/>
@@ -135,6 +147,7 @@
     <name>Mandrake Linux 9.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Bamboo</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/9.0"/>
     <derives-from id="http://mandriva.com/linux/mandrake/9.0"/>
@@ -146,6 +159,7 @@
     <name>Mandrake Linux 9.2</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>FiveStar</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/9.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/9.1"/>
@@ -157,6 +171,7 @@
     <name>Mandrake Linux 10.0</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <upgrades id="http://mandriva.com/linux/mandrake/9.2"/>
     <derives-from id="http://mandriva.com/linux/mandrake/9.2"/>
 
@@ -167,6 +182,7 @@
     <name>Mandrake Linux 10.1</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <upgrades id="http://mandriva.com/linux/mandrake/10.0"/>
     <derives-from id="http://mandriva.com/linux/mandrake/10.0"/>
 
@@ -177,6 +193,7 @@
     <name>Mandrake Linux 10.2</name>
     <vendor>Mandriva</vendor>
     <family>Linux</family>
+    <distro>mandrake</distro>
     <codename>Leeloo</codename>
     <upgrades id="http://mandriva.com/linux/mandrake/10.1"/>
     <derives-from id="http://mandriva.com/linux/mandrake/10.1"/>

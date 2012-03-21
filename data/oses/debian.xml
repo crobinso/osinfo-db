@@ -6,6 +6,7 @@
     <version>1.1</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
   </os>
 
   <os id="http://debian.org/rex">
@@ -14,6 +15,7 @@
     <version>1.2</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/buzz"/>
     <derives-from id="http://debian.org/buzz"/>
   </os>
@@ -24,6 +26,7 @@
     <version>1.3</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/rex"/>
     <derives-from id="http://debian.org/rex"/>
   </os>
@@ -34,6 +37,7 @@
     <version>2.0</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/bo"/>
     <derives-from id="http://debian.org/bo"/>
   </os>
@@ -44,6 +48,7 @@
     <version>2.1</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/hamm"/>
     <derives-from id="http://debian.org/hamm"/>
   </os>
@@ -54,6 +59,7 @@
     <version>2.2</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/silnk"/>
     <derives-from id="http://debian.org/silnk"/>
   </os>
@@ -64,6 +70,7 @@
     <version>3</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/potato"/>
     <derives-from id="http://debian.org/potato"/>
   </os>
@@ -75,6 +82,7 @@
     <version>3.1</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/woody"/>
     <derives-from id="http://debian.org/woody"/>
   </os>
@@ -85,6 +93,7 @@
     <version>4</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/sarge"/>
     <derives-from id="http://debian.org/sarge"/>
   </os>
@@ -95,6 +104,7 @@
     <version>5</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/etch"/>
     <derives-from id="http://debian.org/etch"/>
 
@@ -124,6 +134,7 @@
     <version>6</version>
     <vendor>Debian Project</vendor>
     <family>Linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/lenny"/>
     <derives-from id="http://debian.org/lenny"/>
 

@@ -6,6 +6,7 @@
     <version>1.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Mother's Day</codename>
 
     <release-date>1994-11-03</release-date>
@@ -17,6 +18,7 @@
     <version>1.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Mother's Day + 0.1</codename>
     <upgrades id="http://redhat.com/rhl/1.0"/>
     <derives-from id="http://redhat.com/rhl/1.0"/>
@@ -30,6 +32,7 @@
     <version>2.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <upgrades id="http://redhat.com/rhl/1.1"/>
     <derives-from id="http://redhat.com/rhl/1.1"/>
 
@@ -42,6 +45,7 @@
     <version>2.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <upgrades id="http://redhat.com/rhl/2.0"/>
     <derives-from id="http://redhat.com/rhl/2.0"/>
 
@@ -54,6 +58,7 @@
     <version>3.0.3</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Picasso</codename>
     <upgrades id="http://redhat.com/rhl/2.1"/>
     <derives-from id="http://redhat.com/rhl/2.1"/>
@@ -67,6 +72,7 @@
     <version>4.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Colgate</codename>
     <upgrades id="http://redhat.com/rhl/3.0.3"/>
     <derives-from id="http://redhat.com/rhl/3.0.3"/>
@@ -80,6 +86,7 @@
     <version>4.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Vanderbilt</codename>
     <upgrades id="http://redhat.com/rhl/4.0"/>
     <derives-from id="http://redhat.com/rhl/4.0"/>
@@ -93,6 +100,7 @@
     <version>4.2</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Biltmore</codename>
     <upgrades id="http://redhat.com/rhl/4.1"/>
     <derives-from id="http://redhat.com/rhl/4.1"/>
@@ -106,6 +114,7 @@
     <version>5.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Hurricane</codename>
     <upgrades id="http://redhat.com/rhl/4.2"/>
     <derives-from id="http://redhat.com/rhl/4.2"/>
@@ -119,6 +128,7 @@
     <version>5.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Manhattan</codename>
     <upgrades id="http://redhat.com/rhl/5.0"/>
     <derives-from id="http://redhat.com/rhl/5.0"/>
@@ -132,6 +142,7 @@
     <version>5.2</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Apollo</codename>
     <upgrades id="http://redhat.com/rhl/5.1"/>
     <derives-from id="http://redhat.com/rhl/5.1"/>
@@ -145,6 +156,7 @@
     <version>6.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Hedwig</codename>
     <upgrades id="http://redhat.com/rhl/5.1"/>
     <derives-from id="http://redhat.com/rhl/5.1"/>
@@ -158,6 +170,7 @@
     <version>6.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Cartman</codename>
     <upgrades id="http://redhat.com/rhl/6.0"/>
     <derives-from id="http://redhat.com/rhl/6.0"/>
@@ -171,6 +184,7 @@
     <version>6.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Zoot</codename>
     <upgrades id="http://redhat.com/rhl/6.1"/>
     <derives-from id="http://redhat.com/rhl/6.1"/>
@@ -184,6 +198,7 @@
     <version>7</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Guinness</codename>
     <upgrades id="http://redhat.com/rhl/6.1"/>
     <derives-from id="http://redhat.com/rhl/6.1"/>
@@ -197,6 +212,7 @@
     <version>7.1</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Seawolf</codename>
     <upgrades id="http://redhat.com/rhl/7"/>
     <derives-from id="http://redhat.com/rhl/7"/>
@@ -211,6 +227,7 @@
     <version>7.2</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Enigma</codename>
     <upgrades id="http://redhat.com/rhl/7.1"/>
     <derives-from id="http://redhat.com/rhl/7.1"/>
@@ -225,6 +242,7 @@
     <version>7.3</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Valhalla</codename>
     <upgrades id="http://redhat.com/rhl/7.2"/>
     <derives-from id="http://redhat.com/rhl/7.2"/>
@@ -239,6 +257,7 @@
     <version>8.0</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Psyche</codename>
     <upgrades id="http://redhat.com/rhl/7.3"/>
     <derives-from id="http://redhat.com/rhl/7.3"/>
@@ -253,6 +272,7 @@
     <version>9</version>
     <vendor>Red Hat, Inc</vendor>
     <family>Linux</family>
+    <distro>rhl</distro>
     <codename>Shrike</codename>
     <upgrades id="http://redhat.com/rhl/8.0"/>
     <derives-from id="http://redhat.com/rhl/8.0"/>

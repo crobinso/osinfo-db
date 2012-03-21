@@ -5,6 +5,7 @@
     <name>Microsoft MS-DOS</name>
     <vendor>Microsoft</vendor>
     <family>Other</family>
+    <distro>msdos</distro>
   </os>
 
   <os id="http://novell.com/netware4">
@@ -12,6 +13,7 @@
     <name>Novell Netware 4</name>
     <vendor>Novell</vendor>
     <family>Other</family>
+    <distro>netware</distro>
   </os>
 
   <os id="http://novell.com/netware5">
@@ -19,6 +21,7 @@
     <name>Novell Netware 5</name>
     <vendor>Novell</vendor>
     <family>Other</family>
+    <distro>netware</distro>
   </os>
 
   <os id="http://novell.com/netware6">
@@ -26,6 +29,7 @@
     <name>Novell Netware 6</name>
     <vendor>Novell</vendor>
     <family>Other</family>
+    <distro>netware</distro>
   </os>
 
 </libosinfo>

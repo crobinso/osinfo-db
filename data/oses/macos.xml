@@ -6,6 +6,7 @@
     <version>10.0</version>
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
+    <distro>osx</distro>
   </os>
 
   <os id="http://apple.com/macosx/10.1">
@@ -15,6 +16,7 @@
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
     <upgrades id="http://apple.com/macosx/10.0" />
+    <distro>osx</distro>
   </os>
 
   <os id="http://apple.com/macosx/10.2">
@@ -24,6 +26,7 @@
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
     <upgrades id="http://apple.com/macosx/10.1" />
+    <distro>osx</distro>
   </os>
 
   <os id="http://apple.com/macosx/10.3">
@@ -33,6 +36,7 @@
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
     <upgrades id="http://apple.com/macosx/10.2" />
+    <distro>osx</distro>
   </os>
 
   <os id="http://apple.com/macosx/10.4">
@@ -41,6 +45,7 @@
     <version>10.4</version>
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
+    <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.3" />
   </os>
 
@@ -50,6 +55,7 @@
     <version>10.5</version>
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
+    <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.4" />
   </os>
 
@@ -59,6 +65,7 @@
     <version>10.6</version>
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
+    <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.5" />
 
     <resources arch="all">
@@ -78,6 +85,7 @@
     <version>10.7</version>
     <vendor>Apple Inc.</vendor>
     <family>MacOS</family>
+    <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.6" />
 
     <resources arch="all">

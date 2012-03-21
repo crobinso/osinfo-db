@@ -5,6 +5,7 @@
     <name>OpenBSD 4.2</name>
     <version>4.2</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
 
     <media arch='i386'>
@@ -31,6 +32,7 @@
     <name>OpenBSD 4.3</name>
     <version>4.3</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.2'/>
     <derives-from id='http://openbsd.org/openbsd/4.2'/>
@@ -59,6 +61,7 @@
     <name>OpenBSD 4.4</name>
     <version>4.4</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.3'/>
     <derives-from id='http://openbsd.org/openbsd/4.3'/>
@@ -87,6 +90,7 @@
     <name>OpenBSD 4.5</name>
     <version>4.5</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.4'/>
     <derives-from id='http://openbsd.org/openbsd/4.4'/>
@@ -115,6 +119,7 @@
     <name>OpenBSD 4.8</name>
     <version>4.8</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.5'/>
     <derives-from id='http://openbsd.org/openbsd/4.5'/>
@@ -143,6 +148,7 @@
     <name>OpenBSD 4.9</name>
     <version>4.9</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.8'/>
     <derives-from id='http://openbsd.org/openbsd/4.8'/>
@@ -176,6 +182,7 @@
     <name>OpenBSD 5.0</name>
     <version>5.0</version>
     <family>OpenBSD</family>
+    <distro>openbsd</distro>
     <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/4.9'/>
     <derives-from id='http://openbsd.org/openbsd/4.9'/>

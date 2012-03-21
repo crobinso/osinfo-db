@@ -5,6 +5,7 @@
     <name>Microsoft Windows</name>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
@@ -20,6 +21,7 @@
     <version>4.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
 
     <resources arch="i386">
@@ -37,6 +39,7 @@
     <version>4.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win95"/>
 
@@ -60,6 +63,7 @@
     <version>4.9</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win98"/>
 
@@ -84,6 +88,7 @@
     <version>5.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
 
     <media arch="i386">
@@ -116,6 +121,7 @@
     <version>5.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k"/>
 
@@ -163,6 +169,7 @@
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
 
     <media arch="i386">
@@ -219,6 +226,7 @@
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3"/>
 
@@ -270,6 +278,7 @@
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k3r2"/>
 
@@ -323,6 +332,7 @@
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win2k8"/>
 
@@ -361,6 +371,7 @@
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/winxp"/>
 
@@ -399,6 +410,7 @@
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/vista"/>
 
@@ -444,6 +456,7 @@
     <version>6.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>Windows</family>
+    <distro>windows</distro>
     <derives-from id="http://microsoft.com/windows"/>
     <upgrades id="http://microsoft.com/win7"/>
 

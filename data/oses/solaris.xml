@@ -6,6 +6,7 @@
     <version>9</version>
     <vendor>Sun</vendor>
     <family>Solaris</family>
+    <distro>solaris</distro>
   </os>
 
   <os id="http://sun.com/solaris10">
@@ -14,6 +15,7 @@
     <version>10</version>
     <vendor>Sun</vendor>
     <family>Solaris</family>
+    <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris9"/>
 
     <devices>
@@ -27,6 +29,7 @@
     <version>2009.06</version>
     <vendor>Sun</vendor>
     <family>Solaris</family>
+    <distro>opensolaris</distro>
 
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
