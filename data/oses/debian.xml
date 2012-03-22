@@ -1,6 +1,7 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://debian.org/buzz">
+  <os id="http://debian.org/debian/1.0">
+    <short-id>debian1.0</short-id>
     <short-id>debianbuzz</short-id>
     <name>Debian Buzz</name>
     <version>1.1</version>
@@ -9,104 +10,113 @@
     <distro>debian</distro>
   </os>
 
-  <os id="http://debian.org/rex">
+  <os id="http://debian.org/debian/1.2">
+    <short-id>debian1.2</short-id>
     <short-id>debianrex</short-id>
     <name>Debian Rex</name>
     <version>1.2</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/buzz"/>
-    <derives-from id="http://debian.org/buzz"/>
+    <upgrades id="http://debian.org/debian/1.0"/>
+    <derives-from id="http://debian.org/debian/1.0"/>
   </os>
 
-  <os id="http://debian.org/bo">
+  <os id="http://debian.org/debian/1.3">
+    <short-id>debian1.3</short-id>
     <short-id>debianbo</short-id>
     <name>Debian Bo</name>
     <version>1.3</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/rex"/>
-    <derives-from id="http://debian.org/rex"/>
+    <upgrades id="http://debian.org/debian/1.2"/>
+    <derives-from id="http://debian.org/debian/1.2"/>
   </os>
 
-  <os id="http://debian.org/hamm">
+  <os id="http://debian.org/debian/2.0">
+    <short-id>debian2.0</short-id>
     <short-id>debianhamm</short-id>
     <name>Debian Hamm</name>
     <version>2.0</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/bo"/>
-    <derives-from id="http://debian.org/bo"/>
+    <upgrades id="http://debian.org/debian/1.3"/>
+    <derives-from id="http://debian.org/debian/1.3"/>
   </os>
 
-  <os id="http://debian.org/silnk">
+  <os id="http://debian.org/debian/2.1">
+    <short-id>debian2.1</short-id>
     <short-id>debiansilnk</short-id>
     <name>Debian Silnk</name>
     <version>2.1</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/hamm"/>
-    <derives-from id="http://debian.org/hamm"/>
+    <upgrades id="http://debian.org/debian/2.0"/>
+    <derives-from id="http://debian.org/debian/2.0"/>
   </os>
 
-  <os id="http://debian.org/potato">
+  <os id="http://debian.org/debian/2.2">
+    <short-id>debian2.2</short-id>
     <short-id>debianpotato</short-id>
     <name>Debian Potato</name>
     <version>2.2</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/silnk"/>
-    <derives-from id="http://debian.org/silnk"/>
+    <upgrades id="http://debian.org/debian/2.1"/>
+    <derives-from id="http://debian.org/debian/2.1"/>
   </os>
 
-  <os id="http://debian.org/woody">
+  <os id="http://debian.org/debian/3">
+    <short-id>debian3</short-id>
     <short-id>debianwoody</short-id>
     <name>Debian Woody</name>
     <version>3</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/potato"/>
-    <derives-from id="http://debian.org/potato"/>
+    <upgrades id="http://debian.org/debian/2.2"/>
+    <derives-from id="http://debian.org/debian/2.2"/>
   </os>
 
 
-  <os id="http://debian.org/sarge">
+  <os id="http://debian.org/debian/3.1">
+    <short-id>debian3.1</short-id>
     <short-id>debiansarge</short-id>
     <name>Debian Sarge</name>
     <version>3.1</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/woody"/>
-    <derives-from id="http://debian.org/woody"/>
+    <upgrades id="http://debian.org/debian/3"/>
+    <derives-from id="http://debian.org/debian/3"/>
   </os>
 
-  <os id="http://debian.org/etch">
+  <os id="http://debian.org/debian/4">
+    <short-id>debian4</short-id>
     <short-id>debianetch</short-id>
     <name>Debian Etch</name>
     <version>4</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/sarge"/>
-    <derives-from id="http://debian.org/sarge"/>
+    <upgrades id="http://debian.org/debian/3.1"/>
+    <derives-from id="http://debian.org/debian/3.1"/>
   </os>
 
-  <os id="http://debian.org/lenny">
+  <os id="http://debian.org/debian/5">
+    <short-id>debian5</short-id>
     <short-id>debianlenny</short-id>
     <name>Debian Lenny</name>
     <version>5</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/etch"/>
-    <derives-from id="http://debian.org/etch"/>
+    <upgrades id="http://debian.org/debian/4"/>
+    <derives-from id="http://debian.org/debian/4"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -128,15 +138,16 @@
     </resources>
   </os>
 
-  <os id="http://debian.org/squeeze">
+  <os id="http://debian.org/debian/6">
+    <short-id>debian6</short-id>
     <short-id>debiansqueeze</short-id>
     <name>Debian Squeeze</name>
     <version>6</version>
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/lenny"/>
-    <derives-from id="http://debian.org/lenny"/>
+    <upgrades id="http://debian.org/debian/5"/>
+    <derives-from id="http://debian.org/debian/5"/>
 
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>

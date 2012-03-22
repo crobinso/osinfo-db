@@ -1,6 +1,7 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://ubuntu.com/warty">
+  <os id="http://ubuntu.com/ubuntu/4.10">
+    <short-id>ubuntu4.10</short-id>
     <short-id>ubuntuwarty</short-id>
     <name>Ubuntu Warty Warthog</name>
     <version>4.10</version>
@@ -42,7 +43,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/hoary">
+  <os id="http://ubuntu.com/ubuntu/5.04">
+    <short-id>ubuntu5.04</short-id>
     <short-id>ubuntuhoary</short-id>
     <name>Ubuntu Hoary Hedgehog</name>
     <version>5.04</version>
@@ -50,8 +52,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hoary Hedgehog</codename>
-    <upgrades id="http://ubuntu.com/warty"/>
-    <derives-from id="http://ubuntu.com/warty"/>
+    <upgrades id="http://ubuntu.com/ubuntu/4.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/4.10"/>
 
     <release-date>2005-04-08</release-date>
     <eol-date>2006-10-31</eol-date>
@@ -114,7 +116,8 @@
 
   </os>
 
-  <os id="http://ubuntu.com/breezy">
+  <os id="http://ubuntu.com/ubuntu/5.10">
+    <short-id>ubuntu5.10</short-id>
     <short-id>ubuntubreezy</short-id>
     <name>Ubuntu Breezy Badger</name>
     <version>5.10</version>
@@ -122,8 +125,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Breezy Badger</codename>
-    <upgrades id="http://ubuntu.com/hoary"/>
-    <derives-from id="http://ubuntu.com/hoary"/>
+    <upgrades id="http://ubuntu.com/ubuntu/5.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/5.04"/>
 
     <release-date>2005-10-13</release-date>
     <eol-date>2007-04-13</eol-date>
@@ -214,7 +217,8 @@
 
   </os>
 
-  <os id="http://ubuntu.com/dapper">
+  <os id="http://ubuntu.com/ubuntu/6.06">
+    <short-id>ubuntu6.06</short-id>
     <short-id>ubuntudapper</short-id>
     <name>Ubuntu Dapper Drake LTS</name>
     <version>6.06</version>
@@ -222,8 +226,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Dapper Drake</codename>
-    <upgrades id="http://ubuntu.com/breezy"/>
-    <derives-from id="http://ubuntu.com/breezy"/>
+    <upgrades id="http://ubuntu.com/ubuntu/5.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/5.10"/>
 
     <release-date>2006-06-01</release-date>
     <eol-date>2011-06-01</eol-date>
@@ -341,7 +345,8 @@
 
   </os>
 
-  <os id="http://ubuntu.com/edgy">
+  <os id="http://ubuntu.com/ubuntu/6.10">
+    <short-id>ubuntu6.10</short-id>
     <short-id>ubuntuedgy</short-id>
     <name>Ubuntu Edgy Eft</name>
     <version>6.10</version>
@@ -349,8 +354,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Edgy Eft</codename>
-    <upgrades id="http://ubuntu.com/dapper"/>
-    <derives-from id="http://ubuntu.com/dapper"/>
+    <upgrades id="http://ubuntu.com/ubuntu/6.06"/>
+    <derives-from id="http://ubuntu.com/ubuntu/6.06"/>
 
     <release-date>2006-10-26</release-date>
     <eol-date>2008-04-25</eol-date>
@@ -421,7 +426,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/feisty">
+  <os id="http://ubuntu.com/ubuntu/7.04">
+    <short-id>ubuntu7.04</short-id>
     <short-id>ubuntufeisty</short-id>
     <name>Ubuntu Feisty Fawn</name>
     <version>7.04</version>
@@ -429,8 +435,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Feisty Fawn</codename>
-    <upgrades id="http://ubuntu.com/edgy"/>
-    <derives-from id="http://ubuntu.com/edgy"/>
+    <upgrades id="http://ubuntu.com/ubuntu/6.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/6.10"/>
 
     <release-date>2007-04-19</release-date>
     <eol-date>2008-10-19</eol-date>
@@ -483,7 +489,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/gutsy">
+  <os id="http://ubuntu.com/ubuntu/7.10">
+    <short-id>ubuntu7.10</short-id>
     <short-id>ubuntugutsy</short-id>
     <name>Ubuntu Gutsy Gibbon</name>
     <version>7.10</version>
@@ -491,8 +498,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Gutsy Gibbon</codename>
-    <upgrades id="http://ubuntu.com/feisty"/>
-    <derives-from id="http://ubuntu.com/feisty"/>
+    <upgrades id="http://ubuntu.com/ubuntu/7.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/7.04"/>
 
     <release-date>2007-10-18</release-date>
     <eol-date>2009-04-18</eol-date>
@@ -545,7 +552,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/hardy">
+  <os id="http://ubuntu.com/ubuntu/8.04">
+    <short-id>ubuntu8.04</short-id>
     <short-id>ubuntuhardy</short-id>
     <name>Ubuntu Hardy Heron LTS</name>
     <version>8.04</version>
@@ -553,8 +561,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hardy Heron</codename>
-    <upgrades id="http://ubuntu.com/gutsy"/>
-    <derives-from id="http://ubuntu.com/gutsy"/>
+    <upgrades id="http://ubuntu.com/ubuntu/7.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/7.10"/>
 
     <release-date>2008-04-24</release-date>
 
@@ -620,7 +628,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/intrepid">
+  <os id="http://ubuntu.com/ubuntu/8.10">
+    <short-id>ubuntu8.10</short-id>
     <short-id>ubuntuintrepid</short-id>
     <name>Ubuntu Intrepid Ibex</name>
     <version>8.10</version>
@@ -628,8 +637,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Intrepid Ibex</codename>
-    <upgrades id="http://ubuntu.com/hardy"/>
-    <derives-from id="http://ubuntu.com/hardy"/>
+    <upgrades id="http://ubuntu.com/ubuntu/8.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/8.04"/>
 
     <release-date>2008-10-30</release-date>
     <eol-date>2010-04-30</eol-date>
@@ -673,7 +682,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/jaunty">
+  <os id="http://ubuntu.com/ubuntu/9.04">
+    <short-id>ubuntu9.04</short-id>
     <short-id>ubuntujaunty</short-id>
     <name>Ubuntu Jaunty Jackalope</name>
     <version>9.04</version>
@@ -681,8 +691,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Jaunty Jackalope</codename>
-    <upgrades id="http://ubuntu.com/intrepid"/>
-    <derives-from id="http://ubuntu.com/intrepid"/>
+    <upgrades id="http://ubuntu.com/ubuntu/8.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/8.10"/>
 
     <release-date>2009-04-23</release-date>
     <eol-date>2010-10-23</eol-date>
@@ -730,7 +740,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/karmic">
+  <os id="http://ubuntu.com/ubuntu/9.10">
+    <short-id>ubuntu9.10</short-id>
     <short-id>ubuntukarmic</short-id>
     <name>Ubuntu Karmic Koala</name>
     <version>9.10</version>
@@ -738,8 +749,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Karmic Koala</codename>
-    <upgrades id="http://ubuntu.com/jaunty"/>
-    <derives-from id="http://ubuntu.com/jaunty"/>
+    <upgrades id="http://ubuntu.com/ubuntu/9.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/9.04"/>
 
     <release-date>2009-10-29</release-date>
     <eol-date>2011-04-30</eol-date>
@@ -783,7 +794,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/lucid">
+  <os id="http://ubuntu.com/ubuntu/10.04">
+    <short-id>ubuntu10.04</short-id>
     <short-id>ubuntulucid</short-id>
     <name>Ubuntu Lucid Lynx LTS</name>
     <version>10.04</version>
@@ -791,8 +803,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Lucid Lynx</codename>
-    <upgrades id="http://ubuntu.com/karmic"/>
-    <derives-from id="http://ubuntu.com/karmic"/>
+    <upgrades id="http://ubuntu.com/ubuntu/9.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/9.10"/>
 
     <release-date>2010-04-29</release-date>
 
@@ -829,7 +841,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/maverick">
+  <os id="http://ubuntu.com/ubuntu/10.10">
+    <short-id>ubuntu10.10</short-id>
     <short-id>ubuntumaverick</short-id>
     <name>Ubuntu Maverick Meerkat</name>
     <version>10.10</version>
@@ -837,8 +850,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Maverick Meerkat</codename>
-    <upgrades id="http://ubuntu.com/lucid"/>
-    <derives-from id="http://ubuntu.com/lucid"/>
+    <upgrades id="http://ubuntu.com/ubuntu/10.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/10.04"/>
 
     <release-date>2010-10-10</release-date>
 
@@ -859,7 +872,7 @@
     <media arch="i386">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu(-Server)? 10.04 i386</volume-id>
+        <volume-id>Ubuntu(-Server)? 10.10 i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -868,7 +881,7 @@
     <media arch="x86_64">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu(-Server)? 10.04 amd64</volume-id>
+        <volume-id>Ubuntu(-Server)? 10.10 amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -878,7 +891,7 @@
     <media arch="i386" live="true">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 10.04 i386</volume-id>
+        <volume-id>Ubuntu 10.10 i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -887,7 +900,7 @@
     <media arch="x86_64" live="true">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 10.04 amd64</volume-id>
+        <volume-id>Ubuntu 10.10 amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -895,7 +908,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/natty">
+  <os id="http://ubuntu.com/ubuntu/11.04">
+    <short-id>ubuntu11.04</short-id>
     <short-id>ubuntunatty</short-id>
     <name>Ubuntu Natty Narwhal</name>
     <version>11.04</version>
@@ -903,8 +917,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Natty Narwhal</codename>
-    <upgrades id="http://ubuntu.com/maverick"/>
-    <derives-from id="http://ubuntu.com/maverick"/>
+    <upgrades id="http://ubuntu.com/ubuntu/10.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/10.10"/>
 
     <release-date>2011-04-28</release-date>
 
@@ -961,7 +975,8 @@
     </media>
   </os>
 
-  <os id="http://ubuntu.com/oneiric">
+  <os id="http://ubuntu.com/ubuntu/11.10">
+    <short-id>ubuntu11.10</short-id>
     <short-id>ubuntuoneiric</short-id>
     <name>Ubuntu Oneiric Ocelot</name>
     <version>11.10</version>
@@ -969,8 +984,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Oneiric Ocelot</codename>
-    <upgrades id="http://ubuntu.com/natty"/>
-    <derives-from id="http://ubuntu.com/natty"/>
+    <upgrades id="http://ubuntu.com/ubuntu/11.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/11.04"/>
 
     <release-date>2011-10-13</release-date>
 

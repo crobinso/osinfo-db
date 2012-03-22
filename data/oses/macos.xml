@@ -1,7 +1,7 @@
 <libosinfo version="0.0.1">
 
   <os id="http://apple.com/macosx/10.0">
-    <short-id>macosx100</short-id>
+    <short-id>macosx10.0</short-id>
     <name>MacOS X Cheetah</name>
     <version>10.0</version>
     <vendor>Apple Inc.</vendor>
@@ -10,7 +10,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.1">
-    <short-id>macosx101</short-id>
+    <short-id>macosx10.1</short-id>
     <name>MacOS X Puma</name>
     <version>10.1</version>
     <vendor>Apple Inc.</vendor>
@@ -20,7 +20,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.2">
-    <short-id>macosx102</short-id>
+    <short-id>macosx10.2</short-id>
     <name>MacOS X Jaghuar</name>
     <version>10.2</version>
     <vendor>Apple Inc.</vendor>
@@ -30,7 +30,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.3">
-    <short-id>macosx103</short-id>
+    <short-id>macosx10.3</short-id>
     <name>MacOS X Panther</name>
     <version>10.3</version>
     <vendor>Apple Inc.</vendor>
@@ -40,7 +40,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.4">
-    <short-id>macosx104</short-id>
+    <short-id>macosx10.4</short-id>
     <name>MacOS X Tiger</name>
     <version>10.4</version>
     <vendor>Apple Inc.</vendor>
@@ -50,7 +50,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.5">
-    <short-id>macosx105</short-id>
+    <short-id>macosx10.5</short-id>
     <name>MacOS X Leopard</name>
     <version>10.5</version>
     <vendor>Apple Inc.</vendor>
@@ -60,7 +60,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.6">
-    <short-id>macosx106</short-id>
+    <short-id>macosx10.6</short-id>
     <name>MacOS X Snow Leopard</name>
     <version>10.6</version>
     <vendor>Apple Inc.</vendor>
@@ -80,7 +80,7 @@
   </os>
 
   <os id="http://apple.com/macosx/10.7">
-    <short-id>macosx107</short-id>
+    <short-id>macosx10.7</short-id>
     <name>MacOS X Lion</name>
     <version>10.7</version>
     <vendor>Apple Inc.</vendor>

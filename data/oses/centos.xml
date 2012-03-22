@@ -1,7 +1,7 @@
 <libosinfo version="0.0.1">
 
   <os id="http://centos.org/centos/6.0">
-    <short-id>centos-6.0</short-id>
+    <short-id>centos6.0</short-id>
     <name>CentOS 6.0</name>
     <version>6.0</version>
     <vendor>CentOS</vendor>
@@ -26,7 +26,7 @@
   </os>
 
   <os id="http://centos.org/centos/6.1">
-    <short-id>centos-6.1</short-id>
+    <short-id>centos6.1</short-id>
     <name>CentOS 6.1</name>
     <version>6.1</version>
     <vendor>CentOS</vendor>

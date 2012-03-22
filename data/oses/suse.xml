@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://suse.com/linux/sles9">
+  <os id="http://suse.com/sles/9">
     <short-id>sles9</short-id>
     <name>Suse Linux Enterprise Server 9</name>
     <version>9</version>
@@ -9,24 +9,24 @@
     <distro>sles</distro>
   </os>
 
-  <os id="http://suse.com/linux/sles10">
+  <os id="http://suse.com/sles/10">
     <short-id>sles10</short-id>
     <name>Suse Linux Enterprise Server 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
     <family>linux</family>
     <distro>sles</distro>
-    <upgrades id="http://suse.com/linux/sles9"/>
+    <upgrades id="http://suse.com/sles/9"/>
   </os>
 
-  <os id="http://suse.com/linux/sles11">
+  <os id="http://suse.com/sles/11">
     <short-id>sles11</short-id>
     <name>Suse Linux Enterprise Server 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
     <family>linux</family>
     <distro>sles</distro>
-    <upgrades id="http://suse.com/linux/sles10"/>
+    <upgrades id="http://suse.com/sles/10"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -34,7 +34,7 @@
     </devices>
   </os>
 
-  <os id="http://suse.com/linux/sled9">
+  <os id="http://suse.com/sled/9">
     <short-id>sled9</short-id>
     <name>Suse Linux Enterprise Desktop 9</name>
     <version>9</version>
@@ -43,14 +43,14 @@
     <distro>sled</distro>
   </os>
 
-  <os id="http://suse.com/linux/sled10">
+  <os id="http://suse.com/sled/10">
     <short-id>sled10</short-id>
     <name>Suse Linux Enterprise Desktop 10</name>
     <version>10</version>
     <vendor>Novell</vendor>
     <family>linux</family>
     <distro>sled</distro>
-    <upgrades id="http://suse.com/linux/sled9"/>
+    <upgrades id="http://suse.com/sled/9"/>
 
     <resources arch="all">
       <minimum>
@@ -64,14 +64,14 @@
     </resources>
   </os>
 
-  <os id="http://suse.com/linux/sled11">
+  <os id="http://suse.com/sled/11">
     <short-id>sled11</short-id>
     <name>Suse Linux Enterprise Desktop 11</name>
     <version>11</version>
     <vendor>Novell</vendor>
     <family>linux</family>
     <distro>sled</distro>
-    <upgrades id="http://suse.com/linux/sled10"/>
+    <upgrades id="http://suse.com/sled/10"/>
 
     <resources arch="all">
       <minimum>

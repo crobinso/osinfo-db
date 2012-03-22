@@ -1,7 +1,7 @@
 <libosinfo version="0.0.1">
 
   <os id="http://redhat.com/rhl/1.0">
-    <short-id>rhl-1.0</short-id>
+    <short-id>rhl1.0</short-id>
     <name>Red Hat Linux 1.0</name>
     <version>1.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -13,7 +13,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/1.1">
-    <short-id>rhl-1.1</short-id>
+    <short-id>rhl1.1</short-id>
     <name>Red Hat Linux 1.1</name>
     <version>1.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -27,7 +27,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/2.0">
-    <short-id>rhl-2.0</short-id>
+    <short-id>rhl2.0</short-id>
     <name>Red Hat Linux 2.0</name>
     <version>2.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -40,7 +40,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/2.1">
-    <short-id>rhl-2.1</short-id>
+    <short-id>rhl2.1</short-id>
     <name>Red Hat Linux 2.1</name>
     <version>2.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -53,7 +53,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/3.0.3">
-    <short-id>rhl-3.0.3</short-id>
+    <short-id>rhl3.0.3</short-id>
     <name>Red Hat Linux 3.0.3</name>
     <version>3.0.3</version>
     <vendor>Red Hat, Inc</vendor>
@@ -67,7 +67,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/4.0">
-    <short-id>rhl-4.0</short-id>
+    <short-id>rhl4.0</short-id>
     <name>Red Hat Linux 4.0</name>
     <version>4.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -81,7 +81,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/4.1">
-    <short-id>rhl-4.1</short-id>
+    <short-id>rhl4.1</short-id>
     <name>Red Hat Linux 4.1</name>
     <version>4.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -95,7 +95,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/4.2">
-    <short-id>rhl-4.2</short-id>
+    <short-id>rhl4.2</short-id>
     <name>Red Hat Linux 4.2</name>
     <version>4.2</version>
     <vendor>Red Hat, Inc</vendor>
@@ -109,7 +109,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/5.0">
-    <short-id>rhl-5.0</short-id>
+    <short-id>rhl5.0</short-id>
     <name>Red Hat Linux 5.0</name>
     <version>5.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -123,7 +123,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/5.1">
-    <short-id>rhl-5.1</short-id>
+    <short-id>rhl5.1</short-id>
     <name>Red Hat Linux 5.1</name>
     <version>5.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -137,7 +137,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/5.2">
-    <short-id>rhl-5.2</short-id>
+    <short-id>rhl5.2</short-id>
     <name>Red Hat Linux 5.2</name>
     <version>5.2</version>
     <vendor>Red Hat, Inc</vendor>
@@ -151,7 +151,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/6.0">
-    <short-id>rhl-6.0</short-id>
+    <short-id>rhl6.0</short-id>
     <name>Red Hat Linux 6.0</name>
     <version>6.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -165,7 +165,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/6.1">
-    <short-id>rhl-6.1</short-id>
+    <short-id>rhl6.1</short-id>
     <name>Red Hat Linux 6.1</name>
     <version>6.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -179,7 +179,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/6.2">
-    <short-id>rhl-6.2</short-id>
+    <short-id>rhl6.2</short-id>
     <name>Red Hat Linux 6.2</name>
     <version>6.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -193,7 +193,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/7">
-    <short-id>rhl-7</short-id>
+    <short-id>rhl7</short-id>
     <name>Red Hat Linux 7</name>
     <version>7</version>
     <vendor>Red Hat, Inc</vendor>
@@ -207,7 +207,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/7.1">
-    <short-id>rhl-7.1</short-id>
+    <short-id>rhl7.1</short-id>
     <name>Red Hat Linux 7.1</name>
     <version>7.1</version>
     <vendor>Red Hat, Inc</vendor>
@@ -222,7 +222,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/7.2">
-    <short-id>rhl-7.2</short-id>
+    <short-id>rhl7.2</short-id>
     <name>Red Hat Linux 7.2</name>
     <version>7.2</version>
     <vendor>Red Hat, Inc</vendor>
@@ -237,7 +237,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/7.3">
-    <short-id>rhl-7.3</short-id>
+    <short-id>rhl7.3</short-id>
     <name>Red Hat Linux 7.3</name>
     <version>7.3</version>
     <vendor>Red Hat, Inc</vendor>
@@ -252,7 +252,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/8.0">
-    <short-id>rhl-8.0</short-id>
+    <short-id>rhl8.0</short-id>
     <name>Red Hat Linux 8.0</name>
     <version>8.0</version>
     <vendor>Red Hat, Inc</vendor>
@@ -267,7 +267,7 @@
   </os>
 
   <os id="http://redhat.com/rhl/9">
-    <short-id>rhl-9</short-id>
+    <short-id>rhl9</short-id>
     <name>Red Hat Linux 9</name>
     <version>9</version>
     <vendor>Red Hat, Inc</vendor>

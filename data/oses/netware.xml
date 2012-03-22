@@ -5,6 +5,7 @@
     <vendor>Novell</vendor>
     <family>netware</family>
     <distro>netware</distro>
+    <version>4</version>
   </os>
 
   <os id="http://novell.com/netware5">
@@ -13,6 +14,7 @@
     <vendor>Novell</vendor>
     <family>netware</family>
     <distro>netware</distro>
+    <version>5</version>
   </os>
 
   <os id="http://novell.com/netware6">
@@ -21,6 +23,7 @@
     <vendor>Novell</vendor>
     <family>netware</family>
     <distro>netware</distro>
+    <version>6</version>
   </os>
 
 </libosinfo>

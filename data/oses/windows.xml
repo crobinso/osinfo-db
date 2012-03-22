@@ -75,115 +75,122 @@
 
   -->
 
-  <os id="http://microsoft.com/win1.0">
+  <os id="http://microsoft.com/win/1.0">
     <short-id>win1.0</short-id>
     <name>Microsoft Windows 1.0</name>
     <vendor>Microsoft Corporation</vendor>
     <family>win16</family>
-    <distro>windows</distro>
+    <distro>win</distro>
+    <version>1.0</version>
 
     <release-date>1985-11-20</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/win2.0">
+  <os id="http://microsoft.com/win/2.0">
     <short-id>win2.0</short-id>
     <name>Microsoft Windows 2.0</name>
     <vendor>Microsoft Corporation</vendor>
     <family>win16</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/win1.0"/>
-    <derives-from id="http://microsoft.com/win1.0"/>
+    <distro>win</distro>
+    <version>2.0</version>
+    <upgrades id="http://microsoft.com/win/1.0"/>
+    <derives-from id="http://microsoft.com/win/1.0"/>
 
     <release-date>1987-12-09</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/win2.1">
+  <os id="http://microsoft.com/win/2.1">
     <short-id>win2.1</short-id>
     <name>Microsoft Windows 2.1</name>
     <vendor>Microsoft Corporation</vendor>
     <family>win16</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/win2.0"/>
-    <derives-from id="http://microsoft.com/win2.0"/>
+    <distro>win</distro>
+    <version>2.1</version>
+    <upgrades id="http://microsoft.com/win/2.0"/>
+    <derives-from id="http://microsoft.com/win/2.0"/>
 
     <release-date>1988-05-27</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/win31">
+  <os id="http://microsoft.com/win/3.1">
     <short-id>win3.1</short-id>
     <name>Microsoft Windows 3.1</name>
     <vendor>Microsoft Corporation</vendor>
     <family>win16</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/win2.1"/>
-    <derives-from id="http://microsoft.com/win2.1"/>
+    <distro>win</distro>
+    <version>3.1</version>
+    <upgrades id="http://microsoft.com/win/2.1"/>
+    <derives-from id="http://microsoft.com/win/2.1"/>
 
     <release-date>1992-04-06</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/winnt3.1">
+  <os id="http://microsoft.com/winnt/3.1">
     <short-id>winnt3.1</short-id>
     <name>Microsoft Windows NT Server 3.1</name>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-
+    <distro>winnt</distro>
+    <version>3.1</version>
     <release-date>1993-07-27</release-date>
     <eol-date>2000-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/winnt3.5">
+  <os id="http://microsoft.com/winnt/3.5">
     <short-id>winnt3.5</short-id>
     <name>Microsoft Windows NT Server 3.5</name>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/winnt3.1"/>
-    <derives-from id="http://microsoft.com/winnt3.1"/>
+    <distro>winnt</distro>
+    <version>3.5</version>
+    <upgrades id="http://microsoft.com/winnt/3.1"/>
+    <derives-from id="http://microsoft.com/winnt/3.1"/>
 
     <release-date>1994-09-21</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/winnt3.51">
+  <os id="http://microsoft.com/winnt/3.51">
     <short-id>winnt3.51</short-id>
     <name>Microsoft Windows NT Server 3.51</name>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/winnt3.5"/>
-    <derives-from id="http://microsoft.com/winnt3.5"/>
+    <distro>winnt</distro>
+    <version>3.51</version>
+    <upgrades id="http://microsoft.com/winnt/3.5"/>
+    <derives-from id="http://microsoft.com/winnt/3.5"/>
 
     <release-date>1995-05-30</release-date>
     <eol-date>2001-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/winnt4.0">
+  <os id="http://microsoft.com/winnt/4.0">
     <short-id>winnt4.0</short-id>
     <name>Microsoft Windows NT Server 4.0</name>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/winnt3.51"/>
-    <derives-from id="http://microsoft.com/winnt3.51"/>
+    <distro>winnt</distro>
+    <version>4.0</version>
+    <upgrades id="http://microsoft.com/winnt/3.51"/>
+    <derives-from id="http://microsoft.com/winnt/3.51"/>
 
     <release-date>1996-08-24</release-date>
     <eol-date>2004-12-31</eol-date>
   </os>
 
-  <os id="http://microsoft.com/win95">
+  <os id="http://microsoft.com/win/95">
     <short-id>win95</short-id>
     <name>Microsoft Windows 95</name>
     <version>4.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
-    <distro>windows</distro>
-    <upgrades id="http://microsoft.com/win3.1"/>
-    <derives-from id="http://microsoft.com/win3.1"/>
+    <distro>win</distro>
+    <upgrades id="http://microsoft.com/win/3.1"/>
+    <derives-from id="http://microsoft.com/win/3.1"/>
 
     <release-date>1995-08-24</release-date>
     <eol-date>2001-12-13</eol-date>
@@ -204,15 +211,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win98">
+  <os id="http://microsoft.com/win/98">
     <short-id>win98</short-id>
     <name>Microsoft Windows 98</name>
     <version>4.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win95"/>
-    <upgrades id="http://microsoft.com/win95"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/95"/>
+    <upgrades id="http://microsoft.com/win/95"/>
 
     <release-date>1998-06-25</release-date>
     <eol-date>2006-07-11</eol-date>
@@ -231,15 +238,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/winme">
+  <os id="http://microsoft.com/win/me">
     <short-id>winme</short-id>
     <name>Microsoft Windows Millennium Edition</name>
     <version>4.9</version>
     <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win98"/>
-    <upgrades id="http://microsoft.com/win98"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/98"/>
+    <upgrades id="http://microsoft.com/win/98"/>
 
     <release-date>2000-09-14</release-date>
     <eol-date>2006-07-11</eol-date>
@@ -259,14 +266,14 @@
   </os>
 
 
-  <os id="http://microsoft.com/win2k">
+  <os id="http://microsoft.com/win/2k">
     <short-id>win2k</short-id>
     <name>Microsoft Windows 2000</name>
     <version>5.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/winme"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/me"/>
 
     <release-date>2000-02-17</release-date>
     <eol-date>2010-07-13</eol-date>
@@ -302,16 +309,16 @@
   </os>
 
 
-  <os id="http://microsoft.com/winxp">
+  <os id="http://microsoft.com/win/xp">
     <short-id>winxp</short-id>
     <name>Microsoft Windows XP</name>
     <version>5.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win2k"/>
-    <derives-from id="http://microsoft.com/winme"/>
-    <upgrades id="http://microsoft.com/winme"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k"/>
+    <derives-from id="http://microsoft.com/win/me"/>
+    <upgrades id="http://microsoft.com/win/me"/>
 
     <release-date>2001-10-25</release-date>
     <eol-date>2009-04-19</eol-date>
@@ -354,15 +361,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win2k3">
+  <os id="http://microsoft.com/win/2k3">
     <short-id>win2k3</short-id>
     <name>Microsoft Windows Server 2003</name>
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win2k"/>
-    <upgrades id="http://microsoft.com/win2k"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k"/>
+    <upgrades id="http://microsoft.com/win/2k"/>
 
     <release-date>2003-04-24</release-date>
     <eol-date>2015-07-14</eol-date>
@@ -415,15 +422,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win2k3r2">
+  <os id="http://microsoft.com/win/2k3r2">
     <short-id>win2k3r2</short-id>
     <name>Microsoft Windows Server 2003 R2</name>
     <version>5.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win2k3"/>
-    <upgrades id="http://microsoft.com/win2k3"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k3"/>
+    <upgrades id="http://microsoft.com/win/2k3"/>
 
     <release-date>2005-12-06</release-date>
     <eol-date>2015-07-14</eol-date>
@@ -470,15 +477,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win2k8">
+  <os id="http://microsoft.com/win/2k8">
     <short-id>win2k8</short-id>
     <name>Microsoft Windows Server 2008</name>
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win2k3r2"/>
-    <upgrades id="http://microsoft.com/win2k3r2"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k3r2"/>
+    <upgrades id="http://microsoft.com/win/2k3r2"/>
 
     <release-date>2008-02-27</release-date>
     <eol-date>2013-07-09</eol-date>
@@ -527,15 +534,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win2k8r2">
+  <os id="http://microsoft.com/win/2k8r2">
     <short-id>win2k8r2</short-id>
     <name>Microsoft Windows Server 2008 R2</name>
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win2k8"/>
-    <upgrades id="http://microsoft.com/win2k8"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k8"/>
+    <upgrades id="http://microsoft.com/win/2k8"/>
 
     <release-date>2009-10-22</release-date>
     <eol-date>2013-07-09</eol-date>
@@ -569,15 +576,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/winvista">
+  <os id="http://microsoft.com/win/vista">
     <short-id>winvista</short-id>
     <name>Microsoft Windows Vista</name>
     <version>6.0</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/winxp"/>
-    <upgrades id="http://microsoft.com/winxp"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/xp"/>
+    <upgrades id="http://microsoft.com/win/xp"/>
 
     <release-date>2006-11-30</release-date>
     <eol-date>2012-04-10</eol-date>
@@ -611,15 +618,15 @@
     </resources>
   </os>
 
-  <os id="http://microsoft.com/win7">
+  <os id="http://microsoft.com/win/7">
     <short-id>win7</short-id>
     <name>Microsoft Windows 7</name>
     <version>6.1</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/winvista"/>
-    <upgrades id="http://microsoft.com/winvista"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/vista"/>
+    <upgrades id="http://microsoft.com/win/vista"/>
 
     <release-date>2009-10-22</release-date>
     <eol-date>2015-01-13</eol-date>
@@ -660,15 +667,15 @@
     </devices>
   </os>
 
-  <os id="http://microsoft.com/win8">
+  <os id="http://microsoft.com/win/8">
     <short-id>win8</short-id>
     <name>Microsoft Windows 8</name>
     <version>6.2</version>
     <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
-    <distro>windows</distro>
-    <derives-from id="http://microsoft.com/win7"/>
-    <upgrades id="http://microsoft.com/win7"/>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/7"/>
+    <upgrades id="http://microsoft.com/win/7"/>
 
 <!--
     <release-date></release-date>

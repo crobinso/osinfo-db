@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://sun.com/solaris9">
+  <os id="http://sun.com/solaris/9">
     <short-id>solaris9</short-id>
     <name>Sun Solaris 9</name>
     <version>9</version>
@@ -9,23 +9,23 @@
     <distro>solaris</distro>
   </os>
 
-  <os id="http://sun.com/solaris10">
+  <os id="http://sun.com/solaris/10">
     <short-id>solaris10</short-id>
     <name>Sun Solaris 10</name>
     <version>10</version>
     <vendor>Sun</vendor>
     <family>solaris</family>
     <distro>solaris</distro>
-    <upgrades id="http://sun.com/solaris9"/>
+    <upgrades id="http://sun.com/solaris/9"/>
 
     <devices>
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
     </devices>
   </os>
 
-  <os id="http://oracle.com/opensolaris">
-    <short-id>opensolaris</short-id>
-    <name>Sun OpenSolaris</name>
+  <os id="http://oracle.com/opensolaris/2009.06">
+    <short-id>opensolaris2009.06</short-id>
+    <name>Sun OpenSolaris 2009.06</name>
     <version>2009.06</version>
     <vendor>Sun</vendor>
     <family>solaris</family>

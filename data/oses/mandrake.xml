@@ -1,202 +1,218 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://mandriva.com/linux/mandrake/5.1">
+  <os id="http://mandriva.com/mandrake/5.1">
     <short-id>mandrake5.1</short-id>
     <name>Mandrake Linux 5.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Venice</codename>
-
+    <version>5.1</version>
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/5.2">
+  <os id="http://mandriva.com/mandrake/5.2">
     <short-id>mandrake5.2</short-id>
     <name>Mandrake Linux 5.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Leeloo</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/5.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/5.1"/>
+    <version>5.2</version>
+    <upgrades id="http://mandriva.com/mandrake/5.1"/>
+    <derives-from id="http://mandriva.com/mandrake/5.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/5.3">
+  <os id="http://mandriva.com/mandrake/5.3">
     <short-id>mandrake5.3</short-id>
     <name>Mandrake Linux 5.3</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Festen</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/5.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/5.2"/>
+    <version>5.3</version>
+    <upgrades id="http://mandriva.com/mandrake/5.2"/>
+    <derives-from id="http://mandriva.com/mandrake/5.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/6.0">
+  <os id="http://mandriva.com/mandrake/6.0">
     <short-id>mandrake6.0</short-id>
     <name>Mandrake Linux 6.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Venus</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/5.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/5.2"/>
+    <version>6.0</version>
+    <upgrades id="http://mandriva.com/mandrake/5.2"/>
+    <derives-from id="http://mandriva.com/mandrake/5.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/6.1">
+  <os id="http://mandriva.com/mandrake/6.1">
     <short-id>mandrake6.1</short-id>
     <name>Mandrake Linux 6.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Helios</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/6.0"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/6.0"/>
+    <version>6.1</version>
+    <upgrades id="http://mandriva.com/mandrake/6.0"/>
+    <derives-from id="http://mandriva.com/mandrake/6.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/7.0">
+  <os id="http://mandriva.com/mandrake/7.0">
     <short-id>mandrake7.0</short-id>
     <name>Mandrake Linux 7.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Air</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/6.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/6.1"/>
+    <version>7.0</version>
+    <upgrades id="http://mandriva.com/mandrake/6.1"/>
+    <derives-from id="http://mandriva.com/mandrake/6.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/7.1">
+  <os id="http://mandriva.com/mandrake/7.1">
     <short-id>mandrake7.1</short-id>
     <name>Mandrake Linux 7.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Helium</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/7.0"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/7.0"/>
+    <version>7.1</version>
+    <upgrades id="http://mandriva.com/mandrake/7.0"/>
+    <derives-from id="http://mandriva.com/mandrake/7.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/7.2">
+  <os id="http://mandriva.com/mandrake/7.2">
     <short-id>mandrake7.2</short-id>
     <name>Mandrake Linux 7.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Odyssey</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/7.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/7.1"/>
+    <version>7.2</version>
+    <upgrades id="http://mandriva.com/mandrake/7.1"/>
+    <derives-from id="http://mandriva.com/mandrake/7.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/8.0">
+  <os id="http://mandriva.com/mandrake/8.0">
     <short-id>mandrake8.0</short-id>
     <name>Mandrake Linux 8.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Traktopel</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/7.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/7.2"/>
+    <version>8.0</version>
+    <upgrades id="http://mandriva.com/mandrake/7.2"/>
+    <derives-from id="http://mandriva.com/mandrake/7.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/8.1">
+  <os id="http://mandriva.com/mandrake/8.1">
     <short-id>mandrake8.1</short-id>
     <name>Mandrake Linux 8.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Vitamin</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/8.0"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/8.0"/>
+    <version>8.1</version>
+    <upgrades id="http://mandriva.com/mandrake/8.0"/>
+    <derives-from id="http://mandriva.com/mandrake/8.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/8.2">
+  <os id="http://mandriva.com/mandrake/8.2">
     <short-id>mandrake8.2</short-id>
     <name>Mandrake Linux 8.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Bluebird</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/8.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/8.1"/>
+    <version>8.2</version>
+    <upgrades id="http://mandriva.com/mandrake/8.1"/>
+    <derives-from id="http://mandriva.com/mandrake/8.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/9.0">
+  <os id="http://mandriva.com/mandrake/9.0">
     <short-id>mandrake9.0</short-id>
     <name>Mandrake Linux 9.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Dolphin</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/8.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/8.2"/>
+    <version>9.0</version>
+    <upgrades id="http://mandriva.com/mandrake/8.2"/>
+    <derives-from id="http://mandriva.com/mandrake/8.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/9.1">
+  <os id="http://mandriva.com/mandrake/9.1">
     <short-id>mandrake9.1</short-id>
     <name>Mandrake Linux 9.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Bamboo</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/9.0"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/9.0"/>
+    <version>9.1</version>
+    <upgrades id="http://mandriva.com/mandrake/9.0"/>
+    <derives-from id="http://mandriva.com/mandrake/9.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/9.2">
+  <os id="http://mandriva.com/mandrake/9.2">
     <short-id>mandrake9.2</short-id>
     <name>Mandrake Linux 9.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>FiveStar</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/9.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/9.1"/>
+    <version>9.2</version>
+    <upgrades id="http://mandriva.com/mandrake/9.1"/>
+    <derives-from id="http://mandriva.com/mandrake/9.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/10.0">
+  <os id="http://mandriva.com/mandrake/10.0">
     <short-id>mandrake10.0</short-id>
     <name>Mandrake Linux 10.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
-    <upgrades id="http://mandriva.com/linux/mandrake/9.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/9.2"/>
+    <version>10.0</version>
+    <upgrades id="http://mandriva.com/mandrake/9.2"/>
+    <derives-from id="http://mandriva.com/mandrake/9.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/10.1">
+  <os id="http://mandriva.com/mandrake/10.1">
     <short-id>mandrake10.1</short-id>
     <name>Mandrake Linux 10.1</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
-    <upgrades id="http://mandriva.com/linux/mandrake/10.0"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/10.0"/>
+    <version>10.1</version>
+    <upgrades id="http://mandriva.com/mandrake/10.0"/>
+    <derives-from id="http://mandriva.com/mandrake/10.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/mandrake/10.2">
+  <os id="http://mandriva.com/mandrake/10.2">
     <short-id>mandrake10.2</short-id>
     <name>Mandrake Linux 10.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Leeloo</codename>
-    <upgrades id="http://mandriva.com/linux/mandrake/10.1"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/10.1"/>
+    <version>10.2</version>
+    <upgrades id="http://mandriva.com/mandrake/10.1"/>
+    <derives-from id="http://mandriva.com/mandrake/10.1"/>
 
   </os>
 

@@ -1,7 +1,7 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://opensuse.org/linux/10.2">
-    <short-id>opensuse102</short-id>
+  <os id="http://opensuse.org/opensuse/10.2">
+    <short-id>opensuse10.2</short-id>
     <name>openSUSE 10.2</name>
     <version>10.2</version>
     <vendor>openSUSE</vendor>
@@ -9,59 +9,59 @@
     <distro>opensuse</distro>
   </os>
 
-  <os id="http://opensuse.org/linux/10.3">
-    <short-id>opensuse103</short-id>
+  <os id="http://opensuse.org/opensuse/10.3">
+    <short-id>opensuse10.3</short-id>
     <name>openSUSE 10.3</name>
     <version>10.3</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/10.2" />
-    <derives-from id="http://opensuse.org/linux/10.2" />
+    <upgrades id="http://opensuse.org/opensuse/10.2" />
+    <derives-from id="http://opensuse.org/opensuse/10.2" />
   </os>
 
-  <os id="http://opensuse.org/linux/11.0">
-    <short-id>opensuse110</short-id>
+  <os id="http://opensuse.org/opensuse/11.0">
+    <short-id>opensuse11.0</short-id>
     <name>openSUSE 11.0</name>
     <version>11.0</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/10.3" />
-    <derives-from id="http://opensuse.org/linux/10.3" />
+    <upgrades id="http://opensuse.org/opensuse/10.3" />
+    <derives-from id="http://opensuse.org/opensuse/10.3" />
   </os>
 
-  <os id="http://opensuse.org/linux/11.1">
-    <short-id>opensuse111</short-id>
+  <os id="http://opensuse.org/opensuse/11.1">
+    <short-id>opensuse11.1</short-id>
     <name>openSUSE 11.1</name>
     <version>11.1</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/11.0" />
-    <derives-from id="http://opensuse.org/linux/11.0" />
+    <upgrades id="http://opensuse.org/opensuse/11.0" />
+    <derives-from id="http://opensuse.org/opensuse/11.0" />
   </os>
 
-  <os id="http://opensuse.org/linux/11.2">
-    <short-id>opensuse112</short-id>
+  <os id="http://opensuse.org/opensuse/11.2">
+    <short-id>opensuse11.2</short-id>
     <name>openSUSE 11.2</name>
     <version>11.2</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/11.1" />
-    <derives-from id="http://opensuse.org/linux/11.1" />
+    <upgrades id="http://opensuse.org/opensuse/11.1" />
+    <derives-from id="http://opensuse.org/opensuse/11.1" />
   </os>
 
-  <os id="http://opensuse.org/linux/11.3">
-    <short-id>opensuse113</short-id>
+  <os id="http://opensuse.org/opensuse/11.3">
+    <short-id>opensuse11.3</short-id>
     <name>openSUSE 11.3</name>
     <version>11.3</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/11.2" />
-    <derives-from id="http://opensuse.org/linux/11.2" />
+    <upgrades id="http://opensuse.org/opensuse/11.2" />
+    <derives-from id="http://opensuse.org/opensuse/11.2" />
 
     <media arch="i586">
       <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-i586.iso?mirrorlist</url>
@@ -119,15 +119,15 @@
     </resources>
   </os>
 
-  <os id="http://opensuse.org/linux/11.4">
-    <short-id>opensuse114</short-id>
+  <os id="http://opensuse.org/opensuse/11.4">
+    <short-id>opensuse11.4</short-id>
     <name>openSUSE 11.4</name>
     <version>11.4</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/11.3" />
-    <derives-from id="http://opensuse.org/linux/11.3" />
+    <upgrades id="http://opensuse.org/opensuse/11.3" />
+    <derives-from id="http://opensuse.org/opensuse/11.3" />
 
     <media arch="i586">
     <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso?mirrorlist</url>
@@ -177,15 +177,15 @@
     </resources>
   </os>
 
-  <os id="http://opensuse.org/linux/12.1">
-    <short-id>opensuse121</short-id>
+  <os id="http://opensuse.org/opensuse/12.1">
+    <short-id>opensuse12.1</short-id>
     <name>openSUSE 12.1</name>
     <version>12.1</version>
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/linux/11.4" />
-    <derives-from id="http://opensuse.org/linux/11.4" />
+    <upgrades id="http://opensuse.org/opensuse/11.4" />
+    <derives-from id="http://opensuse.org/opensuse/11.4" />
 
     <media arch="i586">
       <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-i586.iso?mirrorlist</url>

@@ -1,90 +1,98 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://mandriva.com/linux/2006.0">
-    <short-id>mandriva2006</short-id>
-    <name>Mandriva Linux 2006</name>
+  <os id="http://mandriva.com/mandriva/2006.0">
+    <short-id>mandriva2006.0</short-id>
+    <name>Mandriva Linux 2006.0</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/mandrake/10.2"/>
-    <derives-from id="http://mandriva.com/linux/mandrake/10.2"/>
+    <version>2006.0</version>
+    <upgrades id="http://mandriva.com/mandrake/10.2"/>
+    <derives-from id="http://mandriva.com/mandrake/10.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2007">
+  <os id="http://mandriva.com/mandriva/2007">
     <short-id>mandriva2007</short-id>
     <name>Mandriva Linux 2007</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2006.0"/>
-    <derives-from id="http://mandriva.com/linux/2006.0"/>
+    <version>2007</version>
+    <upgrades id="http://mandriva.com/mandriva/2006.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2006.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2007.1">
+  <os id="http://mandriva.com/mandriva/2007.1">
     <short-id>mandriva2007.1</short-id>
     <name>Mandriva Linux 2007 Spring</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2007"/>
-    <derives-from id="http://mandriva.com/linux/2007"/>
+    <version>2007.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2007"/>
+    <derives-from id="http://mandriva.com/mandriva/2007"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2008.0">
-    <short-id>mandriva2008</short-id>
+  <os id="http://mandriva.com/mandriva/2008.0">
+    <short-id>mandriva2008.0</short-id>
     <name>Mandriva Linux 2008</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2007.1"/>
-    <derives-from id="http://mandriva.com/linux/2007.1"/>
+    <version>2008.0</version>
+    <upgrades id="http://mandriva.com/mandriva/2007.1"/>
+    <derives-from id="http://mandriva.com/mandriva/2007.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2008.1">
+  <os id="http://mandriva.com/mandriva/2008.1">
     <short-id>mandriva2008.1</short-id>
     <name>Mandriva Linux 2008 Spring</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2008.0"/>
-    <derives-from id="http://mandriva.com/linux/2008.0"/>
+    <version>2008.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2008.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2008.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2009.0">
+  <os id="http://mandriva.com/mandriva/2009.0">
     <short-id>mandriva2009.0</short-id>
     <name>Mandriva Linux 2009</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2008.1"/>
-    <derives-from id="http://mandriva.com/linux/2008.1"/>
+    <version>2009.0</version>
+    <upgrades id="http://mandriva.com/mandriva/2008.1"/>
+    <derives-from id="http://mandriva.com/mandriva/2008.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2009.1">
+  <os id="http://mandriva.com/mandriva/2009.1">
     <short-id>mandriva2009.1</short-id>
     <name>Mandriva Linux 2009 Spring</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2009.0"/>
-    <derives-from id="http://mandriva.com/linux/2009.0"/>
+    <version>2009.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2009.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2009.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2010.0">
+  <os id="http://mandriva.com/mandriva/2010.0">
     <short-id>mandriva2010.0</short-id>
     <name>Mandriva Linux 2010</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2009.1"/>
-    <derives-from id="http://mandriva.com/linux/2009.1"/>
+    <version>2010.0</version>
+    <upgrades id="http://mandriva.com/mandriva/2009.1"/>
+    <derives-from id="http://mandriva.com/mandriva/2009.1"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -92,59 +100,64 @@
     </devices>
   </os>
 
-  <os id="http://mandriva.com/linux/2010.1">
+  <os id="http://mandriva.com/mandriva/2010.1">
     <short-id>mandriva2010.1</short-id>
     <name>Mandriva Linux 2010 Spring</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2010.0"/>
-    <derives-from id="http://mandriva.com/linux/2010.0"/>
+    <version>2010.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2010.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2010.0"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2010.2">
+  <os id="http://mandriva.com/mandriva/2010.2">
     <short-id>mandriva2010.2</short-id>
     <name>Mandriva Linux 2010.2</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
-    <upgrades id="http://mandriva.com/linux/2010.1"/>
-    <derives-from id="http://mandriva.com/linux/2010.1"/>
+    <version>2010.2</version>
+    <upgrades id="http://mandriva.com/mandriva/2010.1"/>
+    <derives-from id="http://mandriva.com/mandriva/2010.1"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/2011">
+  <os id="http://mandriva.com/mandriva/2011">
     <short-id>mandriva2011</short-id>
     <name>Mandriva Linux 2011</name>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <codename>Hydrogen</codename>
-    <upgrades id="http://mandriva.com/linux/2010.2"/>
-    <derives-from id="http://mandriva.com/linux/2010.2"/>
+    <version>2011</version>
+    <upgrades id="http://mandriva.com/mandriva/2010.2"/>
+    <derives-from id="http://mandriva.com/mandriva/2010.2"/>
 
   </os>
 
-  <os id="http://mandriva.com/linux/server/5.0">
+  <os id="http://mandriva.com/mes/5.0">
     <short-id>mes5</short-id>
     <name>Mandriva Enterprise Server 5.0</name>
     <version>5.0</version>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mes</distro>
+    <version>5.0</version>
 
   </os>
 
-  <os id="http://mandriva.com/linux/server/5.1">
+  <os id="http://mandriva.com/mes/5.1">
     <short-id>mes5.1</short-id>
     <name>Mandriva Enterprise Server 5.1</name>
     <version>5.1</version>
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mes</distro>
-    <upgrades id="http://mandriva.com/linux/server/5.0"/>
-    <derives-from id="http://mandriva.com/linux/server/5.0"/>
+    <version>5.1</version>
+    <upgrades id="http://mandriva.com/mes/5.0"/>
+    <derives-from id="http://mandriva.com/mes/5.0"/>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
