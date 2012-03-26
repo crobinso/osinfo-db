@@ -93,9 +93,11 @@
       <element name='name'>
         <text/>
       </element>
-      <element name='short-id'>
-        <text/>
-      </element>
+      <oneOrMore>
+        <element name='short-id'>
+          <text/>
+        </element>
+      </oneOrMore>
       <optional>
         <element name='version'>
           <text/>
@@ -108,6 +110,11 @@
       </optional>
       <optional>
         <element name='family'>
+          <text/>
+        </element>
+      </optional>
+      <optional>
+        <element name='distro'>
           <text/>
         </element>
       </optional>
@@ -131,20 +138,20 @@
 
   <define name="product-rel">
     <interleave>
-      <optional>
+      <zeroOrMore>
         <element name="upgrades">
           <attribute name='id'>
             <ref name="url"/>
           </attribute>
         </element>
-      </optional>
-      <optional>
+      </zeroOrMore>
+      <zeroOrMore>
         <element name="derives-from">
           <attribute name='id'>
             <ref name="url"/>
           </attribute>
         </element>
-      </optional>
+      </zeroOrMore>
       <optional>
         <element name="clones">
           <attribute name='id'>
@@ -341,11 +348,6 @@
     <element name='os'>
       <ref name='product-attr'/>
       <ref name='product-content'/>
-      <optional>
-        <element name='family'>
-          <text/>
-        </element>
-      </optional>
       <interleave>
         <ref name='product-dates'/>
         <ref name='product-rel'/>
