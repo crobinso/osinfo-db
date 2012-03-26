@@ -144,7 +144,6 @@
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mes</distro>
-    <version>5.0</version>
 
   </os>
 
@@ -155,7 +154,6 @@
     <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mes</distro>
-    <version>5.1</version>
     <upgrades id="http://mandriva.com/mes/5.0"/>
     <derives-from id="http://mandriva.com/mes/5.0"/>
 

@@ -15,8 +15,8 @@
     <version>10.1</version>
     <vendor>Apple Inc.</vendor>
     <family>darwin</family>
-    <upgrades id="http://apple.com/macosx/10.0" />
     <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.0" />
   </os>
 
   <os id="http://apple.com/macosx/10.2">
@@ -25,8 +25,8 @@
     <version>10.2</version>
     <vendor>Apple Inc.</vendor>
     <family>darwin</family>
-    <upgrades id="http://apple.com/macosx/10.1" />
     <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.1" />
   </os>
 
   <os id="http://apple.com/macosx/10.3">
@@ -35,8 +35,8 @@
     <version>10.3</version>
     <vendor>Apple Inc.</vendor>
     <family>darwin</family>
-    <upgrades id="http://apple.com/macosx/10.2" />
     <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.2" />
   </os>
 
   <os id="http://apple.com/macosx/10.4">
