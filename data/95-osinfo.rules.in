@@ -2,11 +2,13 @@
 ACTION=="add|remove", \
  SUBSYSTEM=="block", \
  ENV{ID_FS_TYPE}=="iso9660", \
+ ENV{DISK_MEDIA_CHANGE}==1, \
  IMPORT{program}="@bindir@/osinfo-detect -f env $tempnode"
 
 ACTION=="add|remove", \
  SUBSYSTEM=="block", \
  ENV{ID_FS_TYPE}=="udf", \
+ ENV{DISK_MEDIA_CHANGE}==1, \
  IMPORT{program}="@bindir@/osinfo-detect -f env $tempnode"
 
 # CDROMs
@@ -21,20 +23,3 @@ ACTION=="change", \
  SUBSYSTEM=="block", \
  ENV{ID_FS_TYPE}=="udf", \
  IMPORT{program}="@bindir@/osinfo-detect -f env $tempnode"
-
-# Disk ejected
-ACTION=="change", \
- SUBSYSTEM=="block", \
- ENV{ID_FS_TYPE}!="iso9660", \
- ENV{OSINFO_BOOTABLE}="", \
- ENV{OSINFO_INSTALLER}="", \
- ENV{OSINFO_LIVE}="", \
- ENV{OSINFO_MEDIA}=""
-
-ACTION=="change", \
- SUBSYSTEM=="block", \
- ENV{ID_FS_TYPE}!="udf", \
- ENV{OSINFO_BOOTABLE}="", \
- ENV{OSINFO_INSTALLER}="", \
- ENV{OSINFO_LIVE}="", \
- ENV{OSINFO_MEDIA}=""
