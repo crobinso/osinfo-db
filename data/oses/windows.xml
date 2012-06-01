@@ -332,7 +332,7 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>(ARMPXFPP|ARMPXCCP|ARMPXOEM|ARMPXVOL|AX2PXFPP)_</volume-id>
+        <volume-id>(ARMPXFPP|ARMPXCCP|ARMPXOEM|ARMPXVOL|AX2PXCFPP|AX2PXFPP)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
