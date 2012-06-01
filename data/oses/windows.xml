@@ -633,13 +633,14 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>(GRMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL|GRMCPRFRER)_</volume-id>
+        <volume-id>(GRMCULFRER|GSP1RMCNPRFRER|GSP1RMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL|GRMCPRFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>(GRMCULXFRER|GSP1RMCPRXFRER|GRMCENXVOL|GRMCNENXVOL|GRMCPRXFRER)_</volume-id>
+        <volume-id>(GRMCULXFRER|GSP1RMCPRXFRER|GSP1RMCNHPXFRER|GSP1RMCENXVOL|GRMCENXVOL|GRMCNENXVOL|GRMCPRXFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
