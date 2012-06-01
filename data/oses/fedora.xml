@@ -1149,8 +1149,8 @@
     <upgrades id="http://fedoraproject.org/fedora/16"/>
     <derives-from id="http://fedoraproject.org/fedora/16"/>
 
-    <!-- FIXME: ISOs not yet available at any permanent location so no 'url' nodes below. -->
     <media arch="i386">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Fedora/i386/iso/Fedora-17-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 17.* i386</volume-id>
         <system-id>LINUX</system-id>
@@ -1159,6 +1159,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Fedora/x86_64/iso/Fedora-17-x86_64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 17.* x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -1168,6 +1169,7 @@
     </media>
 
     <media arch="i686" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Live/i686/Fedora-17-i686-Live-Desktop.iso</url>
       <iso>
         <volume-id>Fedora-17.*-i686-Live(-KDE)?</volume-id>
         <system-id>LINUX</system-id>
@@ -1176,6 +1178,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Live/x86_64/Fedora-17-x86_64-Live-Desktop.iso</url>
       <iso>
         <volume-id>Fedora-17.*-x86_64-Live(-KDE)?</volume-id>
         <system-id>LINUX</system-id>
@@ -1184,7 +1187,23 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
 
-    <!-- FIXME: Copied over from F16, please update when F17 is released and this info is made available. -->
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>17</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>17</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
