@@ -343,6 +343,25 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
+    <media arch="hppa" live="true">
+      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-hppa.iso</url>
+      <iso>
+        <volume-id>Ubuntu 6.06(.\d)? hppa</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="ia64">
+      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-ia64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 6.06(.\d)? ia64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
   </os>
 
   <os id="http://ubuntu.com/ubuntu/6.10">
