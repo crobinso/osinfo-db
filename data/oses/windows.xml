@@ -306,6 +306,10 @@
         <storage>1073741824</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif'/>
+    </installer>
   </os>
 
 
@@ -690,6 +694,10 @@
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
     </devices>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend'/>
+    </installer>
   </os>
 
   <os id="http://microsoft.com/win/8">
