@@ -1,7 +1,7 @@
 <libosinfo version="0.0.1">
   <install-script id='http://microsoft.com/windows/unattend'>
     <profile>jeos</profile>
-    <template>
+    <template filename="windows.xml">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">

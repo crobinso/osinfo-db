@@ -414,6 +414,7 @@
         <text/>
       </element>
       <element name='template'>
+        <attribute name="filename"/>
         <choice>
           <group>
             <attribute name="uri"/>
