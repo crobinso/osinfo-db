@@ -1,4 +1,5 @@
 <libosinfo version="0.0.1">
+  <!-- JEOS PROFILE -->
   <install-script id='http://fedoraproject.org/scripts/fedora/jeos'>
     <profile>jeos</profile>
     <config>
@@ -93,6 +94,167 @@ reboot
 <xsl:if test="os/version &gt; 6">
 @hardware-support
 </xsl:if>
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://fedoraproject.org/scripts/fedora/desktop'>
+    <profile>desktop</profile>
+    <config>
+        <param name="l10n-keyboard" policy="optional"/>
+        <param name="l10n-language" policy="optional"/>
+        <param name="l10n-timezone" policy="optional"/>
+        <param name="hostname" policy="optional"/>
+        <param name="user-login" policy="required"/>
+        <param name="user-password" policy="required"/>
+        <param name="admin-password" policy="required"/>
+    </config>
+    <template filename="fedora.ks">
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+	<xsl:template name="disk">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 9">
+	      <!-- virtio -->
+	      <xsl:text>vda</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="os/version &gt; 6">
+	      <!-- libata IDE -->
+	      <xsl:text>sda</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <!-- IDE -->
+	      <xsl:text>hda</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="avatar-disk">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 9">
+	      <!-- virtio -->
+	      <xsl:text>sda</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="os/version &gt; 6">
+	      <!-- libata IDE -->
+	      <xsl:text>hda</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <!-- IDE -->
+	      <xsl:text>hdb</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="rootfs">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 10">
+	      <xsl:text>ext4</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>ext3</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+	<xsl:template name="bootfs">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 11">
+	      <xsl:text>ext4</xsl:text>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>ext3</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+keyboard <xsl:value-of select="config/l10n-keyboard"/>
+lang <xsl:value-of select="config/l10n-language"/>
+network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/> --activate
+rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
+firewall --disabled
+authconfig --enableshadow --enablemd5
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr
+
+clearpart --all --drives=<xsl:call-template name="disk"/>
+
+firstboot --disable
+
+part biosboot --fstype=biosboot --size=1
+part /boot --fstype <xsl:call-template name="bootfs"/> --recommended --ondisk=<xsl:call-template name="disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="disk"/>
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+reboot
+
+%packages
+@base
+@core
+@hardware-support
+@base-x
+@gnome-desktop
+@graphical-internet
+@sound-and-video
+
+# QXL driver and SPICE vdagent
+xorg-x11-drv-qxl
+spice-vdagent
+
+%end
+
+%post --erroronfail
+
+useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
+if test -z <xsl:value-of select="config/user-password"/>; then
+    # Make both user and root account passwordless
+    passwd -d <xsl:value-of select="config/user-login"/>
+    passwd -d root
+else
+    echo <xsl:value-of select="config/user-password"/> |passwd --stdin <xsl:value-of select="config/user-login"/>
+    echo <xsl:value-of select="config/admin-password"/> |passwd --stdin root
+fi
+
+# Set user avatar
+mkdir /mnt/unattended-media
+mount /dev/<xsl:call-template name='avatar-disk'/> /mnt/unattended-media
+cp /mnt/unattended-media/<xsl:value-of select="config/user-login"/> /var/lib/AccountsService/icons/
+umount /mnt/unattended-media
+echo "
+[User]
+Language=
+XSession=
+Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
+" >> /var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/>
+
+# Enable autologin
+echo "[daemon]
+AutomaticLoginEnable=true
+AutomaticLogin=<xsl:value-of select="config/user-login"/>
+
+[security]
+
+[xdmcp]
+
+[greeter]
+
+[chooser]
+
+[debug]
+" > /etc/gdm/custom.conf
 
 %end
 	</xsl:template>
