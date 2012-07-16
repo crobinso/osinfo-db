@@ -410,6 +410,12 @@
       <element name='profile'>
         <text/>
       </element>
+      <element name='config'>
+        <attribute name="name"/>
+        <attribute name="policy">
+          <ref name='policies'/>
+        </attribute>
+      </element>
       <element name='product-key-format'>
         <text/>
       </element>
@@ -477,6 +483,12 @@
   <define name='url'>
     <data type="string">
       <param name="pattern">\w+://.*</param>
+    </data>
+  </define>
+
+  <define name='policies'>
+    <data type="string">
+      <param name="pattern">required|optional</param>
     </data>
   </define>
 </grammar>

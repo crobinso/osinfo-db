@@ -1,6 +1,15 @@
 <libosinfo version="0.0.1">
   <install-script id='http://microsoft.com/windows/unattend'>
     <profile>jeos</profile>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="hardware-arch" policy="optional"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="user-login" policy="optional"/>
+      <param name="user-password" policy="optional"/>
+      <param name="user-realname" policy="optional"/>
+      <param name="reg-product-key" policy="required"/>
+    </config>
     <template filename="windows.xml">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

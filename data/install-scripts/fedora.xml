@@ -1,6 +1,12 @@
 <libosinfo version="0.0.1">
   <install-script id='http://fedoraproject.org/scripts/fedora/jeos'>
     <profile>jeos</profile>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="l10n-keyboard" policy="optional"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-timezone" policy="optional"/>
+    </config>
     <template filename="fedora.ks">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
