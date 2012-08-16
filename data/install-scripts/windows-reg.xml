@@ -1,0 +1,27 @@
+<libosinfo version="0.0.1">
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://microsoft.com/windows/reg/desktop'>
+    <profile>desktop</profile>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="user-realname" policy="required"/>
+    </config>
+    <template filename="windows.reg">
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+	<xsl:template match="/install-script-config">
+Windows Registry Editor Version 5.00.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"DefaultUserName"="<xsl:value-of select="config/user-realname"/>"
+"DefaultPassword"="<xsl:value-of select="config/admin-password"/>"
+"AutoAdminLogon"="1"
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>

@@ -1,5 +1,6 @@
 <libosinfo version="0.0.1">
-  <install-script id='http://microsoft.com/windows/sif'>
+  <!-- JEOS PROFILE -->
+  <install-script id='http://microsoft.com/windows/sif/jeos'>
     <profile>jeos</profile>
     <config>
       <param name="admin-password" policy="optional"/>
@@ -32,14 +33,12 @@
 [GuiUnattended]
     AdminPassword=<xsl:value-of select="config/admin-password"/>
     EncryptedAdminPassword=NO
-    AutoLogon=No
-    AutoLogonCount=1
     OEMSkipRegional=1
     TimeZone=35
     OemSkipWelcome=1
 
 [UserData]
-    ProductKey=<xsl:value-of select="config/reg-productkey"/>
+    ProductKey=<xsl:value-of select="config/reg-product-key"/>
     FullName="<xsl:value-of select="config/user-realname"/>"
     ComputerName=
 
@@ -61,4 +60,131 @@
       </xsl:stylesheet>
     </template>
   </install-script>
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://microsoft.com/windows/sif/desktop'>
+    <profile>desktop</profile>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="reg-product-key" policy="required"/>
+      <param name="user-realname" policy="required"/>
+      <param name="hostname" policy="required"/>
+    </config>
+    <template filename="windows.sif">
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="password">
+         <xsl:choose>
+          <xsl:when test="os/version = 5.1">
+           <xsl:choose>
+            <xsl:when test="config/admin-password = ''" >
+             <xsl:text>*</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+             <xsl:value-of select="config/admin-password"/>
+            </xsl:otherwise>
+           </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>
+           <xsl:value-of select="config/admin-password"/>
+          </xsl:otherwise>
+         </xsl:choose>
+        </xsl:template>
+
+	<xsl:template match="/install-script-config">
+;SetupMgrTag
+[Data]
+    AutoPartition=1
+<xsl:choose>
+  <xsl:when test="os/version &gt; 5.0"> <!-- winxp, win2k3, win2k3r2 -->
+    MsDosInitiated="0"
+    UnattendedInstall="Yes"
+  </xsl:when>
+  <xsl:otherwise> <!-- win2k -->
+    MsDosInitiated=No
+    UnattendedInstall=Yes
+  </xsl:otherwise>
+</xsl:choose>
+
+[Unattended]
+    UnattendMode=FullUnattended
+    OemSkipEula=Yes
+    OemPreinstall=No
+<xsl:choose>
+  <xsl:when test="os/version &gt; 5.0"> <!-- winxp, win2k3, win2k3r2 -->
+    TargetPath=\WINDOWS
+  </xsl:when>
+  <xsl:otherwise> <!-- win2k -->
+    TargetPath=\WINNT
+  </xsl:otherwise>
+</xsl:choose>
+    Repartition=Yes
+    WaitForReboot="No"
+    UnattendSwitch="Yes"
+
+[GuiUnattended]
+    AdminPassword="<xsl:call-template name="password"/>"
+<xsl:if test="os/version = 5.0">
+    AutoLogon=Yes
+</xsl:if>
+    EncryptedAdminPassword=NO
+    OEMSkipRegional=1
+    TimeZone=35
+    OemSkipWelcome=1
+
+[UserData]
+<xsl:choose>
+  <xsl:when test="os/version &gt; 5.0"> <!-- winxp, win2k3, win2k3r2 -->
+    ProductKey=<xsl:value-of select="config/reg-product-key"/>
+    OrgName=""
+  </xsl:when>
+  <xsl:otherwise> <!-- win2k -->
+    ProductID=
+  </xsl:otherwise>
+</xsl:choose>
+    FullName="<xsl:value-of select="config/user-realname"/>"
+    ComputerName="<xsl:value-of select="config/hostname"/>"
+
+<xsl:if test="os/version = 5.0">
+[Display]
+    BitsPerPel=16
+    Xresolution=640
+    YResolution=480
+    Vrefresh=60
+
+[RegionalSettings]
+    LanguageGroup=1
+</xsl:if>
+
+<xsl:if test="os/version &gt; 5.0">
+[LicenseFilePrintData]
+    AutoMode=PerServer
+    AutoUsers=5
+</xsl:if>
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+
+[Networking]
+    InstallDefaultComponents=Yes
+
+<xsl:if test="os/version &gt; 5.0">
+[SetupParams]
+    UserExecute = "a:\windows.cmd"
+
+[WindowsFirewall]
+    Profiles = WindowsFirewall.TurnOffFirewall
+
+[WindowsFirewall.TurnOffFirewall]
+    Mode = 0
+</xsl:if>
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+
 </libosinfo>

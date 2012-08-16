@@ -308,7 +308,8 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/sif'/>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
     </installer>
   </os>
 
@@ -365,7 +366,10 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/sif'/>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
+      <script id='http://microsoft.com/windows/reg/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
   </os>
 
@@ -430,7 +434,10 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/sif'/>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
+      <script id='http://microsoft.com/windows/reg/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
   </os>
 
@@ -489,7 +496,10 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/sif'/>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
+      <script id='http://microsoft.com/windows/reg/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
   </os>
 
@@ -550,7 +560,8 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/unattend'/>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
     </installer>
   </os>
 
@@ -596,7 +607,8 @@
     </resources>
 
     <installer>
-      <script id='http://microsoft.com/windows/unattend'/>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
     </installer>
   </os>
 
@@ -696,7 +708,8 @@
     </devices>
 
     <installer>
-      <script id='http://microsoft.com/windows/unattend'/>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
     </installer>
   </os>
 

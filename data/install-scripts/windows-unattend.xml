@@ -1,5 +1,5 @@
 <libosinfo version="0.0.1">
-  <install-script id='http://microsoft.com/windows/unattend'>
+  <install-script id='http://microsoft.com/windows/unattend/jeos'>
     <profile>jeos</profile>
     <config>
       <param name="admin-password" policy="optional"/>
@@ -161,5 +161,173 @@
 	</xsl:template>
       </xsl:stylesheet>
     </template>
+  </install-script>
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://microsoft.com/windows/unattend/desktop'>
+   <profile>desktop</profile>
+   <config>
+    <param name="admin-password" policy="optional"/>
+    <param name="hardware-arch" policy="required"/>
+    <param name="l10n-language" policy="optional"/>
+    <param name="user-login" policy="optional"/>
+    <param name="user-password" policy="optional"/>
+    <param name="user-realname" policy="optional"/>
+    <param name="hostname" policy="required"/>
+   </config>
+    <template filename="windows.xml">
+     <xsl:stylesheet
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+      version="1.0">
+
+      <xsl:output method="xml" indent="yes"/>
+
+      <xsl:template name="arch">
+       <xsl:choose>
+        <xsl:when test="config/hardware-arch = x86_64">
+         <xsl:text>amd64</xsl:text>
+        </xsl:when>
+        <xsl:when test="config/hardware-arch = i386">
+         <xsl:text>x86</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+         <xsl:text>x86</xsl:text>
+        </xsl:otherwise>
+       </xsl:choose>
+     </xsl:template>
+
+     <xsl:template match="/install-script-config">
+      <unattend xmlns="urn:schemas-microsoft-com:unattend">
+       <settings pass="windowsPE">
+        <component name="Microsoft-Windows-Setup" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <xsl:attribute name="processorArchitecture">
+          <xsl:call-template name="arch"/>
+         </xsl:attribute>
+         <DiskConfiguration>
+          <WillShowUI>OnError</WillShowUI>
+          <Disk>
+           <CreatePartitions>
+            <CreatePartition>
+             <Order>1</Order>
+             <Size>1</Size>
+             <Type>Primary</Type>
+            </CreatePartition>
+           </CreatePartitions>
+           <DiskID>0</DiskID>
+           <WillWipeDisk>true</WillWipeDisk>
+           <ModifyPartitions>
+            <ModifyPartition>
+             <Active>true</Active>
+             <Extend>true</Extend>
+             <Format>NTFS</Format>
+             <Label>C drive</Label>
+             <Letter>C</Letter>
+             <Order>1</Order>
+             <PartitionID>1</PartitionID>
+            </ModifyPartition>
+           </ModifyPartitions>
+          </Disk>
+         </DiskConfiguration>
+         <ImageInstall>
+          <OSImage>
+           <InstallFrom>
+            <MetaData wcm:action="add">
+             <Key>/IMAGE/INDEX</Key>
+             <Value>1</Value>
+            </MetaData>
+           </InstallFrom>
+           <InstallTo>
+            <DiskID>0</DiskID>
+            <PartitionID>1</PartitionID>
+           </InstallTo>
+           <WillShowUI>OnError</WillShowUI>
+          </OSImage>
+         </ImageInstall>
+         <UserData>
+          <AcceptEula>true</AcceptEula>
+         </UserData>
+        </component>
+        <component name="Microsoft-Windows-International-Core-WinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <xsl:attribute name="processorArchitecture">
+          <xsl:call-template name="arch"/>
+         </xsl:attribute>
+         <SetupUILanguage>
+          <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+         </SetupUILanguage>
+         <SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
+         <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+         <UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
+        </component>
+       </settings>
+       <xsl:if test="os/version &gt; 6.0">
+        <settings pass="specialize">
+         <component name="Microsoft-Windows-Shell-Setup" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <xsl:attribute name="processorArchitecture">
+           <xsl:call-template name="arch"/>
+          </xsl:attribute>
+          <ComputerName><xsl:value-of select="config/hostname"/></ComputerName>
+         </component>
+        </settings>
+       </xsl:if>
+       <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="BOXES_CPU" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <xsl:attribute name="processorArchitecture">
+          <xsl:call-template name="arch"/>
+         </xsl:attribute>
+         <UserAccounts>
+          <AdministratorPassword>
+           <Value><xsl:value-of select="config/admin-password"/></Value>
+           <PlainText>true</PlainText>
+          </AdministratorPassword>
+          <xsl:if test="count(config/user-login) &gt; 0">
+           <LocalAccounts>
+            <LocalAccount wcm:action="add">
+             <Password>
+              <Value><xsl:value-of select="config/user-password"/></Value>
+              <PlainText>true</PlainText>
+             </Password>
+             <Description><xsl:value-of select="config/user-realname"/></Description>
+             <DisplayName><xsl:value-of select="config/user-realname"/></DisplayName>
+             <Group>Administrators;Power Users</Group>
+             <Name><xsl:value-of select="config/user-login"/></Name>
+            </LocalAccount>
+           </LocalAccounts>
+         </xsl:if>
+         </UserAccounts>
+         <xsl:if test="count(config/user-login) &gt; 0">
+          <AutoLogon>
+           <Password>
+            <Value><xsl:value-of select="config/user-password"/></Value>
+            <PlainText>true</PlainText>
+           </Password>
+           <Enabled>true</Enabled>
+           <LogonCount>5</LogonCount>
+           <Username><xsl:value-of select="config/user-login"/></Username>
+          </AutoLogon>
+         </xsl:if>
+         <OOBE>
+          <xsl:if test="os/version &gt; 6.0">
+           <NetworkLocation>Work</NetworkLocation>
+           <SkipMachineOOBE>true</SkipMachineOOBE>
+           <SkipUserOOBE>true</SkipUserOOBE>
+          </xsl:if>
+          <HideEULAPage>true</HideEULAPage>
+          <ProtectYourPC>3</ProtectYourPC>
+         </OOBE>
+         <xsl:if test="os/version &gt; 6.0">
+          <FirstLogonCommands>
+           <SynchronousCommand wcm:action="add">
+            <Order>1</Order>
+            <Description>Turn Off Network Selection pop-up</Description>
+            <CommandLine>cmd /c reg add "HKLM\SYSTEM\CurrentControlSet\Control\Network\NewNetworkWindowOff"</CommandLine>
+           </SynchronousCommand>
+          </FirstLogonCommands>
+         </xsl:if>
+        </component>
+       </settings>
+      </unattend>
+     </xsl:template>
+    </xsl:stylesheet>
+   </template>
   </install-script>
 </libosinfo>

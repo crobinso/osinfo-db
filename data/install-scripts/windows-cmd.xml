@@ -1,0 +1,27 @@
+<libosinfo version="0.0.1">
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://microsoft.com/windows/cmd/desktop'>
+    <profile>desktop</profile>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="user-realname" policy="required"/>
+    </config>
+    <template filename="windows.cmd">
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+        <xsl:output method="text"/>
+
+	<xsl:template match="/install-script-config">
+sc config TlntSvr start= auto
+net user <xsl:value-of select="config/user-realname"/> <xsl:text> </xsl:text> <xsl:value-of select="config/admin-password"/> /add /passwordreq:no
+net localgroup administrators <xsl:value-of select="config/user-realname"/> /add
+net accounts /maxpwage:unlimited
+copy a:\<xsl:value-of select="config/user-realname"/>.bmp "c:\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures"
+REGEDIT /S a:\windows.reg
+EXIT
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>
