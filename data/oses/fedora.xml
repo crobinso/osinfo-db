@@ -1012,7 +1012,6 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <ram>402653184</ram>
-        <storage>94371840</storage>
       </minimum>
 
       <recommended>
@@ -1100,7 +1099,6 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <ram>671088640</ram>
-        <storage>94371840</storage>
       </minimum>
 
       <recommended>
@@ -1188,7 +1186,6 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <ram>671088640</ram>
-        <storage>94371840</storage>
       </minimum>
 
       <recommended>
@@ -1274,7 +1271,6 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <ram>671088640</ram>
-        <storage>94371840</storage>
       </minimum>
 
       <recommended>
