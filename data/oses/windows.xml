@@ -516,7 +516,7 @@
     <release-date>2008-02-27</release-date>
     <eol-date>2013-07-09</eol-date>
 
-    <media arch="i686">
+    <media arch="i386">
       <iso>
         <volume-id>(KRTMSVOL|KRTMSCHK|KRMWVOL|KRMSVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
