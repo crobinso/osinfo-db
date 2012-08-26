@@ -122,6 +122,9 @@ reboot
         <param name="avatar-disk" policy="optional"/>
         <param name="target-disk" policy="optional"/>
     </config>
+    <avatar-format>
+      <mime-type>image/png</mime-type>
+    </avatar-format>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

@@ -478,6 +478,9 @@
           </element>
         </optional>
         <optional>
+          <ref name='avatar-format'/>
+        </optional>
+        <optional>
           <element name='config'>
             <oneOrMore>
               <element name='param'>
@@ -505,6 +508,33 @@
         </element>
         <ref name='product-attr'/>
         <ref name='product-rel'/>
+      </interleave>
+    </element>
+  </define>
+
+  <define name='avatar-format'>
+    <element name='avatar-format'>
+      <interleave>
+        <oneOrMore>
+          <element name="mime-type">
+            <text/>
+          </element>
+        </oneOrMore>
+        <optional>
+          <element name="width">
+            <ref name='num'/>
+          </element>
+        </optional>
+        <optional>
+          <element name="height">
+            <ref name='num'/>
+          </element>
+        </optional>
+        <optional>
+          <element name="alpha">
+            <ref name='bool'/>
+          </element>
+        </optional>
       </interleave>
     </element>
   </define>

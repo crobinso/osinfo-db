@@ -12,6 +12,12 @@
       <param name="target-disk" policy="optional"/>
       <param name="script-disk" policy="optional"/>
     </config>
+    <avatar-format>
+      <mime-type>image/bmp</mime-type>
+      <width>48</width>
+      <height>48</height>
+      <alpha>false</alpha>
+    </avatar-format>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
