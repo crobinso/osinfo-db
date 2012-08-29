@@ -1185,7 +1185,7 @@
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
-        <ram>671088640</ram>
+        <ram>805306368</ram>
       </minimum>
 
       <recommended>
@@ -1270,7 +1270,7 @@
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
-        <ram>671088640</ram>
+        <ram>805306368</ram>
       </minimum>
 
       <recommended>
