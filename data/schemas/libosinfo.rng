@@ -408,7 +408,22 @@
 
   <define name='deployment'>
     <element name='deployment'>
-      <empty/>
+      <attribute name='id'>
+        <ref name='url'/>
+      </attribute>
+      <interleave>
+        <element name='os'>
+          <attribute name='id'>
+            <ref name='url'/>
+          </attribute>
+        </element>
+        <element name='platform'>
+          <attribute name='id'>
+            <ref name='url'/>
+          </attribute>
+        </element>
+        <ref name='devices-rel'/>
+      </interleave>
     </element>
   </define>
 
