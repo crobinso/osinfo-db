@@ -38,6 +38,8 @@
             <value>usb</value>
             <value>xen</value>
             <value>ps2</value>
+            <value>ide</value>
+            <value>virtio</value>
           </choice>
         </element>
         <optional>
