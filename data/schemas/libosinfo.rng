@@ -75,6 +75,11 @@
             <ref name='hexid'/>
           </element>
         </optional>
+        <optional>
+          <element name='subsystem'>
+            <text/>
+          </element>
+        </optional>
       </interleave>
     </element>
   </define>
