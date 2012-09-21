@@ -358,9 +358,9 @@
 
   <define name='os'>
     <element name='os'>
-      <ref name='product-attr'/>
-      <ref name='product-content'/>
       <interleave>
+        <ref name='product-attr'/>
+        <ref name='product-content'/>
         <ref name='product-dates'/>
         <ref name='product-rel'/>
         <optional>
@@ -384,9 +384,9 @@
 
   <define name='platform'>
     <element name='platform'>
-      <ref name='product-attr'/>
-      <ref name='product-content'/>
       <interleave>
+        <ref name='product-attr'/>
+        <ref name='product-content'/>
         <ref name='product-dates'/>
         <ref name='product-rel'/>
         <optional>
