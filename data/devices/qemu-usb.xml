@@ -7,8 +7,8 @@
     <class>input</class>
     <vendor>VirtualBox</vendor>
     <vendor-id>80ee</vendor-id>
-    <device>Tablet</device>
-    <device-id>0021</device-id>
+    <product>Tablet</product>
+    <product-id>0021</product-id>
   </device>
 
 </libosinfo>

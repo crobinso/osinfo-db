@@ -7,8 +7,8 @@
     <class>net</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1af4</vendor-id>
-    <device>Virtio network device</device>
-    <device-id>1000</device-id>
+    <product>Virtio network device</product>
+    <product-id>1000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
@@ -17,8 +17,8 @@
     <class>block</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1af4</vendor-id>
-    <device>Virtio block device</device>
-    <device-id>1001</device-id>
+    <product>Virtio block device</product>
+    <product-id>1001</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002">
@@ -27,8 +27,8 @@
     <class>memory.balloon</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1af4</vendor-id>
-    <device>Virtio memory balloon</device>
-    <device-id>1002</device-id>
+    <product>Virtio memory balloon</product>
+    <product-id>1002</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003">
@@ -37,8 +37,8 @@
     <class>console</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1af4</vendor-id>
-    <device>Virtio console</device>
-    <device-id>1003</device-id>
+    <product>Virtio console</product>
+    <product-id>1003</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1009">
@@ -47,8 +47,8 @@
     <class>filesystem</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1af4</vendor-id>
-    <device>Virtio 9p</device>
-    <device-id>1009</device-id>
+    <product>Virtio 9p</product>
+    <product-id>1009</product-id>
   </device>
 
 </libosinfo>

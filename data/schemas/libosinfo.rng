@@ -66,12 +66,12 @@
           </element>
         </optional>
         <optional>
-          <element name='device'>
+          <element name='product'>
             <text/>
           </element>
         </optional>
         <optional>
-          <element name='device-id'>
+          <element name='product-id'>
             <ref name='hexid'/>
           </element>
         </optional>

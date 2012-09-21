@@ -9,8 +9,8 @@
     <class>block</class>
     <vendor>LSI Logic / Symbios Logic</vendor>
     <vendor-id>1000</vendor-id>
-    <device>53c895a</device>
-    <device-id>0012</device-id>
+    <product>53c895a</product>
+    <product-id>0012</product-id>
   </device>
 
   <!-- Video devices -->
@@ -21,8 +21,8 @@
     <class>video</class>
     <vendor>QEMU</vendor>
     <vendor-id>1234</vendor-id>
-    <device>VGA</device>
-    <device-id>1111</device-id>
+    <product>VGA</product>
+    <product-id>1111</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1013/00b8">
@@ -31,8 +31,8 @@
     <class>video</class>
     <vendor>Cirrus Logic</vendor>
     <vendor-id>1013</vendor-id>
-    <device>GD 5446</device>
-    <device-id>00b8</device-id>
+    <product>GD 5446</product>
+    <product-id>00b8</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/15ad/0710">
@@ -41,8 +41,8 @@
     <class>video</class>
     <vendor>VMWare</vendor>
     <vendor-id>15ad</vendor-id>
-    <device>VGA</device>
-    <device-id>0710</device-id>
+    <product>VGA</product>
+    <product-id>0710</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100">
@@ -51,8 +51,8 @@
     <class>video</class>
     <vendor>Red Hat, Inc</vendor>
     <vendor-id>1b36</vendor-id>
-    <device>QXL</device>
-    <device-id>0100</device-id>
+    <product>QXL</product>
+    <product-id>0100</product-id>
   </device>
 
 
@@ -63,8 +63,8 @@
     <class>net</class>
     <vendor>Realtek Semiconductor Co., Ltd.</vendor>
     <vendor-id>10ec</vendor-id>
-    <device>RTL-8029(AS)</device>
-    <device-id>8029</device-id>
+    <product>RTL-8029(AS)</product>
+    <product-id>8029</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000">
@@ -73,8 +73,8 @@
     <class>net</class>
     <vendor>Advanced Micro Devices [AMD]</vendor>
     <vendor-id>1022</vendor-id>
-    <device>79c970 [PCnet32 LANCE]</device>
-    <device-id>2000</device-id>
+    <product>79c970 [PCnet32 LANCE]</product>
+    <product-id>2000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8139">
@@ -83,8 +83,8 @@
     <class>net</class>
     <vendor>Realtek Semiconductor Co., Ltd.</vendor>
     <vendor-id>10ec</vendor-id>
-    <device>RTL-8139/8139C/8139C+</device>
-    <device-id>8139</device-id>
+    <product>RTL-8139/8139C/8139C+</product>
+    <product-id>8139</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/100e">
@@ -92,8 +92,8 @@
     <bus-type>pci</bus-type>
     <vendor>Intel Corporation</vendor>
     <vendor-id>8086</vendor-id>
-    <device>82540EM Gigabit Ethernet Controller</device>
-    <device-id>100e</device-id>
+    <product>82540EM Gigabit Ethernet Controller</product>
+    <product-id>100e</product-id>
   </device>
 
 
@@ -105,8 +105,8 @@
     <class>audio</class>
     <vendor>Ensoniq</vendor>
     <vendor-id>1274</vendor-id>
-    <device>ES1370 [AudioPCI]</device>
-    <device-id>5000</device-id>
+    <product>ES1370 [AudioPCI]</product>
+    <product-id>5000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415">
@@ -115,8 +115,8 @@
     <class>audio</class>
     <vendor>Intel Corporation</vendor>
     <vendor-id>8086</vendor-id>
-    <device>82801AA AC'97 Audio Controller</device>
-    <device-id>2415</device-id>
+    <product>82801AA AC'97 Audio Controller</product>
+    <product-id>2415</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668">
@@ -125,8 +125,8 @@
     <class>audio</class>
     <vendor>Intel Corporation</vendor>
     <vendor-id>8086</vendor-id>
-    <device>82801FB/FBM/FR/FW/FRW (ICH6 Family) High Definition Audio Controller</device>
-    <device-id>2668</device-id>
+    <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) High Definition Audio Controller</product>
+    <product-id>2668</product-id>
   </device>
 
 
@@ -138,15 +138,15 @@
     <class>watchdog</class>
     <vendor>Intel Corporation</vendor>
     <vendor-id>8086</vendor-id>
-    <device>6300ESB Watchdog Timer</device>
-    <device-id>25ab</device-id>
+    <product>6300ESB Watchdog Timer</product>
+    <product-id>25ab</product-id>
   </device>
 
   <device id="isa://ib700">
     <name>ib700</name>
     <bus-type>isa</bus-type>
     <class>watchdog</class>
-    <device>iBASE 700</device>
+    <product>iBASE 700</product>
   </device>
 
 </libosinfo>
