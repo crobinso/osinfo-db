@@ -1,0 +1,31 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://gnome.org/3.6">
+    <short-id>gnome3.6</short-id>
+    <name>GNOME 3.6</name>
+    <version>3.6</version>
+    <vendor>GNOME Project</vendor>
+    <family>linux</family>
+    <distro>gnome</distro>
+
+    <media arch="i686" live="true">
+      <url>http://ftp.gnome.org/pub/gnome/misc/promo-usb/GNOME-3.6.0.iso</url>
+      <iso>
+        <volume-id>GNOME36-LiveCD</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <!-- These values are copied from that of Fedora 17/18 as AFAIK currently
+           GNOME is just Fedora with a few differences, mainly the name. -->
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>805306368</ram>
+      </minimum>
+    </resources>
+  </os>
+
+</libosinfo>
