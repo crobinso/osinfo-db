@@ -7,7 +7,7 @@
       <param name="reg-product-key" policy="required"/>
       <param name="user-realname" policy="required"/>
     </config>
-    <template filename="windows.sif">
+    <template filename="winnt.sif">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">
@@ -70,7 +70,7 @@
       <param name="user-realname" policy="required"/>
       <param name="hostname" policy="required"/>
     </config>
-    <template filename="windows.sif">
+    <template filename="winnt.sif">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">

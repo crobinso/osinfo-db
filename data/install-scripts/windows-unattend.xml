@@ -10,7 +10,7 @@
       <param name="user-realname" policy="optional"/>
       <param name="reg-product-key" policy="required"/>
     </config>
-    <template filename="windows.xml">
+    <template filename="autounattend.xml">
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">
@@ -175,7 +175,7 @@
     <param name="user-realname" policy="optional"/>
     <param name="hostname" policy="required"/>
    </config>
-    <template filename="windows.xml">
+    <template filename="autounattend.xml">
      <xsl:stylesheet
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
       version="1.0">
