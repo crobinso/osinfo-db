@@ -274,6 +274,11 @@
         </attribute>
       </optional>
       <optional>
+        <attribute name='installer-reboots'>
+          <ref name='num'/>
+        </attribute>
+      </optional>
+      <optional>
         <element name='url'>
           <ref name='url'/>
         </element>
