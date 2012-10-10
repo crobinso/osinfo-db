@@ -68,3 +68,4 @@ tools/osinfo-query.exe
 tools/osinfo-install-script
 tools/osinfo-install-script.exe
 tools/osinfo-install-script.1
+docs/reference/Libosinfo.types
