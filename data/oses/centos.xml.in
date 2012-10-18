@@ -2,9 +2,9 @@
 
   <os id="http://centos.org/centos/6.0">
     <short-id>centos6.0</short-id>
-    <name>CentOS 6.0</name>
+    <_name>CentOS 6.0</_name>
     <version>6.0</version>
-    <vendor>CentOS</vendor>
+    <_vendor>CentOS</_vendor>
     <family>linux</family>
     <distro>centos</distro>
     <clones id="http://redhat.com/rhel/6.0"/>
@@ -27,9 +27,9 @@
 
   <os id="http://centos.org/centos/6.1">
     <short-id>centos6.1</short-id>
-    <name>CentOS 6.1</name>
+    <_name>CentOS 6.1</_name>
     <version>6.1</version>
-    <vendor>CentOS</vendor>
+    <_vendor>CentOS</_vendor>
     <family>linux</family>
     <distro>centos</distro>
     <upgrades id="http://centos.org/centos/6.0"/>

@@ -2,9 +2,9 @@
 
   <os id="http://fedoraproject.org/fedora/1">
     <short-id>fedora1</short-id>
-    <name>Fedora Core 1</name>
+    <_name>Fedora Core 1</_name>
     <version>1</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Yarrow</codename>
@@ -60,9 +60,9 @@
 
   <os id="http://fedoraproject.org/fedora/2">
     <short-id>fedora2</short-id>
-    <name>Fedora Core 2</name>
+    <_name>Fedora Core 2</_name>
     <version>2</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Tettnang</codename>
@@ -111,9 +111,9 @@
 
   <os id="http://fedoraproject.org/fedora/3">
     <short-id>fedora3</short-id>
-    <name>Fedora Core 3</name>
+    <_name>Fedora Core 3</_name>
     <version>3</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Heidelberg</codename>
@@ -162,9 +162,9 @@
 
   <os id="http://fedoraproject.org/fedora/4">
     <short-id>fedora4</short-id>
-    <name>Fedora Core 4</name>
+    <_name>Fedora Core 4</_name>
     <version>4</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Stentz</codename>
@@ -222,9 +222,9 @@
 
   <os id="http://fedoraproject.org/fedora/5">
     <short-id>fedora5</short-id>
-    <name>Fedora Core 5</name>
+    <_name>Fedora Core 5</_name>
     <version>5</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Bordeaux</codename>
@@ -282,9 +282,9 @@
 
   <os id="http://fedoraproject.org/fedora/6">
     <short-id>fedora6</short-id>
-    <name>Fedora Core 6</name>
+    <_name>Fedora Core 6</_name>
     <version>6</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Zod</codename>
@@ -342,9 +342,9 @@
 
   <os id="http://fedoraproject.org/fedora/7">
     <short-id>fedora7</short-id>
-    <name>Fedora 7</name>
+    <_name>Fedora 7</_name>
     <version>7</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Moonshine</codename>
@@ -425,9 +425,9 @@
 
   <os id="http://fedoraproject.org/fedora/8">
     <short-id>fedora8</short-id>
-    <name>Fedora 8</name>
+    <_name>Fedora 8</_name>
     <version>8</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Werewolf</codename>
@@ -517,9 +517,9 @@
 
   <os id="http://fedoraproject.org/fedora/9">
     <short-id>fedora9</short-id>
-    <name>Fedora 9</name>
+    <_name>Fedora 9</_name>
     <version>9</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Sulphur</codename>
@@ -608,9 +608,9 @@
 
   <os id="http://fedoraproject.org/fedora/10">
     <short-id>fedora10</short-id>
-    <name>Fedora 10</name>
+    <_name>Fedora 10</_name>
     <version>10</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Cambridge</codename>
@@ -696,9 +696,9 @@
 
   <os id="http://fedoraproject.org/fedora/11">
     <short-id>fedora11</short-id>
-    <name>Fedora 11</name>
+    <_name>Fedora 11</_name>
     <version>11</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Leonidas</codename>
@@ -784,9 +784,9 @@
 
   <os id="http://fedoraproject.org/fedora/12">
     <short-id>fedora12</short-id>
-    <name>Fedora 12</name>
+    <_name>Fedora 12</_name>
     <version>12</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Constantine</codename>
@@ -867,9 +867,9 @@
 
   <os id="http://fedoraproject.org/fedora/13">
     <short-id>fedora13</short-id>
-    <name>Fedora 13</name>
+    <_name>Fedora 13</_name>
     <version>13</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Goddard</codename>
@@ -941,9 +941,9 @@
 
   <os id="http://fedoraproject.org/fedora/14">
     <short-id>fedora14</short-id>
-    <name>Fedora 14</name>
+    <_name>Fedora 14</_name>
     <version>14</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Laughlin</codename>
@@ -1029,9 +1029,9 @@
 
   <os id="http://fedoraproject.org/fedora/15">
     <short-id>fedora15</short-id>
-    <name>Fedora 15</name>
+    <_name>Fedora 15</_name>
     <version>15</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Lovelock</codename>
@@ -1116,9 +1116,9 @@
 
   <os id="http://fedoraproject.org/fedora/16">
     <short-id>fedora16</short-id>
-    <name>Fedora 16</name>
+    <_name>Fedora 16</_name>
     <version>16</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Verne</codename>
@@ -1203,9 +1203,9 @@
 
   <os id="http://fedoraproject.org/fedora/17">
     <short-id>fedora17</short-id>
-    <name>Fedora 17</name>
+    <_name>Fedora 17</_name>
     <version>17</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Beefy Miracle</codename>
@@ -1288,9 +1288,9 @@
 
   <os id="http://fedoraproject.org/fedora/18">
     <short-id>fedora18</short-id>
-    <name>Fedora 18</name>
+    <_name>Fedora 18</_name>
     <version>18</version>
-    <vendor>Fedora Project</vendor>
+    <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>The Spherical Cow</codename>

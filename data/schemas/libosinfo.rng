@@ -28,9 +28,16 @@
         <ref name='url'/>
       </attribute>
       <interleave>
-        <element name='name'>
-          <text/>
-        </element>
+        <oneOrMore>
+          <element name='name'>
+            <optional>
+              <attribute name='xml:lang'>
+                <text/>
+              </attribute>
+            </optional>
+            <text/>
+          </element>
+        </oneOrMore>
         <element name='bus-type'>
           <choice>
             <value>isa</value>
@@ -57,11 +64,16 @@
             </choice>
           </element>
         </optional>
-        <optional>
+        <zeroOrMore>
           <element name='vendor'>
+            <optional>
+              <attribute name='xml:lang'>
+                <text/>
+              </attribute>
+            </optional>
             <text/>
           </element>
-        </optional>
+        </zeroOrMore>
         <optional>
           <element name='vendor-id'>
             <ref name='hexid'/>
@@ -94,12 +106,26 @@
 
   <define name="product-content">
     <interleave>
-      <element name='vendor'>
-        <text/>
-      </element>
-      <element name='name'>
-        <text/>
-      </element>
+      <oneOrMore>
+        <element name='vendor'>
+          <optional>
+            <attribute name='xml:lang'>
+              <text/>
+            </attribute>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
+      <oneOrMore>
+        <element name='name'>
+          <optional>
+            <attribute name='xml:lang'>
+              <text/>
+            </attribute>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
       <oneOrMore>
         <element name='short-id'>
           <text/>

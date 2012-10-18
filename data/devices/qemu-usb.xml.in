@@ -5,7 +5,7 @@
     <name>tablet</name>
     <bus-type>usb</bus-type>
     <class>input</class>
-    <vendor>VirtualBox</vendor>
+    <_vendor>VirtualBox</_vendor>
     <vendor-id>80ee</vendor-id>
     <product>Tablet</product>
     <product-id>0021</product-id>

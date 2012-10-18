@@ -2,18 +2,18 @@
 
   <os id="http://opensuse.org/opensuse/10.2">
     <short-id>opensuse10.2</short-id>
-    <name>openSUSE 10.2</name>
+    <_name>openSUSE 10.2</_name>
     <version>10.2</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
   </os>
 
   <os id="http://opensuse.org/opensuse/10.3">
     <short-id>opensuse10.3</short-id>
-    <name>openSUSE 10.3</name>
+    <_name>openSUSE 10.3</_name>
     <version>10.3</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/10.2" />
@@ -22,9 +22,9 @@
 
   <os id="http://opensuse.org/opensuse/11.0">
     <short-id>opensuse11.0</short-id>
-    <name>openSUSE 11.0</name>
+    <_name>openSUSE 11.0</_name>
     <version>11.0</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/10.3" />
@@ -33,9 +33,9 @@
 
   <os id="http://opensuse.org/opensuse/11.1">
     <short-id>opensuse11.1</short-id>
-    <name>openSUSE 11.1</name>
+    <_name>openSUSE 11.1</_name>
     <version>11.1</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.0" />
@@ -44,9 +44,9 @@
 
   <os id="http://opensuse.org/opensuse/11.2">
     <short-id>opensuse11.2</short-id>
-    <name>openSUSE 11.2</name>
+    <_name>openSUSE 11.2</_name>
     <version>11.2</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.1" />
@@ -55,9 +55,9 @@
 
   <os id="http://opensuse.org/opensuse/11.3">
     <short-id>opensuse11.3</short-id>
-    <name>openSUSE 11.3</name>
+    <_name>openSUSE 11.3</_name>
     <version>11.3</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.2" />
@@ -121,9 +121,9 @@
 
   <os id="http://opensuse.org/opensuse/11.4">
     <short-id>opensuse11.4</short-id>
-    <name>openSUSE 11.4</name>
+    <_name>openSUSE 11.4</_name>
     <version>11.4</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.3" />
@@ -179,9 +179,9 @@
 
   <os id="http://opensuse.org/opensuse/12.1">
     <short-id>opensuse12.1</short-id>
-    <name>openSUSE 12.1</name>
+    <_name>openSUSE 12.1</_name>
     <version>12.1</version>
-    <vendor>openSUSE</vendor>
+    <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.4" />

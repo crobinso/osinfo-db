@@ -1,8 +1,8 @@
 <libosinfo version="0.0.1">
   <os id="http://microsoft.com/msdos/6.22">
     <short-id>msdos6.22</short-id>
-    <name>Microsoft MS-DOS 6.22</name>
-    <vendor>Microsoft</vendor>
+    <_name>Microsoft MS-DOS 6.22</_name>
+    <_vendor>Microsoft</_vendor>
     <version>6.22</version>
     <family>msdos</family>
     <distro>msdos</distro>

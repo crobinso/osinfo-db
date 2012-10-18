@@ -2,18 +2,18 @@
 
   <os id="http://apple.com/macosx/10.0">
     <short-id>macosx10.0</short-id>
-    <name>MacOS X Cheetah</name>
+    <_name>MacOS X Cheetah</_name>
     <version>10.0</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
   </os>
 
   <os id="http://apple.com/macosx/10.1">
     <short-id>macosx10.1</short-id>
-    <name>MacOS X Puma</name>
+    <_name>MacOS X Puma</_name>
     <version>10.1</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.0" />
@@ -21,9 +21,9 @@
 
   <os id="http://apple.com/macosx/10.2">
     <short-id>macosx10.2</short-id>
-    <name>MacOS X Jaghuar</name>
+    <_name>MacOS X Jaghuar</_name>
     <version>10.2</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.1" />
@@ -31,9 +31,9 @@
 
   <os id="http://apple.com/macosx/10.3">
     <short-id>macosx10.3</short-id>
-    <name>MacOS X Panther</name>
+    <_name>MacOS X Panther</_name>
     <version>10.3</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.2" />
@@ -41,9 +41,9 @@
 
   <os id="http://apple.com/macosx/10.4">
     <short-id>macosx10.4</short-id>
-    <name>MacOS X Tiger</name>
+    <_name>MacOS X Tiger</_name>
     <version>10.4</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.3" />
@@ -51,9 +51,9 @@
 
   <os id="http://apple.com/macosx/10.5">
     <short-id>macosx10.5</short-id>
-    <name>MacOS X Leopard</name>
+    <_name>MacOS X Leopard</_name>
     <version>10.5</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.4" />
@@ -61,9 +61,9 @@
 
   <os id="http://apple.com/macosx/10.6">
     <short-id>macosx10.6</short-id>
-    <name>MacOS X Snow Leopard</name>
+    <_name>MacOS X Snow Leopard</_name>
     <version>10.6</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.5" />
@@ -81,9 +81,9 @@
 
   <os id="http://apple.com/macosx/10.7">
     <short-id>macosx10.7</short-id>
-    <name>MacOS X Lion</name>
+    <_name>MacOS X Lion</_name>
     <version>10.7</version>
-    <vendor>Apple Inc.</vendor>
+    <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.6" />

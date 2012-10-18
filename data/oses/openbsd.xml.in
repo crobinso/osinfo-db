@@ -2,11 +2,11 @@
 
   <os id="http://openbsd.org/openbsd/4.2">
     <short-id>openbsd4.2</short-id>
-    <name>OpenBSD 4.2</name>
+    <_name>OpenBSD 4.2</_name>
     <version>4.2</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
 
     <media arch='i386'>
       <iso>
@@ -29,11 +29,11 @@
 
   <os id="http://openbsd.org/openbsd/4.3">
     <short-id>openbsd4.3</short-id>
-    <name>OpenBSD 4.3</name>
+    <_name>OpenBSD 4.3</_name>
     <version>4.3</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.2'/>
     <derives-from id='http://openbsd.org/openbsd/4.2'/>
 
@@ -58,11 +58,11 @@
 
   <os id="http://openbsd.org/openbsd/4.4">
     <short-id>openbsd4.4</short-id>
-    <name>OpenBSD 4.4</name>
+    <_name>OpenBSD 4.4</_name>
     <version>4.4</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.3'/>
     <derives-from id='http://openbsd.org/openbsd/4.3'/>
 
@@ -87,11 +87,11 @@
 
   <os id="http://openbsd.org/openbsd/4.5">
     <short-id>openbsd4.5</short-id>
-    <name>OpenBSD 4.5</name>
+    <_name>OpenBSD 4.5</_name>
     <version>4.5</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.4'/>
     <derives-from id='http://openbsd.org/openbsd/4.4'/>
 
@@ -116,11 +116,11 @@
 
   <os id="http://openbsd.org/openbsd/4.8">
     <short-id>openbsd4.8</short-id>
-    <name>OpenBSD 4.8</name>
+    <_name>OpenBSD 4.8</_name>
     <version>4.8</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.5'/>
     <derives-from id='http://openbsd.org/openbsd/4.5'/>
 
@@ -145,11 +145,11 @@
 
   <os id="http://openbsd.org/openbsd/4.9">
     <short-id>openbsd4.9</short-id>
-    <name>OpenBSD 4.9</name>
+    <_name>OpenBSD 4.9</_name>
     <version>4.9</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.8'/>
     <derives-from id='http://openbsd.org/openbsd/4.8'/>
 
@@ -179,11 +179,11 @@
 
   <os id="http://openbsd.org/openbsd/5.0">
     <short-id>openbsd5.0</short-id>
-    <name>OpenBSD 5.0</name>
+    <_name>OpenBSD 5.0</_name>
     <version>5.0</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <vendor>OpenBSD Project</vendor>
+    <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/4.9'/>
     <derives-from id='http://openbsd.org/openbsd/4.9'/>
 

@@ -5,7 +5,7 @@
     <name>keyboard</name>
     <bus-type>ps2</bus-type>
     <class>input</class>
-    <vendor>Qemu/KVM</vendor>
+    <_vendor>Qemu/KVM</_vendor>
     <product>Keyboard</product>
   </device>
 
@@ -13,7 +13,7 @@
     <name>mouse</name>
     <bus-type>ps2</bus-type>
     <class>input</class>
-    <vendor>Qemu/KVM</vendor>
+    <_vendor>Qemu/KVM</_vendor>
     <product>Mouse</product>
   </device>
 

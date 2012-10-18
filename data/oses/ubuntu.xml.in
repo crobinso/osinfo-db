@@ -3,9 +3,9 @@
   <os id="http://ubuntu.com/ubuntu/4.10">
     <short-id>ubuntu4.10</short-id>
     <short-id>ubuntuwarty</short-id>
-    <name>Ubuntu Warty Warthog</name>
+    <_name>Ubuntu Warty Warthog</_name>
     <version>4.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Warty Warthog</codename>
@@ -46,9 +46,9 @@
   <os id="http://ubuntu.com/ubuntu/5.04">
     <short-id>ubuntu5.04</short-id>
     <short-id>ubuntuhoary</short-id>
-    <name>Ubuntu Hoary Hedgehog</name>
+    <_name>Ubuntu Hoary Hedgehog</_name>
     <version>5.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hoary Hedgehog</codename>
@@ -119,9 +119,9 @@
   <os id="http://ubuntu.com/ubuntu/5.10">
     <short-id>ubuntu5.10</short-id>
     <short-id>ubuntubreezy</short-id>
-    <name>Ubuntu Breezy Badger</name>
+    <_name>Ubuntu Breezy Badger</_name>
     <version>5.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Breezy Badger</codename>
@@ -220,9 +220,9 @@
   <os id="http://ubuntu.com/ubuntu/6.06">
     <short-id>ubuntu6.06</short-id>
     <short-id>ubuntudapper</short-id>
-    <name>Ubuntu Dapper Drake LTS</name>
+    <_name>Ubuntu Dapper Drake LTS</_name>
     <version>6.06</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Dapper Drake</codename>
@@ -367,9 +367,9 @@
   <os id="http://ubuntu.com/ubuntu/6.10">
     <short-id>ubuntu6.10</short-id>
     <short-id>ubuntuedgy</short-id>
-    <name>Ubuntu Edgy Eft</name>
+    <_name>Ubuntu Edgy Eft</_name>
     <version>6.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Edgy Eft</codename>
@@ -448,9 +448,9 @@
   <os id="http://ubuntu.com/ubuntu/7.04">
     <short-id>ubuntu7.04</short-id>
     <short-id>ubuntufeisty</short-id>
-    <name>Ubuntu Feisty Fawn</name>
+    <_name>Ubuntu Feisty Fawn</_name>
     <version>7.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Feisty Fawn</codename>
@@ -511,9 +511,9 @@
   <os id="http://ubuntu.com/ubuntu/7.10">
     <short-id>ubuntu7.10</short-id>
     <short-id>ubuntugutsy</short-id>
-    <name>Ubuntu Gutsy Gibbon</name>
+    <_name>Ubuntu Gutsy Gibbon</_name>
     <version>7.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Gutsy Gibbon</codename>
@@ -574,9 +574,9 @@
   <os id="http://ubuntu.com/ubuntu/8.04">
     <short-id>ubuntu8.04</short-id>
     <short-id>ubuntuhardy</short-id>
-    <name>Ubuntu Hardy Heron LTS</name>
+    <_name>Ubuntu Hardy Heron LTS</_name>
     <version>8.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hardy Heron</codename>
@@ -650,9 +650,9 @@
   <os id="http://ubuntu.com/ubuntu/8.10">
     <short-id>ubuntu8.10</short-id>
     <short-id>ubuntuintrepid</short-id>
-    <name>Ubuntu Intrepid Ibex</name>
+    <_name>Ubuntu Intrepid Ibex</_name>
     <version>8.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Intrepid Ibex</codename>
@@ -704,9 +704,9 @@
   <os id="http://ubuntu.com/ubuntu/9.04">
     <short-id>ubuntu9.04</short-id>
     <short-id>ubuntujaunty</short-id>
-    <name>Ubuntu Jaunty Jackalope</name>
+    <_name>Ubuntu Jaunty Jackalope</_name>
     <version>9.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Jaunty Jackalope</codename>
@@ -762,9 +762,9 @@
   <os id="http://ubuntu.com/ubuntu/9.10">
     <short-id>ubuntu9.10</short-id>
     <short-id>ubuntukarmic</short-id>
-    <name>Ubuntu Karmic Koala</name>
+    <_name>Ubuntu Karmic Koala</_name>
     <version>9.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Karmic Koala</codename>
@@ -816,9 +816,9 @@
   <os id="http://ubuntu.com/ubuntu/10.04">
     <short-id>ubuntu10.04</short-id>
     <short-id>ubuntulucid</short-id>
-    <name>Ubuntu Lucid Lynx LTS</name>
+    <_name>Ubuntu Lucid Lynx LTS</_name>
     <version>10.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Lucid Lynx</codename>
@@ -863,9 +863,9 @@
   <os id="http://ubuntu.com/ubuntu/10.10">
     <short-id>ubuntu10.10</short-id>
     <short-id>ubuntumaverick</short-id>
-    <name>Ubuntu Maverick Meerkat</name>
+    <_name>Ubuntu Maverick Meerkat</_name>
     <version>10.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Maverick Meerkat</codename>
@@ -930,9 +930,9 @@
   <os id="http://ubuntu.com/ubuntu/11.04">
     <short-id>ubuntu11.04</short-id>
     <short-id>ubuntunatty</short-id>
-    <name>Ubuntu Natty Narwhal</name>
+    <_name>Ubuntu Natty Narwhal</_name>
     <version>11.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Natty Narwhal</codename>
@@ -997,9 +997,9 @@
   <os id="http://ubuntu.com/ubuntu/11.10">
     <short-id>ubuntu11.10</short-id>
     <short-id>ubuntuoneiric</short-id>
-    <name>Ubuntu Oneiric Ocelot</name>
+    <_name>Ubuntu Oneiric Ocelot</_name>
     <version>11.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Oneiric Ocelot</codename>
@@ -1064,9 +1064,9 @@
   <os id="http://ubuntu.com/ubuntu/12.04">
     <short-id>ubuntu12.04</short-id>
     <short-id>ubuntuprecise</short-id>
-    <name>Ubuntu Precise Pangolin LTS</name>
+    <_name>Ubuntu Precise Pangolin LTS</_name>
     <version>12.04</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Precise Pangolin</codename>
@@ -1125,9 +1125,9 @@
   <os id="http://ubuntu.com/ubuntu/12.10">
     <short-id>ubuntu12.10</short-id>
     <short-id>ubuntuquantal</short-id>
-    <name>Ubuntu Quantal Quetzal</name>
+    <_name>Ubuntu Quantal Quetzal</_name>
     <version>12.10</version>
-    <vendor>Canonical Ltd</vendor>
+    <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Quantal Quetzal</codename>

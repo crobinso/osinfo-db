@@ -2,8 +2,8 @@
 
   <os id="http://mandriva.com/mandrake/5.1">
     <short-id>mandrake5.1</short-id>
-    <name>Mandrake Linux 5.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 5.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Venice</codename>
@@ -12,8 +12,8 @@
 
   <os id="http://mandriva.com/mandrake/5.2">
     <short-id>mandrake5.2</short-id>
-    <name>Mandrake Linux 5.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 5.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Leeloo</codename>
@@ -25,8 +25,8 @@
 
   <os id="http://mandriva.com/mandrake/5.3">
     <short-id>mandrake5.3</short-id>
-    <name>Mandrake Linux 5.3</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 5.3</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Festen</codename>
@@ -38,8 +38,8 @@
 
   <os id="http://mandriva.com/mandrake/6.0">
     <short-id>mandrake6.0</short-id>
-    <name>Mandrake Linux 6.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 6.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Venus</codename>
@@ -51,8 +51,8 @@
 
   <os id="http://mandriva.com/mandrake/6.1">
     <short-id>mandrake6.1</short-id>
-    <name>Mandrake Linux 6.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 6.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Helios</codename>
@@ -64,8 +64,8 @@
 
   <os id="http://mandriva.com/mandrake/7.0">
     <short-id>mandrake7.0</short-id>
-    <name>Mandrake Linux 7.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 7.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Air</codename>
@@ -77,8 +77,8 @@
 
   <os id="http://mandriva.com/mandrake/7.1">
     <short-id>mandrake7.1</short-id>
-    <name>Mandrake Linux 7.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 7.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Helium</codename>
@@ -90,8 +90,8 @@
 
   <os id="http://mandriva.com/mandrake/7.2">
     <short-id>mandrake7.2</short-id>
-    <name>Mandrake Linux 7.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 7.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Odyssey</codename>
@@ -103,8 +103,8 @@
 
   <os id="http://mandriva.com/mandrake/8.0">
     <short-id>mandrake8.0</short-id>
-    <name>Mandrake Linux 8.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 8.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Traktopel</codename>
@@ -116,8 +116,8 @@
 
   <os id="http://mandriva.com/mandrake/8.1">
     <short-id>mandrake8.1</short-id>
-    <name>Mandrake Linux 8.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 8.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Vitamin</codename>
@@ -129,8 +129,8 @@
 
   <os id="http://mandriva.com/mandrake/8.2">
     <short-id>mandrake8.2</short-id>
-    <name>Mandrake Linux 8.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 8.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Bluebird</codename>
@@ -142,8 +142,8 @@
 
   <os id="http://mandriva.com/mandrake/9.0">
     <short-id>mandrake9.0</short-id>
-    <name>Mandrake Linux 9.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 9.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Dolphin</codename>
@@ -155,8 +155,8 @@
 
   <os id="http://mandriva.com/mandrake/9.1">
     <short-id>mandrake9.1</short-id>
-    <name>Mandrake Linux 9.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 9.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Bamboo</codename>
@@ -168,8 +168,8 @@
 
   <os id="http://mandriva.com/mandrake/9.2">
     <short-id>mandrake9.2</short-id>
-    <name>Mandrake Linux 9.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 9.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>FiveStar</codename>
@@ -181,8 +181,8 @@
 
   <os id="http://mandriva.com/mandrake/10.0">
     <short-id>mandrake10.0</short-id>
-    <name>Mandrake Linux 10.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 10.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <version>10.0</version>
@@ -193,8 +193,8 @@
 
   <os id="http://mandriva.com/mandrake/10.1">
     <short-id>mandrake10.1</short-id>
-    <name>Mandrake Linux 10.1</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 10.1</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <version>10.1</version>
@@ -205,8 +205,8 @@
 
   <os id="http://mandriva.com/mandrake/10.2">
     <short-id>mandrake10.2</short-id>
-    <name>Mandrake Linux 10.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandrake Linux 10.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Leeloo</codename>

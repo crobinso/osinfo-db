@@ -2,8 +2,8 @@
 
   <os id="http://mandriva.com/mandriva/2006.0">
     <short-id>mandriva2006.0</short-id>
-    <name>Mandriva Linux 2006.0</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2006.0</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2006.0</version>
@@ -14,8 +14,8 @@
 
   <os id="http://mandriva.com/mandriva/2007">
     <short-id>mandriva2007</short-id>
-    <name>Mandriva Linux 2007</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2007</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2007</version>
@@ -26,8 +26,8 @@
 
   <os id="http://mandriva.com/mandriva/2007.1">
     <short-id>mandriva2007.1</short-id>
-    <name>Mandriva Linux 2007 Spring</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2007 Spring</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2007.1</version>
@@ -38,8 +38,8 @@
 
   <os id="http://mandriva.com/mandriva/2008.0">
     <short-id>mandriva2008.0</short-id>
-    <name>Mandriva Linux 2008</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2008</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2008.0</version>
@@ -50,8 +50,8 @@
 
   <os id="http://mandriva.com/mandriva/2008.1">
     <short-id>mandriva2008.1</short-id>
-    <name>Mandriva Linux 2008 Spring</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2008 Spring</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2008.1</version>
@@ -62,8 +62,8 @@
 
   <os id="http://mandriva.com/mandriva/2009.0">
     <short-id>mandriva2009.0</short-id>
-    <name>Mandriva Linux 2009</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2009</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2009.0</version>
@@ -74,8 +74,8 @@
 
   <os id="http://mandriva.com/mandriva/2009.1">
     <short-id>mandriva2009.1</short-id>
-    <name>Mandriva Linux 2009 Spring</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2009 Spring</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2009.1</version>
@@ -86,8 +86,8 @@
 
   <os id="http://mandriva.com/mandriva/2010.0">
     <short-id>mandriva2010.0</short-id>
-    <name>Mandriva Linux 2010</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2010</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2010.0</version>
@@ -102,8 +102,8 @@
 
   <os id="http://mandriva.com/mandriva/2010.1">
     <short-id>mandriva2010.1</short-id>
-    <name>Mandriva Linux 2010 Spring</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2010 Spring</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2010.1</version>
@@ -114,8 +114,8 @@
 
   <os id="http://mandriva.com/mandriva/2010.2">
     <short-id>mandriva2010.2</short-id>
-    <name>Mandriva Linux 2010.2</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2010.2</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2010.2</version>
@@ -126,8 +126,8 @@
 
   <os id="http://mandriva.com/mandriva/2011">
     <short-id>mandriva2011</short-id>
-    <name>Mandriva Linux 2011</name>
-    <vendor>Mandriva</vendor>
+    <_name>Mandriva Linux 2011</_name>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <codename>Hydrogen</codename>
@@ -139,9 +139,9 @@
 
   <os id="http://mandriva.com/mes/5.0">
     <short-id>mes5</short-id>
-    <name>Mandriva Enterprise Server 5.0</name>
+    <_name>Mandriva Enterprise Server 5.0</_name>
     <version>5.0</version>
-    <vendor>Mandriva</vendor>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mes</distro>
 
@@ -149,9 +149,9 @@
 
   <os id="http://mandriva.com/mes/5.1">
     <short-id>mes5.1</short-id>
-    <name>Mandriva Enterprise Server 5.1</name>
+    <_name>Mandriva Enterprise Server 5.1</_name>
     <version>5.1</version>
-    <vendor>Mandriva</vendor>
+    <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mes</distro>
     <upgrades id="http://mandriva.com/mes/5.0"/>

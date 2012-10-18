@@ -2,9 +2,9 @@
 
   <os id="http://gnome.org/3.6">
     <short-id>gnome3.6</short-id>
-    <name>GNOME 3.6</name>
+    <_name>GNOME 3.6</_name>
     <version>3.6</version>
-    <vendor>GNOME Project</vendor>
+    <_vendor>GNOME Project</_vendor>
     <family>linux</family>
     <distro>gnome</distro>
     <derives-from id="http://fedoraproject.org/fedora/18"/>
