@@ -20,6 +20,9 @@ config.h.in
 config.log
 config.status
 configure
+intltool-extract.in
+intltool-merge.in
+intltool-update.in
 libtool
 m4
 stamp-h1
@@ -71,3 +74,15 @@ tools/osinfo-install-script
 tools/osinfo-install-script.exe
 tools/osinfo-install-script.1
 docs/reference/Libosinfo.types
+po/Makefile.in.in
+po/POTFILES
+po/libosinfo.pot
+po/stamp-it
+po/Makevars.template
+po/Rules-quot
+po/boldquot.sed
+po/en@boldquot.header
+po/en@quot.header
+po/insert-header.sin
+po/quot.sed
+po/remove-potcdate.sin
