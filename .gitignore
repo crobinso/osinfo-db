@@ -28,6 +28,7 @@ test/test-skeleton.sh
 osinfo/libosinfo.pc
 osinfo/Libosinfo-1.0.gir
 osinfo/Libosinfo-1.0.typelib
+osinfo/libosinfo-1.0.vapi
 *.gcno
 *.gcda
 coverage/
@@ -54,6 +55,7 @@ test/test-mediauris
 test/test-treeuris
 build/
 gtk-doc.make
+data/95-osinfo.rules
 data/pci.ids
 data/usb.ids
 tools/osinfo-detect
