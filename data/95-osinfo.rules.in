@@ -1,3 +1,2 @@
 SUBSYSTEM=="block", ACTION=="add|change", ENV{ID_FS_TYPE}=="iso9660|udf", \
     IMPORT{program}="@bindir@/osinfo-detect -f env $tempnode"
-
