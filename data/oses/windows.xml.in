@@ -378,6 +378,25 @@
       <script id='http://microsoft.com/windows/reg/desktop'/>
       <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
+
+    <!-- virtio block device driver -->
+    <driver arch="i386" location="http://zeenix.fedorapeople.org/drivers/win-tools/preinst/winxp/x86" pre-installable="true">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <!-- For now we require this for pre-installation but we should probably generate this too -->
+      <file>txtsetup.oem</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+    </driver>
+
+    <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/preinst/winxp/amd64" pre-installable="true">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <!-- For now we require this for pre-installation but we should probably generate this too -->
+      <file>txtsetup.oem</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+    </driver>
   </os>
 
   <os id="http://microsoft.com/win/2k3">
@@ -718,6 +737,21 @@
       <script id='http://microsoft.com/windows/unattend/jeos'/>
       <script id='http://microsoft.com/windows/unattend/desktop'/>
     </installer>
+
+    <!-- virtio block device driver -->
+    <driver arch="i386" location="http://zeenix.fedorapeople.org/drivers/win-tools/preinst/win7/x86" pre-installable="true">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+    </driver>
+
+    <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/preinst/win7/amd64" pre-installable="true">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+    </driver>
   </os>
 
   <os id="http://microsoft.com/win/8">
