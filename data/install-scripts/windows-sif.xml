@@ -176,7 +176,7 @@
 
 <xsl:if test="os/version &gt; 5.0">
 [SetupParams]
-    UserExecute = "a:\windows.cmd"
+    UserExecute = "<xsl:value-of select="config/script-disk"/>:\windows.cmd"
 
 [WindowsFirewall]
     Profiles = WindowsFirewall.TurnOffFirewall
