@@ -468,6 +468,11 @@
       <element name='profile'>
         <text/>
       </element>
+      <optional>
+        <element name='path-format'>
+          <ref name='path-formats'/>
+        </element>
+      </optional>
       <element name='config'>
         <attribute name="name"/>
         <attribute name="policy">
@@ -547,6 +552,12 @@
   <define name='policies'>
     <data type="string">
       <param name="pattern">required|optional</param>
+    </data>
+  </define>
+
+  <define name='path-formats'>
+    <data type="string">
+      <param name="pattern">dos|unix</param>
     </data>
   </define>
 </grammar>

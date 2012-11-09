@@ -2,6 +2,7 @@
   <!-- DESKTOP PROFILE -->
   <install-script id='http://microsoft.com/windows/cmd/desktop'>
     <profile>desktop</profile>
+    <path-format>dos</path-format>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="user-realname" policy="required"/>

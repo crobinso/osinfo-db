@@ -2,6 +2,7 @@
   <!-- JEOS PROFILE -->
   <install-script id='http://microsoft.com/windows/sif/jeos'>
     <profile>jeos</profile>
+    <path-format>dos</path-format>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="reg-product-key" policy="required"/>
@@ -64,6 +65,7 @@
   <!-- DESKTOP PROFILE -->
   <install-script id='http://microsoft.com/windows/sif/desktop'>
     <profile>desktop</profile>
+    <path-format>dos</path-format>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="reg-product-key" policy="required"/>
