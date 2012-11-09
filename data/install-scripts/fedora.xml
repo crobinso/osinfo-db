@@ -7,6 +7,7 @@
       <param name="l10n-keyboard" policy="optional"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
+      <param name="target-disk" policy="optional"/>
     </config>
     <template filename="fedora.ks">
       <xsl:stylesheet
@@ -15,22 +16,25 @@
 
         <xsl:output method="text"/>
 
-	<xsl:template name="disk">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 9">
-	      <!-- virtio -->
-	      <xsl:text>vda</xsl:text>
-	    </xsl:when>
-	    <xsl:when test="os/version &gt; 6">
-	      <!-- libata IDE -->
-	      <xsl:text>sda</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <!-- IDE -->
-	      <xsl:text>hda</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 9">
+              <!-- virtio -->
+              <xsl:text>vda</xsl:text>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 6">
+              <!-- libata IDE -->
+              <xsl:text>sda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- IDE -->
+              <xsl:text>hda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
 	<xsl:template name="rootfs">
 	  <xsl:choose>
@@ -76,13 +80,13 @@ timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
 zerombr <xsl:if test="os/version &lt; 14">yes</xsl:if>
 
-clearpart --all --drives=<xsl:call-template name="disk"/>
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
 <xsl:if test="os/version &gt; 15">
 part biosboot --fstype=biosboot --size=1
 </xsl:if>
-part /boot --fstype <xsl:call-template name="bootfs"/> --size=200 --ondisk=<xsl:call-template name="disk"/>
-part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="disk"/>
+part /boot --fstype <xsl:call-template name="bootfs"/> --size=200 --ondisk=<xsl:call-template name="target-disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
 volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
@@ -114,6 +118,7 @@ reboot
         <param name="admin-password" policy="required"/>
         <param name="avatar-location" policy="optional"/>
         <param name="avatar-disk" policy="optional"/>
+        <param name="target-disk" policy="optional"/>
     </config>
     <template filename="fedora.ks">
       <xsl:stylesheet
@@ -122,22 +127,25 @@ reboot
 
         <xsl:output method="text"/>
 
-	<xsl:template name="disk">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 9">
-	      <!-- virtio -->
-	      <xsl:text>vda</xsl:text>
-	    </xsl:when>
-	    <xsl:when test="os/version &gt; 6">
-	      <!-- libata IDE -->
-	      <xsl:text>sda</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <!-- IDE -->
-	      <xsl:text>hda</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 9">
+              <!-- virtio -->
+              <xsl:text>vda</xsl:text>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 6">
+              <!-- libata IDE -->
+              <xsl:text>sda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- IDE -->
+              <xsl:text>hda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
 	<xsl:template name="rootfs">
 	  <xsl:choose>
@@ -174,13 +182,13 @@ timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
 zerombr
 
-clearpart --all --drives=<xsl:call-template name="disk"/>
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
 firstboot --disable
 
 part biosboot --fstype=biosboot --size=1
-part /boot --fstype <xsl:call-template name="bootfs"/> --recommended --ondisk=<xsl:call-template name="disk"/>
-part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="disk"/>
+part /boot --fstype <xsl:call-template name="bootfs"/> --recommended --ondisk=<xsl:call-template name="target-disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
 volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
