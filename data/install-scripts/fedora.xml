@@ -112,6 +112,8 @@ reboot
         <param name="user-login" policy="required"/>
         <param name="user-password" policy="required"/>
         <param name="admin-password" policy="required"/>
+        <param name="avatar-location" policy="optional"/>
+        <param name="avatar-disk" policy="optional"/>
     </config>
     <template filename="fedora.ks">
       <xsl:stylesheet
@@ -133,23 +135,6 @@ reboot
 	    <xsl:otherwise>
 	      <!-- IDE -->
 	      <xsl:text>hda</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
-
-	<xsl:template name="avatar-disk">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 9">
-	      <!-- virtio -->
-	      <xsl:text>sda</xsl:text>
-	    </xsl:when>
-	    <xsl:when test="os/version &gt; 6">
-	      <!-- libata IDE -->
-	      <xsl:text>hda</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <!-- IDE -->
-	      <xsl:text>hdb</xsl:text>
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:template>
@@ -229,10 +214,13 @@ else
 fi
 
 # Set user avatar
+if test -n <xsl:value-of select="config/avatar-location"/>; then
 mkdir /mnt/unattended-media
-mount /dev/<xsl:call-template name='avatar-disk'/> /mnt/unattended-media
-cp /mnt/unattended-media/<xsl:value-of select="config/user-login"/> /var/lib/AccountsService/icons/
+mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
+cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
 umount /mnt/unattended-media
+fi
+
 echo "
 [User]
 Language=
