@@ -2,6 +2,7 @@
   <install-script id='http://microsoft.com/windows/unattend/jeos'>
     <profile>jeos</profile>
     <path-format>dos</path-format>
+    <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="hardware-arch" policy="optional"/>
@@ -180,6 +181,7 @@
   <install-script id='http://microsoft.com/windows/unattend/desktop'>
    <profile>desktop</profile>
    <path-format>dos</path-format>
+   <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
    <config>
     <param name="admin-password" policy="optional"/>
     <param name="hardware-arch" policy="required"/>
