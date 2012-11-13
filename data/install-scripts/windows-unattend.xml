@@ -188,6 +188,7 @@
     <param name="user-password" policy="optional"/>
     <param name="user-realname" policy="optional"/>
     <param name="hostname" policy="required"/>
+    <param name="reg-product-key" policy="optional"/>
     <param name="target-disk" policy="optional"/>
    </config>
     <template filename="autounattend.xml">
