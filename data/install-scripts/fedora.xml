@@ -213,11 +213,14 @@ spice-vdagent
 
 useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
 if test -z <xsl:value-of select="config/user-password"/>; then
-    # Make both user and root account passwordless
-    passwd -d <xsl:value-of select="config/user-login"/>
-    passwd -d root
+    passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
 else
     echo <xsl:value-of select="config/user-password"/> |passwd --stdin <xsl:value-of select="config/user-login"/>
+fi
+
+if test -z <xsl:value-of select="config/admin-password"/>; then
+    passwd -d root # Make root account passwordless
+else
     echo <xsl:value-of select="config/admin-password"/> |passwd --stdin root
 fi
 
