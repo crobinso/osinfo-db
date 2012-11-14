@@ -17,6 +17,7 @@
           <ref name='os'/>
           <ref name='platform'/>
           <ref name='deployment'/>
+          <ref name='install-script'/>
         </choice>
       </zeroOrMore>
     </element>
@@ -462,48 +463,48 @@
 
   <define name='install-script'>
     <element name='install-script'>
-      <attribute name='id'>
-        <ref name='url'/>
-      </attribute>
-      <element name='profile'>
-        <text/>
-      </element>
-      <optional>
-        <element name='path-format'>
-          <ref name='path-formats'/>
-        </element>
-      </optional>
-      <optional>
-        <element name='expected-filename'>
+      <interleave>
+        <element name='profile'>
           <text/>
         </element>
-      </optional>
-      <element name='config'>
-        <attribute name="name"/>
-        <attribute name="policy">
-          <ref name='policies'/>
-        </attribute>
-      </element>
-      <element name='product-key-format'>
-        <text/>
-      </element>
-      <element name='template'>
-        <choice>
-          <group>
-            <attribute name="uri"/>
-            <empty/>
-          </group>
-          <ref name="customElement"/>
-        </choice>
-      </element>
-      <ref name='product-attr'/>
-      <ref name='product-content'/>
-      <interleave>
-        <ref name='product-dates'/>
-        <ref name='product-rel'/>
         <optional>
-          <ref name='devices-rel'/>
+          <element name='path-format'>
+            <ref name='path-formats'/>
+          </element>
         </optional>
+        <optional>
+          <element name='expected-filename'>
+            <text/>
+          </element>
+        </optional>
+        <optional>
+          <element name='config'>
+            <oneOrMore>
+              <element name='param'>
+                <attribute name="name"/>
+                <attribute name="policy">
+                  <ref name='policies'/>
+                </attribute>
+              </element>
+            </oneOrMore>
+          </element>
+        </optional>
+        <optional>
+          <element name='product-key-format'>
+            <text/>
+          </element>
+        </optional>
+        <element name='template'>
+          <choice>
+            <group>
+              <attribute name="uri"/>
+              <empty/>
+            </group>
+            <ref name="customElement"/>
+          </choice>
+        </element>
+        <ref name='product-attr'/>
+        <ref name='product-rel'/>
       </interleave>
     </element>
   </define>
