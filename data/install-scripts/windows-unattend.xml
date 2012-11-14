@@ -3,6 +3,7 @@
     <profile>jeos</profile>
     <path-format>dos</path-format>
     <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
+   <expected-filename>autounattend.xml</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="hardware-arch" policy="optional"/>
@@ -13,7 +14,7 @@
       <param name="reg-product-key" policy="optional"/>
       <param name="target-disk" policy="optional"/>
     </config>
-    <template filename="autounattend.xml">
+    <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">
@@ -182,6 +183,7 @@
    <profile>desktop</profile>
    <path-format>dos</path-format>
    <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
+   <expected-filename>autounattend.xml</expected-filename>
    <config>
     <param name="admin-password" policy="optional"/>
     <param name="hardware-arch" policy="required"/>
@@ -193,7 +195,7 @@
     <param name="reg-product-key" policy="optional"/>
     <param name="target-disk" policy="optional"/>
    </config>
-    <template filename="autounattend.xml">
+    <template>
      <xsl:stylesheet
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
       version="1.0">

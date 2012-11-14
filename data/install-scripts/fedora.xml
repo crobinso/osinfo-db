@@ -2,6 +2,7 @@
   <!-- JEOS PROFILE -->
   <install-script id='http://fedoraproject.org/scripts/fedora/jeos'>
     <profile>jeos</profile>
+    <expected-filename>fedora.ks</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="l10n-keyboard" policy="optional"/>
@@ -9,7 +10,7 @@
       <param name="l10n-timezone" policy="optional"/>
       <param name="target-disk" policy="optional"/>
     </config>
-    <template filename="fedora.ks">
+    <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">
@@ -108,6 +109,7 @@ reboot
   <!-- DESKTOP PROFILE -->
   <install-script id='http://fedoraproject.org/scripts/fedora/desktop'>
     <profile>desktop</profile>
+    <expected-filename>fedora.ks</expected-filename>
     <config>
         <param name="l10n-keyboard" policy="optional"/>
         <param name="l10n-language" policy="optional"/>
@@ -120,7 +122,7 @@ reboot
         <param name="avatar-disk" policy="optional"/>
         <param name="target-disk" policy="optional"/>
     </config>
-    <template filename="fedora.ks">
+    <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">

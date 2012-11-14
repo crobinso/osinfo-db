@@ -3,11 +3,12 @@
   <install-script id='http://microsoft.com/windows/reg/desktop'>
     <profile>desktop</profile>
     <path-format>dos</path-format>
+    <expected-filename>windows.reg</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="user-realname" policy="required"/>
     </config>
-    <template filename="windows.reg">
+    <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">

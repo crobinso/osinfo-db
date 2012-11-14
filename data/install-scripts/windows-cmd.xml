@@ -3,6 +3,7 @@
   <install-script id='http://microsoft.com/windows/cmd/desktop'>
     <profile>desktop</profile>
     <path-format>dos</path-format>
+    <expected-filename>windows.cmd</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="user-realname" policy="required"/>
@@ -11,7 +12,7 @@
       <param name="target-disk" policy="optional"/>
       <param name="script-disk" policy="optional"/>
     </config>
-    <template filename="windows.cmd">
+    <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         version="1.0">
