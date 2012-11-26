@@ -364,6 +364,12 @@
         <ram>268435456</ram>
         <storage>1610612736</storage>
       </minimum>
+
+      <recommended>
+        <cpu>733000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </recommended>
     </resources>
 
     <installer>
