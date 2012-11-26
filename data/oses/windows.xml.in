@@ -352,10 +352,11 @@
 
       <recommended>
         <cpu>300000000</cpu>
-        <ram>134217728</ram>
-        <storage>2147483648</storage>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
       </recommended>
     </resources>
+
     <resources arch="x86_64">
       <minimum>
         <cpu>733000000</cpu>
