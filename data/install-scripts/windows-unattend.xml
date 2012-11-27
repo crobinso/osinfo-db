@@ -32,6 +32,23 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="language">
+          <xsl:variable name="language">
+            <xsl:value-of select="config/l10n-language"/>
+          </xsl:variable>
+          <xsl:variable name="formatted-language">
+            <xsl:value-of select="translate($language,'_','-')"/>
+          </xsl:variable>
+          <xsl:choose>
+            <xsl:when test="contains($formatted-language,'.')">
+              <xsl:value-of select="substring-before($formatted-language,'.')"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$formatted-language"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
 	<xsl:template name="arch">
 	  <xsl:choose>
 	    <xsl:when test="count(config/hardware-arch) &gt; 0">
@@ -99,11 +116,11 @@
 		  <xsl:call-template name="arch"/>
 		</xsl:attribute>
 		<SetupUILanguage>
-		  <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+		  <UILanguage><xsl:call-template name="language"/></UILanguage>
 		</SetupUILanguage>
-		<SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
-		<UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
-		<UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
+		<SystemLocale><xsl:call-template name="language"/></SystemLocale>
+		<UILanguage><xsl:call-template name="language"/></UILanguage>
+		<UserLocale><xsl:call-template name="language"/></UserLocale>
 	      </component>
 	    </settings>
 	    <settings pass="oobeSystem">
@@ -213,6 +230,23 @@
         </xsl:choose>
       </xsl:template>
 
+      <xsl:template name="language">
+        <xsl:variable name="language">
+          <xsl:value-of select="config/l10n-language"/>
+        </xsl:variable>
+        <xsl:variable name="formatted-language">
+          <xsl:value-of select="translate($language,'_','-')"/>
+        </xsl:variable>
+        <xsl:choose>
+          <xsl:when test="contains($formatted-language,'.')">
+            <xsl:value-of select="substring-before($formatted-language,'.')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$formatted-language"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:template>
+
       <xsl:template name="arch">
        <xsl:choose>
         <xsl:when test="config/hardware-arch = 'x86_64'">
@@ -283,11 +317,11 @@
           <xsl:call-template name="arch"/>
          </xsl:attribute>
          <SetupUILanguage>
-          <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+          <UILanguage><xsl:call-template name="language"/></UILanguage>
          </SetupUILanguage>
-         <SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
-         <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
-         <UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
+         <SystemLocale><xsl:call-template name="language"/></SystemLocale>
+         <UILanguage><xsl:call-template name="language"/></UILanguage>
+         <UserLocale><xsl:call-template name="language"/></UserLocale>
         </component>
        </settings>
        <xsl:if test="os/version &gt; 6.0">
