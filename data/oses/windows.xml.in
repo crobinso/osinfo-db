@@ -737,13 +737,13 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>HB1_CCPA_X86FRE_EN</volume-id>
+        <volume-id>HB1_CCPA_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>HB1_CCPA_X64FRE_EN</volume-id>
+        <volume-id>HB1_CCPA_X64FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
