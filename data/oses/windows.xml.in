@@ -737,7 +737,7 @@
 
     <media arch="i386">
       <iso>
-        <volume-id>HB1_CCPA_X86FRE_</volume-id>
+        <volume-id>(HB1_CCPA_X86FRE)|(HRM_CENA_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
       </iso>
     </media>
