@@ -643,8 +643,20 @@
 
     <release-date>2012-02-21</release-date>
     <eol-date>2020-03-31</eol-date>
-  </os>
 
+    <media arch="i386">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.8 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.8 x86_64.*</volume-id>
+      </iso>
+    </media>
+  </os>
 
 
   <!-- RHEL-6 Santiago -->
