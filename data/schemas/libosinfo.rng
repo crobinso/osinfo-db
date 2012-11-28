@@ -400,6 +400,34 @@
     </element>
   </define>
 
+  <define name='driver'>
+    <element name='driver'>
+      <attribute name='arch'>
+        <text/>
+      </attribute>
+      <attribute name='location'>
+        <text/>
+      </attribute>
+      <optional>
+        <attribute name="pre-installable">
+          <ref name='bool'/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <element name='file'>
+          <text/>
+        </element>
+      </zeroOrMore>
+      <oneOrMore>
+        <element name='device'>
+          <attribute name='id'>
+            <ref name='url'/>
+          </attribute>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+
   <define name='os'>
     <element name='os'>
       <interleave>
@@ -421,6 +449,9 @@
         </zeroOrMore>
         <zeroOrMore>
           <ref name='installer'/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name='driver'/>
         </zeroOrMore>
       </interleave>
     </element>
