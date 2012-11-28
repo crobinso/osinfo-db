@@ -554,6 +554,19 @@
 
     <release-date>2010-03-30</release-date>
     <eol-date>2020-03-31</eol-date>
+
+    <media arch="i386">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.5 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.5 x86_64.*</volume-id>
+      </iso>
+    </media>
   </os>
 
   <os id="http://redhat.com/rhel/5.6">
