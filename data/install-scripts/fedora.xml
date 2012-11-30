@@ -59,11 +59,90 @@
 	  </xsl:choose>
 	</xsl:template>
 
+        <xsl:template name="country-from-keyboard">
+          <xsl:variable name="locale">
+            <xsl:choose>
+              <xsl:when test="contains(config/l10n-keyboard,'.')">
+                <xsl:value-of select="substring-before(config/l10n-keyboard,'.')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="config/l10n-keyboard"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:value-of select="substring-after($locale,'_')"/>
+        </xsl:template>
+
+	<xsl:template name="keyboard">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 17">
+	      <xsl:choose>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'en_CA')">
+	          <xsl:text>ca (eng)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'fr_CH')">
+	          <xsl:text>ch (fr)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ast_ES')">
+	          <xsl:text>es (ast)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ca_ES')">
+	          <xsl:text>es (cat)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'se_NO')">
+	          <xsl:text>no (smi)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'br_FR')">
+	          <xsl:text>fr (bre)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'oc_FR')">
+	          <xsl:text>fr (oci)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'bn_IN')">
+	          <xsl:text>in (ben)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'en_IN')">
+	          <xsl:text>in (eng)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'gu_IN')">
+	          <xsl:text>in (guj)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'kn_IN')">
+	          <xsl:text>in (kan)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ml_IN')">
+	          <xsl:text>in (mal)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'or_IN')">
+	          <xsl:text>in (ori)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'pa_IN')">
+	          <xsl:text>in (guru)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ta_IN')">
+	          <xsl:text>in (tam)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'te_IN')">
+	          <xsl:text>in (tel)</xsl:text>
+	        </xsl:when>
+	        <xsl:otherwise>
+                  <xsl:call-template name="country-from-keyboard"/>
+	        </xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <!-- F17 and older required keyboard layout to be a console layout so we'll need some complicated
+                   code to translate from X to console layout if we want to properly support those. -->
+	      <xsl:text>us</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 install
 text
-keyboard <xsl:value-of select="config/l10n-keyboard"/>
+keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 <xsl:if test="os/version &lt; 7">
 langsupport --default <xsl:value-of select="config/l10n-language"/> <xsl:value-of select="config/l10n-language"/>
@@ -181,10 +260,92 @@ reboot
 	  </xsl:choose>
 	</xsl:template>
 
+        <xsl:template name="country-from-keyboard">
+          <xsl:variable name="locale">
+            <xsl:choose>
+              <xsl:when test="contains(config/l10n-keyboard,'.')">
+                <xsl:value-of select="substring-before(config/l10n-keyboard,'.')"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="config/l10n-keyboard"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="country">
+            <xsl:value-of select="substring-after($locale,'_')"/>
+          </xsl:variable>
+          <xsl:value-of select="translate($country,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/>
+        </xsl:template>
+
+	<xsl:template name="keyboard">
+	  <xsl:choose>
+	    <xsl:when test="os/version &gt; 17">
+	      <xsl:choose>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'en_CA')">
+	          <xsl:text>ca (eng)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'fr_CH')">
+	          <xsl:text>ch (fr)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ast_ES')">
+	          <xsl:text>es (ast)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ca_ES')">
+	          <xsl:text>es (cat)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'se_NO')">
+	          <xsl:text>no (smi)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'br_FR')">
+	          <xsl:text>fr (bre)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'oc_FR')">
+	          <xsl:text>fr (oci)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'bn_IN')">
+	          <xsl:text>in (ben)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'en_IN')">
+	          <xsl:text>in (eng)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'gu_IN')">
+	          <xsl:text>in (guj)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'kn_IN')">
+	          <xsl:text>in (kan)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ml_IN')">
+	          <xsl:text>in (mal)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'or_IN')">
+	          <xsl:text>in (ori)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'pa_IN')">
+	          <xsl:text>in (guru)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'ta_IN')">
+	          <xsl:text>in (tam)</xsl:text>
+	        </xsl:when>
+	        <xsl:when test="starts-with(config/l10n-keyboard,'te_IN')">
+	          <xsl:text>in (tel)</xsl:text>
+	        </xsl:when>
+	        <xsl:otherwise>
+                  <xsl:call-template name="country-from-keyboard"/>
+	        </xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:when>
+	    <xsl:otherwise>
+              <!-- F17 and older required keyboard layout to be a console layout so we'll need some complicated
+                   code to translate from X to console layout if we want to properly support those. -->
+	      <xsl:text>us</xsl:text>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:template>
+
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 install
-keyboard <xsl:value-of select="config/l10n-keyboard"/>
+keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/> --activate
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
