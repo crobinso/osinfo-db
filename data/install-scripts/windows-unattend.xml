@@ -14,6 +14,8 @@
       <param name="user-realname" policy="optional"/>
       <param name="reg-product-key" policy="optional"/>
       <param name="target-disk" policy="optional"/>
+      <param name="pre-install-drivers-disk" policy="optional"/>
+      <param name="pre-install-drivers-location" policy="optional"/>
     </config>
     <template>
       <xsl:stylesheet
@@ -61,9 +63,41 @@
 	  </xsl:choose>
 	</xsl:template>
 
+        <xsl:template name="pre-install-drivers-disk">
+          <xsl:choose>
+            <xsl:when test="config/pre-install-drivers-disk != ''">
+              <xsl:value-of select="config/pre-install-drivers-disk"/>
+            </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>A</xsl:text>
+	    </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="pre-install-drivers-location">
+          <xsl:choose>
+            <xsl:when test="config/pre-install-drivers-location != ''">
+              <xsl:value-of select="config/pre-install-drivers-location"/>
+            </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:text>\</xsl:text>
+	    </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
 	<xsl:template match="/install-script-config">
 	  <unattend xmlns="urn:schemas-microsoft-com:unattend">
 	    <settings pass="windowsPE">
+              <component name="Microsoft-Windows-PnpCustomizationsWinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <xsl:attribute name="processorArchitecture">
+                  <xsl:call-template name="arch"/>
+                </xsl:attribute>
+                <DriverPaths>
+                  <PathAndCredentials wcm:keyValue="1" wcm:action="add">
+                    <Path><xsl:call-template name="pre-install-drivers-disk"/>:<xsl:call-template name="pre-install-drivers-location"/></Path>
+                  </PathAndCredentials>
+                </DriverPaths>
+              </component>
 	      <component name="Microsoft-Windows-Setup" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<xsl:attribute name="processorArchitecture">
 		  <xsl:call-template name="arch"/>
@@ -213,6 +247,8 @@
     <param name="hostname" policy="required"/>
     <param name="reg-product-key" policy="optional"/>
     <param name="target-disk" policy="optional"/>
+    <param name="pre-install-drivers-disk" policy="optional"/>
+    <param name="pre-install-drivers-location" policy="optional"/>
    </config>
     <template>
      <xsl:stylesheet
@@ -263,9 +299,41 @@
        </xsl:choose>
      </xsl:template>
 
+     <xsl:template name="pre-install-drivers-disk">
+       <xsl:choose>
+         <xsl:when test="config/pre-install-drivers-disk != ''">
+           <xsl:value-of select="config/pre-install-drivers-disk"/>
+         </xsl:when>
+	 <xsl:otherwise>
+	   <xsl:text>A</xsl:text>
+	 </xsl:otherwise>
+       </xsl:choose>
+     </xsl:template>
+
+     <xsl:template name="pre-install-drivers-location">
+       <xsl:choose>
+         <xsl:when test="config/pre-install-drivers-location != ''">
+           <xsl:value-of select="config/pre-install-drivers-location"/>
+         </xsl:when>
+	 <xsl:otherwise>
+	   <xsl:text>\</xsl:text>
+	 </xsl:otherwise>
+       </xsl:choose>
+     </xsl:template>
+
      <xsl:template match="/install-script-config">
       <unattend xmlns="urn:schemas-microsoft-com:unattend">
        <settings pass="windowsPE">
+         <component name="Microsoft-Windows-PnpCustomizationsWinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           <xsl:attribute name="processorArchitecture">
+             <xsl:call-template name="arch"/>
+           </xsl:attribute>
+           <DriverPaths>
+             <PathAndCredentials wcm:keyValue="1" wcm:action="add">
+               <Path><xsl:call-template name="pre-install-drivers-disk"/>:<xsl:call-template name="pre-install-drivers-location"/></Path>
+             </PathAndCredentials>
+           </DriverPaths>
+        </component>
         <component name="Microsoft-Windows-Setup" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <xsl:attribute name="processorArchitecture">
           <xsl:call-template name="arch"/>
