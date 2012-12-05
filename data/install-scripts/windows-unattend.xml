@@ -4,6 +4,7 @@
     <path-format>dos</path-format>
     <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
    <expected-filename>autounattend.xml</expected-filename>
+   <can-pre-install-drivers>true</can-pre-install-drivers>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="hardware-arch" policy="optional"/>
@@ -201,6 +202,7 @@
    <path-format>dos</path-format>
    <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
    <expected-filename>autounattend.xml</expected-filename>
+   <can-pre-install-drivers>true</can-pre-install-drivers>
    <config>
     <param name="admin-password" policy="optional"/>
     <param name="hardware-arch" policy="required"/>
