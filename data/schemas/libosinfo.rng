@@ -528,6 +528,16 @@
             <text/>
           </element>
         </optional>
+        <optional>
+          <element name='can-pre-install-drivers'>
+            <ref name='bool'/>
+          </element>
+        </optional>
+        <optional>
+          <element name='can-post-install-drivers'>
+            <ref name='bool'/>
+          </element>
+        </optional>
         <element name='template'>
           <choice>
             <group>
