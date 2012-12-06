@@ -557,6 +557,9 @@
                 <attribute name="policy">
                   <ref name='policies'/>
                 </attribute>
+                <optional>
+                  <attribute name="value-map"/>
+                </optional>
               </element>
             </oneOrMore>
           </element>
