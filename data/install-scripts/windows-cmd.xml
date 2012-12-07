@@ -51,7 +51,7 @@ sc config TlntSvr start= auto
 net user <xsl:value-of select="config/user-realname"/> <xsl:text> </xsl:text> <xsl:value-of select="config/admin-password"/> /add /passwordreq:no
 net localgroup administrators <xsl:value-of select="config/user-realname"/> /add
 net accounts /maxpwage:unlimited
-if not "<xsl:value-of select="config/avatar-location"/>"=="" copy "<xsl:value-of select="config/avatar-disk"/>:\<xsl:value-of select="config/avatar-location"/>" "<xsl:call-template name="target-disk"/>:\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\<xsl:value-of select="config/user-realname"/>.bmp"
+if not "<xsl:value-of select="config/avatar-location"/>"=="" copy "<xsl:value-of select="config/avatar-disk"/>:<xsl:value-of select="config/avatar-location"/>" "<xsl:call-template name="target-disk"/>:\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\<xsl:value-of select="config/user-realname"/>.bmp"
 REGEDIT /S <xsl:call-template name="script-disk"/>:\windows.reg
 EXIT
 	</xsl:template>

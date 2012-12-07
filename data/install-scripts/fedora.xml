@@ -24,15 +24,15 @@
             </xsl:when>
             <xsl:when test="os/version &gt; 9">
               <!-- virtio -->
-              <xsl:text>vda</xsl:text>
+              <xsl:text>/dev/vda</xsl:text>
             </xsl:when>
             <xsl:when test="os/version &gt; 6">
               <!-- libata IDE -->
-              <xsl:text>sda</xsl:text>
+              <xsl:text>/dev/sda</xsl:text>
             </xsl:when>
             <xsl:otherwise>
               <!-- IDE -->
-              <xsl:text>hda</xsl:text>
+              <xsl:text>/dev/hda</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
@@ -225,15 +225,15 @@ reboot
             </xsl:when>
             <xsl:when test="os/version &gt; 9">
               <!-- virtio -->
-              <xsl:text>vda</xsl:text>
+              <xsl:text>/dev/vda</xsl:text>
             </xsl:when>
             <xsl:when test="os/version &gt; 6">
               <!-- libata IDE -->
-              <xsl:text>sda</xsl:text>
+              <xsl:text>/dev/sda</xsl:text>
             </xsl:when>
             <xsl:otherwise>
               <!-- IDE -->
-              <xsl:text>hda</xsl:text>
+              <xsl:text>/dev/hda</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
