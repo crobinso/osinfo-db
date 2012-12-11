@@ -288,6 +288,7 @@
     <media arch="i386">
       <iso>
           <volume-id>(W2AFPP|SP1AFPP|SP2AFPP|YRMAFPP|ZRMAFPP|W2AOEM|SP1AOEM|SP2AOEM|YRMAOEM|ZRMAOEM|W2ASEL|SP2ASEL|W2SFPP|SP1SFPP|SP2SFPP|YRMSFPP|ZRMSFPP|W2SOEM|W2SOEM|SP1SOEM|SP2SOEM|YRMSOEM|ZRMSOEM|W2SSEL|SP2SSEL|W2PFPP|SP1PFPP|SP2PFPP|YRMPFPP|ZRMPFPP|W2POEM|SP1POEM|SP2POEM|YRMPOEM|ZRMPOEM|W2PSEL|SP2PSEL|W2PCCP|WIN2000|W2K_SP4)</volume-id>
+          <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -332,6 +333,7 @@
       <iso>
         <volume-id>(WXPFPP|WXHFPP|WXPCCP|WXHCCP|WXPOEM|WXHOEM|WXPVOL|WXPEVL|XRMPFPP|XRMHFPP|XRMPCCP|XRMHCCP|XRMPOEM|XRMHOEM|XRMPVOL|XRMSD2|X1APFPP|X1AHFPP|X1APCCP|X1APCCP|X1AHCCP|X1APOEM|X1AHOEM|X1APVOL|VRMPFPP|VRMHFPP|VRMPCCP|VRMHCCP|VRMPOEM|VRMHOEM|VRMPVOL|VRMSD2|VX2PFPP|VX2HFPP|VX2PCCP|VX2HCCP|VX2POEM|VX2HOEM|VX2PRMFPP|VX2PVOL|GRTMUPD|GRTMPFPP|GRTMPRMFPP|GRTMHFPP|GRTMHKFPP|GRTMHKNFPP|GRTMHRMFPP|GRTMPOEM|GRTMHOEM|GRTMPVOL|GRTMPKNVOL|GRTMPKVOL|GRTMPRMVOL|MX2PFPP|MRMSD2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -339,6 +341,7 @@
       <iso>
         <volume-id>(ARMPXFPP|ARMPXCCP|ARMPXOEM|ARMPXVOL|AX2PXCFPP|AX2PXFPP)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -416,18 +419,21 @@
       <iso>
         <volume-id>(ARMECHK|ARMEVOL|ARMSVOL|ARMWVOL|ARMEEVL|ARMSEVL|ARMWEVL|ARMEOEM|ARMDOEM|ARMSOEM|ARMWOEM|ARMEFPP|ARMDFPP|ARMSFPP|ARMWFPP|NRMECHK|NRMEVOL|NRMSVOL|NRMWVOL|NRMEEVL|NRMSEVL|NRMWEVL|NRMEOEM|NRMDOEM|NRMSOEM|NRMWOEM|NRMEFPP|NRMDFPP|NRMSFPP|NRMSFPP|CRMSVOL|CRMSXVOL|BRMEVOL|BX2DVOL|ARMEEVL|BRMEEVL|CR0SP2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(ARMEICHK|ARMEIFPP|ARMEIEVL|ARMEIOEM|ARMDIOEM|ARMEXFPP|ARMDFPP|ARMSXFPP|CR0SPX2|NRMEICHK|NRMEIFPP|NRMDIFPP|NRMEIOEM|NRMDIOEM|NRMEIVOL|NRMEIEVL|BRMEXVOL|BX2DXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="ia64">
       <iso>
         <volume-id>(ARMEIFPP|CR0SPI2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -484,12 +490,14 @@
       <iso>
         <volume-id>(CRMEFPP|CRMSFPP|CR0SCD2|CR0ECD2|BX2SFPP|BX2EFPP|BRMECD2FRE|BRMSCD2FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(CRMEXFPP|CRMSXFPP|CR0SCD2X|CR0ECD2X|BX2SXFPP|BX2EXFPP|BRMECD2XFRE|BRMSCD2XFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -546,12 +554,14 @@
       <iso>
         <volume-id>(KRTMSVOL|KRTMSCHK|KRMWVOL|KRMSVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(KRTMSXVOL|KRTMSXCHK|KRMWXVOL|KRMSXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -608,12 +618,14 @@
       <iso>
         <volume-id>(GRMSXVOL|GRMSXFRER|GRMSHXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="ia64">
       <iso>
         <volume-id>(GRMSIAIVOL|SRVHPCR2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -655,12 +667,14 @@
       <iso>
         <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -701,13 +715,14 @@
       <iso>
         <volume-id>(GRMCULFRER|GSP1RMCNPRFRER|GSP1RMCNULFRER|GSP1RMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL|GRMCPRFRER|GSP1RMCPRVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
       <iso>
         <volume-id>(GRMCULXFRER|GSP1RMCPRXFRER|GSP1RMCNHPXFRER|GRMCHPXFRER|GSP1RMCENXVOL|GRMCENXVOL|GRMCNENXVOL|GRMCPRXFRER|GSP1RMCPRXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
@@ -773,12 +788,14 @@
       <iso>
         <volume-id>(HB1_CCPA_X86FRE|HRM_CCSA_X86FRE|HRM_CCSA_X86CHK|HRM_CCSNA_X86CHK|HRM_CCSNA_X86FRE|HRM_CENA_X86FREV|HRM_CENA_X86CHKV|HRM_CENNA_X86FREV|HRM_CENNA_X86CHKV|HRM_CPRA_X86FREV|HRM_CPRNA_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(HB1_CCPA_X64FRE|HRM_CCSA_X64FRE|HRM_CCSA_X64CHK|HRM_CCSNA_X64FRE|HRM_CCSNA_X64CHK|HRM_CENNA_X64FREV|HRM_CENNA_X64CHKV|HRM_CENA_X64FREV|HRM_CENA_X64CHKV|HRM_CPRA_X64FREV|HRM_CPRNA_X64FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
