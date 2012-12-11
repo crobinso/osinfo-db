@@ -300,6 +300,9 @@
             <text/>
           </element>
         </optional>
+        <zeroOrMore>
+          <ref name='media-lang'/>
+        </zeroOrMore>
       </interleave>
     </element>
   </define>
@@ -344,6 +347,22 @@
           </element>
         </optional>
       </interleave>
+    </element>
+  </define>
+
+  <define name='media-lang'>
+    <element name='l10n-language'>
+      <optional>
+        <attribute name="regex">
+          <ref name='bool'/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="l10n-language-map">
+          <ref name='url'/>
+        </attribute>
+      </optional>
+      <text/>
     </element>
   </define>
 
