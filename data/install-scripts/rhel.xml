@@ -1,0 +1,204 @@
+<libosinfo version="0.0.1">
+  <!-- JEOS PROFILE -->
+  <install-script id='http://redhat.com/scripts/rhel/jeos'>
+    <profile>jeos</profile>
+    <expected-filename>fedora.ks</expected-filename>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="l10n-keyboard" policy="optional"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-timezone" policy="optional"/>
+      <param name="target-disk" policy="optional"/>
+    </config>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 4">
+              <!-- virtio -->
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- IDE -->
+              <xsl:text>/dev/sda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+text
+<!-- FIXME: RHEL requires keyboard layout to be a console layout so to do this right, we'll need
+            mapping from language to console layout. -->
+keyboard us
+lang <xsl:value-of select="config/l10n-language"/>
+skipx
+network --device eth0 --bootproto dhcp
+rootpw <xsl:value-of select="config/admin-password"/>
+firewall --disabled
+authconfig --enableshadow --enablemd5
+selinux --enforcing
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr
+
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
+
+part /boot --fstype ext4 --size=200 --ondisk=<xsl:call-template name="target-disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype ext4 --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+reboot
+
+%packages
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
+@base
+  </xsl:when>
+  <xsl:otherwise>
+@standard
+  </xsl:otherwise>
+</xsl:choose>
+@core
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://redhat.com/scripts/rhel/desktop'>
+    <profile>desktop</profile>
+    <expected-filename>fedora.ks</expected-filename>
+    <config>
+        <param name="l10n-keyboard" policy="optional"/>
+        <param name="l10n-language" policy="optional"/>
+        <param name="l10n-timezone" policy="optional"/>
+        <param name="hostname" policy="optional"/>
+        <param name="user-login" policy="required"/>
+        <param name="user-password" policy="required"/>
+        <param name="admin-password" policy="required"/>
+        <param name="avatar-location" policy="optional"/>
+        <param name="avatar-disk" policy="optional"/>
+        <param name="target-disk" policy="optional"/>
+    </config>
+    <avatar-format>
+      <mime-type>image/png</mime-type>
+    </avatar-format>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 4">
+              <!-- virtio -->
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- IDE -->
+              <xsl:text>/dev/sda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+keyboard us
+lang <xsl:value-of select="config/l10n-language"/>
+network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/> --activate
+rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
+firewall --disabled
+authconfig --enableshadow --enablemd5
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr
+
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
+
+firstboot --disable
+
+part /boot --fstype ext4 --size=200 --ondisk=<xsl:call-template name="target-disk"/>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype ext4 --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+reboot
+
+%packages
+@core
+@x11
+@basic-desktop
+@general-desktop
+@desktop-platform
+@internet-applications
+@internet-browser
+@input-methods
+@office-suite
+
+%end
+
+%post --erroronfail
+
+useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
+if test -z <xsl:value-of select="config/user-password"/>; then
+    passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
+else
+    echo <xsl:value-of select="config/user-password"/> |passwd --stdin <xsl:value-of select="config/user-login"/>
+fi
+
+if test -z <xsl:value-of select="config/admin-password"/>; then
+    passwd -d root # Make root account passwordless
+else
+    echo <xsl:value-of select="config/admin-password"/> |passwd --stdin root
+fi
+
+# Set user avatar
+if test -n <xsl:value-of select="config/avatar-location"/>; then
+mkdir /mnt/unattended-media
+mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
+cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /home/<xsl:value-of select="config/user-login"/>/.face
+umount /mnt/unattended-media
+fi
+
+# Enable autologin
+echo "[daemon]
+AutomaticLoginEnable=true
+AutomaticLogin=<xsl:value-of select="config/user-login"/>
+
+[security]
+
+[xdmcp]
+
+[greeter]
+
+[chooser]
+
+[debug]
+" > /etc/gdm/custom.conf
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+
+</libosinfo>

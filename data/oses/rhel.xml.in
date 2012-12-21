@@ -708,6 +708,11 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
   </os>
 
   <os id="http://redhat.com/rhel/6.1">
@@ -753,6 +758,11 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
   </os>
 
   <os id="http://redhat.com/rhel/6.2">
@@ -798,6 +808,11 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
   </os>
 
   <os id="http://redhat.com/rhel/6.3">
@@ -843,5 +858,10 @@
         <storage>9663676416</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
   </os>
 </libosinfo>
