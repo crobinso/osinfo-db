@@ -757,8 +757,8 @@
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Santiago</codename>
-    <upgrades id="http://redhat.com/rhel/6.3"/>
-    <derives-from id="http://redhat.com/rhel/6.3"/>
+    <upgrades id="http://redhat.com/rhel/6.2"/>
+    <derives-from id="http://redhat.com/rhel/6.2"/>
 
     <release-date>2012-06-21</release-date>
     <eol-date>2023-11-30</eol-date>
