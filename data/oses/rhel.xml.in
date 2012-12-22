@@ -768,12 +768,16 @@
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.3 i386.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.3 x86_64.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
   </os>
 </libosinfo>
