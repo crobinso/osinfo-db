@@ -684,12 +684,16 @@
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.0 i386.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.0 x86_64.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
   </os>
 
@@ -712,12 +716,16 @@
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.1 i386.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.1 x86_64.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
   </os>
 
@@ -740,12 +748,16 @@
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.2 i386.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.2 x86_64.*</volume-id>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
   </os>
 
