@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The datamaps in this file will be used to map the GETTEXT locale
+     codes to X11 keyboard layouts.
+-->
+
+<libosinfo version="0.0.1">
+  <!-- GETTEXT locale to X11 keyboard layout mapping -->
+  <datamap id="http://libosinfo.fedorahosted.org/x11-keyboard">
+    <entry inval="af_ZA" outval="za"/>
+    <entry inval="ar_AE" outval="ae"/>
+    <entry inval="ar_BH" outval="bh"/>
+    <entry inval="ar_DZ" outval="dz"/>
+    <entry inval="ar_EG" outval="eg"/>
+    <entry inval="ar_IN" outval="in"/>
+    <entry inval="ar_IQ" outval="iq"/>
+    <entry inval="ar_JO" outval="jo"/>
+    <entry inval="ar_KW" outval="kw"/>
+    <entry inval="ar_LB" outval="lb"/>
+    <entry inval="ar_LY" outval="ly"/>
+    <entry inval="ar_MA" outval="ma"/>
+    <entry inval="ar_OM" outval="om"/>
+    <entry inval="ar_QA" outval="qa"/>
+    <entry inval="ar_SA" outval="sa"/>
+    <entry inval="ar_SD" outval="sd"/>
+    <entry inval="ar_SY" outval="sy"/>
+    <entry inval="ar_TN" outval="tn"/>
+    <entry inval="ar_YE" outval="ye"/>
+    <entry inval="as_IN" outval="in"/>
+    <entry inval="ast_ES" outval="es (ast)"/>
+    <entry inval="be_BY" outval="by"/>
+    <entry inval="bg_BG" outval="bg"/>
+    <entry inval="bn_BD" outval="bd"/>
+    <entry inval="bn_IN" outval="in (ben)"/>
+    <entry inval="br_FR" outval="fr (bre)"/>
+    <entry inval="bs_BA" outval="ba"/>
+    <entry inval="ca_ES" outval="es (cat)"/>
+    <entry inval="cs_CZ" outval="cz"/>
+    <entry inval="cy_GB" outval="gb"/>
+    <entry inval="da_DK" outval="dk"/>
+    <entry inval="de_AT" outval="at"/>
+    <entry inval="de_BE" outval="be"/>
+    <entry inval="de_CH" outval="ch"/>
+    <entry inval="de_DE" outval="de"/>
+    <entry inval="de_LU" outval="lu"/>
+    <entry inval="el_GR" outval="gr"/>
+    <entry inval="en_AU" outval="au"/>
+    <entry inval="en_BW" outval="bw"/>
+    <entry inval="en_CA" outval="ca (eng)"/>
+    <entry inval="en_DK" outval="dk"/>
+    <entry inval="en_GB" outval="gb"/>
+    <entry inval="en_HK" outval="hk"/>
+    <entry inval="en_IE" outval="ie"/>
+    <entry inval="en_IN" outval="in (eng)"/>
+    <entry inval="en_NZ" outval="nz"/>
+    <entry inval="en_PH" outval="ph"/>
+    <entry inval="en_SG" outval="sg"/>
+    <entry inval="en_US" outval="us"/>
+    <entry inval="en_ZA" outval="za"/>
+    <entry inval="en_ZW" outval="zw"/>
+    <entry inval="es_AR" outval="ar"/>
+    <entry inval="es_BO" outval="bo"/>
+    <entry inval="es_CL" outval="cl"/>
+    <entry inval="es_CO" outval="co"/>
+    <entry inval="es_CR" outval="cr"/>
+    <entry inval="es_DO" outval="do"/>
+    <entry inval="es_EC" outval="ec"/>
+    <entry inval="es_ES" outval="es"/>
+    <entry inval="es_GT" outval="gt"/>
+    <entry inval="es_HN" outval="hn"/>
+    <entry inval="es_MX" outval="mx"/>
+    <entry inval="es_NI" outval="ni"/>
+    <entry inval="es_PA" outval="pa"/>
+    <entry inval="es_PE" outval="pe"/>
+    <entry inval="es_PR" outval="pr"/>
+    <entry inval="es_PY" outval="py"/>
+    <entry inval="es_SV" outval="sv"/>
+    <entry inval="es_US" outval="us"/>
+    <entry inval="es_UY" outval="uy"/>
+    <entry inval="es_VE" outval="ve"/>
+    <entry inval="et_EE" outval="ee"/>
+    <entry inval="eu_ES" outval="es"/>
+    <entry inval="fa_IR" outval="ir"/>
+    <entry inval="fi_FI" outval="fi"/>
+    <entry inval="fo_FO" outval="fo"/>
+    <entry inval="fr_BE" outval="be"/>
+    <entry inval="fr_CA" outval="ca"/>
+    <entry inval="fr_CH" outval="ch (fr)"/>
+    <entry inval="fr_FR" outval="fr"/>
+    <entry inval="fr_LU" outval="lu"/>
+    <entry inval="ga_IE" outval="ie"/>
+    <entry inval="gl_ES" outval="es"/>
+    <entry inval="gu_IN" outval="in (guj)"/>
+    <entry inval="gv_GB" outval="gb"/>
+    <entry inval="he_IL" outval="il"/>
+    <entry inval="hi_IN" outval="in"/>
+    <entry inval="hr_HR" outval="hr"/>
+    <entry inval="hu_HU" outval="hu"/>
+    <entry inval="id_ID" outval="id"/>
+    <entry inval="is_IS" outval="is"/>
+    <entry inval="it_CH" outval="ch"/>
+    <entry inval="it_IT" outval="it"/>
+    <entry inval="ja_JP" outval="jp"/>
+    <entry inval="kl_GL" outval="gl"/>
+    <entry inval="kn_IN" outval="in (kan)"/>
+    <entry inval="ko_KR" outval="kr"/>
+    <entry inval="kw_GB" outval="gb"/>
+    <entry inval="lo_LA" outval="la"/>
+    <entry inval="lt_LT" outval="lt"/>
+    <entry inval="lv_LV" outval="lv"/>
+    <entry inval="mai_IN" outval="in"/>
+    <entry inval="mk_MK" outval="mk"/>
+    <entry inval="ml_IN" outval="in (mal)"/>
+    <entry inval="mr_IN" outval="in"/>
+    <entry inval="ms_MY" outval="my"/>
+    <entry inval="mt_MT" outval="mt"/>
+    <entry inval="nb_NO" outval="no"/>
+    <entry inval="nds_DE" outval="de"/>
+    <entry inval="ne_NP" outval="np"/>
+    <entry inval="nl_BE" outval="be"/>
+    <entry inval="nl_NL" outval="nl"/>
+    <entry inval="nn_NO" outval="no"/>
+    <entry inval="oc_FR" outval="fr (oci)"/>
+    <entry inval="or_IN" outval="in (ori)"/>
+    <entry inval="pa_IN" outval="in (guru)"/>
+    <entry inval="pl_PL" outval="pl"/>
+    <entry inval="pt_BR" outval="br"/>
+    <entry inval="pt_PT" outval="pt"/>
+    <entry inval="ro_RO" outval="ro"/>
+    <entry inval="ru_RU" outval="ru"/>
+    <entry inval="ru_UA" outval="ua"/>
+    <entry inval="se_NO" outval="no (smi)"/>
+    <entry inval="si_LK" outval="lk"/>
+    <entry inval="sk_SK" outval="sk"/>
+    <entry inval="sl_SI" outval="si"/>
+    <entry inval="sq_AL" outval="al"/>
+    <entry inval="sr_RS" outval="rs"/>
+    <entry inval="sv_FI" outval="fi"/>
+    <entry inval="sv_SE" outval="se"/>
+    <entry inval="ta_IN" outval="in (tam)"/>
+    <entry inval="te_IN" outval="in (tel)"/>
+    <entry inval="th_TH" outval="th"/>
+    <entry inval="tl_PH" outval="ph"/>
+    <entry inval="tr_TR" outval="tr"/>
+    <entry inval="uk_UA" outval="ua"/>
+    <entry inval="ur_PK" outval="pk"/>
+    <entry inval="uz_UZ" outval="uz"/>
+    <entry inval="wa_BE" outval="be"/>
+    <entry inval="xh_ZA" outval="za"/>
+    <entry inval="zh_CN" outval="cn"/>
+    <entry inval="zh_HK" outval="hk"/>
+    <entry inval="zh_TW" outval="tw"/>
+    <entry inval="zu_ZA" outval="za"/>
+  </datamap>
+</libosinfo>

@@ -5,7 +5,7 @@
     <expected-filename>fedora.ks</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
-      <param name="l10n-keyboard" policy="optional"/>
+      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="target-disk" policy="optional"/>
@@ -59,70 +59,16 @@
 	  </xsl:choose>
 	</xsl:template>
 
-        <xsl:template name="country-from-keyboard">
-          <xsl:value-of select="substring-after(config/l10n-keyboard,'_')"/>
-        </xsl:template>
-
 	<xsl:template name="keyboard">
 	  <xsl:choose>
 	    <xsl:when test="os/version &gt; 17">
-	      <xsl:choose>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'en_CA')">
-	          <xsl:text>ca (eng)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'fr_CH')">
-	          <xsl:text>ch (fr)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ast_ES')">
-	          <xsl:text>es (ast)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ca_ES')">
-	          <xsl:text>es (cat)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'se_NO')">
-	          <xsl:text>no (smi)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'br_FR')">
-	          <xsl:text>fr (bre)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'oc_FR')">
-	          <xsl:text>fr (oci)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'bn_IN')">
-	          <xsl:text>in (ben)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'en_IN')">
-	          <xsl:text>in (eng)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'gu_IN')">
-	          <xsl:text>in (guj)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'kn_IN')">
-	          <xsl:text>in (kan)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ml_IN')">
-	          <xsl:text>in (mal)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'or_IN')">
-	          <xsl:text>in (ori)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'pa_IN')">
-	          <xsl:text>in (guru)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ta_IN')">
-	          <xsl:text>in (tam)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'te_IN')">
-	          <xsl:text>in (tel)</xsl:text>
-	        </xsl:when>
-	        <xsl:otherwise>
-                  <xsl:call-template name="country-from-keyboard"/>
-	        </xsl:otherwise>
-	      </xsl:choose>
+              <xsl:value-of select="config/l10n-keyboard"/>
 	    </xsl:when>
 	    <xsl:otherwise>
-              <!-- F17 and older required keyboard layout to be a console layout so we'll need some complicated
-                   code to translate from X to console layout if we want to properly support those. -->
+              <!-- FIXME: F17 and older required keyboard layout to be a console
+                   layout so we'll need a different datamap for those but
+                   currently we only support one datamap per config param per
+                   script. -->
 	      <xsl:text>us</xsl:text>
 	    </xsl:otherwise>
 	  </xsl:choose>
@@ -187,7 +133,7 @@ reboot
     <profile>desktop</profile>
     <expected-filename>fedora.ks</expected-filename>
     <config>
-        <param name="l10n-keyboard" policy="optional"/>
+        <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
         <param name="l10n-language" policy="optional"/>
         <param name="l10n-timezone" policy="optional"/>
         <param name="hostname" policy="optional"/>
@@ -250,70 +196,16 @@ reboot
 	  </xsl:choose>
 	</xsl:template>
 
-        <xsl:template name="country-from-keyboard">
-          <xsl:value-of select="substring-after(config/l10n-keyboard,'_')"/>
-        </xsl:template>
-
 	<xsl:template name="keyboard">
 	  <xsl:choose>
 	    <xsl:when test="os/version &gt; 17">
-	      <xsl:choose>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'en_CA')">
-	          <xsl:text>ca (eng)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'fr_CH')">
-	          <xsl:text>ch (fr)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ast_ES')">
-	          <xsl:text>es (ast)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ca_ES')">
-	          <xsl:text>es (cat)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'se_NO')">
-	          <xsl:text>no (smi)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'br_FR')">
-	          <xsl:text>fr (bre)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'oc_FR')">
-	          <xsl:text>fr (oci)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'bn_IN')">
-	          <xsl:text>in (ben)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'en_IN')">
-	          <xsl:text>in (eng)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'gu_IN')">
-	          <xsl:text>in (guj)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'kn_IN')">
-	          <xsl:text>in (kan)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ml_IN')">
-	          <xsl:text>in (mal)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'or_IN')">
-	          <xsl:text>in (ori)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'pa_IN')">
-	          <xsl:text>in (guru)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'ta_IN')">
-	          <xsl:text>in (tam)</xsl:text>
-	        </xsl:when>
-	        <xsl:when test="starts-with(config/l10n-keyboard,'te_IN')">
-	          <xsl:text>in (tel)</xsl:text>
-	        </xsl:when>
-	        <xsl:otherwise>
-                  <xsl:call-template name="country-from-keyboard"/>
-	        </xsl:otherwise>
-	      </xsl:choose>
+              <xsl:value-of select="config/l10n-keyboard"/>
 	    </xsl:when>
 	    <xsl:otherwise>
-              <!-- F17 and older required keyboard layout to be a console layout so we'll need some complicated
-                   code to translate from X to console layout if we want to properly support those. -->
+              <!-- FIXME: F17 and older required keyboard layout to be a console
+                   layout so we'll need a different datamap for those but
+                   currently we only support one datamap per config param per
+                   script. -->
 	      <xsl:text>us</xsl:text>
 	    </xsl:otherwise>
 	  </xsl:choose>
