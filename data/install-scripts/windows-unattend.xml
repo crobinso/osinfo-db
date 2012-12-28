@@ -36,20 +36,7 @@
         </xsl:template>
 
         <xsl:template name="language">
-          <xsl:variable name="language">
-            <xsl:value-of select="config/l10n-language"/>
-          </xsl:variable>
-          <xsl:variable name="formatted-language">
-            <xsl:value-of select="translate($language,'_','-')"/>
-          </xsl:variable>
-          <xsl:choose>
-            <xsl:when test="contains($formatted-language,'.')">
-              <xsl:value-of select="substring-before($formatted-language,'.')"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$formatted-language"/>
-            </xsl:otherwise>
-          </xsl:choose>
+          <xsl:value-of select="translate(config/l10n-language,'_','-')"/>
         </xsl:template>
 
 	<xsl:template name="arch">
@@ -269,20 +256,7 @@
       </xsl:template>
 
       <xsl:template name="language">
-        <xsl:variable name="language">
-          <xsl:value-of select="config/l10n-language"/>
-        </xsl:variable>
-        <xsl:variable name="formatted-language">
-          <xsl:value-of select="translate($language,'_','-')"/>
-        </xsl:variable>
-        <xsl:choose>
-          <xsl:when test="contains($formatted-language,'.')">
-            <xsl:value-of select="substring-before($formatted-language,'.')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$formatted-language"/>
-          </xsl:otherwise>
-        </xsl:choose>
+       <xsl:value-of select="translate(config/l10n-language,'_','-')"/>
       </xsl:template>
 
       <xsl:template name="arch">

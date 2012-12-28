@@ -60,17 +60,7 @@
 	</xsl:template>
 
         <xsl:template name="country-from-keyboard">
-          <xsl:variable name="locale">
-            <xsl:choose>
-              <xsl:when test="contains(config/l10n-keyboard,'.')">
-                <xsl:value-of select="substring-before(config/l10n-keyboard,'.')"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="config/l10n-keyboard"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:value-of select="substring-after($locale,'_')"/>
+          <xsl:value-of select="substring-after(config/l10n-keyboard,'_')"/>
         </xsl:template>
 
 	<xsl:template name="keyboard">
@@ -261,20 +251,7 @@ reboot
 	</xsl:template>
 
         <xsl:template name="country-from-keyboard">
-          <xsl:variable name="locale">
-            <xsl:choose>
-              <xsl:when test="contains(config/l10n-keyboard,'.')">
-                <xsl:value-of select="substring-before(config/l10n-keyboard,'.')"/>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:value-of select="config/l10n-keyboard"/>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:variable>
-          <xsl:variable name="country">
-            <xsl:value-of select="substring-after($locale,'_')"/>
-          </xsl:variable>
-          <xsl:value-of select="translate($country,'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz')"/>
+          <xsl:value-of select="substring-after(config/l10n-keyboard,'_')"/>
         </xsl:template>
 
 	<xsl:template name="keyboard">
