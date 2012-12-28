@@ -8,7 +8,7 @@
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="hardware-arch" policy="optional"/>
-      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-language" policy="optional" value-map="http://microsoft.com/win/8/l10n-language-reverse"/>
       <param name="user-login" policy="optional"/>
       <param name="user-password" policy="optional"/>
       <param name="user-realname" policy="optional"/>
@@ -33,10 +33,6 @@
               <xsl:text>C</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
-        </xsl:template>
-
-        <xsl:template name="language">
-          <xsl:value-of select="translate(config/l10n-language,'_','-')"/>
         </xsl:template>
 
 	<xsl:template name="arch">
@@ -138,11 +134,11 @@
 		  <xsl:call-template name="arch"/>
 		</xsl:attribute>
 		<SetupUILanguage>
-		  <UILanguage><xsl:call-template name="language"/></UILanguage>
+		  <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
 		</SetupUILanguage>
-		<SystemLocale><xsl:call-template name="language"/></SystemLocale>
-		<UILanguage><xsl:call-template name="language"/></UILanguage>
-		<UserLocale><xsl:call-template name="language"/></UserLocale>
+		<SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
+		<UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+		<UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
 	      </component>
 	    </settings>
 	    <settings pass="oobeSystem">
@@ -227,7 +223,7 @@
    <config>
     <param name="admin-password" policy="optional"/>
     <param name="hardware-arch" policy="required"/>
-    <param name="l10n-language" policy="optional"/>
+    <param name="l10n-language" policy="optional" value-map="http://microsoft.com/win/8/l10n-language-reverse"/>
     <param name="user-login" policy="optional"/>
     <param name="user-password" policy="optional"/>
     <param name="user-realname" policy="optional"/>
@@ -253,10 +249,6 @@
             <xsl:text>C</xsl:text>
           </xsl:otherwise>
         </xsl:choose>
-      </xsl:template>
-
-      <xsl:template name="language">
-       <xsl:value-of select="translate(config/l10n-language,'_','-')"/>
       </xsl:template>
 
       <xsl:template name="arch">
@@ -361,11 +353,11 @@
           <xsl:call-template name="arch"/>
          </xsl:attribute>
          <SetupUILanguage>
-          <UILanguage><xsl:call-template name="language"/></UILanguage>
+          <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
          </SetupUILanguage>
-         <SystemLocale><xsl:call-template name="language"/></SystemLocale>
-         <UILanguage><xsl:call-template name="language"/></UILanguage>
-         <UserLocale><xsl:call-template name="language"/></UserLocale>
+         <SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
+         <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+         <UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
         </component>
        </settings>
        <xsl:if test="os/version &gt; 6.0">

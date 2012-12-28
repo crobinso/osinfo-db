@@ -86,4 +86,46 @@
     <entry inval="TR-TR" outval="tr_TR"/>
     <entry inval="UK-UA" outval="uk_UA"/>
   </datamap>
+
+  <!-- Reverse map of above, for mapping GETTEXT language codes to ISO standard
+       language codes used by Windows. -->
+  <datamap id="http://microsoft.com/win/8/l10n-language-reverse">
+    <entry inval="en_US" outval="EN-US"/>
+    <entry inval="en_GB" outval="EN-GB"/>
+    <entry inval="ar_SA" outval="AR-SA"/>
+    <entry inval="bg_BG" outval="BG-BG"/>
+    <entry inval="zh_HK" outval="ZH-HK"/>
+    <entry inval="zh_CN" outval="ZH-CN"/>
+    <entry inval="zh_TW" outval="ZH-TW"/>
+    <entry inval="hr_HR" outval="HR-HR"/>
+    <entry inval="cs_CZ" outval="CS-CZ"/>
+    <entry inval="da_DK" outval="DA-DK"/>
+    <entry inval="nl_NL" outval="NL-NL"/>
+    <entry inval="et_EE" outval="ET-EE"/>
+    <entry inval="fi_FI" outval="FI-FI"/>
+    <entry inval="fr_FR" outval="FR-FR"/>
+    <entry inval="de_DE" outval="DE-DE"/>
+    <entry inval="el_GR" outval="EL-GR"/>
+    <entry inval="he_IL" outval="HE-IL"/>
+    <entry inval="hu_HU" outval="HU-HU"/>
+    <entry inval="it_IT" outval="IT-IT"/>
+    <entry inval="ja_JP" outval="JA-JP"/>
+    <entry inval="ko_KR" outval="KO-KR"/>
+    <entry inval="lv_LV" outval="LV-LV"/>
+    <entry inval="lt_LT" outval="LT-LT"/>
+    <entry inval="nb_NO" outval="NB-NO"/>
+    <entry inval="pl_PL" outval="PL-PL"/>
+    <entry inval="pt_BR" outval="PT-BR"/>
+    <entry inval="pt_PT" outval="PT-PT"/>
+    <entry inval="ro_RO" outval="RO-RO"/>
+    <entry inval="ru_RU" outval="RU-RU"/>
+    <entry inval="sr_RS@latin" outval="SR-LATN-CS"/>
+    <entry inval="sk_SK" outval="SK-SK"/>
+    <entry inval="sl_SI" outval="SL-SI"/>
+    <entry inval="es_ES" outval="ES-ES"/>
+    <entry inval="sv_SE" outval="SV-SE"/>
+    <entry inval="th_TH" outval="TH-TH"/>
+    <entry inval="tr_TR" outval="TR-TR"/>
+    <entry inval="uk_UA" outval="UK-UA"/>
+  </datamap>
 </libosinfo>
