@@ -783,7 +783,7 @@
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
-        <ram>268435456</ram>
+        <ram>536870912</ram>
       </minimum>
 
       <recommended>
