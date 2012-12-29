@@ -187,7 +187,7 @@
     <media arch="i386" live="true">
       <url>http://live.debian.net/cdimage/release/current/i386/iso-hybrid/debian-live-6.0.6-i386-gnome-desktop.iso</url>
       <iso>
-        <volume-id>Debian squeeze 20111014-08:13</volume-id>
+        <volume-id>Debian squeeze.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -196,7 +196,7 @@
     <media arch="x86_64" live="true">
       <url>http://live.debian.net/cdimage/release/current/amd64/iso-hybrid/debian-live-6.0.6-amd64-gnome-desktop.iso</url>
       <iso>
-        <volume-id>Debian squeeze 20111014-08:11</volume-id>
+        <volume-id>Debian squeeze.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
