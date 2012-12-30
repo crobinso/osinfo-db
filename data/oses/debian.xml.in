@@ -48,8 +48,8 @@
 
   <os id="http://debian.org/debian/2.1">
     <short-id>debian2.1</short-id>
-    <short-id>debiansilnk</short-id>
-    <_name>Debian Silnk</_name>
+    <short-id>debianslink</short-id>
+    <_name>Debian Slink</_name>
     <version>2.1</version>
     <_vendor>Debian Project</_vendor>
     <family>linux</family>

@@ -21,7 +21,7 @@
 
   <os id="http://apple.com/macosx/10.2">
     <short-id>macosx10.2</short-id>
-    <_name>MacOS X Jaghuar</_name>
+    <_name>MacOS X Jaguar</_name>
     <version>10.2</version>
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
