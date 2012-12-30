@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+
+  <platform id="http://linux-kvm.org/1.0">
+    <short-id>qemu-kvm-1.0</short-id>
+    <_name>QEMU-KVM 1.0</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.0</version>
+    <release-date>2011-12-04</release-date>
+    <derives-from id="http://qemu.org/1.0"/>
+  </platform>
+
+  <platform id="http://linux-kvm.org/1.0.1">
+    <short-id>qemu-kvm-1.0.1</short-id>
+    <_name>QEMU-KVM 1.0.1</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.0.1</version>
+    <release-date>2012-04-17</release-date>
+    <upgrades id="http://linux-kvm.org/1.0"/>
+    <derives-from id="http://qemu.org/1.0.1"/>
+  </platform>
+
+  <platform id="http://linux-kvm.org/1.1.0">
+    <short-id>qemu-kvm-1.1.0</short-id>
+    <_name>QEMU-KVM 1.1.0</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.1.0</version>
+    <release-date>2012-07-02</release-date>
+    <upgrades id="http://linux-kvm.org/1.0.1"/>
+    <derives-from id="http://qemu.org/1.1"/>
+  </platform>
+
+  <platform id="http://linux-kvm.org/1.1.1">
+    <short-id>qemu-kvm-1.1.1</short-id>
+    <_name>QEMU-KVM 1.1.1</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.1.1</version>
+    <release-date>2012-08-27</release-date>
+    <upgrades id="http://linux-kvm.org/1.1.0"/>
+    <derives-from id="http://qemu.org/1.1.1"/>
+  </platform>
+
+  <platform id="http://linux-kvm.org/1.1.2">
+    <short-id>qemu-kvm-1.1.2</short-id>
+    <_name>QEMU-KVM 1.1.2</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.1.2</version>
+    <release-date>2012-09-10</release-date>
+    <upgrades id="http://linux-kvm.org/1.1.1"/>
+    <derives-from id="http://qemu.org/1.1.2"/>
+  </platform>
+
+  <platform id="http://linux-kvm.org/1.2.0">
+    <short-id>qemu-kvm-1.2.0</short-id>
+    <_name>QEMU-KVM 1.2.0</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.2.0</version>
+    <release-date>2012-09-10</release-date>
+    <upgrades id="http://linux-kvm.org/1.1.1-1"/>
+    <derives-from id="http://qemu.org/1.2.0"/>
+  </platform>
+
+</libosinfo>
