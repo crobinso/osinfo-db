@@ -172,14 +172,16 @@
       <iso>
         <volume-id>Debian 6.0.\d i386 1</volume-id>
       </iso>
-      <kernel>/vmlinuz</kernel>
-      <initrd>/initrd.img</initrd>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://cdimage.debian.org/debian-cd/6.0.6/amd64/iso-dvd/debian-6.0.6-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 6.0.\d amd64 1</volume-id>
       </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
     </media>
 
     <media arch="i386" live="true">
@@ -188,6 +190,8 @@
         <volume-id>Debian squeeze 20111014-08:13</volume-id>
         <system-id>LINUX</system-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://live.debian.net/cdimage/release/current/amd64/iso-hybrid/debian-live-6.0.6-amd64-gnome-desktop.iso</url>
@@ -195,6 +199,8 @@
         <volume-id>Debian squeeze 20111014-08:11</volume-id>
         <system-id>LINUX</system-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
   </os>
 
