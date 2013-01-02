@@ -112,12 +112,6 @@
 		</DiskConfiguration>
 		<ImageInstall>
 		  <OSImage>
-		    <InstallFrom>
-		      <MetaData wcm:action="add">
-			<Key>/IMAGE/INDEX</Key>
-			<Value>1</Value>
-		      </MetaData>
-		    </InstallFrom>
 		    <InstallTo>
 		      <DiskID>0</DiskID>
 		      <PartitionID>1</PartitionID>
@@ -127,6 +121,9 @@
 		</ImageInstall>
 		<UserData>
 		  <AcceptEula>true</AcceptEula>
+                    <ProductKey>
+                      <Key><xsl:value-of select="config/reg-product-key"/></Key>
+                    </ProductKey>
 		</UserData>
 	      </component>
 	      <component name="Microsoft-Windows-International-Core-WinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -343,12 +340,6 @@
          </DiskConfiguration>
          <ImageInstall>
           <OSImage>
-           <InstallFrom>
-            <MetaData wcm:action="add">
-             <Key>/IMAGE/INDEX</Key>
-             <Value>1</Value>
-            </MetaData>
-           </InstallFrom>
            <InstallTo>
             <DiskID>0</DiskID>
             <PartitionID>1</PartitionID>
@@ -358,6 +349,9 @@
          </ImageInstall>
          <UserData>
           <AcceptEula>true</AcceptEula>
+           <ProductKey>
+            <Key><xsl:value-of select="config/reg-product-key"/></Key>
+           </ProductKey>
          </UserData>
         </component>
         <component name="Microsoft-Windows-International-Core-WinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
