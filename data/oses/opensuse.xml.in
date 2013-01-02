@@ -241,12 +241,13 @@
       <minimum>
         <cpu>500000000</cpu>
         <n-cpus>1</n-cpus>
-        <ram>536870912</ram>
+        <ram>1073741824</ram>
         <storage>3221225472</storage>
       </minimum>
       <recommended>
         <cpu>2400000000</cpu>
-        <ram>1073741824</ram>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
       </recommended>
     </resources>
   </os>
