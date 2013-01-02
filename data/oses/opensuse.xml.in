@@ -130,12 +130,12 @@
     <derives-from id="http://opensuse.org/opensuse/11.3" />
 
     <media arch="i586">
-    <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso?mirrorlist</url>
-    <iso>
-      <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
-      <system-id>LINUX</system-id>
-      <publisher-id>SUSE LINUX Products GmbH</publisher-id>
-    </iso>
+      <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso?mirrorlist</url>
+      <iso>
+        <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
     </media>
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-x86_64.iso?mirrorlist</url>
