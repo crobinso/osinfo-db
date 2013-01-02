@@ -70,8 +70,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
-      <kernel>vmlinuz</kernel>
-      <initrd>initrd.img</initrd>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-x86_64.iso?mirrorlist</url>
@@ -80,8 +80,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
-      <kernel>vmlinuz</kernel>
-      <initrd>initrd.img</initrd>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <media arch="i586" live="true">
@@ -91,8 +91,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
-      <kernel>vmlinuz</kernel>
-      <initrd>initrd.img</initrd>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
 <!--      <url>http://software.opensuse.org/113/en</url>-->
@@ -101,8 +101,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
-      <kernel>vmlinuz</kernel>
-      <initrd>initrd.img</initrd>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <resources arch="all">
