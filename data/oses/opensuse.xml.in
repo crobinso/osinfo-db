@@ -136,6 +136,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-x86_64.iso?mirrorlist</url>
@@ -144,6 +146,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <media arch="i586" live="true">
@@ -153,6 +157,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
 <!--      <url>http://software.opensuse.org/114/pl</url>-->
@@ -161,6 +167,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <resources arch="all">
@@ -194,6 +202,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-x86_64.iso?mirrorlist</url>
@@ -202,6 +212,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <media arch="i586" live="true">
@@ -211,6 +223,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
 <!--      <url>http://software.opensuse.org/121/pl</url>-->
@@ -219,6 +233,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
     <resources arch="all">
