@@ -237,6 +237,14 @@ logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=Vo
 reboot
 
 %packages
+<xsl:choose>
+  <xsl:when test="os/version &lt; 18">
+@base
+  </xsl:when>
+  <xsl:otherwise>
+@standard
+  </xsl:otherwise>
+</xsl:choose>
 @core
 @hardware-support
 @base-x
