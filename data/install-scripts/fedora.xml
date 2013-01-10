@@ -240,17 +240,20 @@ reboot
 <xsl:choose>
   <xsl:when test="os/version &lt; 18">
 @base
+@graphical-internet
+@sound-and-video
   </xsl:when>
   <xsl:otherwise>
 @standard
+@epiphany
+@firefox
+@multimedia
   </xsl:otherwise>
 </xsl:choose>
 @core
 @hardware-support
 @base-x
 @gnome-desktop
-@graphical-internet
-@sound-and-video
 
 # QXL driver and SPICE vdagent
 xorg-x11-drv-qxl
