@@ -9,6 +9,8 @@
     <distro>gnome</distro>
     <derives-from id="http://fedoraproject.org/fedora/18"/>
 
+    <release-date>2012-09-26</release-date>
+
     <media arch="i686" live="true">
       <url>http://ftp.gnome.org/pub/gnome/misc/promo-usb/GNOME-3.6.0.iso</url>
       <iso>
