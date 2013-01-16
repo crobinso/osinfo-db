@@ -400,6 +400,27 @@
       <file>txtsetup.oem</file>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </driver>
+
+    <!-- All virtio and QXL device drivers, and spice-vdagent -->
+    <driver arch="i386" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst">
+      <file>spice-guest-tools-0.52.exe</file>
+      <file>spice-guest-tools-0.52.cmd</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+    </driver>
+
+    <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst">
+      <file>spice-guest-tools-0.52.exe</file>
+      <file>spice-guest-tools-0.52.cmd</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+    </driver>
   </os>
 
   <os id="http://microsoft.com/win/2k3">
@@ -765,7 +786,29 @@
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
+
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+    </driver>
+
+    <!-- All virtio and QXL device drivers, and spice-vdagent -->
+    <driver arch="i386" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst">
+      <file>spice-guest-tools-0.52.exe</file>
+      <file>spice-guest-tools-0.52.cmd</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+    </driver>
+
+    <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst">
+      <file>spice-guest-tools-0.52.exe</file>
+      <file>spice-guest-tools-0.52.cmd</file>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
     </driver>
   </os>
 
