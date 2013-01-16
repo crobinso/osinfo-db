@@ -4,6 +4,7 @@
     <profile>desktop</profile>
     <path-format>dos</path-format>
     <expected-filename>windows.cmd</expected-filename>
+    <can-post-install-drivers>true</can-post-install-drivers>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="user-realname" policy="required"/>
@@ -11,6 +12,8 @@
       <param name="avatar-disk" policy="optional"/>
       <param name="target-disk" policy="optional"/>
       <param name="script-disk" policy="optional"/>
+      <param name="post-install-drivers-disk" policy="optional"/>
+      <param name="post-install-drivers-location" policy="optional"/>
     </config>
     <avatar-format>
       <mime-type>image/bmp</mime-type>
@@ -46,6 +49,17 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="post-install-drivers-disk">
+          <xsl:choose>
+            <xsl:when test="config/post-install-drivers-disk != ''">
+              <xsl:value-of select="config/post-install-drivers-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>A</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
 	<xsl:template match="/install-script-config">
 sc config TlntSvr start= auto
 net user <xsl:value-of select="config/user-realname"/> <xsl:text> </xsl:text> <xsl:value-of select="config/admin-password"/> /add /passwordreq:no
@@ -53,6 +67,10 @@ net localgroup administrators <xsl:value-of select="config/user-realname"/> /add
 net accounts /maxpwage:unlimited
 if not "<xsl:value-of select="config/avatar-location"/>"=="" copy "<xsl:value-of select="config/avatar-disk"/>:<xsl:value-of select="config/avatar-location"/>" "<xsl:call-template name="target-disk"/>:\Documents and Settings\All Users\Application Data\Microsoft\User Account Pictures\<xsl:value-of select="config/user-realname"/>.bmp"
 REGEDIT /S <xsl:call-template name="script-disk"/>:\windows.reg
+<xsl:call-template name="post-install-drivers-disk"/>:
+reg add "HKCU\Software\Policies\Microsoft\Windows NT\Driver Signing" /v BehaviorOnFailedVerify /t reg_dword /d 00000000 /f
+for %%i in ("<xsl:call-template name="post-install-drivers-disk"/>:<xsl:value-of select="config/post-install-drivers-location"/>\*.cmd") do cmd /k %%i
+reg add "HKCU\Software\Policies\Microsoft\Windows NT\Driver Signing" /v BehaviorOnFailedVerify /t reg_dword /d 00000001 /f
 EXIT
 	</xsl:template>
       </xsl:stylesheet>
