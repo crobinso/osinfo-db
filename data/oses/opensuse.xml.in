@@ -270,7 +270,7 @@
     <media arch="i586">
       <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-i586.iso</url>
       <iso>
-        <volume-id>openSUSE-DVD-i586-Build0039</volume-id>
+        <volume-id>openSUSE-DVD-i586-Build0167</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
@@ -280,7 +280,7 @@
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-x86_64.iso</url>
       <iso>
-        <volume-id>openSUSE-DVD-x86_640039</volume-id>
+        <volume-id>openSUSE-DVD-x86_640167</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX Products GmbH</publisher-id>
       </iso>
