@@ -451,6 +451,11 @@
           <ref name='bool'/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name="signed">
+          <ref name='bool'/>
+        </attribute>
+      </optional>
       <zeroOrMore>
         <element name='file'>
           <text/>
