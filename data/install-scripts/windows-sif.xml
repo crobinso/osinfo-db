@@ -77,6 +77,7 @@
       <param name="reg-product-key" policy="required"/>
       <param name="user-realname" policy="required"/>
       <param name="hostname" policy="required"/>
+      <param name="script-disk" policy="optional"/>
     </config>
     <template>
       <xsl:stylesheet
@@ -84,6 +85,17 @@
         version="1.0">
 
         <xsl:output method="text"/>
+
+        <xsl:template name="script-disk">
+          <xsl:choose>
+            <xsl:when test="config/script-disk != ''">
+              <xsl:value-of select="config/script-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>A</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
         <xsl:template name="password">
          <xsl:choose>
@@ -182,7 +194,7 @@
 
 <xsl:if test="os/version &gt; 5.0">
 [SetupParams]
-    UserExecute = "<xsl:value-of select="config/script-disk"/>:\windows.cmd"
+    UserExecute = "<xsl:call-template name="script-disk"/>:\windows.cmd"
 
 [WindowsFirewall]
     Profiles = WindowsFirewall.TurnOffFirewall
