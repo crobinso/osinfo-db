@@ -580,8 +580,18 @@
           </element>
         </optional>
         <optional>
+          <element name='pre-install-drivers-signing-req'>
+            <ref name='driver-signing-reqs'/>
+          </element>
+        </optional>
+        <optional>
           <element name='can-post-install-drivers'>
             <ref name='bool'/>
+          </element>
+        </optional>
+        <optional>
+          <element name='post-install-drivers-signing-req'>
+            <ref name='driver-signing-reqs'/>
           </element>
         </optional>
         <element name='template'>
@@ -720,6 +730,11 @@
   <define name='path-formats'>
     <data type="string">
       <param name="pattern">dos|unix</param>
+    </data>
+  </define>
+  <define name='driver-signing-reqs'>
+    <data type="string">
+      <param name="pattern">strict|warn|none</param>
     </data>
   </define>
 </grammar>
