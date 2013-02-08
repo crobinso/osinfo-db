@@ -67,6 +67,8 @@ data/devices/qemu-ps2.xml
 data/devices/qemu-usb.xml
 data/devices/virtio-pci.xml
 data/devices/xen.xml
+data/hypervisors/kvm.xml
+data/hypervisors/qemu.xml
 data/hypervisors/rhel-xen.xml
 data/hypervisors/xen.xml
 data/pci.ids
@@ -78,6 +80,7 @@ data/oses/freebsd.xml
 data/oses/gnome.xml
 data/oses/mandrake.xml
 data/oses/mandriva.xml
+data/oses/macos.xml
 data/oses/netbsd.xml
 data/oses/netware.xml
 data/oses/openbsd.xml
