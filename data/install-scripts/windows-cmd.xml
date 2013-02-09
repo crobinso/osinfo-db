@@ -14,6 +14,7 @@
       <param name="script-disk" policy="optional"/>
       <param name="post-install-drivers-disk" policy="optional"/>
       <param name="post-install-drivers-location" policy="optional"/>
+      <param name="driver-signing" policy="optional"/>
     </config>
     <avatar-format>
       <mime-type>image/bmp</mime-type>
@@ -71,27 +72,13 @@ REGEDIT /S <xsl:call-template name="script-disk"/>:\windows.reg
 </xsl:if>
 
 <xsl:call-template name="post-install-drivers-disk"/>:
-<xsl:choose>
-  <xsl:when test="os/version &lt; 6.0">
-reg add "HKCU\Software\Policies\Microsoft\Windows NT\Driver Signing" /v BehaviorOnFailedVerify /t reg_dword /d 00000000 /f
-  </xsl:when>
-  <xsl:otherwise>
+<xsl:if test="config/driver-signing = 'false' and os/version &gt; 5.1">
 bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING ON
-  </xsl:otherwise>
-</xsl:choose>
+</xsl:if>
 
 for %%i in ("<xsl:call-template name="post-install-drivers-disk"/>:<xsl:value-of select="config/post-install-drivers-location"/>\*.cmd") do cmd /c %%i
 
-<xsl:choose>
-  <xsl:when test="os/version &lt; 6.0">
-reg add "HKCU\Software\Policies\Microsoft\Windows NT\Driver Signing" /v BehaviorOnFailedVerify /t reg_dword /d 00000001 /f
-  </xsl:when>
-  <xsl:otherwise>
-bcdedit.exe -set loadoptions EENABLE_INTEGRITY_CHECKS
-bcdedit.exe -set TESTSIGNING OFF
-  </xsl:otherwise>
-</xsl:choose>
 EXIT
 	</xsl:template>
       </xsl:stylesheet>

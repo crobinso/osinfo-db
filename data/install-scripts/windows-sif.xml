@@ -10,6 +10,7 @@
       <param name="admin-password" policy="optional"/>
       <param name="reg-product-key" policy="required"/>
       <param name="user-realname" policy="required"/>
+      <param name="driver-signing" policy="optional"/>
     </config>
     <template>
       <xsl:stylesheet
@@ -30,6 +31,9 @@
     OemSkipEula=Yes
     OemPreinstall=No
     TargetPath=\WINDOWS
+<xsl:if test="config/driver-signing = 'false'">
+    DriverSigningPolicy=Ignore
+</xsl:if>
     Repartition=Yes
     WaitForReboot=No
     UnattendSwitch=Yes
@@ -78,6 +82,7 @@
       <param name="user-realname" policy="required"/>
       <param name="hostname" policy="required"/>
       <param name="script-disk" policy="optional"/>
+      <param name="driver-signing" policy="optional"/>
     </config>
     <template>
       <xsl:stylesheet
@@ -142,6 +147,9 @@
     TargetPath=\WINNT
   </xsl:otherwise>
 </xsl:choose>
+<xsl:if test="config/driver-signing = 'false'">
+    DriverSigningPolicy=Ignore
+</xsl:if>
     Repartition=Yes
     WaitForReboot="No"
     UnattendSwitch="Yes"
