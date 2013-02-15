@@ -194,7 +194,7 @@
 
 <xsl:if test="os/version &gt; 5.0">
 [SetupParams]
-    UserExecute = "<xsl:call-template name="script-disk"/>:\windows.cmd"
+    UserExecute = "<xsl:call-template name="script-disk"/>:\windows.cmd >c:\windows\osinfo.log 2>&amp;1"
 
 [WindowsFirewall]
     Profiles = WindowsFirewall.TurnOffFirewall
