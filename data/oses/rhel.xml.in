@@ -408,7 +408,7 @@
     <release-date>2009-05-18</release-date>
     <eol-date>2015-02-28</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/4-U8 i386.*</volume-id>
@@ -436,7 +436,7 @@
     <release-date>2011-02-16</release-date>
     <eol-date>2015-02-28</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_4.9 i386.*</volume-id>
@@ -527,7 +527,7 @@
     <release-date>2009-09-02</release-date>
     <eol-date>2020-03-31</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/5.4 i386.*</volume-id>
@@ -555,7 +555,7 @@
     <release-date>2010-03-30</release-date>
     <eol-date>2020-03-31</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/5.5 i386.*</volume-id>
@@ -588,7 +588,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/5.6 i386.*</volume-id>
@@ -616,7 +616,7 @@
     <release-date>2011-07-21</release-date>
     <eol-date>2020-03-31</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/5.7 i386.*</volume-id>
@@ -644,7 +644,7 @@
     <release-date>2012-02-21</release-date>
     <eol-date>2020-03-31</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL/5.8 i386.*</volume-id>
@@ -679,7 +679,7 @@
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.0 i386.*</volume-id>
@@ -729,7 +729,7 @@
     <release-date>2011-05-19</release-date>
     <eol-date>2023-11-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.1 i386.*</volume-id>
@@ -779,7 +779,7 @@
     <release-date>2011-12-06</release-date>
     <eol-date>2023-11-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.2 i386.*</volume-id>
@@ -829,7 +829,7 @@
     <release-date>2012-06-21</release-date>
     <eol-date>2023-11-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>.*RHEL_6.3 i386.*</volume-id>

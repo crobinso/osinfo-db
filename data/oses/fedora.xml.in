@@ -21,7 +21,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/1/i386/iso/yarrow-i386-disc1.iso</url>
       <iso>
         <application-id>FC/1 i386</application-id>
@@ -72,7 +72,7 @@
     <release-date>2004-05-18</release-date>
     <eol-date>2005-04-11</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/2/i386/iso/FC2-i386-disc1.iso</url>
       <iso>
         <application-id>FC/2 i386</application-id>
@@ -123,7 +123,7 @@
     <release-date>2004-11-08</release-date>
     <eol-date>2006-01-16</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/3/i386/iso/FC3-i386-disc1.iso</url>
       <iso>
         <application-id>FC/3 i386</application-id>
@@ -174,7 +174,7 @@
     <release-date>2005-06-13</release-date>
     <eol-date>2006-08-07</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/4/i386/iso/FC4-i386-disc1.iso</url>
       <iso>
         <application-id>FC/4 i386</application-id>
@@ -234,7 +234,7 @@
     <release-date>2006-03-20</release-date>
     <eol-date>2007-07-02</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc1.iso</url>
       <iso>
         <application-id>FC/5 i386</application-id>
@@ -294,7 +294,7 @@
     <release-date>2006-10-24</release-date>
     <eol-date>2007-12-07</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/6/i386/iso/FC-6-i386-disc1.iso</url>
       <iso>
         <application-id>FC(-|/)6 i386</application-id>
@@ -354,7 +354,7 @@
     <release-date>2007-05-31</release-date>
     <eol-date>2008-06-13</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/iso/F-7-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 7 i386 (DVD|Disc)</volume-id>
@@ -437,7 +437,7 @@
     <release-date>2007-11-08</release-date>
     <eol-date>2009-01-07</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/i386/iso/Fedora-8-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 8 i386 (DVD|Disc)</volume-id>
@@ -537,7 +537,7 @@
       -->
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/9/Fedora/i386/iso/Fedora-9-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 9 i386 (DVD|Disc)</volume-id>
@@ -624,7 +624,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/10/Fedora/i386/iso/Fedora-10-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 10 i386 (DVD|Disc)</volume-id>
@@ -712,7 +712,7 @@
       <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 11 i386 (DVD|Disc)</volume-id>
@@ -796,7 +796,7 @@
     <release-date>2009-11-17</release-date>
     <eol-date>2010-12-02</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 12 i386 (DVD|Disc)</volume-id>
@@ -879,7 +879,7 @@
     <release-date>2010-05-25</release-date>
     <eol-date>2011-06-04</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 13 i386 (DVD|Disc)</volume-id>
@@ -953,7 +953,7 @@
     <release-date>2010-11-02</release-date>
     <eol-date>2011-12-08</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 14 i386 (DVD|Disc)</volume-id>
@@ -1040,7 +1040,7 @@
 
     <release-date>2011-05-24</release-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/15/Fedora/i386/iso/Fedora-15-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 15 i386 (DVD|Disc)</volume-id>
@@ -1127,7 +1127,7 @@
 
     <release-date>2011-11-08</release-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/iso/Fedora-16-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 16 i386 (DVD|Disc)</volume-id>
@@ -1212,7 +1212,7 @@
     <upgrades id="http://fedoraproject.org/fedora/16"/>
     <derives-from id="http://fedoraproject.org/fedora/16"/>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/17/Fedora/i386/iso/Fedora-17-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 17.* i386</volume-id>
@@ -1297,7 +1297,7 @@
     <upgrades id="http://fedoraproject.org/fedora/17"/>
     <derives-from id="http://fedoraproject.org/fedora/17"/>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/18/Fedora/i386/iso/Fedora-18-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 18.* i386</volume-id>

@@ -13,7 +13,7 @@
     <release-date>2004-10-20</release-date>
     <eol-date>2006-04-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 4.10 i386</volume-id>
@@ -32,7 +32,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true" installer="false">
+    <media arch="i686" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 4.10 i386</volume-id>
@@ -58,7 +58,7 @@
     <release-date>2005-04-08</release-date>
     <eol-date>2006-10-31</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 5.04 i386</volume-id>
@@ -86,7 +86,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true" installer="false">
+    <media arch="i686" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-live-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 5.04 i386</volume-id>
@@ -131,7 +131,7 @@
     <release-date>2005-10-13</release-date>
     <eol-date>2007-04-13</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-install-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 5.10 i386</volume-id>
@@ -159,7 +159,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true" installer="false">
+    <media arch="i686" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-live-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 5.10 i386</volume-id>
@@ -187,7 +187,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/breezy/ubuntu-5.10-dvd-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 5.10 i386</volume-id>
@@ -232,7 +232,7 @@
     <release-date>2006-06-01</release-date>
     <eol-date>2011-06-01</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d)? i386</volume-id>
@@ -259,7 +259,7 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="hppa">
+    <media arch="parisc">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-hppa.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d)? hppa</volume-id>
@@ -287,7 +287,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d)? i386</volume-id>
@@ -315,7 +315,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d)? i386</volume-id>
@@ -343,7 +343,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="hppa" live="true">
+    <media arch="parisc" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-hppa.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d)? hppa</volume-id>
@@ -379,7 +379,7 @@
     <release-date>2006-10-26</release-date>
     <eol-date>2008-04-25</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.10 i386</volume-id>
@@ -416,7 +416,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.10 i386</volume-id>
@@ -460,7 +460,7 @@
     <release-date>2007-04-19</release-date>
     <eol-date>2008-10-19</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.04 i386</volume-id>
@@ -488,7 +488,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 7.04 i386</volume-id>
@@ -523,7 +523,7 @@
     <release-date>2007-10-18</release-date>
     <eol-date>2009-04-18</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.10 i386</volume-id>
@@ -551,7 +551,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 7.10 i386</volume-id>
@@ -589,7 +589,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 8.04(.\d)? i386</volume-id>
@@ -608,7 +608,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 8.04(.\d)? i386</volume-id>
@@ -627,7 +627,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 8.04(.\d)? i386</volume-id>
@@ -662,7 +662,7 @@
     <release-date>2008-10-30</release-date>
     <eol-date>2010-04-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 8.10 i386</volume-id>
@@ -681,7 +681,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 8.10 i386</volume-id>
@@ -720,7 +720,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
     </devices>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 9.04(.\d)? i386</volume-id>
@@ -739,7 +739,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 9.04(.\d)? i386</volume-id>
@@ -774,7 +774,7 @@
     <release-date>2009-10-29</release-date>
     <eol-date>2011-04-30</eol-date>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/karmic/ubuntu-9.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 9.10 i386</volume-id>
@@ -793,7 +793,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/karmic/ubuntu-9.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 9.10 i386</volume-id>
@@ -840,7 +840,7 @@
         <storage>5368709120</storage>
       </recommended>
     </resources>
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 10.04(.\d)? LTS i386</volume-id>
@@ -888,7 +888,7 @@
       </recommended>
     </resources>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 10.10 i386</volume-id>
@@ -907,7 +907,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 10.10 i386</volume-id>
@@ -955,7 +955,7 @@
       </recommended>
     </resources>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.04 i386</volume-id>
@@ -974,7 +974,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 11.04 i386</volume-id>
@@ -1022,7 +1022,7 @@
       </recommended>
     </resources>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.10 i386</volume-id>
@@ -1041,7 +1041,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 11.10 i386</volume-id>
@@ -1088,7 +1088,7 @@
         <storage>5368709120</storage>
       </recommended>
     </resources>
-    <media arch="i386">
+    <media arch="i686">
       <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.04(.\d)? LTS i386</volume-id>
@@ -1104,7 +1104,7 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 12.04(.\d)? LTS i386</volume-id>
@@ -1149,7 +1149,7 @@
         <storage>16106127360</storage>
       </recommended>
     </resources>
-    <media arch="i386">
+    <media arch="i686">
       <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.10 i386</volume-id>
@@ -1165,7 +1165,7 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 12.10 i386</volume-id>

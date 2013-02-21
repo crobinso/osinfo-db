@@ -167,7 +167,7 @@
       </recommended>
     </resources>
 
-    <media arch="i386">
+    <media arch="i686">
       <url>http://cdimage.debian.org/debian-cd/6.0.6/i386/iso-dvd/debian-6.0.6-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 6.0.\d i386 1</volume-id>
@@ -184,7 +184,7 @@
       <initrd>install.amd/initrd.gz</initrd>
     </media>
 
-    <media arch="i386" live="true">
+    <media arch="i686" live="true">
       <url>http://live.debian.net/cdimage/release/current/i386/iso-hybrid/debian-live-6.0.6-i386-gnome-desktop.iso</url>
       <iso>
         <volume-id>Debian squeeze.*</volume-id>

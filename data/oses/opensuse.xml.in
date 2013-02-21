@@ -68,7 +68,7 @@
     <upgrades id="http://opensuse.org/opensuse/11.2" />
     <derives-from id="http://opensuse.org/opensuse/11.2" />
 
-    <media arch="i586">
+    <media arch="i686">
       <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-i586-Build0702..001</volume-id>
@@ -89,7 +89,7 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
-    <media arch="i586" live="true">
+    <media arch="i686" live="true">
       <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-GNOME-LiveCD-i686.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
@@ -134,7 +134,7 @@
     <upgrades id="http://opensuse.org/opensuse/11.3" />
     <derives-from id="http://opensuse.org/opensuse/11.3" />
 
-    <media arch="i586">
+    <media arch="i686">
       <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-i586-Build0024</volume-id>
@@ -155,7 +155,7 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
-    <media arch="i586" live="true">
+    <media arch="i686" live="true">
       <url>http://download.opensuse.org/distribution/11.4/iso/openSUSE-11.4-GNOME-LiveCD-i686.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
@@ -200,7 +200,7 @@
     <upgrades id="http://opensuse.org/opensuse/11.4" />
     <derives-from id="http://opensuse.org/opensuse/11.4" />
 
-    <media arch="i586">
+    <media arch="i686">
       <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-i586-Build0039</volume-id>
@@ -221,7 +221,7 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
-    <media arch="i586" live="true">
+    <media arch="i686" live="true">
       <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-GNOME-LiveCD-i686.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
@@ -267,7 +267,7 @@
     <upgrades id="http://opensuse.org/opensuse/12.1" />
     <derives-from id="http://opensuse.org/opensuse/12.1" />
 
-    <media arch="i586">
+    <media arch="i686">
       <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-i586-Build0167</volume-id>
@@ -288,7 +288,7 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
-    <media arch="i586" live="true">
+    <media arch="i686" live="true">
       <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-GNOME-LiveCD-i686.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>

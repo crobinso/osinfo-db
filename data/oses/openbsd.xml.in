@@ -8,7 +8,7 @@
     <distro>openbsd</distro>
     <_vendor>OpenBSD Project</_vendor>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -37,7 +37,7 @@
     <upgrades id='http://openbsd.org/openbsd/4.2'/>
     <derives-from id='http://openbsd.org/openbsd/4.2'/>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -66,7 +66,7 @@
     <upgrades id='http://openbsd.org/openbsd/4.3'/>
     <derives-from id='http://openbsd.org/openbsd/4.3'/>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -95,7 +95,7 @@
     <upgrades id='http://openbsd.org/openbsd/4.4'/>
     <derives-from id='http://openbsd.org/openbsd/4.4'/>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -124,7 +124,7 @@
     <upgrades id='http://openbsd.org/openbsd/4.5'/>
     <derives-from id='http://openbsd.org/openbsd/4.5'/>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -157,7 +157,7 @@
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000"/>
     </devices>
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -188,7 +188,7 @@
     <derives-from id='http://openbsd.org/openbsd/4.9'/>
 
 
-    <media arch='i386'>
+    <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
