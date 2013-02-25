@@ -51,9 +51,9 @@
             <xsl:when test="config/pre-install-drivers-disk != ''">
               <xsl:value-of select="config/pre-install-drivers-disk"/>
             </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>A</xsl:text>
-	    </xsl:otherwise>
+            <xsl:otherwise>
+              <xsl:text>A</xsl:text>
+            </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
 
@@ -62,9 +62,9 @@
             <xsl:when test="config/pre-install-drivers-location != ''">
               <xsl:value-of select="config/pre-install-drivers-location"/>
             </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>\</xsl:text>
-	    </xsl:otherwise>
+            <xsl:otherwise>
+              <xsl:text>\</xsl:text>
+            </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
 
@@ -270,9 +270,9 @@
          <xsl:when test="config/pre-install-drivers-disk != ''">
            <xsl:value-of select="config/pre-install-drivers-disk"/>
          </xsl:when>
-	 <xsl:otherwise>
-	   <xsl:text>A</xsl:text>
-	 </xsl:otherwise>
+         <xsl:otherwise>
+           <xsl:text>A</xsl:text>
+         </xsl:otherwise>
        </xsl:choose>
      </xsl:template>
 
@@ -281,9 +281,9 @@
          <xsl:when test="config/pre-install-drivers-location != ''">
            <xsl:value-of select="config/pre-install-drivers-location"/>
          </xsl:when>
-	 <xsl:otherwise>
-	   <xsl:text>\</xsl:text>
-	 </xsl:otherwise>
+         <xsl:otherwise>
+           <xsl:text>\</xsl:text>
+         </xsl:otherwise>
        </xsl:choose>
      </xsl:template>
 
