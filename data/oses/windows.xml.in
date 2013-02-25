@@ -776,6 +776,7 @@
     <installer>
       <script id='http://microsoft.com/windows/unattend/jeos'/>
       <script id='http://microsoft.com/windows/unattend/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
 
     <!-- virtio block device driver -->

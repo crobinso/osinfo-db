@@ -232,6 +232,7 @@
     <param name="target-disk" policy="optional"/>
     <param name="pre-install-drivers-disk" policy="optional"/>
     <param name="pre-install-drivers-location" policy="optional"/>
+    <param name="script-disk" policy="optional"/>
    </config>
     <template>
      <xsl:stylesheet
@@ -247,6 +248,17 @@
           </xsl:when>
           <xsl:otherwise>
             <xsl:text>C</xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:template>
+
+      <xsl:template name="script-disk">
+        <xsl:choose>
+          <xsl:when test="config/script-disk != ''">
+            <xsl:value-of select="config/script-disk"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>A</xsl:text>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:template>
@@ -367,6 +379,18 @@
            <xsl:call-template name="arch"/>
           </xsl:attribute>
           <ComputerName><xsl:value-of select="config/hostname"/></ComputerName>
+         </component>
+         <component name="Microsoft-Windows-Deployment" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <xsl:attribute name="processorArchitecture">
+           <xsl:call-template name="arch"/>
+          </xsl:attribute>
+          <RunSynchronous  wcm:action="add">
+           <RunSynchronousCommand>
+            <Order>1</Order>
+            <Path>cmd /C A:\windows.cmd  >c:\windows\osinfo.log 2>&amp;1</Path>
+            <Description>Post installation setup</Description>
+           </RunSynchronousCommand>
+          </RunSynchronous>
          </component>
         </settings>
        </xsl:if>
