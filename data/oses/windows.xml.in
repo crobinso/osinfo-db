@@ -874,7 +874,8 @@
     </devices>
 
     <installer>
-      <script id='http://microsoft.com/windows/unattend'/>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
     </installer>
   </os>
 
