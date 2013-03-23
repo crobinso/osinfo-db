@@ -124,7 +124,7 @@ reboot
 install
 keyboard us
 lang <xsl:value-of select="config/l10n-language"/>
-network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/> --activate
+network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
 firewall --disabled
 authconfig --enableshadow --enablemd5
