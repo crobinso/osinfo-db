@@ -18,6 +18,7 @@ build-aux/ltmain.sh
 build-aux/missing
 build-aux/mkinstalldirs
 build-aux/config.rpath
+build-aux/test-driver
 config.cache
 config.h
 config.h.in
@@ -61,6 +62,8 @@ test/test-platformlist
 test/test-isodetect
 test/test-mediauris
 test/test-treeuris
+test/*.log
+test/*.trs
 build/
 gtk-doc.make
 data/95-osinfo.rules
@@ -120,4 +123,5 @@ po/en@quot.header
 po/insert-header.sin
 po/quot.sed
 po/remove-potcdate.sin
+po/*.gmo
 ABOUT-NLS
