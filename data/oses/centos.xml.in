@@ -185,4 +185,50 @@
     </installer>
   </os>
 
+  <os id="http://centos.org/centos/6.4">
+    <short-id>centos6.4</short-id>
+    <_name>CentOS 6.4</_name>
+    <version>6.4</version>
+    <_vendor>CentOS</_vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos/6.3"/>
+    <clones id="http://redhat.com/rhel/6.4"/>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.4_Final</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.4_Final</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
+  </os>
+
 </libosinfo>
