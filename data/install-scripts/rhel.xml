@@ -2,7 +2,7 @@
   <!-- JEOS PROFILE -->
   <install-script id='http://redhat.com/scripts/rhel/jeos'>
     <profile>jeos</profile>
-    <expected-filename>fedora.ks</expected-filename>
+    <expected-filename>rhel.ks</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="l10n-keyboard" policy="optional"/>
@@ -80,7 +80,7 @@ reboot
   <!-- DESKTOP PROFILE -->
   <install-script id='http://redhat.com/scripts/rhel/desktop'>
     <profile>desktop</profile>
-    <expected-filename>fedora.ks</expected-filename>
+    <expected-filename>rhel.ks</expected-filename>
     <config>
         <param name="l10n-keyboard" policy="optional"/>
         <param name="l10n-language" policy="optional"/>
