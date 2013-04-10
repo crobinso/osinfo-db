@@ -9,6 +9,7 @@
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="target-disk" policy="optional"/>
+      <param name="script-disk" policy="required"/>
     </config>
     <template>
       <xsl:stylesheet
@@ -35,6 +36,13 @@
               <xsl:text>/dev/hda</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="script-disk">
+          <xsl:variable name="script-disk">
+            <xsl:value-of select="config/script-disk"/>
+          </xsl:variable>
+          <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
 	<xsl:template name="rootfs">
@@ -73,6 +81,13 @@
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text>ks=hd:</xsl:text>
+            <xsl:call-template name="script-disk"/>
+            <xsl:text>:/</xsl:text>
+            <xsl:value-of select="script/expected-filename"/>
+        </xsl:template>
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
@@ -143,6 +158,7 @@ reboot
         <param name="avatar-location" policy="optional"/>
         <param name="avatar-disk" policy="optional"/>
         <param name="target-disk" policy="optional"/>
+        <param name="script-disk" policy="required"/>
     </config>
     <avatar-format>
       <mime-type>image/png</mime-type>
@@ -172,6 +188,13 @@ reboot
               <xsl:text>/dev/hda</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="script-disk">
+          <xsl:variable name="script-disk">
+            <xsl:value-of select="config/script-disk"/>
+          </xsl:variable>
+          <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
 	<xsl:template name="rootfs">
@@ -210,6 +233,13 @@ reboot
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text>ks=hd:</xsl:text>
+            <xsl:call-template name="script-disk"/>
+            <xsl:text>:/</xsl:text>
+            <xsl:value-of select="script/expected-filename"/>
+        </xsl:template>
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
