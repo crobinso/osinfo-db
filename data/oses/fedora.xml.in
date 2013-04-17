@@ -1371,4 +1371,93 @@
     </installer>
   </os>
 
+  <os id="http://fedoraproject.org/fedora/19">
+    <short-id>fedora19</short-id>
+    <_name>Fedora 19</_name>
+    <version>19</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Schrödinger's Cat</codename>
+    <upgrades id="http://fedoraproject.org/fedora/18"/>
+    <derives-from id="http://fedoraproject.org/fedora/18"/>
+
+    <media arch="i686">
+      <!-- not released yet
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-DVD.iso</url> -->
+      <iso>
+        <volume-id>Fedora 19.* i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <!-- not released yet
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/iso/Fedora-19-x86_64-DVD.iso</url> -->
+      <iso>
+        <volume-id>Fedora 19.* x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <!-- not released yet
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/i686/Fedora-19-i686-Live-Desktop.iso</url> -->
+      <iso>
+        <volume-id>Fedora-Live-.*-i686-19</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <!-- not released yet
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/x86_64/Fedora-19-x86_64-Live-Desktop.iso</url> -->
+      <iso>
+        <volume-id>Fedora-Live-.*-x86_64-19</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+<!-- not released yet
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>18</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>18</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree> -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>805306368</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1207959552</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+    </installer>
+  </os>
 </libosinfo>
