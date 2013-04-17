@@ -1183,4 +1183,69 @@
     </media>
   </os>
 
+  <os id="http://ubuntu.com/ubuntu/13.04">
+    <short-id>ubuntu13.04</short-id>
+    <short-id>ubunturaring</short-id>
+    <_name>Ubuntu Raring Ringtails</_name>
+    <version>13.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Raring Ringtails</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/12.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/12.10"/>
+
+    <!-- unreleased for now
+    <release-date>2012-10-18</release-date> -->
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+    <media arch="i686">
+      <!-- unreleased for now
+      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-server-i386.iso</url> -->
+      <iso>
+        <volume-id>Ubuntu-Server 13.04 i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <!-- unreleased for now
+      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-server-amd64.iso</url> -->
+      <iso>
+        <volume-id>Ubuntu-Server 13.04 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <!-- unreleased for now
+      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-i386.iso</url> -->
+      <iso>
+        <volume-id>Ubuntu 13.04 i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <!-- unreleased for now
+      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-amd64.iso</url> -->
+      <iso>
+        <volume-id>Ubuntu 13.04 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
 </libosinfo>
