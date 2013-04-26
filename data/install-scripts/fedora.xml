@@ -92,6 +92,7 @@
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 install
+cdrom
 text
 keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
@@ -244,6 +245,7 @@ reboot
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 install
+cdrom
 keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
