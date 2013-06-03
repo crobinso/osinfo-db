@@ -889,7 +889,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 10.10 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -898,7 +898,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/maverick/ubuntu-10.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 10.10 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -908,7 +908,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 10.10 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -917,7 +917,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/maverick/ubuntu-10.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 10.10 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -956,7 +956,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/natty/ubuntu-11.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.04 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -965,7 +965,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/natty/ubuntu-11.04-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.04 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -975,7 +975,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/natty/ubuntu-11.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 11.04 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -984,7 +984,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/natty/ubuntu-11.04-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/natty/ubuntu-11.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 11.04 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -1023,7 +1023,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/oneiric/ubuntu-11.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.10 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -1032,7 +1032,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/oneiric/ubuntu-11.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 11.10 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -1042,7 +1042,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/oneiric/ubuntu-11.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 11.10 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -1051,7 +1051,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/oneiric/ubuntu-11.10-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/oneiric/ubuntu-11.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 11.10 amd64</volume-id>
         <system-id>LINUX</system-id>
