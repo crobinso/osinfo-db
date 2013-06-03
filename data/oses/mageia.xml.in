@@ -1,0 +1,133 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://mageia.org/mageia/1">
+    <short-id>mageia1</short-id>
+    <_name>Mageia 1</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>1</version>
+    <derives-from id="http://mandriva.com/mandriva/2010.1"/>
+    <release-date>2011-06-01</release-date>
+    <eol-date>2012-12-01</eol-date>
+
+    <media arch="i686">
+      <url>https://www.mageia.org/en/downloads/get/?q=mageia-1-dvd-i586</url>
+      <iso>
+        <volume-id>1-i586</volume-id>
+        <publisher-id>Mageia.Org</publisher-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-cd-dualarch</url>
+      <iso>
+        <volume-id>mageia-dual-1</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-cd-dualarch</url>
+      <iso>
+        <volume-id>mageia-dual-1</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://www.mageia.org/en/downloads/get/?q=mageia-1-dvd-x86_64</url>
+      <iso>
+        <volume-id>1-x86_64</volume-id>
+        <publisher-id>Mageia.Org</publisher-id>
+      </iso>
+    </media>
+    <media live="true" arch="i686">
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-europe1-cd-i586</url>
+<!--
+      The Mageia project releases several live CD isos for different languages, but libosinfo
+      currently only supports one <url> node per <media> node
+
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-europe2-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-asia-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-africa-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-europe1-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-europe2-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-asia-cd-i586</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-africa-cd-i586</url>
+-->
+      <iso>
+        <volume-id>Livecd-1-(GNOME|KDE)</volume-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://mageia.org/mageia/2">
+    <short-id>mageia2</short-id>
+    <_name>Mageia 2</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>2</version>
+    <derives-from id="http://mageia.org/mageia/1"/>
+    <release-date>2012-05-22</release-date>
+    <eol-date>2013-11-22</eol-date>
+
+    <media arch="i686">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-2-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/en/downloads/get/?q=Mageia-2-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-2(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-2-x86_64-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/en/downloads/get/?q=Mageia-2-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-2(-x86_64)?</volume-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://mageia.org/mageia/3">
+    <short-id>mageia3</short-id>
+    <_name>Mageia 3</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>3</version>
+    <derives-from id="http://mageia.org/mageia/2"/>
+    <release-date>2013-05-19</release-date>
+    <eol-date>2014-11-19</eol-date>
+
+    <media arch="i686">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-3-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-3-x86_64-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3(-x86_64)?</volume-id>
+      </iso>
+    </media>
+    <media live="true" arch="i686">
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveDVD-KDE4-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveDVD-GNOME-i586-DVD.iso</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveCD-KDE4-en-i586-CD.iso</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveCD-GNOME-en-i586-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3-(GNOME|KDE4)-Live(CD|DVD)</volume-id>
+      </iso>
+    </media>
+  </os>
+
+</libosinfo>
