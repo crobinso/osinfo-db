@@ -738,7 +738,7 @@
 
     <media arch="i686" installer-reboots="2">
       <iso>
-        <volume-id>(GRMCULFRER|GSP1RMCNPRFRER|GSP1RMCNULFRER|GSP1RMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL|GRMCPRFRER|GSP1RMCPRVOL)_</volume-id>
+        <volume-id>(GRMCULFRER|GSP1RMCNPRFRER|GSP1RMCNULFRER|GSP1RMCULFRER|GSP1RMCPRFRER|GRMCENVOL|GRMCNENVOL|GRMCPRFRER|GSP1RMCPRVOL|GSP1RMCNENVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
