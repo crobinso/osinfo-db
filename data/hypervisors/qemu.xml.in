@@ -145,4 +145,40 @@
     <upgrades id="http://qemu.org/1.3.0"/>
   </platform>
 
+  <platform id="http://qemu.org/1.4.0">
+    <short-id>qemu-1.4.0</short-id>
+    <_name>QEMU 1.4.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.4.0</version>
+    <release-date>2013-02-15</release-date>
+    <upgrades id="http://qemu.org/1.3.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.4.1">
+    <short-id>qemu-1.4.1</short-id>
+    <_name>QEMU 1.4.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.4.1</version>
+    <release-date>2013-04-15</release-date>
+    <upgrades id="http://qemu.org/1.4.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.4.2">
+    <short-id>qemu-1.4.2</short-id>
+    <_name>QEMU 1.4.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.4.2</version>
+    <release-date>2013-05-24</release-date>
+    <upgrades id="http://qemu.org/1.4.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.5.0">
+    <short-id>qemu-1.5.0</short-id>
+    <_name>QEMU 1.5.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.5.0</version>
+    <release-date>2013-05-20</release-date>
+    <upgrades id="http://qemu.org/1.4.1"/>
+  </platform>
+
 </libosinfo>
