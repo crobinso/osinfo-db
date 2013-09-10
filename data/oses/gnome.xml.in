@@ -38,7 +38,8 @@
     <_vendor>GNOME Project</_vendor>
     <family>linux</family>
     <distro>gnome</distro>
-    <derives-from id="http://gnome.org/3.6"/>
+    <derives-from id="http://fedoraproject.org/fedora/19"/>
+    <upgrades id="http://gnome.org/3.6"/>
 
     <release-date>2013-03-27</release-date>
 
