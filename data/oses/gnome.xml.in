@@ -53,11 +53,11 @@
     </media>
 
     <resources arch="all">
-      <!-- These values are copied from that of Fedora 17/18 as AFAIK currently
-           GNOME is just Fedora with a few differences, mainly the name. -->
       <minimum>
         <n-cpus>1</n-cpus>
-        <ram>805306368</ram>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
       </minimum>
     </resources>
   </os>
