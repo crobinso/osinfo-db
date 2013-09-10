@@ -1424,7 +1424,7 @@
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
-        <version>18</version>
+        <version>19</version>
         <arch>i386</arch>
       </treeinfo>
     </tree>
@@ -1432,7 +1432,7 @@
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/os/</url>
       <treeinfo>
         <family>Fedora</family>
-        <version>18</version>
+        <version>19</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
