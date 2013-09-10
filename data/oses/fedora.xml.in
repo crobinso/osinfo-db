@@ -1440,14 +1440,10 @@
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
-        <ram>805306368</ram>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
       </minimum>
-
-      <recommended>
-        <cpu>400000000</cpu>
-        <ram>1207959552</ram>
-        <storage>9663676416</storage>
-      </recommended>
     </resources>
 
     <installer>
