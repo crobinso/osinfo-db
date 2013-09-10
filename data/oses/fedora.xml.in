@@ -1383,8 +1383,7 @@
     <derives-from id="http://fedoraproject.org/fedora/18"/>
 
     <media arch="i686">
-      <!-- not released yet
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-DVD.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 19.* i386</volume-id>
         <system-id>LINUX</system-id>
@@ -1393,8 +1392,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <!-- not released yet
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/iso/Fedora-19-x86_64-DVD.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/iso/Fedora-19-x86_64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 19.* x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -1404,8 +1402,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <!-- not released yet
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/i686/Fedora-19-i686-Live-Desktop.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/i386/Fedora-Live-Desktop-i686-19-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-.*-i686-19</volume-id>
         <system-id>LINUX</system-id>
@@ -1414,8 +1411,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <!-- not released yet
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/x86_64/Fedora-19-x86_64-Live-Desktop.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Live/x86_64/Fedora-Live-Desktop-x86_64-19-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-.*-x86_64-19</volume-id>
         <system-id>LINUX</system-id>
@@ -1424,7 +1420,6 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
 
-<!-- not released yet
     <tree arch="i686">
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/os/</url>
       <treeinfo>
@@ -1440,7 +1435,7 @@
         <version>18</version>
         <arch>x86_64</arch>
       </treeinfo>
-    </tree> -->
+    </tree>
 
     <resources arch="all">
       <minimum>
