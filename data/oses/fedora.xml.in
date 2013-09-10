@@ -1451,4 +1451,86 @@
       <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
     </installer>
   </os>
+
+  <os id="http://fedoraproject.org/fedora/20">
+    <short-id>fedora20</short-id>
+    <_name>Fedora 20</_name>
+    <version>20</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Heisenbug</codename>
+    <upgrades id="http://fedoraproject.org/fedora/19"/>
+    <derives-from id="http://fedoraproject.org/fedora/19"/>
+
+    <media arch="i686">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-DVD.iso</url> -->
+      <iso>
+        <volume-id>Fedora 20.* i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso</url> -->
+      <iso>
+        <volume-id>Fedora 20.* x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/i386/Fedora-Live-Desktop-i686-20-1.iso</url> -->
+      <iso>
+        <volume-id>Fedora-Live-.*-i686-20</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/x86_64/Fedora-Live-Desktop-x86_64-20-1.iso</url> -->
+      <iso>
+        <volume-id>Fedora-Live-.*-x86_64-20</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/os/</url> -->
+      <treeinfo>
+        <family>Fedora</family>
+        <version>20</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/</url> -->
+      <treeinfo>
+        <family>Fedora</family>
+        <version>20</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+    </resources>
+
+    <!-- Lets uncomment these after testing them -->
+    <!--<installer>
+      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+    </installer>-->
+  </os>
 </libosinfo>
