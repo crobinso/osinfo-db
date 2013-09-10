@@ -62,4 +62,31 @@
     </resources>
   </os>
 
+  <os id="http://gnome.org/continuous/3.10">
+    <short-id>gnome-continuous-3.10</short-id>
+    <_name>GNOME 3.10</_name>
+    <version>3.10</version>
+    <_vendor>GNOME Project</_vendor>
+    <family>linux</family>
+    <distro>gnome</distro>
+    <upgrades id="http://gnome.org/3.8"/>
+
+    <release-date>2013-09-25</release-date>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>2</n-cpus>
+        <ram>1073741824</ram>
+      </minimum>
+    </resources>
+  </os>
+
 </libosinfo>
