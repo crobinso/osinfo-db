@@ -403,8 +403,8 @@
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
     <driver arch="i686" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
-      <file>spice-guest-tools-0.52.exe</file>
-      <file>spice-guest-tools-0.52.cmd</file>
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -415,8 +415,8 @@
     </driver>
 
     <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
-      <file>spice-guest-tools-0.52.exe</file>
-      <file>spice-guest-tools-0.52.cmd</file>
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -796,8 +796,8 @@
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
     <driver arch="i686" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
-      <file>spice-guest-tools-0.52.exe</file>
-      <file>spice-guest-tools-0.52.cmd</file>
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -808,8 +808,8 @@
     </driver>
 
     <driver arch="x86_64" location="http://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
-      <file>spice-guest-tools-0.52.exe</file>
-      <file>spice-guest-tools-0.52.cmd</file>
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
