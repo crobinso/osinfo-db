@@ -878,4 +878,62 @@
     </installer>
   </os>
 
+  <os id="http://microsoft.com/win/8.1">
+    <short-id>win8.1</short-id>
+    <_name>Microsoft Windows 8.1</_name>
+    <version>6.3</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/8"/>
+    <upgrades id="http://microsoft.com/win/8"/>
+
+<!--
+    <release-date></release-date>
+    <eol-date></eol-date>
+-->
+
+    <media arch="i686">
+      <iso>
+        <volume-id>(IRM_CENNA_X86FREV|IRM_CENA_X86FREV|IRM_CCSNA_X86FRE|IRM_CPRNA_X86FREV|IRM_CPRA_X86FREV|IRM_CCSA_X86FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(IRM_CENNA_X64FREV|IRM_CENA_X64FREV|IRM_CCSNA_X64FRE|IRM_CPRNA_X64FREV|IRM_CPRA_X64FREV|IRM_CCSA_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+    </devices>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
+    </installer>
+  </os>
+
 </libosinfo>
