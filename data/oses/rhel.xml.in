@@ -638,8 +638,8 @@
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Tikanga</codename>
-    <upgrades id="http://redhat.com/rhel/5.8"/>
-    <derives-from id="http://redhat.com/rhel/5.8"/>
+    <upgrades id="http://redhat.com/rhel/5.7"/>
+    <derives-from id="http://redhat.com/rhel/5.7"/>
 
     <release-date>2012-02-21</release-date>
     <eol-date>2020-03-31</eol-date>
