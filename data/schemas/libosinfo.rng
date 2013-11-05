@@ -481,6 +481,9 @@
         <optional>
           <ref name='devices-rel'/>
         </optional>
+        <optional>
+          <ref name='release-status'/>
+        </optional>
         <zeroOrMore>
           <ref name='resources'/>
         </zeroOrMore>
@@ -739,5 +742,13 @@
     <data type="string">
       <param name="pattern">strict|warn|none</param>
     </data>
+  </define>
+
+  <define name='release-status'>
+    <element name='release-status'>
+      <data type="string">
+        <param name="pattern">snapshot|prerelease|released</param>
+      </data>
+    </element>
   </define>
 </grammar>
