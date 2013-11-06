@@ -5,7 +5,7 @@
     <path-format>dos</path-format>
     <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
     <expected-filename>winnt.sif</expected-filename>
-    <can-pre-install-drivers>true</can-pre-install-drivers>
+    <can-pre-install-drivers/>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="reg-product-key" policy="required"/>
@@ -75,7 +75,7 @@
     <path-format>dos</path-format>
     <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
     <expected-filename>winnt.sif</expected-filename>
-    <can-pre-install-drivers>true</can-pre-install-drivers>
+    <can-pre-install-drivers/>
     <config>
       <param name="admin-password" policy="optional"/>
       <param name="reg-product-key" policy="required"/>

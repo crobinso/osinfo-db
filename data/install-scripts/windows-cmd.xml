@@ -4,7 +4,7 @@
     <profile>desktop</profile>
     <path-format>dos</path-format>
     <expected-filename>windows.cmd</expected-filename>
-    <can-post-install-drivers>true</can-post-install-drivers>
+    <can-post-install-drivers/>
     <post-install-drivers-signing-req>strict</post-install-drivers-signing-req>
     <config>
       <param name="admin-password" policy="optional"/>
