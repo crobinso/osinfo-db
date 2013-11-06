@@ -704,9 +704,12 @@
   </define>
 
   <define name='bool'>
-    <data type='string'>
-      <param name='pattern'>true|false</param>
-    </data>
+    <choice>
+      <data type='string'>
+        <param name='pattern'>true|false</param>
+      </data>
+      <empty/>
+    </choice>
   </define>
 
   <define name='num'>
