@@ -964,4 +964,60 @@
       <script id='http://redhat.com/scripts/rhel/desktop'/>
     </installer>
   </os>
+
+  <os id="http://redhat.com/rhel/7.0">
+    <short-id>rhel7.0</short-id>
+    <_name>Red Hat Enterprise Linux 7.0</_name>
+    <version>7.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <upgrades id="http://redhat.com/rhel/6.5"/>
+    <release-status>prerelease</release-status>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
+    </devices>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL-7.0.*i386.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL-7.0.*x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
+  </os>
 </libosinfo>
