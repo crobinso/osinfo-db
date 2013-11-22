@@ -178,9 +178,17 @@ reboot
 %packages
 @core
 @x11
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
 @basic-desktop
 @general-desktop
 @desktop-platform
+  </xsl:when>
+  <xsl:otherwise>
+@gnome-desktop
+@multimedia
+  </xsl:otherwise>
+</xsl:choose>
 @internet-browser
 @input-methods
 
