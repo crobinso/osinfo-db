@@ -338,6 +338,12 @@
         </attribute>
       </optional>
       <optional>
+        <element name='variant'>
+          <attribute name='id'>
+          </attribute>
+        </element>
+      </optional>
+      <optional>
         <element name='url'>
           <ref name='url'/>
         </element>
