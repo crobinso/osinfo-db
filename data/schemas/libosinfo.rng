@@ -215,6 +215,16 @@
     </interleave>
   </define>
 
+  <define name='variant'>
+    <element name='variant'>
+      <attribute name='id'>
+      </attribute>
+      <element name='name'>
+        <text/>
+      </element>
+    </element>
+  </define>
+
   <define name='devices-rel'>
     <element name='devices'>
       <zeroOrMore>
@@ -484,6 +494,9 @@
         <optional>
           <ref name='release-status'/>
         </optional>
+        <zeroOrMore>
+          <ref name='variant'/>
+        </zeroOrMore>
         <zeroOrMore>
           <ref name='resources'/>
         </zeroOrMore>
