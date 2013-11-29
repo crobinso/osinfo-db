@@ -181,10 +181,8 @@ reboot
 @basic-desktop
 @general-desktop
 @desktop-platform
-@internet-applications
 @internet-browser
 @input-methods
-@office-suite
 
 %end
 
