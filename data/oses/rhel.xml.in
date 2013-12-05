@@ -965,6 +965,9 @@
     </installer>
   </os>
 
+  <!-- If you add a new 6.x entry here, please don't forget to update the
+       'upgrades' node under 'rhel7.0' entry below. -->
+
   <os id="http://redhat.com/rhel/7.0">
     <short-id>rhel7.0</short-id>
     <_name>Red Hat Enterprise Linux 7.0</_name>
