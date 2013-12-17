@@ -209,7 +209,6 @@
     <_vendor>Mandriva</_vendor>
     <family>linux</family>
     <distro>mandrake</distro>
-    <codename>Leeloo</codename>
     <version>10.2</version>
     <upgrades id="http://mandriva.com/mandrake/10.1"/>
     <derives-from id="http://mandriva.com/mandrake/10.1"/>
