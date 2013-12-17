@@ -23,6 +23,16 @@
     </devices>
   </os>
 
+  <os id="http://sun.com/solaris/11">
+    <short-id>solaris11</short-id>
+    <_name>Sun Solaris 11</_name>
+    <version>11</version>
+    <_vendor>Sun</_vendor>
+    <family>solaris</family>
+    <distro>solaris</distro>
+    <upgrades id="http://sun.com/solaris/10"/>
+  </os>
+
   <os id="http://oracle.com/opensolaris/2009.06">
     <short-id>opensolaris2009.06</short-id>
     <_name>Sun OpenSolaris 2009.06</_name>
