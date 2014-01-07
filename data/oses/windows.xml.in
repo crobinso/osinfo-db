@@ -795,7 +795,7 @@
     <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>(GSP1RMCENXVOL|GRMCENXVOL|GRMCNENXVOL)_</volume-id>
+        <volume-id>(GSP1RMCENXVOL|GRMCENXVOL|GRMCNENXVOL|GSP1RMCNENXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
