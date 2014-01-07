@@ -1464,7 +1464,7 @@
     <derives-from id="http://fedoraproject.org/fedora/19"/>
 
     <media arch="i686">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-DVD.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 20.* i386</volume-id>
         <system-id>LINUX</system-id>
@@ -1473,7 +1473,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 20.* x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -1483,7 +1483,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/i386/Fedora-Live-Desktop-i686-20-1.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/i386/Fedora-Live-Desktop-i686-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-.*-i686-20</volume-id>
         <system-id>LINUX</system-id>
@@ -1492,7 +1492,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/x86_64/Fedora-Live-Desktop-x86_64-20-1.iso</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Live/x86_64/Fedora-Live-Desktop-x86_64-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-.*-x86_64-20</volume-id>
         <system-id>LINUX</system-id>
@@ -1502,7 +1502,7 @@
     </media>
 
     <tree arch="i686">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/os/</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>20</version>
@@ -1510,7 +1510,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>20</version>
