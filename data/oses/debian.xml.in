@@ -211,6 +211,7 @@
     <version>7</version>
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
+    <distro>debian</distro>
     <upgrades id="http://debian.org/debian/6"/>
     <derives-from id="http://debian.org/debian/6"/>
 
