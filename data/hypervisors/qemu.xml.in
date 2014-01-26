@@ -181,4 +181,76 @@
     <upgrades id="http://qemu.org/1.4.1"/>
   </platform>
 
+  <platform id="http://qemu.org/1.5.1">
+    <short-id>qemu-1.5.1</short-id>
+    <_name>QEMU 1.5.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.5.1</version>
+    <release-date>2013-06-26</release-date>
+    <upgrades id="http://qemu.org/1.5.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.5.2">
+    <short-id>qemu-1.5.2</short-id>
+    <_name>QEMU 1.5.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.5.2</version>
+    <release-date>2013-07-25</release-date>
+    <upgrades id="http://qemu.org/1.5.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.5.3">
+    <short-id>qemu-1.5.3</short-id>
+    <_name>QEMU 1.5.3</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.5.3</version>
+    <release-date>2013-08-27</release-date>
+    <upgrades id="http://qemu.org/1.5.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.6.0">
+    <short-id>qemu-1.6.0</short-id>
+    <_name>QEMU 1.6.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.6.0</version>
+    <release-date>2013-08-15</release-date>
+    <upgrades id="http://qemu.org/1.5.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.6.0">
+    <short-id>qemu-1.6.0</short-id>
+    <_name>QEMU 1.6.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.6.0</version>
+    <release-date>2013-08-15</release-date>
+    <upgrades id="http://qemu.org/1.5.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.6.1">
+    <short-id>qemu-1.6.1</short-id>
+    <_name>QEMU 1.6.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.6.1</version>
+    <release-date>2013-10-09</release-date>
+    <upgrades id="http://qemu.org/1.6.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.6.2">
+    <short-id>qemu-1.6.2</short-id>
+    <_name>QEMU 1.6.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.6.2</version>
+    <release-date>2013-12-16</release-date>
+    <upgrades id="http://qemu.org/1.6.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.7.0">
+    <short-id>qemu-1.7.0</short-id>
+    <_name>QEMU 1.7.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.7.0</version>
+    <release-date>2013-11-28</release-date>
+    <upgrades id="http://qemu.org/1.6.1"/>
+  </platform>
+
 </libosinfo>
