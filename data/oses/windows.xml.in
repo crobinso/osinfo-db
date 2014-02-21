@@ -1013,11 +1013,6 @@
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
     </devices>
-
-    <installer>
-      <script id='http://microsoft.com/windows/unattend/jeos'/>
-      <script id='http://microsoft.com/windows/unattend/desktop'/>
-    </installer>
   </os>
 
 </libosinfo>
