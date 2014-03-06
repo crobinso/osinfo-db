@@ -11,6 +11,9 @@
       <param name="target-disk" policy="optional"/>
       <param name="script-disk" policy="required"/>
     </config>
+    <injection-method>cdrom</injection-method>
+    <injection-method>disk</injection-method>
+    <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -110,6 +113,9 @@ reboot
         <param name="target-disk" policy="optional"/>
         <param name="script-disk" policy="required"/>
     </config>
+    <injection-method>cdrom</injection-method>
+    <injection-method>disk</injection-method>
+    <injection-method>floppy</injection-method>
     <avatar-format>
       <mime-type>image/png</mime-type>
     </avatar-format>
