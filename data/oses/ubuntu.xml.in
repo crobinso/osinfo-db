@@ -1116,6 +1116,10 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
+
+    <installer>
+      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+    </installer>
   </os>
 
   <os id="http://ubuntu.com/ubuntu/12.10">
@@ -1177,6 +1181,10 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
+
+    <installer>
+      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+    </installer>
   </os>
 
   <os id="http://ubuntu.com/ubuntu/13.04">
@@ -1238,6 +1246,10 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
+
+    <installer>
+      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+    </installer>
   </os>
 
   <os id="http://ubuntu.com/ubuntu/13.10">
@@ -1299,5 +1311,9 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
+
+    <installer>
+      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+    </installer>
   </os>
 </libosinfo>
