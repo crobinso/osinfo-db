@@ -12,6 +12,7 @@
       <param name="user-realname" policy="required"/>
       <param name="driver-signing" policy="optional"/>
     </config>
+    <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -84,6 +85,7 @@
       <param name="script-disk" policy="optional"/>
       <param name="driver-signing" policy="optional"/>
     </config>
+    <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

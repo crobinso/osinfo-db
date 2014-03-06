@@ -8,6 +8,7 @@
       <param name="admin-password" policy="optional"/>
       <param name="user-realname" policy="required"/>
     </config>
+    <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

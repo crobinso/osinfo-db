@@ -17,6 +17,7 @@
       <param name="post-install-drivers-location" policy="optional"/>
       <param name="driver-signing" policy="optional"/>
     </config>
+    <injection-method>floppy</injection-method>
     <avatar-format>
       <mime-type>image/bmp</mime-type>
       <width>48</width>

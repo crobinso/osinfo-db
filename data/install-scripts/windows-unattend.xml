@@ -17,6 +17,7 @@
       <param name="pre-install-drivers-disk" policy="optional"/>
       <param name="pre-install-drivers-location" policy="optional"/>
     </config>
+    <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -231,6 +232,7 @@
     <param name="pre-install-drivers-location" policy="optional"/>
     <param name="script-disk" policy="optional"/>
    </config>
+    <injection-method>floppy</injection-method>
     <template>
      <xsl:stylesheet
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
