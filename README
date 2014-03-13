@@ -29,8 +29,8 @@ Dependencies
   - gobject-introspection
   - Vala (build-time only)
 
-Patches sumissions
-==================
+Patch submissions
+=================
 
 Patch submissions are welcomed from any interested contributor. Please
 use the libosinfo list for any patch submissions, or discussions about
