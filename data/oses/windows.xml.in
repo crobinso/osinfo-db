@@ -690,14 +690,14 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL)_</volume-id>
+        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL|FRMCFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL)_</volume-id>
+        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL|FRMCXFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -805,7 +805,7 @@
     <media arch="i686" installer-reboots="2">
       <variant id="ultimate"/>
       <iso>
-        <volume-id>(GRMCULFRER|GSP1RMCNULFRER|GSP1RMCULFRER)_</volume-id>
+        <volume-id>(GRMCULFRER|GSP1RMCNULFRER|GSP1RMCULFRER|GRMCNULFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -813,7 +813,7 @@
     <media arch="x86_64" installer-reboots="2">
       <variant id="ultimate"/>
       <iso>
-        <volume-id>(GRMCULXFRER|GSP1RMCNULXFRER)_</volume-id>
+        <volume-id>(GRMCULXFRER|GSP1RMCNULXFRER|GRMCNULXFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
