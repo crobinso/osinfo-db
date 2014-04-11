@@ -583,7 +583,14 @@
     <distro>freebsd</distro>
     <upgrades id="http://freebsd.org/freebsd/9.2"/>
     <derives-from id="http://freebsd.org/freebsd/9.2"/>
-    <release-status>snapshot</release-status>
+
+    <release-date>2014-01-20</release-date>
+    <eol-date>2015-01-31</eol-date>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-blockk -->
+    </devices>
   </os>
 
 
