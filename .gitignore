@@ -38,6 +38,7 @@ osinfo/Libosinfo-1.0.gir
 osinfo/Libosinfo-1.0.typelib
 osinfo/libosinfo-1.0.vapi
 osinfo/osinfo_enum_types.[ch]
+osinfo/osinfo_version.h
 *.gcno
 *.gcda
 coverage/
