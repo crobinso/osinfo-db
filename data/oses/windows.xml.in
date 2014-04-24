@@ -769,7 +769,7 @@
     <media arch="i686" installer-reboots="2">
       <variant id="professional"/>
       <iso>
-        <volume-id>(GSP1RMCNPRFRER|GSP1RMCN*PRX*FRER|GSP1RMCPRVOL)_</volume-id>
+        <volume-id>(GSP1RMCN?PRFRER|GSP1RMCPRVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -777,7 +777,7 @@
     <media arch="x86_64" installer-reboots="2">
       <variant id="professional"/>
       <iso>
-        <volume-id>(GSP1RMCPRXFRER|GSP1RMCPRXVOL)_</volume-id>
+        <volume-id>(GSP1RMCN?PRXFRER|GSP1RMCPRXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
