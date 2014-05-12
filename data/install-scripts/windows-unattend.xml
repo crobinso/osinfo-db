@@ -69,6 +69,17 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="ui-language">
+          <xsl:choose>
+            <xsl:when test="config/l10n-language = 'EN-GB'">
+              <xsl:text>EN-US</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="config/l10n-language"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
 	<xsl:template match="/install-script-config">
 	  <unattend xmlns="urn:schemas-microsoft-com:unattend">
 	    <settings pass="windowsPE">
@@ -132,10 +143,10 @@
 		  <xsl:call-template name="arch"/>
 		</xsl:attribute>
 		<SetupUILanguage>
-		  <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+		  <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
 		</SetupUILanguage>
 		<SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
-		<UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+		<UILanguage><xsl:call-template name="ui-language"/></UILanguage>
 		<UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
 	      </component>
 	    </settings>
@@ -298,6 +309,17 @@
        </xsl:choose>
      </xsl:template>
 
+     <xsl:template name="ui-language">
+       <xsl:choose>
+         <xsl:when test="config/l10n-language = 'EN-GB'">
+           <xsl:text>EN-US</xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+           <xsl:value-of select="config/l10n-language"/>
+         </xsl:otherwise>
+       </xsl:choose>
+     </xsl:template>
+
      <xsl:template match="/install-script-config">
       <unattend xmlns="urn:schemas-microsoft-com:unattend">
        <settings pass="windowsPE">
@@ -361,10 +383,10 @@
           <xsl:call-template name="arch"/>
          </xsl:attribute>
          <SetupUILanguage>
-          <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+          <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
          </SetupUILanguage>
          <SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
-         <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+         <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
          <UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
         </component>
        </settings>
