@@ -329,6 +329,11 @@
 	<application-id>OpenBSD 5.4 amd64 Install CD</application-id>
       </iso>
     </media>
+
+    <devices>
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
+    </devices>
   </os>
 
   <os id="http://openbsd.org/openbsd/5.5">
