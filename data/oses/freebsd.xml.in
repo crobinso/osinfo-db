@@ -589,7 +589,7 @@
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-blockk -->
+      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
     </devices>
   </os>
 
