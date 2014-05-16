@@ -207,6 +207,99 @@
     </media>
   </os>
 
+  <os id="http://openbsd.org/openbsd/5.1">
+    <short-id>openbsd5.1</short-id>
+    <_name>OpenBSD 5.1</_name>
+    <version>5.1</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+    <upgrades id='http://openbsd.org/openbsd/5.0'/>
+    <derives-from id='http://openbsd.org/openbsd/5.0'/>
+
+    <release-date>2012-05-01</release-date>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    5.1 Install CD</volume-id>
+	<application-id>OpenBSD 5.1 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   5.1 Install CD</volume-id>
+	<application-id>OpenBSD 5.1 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/5.2">
+    <short-id>openbsd5.2</short-id>
+    <_name>OpenBSD 5.2</_name>
+    <version>5.2</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+    <upgrades id='http://openbsd.org/openbsd/5.1'/>
+    <derives-from id='http://openbsd.org/openbsd/5.1'/>
+
+    <release-date>2012-11-01</release-date>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    5.2 Install CD</volume-id>
+	<application-id>OpenBSD 5.2 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   5.2 Install CD</volume-id>
+	<application-id>OpenBSD 5.2 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
+  <os id="http://openbsd.org/openbsd/5.3">
+    <short-id>openbsd5.3</short-id>
+    <_name>OpenBSD 5.3</_name>
+    <version>5.3</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+    <upgrades id='http://openbsd.org/openbsd/5.2'/>
+    <derives-from id='http://openbsd.org/openbsd/5.2'/>
+
+    <release-date>2013-05-01</release-date>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    5.3 Install CD</volume-id>
+	<application-id>OpenBSD 5.3 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   5.3 Install CD</volume-id>
+	<application-id>OpenBSD 5.3 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+
   <os id="http://openbsd.org/openbsd/5.4">
     <short-id>openbsd5.4</short-id>
     <_name>OpenBSD 5.4</_name>
