@@ -277,4 +277,44 @@
     </installer>
   </os>
 
+  <os id="http://centos.org/centos/7.0">
+    <short-id>centos7.0</short-id>
+    <_name>CentOS 7.0</_name>
+    <version>7.0</version>
+    <_vendor>CentOS</_vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos/6.5"/>
+    <clones id="http://redhat.com/rhel/7.0"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*CentOS 7 x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/scripts/rhel/jeos'/>
+      <script id='http://redhat.com/scripts/rhel/desktop'/>
+    </installer>
+  </os>
+
 </libosinfo>
