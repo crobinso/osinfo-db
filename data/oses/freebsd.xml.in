@@ -585,24 +585,6 @@
 
     <release-date>2014-07-15</release-date>
     <eol-date>2016-12-31</eol-date>
-
-    <media arch='i686'>
-      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/amd64/amd64/ISO-IMAGES/9.3/FreeBSD-9.3-RELEASE-amd64-disc1.iso</url>
-      <iso>
-        <publisher-id>THE FREEBSD PROJECT.  HTTP://WWW.FREEBSD.ORG/</publisher-id>
-        <system-id>FreeBSD</system-id>
-        <volume-id>FREEBSD_INSTALL</volume-id>
-      </iso>
-    </media>
-
-    <media arch='x86_64'>
-      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/i386/i386/ISO-IMAGES/9.3/FreeBSD-9.3-RELEASE-i386-disc1.iso</url>
-      <iso>
-        <publisher-id>THE FREEBSD PROJECT.  HTTP://WWW.FREEBSD.ORG/</publisher-id>
-        <system-id>FreeBSD</system-id>
-        <volume-id>FREEBSD_INSTALL</volume-id>
-      </iso>
-    </media>
   </os>
 
   <os id="http://freebsd.org/freebsd/10.0">
