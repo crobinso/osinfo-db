@@ -755,6 +755,16 @@
       <_name>Microsoft Windows 7 Ultimate</_name>
     </variant>
 
+    <!-- Starter -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="starter"/>
+      <iso>
+        <volume-id>(GSP1RMCSTFREO)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
     <!-- Home Premium -->
     <media arch="x86_64" installer-reboots="2">
       <variant id="home-premium"/>
