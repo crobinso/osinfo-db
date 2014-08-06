@@ -1002,6 +1002,21 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <resources arch="ppc64">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
