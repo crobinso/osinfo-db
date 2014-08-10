@@ -103,4 +103,178 @@ d-i finish-install/reboot_in_progress note
       </xsl:stylesheet>
     </template>
   </install-script>
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://debian.org/scripts/debian/desktop'>
+    <profile>desktop</profile>
+    <expected-filename>preseed.cfg</expected-filename>
+    <can-pre-install-drivers>true</can-pre-install-drivers>
+    <config>
+      <!-- Localization options -->
+      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-timezone" policy="optional"/>
+
+      <!-- User options -->
+      <param name="user-login" policy="required"/>
+      <param name="user-fullname" policy="optional"/>
+      <!-- This MUST be nonempty. Can we enforce this? -->
+      <param name="user-password" policy="required"/>
+      <param name="admin-password" policy="required"/>
+
+      <!-- Misc -->
+      <param name="hostname" policy="optional"/>
+      <param name="domain" policy="optional"/>
+      <param name="target-disk" policy="optional"/>
+    </config>
+    <injection-method>initrd</injection-method>
+    <needs-internet>true</needs-internet>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="hostname">
+          <xsl:choose>
+            <xsl:when test="config/hostname != ''">
+              <xsl:value-of select="config/hostname"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="os/short-id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="user-fullname">
+          <xsl:choose>
+            <xsl:when test="config/user-fullname != ''">
+              <xsl:value-of select="config/user-fullname"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="config/user-login"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="l10n-language">
+          <xsl:choose>
+            <xsl:when test="config/l10n-language != '' and config/l10n-language != 'C'">
+              <xsl:value-of select="config/l10n-language"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>en_US</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="l10n-keyboard">
+          <xsl:choose>
+            <xsl:when test="config/l10n-keyboard != '' and config/l10n-keyboard != 'C'">
+              <xsl:value-of select="config/l10n-keyboard"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>us</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text> keyboard-configuration/xkb-keymap=</xsl:text>
+            <xsl:call-template name="l10n-keyboard"/>
+            <xsl:text> debconf/priority=critical</xsl:text>
+        </xsl:template>
+
+<xsl:template match="/install-script-config">
+# For inspiration and explanations see:
+# http://sfxpt.wordpress.com/2013/06/09/get-the-debianubuntu-ready-and-customized-the-way-you-like-in-10-minutes/
+
+### Network
+d-i netcfg/choose_interface select auto
+d-i netcfg/get_hostname string <xsl:call-template name="hostname"/>
+d-i netcfg/get_domain string <xsl:value-of select="config/domain"/>
+d-i netcfg/disable_dhcp boolean false
+
+
+### Localization
+d-i debian-installer/locale string <xsl:call-template name="l10n-language"/>
+d-i debian-installer/splash boolean false
+d-i console-setup/ask_detect boolean false
+
+
+### Time
+d-i clock-setup/ntp boolean true
+d-i clock-setup/utc boolean true
+d-i time/zone select <xsl:value-of select="config/l10n-timezone"/>
+
+
+### Account setup
+
+## Root
+d-i passwd/root-login boolean true
+d-i passwd/root-password password <xsl:value-of select="config/admin-password"/>
+d-i passwd/root-password-again password <xsl:value-of select="config/admin-password"/>
+
+## User
+d-i user-setup/allow-password-weak boolean true
+d-i user-setup/encrypt-home boolean false
+d-i passwd/user-fullname string <xsl:call-template name="user-fullname"/>
+d-i passwd/username <xsl:value-of select="config/user-login"/>
+d-i passwd/user-password password <xsl:value-of select="config/user-password"/>
+d-i passwd/user-password-again password <xsl:value-of select="config/user-password"/>
+
+
+### Partitioning
+d-i partman-auto/disk string <xsl:call-template name="target-disk"/>
+d-i partman-auto/method string regular
+d-i partman-auto/choose_recipe select home
+d-i partman/default_filesystem string ext4
+d-i partman-auto/purge_lvm_from_device boolean true
+# avoid any confirmation
+d-i partman/choose_partition select finish
+d-i partman/confirm_write_new_label boolean true
+d-i partman/confirm_nooverwrite boolean true
+d-i partman/confirm boolean true
+
+
+### Apt
+d-i apt-setup/security_host string
+d-i apt-setup/services-select multiselect
+d-i apt-setup/volatile_host string
+d-i apt-setup/security_host string
+
+
+### Software selection
+tasksel tasksel/first multiselect desktop
+
+
+### Bootloader
+
+## Dont use LILO
+d-i lilo-installer/skip boolean true
+
+## GRUB settings
+# Workaround for https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=666974
+d-i grub-installer/only_debian boolean false
+d-i grub-installer/bootdev string <xsl:call-template name="target-disk"/>
+
+
+### Cleanup
+d-i finish-install/reboot_in_progress note
+</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
 </libosinfo>

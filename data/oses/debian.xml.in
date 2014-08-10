@@ -256,6 +256,7 @@
 
     <installer>
       <script id='http://debian.org/scripts/debian/jeos'/>
+      <script id='http://debian.org/scripts/debian/desktop'/>
     </installer>
   </os>
 
