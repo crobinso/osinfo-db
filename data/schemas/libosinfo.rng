@@ -597,6 +597,11 @@
           </element>
         </optional>
         <optional>
+          <element name='needs-internet'>
+            <ref name='bool'/>
+          </element>
+        </optional>
+        <optional>
           <element name='can-pre-install-drivers'>
             <ref name='bool'/>
           </element>
