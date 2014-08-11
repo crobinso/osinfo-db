@@ -402,6 +402,29 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
+    <media arch="i686" live="true">
+      <url>http://download.opensuse.org/distribution/13.1/iso/openSUSE-13.1-GNOME-Live-i686.iso</url>
+      <iso>
+        <volume-id>openSUSE 13.1 .* Live</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <application-id>(0x3a19c523|0x675aadc1)</application-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://download.opensuse.org/distribution/13.1/iso/openSUSE-13.1-GNOME-Live-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE 13.1 .* Live</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <application-id>(0x601bf7b2|0xa893698d)</application-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
     <resources arch="all">
     <!-- http://en.opensuse.org/Hardware_requirements -->
       <minimum>
