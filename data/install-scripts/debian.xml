@@ -84,8 +84,17 @@ d-i partman/confirm_nooverwrite boolean true
 
 d-i passwd/root-login boolean true
 d-i passwd/make-user boolean false
+<xsl:choose>
+  <xsl:when test="config/admin-password = ''">
+# Real password will be set later
+d-i passwd/root-password password dummyPa55w0rd
+d-i passwd/root-password-again password dummyPa55w0rd
+  </xsl:when>
+  <xsl:otherwise>
 d-i passwd/root-password password <xsl:value-of select="config/admin-password"/>
 d-i passwd/root-password-again password <xsl:value-of select="config/admin-password"/>
+  </xsl:otherwise>
+</xsl:choose>
 
 tasksel tasksel/first multiselect standard
 
@@ -99,6 +108,14 @@ d-i apt-setup/volatile_host string
 d-i apt-setup/security_host string
 
 d-i finish-install/reboot_in_progress note
+
+<xsl:choose>
+  <xsl:when test="config/admin-password = ''">
+# Delete password
+d-i preseed/late_command string in-target passwd -d root
+  </xsl:when>
+</xsl:choose>
+
 </xsl:template>
       </xsl:stylesheet>
     </template>
@@ -118,9 +135,8 @@ d-i finish-install/reboot_in_progress note
       <!-- User options -->
       <param name="user-login" policy="required"/>
       <param name="user-fullname" policy="optional"/>
-      <!-- This MUST be nonempty. Can we enforce this? -->
-      <param name="user-password" policy="required"/>
-      <param name="admin-password" policy="required"/>
+      <param name="user-password" policy="optional"/>
+      <param name="admin-password" policy="optional"/>
 
       <!-- Misc -->
       <param name="hostname" policy="optional"/>
@@ -224,16 +240,34 @@ d-i time/zone select <xsl:value-of select="config/l10n-timezone"/>
 
 ## Root
 d-i passwd/root-login boolean true
+<xsl:choose>
+  <xsl:when test="config/admin-password = ''">
+# Real password will be set later
+d-i passwd/root-password password dummyPa55w0rd
+d-i passwd/root-password-again password dummyPa55w0rd
+  </xsl:when>
+  <xsl:otherwise>
 d-i passwd/root-password password <xsl:value-of select="config/admin-password"/>
 d-i passwd/root-password-again password <xsl:value-of select="config/admin-password"/>
+  </xsl:otherwise>
+</xsl:choose>
 
 ## User
 d-i user-setup/allow-password-weak boolean true
 d-i user-setup/encrypt-home boolean false
 d-i passwd/user-fullname string <xsl:call-template name="user-fullname"/>
 d-i passwd/username <xsl:value-of select="config/user-login"/>
+<xsl:choose>
+  <xsl:when test="config/user-password = ''">
+# Real password will be set later
+d-i passwd/user-password password dummyPa55w0rd
+d-i passwd/user-password-again password dummyPa55w0rd
+  </xsl:when>
+  <xsl:otherwise>
 d-i passwd/user-password password <xsl:value-of select="config/user-password"/>
 d-i passwd/user-password-again password <xsl:value-of select="config/user-password"/>
+  </xsl:otherwise>
+</xsl:choose>
 
 
 ### Partitioning
@@ -273,6 +307,21 @@ d-i grub-installer/bootdev string <xsl:call-template name="target-disk"/>
 
 ### Cleanup
 d-i finish-install/reboot_in_progress note
+
+<xsl:choose>
+  <xsl:when test="config/admin-password = ''">
+# Delete root password
+d-i preseed/late_command string in-target passwd -d root
+  </xsl:when>
+</xsl:choose>
+
+<xsl:choose>
+  <xsl:when test="config/user-password = ''">
+# Delete user password
+d-i preseed/late_command string in-target passwd -d <xsl:value-of select="config/user-login"/>
+  </xsl:when>
+</xsl:choose>
+
 </xsl:template>
       </xsl:stylesheet>
     </template>
