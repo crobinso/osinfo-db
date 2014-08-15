@@ -12,6 +12,11 @@
       <param name="target-disk" policy="optional"/>
     </config>
     <injection-method>initrd</injection-method>
+    <!-- FIXME: The need of an internet connection may be avoidable. It is
+         necessary for now since in this version the debian installer will
+         error out with a "bad archive mirror" message and refuse to continue
+         without user input. -->
+    <needs-internet>true</needs-internet>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
