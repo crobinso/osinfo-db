@@ -232,8 +232,8 @@
       </minimum>
       <recommended>
         <cpu>1000000000</cpu>
-        <ram>536870912</ram>
-        <storage>5368709120</storage>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
       </recommended>
     </resources>
 
