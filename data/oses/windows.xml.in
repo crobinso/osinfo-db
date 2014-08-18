@@ -1025,4 +1025,17 @@
     </devices>
   </os>
 
+  <os id="http://microsoft.com/win/2k12">
+    <short-id>win2k12</short-id>
+    <_name>Microsoft Windows Server 2012</_name>
+    <version>6.3</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k8r2"/>
+    <upgrades id="http://microsoft.com/win/2k8r2"/>
+
+    <release-date>2012-09-04</release-date>
+  </os>
+
 </libosinfo>
