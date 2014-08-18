@@ -1038,4 +1038,25 @@
     <release-date>2012-09-04</release-date>
   </os>
 
+  <os id="http://microsoft.com/win/2k12r2">
+    <short-id>win2k12r2</short-id>
+    <_name>Microsoft Windows Server 2012 R2</_name>
+    <version>6.3</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k12"/>
+    <upgrades id="http://microsoft.com/win/2k12"/>
+
+    <release-date>2013-10-18</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(IRM_SSS_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+  </os>
+
 </libosinfo>
