@@ -989,14 +989,14 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>(IRM_CENNA_X86FREV|IRM_CENA_X86FREV|IRM_CCSNA_X86FRE|IRM_CPRNA_X86FREV|IRM_CPRA_X86FREV|IRM_CCSA_X86FRE)_</volume-id>
+        <volume-id>(IRM_CENNA_X86FREV|IRM_CENA_X86FREV|IRM_CCSNA_X86FRE|IRM_CPRNA_X86FREV|IRM_CPRA_X86FREV|IRM_CCSA_X86FRE|IR3_CCSNA_X86FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>(IRM_CENNA_X64FREV|IRM_CENA_X64FREV|IR1_CENA_X64FREV|IRM_CCSNA_X64FRE|IRM_CPRNA_X64FREV|IRM_CPRA_X64FREV|IRM_CCSA_X64FRE)_</volume-id>
+        <volume-id>(IRM_CENNA_X64FREV|IRM_CENA_X64FREV|IR1_CENA_X64FREV|IRM_CCSNA_X64FRE|IRM_CPRNA_X64FREV|IRM_CPRA_X64FREV|IRM_CCSA_X64FRE|IR3_CCSNA_X64FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
