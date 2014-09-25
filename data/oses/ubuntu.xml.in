@@ -1326,8 +1326,8 @@
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Trusty Tahr</codename>
-    <upgrades id="http://ubuntu.com/ubuntu/14.04"/>
-    <derives-from id="http://ubuntu.com/ubuntu/14.04"/>
+    <upgrades id="http://ubuntu.com/ubuntu/13.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/13.10"/>
 
     <release-date>2014-04-26</release-date>
     <eol-date>2019-04-01</eol-date>
