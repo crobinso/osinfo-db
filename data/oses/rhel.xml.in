@@ -1135,6 +1135,15 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>RHELSA-.* Server\.aarch64</volume-id>
+      </iso>
+       <kernel>isolinux/vmlinuz</kernel>
+       <initrd>isolinux/initrd.img</initrd>
+     </media>
+
     <resources arch="ppc64">
       <minimum>
         <n-cpus>1</n-cpus>
