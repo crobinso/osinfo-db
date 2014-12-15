@@ -1545,51 +1545,74 @@
 
     <release-date>2014-12-03</release-date>
 
-    <media arch="i686">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/
-Fedora/i386/iso/Fedora-21-i386-DVD.iso</url> -->
-      <iso>
-        <volume-id>Fedora.*21.*-i386</volume-id>
-        <system-id>LINUX</system-id>
-      </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
-    </media>
-    <media arch="x86_64">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/
-Fedora/x86_64/iso/Fedora-21-x86_64-DVD.iso</url> -->
-      <iso>
-        <volume-id>Fedora.*-21.*-x86_64</volume-id>
-        <system-id>LINUX</system-id>
-      </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
-    </media>
+    <variant id="workstation">
+      <_name>Fedora 21 Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora 21 Server</_name>
+    </variant>
+    <variant id="cloud">
+      <_name>Fedora 21 Cloud</_name>
+    </variant>
 
-    <!-- Workstation live media has a truncated volume ID at the moment
-         which doesn't include the actual Fedora version, so this won't work
-         https://bugzilla.redhat.com/show_bug.cgi?id=1145264 -->
+    <!-- Workstation -->
+
+    <!-- NOTE: There is no installer media for Workstation and even though Server
+               netiso is actually generic enough to let user install
+               Workstation as well, both netiso and full installer ISO have the
+               exact same volume-id so we can't simply assign netiso a (fake)
+               generic variant and be done with it. :( For more details:
+
+              https://bugzilla.redhat.com/show_bug.cgi?id=1178787
+    !-->
+
     <media arch="i686" live="true">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Live/i386/Fedora-Live-Desktop-i686-21-1.iso</url> -->
+      <variant id="workstation"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Workstation/i386/iso/Fedora-Live-Workstation-i686-21-5.iso</url>
       <iso>
-        <volume-id>Fedora-Live-.*-i686-21</volume-id>
+        <volume-id>Fedora-Live-WS-i686-21.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Live/x86_64/Fedora-Live-Desktop-x86_64-21-1.iso</url> -->
+      <variant id="workstation"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Workstation/x86_64/iso/Fedora-Live-Workstation-x86_64-21-5.iso</url>
       <iso>
-        <volume-id>Fedora-Live-.*-x86_64-21</volume-id>
+        <volume-id>Fedora-Live-WS-x86_64-21.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
     </media>
 
+    <!-- Server -->
+
+    <media arch="i686">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/i386/iso/Fedora-Server-DVD-i386-21.iso</url>
+      <iso>
+        <volume-id>Fedora-S.*21.*-i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/x86_64/iso/Fedora-Server-DVD-x86_64-21.iso</url>
+      <iso>
+        <volume-id>Fedora-S.*-21.*-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
     <tree arch="i686">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Fedora/i386/os/</url> -->
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>21</version>
@@ -1597,7 +1620,50 @@ Fedora/x86_64/iso/Fedora-21-x86_64-DVD.iso</url> -->
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Fedora/x86_64/os/</url> -->
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/x86_64/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>21</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <!-- Cloud -->
+
+    <media arch="i686">
+      <variant id="cloud"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/i386/iso/Fedora-Cloud-netinst-i386-21.iso</url>
+      <iso>
+        <volume-id>Fedora-C.*21.*-i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="cloud"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/x86_64/iso/Fedora-Cloud-netinst-x86_64-21.iso</url>
+      <iso>
+        <volume-id>Fedora-C.*-21.*-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/i386/os/</url>
+      <variant id="cloud"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>21</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Cloud/x86_64/os/</url>
+      <variant id="cloud"/>
       <treeinfo>
         <family>Fedora</family>
         <version>21</version>
