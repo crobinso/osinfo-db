@@ -1542,7 +1542,8 @@
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/20"/>
     <derives-from id="http://fedoraproject.org/fedora/20"/>
-    <release-status>prerelease</release-status>
+
+    <release-date>2014-12-03</release-date>
 
     <media arch="i686">
       <!-- <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/
