@@ -779,7 +779,7 @@
     <media arch="i686" installer-reboots="2">
       <variant id="professional"/>
       <iso>
-        <volume-id>(GSP1RMCN?PRFRER|GSP1RMCPRVOL)_</volume-id>
+        <volume-id>(GSP1RMCN?PRFRER|GSP1RMCPRVOL|GRMCPRFREO)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
