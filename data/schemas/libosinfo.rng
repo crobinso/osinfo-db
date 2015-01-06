@@ -337,21 +337,21 @@
           <ref name='num'/>
         </attribute>
       </optional>
-      <optional>
-        <element name='variant'>
-          <attribute name='id'>
-          </attribute>
-        </element>
-      </optional>
-      <optional>
-        <element name='url'>
-          <ref name='url'/>
-        </element>
-      </optional>
-      <optional>
-        <ref name='iso'/>
-      </optional>
       <interleave>
+        <optional>
+          <element name='variant'>
+            <attribute name='id'>
+            </attribute>
+          </element>
+        </optional>
+        <optional>
+          <element name='url'>
+            <ref name='url'/>
+          </element>
+        </optional>
+        <optional>
+          <ref name='iso'/>
+        </optional>
         <optional>
           <element name='initrd'>
             <text/>
@@ -414,21 +414,21 @@
       <attribute name='arch'>
         <ref name='archnames'/>
       </attribute>
-      <optional>
-        <element name='variant'>
-          <attribute name='id'>
-          </attribute>
-        </element>
-      </optional>
-      <optional>
-        <element name='url'>
-          <ref name='url'/>
-        </element>
-      </optional>
-      <optional>
-        <ref name='treeinfo'/>
-      </optional>
       <interleave>
+        <optional>
+          <element name='variant'>
+            <attribute name='id'>
+            </attribute>
+          </element>
+        </optional>
+        <optional>
+          <element name='url'>
+            <ref name='url'/>
+          </element>
+        </optional>
+        <optional>
+          <ref name='treeinfo'/>
+        </optional>
         <optional>
           <element name='initrd'>
             <text/>
