@@ -104,7 +104,7 @@ langsupport --default <xsl:value-of select="config/l10n-language"/> <xsl:value-o
 mouse generic3ps/2 --device psaux
 </xsl:if>
 skipx
-network --device eth0 --bootproto dhcp
+network --bootproto dhcp
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
 authconfig --enableshadow --enablemd5
@@ -254,7 +254,7 @@ install
 cdrom
 keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
-network --onboot yes --device eth0 --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
+network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
 firewall --disabled
 authconfig --enableshadow --enablemd5
