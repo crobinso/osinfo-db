@@ -72,7 +72,15 @@ zerombr
 
 clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
+
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
+part /boot --fstype ext4 --size=1024 --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:when>
+  <xsl:otherwise>
 part /boot --fstype ext4 --recommended --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:otherwise>
+</xsl:choose>
 part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
 volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
@@ -174,7 +182,14 @@ clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
 firstboot --disable
 
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
+part /boot --fstype ext4 --size=1024 --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:when>
+  <xsl:otherwise>
 part /boot --fstype ext4 --recommended --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:otherwise>
+</xsl:choose>
 part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
 volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
