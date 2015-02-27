@@ -310,6 +310,11 @@
             <text/>
           </element>
         </optional>
+        <optional>
+          <element name='volume-size'>
+            <ref name='num'/>
+          </element>
+        </optional>
         <zeroOrMore>
           <ref name='media-lang'/>
         </zeroOrMore>
