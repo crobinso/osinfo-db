@@ -3928,6 +3928,7 @@
       <iso>
         <volume-id>Fedora-Live-WS-i686-21.*</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>1335937024</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
@@ -3938,6 +3939,7 @@
       <iso>
         <volume-id>Fedora-Live-WS-x86_64-21.*</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>1471502336</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
@@ -3951,6 +3953,7 @@
       <iso>
         <volume-id>Fedora-S.*21.*-i386</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>2153469952</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -3961,6 +3964,7 @@
       <iso>
         <volume-id>Fedora-S.*-21.*-x86_64</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>2047315968</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -3993,6 +3997,7 @@
       <iso>
         <volume-id>Fedora-C.*21.*-i386</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>505688064</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -4003,6 +4008,7 @@
       <iso>
         <volume-id>Fedora-C.*-21.*-x86_64</volume-id>
         <system-id>LINUX</system-id>
+        <volume-size>444221440</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
