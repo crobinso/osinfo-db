@@ -3947,6 +3947,7 @@
 
     <!-- Server -->
 
+    <!-- DVD -->
     <media arch="i686">
       <variant id="server"/>
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/i386/iso/Fedora-Server-DVD-i386-21.iso</url>
@@ -3965,6 +3966,30 @@
         <volume-id>Fedora-S.*-21.*-x86_64</volume-id>
         <system-id>LINUX</system-id>
         <volume-size>2047315968</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer -->
+    <media arch="i686">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/i386/iso/Fedora-Server-netinst-i386-21.iso</url>
+      <iso>
+        <volume-id>Fedora-S.*21.*-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>505403392</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/x86_64/iso/Fedora-Server-netinst-x86_64-21.iso</url>
+      <iso>
+        <volume-id>Fedora-S.*-21.*-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>444067840</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
