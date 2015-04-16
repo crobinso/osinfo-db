@@ -34,6 +34,17 @@
     </devices>
   </os>
 
+  <os id="http://suse.com/sles/12">
+    <short-id>sles12</short-id>
+    <_name>SUSE Linux Enterprise Server 12</_name>
+    <version>12</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+    <upgrades id="http://suse.com/sles/11"/>
+    <derives-from id="http://suse.com/sles/11"/>
+  </os>
+
   <os id="http://suse.com/sled/9">
     <short-id>sled9</short-id>
     <_name>SUSE Linux Enterprise Desktop 9</_name>
@@ -72,6 +83,28 @@
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/10"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
+  </os>
+
+  <os id="http://suse.com/sled/12">
+    <short-id>sled12</short-id>
+    <_name>SUSE Linux Enterprise Desktop 12</_name>
+    <version>12</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sled</distro>
+    <upgrades id="http://suse.com/sled/11"/>
+    <derives-from id="http://suse.com/sled/11"/>
 
     <resources arch="all">
       <minimum>
