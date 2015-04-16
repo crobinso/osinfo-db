@@ -4,7 +4,7 @@
     <short-id>sles9</short-id>
     <_name>SUSE Linux Enterprise Server 9</_name>
     <version>9</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sles</distro>
   </os>
@@ -13,7 +13,7 @@
     <short-id>sles10</short-id>
     <_name>SUSE Linux Enterprise Server 10</_name>
     <version>10</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/9"/>
@@ -23,7 +23,7 @@
     <short-id>sles11</short-id>
     <_name>SUSE Linux Enterprise Server 11</_name>
     <version>11</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/10"/>
@@ -38,7 +38,7 @@
     <short-id>sled9</short-id>
     <_name>SUSE Linux Enterprise Desktop 9</_name>
     <version>9</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sled</distro>
   </os>
@@ -47,7 +47,7 @@
     <short-id>sled10</short-id>
     <_name>SUSE Linux Enterprise Desktop 10</_name>
     <version>10</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/9"/>
@@ -68,7 +68,7 @@
     <short-id>sled11</short-id>
     <_name>SUSE Linux Enterprise Desktop 11</_name>
     <version>11</version>
-    <_vendor>Novell</_vendor>
+    <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/10"/>
