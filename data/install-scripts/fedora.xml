@@ -94,8 +94,10 @@
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+<xsl:if test="count(media/variant) = 0 or media/variant != 'netinst'">
 install
 cdrom
+</xsl:if>
 text
 keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
@@ -126,6 +128,12 @@ volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 reboot
+
+<xsl:if test="media/variant = 'netinst'">
+repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
+repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
+url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-$releasever&amp;arch=$basearch
+</xsl:if>
 
 %packages
 <xsl:choose>
@@ -250,8 +258,10 @@ reboot
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+<xsl:if test="count(media/variant) = 0 or media/variant != 'netinst'">
 install
 cdrom
+</xsl:if>
 keyboard '<xsl:call-template name="keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
@@ -273,6 +283,12 @@ volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 reboot
+
+<xsl:if test="media/variant = 'netinst'">
+repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
+repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
+url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-$releasever&amp;arch=$basearch
+</xsl:if>
 
 %packages
 <xsl:choose>
