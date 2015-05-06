@@ -3907,6 +3907,9 @@
     <variant id="server">
       <_name>Fedora 21 Server</_name>
     </variant>
+    <variant id="netinst">
+      <_name>Fedora 21</_name>
+    </variant>
     <variant id="cloud">
       <_name>Fedora 21 Cloud</_name>
     </variant>
@@ -3971,9 +3974,14 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
-    <!-- Network Installer -->
+    <!-- Network Installer
+
+         Although these ISOs are branded as 'Server', they are pretty generic. For details:
+
+         https://bugzilla.redhat.com/show_bug.cgi?id=1178787
+     !-->
     <media arch="i686">
-      <variant id="server"/>
+      <variant id="netinst"/>
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/i386/iso/Fedora-Server-netinst-i386-21.iso</url>
       <iso>
         <volume-id>Fedora-S.*21.*-i386</volume-id>
@@ -3984,7 +3992,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <variant id="server"/>
+      <variant id="netinst"/>
       <url>http://download.fedoraproject.org/pub/fedora/linux/releases/21/Server/x86_64/iso/Fedora-Server-netinst-x86_64-21.iso</url>
       <iso>
         <volume-id>Fedora-S.*-21.*-x86_64</volume-id>
