@@ -4075,11 +4075,10 @@
       </minimum>
     </resources>
 
-    <!-- Lets uncomment these after testing them -->
-    <!--<installer>
+    <installer>
       <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
       <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
-    </installer>-->
+    </installer>
   </os>
 
 
