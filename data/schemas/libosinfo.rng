@@ -700,6 +700,7 @@
   </define>
   <define name='archnames'>
     <choice>
+      <value>aarch64</value>
       <value>alpha</value>
       <value>armv7l</value>
       <value>cris</value>
@@ -718,6 +719,7 @@
       <value>parisc64</value>
       <value>ppc</value>
       <value>ppc64</value>
+      <value>ppc64le</value>
       <value>ppcemb</value>
       <value>s390</value>
       <value>s390x</value>
