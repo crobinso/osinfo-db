@@ -690,15 +690,15 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRMBVOL|FRMEVOL|FRMCFRE)_</volume-id>
+        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRTMEVOL|FRMBVOL|FRMEVOL|FRMCFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMBXVOL|FRMEXVOL|FRMCXFRE)_</volume-id>
-        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRTMEXVOL|FRMBXVOL|FRMEXVOL)_</volume-id>
+       <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
