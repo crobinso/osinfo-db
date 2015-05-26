@@ -94,7 +94,7 @@
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
-<xsl:if test="count(media/variant) = 0 or media/variant != 'netinst'">
+<xsl:if test="count(media/variant) = 0 or not(contains(media/variant, 'netinst'))">
 install
 cdrom
 </xsl:if>
@@ -129,7 +129,7 @@ logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow 
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 reboot
 
-<xsl:if test="media/variant = 'netinst'">
+<xsl:if test="contains(media/variant, 'netinst')">
 repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
 repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
 url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-$releasever&amp;arch=$basearch
@@ -258,7 +258,7 @@ url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
-<xsl:if test="count(media/variant) = 0 or media/variant != 'netinst'">
+<xsl:if test="count(media/variant) = 0 or not(contains(media/variant, 'netinst'))">
 install
 cdrom
 </xsl:if>
@@ -284,7 +284,7 @@ logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow 
 logvol / --fstype <xsl:call-template name="rootfs"/> --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 reboot
 
-<xsl:if test="media/variant = 'netinst'">
+<xsl:if test="contains(media/variant, 'netinst')">
 repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
 repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
 url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-$releasever&amp;arch=$basearch
