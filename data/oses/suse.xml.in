@@ -48,7 +48,7 @@
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLES-11-SP1-DVD-i386</volume-id>
+        <volume-id>SLES-11-SP1-DVD-i586</volume-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
@@ -77,7 +77,7 @@
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLES-11-SP2-DVD-i386</volume-id>
+        <volume-id>SLES-11-SP2-DVD-i586</volume-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
@@ -106,7 +106,7 @@
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLES-11-SP3-DVD-i386</volume-id>
+        <volume-id>SLES-11-SP3-DVD-i586</volume-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
@@ -133,7 +133,7 @@
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLES-11-SP4-DVD-i386</volume-id>
+        <volume-id>SLES-11-SP4-DVD-i586</volume-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
