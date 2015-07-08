@@ -253,4 +253,111 @@
     <upgrades id="http://qemu.org/1.6.1"/>
   </platform>
 
+  <platform id="http://qemu.org/1.7.1">
+    <short-id>qemu-1.7.1</short-id>
+    <_name>QEMU 1.7.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.7.1</version>
+    <release-date>2014-03-03</release-date>
+    <upgrades id="http://qemu.org/1.7.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/1.7.2">
+    <short-id>qemu-1.7.2</short-id>
+    <_name>QEMU 1.7.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>1.7.2</version>
+    <release-date>2014-07-21</release-date>
+    <upgrades id="http://qemu.org/1.7.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.0.0">
+    <short-id>qemu-2.0.0</short-id>
+    <_name>QEMU 2.0.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.0.0</version>
+    <release-date>2014-04-17</release-date>
+    <upgrades id="http://qemu.org/1.7.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.0.1">
+    <short-id>qemu-2.0.1</short-id>
+    <_name>QEMU 2.0.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.0.1</version>
+    <release-date>2014-08-15</release-date>
+    <upgrades id="http://qemu.org/2.0.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.0.2">
+    <short-id>qemu-2.0.2</short-id>
+    <_name>QEMU 2.0.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.0.2</version>
+    <release-date>2014-08-18</release-date>
+    <upgrades id="http://qemu.org/2.0.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.1.0">
+    <short-id>qemu-2.1.0</short-id>
+    <_name>QEMU 2.1.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.1.0</version>
+    <release-date>2014-08-01</release-date>
+    <upgrades id="http://qemu.org/2.0.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.1.1">
+    <short-id>qemu-2.1.1</short-id>
+    <_name>QEMU 2.1.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.1.1</version>
+    <release-date>2014-09-10</release-date>
+    <upgrades id="http://qemu.org/2.1.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.1.2">
+    <short-id>qemu-2.1.2</short-id>
+    <_name>QEMU 2.1.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.1.2</version>
+    <release-date>2014-09-25</release-date>
+    <upgrades id="http://qemu.org/2.1.1"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.1.3">
+    <short-id>qemu-2.1.3</short-id>
+    <_name>QEMU 2.1.3</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.1.3</version>
+    <release-date>2015-01-22</release-date>
+    <upgrades id="http://qemu.org/2.1.2"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.2.0">
+    <short-id>qemu-2.2.0</short-id>
+    <_name>QEMU 2.2.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.2.0</version>
+    <release-date>2014-12-09</release-date>
+    <upgrades id="http://qemu.org/2.1.3"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.2.1">
+    <short-id>qemu-2.2.1</short-id>
+    <_name>QEMU 2.2.1</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.2.1</version>
+    <release-date>2015-03-10</release-date>
+    <upgrades id="http://qemu.org/2.2.0"/>
+  </platform>
+
+  <platform id="http://qemu.org/2.3.0">
+    <short-id>qemu-2.3.0</short-id>
+    <_name>QEMU 2.3.0</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.3.0</version>
+    <release-date>2015-04-24</release-date>
+    <upgrades id="http://qemu.org/2.2.1"/>
+  </platform>
 </libosinfo>
