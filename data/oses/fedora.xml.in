@@ -4263,13 +4263,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>Fedora.*-([2-9][1-9]|[0-9]{3,}).*-i386</volume-id>
+        <volume-id>Fedora.*-([2-9][3-9]|[0-9]{3,}).*-i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>Fedora.*-([2-9][1-9]|[0-9]{3,}).*-x86_64</volume-id>
+        <volume-id>Fedora.*-([2-9][3-9]|[0-9]{3,}).*-x86_64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -4278,13 +4278,13 @@
 
     <media arch="i686" live="true">
       <iso>
-        <volume-id>Fedora-Live-.*-i686-([2-9][1-9]|[0-9]{3,})</volume-id>
+        <volume-id>Fedora-Live-.*-i686-([2-9][3-9]|[0-9]{3,})</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
     <media arch="x86_64" live="true">
       <iso>
-        <volume-id>Fedora-Live-.*-x86_64-([2-9][1-9]|[0-9]{3,})</volume-id>
+        <volume-id>Fedora-Live-.*-x86_64-([2-9][3-9]|[0-9]{3,})</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
