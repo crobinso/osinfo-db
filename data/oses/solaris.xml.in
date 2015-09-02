@@ -2,7 +2,7 @@
 
   <os id="http://sun.com/solaris/9">
     <short-id>solaris9</short-id>
-    <_name>Sun Solaris 9</_name>
+    <_name>Solaris 9</_name>
     <version>9</version>
     <_vendor>Sun</_vendor>
     <family>solaris</family>
@@ -11,7 +11,7 @@
 
   <os id="http://sun.com/solaris/10">
     <short-id>solaris10</short-id>
-    <_name>Sun Solaris 10</_name>
+    <_name>Solaris 10</_name>
     <version>10</version>
     <_vendor>Sun</_vendor>
     <family>solaris</family>
@@ -23,19 +23,19 @@
     </devices>
   </os>
 
-  <os id="http://sun.com/solaris/11">
+  <os id="http://oracle.com/solaris/11">
     <short-id>solaris11</short-id>
-    <_name>Sun Solaris 11</_name>
+    <_name>Oracle Solaris 11</_name>
     <version>11</version>
-    <_vendor>Sun</_vendor>
+    <_vendor>Oracle</_vendor>
     <family>solaris</family>
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris/10"/>
   </os>
 
-  <os id="http://oracle.com/opensolaris/2009.06">
+  <os id="http://sun.com/opensolaris/2009.06">
     <short-id>opensolaris2009.06</short-id>
-    <_name>Sun OpenSolaris 2009.06</_name>
+    <_name>OpenSolaris 2009.06</_name>
     <version>2009.06</version>
     <_vendor>Sun</_vendor>
     <family>solaris</family>
