@@ -755,7 +755,7 @@
       <_name>Microsoft Windows 7 Ultimate</_name>
     </variant>
 
-    <!-- Starter -->
+    <!-- Debug -->
     <media arch="i686" installer-reboots="2">
       <variant id="starter"/>
       <iso>
