@@ -736,6 +736,9 @@
     <release-date>2009-10-22</release-date>
     <eol-date>2015-01-13</eol-date>
 
+    <variant id="debug">
+      <_name>Microsoft Windows 7 Debug Checked Build</_name>
+    </variant>
     <variant id="starter">
       <_name>Microsoft Windows 7 Starter</_name>
     </variant>
@@ -757,19 +760,55 @@
 
     <!-- Debug -->
     <media arch="i686" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(GRMCCHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(GRMCXCHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Starter -->
+    <media arch="i686" installer-reboots="2">
       <variant id="starter"/>
       <iso>
-        <volume-id>(GSP1RMCSTFREO)_</volume-id>
+        <volume-id>(GSP1RMCNSTFREO|GRMCNSTFREO|GRMCSTFREO|GSP1RMCSTFREO)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Home Basic -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="home-basic"/>
+      <iso>
+        <volume-id>(GSP1RMCHBFRER|GRMCHBFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
 
     <!-- Home Premium -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="home-premium"/>
+      <iso>
+        <volume-id>(GSP1RMCNHPFRER|GRMCNHPFRER|GSP1RMCHPFRER|GRMCHPFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
     <media arch="x86_64" installer-reboots="2">
       <variant id="home-premium"/>
       <iso>
-        <volume-id>(GSP1RMCNHPXFRER|GSP1RMCHPXFRER)_</volume-id>
+        <volume-id>(GSP1RMCNHPXFRER|GSP1RMCHPXFRER|GSP1RMCNHPXFRER|GRMCNHPXFRER|GRMCHPXFRER)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -779,7 +818,7 @@
     <media arch="i686" installer-reboots="2">
       <variant id="professional"/>
       <iso>
-        <volume-id>(GSP1RMCN?PRFRER|GSP1RMCPRVOL|GRMCPRFREO)_</volume-id>
+        <volume-id>(GRMCNPRFRER|GRMCPRVOL|GSP1RMCPRVOL|GRMCPRFRER|GSP1RMCN?PRFRER|GSP1RMCPRVOL|GRMCPRFREO)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -787,7 +826,7 @@
     <media arch="x86_64" installer-reboots="2">
       <variant id="professional"/>
       <iso>
-        <volume-id>(GSP1RMCN?PRXFRER|GSP1RMCPRXVOL)_</volume-id>
+        <volume-id>(GRMCNPRXFRER|GRMCPRXVOL|GSP1RMCPRXVOL|GSP1RMCN?PRXFRER|GSP1RMCPRXVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -797,7 +836,7 @@
     <media arch="i686" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>(GRMCENVOL|GRMCNENVOL|GSP1RMCNENVOL)_</volume-id>
+        <volume-id>(GRMCENVOL|GRMCNENVOL|GSP1RMCNENVOL|GSP1RMCENVOL)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
