@@ -1036,6 +1036,60 @@
     <upgrades id="http://microsoft.com/win/2k8r2"/>
 
     <release-date>2012-09-04</release-date>
+
+    <variant id="storage">
+      <_name>Windows Server 2012 Storage</_name>
+    </variant>
+    <variant id="hyperv">
+      <_name>Windows Server 2012 for HyperV</_name>
+    </variant>
+    <variant id="essentials">
+      <_name>Windows Server 2012 Essentials</_name>
+    </variant>
+    <variant id="volume-license">
+      <_name>Windows Server 2012 Volume License</_name>
+    </variant>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(HRM_SSS_X64CHK|HRM_SSS_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="essentials"/>
+      <iso>
+        <volume-id>(HRM_SSSO_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="hyperv"/>
+      <iso>
+        <volume-id>(HRM_SHV_X64CHK|HRM_SHV_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="storage"/>
+      <iso>
+        <volume-id>(HRM_SFST_X64FREO)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="volume-licence"/>
+      <iso>
+        <volume-id>(HRM_SSS_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
   </os>
 
   <os id="http://microsoft.com/win/2k12r2">
