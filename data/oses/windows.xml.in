@@ -1105,7 +1105,16 @@
     <media arch="x86_64">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>(IR[13]_CENNA_X64FREV)_</volume-id>
+        <volume-id>(IR[135]_CENN?A_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- No variant -->
+    <media arch="i686">
+      <iso>
+        <volume-id>(IR5_CCSNA_X86FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
