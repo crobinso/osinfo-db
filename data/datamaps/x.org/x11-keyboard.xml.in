@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- The datamaps in this file will be used to map the GETTEXT locale
-     codes to X11 keyboard layouts.
--->
-
 <libosinfo version="0.0.1">
-  <!-- GETTEXT locale to X11 keyboard layout mapping -->
   <datamap id="http://x.org/x11-keyboard">
     <entry inval="af_ZA" outval="za"/>
     <entry inval="ar_AE" outval="ae"/>
