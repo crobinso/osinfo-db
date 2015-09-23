@@ -1,0 +1,44 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/4.10">
+    <short-id>ubuntu4.10</short-id>
+    <short-id>ubuntuwarty</short-id>
+    <_name>Ubuntu 4.10</_name>
+    <version>4.10</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Warty Warthog</codename>
+
+    <release-date>2004-10-26</release-date>
+    <eol-date>2006-04-30</eol-date>
+
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 4.10 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 4.10 amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true" installer="false">
+      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 4.10 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

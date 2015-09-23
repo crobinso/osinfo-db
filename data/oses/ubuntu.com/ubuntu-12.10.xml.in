@@ -1,0 +1,67 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/12.10">
+    <short-id>ubuntu12.10</short-id>
+    <short-id>ubuntuquantal</short-id>
+    <_name>Ubuntu 12.10</_name>
+    <version>12.10</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Quantal Quetzal</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/12.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/12.04"/>
+
+    <release-date>2012-10-18</release-date>
+    <eol-date>2014-05-16</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 12.10 i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 12.10 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 12.10 i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 12.10 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

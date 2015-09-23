@@ -1,0 +1,78 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/8.04">
+    <short-id>ubuntu8.04</short-id>
+    <short-id>ubuntuhardy</short-id>
+    <_name>Ubuntu 8.04 LTS</_name>
+    <version>8.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Hardy Heron</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/7.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/7.10"/>
+
+    <release-date>2008-04-24</release-date>
+    <eol-date>2013-05-09</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+    </devices>
+
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 8.04(.\d)? i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 8.04(.\d)? amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 8.04(.\d)? i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 8.04(.\d)? amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 8.04(.\d)? i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 8.04(.\d)? amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

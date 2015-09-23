@@ -1,0 +1,64 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/7.04">
+    <short-id>ubuntu7.04</short-id>
+    <short-id>ubuntufeisty</short-id>
+    <_name>Ubuntu 7.04</_name>
+    <version>7.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Feisty Fawn</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/6.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/6.10"/>
+
+    <release-date>2007-04-19</release-date>
+    <eol-date>2008-10-19</eol-date>
+
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 7.04 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 7.04 amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="sparc">
+      <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-sparc.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 7.04 sparc</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 7.04 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 7.04 amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

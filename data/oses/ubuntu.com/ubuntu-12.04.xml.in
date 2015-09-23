@@ -1,0 +1,67 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/12.04">
+    <short-id>ubuntu12.04</short-id>
+    <short-id>ubuntuprecise</short-id>
+    <_name>Ubuntu 12.04 LTS</_name>
+    <version>12.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Precise Pangolin</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/11.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/11.10"/>
+
+    <release-date>2012-04-26</release-date>
+    <eol-date>2017-04-26</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+    <media arch="i686">
+      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 12.04(.\d)? LTS i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 12.04(.\d)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 12.04(.\d)? LTS i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 12.04(.\d)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

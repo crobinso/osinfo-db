@@ -1,0 +1,59 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/9.04">
+    <short-id>ubuntu9.04</short-id>
+    <short-id>ubuntujaunty</short-id>
+    <_name>Ubuntu 9.04</_name>
+    <version>9.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Jaunty Jackalope</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/8.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/8.10"/>
+
+    <release-date>2009-04-23</release-date>
+    <eol-date>2010-10-23</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 9.04(.\d)? i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 9.04(.\d)? amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 9.04(.\d)? i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/jaunty/ubuntu-9.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 9.04(.\d)? amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

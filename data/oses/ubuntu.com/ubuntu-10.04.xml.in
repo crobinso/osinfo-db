@@ -1,0 +1,49 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/10.04">
+    <short-id>ubuntu10.04</short-id>
+    <short-id>ubuntulucid</short-id>
+    <_name>Ubuntu 10.04 LTS</_name>
+    <version>10.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Lucid Lynx</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/9.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/9.10"/>
+
+    <release-date>2010-04-29</release-date>
+    <eol-date>2015-04-30</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>67108864</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 10.04(.\d)? LTS i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/lucid/ubuntu-10.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 10.04(.\d)? LTS amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

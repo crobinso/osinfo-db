@@ -1,0 +1,68 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/15.04">
+    <short-id>ubuntu15.04</short-id>
+    <short-id>ubuntutvivid</short-id>
+    <_name>Ubuntu 15.04</_name>
+    <version>15.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Vivid Vervet</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/14.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/14.10"/>
+
+    <release-date>2015-04-23</release-date>
+    <eol-date>2016-01-23</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i686">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 15.04(.\d)? i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 15.04(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 15.04(.\d)? i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 15.04(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

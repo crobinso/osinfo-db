@@ -1,0 +1,82 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/6.10">
+    <short-id>ubuntu6.10</short-id>
+    <short-id>ubuntuedgy</short-id>
+    <_name>Ubuntu 6.10</_name>
+    <version>6.10</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Edgy Eft</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/6.06"/>
+    <derives-from id="http://ubuntu.com/ubuntu/6.06"/>
+
+    <release-date>2006-10-26</release-date>
+    <eol-date>2008-04-26</eol-date>
+
+    <media arch="i686">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 6.10 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 6.10 amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="ppc">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-powerpc.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 6.10 ppc</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="sparc">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-sparc.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 6.10 sparc</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 6.10 i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 6.10 amd64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="ppc" live="true">
+      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-powerpc.iso</url>
+      <iso>
+        <volume-id>Ubuntu 6.10 ppc</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>
