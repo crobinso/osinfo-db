@@ -1,76 +1,4 @@
 <libosinfo version="0.0.1">
-  <!-- JEOS PROFILE -->
-  <install-script id='http://microsoft.com/windows/sif/jeos'>
-    <profile>jeos</profile>
-    <path-format>dos</path-format>
-    <product-key-format>$$$$$-$$$$$-$$$$$-$$$$$-$$$$$</product-key-format>
-    <expected-filename>winnt.sif</expected-filename>
-    <can-pre-install-drivers/>
-    <config>
-      <param name="admin-password" policy="optional"/>
-      <param name="reg-product-key" policy="required"/>
-      <param name="user-realname" policy="required"/>
-      <param name="driver-signing" policy="optional"/>
-    </config>
-    <injection-method>floppy</injection-method>
-    <template>
-      <xsl:stylesheet
-        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-        version="1.0">
-
-        <xsl:output method="text"/>
-
-	<xsl:template match="/install-script-config">
-;SetupMgrTag
-[Data]
-    AutoPartition=1
-    MsDosInitiated=No
-    UnattendedInstall=Yes
-
-[Unattended]
-    UnattendMode=FullUnattended
-    OemSkipEula=Yes
-    OemPreinstall=No
-    TargetPath=\WINDOWS
-<xsl:if test="config/driver-signing = 'false'">
-    DriverSigningPolicy=Ignore
-</xsl:if>
-    Repartition=Yes
-    WaitForReboot=No
-    UnattendSwitch=Yes
-
-[GuiUnattended]
-    AdminPassword=<xsl:value-of select="config/admin-password"/>
-    EncryptedAdminPassword=NO
-    OEMSkipRegional=1
-    TimeZone=35
-    OemSkipWelcome=1
-
-[UserData]
-    ProductKey=<xsl:value-of select="config/reg-product-key"/>
-    FullName="<xsl:value-of select="config/user-realname"/>"
-    ComputerName=
-
-[Display]
-    BitsPerPel=16
-    Xresolution=640
-    YResolution=480
-    Vrefresh=60
-
-[RegionalSettings]
-    LanguageGroup=1
-
-[Identification]
-    JoinWorkgroup=WORKGROUP
-
-[Networking]
-    InstallDefaultComponents=Yes
-	</xsl:template>
-      </xsl:stylesheet>
-    </template>
-  </install-script>
-
-  <!-- DESKTOP PROFILE -->
   <install-script id='http://microsoft.com/windows/sif/desktop'>
     <profile>desktop</profile>
     <path-format>dos</path-format>
@@ -216,5 +144,4 @@
       </xsl:stylesheet>
     </template>
   </install-script>
-
 </libosinfo>

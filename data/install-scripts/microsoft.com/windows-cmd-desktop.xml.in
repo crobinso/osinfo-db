@@ -1,5 +1,4 @@
 <libosinfo version="0.0.1">
-  <!-- DESKTOP PROFILE -->
   <install-script id='http://microsoft.com/windows/cmd/desktop'>
     <profile>desktop</profile>
     <path-format>dos</path-format>
