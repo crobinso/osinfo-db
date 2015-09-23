@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/4.0">
+    <short-id>rhl4.0</short-id>
+    <_name>Red Hat Linux 4.0</_name>
+    <version>4.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Colgate</codename>
+    <upgrades id="http://redhat.com/rhl/3.0.3"/>
+    <derives-from id="http://redhat.com/rhl/3.0.3"/>
+
+    <release-date>1996-10-03</release-date>
+  </os>
+</libosinfo>

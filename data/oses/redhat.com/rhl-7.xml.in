@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/7">
+    <short-id>rhl7</short-id>
+    <_name>Red Hat Linux 7</_name>
+    <version>7</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Guinness</codename>
+    <upgrades id="http://redhat.com/rhl/6.1"/>
+    <derives-from id="http://redhat.com/rhl/6.1"/>
+
+    <release-date>2000-09-25</release-date>
+  </os>
+</libosinfo>

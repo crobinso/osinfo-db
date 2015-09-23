@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/5.0">
+    <short-id>rhl5.0</short-id>
+    <_name>Red Hat Linux 5.0</_name>
+    <version>5.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Hurricane</codename>
+    <upgrades id="http://redhat.com/rhl/4.2"/>
+    <derives-from id="http://redhat.com/rhl/4.2"/>
+
+    <release-date>1997-12-01</release-date>
+  </os>
+</libosinfo>

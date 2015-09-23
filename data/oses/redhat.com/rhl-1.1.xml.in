@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/1.1">
+    <short-id>rhl1.1</short-id>
+    <_name>Red Hat Linux 1.1</_name>
+    <version>1.1</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Mother's Day + 0.1</codename>
+    <upgrades id="http://redhat.com/rhl/1.0"/>
+    <derives-from id="http://redhat.com/rhl/1.0"/>
+
+    <release-date>1995-08-01</release-date>
+  </os>
+</libosinfo>

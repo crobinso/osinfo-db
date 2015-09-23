@@ -1,0 +1,16 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/9">
+    <short-id>rhl9</short-id>
+    <_name>Red Hat Linux 9</_name>
+    <version>9</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Shrike</codename>
+    <upgrades id="http://redhat.com/rhl/8.0"/>
+    <derives-from id="http://redhat.com/rhl/8.0"/>
+
+    <release-date>2003-03-31</release-date>
+    <eol-date>2004-05-01</eol-date>
+  </os>
+</libosinfo>

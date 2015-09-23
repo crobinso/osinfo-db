@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/2.0">
+    <short-id>rhl2.0</short-id>
+    <_name>Red Hat Linux 2.0</_name>
+    <version>2.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <upgrades id="http://redhat.com/rhl/1.1"/>
+    <derives-from id="http://redhat.com/rhl/1.1"/>
+
+    <release-date>1995-09-20</release-date>
+  </os>
+</libosinfo>

@@ -1,0 +1,16 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhl/8.0">
+    <short-id>rhl8.0</short-id>
+    <_name>Red Hat Linux 8.0</_name>
+    <version>8.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhl</distro>
+    <codename>Psyche</codename>
+    <upgrades id="http://redhat.com/rhl/7.3"/>
+    <derives-from id="http://redhat.com/rhl/7.3"/>
+
+    <release-date>2002-09-30</release-date>
+    <eol-date>2003-12-31</eol-date>
+  </os>
+</libosinfo>
