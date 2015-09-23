@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <os id="http://novell.com/netware/6">
+    <short-id>netware6</short-id>
+    <_name>Novell Netware 6</_name>
+    <_vendor>Novell</_vendor>
+    <family>netware</family>
+    <distro>netware</distro>
+    <version>6</version>
+  </os>
+</libosinfo>
