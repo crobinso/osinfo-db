@@ -1,0 +1,40 @@
+<libosinfo version="0.0.1">
+  <datamap id="http://microsoft.com/win/7/l10n-language">
+    <entry inval="EN" outval="en_US"/>
+    <entry inval="AR" outval="ar_SA"/>
+    <entry inval="BG" outval="bg_BG"/>
+    <entry inval="HK" outval="zh_HK"/>
+    <entry inval="CN" outval="zh_CN"/>
+    <entry inval="TW" outval="zh_TW"/>
+    <entry inval="HR" outval="hr_HR"/>
+    <entry inval="CS" outval="cs_CZ"/>
+    <entry inval="DA" outval="da_DK"/>
+    <entry inval="NL" outval="nl_NL"/>
+    <entry inval="ET" outval="et_EE"/>
+    <entry inval="FI" outval="fi_FI"/>
+    <entry inval="FR" outval="fr_FR"/>
+    <entry inval="DE" outval="de_DE"/>
+    <entry inval="EL" outval="el_GR"/>
+    <entry inval="HE" outval="he_IL"/>
+    <entry inval="HU" outval="hu_HU"/>
+    <entry inval="IT" outval="it_IT"/>
+    <entry inval="JA" outval="ja_JP"/>
+    <entry inval="KO" outval="ko_KR"/>
+    <entry inval="LV" outval="lv_LV"/>
+    <entry inval="LT" outval="lt_LT"/>
+    <entry inval="NO" outval="nb_NO"/>
+    <entry inval="PL" outval="pl_PL"/>
+    <entry inval="BR" outval="pt_BR"/>
+    <entry inval="PT" outval="pt_PT"/>
+    <entry inval="RO" outval="ro_RO"/>
+    <entry inval="RU" outval="ru_RU"/>
+    <entry inval="SRL" outval="sr_RS@latin"/>
+    <entry inval="SK" outval="sk_SK"/>
+    <entry inval="SL" outval="sl_SI"/>
+    <entry inval="ES" outval="es_ES"/>
+    <entry inval="SV" outval="sv_SE"/>
+    <entry inval="TH" outval="th_TH"/>
+    <entry inval="TR" outval="tr_TR"/>
+    <entry inval="UK" outval="uk_UA"/>
+  </datamap>
+</libosinfo>
