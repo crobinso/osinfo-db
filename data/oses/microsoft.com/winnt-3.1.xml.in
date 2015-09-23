@@ -1,0 +1,12 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/winnt/3.1">
+    <short-id>winnt3.1</short-id>
+    <_name>Microsoft Windows NT Server 3.1</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>winnt</distro>
+    <version>3.1</version>
+    <release-date>1993-07-27</release-date>
+    <eol-date>2000-12-31</eol-date>
+  </os>
+</libosinfo>

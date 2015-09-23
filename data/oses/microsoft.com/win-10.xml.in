@@ -1,0 +1,63 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/10">
+    <short-id>win10</short-id>
+    <_name>Microsoft Windows 10</_name>
+    <version>10.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/8.1"/>
+    <upgrades id="http://microsoft.com/win/8.1"/>
+
+    <release-date>2015-07-29</release-date>
+
+    <variant id="education">
+      <_name>Microsoft Windows 10 Education</_name>
+    </variant>
+    <variant id="enterprise">
+      <_name>Microsoft Windows 10 Enterprise</_name>
+    </variant>
+
+    <!-- Education -->
+    <media arch="i686">
+      <variant id="education"/>
+      <iso>
+        <volume-id>J_CEDA_X86FRE_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise -->
+    <media arch="i686">
+      <variant id="enterprise"/>
+      <iso>
+        <volume-id>J_CENA_X86FREV_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
+    </devices>
+  </os>
+</libosinfo>

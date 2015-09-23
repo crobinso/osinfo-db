@@ -1,0 +1,65 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/2k8">
+    <short-id>win2k8</short-id>
+    <_name>Microsoft Windows Server 2008</_name>
+    <version>6.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k3r2"/>
+    <upgrades id="http://microsoft.com/win/2k3r2"/>
+
+    <release-date>2008-02-27</release-date>
+    <eol-date>2013-07-09</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>(KRTMSVOL|KRTMSCHK|KRMWVOL|KRMSVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(KRTMSXVOL|KRTMSXCHK|KRMWXVOL|KRMSXVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1400000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

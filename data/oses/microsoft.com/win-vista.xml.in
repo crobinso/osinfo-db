@@ -1,0 +1,50 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/vista">
+    <short-id>winvista</short-id>
+    <_name>Microsoft Windows Vista</_name>
+    <version>6.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/xp"/>
+    <upgrades id="http://microsoft.com/win/xp"/>
+
+    <release-date>2006-11-30</release-date>
+    <eol-date>2012-04-10</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRTMEVOL|FRMBVOL|FRMEVOL|FRMCFRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMEXVOL|FRTMEXVOL|FRMBXVOL|FRMCXFRE)_</volume-id>
+       <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+
+    <resources arch="all">
+      <minimum>
+        <cpu>800000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>16106127360</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

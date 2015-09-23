@@ -1,0 +1,72 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/2k3">
+    <short-id>win2k3</short-id>
+    <_name>Microsoft Windows Server 2003</_name>
+    <version>5.2</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k"/>
+    <upgrades id="http://microsoft.com/win/2k"/>
+
+    <release-date>2003-04-24</release-date>
+    <eol-date>2015-07-14</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>(ARMECHK|ARMEVOL|ARMSVOL|ARMWVOL|ARMEEVL|ARMSEVL|ARMWEVL|ARMEOEM|ARMDOEM|ARMSOEM|ARMWOEM|ARMEFPP|ARMDFPP|ARMSFPP|ARMWFPP|NRMECHK|NRMEVOL|NRMSVOL|NRMWVOL|NRMEEVL|NRMSEVL|NRMWEVL|NRMEOEM|NRMDOEM|NRMSOEM|NRMWOEM|NRMEFPP|NRMDFPP|NRMSFPP|NRMSFPP|CRMSVOL|CRMSXVOL|BRMEVOL|BX2DVOL|ARMEEVL|BRMEEVL|CR0SP2)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(ARMEICHK|ARMEIFPP|ARMEIEVL|ARMEIOEM|ARMDIOEM|ARMEXFPP|ARMDFPP|ARMSXFPP|CR0SPX2|NRMEICHK|NRMEIFPP|NRMDIFPP|NRMEIOEM|NRMDIOEM|NRMEIVOL|NRMEIEVL|BRMEXVOL|BX2DXVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="ia64">
+      <iso>
+        <volume-id>(ARMEIFPP|CR0SPI2)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>133000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>2147483648</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>550000000</cpu>
+        <ram>268435456</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>4294967296</storage>
+      </minimum>
+
+      <recommended>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
+      <script id='http://microsoft.com/windows/reg/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

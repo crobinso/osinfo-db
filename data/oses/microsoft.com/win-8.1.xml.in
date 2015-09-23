@@ -1,0 +1,149 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/8.1">
+    <short-id>win8.1</short-id>
+    <_name>Microsoft Windows 8.1</_name>
+    <version>6.3</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/8"/>
+    <upgrades id="http://microsoft.com/win/8"/>
+
+<!--
+    <release-date></release-date>
+    <eol-date></eol-date>
+-->
+
+    <variant id="debug">
+      <_name>Microsoft Windows 8.1 Debug Checked Build</_name>
+    </variant>
+    <variant id="enterprise-debug">
+      <_name>Microsoft Windows 8.1 Enterprise Debug Checked Build</_name>
+    </variant>
+    <variant id="professional">
+      <_name>Microsoft Windows 8.1 Professional</_name>
+    </variant>
+    <variant id="enterprise">
+      <_name>Microsoft Windows 8.1 Enterprise</_name>
+    </variant>
+
+    <!-- Debug -->
+    <media arch="i686">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(IRM_CCSN?A_X86CHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(IRM_CCSN?A_X64CHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise Debug -->
+    <media arch="i686">
+      <variant id="enterprise-debug"/>
+      <iso>
+        <volume-id>(IRM_CENN?A_X86CHKV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="enterprise-debug"/>
+      <iso>
+        <volume-id>(IRM_CENN?A_X64CHKV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Professional -->
+    <media arch="i686">
+      <variant id="professional"/>
+      <iso>
+        <volume-id>(IR1_CPRN?A_X86FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="professional"/>
+      <iso>
+        <volume-id>(IR1_CPRN?A_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise -->
+    <media arch="i686">
+      <variant id="enterprise"/>
+      <iso>
+        <volume-id>(IR1_CENNA_X86FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="enterprise"/>
+      <iso>
+        <volume-id>(IR[135]_CENN?A_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- No variant -->
+    <media arch="i686">
+      <iso>
+        <volume-id>(IR5_CCSNA_X86FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Variant unknown -->
+    <media arch="i686">
+      <iso>
+        <volume-id>(IRM_CENNA_X86FREV|IRM_CENA_X86FREV|IR1_CENA_X86FREV|IRM_CCSNA_X86FRE|IRM_CPRNA_X86FREV|IRM_CPRA_X86FREV|IRM_CCSA_X86FRE|IR3_CCSNA_X86FRE|IR3_CENA_X86FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(IRM_CENNA_X64FREV|IRM_CENA_X64FREV|IR1_CENA_X64FREV|IRM_CCSNA_X64FRE|IRM_CPRNA_X64FREV|IRM_CPRA_X64FREV|IRM_CCSA_X64FRE|IR3_CCSNA_X64FRE)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
+    </devices>
+  </os>
+</libosinfo>

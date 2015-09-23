@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/2.0">
+    <short-id>win2.0</short-id>
+    <_name>Microsoft Windows 2.0</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win16</family>
+    <distro>win</distro>
+    <version>2.0</version>
+    <upgrades id="http://microsoft.com/win/1.0"/>
+    <derives-from id="http://microsoft.com/win/1.0"/>
+
+    <release-date>1987-12-09</release-date>
+    <eol-date>2001-12-31</eol-date>
+  </os>
+</libosinfo>

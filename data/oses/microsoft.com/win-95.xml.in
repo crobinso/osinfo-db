@@ -1,0 +1,30 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/95">
+    <short-id>win95</short-id>
+    <_name>Microsoft Windows 95</_name>
+    <version>4.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win9x</family>
+    <distro>win</distro>
+    <upgrades id="http://microsoft.com/win/3.1"/>
+    <derives-from id="http://microsoft.com/win/3.1"/>
+
+    <release-date>1995-08-24</release-date>
+    <eol-date>2001-12-13</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1234/1111"/> <!-- VGA -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+    </devices>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>12000000</cpu>
+        <ram>4194304</ram>
+        <storage>41943040</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>

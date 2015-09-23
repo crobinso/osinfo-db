@@ -1,0 +1,49 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/2k">
+    <short-id>win2k</short-id>
+    <_name>Microsoft Windows 2000</_name>
+    <version>5.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/me"/>
+
+    <release-date>2000-02-17</release-date>
+    <eol-date>2010-07-13</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1234/1111"/> <!-- VGA -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+    </devices>
+
+    <media arch="i686">
+      <iso>
+          <volume-id>(W2AFPP|SP1AFPP|SP2AFPP|YRMAFPP|ZRMAFPP|W2AOEM|SP1AOEM|SP2AOEM|YRMAOEM|ZRMAOEM|W2ASEL|SP2ASEL|W2SFPP|SP1SFPP|SP2SFPP|YRMSFPP|ZRMSFPP|W2SOEM|W2SOEM|SP1SOEM|SP2SOEM|YRMSOEM|ZRMSOEM|W2SSEL|SP2SSEL|W2PFPP|SP1PFPP|SP2PFPP|YRMPFPP|ZRMPFPP|W2POEM|SP1POEM|SP2POEM|YRMPOEM|ZRMPOEM|W2PSEL|SP2PSEL|W2PCCP|WIN2000|W2K_SP4)</volume-id>
+          <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>133000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>33554432</ram>
+        <storage>335544320</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>350000000</cpu>
+        <ram>100663296</ram>
+        <storage>1073741824</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://microsoft.com/windows/sif/jeos'/>
+      <script id='http://microsoft.com/windows/sif/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

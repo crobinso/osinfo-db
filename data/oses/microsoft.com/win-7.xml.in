@@ -1,0 +1,231 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/7">
+    <short-id>win7</short-id>
+    <_name>Microsoft Windows 7</_name>
+    <version>6.1</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/vista"/>
+    <upgrades id="http://microsoft.com/win/vista"/>
+
+    <release-date>2009-10-22</release-date>
+    <eol-date>2015-01-13</eol-date>
+
+    <variant id="debug">
+      <_name>Microsoft Windows 7 Debug Checked Build</_name>
+    </variant>
+    <variant id="starter">
+      <_name>Microsoft Windows 7 Starter</_name>
+    </variant>
+    <variant id="home-basic">
+      <_name>Microsoft Windows 7 Home Basic</_name>
+    </variant>
+    <variant id="home-premium">
+      <_name>Microsoft Windows 7 Home Premium</_name>
+    </variant>
+    <variant id="professional">
+      <_name>Microsoft Windows 7 Professional</_name>
+    </variant>
+    <variant id="enterprise">
+      <_name>Microsoft Windows 7 Enterprise</_name>
+    </variant>
+    <variant id="ultimate">
+      <_name>Microsoft Windows 7 Ultimate</_name>
+    </variant>
+
+    <!-- Debug -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(GRMCCHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(GRMCXCHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Starter -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="starter"/>
+      <iso>
+        <volume-id>(GSP1RMCNSTFREO|GRMCNSTFREO|GRMCSTFREO|GSP1RMCSTFREO)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Home Basic -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="home-basic"/>
+      <iso>
+        <volume-id>(GSP1RMCHBFRER|GRMCHBFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Home Premium -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="home-premium"/>
+      <iso>
+        <volume-id>(GSP1RMCNHPFRER|GRMCNHPFRER|GSP1RMCHPFRER|GRMCHPFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="home-premium"/>
+      <iso>
+        <volume-id>(GSP1RMCNHPXFRER|GSP1RMCHPXFRER|GSP1RMCNHPXFRER|GRMCNHPXFRER|GRMCHPXFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Professional -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="professional"/>
+      <iso>
+        <volume-id>(GRMCNPRFRER|GRMCPRVOL|GSP1RMCPRVOL|GRMCPRFRER|GSP1RMCN?PRFRER|GSP1RMCPRVOL|GRMCPRFREO)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="professional"/>
+      <iso>
+        <volume-id>(GRMCNPRXFRER|GRMCPRXVOL|GSP1RMCPRXVOL|GSP1RMCN?PRXFRER|GSP1RMCPRXVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="enterprise"/>
+      <iso>
+        <volume-id>(GRMCENVOL|GRMCNENVOL|GSP1RMCNENVOL|GSP1RMCENVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="enterprise"/>
+      <iso>
+        <volume-id>(GSP1RMCENXVOL|GRMCENXVOL|GRMCNENXVOL|GSP1RMCNENXVOL)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Ultimate -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="ultimate"/>
+      <iso>
+        <volume-id>(GRMCULFRER|GSP1RMCNULFRER|GSP1RMCULFRER|GRMCNULFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="ultimate"/>
+      <iso>
+        <volume-id>(GRMCULXFRER|GSP1RMCNULXFRER|GSP1RMCULXFRER|GRMCNULXFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Variant unknown -->
+    <media arch="i686" installer-reboots="2">
+      <iso>
+        <volume-id>(GRMCPRFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <iso>
+        <volume-id>(GRMCHPXFRER|GRMCXCHK|GRMCPRXFRER)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
+    </devices>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
+      <script id='http://microsoft.com/windows/cmd/desktop'/>
+    </installer>
+
+    <!-- virtio block device driver -->
+    <driver arch="i686" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/win7/x86" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </driver>
+
+    <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/win7/amd64" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </driver>
+
+    <!-- All virtio and QXL device drivers, and spice-vdagent -->
+    <driver arch="i686" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
+      <file>redhat09.cer</file>
+      <file>redhat10.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
+    </driver>
+
+    <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
+      <file>spice-guest-tools-0.65.exe</file>
+      <file>spice-guest-tools-0.65.cmd</file>
+      <file>redhat09.cer</file>
+      <file>redhat10.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
+    </driver>
+  </os>
+</libosinfo>

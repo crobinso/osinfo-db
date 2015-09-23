@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/1.0">
+    <short-id>win1.0</short-id>
+    <_name>Microsoft Windows 1.0</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win16</family>
+    <distro>win</distro>
+    <version>1.0</version>
+
+    <release-date>1985-11-20</release-date>
+    <eol-date>2001-12-31</eol-date>
+  </os>
+</libosinfo>

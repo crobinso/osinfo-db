@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/98">
+    <short-id>win98</short-id>
+    <_name>Microsoft Windows 98</_name>
+    <version>4.1</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win9x</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/95"/>
+    <upgrades id="http://microsoft.com/win/95"/>
+
+    <release-date>1998-06-25</release-date>
+    <eol-date>2006-07-11</eol-date>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>66000000</cpu>
+        <ram>16777216</ram>
+        <storage>125829120</storage>
+      </minimum>
+      <recommended>
+        <cpu>233000000</cpu>
+        <ram>25165824</ram>
+        <storage>419430400</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

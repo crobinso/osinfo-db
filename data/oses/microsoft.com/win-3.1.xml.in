@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/3.1">
+    <short-id>win3.1</short-id>
+    <_name>Microsoft Windows 3.1</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win16</family>
+    <distro>win</distro>
+    <version>3.1</version>
+    <upgrades id="http://microsoft.com/win/2.1"/>
+    <derives-from id="http://microsoft.com/win/2.1"/>
+
+    <release-date>1992-04-06</release-date>
+    <eol-date>2001-12-31</eol-date>
+  </os>
+</libosinfo>

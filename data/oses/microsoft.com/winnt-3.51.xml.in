@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/winnt/3.51">
+    <short-id>winnt3.51</short-id>
+    <_name>Microsoft Windows NT Server 3.51</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>winnt</distro>
+    <version>3.51</version>
+    <upgrades id="http://microsoft.com/winnt/3.5"/>
+    <derives-from id="http://microsoft.com/winnt/3.5"/>
+
+    <release-date>1995-05-30</release-date>
+    <eol-date>2001-12-31</eol-date>
+  </os>
+</libosinfo>

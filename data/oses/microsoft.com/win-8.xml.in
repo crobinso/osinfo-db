@@ -1,0 +1,59 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/8">
+    <short-id>win8</short-id>
+    <_name>Microsoft Windows 8</_name>
+    <version>6.2</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/7"/>
+    <upgrades id="http://microsoft.com/win/7"/>
+
+<!--
+    <release-date></release-date>
+    <eol-date></eol-date>
+-->
+
+    <media arch="i686">
+      <iso>
+        <volume-id>(HB1_CCPA_X86FRE|HRM_CCSA_X86FRE|HRM_CCSA_X86CHK|HRM_CCSNA_X86CHK|HRM_CCSNA_X86FRE|HRM_CENA_X86FREV|HRM_CENA_X86CHKV|HRM_CENNA_X86FREV|HRM_CENNA_X86CHKV|HRM_CPRA_X86FREV|HRM_CPRNA_X86FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>(HB1_CCPA_X64FRE|HRM_CCSA_X64FRE|HRM_CCSA_X64CHK|HRM_CCSNA_X64FRE|HRM_CCSNA_X64CHK|HRM_CENNA_X64FREV|HRM_CENNA_X64CHKV|HRM_CENA_X64FREV|HRM_CENA_X64CHKV|HRM_CPRA_X64FREV|HRM_CPRNA_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+    </resources>
+
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
+    </devices>
+
+    <installer>
+      <script id='http://microsoft.com/windows/unattend/jeos'/>
+      <script id='http://microsoft.com/windows/unattend/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

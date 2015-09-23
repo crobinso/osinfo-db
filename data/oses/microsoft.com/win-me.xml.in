@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+  <os id="http://microsoft.com/win/me">
+    <short-id>winme</short-id>
+    <_name>Microsoft Windows Millennium Edition</_name>
+    <version>4.9</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>win9x</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/98"/>
+    <upgrades id="http://microsoft.com/win/98"/>
+
+    <release-date>2000-09-14</release-date>
+    <eol-date>2006-07-11</eol-date>
+
+    <resources arch="i686">
+      <minimum>
+        <cpu>150000000</cpu>
+        <ram>33554432</ram>
+        <storage>335544320</storage>
+      </minimum>
+      <recommended>
+        <cpu>300000000</cpu>
+        <ram>67108864</ram>
+        <storage>2147483648</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
