@@ -1,0 +1,29 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/5.7">
+    <short-id>rhel5.7</short-id>
+    <_name>Red Hat Enterprise Linux 5.7</_name>
+    <version>5.7</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Tikanga</codename>
+    <upgrades id="http://redhat.com/rhel/5.6"/>
+    <derives-from id="http://redhat.com/rhel/5.6"/>
+
+    <release-date>2011-07-21</release-date>
+    <eol-date>2020-03-31</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.7 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.7 x86_64.*</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

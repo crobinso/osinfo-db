@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/5.0">
+    <short-id>rhel5.0</short-id>
+    <_name>Red Hat Enterprise Linux 5.0</_name>
+    <version>5.0</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Tikanga</codename>
+
+    <release-date>2007-03-14</release-date>
+    <eol-date>2020-03-31</eol-date>
+  </os>
+</libosinfo>

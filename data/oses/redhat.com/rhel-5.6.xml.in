@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/5.6">
+    <short-id>rhel5.6</short-id>
+    <_name>Red Hat Enterprise Linux 5.6</_name>
+    <version>5.6</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Tikanga</codename>
+    <upgrades id="http://redhat.com/rhel/5.5"/>
+    <derives-from id="http://redhat.com/rhel/5.5"/>
+
+    <release-date>2011-01-12</release-date>
+    <eol-date>2020-03-31</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.6 i386.*</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL/5.6 x86_64.*</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

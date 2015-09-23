@@ -1,0 +1,16 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/3.7">
+    <short-id>rhel3.7</short-id>
+    <_name>Red Hat Enterprise Linux 3 Update 7</_name>
+    <version>3.7</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Taroon</codename>
+
+    <release-date>2006-03-15</release-date>
+    <eol-date>2014-01-30</eol-date>
+    <upgrades id="http://redhat.com/rhel/3.6"/>
+    <derives-from id="http://redhat.com/rhel/3.6"/>
+  </os>
+</libosinfo>
