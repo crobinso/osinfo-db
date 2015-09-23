@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <platform id="http://qemu.org/qemu/2.1.2">
+    <short-id>qemu-2.1.2</short-id>
+    <_name>QEMU 2.1.2</_name>
+    <_vendor>qemu.org</_vendor>
+    <version>2.1.2</version>
+    <release-date>2014-09-25</release-date>
+    <upgrades id="http://qemu.org/qemu/2.1.1"/>
+  </platform>
+</libosinfo>
