@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/10.2">
+    <short-id>opensuse10.2</short-id>
+    <_name>openSUSE 10.2</_name>
+    <version>10.2</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+  </os>
+</libosinfo>

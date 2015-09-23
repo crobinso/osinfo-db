@@ -1,0 +1,68 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/12.1">
+    <short-id>opensuse12.1</short-id>
+    <_name>openSUSE 12.1</_name>
+    <version>12.1</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/11.4" />
+    <derives-from id="http://opensuse.org/opensuse/11.4" />
+
+    <media arch="i686">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-i586.iso</url>
+      <iso>
+        <volume-id>openSUSE-DVD-i586-Build0039</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-DVD-x86_640039</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-GNOME-LiveCD-i686.iso</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://download.opensuse.org/distribution/12.1/iso/openSUSE-12.1-GNOME-LiveCD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE Live CD.*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX Products GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

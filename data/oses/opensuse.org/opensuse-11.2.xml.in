@@ -1,0 +1,12 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/11.2">
+    <short-id>opensuse11.2</short-id>
+    <_name>openSUSE 11.2</_name>
+    <version>11.2</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/11.1" />
+    <derives-from id="http://opensuse.org/opensuse/11.1" />
+  </os>
+</libosinfo>

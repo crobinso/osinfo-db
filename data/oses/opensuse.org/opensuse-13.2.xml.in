@@ -1,0 +1,35 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/13.2">
+    <short-id>opensuse13.2</short-id>
+    <_name>openSUSE 13.2</_name>
+    <version>13.2</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/13.1" />
+    <derives-from id="http://opensuse.org/opensuse/13.1" />
+
+    <release-date>2014-11-04</release-date>
+
+    <media arch="i686">
+      <url>http://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-i586.iso</url>
+      <iso>
+        <volume-id>openSUSE-13.2-DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-13.2-DVD-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>
