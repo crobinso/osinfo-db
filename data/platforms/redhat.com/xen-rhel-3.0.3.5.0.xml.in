@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <platform id="http://redhat.com/xen-rhel/3.0.3.5.0">
+    <short-id>xen-rhel-3.0.3.5.0</short-id>
+    <_name>Xen 3.0.3 (RHEL 5.0)</_name>
+    <_vendor>Red Hat, Inc.</_vendor>
+    <version>3.0.3.5.0</version>
+
+    <derives-from id="http://xen.org/xen/3.0.3"/>
+
+    <devices>
+      <device id="http://xen.org/xen/vfb"/>
+    </devices>
+  </platform>
+</libosinfo>

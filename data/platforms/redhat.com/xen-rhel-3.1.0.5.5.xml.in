@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.5">
+    <short-id>xen-rhel-3.1.0.5.5</short-id>
+    <_name>Xen 3.1.0 (RHEL 5.5)</_name>
+    <_vendor>Red Hat, Inc.</_vendor>
+    <version>3.1.0.5.5</version>
+
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.4"/>
+    <derives-from id="http://xen.org/xen/3.1.0"/>
+  </platform>
+</libosinfo>
