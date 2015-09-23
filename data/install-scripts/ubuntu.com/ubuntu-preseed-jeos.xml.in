@@ -1,5 +1,4 @@
 <libosinfo version="0.0.1">
-  <!-- JEOS PROFILE -->
   <install-script id='http://ubuntu.com/ubuntu/preseed/jeos'>
     <profile>jeos</profile>
     <expected-filename>preseed.cfg</expected-filename>
@@ -154,5 +153,4 @@ ubiquity ubiquity/success_command string sed -i 's/eject -p -m.*/&amp; [ "$promp
       </xsl:stylesheet>
     </template>
   </install-script>
-
 </libosinfo>
