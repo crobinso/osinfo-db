@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://gnome.org/gnome/3.8">
+    <short-id>gnome3.8</short-id>
+    <_name>GNOME 3.8</_name>
+    <version>3.8</version>
+    <_vendor>GNOME Project</_vendor>
+    <family>linux</family>
+    <distro>gnome</distro>
+    <derives-from id="http://fedoraproject.org/fedora/19"/>
+    <upgrades id="http://gnome.org/gnome/3.6"/>
+
+    <release-date>2013-03-27</release-date>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>GNOME38-LiveCD</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>

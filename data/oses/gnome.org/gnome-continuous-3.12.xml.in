@@ -1,0 +1,20 @@
+<libosinfo version="0.0.1">
+  <os id="http://gnome.org/gnome-continuous/3.12">
+    <short-id>gnome-continuous-3.12</short-id>
+    <_name>GNOME 3.12</_name>
+    <version>3.12</version>
+    <_vendor>GNOME Project</_vendor>
+    <family>linux</family>
+    <distro>gnome</distro>
+    <derives-from id="http://gnome.org/gnome-continuous/3.10"/>
+    <upgrades id="http://gnome.org/gnome-continuous/3.10"/>
+    <release-status>snapshot</release-status>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>2</n-cpus>
+        <ram>1073741824</ram>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>

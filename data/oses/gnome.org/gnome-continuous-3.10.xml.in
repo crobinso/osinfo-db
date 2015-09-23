@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+  <os id="http://gnome.org/gnome-continuous/3.10">
+    <short-id>gnome-continuous-3.10</short-id>
+    <_name>GNOME 3.10</_name>
+    <version>3.10</version>
+    <_vendor>GNOME Project</_vendor>
+    <family>linux</family>
+    <distro>gnome</distro>
+    <upgrades id="http://gnome.org/gnome/3.8"/>
+
+    <release-date>2013-09-25</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>2</n-cpus>
+        <ram>1073741824</ram>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>
