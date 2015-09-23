@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/solaris/11">
+    <short-id>solaris11</short-id>
+    <_name>Oracle Solaris 11</_name>
+    <version>11</version>
+    <_vendor>Oracle</_vendor>
+    <family>solaris</family>
+    <distro>solaris</distro>
+    <upgrades id="http://sun.com/solaris/10"/>
+  </os>
+</libosinfo>

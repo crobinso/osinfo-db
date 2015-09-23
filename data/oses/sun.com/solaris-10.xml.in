@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://sun.com/solaris/10">
+    <short-id>solaris10</short-id>
+    <_name>Solaris 10</_name>
+    <version>10</version>
+    <_vendor>Sun</_vendor>
+    <family>solaris</family>
+    <distro>solaris</distro>
+    <upgrades id="http://sun.com/solaris/9"/>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/>
+    </devices>
+  </os>
+</libosinfo>

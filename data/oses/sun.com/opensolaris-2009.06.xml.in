@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://sun.com/opensolaris/2009.06">
+    <short-id>opensolaris2009.06</short-id>
+    <_name>OpenSolaris 2009.06</_name>
+    <version>2009.06</version>
+    <_vendor>Sun</_vendor>
+    <family>solaris</family>
+    <distro>opensolaris</distro>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/>
+    </devices>
+  </os>
+</libosinfo>

@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <os id="http://sun.com/solaris/9">
+    <short-id>solaris9</short-id>
+    <_name>Solaris 9</_name>
+    <version>9</version>
+    <_vendor>Sun</_vendor>
+    <family>solaris</family>
+    <distro>solaris</distro>
+  </os>
+</libosinfo>
