@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/2.0">
+    <short-id>debian2.0</short-id>
+    <short-id>debianhamm</short-id>
+    <_name>Debian Hamm</_name>
+    <version>2.0</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/1.3"/>
+    <derives-from id="http://debian.org/debian/1.3"/>
+  </os>
+</libosinfo>

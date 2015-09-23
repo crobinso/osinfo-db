@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/5">
+    <short-id>debian5</short-id>
+    <short-id>debianlenny</short-id>
+    <_name>Debian Lenny</_name>
+    <version>5</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/4"/>
+    <derives-from id="http://debian.org/debian/4"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

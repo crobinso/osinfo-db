@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/1.1">
+    <short-id>debian1.1</short-id>
+    <short-id>debianbuzz</short-id>
+    <_name>Debian Buzz</_name>
+    <version>1.1</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+  </os>
+</libosinfo>

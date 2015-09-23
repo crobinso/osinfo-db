@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/1.2">
+    <short-id>debian1.2</short-id>
+    <short-id>debianrex</short-id>
+    <_name>Debian Rex</_name>
+    <version>1.2</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/1.1"/>
+    <derives-from id="http://debian.org/debian/1.1"/>
+  </os>
+</libosinfo>

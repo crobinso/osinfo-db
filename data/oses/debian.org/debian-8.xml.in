@@ -1,0 +1,53 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/8">
+    <short-id>debian8</short-id>
+    <short-id>debianjessie</short-id>
+    <_name>Debian Jessie</_name>
+    <version>8</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/7"/>
+    <derives-from id="http://debian.org/debian/7"/>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i686">
+      <url>http://cdimage.debian.org/debian-cd/8.0.0/i386/iso-dvd/debian-8.0.0-i386-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 8.\d.\d i386 1</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://cdimage.debian.org/debian-cd/8.0.0/amd64/iso-dvd/debian-8.0.0-amd64-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 8.\d.\d amd64 1</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+
+    <installer>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

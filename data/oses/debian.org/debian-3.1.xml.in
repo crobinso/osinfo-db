@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://debian.org/debian/3.1">
+    <short-id>debian3.1</short-id>
+    <short-id>debiansarge</short-id>
+    <_name>Debian Sarge</_name>
+    <version>3.1</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/3"/>
+    <derives-from id="http://debian.org/debian/3"/>
+  </os>
+</libosinfo>
