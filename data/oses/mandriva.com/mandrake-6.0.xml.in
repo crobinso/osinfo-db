@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/6.0">
+    <short-id>mandrake6.0</short-id>
+    <_name>Mandrake Linux 6.0</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Venus</codename>
+    <version>6.0</version>
+    <upgrades id="http://mandriva.com/mandrake/5.2"/>
+    <derives-from id="http://mandriva.com/mandrake/5.2"/>
+
+  </os>
+</libosinfo>

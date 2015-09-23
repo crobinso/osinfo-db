@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/9.0">
+    <short-id>mandrake9.0</short-id>
+    <_name>Mandrake Linux 9.0</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Dolphin</codename>
+    <version>9.0</version>
+    <upgrades id="http://mandriva.com/mandrake/8.2"/>
+    <derives-from id="http://mandriva.com/mandrake/8.2"/>
+
+  </os>
+</libosinfo>

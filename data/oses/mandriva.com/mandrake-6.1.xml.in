@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/6.1">
+    <short-id>mandrake6.1</short-id>
+    <_name>Mandrake Linux 6.1</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Helios</codename>
+    <version>6.1</version>
+    <upgrades id="http://mandriva.com/mandrake/6.0"/>
+    <derives-from id="http://mandriva.com/mandrake/6.0"/>
+
+  </os>
+</libosinfo>

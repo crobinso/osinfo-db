@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/8.2">
+    <short-id>mandrake8.2</short-id>
+    <_name>Mandrake Linux 8.2</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Bluebird</codename>
+    <version>8.2</version>
+    <upgrades id="http://mandriva.com/mandrake/8.1"/>
+    <derives-from id="http://mandriva.com/mandrake/8.1"/>
+
+  </os>
+</libosinfo>

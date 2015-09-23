@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/7.1">
+    <short-id>mandrake7.1</short-id>
+    <_name>Mandrake Linux 7.1</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Helium</codename>
+    <version>7.1</version>
+    <upgrades id="http://mandriva.com/mandrake/7.0"/>
+    <derives-from id="http://mandriva.com/mandrake/7.0"/>
+
+  </os>
+</libosinfo>

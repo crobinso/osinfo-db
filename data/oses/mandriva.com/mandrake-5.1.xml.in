@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/5.1">
+    <short-id>mandrake5.1</short-id>
+    <_name>Mandrake Linux 5.1</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Venice</codename>
+    <version>5.1</version>
+  </os>
+</libosinfo>

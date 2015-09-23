@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/5.3">
+    <short-id>mandrake5.3</short-id>
+    <_name>Mandrake Linux 5.3</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Festen</codename>
+    <version>5.3</version>
+    <upgrades id="http://mandriva.com/mandrake/5.2"/>
+    <derives-from id="http://mandriva.com/mandrake/5.2"/>
+
+  </os>
+</libosinfo>

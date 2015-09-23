@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/5.2">
+    <short-id>mandrake5.2</short-id>
+    <_name>Mandrake Linux 5.2</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <codename>Leeloo</codename>
+    <version>5.2</version>
+    <upgrades id="http://mandriva.com/mandrake/5.1"/>
+    <derives-from id="http://mandriva.com/mandrake/5.1"/>
+
+  </os>
+</libosinfo>

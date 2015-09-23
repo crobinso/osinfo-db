@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandrake/10.0">
+    <short-id>mandrake10.0</short-id>
+    <_name>Mandrake Linux 10.0</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandrake</distro>
+    <version>10.0</version>
+    <upgrades id="http://mandriva.com/mandrake/9.2"/>
+    <derives-from id="http://mandriva.com/mandrake/9.2"/>
+
+  </os>
+</libosinfo>
