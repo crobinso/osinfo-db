@@ -1,0 +1,229 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/13">
+    <short-id>fedora13</short-id>
+    <_name>Fedora 13</_name>
+    <version>13</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Goddard</codename>
+    <upgrades id="http://fedoraproject.org/fedora/12"/>
+    <derives-from id="http://fedoraproject.org/fedora/12"/>
+
+    <release-date>2010-05-25</release-date>
+    <eol-date>2011-06-04</eol-date>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3277086720</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726675456</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724484096</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>722425856</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>718925824</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/i386/iso/Fedora-13-i386-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 13 i386 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>386164736</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3630045184</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728256512</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728606720</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726992896</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>723963904</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Fedora/x86_64/iso/Fedora-13-x86_64-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 13 x86_64 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>723660800</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Live/i686/Fedora-13-i686-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-13-i686-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>707715072</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Live/i686/Fedora-13-i686-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-13-i686-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>731193344</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Live/x86_64/Fedora-13-x86_64-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-13-x86_64-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>709580800</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/13/Live/x86_64/Fedora-13-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-13-x86_64-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>733466624</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>13</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/13/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>13</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

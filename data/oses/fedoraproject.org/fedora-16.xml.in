@@ -1,0 +1,120 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/16">
+    <short-id>fedora16</short-id>
+    <_name>Fedora 16</_name>
+    <version>16</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Verne</codename>
+    <upgrades id="http://fedoraproject.org/fedora/15"/>
+    <derives-from id="http://fedoraproject.org/fedora/15"/>
+
+    <release-date>2011-11-08</release-date>
+
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Fedora/i386/iso/Fedora-16-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 16 i386 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3806375936</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Fedora/x86_64/iso/Fedora-16-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 16 x86_64 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3756955648</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Live/i686/Fedora-16-i686-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>Fedora-16-i686-Live-Desktop</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>633985024</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Live/i686/Fedora-16-i686-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-16-i686-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>730486784</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Live/x86_64/Fedora-16-x86_64-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>Fedora-16-x86_64-Live-Desktop</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>633040896</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/16/Live/x86_64/Fedora-16-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-16-x86_64-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728915968</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>16</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/16/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>16</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>805306368</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1207959552</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

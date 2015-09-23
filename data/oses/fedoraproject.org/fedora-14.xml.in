@@ -1,0 +1,243 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/14">
+    <short-id>fedora14</short-id>
+    <_name>Fedora 14</_name>
+    <version>14</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Laughlin</codename>
+    <upgrades id="http://fedoraproject.org/fedora/13"/>
+    <derives-from id="http://fedoraproject.org/fedora/13"/>
+
+    <release-date>2010-11-02</release-date>
+    <eol-date>2011-12-08</eol-date>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3561752576</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>705503232</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728064000</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728426496</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728170496</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/i386/iso/Fedora-14-i386-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 14 i386 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>672913408</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3520802816</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726687744</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728717312</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>723972096</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>721358848</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Fedora/x86_64/iso/Fedora-14-x86_64-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 14 x86_64 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>621590528</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Live/i686/Fedora-14-i686-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>Fedora-14-i686-Live-Desktop</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>718903296</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Live/i686/Fedora-14-i686-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-14-i686-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>718798848</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Live/x86_64/Fedora-14-x86_64-Live-Desktop.iso</url>
+      <iso>
+        <volume-id>Fedora-14-x86_64-Live-Desktop</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719706112</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/14/Live/x86_64/Fedora-14-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-14-x86_64-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719327232</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>14</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/14/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>14</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>402653184</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>536870912</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

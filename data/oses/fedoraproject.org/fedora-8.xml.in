@@ -1,0 +1,128 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/8">
+    <short-id>fedora8</short-id>
+    <_name>Fedora 8</_name>
+    <version>8</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Werewolf</codename>
+    <upgrades id="http://fedoraproject.org/fedora/7"/>
+    <derives-from id="http://fedoraproject.org/fedora/7"/>
+
+    <release-date>2007-11-08</release-date>
+    <eol-date>2009-01-07</eol-date>
+
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/i386/iso/Fedora-8-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 8 i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3424749568</volume-size>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/x86_64/iso/Fedora-8-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 8 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3876407296</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/ppc/iso/Fedora-8-ppc-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 8 ppc</volume-id>
+        <system-id>PPC</system-id>
+        <volume-size>4118646784</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Live/i686/Fedora-8-Live-i686.iso</url>
+      <iso>
+        <volume-id>Fedora-8-Live-i686</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>731086848</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Live/i686/Fedora-8-Live-KDE-i686.iso</url>
+      <iso>
+        <volume-id>Fedora-8-Live-KDE-i686</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>732188672</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Live/x86_64/Fedora-8-Live-x86_64.iso</url>
+      <iso>
+        <volume-id>Fedora-8-Live-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>803870720</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Live/x86_64/Fedora-8-Live-KDE-x86_64.iso</url>
+      <iso>
+        <volume-id>Fedora-8-Live-KDE-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>844269568</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="ppc" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Live/ppc/Fedora-8-Live-ppc.iso</url>
+      <iso>
+        <volume-id>Fedora-8-Live-ppc</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>732942336</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>8</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/8/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>8</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

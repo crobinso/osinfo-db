@@ -1,0 +1,223 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/5">
+    <short-id>fedora5</short-id>
+    <_name>Fedora Core 5</_name>
+    <version>5</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Bordeaux</codename>
+    <upgrades id="http://fedoraproject.org/fedora/4"/>
+    <derives-from id="http://fedoraproject.org/fedora/4"/>
+
+    <release-date>2006-03-20</release-date>
+    <eol-date>2007-07-02</eol-date>
+
+    <!-- Disk 1 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc1.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>687235072</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc2.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>700618752</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc3.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>721016832</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc4.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>720910336</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-disc5.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>387753984</volume-size>
+      </iso>
+    </media>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/iso/FC-5-i386-DVD.iso</url>
+      <iso>
+        <application-id>FC/5 i386</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3253669888</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc1.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>668962816</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc2.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>718063616</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc3.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>718374912</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc4.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>717789184</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-disc5.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>613832704</volume-size>
+      </iso>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/iso/FC-5-x86_64-DVD.iso</url>
+      <iso>
+        <application-id>FC/5 x86_64</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3462629376</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc1.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>PPC</system-id>
+        <volume-size>695058432</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc2.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719341568</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc3.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719454208</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc4.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>720560128</volume-size>
+      </iso>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-disc5.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>LINUX</system-id>
+        <volume-size>686794752</volume-size>
+      </iso>
+    </media>
+
+    <!-- DVD -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/ppc/iso/FC-5-ppc-DVD.iso</url>
+      <iso>
+        <application-id>FC/5 ppc</application-id>
+        <system-id>PPC</system-id>
+        <volume-size>3631042560</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/i386/os/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/core/5/x86_64/os/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <boot-iso>images/boot.iso</boot-iso>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

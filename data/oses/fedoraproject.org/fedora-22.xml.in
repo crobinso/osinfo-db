@@ -1,0 +1,167 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/22">
+    <short-id>fedora22</short-id>
+    <_name>Fedora 22</_name>
+    <version>22</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/21"/>
+    <derives-from id="http://fedoraproject.org/fedora/21"/>
+
+    <release-date>2015-05-26</release-date>
+
+    <variant id="workstation">
+      <_name>Fedora 22 Workstation</_name>
+    </variant>
+    <variant id="workstation-netinst">
+      <_name>Fedora 22 Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora 22 Server</_name>
+    </variant>
+    <variant id="server-netinst">
+      <_name>Fedora 22 Server</_name>
+    </variant>
+
+    <!-- Workstation -->
+
+    <!-- Live -->
+    <media arch="i686" live="true">
+      <variant id="workstation"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Live-Workstation-i686-22-3.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-WS-i686-22.*</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>1398321152</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <variant id="workstation"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Live-Workstation-x86_64-22-3.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-WS-x86_64-22.*</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>1430704128</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="i686">
+      <variant id="workstation-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Workstation-netinst-i386-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>534521856</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="workstation-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>468690944</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+
+    <!-- DVD -->
+    <media arch="i686">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-DVD-i386-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>2334973952</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-DVD-x86_64-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>2216890368</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="i686">
+      <variant id="server-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-netinst-i386-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>534495232</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-netinst-x86_64-22.iso</url>
+      <iso>
+        <volume-id>Fedora-22-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>468740096</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>22</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>22</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <!-- No install media or tree is provided for Fedora 22 Cloud variant -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

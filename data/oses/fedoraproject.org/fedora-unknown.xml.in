@@ -1,0 +1,55 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/unknown">
+    <short-id>fedora-unknown</short-id>
+    <_name>Fedora</_name>
+    <version>unknown</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/22"/>
+    <derives-from id="http://fedoraproject.org/fedora/22"/>
+    <release-status>prerelease</release-status>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>Fedora.*-([2-9][3-9]|[0-9]{3,}).*-i386</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Fedora.*-([2-9][3-9]|[0-9]{3,}).*-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>Fedora-Live-.*-i686-([2-9][3-9]|[0-9]{3,})</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>Fedora-Live-.*-x86_64-([2-9][3-9]|[0-9]{3,})</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

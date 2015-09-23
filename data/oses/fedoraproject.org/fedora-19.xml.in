@@ -1,0 +1,151 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/19">
+    <short-id>fedora19</short-id>
+    <_name>Fedora 19</_name>
+    <version>19</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Schrödinger's Cat</codename>
+    <upgrades id="http://fedoraproject.org/fedora/18"/>
+    <derives-from id="http://fedoraproject.org/fedora/18"/>
+
+    <!-- Full installer DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 19 i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>4518858752</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network installer DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-netinst.iso</url>
+      <iso>
+        <volume-id>Fedora 19 i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>370006016</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/x86_64/iso/Fedora-19-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 19 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>4444481536</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Live/i386/Fedora-Live-Desktop-i686-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-Desktop-i686-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>962682880</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Live/i386/Fedora-Live-KDE-i686-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-KDE-i686-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>883580928</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Live/x86_64/Fedora-Live-Desktop-x86_64-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-Desktop-x86_64-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>997115904</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Live/x86_64/Fedora-Live-KDE-x86_64-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-KDE-x86_64-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>920012800</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- LXDE-->
+    <media arch="x86_64" live="true">
+      <url>https://archive.fedoraproject.org/pub/alt/releases/19/Spins/x86_64/Fedora-Live-LXDE-x86_64-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-LXDE-x86_64-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724379648</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- XFCE -->
+    <media arch="x86_64" live="true">
+      <url>https://archive.fedoraproject.org/pub/alt/releases/19/Spins/x86_64/Fedora-Live-XFCE-x86_64-19-1.iso</url>
+      <iso>
+        <volume-id>Fedora-Live-XFCE-x86_64-19-1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>650180608</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/i386/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>19</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/19/Fedora/x86_64/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>19</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

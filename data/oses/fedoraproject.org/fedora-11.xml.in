@@ -1,0 +1,353 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/11">
+    <short-id>fedora11</short-id>
+    <_name>Fedora 11</_name>
+    <version>11</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Leonidas</codename>
+    <upgrades id="http://fedoraproject.org/fedora/10"/>
+    <derives-from id="http://fedoraproject.org/fedora/10"/>
+
+    <release-date>2009-06-09</release-date>
+    <eol-date>2010-06-25</eol-date>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+    </devices>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3683829760</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>727830528</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724916224</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>721659904</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728756224</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>717754368</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 6 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/iso/Fedora-11-i386-disc6.iso</url>
+      <iso>
+        <volume-id>Fedora 11 i386 Disc 6</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>64604160</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>4268124160</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726374400</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>725426176</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>727185408</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724492288</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724090880</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 6 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/iso/Fedora-11-x86_64-disc6.iso</url>
+      <iso>
+        <volume-id>Fedora 11 x86_64 Disc 6</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>641380352</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc DVD</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>4606894080</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 1</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>725729280</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 2</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>719245312</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 3</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>726794240</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 4</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>722802688</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 5</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>708642816</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 6 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc6.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 6</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>719030272</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 7 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/ppc/iso/Fedora-11-ppc-disc7.iso</url>
+      <iso>
+        <volume-id>Fedora 11 ppc Disc 7</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>182509568</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/i686/Fedora-11-i686-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-11-i686-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>721569792</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/i686/Fedora-11-i686-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-11-i686-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719276032</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/x86_64/Fedora-11-x86_64-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-11-x86_64-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724097024</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Live/x86_64/Fedora-11-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-11-x86_64-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>727095296</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>11</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/11/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>11</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

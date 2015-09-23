@@ -1,0 +1,313 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/12">
+    <short-id>fedora12</short-id>
+    <_name>Fedora 12</_name>
+    <version>12</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Constantine</codename>
+    <upgrades id="http://fedoraproject.org/fedora/11"/>
+    <derives-from id="http://fedoraproject.org/fedora/11"/>
+
+    <release-date>2009-11-17</release-date>
+    <eol-date>2010-12-02</eol-date>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3204427776</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>724697088</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>728029184</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726962176</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>722438144</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/iso/Fedora-12-i386-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 12 i386 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>303261696</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 DVD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3537600512</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 Disc 1</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>727363584</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 Disc 2</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719775744</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 Disc 3</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>726503424</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 Disc 4</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>727928832</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/iso/Fedora-12-x86_64-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 12 x86_64 Disc 5</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>636233728</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc DVD</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>3738935296</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 1 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc1.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 1</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>729341952</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 2 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc2.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 2</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>728432640</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 3 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc3.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 3</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>726351872</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 4 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc4.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 4</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>726714368</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 5 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc5.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 5</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>726775808</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Disk 6 -->
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/ppc/iso/Fedora-12-ppc-disc6.iso</url>
+      <iso>
+        <volume-id>Fedora 12 ppc Disc 6</volume-id>
+        <system-id>PPC|LINUX</system-id>
+        <volume-size>16394240</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Live/i686/Fedora-12-i686-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-12-i686-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>685336576</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Live/i686/Fedora-12-i686-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-12-i686-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>713181184</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Live/x86_64/Fedora-12-x86_64-Live.iso</url>
+      <iso>
+        <volume-id>Fedora-12-x86_64-Live</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>687138816</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Live/x86_64/Fedora-12-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>Fedora-12-x86_64-Live-KDE</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>717940736</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>12</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/12/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>12</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>

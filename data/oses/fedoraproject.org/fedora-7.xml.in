@@ -1,0 +1,116 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/7">
+    <short-id>fedora7</short-id>
+    <_name>Fedora 7</_name>
+    <version>7</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <codename>Moonshine</codename>
+    <upgrades id="http://fedoraproject.org/fedora/6"/>
+    <derives-from id="http://fedoraproject.org/fedora/6"/>
+
+    <release-date>2007-05-31</release-date>
+    <eol-date>2008-06-13</eol-date>
+
+    <media arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/iso/F-7-i386-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 7 i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>2900602880</volume-size>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/x86_64/iso/F-7-x86_64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 7 x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3447975936</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/ppc/iso/F-7-ppc-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 7 ppc</volume-id>
+        <system-id>PPC</system-id>
+        <volume-size>3620605952</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Live/i386/Fedora-7-Live-i686.iso</url>
+      <iso>
+        <volume-id>Fedora-7-Live-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>733427712</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="i686" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Live/i386/Fedora-7-KDE-Live-i686.iso</url>
+      <iso>
+        <volume-id>Fedora-7-KDE-Live-i386</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>719859712</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- GNOME -->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Live/x86_64/Fedora-7-Live-x86_64.iso</url>
+      <iso>
+        <volume-id>Fedora-7-Live-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>817156096</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- KDE-->
+    <media arch="x86_64" live="true">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Live/x86_64/Fedora-7-KDE-Live-x86_64.iso</url>
+      <iso>
+        <volume-id>Fedora-7-KDE-Live-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>871643136</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>7</version>
+	<arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/x86_64/os/</url>
+      <treeinfo>
+	<family>Fedora</family>
+	<version>7</version>
+	<arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+    </installer>
+  </os>
+</libosinfo>
