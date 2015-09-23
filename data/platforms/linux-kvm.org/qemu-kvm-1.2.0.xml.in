@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <platform id="http://linux-kvm.org/qemu-kvm/1.2.0">
+    <short-id>qemu-kvm-1.2.0</short-id>
+    <_name>QEMU-KVM 1.2.0</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.2.0</version>
+    <release-date>2012-09-10</release-date>
+    <upgrades id="http://linux-kvm.org/qemu-kvm/1.1.2"/>
+    <derives-from id="http://qemu.org/qemu/1.2.0"/>
+  </platform>
+</libosinfo>

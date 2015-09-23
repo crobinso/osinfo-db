@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <platform id="http://linux-kvm.org/qemu-kvm/1.0">
+    <short-id>qemu-kvm-1.0</short-id>
+    <_name>QEMU-KVM 1.0</_name>
+    <_vendor>linux-kvm.org</_vendor>
+    <version>1.0</version>
+    <release-date>2011-12-04</release-date>
+    <derives-from id="http://qemu.org/qemu/1.0"/>
+  </platform>
+</libosinfo>
