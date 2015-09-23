@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://netbsd.org/netbsd/1.5">
+    <short-id>netbsd1.5</short-id>
+    <_name>NetBSD 1.5</_name>
+    <version>1.5</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/1.4"/>
+    <derives-from id="http://netbsd.org/netbsd/1.4"/>
+
+    <release-date>2000-12-06</release-date>
+  </os>
+</libosinfo>

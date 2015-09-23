@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://netbsd.org/netbsd/0.9">
+    <short-id>netbsd0.9</short-id>
+    <_name>NetBSD 0.9</_name>
+    <version>0.9</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/0.8"/>
+    <derives-from id="http://netbsd.org/netbsd/0.8"/>
+
+    <release-date>1993-08-20</release-date>
+  </os>
+</libosinfo>
