@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://openbsd.org/openbsd/5.5">
+    <short-id>openbsd5.5</short-id>
+    <_name>OpenBSD 5.5</_name>
+    <version>5.5</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+    <upgrades id='http://openbsd.org/openbsd/5.4'/>
+    <derives-from id='http://openbsd.org/openbsd/5.4'/>
+
+    <release-date>2014-05-01</release-date>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    5.5 Install CD</volume-id>
+	<application-id>OpenBSD 5.5 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   5.5 Install CD</volume-id>
+	<application-id>OpenBSD 5.5 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

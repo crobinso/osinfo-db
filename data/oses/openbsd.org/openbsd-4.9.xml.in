@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+  <os id="http://openbsd.org/openbsd/4.9">
+    <short-id>openbsd4.9</short-id>
+    <_name>OpenBSD 4.9</_name>
+    <version>4.9</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+    <upgrades id='http://openbsd.org/openbsd/4.8'/>
+    <derives-from id='http://openbsd.org/openbsd/4.8'/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1022/2000"/>
+    </devices>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.9 Install CD</volume-id>
+	<application-id>OpenBSD 4.9 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.9 Install CD</volume-id>
+	<application-id>OpenBSD 4.9 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

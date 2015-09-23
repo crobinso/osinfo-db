@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+  <os id="http://openbsd.org/openbsd/4.2">
+    <short-id>openbsd4.2</short-id>
+    <_name>OpenBSD 4.2</_name>
+    <version>4.2</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <_vendor>OpenBSD Project</_vendor>
+
+    <media arch='i686'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/i386    4.2 Install CD</volume-id>
+	<application-id>OpenBSD 4.2 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch='x86_64'>
+      <iso>
+	<publisher-id>The OpenBSD project</publisher-id>
+	<system-id>OpenBSD</system-id>
+	<volume-id>OpenBSD/amd64   4.2 Install CD</volume-id>
+	<application-id>OpenBSD 4.2 amd64 Install CD</application-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
