@@ -1,0 +1,49 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/5.0">
+    <short-id>altlinux5.0</short-id>
+    <_name>ALT Linux 5.0</_name>
+    <version>5.0</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <codename>Ark</codename>
+    <upgrades id="http://altlinux.org/altlinux/4.1"/>
+    <derives-from id="http://altlinux.org/altlinux/4.1"/>
+    <release-date>2009-10-29</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p5/iso/ark/altlinux-5.0.0-ark-server-i586-ru-install-cd.iso</url>
+      <iso>
+        <volume-id>ALT Linux 5.0.\d</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p5/iso/ark/altlinux-5.0.0-ark-server-x86_64-ru-install-cd.iso</url>
+      <iso>
+        <volume-id>ALT Linux 5.0.\d</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>67108864</ram>
+      </minimum>
+      <recommended>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

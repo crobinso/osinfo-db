@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/4.1">
+    <short-id>altlinux4.1</short-id>
+    <_name>ALT Linux 4.1</_name>
+    <version>4.1</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <upgrades id="http://altlinux.org/altlinux/4.0"/>
+    <derives-from id="http://altlinux.org/altlinux/4.0"/>
+    <release-date>2008-12-07</release-date>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.1/Desktop/current/iso/altlinux-4.1.1-desktop-i586-install-dvd5.iso</url>
+      <iso>
+        <volume-id>^"Desktop"$</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.1/Desktop/current/iso/altlinux-4.1.1-desktop-x86_64-install-dvd5.iso</url>
+      <iso>
+        <volume-id>^"Desktop"$</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+  </os>
+</libosinfo>

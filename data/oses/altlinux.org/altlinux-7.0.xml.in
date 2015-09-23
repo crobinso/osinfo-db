@@ -1,0 +1,33 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/7.0">
+    <short-id>altlinux7.0</short-id>
+    <_name>ALT Linux 7.0</_name>
+    <version>7.0</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <codename>Centaurus</codename>
+    <upgrades id="http://altlinux.org/altlinux/6.0"/>
+    <derives-from id="http://altlinux.org/altlinux/6.0"/>
+    <release-date>2012-10-01</release-date>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p7/iso/centaurus/altlinux-7.0.0-centaurus-i586-ru-install-dvd5.iso</url>
+      <iso>
+        <volume-id>(ALT|Simply) Linux (6.9|7.0).\d</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p7/iso/centaurus/altlinux-7.0.0-centaurus-x86_64-ru-install-dvd5.iso</url>
+      <iso>
+        <volume-id>(ALT|Simply) Linux (6.9|7.0).\d</volume-id>
+        <publisher-id>ALT Linux Team</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+  </os>
+</libosinfo>

@@ -1,0 +1,33 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/4.0">
+    <short-id>altlinux4.0</short-id>
+    <_name>ALT Linux 4.0</_name>
+    <version>4.0</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <upgrades id="http://altlinux.org/altlinux/3.0"/>
+    <derives-from id="http://altlinux.org/altlinux/3.0"/>
+    <release-date>2007-06-01</release-date>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.0/Server/current/iso/altlinux-4.0.1-server-i586-install-cd.iso</url>
+      <iso>
+        <volume-id>^("Terminal"|Server|"Desktop\ Personal")$</volume-id>
+        <publisher-id>ALT Linux( Team)?</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.0/Server/current/iso/altlinux-4.0.1-server-x86_64-install-cd.iso</url>
+      <iso>
+        <system-id>ALT Linux Team</system-id>
+        <volume-id>^Server$</volume-id>
+        <publisher-id>ALT Linux</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+  </os>
+</libosinfo>

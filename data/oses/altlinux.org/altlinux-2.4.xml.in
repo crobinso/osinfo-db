@@ -1,0 +1,25 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/2.4">
+    <short-id>altlinux2.4</short-id>
+    <_name>ALT Linux 2.4</_name>
+    <version>2.4</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <codename>Citron</codename>
+    <upgrades id="http://altlinux.org/altlinux/2.2"/>
+    <derives-from id="http://altlinux.org/altlinux/2.2"/>
+    <release-date>2004-09-01</release-date>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/2.4/Master/iso/Master-2.4-install-cd.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CDROM</volume-id>
+        <publisher-id>ALT Linux</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/all.rdz</initrd>
+    </media>
+  </os>
+</libosinfo>

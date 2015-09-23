@@ -1,0 +1,12 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/1.0">
+    <short-id>altlinux1.0</short-id>
+    <_name>Mandrake RE Spring 2001</_name>
+    <version>1.0</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <release-date>2001-03-01</release-date>
+    <clones id="http://mandriva.com/mandrake/7.2"/>
+  </os>
+</libosinfo>

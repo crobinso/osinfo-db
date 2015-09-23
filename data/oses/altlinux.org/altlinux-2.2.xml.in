@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/2.2">
+    <short-id>altlinux2.2</short-id>
+    <_name>ALT Linux 2.2</_name>
+    <version>2.2</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <upgrades id="http://altlinux.org/altlinux/2.0"/>
+    <derives-from id="http://altlinux.org/altlinux/2.0"/>
+    <release-date>2003-03-01</release-date>
+  </os>
+</libosinfo>

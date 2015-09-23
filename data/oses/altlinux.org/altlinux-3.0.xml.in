@@ -1,0 +1,25 @@
+<libosinfo version="0.0.1">
+  <os id="http://altlinux.org/altlinux/3.0">
+    <short-id>altlinux3.0</short-id>
+    <_name>ALT Linux 3.0</_name>
+    <version>3.0</version>
+    <_vendor>ALTLinux</_vendor>
+    <family>linux</family>
+    <distro>altlinux</distro>
+    <codename>caprifoil</codename>
+    <upgrades id="http://altlinux.org/altlinux/2.4"/>
+    <derives-from id="http://altlinux.org/altlinux/2.4"/>
+    <release-date>2005-03-22</release-date>
+
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/3.0/iso/compact-3.0.4.iso</url>
+      <iso>
+        <system-id>ALT Linux</system-id>
+        <volume-id>Compact</volume-id>
+        <publisher-id>ALT Linux</publisher-id>
+      </iso>
+      <kernel>isolinux/alt0/vmlinuz</kernel>
+      <initrd>isolinux/alt0/full.cz</initrd>
+    </media>
+  </os>
+</libosinfo>
