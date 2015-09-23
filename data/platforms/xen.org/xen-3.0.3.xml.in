@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <platform id="http://xen.org/xen/3.0.3">
+    <short-id>xen-3.0.3</short-id>
+    <_name>Xen 3.0.3</_name>
+    <_vendor>Citrix Systems, Inc.</_vendor>
+    <version>3.0.3</version>
+    <upgrades id="http://xen.org/xen/3.0.2"/>
+
+  </platform>
+</libosinfo>
