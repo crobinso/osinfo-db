@@ -3,14 +3,14 @@
   <os id="http://ubuntu.com/ubuntu/4.10">
     <short-id>ubuntu4.10</short-id>
     <short-id>ubuntuwarty</short-id>
-    <_name>Ubuntu Warty Warthog</_name>
+    <_name>Ubuntu 4.10</_name>
     <version>4.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Warty Warthog</codename>
 
-    <release-date>2004-10-20</release-date>
+    <release-date>2004-10-26</release-date>
     <eol-date>2006-04-30</eol-date>
 
     <media arch="i686">
@@ -46,7 +46,7 @@
   <os id="http://ubuntu.com/ubuntu/5.04">
     <short-id>ubuntu5.04</short-id>
     <short-id>ubuntuhoary</short-id>
-    <_name>Ubuntu Hoary Hedgehog</_name>
+    <_name>Ubuntu 5.04</_name>
     <version>5.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -119,7 +119,7 @@
   <os id="http://ubuntu.com/ubuntu/5.10">
     <short-id>ubuntu5.10</short-id>
     <short-id>ubuntubreezy</short-id>
-    <_name>Ubuntu Breezy Badger</_name>
+    <_name>Ubuntu 5.10</_name>
     <version>5.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -128,7 +128,7 @@
     <upgrades id="http://ubuntu.com/ubuntu/5.04"/>
     <derives-from id="http://ubuntu.com/ubuntu/5.04"/>
 
-    <release-date>2005-10-13</release-date>
+    <release-date>2005-10-12</release-date>
     <eol-date>2007-04-13</eol-date>
 
     <media arch="i686">
@@ -220,7 +220,7 @@
   <os id="http://ubuntu.com/ubuntu/6.06">
     <short-id>ubuntu6.06</short-id>
     <short-id>ubuntudapper</short-id>
-    <_name>Ubuntu Dapper Drake LTS</_name>
+    <_name>Ubuntu 6.06 LTS</_name>
     <version>6.06</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -367,7 +367,7 @@
   <os id="http://ubuntu.com/ubuntu/6.10">
     <short-id>ubuntu6.10</short-id>
     <short-id>ubuntuedgy</short-id>
-    <_name>Ubuntu Edgy Eft</_name>
+    <_name>Ubuntu 6.10</_name>
     <version>6.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -377,7 +377,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/6.06"/>
 
     <release-date>2006-10-26</release-date>
-    <eol-date>2008-04-25</eol-date>
+    <eol-date>2008-04-26</eol-date>
 
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
@@ -448,7 +448,7 @@
   <os id="http://ubuntu.com/ubuntu/7.04">
     <short-id>ubuntu7.04</short-id>
     <short-id>ubuntufeisty</short-id>
-    <_name>Ubuntu Feisty Fawn</_name>
+    <_name>Ubuntu 7.04</_name>
     <version>7.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -511,7 +511,7 @@
   <os id="http://ubuntu.com/ubuntu/7.10">
     <short-id>ubuntu7.10</short-id>
     <short-id>ubuntugutsy</short-id>
-    <_name>Ubuntu Gutsy Gibbon</_name>
+    <_name>Ubuntu 7.10</_name>
     <version>7.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -574,7 +574,7 @@
   <os id="http://ubuntu.com/ubuntu/8.04">
     <short-id>ubuntu8.04</short-id>
     <short-id>ubuntuhardy</short-id>
-    <_name>Ubuntu Hardy Heron LTS</_name>
+    <_name>Ubuntu 8.04 LTS</_name>
     <version>8.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -584,6 +584,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/7.10"/>
 
     <release-date>2008-04-24</release-date>
+    <eol-date>2013-05-09</eol-date>
 
     <devices>
       <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
@@ -650,7 +651,7 @@
   <os id="http://ubuntu.com/ubuntu/8.10">
     <short-id>ubuntu8.10</short-id>
     <short-id>ubuntuintrepid</short-id>
-    <_name>Ubuntu Intrepid Ibex</_name>
+    <_name>Ubuntu 8.10</_name>
     <version>8.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -704,7 +705,7 @@
   <os id="http://ubuntu.com/ubuntu/9.04">
     <short-id>ubuntu9.04</short-id>
     <short-id>ubuntujaunty</short-id>
-    <_name>Ubuntu Jaunty Jackalope</_name>
+    <_name>Ubuntu 9.04</_name>
     <version>9.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -762,7 +763,7 @@
   <os id="http://ubuntu.com/ubuntu/9.10">
     <short-id>ubuntu9.10</short-id>
     <short-id>ubuntukarmic</short-id>
-    <_name>Ubuntu Karmic Koala</_name>
+    <_name>Ubuntu 9.10</_name>
     <version>9.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -816,7 +817,7 @@
   <os id="http://ubuntu.com/ubuntu/10.04">
     <short-id>ubuntu10.04</short-id>
     <short-id>ubuntulucid</short-id>
-    <_name>Ubuntu Lucid Lynx LTS</_name>
+    <_name>Ubuntu 10.04 LTS</_name>
     <version>10.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -826,6 +827,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/9.10"/>
 
     <release-date>2010-04-29</release-date>
+    <eol-date>2015-04-30</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -863,7 +865,7 @@
   <os id="http://ubuntu.com/ubuntu/10.10">
     <short-id>ubuntu10.10</short-id>
     <short-id>ubuntumaverick</short-id>
-    <_name>Ubuntu Maverick Meerkat</_name>
+    <_name>Ubuntu 10.10</_name>
     <version>10.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -873,6 +875,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/10.04"/>
 
     <release-date>2010-10-10</release-date>
+    <eol-date>2012-04-10</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -930,7 +933,7 @@
   <os id="http://ubuntu.com/ubuntu/11.04">
     <short-id>ubuntu11.04</short-id>
     <short-id>ubuntunatty</short-id>
-    <_name>Ubuntu Natty Narwhal</_name>
+    <_name>Ubuntu 11.04</_name>
     <version>11.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -940,6 +943,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/10.10"/>
 
     <release-date>2011-04-28</release-date>
+    <eol-date>2012-10-28</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -997,7 +1001,7 @@
   <os id="http://ubuntu.com/ubuntu/11.10">
     <short-id>ubuntu11.10</short-id>
     <short-id>ubuntuoneiric</short-id>
-    <_name>Ubuntu Oneiric Ocelot</_name>
+    <_name>Ubuntu 11.10</_name>
     <version>11.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1007,6 +1011,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/11.04"/>
 
     <release-date>2011-10-13</release-date>
+    <eol-date>2013-05-09</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1060,7 +1065,7 @@
   <os id="http://ubuntu.com/ubuntu/12.04">
     <short-id>ubuntu12.04</short-id>
     <short-id>ubuntuprecise</short-id>
-    <_name>Ubuntu Precise Pangolin LTS</_name>
+    <_name>Ubuntu 12.04 LTS</_name>
     <version>12.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1070,6 +1075,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/11.10"/>
 
     <release-date>2012-04-26</release-date>
+    <eol-date>2017-04-26</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1125,7 +1131,7 @@
   <os id="http://ubuntu.com/ubuntu/12.10">
     <short-id>ubuntu12.10</short-id>
     <short-id>ubuntuquantal</short-id>
-    <_name>Ubuntu Quantal Quetzal</_name>
+    <_name>Ubuntu 12.10</_name>
     <version>12.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1135,6 +1141,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/12.04"/>
 
     <release-date>2012-10-18</release-date>
+    <eol-date>2014-05-16</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1150,7 +1157,7 @@
       </recommended>
     </resources>
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.10 i386</volume-id>
       </iso>
@@ -1158,7 +1165,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.10 amd64</volume-id>
       </iso>
@@ -1166,7 +1173,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 12.10 i386</volume-id>
       </iso>
@@ -1174,7 +1181,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/quantal/ubuntu-12.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 12.10 amd64</volume-id>
       </iso>
@@ -1190,16 +1197,17 @@
   <os id="http://ubuntu.com/ubuntu/13.04">
     <short-id>ubuntu13.04</short-id>
     <short-id>ubunturaring</short-id>
-    <_name>Ubuntu Raring Ringtails</_name>
+    <_name>Ubuntu 13.04</_name>
     <version>13.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
-    <codename>Raring Ringtails</codename>
+    <codename>Raring Ringtail</codename>
     <upgrades id="http://ubuntu.com/ubuntu/12.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/12.10"/>
 
     <release-date>2013-04-25</release-date>
+    <eol-date>2014-01-27</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1215,7 +1223,7 @@
       </recommended>
     </resources>
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/raring/ubuntu-13.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 13.04 i386</volume-id>
       </iso>
@@ -1223,7 +1231,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/raring/ubuntu-13.04-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 13.04 amd64</volume-id>
       </iso>
@@ -1231,7 +1239,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 13.04 i386</volume-id>
       </iso>
@@ -1239,7 +1247,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/raring/ubuntu-13.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 13.04 amd64</volume-id>
       </iso>
@@ -1255,7 +1263,7 @@
   <os id="http://ubuntu.com/ubuntu/13.10">
     <short-id>ubuntu13.10</short-id>
     <short-id>ubuntusaucy</short-id>
-    <_name>Ubuntu Saucy Salamander</_name>
+    <_name>Ubuntu 13.10</_name>
     <version>13.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1265,6 +1273,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/13.04"/>
 
     <release-date>2013-10-17</release-date>
+    <eol-date>2014-07-17</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1280,7 +1289,7 @@
       </recommended>
     </resources>
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 13.10 i386</volume-id>
       </iso>
@@ -1288,7 +1297,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 13.10 amd64</volume-id>
       </iso>
@@ -1296,7 +1305,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 13.10 i386</volume-id>
       </iso>
@@ -1304,7 +1313,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 13.10 amd64</volume-id>
       </iso>
@@ -1320,7 +1329,7 @@
   <os id="http://ubuntu.com/ubuntu/14.04">
     <short-id>ubuntu14.04</short-id>
     <short-id>ubuntutrusty</short-id>
-    <_name>Ubuntu Trusty Tahr LTS</_name>
+    <_name>Ubuntu 14.04 LTS</_name>
     <version>14.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1329,8 +1338,8 @@
     <upgrades id="http://ubuntu.com/ubuntu/13.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/13.10"/>
 
-    <release-date>2014-04-26</release-date>
-    <eol-date>2019-04-01</eol-date>
+    <release-date>2014-04-17</release-date>
+    <eol-date>2019-04-17</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1387,7 +1396,7 @@
   <os id="http://ubuntu.com/ubuntu/14.10">
     <short-id>ubuntu14.10</short-id>
     <short-id>ubuntututopic</short-id>
-    <_name>Ubuntu Utopic Unicorn</_name>
+    <_name>Ubuntu 14.10</_name>
     <version>14.10</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
@@ -1397,8 +1406,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/14.04"/>
 
     <release-date>2014-10-23</release-date>
-    <!-- https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Table_of_versions -->
-    <!--<eol-date>2015-07</eol-date>-->
+    <eol-date>2015-07-23</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1455,18 +1463,17 @@
   <os id="http://ubuntu.com/ubuntu/15.04">
     <short-id>ubuntu15.04</short-id>
     <short-id>ubuntutvivid</short-id>
-    <_name>Ubuntu Vivid Varvet</_name>
+    <_name>Ubuntu 15.04</_name>
     <version>15.04</version>
     <_vendor>Canonical Ltd</_vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
-    <codename>Vivid Varvet</codename>
+    <codename>Vivid Vervet</codename>
     <upgrades id="http://ubuntu.com/ubuntu/14.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/14.10"/>
 
     <release-date>2015-04-23</release-date>
-    <!-- https://en.wikipedia.org/wiki/List_of_Ubuntu_releases#Table_of_versions -->
-    <!--<eol-date>2016-01</eol-date>-->
+    <eol-date>2016-01-23</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -1510,6 +1517,73 @@
       <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 15.04(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+    </installer>
+  </os>
+
+  <os id="http://ubuntu.com/ubuntu/15.10">
+    <short-id>ubuntu15.10</short-id>
+    <short-id>ubuntutwily</short-id>
+    <_name>Ubuntu 15.10</_name>
+    <version>15.10</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Wily Werewolf</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/15.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/15.04"/>
+
+    <release-date>2015-10-22</release-date>
+    <eol-date>2016-07-22</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i686">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.10-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 15.10(.\d)? i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.10-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 15.10(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.10-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 15.10(.\d)? i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.10-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 15.10(.\d)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
