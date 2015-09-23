@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://apple.com/macosx/10.4">
+    <short-id>macosx10.4</short-id>
+    <_name>MacOS X Tiger</_name>
+    <version>10.4</version>
+    <_vendor>Apple Inc.</_vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.3" />
+  </os>
+</libosinfo>

@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://apple.com/macosx/10.2">
+    <short-id>macosx10.2</short-id>
+    <_name>MacOS X Jaguar</_name>
+    <version>10.2</version>
+    <_vendor>Apple Inc.</_vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.1" />
+  </os>
+</libosinfo>

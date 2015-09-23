@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <os id="http://apple.com/macosx/10.0">
+    <short-id>macosx10.0</short-id>
+    <_name>MacOS X Cheetah</_name>
+    <version>10.0</version>
+    <_vendor>Apple Inc.</_vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+  </os>
+</libosinfo>

@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://apple.com/macosx/10.5">
+    <short-id>macosx10.5</short-id>
+    <_name>MacOS X Leopard</_name>
+    <version>10.5</version>
+    <_vendor>Apple Inc.</_vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.4" />
+  </os>
+</libosinfo>

@@ -1,0 +1,21 @@
+<libosinfo version="0.0.1">
+  <os id="http://apple.com/macosx/10.7">
+    <short-id>macosx10.7</short-id>
+    <_name>MacOS X Lion</_name>
+    <version>10.7</version>
+    <_vendor>Apple Inc.</_vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+    <upgrades id="http://apple.com/macosx/10.6" />
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>2</n-cpus>
+        <cpu>1600000000</cpu>
+        <ram>2147483648</ram>
+        <storage>7516192768</storage>
+      </minimum>
+    </resources>
+
+  </os>
+</libosinfo>
