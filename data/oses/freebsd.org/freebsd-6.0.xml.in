@@ -1,0 +1,18 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/6.0">
+    <short-id>freebsd6.0</short-id>
+    <_name>FreeBSD 6.0</_name>
+    <version>6.0</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/5.5"/>
+    <derives-from id="http://freebsd.org/freebsd/5.5"/>
+
+    <release-date>2005-11-04</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/10ec/8029"/>
+    </devices>
+  </os>
+</libosinfo>

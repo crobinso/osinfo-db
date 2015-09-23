@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/2.2.9">
+    <short-id>freebsd2.2.9</short-id>
+    <_name>FreeBSD 2.2.9</_name>
+    <version>2.2.9</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/2.2.8"/>
+    <derives-from id="http://freebsd.org/freebsd/2.2.8"/>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/8.4">
+    <short-id>freebsd8.4</short-id>
+    <_name>FreeBSD 8.4</_name>
+    <version>8.4</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/8.3"/>
+    <derives-from id="http://freebsd.org/freebsd/8.3"/>
+
+    <release-date>2013-06-07</release-date>
+    <eol-date>2015-06-30</eol-date>
+  </os>
+</libosinfo>

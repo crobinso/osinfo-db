@@ -1,0 +1,16 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/5.0">
+    <short-id>freebsd5.0</short-id>
+    <_name>FreeBSD 5.0</_name>
+    <version>5.0</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+
+    <release-date>2003-01-00</release-date>
+
+    <upgrades id="http://freebsd.org/freebsd/4.11"/>
+    <derives-from id="http://freebsd.org/freebsd/4.11"/>
+
+  </os>
+</libosinfo>

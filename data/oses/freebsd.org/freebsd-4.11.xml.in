@@ -1,0 +1,17 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/4.11">
+    <short-id>freebsd4.11</short-id>
+    <_name>FreeBSD 4.11</_name>
+    <version>4.11</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+
+    <release-date>2000-06-24</release-date>
+    <eol-date>2007-01-31</eol-date>
+
+    <upgrades id="http://freebsd.org/freebsd/4.10"/>
+    <derives-from id="http://freebsd.org/freebsd/4.10"/>
+
+  </os>
+</libosinfo>

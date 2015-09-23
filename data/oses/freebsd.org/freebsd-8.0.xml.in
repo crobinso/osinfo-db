@@ -1,0 +1,18 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/8.0">
+    <short-id>freebsd8.0</short-id>
+    <_name>FreeBSD 8.0</_name>
+    <version>8.0</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/7.4"/>
+    <derives-from id="http://freebsd.org/freebsd/7.4"/>
+
+    <release-date>2009-11-25</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/8086/100e"/>
+    </devices>
+  </os>
+</libosinfo>

@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/3.2">
+    <short-id>freebsd3.2</short-id>
+    <_name>FreeBSD 3.2</_name>
+    <version>3.2</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/3.0"/>
+    <derives-from id="http://freebsd.org/freebsd/3.0"/>
+
+  </os>
+</libosinfo>

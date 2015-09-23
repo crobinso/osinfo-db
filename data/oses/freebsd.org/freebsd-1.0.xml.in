@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/1.0">
+    <short-id>freebsd1.0</short-id>
+    <_name>FreeBSD 1.0</_name>
+    <version>1.0</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+
+    <release-date>1993-11-00</release-date>
+
+  </os>
+</libosinfo>

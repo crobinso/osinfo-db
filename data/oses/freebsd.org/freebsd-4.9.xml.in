@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/4.9">
+    <short-id>freebsd4.9</short-id>
+    <_name>FreeBSD 4.9</_name>
+    <version>4.9</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+
+    <upgrades id="http://freebsd.org/freebsd/4.8"/>
+    <derives-from id="http://freebsd.org/freebsd/4.8"/>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/9.2">
+    <short-id>freebsd9.2</short-id>
+    <_name>FreeBSD 9.2</_name>
+    <version>9.2</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/9.1"/>
+    <derives-from id="http://freebsd.org/freebsd/9.1"/>
+
+    <release-date>2013-09-30</release-date>
+    <eol-date>2014-09-30</eol-date>
+  </os>
+</libosinfo>
