@@ -1138,7 +1138,7 @@
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>RHELSA-.* Server\.aarch64</volume-id>
+        <volume-id>RHELSA-1.5 Server\.aarch64</volume-id>
       </iso>
        <kernel>isolinux/vmlinuz</kernel>
        <initrd>isolinux/initrd.img</initrd>
