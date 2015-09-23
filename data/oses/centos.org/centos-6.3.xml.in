@@ -1,0 +1,55 @@
+<libosinfo version="0.0.1">
+  <os id="http://centos.org/centos/6.3">
+    <short-id>centos6.3</short-id>
+    <_name>CentOS 6.3</_name>
+    <version>6.3</version>
+    <_vendor>CentOS</_vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos/6.2"/>
+    <clones id="http://redhat.com/rhel/6.3"/>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.3_Final</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.3_Final</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-6.3-x86_64-LiveDVD</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
