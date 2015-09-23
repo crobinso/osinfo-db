@@ -1,0 +1,105 @@
+<libosinfo version="0.0.1">
+  <install-script id='http://redhat.com/rhel/kickstart/jeos'>
+    <profile>jeos</profile>
+    <expected-filename>rhel.ks</expected-filename>
+    <config>
+      <param name="admin-password" policy="optional"/>
+      <param name="l10n-keyboard" policy="optional"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-timezone" policy="optional"/>
+      <param name="target-disk" policy="optional"/>
+      <param name="script-disk" policy="required"/>
+    </config>
+    <injection-method>cdrom</injection-method>
+    <injection-method>disk</injection-method>
+    <injection-method>floppy</injection-method>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 4">
+              <!-- virtio -->
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- IDE -->
+              <xsl:text>/dev/sda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="script-disk">
+          <xsl:variable name="script-disk">
+            <xsl:value-of select="config/script-disk"/>
+          </xsl:variable>
+          <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
+        </xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text>ks=hd:</xsl:text>
+            <xsl:call-template name="script-disk"/>
+            <xsl:text>:/</xsl:text>
+            <xsl:value-of select="script/expected-filename"/>
+        </xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+cdrom
+text
+<!-- FIXME: RHEL requires keyboard layout to be a console layout so to do this right, we'll need
+            mapping from language to console layout. -->
+keyboard us
+lang <xsl:value-of select="config/l10n-language"/>
+skipx
+network --bootproto dhcp
+rootpw <xsl:value-of select="config/admin-password"/>
+firewall --disabled
+authconfig --enableshadow --enablemd5
+selinux --enforcing
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr
+
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
+
+
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
+part /boot --fstype ext4 --size=1024 --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:when>
+  <xsl:otherwise>
+part /boot --fstype ext4 --recommended --ondisk=<xsl:call-template name="target-disk"/>
+  </xsl:otherwise>
+</xsl:choose>
+part pv.2 --size=1 --grow --ondisk=<xsl:call-template name="target-disk"/>
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype ext4 --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+reboot
+
+%packages
+<xsl:choose>
+  <xsl:when test="os/version &lt; 7">
+@base
+  </xsl:when>
+  <xsl:otherwise>
+@standard
+  </xsl:otherwise>
+</xsl:choose>
+@core
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>
