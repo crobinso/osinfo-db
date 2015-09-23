@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sled/11.2">
+    <short-id>sled11sp2</short-id>
+    <_name>SUSE Linux Enterprise Desktop 11 SP2</_name>
+    <version>11.2</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sled</distro>
+    <upgrades id="http://suse.com/sled/11.1"/>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLED-11-SP2-DVD-i586</volume-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLED-11-SP2-DVD-x86_64</volume-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>

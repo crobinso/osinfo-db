@@ -1,0 +1,16 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sles/11">
+    <short-id>sles11</short-id>
+    <_name>SUSE Linux Enterprise Server 11</_name>
+    <version>11</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+    <upgrades id="http://suse.com/sles/10"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+  </os>
+</libosinfo>

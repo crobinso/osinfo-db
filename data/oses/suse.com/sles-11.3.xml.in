@@ -1,0 +1,30 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sles/11.3">
+    <short-id>sles11sp3</short-id>
+    <_name>SUSE Linux Enterprise Server 11 SP3</_name>
+    <version>11.3</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+    <upgrades id="http://suse.com/sles/11.2"/>
+
+    <release-date>2013-07-01</release-date>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLES-11-SP3-DVD-i586</volume-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLES-11-SP3-DVD-x86_64</volume-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>

@@ -1,0 +1,22 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sled/10">
+    <short-id>sled10</short-id>
+    <_name>SUSE Linux Enterprise Desktop 10</_name>
+    <version>10</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sled</distro>
+    <upgrades id="http://suse.com/sled/9"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

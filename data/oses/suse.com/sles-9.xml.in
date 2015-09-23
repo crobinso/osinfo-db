@@ -1,0 +1,10 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sles/9">
+    <short-id>sles9</short-id>
+    <_name>SUSE Linux Enterprise Server 9</_name>
+    <version>9</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+  </os>
+</libosinfo>
