@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://mageia.org/mageia/2">
+    <short-id>mageia2</short-id>
+    <_name>Mageia 2</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>2</version>
+    <derives-from id="http://mageia.org/mageia/1"/>
+    <release-date>2012-05-22</release-date>
+    <eol-date>2013-11-22</eol-date>
+
+    <media arch="i686">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-2-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/en/downloads/get/?q=Mageia-2-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-2(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-2-x86_64-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/en/downloads/get/?q=Mageia-2-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-2(-x86_64)?</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

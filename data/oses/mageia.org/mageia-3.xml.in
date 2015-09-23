@@ -1,0 +1,43 @@
+<libosinfo version="0.0.1">
+  <os id="http://mageia.org/mageia/3">
+    <short-id>mageia3</short-id>
+    <_name>Mageia 3</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>3</version>
+    <derives-from id="http://mageia.org/mageia/2"/>
+    <release-date>2013-05-19</release-date>
+    <eol-date>2014-11-19</eol-date>
+
+    <media arch="i686">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-3-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://www.mageia.org/en/downloads/get/?q=Mageia-3-x86_64-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-dual-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3(-x86_64)?</volume-id>
+      </iso>
+    </media>
+    <media live="true" arch="i686">
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveDVD-KDE4-i586-DVD.iso</url>
+<!--
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveDVD-GNOME-i586-DVD.iso</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveCD-KDE4-en-i586-CD.iso</url>
+      <url>http://www.mageia.org/fr/downloads/get/?q=Mageia-3-LiveCD-GNOME-en-i586-CD.iso</url>
+-->
+      <iso>
+        <volume-id>Mageia-3-(GNOME|KDE4)-Live(CD|DVD)</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
