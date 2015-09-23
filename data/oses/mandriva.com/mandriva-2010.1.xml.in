@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandriva/2010.1">
+    <short-id>mandriva2010.1</short-id>
+    <_name>Mandriva Linux 2010 Spring</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandriva</distro>
+    <version>2010.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2010.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2010.0"/>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandriva/2011">
+    <short-id>mandriva2011</short-id>
+    <_name>Mandriva Linux 2011</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandriva</distro>
+    <codename>Hydrogen</codename>
+    <version>2011</version>
+    <upgrades id="http://mandriva.com/mandriva/2010.2"/>
+    <derives-from id="http://mandriva.com/mandriva/2010.2"/>
+
+  </os>
+</libosinfo>

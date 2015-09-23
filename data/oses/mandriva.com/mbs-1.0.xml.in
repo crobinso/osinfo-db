@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mbs/1.0">
+    <short-id>mbs1.0</short-id>
+    <_name>Mandriva Business Server 1.0</_name>
+    <version>1.0</version>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mbs</distro>
+
+  </os>
+</libosinfo>

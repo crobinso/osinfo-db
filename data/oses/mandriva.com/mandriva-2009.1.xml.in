@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandriva/2009.1">
+    <short-id>mandriva2009.1</short-id>
+    <_name>Mandriva Linux 2009 Spring</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandriva</distro>
+    <version>2009.1</version>
+    <upgrades id="http://mandriva.com/mandriva/2009.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2009.0"/>
+
+  </os>
+</libosinfo>

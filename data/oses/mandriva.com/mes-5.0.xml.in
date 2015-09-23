@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mes/5.0">
+    <short-id>mes5</short-id>
+    <_name>Mandriva Enterprise Server 5.0</_name>
+    <version>5.0</version>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mes</distro>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,17 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mes/5.1">
+    <short-id>mes5.1</short-id>
+    <_name>Mandriva Enterprise Server 5.1</_name>
+    <version>5.1</version>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mes</distro>
+    <upgrades id="http://mandriva.com/mes/5.0"/>
+    <derives-from id="http://mandriva.com/mes/5.0"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+    </devices>
+  </os>
+</libosinfo>

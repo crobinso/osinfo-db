@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandriva/2007">
+    <short-id>mandriva2007</short-id>
+    <_name>Mandriva Linux 2007</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandriva</distro>
+    <version>2007</version>
+    <upgrades id="http://mandriva.com/mandriva/2006.0"/>
+    <derives-from id="http://mandriva.com/mandriva/2006.0"/>
+
+  </os>
+</libosinfo>

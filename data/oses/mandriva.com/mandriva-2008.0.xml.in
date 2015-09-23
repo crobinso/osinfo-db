@@ -1,0 +1,13 @@
+<libosinfo version="0.0.1">
+  <os id="http://mandriva.com/mandriva/2008.0">
+    <short-id>mandriva2008.0</short-id>
+    <_name>Mandriva Linux 2008</_name>
+    <_vendor>Mandriva</_vendor>
+    <family>linux</family>
+    <distro>mandriva</distro>
+    <version>2008.0</version>
+    <upgrades id="http://mandriva.com/mandriva/2007.1"/>
+    <derives-from id="http://mandriva.com/mandriva/2007.1"/>
+
+  </os>
+</libosinfo>
