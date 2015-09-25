@@ -37,9 +37,9 @@
       <device id="http://pcisig.com/pci/8086/25ab"/>
       <device id="http://ibasetechnologies.net/isa/ib700"/>
       <!-- ps2: keyboard -->
-      <device id="http://qemu.org/ps2/keyboard"/>
+      <device id="http://ibm.com/ps2/keyboard"/>
       <!-- ps2: mouse -->
-      <device id="http://qemu.org/ps2/mouse"/>
+      <device id="http://ibm.com/ps2/mouse"/>
       <!-- USB tablet -->
       <device id="http://usb.org/usb/80ee/0021"/>
       <!-- virtio-net -->

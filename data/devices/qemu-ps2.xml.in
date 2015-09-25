@@ -1,7 +1,7 @@
 <!-- PS2 devices for QEMU/KVM(s) -->
 <libosinfo version="0.0.1">
 
-  <device id="http://qemu.org/ps2/keyboard">
+  <device id="http://ibm.com/ps2/keyboard">
     <name>keyboard</name>
     <bus-type>ps2</bus-type>
     <class>input</class>
@@ -9,7 +9,7 @@
     <product>Keyboard</product>
   </device>
 
-  <device id="http://qemu.org/ps2/mouse">
+  <device id="http://ibm.com/ps2/mouse">
     <name>mouse</name>
     <bus-type>ps2</bus-type>
     <class>input</class>
