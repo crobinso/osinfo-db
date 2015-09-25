@@ -5,12 +5,7 @@
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1000/0012">
     <name>lsi</name>
-    <bus-type>pci</bus-type>
     <class>block</class>
-    <_vendor>LSI Logic / Symbios Logic</_vendor>
-    <vendor-id>1000</vendor-id>
-    <product>53c895a</product>
-    <product-id>0012</product-id>
   </device>
 
   <!-- Video devices -->
@@ -27,73 +22,39 @@
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1013/00b8">
     <name>cirrus</name>
-    <bus-type>pci</bus-type>
     <class>video</class>
-    <_vendor>Cirrus Logic</_vendor>
-    <vendor-id>1013</vendor-id>
-    <product>GD 5446</product>
-    <product-id>00b8</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/15ad/0710">
     <name>vmvga</name>
-    <bus-type>pci</bus-type>
     <class>video</class>
-    <_vendor>VMWare</_vendor>
-    <vendor-id>15ad</vendor-id>
-    <product>VGA</product>
-    <product-id>0710</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100">
     <name>qxl</name>
-    <bus-type>pci</bus-type>
     <class>video</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1b36</vendor-id>
-    <product>QXL</product>
-    <product-id>0100</product-id>
   </device>
 
 
   <!-- Network devices -->
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8029">
     <name>ne2k_pci</name>
-    <bus-type>pci</bus-type>
     <class>net</class>
-    <_vendor>Realtek Semiconductor Co., Ltd.</_vendor>
-    <vendor-id>10ec</vendor-id>
-    <product>RTL-8029(AS)</product>
-    <product-id>8029</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000">
     <name>pcnet</name>
-    <bus-type>pci</bus-type>
     <class>net</class>
-    <_vendor>Advanced Micro Devices [AMD]</_vendor>
-    <vendor-id>1022</vendor-id>
-    <product>79c970 [PCnet32 LANCE]</product>
-    <product-id>2000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8139">
     <name>rtl8139</name>
-    <bus-type>pci</bus-type>
     <class>net</class>
-    <_vendor>Realtek Semiconductor Co., Ltd.</_vendor>
-    <vendor-id>10ec</vendor-id>
-    <product>RTL-8139/8139C/8139C+</product>
-    <product-id>8139</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/100e">
     <name>e1000</name>
-    <bus-type>pci</bus-type>
-    <_vendor>Intel Corporation</_vendor>
-    <vendor-id>8086</vendor-id>
-    <product>82540EM Gigabit Ethernet Controller</product>
-    <product-id>100e</product-id>
+    <class>net</class>
   </device>
 
 
@@ -101,32 +62,17 @@
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1274/5000">
     <name>es1370</name>
-    <bus-type>pci</bus-type>
     <class>audio</class>
-    <_vendor>Ensoniq</_vendor>
-    <vendor-id>1274</vendor-id>
-    <product>ES1370 [AudioPCI]</product>
-    <product-id>5000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415">
     <name>ac97</name>
-    <bus-type>pci</bus-type>
     <class>audio</class>
-    <_vendor>Intel Corporation</_vendor>
-    <vendor-id>8086</vendor-id>
-    <product>82801AA AC'97 Audio Controller</product>
-    <product-id>2415</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668">
     <name>ich6</name>
-    <bus-type>pci</bus-type>
     <class>audio</class>
-    <_vendor>Intel Corporation</_vendor>
-    <vendor-id>8086</vendor-id>
-    <product>82801FB/FBM/FR/FW/FRW (ICH6 Family) High Definition Audio Controller</product>
-    <product-id>2668</product-id>
   </device>
 
 
@@ -134,12 +80,7 @@
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/25ab">
     <name>6300esb</name>
-    <bus-type>pci</bus-type>
     <class>watchdog</class>
-    <_vendor>Intel Corporation</_vendor>
-    <vendor-id>8086</vendor-id>
-    <product>6300ESB Watchdog Timer</product>
-    <product-id>25ab</product-id>
   </device>
 
   <device id="isa://ib700">

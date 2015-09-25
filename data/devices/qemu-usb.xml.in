@@ -3,12 +3,7 @@
 
   <device id="http://www.linux-usb.org/usb.ids/80ee/0021">
     <name>tablet</name>
-    <bus-type>usb</bus-type>
     <class>input</class>
-    <_vendor>VirtualBox</_vendor>
-    <vendor-id>80ee</vendor-id>
-    <product>Tablet</product>
-    <product-id>0021</product-id>
   </device>
 
 </libosinfo>

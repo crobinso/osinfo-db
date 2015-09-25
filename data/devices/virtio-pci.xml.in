@@ -3,52 +3,27 @@
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
     <name>virtio-net</name>
-    <bus-type>pci</bus-type>
     <class>net</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1af4</vendor-id>
-    <product>Virtio network device</product>
-    <product-id>1000</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
     <name>virtio-block</name>
-    <bus-type>pci</bus-type>
     <class>block</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1af4</vendor-id>
-    <product>Virtio block device</product>
-    <product-id>1001</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002">
     <name>virtio-balloon</name>
-    <bus-type>pci</bus-type>
     <class>memory.balloon</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1af4</vendor-id>
-    <product>Virtio memory balloon</product>
-    <product-id>1002</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003">
     <name>virtio-console</name>
-    <bus-type>pci</bus-type>
     <class>console</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1af4</vendor-id>
-    <product>Virtio console</product>
-    <product-id>1003</product-id>
   </device>
 
   <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1009">
     <name>virtio-9p</name>
-    <bus-type>pci</bus-type>
     <class>filesystem</class>
-    <_vendor>Red Hat, Inc</_vendor>
-    <vendor-id>1af4</vendor-id>
-    <product>Virtio 9p</product>
-    <product-id>1009</product-id>
   </device>
 
 </libosinfo>
