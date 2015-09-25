@@ -83,7 +83,7 @@
     <class>watchdog</class>
   </device>
 
-  <device id="isa://ib700">
+  <device id="http://ibasetechnologies.net/isa/ib700">
     <name>ib700</name>
     <bus-type>isa</bus-type>
     <class>watchdog</class>

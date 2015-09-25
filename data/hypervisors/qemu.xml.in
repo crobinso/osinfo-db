@@ -35,7 +35,7 @@
       <device id="http://pcisig.com/pci/8086/2668"/>
       <!-- watchdog devices -->
       <device id="http://pcisig.com/pci/8086/25ab"/>
-      <device id="isa://ib700"/>
+      <device id="http://ibasetechnologies.net/isa/ib700"/>
       <!-- ps2: keyboard -->
       <device id="http://qemu.org/ps2/keyboard"/>
       <!-- ps2: mouse -->
