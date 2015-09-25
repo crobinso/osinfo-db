@@ -1,0 +1,6 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/1022/2000">
+    <name>pcnet</name>
+    <class>net</class>
+  </device>
+</libosinfo>

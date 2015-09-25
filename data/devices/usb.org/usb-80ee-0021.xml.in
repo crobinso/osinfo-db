@@ -1,9 +1,6 @@
-<!-- USB devices from various QEMU/KVM(s) -->
 <libosinfo version="0.0.1">
-
   <device id="http://usb.org/usb/80ee/0021">
     <name>tablet</name>
     <class>input</class>
   </device>
-
 </libosinfo>

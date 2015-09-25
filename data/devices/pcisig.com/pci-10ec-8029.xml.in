@@ -1,0 +1,6 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/10ec/8029">
+    <name>ne2k_pci</name>
+    <class>net</class>
+  </device>
+</libosinfo>

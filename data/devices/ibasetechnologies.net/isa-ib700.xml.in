@@ -1,0 +1,8 @@
+<libosinfo version="0.0.1">
+  <device id="http://ibasetechnologies.net/isa/ib700">
+    <name>ib700</name>
+    <bus-type>isa</bus-type>
+    <class>watchdog</class>
+    <product>iBASE 700</product>
+  </device>
+</libosinfo>

@@ -1,0 +1,9 @@
+<libosinfo version="0.0.1">
+  <device id="http://xen.org/xen/vkbd">
+    <class>input</class>
+    <bus-type>xen</bus-type>
+    <product>Virtual Keyboard</product>
+    <product-id>vkbd</product-id>
+    <name>xen-vkbd</name>
+  </device>
+</libosinfo>

@@ -1,0 +1,9 @@
+<libosinfo version="0.0.1">
+  <device id="http://ibm.com/ps2/mouse">
+    <name>mouse</name>
+    <bus-type>ps2</bus-type>
+    <class>input</class>
+    <_vendor>Qemu/KVM</_vendor>
+    <product>Mouse</product>
+  </device>
+</libosinfo>

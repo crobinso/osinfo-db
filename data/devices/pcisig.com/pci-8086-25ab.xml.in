@@ -1,0 +1,6 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/8086/25ab">
+    <name>6300esb</name>
+    <class>watchdog</class>
+  </device>
+</libosinfo>

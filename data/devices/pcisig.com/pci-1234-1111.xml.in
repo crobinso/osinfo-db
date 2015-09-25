@@ -1,0 +1,11 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/1234/1111">
+    <name>vga</name>
+    <bus-type>pci</bus-type>
+    <class>video</class>
+    <_vendor>QEMU</_vendor>
+    <vendor-id>1234</vendor-id>
+    <product>VGA</product>
+    <product-id>1111</product-id>
+  </device>
+</libosinfo>
