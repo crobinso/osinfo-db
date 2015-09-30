@@ -147,9 +147,9 @@
     </media>
   </os>
 
-  <os id="http://altlinux.org/altlinux/5">
-    <short-id>altlinux5</short-id>
-    <_name>ALT Linux 5.0.0 Ark</_name>
+  <os id="http://altlinux.org/altlinux/5.0">
+    <short-id>altlinux5.0</short-id>
+    <_name>ALT Linux 5.0</_name>
     <version>5.0</version>
     <_vendor>ALTLinux</_vendor>
     <family>linux</family>
@@ -195,16 +195,16 @@
     </resources>
   </os>
 
-  <os id="http://altlinux.org/altlinux/6">
-    <short-id>altlinux6</short-id>
-    <_name>ALT Linux 6.0.0 Centaurus</_name>
+  <os id="http://altlinux.org/altlinux/6.0">
+    <short-id>altlinux6.0</short-id>
+    <_name>ALT Linux 6.0</_name>
     <version>6.0</version>
     <_vendor>ALTLinux</_vendor>
     <family>linux</family>
     <distro>altlinux</distro>
     <codename>Centaurus</codename>
-    <upgrades id="http://altlinux.org/altlinux/5"/>
-    <derives-from id="http://altlinux.org/altlinux/5"/>
+    <upgrades id="http://altlinux.org/altlinux/5.0"/>
+    <derives-from id="http://altlinux.org/altlinux/5.0"/>
     <release-date>2011-10-26</release-date>
 
     <devices>
@@ -231,16 +231,16 @@
     </media>
   </os>
 
-  <os id="http://altlinux.org/altlinux/7">
-    <short-id>altlinux7</short-id>
-    <_name>ALT Linux 7.0.0 Centaurus</_name>
+  <os id="http://altlinux.org/altlinux/7.0">
+    <short-id>altlinux7.0</short-id>
+    <_name>ALT Linux 7.0</_name>
     <version>7.0</version>
     <_vendor>ALTLinux</_vendor>
     <family>linux</family>
     <distro>altlinux</distro>
     <codename>Centaurus</codename>
-    <upgrades id="http://altlinux.org/altlinux/5"/>
-    <derives-from id="http://altlinux.org/altlinux/5"/>
+    <upgrades id="http://altlinux.org/altlinux/6.0"/>
+    <derives-from id="http://altlinux.org/altlinux/6.0"/>
     <release-date>2012-10-01</release-date>
 
     <media arch="i686">

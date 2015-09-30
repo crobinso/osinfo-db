@@ -181,7 +181,7 @@
   <os id="http://redhat.com/rhl/6.2">
     <short-id>rhl6.2</short-id>
     <_name>Red Hat Linux 6.2</_name>
-    <version>6.0</version>
+    <version>6.2</version>
     <_vendor>Red Hat, Inc</_vendor>
     <family>linux</family>
     <distro>rhl</distro>
