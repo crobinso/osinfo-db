@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
 
-  <os id="http://gnome.org/3.6">
+  <os id="http://gnome.org/gnome/3.6">
     <short-id>gnome3.6</short-id>
     <_name>GNOME 3.6</_name>
     <version>3.6</version>
@@ -31,7 +31,7 @@
     </resources>
   </os>
 
-  <os id="http://gnome.org/3.8">
+  <os id="http://gnome.org/gnome/3.8">
     <short-id>gnome3.8</short-id>
     <_name>GNOME 3.8</_name>
     <version>3.8</version>
@@ -39,7 +39,7 @@
     <family>linux</family>
     <distro>gnome</distro>
     <derives-from id="http://fedoraproject.org/fedora/19"/>
-    <upgrades id="http://gnome.org/3.6"/>
+    <upgrades id="http://gnome.org/gnome/3.6"/>
 
     <release-date>2013-03-27</release-date>
 
@@ -62,14 +62,14 @@
     </resources>
   </os>
 
-  <os id="http://gnome.org/continuous/3.10">
+  <os id="http://gnome.org/gnome-continuous/3.10">
     <short-id>gnome-continuous-3.10</short-id>
     <_name>GNOME 3.10</_name>
     <version>3.10</version>
     <_vendor>GNOME Project</_vendor>
     <family>linux</family>
     <distro>gnome</distro>
-    <upgrades id="http://gnome.org/3.8"/>
+    <upgrades id="http://gnome.org/gnome/3.8"/>
 
     <release-date>2013-09-25</release-date>
 
@@ -89,15 +89,15 @@
     </resources>
   </os>
 
-  <os id="http://gnome.org/continuous/3.12">
+  <os id="http://gnome.org/gnome-continuous/3.12">
     <short-id>gnome-continuous-3.12</short-id>
     <_name>GNOME 3.12</_name>
     <version>3.12</version>
     <_vendor>GNOME Project</_vendor>
     <family>linux</family>
     <distro>gnome</distro>
-    <derives-from id="http://gnome.org/continuous/3.10"/>
-    <upgrades id="http://gnome.org/continuous/3.10"/>
+    <derives-from id="http://gnome.org/gnome-continuous/3.10"/>
+    <upgrades id="http://gnome.org/gnome-continuous/3.10"/>
     <release-status>snapshot</release-status>
 
     <resources arch="all">
@@ -108,15 +108,15 @@
     </resources>
   </os>
 
-  <os id="http://gnome.org/continuous/3.14">
+  <os id="http://gnome.org/gnome-continuous/3.14">
     <short-id>gnome-continuous-3.14</short-id>
     <_name>GNOME 3.14</_name>
     <version>3.14</version>
     <_vendor>GNOME Project</_vendor>
     <family>linux</family>
     <distro>gnome</distro>
-    <derives-from id="http://gnome.org/continuous/3.12"/>
-    <upgrades id="http://gnome.org/continuous/3.12"/>
+    <derives-from id="http://gnome.org/gnome-continuous/3.12"/>
+    <upgrades id="http://gnome.org/gnome-continuous/3.12"/>
     <release-status>snapshot</release-status>
 
     <resources arch="all">
