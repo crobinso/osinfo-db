@@ -5,7 +5,7 @@
     <expected-filename>fedora.ks</expected-filename>
     <config>
       <param name="admin-password" policy="optional"/>
-      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="target-disk" policy="optional"/>
@@ -160,7 +160,7 @@ url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-
     <profile>desktop</profile>
     <expected-filename>fedora.ks</expected-filename>
     <config>
-        <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+        <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
         <param name="l10n-language" policy="optional"/>
         <param name="l10n-timezone" policy="optional"/>
         <param name="hostname" policy="optional"/>

@@ -6,7 +6,7 @@
     <can-pre-install-drivers>true</can-pre-install-drivers>
     <config>
       <param name="admin-password" policy="optional"/>
-      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="l10n-language" policy="optional"/>
       <param name="target-disk" policy="optional"/>
@@ -133,7 +133,7 @@ d-i preseed/late_command string in-target passwd -d root
     <can-pre-install-drivers>true</can-pre-install-drivers>
     <config>
       <!-- Localization options -->
-      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
 
