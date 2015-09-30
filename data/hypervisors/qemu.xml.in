@@ -10,48 +10,48 @@
 
     <devices>
       <!-- block: LSI -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1000/0012"/>
+      <device id="http://pcisig.com/pci/1000/0012"/>
       <!-- video: vga -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/>
+      <device id="http://pcisig.com/pci/1234/1111"/>
       <!-- video: cirrus -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1013/00b8"/>
+      <device id="http://pcisig.com/pci/1013/00b8"/>
       <!-- video: vmvga -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/15ad/0710"/>
+      <device id="http://pcisig.com/pci/15ad/0710"/>
       <!-- video: qxl -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
       <!-- network: ne2k_pci-->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8029"/>
+      <device id="http://pcisig.com/pci/10ec/8029"/>
       <!-- network: pcnet -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1022/2000"/>
+      <device id="http://pcisig.com/pci/1022/2000"/>
       <!-- network: rtl8139 -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/10ec/8139"/>
+      <device id="http://pcisig.com/pci/10ec/8139"/>
       <!-- network: e1000 -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/100e"/>
+      <device id="http://pcisig.com/pci/8086/100e"/>
       <!-- audio: es1370 -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1274/5000"/>
+      <device id="http://pcisig.com/pci/1274/5000"/>
       <!-- audio: AC97 -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/>
+      <device id="http://pcisig.com/pci/8086/2415"/>
       <!-- audio: ICH6 -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/>
+      <device id="http://pcisig.com/pci/8086/2668"/>
       <!-- watchdog devices -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/25ab"/>
+      <device id="http://pcisig.com/pci/8086/25ab"/>
       <device id="isa://ib700"/>
       <!-- ps2: keyboard -->
       <device id="http://qemu.org/ps2/keyboard"/>
       <!-- ps2: mouse -->
       <device id="http://qemu.org/ps2/mouse"/>
       <!-- USB tablet -->
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+      <device id="http://usb.org/usb/80ee/0021"/>
       <!-- virtio-net -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
       <!-- virtio-block -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
       <!-- virtio-balloon -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
       <!-- virtio-console -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
       <!-- virtio-9p -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1009"/>
+      <device id="http://pcisig.com/pci/1af4/1009"/>
     </devices>
   </platform>
 

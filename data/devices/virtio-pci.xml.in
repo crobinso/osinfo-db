@@ -1,27 +1,27 @@
 <!-- VirtIO PCI devices -->
 <libosinfo version="0.0.1">
 
-  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000">
+  <device id="http://pcisig.com/pci/1af4/1000">
     <name>virtio-net</name>
     <class>net</class>
   </device>
 
-  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001">
+  <device id="http://pcisig.com/pci/1af4/1001">
     <name>virtio-block</name>
     <class>block</class>
   </device>
 
-  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002">
+  <device id="http://pcisig.com/pci/1af4/1002">
     <name>virtio-balloon</name>
     <class>memory.balloon</class>
   </device>
 
-  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003">
+  <device id="http://pcisig.com/pci/1af4/1003">
     <name>virtio-console</name>
     <class>console</class>
   </device>
 
-  <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1009">
+  <device id="http://pcisig.com/pci/1af4/1009">
     <name>virtio-9p</name>
     <class>filesystem</class>
   </device>

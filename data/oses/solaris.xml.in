@@ -19,7 +19,7 @@
     <upgrades id="http://sun.com/solaris/9"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+      <device id="http://usb.org/usb/80ee/0021"/>
     </devices>
   </os>
 
@@ -42,7 +42,7 @@
     <distro>opensolaris</distro>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+      <device id="http://usb.org/usb/80ee/0021"/>
     </devices>
   </os>
 

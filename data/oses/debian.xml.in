@@ -119,8 +119,8 @@
     <derives-from id="http://debian.org/debian/4"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </devices>
 
     <resources arch="all">
@@ -150,7 +150,7 @@
     <derives-from id="http://debian.org/debian/5"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/>
+      <device id="http://usb.org/usb/80ee/0021"/>
     </devices>
 
     <resources arch="all">
@@ -220,7 +220,7 @@
     <derives-from id="http://debian.org/debian/6"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB Tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>
 
     <resources arch="all">
@@ -272,7 +272,7 @@
     <derives-from id="http://debian.org/debian/7"/>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB Tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>
 
     <resources arch="all">

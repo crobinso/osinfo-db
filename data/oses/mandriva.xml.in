@@ -95,8 +95,8 @@
     <derives-from id="http://mandriva.com/mandriva/2009.1"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </devices>
   </os>
 
@@ -158,8 +158,8 @@
     <derives-from id="http://mandriva.com/mes/5.0"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </devices>
   </os>
 

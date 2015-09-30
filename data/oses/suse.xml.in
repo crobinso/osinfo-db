@@ -29,8 +29,8 @@
     <upgrades id="http://suse.com/sles/10"/>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </devices>
   </os>
 

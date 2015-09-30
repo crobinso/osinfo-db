@@ -196,10 +196,10 @@
     <eol-date>2001-12-13</eol-date>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/> <!-- VGA -->
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1234/1111"/> <!-- VGA -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
     </devices>
 
     <resources arch="i686">
@@ -279,10 +279,10 @@
     <eol-date>2010-07-13</eol-date>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1234/1111"/> <!-- VGA -->
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1234/1111"/> <!-- VGA -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
     </devices>
 
     <media arch="i686">
@@ -389,7 +389,7 @@
       <file>viostor.sys</file>
       <!-- For now we require this for pre-installation but we should probably generate this too -->
       <file>txtsetup.oem</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/winxp/amd64" pre-installable="true" signed="false">
@@ -398,7 +398,7 @@
       <file>viostor.sys</file>
       <!-- For now we require this for pre-installation but we should probably generate this too -->
       <file>txtsetup.oem</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </driver>
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
@@ -407,11 +407,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
@@ -419,11 +419,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
     </driver>
   </os>
 
@@ -904,7 +904,7 @@
     </resources>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
     </devices>
 
     <installer>
@@ -918,14 +918,14 @@
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/win7/amd64" pre-installable="true" signed="false">
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
     </driver>
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
@@ -934,11 +934,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
@@ -946,11 +946,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1002"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1003"/>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
     </driver>
   </os>
 
@@ -1003,7 +1003,7 @@
     </resources>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
     </devices>
 
     <installer>
@@ -1156,7 +1156,7 @@
     </resources>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
     </devices>
   </os>
 
@@ -1351,7 +1351,7 @@
     </resources>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2668"/> <!-- ICH6 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
     </devices>
   </os>
 

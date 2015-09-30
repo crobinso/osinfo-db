@@ -17,8 +17,8 @@
     <!-- XXX upgrades/derives RHL -->
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1b36/0100"/> <!-- QXL -->
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
     </devices>
 
     <!-- Disk 1 -->
@@ -1299,10 +1299,10 @@
     <eol-date>2009-07-10</eol-date>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
       <!-- Apparently F9 has selinux errors when installing with virtio:
            https://bugzilla.redhat.com/show_bug.cgi?id=470386
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
       -->
     </devices>
 
@@ -1665,7 +1665,7 @@
     <eol-date>2009-12-18</eol-date>
 
     <devices>
-      <device id="http://pciids.sourceforge.net/v2.2/pci.ids/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </devices>
 
     <!-- DVD -->
@@ -2017,7 +2017,7 @@
     <eol-date>2010-06-25</eol-date>
 
     <devices>
-      <device id="http://www.linux-usb.org/usb.ids/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
     </devices>
 
     <!-- DVD -->
