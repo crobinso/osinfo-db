@@ -1,10 +1,10 @@
 <libosinfo version="0.0.1">
 
-  <platform id="http://redhat.com/rhel/5.0/xen/3.0.3">
-    <short-id>xen-3.0.3-rhel-5.0</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.0.3.5.0">
+    <short-id>xen-rhel-3.0.3.5.0</short-id>
     <_name>Xen 3.0.3 (RHEL 5.0)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.0.3</version>
+    <version>3.0.3.5.0</version>
 
     <derives-from id="http://xen.org/xen/3.0.3"/>
 
@@ -13,73 +13,73 @@
     </devices>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.1/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.1</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.1">
+    <short-id>xen-rhel-3.1.0.5.1</short-id>
     <_name>Xen 3.1.0 (RHEL 5.1)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.1</version>
 
-    <upgrades id="http://redhat.com/rhel/5.0/xen/3.0.3"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.0.3.5.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.2/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.2</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.2">
+    <short-id>xen-rhel-3.1.0.5.2</short-id>
     <_name>Xen 3.1.0 (RHEL 5.2)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.2</version>
 
-    <upgrades id="http://redhat.com/rhel/5.1/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.1"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.3/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.3</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.3">
+    <short-id>xen-rhel-3.1.0.5.3</short-id>
     <_name>Xen 3.1.0 (RHEL 5.3)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.3</version>
 
-    <upgrades id="http://redhat.com/rhel/5.2/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.2"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.4/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.4</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.4">
+    <short-id>xen-rhel-3.1.0.5.4</short-id>
     <_name>Xen 3.1.0 (RHEL 5.4)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.4</version>
 
-    <upgrades id="http://redhat.com/rhel/5.3/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.3"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.5/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.5</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.5">
+    <short-id>xen-rhel-3.1.0.5.5</short-id>
     <_name>Xen 3.1.0 (RHEL 5.5)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.5</version>
 
-    <upgrades id="http://redhat.com/rhel/5.4/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.4"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.6/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.6</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.6">
+    <short-id>xen-rhel-3.1.0.5.6</short-id>
     <_name>Xen 3.1.0 (RHEL 5.6)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.6</version>
 
-    <upgrades id="http://redhat.com/rhel/5.5/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.5"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
-  <platform id="http://redhat.com/rhel/5.7/xen/3.1.0">
-    <short-id>xen-3.1.0-rhel-5.7</short-id>
+  <platform id="http://redhat.com/xen-rhel/3.1.0.5.7">
+    <short-id>xen-rhel-3.1.0.5.7</short-id>
     <_name>Xen 3.1.0 (RHEL 5.7)</_name>
     <_vendor>Red Hat, Inc.</_vendor>
-    <version>3.1.0</version>
+    <version>3.1.0.5.7</version>
 
-    <upgrades id="http://redhat.com/rhel/5.6/xen/3.1.0"/>
+    <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.6"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
   </platform>
 
