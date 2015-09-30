@@ -9,7 +9,7 @@
     <derives-from id="http://xen.org/xen/3.0.3"/>
 
     <devices>
-      <device id="http://xen.org/devices/framebuffer"/>
+      <device id="http://xen.org/xen/vfb"/>
     </devices>
   </platform>
 

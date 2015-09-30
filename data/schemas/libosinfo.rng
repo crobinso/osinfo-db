@@ -108,7 +108,10 @@
         </optional>
         <optional>
           <element name='product-id'>
-            <ref name='hexid'/>
+            <choice>
+              <ref name='hexid'/>
+              <ref name='alpha'/>
+            </choice>
           </element>
         </optional>
         <optional>
@@ -745,6 +748,12 @@
   <define name='hexid'>
     <data type="string">
       <param name="pattern">[0-9a-fA-F]+</param>
+    </data>
+  </define>
+
+  <define name='alpha'>
+    <data type="string">
+      <param name="pattern">[a-zA-Z]+</param>
     </data>
   </define>
 

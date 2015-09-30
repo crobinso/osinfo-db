@@ -8,9 +8,9 @@
     <version>3.0.2</version>
 
     <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
+      <device id="http://xen.org/xen/vbd"/>
+      <device id="http://xen.org/xen/vif"/>
+      <device id="http://xen.org/xen/console"/>
     </devices>
   </platform>
 
@@ -31,7 +31,7 @@
     <upgrades id="http://xen.org/xen/3.0.3"/>
 
     <devices>
-      <device id="http://xen.org/devices/framebuffer"/>
+      <device id="http://xen.org/xen/vfb"/>
     </devices>
   </platform>
 
