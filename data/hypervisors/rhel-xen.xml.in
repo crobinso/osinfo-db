@@ -9,9 +9,6 @@
     <derives-from id="http://xen.org/xen/3.0.3"/>
 
     <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
       <device id="http://xen.org/devices/framebuffer"/>
     </devices>
   </platform>
@@ -22,14 +19,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.0/xen/3.0.3"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.2/xen/3.1.0">
@@ -38,14 +29,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.1/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.3/xen/3.1.0">
@@ -54,14 +39,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.2/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.4/xen/3.1.0">
@@ -70,14 +49,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.3/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.5/xen/3.1.0">
@@ -86,14 +59,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.4/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.6/xen/3.1.0">
@@ -102,14 +69,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.5/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
   <platform id="http://redhat.com/rhel/5.7/xen/3.1.0">
@@ -118,14 +79,8 @@
     <_vendor>Red Hat, Inc.</_vendor>
     <version>3.1.0</version>
 
+    <upgrades id="http://redhat.com/rhel/5.6/xen/3.1.0"/>
     <derives-from id="http://xen.org/xen/3.1.0"/>
-
-    <devices>
-      <device id="http://xen.org/devices/block"/>
-      <device id="http://xen.org/devices/net"/>
-      <device id="http://xen.org/devices/console"/>
-      <device id="http://xen.org/devices/framebuffer"/>
-    </devices>
   </platform>
 
 </libosinfo>
