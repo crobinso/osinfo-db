@@ -86,7 +86,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -224,7 +224,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -362,7 +362,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -574,7 +574,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -796,7 +796,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -1038,7 +1038,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -1153,7 +1153,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -1280,7 +1280,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -1646,7 +1646,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -1998,7 +1998,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -2350,7 +2350,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -2662,7 +2662,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -2890,7 +2890,7 @@
     </tree>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
   </os>
 
@@ -3131,8 +3131,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3250,8 +3250,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3369,8 +3369,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3486,8 +3486,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3603,8 +3603,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3753,8 +3753,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -3893,8 +3893,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -4085,8 +4085,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -4251,8 +4251,8 @@
     </resources>
 
     <installer>
-      <script id='http://fedoraproject.org/scripts/fedora/jeos'/>
-      <script id='http://fedoraproject.org/scripts/fedora/desktop'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
     </installer>
   </os>
 

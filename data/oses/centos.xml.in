@@ -42,8 +42,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -88,8 +88,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -134,8 +134,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -188,8 +188,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -234,8 +234,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -280,8 +280,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 
@@ -320,8 +320,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/scripts/rhel/jeos'/>
-      <script id='http://redhat.com/scripts/rhel/desktop'/>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
     </installer>
   </os>
 

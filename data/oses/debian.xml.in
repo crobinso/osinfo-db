@@ -204,7 +204,7 @@
     </media>
 
     <installer>
-      <script id='http://debian.org/scripts/debian/jeos'/>
+      <script id='http://debian.org/debian/preseed/jeos'/>
     </installer>
   </os>
 
@@ -255,8 +255,8 @@
     </media>
 
     <installer>
-      <script id='http://debian.org/scripts/debian/jeos'/>
-      <script id='http://debian.org/scripts/debian/desktop'/>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
     </installer>
   </os>
 
@@ -307,8 +307,8 @@
     </media>
 
     <installer>
-      <script id='http://debian.org/scripts/debian/jeos'/>
-      <script id='http://debian.org/scripts/debian/desktop'/>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
     </installer>
   </os>
 

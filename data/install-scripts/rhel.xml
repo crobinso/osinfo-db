@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
   <!-- JEOS PROFILE -->
-  <install-script id='http://redhat.com/scripts/rhel/jeos'>
+  <install-script id='http://redhat.com/rhel/kickstart/jeos'>
     <profile>jeos</profile>
     <expected-filename>rhel.ks</expected-filename>
     <config>
@@ -105,7 +105,7 @@ reboot
   </install-script>
 
   <!-- DESKTOP PROFILE -->
-  <install-script id='http://redhat.com/scripts/rhel/desktop'>
+  <install-script id='http://redhat.com/rhel/kickstart/desktop'>
     <profile>desktop</profile>
     <expected-filename>rhel.ks</expected-filename>
     <config>

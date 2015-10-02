@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
   <!-- JEOS PROFILE -->
-  <install-script id='http://fedoraproject.org/scripts/fedora/jeos'>
+  <install-script id='http://fedoraproject.org/fedora/kickstart/jeos'>
     <profile>jeos</profile>
     <expected-filename>fedora.ks</expected-filename>
     <config>
@@ -156,7 +156,7 @@ url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-
   </install-script>
 
   <!-- DESKTOP PROFILE -->
-  <install-script id='http://fedoraproject.org/scripts/fedora/desktop'>
+  <install-script id='http://fedoraproject.org/fedora/kickstart/desktop'>
     <profile>desktop</profile>
     <expected-filename>fedora.ks</expected-filename>
     <config>

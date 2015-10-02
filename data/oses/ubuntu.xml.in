@@ -1124,7 +1124,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1190,7 +1190,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1256,7 +1256,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1322,7 +1322,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1389,7 +1389,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1456,7 +1456,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1523,7 +1523,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 
@@ -1590,7 +1590,7 @@
     </media>
 
     <installer>
-      <script id='http://ubuntu.com/scripts/ubuntu/jeos'/>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
 </libosinfo>

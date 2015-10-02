@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
   <!-- JEOS PROFILE -->
-  <install-script id='http://debian.org/scripts/debian/jeos'>
+  <install-script id='http://debian.org/debian/preseed/jeos'>
     <profile>jeos</profile>
     <expected-filename>preseed.cfg</expected-filename>
     <can-pre-install-drivers>true</can-pre-install-drivers>
@@ -127,7 +127,7 @@ d-i preseed/late_command string in-target passwd -d root
   </install-script>
 
   <!-- DESKTOP PROFILE -->
-  <install-script id='http://debian.org/scripts/debian/desktop'>
+  <install-script id='http://debian.org/debian/preseed/desktop'>
     <profile>desktop</profile>
     <expected-filename>preseed.cfg</expected-filename>
     <can-pre-install-drivers>true</can-pre-install-drivers>
