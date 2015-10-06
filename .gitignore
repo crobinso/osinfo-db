@@ -70,6 +70,7 @@ build/
 gtk-doc.make
 data/95-osinfo.rules
 data/*/*/*.xml
+data/*/*/*/*.xml
 data/pci.ids
 data/usb.ids
 tools/osinfo-detect
