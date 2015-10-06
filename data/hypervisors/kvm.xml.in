@@ -56,7 +56,7 @@
     <_vendor>linux-kvm.org</_vendor>
     <version>1.2.0</version>
     <release-date>2012-09-10</release-date>
-    <upgrades id="http://linux-kvm.org/1.1.1-1"/>
+    <upgrades id="http://linux-kvm.org/1.1.2"/>
     <derives-from id="http://qemu.org/1.2.0"/>
   </platform>
 
