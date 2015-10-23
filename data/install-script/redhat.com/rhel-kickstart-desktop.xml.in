@@ -107,6 +107,8 @@ reboot
 @internet-browser
 @input-methods
 
+qemu-guest-agent
+
 %end
 
 %post --erroronfail
