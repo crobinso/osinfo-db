@@ -170,6 +170,8 @@ d-i apt-setup/security_host string
 ### Software selection
 tasksel tasksel/first multiselect desktop
 
+### Install Qemu guest agent
+d-i pkgsel/include string qemu-guest-agent
 
 ### Bootloader
 
