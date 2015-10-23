@@ -156,6 +156,12 @@ url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-
 xorg-x11-drv-qxl
 spice-vdagent
 
+<xsl:choose>
+  <xsl:when test="os/version &gt; 15">
+qemu-guest-agent
+  </xsl:when>
+</xsl:choose>
+
 %end
 
 %post --erroronfail
