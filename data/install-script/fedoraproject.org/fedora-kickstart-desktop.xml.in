@@ -130,7 +130,7 @@ reboot
 <xsl:if test="contains(media/variant, 'netinst')">
 repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
 repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
-url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-install-$releasever&amp;arch=$basearch
+url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
 </xsl:if>
 
 %packages
