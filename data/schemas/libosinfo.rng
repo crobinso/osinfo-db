@@ -222,9 +222,16 @@
     <element name='variant'>
       <attribute name='id'>
       </attribute>
-      <element name='name'>
-        <text/>
-      </element>
+      <oneOrMore>
+        <element name='name'>
+          <optional>
+            <attribute name='xml:lang'>
+              <text/>
+            </attribute>
+          </optional>
+          <text/>
+        </element>
+      </oneOrMore>
     </element>
   </define>
 
