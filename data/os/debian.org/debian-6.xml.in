@@ -29,7 +29,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.8/i386/iso-dvd/debian-6.0.8-i386-DVD-1.iso</url>
+      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.10/i386/iso-dvd/debian-6.0.10-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 6.0.1?\d i386 1</volume-id>
       </iso>
@@ -37,7 +37,7 @@
       <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.8/amd64/iso-dvd/debian-6.0.8-amd64-DVD-1.iso</url>
+      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.10/amd64/iso-dvd/debian-6.0.10-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 6.0.1?\d amd64 1</volume-id>
       </iso>
@@ -46,7 +46,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://live.debian.net/cdimage/release/6.0.8/i386/iso-hybrid/debian-live-6.0.8-i386-gnome-desktop.iso</url>
+      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.10-live/i386/iso-hybrid/debian-live-6.0.10-i386-gnome-desktop.iso</url>
       <iso>
         <volume-id>Debian squeeze.*</volume-id>
         <system-id>LINUX</system-id>
@@ -55,7 +55,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://live.debian.net/cdimage/release/6.0.8/amd64/iso-hybrid/debian-live-6.0.8-amd64-gnome-desktop.iso</url>
+      <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.10-live/amd64/iso-hybrid/debian-live-6.0.10-amd64-gnome-desktop.iso</url>
       <iso>
         <volume-id>Debian squeeze.*</volume-id>
         <system-id>LINUX</system-id>
