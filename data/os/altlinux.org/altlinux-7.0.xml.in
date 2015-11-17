@@ -15,7 +15,7 @@
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p7/images/centaurus/altlinux-7.0.5-centaurus-i586-ru-install-dvd5.iso</url>
       <iso>
         <volume-id>(ALT|Simply) Linux (6.9|7.0).\d</volume-id>
-        <publisher-id>ALT Linux Team</publisher-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
       </iso>
       <kernel>isolinux/alt0/vmlinuz</kernel>
       <initrd>isolinux/alt0/full.cz</initrd>
@@ -24,7 +24,7 @@
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p7/images/centaurus/altlinux-7.0.5-centaurus-x86_64-ru-install-dvd5.iso</url>
       <iso>
         <volume-id>(ALT|Simply) Linux (6.9|7.0).\d</volume-id>
-        <publisher-id>ALT Linux Team</publisher-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
       </iso>
       <kernel>isolinux/alt0/vmlinuz</kernel>
       <initrd>isolinux/alt0/full.cz</initrd>
