@@ -34,7 +34,7 @@
 
     <!-- GNOME -->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Live/i686/Fedora-18-i686-Live-Desktop.iso</url>
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Live/i386/Fedora-18-i686-Live-Desktop.iso</url>
       <iso>
         <volume-id>Fedora-18-i686-Live-Desktop</volume-id>
         <system-id>LINUX</system-id>
@@ -46,7 +46,7 @@
 
     <!-- KDE-->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Live/i686/Fedora-18-i686-Live-KDE.iso</url>
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Live/i386/Fedora-18-i686-Live-KDE.iso</url>
       <iso>
         <volume-id>Fedora-18-i686-Live-KDE</volume-id>
         <system-id>LINUX</system-id>
@@ -81,7 +81,7 @@
     </media>
 
     <tree arch="i686">
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/18/Fedora/i386/os/</url>
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Fedora/i386/os/</url>
       <treeinfo>
 	<family>Fedora</family>
 	<version>18</version>
@@ -89,7 +89,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/18/Fedora/x86_64/os/</url>
+      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Fedora/x86_64/os/</url>
       <treeinfo>
 	<family>Fedora</family>
 	<version>18</version>
