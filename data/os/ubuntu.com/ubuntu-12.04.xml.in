@@ -28,7 +28,7 @@
       </recommended>
     </resources>
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.04(.\d)? LTS i386</volume-id>
       </iso>
@@ -36,7 +36,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 12.04(.\d)? LTS amd64</volume-id>
       </iso>
@@ -44,7 +44,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 12.04(.\d)? LTS i386</volume-id>
       </iso>
@@ -52,7 +52,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 12.04(.\d)? LTS amd64</volume-id>
       </iso>
