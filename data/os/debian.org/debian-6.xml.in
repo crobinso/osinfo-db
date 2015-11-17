@@ -31,7 +31,7 @@
     <media arch="i686">
       <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.8/i386/iso-dvd/debian-6.0.8-i386-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian 6.0.\d i386 1</volume-id>
+        <volume-id>Debian 6.0.1?\d i386 1</volume-id>
       </iso>
       <kernel>install.386/vmlinuz</kernel>
       <initrd>install.386/initrd.gz</initrd>
@@ -39,7 +39,7 @@
     <media arch="x86_64">
       <url>http://cdimage.debian.org/mirror/cdimage/archive/6.0.8/amd64/iso-dvd/debian-6.0.8-amd64-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian 6.0.\d amd64 1</volume-id>
+        <volume-id>Debian 6.0.1?\d amd64 1</volume-id>
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
