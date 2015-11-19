@@ -9,6 +9,8 @@
     <upgrades id="http://redhat.com/rhel/7.0"/>
     <derives-from id="http://redhat.com/rhel/7.0"/>
 
+    <release-date>2015-03-05</release-date>
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
