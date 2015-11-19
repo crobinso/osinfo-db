@@ -1,0 +1,84 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/7.2">
+    <short-id>rhel7.2</short-id>
+    <_name>Red Hat Enterprise Linux 7.2</_name>
+    <version>7.2</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <upgrades id="http://redhat.com/rhel/7.1"/>
+    <derives-from id="http://redhat.com/rhel/7.1"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL-7.2.*x86_64$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+       <iso>
+         <system-id>LINUX</system-id>
+         <volume-id>RHEL-7.2.*aarch64$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="ppc64">
+       <iso>
+         <system-id>PPC</system-id>
+         <volume-id>RHEL-7.2.*ppc64$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="ppc64">
+       <iso>
+         <system-id>PPC</system-id>
+         <volume-id>RHEL-7.2.*ppc64le$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="s390x">
+       <iso>
+         <system-id>LINUX</system-id>
+         <volume-id>RHEL-7.2.*s390x$</volume-id>
+       </iso>
+     </media>
+
+    <resources arch="ppc64">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
