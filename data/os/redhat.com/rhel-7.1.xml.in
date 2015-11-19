@@ -9,14 +9,6 @@
     <upgrades id="http://redhat.com/rhel/7.0"/>
     <derives-from id="http://redhat.com/rhel/7.0"/>
 
-    <media arch="i686">
-      <iso>
-        <system-id>LINUX</system-id>
-        <volume-id>.*RHEL-7.1.*i386.*</volume-id>
-      </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
-    </media>
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
