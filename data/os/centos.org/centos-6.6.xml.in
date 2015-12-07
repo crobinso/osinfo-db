@@ -1,0 +1,113 @@
+<libosinfo version="0.0.1">
+  <os id="http://centos.org/centos/6.6">
+    <short-id>centos6.6</short-id>
+    <_name>CentOS 6.6</_name>
+    <version>6.6</version>
+    <_vendor>CentOS</_vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos/6.5"/>
+    <clones id="http://redhat.com/rhel/6.6"/>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-bin-DVD1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.6_Final</volume-id>
+        <volume-size>4029677568</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-bin-DVD1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.6_Final</volume-id>
+        <volume-size>4632608768</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Minimal Installer -->
+    <media arch="i686">
+      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-minimal.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.6_Final</volume-id>
+        <volume-size>355467264</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-minimal.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS_6.6_Final</volume-id>
+        <volume-size>401604608</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer -->
+    <media arch="i686">
+      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-netinstall.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS</volume-id>
+        <volume-size>190840832</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-netinstall.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS</volume-id>
+        <volume-size>232783872</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://vault.centos.org/6.6/os/i386</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>6.6</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://vault.centos.org/6.6/os/x86_64</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>6.6</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
