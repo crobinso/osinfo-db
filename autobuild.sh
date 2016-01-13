@@ -14,7 +14,7 @@ mkdir build
 cd build
 
 ../autogen.sh --prefix=$AUTOBUILD_INSTALL_ROOT \
-    --enable-compile-warnings=error
+    --enable-werror
 
 # If the MAKEFLAGS envvar does not yet include a -j option,
 # add -jN where N depends on the number of processors.
