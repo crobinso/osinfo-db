@@ -14,7 +14,7 @@ mkdir build
 cd build
 
 ../autogen.sh --prefix=$AUTOBUILD_INSTALL_ROOT \
-    --enable-werror
+    --enable-werror --enable-gtk-doc
 
 # If the MAKEFLAGS envvar does not yet include a -j option,
 # add -jN where N depends on the number of processors.
