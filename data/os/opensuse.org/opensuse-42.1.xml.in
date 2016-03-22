@@ -1,0 +1,25 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/42.1">
+    <short-id>opensuse42.1</short-id>
+    <_name>openSUSE Leap 42.1</_name>
+    <version>42.1</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/13.2" />
+    <derives-from id="http://opensuse.org/opensuse/13.2" />
+
+    <release-date>2015-11-04</release-date>
+
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/leap/42.1/iso/openSUSE-Leap-42.1-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-Leap-42.1-DVD-x86_64026</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>

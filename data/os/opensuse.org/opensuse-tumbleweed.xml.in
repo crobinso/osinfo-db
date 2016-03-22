@@ -1,0 +1,48 @@
+<libosinfo version="0.0.1">
+  <os id="http://opensuse.org/opensuse/tumbleweed">
+    <short-id>opensusetumbleweed</short-id>
+    <_name>openSUSE Tumbleweed</_name>
+    <version>tumbleweed</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://download.opensuse.org/tumbleweed/repo" />
+    <derives-from id="http://download.opensuse.org/tumbleweed/repo" />
+
+    <media arch="i686">
+      <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso</url>
+      <iso>
+        <volume-id>openSUSE-Tumbleweed-DVD-i586*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso</url>
+      <iso>
+        <volume-id>openSUSE-Tumbleweed-DVD-x86_64*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <resources arch="all">
+    <!-- http://en.opensuse.org/Hardware_requirements -->
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
