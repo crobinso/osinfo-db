@@ -1,0 +1,23 @@
+<libosinfo version="0.0.1">
+  <os id="http://suse.com/sles/12.1">
+    <short-id>sles12sp1</short-id>
+    <_name>SUSE Linux Enterprise Server 12 SP1</_name>
+    <version>12.1</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+    <upgrades id="http://suse.com/sles/12"/>
+    <derives-from id="http://suse.com/sles/12"/>
+
+    <release-date>2015-12-18</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLE-12-SP1-Server-DVD-x86_64*</volume-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>
