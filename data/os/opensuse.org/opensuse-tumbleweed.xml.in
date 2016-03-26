@@ -6,8 +6,6 @@
     <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://download.opensuse.org/tumbleweed/repo" />
-    <derives-from id="http://download.opensuse.org/tumbleweed/repo" />
 
     <media arch="i686">
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso</url>
