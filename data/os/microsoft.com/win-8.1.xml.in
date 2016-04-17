@@ -28,7 +28,7 @@
     </variant>
 
     <!-- Debug -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="debug"/>
       <iso>
         <volume-id>(IRM_CCSN?A_X86CHK)_</volume-id>
@@ -36,7 +36,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="debug"/>
       <iso>
         <volume-id>(IRM_CCSN?A_X64CHK)_</volume-id>
@@ -46,7 +46,7 @@
     </media>
 
     <!-- Enterprise Debug -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="enterprise-debug"/>
       <iso>
         <volume-id>(IRM_CENN?A_X86CHKV)_</volume-id>
@@ -54,7 +54,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise-debug"/>
       <iso>
         <volume-id>(IRM_CENN?A_X64CHKV)_</volume-id>
@@ -64,7 +64,7 @@
     </media>
 
     <!-- Professional -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="professional"/>
       <iso>
         <volume-id>(IR[M15]_CPRN?A_X86FREV)_</volume-id>
@@ -72,7 +72,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="professional"/>
       <iso>
         <volume-id>(IR[M15]_CPRN?A_X64FREV)_</volume-id>
@@ -82,7 +82,7 @@
     </media>
 
     <!-- Enterprise -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
         <volume-id>(IR[M135]_CENN?A_X86FREV)_</volume-id>
@@ -90,7 +90,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
         <volume-id>(IR[M135]_CENN?A_X64FREV)_</volume-id>
@@ -100,7 +100,7 @@
     </media>
 
     <!-- No variant -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <iso>
         <volume-id>(IR[M35]_CCSN?A_X86FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
