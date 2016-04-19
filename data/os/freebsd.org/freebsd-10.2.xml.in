@@ -1,0 +1,27 @@
+<libosinfo version="0.0.1">
+  <os id="http://freebsd.org/freebsd/10.2">
+    <short-id>freebsd10.2</short-id>
+    <_name>FreeBSD 10.2</_name>
+    <version>10.2</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/10.1"/>
+    <derives-from id="http://freebsd.org/freebsd/10.1"/>
+
+    <release-date>2015-08-13</release-date>
+    <eol-date>2016-12-31</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </devices>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>10_2_RELEASE_AMD64_DVD</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
