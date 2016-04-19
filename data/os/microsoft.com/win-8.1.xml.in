@@ -67,7 +67,7 @@
     <media arch="i686">
       <variant id="professional"/>
       <iso>
-        <volume-id>(IR1_CPRN?A_X86FREV)_</volume-id>
+        <volume-id>(IR[15]_CPRN?A_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -75,7 +75,7 @@
     <media arch="x86_64">
       <variant id="professional"/>
       <iso>
-        <volume-id>(IR1_CPRN?A_X64FREV)_</volume-id>
+        <volume-id>(IR[15]_CPRN?A_X64FREV|)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
