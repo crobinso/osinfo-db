@@ -2,7 +2,7 @@
   <os id="http://freebsd.org/freebsd/10.1">
     <short-id>freebsd10.1</short-id>
     <_name>FreeBSD 10.1</_name>
-    <version>10.0</version>
+    <version>10.1</version>
     <_vendor>FreeBSD Project</_vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
