@@ -149,9 +149,20 @@
          </ImageInstall>
          <UserData>
           <AcceptEula>true</AcceptEula>
-           <ProductKey>
-            <Key><xsl:value-of select="config/reg-product-key"/></Key>
-           </ProductKey>
+          <xsl:choose>
+            <xsl:when test="os/version != 6.3"> <!-- Any Windows, but the Windows 8.1 -->
+              <ProductKey>
+                <Key><xsl:value-of select="config/reg-product-key"/></Key>
+              </ProductKey>
+            </xsl:when>
+            <xsl:otherwise> <!-- Windows 8.1 -->
+              <xsl:if test="count(media/variant) = 0 or (contains(media/variant, 'debug') and not(contains(media/variant, 'enterprise')))"> <!-- "No Variant" or "Debug" variant -->
+                <ProductKey>
+                  <Key><xsl:value-of select="config/reg-product-key"/></Key>
+                </ProductKey>
+              </xsl:if>
+            </xsl:otherwise>
+          </xsl:choose>
          </UserData>
         </component>
         <component name="Microsoft-Windows-International-Core-WinPE" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -249,7 +260,6 @@
          <xsl:attribute name="processorArchitecture">
           <xsl:call-template name="arch"/>
          </xsl:attribute>
-
          <ProductKey><xsl:value-of select="config/reg-product-key"/></ProductKey>
         </component>
        </settings>
