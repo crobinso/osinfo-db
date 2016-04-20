@@ -54,6 +54,12 @@
     <installer>
       <script id='http://microsoft.com/windows/unattend/jeos'/>
       <script id='http://microsoft.com/windows/unattend/desktop'/>
+
+      <!--
+          User avatar not being set for Windows 8 (or newer).
+          For more details, please, see:
+          https://bugzilla.redhat.com/show_bug.cgi?id=1328637
+      -->
       <script id='http://microsoft.com/windows/cmd/desktop'/>
     </installer>
   </os>
