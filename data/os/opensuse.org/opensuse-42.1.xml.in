@@ -14,7 +14,7 @@
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/leap/42.1/iso/openSUSE-Leap-42.1-DVD-x86_64.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-42.1-DVD-x86_64026</volume-id>
+        <volume-id>openSUSE-Leap-42.1-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
