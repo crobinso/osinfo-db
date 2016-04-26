@@ -11,6 +11,10 @@
 
     <release-date>2015-11-04</release-date>
 
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+    </devices>
+
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/leap/42.1/iso/openSUSE-Leap-42.1-DVD-x86_64.iso</url>
       <iso>
