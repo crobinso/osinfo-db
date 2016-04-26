@@ -7,6 +7,10 @@
     <family>linux</family>
     <distro>opensuse</distro>
 
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+    </devices>
+
     <media arch="i686">
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso</url>
       <iso>
