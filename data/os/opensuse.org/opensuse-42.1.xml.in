@@ -16,6 +16,7 @@
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
       <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
     </devices>
 
     <media arch="x86_64">
