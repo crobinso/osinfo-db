@@ -10,6 +10,7 @@
     <devices>
       <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </devices>
 
     <media arch="i686">
