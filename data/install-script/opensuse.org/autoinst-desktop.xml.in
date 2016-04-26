@@ -1,0 +1,333 @@
+<libosinfo version="0.0.1">
+
+  <!-- DESKTOP PROFILE -->
+  <install-script id='http://opensuse.org/opensuse/autoyast/desktop'>
+    <profile>desktop</profile>
+    <expected-filename>autoinst.xml</expected-filename>
+    <config>
+      <!-- Localization options -->
+      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-language" policy="optional"/>
+      <param name="l10n-timezone" policy="optional"/>
+
+      <!-- Network options -->
+      <param name="hostname" policy="optional"/>
+      <param name="domain" policy="optional"/>
+
+      <!-- Account options -->
+      <param name="admin-password" policy="optional"/>
+      <param name="user-fullname" policy="optional"/>
+      <param name="user-login" policy="required"/>
+      <param name="user-password" policy="optional"/>
+      <param name="avatar-location" policy="optional"/>
+      <param name="avatar-disk" policy="optional"/>
+    </config>
+    <injection-method>disk</injection-method>
+
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="xml" indent="yes"/>
+
+        <xsl:template name="l10n-language">
+          <xsl:choose>
+            <xsl:when test="config/l10n-language != '' and config/l10n-language != 'C'">
+              <xsl:value-of select="config/l10n-language"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>en_US</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="l10n-keyboard">
+          <xsl:choose>
+            <xsl:when test="config/l10n-keyboard != '' and config/l10n-keyboard != 'C'">
+              <xsl:value-of select="config/l10n-keyboard"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>us</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="network-device">
+          <xsl:choose>
+            <xsl:when test="contains(os/version, 'tumbleweed')">
+              <xsl:text>ens3</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>eth0</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="repo-oss">
+          <xsl:text> </xsl:text>
+          <xsl:text>http://download.opensuse.org/</xsl:text>
+          <xsl:if test="not(contains(os/version, 'tumbleweed'))">
+            <xsl:text>distribution/leap/</xsl:text>
+          </xsl:if>
+          <xsl:value-of select="os/version"/>
+          <xsl:text>/repo/oss/</xsl:text>
+        </xsl:template>
+
+        <xsl:template name="repo-non-oss">
+          <xsl:text>http://download.opensuse.org/</xsl:text>
+          <xsl:if test="not(contains(os/version, 'tumbleweed'))">
+            <xsl:text>distribution/leap/</xsl:text>
+          </xsl:if>
+          <xsl:value-of select="os/version"/>
+          <xsl:text>/repo/non-oss/</xsl:text>
+        </xsl:template>
+
+        <xsl:template name="repo-update-oss">
+          <xsl:text>http://download.opensuse.org/update/</xsl:text>
+          <xsl:if test="not(contains(os/version, 'tumbleweed'))">
+            <xsl:text>leap/</xsl:text>
+          </xsl:if>
+          <xsl:value-of select="os/version"/>
+          <xsl:text>/</xsl:text>
+          <xsl:if test="not(contains(os/version, 'tumbleweed'))">
+            <xsl:text>oss/</xsl:text>
+          </xsl:if>
+        </xsl:template>
+
+        <xsl:template name="repo-update-non-oss">
+          <xsl:text>http://download.opensuse.org/update/leap/</xsl:text>
+          <xsl:value-of select="os/version"/>
+          <xsl:text>/non-oss/</xsl:text>
+        </xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text>autoyast=device://sda/</xsl:text>
+            <xsl:value-of select="script/expected-filename"/>
+        </xsl:template>
+
+        <xsl:template match="/install-script-config">
+          <profile xmlns="http://www.suse.com/1.0/yast2ns" xmlns:config="http://www.suse.com/1.0/configns">
+            <bootloader>
+              <device_map config:type="list">
+                <device_map_entry>
+                  <firmware>hd0</firmware>
+                  <linux>/dev/vda</linux>
+                </device_map_entry>
+              </device_map>
+              <global>
+                <activate>true</activate>
+                <append> resume=/dev/vda1 splash=silent quiet showopts</append>
+                <boot_boot>false</boot_boot>
+                <boot_extended>false</boot_extended>
+                <boot_mbr>false</boot_mbr>
+                <boot_root>true</boot_root>
+                <default>0</default>
+                <distributor/>
+                <failsafe_disabled>true</failsafe_disabled>
+                <generic_mbr>true</generic_mbr>
+                <gfxmode>auto</gfxmode>
+                <os_prober>true</os_prober>
+                <terminal>gfxterm</terminal>
+                <timeout config:type="integer">8</timeout>
+                <vgamode/>
+              </global>
+              <loader_type>grub2</loader_type>
+            </bootloader>
+            <firewall>
+              <enable_firewall config:type="boolean">false</enable_firewall>
+              <start_firewall config:type="boolean">false</start_firewall>
+            </firewall>
+            <general>
+              <ask-list config:type="list"/>
+              <mode>
+                <confirm config:type="boolean">false</confirm>
+                <final_reboot config:type="boolean">true</final_reboot>
+              </mode>
+              <proposals config:type="list"/>
+              <signature-handling>
+                <accept_file_without_checksum config:type="boolean">true</accept_file_without_checksum>
+                <accept_non_trusted_gpg_key config:type="boolean">true</accept_non_trusted_gpg_key>
+                <accept_unknown_gpg_key config:type="boolean">true</accept_unknown_gpg_key>
+                <accept_unsigned_file config:type="boolean">true</accept_unsigned_file>
+                <accept_verification_failed config:type="boolean">false</accept_verification_failed>
+                <import_gpg_key config:type="boolean">true</import_gpg_key>
+              </signature-handling>
+              <storage>
+                <partition_alignment config:type="symbol">align_optimal</partition_alignment>
+                <start_multipath config:type="boolean">false</start_multipath>
+              </storage>
+            </general>
+            <keyboard>
+              <keyboard_values>
+                <delay/>
+                <discaps config:type="boolean">false</discaps>
+                <numlock>bios</numlock>
+                <rate/>
+              </keyboard_values>
+              <keymap><xsl:call-template name="l10n-keyboard"/></keymap>
+            </keyboard>
+            <language><xsl:call-template name="l10n-language"/></language>
+          <networking>
+            <managed config:type="boolean">false</managed>
+            <interfaces  config:type="list">
+              <interface>
+                <bootproto>dhcp</bootproto>
+                  <device><xsl:call-template name="network-device"/></device>
+                  <startmode>auto</startmode>
+                  <usercontrol>no</usercontrol>
+                </interface>
+            </interfaces>
+          </networking>
+          <partitioning config:type="list">
+            <drive>
+              <device>/dev/vda</device>
+              <type config:type="symbol">CT_DISK</type>
+              <use>all</use>
+            </drive>
+          </partitioning>
+            <report>
+              <errors>
+                <log config:type="boolean">true</log>
+                <show config:type="boolean">true</show>
+                <timeout config:type="integer">0</timeout>
+              </errors>
+              <messages>
+                <log config:type="boolean">true</log>
+                <show config:type="boolean">true</show>
+                <timeout config:type="integer">10</timeout>
+              </messages>
+              <warnings>
+                <log config:type="boolean">true</log>
+                <show config:type="boolean">true</show>
+                <timeout config:type="integer">10</timeout>
+              </warnings>
+              <yesno_messages>
+                <log config:type="boolean">true</log>
+                <show config:type="boolean">true</show>
+                <timeout config:type="integer">10</timeout>
+              </yesno_messages>
+            </report>
+            <scripts>
+              <chroot-scripts config:type="list">
+                <script>
+                  <chrooted config:type="boolean">true</chrooted>
+                  <source>
+pam-config -a --unix-nullok
+pam-config -a --nullok
+
+<xsl:choose>
+  <xsl:when test="config/user-password != ''">
+useradd <xsl:value-of select='config/user-login'/>
+passwd -d <xsl:value-of select='config/user-login'/>
+  </xsl:when>
+</xsl:choose>
+
+<xsl:choose>
+  <xsl:when test="config/avatar-location != ''">
+# Set user avatar
+mkdir /mnt/unattended-media
+mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
+cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
+umount /mnt/unattended-media
+
+echo "
+[User]
+Language=<xsl:value-of select="config/l10n-language"/>.UTF-8
+XSession=gnome
+Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
+" >> /var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/>
+  </xsl:when>
+</xsl:choose>
+
+# Enable default OpenSUSE repos
+zypper ar -f <xsl:call-template name="repo-oss"/> repo-oss
+zypper ar -f <xsl:call-template name="repo-non-oss"/> repo-non-oss
+zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
+<xsl:if test="not(contains(os/version, 'tumbleweed'))">
+  zypper ar -f <xsl:call-template name="repo-update-non-oss"/> repo-update-non-oss
+</xsl:if>
+                  </source>
+                </script>
+              </chroot-scripts>
+            </scripts>
+            <services-manager>
+              <default_target>graphical</default_target>
+              <services>
+                <enable config:type="list">
+                  <service>NetworkManager</service>
+                </enable>
+              </services>
+            </services-manager>
+            <software>
+              <packages config:type="list">
+                <package>autoyast2-installation</package>
+                <package>gdm</package>
+              </packages>
+              <patterns config:type="list">
+                <pattern>apparmor</pattern>
+                <pattern>apparmor_opt</pattern>
+                <pattern>console</pattern>
+                <pattern>devel_basis</pattern>
+                <pattern>enhanced_base</pattern>
+                <pattern>enhanced_base_opt</pattern>
+                <pattern>fonts</pattern>
+                <pattern>gnome_basis</pattern>
+                <pattern>gnome</pattern>
+                <pattern>print_server</pattern>
+                <pattern>sw_management</pattern>
+                <pattern>yast2_basis</pattern>
+                <pattern>yast2_install_wf</pattern>
+              </patterns>
+            </software>
+            <sysconfig config:type="list">
+              <sysconfig_entry>
+                <sysconfig_key>DISPLAYMANAGER</sysconfig_key>
+                <sysconfig_path>/etc/sysconfig/displaymanager</sysconfig_path>
+                <sysconfig_value>gdm</sysconfig_value>
+              </sysconfig_entry>
+              <sysconfig_entry>
+                <sysconfig_key>DEFAULT_WM</sysconfig_key>
+                <sysconfig_path>/etc/sysconfig/windowmanager</sysconfig_path>
+                <sysconfig_value>gnome</sysconfig_value>
+              </sysconfig_entry>
+            </sysconfig>
+            <timezone>
+              <hwclock>UTC</hwclock>
+              <timezone><xsl:value-of select="config/l10n-timezone"/></timezone>
+            </timezone>
+            <user_defaults>
+              <expire/>
+              <group>100</group>
+              <groups/>
+              <home>/home</home>
+              <inactive>-1</inactive>
+              <no_groups config:type="boolean">true</no_groups>
+              <shell>/bin/bash</shell>
+              <skel>/etc/skel</skel>
+              <umask>022</umask>
+            </user_defaults>
+            <users config:type="list">
+              <user>
+                <encrypted config:type="boolean">false</encrypted>
+                <fullname>root</fullname>
+                <gid>0</gid>
+                <home>/root</home>
+                <shell>/bin/bash</shell>
+                <uid>0</uid>
+                <user_password><xsl:value-of select="config/admin-password"/></user_password>
+                <username>root</username>
+              </user>
+              <user>
+                <encrypted config:type="boolean">false</encrypted>
+                <fullname><xsl:value-of select="config/user-fullname"/></fullname>
+                <user_password><xsl:value-of select="config/user-password"/></user_password>
+                <username><xsl:value-of select="config/user-login"/></username>
+              </user>
+            </users>
+          </profile>
+        </xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>
