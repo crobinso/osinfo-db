@@ -13,6 +13,7 @@
 
     <devices>
       <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
     </devices>
 
     <media arch="x86_64">
