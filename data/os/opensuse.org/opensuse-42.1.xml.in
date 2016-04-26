@@ -29,5 +29,10 @@
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
+
+    <installer>
+      <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
+      <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
+    </installer>
   </os>
 </libosinfo>
