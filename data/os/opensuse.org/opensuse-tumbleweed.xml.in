@@ -50,5 +50,10 @@
         <storage>21474836480</storage>
       </recommended>
     </resources>
+
+    <installer>
+      <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
+      <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
+    </installer>
   </os>
 </libosinfo>
