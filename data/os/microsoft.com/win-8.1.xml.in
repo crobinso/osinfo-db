@@ -85,7 +85,7 @@
     <media arch="i686">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>(IR1_CENNA_X86FREV)_</volume-id>
+        <volume-id>(IR[135]_CENN?A_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
