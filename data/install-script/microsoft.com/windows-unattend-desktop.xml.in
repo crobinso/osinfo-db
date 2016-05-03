@@ -150,12 +150,12 @@
          <UserData>
           <AcceptEula>true</AcceptEula>
           <xsl:choose>
-            <xsl:when test="os/version != 6.3"> <!-- Any Windows, but the Windows 8.1 -->
+            <xsl:when test="os/version &lt; 6.2"> <!-- Windows 7 and older -->
               <ProductKey>
                 <Key><xsl:value-of select="config/reg-product-key"/></Key>
               </ProductKey>
             </xsl:when>
-            <xsl:otherwise> <!-- Windows 8.1 -->
+            <xsl:otherwise> <!-- Windows 8 and 8.1 -->
               <xsl:if test="count(media/variant) = 0 or (contains(media/variant, 'debug') and not(contains(media/variant, 'enterprise')))"> <!-- "No Variant" or "Debug" variant -->
                 <ProductKey>
                   <Key><xsl:value-of select="config/reg-product-key"/></Key>
