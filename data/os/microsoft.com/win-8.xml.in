@@ -14,6 +14,9 @@
     <eol-date></eol-date>
 -->
 
+    <variant id="debug">
+      <_name>Microsoft Windows 8 Debug Check Build</_name>
+    </variant>
     <variant id="enterprise">
       <_name>Microsoft Windows 8 Enterprise</_name>
     </variant>
@@ -24,14 +27,32 @@
     <!-- No Variant -->
     <media arch="i686" installer-reboots="2">
       <iso>
-        <volume-id>(HB1_CCPA_X86FRE|HRM_CCSA_X86FRE|HRM_CCSA_X86CHK|HRM_CCSNA_X86CHK|HRM_CCSNA_X86FRE|HRM_CPRA_X86FREV|HRM_CPRNA_X86FREV)_</volume-id>
+        <volume-id>(HB1_CCPA_X86FRE|HRM_CCSA_X86FRE|HRM_CCSNA_X86FRE|HRM_CPRA_X86FREV|HRM_CPRNA_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
       <iso>
-        <volume-id>(HB1_CCPA_X64FRE|HRM_CCSA_X64FRE|HRM_CCSA_X64CHK|HRM_CCSNA_X64FRE|HRM_CCSNA_X64CHK|HRM_CPRA_X64FREV|HRM_CPRNA_X64FREV)_</volume-id>
+        <volume-id>(HB1_CCPA_X64FRE|HRM_CCSA_X64FRE|HRM_CCSNA_X64FRE|HRM_CPRA_X64FREV|HRM_CPRNA_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Debug -->
+    <media arch="i686" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(HRM_CCSN?A_X86CHK)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64" installer-reboots="2">
+      <variant id="debug"/>
+      <iso>
+        <volume-id>(HRM_CCSN?A_X64CHK)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
