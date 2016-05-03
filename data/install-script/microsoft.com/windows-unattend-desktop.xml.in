@@ -170,10 +170,24 @@
           <xsl:call-template name="arch"/>
          </xsl:attribute>
          <SetupUILanguage>
-          <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
+          <xsl:choose>
+           <xsl:when test="os/version = 6.1">
+            <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
+           </xsl:when>
+           <xsl:otherwise>
+            <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+           </xsl:otherwise>
+          </xsl:choose>
          </SetupUILanguage>
          <SystemLocale><xsl:value-of select="config/l10n-language"/></SystemLocale>
-         <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
+         <xsl:choose>
+          <xsl:when test="os/version = 6.1">
+           <UILanguage><xsl:call-template name="ui-language"/></UILanguage>
+          </xsl:when>
+          <xsl:otherwise>
+           <UILanguage><xsl:value-of select="config/l10n-language"/></UILanguage>
+          </xsl:otherwise>
+         </xsl:choose>
          <UserLocale><xsl:value-of select="config/l10n-language"/></UserLocale>
         </component>
        </settings>
