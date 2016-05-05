@@ -17,6 +17,9 @@
     <variant id="enterprise">
       <_name>Microsoft Windows 10 Enterprise</_name>
     </variant>
+    <variant id="enterprise-ltsb">
+      <_name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch)</_name>
+    </variant>
 
     <!-- Education -->
     <media arch="i686">
@@ -49,6 +52,16 @@
       <variant id="enterprise"/>
       <iso>
         <volume-id>J_CENN?A_X64FREV_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise LTSB -->
+    <media arch="x86_64">
+      <variant id="enterprise-ltsb"/>
+      <iso>
+        <volume-id>J_CESN?N?_X64FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
