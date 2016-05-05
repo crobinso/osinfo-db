@@ -76,6 +76,13 @@
     </media>
 
     <!-- No Variant -->
+    <media arch="i686">
+      <iso>
+        <volume-id>J_CCSN?A_X86FRE_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
     <media arch="x86_64">
       <iso>
         <volume-id>J_CCSN?A_X64FRE_</volume-id>
