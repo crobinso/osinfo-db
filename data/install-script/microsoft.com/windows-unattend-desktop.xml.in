@@ -150,17 +150,22 @@
          <UserData>
           <AcceptEula>true</AcceptEula>
           <xsl:choose>
-            <xsl:when test="os/version &lt; 6.2"> <!-- Windows 7 and older -->
+            <xsl:when test="os/version = 6.2 or os/version = 6.3"> <!-- Windwos 8 and Windows 8.1 -->
+              <xsl:choose>
+                <xsl:when test="count(media/variant != 0) and (contains(media/variant, 'enterprise') or contains(media/variant, 'professional'))">
+                  <!-- Skip the ProductKey during this phase of the script for the following variants: Enterprise, Enterprise Debug and Professional -->
+                </xsl:when>
+                <xsl:otherwise>
+                  <ProductKey>
+                    <Key><xsl:value-of select="config/reg-product-key"/></Key>
+                  </ProductKey>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
               <ProductKey>
                 <Key><xsl:value-of select="config/reg-product-key"/></Key>
               </ProductKey>
-            </xsl:when>
-            <xsl:otherwise> <!-- Windows 8 and 8.1 -->
-              <xsl:if test="count(media/variant) = 0 or (contains(media/variant, 'debug') and not(contains(media/variant, 'enterprise')))"> <!-- "No Variant" or "Debug" variant -->
-                <ProductKey>
-                  <Key><xsl:value-of select="config/reg-product-key"/></Key>
-                </ProductKey>
-              </xsl:if>
             </xsl:otherwise>
           </xsl:choose>
          </UserData>
