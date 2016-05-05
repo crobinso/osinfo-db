@@ -75,6 +75,15 @@
       </iso>
     </media>
 
+    <!-- No Variant -->
+    <media arch="x86_64">
+      <iso>
+        <volume-id>J_CCSN?A_X64FRE_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
     <resources arch="i686">
       <minimum>
         <cpu>1000000000</cpu>
