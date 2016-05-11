@@ -100,7 +100,7 @@ d-i passwd/root-password-again password <xsl:value-of select="config/admin-passw
   </xsl:otherwise>
 </xsl:choose>
 
-tasksel tasksel/first multiselect standard
+tasksel tasksel/first multiselect standard ssh-server
 
 # Workaround for https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=666974
 d-i grub-installer/only_debian boolean false
