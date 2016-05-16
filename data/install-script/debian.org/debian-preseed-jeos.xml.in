@@ -106,6 +106,7 @@ tasksel tasksel/first multiselect standard ssh-server
 d-i grub-installer/only_debian boolean false
 d-i grub-installer/bootdev string <xsl:call-template name="target-disk"/>
 
+d-i apt-setup/use_mirror boolean true
 d-i apt-setup/security_host string
 d-i apt-setup/services-select multiselect
 d-i apt-setup/volatile_host string
@@ -119,6 +120,9 @@ d-i finish-install/reboot_in_progress note
 d-i preseed/late_command string in-target passwd -d root
   </xsl:when>
 </xsl:choose>
+
+### Remove the installation DVD from the apt-get's sources.list
+d-i preseed/late_command string in-target sed -i '/cdrom/d' /etc/apt/sources.list
 
 </xsl:template>
       </xsl:stylesheet>

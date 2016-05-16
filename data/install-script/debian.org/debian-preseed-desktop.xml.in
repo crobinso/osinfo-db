@@ -161,6 +161,7 @@ d-i partman/confirm boolean true
 
 
 ### Apt
+d-i apt-setup/use_mirror boolean true
 d-i apt-setup/security_host string
 d-i apt-setup/services-select multiselect
 d-i apt-setup/volatile_host string
@@ -200,6 +201,9 @@ d-i preseed/late_command string in-target passwd -d root
 d-i preseed/late_command string in-target passwd -d <xsl:value-of select="config/user-login"/>
   </xsl:when>
 </xsl:choose>
+
+### Remove the installation DVD from the apt-get's sources.list
+d-i preseed/late_command string in-target sed -i '/cdrom/d' /etc/apt/sources.list
 
 </xsl:template>
       </xsl:stylesheet>
