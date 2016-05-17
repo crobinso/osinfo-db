@@ -14,6 +14,8 @@
       <param name="user-fullname" policy="optional"/>
       <param name="user-password" policy="optional"/>
       <param name="admin-password" policy="optional"/>
+      <param name="avatar-location" policy="optional"/>
+      <param name="avatar-disk" policy="optional"/>
 
       <!-- Misc -->
       <param name="hostname" policy="optional"/>
@@ -36,6 +38,17 @@
             </xsl:when>
             <xsl:otherwise>
               <xsl:text>/dev/vda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="avatar-disk">
+          <xsl:choose>
+            <xsl:when test="config/avatar-disk != ''">
+              <xsl:value-of select="config/avatar-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>/dev/sda</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
@@ -204,6 +217,21 @@ d-i preseed/late_command string in-target passwd -d <xsl:value-of select="config
 
 ### Remove the installation DVD from the apt-get's sources.list
 d-i preseed/late_command string in-target sed -i '/cdrom/d' /etc/apt/sources.list
+
+<xsl:choose>
+ <xsl:when test="config/avatar-location != ''">
+### Set user avatar
+d-i preseed/late_command string \
+    mkdir /mnt/unattended-media ; \
+    mount <xsl:call-template name="avatar-disk"/> /mnt/unattended-media ; \
+    cp /mnt/unattended-media/<xsl:value-of select="config/avatar-location"/> /target/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/> ; \
+    umount /mnt/unattended-media ; \
+    echo "[User]" >> /target/var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/> ; \
+    echo "Language=<xsl:value-of select="config/l10n-language"/>.UTF-8" >> /target/var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/> ;\
+    echo "XSession=gnome" >> /target/var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/> ; \
+    echo "Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>" >> /target/var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/>
+  </xsl:when>
+</xsl:choose>
 
 </xsl:template>
       </xsl:stylesheet>
