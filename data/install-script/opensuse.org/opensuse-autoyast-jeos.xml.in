@@ -6,7 +6,7 @@
     <expected-filename>autoinst.xml</expected-filename>
     <config>
       <!-- Localization options -->
-      <param name="l10n-keyboard" policy="optional" value-map="http://libosinfo.fedorahosted.org/x11-keyboard"/>
+      <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
 
