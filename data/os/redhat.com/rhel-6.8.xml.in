@@ -1,0 +1,50 @@
+<libosinfo version="0.0.1">
+  <os id="http://redhat.com/rhel/6.8">
+    <short-id>rhel6.8</short-id>
+    <_name>Red Hat Enterprise Linux 6.8</_name>
+    <version>6.8</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Santiago</codename>
+    <upgrades id="http://redhat.com/rhel/6.7"/>
+    <derives-from id="http://redhat.com/rhel/6.7"/>
+
+    <release-date>2016-05-10</release-date>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>RHEL-6.8 .*.i386.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*RHEL-6.8 .*.x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
