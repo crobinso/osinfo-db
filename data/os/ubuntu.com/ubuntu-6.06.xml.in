@@ -20,8 +20,8 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-amd64.iso</url>
@@ -29,8 +29,8 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-powerpc.iso</url>
@@ -38,8 +38,8 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
     <media arch="parisc">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-hppa.iso</url>
@@ -47,8 +47,8 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? hppa</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz-hppa32</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ia64">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-ia64.iso</url>
@@ -56,8 +56,6 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? ia64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="sparc64">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-sparc.iso</url>
@@ -65,8 +63,8 @@
         <volume-id>Ubuntu-Server 6.06(.\d)? sparc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>boot/sparc64</kernel>
+      <initrd>boot/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true">
@@ -75,8 +73,8 @@
         <volume-id>Ubuntu 6.06(.\d)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-amd64.iso</url>
@@ -84,8 +82,8 @@
         <volume-id>Ubuntu 6.06(.\d)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-powerpc.iso</url>
@@ -93,8 +91,8 @@
         <volume-id>Ubuntu 6.06(.\d)? ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true">
@@ -103,8 +101,8 @@
         <volume-id>Ubuntu 6.06(.\d)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-amd64.iso</url>
@@ -112,8 +110,8 @@
         <volume-id>Ubuntu 6.06(.\d)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-powerpc.iso</url>
@@ -121,8 +119,8 @@
         <volume-id>Ubuntu 6.06(.\d)? ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
 
     <media arch="parisc" live="true">
@@ -131,8 +129,8 @@
         <volume-id>Ubuntu 6.06(.\d)? hppa</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinux-hppa32</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ia64">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-ia64.iso</url>
@@ -140,8 +138,6 @@
         <volume-id>Ubuntu 6.06(.\d)? ia64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
     </media>
 
   </os>

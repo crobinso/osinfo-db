@@ -20,8 +20,8 @@
         <volume-id>Ubuntu 5.04 i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-amd64.iso</url>
@@ -29,8 +29,8 @@
         <volume-id>Ubuntu 5.04 amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-powerpc.iso</url>
@@ -38,8 +38,8 @@
         <volume-id>Ubuntu 5.04 ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true" installer="false">
@@ -48,8 +48,8 @@
         <volume-id>Ubuntu 5.04 i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-live-amd64.iso</url>
@@ -57,8 +57,8 @@
         <volume-id>Ubuntu 5.04 amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-live-powerpc.iso</url>
@@ -66,8 +66,8 @@
         <volume-id>Ubuntu 5.04 ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
 
   </os>

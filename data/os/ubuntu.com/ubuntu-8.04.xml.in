@@ -24,8 +24,8 @@
         <volume-id>Ubuntu-Server 8.04(.\d)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-server-amd64.iso</url>
@@ -33,8 +33,8 @@
         <volume-id>Ubuntu-Server 8.04(.\d)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true">
@@ -44,7 +44,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-desktop-amd64.iso</url>
@@ -53,7 +53,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true">
@@ -63,7 +63,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/hardy/ubuntu-8.04-dvd-amd64.iso</url>
@@ -72,7 +72,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.gz</initrd>
     </media>
   </os>
 </libosinfo>

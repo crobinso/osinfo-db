@@ -20,8 +20,8 @@
         <volume-id>Ubuntu-Server 9.10 i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/karmic/ubuntu-9.10-server-amd64.iso</url>
@@ -29,8 +29,8 @@
         <volume-id>Ubuntu-Server 9.10 amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true">
@@ -40,7 +40,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/karmic/ubuntu-9.10-desktop-amd64.iso</url>
@@ -49,7 +49,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.lz</initrd>
     </media>
   </os>
 </libosinfo>
