@@ -1,0 +1,86 @@
+<libosinfo version="0.0.1">
+  <os id="http://ubuntu.com/ubuntu/16.04">
+    <short-id>ubuntu16.04</short-id>
+    <short-id>ubuntutxenial</short-id>
+    <_name>Ubuntu 16.04</_name>
+    <version>16.04</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Xenial Xerus</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/15.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/15.10"/>
+
+    <release-date>2016-04-21</release-date>
+    <eol-date>2021-04-22</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i686">
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.04(.\d)? LTS i386</volume-id>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.04(.\d)? LTS amd64</volume-id>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 16.04(.\d)? LTS i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.lz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 16.04(.\d)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.lz</initrd>
+    </media>
+    <media arch="ppc">
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04-server-powerpc.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.04(.\d)? LTS ppc</volume-id>
+      </iso>
+    </media>
+    <media arch="ppc64le">
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04-server-ppc64el.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.04(.\d)? LTS ppc64</volume-id>
+      </iso>
+    </media>
+    <media arch="s390x">
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04-server-s390x.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.04(.\d)? LTS s390x</volume-id>
+      </iso>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+    </installer>
+  </os>
+</libosinfo>
