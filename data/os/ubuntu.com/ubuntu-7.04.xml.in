@@ -32,7 +32,7 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="sparc">
+    <media arch="sparc64">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-sparc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.04 sparc</volume-id>

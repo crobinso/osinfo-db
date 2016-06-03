@@ -59,7 +59,7 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
     </media>
-    <media arch="sparc">
+    <media arch="sparc64">
       <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-sparc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d)? sparc</volume-id>
