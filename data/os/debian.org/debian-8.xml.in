@@ -29,7 +29,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://cdimage.debian.org/debian-cd/8.3.0/i386/iso-dvd/debian-8.3.0-i386-DVD-1.iso</url>
+      <url>http://cdimage.debian.org/debian-cd/8.4.0/i386/iso-dvd/debian-8.4.0-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d.\d i386 1</volume-id>
       </iso>
@@ -37,7 +37,7 @@
       <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://cdimage.debian.org/debian-cd/8.3.0/amd64/iso-dvd/debian-8.3.0-amd64-DVD-1.iso</url>
+      <url>http://cdimage.debian.org/debian-cd/8.4.0/amd64/iso-dvd/debian-8.4.0-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d.\d amd64 1</volume-id>
       </iso>

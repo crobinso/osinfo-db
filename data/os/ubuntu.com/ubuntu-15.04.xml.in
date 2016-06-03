@@ -29,7 +29,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 15.04(.\d)? i386</volume-id>
       </iso>
@@ -37,7 +37,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/vivid/ubuntu-15.04-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 15.04(.\d)? amd64</volume-id>
       </iso>
@@ -45,7 +45,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-i386.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 15.04(.\d)? i386</volume-id>
       </iso>
@@ -53,7 +53,7 @@
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-amd64.iso</url>
+      <url>http://old-releases.ubuntu.com/releases/vivid/ubuntu-15.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 15.04(.\d)? amd64</volume-id>
       </iso>
