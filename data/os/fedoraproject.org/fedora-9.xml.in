@@ -19,6 +19,9 @@
            https://bugzilla.redhat.com/show_bug.cgi?id=470386
       <device id="http://pcisig.com/pci/1af4/1001"/>
       -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1009"/> <!-- virtio-9p -->
     </devices>
 
     <!-- DVD -->

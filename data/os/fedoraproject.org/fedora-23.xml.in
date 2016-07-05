@@ -24,6 +24,19 @@
       <_name>Fedora 23 Server</_name>
     </variant>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <!-- virtio-1.0-gpu kmod is present, but mesa is not functional so
+	   pretend its just not available until F24 to avoid bug reports -->
+    </devices>
+
     <!-- Workstation -->
 
     <!-- Live -->

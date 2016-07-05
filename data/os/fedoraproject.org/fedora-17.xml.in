@@ -10,6 +10,10 @@
     <upgrades id="http://fedoraproject.org/fedora/16"/>
     <derives-from id="http://fedoraproject.org/fedora/16"/>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+    </devices>
+
     <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/i386/iso/Fedora-17-i386-DVD.iso</url>
       <iso>

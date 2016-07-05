@@ -15,6 +15,7 @@
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
     </devices>
 
     <!-- DVD -->
