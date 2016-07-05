@@ -6,19 +6,19 @@
     <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <upgrades id="http://fedoraproject.org/fedora/22"/>
-    <derives-from id="http://fedoraproject.org/fedora/22"/>
+    <upgrades id="http://fedoraproject.org/fedora/24"/>
+    <derives-from id="http://fedoraproject.org/fedora/24"/>
     <release-status>prerelease</release-status>
 
     <media arch="i686">
       <iso>
-        <volume-id>Fedora.*-([2-9][4-9]|[0-9]{3,}).*-i386</volume-id>
+        <volume-id>Fedora.*-([2-9][5-9]|[0-9]{3,}).*-i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>Fedora.*-([2-9][4-9]|[0-9]{3,}).*-x86_64</volume-id>
+        <volume-id>Fedora.*-([2-9][5-9]|[0-9]{3,}).*-x86_64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -27,13 +27,13 @@
 
     <media arch="i686" live="true">
       <iso>
-        <volume-id>Fedora-Live-.*-i686-([2-9][4-9]|[0-9]{3,})</volume-id>
+        <volume-id>Fedora-Live-.*-i686-([2-9][5-9]|[0-9]{3,})</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
     <media arch="x86_64" live="true">
       <iso>
-        <volume-id>Fedora-Live-.*-x86_64-([2-9][4-9]|[0-9]{3,})</volume-id>
+        <volume-id>Fedora-Live-.*-x86_64-([2-9][5-9]|[0-9]{3,})</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>

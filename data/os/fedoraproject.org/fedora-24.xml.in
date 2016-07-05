@@ -1,0 +1,171 @@
+<libosinfo version="0.0.1">
+  <os id="http://fedoraproject.org/fedora/24">
+    <short-id>fedora24</short-id>
+    <_name>Fedora 24</_name>
+    <version>24</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/23"/>
+    <derives-from id="http://fedoraproject.org/fedora/23"/>
+
+    <release-date>2016-06-21</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio-gpu -->
+    </devices>
+
+    <variant id="workstation">
+      <_name>Fedora 24 Workstation</_name>
+    </variant>
+    <variant id="workstation-netinst">
+      <_name>Fedora 24 Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora 24 Server</_name>
+    </variant>
+    <variant id="server-netinst">
+      <_name>Fedora 24 Server</_name>
+    </variant>
+
+    <!-- Workstation -->
+
+    <!-- Live -->
+    <media arch="i686" live="true">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Workstation/i386/iso/Fedora-Workstation-Live-i386-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-Live-24.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-Live-24.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="i686">
+      <variant id="workstation-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Workstation/i386/iso/Fedora-Workstation-netinst-i386-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-dvd-i386-24</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="workstation-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-dvd-x86_64-24</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+
+    <!-- DVD -->
+    <media arch="i686">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/i386/iso/Fedora-Server-dvd-i386-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-i386-24</volume-id>
+        <system-id>LINUX</system-id>
+        <!-- We need volume-size to distinguish DVD from netiso here:
+
+             https://fedorahosted.org/rel-eng/ticket/6173
+        -->
+        <volume-size>1988413440</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/x86_64/iso/Fedora-Server-dvd-x86_64-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-24</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>1867970560</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="i686">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/i386/iso/Fedora-Server-netinst-i386-24-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-i386-24</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>514893824</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="server-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/x86_64/iso/Fedora-Server-netinst-x86_64-24.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-24</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>461770752</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="i686">
+      <variant id="server"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/i386/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>24</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/x86_64/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>24</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <!-- No install media or tree is provided for Fedora 24 Cloud variant -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
