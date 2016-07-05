@@ -1,0 +1,6 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/1af4/1005">
+    <name>virtio-rng</name>
+    <class>rng</class>
+  </device>
+</libosinfo>

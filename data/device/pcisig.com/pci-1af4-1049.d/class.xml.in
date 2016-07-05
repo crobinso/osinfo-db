@@ -1,0 +1,6 @@
+<libosinfo version="0.0.1">
+  <device id="http://pcisig.com/pci/1af4/1049">
+    <name>virtio1.0-9p</name>
+    <class>filesystem</class>
+  </device>
+</libosinfo>

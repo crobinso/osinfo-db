@@ -1,6 +1,6 @@
 <libosinfo version="0.0.1">
   <device id="http://pcisig.com/pci/1af4/1050">
-    <name>virtio-gpu</name>
+    <name>virtio1.0-gpu</name>
     <class>video</class>
   </device>
 </libosinfo>

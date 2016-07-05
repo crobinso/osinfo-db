@@ -81,6 +81,7 @@
               <value>net</value>
               <value>video</value>
               <value>watchdog</value>
+              <value>rng</value>
             </choice>
           </element>
         </optional>
