@@ -1,4 +1,6 @@
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <!-- Schema distributed with osinfo-db-@VERSION@ -->
+
   <start>
     <ref name='libosinfo'/>
   </start>

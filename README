@@ -1,15 +1,11 @@
-libosinfo
+osinfo-db
 =========
 
-libosinfo is a GObject based library API for managing information about
-operating systems, hypervisors and the (virtual) hardware devices they can
-support. It includes a database containing device metadata and provides APIs
-to match/identify optimal devices for deploying an operating system on a
-hypervisor. Via the magic of GObject Introspection, the API is available in all
-common programming languages with demos for javascript (GJS/Seed) and python
-(PyGObject). Vala bindings are also provided.
+osinfo-db provides the database files for use with the libosinfo
+library. It provides information about guest operating systems for
+use with virtualization provisioning tools
 
-libosinfo is Free Software and licenced under LGPLv2+.
+osinfo-db is Free Software and licenced under LGPLv2+.
 
 The latest official releases can be found at:
 
@@ -19,15 +15,8 @@ Dependencies
 ============
 
 - Required:
-  - gobject-2.0
-  - gio-2.0
-  - libsoup-2.4
-  - libxml-2.0
-  - libxslt-1.0
-
-- Optional:
-  - gobject-introspection
-  - Vala (build-time only)
+  - osinfo-db-tools
+  - intltool
 
 Patch submissions
 =================

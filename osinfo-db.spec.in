@@ -1,0 +1,32 @@
+# -*- rpm-spec -*-
+
+Summary: osinfo database files
+Name: osinfo-db
+Version: @VERSION@
+Release: 1%{?dist}%{?extra_release}
+License: LGPLv2+
+Group: Development/Libraries
+Source: https://fedorahosted.org/releases/l/i/%{name}/%{name}-%{version}.tar.xz
+URL: http://libosinfo.org/
+BuildRequires: intltool
+BuildRequires: osinfo-db-tools
+Requires: hwdata
+
+%description
+The osinfo database provides information about operating systems and
+hypervisor platforms to facilitate the automated configuration and
+provisioning of new virtual machines
+
+%install
+osinfo-db-import --root %{buildroot} --system %{SOURCE0}
+
+%files
+%dir %{_datadir}/libosinfo/db/
+%{_datadir}/libosinfo/db/datamap
+%{_datadir}/libosinfo/db/device
+%{_datadir}/libosinfo/db/os
+%{_datadir}/libosinfo/db/platform
+%{_datadir}/libosinfo/db/install-script
+%{_datadir}/libosinfo/db/schema
+
+%changelog
