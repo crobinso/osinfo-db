@@ -35,14 +35,28 @@ This package provides the osinfo database of information about
 operating systems for use with virtualization provisioning tools
 
 %install
-osinfo-db-import --root %{buildroot} --dir %{mingw32_datadir}/libosinfo/db %{SOURCE0}
-osinfo-db-import --root %{buildroot} --dir %{mingw64_datadir}/libosinfo/db %{SOURCE0}
+osinfo-db-import --root %{buildroot} --dir %{mingw32_datadir}/osinfo %{SOURCE0}
+osinfo-db-import --root %{buildroot} --dir %{mingw64_datadir}/osinfo %{SOURCE0}
 
 
 %files -n mingw32-osinfo-db
-%{mingw32_datadir}/libosinfo/db
+%dir %{mingw32_datadir}/osinfo
+%{mingw32_datadir}/osinfo/VERSION
+%{mingw32_datadir}/osinfo/datamap
+%{mingw32_datadir}/osinfo/device
+%{mingw32_datadir}/osinfo/os
+%{mingw32_datadir}/osinfo/platform
+%{mingw32_datadir}/osinfo/install-script
+%{mingw32_datadir}/osinfo/schema
 
 %files -n mingw64-osinfo-db
-%{mingw64_datadir}/libosinfo/db
+%dir %{mingw64_datadir}/osinfo
+%{mingw64_datadir}/osinfo/VERSION
+%{mingw64_datadir}/osinfo/datamap
+%{mingw64_datadir}/osinfo/device
+%{mingw64_datadir}/osinfo/os
+%{mingw64_datadir}/osinfo/platform
+%{mingw64_datadir}/osinfo/install-script
+%{mingw64_datadir}/osinfo/schema
 
 %changelog

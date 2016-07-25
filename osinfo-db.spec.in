@@ -21,12 +21,13 @@ provisioning of new virtual machines
 osinfo-db-import --root %{buildroot} --system %{SOURCE0}
 
 %files
-%dir %{_datadir}/libosinfo/db/
-%{_datadir}/libosinfo/db/datamap
-%{_datadir}/libosinfo/db/device
-%{_datadir}/libosinfo/db/os
-%{_datadir}/libosinfo/db/platform
-%{_datadir}/libosinfo/db/install-script
-%{_datadir}/libosinfo/db/schema
+%dir %{_datadir}/osinfo/
+%{_datadir}/osinfo/VERSION
+%{_datadir}/osinfo/datamap
+%{_datadir}/osinfo/device
+%{_datadir}/osinfo/os
+%{_datadir}/osinfo/platform
+%{_datadir}/osinfo/install-script
+%{_datadir}/osinfo/schema
 
 %changelog
