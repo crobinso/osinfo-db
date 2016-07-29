@@ -18,7 +18,7 @@ hypervisor platforms to facilitate the automated configuration and
 provisioning of new virtual machines
 
 %install
-osinfo-db-import --root %{buildroot} --system %{SOURCE0}
+osinfo-db-import  --root %{buildroot} --dir %{_datadir}/osinfo %{SOURCE0}
 
 %files
 %dir %{_datadir}/osinfo/
