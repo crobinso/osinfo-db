@@ -5,7 +5,7 @@ osinfo-db provides the database files for use with the libosinfo
 library. It provides information about guest operating systems for
 use with virtualization provisioning tools
 
-osinfo-db is Free Software and licenced under LGPLv2+.
+osinfo-db is Free Software and licenced under GPLv2+.
 
 The latest official releases can be found at:
 

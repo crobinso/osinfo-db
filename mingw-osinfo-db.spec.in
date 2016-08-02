@@ -4,7 +4,7 @@ Name: mingw-osinfo-db
 Version: @VERSION@
 Release: 1%{?dist}%{?extra_release}
 Summary: Database for libosinfo API
-License: LGPLv2+
+License: GPLv2+
 Group: Development/Libraries
 Source: https://fedorahosted.org/releases/l/i/libosinfo/osinfo-db-%{version}.tar.xz
 URL: https://fedorahosted.org/libosinfo/
