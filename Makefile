@@ -14,7 +14,7 @@ GETTEXT_PACKAGE = osinfo-db
 
 SED = sed
 
-DATA_FILES_IN = $(wildcard data/*/*/*.xml.in)
+DATA_FILES_IN = $(wildcard data/*/*/*.xml.in) $(wildcard data/*/*/*/*.xml.in)
 DATA_FILES = $(DATA_FILES_IN:%.in=%)
 
 SCHEMA_FILES_IN = data/schema/osinfo.rng.in
