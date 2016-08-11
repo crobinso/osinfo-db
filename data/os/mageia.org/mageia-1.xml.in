@@ -12,6 +12,14 @@
     <release-date>2011-06-01</release-date>
     <eol-date>2012-12-01</eol-date>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet aka mouse integration -->
+    </devices>
+
     <media arch="i686">
       <url>https://www.mageia.org/en/downloads/get/?q=mageia-1-dvd-i586</url>
       <iso>
