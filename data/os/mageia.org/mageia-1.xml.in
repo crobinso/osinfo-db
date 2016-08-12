@@ -21,45 +21,28 @@
     </devices>
 
     <media arch="i686">
-      <url>https://www.mageia.org/en/downloads/get/?q=mageia-1-dvd-i586</url>
       <iso>
         <volume-id>1-i586</volume-id>
         <publisher-id>Mageia.Org</publisher-id>
       </iso>
     </media>
     <media arch="i686">
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-cd-dualarch</url>
       <iso>
         <volume-id>mageia-dual-1</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-cd-dualarch</url>
       <iso>
         <volume-id>mageia-dual-1</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://www.mageia.org/en/downloads/get/?q=mageia-1-dvd-x86_64</url>
       <iso>
         <volume-id>1-x86_64</volume-id>
         <publisher-id>Mageia.Org</publisher-id>
       </iso>
     </media>
     <media live="true" arch="i686">
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-europe1-cd-i586</url>
-<!--
-      The Mageia project releases several live CD isos for different languages, but libosinfo
-      currently only supports one <url> node per <media> node
-
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-europe2-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-asia-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-kde-africa-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-europe1-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-europe2-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-asia-cd-i586</url>
-      <url>http://www.mageia.org/fr/downloads/get/?q=mageia-1-live-gnome-africa-cd-i586</url>
--->
       <iso>
         <volume-id>Livecd-1-(GNOME|KDE)</volume-id>
       </iso>
