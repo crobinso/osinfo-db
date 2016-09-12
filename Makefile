@@ -1,4 +1,6 @@
 
+VPATH = .
+
 TODAY = $(shell date +"%Y%m%d")
 
 OSINFO_DB_EXPORT = osinfo-db-export
@@ -14,8 +16,8 @@ GETTEXT_PACKAGE = osinfo-db
 
 SED = sed
 
-DATA_FILES_IN = $(wildcard data/*/*/*.xml.in) $(wildcard data/*/*/*/*.xml.in)
-DATA_FILES = $(DATA_FILES_IN:%.in=%)
+DATA_FILES_IN = $(wildcard $(VPATH)/data/*/*/*.xml.in) $(wildcard $(VPATH)/data/*/*/*/*.xml.in)
+DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 
 SCHEMA_FILES_IN = data/schema/osinfo.rng.in
 SCHEMA_FILES = data/schema/osinfo.rng
@@ -59,9 +61,11 @@ mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
 
 
 %.xml: %.xml.in Makefile
-	$(V_I18N) LC_ALL=C $(INTLTOOL_MERGE) $(INTLTOOL_MERGE_OPTS) -x -u -c po/.intltool-merge-cache po $< $@
+	@mkdir -p `dirname $@` po
+	$(V_I18N) LC_ALL=C $(INTLTOOL_MERGE) $(INTLTOOL_MERGE_OPTS) -x -u -c po/.intltool-merge-cache $(VPATH)/po $< $@
 
 %.rng: %.rng.in Makefile
+	@mkdir -p `dirname $@` po
 	$(V_GEN) $(SED) -e "s/@VERSION@/$(TODAY)/" < $< > $@
 
 $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
