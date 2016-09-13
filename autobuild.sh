@@ -22,7 +22,7 @@ case $MAKEFLAGS in
 esac
 
 make
-make install OSINFO_DB_TARGET="--system --root $AUTOBUILD_INSTALL_ROOT"
+make install DESTDIR="$AUTOBUILD_INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
 if [ -n "$AUTOBUILD_COUNTER" ]; then
   EXTRA_RELEASE=".auto$AUTOBUILD_COUNTER"

@@ -6,6 +6,7 @@ TODAY = $(shell date +"%Y%m%d")
 OSINFO_DB_EXPORT = osinfo-db-export
 OSINFO_DB_IMPORT = osinfo-db-import
 
+DESTDIR = /
 OSINFO_DB_TARGET = --user
 
 INTLTOOL_MERGE = intltool-merge
@@ -48,7 +49,7 @@ INTLTOOL_MERGE_OPTS_1 =
 all: $(ARCHIVE) osinfo-db.spec mingw-osinfo-db.spec
 
 install: $(ARCHIVE)
-	$(OSINFO_DB_IMPORT) $(OSINFO_DB_TARGET) $(ARCHIVE)
+	$(OSINFO_DB_IMPORT) --root $(DESTDIR) $(OSINFO_DB_TARGET) $(ARCHIVE)
 
 %.spec: %.spec.in Makefile
 	$(V_GEN) $(SED) -e "s/@VERSION@/$(TODAY)/" < $< > $@
