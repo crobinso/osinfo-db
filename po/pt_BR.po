@@ -1,18 +1,18 @@
-# Marco Aurélio Krause <ouesten@me.com>, 2015. #zanata
+# Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-18 12:05+0100\n"
-"PO-Revision-Date: 2015-10-15 11:15-0400\n"
-"Last-Translator: Marco Aurélio Krause <ouesten@me.com>\n"
+"POT-Creation-Date: 2016-10-07 13:04+0100\n"
+"PO-Revision-Date: 2016-10-07 08:18-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Portuguese (Brazil)\n"
 "Language: pt-BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 3.7.3\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: ../data/device/ibm.com/ps2-mouse.xml.in.h:1
 #: ../data/device/ibm.com/ps2-keyboard.xml.in.h:1
@@ -2326,51 +2326,3 @@ msgstr "Xen 3.1.0 (RHEL 5.2)"
 #: ../data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in.h:1
 msgid "Xen 3.1.0 (RHEL 5.6)"
 msgstr "Xen 3.1.0 (RHEL 5.6)"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
-
-#~ msgid "Vendor"
-#~ msgstr "Fabricante"
-
-#~ msgid "Version"
-#~ msgstr "Versão"
-
-#~ msgid "Codename"
-#~ msgstr "Nome código"
-
-#~ msgid "URI of the logo"
-#~ msgstr "URI do logo"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "Numero de CPUs"
-
-#~ msgid "required"
-#~ msgstr "Requerido"
-
-#~ msgid "optional"
-#~ msgstr "Opcional"
-
-#~ msgid "Family"
-#~ msgstr "Família"
-
-#~ msgid "Distro"
-#~ msgstr "Distro"
-
-#~ msgid "Release date"
-#~ msgstr "Data de lançamento"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Product"
-#~ msgstr "Produto"
-
-#~ msgid "Product ID"
-#~ msgstr "ID do produto"
-
-#~ msgid "Class"
-#~ msgstr "Classe"
-
-#~ msgid "Bus"
-#~ msgstr "Bus"

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-18 12:05+0100\n"
-"PO-Revision-Date: 2013-11-20 05:55-0500\n"
-"Last-Translator: Dennis Tobar <dennis.tobar@gmail.com>\n"
+"POT-Creation-Date: 2016-10-07 13:04+0100\n"
+"PO-Revision-Date: 2016-10-07 08:21-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
 "language/es/)\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 3.7.3\n"
+"X-Generator: Zanata 3.9.5\n"
 
 #: ../data/device/ibm.com/ps2-mouse.xml.in.h:1
 #: ../data/device/ibm.com/ps2-keyboard.xml.in.h:1
@@ -2327,90 +2328,3 @@ msgstr "Xen 3.1.0 (RHEL 5.2)"
 #: ../data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in.h:1
 msgid "Xen 3.1.0 (RHEL 5.6)"
 msgstr "Xen 3.1.0 (RHEL 5.6)"
-
-#~ msgid "Operating system"
-#~ msgstr "Sistema operativo"
-
-#~ msgid "Virtualization platform"
-#~ msgstr "Plataforma de virtualización"
-
-#~ msgid "Unique identifier"
-#~ msgstr "Identificador único"
-
-#~ msgid "Parameter name"
-#~ msgstr "Nombre de parámetro"
-
-#~ msgid "Unable to create XML parser context"
-#~ msgstr "Incapaz de crear contexto de parseo XML"
-
-#~ msgid "Unable to read XSL template"
-#~ msgstr "Incapaz de leer plantilla XSL"
-
-#~ msgid "Unable to parse XSL template"
-#~ msgstr "Incapaz de parsear plantilla XSL"
-
-#~ msgid "Unable to create XML node '%s': '%s'"
-#~ msgstr "Incapaz de crear nodo XML '%s': '%s'"
-
-#~ msgid "Unable to create XML node 'id': '%s'"
-#~ msgstr "Incapaz de crear nodo XML 'id': '%s'"
-
-#~ msgid "Unable to add XML child '%s'"
-#~ msgstr "Incapaz de añadir XML hijo '%s'"
-
-#~ msgid "Unable to set XML root '%s'"
-#~ msgstr "Incapz de establecer XML raíz '%s'"
-
-#~ msgid "CPU Architecture"
-#~ msgstr "Arquitectura de CPU"
-
-#~ msgid "The URL to this media"
-#~ msgstr "La URL a este medio"
-
-#~ msgid "Version"
-#~ msgstr "Versión"
-
-#~ msgid "URI of the logo"
-#~ msgstr "URI del logo"
-
-#~ msgid "Number of CPUs"
-#~ msgstr "Número de CPU"
-
-#~ msgid "Processing '%s'...\n"
-#~ msgstr "Procesando '%s'...\n"
-
-#~ msgid "Processed '%s'.\n"
-#~ msgstr "Procesado '%s'.\n"
-
-#~ msgid "- Validate XML documents "
-#~ msgstr "- Validar documentos XML"
-
-#~ msgid "Invalid value '%s'"
-#~ msgstr "Valor inválido '%s'"
-
-#~ msgid "Output format. Default: plain"
-#~ msgstr "Formato de salida. Defecto: plano"
-
-#~ msgid "Error finding OS: %s\n"
-#~ msgstr "Error al encontrar SO: %s\n"
-
-#~ msgid "Family"
-#~ msgstr "Familia"
-
-#~ msgid "Distro"
-#~ msgstr "Distribución"
-
-#~ msgid "Release date"
-#~ msgstr "Fecha de lanzamiento"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Product"
-#~ msgstr "Producto"
-
-#~ msgid "Sort column"
-#~ msgstr "Ordenar columna"
-
-#~ msgid "Display fields"
-#~ msgstr "Mostrar campos"
