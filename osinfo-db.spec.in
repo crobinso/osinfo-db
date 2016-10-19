@@ -22,6 +22,7 @@ osinfo-db-import  --root %{buildroot} --dir %{_datadir}/osinfo %{SOURCE0}
 
 %files
 %dir %{_datadir}/osinfo/
+%doc %{_datadir}/osinfo/LICENSE
 %{_datadir}/osinfo/VERSION
 %{_datadir}/osinfo/datamap
 %{_datadir}/osinfo/device
