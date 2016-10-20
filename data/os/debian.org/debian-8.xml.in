@@ -12,6 +12,8 @@
     <upgrades id="http://debian.org/debian/7"/>
     <derives-from id="http://debian.org/debian/7"/>
 
+    <release-date>2015-04-25</release-date>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>

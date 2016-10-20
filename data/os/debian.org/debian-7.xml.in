@@ -12,6 +12,9 @@
     <upgrades id="http://debian.org/debian/6"/>
     <derives-from id="http://debian.org/debian/6"/>
 
+    <release-date>2013-05-04</release-date>
+    <eol-date>2018-05-31</eol-date>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>

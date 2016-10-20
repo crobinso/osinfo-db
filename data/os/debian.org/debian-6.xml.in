@@ -12,6 +12,9 @@
     <upgrades id="http://debian.org/debian/5"/>
     <derives-from id="http://debian.org/debian/5"/>
 
+    <release-date>2011-02-06</release-date>
+    <eol-date>2016-02-29</eol-date>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/>
     </devices>
