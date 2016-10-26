@@ -10,6 +10,7 @@ Source: https://fedorahosted.org/releases/l/i/%{name}/%{name}-%{version}.tar.xz
 URL: http://libosinfo.org/
 BuildRequires: intltool
 BuildRequires: osinfo-db-tools
+BuildArch: noarch
 Requires: hwdata
 
 %description
