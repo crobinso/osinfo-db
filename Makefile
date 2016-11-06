@@ -70,7 +70,7 @@ mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
 	$(V_GEN) $(SED) -e "s/@VERSION@/$(TODAY)/" < $< > $@
 
 $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
-	$(V_EXP) $(OSINFO_DB_EXPORT) --license COPYING --version "$(TODAY)" --dir data $(ARCHIVE)
+	$(V_EXP) $(OSINFO_DB_EXPORT) --license $(VPATH)/COPYING --version "$(TODAY)" --dir data $(ARCHIVE)
 
 clean:
 	rm -f osinfo-db-*.tar.xz
