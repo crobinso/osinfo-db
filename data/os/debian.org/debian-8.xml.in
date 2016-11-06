@@ -15,6 +15,7 @@
     <release-date>2015-04-25</release-date>
 
     <devices>
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
       <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>
 

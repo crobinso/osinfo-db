@@ -16,6 +16,10 @@
     <eol-date>2018-05-31</eol-date>
 
     <devices>
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1009"/> <!-- virtio-9p -->
       <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
     </devices>
 
