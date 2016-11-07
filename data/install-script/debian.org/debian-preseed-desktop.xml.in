@@ -173,7 +173,12 @@ d-i apt-setup/security_host string
 tasksel tasksel/first multiselect desktop ssh-server
 
 ### Install Qemu guest agent
-d-i pkgsel/include string qemu-guest-agent
+<xsl:if test="os/version &gt; 7">
+  <xsl:text>d-i pkgsel/include string qemu-guest-agent xserver-xorg-video-qxl spice-vdagent </xsl:text>
+  <xsl:if test="os/version &gt; 8">
+    <xsl:text>spice-webdavd</xsl:text>
+  </xsl:if>
+</xsl:if>
 
 ### Bootloader
 
