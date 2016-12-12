@@ -11,6 +11,9 @@
     <upgrades id="http://suse.com/sled/11.2"/>
     <derives-from id="http://suse.com/sled/11.2"/>
 
+    <release-date>2013-07-01</release-date>
+    <eol-date>2016-01-31</eol-date>
+
     <devices>
       <device id="http://pcisig.com/pci/1b36/0100"/>
       <device id="http://pcisig.com/pci/1af4/1000"/>

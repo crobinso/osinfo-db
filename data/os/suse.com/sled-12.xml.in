@@ -11,6 +11,9 @@
     <upgrades id="http://suse.com/sled/11.4"/>
     <derives-from id="http://suse.com/sled/11.4"/>
 
+    <release-date>2014-10-27</release-date>
+    <eol-date>2016-06-30</eol-date>
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>

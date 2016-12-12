@@ -12,6 +12,7 @@
     <derives-from id="http://suse.com/sles/11"/>
 
     <release-date>2010-06-02</release-date>
+    <eol-date>2012-08-31</eol-date>
 
     <media arch="i686">
       <iso>

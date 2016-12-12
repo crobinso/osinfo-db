@@ -11,7 +11,8 @@
     <upgrades id="http://suse.com/sled/12"/>
     <derives-from id="http://suse.com/sled/12"/>
 
-    <release-date>2015-12-18</release-date>
+    <release-date>2015-12-15</release-date>
+    <eol-date>2017-05-31</eol-date>
 
     <media arch="x86_64">
       <iso>

@@ -11,6 +11,9 @@
     <upgrades id="http://suse.com/sles/11.3"/>
     <derives-from id="http://suse.com/sles/11.3"/>
 
+    <release-date>2015-07-15</release-date>
+    <eol-date>2019-03-31</eol-date>
+
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
