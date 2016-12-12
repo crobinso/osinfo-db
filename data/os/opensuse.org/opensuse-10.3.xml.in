@@ -10,5 +10,8 @@
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/10.2" />
     <derives-from id="http://opensuse.org/opensuse/10.2" />
+
+    <release-date>2007-10-04</release-date>
+    <eol-date>2009-10-31</eol-date>
   </os>
 </libosinfo>

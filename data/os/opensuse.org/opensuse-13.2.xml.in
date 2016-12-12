@@ -12,6 +12,7 @@
     <derives-from id="http://opensuse.org/opensuse/13.1" />
 
     <release-date>2014-11-04</release-date>
+    <eol-date>2017-01-16</eol-date>
 
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-i586.iso</url>

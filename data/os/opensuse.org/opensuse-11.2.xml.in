@@ -10,5 +10,8 @@
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/11.1" />
     <derives-from id="http://opensuse.org/opensuse/11.1" />
+
+    <release-date>2009-11-12</release-date>
+    <eol-date>2011-05-12</eol-date>
   </os>
 </libosinfo>

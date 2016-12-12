@@ -11,6 +11,9 @@
     <upgrades id="http://opensuse.org/opensuse/12.1" />
     <derives-from id="http://opensuse.org/opensuse/12.1" />
 
+    <release-date>2012-09-05</release-date>
+    <eol-date>2014-01-15</eol-date>
+
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-i586.iso</url>
       <iso>

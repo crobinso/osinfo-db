@@ -11,6 +11,9 @@
     <upgrades id="http://opensuse.org/opensuse/11.2" />
     <derives-from id="http://opensuse.org/opensuse/11.2" />
 
+    <release-date>2010-07-15</release-date>
+    <eol-date>2012-01-20</eol-date>
+
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/11.3/iso/openSUSE-11.3-DVD-i586.iso</url>
       <iso>

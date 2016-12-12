@@ -11,6 +11,9 @@
     <upgrades id="http://opensuse.org/opensuse/12.3" />
     <derives-from id="http://opensuse.org/opensuse/12.3" />
 
+    <release-date>2013-11-19</release-date>
+    <eol-date>2016-02-03</eol-date>
+
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/13.1/iso/openSUSE-13.1-DVD-i586.iso</url>
       <iso>
