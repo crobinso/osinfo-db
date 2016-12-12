@@ -41,5 +41,18 @@
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>1074151424</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>12884901888</storage>
+      </recommended>
+    </resources>
   </os>
 </libosinfo>

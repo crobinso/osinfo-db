@@ -9,5 +9,18 @@
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/9"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>1074151424</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
   </os>
 </libosinfo>
