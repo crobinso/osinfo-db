@@ -8,13 +8,13 @@
     <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/opensuse/13.2" />
-    <derives-from id="http://opensuse.org/opensuse/13.2" />
+    <upgrades id="http://opensuse.org/opensuse/42.2"/>
+    <derives-from id="http://opensuse.org/opensuse/42.2"/>
     <release-status>prerelease</release-status>
 
     <media arch="i686">
       <iso>
-        <volume-id>openSUSE-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD</volume-id>
+        <volume-id>openSUSE-Leap-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -23,7 +23,7 @@
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>openSUSE-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD-x86_64</volume-id>
+        <volume-id>openSUSE-Leap-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD-x86_64</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>

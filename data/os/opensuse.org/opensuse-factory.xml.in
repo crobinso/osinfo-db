@@ -8,8 +8,8 @@
     <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/opensuse/13.2" />
-    <derives-from id="http://opensuse.org/opensuse/13.2" />
+    <upgrades id="http://opensuse.org/opensuse/tumbleweed"/>
+    <derives-from id="http://opensuse.org/opensuse/tumbleweed"/>
     <release-status>snapshot</release-status>
 
     <media arch="i686">
