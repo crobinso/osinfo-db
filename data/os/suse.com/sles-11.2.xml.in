@@ -9,6 +9,7 @@
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/11.1"/>
+    <derives-from id="http://suse.com/sles/11.1"/>
 
     <release-date>2012-02-15</release-date>
 

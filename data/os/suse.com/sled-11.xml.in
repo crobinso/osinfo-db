@@ -8,7 +8,8 @@
     <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sled</distro>
-    <upgrades id="http://suse.com/sled/10"/>
+    <upgrades id="http://suse.com/sled/10.4"/>
+    <derives-from id="http://suse.com/sled/10.4"/>
 
     <resources arch="all">
       <minimum>

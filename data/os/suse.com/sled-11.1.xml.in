@@ -9,6 +9,7 @@
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/11"/>
+    <derives-from id="http://suse.com/sled/11"/>
 
     <media arch="i686">
       <iso>
