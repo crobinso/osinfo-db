@@ -11,6 +11,17 @@
     <upgrades id="http://opensuse.org/opensuse/12.2" />
     <derives-from id="http://opensuse.org/opensuse/12.2" />
 
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1af4/1004"/>
+      <device id="http://pcisig.com/pci/1af4/1005"/>
+      <device id="http://pcisig.com/pci/1af4/1009"/>
+    </devices>
+
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/12.3/iso/openSUSE-12.3-DVD-i586.iso</url>
       <iso>

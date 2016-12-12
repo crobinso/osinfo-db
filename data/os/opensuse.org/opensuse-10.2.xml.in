@@ -8,5 +8,9 @@
     <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+    </devices>
   </os>
 </libosinfo>
