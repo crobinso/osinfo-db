@@ -11,6 +11,10 @@
     <upgrades id="http://suse.com/sled/10.4"/>
     <derives-from id="http://suse.com/sled/10.4"/>
 
+    <devices>
+      <device id="http://pcisig.com/pci/8086/2415"/>
+    </devices>
+
     <resources arch="all">
       <minimum>
         <cpu>500000000</cpu>

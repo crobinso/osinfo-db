@@ -12,8 +12,7 @@
     <derives-from id="http://suse.com/sles/10.4"/>
 
     <devices>
-      <device id="http://pcisig.com/pci/1af4/1000"/>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/8086/2415"/>
     </devices>
   </os>
 </libosinfo>

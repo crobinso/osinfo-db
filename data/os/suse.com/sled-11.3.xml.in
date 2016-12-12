@@ -11,6 +11,17 @@
     <upgrades id="http://suse.com/sled/11.2"/>
     <derives-from id="http://suse.com/sled/11.2"/>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1002"/>
+      <device id="http://pcisig.com/pci/1af4/1003"/>
+      <device id="http://pcisig.com/pci/1af4/1004"/>
+      <device id="http://pcisig.com/pci/1af4/1005"/>
+      <device id="http://pcisig.com/pci/1af4/1009"/>
+    </devices>
+
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
