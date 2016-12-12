@@ -17,5 +17,19 @@
     <devices>
       <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
     </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>268435456</ram>
+        <storage>524288000</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>536870912</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
   </os>
 </libosinfo>

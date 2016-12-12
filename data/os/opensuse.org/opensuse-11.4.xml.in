@@ -66,6 +66,7 @@
       <recommended>
         <cpu>2400000000</cpu>
         <ram>1073741824</ram>
+        <storage>8589934592</storage>
       </recommended>
     </resources>
   </os>

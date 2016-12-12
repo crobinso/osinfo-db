@@ -29,5 +29,19 @@
       <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
       <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
     </installer>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1600000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>17179869184</storage>
+      </recommended>
+    </resources>
   </os>
 </libosinfo>
