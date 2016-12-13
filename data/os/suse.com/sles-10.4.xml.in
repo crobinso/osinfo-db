@@ -1,0 +1,47 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://suse.com/sles/10.4">
+    <short-id>sles10sp4</short-id>
+    <_name>SUSE Linux Enterprise Server 10 SP4</_name>
+    <version>10.4</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sles</distro>
+    <upgrades id="http://suse.com/sles/10.3"/>
+    <derives-from id="http://suse.com/sles/10.3"/>
+
+    <release-date>2011-04-12</release-date>
+    <eol-date>2013-07-31</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLES-10-SP4-DVD-i586</volume-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLES-10-SP4-DVD-x86_64</volume-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>1074151424</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

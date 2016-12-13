@@ -1,0 +1,47 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://suse.com/sled/10.1">
+    <short-id>sled10sp1</short-id>
+    <_name>SUSE Linux Enterprise Desktop 10 SP1</_name>
+    <version>10.1</version>
+    <_vendor>SUSE</_vendor>
+    <family>linux</family>
+    <distro>sled</distro>
+    <upgrades id="http://suse.com/sled/10"/>
+    <derives-from id="http://suse.com/sled/10"/>
+
+    <release-date>2007-06-18</release-date>
+    <eol-date>2008-11-30</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLED-10-SP1-DVD-i586</volume-id>
+      </iso>
+      <kernel>boot/i386/loader/linux</kernel>
+      <initrd>boot/i386/loader/initrd</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>SLED-10-SP1-DVD-x86_64</volume-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>500000000</cpu>
+        <ram>536870912</ram>
+        <storage>1074151424</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
