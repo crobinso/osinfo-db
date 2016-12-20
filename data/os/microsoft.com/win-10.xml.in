@@ -27,7 +27,7 @@
     <media arch="i686">
       <variant id="education"/>
       <iso>
-        <volume-id>J_CEDN?A_X86FRE_</volume-id>
+        <volume-id>(J_)?CEDN?A_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -35,7 +35,7 @@
     <media arch="x86_64">
       <variant id="education"/>
       <iso>
-        <volume-id>J_CEDN?A_X64FRE_</volume-id>
+        <volume-id>(J_)?CEDN?A_X64FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -45,7 +45,7 @@
     <media arch="i686">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>J_CENN?A_X86FREV_</volume-id>
+        <volume-id>(J_)?CEN?A_X86FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -53,7 +53,7 @@
     <media arch="x86_64">
       <variant id="enterprise"/>
       <iso>
-        <volume-id>J_CENN?A_X64FREV_</volume-id>
+        <volume-id>(J_)?CENN?A_X64FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -63,7 +63,7 @@
     <media arch="i686">
       <variant id="enterprise-ltsb"/>
       <iso>
-        <volume-id>J_CESN?N?_X86FREV_</volume-id>
+        <volume-id>(J_)?CESN?N?_X86FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -71,7 +71,7 @@
     <media arch="x86_64">
       <variant id="enterprise-ltsb"/>
       <iso>
-        <volume-id>J_CESN?N?_X64FREV_</volume-id>
+        <volume-id>(J_)?CESN?N?_X64FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
@@ -80,14 +80,14 @@
     <!-- No Variant -->
     <media arch="i686">
       <iso>
-        <volume-id>J_CCSN?A_X86FRE_</volume-id>
+        <volume-id>(J_)?CCSN?A_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
-        <volume-id>J_CCSN?A_X64FRE_</volume-id>
+        <volume-id>(J_)?CCSN?A_X64FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
