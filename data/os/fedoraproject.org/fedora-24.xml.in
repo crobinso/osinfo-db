@@ -40,8 +40,8 @@
         <volume-id>Fedora-WS-Live-24.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>isolinux/vmlinuz0</kernel>
-      <initrd>isolinux/initrd0.img</initrd>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
       <variant id="workstation"/>
@@ -50,8 +50,8 @@
         <volume-id>Fedora-WS-Live-24.*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>isolinux/vmlinuz0</kernel>
-      <initrd>isolinux/initrd0.img</initrd>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Network Installer !-->
