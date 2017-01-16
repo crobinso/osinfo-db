@@ -173,20 +173,20 @@ qemu-guest-agent
 %post --erroronfail
 
 useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
-if test -z <xsl:value-of select="config/user-password"/>; then
+if test -z '<xsl:value-of select="config/user-password"/>'; then
     passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
 else
     echo <xsl:value-of select="config/user-password"/> |passwd --stdin <xsl:value-of select="config/user-login"/>
 fi
 
-if test -z <xsl:value-of select="config/admin-password"/>; then
+if test -z '<xsl:value-of select="config/admin-password"/>'; then
     passwd -d root # Make root account passwordless
 else
     echo <xsl:value-of select="config/admin-password"/> |passwd --stdin root
 fi
 
 # Set user avatar
-if test -n <xsl:value-of select="config/avatar-location"/>; then
+if test -n '<xsl:value-of select="config/avatar-location"/>'; then
 mkdir /mnt/unattended-media
 mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
 cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
