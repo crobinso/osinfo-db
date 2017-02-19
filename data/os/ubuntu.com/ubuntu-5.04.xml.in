@@ -16,6 +16,10 @@
     <release-date>2005-04-08</release-date>
     <eol-date>2006-10-31</eol-date>
 
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
+    </devices>
+
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-i386.iso</url>
       <iso>
