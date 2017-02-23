@@ -6,8 +6,8 @@ Release: 1%{?dist}%{?extra_release}
 Summary: Database for libosinfo API
 License: GPLv2+
 Group: Development/Libraries
-Source: https://fedorahosted.org/releases/l/i/libosinfo/osinfo-db-%{version}.tar.xz
-URL: https://fedorahosted.org/libosinfo/
+Source: https://releases.pagure.io/libosinfo/osinfo-db-%{version}.tar.xz
+URL: https://libosinfo.org/
 
 BuildArch: noarch
 

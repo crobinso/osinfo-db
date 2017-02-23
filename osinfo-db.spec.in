@@ -6,8 +6,8 @@ Version: @VERSION@
 Release: 1%{?dist}%{?extra_release}
 License: GPLv2+
 Group: Development/Libraries
-Source: https://fedorahosted.org/releases/l/i/%{name}/%{name}-%{version}.tar.xz
-URL: http://libosinfo.org/
+Source: https://releases.pagure.io/libosinfo/%{name}-%{version}.tar.xz
+URL: https://libosinfo.org/
 BuildRequires: intltool
 BuildRequires: osinfo-db-tools
 BuildArch: noarch
