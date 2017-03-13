@@ -1,0 +1,130 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://debian.org/debian/9">
+    <short-id>debian9</short-id>
+    <short-id>debianstretch</short-id>
+    <_name>Debian Stretch</_name>
+    <version>9</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <upgrades id="http://debian.org/debian/8"/>
+    <derives-from id="http://debian.org/debian/8"/>
+
+    <release-date>2017-06-17</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/>
+      <device id="http://pcisig.com/pci/1af4/1042"/>
+      <device id="http://pcisig.com/pci/1af4/1043"/>
+      <device id="http://pcisig.com/pci/1af4/1044"/>
+      <device id="http://pcisig.com/pci/1af4/1045"/>
+      <device id="http://pcisig.com/pci/1af4/1048"/>
+      <device id="http://pcisig.com/pci/1af4/1049"/>
+      <device id="http://pcisig.com/pci/1af4/1052"/>
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="universal">
+      <_name>Debian 9</_name>
+    </variant>
+    <variant id="universal-netinst">
+      <_name>Debian 9</_name>
+    </variant>
+
+    <!-- Network installer -->
+    <media arch="i686">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/current/i386/iso-cd/debian-9.0.0-i386-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 9.(\d)+.(\d)+ i386 n</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/current/amd64/iso-cd/debian-9.0.0-amd64-netinst.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ amd64 n</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="arm64">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/current/arm64/iso-cd/debian-9.0.0-arm64-netinst.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ arm64 n</volume-id>
+      </iso>
+      <kernel>install.arm64/vmlinuz</kernel>
+      <initrd>install.arm64/initrd.gz</initrd>
+    </media>
+    <media arch="armhf">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/current/armhf/iso-cd/debian-9.0.0-armhf-netinst.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ armhf n</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/9.0.0/i386/iso-dvd/debian-9.0.0-i386-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 9.(\d)+.(\d)+ i386 1</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/9.0.0/amd64/iso-dvd/debian-9.0.0-amd64-DVD-1.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ amd64 1</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="arm64">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/9.0.0/arm64/iso-dvd/debian-9.0.0-arm64-DVD-1.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ arm64 1</volume-id>
+      </iso>
+      <kernel>install.arm64/vmlinuz</kernel>
+      <initrd>install.arm64/initrd.gz</initrd>
+    </media>
+    <media arch="armhf">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/9.0.0/armhf/iso-dvd/debian-9.0.0-armhf-DVD-1.iso</url>
+      <iso>
+	<volume-id>Debian 9.(\d)+.(\d)+ armhf 1</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+
+    <installer>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
