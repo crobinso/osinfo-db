@@ -1,0 +1,93 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://ubuntu.com/ubuntu/16.10">
+    <short-id>ubuntu16.10</short-id>
+    <short-id>ubuntutyakkety</short-id>
+    <_name>Ubuntu 16.10</_name>
+    <version>16.10</version>
+    <_vendor>Canonical Ltd</_vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Yakkety Yak</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/16.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/16.04"/>
+
+    <release-date>2016-10-13</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="i686">
+      <url>http://releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? i386</volume-id>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <url>http://releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-i386.iso</url>
+      <iso>
+        <volume-id>Ubuntu 16.10(.\d)? i386</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.lz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <url>http://releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 16.10(.\d)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.lz</initrd>
+    </media>
+    <media arch="aarch64">
+      <url>http://cdimage.ubuntu.com/releases/yakkety/release/ubuntu-16.10-server-arm64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? arm64</volume-id>
+      </iso>
+    </media>
+    <media arch="ppc">
+      <url>http://cdimage.ubuntu.com/releases/yakkety/release/ubuntu-16.10-server-powerpc.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? ppc</volume-id>
+      </iso>
+    </media>
+    <media arch="ppc64le">
+      <url>http://cdimage.ubuntu.com/releases/yakkety/release/ubuntu-16.10-server-ppc64el.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? ppc64</volume-id>
+      </iso>
+    </media>
+    <media arch="s390x">
+      <url>http://cdimage.ubuntu.com/releases/yakkety/release/ubuntu-16.10-server-s390x.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 16.10(.\d)? s390x</volume-id>
+      </iso>
+    </media>
+
+    <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+    </installer>
+  </os>
+</libosinfo>
