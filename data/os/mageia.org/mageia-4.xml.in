@@ -1,0 +1,31 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://mageia.org/mageia/4">
+    <short-id>mageia4</short-id>
+    <_name>Mageia 4</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>4</version>
+    <derives-from id="http://mageia.org/mageia/3"/>
+    <release-date>2014-02-01</release-date>
+    <eol-date>2015-09-19</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>Mageia-4(.1)?(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Mageia-4(.1)?(-x86_64)?</volume-id>
+      </iso>
+    </media>
+    <media live="true" arch="i686">
+      <iso>
+        <volume-id>Mageia-4(.1)?-(GNOME|KDE4)-Live(CD|DVD)</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
