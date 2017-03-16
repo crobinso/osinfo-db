@@ -34,7 +34,6 @@
     <resources arch="all">
     <!-- http://en.opensuse.org/Hardware_requirements -->
       <minimum>
-        <cpu>500000000</cpu>
         <cpu>1600000000</cpu>
         <n-cpus>1</n-cpus>
         <ram>1073741824</ram>
