@@ -17,6 +17,8 @@ Dependencies
 - Required:
   - osinfo-db-tools
   - intltool
+- Optional:
+  - xmllint (from libxml2) -- for testing
 
 Patch submissions
 =================

@@ -27,6 +27,8 @@ ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
 ZANATA = zanata-cli
 
+XMLLINT = xmllint
+
 V = 0
 
 V_I18N = $(V_I18N_$(V))
@@ -113,4 +115,11 @@ update-po:
             rm -f $$lang.new.po; \
           fi; \
         done
+
+check: $(DATA_FILES) $(SCHEMA_FILES)
+	for xml in `find data -name '*.xml' | sort`; do \
+	  if ! $(XMLLINT) --relaxng data/schema/osinfo.rng --noout $$xml; then \
+	    exit 1; \
+	  fi; \
+	done
 
