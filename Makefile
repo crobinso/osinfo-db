@@ -81,7 +81,7 @@ clean:
 	rm -f $(DATA_FILES) $(SCHEMA_FILES) po/POTFILES.in po/osinfo-db.pot
 
 po/POTFILES.in:
-	$(V_GEN) find data -name *.xml.in > $@
+	$(V_GEN) find data -name *.xml.in | LC_ALL=C sort > $@
 
 po/osinfo-db.pot: po/POTFILES.in $(DATA_FILES_IN)
 	$(V_GEN) cd po && $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
