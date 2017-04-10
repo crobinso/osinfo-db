@@ -13,6 +13,7 @@
     <derives-from id="http://redhat.com/rhel/6.7"/>
 
     <release-date>2016-05-10</release-date>
+    <eol-date>2023-11-30</eol-date>
 
     <media arch="i686">
       <iso>
