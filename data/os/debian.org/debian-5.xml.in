@@ -12,6 +12,9 @@
     <upgrades id="http://debian.org/debian/4"/>
     <derives-from id="http://debian.org/debian/4"/>
 
+    <release-date>2009-02-14</release-date>
+    <eol-date>2012-02-06</eol-date>
+
     <devices>
       <device id="http://pcisig.com/pci/1af4/1000"/>
       <device id="http://pcisig.com/pci/1af4/1001"/>

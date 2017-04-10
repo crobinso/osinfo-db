@@ -11,5 +11,8 @@
     <distro>debian</distro>
     <upgrades id="http://debian.org/debian/2.0"/>
     <derives-from id="http://debian.org/debian/2.0"/>
+
+    <release-date>1999-03-09</release-date>
+    <eol-date>2000-10-30</eol-date>
   </os>
 </libosinfo>

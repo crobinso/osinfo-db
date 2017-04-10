@@ -11,5 +11,7 @@
     <distro>debian</distro>
     <upgrades id="http://debian.org/debian/1.3"/>
     <derives-from id="http://debian.org/debian/1.3"/>
+
+    <release-date>1998-07-24</release-date>
   </os>
 </libosinfo>

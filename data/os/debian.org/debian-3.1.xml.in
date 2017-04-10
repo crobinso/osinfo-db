@@ -11,5 +11,8 @@
     <distro>debian</distro>
     <upgrades id="http://debian.org/debian/3"/>
     <derives-from id="http://debian.org/debian/3"/>
+
+    <release-date>2005-06-06</release-date>
+    <eol-date>2008-03-31</eol-date>
   </os>
 </libosinfo>
