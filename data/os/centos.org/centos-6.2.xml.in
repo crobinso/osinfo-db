@@ -11,6 +11,9 @@
     <upgrades id="http://centos.org/centos/6.1"/>
     <clones id="http://redhat.com/rhel/6.2"/>
 
+    <release-date>2011-12-20</release-date>
+    <eol-date>2020-11-30</eol-date>
+
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>

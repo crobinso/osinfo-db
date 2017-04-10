@@ -10,6 +10,9 @@
     <distro>centos</distro>
     <clones id="http://redhat.com/rhel/6.0"/>
 
+    <release-date>2011-07-10</release-date>
+    <eol-date>2020-11-30</eol-date>
+
     <!-- there is no obvious difference between x86 and x86_64 isos,
          maybe we can lookup files on the iso to decide which arch it is? -->
     <media arch="i686">

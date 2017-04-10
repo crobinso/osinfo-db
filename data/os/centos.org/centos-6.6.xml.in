@@ -11,6 +11,9 @@
     <upgrades id="http://centos.org/centos/6.5"/>
     <clones id="http://redhat.com/rhel/6.6"/>
 
+    <release-date>2014-10-28</release-date>
+    <eol-date>2020-11-30</eol-date>
+
     <!-- DVD -->
     <media arch="i686">
       <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-bin-DVD1.iso</url>

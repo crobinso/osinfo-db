@@ -11,6 +11,8 @@
     <upgrades id="http://centos.org/centos/6.5"/>
     <clones id="http://redhat.com/rhel/7.0"/>
 
+    <release-date>2014-07-07</release-date>
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
