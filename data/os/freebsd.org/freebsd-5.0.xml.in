@@ -9,7 +9,7 @@
     <family>freebsd</family>
     <distro>freebsd</distro>
 
-    <release-date>2003-01-00</release-date>
+    <release-date>2003-01-19</release-date>
 
     <upgrades id="http://freebsd.org/freebsd/4.11"/>
     <derives-from id="http://freebsd.org/freebsd/4.11"/>

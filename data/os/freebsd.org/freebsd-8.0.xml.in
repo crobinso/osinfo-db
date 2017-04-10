@@ -12,6 +12,7 @@
     <derives-from id="http://freebsd.org/freebsd/7.4"/>
 
     <release-date>2009-11-25</release-date>
+    <eol-date>2010-11-30</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/8086/100e"/> <!--- Intel e1000 NIC -->

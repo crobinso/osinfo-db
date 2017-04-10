@@ -9,7 +9,7 @@
     <family>freebsd</family>
     <distro>freebsd</distro>
 
-    <release-date>2000-06-24</release-date>
+    <release-date>2005-01-25</release-date>
     <eol-date>2007-01-31</eol-date>
 
     <upgrades id="http://freebsd.org/freebsd/4.10"/>

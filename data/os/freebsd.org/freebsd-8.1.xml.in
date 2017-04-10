@@ -8,6 +8,10 @@
     <_vendor>FreeBSD Project</_vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
+
+    <release-date>2010-07-23</release-date>
+    <eol-date>2012-07-31</eol-date>
+
     <upgrades id="http://freebsd.org/freebsd/8.0"/>
     <derives-from id="http://freebsd.org/freebsd/8.0"/>
   </os>

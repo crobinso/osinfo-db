@@ -12,5 +12,6 @@
     <derives-from id="http://freebsd.org/freebsd/8.2"/>
 
     <release-date>2012-01-12</release-date>
+    <eol-date>2013-03-31</eol-date>
   </os>
 </libosinfo>

@@ -11,7 +11,7 @@
     <upgrades id="http://freebsd.org/freebsd/9.2"/>
     <derives-from id="http://freebsd.org/freebsd/9.2"/>
 
-    <release-date>2014-07-15</release-date>
+    <release-date>2014-07-16</release-date>
     <eol-date>2016-12-31</eol-date>
   </os>
 </libosinfo>

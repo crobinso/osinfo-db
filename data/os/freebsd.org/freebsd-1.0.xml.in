@@ -9,7 +9,7 @@
     <family>freebsd</family>
     <distro>freebsd</distro>
 
-    <release-date>1993-11-00</release-date>
+    <release-date>1993-11-01</release-date>
 
   </os>
 </libosinfo>

@@ -12,6 +12,7 @@
     <derives-from id="http://freebsd.org/freebsd/5.5"/>
 
     <release-date>2005-11-04</release-date>
+    <eol-date>2007-01-31</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/10ec/8029"/>

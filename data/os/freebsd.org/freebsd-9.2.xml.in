@@ -12,6 +12,6 @@
     <derives-from id="http://freebsd.org/freebsd/9.1"/>
 
     <release-date>2013-09-30</release-date>
-    <eol-date>2014-09-30</eol-date>
+    <eol-date>2014-12-31</eol-date>
   </os>
 </libosinfo>

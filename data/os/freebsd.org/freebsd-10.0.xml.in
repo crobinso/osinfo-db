@@ -11,8 +11,8 @@
     <upgrades id="http://freebsd.org/freebsd/9.2"/>
     <derives-from id="http://freebsd.org/freebsd/9.2"/>
 
-    <release-date>2014-01-20</release-date>
-    <eol-date>2015-01-31</eol-date>
+    <release-date>2014-01-14</release-date>
+    <eol-date>2015-02-28</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->

@@ -9,6 +9,8 @@
     <family>freebsd</family>
     <distro>freebsd</distro>
 
+    <release-date>2004-05-27</release-date>
+
     <upgrades id="http://freebsd.org/freebsd/4.9"/>
     <derives-from id="http://freebsd.org/freebsd/4.9"/>
 

@@ -8,6 +8,9 @@
     <_vendor>FreeBSD Project</_vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
+
+    <release-date>1998-11-22</release-date>
+
     <upgrades id="http://freebsd.org/freebsd/2.0.5"/>
     <derives-from id="http://freebsd.org/freebsd/2.0.5"/>
 

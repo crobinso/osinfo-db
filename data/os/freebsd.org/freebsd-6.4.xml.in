@@ -8,9 +8,11 @@
     <_vendor>FreeBSD Project</_vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
+
+    <release-date>2008-11-28</release-date>
+    <eol-date>2010-11-30</eol-date>
+
     <upgrades id="http://freebsd.org/freebsd/6.3"/>
     <derives-from id="http://freebsd.org/freebsd/6.3"/>
-
-    <release-date>2008-11-11</release-date>
   </os>
 </libosinfo>

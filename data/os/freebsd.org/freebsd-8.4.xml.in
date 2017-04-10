@@ -11,7 +11,7 @@
     <upgrades id="http://freebsd.org/freebsd/8.3"/>
     <derives-from id="http://freebsd.org/freebsd/8.3"/>
 
-    <release-date>2013-06-07</release-date>
-    <eol-date>2015-06-30</eol-date>
+    <release-date>2013-06-09</release-date>
+    <eol-date>2015-08-01</eol-date>
   </os>
 </libosinfo>
