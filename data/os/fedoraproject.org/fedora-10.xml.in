@@ -13,7 +13,7 @@
     <derives-from id="http://fedoraproject.org/fedora/9"/>
 
     <release-date>2008-11-25</release-date>
-    <eol-date>2009-12-18</eol-date>
+    <eol-date>2009-12-17</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->

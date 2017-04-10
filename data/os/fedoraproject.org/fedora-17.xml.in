@@ -12,6 +12,9 @@
     <upgrades id="http://fedoraproject.org/fedora/16"/>
     <derives-from id="http://fedoraproject.org/fedora/16"/>
 
+    <release-date>2012-05-29</release-date>
+    <eol-date>2013-07-30</eol-date>
+
     <devices>
       <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
     </devices>

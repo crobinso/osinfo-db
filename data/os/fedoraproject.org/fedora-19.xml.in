@@ -12,6 +12,9 @@
     <upgrades id="http://fedoraproject.org/fedora/18"/>
     <derives-from id="http://fedoraproject.org/fedora/18"/>
 
+    <release-date>2013-07-02</release-date>
+    <eol-date>2015-01-06</eol-date>
+
     <!-- Full installer DVD -->
     <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/19/Fedora/i386/iso/Fedora-19-i386-DVD.iso</url>

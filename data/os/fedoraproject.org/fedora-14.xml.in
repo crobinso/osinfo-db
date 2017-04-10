@@ -13,7 +13,7 @@
     <derives-from id="http://fedoraproject.org/fedora/13"/>
 
     <release-date>2010-11-02</release-date>
-    <eol-date>2011-12-08</eol-date>
+    <eol-date>2011-12-09</eol-date>
 
     <!-- DVD -->
     <media arch="i686">

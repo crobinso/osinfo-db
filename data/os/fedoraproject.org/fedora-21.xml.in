@@ -11,7 +11,8 @@
     <upgrades id="http://fedoraproject.org/fedora/20"/>
     <derives-from id="http://fedoraproject.org/fedora/20"/>
 
-    <release-date>2014-12-03</release-date>
+    <release-date>2014-12-09</release-date>
+    <eol-date>2015-12-01</eol-date>
 
     <variant id="workstation">
       <_name>Fedora 21 Workstation</_name>

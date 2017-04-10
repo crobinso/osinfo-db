@@ -12,6 +12,9 @@
     <upgrades id="http://fedoraproject.org/fedora/17"/>
     <derives-from id="http://fedoraproject.org/fedora/17"/>
 
+    <release-date>2013-01-15</release-date>
+    <eol-date>2014-01-14</eol-date>
+
     <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/18/Fedora/i386/iso/Fedora-18-i386-DVD.iso</url>
       <iso>

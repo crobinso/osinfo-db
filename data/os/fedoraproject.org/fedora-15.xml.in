@@ -13,6 +13,7 @@
     <derives-from id="http://fedoraproject.org/fedora/14"/>
 
     <release-date>2011-05-24</release-date>
+    <eol-date>2012-06-26</eol-date>
 
     <media arch="i686">
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/i386/iso/Fedora-15-i386-DVD.iso</url>
