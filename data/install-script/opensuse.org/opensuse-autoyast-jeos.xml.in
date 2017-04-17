@@ -223,9 +223,6 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
             </scripts>
             <services-manager>
               <default_target>multi-user</default_target>
-              <services>
-                <enable config:type="list"/>
-              </services>
             </services-manager>
             <software>
               <packages config:type="list">
