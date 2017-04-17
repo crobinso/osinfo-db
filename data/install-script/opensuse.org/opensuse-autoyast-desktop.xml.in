@@ -215,8 +215,11 @@
                 <script>
                   <chrooted config:type="boolean">true</chrooted>
                   <source>
+
+if test -z '<xsl:value-of select="config/user-password"/>'; then
 pam-config -a --unix-nullok
 pam-config -a --nullok
+fi
 
 <xsl:choose>
   <xsl:when test="config/avatar-location != ''">
