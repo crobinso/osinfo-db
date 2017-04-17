@@ -255,11 +255,6 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
             </scripts>
             <services-manager>
               <default_target>graphical</default_target>
-              <services>
-                <enable config:type="list">
-                  <service>NetworkManager</service>
-                </enable>
-              </services>
             </services-manager>
             <software>
               <packages config:type="list">
