@@ -224,9 +224,6 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
             <services-manager>
               <default_target>multi-user</default_target>
               <services>
-                <disable config:type="list">
-                  <service>sshd</service>
-                </disable>
                 <enable config:type="list"/>
               </services>
             </services-manager>
