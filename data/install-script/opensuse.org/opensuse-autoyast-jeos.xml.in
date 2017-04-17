@@ -99,11 +99,6 @@
             <xsl:value-of select="script/expected-filename"/>
         </xsl:template>
 
-        <xsl:template match="/command-line">
-            <xsl:text>autoyast=device://sda/</xsl:text>
-            <xsl:value-of select="script/expected-filename"/>
-        </xsl:template>
-
         <xsl:template match="/install-script-config">
           <profile xmlns="http://www.suse.com/1.0/yast2ns" xmlns:config="http://www.suse.com/1.0/configns">
             <bootloader>
