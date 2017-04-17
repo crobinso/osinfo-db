@@ -119,7 +119,7 @@
               </device_map>
               <global>
                 <activate>true</activate>
-                <append> resume=/dev/vda1 splash=silent quiet showopts</append>
+                <append>resume=/dev/vda1 splash=silent quiet showopts</append>
                 <boot_boot>false</boot_boot>
                 <boot_extended>false</boot_extended>
                 <boot_mbr>false</boot_mbr>
