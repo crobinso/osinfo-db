@@ -219,13 +219,6 @@ pam-config -a --unix-nullok
 pam-config -a --nullok
 
 <xsl:choose>
-  <xsl:when test="config/user-password != ''">
-useradd <xsl:value-of select='config/user-login'/>
-passwd -d <xsl:value-of select='config/user-login'/>
-  </xsl:when>
-</xsl:choose>
-
-<xsl:choose>
   <xsl:when test="config/avatar-location != ''">
 # Set user avatar
 mkdir /mnt/unattended-media
