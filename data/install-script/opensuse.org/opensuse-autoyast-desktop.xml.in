@@ -224,8 +224,7 @@ pam-config -a --nullok
 sed -i '3 i auth sufficient pam_succeed_if.so user ingroup nopasswdlogin' /etc/pam.d/gdm-password
 fi
 
-<xsl:choose>
-  <xsl:when test="config/avatar-location != ''">
+if test -n '<xsl:value-of select="config/avatar-location"/>'; then
 # Set user avatar
 mkdir /mnt/unattended-media
 mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
@@ -238,8 +237,7 @@ Language=<xsl:value-of select="config/l10n-language"/>.UTF-8
 XSession=gnome
 Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
 " >> /var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/>
-  </xsl:when>
-</xsl:choose>
+fi
 
 # Enable default OpenSUSE repos
 zypper ar -f <xsl:call-template name="repo-oss"/> repo-oss
