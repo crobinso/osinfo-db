@@ -355,6 +355,11 @@
           <ref name='num'/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name='eject-after-install'>
+          <ref name='bool'/>
+        </attribute>
+      </optional>
       <interleave>
         <optional>
           <element name='variant'>
