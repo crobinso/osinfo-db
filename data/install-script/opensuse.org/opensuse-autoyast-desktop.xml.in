@@ -219,6 +219,9 @@
 if test -z '<xsl:value-of select="config/user-password"/>'; then
 pam-config -a --unix-nullok
 pam-config -a --nullok
+
+#Enable passwordless login for users that are part of the nopasswdlogin group
+sed -i '3 i auth sufficient pam_succeed_if.so user ingroup nopasswdlogin' /etc/pam.d/gdm-password
 fi
 
 <xsl:choose>
@@ -300,6 +303,15 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
               <skel>/etc/skel</skel>
               <umask>022</umask>
             </user_defaults>
+            <xsl:if test="config/user-password = ''">
+              <groups config:type="list">
+                <group>
+                  <group_password>x</group_password>
+                  <groupname>nopasswdlogin</groupname>
+                  <userlist><xsl:value-of select="config/user-login"/></userlist>
+                </group>
+              </groups>
+            </xsl:if>
             <users config:type="list">
               <user>
                 <encrypted config:type="boolean">false</encrypted>
