@@ -176,13 +176,13 @@ useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
 if test -z '<xsl:value-of select="config/user-password"/>'; then
     passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
 else
-    echo <xsl:value-of select="config/user-password"/> |passwd --stdin <xsl:value-of select="config/user-login"/>
+    echo '<xsl:value-of select="config/user-password"/>' |passwd --stdin <xsl:value-of select="config/user-login"/>
 fi
 
 if test -z '<xsl:value-of select="config/admin-password"/>'; then
     passwd -d root # Make root account passwordless
 else
-    echo <xsl:value-of select="config/admin-password"/> |passwd --stdin root
+    echo '<xsl:value-of select="config/admin-password"/>' |passwd --stdin root
 fi
 
 # Set user avatar
