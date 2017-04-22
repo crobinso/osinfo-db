@@ -1,7 +1,11 @@
 
 VPATH = .
 
-TODAY = $(shell date +"%Y%m%d")
+ifdef SOURCE_DATE_EPOCH
+    TODAY = $(shell date --utc --date="@$(SOURCE_DATE_EPOCH)" +"%Y%m%d")
+else
+    TODAY = $(shell date +"%Y%m%d")
+endif
 
 OSINFO_DB_EXPORT = osinfo-db-export
 OSINFO_DB_IMPORT = osinfo-db-import
