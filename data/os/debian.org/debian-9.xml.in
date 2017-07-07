@@ -65,7 +65,7 @@
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
-    <media arch="arm64">
+    <media arch="aarch64">
       <variant id="universal-netinst"/>
       <url>http://cdimage.debian.org/cdimage/release/current/arm64/iso-cd/debian-9.0.0-arm64-netinst.iso</url>
       <iso>
@@ -74,7 +74,7 @@
       <kernel>install.arm64/vmlinuz</kernel>
       <initrd>install.arm64/initrd.gz</initrd>
     </media>
-    <media arch="armhf">
+    <media arch="armv7l">
       <variant id="universal-netinst"/>
       <url>http://cdimage.debian.org/cdimage/release/current/armhf/iso-cd/debian-9.0.0-armhf-netinst.iso</url>
       <iso>
@@ -103,7 +103,7 @@
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
-    <media arch="arm64">
+    <media arch="aarch64">
       <variant id="universal"/>
       <url>http://cdimage.debian.org/cdimage/release/9.0.0/arm64/iso-dvd/debian-9.0.0-arm64-DVD-1.iso</url>
       <iso>
@@ -112,7 +112,7 @@
       <kernel>install.arm64/vmlinuz</kernel>
       <initrd>install.arm64/initrd.gz</initrd>
     </media>
-    <media arch="armhf">
+    <media arch="armv7l">
       <variant id="universal"/>
       <url>http://cdimage.debian.org/cdimage/release/9.0.0/armhf/iso-dvd/debian-9.0.0-armhf-DVD-1.iso</url>
       <iso>
