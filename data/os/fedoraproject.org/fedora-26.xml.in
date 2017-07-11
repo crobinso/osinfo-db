@@ -1,0 +1,114 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://fedoraproject.org/fedora/26">
+    <short-id>fedora26</short-id>
+    <_name>Fedora 26</_name>
+    <version>26</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/25"/>
+    <derives-from id="http://fedoraproject.org/fedora/25"/>
+
+    <release-date>2017-07-11</release-date>
+
+    <variant id="workstation">
+      <_name>Fedora 26 Workstation</_name>
+    </variant>
+    <variant id="workstation-netinst">
+      <_name>Fedora 26 Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora 26 Server</_name>
+    </variant>
+    <variant id="server-netinst">
+      <_name>Fedora 26 Server</_name>
+    </variant>
+
+    <!-- Workstation -->
+
+    <!-- Live -->
+    <media arch="x86_64" live="true">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/26/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-26-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-Live-26.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="x86_64">
+      <variant id="workstation-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/26/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-26-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-dvd-x86_64-26</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/26/Server/x86_64/iso/Fedora-Server-dvd-x86_64-26-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-26</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>2400741376</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="x86_64">
+      <variant id="server-netinst"/>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/26/Server/x86_64/iso/Fedora-Server-netinst-x86_64-26-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-26</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>507422720</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/26/Server/x86_64/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>26</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <!-- No install media or tree is provided for Fedora 26 Cloud variant -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
