@@ -120,7 +120,7 @@
     </media>
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/x86_64/iso/Fedora-Server-netinst-x86_64-24.iso</url>
+      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/24/Server/x86_64/iso/Fedora-Server-netinst-x86_64-24-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-24</volume-id>
         <system-id>LINUX</system-id>
