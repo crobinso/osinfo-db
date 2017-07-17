@@ -10,6 +10,7 @@
     <version>5</version>
     <derives-from id="http://mageia.org/mageia/4"/>
     <release-date>2015-06-19</release-date>
+    <eol-date>2017-10-31</eol-date>
 
     <media arch="i686">
       <iso>

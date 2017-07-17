@@ -10,7 +10,7 @@
     <version>3</version>
     <derives-from id="http://mageia.org/mageia/2"/>
     <release-date>2013-05-19</release-date>
-    <eol-date>2014-11-19</eol-date>
+    <eol-date>2014-11-26</eol-date>
 
     <media arch="i686">
       <iso>
