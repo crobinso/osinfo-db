@@ -1,0 +1,36 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://mageia.org/mageia/6">
+    <short-id>mageia6</short-id>
+    <_name>Mageia 6</_name>
+    <_vendor>Mageia</_vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>6</version>
+    <derives-from id="http://mageia.org/mageia/5"/>
+    <release-date>2017-07-16</release-date>
+    <eol-date>2019-01-16</eol-date>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>Mageia-6(.1)?(-i586)?</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Mageia-6(.1)?(-x86_64)?</volume-id>
+      </iso>
+    </media>
+    <media live="true" arch="i686">
+      <iso>
+        <volume-id>Mageia-6(.1)?-(GNOME|Plasma|Xfce)-LiveDVD</volume-id>
+      </iso>
+    </media>
+    <media live="true" arch="x86_64">
+      <iso>
+        <volume-id>Mageia-6(.1)?-(GNOME|Plasma|Xfce)-LiveDVD</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
