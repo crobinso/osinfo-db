@@ -1,0 +1,50 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freebsd.org/freebsd/11.1">
+    <short-id>freebsd11.1</short-id>
+    <_name>FreeBSD 11.1</_name>
+    <version>11.1</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/11.0"/>
+    <derives-from id="http://freebsd.org/freebsd/11.0"/>
+
+    <release-date>2017-07-26</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </devices>
+
+    <media arch="x86_64">
+      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>11_1_RELEASE_AMD64_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>11_1_RELEASE_AMD64_CD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/ISO-IMAGES/11.0/FreeBSD-11.0-RELEASE-i386-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>11_1_RELEASE_I386_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>ftp://ftp.freebsd.org/pub/FreeBSD/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-i386-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>11_1_RELEASE_I386_CD</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
