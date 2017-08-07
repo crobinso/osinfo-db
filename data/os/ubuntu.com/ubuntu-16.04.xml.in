@@ -31,7 +31,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.2-server-i386.iso</url>
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.3-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d)? LTS i386</volume-id>
       </iso>
@@ -39,7 +39,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.2-server-amd64.iso</url>
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.3-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d)? LTS amd64</volume-id>
       </iso>
@@ -47,7 +47,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="i686" live="true">
-      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.2-desktop-i386.iso</url>
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.3-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 16.04(.\d)? LTS i386</volume-id>
       </iso>
@@ -55,7 +55,7 @@
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.2-desktop-amd64.iso</url>
+      <url>http://releases.ubuntu.com/releases/xenial/ubuntu-16.04.3-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 16.04(.\d)? LTS amd64</volume-id>
       </iso>
@@ -63,19 +63,19 @@
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="ppc">
-      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.2-server-powerpc.iso</url>
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.3-server-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d)? LTS ppc</volume-id>
       </iso>
     </media>
     <media arch="ppc64le">
-      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.2-server-ppc64el.iso</url>
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.3-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d)? LTS ppc64</volume-id>
       </iso>
     </media>
     <media arch="s390x">
-      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.2-server-s390x.iso</url>
+      <url>http://cdimage.ubuntu.com/releases/xenial/release/ubuntu-16.04.3-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d)? LTS s390x</volume-id>
       </iso>
