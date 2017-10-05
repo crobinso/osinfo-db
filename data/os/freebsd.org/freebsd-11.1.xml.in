@@ -33,7 +33,7 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.0/FreeBSD-11.0-RELEASE-i386-dvd1.iso</url>
+      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-i386-dvd1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>11_1_RELEASE_I386_DVD</volume-id>
