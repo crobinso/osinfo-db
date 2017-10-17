@@ -32,7 +32,7 @@
     <!-- Live -->
     <media arch="i686" live="true">
       <variant id="workstation"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Live-Workstation-i686-22-3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Live-Workstation-i686-22-3.iso</url>
       <iso>
         <volume-id>Fedora-Live-WS-i686-22.*</volume-id>
         <system-id>LINUX</system-id>
@@ -43,7 +43,7 @@
     </media>
     <media arch="x86_64" live="true">
       <variant id="workstation"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Live-Workstation-x86_64-22-3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Live-Workstation-x86_64-22-3.iso</url>
       <iso>
         <volume-id>Fedora-Live-WS-x86_64-22.*</volume-id>
         <system-id>LINUX</system-id>
@@ -56,7 +56,7 @@
     <!-- Network Installer !-->
     <media arch="i686">
       <variant id="workstation-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Workstation-netinst-i386-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Workstation/i386/iso/Fedora-Workstation-netinst-i386-22.iso</url>
       <iso>
         <volume-id>Fedora-22-i386</volume-id>
         <system-id>LINUX</system-id>
@@ -67,7 +67,7 @@
     </media>
     <media arch="x86_64">
       <variant id="workstation-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-22.iso</url>
       <iso>
         <volume-id>Fedora-22-x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -82,7 +82,7 @@
     <!-- DVD -->
     <media arch="i686">
       <variant id="server"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-DVD-i386-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-DVD-i386-22.iso</url>
       <iso>
         <volume-id>Fedora-22-i386</volume-id>
         <system-id>LINUX</system-id>
@@ -93,7 +93,7 @@
     </media>
     <media arch="x86_64">
       <variant id="server"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-DVD-x86_64-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-DVD-x86_64-22.iso</url>
       <iso>
         <volume-id>Fedora-22-x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -106,7 +106,7 @@
     <!-- Network Installer !-->
     <media arch="i686">
       <variant id="server-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-netinst-i386-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/i386/iso/Fedora-Server-netinst-i386-22.iso</url>
       <iso>
         <volume-id>Fedora-22-i386</volume-id>
         <system-id>LINUX</system-id>
@@ -117,7 +117,7 @@
     </media>
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-netinst-x86_64-22.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/x86_64/iso/Fedora-Server-netinst-x86_64-22.iso</url>
       <iso>
         <volume-id>Fedora-22-x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -129,7 +129,7 @@
 
     <tree arch="i686">
       <variant id="server"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/i386/os/</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>22</version>
@@ -137,7 +137,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/22/Server/x86_64/os/</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/22/Server/x86_64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
