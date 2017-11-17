@@ -48,7 +48,7 @@
       </minimum>
 
       <recommended>
-        <cpu>400000000</cpu>
+        <cpu>1000000000</cpu>
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
@@ -63,9 +63,9 @@
       </minimum>
 
       <recommended>
-        <cpu>400000000</cpu>
+        <cpu>1000000000</cpu>
         <ram>1073741824</ram>
-        <storage>9663676416</storage>
+        <storage>10737418240</storage>
       </recommended>
     </resources>
 
