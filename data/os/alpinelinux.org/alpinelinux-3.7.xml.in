@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://alpinelinux.org/alpinelinux/3.7">
+    <short-id>alpinelinux3.7</short-id>
+    <_name>Alpine Linux 3.7</_name>
+    <version>3.7</version>
+    <_vendor>Alpine Linux Project</_vendor>
+    <family>linux</family>
+    <distro>alpinelinux</distro>
+    <upgrades id="http://alpinelinux.org/alpinelinux/3.6"/>
+    <derives-from id="http://alpinelinux.org/alpinelinux/3.6"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+	<n-cpus>1</n-cpus>
+	<ram>134217728</ram>
+	<storage>1073741824</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+	<n-cpus>1</n-cpus>
+	<ram>805306368</ram>
+	<storage>4294967296</storage>
+      </recommended>
+    </resources>
+    <media arch="i686">
+      <iso>
+        <volume-id>alpine-.* 3.7.\d x86$</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>alpine-.* 3.7.\d x86_64.*</volume-id>
+      </iso>
+    </media>
+    <media arch="ppc64le">
+      <iso>
+        <volume-id>alpine-.* 3.7.\d ppc64le</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
