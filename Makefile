@@ -29,7 +29,7 @@ SCHEMA_FILES = data/schema/osinfo.rng
 
 ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
-ZANATA = zanata-cli
+ZANATA = zanata
 
 XMLLINT = xmllint
 
@@ -91,10 +91,10 @@ po/osinfo-db.pot: po/POTFILES.in $(DATA_FILES_IN)
 	$(V_GEN) cd po && $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
 
 po-push: po/osinfo-db.pot
-	$(ZANATA) push
+	(cd po && $(ZANATA) push --push-type source)
 
 po-pull: po/osinfo-db.pot
-	$(ZANATA) pull
+	(cd po && $(ZANATA) pull)
 
 update-po:
 	cd po && \
