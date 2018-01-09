@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+
+  <os id="http://asianux.com/asianux/4.7">
+    <short-id>asianux4.7</short-id>
+    <name>Asianux Server 4 SP7</name>
+    <vendor>Asianux Project</vendor>
+    <family>linux</family>
+    <distro>asianux</distro>
+    <codename>Hiranya</codename>
+    <upgrades id="http://asianux.com/asianux/4.6"/>
+
+    <release-date>2017-05-26</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Asianux Server 4 SP7 x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Asianux Server 4 SP7 i686</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
