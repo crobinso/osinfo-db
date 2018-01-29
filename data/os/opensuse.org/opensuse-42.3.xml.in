@@ -1,0 +1,59 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://opensuse.org/opensuse/42.3">
+    <short-id>opensuse42.3</short-id>
+    <_name>openSUSE Leap 42.3</_name>
+    <version>42.3</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/42.2" />
+    <derives-from id="http://opensuse.org/opensuse/42.2" />
+
+    <release-date>2017-07-26</release-date>
+    <eol-date>2019-01-31</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/>
+      <device id="http://pcisig.com/pci/1af4/1042"/>
+      <device id="http://pcisig.com/pci/1af4/1043"/>
+      <device id="http://pcisig.com/pci/1af4/1044"/>
+      <device id="http://pcisig.com/pci/1af4/1045"/>
+      <device id="http://pcisig.com/pci/1af4/1048"/>
+      <device id="http://pcisig.com/pci/1af4/1049"/>
+      <device id="http://pcisig.com/pci/1af4/1052"/>
+      <device id="http://pcisig.com/pci/1af4/1050"/>
+    </devices>
+
+    <media arch="x86_64">
+      <url>http://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-Leap-42.3-DVD-x86_64*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <installer>
+      <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
+      <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
+    </installer>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1600000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>17179869184</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
