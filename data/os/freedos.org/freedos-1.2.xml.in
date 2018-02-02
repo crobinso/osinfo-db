@@ -1,0 +1,53 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freedos.org/freedos/1.2">
+    <short-id>freedos1.2</short-id>
+    <_name>FreeDOS 1.2</_name>
+    <version>1.2</version>
+    <_vendor>FreeDOS</_vendor>
+    <family>linux</family>
+    <distro>freedos</distro>
+
+    <release-date>2016-12-25</release-date>
+
+    <variant id="standard">
+      <_name>FreeDOS 1.2 "Standard" Installer</_name>
+    </variant>
+    <variant id="legacy">
+      <_name>FreeDOS 1.2 "Legacy" Installer</_name>
+    </variant>
+
+    <media arch="x86_64">
+      <variant id="standard"/>
+      <url>http://www.freedos.org/download/download/FD12CD.iso</url>
+      <iso>
+        <volume-id>FD-SETUP</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="legacy"/>
+      <url>http://www.freedos.org/download/download/FD12LGCY.iso</url>
+      <iso>
+        <volume-id>FDI-CD</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>33554432</ram>
+        <storage>209715200</storage>
+      </minimum>
+
+      <recommended>
+        <ram>67108864</ram>
+        <storage>419430400</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
