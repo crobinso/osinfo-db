@@ -1,0 +1,64 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/7.0">
+    <short-id>netbsd7.0</short-id>
+    <_name>NetBSD 7.0</_name>
+    <version>7.0</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/6.0"/>
+    <derives-from id="http://netbsd.org/netbsd/6.0"/>
+
+    <release-date>2015-09-25</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/images/NetBSD-7.0-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>389470208</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>84928512</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>84928512</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/images/NetBSD-7.0-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>424046592</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>89761792</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_70</volume-id>
+        <volume-size>89761792</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

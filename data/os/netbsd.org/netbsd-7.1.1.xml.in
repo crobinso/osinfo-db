@@ -1,0 +1,64 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/7.1.1">
+    <short-id>netbsd7.1.1</short-id>
+    <_name>NetBSD 7.1.1</_name>
+    <version>7.1.1</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/7.1"/>
+    <derives-from id="http://netbsd.org/netbsd/7.1"/>
+
+    <release-date>2017-12-22</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/images/NetBSD-7.1.1-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>393512960</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>85925888</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>85925888</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/images/NetBSD-7.1.1-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>427722752</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>90769408</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.1.1/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_711</volume-id>
+        <volume-size>90769408</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
