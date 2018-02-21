@@ -1,0 +1,56 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://system76.com/popos/17.10">
+    <short-id>popos17.10</short-id>
+    <_name>Pop!_OS 17.10</_name>
+    <version>17.10</version>
+    <_vendor>System76, Inc.</_vendor>
+    <family>linux</family>
+    <distro>popos</distro>
+
+    <release-date>2017-10-19</release-date>
+
+    <variant id="nvidia">
+      <_name>Pop!_OS 17.10 (NVIDIA)</_name>
+    </variant>
+    <variant id="intel">
+      <_name>Pop!_OS 17.10 (Intel/AMD)</_name>
+    </variant>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64" live="true">
+      <variant id="nvidia"/>
+      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/nvidia/46/pop-os_amd64_nvidia_46.iso</url>
+      <iso>
+        <volume-id>Pop_OS 17.10 amd64</volume-id>
+        <volume-size>2063597568</volume-size>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <variant id="intel-amd"/>
+      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/intel/57/pop-os_amd64_intel_57.iso</url>
+      <iso>
+        <volume-id>Pop_OS 17.10 amd64</volume-id>
+        <volume-size>1890271232</volume-size>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+  </os>
+</libosinfo>
