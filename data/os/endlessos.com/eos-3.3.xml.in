@@ -1,0 +1,199 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://endlessos.com/eos/3.3">
+    <short-id>eos3.3</short-id>
+    <_name>Endless OS 3.3</_name>
+    <version>3.3</version>
+    <_vendor>Endless Mobile, Inc</_vendor>
+    <family>linux</family>
+    <distro>eos</distro>
+
+    <release-date>2018-02-07</release-date>
+
+    <variant id="basic">
+      <_name>Endless OS Basic</_name>
+    </variant>
+    <variant id="ar">
+      <_name>Endless OS Arabic</_name>
+    </variant>
+    <variant id="bn">
+      <_name>Endless OS Bengali</_name>
+    </variant>
+    <variant id="en">
+      <_name>Endless OS English</_name>
+    </variant>
+    <variant id="es">
+      <_name>Endless OS Spanish</_name>
+    </variant>
+    <variant id="es_GT">
+      <_name>Endless OS Spanish (Guatemala)</_name>
+    </variant>
+    <variant id="es_MX">
+      <_name>Endless OS Spanish (Mexico)</_name>
+    </variant>
+    <variant id="fr">
+      <_name>Endless OS French</_name>
+    </variant>
+    <variant id="id">
+      <_name>Endless OS Indonesian</_name>
+    </variant>
+    <variant id="pt_BR">
+      <_name>Endless OS Portuguese (Brazil)</_name>
+    </variant>
+    <variant id="th">
+      <_name>Endless OS Thai</_name>
+    </variant>
+    <variant id="vi">
+      <_name>Endless OS Vietnamese</_name>
+    </variant>
+    <variant id="zh_CN">
+      <_name>Endless OS Chinese (China)</_name>
+    </variant>
+
+    <!-- Basic -->
+    <media arch="x86_64" live="true">
+      <variant id="basic"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/base/eos-eos3.3-amd64-amd64.180213-054109.base.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-*-base</volume-id>
+        <volume-size>2346969088</volume-size>
+      </iso>
+    </media>
+
+    <!-- Arabic -->
+    <media arch="x86_64" live="true">
+      <variant id="ar"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/ar/eos-eos3.3-amd64-amd64.180213-054110.ar.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-*-ar</volume-id>
+        <volume-size>8951578624</volume-size>
+      </iso>
+    </media>
+
+    <!-- Bengali -->
+    <media arch="x86_64" live="true">
+      <variant id="bn"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/bn/eos-eos3.3-amd64-amd64.180213-081138.bn.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-*-bn</volume-id>
+        <volume-size>12536698880</volume-size>
+      </iso>
+    </media>
+
+    <!-- English -->
+    <media arch="x86_64" live="true">
+      <variant id="en"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/en/eos-eos3.3-amd64-amd64.180213-060855.en.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-*-en</volume-id>
+        <volume-size>15505831936</volume-size>
+      </iso>
+    </media>
+
+    <!-- Spanish -->
+    <media arch="x86_64" live="true">
+      <variant id="es"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/es/eos-eos3.3-amd64-amd64.180213-074842.es.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-es</volume-id>
+        <volume-size>14275002368</volume-size>
+      </iso>
+    </media>
+
+    <!-- Spanish (Guatemala) -->
+    <media arch="x86_64" live="true">
+      <variant id="es_GT"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/es_GT/eos-eos3.3-amd64-amd64.180213-065423.es_GT.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-es_GT</volume-id>
+        <volume-size>15236311040</volume-size>
+      </iso>
+    </media>
+
+    <!-- Spanish (Mexico) -->
+    <media arch="x86_64" live="true">
+      <variant id="es_MX"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/es_MX/eos-eos3.3-amd64-amd64.180213-054109.es_MX.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-es_MX</volume-id>
+        <volume-size>14301132800</volume-size>
+      </iso>
+    </media>
+
+    <!-- French -->
+    <media arch="x86_64" live="true">
+      <variant id="fr"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/fr/eos-eos3.3-amd64-amd64.180213-065557.fr.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-fr</volume-id>
+        <volume-size>9551341568</volume-size>
+      </iso>
+    </media>
+
+    <!-- Indonesian -->
+    <media arch="x86_64" live="true">
+      <variant id="id"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/id/eos-eos3.3-amd64-amd64.180213-073004.id.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-id</volume-id>
+        <volume-size>8361967616</volume-size>
+      </iso>
+    </media>
+
+    <!-- Portuguese (Brazil) -->
+    <media arch="x86_64" live="true">
+      <variant id="pt_BR"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/pt_BR/eos-eos3.3-amd64-amd64.180213-062836.pt_BR.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-pt_BR</volume-id>
+        <volume-size>10820222976</volume-size>
+      </iso>
+    </media>
+
+    <!-- Thai -->
+    <media arch="x86_64" live="true">
+      <variant id="th"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/th/eos-eos3.3-amd64-amd64.180213-072058.th.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-th</volume-id>
+        <volume-size>7592904704</volume-size>
+      </iso>
+    </media>
+
+    <!-- Vietnamese -->
+    <media arch="x86_64" live="true">
+      <variant id="vi"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/vi/eos-eos3.3-amd64-amd64.180213-080418.vi.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-vi</volume-id>
+        <volume-size>8052252672</volume-size>
+      </iso>
+    </media>
+
+    <!-- Chinese (China) -->
+    <media arch="x86_64" live="true">
+      <variant id="zh_CN"/>
+      <url>https://d1anzknqnc1kmb.cloudfront.net/release/3.3.11.1/eos-amd64-amd64/zh_CN/eos-eos3.3-amd64-amd64.180213-082040.zh_CN.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-3-11-zh_CN</volume-id>
+        <volume-size>6506225664</volume-size>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
