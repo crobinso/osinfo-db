@@ -61,7 +61,7 @@
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-27</volume-id>
         <system-id>LINUX</system-id>
-        <volume-size>2490368000</volume-size>
+        <volume-size>2490122240</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -74,7 +74,7 @@
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-27</volume-id>
         <system-id>LINUX</system-id>
-        <volume-size>535822336</volume-size>
+        <volume-size>535017472</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
