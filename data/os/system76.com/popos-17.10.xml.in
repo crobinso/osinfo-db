@@ -14,7 +14,7 @@
     <variant id="nvidia">
       <_name>Pop!_OS 17.10 (NVIDIA)</_name>
     </variant>
-    <variant id="intel">
+    <variant id="intel-amd">
       <_name>Pop!_OS 17.10 (Intel/AMD)</_name>
     </variant>
 
