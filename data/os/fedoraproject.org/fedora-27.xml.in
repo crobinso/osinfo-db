@@ -45,7 +45,7 @@
       <variant id="workstation-netinst"/>
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/27/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-27-1.6.iso</url>
       <iso>
-        <volume-id>Fedora-WS-dvd-x86_64-26</volume-id>
+        <volume-id>Fedora-WS-dvd-x86_64-27</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
