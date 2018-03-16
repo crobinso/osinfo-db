@@ -22,6 +22,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>RHEL.*Atomic.*7 x86_64.*</volume-id>
+        <volume-size>750313472</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
