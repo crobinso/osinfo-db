@@ -19,6 +19,9 @@
     <variant id="workstation-netinst">
       <_name>Fedora 27 Workstation</_name>
     </variant>
+    <variant id="workstation-atomic">
+      <_name>Fedora 27 Workstation</_name>
+    </variant>
     <variant id="server">
       <_name>Fedora 27 Server</_name>
     </variant>
@@ -34,6 +37,18 @@
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/27/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-27-1.6.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-27.*</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Atomic -->
+    <media arch="x86_64">
+      <variant id="workstation-atomic"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/27/WorkstationOstree/x86_64/iso/Fedora-WorkstationOstree-ostree-x86_64-27-1.6.iso</url>
+      <iso>
+        <volume-id>Fedora-WSOstree-ostree-x86_64-27</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
