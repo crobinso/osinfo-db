@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/24"/>
 
     <release-date>2016-11-22</release-date>
+    <eol-date>2017-12-12</eol-date>
 
     <variant id="workstation">
       <_name>Fedora 25 Workstation</_name>
