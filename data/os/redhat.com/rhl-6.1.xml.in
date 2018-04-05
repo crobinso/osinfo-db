@@ -13,5 +13,6 @@
     <derives-from id="http://redhat.com/rhl/6.0"/>
 
     <release-date>1999-10-04</release-date>
+    <eol-date>2003-03-31</eol-date>
   </os>
 </libosinfo>

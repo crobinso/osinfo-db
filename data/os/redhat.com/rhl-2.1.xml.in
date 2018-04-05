@@ -12,5 +12,6 @@
     <derives-from id="http://redhat.com/rhl/2.0"/>
 
     <release-date>1995-11-23</release-date>
+    <eol-date>1996-10-03</eol-date>
   </os>
 </libosinfo>
