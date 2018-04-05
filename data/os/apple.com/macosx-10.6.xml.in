@@ -10,6 +10,8 @@
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.5" />
 
+    <release-date>2009-08-28</release-date>
+
     <resources arch="all">
       <minimum>
         <n-cpus>2</n-cpus>

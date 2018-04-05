@@ -12,5 +12,6 @@
     <upgrades id="http://mandriva.com/mandrake/9.1"/>
     <derives-from id="http://mandriva.com/mandrake/9.1"/>
 
+    <release-date>2003-12-14</release-date>
   </os>
 </libosinfo>

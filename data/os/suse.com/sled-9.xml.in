@@ -9,6 +9,8 @@
     <family>linux</family>
     <distro>sled</distro>
 
+    <release-date>2004-08-03</release-date>
+
     <resources arch="all">
       <minimum>
         <cpu>500000000</cpu>

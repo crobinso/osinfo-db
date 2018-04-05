@@ -10,6 +10,8 @@
     <distro>rhel</distro>
     <derives-from id="http://redhat.com/rhel/7.0"/>
 
+    <release-date>2014-06-10</release-date>
+
     <devices>
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
       <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->

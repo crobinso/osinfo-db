@@ -11,5 +11,6 @@
     <upgrades id="http://mandriva.com/mandriva/2008.1"/>
     <derives-from id="http://mandriva.com/mandriva/2008.1"/>
 
+    <release-date>2008-10-09</release-date>
   </os>
 </libosinfo>

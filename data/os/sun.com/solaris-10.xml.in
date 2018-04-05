@@ -10,6 +10,8 @@
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris/9"/>
 
+    <release-date>2005-01-31</release-date>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/>
     </devices>

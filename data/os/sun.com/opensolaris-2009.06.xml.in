@@ -9,6 +9,8 @@
     <family>solaris</family>
     <distro>opensolaris</distro>
 
+    <release-date>2009-06-01</release-date>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/>
     </devices>

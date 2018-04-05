@@ -11,5 +11,6 @@
     <upgrades id="http://mandriva.com/mandrake/10.1"/>
     <derives-from id="http://mandriva.com/mandrake/10.1"/>
 
+    <release-date>2005-04-14</release-date>
   </os>
 </libosinfo>

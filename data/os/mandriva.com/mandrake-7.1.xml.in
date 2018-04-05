@@ -12,5 +12,6 @@
     <upgrades id="http://mandriva.com/mandrake/7.0"/>
     <derives-from id="http://mandriva.com/mandrake/7.0"/>
 
+    <release-date>2000-06-13</release-date>
   </os>
 </libosinfo>

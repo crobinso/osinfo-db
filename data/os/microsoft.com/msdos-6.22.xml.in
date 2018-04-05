@@ -8,5 +8,7 @@
     <version>6.22</version>
     <family>msdos</family>
     <distro>msdos</distro>
+
+    <release-date>1994-06-01</release-date>
   </os>
 </libosinfo>

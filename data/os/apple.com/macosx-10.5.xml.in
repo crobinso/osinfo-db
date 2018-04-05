@@ -9,5 +9,7 @@
     <family>darwin</family>
     <distro>osx</distro>
     <upgrades id="http://apple.com/macosx/10.4" />
+
+    <release-date>2007-10-26</release-date>
   </os>
 </libosinfo>

@@ -11,5 +11,6 @@
     <upgrades id="http://mandriva.com/mandriva/2007"/>
     <derives-from id="http://mandriva.com/mandriva/2007"/>
 
+    <release-date>2007-04-18</release-date>
   </os>
 </libosinfo>

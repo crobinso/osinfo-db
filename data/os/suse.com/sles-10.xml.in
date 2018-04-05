@@ -10,6 +10,8 @@
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/9"/>
 
+    <release-date>2006-06-17</release-date>
+
     <resources arch="all">
       <minimum>
         <cpu>500000000</cpu>

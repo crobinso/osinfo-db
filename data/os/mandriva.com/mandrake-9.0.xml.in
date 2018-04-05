@@ -12,5 +12,6 @@
     <upgrades id="http://mandriva.com/mandrake/8.2"/>
     <derives-from id="http://mandriva.com/mandrake/8.2"/>
 
+    <release-date>2002-09-25</release-date>
   </os>
 </libosinfo>

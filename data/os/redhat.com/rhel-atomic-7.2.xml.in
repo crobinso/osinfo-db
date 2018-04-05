@@ -11,6 +11,8 @@
     <upgrades id="http://redhat.com/rhel-atomic/7.1"/>
     <derives-from id="http://redhat.com/rhel-atomic/7.1"/>
 
+    <release-date>2015-11-19</release-date>
+
     <!-- 7.2-10 -->
     <media arch="x86_64">
       <iso>

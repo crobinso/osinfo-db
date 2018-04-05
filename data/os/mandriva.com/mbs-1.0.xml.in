@@ -9,5 +9,6 @@
     <family>linux</family>
     <distro>mbs</distro>
 
+    <release-date>2013-02-21</release-date>
   </os>
 </libosinfo>

@@ -12,5 +12,6 @@
     <upgrades id="http://mandriva.com/mandrake/5.2"/>
     <derives-from id="http://mandriva.com/mandrake/5.2"/>
 
+    <release-date>1999-05-27</release-date>
   </os>
 </libosinfo>

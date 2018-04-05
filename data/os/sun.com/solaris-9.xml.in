@@ -8,5 +8,7 @@
     <_vendor>Sun</_vendor>
     <family>solaris</family>
     <distro>solaris</distro>
+
+    <release-date>2002-05-28</release-date>
   </os>
 </libosinfo>

@@ -11,6 +11,8 @@
     <upgrades id="http://mandriva.com/mandriva/2009.1"/>
     <derives-from id="http://mandriva.com/mandriva/2009.1"/>
 
+    <release-date>2009-11-03</release-date>
+
     <devices>
       <device id="http://pcisig.com/pci/1af4/1000"/>
       <device id="http://pcisig.com/pci/1af4/1001"/>

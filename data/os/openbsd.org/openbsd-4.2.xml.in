@@ -9,6 +9,8 @@
     <distro>openbsd</distro>
     <_vendor>OpenBSD Project</_vendor>
 
+    <release-date>2007-11-01</release-date>
+
     <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>

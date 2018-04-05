@@ -9,5 +9,7 @@
     <family>linux</family>
     <distro>mes</distro>
 
+    <release-date>2009-06-16</release-date>
+
   </os>
 </libosinfo>

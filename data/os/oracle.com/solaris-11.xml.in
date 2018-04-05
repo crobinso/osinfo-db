@@ -9,5 +9,7 @@
     <family>solaris</family>
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris/10"/>
+
+    <release-date>2011-11-09</release-date>
   </os>
 </libosinfo>

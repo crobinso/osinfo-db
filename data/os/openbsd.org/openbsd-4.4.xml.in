@@ -11,6 +11,8 @@
     <upgrades id='http://openbsd.org/openbsd/4.3'/>
     <derives-from id='http://openbsd.org/openbsd/4.3'/>
 
+    <release-date>2008-11-01</release-date>
+
     <media arch='i686'>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>

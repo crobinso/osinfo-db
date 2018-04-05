@@ -8,5 +8,7 @@
     <family>netware</family>
     <distro>netware</distro>
     <version>6</version>
+
+    <release-date>2001-10-01</release-date>
   </os>
 </libosinfo>

@@ -11,10 +11,7 @@
     <derives-from id="http://microsoft.com/win/8"/>
     <upgrades id="http://microsoft.com/win/8"/>
 
-<!--
-    <release-date></release-date>
-    <eol-date></eol-date>
--->
+    <release-date>2013-10-17</release-date>
 
     <variant id="debug">
       <_name>Microsoft Windows 8.1 Debug Checked Build</_name>
