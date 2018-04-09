@@ -12,5 +12,6 @@
     <derives-from id="http://mandriva.com/mandriva/2007.1"/>
 
     <release-date>2007-10-09</release-date>
+    <eol-date>2010-10-09</eol-date>
   </os>
 </libosinfo>

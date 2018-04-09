@@ -12,6 +12,7 @@
     <derives-from id="http://mandriva.com/mes/5.0"/>
 
     <release-date>2010-03-15</release-date>
+    <eol-date>2014-06-16</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1000"/>

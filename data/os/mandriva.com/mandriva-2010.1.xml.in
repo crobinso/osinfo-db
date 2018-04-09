@@ -12,5 +12,6 @@
     <derives-from id="http://mandriva.com/mandriva/2010.0"/>
 
     <release-date>2010-07-08</release-date>
+    <eol-date>2012-07-08</eol-date>
   </os>
 </libosinfo>

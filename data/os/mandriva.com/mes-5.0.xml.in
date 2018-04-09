@@ -10,6 +10,7 @@
     <distro>mes</distro>
 
     <release-date>2009-06-16</release-date>
+    <eol-date>2014-06-16</eol-date>
 
   </os>
 </libosinfo>
