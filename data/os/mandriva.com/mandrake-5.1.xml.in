@@ -9,7 +9,7 @@
     <distro>mandrake</distro>
     <codename>Venice</codename>
     <version>5.1</version>
-    <derives-from>http://redhat.com/rhl/5.1</derives-from>
+    <derives-from id="http://redhat.com/rhl/5.1"/>
 
     <release-date>1998-07-23</release-date>
   </os>
