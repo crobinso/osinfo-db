@@ -10,5 +10,6 @@
     <distro>solaris</distro>
 
     <release-date>2002-05-28</release-date>
+    <eol-date>2014-10-01</eol-date>
   </os>
 </libosinfo>
