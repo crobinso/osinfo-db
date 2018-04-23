@@ -11,6 +11,10 @@
     <upgrades id="http://opensuse.org/opensuse/42.3"/>
     <derives-from id="http://opensuse.org/opensuse/42.3"/>
 
+    <variant id="dvd">
+      <_name>openSUSE Tumbleweed (DVD Image)</_name>
+    </variant>
+
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
       <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
@@ -33,7 +37,9 @@
       <device id="http://pcisig.com/pci/1af4/1050"/>
     </devices>
 
+    <!-- DVD Image -->
     <media arch="i686">
+      <variant id="dvd"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-i586*</volume-id>
@@ -44,6 +50,7 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
+      <variant id="dvd"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-x86_64*</volume-id>
