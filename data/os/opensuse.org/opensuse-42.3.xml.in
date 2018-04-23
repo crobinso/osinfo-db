@@ -14,6 +14,10 @@
     <release-date>2017-07-26</release-date>
     <eol-date>2019-01-31</eol-date>
 
+    <variant id="dvd">
+      <_name>openSUSE Leap 42.3 (DVD Image)</_name>
+    </variant>
+
     <devices>
       <device id="http://pcisig.com/pci/1af4/1041"/>
       <device id="http://pcisig.com/pci/1af4/1042"/>
@@ -26,7 +30,9 @@
       <device id="http://pcisig.com/pci/1af4/1050"/>
     </devices>
 
+    <!-- DVD -->
     <media arch="x86_64">
+      <variant id="dvd"/>
       <url>http://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-42.3-DVD-x86_64*</volume-id>
