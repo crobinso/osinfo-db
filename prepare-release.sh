@@ -4,7 +4,7 @@ set -e
 set -v
 
 test -n "$1" && RESULTS=$1 || RESULTS=results.log
-: ${AUTOBUILD_INSTALL_ROOT=$HOME/builder}
+INSTALL_ROOT=$HOME/builder
 
 # Make things clean.
 make -k clean
@@ -22,14 +22,10 @@ case $MAKEFLAGS in
 esac
 
 make
-make install DESTDIR="$AUTOBUILD_INSTALL_ROOT" OSINFO_DB_TARGET="--system"
+make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
-if [ -n "$AUTOBUILD_COUNTER" ]; then
-  EXTRA_RELEASE=".auto$AUTOBUILD_COUNTER"
-else
-  NOW=`date +"%s"`
-  EXTRA_RELEASE=".$USER$NOW"
-fi
+NOW=`date +"%s"`
+EXTRA_RELEASE=".$USER$NOW"
 
 if [ -f /usr/bin/rpmbuild ]; then
   rpmbuild --nodeps \
