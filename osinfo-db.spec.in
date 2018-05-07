@@ -3,7 +3,7 @@
 Summary: osinfo database files
 Name: osinfo-db
 Version: @VERSION@
-Release: 1%{?dist}%{?extra_release}
+Release: 1%{?dist}
 License: GPLv2+
 Group: Development/Libraries
 Source: https://releases.pagure.io/libosinfo/%{name}-%{version}.tar.xz

@@ -2,7 +2,7 @@
 
 Name: mingw-osinfo-db
 Version: @VERSION@
-Release: 1%{?dist}%{?extra_release}
+Release: 1%{?dist}
 Summary: Database for libosinfo API
 License: GPLv2+
 Group: Development/Libraries

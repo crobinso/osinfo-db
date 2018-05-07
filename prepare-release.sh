@@ -24,12 +24,8 @@ esac
 make
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
-NOW=`date +"%s"`
-EXTRA_RELEASE=".$USER$NOW"
-
 if [ -f /usr/bin/rpmbuild ]; then
   rpmbuild --nodeps \
-     --define "extra_release $EXTRA_RELEASE" \
      --define "_sourcedir `pwd`" \
      -ba --clean osinfo-db.spec
 fi
@@ -37,7 +33,6 @@ fi
 if test -x /usr/bin/i686-w64-mingw32-gcc && test -x /usr/bin/x86_64-w64-mingw32-gcc ; then
   if test -f /usr/bin/rpmbuild ; then
     rpmbuild --nodeps \
-       --define "extra_release $EXTRA_RELEASE" \
        --define "_sourcedir `pwd`" \
        -ba --clean mingw-osinfo-db.spec
   fi
