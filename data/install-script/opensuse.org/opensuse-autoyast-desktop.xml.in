@@ -263,7 +263,6 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
                 <pattern>apparmor</pattern>
                 <pattern>apparmor_opt</pattern>
                 <pattern>console</pattern>
-                <pattern>devel_basis</pattern>
                 <pattern>enhanced_base</pattern>
                 <pattern>enhanced_base_opt</pattern>
                 <pattern>fonts</pattern>
@@ -272,7 +271,11 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
                 <pattern>print_server</pattern>
                 <pattern>sw_management</pattern>
                 <pattern>yast2_basis</pattern>
-                <pattern>yast2_install_wf</pattern>
+                <!-- Those patterns are only present in Leap 42.2 and 42.3 -->
+                <xsl:if test="contains(os/version, '42')">
+                  <pattern>devel_basis</pattern>
+                  <pattern>yast2_install_wf</pattern>
+                </xsl:if>
               </patterns>
             </software>
             <sysconfig config:type="list">
