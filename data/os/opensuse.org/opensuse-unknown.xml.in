@@ -12,15 +12,6 @@
     <derives-from id="http://opensuse.org/opensuse/15.0"/>
     <release-status>prerelease</release-status>
 
-    <media arch="i686">
-      <iso>
-        <volume-id>openSUSE-Leap-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD</volume-id>
-        <system-id>LINUX</system-id>
-        <publisher-id>SUSE LINUX GmbH</publisher-id>
-      </iso>
-      <kernel>boot/i386/loader/linux</kernel>
-      <initrd>boot/i386/loader/initrd</initrd>
-    </media>
     <media arch="x86_64">
       <iso>
         <volume-id>openSUSE-Leap-([1-9][4-9]\.[0-9]+|13\.[3-9])-DVD-x86_64</volume-id>
