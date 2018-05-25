@@ -1,0 +1,80 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://opensuse.org/opensuse/15.0">
+    <short-id>opensuse15.0</short-id>
+    <_name>openSUSE Leap 15.0</_name>
+    <version>15.0</version>
+    <_vendor>openSUSE</_vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <upgrades id="http://opensuse.org/opensuse/42.3"/>
+    <derives-from id="http://opensuse.org/opensuse/42.3"/>
+
+    <release-date>2018-05-25</release-date>
+
+    <variant id="dvd">
+      <_name>openSUSE Leap 15.0 (DVD Image)</_name>
+    </variant>
+    <variant id="network">
+      <_name>openSUSE Leap 15.0 (Network Image)</_name>
+    </variant>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/>
+      <device id="http://pcisig.com/pci/1af4/1042"/>
+      <device id="http://pcisig.com/pci/1af4/1043"/>
+      <device id="http://pcisig.com/pci/1af4/1044"/>
+      <device id="http://pcisig.com/pci/1af4/1045"/>
+      <device id="http://pcisig.com/pci/1af4/1048"/>
+      <device id="http://pcisig.com/pci/1af4/1049"/>
+      <device id="http://pcisig.com/pci/1af4/1052"/>
+      <device id="http://pcisig.com/pci/1af4/1050"/>
+    </devices>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="dvd"/>
+      <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-Leap-15.0-DVD-x86_64*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <!-- Network -->
+    <media arch="x86_64">
+      <variant id="network"/>
+      <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso</url>
+      <iso>
+        <volume-id>openSUSE-Leap-15.0-NET-x86_64*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LINUX GmbH</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <installer>
+      <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
+      <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
+    </installer>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1600000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>3221225472</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>2147483648</ram>
+        <storage>17179869184</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
