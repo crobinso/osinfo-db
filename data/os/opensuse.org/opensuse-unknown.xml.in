@@ -22,6 +22,11 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
+    <installer>
+      <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
+      <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
+    </installer>
+
     <resources arch="all">
     <!-- http://en.opensuse.org/Hardware_requirements -->
       <minimum>
