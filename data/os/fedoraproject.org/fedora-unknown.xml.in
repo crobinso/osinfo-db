@@ -8,8 +8,8 @@
     <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <upgrades id="http://fedoraproject.org/fedora/27"/>
-    <derives-from id="http://fedoraproject.org/fedora/27"/>
+    <upgrades id="http://fedoraproject.org/fedora/28"/>
+    <derives-from id="http://fedoraproject.org/fedora/28"/>
     <release-status>prerelease</release-status>
 
     <media arch="x86_64">
