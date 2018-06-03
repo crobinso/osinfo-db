@@ -36,5 +36,8 @@
       </recommended>
     </resources>
 
+    <installer>
+      <script id='http://fedoraproject.org/silverblue/kickstart/desktop'/>
+    </installer>
   </os>
 </libosinfo>

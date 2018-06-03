@@ -1,0 +1,107 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <install-script id='http://fedoraproject.org/silverblue/kickstart/desktop'>
+    <profile>desktop</profile>
+    <expected-filename>silverblue.ks</expected-filename>
+    <config>
+        <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
+        <param name="l10n-language" policy="optional"/>
+        <param name="l10n-timezone" policy="optional"/>
+        <param name="hostname" policy="optional"/>
+        <param name="user-login" policy="required"/>
+        <param name="user-password" policy="required"/>
+        <param name="admin-password" policy="required"/>
+        <param name="script-disk" policy="required"/>
+    </config>
+    <injection-method>cdrom</injection-method>
+    <injection-method>disk</injection-method>
+    <injection-method>floppy</injection-method>
+    <template>
+      <xsl:stylesheet
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        version="1.0">
+
+        <xsl:output method="text"/>
+
+        <xsl:template name="script-disk">
+          <xsl:variable name="script-disk">
+            <xsl:value-of select="config/script-disk"/>
+          </xsl:variable>
+          <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
+        </xsl:template>
+
+        <xsl:template match="/command-line">
+            <xsl:text>ks=hd:</xsl:text>
+            <xsl:call-template name="script-disk"/>
+            <xsl:text>:/</xsl:text>
+            <xsl:value-of select="script/expected-filename"/>
+        </xsl:template>
+
+        <xsl:template match="/install-script-config">
+# Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+install
+keyboard <xsl:value-of select="config/l10n-keyboard"/>
+lang <xsl:value-of select="config/l10n-language"/>
+network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
+rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
+firewall --disabled
+timezone --utc <xsl:value-of select="config/l10n-timezone"/>
+bootloader --location=mbr
+zerombr
+
+clearpart --all --drives=/dev/vda
+
+firstboot --disable
+
+part biosboot --fstype=biosboot --size=1
+part /boot --fstype ext4 --recommended --ondisk=/dev/vda
+part pv.2 --size=1 --grow --ondisk=/dev/vda
+volgroup VolGroup00 --pesize=32768 pv.2
+logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
+logvol / --fstype xfs --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
+
+ostreesetup --osname="fedora-workstation" --remote="fedora-workstation" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/workstation" --nogpg
+graphical
+reboot
+
+%post --erroronfail
+
+useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
+if test -z '<xsl:value-of select="config/user-password"/>'; then
+    passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
+else
+    echo '<xsl:value-of select="config/user-password"/>' |passwd --stdin <xsl:value-of select="config/user-login"/>
+fi
+
+if test -z '<xsl:value-of select="config/admin-password"/>'; then
+    passwd -d root # Make root account passwordless
+else
+    echo '<xsl:value-of select="config/admin-password"/>' |passwd --stdin root
+fi
+
+# Enable autologin
+echo "[daemon]
+AutomaticLoginEnable=true
+AutomaticLogin=<xsl:value-of select="config/user-login"/>
+
+[security]
+
+[xdmcp]
+
+[greeter]
+
+[chooser]
+
+[debug]
+" > /etc/gdm/custom.conf
+
+rm -f /etc/ostree/remotes.d/fedora-workstation.conf
+ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-worstation-<xsl:value-of select="os/version"/> 'https://kojipkgs.fedoraproject.org/atomic/workstation/'
+
+%end
+	</xsl:template>
+      </xsl:stylesheet>
+    </template>
+  </install-script>
+</libosinfo>
