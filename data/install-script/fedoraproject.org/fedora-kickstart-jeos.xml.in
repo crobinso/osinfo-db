@@ -110,7 +110,14 @@ skipx
 network --bootproto dhcp
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
+<xsl:choose>
+  <xsl:when test="os/version &lt; 28">
 authconfig --enableshadow --enablemd5
+  </xsl:when>
+  <xsl:otherwise>
+authselect select sssd
+  </xsl:otherwise>
+</xsl:choose>
 <xsl:if test="os/version &gt; 1">
 selinux --enforcing
 </xsl:if>

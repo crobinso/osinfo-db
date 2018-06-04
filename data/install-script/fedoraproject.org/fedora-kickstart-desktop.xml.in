@@ -112,7 +112,14 @@ lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
 firewall --disabled
+<xsl:choose>
+  <xsl:when test="os/version &lt; 28">
 authconfig --enableshadow --enablemd5
+  </xsl:when>
+  <xsl:otherwise>
+authselect select sssd
+  </xsl:otherwise>
+</xsl:choose>
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
 zerombr
