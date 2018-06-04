@@ -1,0 +1,27 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://dragonflybsd.org/dragonflybsd/4.8.1">
+    <short-id>dragonflybsd4.8.1</short-id>
+    <_name>DragonFlyBSD 4.8.1</_name>
+    <version>4.8.1</version>
+    <family>dragonflybsd</family>
+    <distro>dragonflybsd</distro>
+    <_vendor>DragonFlyBSD Project</_vendor>
+    <upgrades id="http://dragonflybsd.org/dragonflybsd/4.8.0"/>
+
+    <release-date>2017-08-02</release-date>
+
+    <media arch="x86_64">
+      <!--
+        osinfo-db doesn't support compressed ISOs.
+      <url>http://mirror-master.dragonflybsd.org/iso-images/dfly-x86_64-4.8.1_REL.iso.bz2</url>
+       -->
+      <iso>
+        <system-id>DragonFly</system-id>
+        <volume-id>DragonFly v4.8.1</volume-id>
+        <volume-size>346052608</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>

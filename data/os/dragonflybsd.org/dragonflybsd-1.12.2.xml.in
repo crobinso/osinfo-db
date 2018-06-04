@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://dragonflybsd.org/dragonflybsd/1.12.2">
+    <short-id>dragonflybsd1.12.2</short-id>
+    <_name>DragonFlyBSD 1.12.2</_name>
+    <version>1.12.2</version>
+    <family>dragonflybsd</family>
+    <distro>dragonflybsd</distro>
+    <_vendor>DragonFlyBSD Project</_vendor>
+    <upgrades id="http://dragonflybsd.org/dragonflybsd/1.12.1"/>
+
+    <release-date>2008-04-20</release-date>
+  </os>
+</libosinfo>
