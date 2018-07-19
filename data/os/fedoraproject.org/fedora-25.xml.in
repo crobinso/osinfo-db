@@ -32,7 +32,7 @@
     <!-- Live -->
     <media arch="i686" live="true">
       <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Workstation/i386/iso/Fedora-Workstation-Live-i386-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Workstation/i386/iso/Fedora-Workstation-Live-i386-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-25.*</volume-id>
         <system-id>LINUX</system-id>
@@ -42,7 +42,7 @@
     </media>
     <media arch="x86_64" live="true">
       <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-25.*</volume-id>
         <system-id>LINUX</system-id>
@@ -54,7 +54,7 @@
     <!-- Network Installer !-->
     <media arch="i686">
       <variant id="workstation-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Workstation/i386/iso/Fedora-Workstation-netinst-i386-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Workstation/i386/iso/Fedora-Workstation-netinst-i386-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-WS-dvd-i386-25</volume-id>
         <system-id>LINUX</system-id>
@@ -64,7 +64,7 @@
     </media>
     <media arch="x86_64">
       <variant id="workstation-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-WS-dvd-x86_64-25</volume-id>
         <system-id>LINUX</system-id>
@@ -78,7 +78,7 @@
     <!-- DVD -->
     <media arch="i686">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/i386/iso/Fedora-Server-dvd-i386-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/i386/iso/Fedora-Server-dvd-i386-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-i386-25</volume-id>
         <system-id>LINUX</system-id>
@@ -93,7 +93,7 @@
     </media>
     <media arch="x86_64">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-dvd-x86_64-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-dvd-x86_64-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-25</volume-id>
         <system-id>LINUX</system-id>
@@ -106,7 +106,7 @@
     <!-- Network Installer !-->
     <media arch="i686">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/i386/iso/Fedora-Server-netinst-i386-25-1.3.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/i386/iso/Fedora-Server-netinst-i386-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-i386-25</volume-id>
         <system-id>LINUX</system-id>
@@ -117,7 +117,7 @@
     </media>
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-netinst-x86_64-25-1.3.iso</url>
+      <url>http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-netinst-x86_64-25-1.3.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-25</volume-id>
         <system-id>LINUX</system-id>
@@ -129,7 +129,7 @@
 
     <tree arch="i686">
       <variant id="server"/>
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/i386/os/</url>
+      <url>http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>25</version>
@@ -137,7 +137,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <url>http://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/os/</url>
+      <url>http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/x86_64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
