@@ -12,7 +12,7 @@
 
     <release-date>2016-09-01</release-date>
 
-    <media arch='i686'>
+    <media arch="i686">
       <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.0/i386/install60.iso</url>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
@@ -22,7 +22,7 @@
       </iso>
     </media>
 
-    <media arch='x86_64'>
+    <media arch="x86_64">
       <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.0/amd64/install60.iso</url>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>

@@ -18,7 +18,7 @@
       <device id="http://pcisig.com/pci/1022/2000"/>
     </devices>
 
-    <media arch='i686'>
+    <media arch="i686">
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -27,7 +27,7 @@
       </iso>
     </media>
 
-    <media arch='x86_64'>
+    <media arch="x86_64">
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
