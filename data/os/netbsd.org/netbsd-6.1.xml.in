@@ -13,7 +13,7 @@
     <release-date>2013-05-13</release-date>
 
     <media arch="x86_64">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/images/NetBSD-6.1-amd64.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/images/NetBSD-6.1-amd64.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
@@ -21,7 +21,7 @@
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/amd64/installation/cdrom/boot.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/amd64/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
@@ -29,7 +29,7 @@
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/amd64/installation/cdrom/boot-com.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/amd64/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
@@ -37,7 +37,7 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/images/NetBSD-6.1-i386.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/images/NetBSD-6.1-i386.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
@@ -45,7 +45,7 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/i386/installation/cdrom/boot.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/i386/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
@@ -53,7 +53,7 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-6.1/i386/installation/cdrom/boot-com.iso</url>
+      <url>https://cdn.netbsd.org/pub/NetBSD-archive/NetBSD-6.1/i386/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_61</volume-id>
