@@ -13,7 +13,7 @@
     <release-date>2016-03-29</release-date>
 
     <media arch="i686">
-      <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/5.9/i386/install59.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/i386/install59.iso</url>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
@@ -23,7 +23,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/5.9/amd64/install59.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/amd64/install59.iso</url>
       <iso>
 	<publisher-id>The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
