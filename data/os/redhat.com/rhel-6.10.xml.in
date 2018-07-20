@@ -9,8 +9,8 @@
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Santiago</codename>
-    <upgrades id="http://redhat.com/rhel/6.10"/>
-    <derives-from id="http://redhat.com/rhel/6.10"/>
+    <upgrades id="http://redhat.com/rhel/6.9"/>
+    <derives-from id="http://redhat.com/rhel/6.9"/>
 
     <release-date>2018-05-25</release-date>
     <eol-date>2024-06-30</eol-date>
