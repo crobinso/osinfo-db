@@ -8,9 +8,9 @@
     <version>3.0.2</version>
 
     <devices>
-      <device id="http://xen.org/xen/vbd"/>
-      <device id="http://xen.org/xen/vif"/>
-      <device id="http://xen.org/xen/console"/>
+      <device id="http://xen.org/xen/vbd"/> <!-- xen-vbd -->
+      <device id="http://xen.org/xen/vif"/> <!-- xen-vif -->
+      <device id="http://xen.org/xen/console"/> <!-- xen-console -->
     </devices>
   </platform>
 </libosinfo>

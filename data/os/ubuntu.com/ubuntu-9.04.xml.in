@@ -17,7 +17,7 @@
     <eol-date>2010-10-23</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </devices>
 
     <media arch="i686">

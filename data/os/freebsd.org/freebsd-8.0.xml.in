@@ -15,7 +15,7 @@
     <eol-date>2010-11-30</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/8086/100e"/> <!--- Intel e1000 NIC -->
+      <device id="http://pcisig.com/pci/8086/100e"/> <!-- e1000 -->
     </devices>
   </os>
 </libosinfo>

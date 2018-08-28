@@ -15,7 +15,7 @@
     <eol-date>2012-05-01</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1022/2000"/>
+      <device id="http://pcisig.com/pci/1022/2000"/> <!-- pcnet -->
     </devices>
 
     <media arch="i686">

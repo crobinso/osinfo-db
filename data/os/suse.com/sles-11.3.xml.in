@@ -15,14 +15,14 @@
     <eol-date>2016-01-31</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1b36/0100"/>
-      <device id="http://pcisig.com/pci/1af4/1000"/>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
-      <device id="http://pcisig.com/pci/1af4/1002"/>
-      <device id="http://pcisig.com/pci/1af4/1003"/>
-      <device id="http://pcisig.com/pci/1af4/1004"/>
-      <device id="http://pcisig.com/pci/1af4/1005"/>
-      <device id="http://pcisig.com/pci/1af4/1009"/>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1af4/1009"/> <!-- virtio-9p -->
     </devices>
 
     <media arch="i686">

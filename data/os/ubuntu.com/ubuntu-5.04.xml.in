@@ -17,7 +17,7 @@
     <eol-date>2006-10-31</eol-date>
 
     <devices>
-      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB Tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
     </devices>
 
     <media arch="i686">

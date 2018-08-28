@@ -16,7 +16,7 @@
     <eol-date>2010-06-25</eol-date>
 
     <devices>
-      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
     </devices>
 
     <!-- DVD -->

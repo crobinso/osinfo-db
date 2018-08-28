@@ -15,7 +15,7 @@
     <eol-date>2011-01-14</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
     </devices>
 
     <resources arch="all">

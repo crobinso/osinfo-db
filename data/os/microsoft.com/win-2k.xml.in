@@ -14,10 +14,10 @@
     <eol-date>2010-07-13</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
-      <device id="http://pcisig.com/pci/1234/1111"/> <!-- VGA -->
-      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
-      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1234/1111"/> <!-- vga -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
     </devices>
 
     <media arch="i686">

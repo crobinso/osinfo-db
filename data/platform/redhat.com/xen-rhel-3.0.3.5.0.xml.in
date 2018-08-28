@@ -10,7 +10,7 @@
     <derives-from id="http://xen.org/xen/3.0.3"/>
 
     <devices>
-      <device id="http://xen.org/xen/vfb"/>
+      <device id="http://xen.org/xen/vfb"/> <!-- xen-vfb -->
     </devices>
   </platform>
 </libosinfo>

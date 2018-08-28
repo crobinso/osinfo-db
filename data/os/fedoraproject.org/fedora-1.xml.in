@@ -18,8 +18,8 @@
     <!-- XXX upgrades/derives RHL -->
 
     <devices>
-      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- QXL -->
-      <device id="http://pcisig.com/pci/8086/2415"/> <!-- AC97 -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
     </devices>
 
     <!-- Disk 1 -->

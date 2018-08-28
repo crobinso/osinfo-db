@@ -15,8 +15,8 @@
     <eol-date>2014-06-16</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1af4/1000"/>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </devices>
   </os>
 </libosinfo>

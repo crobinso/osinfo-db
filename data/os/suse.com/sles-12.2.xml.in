@@ -14,15 +14,15 @@
     <release-date>2016-11-08</release-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1af4/1041"/>
-      <device id="http://pcisig.com/pci/1af4/1042"/>
-      <device id="http://pcisig.com/pci/1af4/1043"/>
-      <device id="http://pcisig.com/pci/1af4/1044"/>
-      <device id="http://pcisig.com/pci/1af4/1045"/>
-      <device id="http://pcisig.com/pci/1af4/1048"/>
-      <device id="http://pcisig.com/pci/1af4/1049"/>
-      <device id="http://pcisig.com/pci/1af4/1052"/>
-      <device id="http://pcisig.com/pci/1af4/1050"/>
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
     </devices>
 
     <media arch="x86_64">

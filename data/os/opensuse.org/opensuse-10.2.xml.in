@@ -13,7 +13,7 @@
     <eol-date>2008-11-30</eol-date>
 
     <devices>
-      <device id="http://usb.org/usb/80ee/0021"/> <!-- USB tablet -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
     </devices>
 
     <resources arch="all">

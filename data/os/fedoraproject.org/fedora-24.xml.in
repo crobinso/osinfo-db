@@ -15,7 +15,7 @@
     <eol-date>2017-08-08</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio-gpu -->
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
     </devices>
 
     <variant id="workstation">

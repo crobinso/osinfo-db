@@ -15,7 +15,7 @@
     <eol-date>2007-01-31</eol-date>
 
     <devices>
-      <device id="http://pcisig.com/pci/10ec/8029"/>
+      <device id="http://pcisig.com/pci/10ec/8029"/> <!-- ne2k_pci -->
     </devices>
   </os>
 </libosinfo>

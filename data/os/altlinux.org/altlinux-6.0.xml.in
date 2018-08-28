@@ -14,7 +14,7 @@
     <release-date>2011-10-26</release-date>
 
     <devices>
-      <device id="http://usb.org/usb/80ee/0021"/>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
     </devices>
 
     <media arch="i686">

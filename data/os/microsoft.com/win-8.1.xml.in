@@ -133,7 +133,7 @@
     </resources>
 
     <devices>
-      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ICH6 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
     </devices>
 
     <installer>

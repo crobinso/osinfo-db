@@ -75,7 +75,7 @@
       <file>viostor.sys</file>
       <!-- For now we require this for pre-installation but we should probably generate this too -->
       <file>txtsetup.oem</file>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/winxp/amd64" pre-installable="true" signed="false">
@@ -84,7 +84,7 @@
       <file>viostor.sys</file>
       <!-- For now we require this for pre-installation but we should probably generate this too -->
       <file>txtsetup.oem</file>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </driver>
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
@@ -93,11 +93,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pcisig.com/pci/1af4/1000"/>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
-      <device id="http://pcisig.com/pci/1af4/1002"/>
-      <device id="http://pcisig.com/pci/1af4/1003"/>
-      <device id="http://pcisig.com/pci/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
     </driver>
 
     <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">
@@ -105,11 +105,11 @@
       <file>spice-guest-tools-0.65.cmd</file>
       <file>redhat09.cer</file>
       <file>redhat10.cer</file>
-      <device id="http://pcisig.com/pci/1af4/1000"/>
-      <device id="http://pcisig.com/pci/1af4/1001"/>
-      <device id="http://pcisig.com/pci/1af4/1002"/>
-      <device id="http://pcisig.com/pci/1af4/1003"/>
-      <device id="http://pcisig.com/pci/1b36/0100"/>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
     </driver>
   </os>
 </libosinfo>
