@@ -1,0 +1,8 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <device id="http://pcisig.com/pci/8086/10d3">
+    <name>e1000e</name>
+    <class>net</class>
+  </device>
+</libosinfo>
