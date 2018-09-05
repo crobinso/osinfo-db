@@ -24,6 +24,39 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <!-- 7.2-11 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>736882688</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 7.2-12 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>736743424</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 7.2-13 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>733599744</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
