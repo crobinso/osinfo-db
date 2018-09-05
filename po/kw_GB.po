@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-04 16:47+0000\n"
-"PO-Revision-Date: 2016-10-07 08:08-0400\n"
+"POT-Creation-Date: 2018-09-05 10:56+0100\n"
+"PO-Revision-Date: 2016-10-07 08:08+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Cornish (United Kingdom)\n"
-"Language: kw-GB\n"
+"Language: kw_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : "
 "3\n"
-"X-Generator: Zanata 3.9.6\n"
+"X-Generator: Zanata 4.6.2\n"
 
 #: ../data/device/ibm.com/ps2-keyboard.xml.in.h:1
 #: ../data/device/ibm.com/ps2-mouse.xml.in.h:1
@@ -26,6 +26,24 @@ msgstr ""
 
 #: ../data/device/pcisig.com/pci-1234-1111.xml.in.h:1
 msgid "QEMU"
+msgstr ""
+
+#: ../data/os/alpinelinux.org/alpinelinux-3.5.xml.in.h:1
+msgid "Alpine Linux 3.5"
+msgstr ""
+
+#: ../data/os/alpinelinux.org/alpinelinux-3.5.xml.in.h:2
+#: ../data/os/alpinelinux.org/alpinelinux-3.6.xml.in.h:2
+#: ../data/os/alpinelinux.org/alpinelinux-3.7.xml.in.h:2
+msgid "Alpine Linux Project"
+msgstr ""
+
+#: ../data/os/alpinelinux.org/alpinelinux-3.6.xml.in.h:1
+msgid "Alpine Linux 3.6"
+msgstr ""
+
+#: ../data/os/alpinelinux.org/alpinelinux-3.7.xml.in.h:1
+msgid "Alpine Linux 3.7"
 msgstr ""
 
 #: ../data/os/altlinux.org/altlinux-1.0.xml.in.h:1
@@ -264,6 +282,66 @@ msgstr ""
 msgid "Debian Testing"
 msgstr ""
 
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:1
+msgid "Endless OS 3.3"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:2
+msgid "Endless Mobile, Inc"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:3
+msgid "Endless OS Basic"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:4
+msgid "Endless OS Arabic"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:5
+msgid "Endless OS Bengali"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:6
+msgid "Endless OS English"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:7
+msgid "Endless OS Spanish"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:8
+msgid "Endless OS Spanish (Guatemala)"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:9
+msgid "Endless OS Spanish (Mexico)"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:10
+msgid "Endless OS French"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:11
+msgid "Endless OS Indonesian"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:12
+msgid "Endless OS Portuguese (Brazil)"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:13
+msgid "Endless OS Thai"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:14
+msgid "Endless OS Vietnamese"
+msgstr ""
+
+#: ../data/os/endlessos.com/eos-3.3.xml.in.h:15
+msgid "Endless OS Chinese (China)"
+msgstr ""
+
 #: ../data/os/fedoraproject.org/fedora-1.xml.in.h:1
 msgid "Fedora Core 1"
 msgstr ""
@@ -287,6 +365,8 @@ msgstr ""
 #: ../data/os/fedoraproject.org/fedora-24.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-25.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-26.xml.in.h:2
+#: ../data/os/fedoraproject.org/fedora-27.xml.in.h:2
+#: ../data/os/fedoraproject.org/fedora-28.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-3.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-4.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-5.xml.in.h:2
@@ -295,6 +375,7 @@ msgstr ""
 #: ../data/os/fedoraproject.org/fedora-8.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-9.xml.in.h:2
 #: ../data/os/fedoraproject.org/fedora-unknown.xml.in.h:2
+#: ../data/os/fedoraproject.org/silverblue-28.xml.in.h:2
 msgid "Fedora Project"
 msgstr ""
 
@@ -422,6 +503,30 @@ msgstr ""
 msgid "Fedora 26 Server"
 msgstr ""
 
+#: ../data/os/fedoraproject.org/fedora-27.xml.in.h:1
+msgid "Fedora 27"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/fedora-27.xml.in.h:3
+msgid "Fedora 27 Workstation"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/fedora-27.xml.in.h:4
+msgid "Fedora 27 Server"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/fedora-28.xml.in.h:1
+msgid "Fedora 28"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/fedora-28.xml.in.h:3
+msgid "Fedora 28 Workstation"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/fedora-28.xml.in.h:4
+msgid "Fedora 28 Server"
+msgstr ""
+
 #: ../data/os/fedoraproject.org/fedora-3.xml.in.h:1
 msgid "Fedora Core 3"
 msgstr ""
@@ -452,6 +557,10 @@ msgstr ""
 
 #: ../data/os/fedoraproject.org/fedora-unknown.xml.in.h:1
 msgid "Fedora"
+msgstr ""
+
+#: ../data/os/fedoraproject.org/silverblue-28.xml.in.h:1
+msgid "Fedora Silverblue 28"
 msgstr ""
 
 #: ../data/os/freebsd.org/freebsd-1.0.xml.in.h:1
@@ -717,6 +826,22 @@ msgstr ""
 msgid "FreeBSD 9.3"
 msgstr ""
 
+#: ../data/os/freedos.org/freedos-1.2.xml.in.h:1
+msgid "FreeDOS 1.2"
+msgstr ""
+
+#: ../data/os/freedos.org/freedos-1.2.xml.in.h:2
+msgid "FreeDOS"
+msgstr ""
+
+#: ../data/os/freedos.org/freedos-1.2.xml.in.h:3
+msgid "FreeDOS 1.2 \"Standard\" Installer"
+msgstr ""
+
+#: ../data/os/freedos.org/freedos-1.2.xml.in.h:4
+msgid "FreeDOS 1.2 \"Legacy\" Installer"
+msgstr ""
+
 #: ../data/os/gnome.org/gnome-3.6.xml.in.h:1
 msgid "GNOME 3.6"
 msgstr ""
@@ -955,6 +1080,7 @@ msgstr ""
 #: ../data/os/microsoft.com/win-2k.xml.in.h:2
 #: ../data/os/microsoft.com/win-2k12.xml.in.h:2
 #: ../data/os/microsoft.com/win-2k12r2.xml.in.h:2
+#: ../data/os/microsoft.com/win-2k16.xml.in.h:2
 #: ../data/os/microsoft.com/win-2k3.xml.in.h:2
 #: ../data/os/microsoft.com/win-2k3r2.xml.in.h:2
 #: ../data/os/microsoft.com/win-2k8.xml.in.h:2
@@ -1041,6 +1167,14 @@ msgstr ""
 
 #: ../data/os/microsoft.com/win-2k12r2.xml.in.h:6
 msgid "Windows Server 2012 R2 Volume License"
+msgstr ""
+
+#: ../data/os/microsoft.com/win-2k16.xml.in.h:1
+msgid "Microsoft Windows Server 2016"
+msgstr ""
+
+#: ../data/os/microsoft.com/win-2k16.xml.in.h:3
+msgid "Windows Server 2016 for HyperV"
 msgstr ""
 
 #: ../data/os/microsoft.com/win-2k3.xml.in.h:1
@@ -1189,6 +1323,12 @@ msgstr ""
 #: ../data/os/netbsd.org/netbsd-4.0.xml.in.h:2
 #: ../data/os/netbsd.org/netbsd-5.0.xml.in.h:2
 #: ../data/os/netbsd.org/netbsd-5.1.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-6.0.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-6.1.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-7.0.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-7.1.1.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-7.1.2.xml.in.h:2
+#: ../data/os/netbsd.org/netbsd-7.1.xml.in.h:2
 msgid "NetBSD Project"
 msgstr ""
 
@@ -1244,6 +1384,30 @@ msgstr ""
 msgid "NetBSD 5.1"
 msgstr ""
 
+#: ../data/os/netbsd.org/netbsd-6.0.xml.in.h:1
+msgid "NetBSD 6.0"
+msgstr ""
+
+#: ../data/os/netbsd.org/netbsd-6.1.xml.in.h:1
+msgid "NetBSD 6.1"
+msgstr ""
+
+#: ../data/os/netbsd.org/netbsd-7.0.xml.in.h:1
+msgid "NetBSD 7.0"
+msgstr ""
+
+#: ../data/os/netbsd.org/netbsd-7.1.1.xml.in.h:1
+msgid "NetBSD 7.1.1"
+msgstr ""
+
+#: ../data/os/netbsd.org/netbsd-7.1.2.xml.in.h:1
+msgid "NetBSD 7.1.2"
+msgstr ""
+
+#: ../data/os/netbsd.org/netbsd-7.1.xml.in.h:1
+msgid "NetBSD 7.1"
+msgstr ""
+
 #: ../data/os/novell.com/netware-4.xml.in.h:1
 msgid "Novell Netware 4"
 msgstr ""
@@ -1285,6 +1449,7 @@ msgstr ""
 #: ../data/os/openbsd.org/openbsd-6.0.xml.in.h:2
 #: ../data/os/openbsd.org/openbsd-6.1.xml.in.h:2
 #: ../data/os/openbsd.org/openbsd-6.2.xml.in.h:2
+#: ../data/os/openbsd.org/openbsd-6.3.xml.in.h:2
 msgid "OpenBSD Project"
 msgstr ""
 
@@ -1360,6 +1525,10 @@ msgstr ""
 msgid "OpenBSD 6.2"
 msgstr ""
 
+#: ../data/os/openbsd.org/openbsd-6.3.xml.in.h:1
+msgid "OpenBSD 6.3"
+msgstr ""
+
 #: ../data/os/opensuse.org/opensuse-10.2.xml.in.h:1
 msgid "openSUSE 10.2"
 msgstr ""
@@ -1376,8 +1545,10 @@ msgstr ""
 #: ../data/os/opensuse.org/opensuse-12.3.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-13.1.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-13.2.xml.in.h:2
+#: ../data/os/opensuse.org/opensuse-15.0.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-42.1.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-42.2.xml.in.h:2
+#: ../data/os/opensuse.org/opensuse-42.3.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-factory.xml.in.h:1
 #: ../data/os/opensuse.org/opensuse-tumbleweed.xml.in.h:2
 #: ../data/os/opensuse.org/opensuse-unknown.xml.in.h:1
@@ -1428,6 +1599,18 @@ msgstr ""
 msgid "openSUSE 13.2"
 msgstr ""
 
+#: ../data/os/opensuse.org/opensuse-15.0.xml.in.h:1
+msgid "openSUSE Leap 15.0"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-15.0.xml.in.h:3
+msgid "openSUSE Leap 15.0 (DVD Image)"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-15.0.xml.in.h:4
+msgid "openSUSE Leap 15.0 (Network Image)"
+msgstr ""
+
 #: ../data/os/opensuse.org/opensuse-42.1.xml.in.h:1
 msgid "openSUSE Leap 42.1"
 msgstr ""
@@ -1436,8 +1619,32 @@ msgstr ""
 msgid "openSUSE Leap 42.2"
 msgstr ""
 
+#: ../data/os/opensuse.org/opensuse-42.3.xml.in.h:1
+msgid "openSUSE Leap 42.3"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-42.3.xml.in.h:3
+msgid "openSUSE Leap 42.3 (DVD Image)"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-42.3.xml.in.h:4
+msgid "openSUSE Leap 42.3 (Network Image)"
+msgstr ""
+
 #: ../data/os/opensuse.org/opensuse-tumbleweed.xml.in.h:1
 msgid "openSUSE Tumbleweed"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-tumbleweed.xml.in.h:3
+msgid "openSUSE Tumbleweed (DVD Image)"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-tumbleweed.xml.in.h:4
+msgid "openSUSE Tumbleweed (Network Image)"
+msgstr ""
+
+#: ../data/os/opensuse.org/opensuse-tumbleweed.xml.in.h:5
+msgid "openSUSE Tumbleweed (Kubic DVD/USB Stick)"
 msgstr ""
 
 #: ../data/os/oracle.com/solaris-11.xml.in.h:1
@@ -1507,6 +1714,7 @@ msgstr ""
 #: ../data/os/redhat.com/rhel-7.2.xml.in.h:2
 #: ../data/os/redhat.com/rhel-7.3.xml.in.h:2
 #: ../data/os/redhat.com/rhel-7.4.xml.in.h:2
+#: ../data/os/redhat.com/rhel-7.5.xml.in.h:2
 #: ../data/os/redhat.com/rhel-atomic-7.0.xml.in.h:2
 #: ../data/os/redhat.com/rhel-atomic-7.1.xml.in.h:2
 #: ../data/os/redhat.com/rhel-atomic-7.2.xml.in.h:2
@@ -1749,6 +1957,10 @@ msgstr ""
 msgid "Red Hat Enterprise Linux 7.4"
 msgstr ""
 
+#: ../data/os/redhat.com/rhel-7.5.xml.in.h:1
+msgid "Red Hat Enterprise Linux 7.5"
+msgstr ""
+
 #: ../data/os/redhat.com/rhel-atomic-7.0.xml.in.h:1
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
 msgstr ""
@@ -1875,6 +2087,7 @@ msgstr ""
 #: ../data/os/suse.com/sled-11.xml.in.h:2
 #: ../data/os/suse.com/sled-12.1.xml.in.h:2
 #: ../data/os/suse.com/sled-12.2.xml.in.h:2
+#: ../data/os/suse.com/sled-12.3.xml.in.h:2
 #: ../data/os/suse.com/sled-12.xml.in.h:2 ../data/os/suse.com/sled-9.xml.in.h:2
 #: ../data/os/suse.com/sles-10.1.xml.in.h:2
 #: ../data/os/suse.com/sles-10.2.xml.in.h:2
@@ -1888,6 +2101,7 @@ msgstr ""
 #: ../data/os/suse.com/sles-11.xml.in.h:2
 #: ../data/os/suse.com/sles-12.1.xml.in.h:2
 #: ../data/os/suse.com/sles-12.2.xml.in.h:2
+#: ../data/os/suse.com/sles-12.3.xml.in.h:2
 #: ../data/os/suse.com/sles-12.xml.in.h:2 ../data/os/suse.com/sles-9.xml.in.h:2
 msgid "SUSE"
 msgstr ""
@@ -1934,6 +2148,10 @@ msgstr ""
 
 #: ../data/os/suse.com/sled-12.2.xml.in.h:1
 msgid "SUSE Linux Enterprise Desktop 12 SP2"
+msgstr ""
+
+#: ../data/os/suse.com/sled-12.3.xml.in.h:1
+msgid "SUSE Linux Enterprise Desktop 12 SP3"
 msgstr ""
 
 #: ../data/os/suse.com/sled-12.xml.in.h:1
@@ -1992,12 +2210,32 @@ msgstr ""
 msgid "SUSE Linux Enterprise Server 12 SP2"
 msgstr ""
 
+#: ../data/os/suse.com/sles-12.3.xml.in.h:1
+msgid "SUSE Linux Enterprise Server 12 SP3"
+msgstr ""
+
 #: ../data/os/suse.com/sles-12.xml.in.h:1
 msgid "SUSE Linux Enterprise Server 12"
 msgstr ""
 
 #: ../data/os/suse.com/sles-9.xml.in.h:1
 msgid "SUSE Linux Enterprise Server 9"
+msgstr ""
+
+#: ../data/os/system76.com/popos-17.10.xml.in.h:1
+msgid "Pop!_OS 17.10"
+msgstr ""
+
+#: ../data/os/system76.com/popos-17.10.xml.in.h:2
+msgid "System76, Inc."
+msgstr ""
+
+#: ../data/os/system76.com/popos-17.10.xml.in.h:3
+msgid "Pop!_OS 17.10 (NVIDIA)"
+msgstr ""
+
+#: ../data/os/system76.com/popos-17.10.xml.in.h:4
+msgid "Pop!_OS 17.10 (Intel/AMD)"
 msgstr ""
 
 #: ../data/os/ubuntu.com/ubuntu-10.04.xml.in.h:1
