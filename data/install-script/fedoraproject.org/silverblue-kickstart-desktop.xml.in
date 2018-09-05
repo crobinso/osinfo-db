@@ -61,7 +61,7 @@ volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype xfs --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 
-ostreesetup --osname="fedora-workstation" --remote="fedora-workstation" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/workstation" --nogpg
+ostreesetup --osname="fedora-workstation" --remote="fedora-<xsl:value-of select="os/version"/>" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/workstation" --nogpg
 graphical
 reboot
 
@@ -96,8 +96,8 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 [debug]
 " > /etc/gdm/custom.conf
 
-rm -f /etc/ostree/remotes.d/fedora-workstation.conf
-ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-worstation-<xsl:value-of select="os/version"/> 'https://dl.fedoraproject.org/atomic/repo/'
+rm -f /etc/ostree/remotes.d/fedora-'<xsl:value-of select="os/version"/>'.conf
+ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-<xsl:value-of select="os/version"/> 'https://dl.fedoraproject.org/atomic/repo/'
 
 %end
 	</xsl:template>
