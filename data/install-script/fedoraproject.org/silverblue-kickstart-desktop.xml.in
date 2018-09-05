@@ -97,7 +97,7 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 " > /etc/gdm/custom.conf
 
 rm -f /etc/ostree/remotes.d/fedora-workstation.conf
-ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-worstation-<xsl:value-of select="os/version"/> 'https://kojipkgs.fedoraproject.org/atomic/workstation/'
+ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-worstation-<xsl:value-of select="os/version"/> 'https://dl.fedoraproject.org/atomic/repo/'
 
 %end
 	</xsl:template>
