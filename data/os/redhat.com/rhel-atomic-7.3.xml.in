@@ -1,0 +1,73 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://redhat.com/rhel-atomic/7.3">
+    <short-id>rhel-atomic-7.3</short-id>
+    <_name>Red Hat Enterprise Linux Atomic Host 7.3</_name>
+    <version>7.3</version>
+    <_vendor>Red Hat, Inc</_vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <upgrades id="http://redhat.com/rhel-atomic/7.2"/>
+    <derives-from id="http://redhat.com/rhel-atomic/7.2"/>
+
+    <!-- 7.3.0-3 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>889194496</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 7.3.1-1 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>890816512</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 7.3.2-1 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>902549504</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 7.3.3-1 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Red Hat Enterprise Linux Atomic</volume-id>
+        <volume-size>913422336</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
