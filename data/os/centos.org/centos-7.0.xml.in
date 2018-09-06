@@ -14,6 +14,7 @@
     <release-date>2014-07-07</release-date>
 
     <media arch="x86_64">
+      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
