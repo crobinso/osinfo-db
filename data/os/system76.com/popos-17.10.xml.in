@@ -39,8 +39,8 @@
         <volume-id>Pop_OS 17.10 amd64</volume-id>
         <volume-size>2063597568</volume-size>
       </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <variant id="intel-amd"/>
@@ -49,8 +49,8 @@
         <volume-id>Pop_OS 17.10 amd64</volume-id>
         <volume-size>1890271232</volume-size>
       </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
     </media>
   </os>
 </libosinfo>
