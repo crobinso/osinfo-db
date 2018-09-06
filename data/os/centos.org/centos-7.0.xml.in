@@ -16,6 +16,9 @@
     <variant id="live-gnome">
       <_name>CentOS 7.0 (GNOME)</_name>
     </variant>
+    <variant id="live-kde">
+      <_name>CentOS 7.0 (KDE)</_name>
+    </variant>
 
     <media arch="x86_64">
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD.iso</url>
@@ -33,6 +36,17 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-x86_64-LiveGNOME*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="live-kde"/>
+      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveKDE.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-7-x86_64-LiveKDE*</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
