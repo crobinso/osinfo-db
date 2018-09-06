@@ -13,6 +13,10 @@
 
     <release-date>2014-07-07</release-date>
 
+    <variant id="live-gnome">
+      <_name>CentOS 7.0 (GNOME)</_name>
+    </variant>
+
     <media arch="x86_64">
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD.iso</url>
       <iso>
@@ -21,6 +25,17 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="live-gnome"/>
+      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-7-x86_64-LiveGNOME*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <resources arch="all">
