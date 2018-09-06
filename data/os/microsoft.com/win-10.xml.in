@@ -22,6 +22,9 @@
     <variant id="enterprise-ltsb">
       <_name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch)</_name>
     </variant>
+    <variant id="enterprise-ltsb-eval">
+      <_name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation</_name>
+    </variant>
 
     <!-- Education -->
     <media arch="i686">
@@ -72,6 +75,24 @@
       <variant id="enterprise-ltsb"/>
       <iso>
         <volume-id>(J_)?CESN?N?_X64FREV_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+
+    <!-- Enterprise LTSB (Eval) -->
+    <media arch="i686">
+      <variant id="enterprise-ltsb-eval"/>
+      <iso>
+        <volume-id>CESE_X86FREE_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="enterprise-ltsb-eval"/>
+      <iso>
+        <volume-id>CESE_X64FREE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
       </iso>
