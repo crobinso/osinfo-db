@@ -1,0 +1,38 @@
+<libosinfo version="0.0.1">
+  <os id="http://haiku-os.org/haiku/nightly">
+    <short-id>haikunightly</short-id>
+    <_name>Haiku Nightly</_name>
+    <version>nightly</version>
+    <_vendor>Haiku, Inc.</_vendor>
+    <family>beos</family>
+    <distro>haiku</distro>
+    <upgrades id="http://haiku-os.org/haiku/r1alpha4.1"/>
+    <derives-from id="http://haiku-os.org/haiku/r1alpha4.1"/>
+    <release-status>snapshot</release-status>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+    </devices>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>bootimg</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>2147483648</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
