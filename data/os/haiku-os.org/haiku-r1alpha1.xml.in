@@ -1,0 +1,35 @@
+<libosinfo version="0.0.1">
+  <os id="http://haiku-os.org/haiku/r1alpha1">
+    <short-id>haikur1alpha1</short-id>
+    <_name>Haiku R1/Alpha1</_name>
+    <version>r1alpha1</version>
+    <_vendor>Haiku, Inc.</_vendor>
+    <family>beos</family>
+    <distro>haiku</distro>
+
+    <release-date>2009-09-14</release-date>
+    <eol-date>2010-05-10</eol-date>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>Haiku</volume-id>
+        <system-id>FreeBSD</system-id>
+        <volume-size>398305280</volume-size>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>2147483648</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
