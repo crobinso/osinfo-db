@@ -15,7 +15,7 @@
 
     <media arch="i686">
       <iso>
-	<publisher-id>The OpenBSD project</publisher-id>
+	<publisher-id>Copyright \(c\) 2015 Theo de Raadt, The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
 	<volume-id>OpenBSD/i386    5.8 Install CD</volume-id>
 	<application-id>OpenBSD 5.8 i386 Install CD</application-id>
@@ -24,7 +24,7 @@
 
     <media arch="x86_64">
       <iso>
-	<publisher-id>The OpenBSD project</publisher-id>
+	<publisher-id>Copyright \(c\) 2015 Theo de Raadt, The OpenBSD project</publisher-id>
 	<system-id>OpenBSD</system-id>
 	<volume-id>OpenBSD/amd64   5.8 Install CD</volume-id>
 	<application-id>OpenBSD 5.8 amd64 Install CD</application-id>
