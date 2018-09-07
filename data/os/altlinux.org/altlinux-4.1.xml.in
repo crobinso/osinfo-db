@@ -16,7 +16,7 @@
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.1/Desktop/current/iso/altlinux-4.1.1-desktop-i586-install-dvd5.iso</url>
       <iso>
         <volume-id>^"Desktop"$</volume-id>
-        <publisher-id>ALT Linux Team</publisher-id>
+        <publisher-id>"ALT Linux Team"</publisher-id>
       </iso>
       <kernel>isolinux/alt0/vmlinuz</kernel>
       <initrd>isolinux/alt0/full.cz</initrd>
@@ -25,7 +25,7 @@
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/4.1/Desktop/current/iso/altlinux-4.1.1-desktop-x86_64-install-dvd5.iso</url>
       <iso>
         <volume-id>^"Desktop"$</volume-id>
-        <publisher-id>ALT Linux Team</publisher-id>
+        <publisher-id>"ALT Linux Team"</publisher-id>
       </iso>
       <kernel>isolinux/alt0/vmlinuz</kernel>
       <initrd>isolinux/alt0/full.cz</initrd>
