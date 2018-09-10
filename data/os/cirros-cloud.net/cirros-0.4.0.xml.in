@@ -1,0 +1,36 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cirros-cloud.net/cirros/0.4.0">
+    <short-id>cirros0.4.0</short-id>
+    <_name>CirrOS 0.4.0</_name>
+    <version>0.4.0</version>
+    <_vendor>CirrOS</_vendor>
+    <family>linux</family>
+    <distro>cirros</distro>
+    <upgrades id="http://cirros-cloud.net/cirros/0.3.5"/>
+    <derives-from id="http://cirros-cloud.net/cirros/0.3.5"/>
+
+    <release-date>2017-11-20</release-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>52428800</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>
