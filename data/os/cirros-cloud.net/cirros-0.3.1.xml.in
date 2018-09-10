@@ -1,0 +1,26 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cirros-cloud.net/cirros/0.3.1">
+    <short-id>cirros0.3.1</short-id>
+    <_name>CirrOS 0.3.1</_name>
+    <version>0.3.1</version>
+    <_vendor>CirrOS</_vendor>
+    <family>linux</family>
+    <distro>cirros</distro>
+    <upgrades id="http://cirros-cloud.net/cirros/0.3.0"/>
+    <derives-from id="http://cirros-cloud.net/cirros/0.3.0"/>
+
+    <release-date>2013-02-08</release-date>
+    <eol-date>2014-03-19</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>52428800</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>
