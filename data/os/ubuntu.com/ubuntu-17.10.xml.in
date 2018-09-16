@@ -14,6 +14,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/17.04"/>
 
     <release-date>2017-10-19</release-date>
+    <eol-date>2018-07-19</eol-date>
 
     <resources arch="all">
       <minimum>

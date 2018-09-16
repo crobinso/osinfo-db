@@ -14,6 +14,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/16.10"/>
 
     <release-date>2017-04-13</release-date>
+    <eol-date>2018-01-13</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->

@@ -14,7 +14,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/15.04"/>
 
     <release-date>2015-10-22</release-date>
-    <eol-date>2016-07-22</eol-date>
+    <eol-date>2016-07-28</eol-date>
 
     <resources arch="all">
       <minimum>
