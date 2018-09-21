@@ -16,7 +16,6 @@
 
     <!-- DVD -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.7/isos/i386/CentOS-6.7-i386-bin-DVD1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
@@ -26,7 +25,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.7/isos/x86_64/CentOS-6.7-x86_64-bin-DVD1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
@@ -38,7 +36,6 @@
 
     <!-- Live CD -->
     <media arch="i686" live="true">
-      <url>http://vault.centos.org/6.7/isos/i386/CentOS-6.7-i386-LiveCD.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-i386-LiveCD</volume-id>
@@ -47,7 +44,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://vault.centos.org/6.7/isos/x86_64/CentOS-6.7-x86_64-LiveCD.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-x86_64-LiveCD</volume-id>
@@ -58,7 +54,6 @@
 
     <!-- Live DVD -->
     <media arch="i686" live="true">
-      <url>http://vault.centos.org/6.7/isos/i386/CentOS-6.7-i386-LiveDVD.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-i386-LiveDVD</volume-id>
@@ -67,7 +62,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://vault.centos.org/6.7/isos/x86_64/CentOS-6.7-x86_64-LiveDVD.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-x86_64-LiveDVD</volume-id>
@@ -78,7 +72,6 @@
 
     <!-- Minimal Installer -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.7/isos/i386/CentOS-6.7-i386-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
@@ -88,7 +81,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.7/isos/x86_64/CentOS-6.7-x86_64-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
@@ -100,7 +92,6 @@
 
     <!-- Network Installer -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.7/isos/i386/CentOS-6.7-i386-netinstall.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
@@ -110,7 +101,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.7/isos/x86_64/CentOS-6.7-x86_64-netinstall.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
@@ -119,23 +109,6 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
-
-    <tree arch="i686">
-      <url>http://vault.centos.org/6.7/os/i386</url>
-      <treeinfo>
-        <family>CentOS</family>
-        <version>6.7</version>
-        <arch>i386</arch>
-      </treeinfo>
-    </tree>
-    <tree arch="x86_64">
-      <url>http://vault.centos.org/6.7/os/x86_64</url>
-      <treeinfo>
-        <family>CentOS</family>
-        <version>6.7</version>
-        <arch>x86_64</arch>
-      </treeinfo>
-    </tree>
 
     <resources arch="all">
       <minimum>

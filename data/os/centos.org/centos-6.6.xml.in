@@ -16,7 +16,6 @@
 
     <!-- DVD -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-bin-DVD1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.6_Final</volume-id>
@@ -26,7 +25,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-bin-DVD1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.6_Final</volume-id>
@@ -38,7 +36,6 @@
 
     <!-- Minimal Installer -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.6_Final</volume-id>
@@ -48,7 +45,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.6_Final</volume-id>
@@ -60,7 +56,6 @@
 
     <!-- Network Installer -->
     <media arch="i686">
-      <url>http://vault.centos.org/6.6/isos/i386/CentOS-6.6-i386-netinstall.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
@@ -70,7 +65,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://vault.centos.org/6.6/isos/x86_64/CentOS-6.6-x86_64-netinstall.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
@@ -79,23 +73,6 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
-
-    <tree arch="i686">
-      <url>http://vault.centos.org/6.6/os/i386</url>
-      <treeinfo>
-        <family>CentOS</family>
-        <version>6.6</version>
-        <arch>i386</arch>
-      </treeinfo>
-    </tree>
-    <tree arch="x86_64">
-      <url>http://vault.centos.org/6.6/os/x86_64</url>
-      <treeinfo>
-        <family>CentOS</family>
-        <version>6.6</version>
-        <arch>x86_64</arch>
-      </treeinfo>
-    </tree>
 
     <resources arch="all">
       <minimum>
