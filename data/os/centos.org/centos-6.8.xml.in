@@ -12,7 +12,7 @@
     <clones id="http://redhat.com/rhel/6.8"/>
 
     <release-date>2016-05-25</release-date>
-    <eol-date>2020-11-30</eol-date>
+    <eol-date>2017-04-05</eol-date>
 
     <!-- DVD -->
     <media arch="i686">

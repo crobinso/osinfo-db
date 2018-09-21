@@ -12,7 +12,7 @@
     <clones id="http://redhat.com/rhel/6.5"/>
 
     <release-date>2013-12-01</release-date>
-    <eol-date>2020-11-30</eol-date>
+    <eol-date>2014-10-28</eol-date>
 
     <media arch="i686">
       <iso>
