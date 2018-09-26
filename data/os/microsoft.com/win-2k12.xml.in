@@ -66,5 +66,14 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
     </media>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1400000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>34359738368</storage>
+      </minimum>
+    </resources>
   </os>
 </libosinfo>
