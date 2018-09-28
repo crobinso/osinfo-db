@@ -13,6 +13,11 @@
 
     <release-date>2012-09-04</release-date>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+    </devices>
+
     <variant id="storage">
       <_name>Windows Server 2012 Storage</_name>
     </variant>

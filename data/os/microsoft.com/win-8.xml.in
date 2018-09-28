@@ -132,6 +132,11 @@
       </minimum>
     </resources>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+    </devices>
+
     <installer>
       <script id='http://microsoft.com/windows/unattend/jeos'/>
       <script id='http://microsoft.com/windows/unattend/desktop'/>

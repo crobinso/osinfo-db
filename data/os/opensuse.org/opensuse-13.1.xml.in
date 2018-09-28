@@ -14,6 +14,11 @@
     <release-date>2013-11-19</release-date>
     <eol-date>2016-02-03</eol-date>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+    </devices>
+
     <media arch="i686">
       <url>http://download.opensuse.org/distribution/13.1/iso/openSUSE-13.1-DVD-i586.iso</url>
       <iso>
