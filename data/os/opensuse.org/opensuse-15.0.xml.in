@@ -20,18 +20,6 @@
       <_name>openSUSE Leap 15.0 (Network Image)</_name>
     </variant>
 
-    <devices>
-      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
-      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
-      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
-      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
-      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
-      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
-      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
-      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
-      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
-    </devices>
-
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="dvd"/>
