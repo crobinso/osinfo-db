@@ -20,6 +20,7 @@
       <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
       <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
     </devices>
 
     <media arch="x86_64">
