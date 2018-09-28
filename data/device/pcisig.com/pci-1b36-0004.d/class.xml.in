@@ -1,0 +1,8 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <device id="http://pcisig.com/pci/1b36/0004">
+    <name>qemu-xhci</name>
+    <class>controller.usb</class>
+  </device>
+</libosinfo>
