@@ -19,7 +19,7 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>^(SSS_X64CHK|SSS_X64FRE|SSS_X64FREE)_</volume-id>
+        <volume-id>^(SSS_X64CHK|SSS_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -27,7 +27,7 @@
     <media arch="x86_64">
       <variant id="essentials"/>
       <iso>
-        <volume-id>^(SESS_X64FRE)_</volume-id>
+        <volume-id>^(SESS_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
@@ -35,7 +35,7 @@
     <media arch="x86_64">
       <variant id="hyperv"/>
       <iso>
-        <volume-id>^(SHV_X64CHK|SHV_X64FRE)_</volume-id>
+        <volume-id>^(SHV_X64CHK|SHV_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
       </iso>
