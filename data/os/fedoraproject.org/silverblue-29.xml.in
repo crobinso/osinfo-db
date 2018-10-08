@@ -1,0 +1,44 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://fedoraproject.org/silverblue/29">
+    <short-id>silverblue29</short-id>
+    <_name>Fedora Silverblue 29</_name>
+    <version>29</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/silverblue/28"/>
+    <derives-from id="http://fedoraproject.org/silverblue/28"/>
+
+    <release-status>prerelease</release-status>
+
+    <media arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/test/29_Beta/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-29_Beta-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-SB-ostree-x86_64-29</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/silverblue/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
