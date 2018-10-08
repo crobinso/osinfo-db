@@ -8,13 +8,13 @@
     <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <upgrades id="http://fedoraproject.org/fedora/28"/>
-    <derives-from id="http://fedoraproject.org/fedora/28"/>
+    <upgrades id="http://fedoraproject.org/fedora/29"/>
+    <derives-from id="http://fedoraproject.org/fedora/29"/>
     <release-status>prerelease</release-status>
 
     <media arch="x86_64">
       <iso>
-        <volume-id>Fedora-.*-dvd-x86_64-(29|[3-9][0-9]|rawh)</volume-id>
+        <volume-id>Fedora-.*-dvd-x86_64-([3-9][0-9]|rawh)</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -23,7 +23,7 @@
 
     <media arch="x86_64" live="true">
       <iso>
-        <volume-id>Fedora-.*-Live-(29|[3-9][0-9]|Rawhide).*</volume-id>
+        <volume-id>Fedora-.*-Live-([3-9][0-9]|Rawhide).*</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
