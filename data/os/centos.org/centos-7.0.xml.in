@@ -9,7 +9,7 @@
     <family>linux</family>
     <distro>centos</distro>
     <upgrades id="http://centos.org/centos/6.5"/>
-    <clones id="http://redhat.com/rhel/7.0"/>
+    <clones id="http://redhat.com/rhel/7.5"/>
 
     <release-date>2014-07-07</release-date>
 
