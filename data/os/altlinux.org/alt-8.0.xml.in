@@ -1,0 +1,70 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/8.0">
+    <short-id>alt8.0</short-id>
+    <_name>ALT 8 Education</_name>
+    <version>8.0</version>
+    <_vendor>BaseALT</_vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Hypericum</codename>
+    <upgrades id="http://altlinux.org/altlinux/7.0"/>
+    <derives-from id="http://altlinux.org/altlinux/7.0"/>
+
+    <release-date>2016-06-01</release-date>
+    <eol-date>2019-12-16</eol-date>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
+      <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+    </devices>
+
+    <!-- Education -->
+    <media arch="i686">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/education/alt-education-8.2-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT education/i586</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>EDUCATION</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/education/alt-education-8.2-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT education/x86_64</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>EDUCATION</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,122 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/8.1">
+    <short-id>alt8.1</short-id>
+    <_name>ALT 8.1</_name>
+    <version>8.1</version>
+    <_vendor>BaseALT</_vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Hypericum</codename>
+    <upgrades id="http://altlinux.org/alt/8.0"/>
+    <derives-from id="http://altlinux.org/alt/8.0"/>
+
+    <release-date>2016-06-01</release-date>
+    <eol-date>2017-12-30</eol-date>
+
+    <variant id="workstation">
+      <_name>ALT 8.1 Workstation</_name>
+    </variant>
+    <variant id="kworkstation">
+      <_name>ALT 8.1 Workstation K</_name>
+    </variant>
+    <variant id="kworkstation-live">
+      <_name>ALT 8.1 Workstation K</_name>
+    </variant>
+
+    <!-- Workstation -->
+    <media arch="i686">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/workstation/alt-workstation-8.1-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.1/I586</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/workstation/alt-workstation-8.1-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.1/X86_64</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- K Workstation -->
+    <media arch="i686">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/kworkstation/alt-kworkstation-8.1-install-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Workstation K</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.0/I586</application-id>
+        <volume-size>3596533760</volume-size>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/kworkstation/alt-kworkstation-8.1-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Workstation K</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.0/X86_64</application-id>
+        <volume-size>3760128000</volume-size>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="i686" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/kworkstation/alt-kworkstation-8.1-live-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Workstation K</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.0/I586</application-id>
+        <volume-size>2134900736</volume-size>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p8/images/kworkstation/alt-kworkstation-8.1-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Workstation K</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>8.0/X86_64</application-id>
+        <volume-size>2266103808</volume-size>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
