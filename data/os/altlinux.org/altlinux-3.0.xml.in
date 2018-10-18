@@ -11,7 +11,9 @@
     <codename>caprifoil</codename>
     <upgrades id="http://altlinux.org/altlinux/2.4"/>
     <derives-from id="http://altlinux.org/altlinux/2.4"/>
+
     <release-date>2005-03-22</release-date>
+    <eol-date>2007-08-30</eol-date>
 
     <media arch="i686">
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/3.0/iso/compact-3.0.4.iso</url>

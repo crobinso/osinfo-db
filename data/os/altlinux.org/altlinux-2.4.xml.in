@@ -11,7 +11,9 @@
     <codename>Citron</codename>
     <upgrades id="http://altlinux.org/altlinux/2.2"/>
     <derives-from id="http://altlinux.org/altlinux/2.2"/>
+
     <release-date>2004-09-01</release-date>
+    <eol-date>2006-08-30</eol-date>
 
     <media arch="i686">
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/2.4/Master/iso/Master-2.4-install-cd.iso</url>

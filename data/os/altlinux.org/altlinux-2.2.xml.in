@@ -10,6 +10,8 @@
     <distro>altlinux</distro>
     <upgrades id="http://altlinux.org/altlinux/2.0"/>
     <derives-from id="http://altlinux.org/altlinux/2.0"/>
+
     <release-date>2003-03-01</release-date>
+    <eol-date>2005-08-30</eol-date>
   </os>
 </libosinfo>

@@ -11,7 +11,9 @@
     <codename>Centaurus</codename>
     <upgrades id="http://altlinux.org/altlinux/5.0"/>
     <derives-from id="http://altlinux.org/altlinux/5.0"/>
+
     <release-date>2011-10-26</release-date>
+    <eol-date>2013-08-30</eol-date>
 
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->

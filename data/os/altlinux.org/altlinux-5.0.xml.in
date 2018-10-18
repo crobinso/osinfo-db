@@ -11,7 +11,9 @@
     <codename>Ark</codename>
     <upgrades id="http://altlinux.org/altlinux/4.1"/>
     <derives-from id="http://altlinux.org/altlinux/4.1"/>
+
     <release-date>2009-10-29</release-date>
+    <eol-date>2011-08-30</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
