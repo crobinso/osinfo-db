@@ -488,6 +488,30 @@
     </element>
   </define>
 
+  <define name='image'>
+    <element name='image'>
+      <attribute name='arch'>
+        <ref name='archnames'/>
+      </attribute>
+      <attribute name='format'>
+        <ref name='imageformats'/>
+      </attribute>
+      <interleave>
+        <optional>
+          <element name='variant'>
+            <attribute name='id'>
+            </attribute>
+          </element>
+        </optional>
+        <optional>
+          <element name='url'>
+            <ref name='url'/>
+          </element>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+
   <define name='installer'>
     <element name='installer'>
       <zeroOrMore>
@@ -557,6 +581,9 @@
         </zeroOrMore>
         <zeroOrMore>
           <ref name='tree'/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name='image'/>
         </zeroOrMore>
         <zeroOrMore>
           <ref name='installer'/>
@@ -766,6 +793,15 @@
       <value>x86_64</value>
       <value>xtensa</value>
       <value>xtensaeb</value>
+    </choice>
+  </define>
+
+  <define name='imageformats'>
+    <choice>
+      <value>qcow2</value>
+      <value>raw</value>
+      <value>vhdx</value>
+      <value>vmdk</value>
     </choice>
   </define>
 
