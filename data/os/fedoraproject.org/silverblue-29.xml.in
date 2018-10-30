@@ -11,10 +11,10 @@
     <upgrades id="http://fedoraproject.org/silverblue/28"/>
     <derives-from id="http://fedoraproject.org/silverblue/28"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2018-10-30</release-date>
 
     <media arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/test/29_Beta/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-29_Beta-1.5.iso</url>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-29-1.2.iso</url>
       <iso>
         <volume-id>Fedora-SB-ostree-x86_64-29</volume-id>
         <system-id>LINUX</system-id>
