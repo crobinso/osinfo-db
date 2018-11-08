@@ -14,11 +14,6 @@
     <release-date>2017-10-04</release-date>
     <eol-date>2018-10-31</eol-date>
 
-    <devices>
-      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
-      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
-    </devices>
-
     <media arch="x86_64">
       <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/10.4/FreeBSD-10.4-RELEASE-amd64-dvd1.iso</url>
       <iso>
