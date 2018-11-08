@@ -13,11 +13,6 @@
 
     <release-date>2017-07-26</release-date>
 
-    <devices>
-      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
-      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
-    </devices>
-
     <media arch="x86_64">
       <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-dvd1.iso</url>
       <iso>
