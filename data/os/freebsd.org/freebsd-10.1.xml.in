@@ -14,11 +14,6 @@
     <release-date>2014-11-14</release-date>
     <eol-date>2016-12-31</eol-date>
 
-    <devices>
-      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
-      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
-    </devices>
-
     <media arch="x86_64">
       <iso>
         <system-id>FreeBSD</system-id>
