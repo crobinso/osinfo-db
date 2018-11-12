@@ -248,6 +248,11 @@
             <ref name='url'/>
           </attribute>
           <optional>
+            <attribute name='removed'>
+              <ref name='bool'/>
+            </attribute>
+          </optional>
+          <optional>
             <element name='driver'>
               <text/>
             </element>
