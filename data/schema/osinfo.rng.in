@@ -292,6 +292,11 @@
       <attribute name='arch'>
         <ref name='archnamesorwildcard'/>
       </attribute>
+      <optional>
+        <attribute name='inherit'>
+          <ref name='bool'/>
+        </attribute>
+      </optional>
       <interleave>
         <optional>
           <element name='minimum'>
