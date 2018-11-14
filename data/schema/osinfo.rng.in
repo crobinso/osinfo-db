@@ -496,6 +496,11 @@
       <attribute name='format'>
         <ref name='imageformats'/>
       </attribute>
+      <optional>
+        <attribute name='cloud-init'>
+          <ref name='bool'/>
+        </attribute>
+      </optional>
       <interleave>
         <optional>
           <element name='variant'>
