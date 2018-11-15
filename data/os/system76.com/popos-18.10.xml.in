@@ -1,0 +1,58 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://system76.com/popos/18.10">
+    <short-id>popos18.10</short-id>
+    <_name>Pop!_OS 18.10</_name>
+    <version>18.10</version>
+    <_vendor>System76, Inc.</_vendor>
+    <family>linux</family>
+    <distro>popos</distro>
+    <upgrades id="http://system76.com/popos/18.04"/>
+    <derives-from id="http://system76.com/popos/18.04"/>
+
+    <release-date>2018-04-30</release-date>
+
+    <variant id="nvidia">
+      <_name>Pop!_OS 18.10 (NVIDIA)</_name>
+    </variant>
+    <variant id="intel-amd">
+      <_name>Pop!_OS 18.10 (Intel/AMD)</_name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="nvidia"/>
+      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/18.10/amd64/nvidia/3/pop-os_18.10_amd64_nvidia_3.iso</url>
+      <iso>
+        <volume-id>Pop_OS 18.10 amd64</volume-id>
+        <volume-size>2401763328</volume-size>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <variant id="intel-amd"/>
+      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/18.10/amd64/intel/3/pop-os_18.10_amd64_intel_3.iso</url>
+      <iso>
+        <volume-id>Pop_OS 18.10 amd64</volume-id>
+        <volume-size>2145386496</volume-size>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
