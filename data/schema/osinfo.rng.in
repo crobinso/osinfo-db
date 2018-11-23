@@ -368,6 +368,11 @@
         </attribute>
       </optional>
       <optional>
+        <attribute name='installer-script'>
+          <ref name='bool'>
+        </attribute>
+      </optional>
+      <optional>
         <attribute name='installer-reboots'>
           <ref name='num'/>
         </attribute>
