@@ -15,6 +15,7 @@
     <injection-method>cdrom</injection-method>
     <injection-method>disk</injection-method>
     <injection-method>floppy</injection-method>
+    <injection-method>initrd</injection-method>
     <template>
       <xsl:stylesheet
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -87,9 +88,17 @@
 	</xsl:template>
 
         <xsl:template match="/command-line">
-            <xsl:text>ks=hd:</xsl:text>
-            <xsl:call-template name="script-disk"/>
-            <xsl:text>:/</xsl:text>
+            <xsl:text>ks=</xsl:text>
+            <xsl:choose>
+              <xsl:when test="script/preferred-injection-method = 'initrd'">
+                <xsl:text>file:/</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>hd:</xsl:text>
+                <xsl:call-template name="script-disk"/>
+                <xsl:text>:/</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
             <xsl:value-of select="script/expected-filename"/>
         </xsl:template>
 
