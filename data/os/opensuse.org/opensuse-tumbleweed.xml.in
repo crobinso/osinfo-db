@@ -82,6 +82,14 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
+    <tree arch="x86_64">
+      <url>http://download.opensuse.org/pub/opensuse/tumbleweed/repo/oss/</url>
+      <treeinfo>
+        <family>openSUSE Tumbleweed</family>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
     <!-- http://en.opensuse.org/Hardware_requirements -->
       <minimum>
