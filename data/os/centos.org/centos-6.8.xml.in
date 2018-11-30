@@ -126,8 +126,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/rhel/kickstart/jeos'/>
-      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+      <script id='http://centos.org/centos/kickstart/jeos'/>
+      <script id='http://centos.org/centos/kickstart/desktop'/>
     </installer>
   </os>
 </libosinfo>
