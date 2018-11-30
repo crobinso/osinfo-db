@@ -16,6 +16,7 @@
       <param name="admin-password" policy="required"/>
     </config>
     <injection-method>disk</injection-method>
+    <injection-method>initrd</injection-method>
 
     <template>
       <xsl:stylesheet
@@ -95,8 +96,16 @@
         </xsl:template>
 
         <xsl:template match="/command-line">
-            <xsl:text>autoyast=device://sda/</xsl:text>
-            <xsl:value-of select="script/expected-filename"/>
+          <xsl:text>autoyast=</xsl:text>
+          <xsl:choose>
+            <xsl:when test="script-preferred-injection-method = 'initrd'">
+              <xsl:text>file:///</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>device://sda/</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:value-of select="script/expected-filename"/>
         </xsl:template>
 
         <xsl:template match="/install-script-config">
