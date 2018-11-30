@@ -42,6 +42,17 @@
       <initrd>install.amd/initrd.gz</initrd>
     </media>
 
+    <tree arch="i686">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-i386</url>
+      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-amd64</url>
+      <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+
     <installer>
       <script id='http://debian.org/debian/preseed/jeos'/>
       <script id='http://debian.org/debian/preseed/desktop'/>
