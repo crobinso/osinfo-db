@@ -26,24 +26,79 @@
         <storage>4294967296</storage>
       </recommended>
     </resources>
+
+    <variant id="standard">
+      <_name>Alpinelinux 3.8 Standard</_name>
+    </variant>
+    <variant id="extended">
+      <_name>Alpinelinux 3.8 Extended</_name>
+    </variant>
+    <variant id="virtual">
+      <_name>Alpinelinux 3.8 Virtual</_name>
+    </variant>
+    <variant id="xen">
+      <_name>Alpinelinux 3.8 Xen</_name>
+    </variant>
+
+    <!-- Standard Installer !-->
     <media arch="i686">
+      <variant id="standard"/>
       <iso>
-        <volume-id>alpine-.* 3.8.\d x86$</volume-id>
+        <volume-id>alpine-std 3.8.\d x86$</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
+      <variant id="standard"/>
       <iso>
-        <volume-id>alpine-.* 3.8.\d x86_64$</volume-id>
+        <volume-id>alpine-std 3.8.\d x86_64$</volume-id>
       </iso>
     </media>
     <media arch="ppc64le">
+      <variant id="standard"/>
       <iso>
-        <volume-id>alpine-.* 3.8.\d ppc64le$</volume-id>
+        <volume-id>alpine-std 3.8.\d ppc64le$</volume-id>
       </iso>
     </media>
     <media arch="s390x">
+      <variant id="standard"/>
       <iso>
-        <volume-id>alpine-.* 3.8.\d s390x$</volume-id>
+        <volume-id>alpine-std 3.8.\d s390x$</volume-id>
+      </iso>
+    </media>
+
+    <!-- Extended Installer !-->
+    <media arch="i686">
+      <variant id="extended"/>
+      <iso>
+        <volume-id>alpine-ext 3.8.\d x86$</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="extended"/>
+      <iso>
+        <volume-id>alpine-ext 3.8.\d x86_64$</volume-id>
+      </iso>
+    </media>
+
+    <!-- Virtual Installer !-->
+    <media arch="i686">
+      <variant id="virtual"/>
+      <iso>
+        <volume-id>alpine-virt 3.8.\d x86$</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="virtual"/>
+      <iso>
+        <volume-id>alpine-virt 3.8.\d x86_64$</volume-id>
+      </iso>
+    </media>
+
+    <!-- Xen Installer !-->
+    <media arch="x86_64">
+      <variant id="xen"/>
+      <iso>
+        <volume-id>alpine-xen 3.8.\d x86_64$</volume-id>
       </iso>
     </media>
    </os>
