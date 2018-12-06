@@ -61,7 +61,14 @@ volgroup VolGroup00 --pesize=32768 pv.2
 logvol swap --fstype swap --name=LogVol01 --vgname=VolGroup00 --size=768 --grow --maxsize=1536
 logvol / --fstype xfs --name=LogVol00 --vgname=VolGroup00 --size=1024 --grow
 
+<xsl:choose>
+  <xsl:when test="os/version &lt; 29">
 ostreesetup --osname="fedora-workstation" --remote="fedora-<xsl:value-of select="os/version"/>" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/workstation" --nogpg
+  </xsl:when>
+  <xsl:otherwise>
+ostreesetup --osname="fedora-silverblue" --remote="fedora-<xsl:value-of select="os/version"/>" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/silverblue" --nogpg
+  </xsl:otherwise>
+</xsl:choose>
 graphical
 reboot
 
