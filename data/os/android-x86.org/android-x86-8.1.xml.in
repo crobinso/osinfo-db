@@ -1,0 +1,52 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://android-x86.org/android-x86/8.1">
+    <short-id>android-x86-8.1</short-id>
+    <_name>Android-x86 8.1</_name>
+    <version>8.1</version>
+    <_vendor>Android-x86</_vendor>
+    <family>linux</family>
+    <distro>android-x86</distro>
+    <codename>oreo-x86</codename>
+
+    <release-status>prerelease</release-status>
+
+    <media arch="x86_64" live="true">
+      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86_64-8.1-rc2.iso</url>
+      <iso>
+        <volume-id>Android-x86 LiveCD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>899870720</volume-size>
+      </iso>
+      <kernel>kernel</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86-8.1-rc2.iso</url>
+      <iso>
+        <volume-id>Android-x86 LiveCD</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>711997440</volume-size>
+      </iso>
+      <kernel>kernel</kernel>
+      <initrd>initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
