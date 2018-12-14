@@ -369,7 +369,7 @@
       </optional>
       <optional>
         <attribute name='installer-script'>
-          <ref name='bool'>
+          <ref name='bool'/>
         </attribute>
       </optional>
       <optional>
