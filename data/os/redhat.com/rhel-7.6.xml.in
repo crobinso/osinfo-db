@@ -51,6 +51,14 @@
        </iso>
      </media>
 
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>7.6</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="ppc64">
       <minimum>
         <n-cpus>1</n-cpus>
