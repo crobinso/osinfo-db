@@ -10,7 +10,7 @@
     <_vendor>DragonFlyBSD Project</_vendor>
     <upgrades id="http://dragonflybsd.org/dragonflybsd/5.4.0"/>
 
-    <release-date>2018-12-02</release-date>
+    <release-date>2018-12-03</release-date>
 
     <media arch="x86_64">
       <!--
