@@ -299,6 +299,11 @@
       </optional>
       <interleave>
         <optional>
+          <element name='network-install'>
+            <ref name='resource-attr'/>
+          </element>
+        </optional>
+        <optional>
           <element name='minimum'>
             <ref name='resource-attr'/>
           </element>
