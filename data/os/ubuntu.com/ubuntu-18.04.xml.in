@@ -66,6 +66,8 @@
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d)? LTS s390x</volume-id>
       </iso>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <tree arch="i686">

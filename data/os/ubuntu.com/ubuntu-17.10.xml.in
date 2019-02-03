@@ -73,6 +73,8 @@
       <iso>
         <volume-id>Ubuntu-Server 17.10(.\d)? s390x</volume-id>
       </iso>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <installer>

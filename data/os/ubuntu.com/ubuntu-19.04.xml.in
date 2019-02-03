@@ -67,6 +67,8 @@
       <iso>
         <volume-id>Ubuntu-Server 19.04(.\d)? s390x</volume-id>
       </iso>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <tree arch="i686">
