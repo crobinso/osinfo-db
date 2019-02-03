@@ -52,6 +52,8 @@
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d)? LTS arm64</volume-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.1-server-ppc64el.iso</url>

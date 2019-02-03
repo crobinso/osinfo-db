@@ -53,6 +53,8 @@
       <iso>
         <volume-id>Ubuntu-Server 19.04(.\d)? arm64</volume-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/disco-server-ppc64el.iso</url>

@@ -81,6 +81,8 @@
       <iso>
         <volume-id>Ubuntu-Server 17.04(.\d)? arm64</volume-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>http://old-releases.ubuntu.com/releases/zesty/ubuntu-17.04-server-ppc64el.iso</url>

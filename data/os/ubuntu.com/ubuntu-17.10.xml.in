@@ -59,6 +59,8 @@
       <iso>
         <volume-id>Ubuntu-Server 17.10(.\d)? arm64</volume-id>
       </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>http://old-releases.ubuntu.com/releases/artful/ubuntu-17.10-server-ppc64el.iso</url>
