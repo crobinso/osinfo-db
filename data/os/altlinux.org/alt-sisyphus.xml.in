@@ -21,6 +21,8 @@
         <publisher-id>ALT LINUX TEAM</publisher-id>
         <application-id>REGULAR-.*</application-id>
       </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
     </media>
     <media arch="x86_64" live="true">
       <iso>
@@ -29,6 +31,8 @@
         <publisher-id>ALT LINUX TEAM</publisher-id>
         <application-id>REGULAR-.*</application-id>
       </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
     </media>
 
     <resources arch="all">
