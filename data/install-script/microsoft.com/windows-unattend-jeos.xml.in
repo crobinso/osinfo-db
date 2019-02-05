@@ -175,7 +175,7 @@
 			</Password>
 			<Name><xsl:value-of select="config/user-login"/></Name>
 			<DisplayName><xsl:value-of select="config/user-realname"/></DisplayName>
-			<Group>users</Group>
+			<Group>Users</Group>
 		      </LocalAccount>
 		    </LocalAccounts>
 		  </xsl:if>
