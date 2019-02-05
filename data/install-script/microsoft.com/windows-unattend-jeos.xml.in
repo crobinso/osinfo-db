@@ -40,8 +40,11 @@
 
 	<xsl:template name="arch">
 	  <xsl:choose>
-	    <xsl:when test="count(config/hardware-arch) &gt; 0">
-	      <xsl:value-of select="config/hardware-arch"/>
+	    <xsl:when test="config/hardware-arch = 'x86_64'">
+	      <xsl:text>amd64</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="config/hardware-arch = 'i386'">
+	      <xsl:text>x86</xsl:text>
 	    </xsl:when>
 	    <xsl:otherwise>
 	      <xsl:text>x86</xsl:text>
