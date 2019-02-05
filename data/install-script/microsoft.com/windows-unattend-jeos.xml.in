@@ -171,7 +171,7 @@
 		      <LocalAccount wcm:action="add">
 			<Password>
 			  <Value><xsl:value-of select="config/user-password"/></Value>
-			  <PlainText>false</PlainText>
+			  <PlainText>true</PlainText>
 			</Password>
 			<Name><xsl:value-of select="config/user-login"/></Name>
 			<DisplayName><xsl:value-of select="config/user-realname"/></DisplayName>
