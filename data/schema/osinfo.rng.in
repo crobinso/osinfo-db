@@ -412,6 +412,11 @@
             <text/>
           </element>
         </optional>
+        <optional>
+          <zeroOrMore>
+            <ref name='installer'/>
+          </zeroOrMore>
+        </optional>
       </interleave>
     </element>
   </define>
