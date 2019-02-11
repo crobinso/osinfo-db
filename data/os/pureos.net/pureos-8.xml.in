@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://pureos.net/pureos/8">
+    <short-id>pureos8</short-id>
+    <_name>PureOS</_name>
+    <version>8</version>
+    <_vendor>Purism, SPC</_vendor>
+    <family>linux</family>
+    <distro>pureos</distro>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>PureOS 8.0 GNOME Live</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>
