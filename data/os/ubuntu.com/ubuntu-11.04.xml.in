@@ -65,7 +65,7 @@
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <initrd>casper/initrd.lz</initrd>
     </media>
   </os>
 </libosinfo>
