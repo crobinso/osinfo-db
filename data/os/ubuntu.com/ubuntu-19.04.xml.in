@@ -46,7 +46,7 @@
         <volume-id>Ubuntu 19.04(.\d)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64">
       <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/disco-server-arm64.iso</url>
