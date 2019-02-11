@@ -51,7 +51,7 @@
       <iso>
         <volume-id>Ubuntu 17.10(.\d)? amd64</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
+      <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="aarch64">
