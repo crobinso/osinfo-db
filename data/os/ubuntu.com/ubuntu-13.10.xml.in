@@ -32,7 +32,7 @@
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 13.10 i386</volume-id>
+        <volume-id>Ubuntu-Server 13.10(.\d\+?)? i386</volume-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
@@ -40,7 +40,7 @@
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 13.10 amd64</volume-id>
+        <volume-id>Ubuntu-Server 13.10(.\d\+?)? amd64</volume-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
@@ -48,7 +48,7 @@
     <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 13.10 i386</volume-id>
+        <volume-id>Ubuntu 13.10(.\d\+?)? i386</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.lz</initrd>
@@ -56,7 +56,7 @@
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/saucy/ubuntu-13.10-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 13.10 amd64</volume-id>
+        <volume-id>Ubuntu 13.10(.\d\+?)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.lz</initrd>

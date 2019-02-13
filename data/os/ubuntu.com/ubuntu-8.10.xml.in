@@ -19,7 +19,7 @@
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 8.10 i386</volume-id>
+        <volume-id>Ubuntu-Server 8.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -28,7 +28,7 @@
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 8.10 amd64</volume-id>
+        <volume-id>Ubuntu-Server 8.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -38,7 +38,7 @@
     <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-desktop-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 8.10 i386</volume-id>
+        <volume-id>Ubuntu 8.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -47,7 +47,7 @@
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/intrepid/ubuntu-8.10-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 8.10 amd64</volume-id>
+        <volume-id>Ubuntu 8.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>

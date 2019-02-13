@@ -23,7 +23,7 @@
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 5.04 i386</volume-id>
+        <volume-id>Ubuntu 5.04(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -32,7 +32,7 @@
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 5.04 amd64</volume-id>
+        <volume-id>Ubuntu 5.04(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -41,7 +41,7 @@
     <media arch="ppc">
       <url>http://old-releases.ubuntu.com/releases/hoary/ubuntu-5.04-install-powerpc.iso</url>
       <iso>
-        <volume-id>Ubuntu 5.04 ppc</volume-id>
+        <volume-id>Ubuntu 5.04(.\d\+?)? ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/powerpc/vmlinux</kernel>

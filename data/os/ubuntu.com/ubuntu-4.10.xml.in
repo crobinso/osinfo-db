@@ -17,7 +17,7 @@
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 4.10 i386</volume-id>
+        <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -26,7 +26,7 @@
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 4.10 amd64</volume-id>
+        <volume-id>Ubuntu 4.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -36,7 +36,7 @@
     <media arch="i686" live="true" installer="false">
       <url>http://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 4.10 i386</volume-id>
+        <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>

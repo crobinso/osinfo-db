@@ -19,7 +19,7 @@
     <media arch="i686">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 7.04 i386</volume-id>
+        <volume-id>Ubuntu-Server 7.04(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -28,7 +28,7 @@
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 7.04 amd64</volume-id>
+        <volume-id>Ubuntu-Server 7.04(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
@@ -37,7 +37,7 @@
     <media arch="sparc64">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-server-sparc.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 7.04 sparc</volume-id>
+        <volume-id>Ubuntu-Server 7.04(.\d\+?)? sparc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>boot/sparc64</kernel>
@@ -47,7 +47,7 @@
     <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-desktop-i386.iso</url>
       <iso>
-        <volume-id>Ubuntu 7.04 i386</volume-id>
+        <volume-id>Ubuntu 7.04(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
@@ -56,7 +56,7 @@
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/feisty/ubuntu-7.04-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 7.04 amd64</volume-id>
+        <volume-id>Ubuntu 7.04(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
