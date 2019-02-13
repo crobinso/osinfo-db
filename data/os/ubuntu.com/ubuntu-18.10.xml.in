@@ -46,8 +46,8 @@
         <volume-id>Ubuntu-Server 18.10(.\d)? amd64</volume-id>
         <volume-size>923795456</volume-size>
       </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso</url>
