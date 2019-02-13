@@ -1,0 +1,98 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+    <install-script id='http://ubuntu.com/ubuntu/preseed/desktop'>
+        <profile>desktop</profile>
+        <expected-filename>preseed.cfg</expected-filename>
+        <config>
+          <!-- Localization options -->
+          <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
+          <param name="l10n-timezone" policy="optional"/>
+          <param name="l10n-language" policy="optional"/>
+
+          <!-- User options -->
+          <param name="user-login" policy="required"/>
+          <param name="user-realname" policy="optional"/>
+          <param name="user-password" policy="required"/>
+
+          <!-- Misc -->
+          <param name="target-disk" policy="optional"/>
+          <param name="hostname" policy="optional"/>
+        </config>
+        <injection-method>initrd</injection-method>
+        <needs-internet>true</needs-internet>
+        <template>
+          <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+              <xsl:output method="text"/>
+
+              <xsl:template match="/command-line">
+                <xsl:text>file=/</xsl:text>
+                <xsl:value-of select="script/expected-filename"/>
+                <xsl:text> locale=</xsl:text>
+                <xsl:value-of select="config/l10n-language"/>
+                <xsl:text> keyboard-configuration/layoutcode=</xsl:text>
+                <xsl:value-of select="config/l10n-keyboard"/>
+                <xsl:text> hostname=</xsl:text>
+                <xsl:call-template name="hostname"/>
+                <xsl:text> priority=critical console-setup/ask_detect=false domain=unassigned-domain interface=auto</xsl:text>
+                <xsl:text> noprompt boot=casper automatic-ubiquity</xsl:text>
+              </xsl:template>
+
+              <xsl:template name="target-disk">
+                <xsl:choose>
+                  <xsl:when test="config/target-disk != ''">
+                    <xsl:value-of select="config/target-disk"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <!-- IDE -->
+                    <xsl:text>/dev/hda</xsl:text>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:template>
+
+              <xsl:template name="hostname">
+                <xsl:choose>
+                  <xsl:when test="config/hostname != ''">
+                        <xsl:value-of select="config/hostname"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:text>ubuntu</xsl:text>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:template>
+
+              <xsl:template match="/install-script-config">
+d-i pkgsel/include string ubuntu-desktop
+d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
+d-i netcfg/get_hostname string <xsl:call-template name="hostname"/>
+
+d-i partman-auto/disk string <xsl:call-template name="target-disk"/>
+d-i partman-auto/init_automatically_partition select Use the largest continuous free space
+d-i partman-auto/method string regular
+d-i partman/choose_partition select Finish partitioning and write changes to disk
+d-i partman/confirm boolean true
+
+d-i grub-installer/bootdev string <xsl:call-template name="target-disk"/>
+d-i partman/confirm_nooverwrite boolean true
+
+d-i clock-setup/ntp boolean true
+d-i clock-setup/utc boolean true
+d-i time/zone select <xsl:value-of select="config/l10n-timezone"/>
+
+d-i passwd/user-fullname string <xsl:value-of select="config/user-realname"/>
+d-i passwd/username string <xsl:value-of select="config/user-login"/>
+d-i passwd/user-password password <xsl:value-of select="config/user-password"/>
+d-i passwd/user-password-again password <xsl:value-of select="config/user-password"/>
+d-i user-setup/allow-password-weak boolean true
+
+d-i finish-install/reboot_in_progress note
+#Temporary workaround for LP:1258245
+d-i preseed/early_command string chmod 666 /dev/ttyS0
+ubiquity ubiquity/summary note
+ubiquity ubiquity/reboot boolean true
+                </xsl:template>
+            </xsl:stylesheet>
+        </template>
+    </install-script>
+</libosinfo>
