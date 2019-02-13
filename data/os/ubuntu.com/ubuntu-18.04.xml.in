@@ -84,6 +84,7 @@
     </tree>
 
     <installer>
+      <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
     </installer>
   </os>
