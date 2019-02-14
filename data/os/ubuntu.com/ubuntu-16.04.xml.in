@@ -52,7 +52,7 @@
         <volume-id>Ubuntu 16.04(.\d)? LTS i386</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
       <url>http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso</url>
@@ -60,7 +60,7 @@
         <volume-id>Ubuntu 16.04(.\d)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc">
       <url>http://cdimage.ubuntu.com/ubuntu/releases/16.04/release/ubuntu-16.04.5-server-powerpc.iso</url>
