@@ -4,7 +4,7 @@
     <_name>Haiku R1/Alpha1</_name>
     <version>r1alpha1</version>
     <_vendor>Haiku, Inc.</_vendor>
-    <family>beos</family>
+    <family>haiku</family>
     <distro>haiku</distro>
 
     <release-date>2009-09-14</release-date>

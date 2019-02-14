@@ -4,7 +4,7 @@
     <_name>Haiku R1/Alpha3</_name>
     <version>r1alpha3</version>
     <_vendor>Haiku, Inc.</_vendor>
-    <family>beos</family>
+    <family>haiku</family>
     <distro>haiku</distro>
     <upgrades id="http://haiku-os.org/haiku/r1alpha2"/>
     <derives-from id="http://haiku-os.org/haiku/r1alpha2"/>

@@ -4,7 +4,7 @@
     <_name>Haiku Nightly</_name>
     <version>nightly</version>
     <_vendor>Haiku, Inc.</_vendor>
-    <family>beos</family>
+    <family>haiku</family>
     <distro>haiku</distro>
     <upgrades id="http://haiku-os.org/haiku/r1alpha4.1"/>
     <derives-from id="http://haiku-os.org/haiku/r1alpha4.1"/>
