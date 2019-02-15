@@ -884,7 +884,7 @@
   <define name='release-status'>
     <element name='release-status'>
       <data type="string">
-        <param name="pattern">snapshot|prerelease|released</param>
+        <param name="pattern">snapshot|prerelease|released|rolling</param>
       </data>
     </element>
   </define>
