@@ -68,70 +68,21 @@ d-i netcfg/wireless_wep string
 d-i clock-setup/utc boolean true
 d-i time/zone string <xsl:value-of select="config/l10n-timezone"/>
 
-<xsl:if test="os/version &lt; 7.04">
-d-i partman-auto/disk string <xsl:call-template name="target-disk"/>
-</xsl:if>
-<xsl:if test="os/version = 7.04">
-d-i partman-auto/init_automatically_partition select Use the largest continuous free space
-</xsl:if>
 d-i partman-auto/method string regular
-<xsl:choose>
-<xsl:when test="os/version &lt; 7.10">
-d-i partman-auto/choose_recipe select Separate /home partition
-</xsl:when>
-  <xsl:otherwise>
 d-i partman-auto/choose_recipe select home
-</xsl:otherwise>
-</xsl:choose>
 d-i partman/confirm_write_new_label boolean true
-<xsl:choose>
-<xsl:when test="os/version &lt; 7.10">
-d-i partman/choose_partition select Finish partitioning and write changes to disk
-</xsl:when>
-<xsl:otherwise>
 d-i partman/choose_partition select finish
-</xsl:otherwise>
-</xsl:choose>
 d-i partman/confirm boolean true
-<xsl:if test="os/version &gt; 9.10">
 d-i partman/confirm_nooverwrite boolean true
-</xsl:if>
 
 d-i passwd/root-login boolean true
 d-i passwd/make-user boolean false
 d-i passwd/root-password password <xsl:value-of select="config/admin-password"/>
 d-i passwd/root-password-again password <xsl:value-of select="config/admin-password"/>
 
-<xsl:if test="os/version &lt; 6.10">
-d-i pkgsel/install-language-support boolean false
-</xsl:if>
-
-<xsl:choose>
-<xsl:when test="os/version &lt; 7.10">
-tasksel tasksel/first multiselect ubuntu-standard, ubuntu-desktop
-</xsl:when>
-<xsl:otherwise>
 tasksel tasksel/first multiselect standard
-</xsl:otherwise>
-</xsl:choose>
-<xsl:choose>
-<xsl:when test="os/version &lt; 8.04">
-d-i mirror/http/proxy string
-</xsl:when>
-<xsl:when test="os/version = 10.04">
-d-i pkgsel/include/install-recommends boolean true
-d-i pkgsel/include string ltsp-server-standalone openssh-server python-software-properties
-d-i preseed/late_command string chroot /target /usr/sbin/ltsp-update-sshkeys
-</xsl:when>
-<xsl:when test="os/version = 11.04">
-d-i pkgsel/include/install-recommends boolean true
-d-i pkgsel/include string openssh-server
-</xsl:when>
-<xsl:when test="os/version &gt; 11.04">
 d-i pkgsel/include/install-recommends boolean true
 d-i pkgsel/include string openssh-server python-software-properties
-</xsl:when>
-</xsl:choose>
 
 d-i grub-installer/only_debian boolean true
 d-i grub-installer/with_other_os boolean true
@@ -139,15 +90,10 @@ d-i grub-installer/with_other_os boolean true
 d-i apt-setup/security_host string
 base-config apt-setup/security-updates boolean false
 
-<xsl:if test="os/version &gt; 7.04">
 ubiquity ubiquity/summary note
 ubiquity ubiquity/reboot boolean true
-</xsl:if>
 
 d-i finish-install/reboot_in_progress note
-<xsl:if test="os/version &lt; 6.10">
-d-i prebaseconfig/reboot_in_progress note
-</xsl:if>
 
 <xsl:if test="os/version = 13.04">
 ubiquity ubiquity/success_command string sed -i 's/eject -p -m.*/&amp; [ "$prompt" ] || return 0/' /etc/init.d/casper
