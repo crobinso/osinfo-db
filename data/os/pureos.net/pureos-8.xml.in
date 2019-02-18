@@ -9,6 +9,8 @@
     <family>linux</family>
     <distro>pureos</distro>
 
+    <release-status>prerelease</release-status>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
