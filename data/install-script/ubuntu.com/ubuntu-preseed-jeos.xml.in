@@ -55,7 +55,8 @@
           </xsl:choose>
         </xsl:template>
 
-<xsl:template match="/install-script-config">d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
+        <xsl:template match="/install-script-config">
+d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
 d-i console-setup/ask_detect boolean false
 d-i console-setup/layoutcode string <xsl:value-of select="config/l10n-keyboard"/>
 
@@ -151,7 +152,7 @@ d-i prebaseconfig/reboot_in_progress note
 <xsl:if test="os/version = 13.04">
 ubiquity ubiquity/success_command string sed -i 's/eject -p -m.*/&amp; [ "$prompt" ] || return 0/' /etc/init.d/casper
 </xsl:if>
-</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>
