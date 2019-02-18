@@ -18,7 +18,7 @@
 
       <!-- Account options -->
       <param name="admin-password" policy="optional"/>
-      <param name="user-fullname" policy="optional"/>
+      <param name="user-realname" policy="optional"/>
       <param name="user-login" policy="required"/>
       <param name="user-password" policy="optional"/>
       <param name="avatar-location" policy="optional"/>
@@ -336,7 +336,7 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
               </user>
               <user>
                 <encrypted config:type="boolean">false</encrypted>
-                <fullname><xsl:value-of select="config/user-fullname"/></fullname>
+                <fullname><xsl:value-of select="config/user-realname"/></fullname>
                 <user_password><xsl:value-of select="config/user-password"/></user_password>
                 <username><xsl:value-of select="config/user-login"/></username>
               </user>
