@@ -21,15 +21,15 @@
         <xsl:output method="text"/>
 
         <xsl:template match="/command-line">
-            <xsl:text>file=/</xsl:text>
-            <xsl:value-of select="script/expected-filename"/>
-            <xsl:text> locale=</xsl:text>
-            <xsl:value-of select="config/l10n-language"/>
-            <xsl:text> keyboard-configuration/layoutcode=</xsl:text>
-            <xsl:value-of select="config/l10n-keyboard"/>
-            <xsl:text> hostname=</xsl:text>
-            <xsl:call-template name="hostname"/>
-            <xsl:text> priority=critical console-setup/ask_detect=false domain=unassigned-domain interface=auto</xsl:text>
+          <xsl:text>file=/</xsl:text>
+          <xsl:value-of select="script/expected-filename"/>
+          <xsl:text> locale=</xsl:text>
+          <xsl:value-of select="config/l10n-language"/>
+          <xsl:text> keyboard-configuration/layoutcode=</xsl:text>
+          <xsl:value-of select="config/l10n-keyboard"/>
+          <xsl:text> hostname=</xsl:text>
+          <xsl:call-template name="hostname"/>
+          <xsl:text> priority=critical console-setup/ask_detect=false domain=unassigned-domain interface=auto</xsl:text>
         </xsl:template>
 
         <xsl:template name="target-disk">
