@@ -44,16 +44,16 @@
           </xsl:choose>
         </xsl:template>
 
-	<xsl:template name="hostname">
-	  <xsl:choose>
-	    <xsl:when test="config/hostname != ''">
+        <xsl:template name="hostname">
+          <xsl:choose>
+            <xsl:when test="config/hostname != ''">
               <xsl:value-of select="config/hostname"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>ubuntu</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>ubuntu</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
 <xsl:template match="/install-script-config">d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
 d-i console-setup/ask_detect boolean false
