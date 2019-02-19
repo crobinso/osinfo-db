@@ -95,6 +95,13 @@ ubiquity ubiquity/reboot boolean true
 
 d-i finish-install/reboot_in_progress note
 
+# Unfortunately we have to manually force the system to boot without splash screen as,
+# otherwise, the splash would be loaded and the user would have to manually switch to
+# VT[0-6]
+d-i preseed/late_command string \
+    in-target sed -i 's/\(GRUB_CMDLINE_LINUX_DEFAULT=\).*/\1\"\"/g' /etc/default/grub ; \
+    in-target bash -c 'update-grub2' ;
+
 <xsl:if test="os/version = 13.04">
 ubiquity ubiquity/success_command string sed -i 's/eject -p -m.*/&amp; [ "$prompt" ] || return 0/' /etc/init.d/casper
 </xsl:if>
