@@ -46,6 +46,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.lz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="aarch64">
       <url>http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.2-server-arm64.iso</url>
