@@ -36,6 +36,9 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+      </installer>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-server-amd64.iso</url>
@@ -44,6 +47,9 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+      </installer>
     </media>
     <media arch="i686" live="true">
       <url>http://old-releases.ubuntu.com/releases/precise/ubuntu-12.04-desktop-i386.iso</url>
