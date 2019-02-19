@@ -39,6 +39,10 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+      </installer>
     </media>
     <media arch="x86_64" live="true">
       <url>http://cdimage.ubuntu.com/daily-live/current/disco-desktop-amd64.iso</url>
@@ -47,6 +51,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="aarch64">
       <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/disco-server-arm64.iso</url>
