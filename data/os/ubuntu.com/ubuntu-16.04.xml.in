@@ -37,6 +37,10 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="x86_64">
       <url>http://releases.ubuntu.com/16.04/ubuntu-16.04.5-server-amd64.iso</url>
@@ -45,6 +49,10 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="i686" live="true">
       <url>http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-i386.iso</url>
@@ -53,6 +61,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="x86_64" live="true">
       <url>http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso</url>
@@ -61,6 +72,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="ppc">
       <url>http://cdimage.ubuntu.com/ubuntu/releases/16.04/release/ubuntu-16.04.5-server-powerpc.iso</url>
