@@ -61,9 +61,8 @@
       <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.lz</initrd>
     </media>
-
-    <installer>
-      <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
-    </installer>
   </os>
+
+  <!-- The reason there's no installer-script for 13.04 is because the one used for all other
+       ububuntu releases does not work for 13.04. Neither the "jeos" nor the "desktop one. -->
 </libosinfo>
