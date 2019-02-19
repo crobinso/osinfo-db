@@ -37,6 +37,9 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+      </installer>
     </media>
     <media arch="x86_64">
       <url>http://old-releases.ubuntu.com/releases/artful/ubuntu-17.10.1-server-amd64.iso</url>
@@ -45,6 +48,9 @@
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
+      </installer>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/artful/ubuntu-17.10.1-desktop-amd64.iso</url>
