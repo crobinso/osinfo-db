@@ -10,8 +10,8 @@
         <param name="l10n-timezone" policy="optional"/>
         <param name="hostname" policy="optional"/>
         <param name="user-login" policy="required"/>
-        <param name="user-password" policy="required"/>
-        <param name="admin-password" policy="required"/>
+        <param name="user-password" policy="optional"/>
+        <param name="admin-password" policy="optional"/>
         <param name="avatar-location" policy="optional"/>
         <param name="avatar-disk" policy="optional"/>
         <param name="target-disk" policy="optional"/>

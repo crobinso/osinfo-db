@@ -5,7 +5,7 @@
     <profile>jeos</profile>
     <expected-filename>centos.ks</expected-filename>
     <config>
-      <param name="admin-password" policy="optional"/>
+      <param name="admin-password" policy="required"/>
       <param name="l10n-keyboard" policy="optional"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
