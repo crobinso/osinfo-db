@@ -9,7 +9,7 @@
         <param name="l10n-language" policy="optional"/>
         <param name="l10n-timezone" policy="optional"/>
         <param name="hostname" policy="optional"/>
-        <param name="user-login" policy="required"/>
+        <param name="user-login" policy="optional"/>
         <param name="user-password" policy="required"/>
         <param name="admin-password" policy="required"/>
         <param name="script-disk" policy="required"/>
