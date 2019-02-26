@@ -71,7 +71,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>8.0</version>
+        <version>^8.0$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
