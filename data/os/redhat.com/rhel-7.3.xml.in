@@ -51,6 +51,38 @@
        </iso>
      </media>
 
+    <tree arch="ppc64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^7.3$</version>
+        <arch>ppc64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^7.3$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^7.3$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^7.3$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="ppc64">
       <minimum>
         <n-cpus>1</n-cpus>
