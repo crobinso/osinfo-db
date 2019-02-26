@@ -42,6 +42,38 @@
        </iso>
      </media>
 
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="ppc64le">
       <minimum>
         <n-cpus>1</n-cpus>
