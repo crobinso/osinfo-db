@@ -32,6 +32,38 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <tree arch="ppc64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^6.5$</version>
+        <arch>ppc64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^6.5$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="i686">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^6.5$</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^6.5$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
