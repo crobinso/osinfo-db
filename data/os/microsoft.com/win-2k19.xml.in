@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://microsoft.com/win/2k19">
+    <short-id>win2k19</short-id>
+    <_name>Microsoft Windows Server 2019</_name>
+    <version>10.0</version>
+    <_vendor>Microsoft Corporation</_vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/2k16"/>
+    <upgrades id="http://microsoft.com/win/2k16"/>
+
+    <release-date>2018-10-02</release-date>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1400000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>34359738368</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
