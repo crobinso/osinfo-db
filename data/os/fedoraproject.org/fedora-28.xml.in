@@ -50,6 +50,9 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+      </installer>
     </media>
 
     <!-- Server -->
@@ -65,6 +68,9 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
     </media>
 
     <!-- Network Installer !-->
@@ -78,6 +84,9 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
     </media>
 
     <tree arch="x86_64">
