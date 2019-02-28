@@ -54,6 +54,9 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/silverblue/kickstart/desktop'/>
+      </installer>
     </media>
 
     <!-- Network Installer !-->
