@@ -33,7 +33,7 @@
     <!-- Workstation -->
 
     <!-- Live -->
-    <media arch="x86_64" live="true">
+    <media arch="x86_64" live="true" installer-script="false">
       <variant id="workstation"/>
       <url>https://archive.fedoraproject.org/pub/fedora/linux/releases/27/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-27-1.6.iso</url>
       <iso>
