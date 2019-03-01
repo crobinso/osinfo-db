@@ -1,0 +1,17 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://centos.org/centos/5.7">
+    <short-id>centos5.7</short-id>
+    <_name>CentOS 5.7</_name>
+    <version>5.7</version>
+    <_vendor>CentOS</_vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos/5.6"/>
+    <clones id="http://redhat.com/rhel/5.7"/>
+
+    <release-date>2011-09-14</release-date>
+    <eol-date>2017-03-31</eol-date>
+  </os>
+</libosinfo>
