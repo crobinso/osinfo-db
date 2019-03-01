@@ -115,6 +115,7 @@
         <family>Fedora</family>
         <version>29</version>
         <arch>x86_64</arch>
+        <variant>Workstation</variant>
       </treeinfo>
     </tree>
 
@@ -125,6 +126,7 @@
         <family>Fedora</family>
         <version>29</version>
         <arch>x86_64</arch>
+        <variant>Server</variant>
       </treeinfo>
     </tree>
 
