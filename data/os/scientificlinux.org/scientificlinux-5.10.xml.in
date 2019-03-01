@@ -1,0 +1,29 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://scientificlinux.org/scientificlinux/5.10">
+    <short-id>scientificlinux5.10</short-id>
+    <_name>Scientific Linux 5.10</_name>
+    <version>5.10</version>
+    <_vendor>Scientific Linux</_vendor>
+    <family>linux</family>
+    <distro>scientificlinux</distro>
+    <upgrades id="http://scientificlinux.org/scientificlinux/5.9"/>
+    <clones id="http://redhat.com/rhel/5.10"/>
+
+    <release-date>2014-11-14</release-date>
+    <eol-date>2017-03-31</eol-date>
+
+    <!-- .treeinfo is strangely missing here -->
+    <tree arch="x86_64">
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/510/x86_64/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
+    <tree arch="i686">
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/510/i386/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
+  </os>
+</libosinfo>

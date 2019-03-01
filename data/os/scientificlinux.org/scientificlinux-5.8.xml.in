@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://scientificlinux.org/scientificlinux/5.8">
+    <short-id>scientificlinux5.8</short-id>
+    <_name>Scientific Linux 5.8</_name>
+    <version>5.8</version>
+    <_vendor>Scientific Linux</_vendor>
+    <family>linux</family>
+    <distro>scientificlinux</distro>
+    <upgrades id="http://scientificlinux.org/scientificlinux/5.7"/>
+    <clones id="http://redhat.com/rhel/5.8"/>
+
+    <release-date>2012-04-24</release-date>
+    <eol-date>2017-03-31</eol-date>
+
+    <tree arch="x86_64">
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/58/x86_64/</url>
+      <treeinfo>
+        <family>Scientific Linux</family>
+        <version>58</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="i686">
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/58/i386/</url>
+      <treeinfo>
+        <family>Scientific Linux</family>
+        <version>58</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+  </os>
+</libosinfo>
