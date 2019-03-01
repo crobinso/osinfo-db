@@ -31,6 +31,23 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <tree arch="x86_64">
+      <url>http://vault.centos.org/6.4/os/x86_64/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>6.4</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="i686">
+      <url>http://vault.centos.org/6.4/os/i386/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>6.4</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
