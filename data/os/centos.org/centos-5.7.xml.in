@@ -13,5 +13,22 @@
 
     <release-date>2011-09-14</release-date>
     <eol-date>2017-03-31</eol-date>
+
+    <tree arch="x86_64">
+      <url>http://vault.centos.org/5.7/os/x86_64/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>5.7</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="i686">
+      <url>http://vault.centos.org/5.7/os/i386/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>5.7</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
   </os>
 </libosinfo>

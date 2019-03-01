@@ -13,5 +13,16 @@
 
     <release-date>2007-12-02</release-date>
     <eol-date>2017-03-31</eol-date>
+
+    <tree arch="x86_64">
+      <url>http://vault.centos.org/5.1/os/x86_64/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
+    <tree arch="i686">
+      <url>http://vault.centos.org/5.1/os/i386/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
   </os>
 </libosinfo>
