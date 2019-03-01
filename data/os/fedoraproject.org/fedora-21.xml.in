@@ -164,7 +164,7 @@
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/21/Cloud/i386/os/</url>
       <variant id="cloud"/>
       <treeinfo>
-        <family>Fedora</family>
+        <family>Fedora-Cloud</family>
         <version>21</version>
         <arch>i386</arch>
       </treeinfo>
@@ -173,7 +173,7 @@
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/21/Cloud/x86_64/os/</url>
       <variant id="cloud"/>
       <treeinfo>
-        <family>Fedora</family>
+        <family>Fedora-Cloud</family>
         <version>21</version>
         <arch>x86_64</arch>
       </treeinfo>
