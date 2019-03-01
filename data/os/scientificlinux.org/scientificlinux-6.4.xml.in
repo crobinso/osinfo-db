@@ -1,0 +1,43 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://scientificlinux.org/scientificlinux/6.4">
+    <short-id>scientificlinux6.4</short-id>
+    <_name>Scientific Linux 6.4</_name>
+    <version>6.4</version>
+    <_vendor>Scientific Linux</_vendor>
+    <family>linux</family>
+    <distro>scientificlinux</distro>
+    <upgrades id="http://scientificlinux.org/scientificlinux/6.3"/>
+    <clones id="http://redhat.com/rhel/6.4"/>
+
+    <release-date>2013-03-28</release-date>
+    <eol-date>2013-12-01</eol-date>
+
+    <tree arch="x86_64">
+      <!-- treeinfo here has incorrect version 6.1 -->
+      <url>http://ftp1.scientificlinux.org/linux/scientific/6.4/x86_64/os/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
+    <tree arch="i686">
+      <!-- treeinfo here has incorrect version 6.2 -->
+      <url>http://ftp1.scientificlinux.org/linux/scientific/6.4/i386/os/</url>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
