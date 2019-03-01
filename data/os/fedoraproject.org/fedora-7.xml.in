@@ -98,7 +98,7 @@
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
-        <version>7</version>
+        <version>^7$</version>
         <arch>i386</arch>
       </treeinfo>
     </tree>
@@ -106,7 +106,7 @@
       <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/7/Fedora/x86_64/os/</url>
       <treeinfo>
         <family>Fedora</family>
-        <version>7</version>
+        <version>^7$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
