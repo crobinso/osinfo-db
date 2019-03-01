@@ -56,7 +56,7 @@
       <url>http://mirror.centos.org/centos-7/7/os/x86_64/</url>
       <treeinfo>
         <family>CentOS</family>
-        <version>7.0</version>
+        <version>^7$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
