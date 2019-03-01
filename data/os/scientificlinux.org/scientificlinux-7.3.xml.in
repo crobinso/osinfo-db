@@ -1,0 +1,40 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://scientificlinux.org/scientificlinux/7.3">
+    <short-id>scientificlinux7.3</short-id>
+    <_name>Scientific Linux 7.3</_name>
+    <version>7.3</version>
+    <_vendor>Scientific Linux</_vendor>
+    <family>linux</family>
+    <distro>scientificlinux</distro>
+    <upgrades id="http://scientificlinux.org/scientificlinux/7.2"/>
+    <clones id="http://redhat.com/rhel/7.3"/>
+
+    <release-date>2017-01-25</release-date>
+
+    <tree arch="x86_64">
+      <url>http://ftp1.scientificlinux.org/linux/scientific/7.3/x86_64/os/</url>
+      <treeinfo>
+        <family>Scientific</family>
+        <version>7.3</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
