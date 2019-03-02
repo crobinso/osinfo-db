@@ -58,42 +58,42 @@
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
-	<xsl:template name="rootfs">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 10">
-	      <xsl:text>ext4</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>ext3</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+        <xsl:template name="rootfs">
+          <xsl:choose>
+            <xsl:when test="os/version &gt; 10">
+              <xsl:text>ext4</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>ext3</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
-	<xsl:template name="bootfs">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 11">
-	      <xsl:text>ext4</xsl:text>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>ext3</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+        <xsl:template name="bootfs">
+          <xsl:choose>
+            <xsl:when test="os/version &gt; 11">
+              <xsl:text>ext4</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>ext3</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
-	<xsl:template name="keyboard">
-	  <xsl:choose>
-	    <xsl:when test="os/version &gt; 17">
+        <xsl:template name="keyboard">
+          <xsl:choose>
+            <xsl:when test="os/version &gt; 17">
               <xsl:value-of select="config/l10n-keyboard"/>
-	    </xsl:when>
-	    <xsl:otherwise>
+            </xsl:when>
+            <xsl:otherwise>
               <!-- FIXME: F17 and older required keyboard layout to be a console
                    layout so we'll need a different datamap for those but
                    currently we only support one datamap per config param per
                    script. -->
-	      <xsl:text>us</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</xsl:template>
+              <xsl:text>us</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
         <xsl:template match="/command-line">
             <xsl:text>ks=</xsl:text>
@@ -233,7 +233,7 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 " > /etc/gdm/custom.conf
 
 %end
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

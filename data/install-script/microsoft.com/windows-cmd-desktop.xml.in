@@ -78,7 +78,7 @@
           </xsl:choose>
         </xsl:template>
 
-	<xsl:template match="/install-script-config">
+        <xsl:template match="/install-script-config">
 <xsl:if test="os/version &lt; 6.0">
 sc config TlntSvr start= auto
 net user <xsl:value-of select="config/user-realname"/> <xsl:text> </xsl:text> <xsl:value-of select="config/admin-password"/> /add /passwordreq:no
@@ -98,7 +98,7 @@ bcdedit.exe -set TESTSIGNING ON
 for %%i in ("<xsl:call-template name="post-install-drivers-disk"/>:<xsl:value-of select="config/post-install-drivers-location"/>\*.cmd") do cmd /c %%i
 
 EXIT
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

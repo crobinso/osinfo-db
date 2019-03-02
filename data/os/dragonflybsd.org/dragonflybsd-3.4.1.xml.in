@@ -10,6 +10,6 @@
     <_vendor>DragonFlyBSD Project</_vendor>
     <upgrades id="http://dragonflybsd.org/dragonflybsd/3.2.1"/>
 
-	<release-date>2013-04-29</release-date>
+        <release-date>2013-04-29</release-date>
   </os>
 </libosinfo>

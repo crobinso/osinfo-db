@@ -86,7 +86,7 @@
 
              https://fedorahosted.org/rel-eng/ticket/6173
         -->
-	<volume-size>2113044480</volume-size>
+        <volume-size>2113044480</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>

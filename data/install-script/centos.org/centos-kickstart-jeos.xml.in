@@ -135,7 +135,7 @@ url --url="http://mirror.centos.org/centos/<xsl:call-template name="version"/>/o
 @core
 
 %end
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

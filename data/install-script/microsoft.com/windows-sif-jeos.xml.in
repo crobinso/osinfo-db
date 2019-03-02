@@ -21,7 +21,7 @@
 
         <xsl:output method="text"/>
 
-	<xsl:template match="/install-script-config">
+        <xsl:template match="/install-script-config">
 ;SetupMgrTag
 [Data]
     AutoPartition=1
@@ -66,7 +66,7 @@
 
 [Networking]
     InstallDefaultComponents=Yes
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

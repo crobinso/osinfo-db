@@ -12,15 +12,15 @@
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
-	<n-cpus>1</n-cpus>
-	<ram>134217728</ram>
-	<storage>1073741824</storage>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>1073741824</storage>
       </minimum>
       <recommended>
         <cpu>1000000000</cpu>
-	<n-cpus>1</n-cpus>
-	<ram>805306368</ram>
-	<storage>4294967296</storage>
+        <n-cpus>1</n-cpus>
+        <ram>805306368</ram>
+        <storage>4294967296</storage>
       </recommended>
     </resources>
     <media arch="i686">

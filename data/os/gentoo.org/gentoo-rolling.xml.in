@@ -40,7 +40,7 @@
     <resources arch="all">
       <minimum>
         <ram>268435456</ram>
-	<storage>2952790016</storage>
+        <storage>2952790016</storage>
       </minimum>
     </resources>
 

@@ -15,20 +15,20 @@
     <media arch="i686">
       <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.3/i386/install63.iso</url>
       <iso>
-	<publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
-	<system-id>OpenBSD</system-id>
-	<volume-id>OpenBSD/i386    6.3 Install CD</volume-id>
-	<application-id>OpenBSD 6.3 i386 Install CD</application-id>
+        <publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
+        <system-id>OpenBSD</system-id>
+        <volume-id>OpenBSD/i386    6.3 Install CD</volume-id>
+        <application-id>OpenBSD 6.3 i386 Install CD</application-id>
       </iso>
     </media>
 
     <media arch="x86_64">
       <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.3/amd64/install63.iso</url>
       <iso>
-	<publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
-	<system-id>OpenBSD</system-id>
-	<volume-id>OpenBSD/amd64   6.3 Install CD</volume-id>
-	<application-id>OpenBSD 6.3 amd64 Install CD</application-id>
+        <publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
+        <system-id>OpenBSD</system-id>
+        <volume-id>OpenBSD/amd64   6.3 Install CD</volume-id>
+        <application-id>OpenBSD 6.3 amd64 Install CD</application-id>
       </iso>
     </media>
   </os>

@@ -63,7 +63,7 @@
       <variant id="universal-netinst"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/amd64/iso-cd/debian-9.8.0-amd64-netinst.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ amd64 n</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ amd64 n</volume-id>
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
@@ -72,7 +72,7 @@
       <variant id="universal-netinst"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/arm64/iso-cd/debian-9.8.0-arm64-netinst.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ arm64 n</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ arm64 n</volume-id>
       </iso>
       <kernel>install.arm64/vmlinuz</kernel>
       <initrd>install.arm64/initrd.gz</initrd>
@@ -81,7 +81,7 @@
       <variant id="universal-netinst"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/armhf/iso-cd/debian-9.8.0-armhf-netinst.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ armhf n</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ armhf n</volume-id>
       </iso>
       <kernel>install.armhf/vmlinuz</kernel>
       <initrd>install.armhf/initrd.gz</initrd>
@@ -101,7 +101,7 @@
       <variant id="universal"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/amd64/iso-dvd/debian-9.8.0-amd64-DVD-1.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ amd64 1</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ amd64 1</volume-id>
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
@@ -110,7 +110,7 @@
       <variant id="universal"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/arm64/iso-dvd/debian-9.8.0-arm64-DVD-1.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ arm64 1</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ arm64 1</volume-id>
       </iso>
       <kernel>install.arm64/vmlinuz</kernel>
       <initrd>install.arm64/initrd.gz</initrd>
@@ -119,7 +119,7 @@
       <variant id="universal"/>
       <url>http://cdimage.debian.org/cdimage/release/9.8.0/armhf/iso-dvd/debian-9.8.0-armhf-DVD-1.iso</url>
       <iso>
-	<volume-id>Debian 9.(\d)+.(\d)+ armhf 1</volume-id>
+        <volume-id>Debian 9.(\d)+.(\d)+ armhf 1</volume-id>
       </iso>
       <kernel>install.armhf/vmlinuz</kernel>
       <initrd>install.armhf/initrd.gz</initrd>

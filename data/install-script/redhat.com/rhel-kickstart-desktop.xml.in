@@ -153,7 +153,7 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 " > /etc/gdm/custom.conf
 
 %end
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

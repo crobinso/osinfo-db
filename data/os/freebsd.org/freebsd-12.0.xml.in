@@ -35,7 +35,7 @@
       </iso>
     </media>
     <media arch="i686">
-	    <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.0/FreeBSD-12.0-RELEASE-i386-disc1.iso</url>
+            <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.0/FreeBSD-12.0-RELEASE-i386-disc1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>12_0_RELEASE_I386_CD</volume-id>

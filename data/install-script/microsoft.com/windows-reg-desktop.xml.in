@@ -17,14 +17,14 @@
 
         <xsl:output method="text"/>
 
-	<xsl:template match="/install-script-config">
+        <xsl:template match="/install-script-config">
 Windows Registry Editor Version 5.00.
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
 "DefaultUserName"="<xsl:value-of select="config/user-realname"/>"
 "DefaultPassword"="<xsl:value-of select="config/admin-password"/>"
 "AutoAdminLogon"="1"
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

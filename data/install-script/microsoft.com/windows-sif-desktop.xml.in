@@ -52,7 +52,7 @@
          </xsl:choose>
         </xsl:template>
 
-	<xsl:template match="/install-script-config">
+        <xsl:template match="/install-script-config">
 ;SetupMgrTag
 [Data]
     AutoPartition=1
@@ -142,7 +142,7 @@
 [WindowsFirewall.TurnOffFirewall]
     Mode = 0
 </xsl:if>
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>

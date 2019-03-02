@@ -100,7 +100,7 @@ reboot
 @core
 
 %end
-	</xsl:template>
+        </xsl:template>
       </xsl:stylesheet>
     </template>
   </install-script>
