@@ -45,7 +45,7 @@
         <volume-id>Ubuntu 18.04(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
       <installer>
         <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       </installer>
