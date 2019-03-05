@@ -5,7 +5,6 @@ Name: osinfo-db
 Version: @VERSION@
 Release: 1%{?dist}
 License: GPLv2+
-Group: Development/Libraries
 Source: https://releases.pagure.org/libosinfo/%{name}-%{version}.tar.xz
 URL: https://libosinfo.org/
 BuildRequires: intltool
