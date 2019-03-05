@@ -1,0 +1,44 @@
+<libosinfo version="0.0.1">
+  <os id="http://haiku-os.org/haiku/r1beta1">
+    <short-id>haikur1beta1</short-id>
+    <_name>Haiku R1/Beta1</_name>
+    <version>r1beta1</version>
+    <_vendor>Haiku, Inc.</_vendor>
+    <family>haiku</family>
+    <distro>haiku</distro>
+    <upgrades id="http://haiku-os.org/haiku/r1alpha4.1"/>
+    <derives-from id="http://haiku-os.org/haiku/r1alpha4.1"/>
+
+    <release-date>2018-09-28</release-date>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>bootimg</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3325952</volume-size>
+      </iso>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>bootimg</volume-id>
+        <system-id>LINUX</system-id>
+        <volume-size>3325952</volume-size>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>2147483648</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
