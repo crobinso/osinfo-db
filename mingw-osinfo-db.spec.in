@@ -6,7 +6,7 @@ Release: 1%{?dist}
 Summary: Database for libosinfo API
 License: GPLv2+
 Group: Development/Libraries
-Source: https://releases.pagure.io/libosinfo/osinfo-db-%{version}.tar.xz
+Source: https://releases.pagure.org/libosinfo/osinfo-db-%{version}.tar.xz
 URL: https://libosinfo.org/
 
 BuildArch: noarch
