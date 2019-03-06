@@ -91,6 +91,23 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:when test="treel/url != ''">
+              <xsl:value-of select="tree/url"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>http://mirror.centos.org/centos/</xsl:text>
+              <xsl:call-template name="version"/>
+              <xsl:text>/os/</xsl:text>
+              <xsl:call-template name="arch"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media'">
@@ -115,7 +132,7 @@ autopart
 reboot
 
 <xsl:if test="script/installation-source = 'network'">
-url --url="http://mirror.centos.org/centos/<xsl:call-template name="version"/>/os/<xsl:call-template name="arch"/>"
+url --url=<xsl:call-template name="installation-url"/>
 </xsl:if>
 
 %packages
