@@ -20,6 +20,7 @@
     <injection-method>cdrom</injection-method>
     <injection-method>disk</injection-method>
     <injection-method>floppy</injection-method>
+    <injection-method>initrd</injection-method>
     <avatar-format>
       <mime-type>image/png</mime-type>
     </avatar-format>
@@ -65,10 +66,18 @@
         </xsl:template>
 
         <xsl:template match="/command-line">
-            <xsl:text>ks=hd:</xsl:text>
-            <xsl:call-template name="script-disk"/>
-            <xsl:text>:/</xsl:text>
-            <xsl:value-of select="script/expected-filename"/>
+          <xsl:text>ks=</xsl:text>
+          <xsl:choose>
+            <xsl:when test="script/preferred-injection-method = 'initrd'">
+              <xsl:text>file:/</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>hd:</xsl:text>
+              <xsl:call-template name="script-disk"/>
+              <xsl:text>:/</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:value-of select="script/expected-filename"/>
         </xsl:template>
 
         <xsl:template match="/install-script-config">
