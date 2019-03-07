@@ -53,6 +53,17 @@
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="tree/url"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template match="/command-line">
             <xsl:text>ks=hd:</xsl:text>
             <xsl:call-template name="script-disk"/>
@@ -62,8 +73,10 @@
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+<xsl:if test="script/installation-source = 'media'">
 install
 cdrom
+</xsl:if>
 keyboard us
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
@@ -80,6 +93,10 @@ firstboot --disable
 
 autopart
 reboot
+
+<xsl:if test="script/installation-source = 'network'">
+url --url=<xsl:call-template name="installation-url"/>
+</xsl:if>
 
 %packages
 @core
