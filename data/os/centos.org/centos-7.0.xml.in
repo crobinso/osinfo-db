@@ -35,7 +35,7 @@
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>CentOS-7-x86_64-LiveGNOME*</volume-id>
+        <volume-id>CentOS-7-x86_64-(Live)?GNOME*</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
