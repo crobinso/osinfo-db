@@ -59,6 +59,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.lz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="x86_64" live="true">
       <url>http://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso</url>
@@ -67,6 +70,9 @@
       </iso>
       <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.lz</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
 
     <installer>
