@@ -35,8 +35,8 @@
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.3-x86_64-LiveDVD</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <tree arch="x86_64">

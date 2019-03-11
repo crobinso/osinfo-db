@@ -40,16 +40,16 @@
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-i386-LiveCD</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-x86_64-LiveCD</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <!-- Live DVD -->
@@ -58,16 +58,16 @@
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-i386-LiveDVD</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.7-x86_64-LiveDVD</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <!-- Minimal Installer -->

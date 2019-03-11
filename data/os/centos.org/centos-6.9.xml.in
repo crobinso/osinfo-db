@@ -41,8 +41,8 @@
         <volume-id>CentOS-6.9-i386-LiveDVD</volume-id>
         <volume-size>2001133568</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <iso>
@@ -50,8 +50,8 @@
         <volume-id>CentOS-6.9-x86_64-LiveDVD</volume-id>
         <volume-size>2023274496</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
     </media>
 
     <!-- Minimal Installer -->
