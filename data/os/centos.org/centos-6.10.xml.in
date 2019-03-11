@@ -35,7 +35,7 @@
     </media>
 
     <!-- Live DVD -->
-    <media arch="i686" live="true">
+    <media arch="i686" live="true" installer-script="false">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.10-i386-LiveDVD</volume-id>
@@ -44,7 +44,7 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
-    <media arch="x86_64" live="true">
+    <media arch="x86_64" live="true" installer-script="false">
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-6.10-x86_64-LiveDVD</volume-id>

@@ -30,7 +30,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
-    <media arch="x86_64" live="true">
+    <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-gnome"/>
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME.iso</url>
       <iso>
@@ -41,7 +41,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
 
-    <media arch="x86_64" live="true">
+    <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-kde"/>
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveKDE.iso</url>
       <iso>
