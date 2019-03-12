@@ -1,4 +1,3 @@
-
 VPATH = .
 
 ifdef SOURCE_DATE_EPOCH
@@ -50,7 +49,6 @@ V_EXP_1 =
 INTLTOOL_MERGE_OPTS = $(INTLTOOL_MERGE_OPTS_$(V))
 INTLTOOL_MERGE_OPTS_0 = -q
 INTLTOOL_MERGE_OPTS_1 =
-
 
 all: $(ARCHIVE) osinfo-db.spec mingw-osinfo-db.spec
 
@@ -120,10 +118,11 @@ update-po:
           fi; \
         done
 
-check: $(DATA_FILES) $(SCHEMA_FILES)
+lint: $(DATA_FILES) $(SCHEMA_FILES)
 	for xml in `find data -name '*.xml' | sort`; do \
 	  if ! $(XMLLINT) --relaxng data/schema/osinfo.rng --noout $$xml; then \
 	    exit 1; \
 	  fi; \
 	done
 
+check: lint
