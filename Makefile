@@ -20,6 +20,8 @@ GETTEXT_PACKAGE = osinfo-db
 
 SED = sed
 
+TEE = tee
+
 DATA_FILES_IN = $(wildcard $(VPATH)/data/*/*/*.xml.in) $(wildcard $(VPATH)/data/*/*/*/*.xml.in)
 DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 
@@ -31,6 +33,8 @@ ARCHIVE = osinfo-db-$(TODAY).tar.xz
 ZANATA = zanata
 
 XMLLINT = xmllint
+
+PYTHON = python3
 
 V = 0
 
@@ -125,4 +129,15 @@ lint: $(DATA_FILES) $(SCHEMA_FILES)
 	  fi; \
 	done
 
-check: lint
+unit-tests: $(DATA_FILES)
+	@command -v $(PYTHON) > /dev/null; \
+	if [ $$? -eq 0 ] ; then \
+	  for file in tests/test_*.py; do \
+	    log_file=`echo $$file | $(SED) -e 's/\.py/.log/'`; \
+	    INTERNAL_OSINFO_DB_DATA_DIR=data $(PYTHON) -m pytest -s $$file --log-level=info | $(TEE) $$log_file; \
+	  done; \
+	else \
+	  echo "unit-tests are not going to be executed as no $(PYTHON) has been found"; \
+	fi
+
+check: lint unit-tests

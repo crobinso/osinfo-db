@@ -6,6 +6,9 @@ po/osinfo-db.pot
 data/*/*/*.xml
 data/*/*/*/*.xml
 data/schema/osinfo.rng
+tests/__pycache__
+tests/*.log
+.pytest_cache
 *~
 #*
 osinfo-db-*.tar.xz
