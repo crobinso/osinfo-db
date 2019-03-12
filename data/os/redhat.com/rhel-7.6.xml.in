@@ -54,7 +54,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>7.6</version>
+        <version>^7.6$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
