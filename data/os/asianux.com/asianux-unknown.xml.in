@@ -13,7 +13,7 @@
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>Asianux Server 7 (?!SP[12]).+|Asianux Server 4 (?!SP[67]).+).+</volume-id>
+        <volume-id>Asianux Server (7 (?!SP[12])|(4 ?!SP[67])).+</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
