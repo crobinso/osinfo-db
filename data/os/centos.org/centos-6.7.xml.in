@@ -19,7 +19,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
-        <volume-size>3786407936</volume-size>
+        <volume-size>3786326016</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -28,7 +28,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
-        <volume-size>3895459840</volume-size>
+        <volume-size>3894714368</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -75,7 +75,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
-        <volume-size>367001600</volume-size>
+        <volume-size>366696448</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -84,7 +84,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS_6.7_Final</volume-id>
-        <volume-size>414187520</volume-size>
+        <volume-size>413882368</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -95,7 +95,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
-        <volume-size>196083712</volume-size>
+        <volume-size>195758080</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -104,7 +104,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS</volume-id>
-        <volume-size>241172480</volume-size>
+        <volume-size>240156672</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
