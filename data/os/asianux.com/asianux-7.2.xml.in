@@ -15,7 +15,6 @@
 
     <media arch="x86_64">
       <iso>
-        <system-id></system-id>
         <volume-id>Asianux Server 7 SP2 x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
