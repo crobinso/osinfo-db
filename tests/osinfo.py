@@ -37,6 +37,11 @@ class Os():
         return shortid.text
     shortid = property(_get_shortid)
 
+    def _get_distro(self):
+        distro = self._root.find('distro')
+        return distro.text
+    distro = property(_get_distro)
+
 
 class Image():
     def __init__(self, root):
@@ -61,6 +66,13 @@ class Media():
         return None
     url = property(_get_url)
 
+    def _get_iso(self):
+        iso = self._root.find('iso')
+        if iso is not None:
+            return ISO(iso)
+        return None
+    iso = property(_get_iso)
+
 
 class Tree():
     def __init__(self, root):
@@ -84,3 +96,32 @@ class URL():
         logging.info("response: %s; code: %d",
                      responses[response.status_code], response.status_code)
         return response.ok
+
+
+class ISO():
+    def __init__(self, root):
+        self._root = root
+
+    def _get_value(self, name, return_type=str, default=''):
+        entry = self._root.find(name)
+        return return_type(entry.text) if entry is not None else default
+
+    def _get_volumeid(self):
+        return self._get_value('volume-id')
+    volumeid = property(_get_volumeid)
+
+    def _get_publisherid(self):
+        return self._get_value('publisher-id')
+    publisherid = property(_get_publisherid)
+
+    def _get_applicationid(self):
+        return self._get_value('application-id')
+    applicationid = property(_get_applicationid)
+
+    def _get_systemid(self):
+        return self._get_value('system-id')
+    systemid = property(_get_systemid)
+
+    def _get_volumesize(self):
+        return self._get_value('volume-size', int, 0)
+    volumesize = property(_get_volumesize)
