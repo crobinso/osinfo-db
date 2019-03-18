@@ -32,8 +32,6 @@ ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
 ZANATA = zanata
 
-XMLLINT = xmllint
-
 PYTHON = python3
 
 V = 0
@@ -122,14 +120,7 @@ update-po:
           fi; \
         done
 
-lint: $(DATA_FILES) $(SCHEMA_FILES)
-	for xml in `find data -name '*.xml' | sort`; do \
-	  if ! $(XMLLINT) --relaxng data/schema/osinfo.rng --noout $$xml; then \
-	    exit 1; \
-	  fi; \
-	done
-
-unit-tests: $(DATA_FILES)
+unit-tests: $(DATA_FILES) $(SCHEMA_FILES)
 	@command -v $(PYTHON) > /dev/null; \
 	if [ $$? -eq 0 ] ; then \
 	  for file in tests/test_*.py; do \
@@ -140,4 +131,4 @@ unit-tests: $(DATA_FILES)
 	  echo "unit-tests are not going to be executed as no $(PYTHON) has been found"; \
 	fi
 
-check: lint unit-tests
+check: unit-tests
