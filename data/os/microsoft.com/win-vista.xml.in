@@ -18,14 +18,14 @@
       <iso>
         <volume-id>(FB1EVOL|LRMCFRE|FRTMBVOL|FRTMEVOL|FRMBVOL|FRMEVOL|FRMCFRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z0-9]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>(FB1EXVOL|LRMCXFRE|FRTMBXVOL|FRMEXVOL|FRTMEXVOL|FRMBXVOL|FRMCXFRE)_</volume-id>
        <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z0-9]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
 

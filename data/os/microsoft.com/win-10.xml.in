@@ -32,7 +32,7 @@
       <iso>
         <volume-id>(J_)?CEDN?A_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -40,7 +40,7 @@
       <iso>
         <volume-id>(J_)?CEDN?A_X64FREE?_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -50,7 +50,7 @@
       <iso>
         <volume-id>^(J_)?CEN?A_X86FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -58,7 +58,7 @@
       <iso>
         <volume-id>^(J_)?CENN?A_X64FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -68,7 +68,7 @@
       <iso>
         <volume-id>(J_)?CESN?N?_X86FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -76,7 +76,7 @@
       <iso>
         <volume-id>(J_)?CESN?N?_X64FREV_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -86,7 +86,7 @@
       <iso>
         <volume-id>CESE_X86FREE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -94,7 +94,7 @@
       <iso>
         <volume-id>CESE_X64FREE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -103,14 +103,14 @@
       <iso>
         <volume-id>^(J_)?CCSN?A_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
       <iso>
         <volume-id>^(J_)?(CCSN?A|C?CCOMA)_X64FREE?_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
