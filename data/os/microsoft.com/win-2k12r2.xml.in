@@ -30,7 +30,7 @@
       <iso>
         <volume-id>(IRM_SSS_X64FREE?|IRM_SSS_X64CHK|IR3_SSS_X64FREE?|IR5_SSS_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -38,7 +38,7 @@
       <iso>
         <volume-id>(IRM_SSSO_X64CHK|IR5_SSSO_X64FREE?|IRM_SSSO_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -46,7 +46,7 @@
       <iso>
         <volume-id>(IRM_SHV_X64CHK|IRM_SHV_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -54,7 +54,7 @@
       <iso>
         <volume-id>(IR5_SSS_X64FREV|IR2_SSS_X64FREV|IR1_SSS_X64FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64">
@@ -62,7 +62,7 @@
       <iso>
         <volume-id>(IRM_SFST_X64FREO|IR5_SFST_X64FREO)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
 

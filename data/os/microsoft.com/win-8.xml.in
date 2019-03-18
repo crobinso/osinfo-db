@@ -31,14 +31,14 @@
       <iso>
         <volume-id>(HB1_CCPA_X86FRE|HRM_CCSN?A_X86FRE)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
       <iso>
         <volume-id>(HB1_CCPA_X64FREE?|HRM_CCSN?A_X64FREE?)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -48,7 +48,7 @@
       <iso>
         <volume-id>(HRM_CCSN?A_X86CHK)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
@@ -56,7 +56,7 @@
       <iso>
         <volume-id>(HRM_CCSN?A_X64CHK)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -66,7 +66,7 @@
       <iso>
         <volume-id>(HRM_CENN?A_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
@@ -74,7 +74,7 @@
       <iso>
         <volume-id>(HRM_CENN?A_X64FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -84,7 +84,7 @@
       <iso>
         <volume-id>(HRM_CENN?A_X86CHKV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
@@ -92,7 +92,7 @@
       <iso>
         <volume-id>(HRM_CENN?A_X64CHKV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -102,7 +102,7 @@
       <iso>
         <volume-id>(HRM_CPRN?A_X86FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
     <media arch="x86_64" installer-reboots="2">
@@ -110,7 +110,7 @@
       <iso>
         <volume-id>(HRM_CPRN?A_X64FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[[:upper:][:digit:]_]*_([[:upper:]]*-[[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z[:digit:]_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
 

@@ -23,7 +23,7 @@
       <iso>
         <volume-id>(WXPFPP|WXHFPP|WXPCCP|WXHCCP|WXPOEM|WXHOEM|WXPVOL|WXPEVL|XRMPFPP|XRMHFPP|XRMPCCP|XRMHCCP|XRMPOEM|XRMHOEM|XRMPVOL|XRMSD2|X1APFPP|X1AHFPP|X1APCCP|X1APCCP|X1AHCCP|X1APOEM|X1AHOEM|X1APVOL|VRMPFPP|VRMHFPP|VRMPCCP|VRMHCCP|VRMPOEM|VRMHOEM|VRMPVOL|VRMSD2|VX2PFPP|VX2HFPP|VX2PCCP|VX2HCCP|VX2POEM|VX2HOEM|VX2PRMFPP|VX2PVOL|GRTMUPD|GRTMPFPP|GRTMPRMFPP|GRTMHFPP|GRTMHKFPP|GRTMHKNFPP|GRTMHRMFPP|GRTMPOEM|GRTMHOEM|GRTMPVOL|GRTMPKNVOL|GRTMPKVOL|GRTMPRMVOL|MX2PFPP|MRMSD2)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
 
@@ -31,7 +31,7 @@
       <iso>
         <volume-id>(ARMPXFPP|ARMPXCCP|ARMPXOEM|ARMPXVOL|AX2PXCFPP|AX2PXFPP)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
-        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
 

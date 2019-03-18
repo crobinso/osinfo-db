@@ -17,7 +17,7 @@
     <media arch="i686">
       <iso>
           <volume-id>(W2AFPP|SP1AFPP|SP2AFPP|YRMAFPP|ZRMAFPP|W2AOEM|SP1AOEM|SP2AOEM|YRMAOEM|ZRMAOEM|W2ASEL|SP2ASEL|W2SFPP|SP1SFPP|SP2SFPP|YRMSFPP|ZRMSFPP|W2SOEM|W2SOEM|SP1SOEM|SP2SOEM|YRMSOEM|ZRMSOEM|W2SSEL|SP2SSEL|W2PFPP|SP1PFPP|SP2PFPP|YRMPFPP|ZRMPFPP|W2POEM|SP1POEM|SP2POEM|YRMPOEM|ZRMPOEM|W2PSEL|SP2PSEL|W2PCCP|WIN2000|W2K_SP4)</volume-id>
-          <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[[:upper:][:digit:]]*_([[:upper:]]*)</l10n-language>
+          <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z[:digit:]]*_([A-Z]*)</l10n-language>
       </iso>
     </media>
 
