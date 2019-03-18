@@ -72,7 +72,7 @@
       <variant id="workstation-netinst"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Workstation/i386/iso/Fedora-Workstation-netinst-i386-23.iso</url>
       <iso>
-        <volume-id>Fedora-WS-23(_[[:alpha:]]*)*-i386</volume-id>
+        <volume-id>Fedora-WS-23(_[A-Za-z]*)*-i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -82,7 +82,7 @@
       <variant id="workstation-netinst"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-23.iso</url>
       <iso>
-        <volume-id>Fedora-WS-23(_[[:alpha:]]*)*-x86_64</volume-id>
+        <volume-id>Fedora-WS-23(_[A-Za-z]*)*-x86_64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -96,7 +96,7 @@
       <variant id="server"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Server/i386/iso/Fedora-Server-DVD-i386-23.iso</url>
       <iso>
-        <volume-id>Fedora-S-23(_[[:alpha:]]*)*-i386</volume-id>
+        <volume-id>Fedora-S-23(_[A-Za-z]*)*-i386</volume-id>
         <system-id>LINUX</system-id>
         <!-- We need volume-size to distinguish DVD from netiso here:
 
@@ -111,7 +111,7 @@
       <variant id="server"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Server/x86_64/iso/Fedora-Server-DVD-x86_64-23.iso</url>
       <iso>
-        <volume-id>Fedora-S-23(_[[:alpha:]]*)*-x86_64</volume-id>
+        <volume-id>Fedora-S-23(_[A-Za-z]*)*-x86_64</volume-id>
         <system-id>LINUX</system-id>
         <volume-size>2149087232</volume-size>
       </iso>
@@ -124,7 +124,7 @@
       <variant id="server-netinst"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Server/i386/iso/Fedora-Server-netinst-i386-23.iso</url>
       <iso>
-        <volume-id>Fedora-S-23(_[[:alpha:]]*)*-i386</volume-id>
+        <volume-id>Fedora-S-23(_[A-Za-z]*)*-i386</volume-id>
         <system-id>LINUX</system-id>
         <volume-size>479557632</volume-size>
       </iso>
@@ -135,7 +135,7 @@
       <variant id="server-netinst"/>
       <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/23/Server/x86_64/iso/Fedora-Server-netinst-x86_64-23.iso</url>
       <iso>
-        <volume-id>Fedora-S-23(_[[:alpha:]]*)*-x86_64</volume-id>
+        <volume-id>Fedora-S-23(_[A-Za-z]*)*-x86_64</volume-id>
         <system-id>LINUX</system-id>
         <volume-size>435079168</volume-size>
       </iso>
