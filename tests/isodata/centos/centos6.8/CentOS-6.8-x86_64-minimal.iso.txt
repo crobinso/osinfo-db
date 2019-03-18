@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: CentOS_6.8_Final
+Volume set id: 
+Publisher id: CentOS Project
+Data preparer id: CentOS
+Application id: CentOS_6.8_Final
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 228451
+El Torito VD version 1 found, boot catalog is in sector 81
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID 'CentOS Project'
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff 10C 268

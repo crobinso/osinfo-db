@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: FreeBSD
+Volume id: Haiku
+Volume set id: 
+Publisher id: 
+Data preparer id: 
+Application id: MKISOFS ISO 9660/HFS FILESYSTEM BUILDER & CDRECORD CD-R/DVD CREATOR (C) 1993 E.YOUNGDALE (C) 1997 J.PEARSON/J.SCHILLING
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 339981
+El Torito VD version 1 found, boot catalog is in sector 2102
+NO Joliet present
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID ''
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 3 (2.88MB Floppy)
+        Load segment 0
+        Sys type 0
+        Nsect 1
+        Bootoff 837 2103

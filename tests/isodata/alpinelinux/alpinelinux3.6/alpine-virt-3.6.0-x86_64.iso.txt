@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: alpine-virt 3.6.0 x86_64
+Volume set id: 
+Publisher id: 
+Data preparer id: XORRISO-1.4.6 2016.09.16.133001, LIBISOBURN-1.4.6, LIBISOFS-1.4.6, LIBBURN-1.4.6
+Application id: 
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 17408
+El Torito VD version 1 found, boot catalog is in sector 42
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID ''
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff 2B 43

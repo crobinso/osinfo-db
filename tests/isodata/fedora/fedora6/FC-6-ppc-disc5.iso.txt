@@ -1,0 +1,16 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: FEDORA
+Volume set id: FC-6 ppc
+Publisher id: 
+Data preparer id: 
+Application id: FC-6 ppc
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 348922
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found

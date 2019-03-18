@@ -1,0 +1,17 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: CR0SCD2_EN
+Volume set id: CR0SCD2_EN
+Publisher id: MICROSOFT CORPORATION
+Data preparer id: MICROSOFT CORPORATION, ONE MICROSOFT WAY, REDMOND WA 98052, (425) 882-8080
+Application id: CDIMAGE 2.52 (03/09/2004 TM)
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 62360
+NO Joliet present
+
+No SUSP/Rock Ridge present

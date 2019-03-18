@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: IR5_CCSNA_X64FRE_EN-US_DV9
+Volume set id: IR5_CCSNA_X64FRE_EN-US_DV9
+Publisher id: MICROSOFT CORPORATION
+Data preparer id: MICROSOFT CORPORATION, ONE MICROSOFT WAY, REDMOND WA 98052, (425) 882-8080
+Application id: CDIMAGE 2.53 (01/01/2005 TM)
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 1990169
+El Torito VD version 1 found, boot catalog is in sector 22
+NO Joliet present
+NO Rock Ridge present
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID 'Microsoft Corporation'
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 8
+        Bootoff 86A 2154

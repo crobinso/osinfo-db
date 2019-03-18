@@ -1,0 +1,17 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: Ubuntu-Server 17.04 ppc64
+Volume set id: 
+Publisher id: 
+Data preparer id: 
+Application id: GENISOIMAGE ISO 9660/HFS FILESYSTEM CREATOR (C) 1993 E.YOUNGDALE (C) 1997-2006 J.PEARSON/J.SCHILLING (C) 2006-2007 CDRKIT TEAM
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 362532
+CD-ROM uses ISO 9660:1999 relaxed format
+NO Joliet present
+Rock Ridge signatures version 1 found

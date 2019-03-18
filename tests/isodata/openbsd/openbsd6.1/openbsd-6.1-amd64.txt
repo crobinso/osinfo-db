@@ -1,0 +1,33 @@
+CD-ROM is in ISO 9660 format
+System id: OpenBSD
+Volume id: OpenBSD/amd64   6.1 Install CD
+Volume set id: 
+Publisher id: Copyright (c) 2017 Theo de Raadt, The OpenBSD project
+Data preparer id: Theo de Raadt <deraadt@openbsd.org>
+Application id: OpenBSD 6.1 amd64 Install CD
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 107214
+El Torito VD version 1 found, boot catalog is in sector 26193
+NO Joliet present
+
+SUSP signatures version 1 found
+Rock Ridge signatures version 1 found
+Rock Ridge id 'RRIP_1991A'
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID 'Copyright (c) 2017 Theo'
+    Cksum FF D5 OK
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff A15F 41311

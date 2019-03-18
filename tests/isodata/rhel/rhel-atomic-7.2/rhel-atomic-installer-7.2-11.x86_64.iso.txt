@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: Red Hat Enterprise Linux Atomic
+Volume set id: 
+Publisher id: 
+Data preparer id: 
+Application id: GENISOIMAGE ISO 9660/HFS FILESYSTEM CREATOR (C) 1993 E.YOUNGDALE (C) 1997-2006 J.PEARSON/J.SCHILLING (C) 2006-2007 CDRKIT TEAM
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 359806
+El Torito VD version 1 found, boot catalog is in sector 46
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID ''
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff 497F 18815

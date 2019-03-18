@@ -1,0 +1,16 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: Debian 9.0.0 armhf 1
+Volume set id: 
+Publisher id: 
+Data preparer id: XORRISO-1.3.6 2014.04.08.180000, LIBISOBURN-1.3.6, LIBISOFS-1.3.6, LIBBURN-1.3.6
+Application id: 
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 2292273
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found

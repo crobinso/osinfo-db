@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: Simply Linux/x86_64
+Volume set id: Simply Linux
+Publisher id: BASEALT LTD
+Data preparer id: XORRISO-1.3.4 2013.12.12.103001, LIBISOBURN-1.3.4, LIBISOFS-1.3.4, LIBBURN-1.3.4
+Application id: 8.2.0/X86_64
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 2304288
+El Torito VD version 1 found, boot catalog is in sector 670
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID ''
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff 29F 671
