@@ -15,7 +15,7 @@
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>.*RHEL-8-(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9])-([0-9]|[1-9][0-9]))).*x86_64.*</volume-id>
+        <volume-id>.*RHEL-8-([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -24,28 +24,28 @@
     <media arch="aarch64">
        <iso>
          <system-id>LINUX</system-id>
-         <volume-id>RHEL-8-(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9])-([0-9]|[1-9][0-9]))).*aarch64$</volume-id>
+         <volume-id>RHEL-8-([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*aarch64$</volume-id>
        </iso>
      </media>
 
     <media arch="ppc64le">
        <iso>
          <system-id>PPC</system-id>
-         <volume-id>RHEL[_-]8[_-](([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9])[_-]([0-9]|[1-9][0-9]))).*ppc64le$</volume-id>
+         <volume-id>RHEL[_-]8[_-]([1-9]|[1-9][0-9])([_-]([0-9]|[1-9][0-9]))?.*ppc64le$</volume-id>
        </iso>
      </media>
 
     <media arch="s390x">
        <iso>
          <system-id>LINUX</system-id>
-         <volume-id>RHEL-8-(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9])-([0-9]|[1-9][0-9]))).*s390x$</volume-id>
+         <volume-id>RHEL-8-([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*s390x$</volume-id>
        </iso>
      </media>
 
     <tree arch="aarch64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <version>^8.([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?$</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
@@ -53,7 +53,7 @@
     <tree arch="ppc64le">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <version>^8.([1-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
         <arch>ppc64le</arch>
       </treeinfo>
     </tree>
@@ -61,7 +61,7 @@
     <tree arch="s390x">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <version>^8.([1-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
         <arch>s390x</arch>
       </treeinfo>
     </tree>
@@ -69,7 +69,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.(([1-9]|[1-9][0-9])|(([0-9]|[1-9][0-9]).([0-9]|[1-9][0-9])))$</version>
+        <version>^8.([1-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>

@@ -36,10 +36,13 @@
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
     </devices>
 
+    <!-- RHEL 8.0 entries have to cope both with 8.0 and 8.0.x regexes for
+         medias' volume-id and trees' version -->
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>RHEL-8-0-BaseOS-x86_64</volume-id>
+        <volume-id>RHEL-8-0-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -48,7 +51,7 @@
     <media arch="ppc64le">
       <iso>
         <system-id>PPC</system-id>
-        <volume-id>RHEL[_-]8[_-]0[_-]BaseOS[_-]ppc64le</volume-id>
+        <volume-id>RHEL[_-]8[_-]0[_-](([0-9]|[1-9][0-9])[_-])?BaseOS[_-]ppc64le</volume-id>
       </iso>
       <kernel>ppc/ppc64/vmlinuz</kernel>
       <initrd>ppc/ppc64/initrd.img</initrd>
@@ -57,21 +60,21 @@
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>RHEL-8-0-BaseOS-aarch64</volume-id>
+        <volume-id>RHEL-8-0-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
       </iso>
     </media>
 
     <media arch="s390x">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>RHEL-8-0-BaseOS-s390x</volume-id>
+        <volume-id>RHEL-8-0-(([0-9]|[1-9][0-9])-)?BaseOS-s390x</volume-id>
       </iso>
     </media>
 
     <tree arch="aarch64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>8.0$</version>
+        <version>^8.0(.([0-9]|[1-9][0-9]))?$</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
@@ -79,7 +82,7 @@
     <tree arch="ppc64le">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.0$</version>
+        <version>^8.0(.([0-9]|[1-9][0-9]))?$</version>
         <arch>ppc64le</arch>
       </treeinfo>
     </tree>
@@ -87,7 +90,7 @@
     <tree arch="s390x">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.0$</version>
+        <version>^8.0(.([0-9]|[1-9][0-9]))?$</version>
         <arch>s390x</arch>
       </treeinfo>
     </tree>
@@ -95,7 +98,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.0$</version>
+        <version>^8.0(.([0-9]|[1-9][0-9]))?$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
@@ -103,7 +106,7 @@
     <tree arch="aarch64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^8.0$</version>
+        <version>^8.0(.([0-9]|[1-9][0-9]))?$</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
