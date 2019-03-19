@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 
 from . import osinfo
 
+
 def _get_files(directory):
     files = []
     datadir = os.environ.get('INTERNAL_OSINFO_DB_DATA_DIR')
@@ -20,12 +21,14 @@ def _get_files(directory):
         logging.error('INTERNAL_OSINFO_DB_DATA_DIR is not set')
     return files
 
+
 def _get_os(path):
     tree = ET.parse(path)
     root = tree.getroot()
 
     _os = root.find('os')
     return _os
+
 
 def oses():
     _oses = []
@@ -35,8 +38,10 @@ def oses():
             _oses.append(osinfo.Os(_get_os(_file)))
     return _oses
 
+
 def xmls():
     return _get_files('')
+
 
 def schema():
     _schema = None

@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import os
 import pytest
 
@@ -9,8 +8,10 @@ from . import util
 
 OSES = util.oses()
 
+
 def _os_id(_os):
     return _os.shortid
+
 
 @pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
@@ -23,6 +24,7 @@ def test_images_url(_os):
                 broken.append(image.url)
     assert broken == []
 
+
 @pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
@@ -33,6 +35,7 @@ def test_medias_url(_os):
             if not media.url.check():
                 broken.append(media.url)
     assert broken == []
+
 
 @pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,

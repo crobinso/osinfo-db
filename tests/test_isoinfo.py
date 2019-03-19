@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import logging
 import os
 import re
@@ -11,8 +10,10 @@ from . import util
 
 OSES = util.oses()
 
+
 def _os_id(_os):
     return _os.shortid
+
 
 @pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
 def test_iso_detection(_os):
@@ -39,7 +40,7 @@ def test_iso_detection(_os):
                     # set as part of our DB, thus multiple detections may
                     # occur. Although this case is not the optimal, as long
                     # as we detect the very same distro it's okay-ish.
-                    if not __os.shortid in detected:
+                    if __os.shortid not in detected:
                         detected.append(__os.shortid)
 
         if len(detected) != 1:
@@ -74,7 +75,8 @@ class _ISODataMedia():
         if volumesize == 0:
             volumesize = self.volumesize
 
-        logging.warning("media.volumeid: %s | self.volumeid: %s", media.volumeid, self.volumeid)
+        logging.warning("media.volumeid: %s | self.volumeid: %s",
+                media.volumeid, self.volumeid)
         if bool(re.match(media.volumeid, self.volumeid)) and \
            bool(re.match(media.publisherid, self.publisherid)) and \
            bool(re.match(media.applicationid, self.applicationid)) and \
@@ -84,28 +86,36 @@ class _ISODataMedia():
 
         return False
 
+
 def _get_value(string, prefix, return_type=str):
     if string.startswith(prefix):
         return return_type(string.split(': ')[-1].strip())
     return None
 
+
 def _get_volumeid(string):
     return _get_value(string, 'Volume id: ')
+
 
 def _get_publisherid(string):
     return _get_value(string, 'Publisher id: ')
 
+
 def _get_systemid(string):
     return _get_value(string, 'System id: ')
+
 
 def _get_applicationid(string):
     return _get_value(string, 'Application id: ')
 
+
 def _get_logicalblock(string):
     return _get_value(string, 'Logical block size is: ', int)
 
+
 def _get_volumesize(string):
     return _get_value(string, 'Volume size is: ', int)
+
 
 def _get_isodatamedia(filepath, shortid):
     volumeid = None
@@ -137,6 +147,7 @@ def _get_isodatamedia(filepath, shortid):
 
     return _ISODataMedia(filepath, shortid, volumeid, publisherid, systemid,
                          applicationid, volumesize)
+
 
 def _get_isodatamedias(_os):
     isodata_path = os.path.join(

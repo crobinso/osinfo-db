@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 from http.client import responses
 
 import logging
