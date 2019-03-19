@@ -2,8 +2,9 @@
 # See the COPYING file in the top-level directory.
 
 from http.client import responses
-
 import logging
+import re
+
 import requests
 
 
@@ -126,19 +127,19 @@ class ISO():
         return return_type(entry.text) if entry is not None else default
 
     def _get_volumeid(self):
-        return self._get_value('volume-id')
+        return re.compile(self._get_value('volume-id'))
     volumeid = _cache_property(_get_volumeid)
 
     def _get_publisherid(self):
-        return self._get_value('publisher-id')
+        return re.compile(self._get_value('publisher-id'))
     publisherid = _cache_property(_get_publisherid)
 
     def _get_applicationid(self):
-        return self._get_value('application-id')
+        return re.compile(self._get_value('application-id'))
     applicationid = _cache_property(_get_applicationid)
 
     def _get_systemid(self):
-        return self._get_value('system-id')
+        return re.compile(self._get_value('system-id'))
     systemid = _cache_property(_get_systemid)
 
     def _get_volumesize(self):

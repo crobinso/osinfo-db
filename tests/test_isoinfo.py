@@ -3,7 +3,6 @@
 
 import logging
 import os
-import re
 import pytest
 
 from . import util
@@ -58,21 +57,14 @@ class _ISODataMedia():
         self.volumesize = volumesize if volumesize is not None else 0
 
     def match(self, media):
-        if media.volumeid == '' and \
-           media.systemid == '' and \
-           media.publisherid == '' and \
-           media.applicationid == '' and \
-           media.volumesize == 0:
-            return False
-
         volumesize = media.volumesize
         if volumesize == 0:
             volumesize = self.volumesize
 
-        if bool(re.match(media.volumeid, self.volumeid)) and \
-           bool(re.match(media.publisherid, self.publisherid)) and \
-           bool(re.match(media.applicationid, self.applicationid)) and \
-           bool(re.match(media.systemid, self.systemid)) and \
+        if bool(media.volumeid.match(self.volumeid)) and \
+           bool(media.publisherid.match(self.publisherid)) and \
+           bool(media.applicationid.match(self.applicationid)) and \
+           bool(media.systemid.match(self.systemid)) and \
            volumesize == self.volumesize:
             return True
 
