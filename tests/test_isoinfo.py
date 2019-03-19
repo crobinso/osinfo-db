@@ -69,8 +69,6 @@ class _ISODataMedia():
         if volumesize == 0:
             volumesize = self.volumesize
 
-        logging.warning("media.volumeid: %s | self.volumeid: %s",
-                media.volumeid, self.volumeid)
         if bool(re.match(media.volumeid, self.volumeid)) and \
            bool(re.match(media.publisherid, self.publisherid)) and \
            bool(re.match(media.applicationid, self.applicationid)) and \
