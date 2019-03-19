@@ -9,14 +9,7 @@ import pytest
 from . import util
 
 
-OSES = util.DataFiles.oses()
-
-
-def _os_id(_os):
-    return _os.shortid
-
-
-@pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
+@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
 def test_iso_detection(_os):
     expensive = os.environ.get('OSINFO_DB_ENABLE_EXPENSIVE')
     if expensive is not None:
@@ -24,7 +17,7 @@ def test_iso_detection(_os):
     expensive = bool(expensive)
     for isodatamedia in _get_isodatamedias(_os):
         detected = []
-        for __os in OSES:
+        for __os in util.DataFiles.oses():
             if not expensive and _os.shortid != __os.shortid:
                 continue
             for media in __os.medias:

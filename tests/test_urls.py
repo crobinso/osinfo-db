@@ -7,14 +7,7 @@ import pytest
 from . import util
 
 
-OSES = util.DataFiles.oses()
-
-
-def _os_id(_os):
-    return _os.shortid
-
-
-@pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
+@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_images_url(_os):
@@ -26,7 +19,7 @@ def test_images_url(_os):
     assert broken == []
 
 
-@pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
+@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_medias_url(_os):
@@ -38,7 +31,7 @@ def test_medias_url(_os):
     assert broken == []
 
 
-@pytest.mark.parametrize('_os', [*OSES], ids=_os_id)
+@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_trees_url(_os):
