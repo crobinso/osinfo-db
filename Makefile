@@ -125,7 +125,7 @@ unit-tests: $(DATA_FILES) $(SCHEMA_FILES)
 	if [ $$? -eq 0 ] ; then \
 	  for file in tests/test_*.py; do \
 	    log_file=`echo $$file | $(SED) -e 's/\.py/.log/'`; \
-	    INTERNAL_OSINFO_DB_DATA_DIR=data $(PYTHON) -m pytest -s $$file --log-level=info | $(TEE) $$log_file; \
+	    $(PYTHON) -m pytest -s $$file --log-level=info | $(TEE) $$log_file; \
 	  done; \
 	else \
 	  echo "unit-tests are not going to be executed as no $(PYTHON) has been found"; \
