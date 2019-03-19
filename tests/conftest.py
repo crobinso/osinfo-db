@@ -12,3 +12,7 @@ def _setup_env():
 
 
 _setup_env()
+
+# This will trigger some DATA_DIR validation
+from . import util
+dummy = util

@@ -7,8 +7,8 @@ import pytest
 from . import util
 
 
-XMLS = util.xmls()
-SCHEMA = util.schema()
+XMLS = util.DataFiles.xmls()
+SCHEMA = util.DataFiles.schema
 PARSER = libxml2.relaxNGNewParserCtxt(SCHEMA)
 VALID = PARSER.relaxNGParse().relaxNGNewValidCtxt()
 

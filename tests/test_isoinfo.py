@@ -9,7 +9,7 @@ import pytest
 from . import util
 
 
-OSES = util.oses()
+OSES = util.DataFiles.oses()
 
 
 def _os_id(_os):
