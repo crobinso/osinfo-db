@@ -38,11 +38,10 @@ def test_iso_detection(_os):
 
 
 class _ISODataMedia():
-    def __init__(self, filename, shortid, volumeid, publisherid, systemid,
+    def __init__(self, filename, volumeid, publisherid, systemid,
                  applicationid, volumesize):
 
         self.filename = filename
-        self.shortid = shortid
         self.volumeid = volumeid if volumeid is not None else ''
         self.publisherid = publisherid if publisherid is not None else ''
         self.systemid = systemid if systemid is not None else ''
@@ -95,7 +94,7 @@ def _get_volumesize(string):
     return _get_value(string, 'Volume size is: ', int)
 
 
-def _get_isodatamedia(filepath, shortid):
+def _get_isodatamedia(filepath):
     volumeid = None
     publisherid = None
     systemid = None
@@ -123,7 +122,7 @@ def _get_isodatamedia(filepath, shortid):
     else:
         volumesize = None
 
-    return _ISODataMedia(filepath, shortid, volumeid, publisherid, systemid,
+    return _ISODataMedia(filepath, volumeid, publisherid, systemid,
                          applicationid, volumesize)
 
 
@@ -142,5 +141,5 @@ def _get_isodatamedias(_os):
         if not os.path.exists(path):
             continue
 
-        medias.append(_get_isodatamedia(path, _os.shortid))
+        medias.append(_get_isodatamedia(path))
     return medias
