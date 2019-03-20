@@ -45,6 +45,15 @@ class Os():
         return None
     clones = _cache_property(_get_clones)
 
+    def _get_devices(self):
+        devices = []
+        devicelist = self._root.find('devices')
+        if devicelist is not None:
+            for device in devicelist.findall('device'):
+                devices.append(device.get('id'))
+        return devices
+    devices = _cache_property(_get_devices)
+
     def _get_images(self):
         images = []
         for image in self._root.findall('image'):
