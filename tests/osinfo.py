@@ -27,6 +27,24 @@ class Os():
         self._root = root
         self._cache = {}
 
+    def _get_id(self):
+        return self._root.get('id')
+    internal_id = _cache_property(_get_id)
+
+    def _get_derives_from(self):
+        derives_from = self._root.find('derives-from')
+        if derives_from is not None:
+            return derives_from.get('id')
+        return None
+    derives_from = _cache_property(_get_derives_from)
+
+    def _get_clones(self):
+        clones = self._root.find('clones')
+        if clones is not None:
+            return clones.get('id')
+        return None
+    clones = _cache_property(_get_clones)
+
     def _get_images(self):
         images = []
         for image in self._root.findall('image'):
