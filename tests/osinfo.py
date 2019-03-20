@@ -58,6 +58,64 @@ class Os():
         return distro.text
     distro = _cache_property(_get_distro)
 
+    def _get_resources_list(self):
+        return self._root.findall('resources')
+    resources_list = _cache_property(_get_resources_list)
+
+    def _get_resources(self, node, resource_type):
+        valid_resources = ['minimum',
+                           'recommended',
+                           'maximum',
+                           'network-install']
+        if resource_type not in valid_resources:
+            return None
+        if node not in self.resources_list:
+            return None
+        resource = node.find(resource_type)
+        if resource is not None:
+            return Resources(resource)
+        return None
+
+    def get_minimum_resources(self, node):
+        return self._get_resources(node, 'minimum')
+
+    def get_recommended_resources(self, node):
+        return self._get_resources(node, 'recommended')
+
+    def get_maximum_resources(self, node):
+        return self._get_resources(node, 'maximum')
+
+    def get_network_install_resources(self, node):
+        return self._get_resources(node, 'network-install')
+
+
+class Resources():
+    def __init__(self, root):
+        self._root = root
+        self._cache = {}
+
+    def _get_value(self, string):
+        value = self._root.find(string)
+        if value is not None:
+            return int(value.text)
+        return None
+
+    def _get_cpu(self):
+        return self._get_value('cpu')
+    cpu = _cache_property(_get_cpu)
+
+    def _get_n_cpus(self):
+        return self._get_value('n-cpus')
+    n_cpus = _cache_property(_get_n_cpus)
+
+    def _get_ram(self):
+        return self._get_value('ram')
+    ram = _cache_property(_get_ram)
+
+    def _get_storage(self):
+        return self._get_value('storage')
+    storage = _cache_property(_get_storage)
+
 
 class Image():
     def __init__(self, root):
