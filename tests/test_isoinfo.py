@@ -10,18 +10,12 @@ from . import util
 
 @pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
 def test_iso_detection(_os):
-    expensive = os.environ.get('OSINFO_DB_ENABLE_EXPENSIVE')
-    if expensive is not None:
-        expensive = int(expensive)
-    expensive = bool(expensive)
     for isodatamedia in _get_isodatamedias(_os):
         detected = []
         for __os in util.DataFiles.oses():
-            if not expensive and _os.shortid != __os.shortid:
-                continue
             for media in __os.medias:
                 if isodatamedia.match(media.iso):
-                    if expensive and _os.shortid != __os.shortid:
+                    if _os.shortid != __os.shortid:
                         logging.warning(
                             'ISO \'%s\' was matched by OS \'%s\' while it '
                             'should only be matched by OS \'%s\'',
