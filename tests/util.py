@@ -6,6 +6,8 @@ from collections import defaultdict
 import os
 import xml.etree.ElementTree as ET
 
+import pytest
+
 from . import osinfo
 
 
@@ -82,3 +84,11 @@ class _DataFiles():
 
 
 DataFiles = _DataFiles()
+
+
+def os_parametrize(argname):
+    """
+    Helper for parametrizing a test with an OS list.
+    """
+    oses = DataFiles.oses()
+    return pytest.mark.parametrize(argname, oses, ids=lambda o: o.shortid)

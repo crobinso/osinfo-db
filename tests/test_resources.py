@@ -4,12 +4,11 @@
 from collections import defaultdict
 
 import logging
-import pytest
 
 from . import util
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
+@util.os_parametrize('_os')
 def test_resources_uniqueness_by_arch(_os):
     """ Ensure there's no more than one resource element per architecture """
     result = defaultdict(list)
@@ -20,7 +19,7 @@ def test_resources_uniqueness_by_arch(_os):
         assert len(value) == 1
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
+@util.os_parametrize('_os')
 def test_minimum_recommended_resources(_os):
     """ Ensure there's no minimum resources with bigger values than recommended
         resources
@@ -32,7 +31,7 @@ def test_minimum_recommended_resources(_os):
                       'recommended')
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
+@util.os_parametrize('_os')
 def test_recommended_maximum_resources(_os):
     """ Ensure there's no recommended resources with bigger values than maximum
         resources
@@ -44,7 +43,7 @@ def test_recommended_maximum_resources(_os):
                       'maximum')
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
+@util.os_parametrize('_os')
 def test_recommended_network_install_resources(_os):
     """ Ensure there's no recommended resources with bigger values than
         network-install resources
@@ -56,7 +55,7 @@ def test_recommended_network_install_resources(_os):
                       'network-install')
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
+@util.os_parametrize('_os')
 def test_network_install_maximum_resources(_os):
     """ Ensure there's no network-install resources with bigger values than
         maximum resources
