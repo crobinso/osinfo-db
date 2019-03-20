@@ -27,6 +27,9 @@ class Os():
         self._root = root
         self._cache = {}
 
+    def __repr__(self):
+        return "<%s shortid=%s>" % (self.__class__.__name__, self.shortid)
+
     def _get_id(self):
         return self._root.get('id')
     internal_id = _cache_property(_get_id)
