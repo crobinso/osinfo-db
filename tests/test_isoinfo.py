@@ -1,6 +1,7 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
+import glob
 import logging
 import os
 import pytest
@@ -8,18 +9,41 @@ import pytest
 from . import util
 
 
-@pytest.mark.parametrize('_os', util.DataFiles.oses(), ids=lambda o: o.shortid)
-def test_iso_detection(_os):
-    for isodatamedia in _get_isodatamedias(_os):
+def _get_isodatapaths():
+    """
+    Collect iso media data and return a list of tuples:
+        (osname, isodatapaths)
+    """
+    isodata_path = os.path.join(
+        os.path.dirname(os.path.realpath(__file__)),
+        'isodata')
+
+    ret = []
+    for osdir in glob.glob(os.path.join(isodata_path, "*", "*")):
+        osname = os.path.basename(osdir)
+        isodatapaths = glob.glob(os.path.join(osdir, "*"))
+        ret.append((osname, isodatapaths))
+    return ret
+
+
+@pytest.mark.parametrize("testdata", _get_isodatapaths(), ids=lambda d: d[0])
+def test_iso_detection(testdata):
+    osname, isodatapaths = testdata
+    for isodatapath in isodatapaths:
+        if isodatapath.endswith(".lng"):
+            # libosinfo handled these specially, we should too
+            continue
+
         detected = []
+        isodatamedia = _get_isodatamedia(isodatapath)
         for __os in util.DataFiles.oses():
             for media in __os.medias:
                 if isodatamedia.match(media.iso):
-                    if _os.shortid != __os.shortid:
+                    if osname != __os.shortid:
                         logging.warning(
                             'ISO \'%s\' was matched by OS \'%s\' while it '
                             'should only be matched by OS \'%s\'',
-                            isodatamedia.filename, __os.shortid, _os.shortid)
+                            isodatamedia.filename, __os.shortid, osname)
                     else:
                         logging.info('ISO \'%s\' matched by OS \'%s\'',
                                      isodatamedia.filename, __os.shortid)
