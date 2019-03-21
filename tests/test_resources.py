@@ -8,7 +8,7 @@ import logging
 from . import util
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_resources=True)
 def test_resources_uniqueness_by_arch(_os):
     """ Ensure there's no more than one resource element per architecture """
     result = defaultdict(list)
@@ -19,7 +19,7 @@ def test_resources_uniqueness_by_arch(_os):
         assert len(value) == 1
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_resources=True)
 def test_minimum_recommended_resources(_os):
     """ Ensure there's no minimum resources with bigger values than recommended
         resources
@@ -31,7 +31,7 @@ def test_minimum_recommended_resources(_os):
                       'recommended')
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_resources=True)
 def test_recommended_maximum_resources(_os):
     """ Ensure there's no recommended resources with bigger values than maximum
         resources
@@ -43,7 +43,7 @@ def test_recommended_maximum_resources(_os):
                       'maximum')
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_resources=True)
 def test_recommended_network_install_resources(_os):
     """ Ensure there's no recommended resources with bigger values than
         network-install resources
@@ -55,7 +55,7 @@ def test_recommended_network_install_resources(_os):
                       'network-install')
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_resources=True)
 def test_network_install_maximum_resources(_os):
     """ Ensure there's no network-install resources with bigger values than
         maximum resources

@@ -7,7 +7,7 @@ import pytest
 from . import util
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_images=True)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_images_url(_os):
@@ -19,7 +19,7 @@ def test_images_url(_os):
     assert broken == []
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_trees=True)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_medias_url(_os):
@@ -31,7 +31,7 @@ def test_medias_url(_os):
     assert broken == []
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_media=True)
 @pytest.mark.skipif(os.environ.get('OSINFO_DB_NETWORK_TESTS') is None,
                     reason='Network related tests are not enabled')
 def test_trees_url(_os):

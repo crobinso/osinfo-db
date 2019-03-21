@@ -46,12 +46,31 @@ class _DataFiles():
         return [p for p in self._get_all_xml() if
                 p.startswith(os.path.join(self.datadir, dirname))]
 
-    def oses(self):
+    def oses(self, filter_media=False, filter_trees=False, filter_images=False,
+            filter_devices=False, filter_resources=False):
+        """
+        Return a list of osinfo.Os objects
+
+        :param filter_FOO: Only return objects that have at least one
+            instance of a FOO object
+        """
         if not self._oses_cache:
             for path in self._filter_xml('os'):
                 osroot = ET.parse(path).getroot().find('os')
                 self._oses_cache.append(osinfo.Os(osroot))
-        return self._oses_cache
+
+        oses = self._oses_cache[:]
+        if filter_media:
+            oses = [o for o in oses if o.medias]
+        if filter_trees:
+            oses = [o for o in oses if o.trees]
+        if filter_images:
+            oses = [o for o in oses if o.images]
+        if filter_devices:
+            oses = [o for o in oses if o.devices]
+        if filter_resources:
+            oses = [o for o in oses if o.resources_list]
+        return oses
 
     def get_os_related(self, _os):
         if _os.internal_id not in self._os_related_cache:
@@ -86,9 +105,15 @@ class _DataFiles():
 DataFiles = _DataFiles()
 
 
-def os_parametrize(argname):
+def os_parametrize(argname, **kwargs):
     """
-    Helper for parametrizing a test with an OS list.
+    Helper for parametrizing a test with an OS list. Passthrough any
+    extra arguments to DataFiles.oses()
     """
-    oses = DataFiles.oses()
-    return pytest.mark.parametrize(argname, oses, ids=lambda o: o.shortid)
+    def ids_cb(osxml):
+        # pytest passes us a weird value when oses is empty, like for
+        # test_urls image testing at the time of this commit
+        return getattr(osxml, "shortid", str(osxml))
+
+    oses = DataFiles.oses(**kwargs)
+    return pytest.mark.parametrize(argname, oses, ids=ids_cb)

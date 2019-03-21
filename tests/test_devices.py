@@ -4,7 +4,7 @@
 from . import util
 
 
-@util.os_parametrize('_os')
+@util.os_parametrize('_os', filter_devices=True)
 def test_devices_duplication(_os):
     broken = []
     related = util.DataFiles.get_os_related(_os)
