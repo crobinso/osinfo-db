@@ -120,15 +120,5 @@ update-po:
           fi; \
         done
 
-unit-tests: $(DATA_FILES) $(SCHEMA_FILES)
-	@command -v $(PYTHON) > /dev/null; \
-	if [ $$? -eq 0 ] ; then \
-	  for file in tests/test_*.py; do \
-	    log_file=`echo $$file | $(SED) -e 's/\.py/.log/'`; \
-	    $(PYTHON) -m pytest -s $$file --log-level=info | $(TEE) $$log_file; \
-	  done; \
-	else \
-	  echo "unit-tests are not going to be executed as no $(PYTHON) has been found"; \
-	fi
-
-check: unit-tests
+check: $(DATA_FILES) $(SCHEMA_FILES)
+	$(PYTHON) -m pytest --log-level=info

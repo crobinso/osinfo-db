@@ -7,7 +7,6 @@ data/*/*/*.xml
 data/*/*/*/*.xml
 data/schema/osinfo.rng
 tests/__pycache__
-tests/*.log
 .pytest_cache
 *~
 #*
