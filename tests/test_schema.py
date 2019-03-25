@@ -13,6 +13,6 @@ VALID = PARSER.relaxNGParse().relaxNGNewValidCtxt()
 
 
 @pytest.mark.parametrize("path", util.DataFiles.xmls(), ids=lambda path: path)
-def test_validation(path):
+def test_schema(path):
     doc = libxml2.parseFile(path)
     assert VALID.relaxNGValidateDoc(doc) == 0
