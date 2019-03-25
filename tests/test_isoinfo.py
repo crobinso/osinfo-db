@@ -19,7 +19,8 @@ def _get_isodatapaths():
         'isodata')
 
     ret = []
-    for osdir in glob.glob(os.path.join(isodata_path, "*", "*")):
+    allpaths = glob.glob(os.path.join(isodata_path, "*", "*"))
+    for osdir in sorted(allpaths, key=util.human_sort):
         osname = os.path.basename(osdir)
         isodatapaths = glob.glob(os.path.join(osdir, "*"))
         ret.append((osname, isodatapaths))

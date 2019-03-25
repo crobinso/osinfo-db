@@ -4,11 +4,26 @@
 from collections import defaultdict
 
 import os
+import re
 import xml.etree.ElementTree as ET
 
 import pytest
 
 from . import osinfo
+
+
+def human_sort(text):
+    # natural/human sorting
+    # https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside
+    def atof(t):
+        try:
+            retval = float(t)
+        except ValueError:
+            retval = t
+        return retval
+
+    return [atof(c) for c in
+            re.split(r'[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)', text)]
 
 
 class _DataFiles():
@@ -33,7 +48,7 @@ class _DataFiles():
         """
         if not self._all_xml_cache:
             for (dirpath, _, filenames) in os.walk(self.datadir):
-                for filename in filenames:
+                for filename in sorted(filenames, key=human_sort):
                     if not filename.endswith('.xml'):
                         continue
                     self._all_xml_cache.append(os.path.join(dirpath, filename))
