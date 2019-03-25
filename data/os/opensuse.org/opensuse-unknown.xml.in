@@ -8,13 +8,13 @@
     <_vendor>openSUSE</_vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/opensuse/15.0"/>
-    <derives-from id="http://opensuse.org/opensuse/15.0"/>
+    <upgrades id="http://opensuse.org/opensuse/15.1"/>
+    <derives-from id="http://opensuse.org/opensuse/15.1"/>
     <release-status>prerelease</release-status>
 
     <media arch="x86_64">
       <iso>
-        <volume-id>openSUSE-Leap-(15\.[1-9]|(1[6-9]|[23]|[5-9])[0-9]\.[0-9]|4[3-9]\.[0-9])-(DVD|NET|Kubic)-x86_64*</volume-id>
+        <volume-id>openSUSE-Leap-(15\.[2-9]|(1[6-9]|[23]|[5-9])[0-9]\.[0-9]|4[3-9]\.[0-9])-(DVD|NET|Kubic)-x86_64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
