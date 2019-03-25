@@ -18,11 +18,28 @@ def _cache_property(fn):
     return property(_wrapper)
 
 
-class Os():
+class _XMLBase():
+    """
+    Simple base class for our XML parsers
+    """
     def __init__(self, root):
         self._root = root
         self._cache = {}
 
+    def _get_text(self, element_name, default=None):
+        node = self._root.find(element_name)
+        if node is not None:
+            return node.text
+        return default
+
+    def _get_int(self, element_name, default=None):
+        text = self._get_text(element_name)
+        if text is not None:
+            return int(text)
+        return default
+
+
+class Os(_XMLBase):
     def __repr__(self):
         return "<%s shortid=%s>" % (self.__class__.__name__, self.shortid)
 
@@ -76,13 +93,11 @@ class Os():
 
     @_cache_property
     def shortid(self):
-        shortid = self._root.find('short-id')
-        return shortid.text
+        return self._get_text('short-id')
 
     @_cache_property
     def distro(self):
-        distro = self._root.find('distro')
-        return distro.text
+        return self._get_text('distro')
 
     @_cache_property
     def resources_list(self):
@@ -116,58 +131,34 @@ class Os():
         return self._get_resources(node, 'network-install')
 
 
-class Resources():
-    def __init__(self, root):
-        self._root = root
-        self._cache = {}
-
-    def _get_value(self, string):
-        value = self._root.find(string)
-        if value is not None:
-            return int(value.text)
-        return None
-
+class Resources(_XMLBase):
     @_cache_property
     def cpu(self):
-        return self._get_value('cpu')
+        return self._get_int('cpu')
 
     @_cache_property
     def n_cpus(self):
-        return self._get_value('n-cpus')
+        return self._get_int('n-cpus')
 
     @_cache_property
     def ram(self):
-        return self._get_value('ram')
+        return self._get_int('ram')
 
     @_cache_property
     def storage(self):
-        return self._get_value('storage')
+        return self._get_int('storage')
 
 
-class Image():
-    def __init__(self, root):
-        self._root = root
-        self._cache = {}
-
+class Image(_XMLBase):
     @_cache_property
     def url(self):
-        url = self._root.find('url')
-        if url is not None:
-            return url.text
-        return None
+        return self._get_text('url')
 
 
-class Media():
-    def __init__(self, root):
-        self._root = root
-        self._cache = {}
-
+class Media(_XMLBase):
     @_cache_property
     def url(self):
-        url = self._root.find('url')
-        if url is not None:
-            return url.text
-        return None
+        return self._get_text('url')
 
     @_cache_property
     def iso(self):
@@ -177,44 +168,29 @@ class Media():
         return None
 
 
-class Tree():
-    def __init__(self, root):
-        self._root = root
-        self._cache = {}
-
+class Tree(_XMLBase):
     @_cache_property
     def url(self):
-        url = self._root.find('url')
-        if url is not None:
-            return url.text
-        return None
+        return self._get_text('url')
 
 
-class ISO():
-    def __init__(self, root):
-        self._root = root
-        self._cache = {}
-
-    def _get_value(self, name, return_type=str, default=''):
-        entry = self._root.find(name)
-        return return_type(entry.text) if entry is not None else default
-
+class ISO(_XMLBase):
     @_cache_property
     def volumeid(self):
-        return re.compile(self._get_value('volume-id'))
+        return re.compile(self._get_text('volume-id', default=''))
 
     @_cache_property
     def publisherid(self):
-        return re.compile(self._get_value('publisher-id'))
+        return re.compile(self._get_text('publisher-id', default=''))
 
     @_cache_property
     def applicationid(self):
-        return re.compile(self._get_value('application-id'))
+        return re.compile(self._get_text('application-id', default=''))
 
     @_cache_property
     def systemid(self):
-        return re.compile(self._get_value('system-id'))
+        return re.compile(self._get_text('system-id', default=''))
 
     @_cache_property
     def volumesize(self):
-        return self._get_value('volume-size', int, 0)
+        return self._get_int('volume-size', default=0)
