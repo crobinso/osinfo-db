@@ -11,19 +11,15 @@
     <upgrades id="http://opensuse.org/opensuse/15.0"/>
     <derives-from id="http://opensuse.org/opensuse/15.0"/>
 
-    <variant id="dvd">
-      <_name>openSUSE Tumbleweed (DVD Image)</_name>
-    </variant>
-    <variant id="network">
-      <_name>openSUSE Tumbleweed (Network Image)</_name>
+    <variant id="netinst">
+      <_name>openSUSE Tumbleweed</_name>
     </variant>
     <variant id="kubic">
-      <_name>openSUSE Tumbleweed (Kubic DVD/USB Stick)</_name>
+      <_name>openSUSE Tumbleweed (Kubic)</_name>
     </variant>
 
     <!-- DVD Image -->
     <media arch="i686">
-      <variant id="dvd"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-i586*</volume-id>
@@ -34,7 +30,6 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
-      <variant id="dvd"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-x86_64*</volume-id>
@@ -47,7 +42,7 @@
 
     <!-- Network Image -->
     <media arch="i686">
-      <variant id="network"/>
+      <variant id="netinst"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-NET-i586*</volume-id>
@@ -58,7 +53,7 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
-      <variant id="network"/>
+      <variant id="netinst"/>
       <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-NET-x86_64*</volume-id>

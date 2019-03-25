@@ -13,16 +13,12 @@
 
     <release-date>2018-05-25</release-date>
 
-    <variant id="dvd">
-      <_name>openSUSE Leap 15.0 (DVD Image)</_name>
-    </variant>
-    <variant id="network">
-      <_name>openSUSE Leap 15.0 (Network Image)</_name>
+    <variant id="netinst">
+      <_name>openSUSE Leap 15.0</_name>
     </variant>
 
     <!-- DVD -->
     <media arch="x86_64">
-      <variant id="dvd"/>
       <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-15.0-DVD-x86_64*</volume-id>
@@ -35,7 +31,7 @@
 
     <!-- Network -->
     <media arch="x86_64">
-      <variant id="network"/>
+      <variant id="netinst"/>
       <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-15.0-NET-x86_64*</volume-id>
