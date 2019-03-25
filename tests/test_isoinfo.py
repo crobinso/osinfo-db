@@ -55,11 +55,11 @@ def test_iso_detection(testdata):
                     if osxml2.shortid not in detected:
                         detected.append(osxml2.shortid)
 
-        if len(detected) != 1:
-            logging.warning('Some ISOs have been matched several times by '
-                            'the different OSes, which indicates an issue '
-                            'in the DB entries.')
-        assert len(detected) == 1
+        if detected == [osname]:
+            continue
+
+        raise AssertionError("isodata: %s\nMatched=%s but expected=%s" %
+                (isodatapath, detected, [osname]))
 
 
 class _ISODataMedia():
