@@ -4,6 +4,7 @@
 import http
 import logging
 
+import pytest
 import requests
 
 from . import util
@@ -18,31 +19,29 @@ def _check_url(url):
     return response.ok
 
 
-@util.os_parametrize('osxml', filter_images=True)
-def test_images_url(osxml):
+def _collect_os_urls():
+    """
+    Iterate the OS list and return a list of pairs (shortid, [url list)
+    """
+    ret = []
+
+    for osxml in util.DataFiles.oses():
+        urls = []
+        urls.extend([i.url for i in osxml.images if i.url])
+        urls.extend([m.url for m in osxml.medias if m.url])
+        urls.extend([t.url for t in osxml.trees if t.url])
+        if urls:
+            ret.append((osxml.shortid, urls))
+
+    return ret
+
+
+@pytest.mark.parametrize('testdata', _collect_os_urls(),
+        ids=lambda testdata: testdata[0])
+def test_urls(testdata):
+    urls = testdata[1]
     broken = []
-    for image in osxml.images:
-        if image.url:
-            if not _check_url(image.url):
-                broken.append(image.url)
-    assert broken == []
-
-
-@util.os_parametrize('osxml', filter_trees=True)
-def test_medias_url(osxml):
-    broken = []
-    for media in osxml.medias:
-        if media.url:
-            if not _check_url(media.url):
-                broken.append(media.url)
-    assert broken == []
-
-
-@util.os_parametrize('osxml', filter_media=True)
-def test_trees_url(osxml):
-    broken = []
-    for tree in osxml.trees:
-        if tree.url:
-            if not _check_url(tree.url):
-                broken.append(tree.url)
+    for url in urls:
+        if not _check_url(url):
+            broken.append(url)
     assert broken == []

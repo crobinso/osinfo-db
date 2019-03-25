@@ -111,8 +111,9 @@ def os_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     def ids_cb(osxml):
-        # pytest passes us a weird value when oses is empty, like for
-        # test_urls image testing at the time of this commit
+        # pytest passes us a weird value when oses is empty, which
+        # might happen depending on how agressively we filter. So
+        # we can't assume we are passed an Os instance
         return getattr(osxml, "shortid", str(osxml))
 
     oses = DataFiles.oses(**kwargs)
