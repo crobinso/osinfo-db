@@ -1,11 +1,7 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
-from http.client import responses
-import logging
 import re
-
-import requests
 
 
 def _cache_property(fn):
@@ -155,7 +151,7 @@ class Image():
     def _get_url(self):
         url = self._root.find('url')
         if url is not None:
-            return URL(url.text)
+            return url.text
         return None
     url = _cache_property(_get_url)
 
@@ -168,7 +164,7 @@ class Media():
     def _get_url(self):
         url = self._root.find('url')
         if url is not None:
-            return URL(url.text)
+            return url.text
         return None
     url = _cache_property(_get_url)
 
@@ -188,21 +184,9 @@ class Tree():
     def _get_url(self):
         url = self._root.find('url')
         if url is not None:
-            return URL(url.text)
+            return url.text
         return None
     url = _cache_property(_get_url)
-
-
-class URL():
-    def __init__(self, url):
-        self._url = url
-
-    def check(self):
-        logging.info("url: %s", self._url)
-        response = requests.head(self._url, allow_redirects=True)
-        logging.info("response: %s; code: %d",
-                     responses[response.status_code], response.status_code)
-        return response.ok
 
 
 class ISO():
