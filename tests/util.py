@@ -35,6 +35,7 @@ class _DataFiles():
         self.schema = os.path.join(self.datadir, 'schema', 'osinfo.rng')
         self._all_xml_cache = []
         self._oses_cache = []
+        self._devices_cache = []
         self._os_related_cache = defaultdict(list)
 
         if not os.path.exists(self.datadir):
@@ -110,6 +111,12 @@ class _DataFiles():
                 if osxml2 not in self._os_related_cache[osxml.internal_id]:
                     self._os_related_cache[osxml.internal_id].append(osxml2)
         return self._os_related_cache[osxml.internal_id]
+
+    def devices(self):
+        if not self._devices_cache:
+            for path in self._filter_xml('device'):
+                self._devices_cache.append(osinfo.Device(path))
+        return self._devices_cache
 
     def xmls(self):
         return self._get_all_xml()

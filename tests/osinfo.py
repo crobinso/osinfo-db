@@ -200,3 +200,18 @@ class ISO(_XMLBase):
     @_cache_property
     def volumesize(self):
         return self._get_int('volume-size', default=0)
+
+
+class Device(_XMLBase):
+    def __init__(self, filename):
+        self.filename = filename
+        root = ET.parse(self.filename).getroot().find('device')
+        super().__init__(root)
+
+    @_cache_property
+    def internal_id(self):
+        return self._root.attrib["id"]
+
+    @_cache_property
+    def name(self):
+        return self._get_text('name')
