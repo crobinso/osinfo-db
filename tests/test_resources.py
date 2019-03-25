@@ -8,9 +8,9 @@ import logging
 from . import util
 
 
-@util.os_parametrize('osxml', filter_resources=True)
-def test_resources_uniqueness_by_arch(osxml):
-    """ Ensure there's no more than one resource element per architecture """
+def _test_resources_uniqueness_by_arch(osxml):
+    """Ensure there's no more than one resource element per architecture
+    """
     result = defaultdict(list)
     for resources in osxml.resources_list:
         result[resources.get('arch')].append(resources)
@@ -20,46 +20,31 @@ def test_resources_uniqueness_by_arch(osxml):
 
 
 @util.os_parametrize('osxml', filter_resources=True)
-def test_minimum_recommended_resources(osxml):
-    """ Ensure there's no minimum resources with bigger values than recommended
-        resources
-    """
+def test_resources(osxml):
+    _test_resources_uniqueness_by_arch(osxml)
+
+    # Ensure minimum resources are <= recommended resources
     _resources_helper(osxml,
                       osxml.get_minimum_resources,
                       'minimum',
                       osxml.get_recommended_resources,
                       'recommended')
 
-
-@util.os_parametrize('osxml', filter_resources=True)
-def test_recommended_maximum_resources(osxml):
-    """ Ensure there's no recommended resources with bigger values than maximum
-        resources
-    """
+    # Ensure recommended resources are <= maximum resources
     _resources_helper(osxml,
                       osxml.get_recommended_resources,
                       'recommended',
                       osxml.get_maximum_resources,
                       'maximum')
 
-
-@util.os_parametrize('osxml', filter_resources=True)
-def test_recommended_network_install_resources(osxml):
-    """ Ensure there's no recommended resources with bigger values than
-        network-install resources
-    """
+    # Ensure recommended resources <= network resources
     _resources_helper(osxml,
                       osxml.get_recommended_resources,
                       'recommended',
                       osxml.get_network_install_resources,
                       'network-install')
 
-
-@util.os_parametrize('osxml', filter_resources=True)
-def test_network_install_maximum_resources(osxml):
-    """ Ensure there's no network-install resources with bigger values than
-        maximum resources
-    """
+    # Ensure network resources <= maximum resources
     _resources_helper(osxml,
                       osxml.get_network_install_resources,
                       'network-install',
