@@ -36,23 +36,23 @@ def test_iso_detection(testdata):
 
         detected = []
         isodatamedia = _get_isodatamedia(isodatapath)
-        for __os in util.DataFiles.oses():
-            for media in __os.medias:
+        for osxml2 in util.DataFiles.oses():
+            for media in osxml2.medias:
                 if isodatamedia.match(media.iso):
-                    if osname != __os.shortid:
+                    if osname != osxml2.shortid:
                         logging.warning(
                             'ISO \'%s\' was matched by OS \'%s\' while it '
                             'should only be matched by OS \'%s\'',
-                            isodatamedia.filename, __os.shortid, osname)
+                            isodatamedia.filename, osxml2.shortid, osname)
                     else:
                         logging.info('ISO \'%s\' matched by OS \'%s\'',
-                                     isodatamedia.filename, __os.shortid)
+                                     isodatamedia.filename, osxml2.shortid)
                     # For several distros we do not have the volume-size
                     # set as part of our DB, thus multiple detections may
                     # occur. Although this case is not the optimal, as long
                     # as we detect the very same distro it's okay-ish.
-                    if __os.shortid not in detected:
-                        detected.append(__os.shortid)
+                    if osxml2.shortid not in detected:
+                        detected.append(osxml2.shortid)
 
         if len(detected) != 1:
             logging.warning('Some ISOs have been matched several times by '

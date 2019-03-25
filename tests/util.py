@@ -72,31 +72,31 @@ class _DataFiles():
             oses = [o for o in oses if o.resources_list]
         return oses
 
-    def get_os_related(self, _os):
-        if _os.internal_id not in self._os_related_cache:
+    def getosxml_related(self, osxml):
+        if osxml.internal_id not in self._os_related_cache:
             directly_related = []
-            if _os.derives_from is not None:
-                for __os in self.oses():
-                    if _os.derives_from == __os.internal_id:
-                        directly_related.append(__os)
+            if osxml.derives_from is not None:
+                for osxml2 in self.oses():
+                    if osxml.derives_from == osxml2.internal_id:
+                        directly_related.append(osxml2)
                         break
 
-            if _os.clones is not None:
-                for __os in self.oses():
-                    if _os.clones == __os.internal_id:
-                        directly_related.append(__os)
+            if osxml.clones is not None:
+                for osxml2 in self.oses():
+                    if osxml.clones == osxml2.internal_id:
+                        directly_related.append(osxml2)
                         break
 
-            self._os_related_cache[_os.internal_id].extend(directly_related)
+            self._os_related_cache[osxml.internal_id].extend(directly_related)
 
             related = []
-            for __os in directly_related:
-                related.extend(self.get_os_related(__os))
+            for osxml2 in directly_related:
+                related.extend(self.getosxml_related(osxml2))
 
-            for __os in related:
-                if __os not in self._os_related_cache[_os.internal_id]:
-                    self._os_related_cache[_os.internal_id].append(__os)
-        return self._os_related_cache[_os.internal_id]
+            for osxml2 in related:
+                if osxml2 not in self._os_related_cache[osxml.internal_id]:
+                    self._os_related_cache[osxml.internal_id].append(osxml2)
+        return self._os_related_cache[osxml.internal_id]
 
     def xmls(self):
         return self._get_all_xml()

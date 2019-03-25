@@ -8,68 +8,70 @@ import logging
 from . import util
 
 
-@util.os_parametrize('_os', filter_resources=True)
-def test_resources_uniqueness_by_arch(_os):
+@util.os_parametrize('osxml', filter_resources=True)
+def test_resources_uniqueness_by_arch(osxml):
     """ Ensure there's no more than one resource element per architecture """
     result = defaultdict(list)
-    for resources in _os.resources_list:
+    for resources in osxml.resources_list:
         result[resources.get('arch')].append(resources)
 
     for value in result.values():
         assert len(value) == 1
 
 
-@util.os_parametrize('_os', filter_resources=True)
-def test_minimum_recommended_resources(_os):
+@util.os_parametrize('osxml', filter_resources=True)
+def test_minimum_recommended_resources(osxml):
     """ Ensure there's no minimum resources with bigger values than recommended
         resources
     """
-    _resources_helper(_os,
-                      _os.get_minimum_resources,
+    _resources_helper(osxml,
+                      osxml.get_minimum_resources,
                       'minimum',
-                      _os.get_recommended_resources,
+                      osxml.get_recommended_resources,
                       'recommended')
 
 
-@util.os_parametrize('_os', filter_resources=True)
-def test_recommended_maximum_resources(_os):
+@util.os_parametrize('osxml', filter_resources=True)
+def test_recommended_maximum_resources(osxml):
     """ Ensure there's no recommended resources with bigger values than maximum
         resources
     """
-    _resources_helper(_os,
-                      _os.get_recommended_resources,
+    _resources_helper(osxml,
+                      osxml.get_recommended_resources,
                       'recommended',
-                      _os.get_maximum_resources,
+                      osxml.get_maximum_resources,
                       'maximum')
 
 
-@util.os_parametrize('_os', filter_resources=True)
-def test_recommended_network_install_resources(_os):
+@util.os_parametrize('osxml', filter_resources=True)
+def test_recommended_network_install_resources(osxml):
     """ Ensure there's no recommended resources with bigger values than
         network-install resources
     """
-    _resources_helper(_os,
-                      _os.get_recommended_resources,
+    _resources_helper(osxml,
+                      osxml.get_recommended_resources,
                       'recommended',
-                      _os.get_network_install_resources,
+                      osxml.get_network_install_resources,
                       'network-install')
 
 
-@util.os_parametrize('_os', filter_resources=True)
-def test_network_install_maximum_resources(_os):
+@util.os_parametrize('osxml', filter_resources=True)
+def test_network_install_maximum_resources(osxml):
     """ Ensure there's no network-install resources with bigger values than
         maximum resources
     """
-    _resources_helper(_os,
-                      _os.get_network_install_resources,
+    _resources_helper(osxml,
+                      osxml.get_network_install_resources,
                       'network-install',
-                      _os.get_maximum_resources,
+                      osxml.get_maximum_resources,
                       'maximum')
 
 
-def _resources_helper(_os, smaller_func, smaller_str, bigger_func, bigger_str):
+def _resources_helper(osxml,
+                      smaller_func, smaller_str,
+                      bigger_func, bigger_str):
     broken = []
-    for resource in _os.resources_list:
+    for resource in osxml.resources_list:
         logging.info("resources | arch: %s", resource.get('arch'))
         smaller = smaller_func(resource)
         bigger = bigger_func(resource)

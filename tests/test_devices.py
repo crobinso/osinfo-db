@@ -4,13 +4,13 @@
 from . import util
 
 
-@util.os_parametrize('_os', filter_devices=True)
-def test_devices_duplication(_os):
+@util.os_parametrize('osxml', filter_devices=True)
+def test_devices_duplication(osxml):
     broken = []
-    related = util.DataFiles.get_os_related(_os)
-    for __os in related:
-        if __os.devices is not None:
-            for device in __os.devices:
-                if device in _os.devices:
+    related = util.DataFiles.getosxml_related(osxml)
+    for osxml2 in related:
+        if osxml2.devices is not None:
+            for device in osxml2.devices:
+                if device in osxml.devices:
                     broken.append(device)
     assert broken == []
