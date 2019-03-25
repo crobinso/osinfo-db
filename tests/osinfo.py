@@ -2,7 +2,8 @@
 # See the COPYING file in the top-level directory.
 
 import re
-import xml.etree.ElementTree as ET
+
+import lxml.etree as ET
 
 
 def _cache_property(fn):
