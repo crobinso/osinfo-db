@@ -2,6 +2,7 @@
 # See the COPYING file in the top-level directory.
 
 import re
+import xml.etree.ElementTree as ET
 
 
 def _cache_property(fn):
@@ -40,6 +41,11 @@ class _XMLBase():
 
 
 class Os(_XMLBase):
+    def __init__(self, filename):
+        self.filename = filename
+        root = ET.parse(self.filename).getroot().find('os')
+        super().__init__(root)
+
     def __repr__(self):
         return "<%s shortid=%s>" % (self.__class__.__name__, self.shortid)
 

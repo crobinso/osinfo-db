@@ -5,7 +5,6 @@ from collections import defaultdict
 
 import os
 import re
-import xml.etree.ElementTree as ET
 
 import pytest
 
@@ -71,8 +70,7 @@ class _DataFiles():
         """
         if not self._oses_cache:
             for path in self._filter_xml('os'):
-                osroot = ET.parse(path).getroot().find('os')
-                self._oses_cache.append(osinfo.Os(osroot))
+                self._oses_cache.append(osinfo.Os(path))
 
         oses = self._oses_cache[:]
         if filter_media:
