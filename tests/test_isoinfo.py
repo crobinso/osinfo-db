@@ -148,22 +148,3 @@ def _get_isodatamedia(filepath):
 
     return _ISODataMedia(filepath, volumeid, publisherid, systemid,
                          applicationid, volumesize)
-
-
-def _get_isodatamedias(_os):
-    isodata_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)),
-        'isodata')
-    shortid_path = os.path.join(isodata_path, _os.distro, _os.shortid)
-
-    medias = []
-    if not os.path.exists(shortid_path):
-        return []
-
-    for _file in os.listdir(shortid_path):
-        path = os.path.join(shortid_path, _file)
-        if not os.path.exists(path):
-            continue
-
-        medias.append(_get_isodatamedia(path))
-    return medias
