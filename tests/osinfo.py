@@ -26,67 +26,67 @@ class Os():
     def __repr__(self):
         return "<%s shortid=%s>" % (self.__class__.__name__, self.shortid)
 
-    def _get_id(self):
+    @_cache_property
+    def internal_id(self):
         return self._root.get('id')
-    internal_id = _cache_property(_get_id)
 
-    def _get_derives_from(self):
+    @_cache_property
+    def derives_from(self):
         derives_from = self._root.find('derives-from')
         if derives_from is not None:
             return derives_from.get('id')
         return None
-    derives_from = _cache_property(_get_derives_from)
 
-    def _get_clones(self):
+    @_cache_property
+    def clones(self):
         clones = self._root.find('clones')
         if clones is not None:
             return clones.get('id')
         return None
-    clones = _cache_property(_get_clones)
 
-    def _get_devices(self):
+    @_cache_property
+    def devices(self):
         devices = []
         devicelist = self._root.find('devices')
         if devicelist is not None:
             for device in devicelist.findall('device'):
                 devices.append(device.get('id'))
         return devices
-    devices = _cache_property(_get_devices)
 
-    def _get_images(self):
+    @_cache_property
+    def images(self):
         images = []
         for image in self._root.findall('image'):
             images.append(Image(image))
         return images
-    images = _cache_property(_get_images)
 
-    def _get_medias(self):
+    @_cache_property
+    def medias(self):
         medias = []
         for media in self._root.findall('media'):
             medias.append(Media(media))
         return medias
-    medias = _cache_property(_get_medias)
 
-    def _get_trees(self):
+    @_cache_property
+    def trees(self):
         trees = []
         for tree in self._root.findall('tree'):
             trees.append(Tree(tree))
         return trees
-    trees = _cache_property(_get_trees)
 
-    def _get_shortid(self):
+    @_cache_property
+    def shortid(self):
         shortid = self._root.find('short-id')
         return shortid.text
-    shortid = _cache_property(_get_shortid)
 
-    def _get_distro(self):
+    @_cache_property
+    def distro(self):
         distro = self._root.find('distro')
         return distro.text
-    distro = _cache_property(_get_distro)
 
-    def _get_resources_list(self):
+    @_cache_property
+    def resources_list(self):
         return self._root.findall('resources')
-    resources_list = _cache_property(_get_resources_list)
 
     def _get_resources(self, node, resource_type):
         valid_resources = ['minimum',
@@ -95,6 +95,7 @@ class Os():
                            'network-install']
         if resource_type not in valid_resources:
             return None
+        # pylint: disable=unsupported-membership-test
         if node not in self.resources_list:
             return None
         resource = node.find(resource_type)
@@ -126,21 +127,21 @@ class Resources():
             return int(value.text)
         return None
 
-    def _get_cpu(self):
+    @_cache_property
+    def cpu(self):
         return self._get_value('cpu')
-    cpu = _cache_property(_get_cpu)
 
-    def _get_n_cpus(self):
+    @_cache_property
+    def n_cpus(self):
         return self._get_value('n-cpus')
-    n_cpus = _cache_property(_get_n_cpus)
 
-    def _get_ram(self):
+    @_cache_property
+    def ram(self):
         return self._get_value('ram')
-    ram = _cache_property(_get_ram)
 
-    def _get_storage(self):
+    @_cache_property
+    def storage(self):
         return self._get_value('storage')
-    storage = _cache_property(_get_storage)
 
 
 class Image():
@@ -148,12 +149,12 @@ class Image():
         self._root = root
         self._cache = {}
 
-    def _get_url(self):
+    @_cache_property
+    def url(self):
         url = self._root.find('url')
         if url is not None:
             return url.text
         return None
-    url = _cache_property(_get_url)
 
 
 class Media():
@@ -161,19 +162,19 @@ class Media():
         self._root = root
         self._cache = {}
 
-    def _get_url(self):
+    @_cache_property
+    def url(self):
         url = self._root.find('url')
         if url is not None:
             return url.text
         return None
-    url = _cache_property(_get_url)
 
-    def _get_iso(self):
+    @_cache_property
+    def iso(self):
         iso = self._root.find('iso')
         if iso is not None:
             return ISO(iso)
         return None
-    iso = _cache_property(_get_iso)
 
 
 class Tree():
@@ -181,12 +182,12 @@ class Tree():
         self._root = root
         self._cache = {}
 
-    def _get_url(self):
+    @_cache_property
+    def url(self):
         url = self._root.find('url')
         if url is not None:
             return url.text
         return None
-    url = _cache_property(_get_url)
 
 
 class ISO():
@@ -198,22 +199,22 @@ class ISO():
         entry = self._root.find(name)
         return return_type(entry.text) if entry is not None else default
 
-    def _get_volumeid(self):
+    @_cache_property
+    def volumeid(self):
         return re.compile(self._get_value('volume-id'))
-    volumeid = _cache_property(_get_volumeid)
 
-    def _get_publisherid(self):
+    @_cache_property
+    def publisherid(self):
         return re.compile(self._get_value('publisher-id'))
-    publisherid = _cache_property(_get_publisherid)
 
-    def _get_applicationid(self):
+    @_cache_property
+    def applicationid(self):
         return re.compile(self._get_value('application-id'))
-    applicationid = _cache_property(_get_applicationid)
 
-    def _get_systemid(self):
+    @_cache_property
+    def systemid(self):
         return re.compile(self._get_value('system-id'))
-    systemid = _cache_property(_get_systemid)
 
-    def _get_volumesize(self):
+    @_cache_property
+    def volumesize(self):
         return self._get_value('volume-size', int, 0)
-    volumesize = _cache_property(_get_volumesize)
