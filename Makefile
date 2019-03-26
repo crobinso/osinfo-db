@@ -34,6 +34,8 @@ ZANATA = zanata
 
 PYTHON = python3
 
+PYTEST_LOG_LEVEL = $(shell $(PYTHON) -m pytest --help | grep log-level >/dev/null && echo "--log-level=info")
+
 V = 0
 
 V_I18N = $(V_I18N_$(V))
@@ -121,4 +123,4 @@ update-po:
         done
 
 check: $(DATA_FILES) $(SCHEMA_FILES)
-	$(PYTHON) -m pytest --log-level=info
+	$(PYTHON) -m pytest $(PYTEST_LOG_LEVEL)
