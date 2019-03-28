@@ -16,6 +16,11 @@ def pytest_configure(config):
         os.environ[key] = os.path.realpath(os.path.join(
             os.path.dirname(__file__), "..", "data"))
 
+    # Default to --log-level=info if not otherwise specified
+    if (hasattr(config.option, "log_level") and
+        config.option.log_level is None):
+        config.option.log_level = "info"
+
     # This will trigger some DATA_DIR validation
     from . import util
     dummy = util
