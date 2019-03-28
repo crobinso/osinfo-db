@@ -121,4 +121,4 @@ update-po:
         done
 
 check: $(DATA_FILES) $(SCHEMA_FILES)
-	LC_ALL= LANG=C LC_CTYPE=en_US.UTF-8 $(PYTHON) -m pytest
+	$(PYTHON) -m pytest

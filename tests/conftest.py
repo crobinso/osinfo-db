@@ -1,6 +1,7 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
+import locale
 import os
 
 
@@ -15,6 +16,9 @@ def pytest_configure(config):
     if key not in os.environ:
         os.environ[key] = os.path.realpath(os.path.join(
             os.path.dirname(__file__), "..", "data"))
+
+    # Needed for test reproducibility on freebsd
+    locale.setlocale(locale.LC_CTYPE, 'en_US.UTF-8')
 
     # Default to --log-level=info if not otherwise specified
     if (hasattr(config.option, "log_level") and
