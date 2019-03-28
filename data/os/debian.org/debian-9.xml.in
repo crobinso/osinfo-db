@@ -74,8 +74,8 @@
       <iso>
         <volume-id>Debian 9.(\d)+.(\d)+ arm64 n</volume-id>
       </iso>
-      <kernel>install.arm64/vmlinuz</kernel>
-      <initrd>install.arm64/initrd.gz</initrd>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
     </media>
     <media arch="armv7l">
       <variant id="universal-netinst"/>
@@ -130,8 +130,8 @@
       <iso>
         <volume-id>Debian 9.(\d)+.(\d)+ arm64 (\d)+</volume-id>
       </iso>
-      <kernel>install.arm64/vmlinuz</kernel>
-      <initrd>install.arm64/initrd.gz</initrd>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
     </media>
     <media arch="armv7l">
       <variant id="universal"/>
