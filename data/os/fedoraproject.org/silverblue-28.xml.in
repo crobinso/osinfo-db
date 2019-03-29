@@ -34,6 +34,10 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <network-install>
+        <ram>5368709120</ram>
+      </network-install>
     </resources>
 
     <installer>
