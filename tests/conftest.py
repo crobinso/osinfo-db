@@ -17,7 +17,8 @@ def pytest_configure(config):
         os.environ[key] = os.path.realpath(os.path.join(
             os.path.dirname(__file__), "..", "data"))
 
-    # Needed for test reproducibility on freebsd
+    # Needed for test reproducibility on any system not using a UTF-8 locale
+    locale.setlocale(locale.LC_ALL, 'C')
     locale.setlocale(locale.LC_CTYPE, 'en_US.UTF-8')
 
     # Default to --log-level=info if not otherwise specified
