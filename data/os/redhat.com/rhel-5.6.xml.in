@@ -33,5 +33,12 @@
         <volume-id>.*RHEL/5.6 x86_64.*</volume-id>
       </iso>
     </media>
+
+    <tree arch="all">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>5.6</version>
+      </treeinfo>
+    </tree>
   </os>
 </libosinfo>

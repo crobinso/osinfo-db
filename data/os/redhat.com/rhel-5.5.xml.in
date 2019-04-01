@@ -27,5 +27,12 @@
         <volume-id>.*RHEL/5.5 x86_64.*</volume-id>
       </iso>
     </media>
+
+    <tree arch="all">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>5.5</version>
+      </treeinfo>
+    </tree>
   </os>
 </libosinfo>
