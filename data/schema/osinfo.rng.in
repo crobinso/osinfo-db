@@ -467,7 +467,7 @@
   <define name='tree'>
     <element name='tree'>
       <attribute name='arch'>
-        <ref name='archnames'/>
+        <ref name='archnamesorall'/>
       </attribute>
       <interleave>
         <optional>
