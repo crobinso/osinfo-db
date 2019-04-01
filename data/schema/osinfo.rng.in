@@ -290,7 +290,7 @@
   <define name='resources'>
     <element name='resources'>
       <attribute name='arch'>
-        <ref name='archnamesorwildcard'/>
+        <ref name='archnamesorall'/>
       </attribute>
       <optional>
         <attribute name='inherit'>
@@ -774,7 +774,7 @@
     </element>
   </define>
 
-  <define name='archnamesorwildcard'>
+  <define name='archnamesorall'>
     <choice>
       <value>all</value>
       <ref name='archnames'/>
