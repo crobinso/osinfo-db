@@ -14,28 +14,24 @@
     <release-date>2017-07-26</release-date>
 
     <media arch="x86_64">
-      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-dvd1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>11_1_RELEASE_AMD64_DVD</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-disc1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>11_1_RELEASE_AMD64_CD</volume-id>
       </iso>
     </media>
     <media arch="i686">
-      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-i386-dvd1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>11_1_RELEASE_I386_DVD</volume-id>
       </iso>
     </media>
     <media arch="i686">
-      <url>https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-i386-disc1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>11_1_RELEASE_I386_CD</volume-id>
