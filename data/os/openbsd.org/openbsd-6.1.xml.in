@@ -13,7 +13,7 @@
     <release-date>2017-04-11</release-date>
 
     <media arch="i686">
-      <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.1/i386/install61.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/6.1/i386/install61.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2017 Theo de Raadt, The OpenBSD project</publisher-id>
         <system-id>OpenBSD</system-id>
@@ -23,7 +23,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.1/amd64/install61.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/6.1/amd64/install61.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2017 Theo de Raadt, The OpenBSD project</publisher-id>
         <system-id>OpenBSD</system-id>
