@@ -13,15 +13,7 @@
 
     <release-date>2018-04-30</release-date>
 
-    <variant id="nvidia">
-      <_name>Pop!_OS 18.04 (NVIDIA)</_name>
-    </variant>
-    <variant id="intel-amd">
-      <_name>Pop!_OS 18.04 (Intel/AMD)</_name>
-    </variant>
-
     <media arch="x86_64" live="true">
-      <variant id="nvidia"/>
       <iso>
         <volume-id>Pop_OS 18.04 amd64</volume-id>
       </iso>
@@ -29,7 +21,6 @@
       <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <variant id="intel-amd"/>
       <iso>
         <volume-id>Pop_OS 18.04 amd64</volume-id>
       </iso>
