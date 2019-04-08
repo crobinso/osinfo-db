@@ -24,7 +24,6 @@
       <variant id="nvidia"/>
       <iso>
         <volume-id>Pop_OS 18.04 amd64</volume-id>
-        <volume-size>2337341440</volume-size>
       </iso>
       <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.gz</initrd>
@@ -33,7 +32,6 @@
       <variant id="intel-amd"/>
       <iso>
         <volume-id>Pop_OS 18.04 amd64</volume-id>
-        <volume-size>2101542912</volume-size>
       </iso>
       <kernel>casper/vmlinuz.efi</kernel>
       <initrd>casper/initrd.gz</initrd>
