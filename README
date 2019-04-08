@@ -17,8 +17,11 @@ Dependencies
 - Required:
   - osinfo-db-tools
   - intltool
-- Optional:
-  - xmllint (from libxml2) -- for testing
+- Optional (for testing):
+  - python3
+  - python3-lxml
+  - python3-pytest
+  - python3-requests
 
 Build reproducibility
 =====================
