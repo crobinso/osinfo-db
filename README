@@ -50,4 +50,18 @@ homepage
 
    https://libosinfo.org/
 
+Testing
+=======
+
+In order to test osinfo-db, you should run:
+
+    $ make check
+
+For a more complete test run, including testing the validity of the URLs
+present in osinfo-db, you should export the OSINFO_DB_NETWORK_TESTS environment
+variable to the build system. For example:
+
+    $ export OSINFO_DB_NETWORK_TESTS=1
+    $ make check
+
 --End
