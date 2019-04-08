@@ -22,7 +22,6 @@
 
     <media arch="x86_64" live="true">
       <variant id="nvidia"/>
-      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/18.10/amd64/nvidia/3/pop-os_18.10_amd64_nvidia_3.iso</url>
       <iso>
         <volume-id>Pop_OS 18.10 amd64</volume-id>
         <volume-size>2401763328</volume-size>
@@ -32,7 +31,6 @@
     </media>
     <media arch="x86_64" live="true">
       <variant id="intel-amd"/>
-      <url>https://d1vhcvzji58n1j.cloudfront.net/pop-os/iso/18.10/amd64/intel/3/pop-os_18.10_amd64_intel_3.iso</url>
       <iso>
         <volume-id>Pop_OS 18.10 amd64</volume-id>
         <volume-size>2145386496</volume-size>
