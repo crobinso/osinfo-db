@@ -73,6 +73,10 @@
         <ram>536870912</ram>
         <storage>34359738368</storage>
       </minimum>
+
+      <maximum>
+        <ram>4398046511104</ram>
+      </maximum>
     </resources>
   </os>
 </libosinfo>

@@ -66,6 +66,10 @@
       <recommended>
         <storage>8589934592</storage>
       </recommended>
+
+      <maximum>
+        <ram>1099511627776</ram>
+      </maximum>
     </resources>
 
     <installer>

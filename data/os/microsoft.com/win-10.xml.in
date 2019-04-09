@@ -130,6 +130,10 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </minimum>
+
+      <maximum>
+        <ram>6597069766656</ram>
+      </maximum>
     </resources>
 
     <installer>

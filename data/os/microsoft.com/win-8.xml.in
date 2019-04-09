@@ -130,6 +130,10 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </minimum>
+
+      <maximum>
+        <ram>549755813888</ram>
+      </maximum>
     </resources>
 
     <devices>
