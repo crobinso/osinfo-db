@@ -99,6 +99,14 @@
       </treeinfo>
     </tree>
 
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/28/Cloud/x86_64/images/Fedora-Cloud-Base-28-1.1.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/28/Cloud/aarch64/images/Fedora-Cloud-Base-28-1.1.aarch64.qcow2</url>
+    </image>
+
     <!-- No install media or tree is provided for Fedora 28 Cloud variant -->
 
     <resources arch="all">
