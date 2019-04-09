@@ -53,6 +53,22 @@
       <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
     </tree>
 
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/testing/debian-testing-openstack-amd64.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="raw" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/testing/debian-testing-openstack-amd64.raw</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/testing/debian-testing-openstack-arm64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="raw" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/testing/debian-testing-openstack-arm64.raw</url>
+    </image>
+
     <installer>
       <script id='http://debian.org/debian/preseed/jeos'/>
       <script id='http://debian.org/debian/preseed/desktop'/>
