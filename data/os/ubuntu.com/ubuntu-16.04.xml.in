@@ -99,6 +99,47 @@
       <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img</url>
+    </image>
+
+    <!-- UFI/GPT Bootable disk image -->
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-uefi1.img</url>
+    </image>
+
+    <image arch="x86_64" format="vmdk" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.vmdk</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-arm64-disk1.img</url>
+    </image>
+
+    <image arch="armv7l" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-armhf-disk1.img</url>
+    </image>
+
+    <image arch="i686" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-i386-disk1.img</url>
+    </image>
+
+    <image arch="i686" format="vmdk" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-i386-disk1.vmdk</url>
+    </image>
+
+    <image arch="ppc" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-powerpc-disk1.img</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-ppc64el-disk1.img</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-s390x-disk1.img</url>
+    </image>
+
     <installer>
       <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
