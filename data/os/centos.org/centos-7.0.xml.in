@@ -61,6 +61,10 @@
       </treeinfo>
     </tree>
 
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2</url>
+    </image>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
