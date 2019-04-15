@@ -52,6 +52,8 @@ INTLTOOL_MERGE_OPTS = $(INTLTOOL_MERGE_OPTS_$(V))
 INTLTOOL_MERGE_OPTS_0 = -q
 INTLTOOL_MERGE_OPTS_1 =
 
+ABS_TOPDIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+
 all: $(ARCHIVE) osinfo-db.spec mingw-osinfo-db.spec
 
 install: $(ARCHIVE)
@@ -121,4 +123,4 @@ update-po:
         done
 
 check: $(DATA_FILES) $(SCHEMA_FILES)
-	$(PYTHON) -m pytest
+	INTERNAL_OSINFO_DB_DATA_DIR=data INTERNAL_OSINFO_DB_DATA_SRC_DIR=$(ABS_TOPDIR)data $(PYTHON) -m pytest $(ABS_TOPDIR)tests
