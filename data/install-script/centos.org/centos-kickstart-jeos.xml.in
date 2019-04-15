@@ -88,7 +88,7 @@
             <xsl:when test="config/installation-url != ''">
               <xsl:value-of select="config/installation-url"/>
             </xsl:when>
-            <xsl:when test="treel/url != ''">
+            <xsl:when test="tree/url != ''">
               <xsl:value-of select="tree/url"/>
             </xsl:when>
             <xsl:otherwise>
