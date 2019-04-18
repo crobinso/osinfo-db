@@ -5,7 +5,7 @@
     <short-id>debian5</short-id>
     <short-id>debianlenny</short-id>
     <_name>Debian GNU/Linux 5.0</_name>
-    <version>5</version>
+    <version>5.0</version>
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
