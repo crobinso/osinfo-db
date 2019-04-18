@@ -3,6 +3,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://debian.org/debian/5">
     <short-id>debian5</short-id>
+    <short-id>debian5.0</short-id>
     <short-id>debianlenny</short-id>
     <_name>Debian GNU/Linux 5.0</_name>
     <version>5.0</version>
