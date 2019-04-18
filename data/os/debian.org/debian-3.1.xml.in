@@ -4,7 +4,7 @@
   <os id="http://debian.org/debian/3.1">
     <short-id>debian3.1</short-id>
     <short-id>debiansarge</short-id>
-    <_name>Debian Sarge</_name>
+    <_name>Debian GNU/Linux 3.1</_name>
     <version>3.1</version>
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
