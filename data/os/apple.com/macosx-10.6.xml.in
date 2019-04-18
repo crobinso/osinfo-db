@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Snow Leopard</codename>
     <upgrades id="http://apple.com/macosx/10.5" />
 
     <release-date>2009-08-28</release-date>

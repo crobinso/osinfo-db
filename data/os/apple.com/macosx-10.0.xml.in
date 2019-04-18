@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Cheetah</codename>
 
     <release-date>2001-03-24</release-date>
   </os>

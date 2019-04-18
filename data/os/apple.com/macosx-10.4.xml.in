@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Tiger</codename>
     <upgrades id="http://apple.com/macosx/10.3" />
 
     <release-date>2005-04-29</release-date>

@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Puma</codename>
     <upgrades id="http://apple.com/macosx/10.0" />
 
     <release-date>2001-09-25</release-date>

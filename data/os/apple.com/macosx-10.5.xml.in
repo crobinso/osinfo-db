@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Leopard</codename>
     <upgrades id="http://apple.com/macosx/10.4" />
 
     <release-date>2007-10-26</release-date>

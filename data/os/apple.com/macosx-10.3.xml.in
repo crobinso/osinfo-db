@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Panther</codename>
     <upgrades id="http://apple.com/macosx/10.2" />
 
     <release-date>2003-10-24</release-date>

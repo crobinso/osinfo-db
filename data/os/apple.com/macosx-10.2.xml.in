@@ -8,6 +8,7 @@
     <_vendor>Apple Inc.</_vendor>
     <family>darwin</family>
     <distro>osx</distro>
+    <codename>Jaguar</codename>
     <upgrades id="http://apple.com/macosx/10.1" />
 
     <release-date>2002-09-24</release-date>
