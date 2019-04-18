@@ -4,7 +4,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://ubuntu.com/ubuntu/19.04">
     <short-id>ubuntu19.04</short-id>
-    <short-id>ubuntucosmic</short-id>
+    <short-id>ubuntudisco</short-id>
     <_name>Ubuntu 19.04</_name>
     <version>19.04</version>
     <_vendor>Canonical Ltd</_vendor>
