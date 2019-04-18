@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>bo</codename>
     <upgrades id="http://debian.org/debian/1.2"/>
     <derives-from id="http://debian.org/debian/1.2"/>
 

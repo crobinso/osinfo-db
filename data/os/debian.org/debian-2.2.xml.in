@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>potato</codename>
     <upgrades id="http://debian.org/debian/2.1"/>
     <derives-from id="http://debian.org/debian/2.1"/>
 

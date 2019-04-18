@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>squeeze</codename>
     <upgrades id="http://debian.org/debian/5"/>
     <derives-from id="http://debian.org/debian/5"/>
 

@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>jessie</codename>
     <upgrades id="http://debian.org/debian/7"/>
     <derives-from id="http://debian.org/debian/7"/>
 

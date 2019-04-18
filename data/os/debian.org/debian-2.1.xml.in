@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>slink</codename>
     <upgrades id="http://debian.org/debian/2.0"/>
     <derives-from id="http://debian.org/debian/2.0"/>
 

@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>stretch</codename>
     <upgrades id="http://debian.org/debian/8"/>
     <derives-from id="http://debian.org/debian/8"/>
 

@@ -9,6 +9,7 @@
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
     <distro>debian</distro>
+    <codename>buzz</codename>
 
     <release-date>1996-07-17</release-date>
   </os>
