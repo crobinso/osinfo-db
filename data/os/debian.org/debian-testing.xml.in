@@ -3,7 +3,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://debian.org/debian/testing">
     <short-id>debiantesting</short-id>
-    <_name>Debian Testing</_name>
+    <_name>Debian testing</_name>
     <version>testing</version>
     <_vendor>Debian Project</_vendor>
     <family>linux</family>
