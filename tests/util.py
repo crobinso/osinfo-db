@@ -134,16 +134,17 @@ class _DataFiles(_Files):
 DataFiles = _DataFiles()
 
 
+def _ids_cb(osxml):
+    # pytest passes us a weird value when oses is empty, which
+    # might happen depending on how agressively we filter. So
+    # we can't assume we are passed an Os instance
+    return getattr(osxml, "shortid", str(osxml))
+
+
 def os_parametrize(argname, **kwargs):
     """
     Helper for parametrizing a test with an OS list. Passthrough any
     extra arguments to DataFiles.oses()
     """
-    def ids_cb(osxml):
-        # pytest passes us a weird value when oses is empty, which
-        # might happen depending on how agressively we filter. So
-        # we can't assume we are passed an Os instance
-        return getattr(osxml, "shortid", str(osxml))
-
     oses = DataFiles.oses(**kwargs)
-    return pytest.mark.parametrize(argname, oses, ids=ids_cb)
+    return pytest.mark.parametrize(argname, oses, ids=_ids_cb)
