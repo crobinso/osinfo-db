@@ -20,8 +20,6 @@ GETTEXT_PACKAGE = osinfo-db
 
 SED = sed
 
-TEE = tee
-
 DATA_FILES_IN = $(wildcard $(VPATH)/data/*/*/*.xml.in) $(wildcard $(VPATH)/data/*/*/*/*.xml.in)
 DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 
