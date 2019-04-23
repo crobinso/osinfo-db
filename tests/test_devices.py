@@ -7,6 +7,7 @@ from . import util
 
 
 DEVICE_MAP = {d.internal_id: d for d in util.DataFiles.devices()}
+DEVICE_MAP_SRC = {d.internal_id: d for d in util.SourceFiles.devices()}
 
 
 def _check_duplicate_devices(osxml):
@@ -29,12 +30,11 @@ def _check_uncommented_devices(osxml):
     the device string name in it. This helps readability/grepability
     """
     badlines = []
-    sourcefile = osxml.filename + ".in"
-    devlines = [l for l in open(sourcefile).read().splitlines() if
+    devlines = [l for l in open(osxml.filename).read().splitlines() if
                 "<device id" in l]
 
     for devid in osxml.devices:
-        devname = DEVICE_MAP[devid].name
+        devname = DEVICE_MAP_SRC[devid].name
         for devline in devlines:
             if devid not in devline:
                 continue
@@ -50,4 +50,8 @@ def _check_uncommented_devices(osxml):
 @util.os_parametrize('osxml', filter_devices=True)
 def test_devices_duplication(osxml):
     _check_duplicate_devices(osxml)
+
+
+@util.os_sources_parametrize('osxml', filter_devices=True)
+def test_devices_comments(osxml):
     _check_uncommented_devices(osxml)
