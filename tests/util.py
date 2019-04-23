@@ -25,22 +25,22 @@ def human_sort(text):
             re.split(r'[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)', text)]
 
 
-class _DataFiles():
+class _Files():
     """
-    Track a list of DATA_DIR XML files and provide APIs for querying
-    them. Meant to be initialized only once
+    Track a list of DATA_DIR files and provide APIs for querying them.
     """
-    def __init__(self):
-        self.datadir = os.environ['INTERNAL_OSINFO_DB_DATA_DIR']
+    def __init__(self, dir_env, files_format):
+        self.datadir = os.environ[dir_env]
         self.schema = os.path.join(self.datadir, 'schema', 'osinfo.rng')
         self._all_xml_cache = []
         self._oses_cache = []
         self._devices_cache = []
         self._os_related_cache = defaultdict(list)
+        self._files_format = files_format
 
         if not os.path.exists(self.datadir):
-            raise RuntimeError("INTERNAL_OSINFO_DB_DATA_DIR=%s "
-                "doesn't exist" % self.datadir)
+            raise RuntimeError("%s=%s doesn't exist" % (dir_env, self.datadir))
+
 
     def _get_all_xml(self):
         """
@@ -49,7 +49,7 @@ class _DataFiles():
         if not self._all_xml_cache:
             for (dirpath, _, filenames) in os.walk(self.datadir):
                 for filename in sorted(filenames, key=human_sort):
-                    if not filename.endswith('.xml'):
+                    if not filename.endswith(self._files_format):
                         continue
                     self._all_xml_cache.append(os.path.join(dirpath, filename))
         return self._all_xml_cache
@@ -120,6 +120,15 @@ class _DataFiles():
 
     def xmls(self):
         return self._get_all_xml()
+
+
+class _DataFiles(_Files):
+    """
+    Track a list of DATA_DIR XML files and provide APIs for querying
+    them. Meant to be initialized only once
+    """
+    def __init__(self):
+        _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_DIR', '.xml')
 
 
 DataFiles = _DataFiles()
