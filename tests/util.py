@@ -148,3 +148,25 @@ def os_parametrize(argname, **kwargs):
     """
     oses = DataFiles.oses(**kwargs)
     return pytest.mark.parametrize(argname, oses, ids=_ids_cb)
+
+
+class _SourceFiles(_Files):
+    """
+    Track a list of DATA_SRC_DIR XML.IN files and provide APIs for querying
+    them. Meant to be initialized only once
+    """
+    def __init__(self):
+        _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_SRC_DIR', '.xml.in')
+
+
+SourceFiles = _SourceFiles()
+
+
+def os_sources_parametrize(argname, **kwargs):
+    """
+    Helper for parametrizing a test with an OS list. Passthrough any
+    extra arguments to DataFiles.oses()
+    """
+
+    oses = SourceFiles.oses(**kwargs)
+    return pytest.mark.parametrize(argname, oses, ids=_ids_cb)
