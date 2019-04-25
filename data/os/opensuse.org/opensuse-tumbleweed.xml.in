@@ -67,9 +67,9 @@
     <!-- Kubic -->
     <media arch="x86_64">
       <variant id="kubic"/>
-      <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-Kubic-DVD-x86_64-Current.iso</url>
+      <url>http://download.opensuse.org/tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso</url>
       <iso>
-        <volume-id>openSUSE-Tumbleweed-Kubic-*</volume-id>
+        <volume-id>openSUSE-(Tumbleweed-)?Kubic-*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
