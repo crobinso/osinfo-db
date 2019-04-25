@@ -12,6 +12,7 @@
     <upgrades id="http://microsoft.com/win/8"/>
 
     <release-date>2013-10-17</release-date>
+    <eol-date>2018-01-09</eol-date>
 
     <variant id="debug">
       <_name>Microsoft Windows 8.1 Debug Checked Build</_name>
