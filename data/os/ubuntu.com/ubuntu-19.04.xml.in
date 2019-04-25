@@ -14,7 +14,6 @@
     <upgrades id="http://ubuntu.com/ubuntu/18.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/18.10"/>
 
-    <release-status>prerelease</release-status>
     <release-date>2019-04-18</release-date>
     <eol-date>2020-01-18</eol-date>
 
