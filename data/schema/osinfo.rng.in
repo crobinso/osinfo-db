@@ -577,6 +577,22 @@
     </element>
   </define>
 
+  <define name='firmware'>
+    <element name='firmware'>
+      <attribute name='arch'>
+        <ref name='archnames'/>
+      </attribute>
+      <attribute name='type'>
+        <ref name='firmware-types'/>
+      </attribute>
+      <optional>
+        <attribute name='supported'>
+          <ref name='bool'/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+
   <define name='os'>
     <element name='os'>
       <interleave>
@@ -610,6 +626,9 @@
         </zeroOrMore>
         <zeroOrMore>
           <ref name='driver'/>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name='firmware'/>
         </zeroOrMore>
         <optional>
           <element name="kernel-url-argument">
@@ -900,5 +919,12 @@
         <param name="pattern">cdrom|disk|floppy|initrd|web</param>
       </data>
     </element>
+  </define>
+
+  <define name='firmware-types'>
+    <choice>
+      <value>bios</value>
+      <value>efi</value>
+    </choice>
   </define>
 </grammar>
