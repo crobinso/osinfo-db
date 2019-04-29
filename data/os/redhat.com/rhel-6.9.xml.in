@@ -15,6 +15,9 @@
     <release-date>2017-03-21</release-date>
     <eol-date>2023-11-30</eol-date>
 
+    <firmware arch="x86_64" type="efi"/>
+    <firmware arch="i686" type="efi"/>
+
     <media arch="i686">
       <iso>
         <system-id>LINUX</system-id>
