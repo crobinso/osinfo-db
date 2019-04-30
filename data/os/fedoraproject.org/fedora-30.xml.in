@@ -1,0 +1,156 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://fedoraproject.org/fedora/30">
+    <short-id>fedora30</short-id>
+    <_name>Fedora 30</_name>
+    <version>30</version>
+    <_vendor>Fedora Project</_vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/29"/>
+    <derives-from id="http://fedoraproject.org/fedora/29"/>
+
+    <release-date>2019-04-30</release-date>
+
+    <variant id="workstation">
+      <_name>Fedora 30 Workstation</_name>
+    </variant>
+    <variant id="workstation-netinst">
+      <_name>Fedora 30 Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora 30 Server</_name>
+    </variant>
+    <variant id="server-netinst">
+      <_name>Fedora 30 Server</_name>
+    </variant>
+    <variant id="everything-netinst">
+      <_name>Fedora 30 Everything</_name>
+    </variant>
+
+    <!-- Workstation -->
+
+    <!-- Live -->
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-30-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-Live-30.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="x86_64">
+      <variant id="workstation-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/iso/Fedora-Workstation-netinst-x86_64-30-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-dvd-x86_64-30</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+      </installer>
+    </media>
+
+    <!-- Server -->
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Server/x86_64/iso/Fedora-Server-dvd-x86_64-30-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-30</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="x86_64">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Server/x86_64/iso/Fedora-Server-netinst-x86_64-30-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-30</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- Everything -->
+    <media arch="x86_64">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-30-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-E-dvd-x86_64-30</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+        <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+      </installer>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Workstation/x86_64/os</url>
+      <variant id="workstation"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>30</version>
+        <arch>x86_64</arch>
+        <variant>Workstation</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/30/Server/x86_64/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>30</version>
+        <arch>x86_64</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/30/Cloud/x86_64/images/Fedora-Cloud-Base-30-1.2.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/30/Cloud/aarch64/images/Fedora-Cloud-Base-30-1.2.aarch64.qcow2</url>
+    </image>
+
+    <!-- No install media or tree is provided for Fedora 30 Cloud variant -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
