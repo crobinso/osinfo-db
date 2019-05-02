@@ -15,7 +15,6 @@
     <media arch="x86_64">
       <iso>
         <volume-id>Fedora-.*-dvd-x86_64-[3-9][1-9]</volume-id>
-        <system-id>LINUX</system-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -24,7 +23,6 @@
     <media arch="x86_64" live="true">
       <iso>
         <volume-id>Fedora-.*-Live-[3-9][1-9].*</volume-id>
-        <system-id>LINUX</system-id>
       </iso>
     </media>
 
