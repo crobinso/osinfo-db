@@ -153,6 +153,8 @@
       </minimum>
     </resources>
 
+    <kernel-url-argument>inst.repo</kernel-url-argument>
+
     <installer>
       <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
       <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>

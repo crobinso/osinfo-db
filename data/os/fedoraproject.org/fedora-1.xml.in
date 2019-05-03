@@ -86,6 +86,8 @@
       <boot-iso>images/boot.iso</boot-iso>
     </tree>
 
+    <kernel-url-argument>method</kernel-url-argument>
+
     <installer>
       <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>
