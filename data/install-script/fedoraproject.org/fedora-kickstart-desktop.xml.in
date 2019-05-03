@@ -110,6 +110,30 @@
           <xsl:value-of select="script/expected-filename"/>
         </xsl:template>
 
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:when test="tree/url != ''">
+              <xsl:value-of select="tree/url"/>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="url-or-mirrorlist">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != '' or tree/url != ''">
+              <xsl:text> --url</xsl:text>
+              <xsl:call-template name="installation-url"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text> --mirrorlist=</xsl:text>
+              <xsl:text>https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media' and (count(media/variant) = 0 or not(contains(media/variant, 'netinst')))">
@@ -143,7 +167,7 @@ reboot
 <xsl:if test="script/installation-source = 'network' or contains(media/variant, 'netinst')">
 repo --name=fedora --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
 repo --name=updates --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&amp;arch=$basearch
-url --mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&amp;arch=$basearch
+url <xsl:call-template name="url-or-mirrorlist"/>
 </xsl:if>
 
 %packages
