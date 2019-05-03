@@ -93,6 +93,8 @@
       </maximum>
     </resources>
 
+    <kernel-url-argument>method</kernel-url-argument>
+
     <installer>
       <script id='http://redhat.com/rhel/kickstart/jeos'/>
       <script id='http://redhat.com/rhel/kickstart/desktop'/>

@@ -12,5 +12,7 @@
 
     <release-date>2007-03-14</release-date>
     <eol-date>2020-03-31</eol-date>
+
+    <kernel-url-argument>method</kernel-url-argument>
   </os>
 </libosinfo>

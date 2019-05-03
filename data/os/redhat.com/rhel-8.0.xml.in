@@ -140,5 +140,7 @@
         <storage>10737418240</storage>
       </recommended>
     </resources>
+
+    <kernel-url-argument>inst.repo</kernel-url-argument>
   </os>
 </libosinfo>

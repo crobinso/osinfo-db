@@ -106,6 +106,8 @@
       </network-install>
     </resources>
 
+    <kernel-url-argument>inst.repo</kernel-url-argument>
+
     <installer>
       <script id='http://redhat.com/rhel/kickstart/jeos'/>
       <script id='http://redhat.com/rhel/kickstart/desktop'/>
