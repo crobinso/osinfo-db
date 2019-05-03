@@ -120,6 +120,10 @@
             </xsl:otherwise>
           </xsl:choose>
           <xsl:value-of select="script/expected-filename"/>
+          <xsl:if test="script/installation-source = 'network'">
+            <xsl:text> install=</xsl:text>
+            <xsl:call-template name="installation-url"/>
+          </xsl:if>
         </xsl:template>
 
         <xsl:template match="/install-script-config">
