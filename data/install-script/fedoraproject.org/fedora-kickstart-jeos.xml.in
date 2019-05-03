@@ -100,6 +100,17 @@
             </xsl:otherwise>
           </xsl:choose>
           <xsl:value-of select="script/expected-filename"/>
+          <xsl:if test="script/installation-source = 'network'">
+            <xsl:choose>
+              <xsl:when test="os/version &lt; 19">
+                <xsl:text> method=</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text> inst.repo=</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
+            <xsl:call-template name="installation-url"/>
+          </xsl:if>
         </xsl:template>
 
         <xsl:template name="installation-url">
