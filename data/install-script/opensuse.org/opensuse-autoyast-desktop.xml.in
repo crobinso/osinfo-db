@@ -67,6 +67,20 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:when test="tree/url != ''">
+              <xsl:value-of select="tree/url"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:call-template name="repo-oss"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template name="repo-oss">
           <xsl:text> </xsl:text>
           <xsl:text>http://download.opensuse.org/</xsl:text>
@@ -250,7 +264,7 @@ Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
 fi
 
 # Enable default OpenSUSE repos
-zypper ar -f <xsl:call-template name="repo-oss"/> repo-oss
+zypper ar -f <xsl:call-template name="installation-url"/> repo-oss
 zypper ar -f <xsl:call-template name="repo-non-oss"/> repo-non-oss
 zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
 <xsl:if test="not(contains(os/version, 'tumbleweed'))">
