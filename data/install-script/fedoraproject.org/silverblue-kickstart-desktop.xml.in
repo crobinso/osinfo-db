@@ -45,6 +45,21 @@
             </xsl:otherwise>
           </xsl:choose>
           <xsl:value-of select="script/expected-filename"/>
+          <xsl:if test="script/installation-source = 'network'">
+            <xsl:text> inst.repo=</xsl:text>
+            <xsl:call-template name="installation-url"/>
+          </xsl:if>
+        </xsl:template>
+
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:when test="tree/url != ''">
+              <xsl:value-of select="tree/url"/>
+            </xsl:when>
+          </xsl:choose>
         </xsl:template>
 
         <xsl:template match="/install-script-config">
