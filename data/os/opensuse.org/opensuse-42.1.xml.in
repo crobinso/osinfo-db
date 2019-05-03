@@ -25,6 +25,8 @@
       <initrd>boot/x86_64/loader/initrd</initrd>
     </media>
 
+    <kernel-url-argument>install</kernel-url-argument>
+
     <installer>
       <script id='http://opensuse.org/opensuse/autoyast/jeos'/>
       <script id='http://opensuse.org/opensuse/autoyast/desktop'/>
