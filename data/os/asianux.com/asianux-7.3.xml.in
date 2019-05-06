@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <libosinfo version="0.0.1">
 
-  <os id="http://asianux.com/asianux/unknown">
-    <short-id>asianux-unknown</short-id>
-    <name>Asianux unknown</name>
-    <version>unknown</version>
+  <os id="http://asianux.com/asianux/7.3">
+    <short-id>asianux7.3</short-id>
+    <name>Asianux Server 7 SP3</name>
+    <version>7.3</version>
     <vendor>Asianux Project</vendor>
     <family>linux</family>
     <distro>asianux</distro>
-    <release-status>prerelease</release-status>
+    <codename>Lotus</codename>
+    <upgrades id="http://asianux.com/asianux/7.2"/>
+
+    <release-date>2019-02-26</release-date>
 
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>Asianux Server (7 (?!SP[123])|(4 ?!SP[67])).+</volume-id>
+        <volume-id>Asianux Server 7 SP3 x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
