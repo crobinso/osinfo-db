@@ -38,6 +38,7 @@ class _Files():
         self._datamaps_cache = []
         self._installscripts_cache = []
         self._platforms_cache = []
+        self._firmwares_cache = []
         self._os_related_cache = defaultdict(list)
         self._files_format = files_format
 
@@ -66,7 +67,7 @@ class _Files():
 
     def oses(self, filter_media=False, filter_trees=False, filter_images=False,
             filter_devices=False, filter_resources=False, filter_dates=False,
-            filter_related=False):
+            filter_related=False, filter_firmwares=False):
         """
         Return a list of osinfo.Os objects
 
@@ -92,6 +93,8 @@ class _Files():
             oses = [o for o in oses if o.release_date or o.eol_date]
         if filter_related:
             oses = [o for o in oses if self.getosxml_related(o)]
+        if filter_firmwares:
+            oses = [o for o in oses if o.firmwares]
         return oses
 
     def getosxml_related(self, osxml):
@@ -143,6 +146,12 @@ class _Files():
             for path in self._filter_xml('platform'):
                 self._platforms_cache.append(osinfo.Platform(path))
         return self._platforms_cache
+
+    def firmwares(self):
+        if not self._firmwares_cache:
+            for path in self._filter_xml('firmware'):
+                self._firmwares_cache.append(osinfo.Firmware(path))
+        return self._firmwares_cache
 
     def xmls(self):
         return self._get_all_xml()

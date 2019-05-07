@@ -156,6 +156,14 @@ class Os(_XMLBase):
     def variants(self):
         return [v.attrib['id'] for v in self._root.findall('variant')]
 
+    @_cache_property
+    def firmwares(self):
+        firmwares = []
+        firmwarelist = self._root.findall('firmware')
+        for firmware in firmwarelist:
+            firmwares.append(Firmware(firmware))
+        return firmwares
+
 
 class Resources(_XMLBase):
     @_cache_property
@@ -173,6 +181,16 @@ class Resources(_XMLBase):
     @_cache_property
     def storage(self):
         return self._get_int('storage')
+
+
+class Firmware(_XMLBase):
+    @_cache_property
+    def arch(self):
+        return self._root.attrib["arch"]
+
+    @_cache_property
+    def firmware_type(self):
+        return self._root.attrib["type"]
 
 
 class Image(_XMLBase):
