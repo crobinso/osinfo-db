@@ -10,7 +10,7 @@
     <distro>rhel</distro>
     <upgrades id="http://redhat.com/rhel/7.6"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2018-05-07</release-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
