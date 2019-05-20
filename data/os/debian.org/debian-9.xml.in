@@ -195,19 +195,19 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current/debian-9.9.0-openstack-amd64.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-amd64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="raw" cloud-init="true">
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current/debian-9.9.0-openstack-amd64.raw</url>
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-amd64.raw</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current/debian-9.9.0-openstack-arm64.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-arm64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="raw" cloud-init="true">
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current/debian-9.9.0-openstack-arm64.raw</url>
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-arm64.raw</url>
     </image>
 
     <installer>
