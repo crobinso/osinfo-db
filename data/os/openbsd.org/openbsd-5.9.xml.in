@@ -12,6 +12,7 @@
     <derives-from id='http://openbsd.org/openbsd/5.8'/>
 
     <release-date>2016-03-29</release-date>
+    <eol-date>2017-04-11</eol-date>
 
     <media arch="i686">
       <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/i386/install59.iso</url>

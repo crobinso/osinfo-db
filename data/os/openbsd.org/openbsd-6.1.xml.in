@@ -12,6 +12,7 @@
     <derives-from id='http://openbsd.org/openbsd/6.0'/>
 
     <release-date>2017-04-11</release-date>
+    <eol-date>2018-05-01</eol-date>
 
     <media arch="i686">
       <url>https://ftp.eu.openbsd.org/pub/OpenBSD/6.1/i386/install61.iso</url>

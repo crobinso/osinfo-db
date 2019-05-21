@@ -12,6 +12,7 @@
     <derives-from id='http://openbsd.org/openbsd/5.7'/>
 
     <release-date>2015-10-18</release-date>
+    <eol-date>2016-09-01</eol-date>
 
     <media arch="i686">
       <iso>

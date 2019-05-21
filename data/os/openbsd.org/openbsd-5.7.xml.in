@@ -12,6 +12,7 @@
     <derives-from id='http://openbsd.org/openbsd/5.6'/>
 
     <release-date>2015-05-01</release-date>
+    <eol-date>2016-03-29</eol-date>
 
     <media arch="i686">
       <iso>

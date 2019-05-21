@@ -12,6 +12,7 @@
     <derives-from id='http://openbsd.org/openbsd/5.0'/>
 
     <release-date>2012-05-01</release-date>
+    <eol-date>2013-05-01</eol-date>
 
     <media arch="i686">
       <iso>
