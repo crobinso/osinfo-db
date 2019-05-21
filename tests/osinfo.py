@@ -137,6 +137,14 @@ class Os(_XMLBase):
     def get_network_install_resources(self, node):
         return self._get_resources(node, 'network-install')
 
+    @_cache_property
+    def release_date(self):
+        return self._get_text('release-date')
+
+    @_cache_property
+    def eol_date(self):
+        return self._get_text('eol-date')
+
 
 class Resources(_XMLBase):
     @_cache_property
