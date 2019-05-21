@@ -11,7 +11,7 @@
     <upgrades id='http://openbsd.org/openbsd/4.2'/>
     <derives-from id='http://openbsd.org/openbsd/4.2'/>
 
-    <release-date>2008-04-01</release-date>
+    <release-date>2008-05-01</release-date>
     <eol-date>2009-05-01</eol-date>
 
     <media arch="i686">
