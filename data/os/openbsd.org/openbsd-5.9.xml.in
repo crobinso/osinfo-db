@@ -9,6 +9,7 @@
     <distro>openbsd</distro>
     <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/5.8'/>
+    <derives-from id='http://openbsd.org/openbsd/5.8'/>
 
     <release-date>2016-03-29</release-date>
 

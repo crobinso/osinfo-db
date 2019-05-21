@@ -9,6 +9,7 @@
     <distro>openbsd</distro>
     <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/6.4'/>
+    <derives-from id='http://openbsd.org/openbsd/6.4'/>
 
     <release-date>2019-05-01</release-date>
     <eol-date>2020-05-01</eol-date>

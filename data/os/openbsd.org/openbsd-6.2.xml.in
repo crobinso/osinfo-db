@@ -9,6 +9,7 @@
     <distro>openbsd</distro>
     <_vendor>OpenBSD Project</_vendor>
     <upgrades id='http://openbsd.org/openbsd/6.1'/>
+    <derives-from id='http://openbsd.org/openbsd/6.1'/>
 
     <release-date>2017-10-09</release-date>
 
