@@ -1,0 +1,31 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/8.0">
+    <short-id>ol8.0</short-id>
+    <_name>Oracle Linux 8.0</_name>
+    <version>8.0</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/8.0"/>
+
+    <release-status>prerelease</release-status>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Oracle-Linux-8-0-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Oracle-Linux-8-0-aarch64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

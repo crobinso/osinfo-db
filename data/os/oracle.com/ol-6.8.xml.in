@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/6.8">
+    <short-id>ol6.8</short-id>
+    <_name>Oracle Linux 6.8</_name>
+    <version>6.8</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/6.8"/>
+
+    <release-date>2016-05-17</release-date>
+    <eol-date>2024-03-31</eol-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL6.8 x86_64 Disc 1</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL6.8 i386 Disc 1</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

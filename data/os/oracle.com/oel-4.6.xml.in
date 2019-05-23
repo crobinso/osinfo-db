@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/oel/4.6">
+    <short-id>oel4.6</short-id>
+    <_name>Oracle Enterprise Linux 4.6</_name>
+    <version>4.6</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>oel</distro>
+
+    <release-date>2008-04-16</release-date>
+    <eol-date>2013-03-28</eol-date>
+
+  </os>
+</libosinfo>

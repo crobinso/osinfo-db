@@ -1,0 +1,22 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/7.4">
+    <short-id>ol7.4</short-id>
+    <_name>Oracle Linux 7.4</_name>
+    <version>7.4</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/7.4"/>
+
+    <release-date>2017-08-04</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-7.4 Server.x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+  </os>
+</libosinfo>

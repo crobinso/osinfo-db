@@ -1,0 +1,14 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/oel/4.9">
+    <short-id>oel4.9</short-id>
+    <_name>Oracle Enterprise Linux 4.9</_name>
+    <version>4.9</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>oel</distro>
+
+    <release-date>2011-02-23</release-date>
+    <eol-date>2013-03-28</eol-date>
+
+  </os>
+</libosinfo>

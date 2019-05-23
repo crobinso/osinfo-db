@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/5.5">
+    <short-id>ol5.5</short-id>
+    <_name>Oracle Linux 5.5</_name>
+    <version>5.5</version>
+    <_vendor>Oracle America</_vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/5.5"/>
+
+    <release-date>2010-04-13</release-date>
+    <eol-date>2020-06-30</eol-date>
+
+  </os>
+</libosinfo>
