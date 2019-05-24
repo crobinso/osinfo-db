@@ -8,13 +8,13 @@
     <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sles</distro>
-    <upgrades id="http://suse.com/sles/12.3"/>
-    <derives-from id="http://suse.com/sles/12.3"/>
+    <upgrades id="http://suse.com/sles/12.4"/>
+    <derives-from id="http://suse.com/sles/12.4"/>
 
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLE-12-SP[4-9]-Server-DVD-x86_64</volume-id>
+        <volume-id>SLE-12-SP[5-9]-Server-DVD-x86_64</volume-id>
       </iso>
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
@@ -23,7 +23,7 @@
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLE-12-SP[4-9]-Server-DVD-aarch64</volume-id>
+        <volume-id>SLE-12-SP[5-9]-Server-DVD-aarch64</volume-id>
       </iso>
       <kernel>boot/aarch64/linux</kernel>
       <initrd>boot/aarch64/initrd</initrd>
@@ -32,7 +32,7 @@
     <media arch="ppc64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLE-12-SP[4-9]-Server-DVD-ppc64le</volume-id>
+        <volume-id>SLE-12-SP[5-9]-Server-DVD-ppc64le</volume-id>
       </iso>
       <kernel>boot/ppc64le/linux</kernel>
       <initrd>boot/ppc64le/initrd</initrd>
@@ -41,7 +41,7 @@
     <media arch="s390x">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLE-12-SP[4-9]-Server-DVD-s390x</volume-id>
+        <volume-id>SLE-12-SP[5-9]-Server-DVD-s390x</volume-id>
       </iso>
       <kernel>boot/s390x/linux</kernel>
       <initrd>boot/s390x/initrd</initrd>
