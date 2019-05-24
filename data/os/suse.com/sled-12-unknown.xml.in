@@ -8,13 +8,13 @@
     <_vendor>SUSE</_vendor>
     <family>linux</family>
     <distro>sled</distro>
-    <upgrades id="http://suse.com/sled/12.3"/>
-    <derives-from id="http://suse.com/sled/12.3"/>
+    <upgrades id="http://suse.com/sled/12.4"/>
+    <derives-from id="http://suse.com/sled/12.4"/>
 
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>SLE-12-SP[4-9]-Desktop-DVD-x86_64</volume-id>
+        <volume-id>SLE-12-SP[5-9]-Desktop-DVD-x86_64</volume-id>
       </iso>
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
