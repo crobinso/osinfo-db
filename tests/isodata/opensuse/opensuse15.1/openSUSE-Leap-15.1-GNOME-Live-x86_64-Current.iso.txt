@@ -1,17 +1,17 @@
 CD-ROM is in ISO 9660 format
 System id: 
-Volume id: openSUSE_Leap_15.1_KDE_Live
+Volume id: openSUSE_Leap_15.1_GNOME_Live
 Volume set id: 
 Publisher id: SUSE LINUX GMBH
 Data preparer id: KIWI - HTTP://SUSE.GITHUB.COM/KIWI
-Application id: 0XE857B132
+Application id: 0XFAB80218
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 441856
+Volume size is: 460800
 El Torito VD version 1 found, boot catalog is in sector 262
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
