@@ -69,7 +69,7 @@
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
         <version>^7.2$</version>
-        <arch>ppc64</arch>
+        <arch>ppc64$</arch>
       </treeinfo>
     </tree>
 
