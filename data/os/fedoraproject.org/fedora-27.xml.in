@@ -12,7 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/26"/>
 
     <release-date>2017-11-14</release-date>
-    <eol-date>2019-11-30</eol-date>
+    <eol-date>2018-11-30</eol-date>
 
     <variant id="workstation">
       <_name>Fedora 27 Workstation</_name>
