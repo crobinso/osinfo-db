@@ -112,7 +112,7 @@
       </treeinfo>
     </tree>
 
-    <resources arch="ppc64">
+    <resources arch="ppc64le">
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
