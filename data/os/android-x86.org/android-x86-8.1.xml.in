@@ -10,25 +10,25 @@
     <distro>android-x86</distro>
     <codename>oreo-x86</codename>
 
-    <release-status>prerelease</release-status>
+    <release-date>2019-01-15</release-date>
 
     <media arch="x86_64" live="true">
-      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86_64-8.1-rc2.iso</url>
+      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86_64-8.1-r1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
-        <volume-size>899870720</volume-size>
+        <volume-size>896534528</volume-size>
       </iso>
       <kernel>kernel</kernel>
       <initrd>initrd.img</initrd>
     </media>
 
     <media arch="i686" live="true">
-      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86-8.1-rc2.iso</url>
+      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86-8.1-r1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
-        <volume-size>711997440</volume-size>
+        <volume-size>707430400</volume-size>
       </iso>
       <kernel>kernel</kernel>
       <initrd>initrd.img</initrd>
