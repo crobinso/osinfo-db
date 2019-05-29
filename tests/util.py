@@ -62,7 +62,8 @@ class _Files():
                 p.startswith(os.path.join(self.datadir, dirname))]
 
     def oses(self, filter_media=False, filter_trees=False, filter_images=False,
-            filter_devices=False, filter_resources=False, filter_dates=False):
+            filter_devices=False, filter_resources=False, filter_dates=False,
+            filter_related=False):
         """
         Return a list of osinfo.Os objects
 
@@ -86,6 +87,8 @@ class _Files():
             oses = [o for o in oses if o.resources_list]
         if filter_dates:
             oses = [o for o in oses if o.release_date or o.eol_date]
+        if filter_related:
+            oses = [o for o in oses if self.getosxml_related(o)]
         return oses
 
     def getosxml_related(self, osxml):
