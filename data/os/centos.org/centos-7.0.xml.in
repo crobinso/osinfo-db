@@ -21,7 +21,9 @@
     </variant>
 
     <media arch="x86_64">
+      <!-- Due to attacks, CentOS decided to forbid access to this image
       <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD.iso</url>
+      -->
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
