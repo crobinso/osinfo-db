@@ -27,7 +27,7 @@
     </variant>
 
     <!-- Education -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="education"/>
       <iso>
         <volume-id>(J_)?CEDN?A_X86FRE_</volume-id>
@@ -35,7 +35,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="education"/>
       <iso>
         <volume-id>(J_)?CEDN?A_X64FREE?_</volume-id>
@@ -45,7 +45,7 @@
     </media>
 
     <!-- Enterprise -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
         <volume-id>^(J_)?CEN?A_X86FREV_</volume-id>
@@ -53,7 +53,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise"/>
       <iso>
         <volume-id>^(J_)?CENN?A_X64FREV_</volume-id>
@@ -63,7 +63,7 @@
     </media>
 
     <!-- Enterprise LTSB -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="enterprise-ltsb"/>
       <iso>
         <volume-id>(J_)?CESN?N?_X86FREV_</volume-id>
@@ -71,7 +71,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise-ltsb"/>
       <iso>
         <volume-id>(J_)?CESN?N?_X64FREV_</volume-id>
@@ -81,7 +81,7 @@
     </media>
 
     <!-- Enterprise LTSB (Eval) -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <variant id="enterprise-ltsb-eval"/>
       <iso>
         <volume-id>CESE_X86FREE_</volume-id>
@@ -89,7 +89,7 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <variant id="enterprise-ltsb-eval"/>
       <iso>
         <volume-id>CESE_X64FREE_</volume-id>
@@ -99,14 +99,14 @@
     </media>
 
     <!-- No Variant -->
-    <media arch="i686">
+    <media arch="i686" installer-reboots="2">
       <iso>
         <volume-id>^(J_)?CCSN?A_X86FRE_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
-    <media arch="x86_64">
+    <media arch="x86_64" installer-reboots="2">
       <iso>
         <volume-id>^(J_)?(CCSN?A|C?CCOMA)_X64FREE?_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
@@ -135,6 +135,66 @@
         <ram>6597069766656</ram>
       </maximum>
     </resources>
+
+    <!-- virtio block device driver -->
+    <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.141/w10/x86" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+    </driver>
+
+    <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.141/w10/amd64" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+    </driver>
+
+    <!-- All virtio and QXL device drivers, and spice-vdagent -->
+    <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/postinst/spice-guest-tools/0.141" signed="false">
+      <file>spice-guest-tools-0.141.exe</file>
+      <file>spice-guest-tools-0.141.cmd</file>
+      <file>qxl-0.141.cer</file>
+      <file>virtio-0.141.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+    </driver>
+
+    <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/postinst/spice-guest-tools/0.141" signed="false">
+      <file>spice-guest-tools-0.141.exe</file>
+      <file>spice-guest-tools-0.141.cmd</file>
+      <file>qxl-0.141.cer</file>
+      <file>virtio-0.141.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+    </driver>
 
     <installer>
       <script id='http://microsoft.com/windows/unattend/jeos'/>
