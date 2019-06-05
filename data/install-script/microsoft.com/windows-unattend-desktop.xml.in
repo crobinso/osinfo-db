@@ -213,7 +213,7 @@
           <RunSynchronous  wcm:action="add">
            <RunSynchronousCommand>
             <Order>1</Order>
-            <Path>cmd /C A:\windows.cmd  >c:\windows\osinfo.log 2>&amp;1</Path>
+            <Path>cmd /C <xsl:call-template name="script-disk"/>:\windows.cmd  >c:\windows\osinfo.log 2>&amp;1</Path>
             <Description>Post installation setup</Description>
            </RunSynchronousCommand>
           </RunSynchronous>
