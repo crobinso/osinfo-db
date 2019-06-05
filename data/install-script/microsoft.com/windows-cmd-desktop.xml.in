@@ -18,6 +18,7 @@
       <param name="post-install-drivers-location" policy="optional"/>
       <param name="driver-signing" policy="optional"/>
     </config>
+    <injection-method>cdrom</injection-method>
     <injection-method>floppy</injection-method>
     <avatar-format>
       <mime-type>image/bmp</mime-type>
@@ -47,6 +48,9 @@
             <xsl:when test="config/script-disk != ''">
               <xsl:value-of select="config/script-disk"/>
             </xsl:when>
+            <xsl:when test="script/preferred-injection-method = 'cdrom'">
+              <xsl:text>E</xsl:text>
+            </xsl:when>
             <xsl:otherwise>
               <xsl:text>A</xsl:text>
             </xsl:otherwise>
@@ -57,6 +61,9 @@
           <xsl:choose>
             <xsl:when test="config/post-install-drivers-disk != ''">
               <xsl:value-of select="config/post-install-drivers-disk"/>
+            </xsl:when>
+            <xsl:when test="script/preferred-injection-method = 'cdrom'">
+              <xsl:text>E</xsl:text>
             </xsl:when>
             <xsl:otherwise>
               <xsl:text>A</xsl:text>

@@ -19,6 +19,7 @@
       <param name="pre-install-drivers-disk" policy="optional"/>
       <param name="pre-install-drivers-location" policy="optional"/>
     </config>
+    <injection-method>cdrom</injection-method>
     <injection-method>floppy</injection-method>
     <template>
       <xsl:stylesheet
@@ -56,6 +57,9 @@
           <xsl:choose>
             <xsl:when test="config/pre-install-drivers-disk != ''">
               <xsl:value-of select="config/pre-install-drivers-disk"/>
+            </xsl:when>
+            <xsl:when test="script/preferred-injection-method = 'cdrom'">
+              <xsl:text>E</xsl:text>
             </xsl:when>
             <xsl:otherwise>
               <xsl:text>A</xsl:text>
