@@ -86,8 +86,14 @@ net localgroup administrators <xsl:value-of select="config/user-realname"/> /add
 net accounts /maxpwage:unlimited
 REGEDIT /S <xsl:call-template name="script-disk"/>:\windows.reg
 </xsl:if>
+<!-- Do not try to copy the user avatar for Windows 8+.
+     Windows 8+ needs a more than one image, with different sizes, in order to
+     properly set the user's avatar all over the place.
+     Reference: https://gitlab.com/libosinfo/osinfo-db/issues/24 -->
+<xsl:if test="os/version &lt; 6.2">
 if not "<xsl:value-of select="config/avatar-location"/>"=="" copy "<xsl:value-of select="config/avatar-disk"/>:<xsl:value-of select="config/avatar-location"/>" "<xsl:call-template name="avatar-destination"/>
 <xsl:text>&#xa;</xsl:text>
+</xsl:if>
 
 <xsl:call-template name="post-install-drivers-disk"/>:
 <xsl:if test="config/driver-signing = 'false' and os/version &gt; 5.1">
