@@ -101,7 +101,7 @@ bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
 bcdedit.exe -set TESTSIGNING ON
 </xsl:if>
 
-for %%i in ("<xsl:call-template name="post-install-drivers-disk"/>:<xsl:value-of select="config/post-install-drivers-location"/>\*.cmd") do cmd /c %%i
+for %%i in ("<xsl:call-template name="post-install-drivers-disk"/>:<xsl:value-of select="config/post-install-drivers-location"/>\*.cmd") do if not "%%i" == "<xsl:call-template name="post-install-drivers-disk"/>:\<xsl:value-of select="script/expected-filename"/>" cmd /c %%i
 
 EXIT
         </xsl:template>
