@@ -135,7 +135,7 @@
         <xsl:template name="url-or-mirrorlist">
           <xsl:choose>
             <xsl:when test="config/installation-url != '' or tree/url != ''">
-              <xsl:text> --url</xsl:text>
+              <xsl:text> --url=</xsl:text>
               <xsl:call-template name="installation-url"/>
             </xsl:when>
             <xsl:otherwise>
