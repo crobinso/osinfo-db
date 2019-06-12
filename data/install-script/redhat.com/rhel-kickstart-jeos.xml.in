@@ -56,17 +56,6 @@
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
-        <xsl:template name="installation-url">
-          <xsl:choose>
-            <xsl:when test="config/installation-url != ''">
-              <xsl:value-of select="config/installation-url"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="tree/url"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:template>
-
         <xsl:template match="/command-line">
           <xsl:text>ks=</xsl:text>
           <xsl:choose>
@@ -91,6 +80,45 @@
             </xsl:choose>
             <xsl:call-template name="installation-url"/>
           </xsl:if>
+        </xsl:template>
+
+        <xsl:template name="version">
+          <xsl:choose>
+            <xsl:when test="os/version &lt; 7">
+              <xsl:text>6</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>7</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="arch">
+          <xsl:choose>
+            <xsl:when test="config/hardware-arch = 'x86_64'">
+              <xsl:text>x86_64</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>i386</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
+        <xsl:template name="installation-url">
+          <xsl:choose>
+            <xsl:when test="config/installation-url != ''">
+              <xsl:value-of select="config/installation-url"/>
+            </xsl:when>
+            <xsl:when test="tree/url != ''">
+              <xsl:value-of select="tree/url"/>
+            </xsl:when>
+            <xsl:when test="os/distro = centos">
+              <xsl:text>http://mirror.centos.org/centos/</xsl:text>
+              <xsl:call-template name="version"/>
+              <xsl:text>/os/</xsl:text>
+              <xsl:call-template name="arch"/>
+            </xsl:when>
+          </xsl:choose>
         </xsl:template>
 
         <xsl:template match="/install-script-config">
@@ -129,7 +157,14 @@ url --url=<xsl:call-template name="installation-url"/>
 @base
   </xsl:when>
   <xsl:otherwise>
+    <xsl:choose>
+      <xsl:when test="os/distro = centos">
+@^minimal
+      </xsl:when>
+      <xsl:otherwise>
 @standard
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:otherwise>
 </xsl:choose>
 @core
