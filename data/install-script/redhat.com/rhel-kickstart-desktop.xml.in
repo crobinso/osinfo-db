@@ -36,7 +36,7 @@
             <xsl:when test="config/target-disk != ''">
               <xsl:value-of select="config/target-disk"/>
             </xsl:when>
-            <xsl:when test="os/version &gt; 4">
+            <xsl:when test="os/version &gt; 5.5">
               <!-- virtio -->
               <xsl:text>/dev/vda</xsl:text>
             </xsl:when>
