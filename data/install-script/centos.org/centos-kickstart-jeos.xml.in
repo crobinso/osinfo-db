@@ -10,7 +10,7 @@
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="target-disk" policy="optional"/>
-      <param name="script-disk" policy="required"/>
+      <param name="script-disk" policy="optional"/>
     </config>
     <injection-method>cdrom</injection-method>
     <injection-method>disk</injection-method>
@@ -41,7 +41,17 @@
 
         <xsl:template name="script-disk">
           <xsl:variable name="script-disk">
-            <xsl:value-of select="config/script-disk"/>
+            <xsl:choose>
+              <xsl:when test="config/script-disk != ''">
+                <xsl:value-of select="config/script-disk"/>
+              </xsl:when>
+              <xsl:when test="os/version &gt; 5.5">
+                <xsl:text>/dev/sda</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>/dev/sdb</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
           </xsl:variable>
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
