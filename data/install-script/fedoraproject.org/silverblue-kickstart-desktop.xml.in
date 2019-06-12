@@ -12,6 +12,7 @@
         <param name="user-login" policy="required"/>
         <param name="user-password" policy="optional"/>
         <param name="admin-password" policy="optional"/>
+        <param name="target-disk" policy="optional"/>
         <param name="script-disk" policy="optional"/>
     </config>
     <injection-method>cdrom</injection-method>
@@ -24,6 +25,18 @@
         version="1.0">
 
         <xsl:output method="text"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- virtio -->
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
         <xsl:template name="script-disk">
           <xsl:variable name="script-disk">
@@ -81,7 +94,7 @@ timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
 zerombr
 
-clearpart --all --drives=/dev/vda
+clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
 firstboot --disable
 
