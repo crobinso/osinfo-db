@@ -11,6 +11,7 @@
     <derives-from id="http://fedoraproject.org/fedora/27"/>
 
     <release-date>2018-05-01</release-date>
+    <eol-date>2019-05-29</eol-date>
 
     <media arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/28/AtomicWorkstation/x86_64/iso/Fedora-AtomicWorkstation-ostree-x86_64-28-1.1.iso</url>
