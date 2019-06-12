@@ -12,7 +12,7 @@
         <param name="user-login" policy="required"/>
         <param name="user-password" policy="optional"/>
         <param name="admin-password" policy="optional"/>
-        <param name="script-disk" policy="required"/>
+        <param name="script-disk" policy="optional"/>
     </config>
     <injection-method>cdrom</injection-method>
     <injection-method>disk</injection-method>
@@ -27,7 +27,14 @@
 
         <xsl:template name="script-disk">
           <xsl:variable name="script-disk">
-            <xsl:value-of select="config/script-disk"/>
+            <xsl:choose>
+              <xsl:when test="config/script-disk != ''">
+                <xsl:value-of select="config/script-disk"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:text>/dev/sda</xsl:text>
+              </xsl:otherwise>
+            </xsl:choose>
           </xsl:variable>
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
