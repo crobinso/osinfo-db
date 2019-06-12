@@ -7,6 +7,9 @@
     <profile>jeos</profile>
     <expected-filename>autoinst.xml</expected-filename>
     <config>
+      <!-- System options -->
+      <param name="target-disk" policy="optional"/>
+
       <!-- Localization options -->
       <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
@@ -24,6 +27,18 @@
         version="1.0">
 
         <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+
+        <xsl:template name="target-disk">
+          <xsl:choose>
+            <xsl:when test="config/target-disk != ''">
+              <xsl:value-of select="config/target-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- virtio -->
+              <xsl:text>/dev/vda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
 
         <xsl:template name="l10n-language">
           <xsl:choose>
@@ -131,12 +146,12 @@
               <device_map config:type="list">
                 <device_map_entry>
                   <firmware>hd0</firmware>
-                  <linux>/dev/vda</linux>
+                  <linux><xsl:call-template name="target-disk"/></linux>
                 </device_map_entry>
               </device_map>
               <global>
                 <activate>true</activate>
-                <append>resume=/dev/vda1 splash=silent quiet showopts</append>
+                <append>resume=<xsl:call-template name="target-disk"/>1 splash=silent quiet showopts</append>
                 <boot_boot>false</boot_boot>
                 <boot_extended>false</boot_extended>
                 <boot_mbr>false</boot_mbr>
@@ -199,7 +214,7 @@
           </networking>
           <partitioning config:type="list">
             <drive>
-              <device>/dev/vda</device>
+              <device><xsl:call-template name="target-disk"/></device>
               <type config:type="symbol">CT_DISK</type>
               <use>all</use>
             </drive>
