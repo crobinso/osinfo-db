@@ -49,6 +49,19 @@
           </xsl:choose>
         </xsl:template>
 
+        <!-- The default values of avatar-disk consider the avatar is stored
+             in the same disk as the installation scripts. -->
+        <xsl:template name="avatar-disk">
+          <xsl:choose>
+            <xsl:when test="config/avatar-disk != ''">
+              <xsl:value-of select="config/avatar-disk"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>/dev/sda</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template name="l10n-language">
           <xsl:choose>
             <xsl:when test="config/l10n-language != '' and config/l10n-language != 'C'">
@@ -269,7 +282,7 @@ fi
 if test -n '<xsl:value-of select="config/avatar-location"/>'; then
 # Set user avatar
 mkdir /mnt/unattended-media
-mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
+mount <xsl:call-template name="avatar-disk"/> /mnt/unattended-media
 cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
 umount /mnt/unattended-media
 
