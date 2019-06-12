@@ -45,8 +45,8 @@
                     <xsl:value-of select="config/target-disk"/>
                   </xsl:when>
                   <xsl:otherwise>
-                    <!-- IDE -->
-                    <xsl:text>/dev/hda</xsl:text>
+                    <!-- virtio -->
+                    <xsl:text>/dev/vda</xsl:text>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:template>
