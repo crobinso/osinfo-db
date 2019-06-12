@@ -58,28 +58,6 @@
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
-        <xsl:template name="rootfs">
-          <xsl:choose>
-            <xsl:when test="os/version &gt; 10">
-              <xsl:text>ext4</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:text>ext3</xsl:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:template>
-
-        <xsl:template name="bootfs">
-          <xsl:choose>
-            <xsl:when test="os/version &gt; 11">
-              <xsl:text>ext4</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:text>ext3</xsl:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:template>
-
         <xsl:template name="keyboard">
           <xsl:choose>
             <xsl:when test="os/version &gt; 17">
