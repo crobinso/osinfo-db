@@ -64,6 +64,22 @@
           <xsl:value-of select="substring-after($script-disk, '/dev/')"/>
         </xsl:template>
 
+        <!-- The default values of avatar-disk consider the avatar is stored
+             in the same disk as the installation scripts. -->
+        <xsl:template name="avatar-disk">
+          <xsl:choose>
+            <xsl:when test="config/avatar-disk != ''">
+              <xsl:value-of select="config/avatar-disk"/>
+            </xsl:when>
+            <xsl:when test="os/version &gt; 5.5">
+              <xsl:text>/dev/sda</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>/dev/sdb</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template match="/command-line">
           <xsl:text>ks=</xsl:text>
           <xsl:choose>
@@ -195,7 +211,7 @@ fi
 # Set user avatar
 if test -n '<xsl:value-of select="config/avatar-location"/>'; then
 mkdir /mnt/unattended-media
-mount <xsl:value-of select='config/avatar-disk'/> /mnt/unattended-media
+mount <xsl:call-template name="avatar-disk"/> /mnt/unattended-media
 cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /home/<xsl:value-of select="config/user-login"/>/.face
 umount /mnt/unattended-media
 fi
