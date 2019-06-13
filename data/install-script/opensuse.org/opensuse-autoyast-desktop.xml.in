@@ -82,7 +82,6 @@
         </xsl:template>
 
         <xsl:template name="repo-oss">
-          <xsl:text> </xsl:text>
           <xsl:text>http://download.opensuse.org/</xsl:text>
           <xsl:if test="not(contains(os/version, 'tumbleweed'))">
             <xsl:text>distribution/leap/</xsl:text>
