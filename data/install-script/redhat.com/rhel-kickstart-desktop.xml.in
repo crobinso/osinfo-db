@@ -176,12 +176,14 @@ url --url=<xsl:call-template name="installation-url"/>
 
 %packages
 @core
-@x11
 <xsl:choose>
   <xsl:when test="os/version &lt; 7">
 @basic-desktop
 @general-desktop
 @desktop-platform
+  </xsl:when>
+  <xsl:when test="os/version &lt; 8">
+@x11
   </xsl:when>
   <xsl:otherwise>
 @gnome-desktop
