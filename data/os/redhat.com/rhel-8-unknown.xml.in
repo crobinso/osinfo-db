@@ -107,5 +107,10 @@
         <ram>3221225472</ram>
       </network-install>
     </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
   </os>
 </libosinfo>
