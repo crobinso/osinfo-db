@@ -145,6 +145,15 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="appstream-url">
+          <xsl:variable name="url">
+            <xsl:call-template name="installation-url"/>
+          </xsl:variable>
+          <xsl:value-of select="substring-before($url, 'BaseOS')"/>
+          <xsl:text>AppStream</xsl:text>
+          <xsl:value-of select="substring-after($url, 'BaseOS')"/>
+        </xsl:template>
+
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media'">
@@ -172,6 +181,9 @@ reboot
 
 <xsl:if test="script/installation-source = 'network'">
 url --url=<xsl:call-template name="installation-url"/>
+  <xsl:if test="os/version &gt; 7 or os/version = '8-unknown'">
+repo --name=AppStream --baseurl=<xsl:call-template name="appstream-url"/>
+  </xsl:if>
 </xsl:if>
 
 %packages
