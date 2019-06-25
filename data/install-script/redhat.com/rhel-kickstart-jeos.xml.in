@@ -136,7 +136,9 @@ skipx
 network --bootproto dhcp
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
+<xsl:if test="os/version &lt; 8">
 authconfig --enableshadow --enablemd5
+</xsl:if>
 selinux --enforcing
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
