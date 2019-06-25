@@ -140,6 +140,10 @@
         <ram>1073741824</ram>
         <storage>10737418240</storage>
       </recommended>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
     </resources>
 
     <kernel-url-argument>inst.repo</kernel-url-argument>
