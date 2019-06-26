@@ -64,6 +64,49 @@
       </treeinfo>
     </tree>
 
+    <tree arch="aarch64">
+      <url>http://mirror.centos.org/altarch/7/os/aarch64/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>^7$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="i686">
+      <url>http://mirror.centos.org/altarch/7/os/i386/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>^7$</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>http://mirror.centos.org/altarch/7/os/ppc64le/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>^7$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64">
+      <url>http://mirror.centos.org/altarch/7/os/ppc64/</url>
+      <treeinfo>
+        <family>CentOS</family>
+        <version>^7$</version>
+        <arch>ppc64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="all">
+      <treeinfo>
+        <family>CentOS</family>
+        <version>^7$</version>
+      </treeinfo>
+    </tree>
+
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2</url>
     </image>
