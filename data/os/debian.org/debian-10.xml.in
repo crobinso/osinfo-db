@@ -1,0 +1,203 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://debian.org/debian/10">
+    <short-id>debian10</short-id>
+    <short-id>debianbuster</short-id>
+    <_name>Debian 10</_name>
+    <version>10</version>
+    <_vendor>Debian Project</_vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <codename>buster</codename>
+    <upgrades id="http://debian.org/debian/9"/>
+    <derives-from id="http://debian.org/debian/9"/>
+
+    <release-date>2018-07-06</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="universal">
+      <_name>Debian 10</_name>
+    </variant>
+    <variant id="universal-netinst">
+      <_name>Debian 10</_name>
+    </variant>
+
+    <!-- Network installer -->
+    <media arch="i686">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/i386/iso-cd/debian-10.0.0-i386-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ i386 n</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/amd64/iso-cd/debian-10.0.0-amd64-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ amd64 n</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="aarch64">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/arm64/iso-cd/debian-10.0.0-arm64-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ arm64 n</volume-id>
+      </iso>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/armhf/iso-cd/debian-10.0.0-armhf-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ armhf n</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/ppc64el/iso-cd/debian-10.0.0-ppc64el-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ ppc64el n</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal-netinst"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/s390x/iso-cd/debian-10.0.0-s390x-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ s390x n</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/i386/iso-dvd/debian-10.0.0-i386-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ i386 (\d)+</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/amd64/iso-dvd/debian-10.0.0-amd64-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ amd64 (\d)+</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="aarch64">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/arm64/iso-dvd/debian-10.0.0-arm64-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ arm64 (\d)+</volume-id>
+      </iso>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/armhf/iso-dvd/debian-10.0.0-armhf-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ armhf (\d)+</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/ppc64el/iso-dvd/debian-10.0.0-ppc64el-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ ppc64el (\d)+</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal"/>
+      <url>http://cdimage.debian.org/cdimage/release/10.0.0/s390x/iso-dvd/debian-10.0.0-s390x-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.(\d)+.(\d)+ s390x (\d)+</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
+    </media>
+
+    <tree arch="i686">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-i386</url>
+      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-amd64</url>
+      <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+    <tree arch="aarch64">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-arm64</url>
+      <kernel>current/images/netboot/debian-installer/arm64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/arm64/initrd.gz</initrd>
+    </tree>
+    <tree arch="armv7l">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-armhf</url>
+      <kernel>current/images/netboot/debian-installer/armhf/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/armhf/initrd.gz</initrd>
+    </tree>
+    <tree arch="s390x">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-s390x</url>
+      <kernel>current/images/generic/kernel.debian</kernel>
+      <initrd>current/images/generic/initrd.debian</initrd>
+    </tree>
+    <tree arch="ppc64le">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-ppc64el</url>
+      <kernel>current/images/netboot/debian-installer/ppc64el/vmlinux</kernel>
+      <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
+    </tree>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-amd64.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="raw" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-amd64.raw</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-arm64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="raw" cloud-init="true">
+      <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-arm64.raw</url>
+    </image>
+
+    <installer>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
