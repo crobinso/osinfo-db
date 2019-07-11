@@ -11,6 +11,7 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/5.0.0"/>
 
     <release-date>2017-11-06</release-date>
+    <eol-date>2017-12-04</eol-date>
 
     <media arch="x86_64">
       <!--

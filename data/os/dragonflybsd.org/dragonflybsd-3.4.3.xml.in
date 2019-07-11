@@ -11,5 +11,6 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/3.4.2"/>
 
     <release-date>2013-08-26</release-date>
+    <eol-date>2013-11-25</eol-date>
   </os>
 </libosinfo>

@@ -10,6 +10,7 @@
     <_vendor>DragonFlyBSD Project</_vendor>
     <upgrades id="http://dragonflybsd.org/dragonflybsd/4.4.3"/>
 
-    <release-date>2017-08-02</release-date>
+    <release-date>2016-08-02</release-date>
+    <eol-date>2016-10-17</eol-date>
   </os>
 </libosinfo>

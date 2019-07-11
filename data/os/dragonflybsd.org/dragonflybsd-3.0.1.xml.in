@@ -11,5 +11,6 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/2.10.1"/>
 
     <release-date>2012-02-22</release-date>
+    <eol-date>2012-11-02</eol-date>
   </os>
 </libosinfo>

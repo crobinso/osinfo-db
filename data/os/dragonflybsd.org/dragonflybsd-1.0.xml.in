@@ -10,5 +10,6 @@
     <_vendor>DragonFlyBSD Project</_vendor>
 
     <release-date>2004-07-12</release-date>
+    <eol-date>2004-07-14</eol-date>
   </os>
 </libosinfo>

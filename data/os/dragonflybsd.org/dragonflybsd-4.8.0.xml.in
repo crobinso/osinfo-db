@@ -11,6 +11,7 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/4.6.2"/>
 
     <release-date>2017-03-27</release-date>
+    <eol-date>2017-08-02</eol-date>
 
     <media arch="x86_64">
       <!--

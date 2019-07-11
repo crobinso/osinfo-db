@@ -11,6 +11,7 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/5.4.1"/>
 
     <release-date>2019-04-22</release-date>
+    <eol-date>2019-05-20</eol-date>
 
     <media arch="x86_64">
       <!--

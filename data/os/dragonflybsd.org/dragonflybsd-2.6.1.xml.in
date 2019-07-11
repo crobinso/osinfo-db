@@ -11,5 +11,6 @@
     <upgrades id="http://dragonflybsd.org/dragonflybsd/2.4.1"/>
 
     <release-date>2010-04-06</release-date>
+    <eol-date>2010-04-21</eol-date>
   </os>
 </libosinfo>
