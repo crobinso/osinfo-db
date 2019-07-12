@@ -136,7 +136,7 @@
             <xsl:when test="tree/url != ''">
               <xsl:value-of select="tree/url"/>
             </xsl:when>
-            <xsl:when test="os/distro = centos">
+            <xsl:when test="os/distro = 'centos'">
               <xsl:text>http://mirror.centos.org/centos/</xsl:text>
               <xsl:call-template name="version"/>
               <xsl:text>/os/</xsl:text>
