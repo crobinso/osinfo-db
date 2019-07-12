@@ -15,10 +15,10 @@
     <release-date>2014-07-07</release-date>
 
     <variant id="live-gnome">
-      <_name>CentOS 7.0 (GNOME)</_name>
+      <_name>CentOS 7 (GNOME)</_name>
     </variant>
     <variant id="live-kde">
-      <_name>CentOS 7.0 (KDE)</_name>
+      <_name>CentOS 7 (KDE)</_name>
     </variant>
 
     <media arch="x86_64">
