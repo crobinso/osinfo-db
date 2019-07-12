@@ -1,0 +1,52 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/p9.starterkits">
+    <short-id>alt.p9</short-id>
+    <_name>ALT p9 StarterKits</_name>
+    <version>p9</version>
+    <_vendor>BaseALT</_vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <upgrades id="http://altlinux.org/alt/p8.starterkits"/>
+    <derives-from id="http://altlinux.org/alt/p8.starterkits"/>
+    <release-status>snapshot</release-status>
+
+
+    <!-- StarterKits -->
+    <media arch="i686" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT p9.*/i586</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>ALT-P9-.*</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT p9.*/x86_64</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>ALT-P9-.*</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
