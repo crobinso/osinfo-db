@@ -110,6 +110,10 @@ d-i finish-install/reboot_in_progress note
 ### Remove the installation DVD from the apt-get's sources.list
 d-i preseed/late_command string in-target sed -i '/cdrom/d' /etc/apt/sources.list
 
+### Create an osinfo-install-successful file in /root
+d-i preseed/late_command string in-target \
+    touch /root/osinfo-install-successful
+
 </xsl:template>
       </xsl:stylesheet>
     </template>

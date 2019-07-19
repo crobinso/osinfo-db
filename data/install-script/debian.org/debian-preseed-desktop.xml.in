@@ -212,6 +212,10 @@ d-i preseed/late_command string \
   </xsl:when>
 </xsl:choose>
 
+### Create an osinfo-install-successful file in /root
+d-i preseed/late_command string in-target \
+    touch /root/osinfo-install-successful
+
 </xsl:template>
       </xsl:stylesheet>
     </template>
