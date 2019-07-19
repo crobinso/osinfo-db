@@ -171,6 +171,11 @@ url --url=<xsl:call-template name="installation-url"/>
 </xsl:choose>
 @core
 
+%post --erroronfail
+
+# Create an osinfo-install-successful file in /root
+touch /root/osinfo-install-successful
+
 %end
         </xsl:template>
       </xsl:stylesheet>
