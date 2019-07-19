@@ -194,10 +194,10 @@ repo --name=AppStream --baseurl=<xsl:call-template name="appstream-url"/>
 @general-desktop
 @desktop-platform
   </xsl:when>
-  <xsl:when test="os/version &lt; 8">
-@x11
-  </xsl:when>
   <xsl:otherwise>
+    <xsl:if test="os/version &lt; 8">
+@x11
+    </xsl:if>
 @gnome-desktop
 @multimedia
   </xsl:otherwise>
