@@ -145,6 +145,9 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 rm -f /etc/ostree/remotes.d/fedora-'<xsl:value-of select="os/version"/>'.conf
 ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-<xsl:value-of select="os/version"/> 'https://dl.fedoraproject.org/atomic/repo/'
 
+# Create an osinfo-install-successful file in /root
+touch /root/osinfo-install-successful
+
 %end
         </xsl:template>
       </xsl:stylesheet>
