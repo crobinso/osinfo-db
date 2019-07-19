@@ -253,6 +253,9 @@ zypper ar -f <xsl:call-template name="repo-update-oss"/> repo-update-oss
 <xsl:if test="not(contains(os/version, 'tumbleweed'))">
   zypper ar -f <xsl:call-template name="repo-update-non-oss"/> repo-update-non-oss
 </xsl:if>
+
+# Create an osinfo-install-successful file in /root
+touch /root/osinfo-install-successful
                   </source>
                 </script>
               </chroot-scripts>
