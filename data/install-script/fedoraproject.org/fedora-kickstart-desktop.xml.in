@@ -272,6 +272,9 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 [debug]
 " > /etc/gdm/custom.conf
 
+# Create an osinfo-install-successful file in /root
+touch /root/osinfo-install-successful
+
 %end
         </xsl:template>
       </xsl:stylesheet>
