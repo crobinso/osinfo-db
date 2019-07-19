@@ -117,6 +117,10 @@ d-i preseed/late_command string \
 <xsl:if test="os/version = 13.04">
 ubiquity ubiquity/success_command string sed -i 's/eject -p -m.*/&amp; [ "$prompt" ] || return 0/' /etc/init.d/casper
 </xsl:if>
+
+# Create an osinfo-install-successful file in /root
+d-i preseed/late_command string in-target \
+    touch /root/osinfo-install-successful
         </xsl:template>
       </xsl:stylesheet>
     </template>
