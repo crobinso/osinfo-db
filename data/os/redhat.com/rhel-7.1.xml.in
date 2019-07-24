@@ -56,6 +56,14 @@
       </treeinfo>
     </tree>
 
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux Server for ARM Development Preview</family>
+        <version>^7.1$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
     <resources arch="ppc64">
       <minimum>
         <n-cpus>1</n-cpus>
