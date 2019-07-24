@@ -12,6 +12,16 @@
     <derives-from id="http://fedoraproject.org/fedora/29"/>
     <release-status>prerelease</release-status>
 
+    <variant id="workstation">
+      <_name>Fedora Rawhide Workstation</_name>
+    </variant>
+    <variant id="server">
+      <_name>Fedora Rawhide Server</_name>
+    </variant>
+    <variant id="everything-netinst">
+      <_name>Fedora Rawhide Everything</_name>
+    </variant>
+
     <media arch="x86_64">
       <iso>
         <volume-id>Fedora-.*-dvd-x86_64-rawh</volume-id>
@@ -27,6 +37,7 @@
     </media>
 
     <tree arch="x86_64">
+      <variant id="workstation"/>
       <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/x86_64/os</url>
       <treeinfo>
         <family>Fedora</family>
@@ -36,13 +47,80 @@
       </treeinfo>
     </tree>
 
+    <tree arch="armv7l">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/armhfp/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>armhfp</arch>
+        <variant>Workstation</variant>
+      </treeinfo>
+    </tree>
+
     <tree arch="x86_64">
+      <variant id="server"/>
       <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Server/x86_64/os</url>
       <treeinfo>
         <family>Fedora</family>
         <version>Rawhide</version>
         <arch>x86_64</arch>
         <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Server/aarch64/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>aarch64</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="armv7l">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Server/armhfp/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>armhfp</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/x86_64/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>x86_64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/aarch64/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>aarch64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="armv7l">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/armhfp/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>armhfp</arch>
+        <variant>Everything</variant>
       </treeinfo>
     </tree>
 

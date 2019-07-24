@@ -119,6 +119,17 @@
       </treeinfo>
     </tree>
 
+    <tree arch="armv7l">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Workstation/armhfp/os/</url>
+      <variant id="workstation"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>armhfp</arch>
+        <variant>Workstation</variant>
+      </treeinfo>
+    </tree>
+
     <tree arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Server/x86_64/os</url>
       <variant id="server"/>
@@ -127,6 +138,61 @@
         <version>29</version>
         <arch>x86_64</arch>
         <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Server/aarch64/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>aarch64</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="armv7l">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Server/armhfp/os/</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>armhfp</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Everything/x86_64/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>x86_64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Everything/aarch64/os/</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>aarch64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="armv7l">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/29/Everything/armhfp/os/</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>29</version>
+        <arch>armhfp</arch>
+        <variant>Everything</variant>
       </treeinfo>
     </tree>
 
