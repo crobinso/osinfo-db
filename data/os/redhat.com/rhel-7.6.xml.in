@@ -53,7 +53,7 @@
 
     <tree arch="ppc64">
       <treeinfo>
-        <family>Red Hat Enterprise Linux</family>
+        <family>Red Hat Enterprise Linux$</family>
         <version>^7.6$</version>
         <arch>ppc64$</arch>
       </treeinfo>
@@ -61,7 +61,7 @@
 
     <tree arch="ppc64le">
       <treeinfo>
-        <family>Red Hat Enterprise Linux</family>
+        <family>Red Hat Enterprise Linux$</family>
         <version>^7.6$</version>
         <arch>ppc64le</arch>
       </treeinfo>
@@ -69,7 +69,7 @@
 
     <tree arch="s390x">
       <treeinfo>
-        <family>Red Hat Enterprise Linux</family>
+        <family>Red Hat Enterprise Linux$</family>
         <version>^7.6$</version>
         <arch>s390x</arch>
       </treeinfo>
@@ -77,7 +77,7 @@
 
     <tree arch="x86_64">
       <treeinfo>
-        <family>Red Hat Enterprise Linux</family>
+        <family>Red Hat Enterprise Linux$</family>
         <version>^7.6$</version>
         <arch>x86_64</arch>
       </treeinfo>
