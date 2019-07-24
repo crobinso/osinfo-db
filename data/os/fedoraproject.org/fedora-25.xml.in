@@ -148,6 +148,14 @@
 
     <!-- No install media or tree is provided for Fedora 25 Cloud variant -->
 
+    <!-- Tree fallback information -->
+    <tree arch="all">
+      <treeinfo>
+        <family>Fedora</family>
+        <version>25</version>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>

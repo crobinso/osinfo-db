@@ -308,6 +308,14 @@
       </treeinfo>
     </tree>
 
+    <!-- Tree fallback information -->
+    <tree arch="all">
+      <treeinfo>
+        <family>Fedora</family>
+        <version>12</version>
+      </treeinfo>
+    </tree>
+
     <installer>
       <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
     </installer>

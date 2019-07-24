@@ -102,6 +102,14 @@
       </treeinfo>
     </tree>
 
+    <!-- Tree fallback information -->
+    <tree arch="all">
+      <treeinfo>
+        <family>Fedora</family>
+        <version>18</version>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>

@@ -93,6 +93,14 @@
 
     <!-- No install media or tree is provided for Fedora 26 Cloud variant -->
 
+    <!-- Tree fallback information -->
+    <tree arch="all">
+      <treeinfo>
+        <family>Fedora</family>
+        <version>26</version>
+      </treeinfo>
+    </tree>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
