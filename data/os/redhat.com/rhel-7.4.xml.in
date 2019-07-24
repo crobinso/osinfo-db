@@ -14,6 +14,10 @@
 
     <release-date>2017-08-01</release-date>
 
+    <variant id="rhel-alt">
+      <_name>Red Hat Enterprise Linux 7.4 Alternate Architectures</_name>
+    </variant>
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
@@ -78,6 +82,42 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux$</family>
+        <version>^7.4$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <variant id="rhel-alt"/>
+      <treeinfo>
+        <family>Red Hat Enterprise Linux Alternate Architectures</family>
+        <version>^7.4$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <variant id="rhel-alt"/>
+      <treeinfo>
+        <family>Red Hat Enterprise Linux Alternate Architectures</family>
+        <version>^7.4$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <variant id="rhel-alt"/>
+      <treeinfo>
+        <family>Red Hat Enterprise Linux Alternate Architectures</family>
+        <version>^7.4$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <variant id="rhel-alt"/>
+      <treeinfo>
+        <family>Red Hat Enterprise Linux Alternate Architectures</family>
         <version>^7.4$</version>
         <arch>x86_64</arch>
       </treeinfo>
