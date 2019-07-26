@@ -100,34 +100,6 @@
       <initrd>current/images/netboot/ubuntu-installer/amd64/initrd.gz</initrd>
     </tree>
 
-    <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-amd64.img</url>
-    </image>
-
-    <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-amd64.vmdk</url>
-    </image>
-
-    <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-arm64.img</url>
-    </image>
-
-    <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-armhf.img</url>
-    </image>
-
-    <image arch="i686" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-i386.img</url>
-    </image>
-
-    <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-ppc64el.img</url>
-    </image>
-
-    <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/cosmic/current/cosmic-server-cloudimg-s390x.img</url>
-    </image>
-
     <installer>
       <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
