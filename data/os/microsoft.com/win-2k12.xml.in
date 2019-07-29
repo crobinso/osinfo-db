@@ -64,7 +64,7 @@
       </iso>
     </media>
     <media arch="x86_64">
-      <variant id="volume-licence"/>
+      <variant id="volume-license"/>
       <iso>
         <volume-id>(HRM_SSS_X64FREV)_</volume-id>
         <publisher-id>MICROSOFT CORPORATION</publisher-id>
