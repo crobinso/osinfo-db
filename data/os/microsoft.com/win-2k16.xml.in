@@ -14,6 +14,9 @@
     <variant id="hyperv">
       <_name>Windows Server 2016 for HyperV</_name>
     </variant>
+    <variant id="essentials">
+      <_name>Windows Server 2016 Essentials</_name>
+    </variant>
 
     <release-date>2017-10-17</release-date>
 
