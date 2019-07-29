@@ -145,6 +145,10 @@ class Os(_XMLBase):
     def eol_date(self):
         return self._get_text('eol-date')
 
+    @_cache_property
+    def variants(self):
+        return [v.attrib['id'] for v in self._root.findall('variant')]
+
 
 class Resources(_XMLBase):
     @_cache_property
@@ -182,11 +186,25 @@ class Media(_XMLBase):
             return ISO(iso)
         return None
 
+    @_cache_property
+    def variant(self):
+        variant = self._root.find('variant')
+        if variant is not None:
+            return variant.attrib['id']
+        return None
+
 
 class Tree(_XMLBase):
     @_cache_property
     def url(self):
         return self._get_text('url')
+
+    @_cache_property
+    def variant(self):
+        variant = self._root.find('variant')
+        if variant is not None:
+            return variant.attrib['id']
+        return None
 
 
 class ISO(_XMLBase):
