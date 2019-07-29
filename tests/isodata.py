@@ -31,7 +31,7 @@ class _ISODataMedia():
 
 def _get_value(string, prefix, return_type=str):
     if string.startswith(prefix):
-        return return_type(string.split(': ')[-1].strip())
+        return return_type(string[len(prefix):].strip())
     return None
 
 
