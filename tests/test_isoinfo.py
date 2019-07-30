@@ -23,8 +23,9 @@ def _get_isodatapaths():
     allpaths = glob.glob(os.path.join(isodata_path, "*", "*"))
     for osdir in sorted(allpaths, key=util.human_sort):
         osname = os.path.basename(osdir)
-        isodatapaths = glob.glob(os.path.join(osdir, "*"))
-        ret.append((osname, isodatapaths))
+        isodatapaths = glob.glob(os.path.join(osdir, "*.txt"))
+        if len(isodatapaths):
+            ret.append((osname, isodatapaths))
     return ret
 
 
@@ -32,10 +33,6 @@ def _get_isodatapaths():
 def test_iso_detection(testdata):
     osname, isodatapaths = testdata
     for isodatapath in isodatapaths:
-        if isodatapath.endswith(".lng"):
-            # libosinfo handled these specially, we should too
-            continue
-
         detected = []
         isodatamedia = isodata.get_isodatamedia(isodatapath)
         for osxml2 in util.DataFiles.oses():
