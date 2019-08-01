@@ -103,6 +103,13 @@ class Os(_XMLBase):
         return self._get_text('short-id')
 
     @_cache_property
+    def shortids(self):
+        shortids = []
+        for shortid in self._root.findall('short-id'):
+            shortids.append(shortid.text)
+        return shortids
+
+    @_cache_property
     def distro(self):
         return self._get_text('distro')
 
