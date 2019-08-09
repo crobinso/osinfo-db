@@ -263,3 +263,17 @@ class Datamap(_XMLBase):
     @_cache_property
     def internal_id(self):
         return self._root.get('id')
+
+
+class InstallScript(_XMLBase):
+    def __init__(self, filename):
+        self.filename = filename
+        root = ET.parse(self.filename).getroot().find('install-script')
+        super().__init__(root)
+
+    def __repr__(self):
+        return "<%s filename=%s>" % (self.__class__.__name__, self.filename)
+
+    @_cache_property
+    def internal_id(self):
+        return self._root.get('id')

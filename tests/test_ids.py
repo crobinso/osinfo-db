@@ -53,3 +53,11 @@ def test_validate_datamap_ids(datamapxml):
     Ensure the Datamap ids are the ones supported by OsinfoLoader.
     """
     return _test_validate_ids(datamapxml, "datamap")
+
+
+@util.installscript_parametrize('installscriptxml')
+def test_validate_installscript_ids(installscriptxml):
+    """
+    Ensure the InstallScript ids are the ones supported by OsinfoLoader.
+    """
+    return _test_validate_ids(installscriptxml, "install-script")
