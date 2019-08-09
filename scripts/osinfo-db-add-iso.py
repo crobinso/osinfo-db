@@ -12,6 +12,7 @@ topdir = os.path.realpath(os.path.join(os.path.dirname(__file__), ".."))
 datadir = os.path.join(topdir, "data")
 sys.path.insert(0, topdir)
 os.environ["INTERNAL_OSINFO_DB_DATA_DIR"] = datadir
+os.environ["INTERNAL_OSINFO_DB_DATA_SRC_DIR"] = datadir
 
 import tests.isodata
 import tests.util
