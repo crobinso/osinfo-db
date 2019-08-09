@@ -139,11 +139,15 @@ class _DataFiles(_Files):
 DataFiles = _DataFiles()
 
 
-def _ids_cb(osxml):
-    # pytest passes us a weird value when oses is empty, which
-    # might happen depending on how agressively we filter. So
-    # we can't assume we are passed an Os instance
-    return getattr(osxml, "shortid", str(osxml))
+def _generic_ids_cb(obj, key):
+    # pytest passes us a weird value when the list of entities is empty,
+    # which might happen depending on how agressively we filter. So
+    # we can't assume we are passed a specific entity instance.
+    return getattr(obj, key, str(obj))
+
+
+def _shortid_ids_cb(xml):
+    return _generic_ids_cb(xml, "shortid")
 
 
 def os_parametrize(argname, **kwargs):
@@ -152,7 +156,7 @@ def os_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     oses = DataFiles.oses(**kwargs)
-    return pytest.mark.parametrize(argname, oses, ids=_ids_cb)
+    return pytest.mark.parametrize(argname, oses, ids=_shortid_ids_cb)
 
 
 class _SourceFiles(_Files):
@@ -174,4 +178,4 @@ def os_sources_parametrize(argname, **kwargs):
     """
 
     oses = SourceFiles.oses(**kwargs)
-    return pytest.mark.parametrize(argname, oses, ids=_ids_cb)
+    return pytest.mark.parametrize(argname, oses, ids=_shortid_ids_cb)
