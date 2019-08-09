@@ -61,3 +61,11 @@ def test_validate_installscript_ids(installscriptxml):
     Ensure the InstallScript ids are the ones supported by OsinfoLoader.
     """
     return _test_validate_ids(installscriptxml, "install-script")
+
+
+@util.platform_parametrize('platformxml')
+def test_validate_platform_ids(platformxml):
+    """
+    Ensure the Platform ids are the ones supported by OsinfoLoader.
+    """
+    return _test_validate_ids(platformxml, "platform")

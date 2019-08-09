@@ -37,6 +37,7 @@ class _Files():
         self._devices_cache = []
         self._datamaps_cache = []
         self._installscripts_cache = []
+        self._platforms_cache = []
         self._os_related_cache = defaultdict(list)
         self._files_format = files_format
 
@@ -137,6 +138,12 @@ class _Files():
                 self._installscripts_cache.append(osinfo.InstallScript(path))
         return self._installscripts_cache
 
+    def platforms(self):
+        if not self._platforms_cache:
+            for path in self._filter_xml('platform'):
+                self._platforms_cache.append(osinfo.Platform(path))
+        return self._platforms_cache
+
     def xmls(self):
         return self._get_all_xml()
 
@@ -203,6 +210,15 @@ def installscript_parametrize(argname, **kwargs):
     installscripts = DataFiles.installscripts(**kwargs)
     return pytest.mark.parametrize(argname, installscripts,
             ids=_filename_ids_cb)
+
+
+def platform_parametrize(argname, **kwargs):
+    """
+    Helper for parametrizing a test with an OS list. Passthrough any
+    extra arguments to DataFiles.oses()
+    """
+    platforms = DataFiles.platforms(**kwargs)
+    return pytest.mark.parametrize(argname, platforms, ids=_filename_ids_cb)
 
 
 class _SourceFiles(_Files):
