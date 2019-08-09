@@ -249,3 +249,17 @@ class Device(_XMLBase):
     @_cache_property
     def name(self):
         return self._get_text('name')
+
+
+class Datamap(_XMLBase):
+    def __init__(self, filename):
+        self.filename = filename
+        root = ET.parse(self.filename).getroot().find('datamap')
+        super().__init__(root)
+
+    def __repr__(self):
+        return "<%s filename=%s>" % (self.__class__.__name__, self.filename)
+
+    @_cache_property
+    def internal_id(self):
+        return self._root.get('id')

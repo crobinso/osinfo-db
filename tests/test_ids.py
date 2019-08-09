@@ -45,3 +45,11 @@ def test_validate_device_ids(devicexml):
     Ensure the Device ids are the ones supported by OsinfoLoader.
     """
     return _test_validate_ids(devicexml, "device")
+
+
+@util.datamap_parametrize('datamapxml')
+def test_validate_datamap_ids(datamapxml):
+    """
+    Ensure the Datamap ids are the ones supported by OsinfoLoader.
+    """
+    return _test_validate_ids(datamapxml, "datamap")

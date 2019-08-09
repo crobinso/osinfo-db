@@ -35,6 +35,7 @@ class _Files():
         self._all_xml_cache = []
         self._oses_cache = []
         self._devices_cache = []
+        self._datamaps_cache = []
         self._os_related_cache = defaultdict(list)
         self._files_format = files_format
 
@@ -123,6 +124,12 @@ class _Files():
                 self._devices_cache.append(osinfo.Device(path))
         return self._devices_cache
 
+    def datamaps(self):
+        if not self._datamaps_cache:
+            for path in self._filter_xml('datamap'):
+                self._datamaps_cache.append(osinfo.Datamap(path))
+        return self._datamaps_cache
+
     def xmls(self):
         return self._get_all_xml()
 
@@ -170,6 +177,15 @@ def device_parametrize(argname, **kwargs):
     """
     devices = DataFiles.devices(**kwargs)
     return pytest.mark.parametrize(argname, devices, ids=_filename_ids_cb)
+
+
+def datamap_parametrize(argname, **kwargs):
+    """
+    Helper for parametrizing a test with an OS list. Passthrough any
+    extra arguments to DataFiles.oses()
+    """
+    datamaps = DataFiles.datamaps(**kwargs)
+    return pytest.mark.parametrize(argname, datamaps, ids=_filename_ids_cb)
 
 
 class _SourceFiles(_Files):
