@@ -150,6 +150,10 @@ def _shortid_ids_cb(xml):
     return _generic_ids_cb(xml, "shortid")
 
 
+def _filename_ids_cb(xml):
+    return _generic_ids_cb(xml, "filename")
+
+
 def os_parametrize(argname, **kwargs):
     """
     Helper for parametrizing a test with an OS list. Passthrough any
@@ -157,6 +161,15 @@ def os_parametrize(argname, **kwargs):
     """
     oses = DataFiles.oses(**kwargs)
     return pytest.mark.parametrize(argname, oses, ids=_shortid_ids_cb)
+
+
+def device_parametrize(argname, **kwargs):
+    """
+    Helper for parametrizing a test with an OS list. Passthrough any
+    extra arguments to DataFiles.oses()
+    """
+    devices = DataFiles.devices(**kwargs)
+    return pytest.mark.parametrize(argname, devices, ids=_filename_ids_cb)
 
 
 class _SourceFiles(_Files):

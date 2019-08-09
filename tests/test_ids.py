@@ -37,3 +37,11 @@ def test_validate_os_ids(osxml):
     Ensure the OS ids are the ones supported by OsinfoLoader.
     """
     return _test_validate_ids(osxml, "os")
+
+
+@util.device_parametrize('devicexml')
+def test_validate_device_ids(devicexml):
+    """
+    Ensure the Device ids are the ones supported by OsinfoLoader.
+    """
+    return _test_validate_ids(devicexml, "device")
