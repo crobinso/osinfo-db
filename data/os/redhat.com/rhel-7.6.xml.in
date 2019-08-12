@@ -15,7 +15,7 @@
     <release-date>2018-10-30</release-date>
 
     <variant id="rhel-alt">
-      <_name>Red Hat Enterprise Linux 7.5 Alternate Architectures</_name>
+      <_name>Red Hat Enterprise Linux 7.6 Alternate Architectures</_name>
     </variant>
 
     <media arch="x86_64">
