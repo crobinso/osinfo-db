@@ -231,6 +231,31 @@ class Tree(_XMLBase):
             return variant.attrib['id']
         return None
 
+    @_cache_property
+    def treeinfo(self):
+        treeinfo = self._root.find('treeinfo')
+        if treeinfo is not None:
+            return Treeinfo(treeinfo)
+        return None
+
+
+class Treeinfo(_XMLBase):
+    @_cache_property
+    def arch(self):
+        return re.compile(self._get_text('arch', default=''))
+
+    @_cache_property
+    def family(self):
+        return re.compile(self._get_text('family', default=''))
+
+    @_cache_property
+    def variant(self):
+        return re.compile(self._get_text('variant', default=''))
+
+    @_cache_property
+    def version(self):
+        return re.compile(self._get_text('version', default=''))
+
 
 class ISO(_XMLBase):
     @_cache_property
