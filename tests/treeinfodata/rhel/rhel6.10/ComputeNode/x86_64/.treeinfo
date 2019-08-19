@@ -1,0 +1,70 @@
+[addon-ScalableFileSystem]
+id = ScalableFileSystem
+name = Scalable Filesystem Support
+packages = ScalableFileSystem
+repository = ScalableFileSystem
+type = addon
+uid = ComputeNode-ScalableFileSystem
+
+[checksums]
+ComputeNode/repodata/repomd.xml = sha256:d93b9cc9cdcb1af974b121ba3baf30b5654c8215c79c07b2619a235c1112a326
+ScalableFileSystem/repodata/repomd.xml = sha256:63dc2de324d20a1d4b221f8803a758455cdd5a719b6192e69d558682aa59e460
+images/boot.iso = sha256:bbe4ea91cef0d8d19733b46ce35cac93a6771b35883571738cb87df512def284
+images/install.img = sha256:bd724071ad8c10ccf3346f5bd6659a549ceb6b60ea93db66ce43ff57866557c9
+images/product.img = sha256:76c4f15fb89a09a655b93ec5a7cd57191ead548e5a7490cc88cdb30ca5c1c186
+images/pxeboot/initrd.img = sha256:550628e13a60d3bdf26b4df74eb863eec5455015665e02992c02e8fa36518619
+images/pxeboot/vmlinuz = sha256:51db43a68556765f2e9989dd87db0de0126e09dcb5d487fe46fa2aad01ffa73c
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.10
+packagedir = Packages
+platforms = x86_64,xen
+repository = ComputeNode
+timestamp = 1527231598
+variant = ComputeNode
+variants = ComputeNode
+version = 6.10
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1527231598
+platforms = x86_64,xen
+variants = ComputeNode
+
+[variant-ComputeNode]
+addons = ScalableFileSystem
+id = ComputeNode
+name = Compute Node
+packages = Packages
+repository = ComputeNode
+type = variant
+uid = ComputeNode
+

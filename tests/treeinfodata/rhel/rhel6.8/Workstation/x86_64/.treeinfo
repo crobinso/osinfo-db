@@ -1,0 +1,70 @@
+[addon-ScalableFileSystem]
+id = ScalableFileSystem
+name = Scalable Filesystem Support
+packages = ScalableFileSystem
+repository = ScalableFileSystem
+type = addon
+uid = Workstation-ScalableFileSystem
+
+[checksums]
+ScalableFileSystem/repodata/repomd.xml = sha256:b211d4c9b6a5f3ce5259e2b5a022fc49578ee9d22c72f91866e23ff9ddbf4a8e
+Workstation/repodata/repomd.xml = sha256:2cf229b2074124af4093d95b4cc1ae98804cbd4f7ba2bebf15f8317bc5f7f5f7
+images/boot.iso = sha256:1bf0a466ff763206f5d7304cfb959ff3bc87425c9b6e144fbb968a37df9c4db5
+images/install.img = sha256:048011022506f0eeff458c87a9b5d2024a78866da968bf450b0c60a026cfea8e
+images/product.img = sha256:1f1c1819fbb343b0d9344d7e4355b62b33c8552e564b6f78f4efafedd251ff38
+images/pxeboot/initrd.img = sha256:c92f3cdd30305244b52f8e9bf63656faf522cad024b46cc14012441ef1a613cf
+images/pxeboot/vmlinuz = sha256:e77009f24384bf077a85e8d31f34ae6895c81acaed8befccdc499d5b01de0295
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.8
+packagedir = Packages
+platforms = x86_64,xen
+repository = Workstation
+timestamp = 1460645242
+variant = Workstation
+variants = Workstation
+version = 6.8
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.8
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1460645242
+platforms = x86_64,xen
+variants = Workstation
+
+[variant-Workstation]
+addons = ScalableFileSystem
+id = Workstation
+name = Workstation
+packages = Packages
+repository = Workstation
+type = variant
+uid = Workstation
+

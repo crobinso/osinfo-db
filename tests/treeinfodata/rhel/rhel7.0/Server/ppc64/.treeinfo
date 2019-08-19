@@ -1,0 +1,54 @@
+[checksums]
+LiveOS/squashfs.img = sha256:2bc17c35f894c7b95e1ec82eaec99edda18868bdd1b28b1644361685d2e052e4
+images/boot.iso = sha256:8c2e1ecf0b094fc38fe426ede9fc75388a91aa1f77183096da5db9cabb17ea83
+images/netboot/ppc64.img = sha256:d75f9142efcade504e4b93a0b335ed7738053abb4e2f19823415ff6fbf584dd7
+ppc/ppc64/initrd.img = sha256:0811e5e1a0b7765e8e4f1c5a5522b7df032c722d26ed493a5b413a48784f8021
+ppc/ppc64/upgrade.img = sha256:375e294ae36aee34c52d2b3b63d8ae72c4df02f649289144d611fb9e88842555
+ppc/ppc64/vmlinuz = sha256:1c8f82d921c2e7a1673096570b66e08e22378d5533329b54aeb8fcf4b59aaec1
+repodata/repomd.xml = sha256:e0c5774b2be39455fb1ec84ece4ff21964775a26c9e82320d8d39889b02b1ca2
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = ppc64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.0
+packagedir = Packages
+platforms = ppc64
+repository = .
+timestamp = 1399449156
+variant = Server
+version = 7.0
+
+[header]
+version = 0.3
+
+[images-ppc64]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+upgrade = ppc/ppc64/upgrade.img
+zimage = images/netboot/ppc64.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.0
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = ppc64
+build_timestamp = 1399449156
+platforms = ppc64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

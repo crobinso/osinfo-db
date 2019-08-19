@@ -1,0 +1,20 @@
+[general]
+family = CentOS
+timestamp = 1362445792.35
+variant = 
+totaldiscs = 1
+version = 6.4
+discnum = 1
+packagedir = 
+arch = i386
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = ../../isos/i386/CentOS-6.4-i386-netinstall.iso
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img

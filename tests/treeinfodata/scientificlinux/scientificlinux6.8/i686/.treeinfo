@@ -1,0 +1,25 @@
+[general]
+family = Scientific Linux-6.8
+timestamp = 1323813067.24
+variant = sl6-i386
+totaldiscs = 1
+version = 6.8
+discnum = 1
+packagedir = 
+arch = i386
+
+[product]
+name = Scientific Linux
+short = SL
+version = 6.8
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img

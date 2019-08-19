@@ -1,0 +1,31 @@
+[checksums]
+images/boot.iso = sha256:96209f0b958ed3da04a40b8874dc24500c6d4c248f81afb438ef561758048220
+images/install.img = sha256:2d7e6cc7b203c52e2887c0030e79fe075971ec973d7c4259ca2f6cff81403348
+images/netboot/ppc64.img = sha256:fed5fd8f873246b74c2ff465baa608bd236c2796b815dc73c22093f6c085fa8d
+images/product.img = sha256:43bbd9b6fe64a8b0833fbea7d708e7521f2075fa9b1fbc8939769d19c91cb097
+
+[stage2]
+mainimage = images/install.img
+
+[variant-Server]
+addons = 
+repository = Server/repodata
+identity = Server/Server.cert
+
+[images-ppc64]
+initrd = ppc/ppc64/initrd.img
+zimage = images/netboot/ppc64.img
+kernel = ppc/ppc64/vmlinuz
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1339641244.734735
+variant = Server
+totaldiscs = 1
+label = RHEL-6.3-RC-4
+version = 6.3
+discnum = 1
+packagedir = Packages
+variants = Server
+arch = ppc64
+

@@ -1,0 +1,59 @@
+[checksums]
+Workstation/repodata/repomd.xml = sha256:bf06685f3b360c0a4dfcdd9db518dd127128dce076dc2973066629685532c652
+images/boot.iso = sha256:19c6be77e4338dcf592d6fcb92226412e2b3c2b6a6d21b8195a0fa6383bb756f
+images/install.img = sha256:0d59562a76b1780a71494f58710e0dcdf2669440a1741831ce16f457e91a85e1
+images/product.img = sha256:42eafa50e592ca1ff7039ae4591ae96a329e4f00535d54d1f5195097e5161b4a
+images/pxeboot/initrd.img = sha256:509f351ae2baa5b285bd4d660a306f1138010d4be045c5457ebc132227107f24
+images/pxeboot/vmlinuz = sha256:710e5e182dc408e43792b5e89d7d2f2815e139374c7842099cdd756e5fa9f90c
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = i386
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.6
+packagedir = Packages
+platforms = i386,xen
+repository = Workstation
+timestamp = 1411733326
+variant = Workstation
+variants = Workstation
+version = 6.6
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-i386]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 6.6
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = i386
+build_timestamp = 1411733326
+platforms = i386,xen
+variants = Workstation
+
+[variant-Workstation]
+id = Workstation
+name = Workstation
+packages = Packages
+repository = Workstation
+type = variant
+uid = Workstation
+

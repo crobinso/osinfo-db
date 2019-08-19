@@ -1,0 +1,61 @@
+[checksums]
+Server/repodata/repomd.xml = sha256:775b0b61d4661aaa2cad18d18a75afbdf94518a0a074344e63d38de0828dd0d1
+generic.ins = sha256:a5c38204422ae7f176b7f73adf496fbc876fcf30366a6bc7c5064c12e480c6bf
+images/cdboot.img = sha256:c08e3c24f48e305e2a869330a9f29b6b29ba0c959d0b0809dc49982e4613dba5
+images/generic.prm = sha256:1c82db2b4a2171971153ad69772dbd9e5f5f428e5e1fb77e7463162f2840b76f
+images/initrd.addrsize = sha256:aa1a25008c5e965013c433059364af039c273ac5a48124ddff3e4964811ed10b
+images/initrd.img = sha256:c66dcdae020fd7c6a3bf91b8bf68dec3da5f95b981946690f149562708002094
+images/install.img = sha256:edbf58bb246f2c30e81b45852b84c926f7e9642f2da35805cf8c395f5a32f75d
+images/kernel.img = sha256:441a4c28d9a15b851a8d4085535aec001c33c38549f3a24cb97ad77e1e674749
+images/product.img = sha256:dcc64d77ba300ee386df68113b846ad49b41d6bd4e0149c06f4bc798e79eb015
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.7
+packagedir = Packages
+platforms = s390x
+repository = Server
+timestamp = 1435823053
+variant = Server
+variants = Server
+version = 6.7
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-s390x]
+cdboot.img = images/cdboot.img
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.7
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1435823053
+platforms = s390x
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = Server
+type = variant
+uid = Server
+

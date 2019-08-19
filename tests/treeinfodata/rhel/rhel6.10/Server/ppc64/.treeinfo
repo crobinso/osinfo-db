@@ -1,0 +1,55 @@
+[checksums]
+Server/repodata/repomd.xml = sha256:6e57ae2c9333d980ae4ba50e0398fe2bc9c1547f5b2bae75552320ac87128837
+images/install.img = sha256:b0853caccc798720279c9c0d4b5c303b1959ef91af848f3c000ac9e0d40134a1
+images/netboot/ppc64.img = sha256:e0c911cd132f478bd1716b31624ecc6b67196a065d63bf87ac0f045659927879
+images/product.img = sha256:c2ad61c1c08067058c698220184415adc366bbb78ffea76ffed60737f6a8fcf1
+ppc/ppc64/initrd.img = sha256:85f432d32fe000fe119e0c9eb83b2b9336b1ec85dacf468336ea1e4777f1b9cc
+ppc/ppc64/vmlinuz = sha256:800b8c2e61259677d2d750f2c59209dfed98d1078efa7e176dfe756591c9547d
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = ppc64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.10
+packagedir = Packages
+platforms = ppc64
+repository = Server
+timestamp = 1527231603
+variant = Server
+variants = Server
+version = 6.10
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-ppc64]
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+product.img = images/product.img
+zimage = images/netboot/ppc64.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64
+build_timestamp = 1527231603
+platforms = ppc64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = Server
+type = variant
+uid = Server
+

@@ -1,0 +1,60 @@
+[checksums]
+Client/repodata/repomd.xml = sha256:e520dc9c7c9a50c7df42f3250d9a422efb22dbaaf571751e01265a8f672fbb6c
+images/boot.iso = sha256:7a299e65a08facc1e1573ba97430c88331aec8bc01f16b9946d019a5637e608b
+images/install.img = sha256:048011022506f0eeff458c87a9b5d2024a78866da968bf450b0c60a026cfea8e
+images/product.img = sha256:6939a03ff5b9df22692ddea796d5b1f1c4e79837e38d347ac5f22cc8ae32b6f4
+images/pxeboot/initrd.img = sha256:c92f3cdd30305244b52f8e9bf63656faf522cad024b46cc14012441ef1a613cf
+images/pxeboot/vmlinuz = sha256:e77009f24384bf077a85e8d31f34ae6895c81acaed8befccdc499d5b01de0295
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.8
+packagedir = Packages
+platforms = x86_64,xen
+repository = Client
+timestamp = 1460645203
+variant = Client
+variants = Client
+version = 6.8
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.8
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1460645203
+platforms = x86_64,xen
+variants = Client
+
+[variant-Client]
+id = Client
+name = Client
+packages = Packages
+repository = Client
+type = variant
+uid = Client
+

@@ -1,0 +1,20 @@
+[general]
+version = 6.8
+arch = i386
+family = CentOS
+packagedir = 
+timestamp = 1463890561.31
+discnum = 1
+variant = 
+totaldiscs = 1
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img

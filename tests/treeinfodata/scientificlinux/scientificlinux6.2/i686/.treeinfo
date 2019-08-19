@@ -1,0 +1,20 @@
+[general]
+family = Scientific Linux
+timestamp = 1323813067.24
+variant = sl6-i386
+totaldiscs = 1
+version = 6.2
+discnum = 1
+packagedir = 
+arch = i386
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img

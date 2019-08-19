@@ -1,0 +1,76 @@
+[checksums]
+LiveOS/squashfs.img = sha256:a9c38542032a5a23c470285d77b9fc4c51c08b5f0937952d357cab894a7d1d3a
+addons/HighAvailability/repodata/repomd.xml = sha256:4ffe50161d6a6d4e2eb6a891e642898e0b9ff4607b346d67f2c2b5e176370a50
+addons/ResilientStorage/repodata/repomd.xml = sha256:ec4dfc909197256bc131d43011acdadf9069c714c469d0fc880a79aeb37ccb51
+images/boot.iso = sha256:b7a4f8b4d0132776ea20147abbb0a605d1a506ece92c704af5ab50796edc9a9b
+images/pxeboot/initrd.img = sha256:b0416af71222f2649adc20094dd522f37f93f16d023f934c258a52b6a42656a5
+images/pxeboot/upgrade.img = sha256:985bf98073e420e0fafb22faba57d8aecc96b89335935ed5da1f66a6088dfb2b
+images/pxeboot/vmlinuz = sha256:d7ac815c6296d7b3fbe96de747fd56a79761a6f6683243ffc7ae8014b815ab55
+repodata/repomd.xml = sha256:cbfabb80fe7b66eec714c3bacb302b8f3e2b8a230d71a4eb48f5fec76ce4f44c
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.0
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1399449191
+variant = Server
+version = 7.0
+
+[header]
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.0
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1399449191
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+variants = Server-HighAvailability,Server-ResilientStorage
+
+[variant-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[variant-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+

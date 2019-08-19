@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:2f8c8e287889b9b8557cc4997830928ab677b2357cad97ef1ee7870bbb86a647
+images/efiboot.img = sha256:8664355925b4fefaa9577f137124eb4bebec0635cf4926caf38049c4fabbe944
+images/install.img = sha256:ebdfbf661eb4ab9166a4909ddefd8514b38b48d4e026561421c7a57d77fda7f7
+images/macboot.img = sha256:d6c4088c577878efca16dddbcba2b137cc264301b60c71a8cda68dfe5cbc1ad3
+images/pxeboot/initrd.img = sha256:3f1eb3724d8b3a99f6010d53a95755700abe77e94ba680c84878635566e313e6
+images/pxeboot/vmlinuz = sha256:4ac6351f77c70a18be00f56c7175bb2533a00bc2c8450141aa6474c141552b4e
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Fedora
+name = Fedora Rawhide
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1566250015
+variant = Everything
+variants = Everything
+version = Rawhide
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+macboot.img = images/macboot.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Fedora
+short = Fedora
+version = Rawhide
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1566250015
+platforms = x86_64,xen
+variants = Everything
+
+[variant-Everything]
+id = Everything
+name = Everything
+packages = Packages
+repository = .
+type = variant
+uid = Everything
+

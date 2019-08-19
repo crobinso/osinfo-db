@@ -1,0 +1,56 @@
+[checksums]
+images/boot.iso = sha256:f85f36d30a53988aacd7043461bc74a8f74ff35bcf6faedab8d3f7d12cab0227
+images/install.img = sha256:61a7481136d02ef4367b8b25220a0cfd9ea152d6124e060da4dc3ff26a2c42ba
+images/product.img = sha256:a544fac9b0338afdf0da3a91af89ddb107dd43e4d5b26c2a86c74297fd023d23
+images/pxeboot/initrd-PAE.img = sha256:cb5dc9d0a04ec9fbc6014deb1e03d6adc959dde29b5505f818181dcdb6e2cfe1
+images/pxeboot/initrd.img = sha256:10b919d3aba956720ee50d81d8d5b70a62902276094c0bf66bca70e9f1ab014a
+images/pxeboot/vmlinuz = sha256:82cd68c7dd95b664a21e9ac8eac21a4059f2a60cad41959663e9be9f1320e541
+images/pxeboot/vmlinuz-PAE = sha256:d0759fd2fe8ae924fc4e00a75173d7f803c2ef79cf37570bc7100893af5d3fab
+repodata/repomd.xml = sha256:699cb4a61aed793e6513fea18f00a82817293e2130b002b4bfe0bb8278b50bac
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = i386
+family = Fedora
+name = Fedora 24
+platforms = i386,xen
+timestamp = 1465920955
+variant = Server
+variants = Server
+version = 24
+
+[header]
+version = 1.0
+
+[images-i386]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd-PAE.img
+kernel = images/pxeboot/vmlinuz-PAE
+product.img = images/product.img
+
+[release]
+name = Fedora
+short = Fedora
+version = 24
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = i386
+build_timestamp = 1465920955
+platforms = i386,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+type = variant
+uid = Server
+

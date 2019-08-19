@@ -1,0 +1,69 @@
+[addon-ScalableFileSystem]
+id = ScalableFileSystem
+name = Scalable Filesystem Support
+packages = ScalableFileSystem
+repository = ScalableFileSystem
+type = addon
+uid = Workstation-ScalableFileSystem
+
+[checksums]
+ScalableFileSystem/repodata/repomd.xml = sha256:24a94e4de1150e03f07bd245a18ff12a312e761d90505399e40d3b56c321799f
+Workstation/repodata/repomd.xml = sha256:85be3bf27fd0fb5c52788dda8735c0022536e4fda59675fd0908d989954eae3c
+images/boot.iso = sha256:e6dd33814ff64fc1397457b27737456243ef33bcbfb656a6edee36780bbd4c90
+images/install.img = sha256:6e6a3af5c4e48b18ffbcb5da5dc29113ace6130b06ac8971e565abbbeec58431
+images/product.img = sha256:42eafa50e592ca1ff7039ae4591ae96a329e4f00535d54d1f5195097e5161b4a
+images/pxeboot/initrd.img = sha256:77f6352605f712bcf58902ac76713da02b5428927272a8a67334277b6513c513
+images/pxeboot/vmlinuz = sha256:794dcb24210dcb14e2123c6016ab4a1b8bbd47fa5c4c1e3a053e1605e70adc11
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.6
+packagedir = Packages
+platforms = x86_64,xen
+repository = Workstation
+timestamp = 1411733334
+variant = Workstation
+variants = Workstation
+version = 6.6
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 6.6
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1411733334
+platforms = x86_64,xen
+variants = Workstation
+
+[variant-Workstation]
+addons = ScalableFileSystem
+id = Workstation
+name = Workstation
+packages = Packages
+repository = Workstation
+type = variant
+uid = Workstation
+

@@ -1,0 +1,17 @@
+[general]
+name = CentOS-7
+family = CentOS
+timestamp = 1543692062.49
+variant = 
+version = 7
+packagedir = 
+arch = i386
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+

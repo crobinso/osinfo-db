@@ -1,0 +1,74 @@
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+parent = Server
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+parent = Server
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[checksums]
+LiveOS/squashfs.img = sha256:a246f7a8e34fed9670012f2d93fa9d7c6248b70fab8065587034216a0587459e
+images/boot.iso = sha256:ad15ce6ae1ed096ad7e8b0e01c8e530a3e93f3ff7a23746fe4f847aecc3838d2
+images/netboot/ppc64.img = sha256:0b9a088a4a2793efac411f24626c88557297ff9eade79d57983c6ba66b76c459
+ppc/ppc64/initrd.img = sha256:304dfcc79ead44f7838e6d9adf55a1a18337d630a12d6d90376a6ac0b3f5b96c
+ppc/ppc64/upgrade.img = sha256:b9ae2e78bac7eb9796aac3f8fb8f69a5fd3f645a9f56c93767d7a22c1011c7c4
+ppc/ppc64/vmlinuz = sha256:7d642a5514ad311ec5747dfebd05acb6f62f1c5ac18400201b7d17ae4a0462c5
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = ppc64le
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.4
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1499751045
+variant = Server
+variants = Server
+version = 7.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+upgrade = ppc/ppc64/upgrade.img
+zimage = images/netboot/ppc64.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.4
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1499751045
+platforms = ppc64le
+variants = Server
+
+[variant-Server]
+addons = Server-HighAvailability,Server-ResilientStorage
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

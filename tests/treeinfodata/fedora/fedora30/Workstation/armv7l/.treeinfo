@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:de3d5aa5a23695e50466dcf6a52d77eecef8b33251f046759fc7762c3c02e4c0
+images/install.img = sha256:7471bfc6fc54011bdad0672f22372e8af53e905788462e8560bd36b727a84b97
+images/pxeboot/initrd-lpae.img = sha256:467b84e402ba616bb76e27fade361b33698dd354d1cb33830336d1c0505ceaa6
+images/pxeboot/initrd.img = sha256:bca869ab172bdc086dba719e16c979a657fdeb944ac0af66944a7e02060d3465
+images/pxeboot/vmlinuz = sha256:429d4d97442dfecd85069ef61f02e5b1cdf00a1277a8129a0c7b645ca88fd9eb
+images/pxeboot/vmlinuz-lpae = sha256:f6c493f169744b80d2451b047cc66dc7a897f4d391fcddc2c8676a4383e23b36
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = armhfp
+family = Fedora
+name = Fedora 30
+packagedir = Packages
+platforms = armhfp,lpae
+repository = .
+timestamp = 1556243924
+variant = Workstation
+variants = Workstation
+version = 30
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-armhfp]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-lpae]
+initrd = images/pxeboot/initrd-lpae.img
+kernel = images/pxeboot/vmlinuz-lpae
+
+[release]
+name = Fedora
+short = Fedora
+version = 30
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = armhfp
+build_timestamp = 1556243924
+platforms = armhfp,lpae
+variants = Workstation
+
+[variant-Workstation]
+id = Workstation
+name = Workstation
+packages = Packages
+repository = .
+type = variant
+uid = Workstation
+

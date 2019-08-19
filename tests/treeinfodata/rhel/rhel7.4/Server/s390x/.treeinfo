@@ -1,0 +1,78 @@
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+parent = Server
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+parent = Server
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:bd121cd94c38f68553dd552cfad2fe951d360a987e788598cbf248fdb5b5e4e0
+images/initrd.img = sha256:43836732c49b237f0cb10f96155ba6295ff2ea974148404f3ae36c246a01fbb4
+images/install.img = sha256:e338ac6c232625bb8d1cc64a5d224d4032d768a6995072d9b1fec0a0fdf69b85
+images/kernel.img = sha256:cb6231014f6af3ad18b5c759d881ecc0682b64173d6a5f5300c4fadde7c4d112
+images/upgrade.img = sha256:8ede856d86a9c79292f3944a0a04b3b3731748063a978351af4d89fbec7dc00d
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.4
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1499751053
+variant = Server
+variants = Server
+version = 7.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+upgrade = images/upgrade.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.4
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1499751053
+platforms = s390x
+variants = Server
+
+[variant-Server]
+addons = Server-HighAvailability,Server-ResilientStorage
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

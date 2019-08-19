@@ -1,0 +1,73 @@
+[general]
+name = Scientific-7.5
+family = Scientific
+timestamp = 1525208714
+variant = RELEASE
+version = 7.5
+packagedir = 
+arch = x86_64
+
+[product]
+name = Scientific Linux
+short = SL
+version = 7.5
+
+[tree]
+arch = x86_64
+build_timestamp = 1525208714
+platforms = x86_64,xen
+variants = RELEASE
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+
+[checksums]
+images/efiboot.img = sha256:2768d724c335b6e6a9a165c6590d0a786d10c67a4b23f2bba9e72356639e2f33
+images/boot.iso = sha256:936c0b1cb5c637968472c018abc8f236569b05f38fe2ff0717831f93bbed4d22
+images/pxeboot/vmlinuz = sha256:6e235507d7cd5502a0d4b2b00eb02ae1b1dd0e1b340c8be19f4a2f8bf9284383
+images/pxeboot/initrd.img = sha256:be7330a7b04640c12836a912d86b1bc689028b4ae57c3922d93d87b2b0ba8666
+images/pxeboot/upgrade.img = sha256:0655c29756b1ae17f1836b55084a1cb0b8ca1f74c5fc069effc038875e1bc002
+repodata/repomd.xml = sha256:ce3591a0b598abfab4aa4b34f5d4d1f431a5d5bfbbc12ae32d867bc1fbe94bf9
+
+[variant-RELEASE]
+addons = RELEASE-updates
+id = RELEASE
+name = RELEASE
+packages = Packages
+repository = .
+type = variant
+uid = RELEASE
+
+[addon-RELEASE-updates]
+id = RELEASE-updates
+name = Security Updates
+packages = ../updates/security/
+parent = RELEASE
+repository = ../updates/security/
+type = addon
+uid = RELEASE-updates
+
+[addon-RELEASE-fastbugs]
+id = RELEASE-fastbugs
+name = Bugfix Updates
+packages = ../updates/fastbugs/
+parent = RELEASE
+repository = ../updates/fastbugs/
+type = addon
+uid = RELEASE-updates
+

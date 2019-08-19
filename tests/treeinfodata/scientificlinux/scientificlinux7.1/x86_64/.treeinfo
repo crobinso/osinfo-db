@@ -1,0 +1,36 @@
+[general]
+name = Scientific-7.1
+family = Scientific
+timestamp = 1428333233.19
+variant = Scientific
+version = 7.1
+packagedir = 
+arch = x86_64
+
+[product]
+name = Scientific Linux
+short = SL
+version = 7.1
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+
+[checksums]
+images/efiboot.img = sha256:652a3c0362e4610e9e73248a868fa0d098d002dd9fcc37454fd6c5d4ce8d93d4
+images/boot.iso = sha256:9b744b748199a7da27b181a6338b74520ea459ce80c240b8464f3842c10e79b6
+images/pxeboot/vmlinuz = sha256:bdfc9a190be600b406ca992dc7fb7a5b15ce7e6748a33fa8a148a51200248e22
+images/pxeboot/initrd.img = sha256:38593a3741622788514bbf8f79ef33891e538196265f916a3e2f0239d56ceb13
+images/pxeboot/upgrade.img = sha256:d7307565912cf274559ef1e1e9a2f297845f9f0860ace7e651662bb74decf3f3
+repodata/repomd.xml = sha256:c5d14dea62eba518077f1b390bcdf27628507c5b3e4a89aa8d3edc95934b9a39
+

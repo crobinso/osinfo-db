@@ -1,0 +1,53 @@
+[checksums]
+images/boot.iso = sha256:182ffac38d865056323783cd0304c3748baf1686bfc877567a8db48bee03c461
+images/efiboot.img = sha256:b4378298ac2ef47812713940cd33c3fa21a747bf9feed3bc0ed6c5b36f9a6fef
+images/install.img = sha256:0b93fe03b76b72b5a48f18949d43a0b6029e3f248fe4dc88cb0739c4dd9cda20
+images/pxeboot/initrd.img = sha256:648afa30ad1c2e7d8de1b43939f3fc2fe37285f3d7f57a47fafe560608ef53ba
+images/pxeboot/vmlinuz = sha256:424bd93c5a56f7abddd8452cf1ef70ef008d16787ee8d0611f890f40862c5e05
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 8.0.0
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1554367027
+variant = BaseOS
+variants = BaseOS
+version = 8.0.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 8.0.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1554367027
+platforms = aarch64
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

@@ -1,0 +1,75 @@
+[general]
+name = Scientific-7.4
+family = Scientific
+timestamp = 1503505883
+variant = RELEASE
+variants = RELEASE
+version = 7.4
+packagedir = 
+arch = x86_64
+
+[product]
+name = Scientific Linux
+short = SL
+version = 7.4
+
+[tree]
+arch = x86_64
+build_timestamp = 1503505883
+platforms = x86_64,xen
+variants = RELEASE
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+upgrade = images/pxeboot/upgrade.img
+
+[checksums]
+repodata/repomd.xml = sha256:48bbbd1c8dd4e8baae5bc0f8a17f5d71af8d4727d2fabdec976ad599f23c5c0e
+images/efiboot.img = sha256:bfc74036b94bc0d5ff91f27a21e3599af033e00c35e35c7612b53fa9589fc021
+images/boot.iso = sha256:4f7b7225924ec99a132c7d8f3e198cd209a556a972a684d32f3cd08813ba0a46
+images/pxeboot/vmlinuz = sha256:e4ab0de09f1750896f4aea00728da3016b4fba273d72de7ab8fb7cdde8c82f2a
+images/pxeboot/initrd.img = sha256:4f160394a0c744bdd9146a8d06b35e8c393746ac09cd550c0197bc9120c55201
+images/pxeboot/upgrade.img = sha256:8adda0bead556d105dab1c6aa3733c97eda0d5b4c113de9eca725ec088a9536b
+
+
+[variant-RELEASE]
+addons = RELEASE-updates
+id = RELEASE
+name = RELEASE
+packages = Packages
+repository = .
+type = variant
+uid = RELEASE
+
+[addon-RELEASE-updates]
+id = RELEASE-updates
+name = Security Updates
+packages = ../updates/security/
+parent = RELEASE
+repository = ../updates/security/
+type = addon
+uid = RELEASE-updates
+
+[addon-RELEASE-fastbugs]
+id = RELEASE-fastbugs
+name = Bugfix Updates
+packages = ../updates/fastbugs/
+parent = RELEASE
+repository = ../updates/fastbugs/
+type = addon
+uid = RELEASE-updates
+

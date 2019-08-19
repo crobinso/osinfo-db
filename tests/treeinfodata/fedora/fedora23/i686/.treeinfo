@@ -1,0 +1,31 @@
+[general]
+family = Fedora
+packagedir = 
+timestamp = 1446167213.6364923
+arch = i386
+version = 23
+variant = Server
+name = Fedora-23
+
+[images-i386]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz-PAE
+initrd = images/pxeboot/initrd-PAE.img
+
+[stage2]
+mainimage = images/install.img
+
+[checksums]
+images/install.img = sha256:44f5dc977c896102b5ac415bf66c8606e079d06bf7946e9b90144965d4a1392d
+images/product.img = sha256:ba7b99d01b46e59f0324819910b9b0fdf9bbcbaeac0525b780d390121ceebcb9
+images/boot.iso = sha256:2885999a0e26af2e8889e7648056b659922b36a1dc65374f9e065b4770ec2523
+images/pxeboot/vmlinuz-PAE = sha256:7dea1ab67708ad155a0e53fa349d2c87ed83d445224da30a038acfd9dcc26323
+images/pxeboot/initrd-PAE.img = sha256:4a4c253fa52be2bc217fd652c222bbf2e3698c2af1d9d785f2cbbe6144137d9f
+images/pxeboot/vmlinuz = sha256:97be9f56e9ba289f9ab29cf1732df9313137bc47d900b6300a09f64c282eaa02
+images/pxeboot/initrd.img = sha256:402954790e61a073623fd44c9a76b31dc1fde6db3f6f615eb0fcf196366f637b
+repodata/repomd.xml = sha256:70bd947e92b59e85093981190ad447403352fb74c45b78213d7f3d21cff9fe7b
+

@@ -1,0 +1,37 @@
+[checksums]
+images/cdboot.img = sha256:c2177dae4f5058906cdc033a2ad2fa03da3e2719ffac47f9fa9da87ef8301688
+images/generic.prm = sha256:8b3a592133745835e550f39e8428b2eb1480f8be69d6459eb19571d281327cd1
+images/initrd.img = sha256:120b2dcde436513132756570b455dfcc4effb1b4ccba592db51e41da20362003
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+images/initrd.addrsize = sha256:6ddabaee11502684e63746385cd8438a173cbcee5513194c26177271eb09169c
+images/install.img = sha256:9b5631fd2cba5536917c95f989b3027596be82dd3b13853e7fdc4de47547eb47
+images/kernel.img = sha256:65654c0fa307a93ab9e633e8badafd00018da172179b8218313fa925035f992c
+
+[stage2]
+mainimage = images/install.img
+
+[variant-Server]
+addons = 
+identity = Server/Server.cert
+repository = Server/repodata
+
+[images-s390x]
+kernel = images/kernel.img
+initrd.addrsize = images/initrd.addrsize
+generic.prm = images/generic.prm
+cdboot.img = images/cdboot.img
+initrd = images/initrd.img
+generic.ins = generic.ins
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1339639301.564696
+variant = Server
+totaldiscs = 1
+label = RHEL-6.3-RC-4
+version = 6.3
+discnum = 1
+packagedir = Packages
+variants = Server
+arch = s390x
+

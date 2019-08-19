@@ -1,0 +1,82 @@
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+parent = Server
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+parent = Server
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:3b34426c62816a52bc0687866e741046ca1de236b62af18fbc92ef1ea10256cf
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:80ffe5cc7c68c97481c23e990dc2bc1375d43c66ff65ebd3f42cac7c6d129d3d
+images/initrd.img = sha256:4d84ffad85a42b872f4a6d13b0870bf90605db5711bc413529db808c9572b7cc
+images/install.img = sha256:e696fbb9ef4aa0e12395fdd9a0e79241462da72399d98d5ecbb9b77f901887f4
+images/kernel.img = sha256:8bfa9b17193c74079492aa3cca2a71a582635412ba85c6274816248159e2e286
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+images/upgrade.img = sha256:7052360f38043ede465e2e5515a268ba222d62e038d84ab60829b85c4e246de9
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.7
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1563892354
+variant = Server
+variants = Server
+version = 7.7
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+upgrade = images/upgrade.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.7
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1563892354
+platforms = s390x
+variants = Server
+
+[variant-Server]
+addons = Server-HighAvailability,Server-ResilientStorage
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

@@ -1,0 +1,25 @@
+[general]
+family = Scientific Linux-6.9
+timestamp = 1490371584
+variant = sl6-x86_64
+totaldiscs = 1
+version = 6.9
+discnum = 1
+packagedir = 
+arch = x86_64
+
+[product]
+name = Scientific Linux
+short = SL
+version = 6.9
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img

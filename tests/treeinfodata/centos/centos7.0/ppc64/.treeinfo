@@ -1,0 +1,18 @@
+[general]
+name = CentOS-7
+family = CentOS
+timestamp = 1548186465.71
+variant = 
+version = 7
+packagedir = 
+arch = ppc64
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[images-ppc64]
+kernel = ppc/ppc64/vmlinuz
+initrd = ppc/ppc64/initrd.img
+boot.iso = images/boot.iso
+zimage = images/netboot/ppc64.img
+

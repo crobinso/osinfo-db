@@ -1,0 +1,58 @@
+[checksums]
+LiveOS/squashfs.img = sha256:dad808363dd0d7df85f6f6ece5789e9c0eceff39f3a93c830e1e648cb5b9356d
+images/boot.iso = sha256:29225f1480cc53669238c835ef49afa46d7a740cda816b49cebd196a5986455f
+images/pxeboot/initrd.img = sha256:c6519c99eb61049e581ff6510e9801a3545879ba1451f34b2c07fa7605b91bc4
+images/pxeboot/upgrade.img = sha256:a4f89776ab8fa0872c7c48a943aed77c98043b1b137bd2fd3a333f42ec1ce8ba
+images/pxeboot/vmlinuz = sha256:359e92f8354ccc21bdc3d2ee95cfe49863a0f9a40ad29d43fd9d384818226845
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.4
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1499751063
+variant = Workstation
+variants = Workstation
+version = 7.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.4
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1499751063
+platforms = x86_64,xen
+variants = Workstation
+
+[variant-Workstation]
+id = Workstation
+name = Workstation
+packages = Packages
+repository = .
+type = variant
+uid = Workstation
+

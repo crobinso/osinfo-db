@@ -1,0 +1,56 @@
+[checksums]
+generic.ins = sha256:a5c38204422ae7f176b7f73adf496fbc876fcf30366a6bc7c5064c12e480c6bf
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/initrd.addrsize = sha256:7871786b759070c505770ef6eaaed65455047d2c6c2325b50f4b162b5251e8ed
+images/initrd.img = sha256:6b58ba6033239ceba25bd1bc05b04463890f9421411f0a95eb899de833bd3a1a
+images/install.img = sha256:1c34456dc7d6f31659d466eccd7c9274b0fb56e610602db9853d01a2d5e6e2ca
+images/kernel.img = sha256:99306e2770801a71fd8928583474c63fd228932e3ffcc7edd266c55df9946dc8
+images/upgrade.img = sha256:69842ff551d86f7b766152899aea34eea43cc0c7edb98898d9c6d7083f2ea7b2
+repodata/repomd.xml = sha256:537694fe1671306888897d2d5b8f683f06b66b78e10414cdbe4fa86fd710deae
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.0
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1399449181
+variant = Server
+version = 7.0
+
+[header]
+version = 0.3
+
+[images-s390x]
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+upgrade = images/upgrade.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1399449181
+platforms = s390x
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

@@ -1,0 +1,70 @@
+[addon-ScalableFileSystem]
+id = ScalableFileSystem
+name = Scalable Filesystem Support
+packages = ScalableFileSystem
+repository = ScalableFileSystem
+type = addon
+uid = ComputeNode-ScalableFileSystem
+
+[checksums]
+ComputeNode/repodata/repomd.xml = sha256:463939d6b5e92b5f9990a55f05288ebc90d2149ed87d75b99e982e184dfc1b17
+ScalableFileSystem/repodata/repomd.xml = sha256:b522584a56c00ce7c6ab45d83dcbe1e0801b107df5c17ed4921a1633fa9d4cca
+images/boot.iso = sha256:1364b4a40737ffba1767729b8365253ad1812fac71f421f743aa401b50e6fdef
+images/install.img = sha256:3ee6f0989a7c01cbc6cdd54ce03bd3d1e18422a9ef13dab396bde22941489a5a
+images/product.img = sha256:a52fdd690ebebe919741fb4fa7f7e81bd8c6b97ed49464c21d6166fb343e8ca1
+images/pxeboot/initrd.img = sha256:eb67b26829417c018544806b92c65b6541bdcbe643375fcb3049a70d25de1a30
+images/pxeboot/vmlinuz = sha256:97f48781a58eb67b7ca2b3b12141ca25546565e99cf415196e164b0fa2c9c7e8
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.7
+packagedir = Packages
+platforms = x86_64,xen
+repository = ComputeNode
+timestamp = 1435823036
+variant = ComputeNode
+variants = ComputeNode
+version = 6.7
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 6.7
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1435823036
+platforms = x86_64,xen
+variants = ComputeNode
+
+[variant-ComputeNode]
+addons = ScalableFileSystem
+id = ComputeNode
+name = Compute Node
+packages = Packages
+repository = ComputeNode
+type = variant
+uid = ComputeNode
+

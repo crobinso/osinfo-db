@@ -1,0 +1,69 @@
+[addon-ScalableFileSystem]
+id = ScalableFileSystem
+name = Scalable Filesystem Support
+packages = ScalableFileSystem
+repository = ScalableFileSystem
+type = addon
+uid = ComputeNode-ScalableFileSystem
+
+[checksums]
+ComputeNode/repodata/repomd.xml = sha256:82211a7f174145968785f9d0e5220e6ad91b0ea738e453a0724ecf67e75c7dd5
+ScalableFileSystem/repodata/repomd.xml = sha256:c323b9442a15949c13887fd5be0e6eb9d809562452df432e4d881268587f001c
+images/boot.iso = sha256:7ae6af20486e3de8d03c023f72277d32d222223b18874fa878dde8c2e88f8491
+images/install.img = sha256:6e6a3af5c4e48b18ffbcb5da5dc29113ace6130b06ac8971e565abbbeec58431
+images/product.img = sha256:184413649bda9daf2c7a20cb24f61bff6809abeb805db9cce57fb403bcf7f8c7
+images/pxeboot/initrd.img = sha256:77f6352605f712bcf58902ac76713da02b5428927272a8a67334277b6513c513
+images/pxeboot/vmlinuz = sha256:794dcb24210dcb14e2123c6016ab4a1b8bbd47fa5c4c1e3a053e1605e70adc11
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 6.6
+packagedir = Packages
+platforms = x86_64,xen
+repository = ComputeNode
+timestamp = 1411733294
+variant = ComputeNode
+variants = ComputeNode
+version = 6.6
+
+[header]
+rhel6_compat = True
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+product.img = images/product.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 6.6
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1411733294
+platforms = x86_64,xen
+variants = ComputeNode
+
+[variant-ComputeNode]
+addons = ScalableFileSystem
+id = ComputeNode
+name = Compute Node
+packages = Packages
+repository = ComputeNode
+type = variant
+uid = ComputeNode
+

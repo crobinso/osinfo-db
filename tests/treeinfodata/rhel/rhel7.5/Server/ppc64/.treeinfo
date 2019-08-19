@@ -1,0 +1,55 @@
+[checksums]
+LiveOS/squashfs.img = sha256:a55a6d797e450d9d9a9a39f086dc62b7646cf5fbefeb5646b7f99451691ecabc
+images/boot.iso = sha256:28b19edde673d8722eeb295f840caca35a3875b9d57aeaad5732a7c03b80d6f0
+images/netboot/ppc64.img = sha256:9cde5f5f830126fd1209d53800ea08311d1bbef3bd41113af7dfe8f752c64d46
+ppc/ppc64/initrd.img = sha256:755d9a0202dc1937f95c3dc885c6333340369059ea58b98234b23407fcf4dedd
+ppc/ppc64/upgrade.img = sha256:06deaef9bcc8d606cc71e3f450ecdf9e09dcd20fe9e88290a68c55839cf70f7a
+ppc/ppc64/vmlinuz = sha256:90a59333060ed2170d7b04b3a5b25187e50da0b1648593f5b6474d1f4e36ff95
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = ppc64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.5
+packagedir = Packages
+platforms = ppc64
+repository = .
+timestamp = 1521745233
+variant = Server
+variants = Server
+version = 7.5
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+upgrade = ppc/ppc64/upgrade.img
+zimage = images/netboot/ppc64.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 7.5
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = ppc64
+build_timestamp = 1521745233
+platforms = ppc64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

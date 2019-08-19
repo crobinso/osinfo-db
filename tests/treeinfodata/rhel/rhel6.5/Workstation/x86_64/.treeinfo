@@ -1,0 +1,43 @@
+[images-x86_64]
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+kernel = images/pxeboot/vmlinuz
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1384196516.463994
+variant = Workstation
+totaldiscs = 1
+label = RHEL-6.5-RC-1.3
+version = 6.5
+discnum = 1
+packagedir = Packages
+variants = Workstation
+arch = x86_64
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[checksums]
+images/pxeboot/initrd.img = sha256:ee05f49df116b74342467fd403c4cddb740c21e29b82ccac33e763ce5a0cc02a
+images/efiboot.img = sha256:6facd92cf4b7c572d1e7e7a82aa96e78dca2c074a89cf381d105719d4e5b39be
+images/boot.iso = sha256:771f917d870b2ddf55e61cf1a92d3e1d48778f860e3bae67659d6e90538a6f4f
+images/pxeboot/vmlinuz = sha256:92670cf84a593faaafc71b25bc30efc56b742b484c76f254cc9910e9712b98a8
+images/install.img = sha256:86a8e1b59eeefd2db84c9ce3b5f29d9a24d3eb6cf7edef366eb80e0b06abd3a1
+images/efidisk.img = sha256:b201662c37170f0a290f8484b939d4d474fd60d6ba94b48866c8979154a95bf1
+images/product.img = sha256:9fe38faae86bec349cdd6388563f6930cb43e7c54a76bdd72add8cbd87fa0850
+
+[stage2]
+mainimage = images/install.img
+
+[addon-ScalableFileSystem]
+repository = ScalableFileSystem
+name = Scalable Filesystem Support
+identity = ScalableFileSystem/ScalableFileSystem.cert
+
+[variant-Workstation]
+addons = ScalableFileSystem
+repository = Workstation/repodata
+identity = Workstation/Workstation.cert
+

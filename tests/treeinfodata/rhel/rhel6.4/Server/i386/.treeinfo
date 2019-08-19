@@ -1,0 +1,51 @@
+[addon-ResilientStorage]
+repository = ResilientStorage
+name = Resilient Storage
+identity = ResilientStorage/ResilientStorage.cert
+
+[images-i386]
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+kernel = images/pxeboot/vmlinuz
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1359575680.035662
+variant = Server
+totaldiscs = 1
+label = RHEL6.4-RC-1.0
+version = 6.4
+discnum = 1
+packagedir = Packages
+variants = Server
+arch = i386
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[variant-Server]
+addons = ResilientStorage,HighAvailability,LoadBalancer
+repository = Server/repodata
+identity = Server/Server.cert
+
+[addon-HighAvailability]
+repository = HighAvailability
+name = High Availability
+identity = HighAvailability/HighAvailability.cert
+
+[checksums]
+images/pxeboot/initrd.img = sha256:f9bfb54b1da1c5546fdffb486fb0493c14b9f60767b37a752e4c4fc65a7b7367
+images/product.img = sha256:3f2733bebaa1c46ca14afe1769fc0c4e9492d84902c2543630a321b5eee4d5c9
+images/boot.iso = sha256:2f7f9d06a2efdd29e7d23472689466c98c15629584a8c1de615d38135ef5ec93
+images/pxeboot/vmlinuz = sha256:afd2d379da3e3bbad2a34adab1c430d263e329ebb1b24057c9147a961a92e793
+images/install.img = sha256:491804c7516313db9a05576d4020c380e87352960398666f49bfe4441fc593bb
+
+[stage2]
+mainimage = images/install.img
+
+[addon-LoadBalancer]
+repository = LoadBalancer
+name = Load Balancer
+identity = LoadBalancer/LoadBalancer.cert
+

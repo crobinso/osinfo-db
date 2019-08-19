@@ -1,0 +1,36 @@
+[images-i386]
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+kernel = images/pxeboot/vmlinuz
+
+[variant-Client]
+addons = 
+repository = Client/repodata
+identity = Client/Client.cert
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[checksums]
+images/pxeboot/initrd.img = sha256:082a494467eebd0419ebc68e432d69051d7deb4b79a35ba154cab696a6928616
+images/product.img = sha256:e0b9593c63ac44dd1e66422e324bc58ac04811facc0f26e4a1693aaf3c2a6151
+images/boot.iso = sha256:bd9f745724c280c5e3d569f878617bb7dbb36a99884b567590a4c65c82e2edf1
+images/pxeboot/vmlinuz = sha256:c53a4fee11917087ab4c4b41feb9338e29563afda440449cda2685ef43f504fe
+images/install.img = sha256:465f1e1a1138456038a1459559a7450764b94b0c02aa71f3ca74b8e792e7d11c
+
+[stage2]
+mainimage = images/install.img
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1339638990.119456
+variant = Client
+totaldiscs = 1
+label = RHEL-6.3-RC-4
+version = 6.3
+discnum = 1
+packagedir = Packages
+variants = Client
+arch = i386
+

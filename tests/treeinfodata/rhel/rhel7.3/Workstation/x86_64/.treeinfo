@@ -1,0 +1,59 @@
+[checksums]
+LiveOS/squashfs.img = sha256:db00274707c56bdcc769a3c165e00f8bbfe8dd48ca7f25c9ffcae6cd181d3764
+images/boot.iso = sha256:e849c5b8fb4220c5e3abab6477c290b07cb065ca4cd62fcc51314e8bf2945adb
+images/pxeboot/initrd.img = sha256:092dd15c8c7b991fc212d1efb2e45f5551496245af54ee96250f9f4da26aa8f6
+images/pxeboot/upgrade.img = sha256:9c79fcf5ba26f29c61e13bb942f06e212a479080c14c18fc24d9bcc3c45ee7c7
+images/pxeboot/vmlinuz = sha256:f3d5c7425a423daf2b31d409382b5ad191c48dac305de6bfd2241ebd3e3c8ebc
+repodata/repomd.xml = sha256:c81377d34e595370801d0e28c271746fa2d3701362d26e4771a52fe65dca77e3
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.3
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1476915885
+variant = Workstation
+variants = Workstation
+version = 7.3
+
+[header]
+version = 0.3
+
+[images-x86_64]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 7.3
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1476915885
+platforms = x86_64,xen
+variants = Workstation
+
+[variant-Workstation]
+id = Workstation
+name = Workstation
+packages = Packages
+repository = .
+type = variant
+uid = Workstation
+

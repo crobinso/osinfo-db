@@ -1,0 +1,79 @@
+[checksums]
+addons/HighAvailability/repodata/repomd.xml = sha256:d484818fe13c5f603935a9d3a02206b1d6dc97aca54b2d3b38274f4f6388f0ad
+addons/ResilientStorage/repodata/repomd.xml = sha256:0fcb0f5c80edd8ac5f88c28a2809422cc6d6861d833fa97f154ea858fb5d1f57
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:3e06477f2ba2eed92f03e08ef5a9c2e75f5a3b757d44f6db88df62a4a9827e5c
+images/initrd.img = sha256:ab17c23c440da05507e453311ea4e19660ffc01d2b1f5ce936193c1d95ca5e64
+images/install.img = sha256:d092c3913bab4037554464ee35cb423618eac125ac75e5d78d921447acc098ea
+images/kernel.img = sha256:b783b3035e4c6dc46397920d15b7527faf3de2242f26e995adadb1df9fb55cca
+images/upgrade.img = sha256:62a96d1da892f6ec2de0c1e1dd4bcadaa69526475e60697ad39185d11b99c16b
+repodata/repomd.xml = sha256:990916d5c3ef403729c1e0dcf5e61cba6b496eb082f96da6864db4041adf13a3
+
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 7.3
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1476915868
+variant = Server
+variants = Server
+version = 7.3
+
+[header]
+version = 0.3
+
+[images-s390x]
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+upgrade = images/upgrade.img
+
+[product]
+name = Red Hat Enterprise Linux
+short = RHEL
+type = ga
+version = 7.3
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1476915868
+platforms = s390x
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+variants = Server-HighAvailability,Server-ResilientStorage
+
+[variant-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[variant-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+

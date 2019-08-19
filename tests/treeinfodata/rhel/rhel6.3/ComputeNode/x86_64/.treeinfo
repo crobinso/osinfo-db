@@ -1,0 +1,43 @@
+[images-x86_64]
+initrd = images/pxeboot/initrd.img
+boot.iso = images/boot.iso
+kernel = images/pxeboot/vmlinuz
+
+[general]
+family = Red Hat Enterprise Linux
+timestamp = 1339640148.070971
+variant = ComputeNode
+totaldiscs = 1
+label = RHEL-6.3-RC-4
+version = 6.3
+discnum = 1
+packagedir = Packages
+variants = ComputeNode
+arch = x86_64
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[variant-ComputeNode]
+addons = ScalableFileSystem
+repository = ComputeNode/repodata
+identity = ComputeNode/ComputeNode.cert
+
+[checksums]
+images/pxeboot/initrd.img = sha256:c7a8108e8620e19767c1c75cc4d0a75200d9d50cdf184d983a514ff727dc1ed5
+images/efiboot.img = sha256:285502130ff6282398322ac681c80d3934533d03e09dd6031f17ceaa6b6fb7aa
+images/boot.iso = sha256:114001b98440e3da25b4fa8cbb080fb6a1da0772712ee6099e30cc140aa78ac9
+images/pxeboot/vmlinuz = sha256:a2ef8593c58b514e5c0bd4203742df7a8f5bd6166b97b97c66831aa499d859cd
+images/install.img = sha256:b387a03d83a3665370e5982225648996c546e6316dc76b3dac50d39b833a05b4
+images/efidisk.img = sha256:ddb95cb7053d1a3b9ec76d3a4268651f44feddca53a725f084010be3cabe58c7
+images/product.img = sha256:7b22ed458f4f5c930007338e9e0bb383bb365871a896c734bfe89683294c2f68
+
+[stage2]
+mainimage = images/install.img
+
+[addon-ScalableFileSystem]
+repository = ScalableFileSystem
+name = Scalable Filesystem Support
+identity = ScalableFileSystem/ScalableFileSystem.cert
+
