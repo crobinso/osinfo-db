@@ -1,0 +1,38 @@
+.job_template: &job_definition
+  script:
+    - mkdir build
+    - cd build
+    - make -j $(getconf _NPROCESSORS_ONLN) -f ../Makefile VPATH=..
+    - make -j $(getconf _NPROCESSORS_ONLN) -f ../Makefile VPATH=.. check
+
+fedora-29:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-fedora-29:latest
+
+fedora-30:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-fedora-30:latest
+
+fedora-rawhide:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
+
+debian-9:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-debian-9:latest
+
+debian-10:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
+
+debian-sid:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
+
+ubuntu-16:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-16:latest
+
+ubuntu-18:
+  <<: *job_definition
+  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-18:latest
