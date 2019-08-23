@@ -8,6 +8,8 @@
     <_vendor>Endless Mobile, Inc</_vendor>
     <family>linux</family>
     <distro>eos</distro>
+    <upgrades id="http://endlessos.com/eos/3.3"/>
+    <derives-from id="http://endlessos.com/eos/3.3"/>
 
     <release-date>2018-05-15</release-date>
 
