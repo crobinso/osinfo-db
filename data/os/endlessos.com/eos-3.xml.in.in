@@ -44,7 +44,7 @@
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
     </devices>
 {% endif %}
-{% for personality, images in image.personality_images.items() %}
+{% for personality, images in image.personality_images.items() | sort %}
     <variant id="{{ personality }}">
       <_name>Endless OS {{ personality | personality_name }}</_name>
     </variant>
@@ -58,7 +58,7 @@
       </iso>
     </media>
 {% endfor %}
-{% for personality in retired_personalities %}
+{% for personality in retired_personalities | sort %}
     <variant id="{{ personality }}">
       <_name>Endless OS {{ personality | personality_name }}</_name>
     </variant>
