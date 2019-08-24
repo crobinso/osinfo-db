@@ -1,20 +1,17 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://endlessos.com/eos/3.3">
-    <short-id>eos3.3</short-id>
-    <_name>Endless OS 3.3</_name>
-    <version>3.3</version>
+  <os id="http://endlessos.com/eos/3.1">
+    <short-id>eos3.1</short-id>
+    <_name>Endless OS 3.1</_name>
+    <version>3.1</version>
     <_vendor>Endless Mobile, Inc</_vendor>
     <family>linux</family>
     <distro>eos</distro>
 
-    <upgrades id="http://endlessos.com/eos/3.2"/>
-    <derives-from id="http://endlessos.com/eos/3.2"/>
+    <release-date>2017-05-22</release-date>
 
-    <release-date>2018-04-09</release-date>
-
-    <eol-date>2018-05-15</eol-date>
+    <eol-date>2017-07-18</eol-date>
 
 
 
@@ -24,9 +21,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="ar"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/ar/eos-eos3.3-amd64-amd64.180407-121949.ar.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/ar/eos-eos3.1-amd64-amd64.170520-060632.ar.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-ar$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-ar$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -37,9 +34,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/base/eos-eos3.3-amd64-amd64.180407-102038.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/base/eos-eos3.1-amd64-amd64.170520-055517.base.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-base$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-base$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -50,9 +47,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="bn"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/bn/eos-eos3.3-amd64-amd64.180407-103505.bn.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/bn/eos-eos3.1-amd64-amd64.170520-060733.bn.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-bn$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-bn$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -63,9 +60,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/en/eos-eos3.3-amd64-amd64.180407-114249.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/en/eos-eos3.1-amd64-amd64.170520-071933.en.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-en$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-en$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -76,9 +73,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/es/eos-eos3.3-amd64-amd64.180407-084605.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/es/eos-eos3.1-amd64-amd64.170520-061122.es.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-es$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-es$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -89,9 +86,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="es_GT"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/es_GT/eos-eos3.3-amd64-amd64.180407-154859.es_GT.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/es_GT/eos-eos3.1-amd64-amd64.170520-061652.es_GT.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-es_GT$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-es_GT$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -102,9 +99,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="es_MX"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/es_MX/eos-eos3.3-amd64-amd64.180407-113041.es_MX.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/es_MX/eos-eos3.1-amd64-amd64.170520-082741.es_MX.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-es_MX$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-es_MX$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -115,9 +112,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/fr/eos-eos3.3-amd64-amd64.180407-134619.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/fr/eos-eos3.1-amd64-amd64.170521-045821.fr.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-fr$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-fr$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -128,9 +125,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="id"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/id/eos-eos3.3-amd64-amd64.180407-114840.id.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/id/eos-eos3.1-amd64-amd64.170521-050143.id.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-id$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-id$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -141,9 +138,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/pt_BR/eos-eos3.3-amd64-amd64.180407-130919.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/pt_BR/eos-eos3.1-amd64-amd64.170520-101852.pt_BR.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-pt_BR$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -154,9 +151,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="th"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/th/eos-eos3.3-amd64-amd64.180407-145846.th.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/th/eos-eos3.1-amd64-amd64.170521-050122.th.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-th$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-th$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -167,9 +164,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="vi"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/vi/eos-eos3.3-amd64-amd64.180407-131324.vi.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/vi/eos-eos3.1-amd64-amd64.170520-090541.vi.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-vi$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-vi$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -180,13 +177,25 @@
 
     <media arch="x86_64" live="true">
       <variant id="zh_CN"/>
-      <url>https://images-dl.endlessm.com/release/3.3.16/eos-amd64-amd64/zh_CN/eos-eos3.3-amd64-amd64.180407-095221.zh_CN.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.1.8/eos-amd64-amd64/zh_CN/eos-eos3.1-amd64-amd64.170520-083345.zh_CN.iso</url>
       <iso>
-        <volume-id>Endless-OS-3-3-\d+-zh_CN$</volume-id>
+        <volume-id>Endless-OS-3-1-\d+-zh_CN$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
 
+
+    <variant id="sea">
+      <_name>Endless OS Southeast Asia</_name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="sea"/>
+      <iso>
+        <volume-id>Endless-OS-3-1-\d+-sea$</volume-id>
+        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+      </iso>
+    </media>
 
     <variant id="other">
       <_name>Endless OS (other)</_name>
@@ -195,7 +204,7 @@
     <media arch="all" live="true">
       <variant id="other"/>
       <iso>
-        <volume-id>\D+-3-3-\d+</volume-id>
+        <volume-id>\D+-3-1-\d+</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
