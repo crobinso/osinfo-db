@@ -13,7 +13,7 @@
     <upgrades id="http://debian.org/debian/9"/>
     <derives-from id="http://debian.org/debian/9"/>
 
-    <release-date>2018-07-06</release-date>
+    <release-date>2019-07-06</release-date>
 
     <resources arch="all">
       <minimum>
