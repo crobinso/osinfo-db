@@ -71,6 +71,17 @@
       </iso>
     </media>
 {% endfor %}
+    <variant id="other">
+      <_name>Endless OS (other)</_name>
+    </variant>
+
+    <media arch="all" live="true">
+      <variant id="other"/>
+      <iso>
+        <volume-id>\D+-{{ current_series | replace(".", "-") }}-\d+</volume-id>
+        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+      </iso>
+    </media>
 
     <resources arch="all">
       <minimum>
