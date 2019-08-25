@@ -360,7 +360,7 @@
   <define name='media'>
     <element name='media'>
       <attribute name='arch'>
-        <ref name='archnames'/>
+        <ref name='archnamesorall'/>
       </attribute>
       <optional>
         <attribute name="live">
