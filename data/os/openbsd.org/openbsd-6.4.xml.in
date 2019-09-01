@@ -13,6 +13,10 @@
 
     <release-date>2018-10-18</release-date>
 
+    <variant id="netinst">
+      <_name>OpenBSD 6.4</_name>
+    </variant>
+
     <media arch="i686">
       <url>https://fastly.cdn.openbsd.org/pub/OpenBSD/6.4/i386/install64.iso</url>
       <iso>
@@ -30,6 +34,28 @@
         <system-id>OpenBSD</system-id>
         <volume-id>OpenBSD/amd64   6.4 Install CD</volume-id>
         <application-id>OpenBSD 6.4 amd64 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/6.4/i386/cd64.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/i386    6\.4 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 6\.4 i386 bootonly CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/6.4/amd64/cd64.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2018 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/amd64   6\.4 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 6\.4 amd64 bootonly CD</application-id>
       </iso>
     </media>
   </os>

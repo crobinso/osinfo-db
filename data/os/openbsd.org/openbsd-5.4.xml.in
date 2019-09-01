@@ -14,6 +14,10 @@
     <release-date>2013-11-01</release-date>
     <eol-date>2014-11-01</eol-date>
 
+    <variant id="netinst">
+      <_name>OpenBSD 5.4</_name>
+    </variant>
+
     <media arch="i686">
       <iso>
         <publisher-id>Copyright \(c\) 2013 Theo de Raadt, The OpenBSD project</publisher-id>
@@ -36,5 +40,27 @@
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
       <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
     </devices>
+
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/5.4/i386/cd54.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2013 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/i386    5\.4 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 5\.4 i386 bootonly CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/5.4/amd64/cd54.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2013 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/amd64   5\.4 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 5\.4 amd64 bootonly CD</application-id>
+      </iso>
+    </media>
   </os>
 </libosinfo>

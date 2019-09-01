@@ -14,6 +14,10 @@
     <release-date>2009-05-01</release-date>
     <eol-date>2010-05-19</eol-date>
 
+    <variant id="netinst">
+      <_name>OpenBSD 4.5</_name>
+    </variant>
+
     <media arch="i686">
       <iso>
         <publisher-id>Copyright \(c\) 2009 Theo de Raadt, The OpenBSD project</publisher-id>
@@ -29,6 +33,28 @@
         <system-id>OpenBSD</system-id>
         <volume-id>OpenBSD/amd64   4.5 Install CD</volume-id>
         <application-id>OpenBSD 4.5 amd64 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/4.5/i386/cd45.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2009 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/i386    4\.5 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 4\.5 i386 bootonly CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/4.5/amd64/cd45.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2009 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/amd64   4\.5 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 4\.5 amd64 bootonly CD</application-id>
       </iso>
     </media>
   </os>
