@@ -37,28 +37,6 @@
     </media>
 
     <tree arch="x86_64">
-      <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/x86_64/os</url>
-      <treeinfo>
-        <family>Fedora</family>
-        <version>Rawhide</version>
-        <arch>x86_64</arch>
-        <variant>Workstation</variant>
-      </treeinfo>
-    </tree>
-
-    <tree arch="armv7l">
-      <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Workstation/armhfp/os</url>
-      <treeinfo>
-        <family>Fedora</family>
-        <version>Rawhide</version>
-        <arch>armhfp</arch>
-        <variant>Workstation</variant>
-      </treeinfo>
-    </tree>
-
-    <tree arch="x86_64">
       <variant id="server"/>
       <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Server/x86_64/os</url>
       <treeinfo>
