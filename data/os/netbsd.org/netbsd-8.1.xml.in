@@ -1,0 +1,72 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/8.1">
+    <short-id>netbsd8.1</short-id>
+    <_name>NetBSD 8.1</_name>
+    <version>8.1</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/8.1"/>
+    <derives-from id="http://netbsd.org/netbsd/8.0"/>
+
+    <variant id="netinst">
+      <_name>NetBSD 8.1 Network Install</_name>
+    </variant>
+
+    <release-date>2019-05-31</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/images/NetBSD-8.1-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>757254144</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>233302016</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>233302016</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/images/NetBSD-8.1-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>716562432</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>215072768</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_81</volume-id>
+        <volume-size>215072768</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
