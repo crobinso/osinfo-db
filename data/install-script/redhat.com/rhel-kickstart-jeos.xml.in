@@ -170,6 +170,7 @@ url --url=<xsl:call-template name="installation-url"/>
   </xsl:otherwise>
 </xsl:choose>
 @core
+%end
 
 %post --erroronfail
 
