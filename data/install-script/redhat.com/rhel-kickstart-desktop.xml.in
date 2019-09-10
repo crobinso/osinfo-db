@@ -157,7 +157,9 @@
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media'">
+  <xsl:if test="os/version &lt; 8">
 install
+  </xsl:if>
 cdrom
 </xsl:if>
 keyboard us
