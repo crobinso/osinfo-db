@@ -158,7 +158,9 @@
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media' and (count(media/variant) = 0 or not(contains(media/variant, 'netinst')))">
+  <xsl:if test="os/version &lt; 29">
 install
+  </xsl:if>
 cdrom
 </xsl:if>
 keyboard '<xsl:call-template name="keyboard"/>'
