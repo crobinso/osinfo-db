@@ -160,7 +160,7 @@ url --url=<xsl:call-template name="installation-url"/>
   </xsl:when>
   <xsl:otherwise>
     <xsl:choose>
-      <xsl:when test="os/distro = centos">
+      <xsl:when test="os/distro = 'centos'">
 @^minimal
       </xsl:when>
       <xsl:otherwise>
