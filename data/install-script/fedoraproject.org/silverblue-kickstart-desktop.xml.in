@@ -84,7 +84,9 @@
 
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
+<xsl:if test="os/version &lt; 29">
 install
+</xsl:if>
 keyboard '<xsl:value-of select="config/l10n-keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
