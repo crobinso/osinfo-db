@@ -217,6 +217,7 @@ url <xsl:call-template name="url-or-mirrorlist"/>
 <xsl:if test="os/version &gt; 6">
 @hardware-support
 </xsl:if>
+%end
 
 %post --erroronfail
 
