@@ -146,8 +146,9 @@ def main():
     template = env.get_template("eos-3.xml.in.in")
 
     for branch in images_by_branch:
+        oldest_image = images_by_branch[branch][0]
         image = images_by_branch[branch][-1]
-        release_date = guess_release_date(image)
+        release_date = guess_release_date(oldest_image)
         if not release_date:
             # eos3.0 did not have ISOs; pretend it never existed!
             continue
