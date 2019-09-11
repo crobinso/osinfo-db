@@ -1,46 +1,84 @@
-.job_template: &job_definition
-  script:
-    - export VIRT_PREFIX="$HOME/build/libvirt"
-    - export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
-    - export C_INCLUDE_PATH="$VIRT_PREFIX/include"
-    - export LD_LIBRARY_PATH="$VIRT_PREFIX/lib"
-    - export PKG_CONFIG_PATH="$VIRT_PREFIX/lib/pkgconfig"
-    - export XDG_DATA_DIRS="$VIRT_PREFIX/share:/usr/share:/usr/local/share"
-    - export GI_TYPELIB_PATH="$VIRT_PREFIX/lib/girepository-1.0"
-    - export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
-    - export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
-    # installing osinfo-db-tools
-    - pushd /tmp/
-    - git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
-    - cd osinfo-db-tools
-    - mkdir build
-    - cd build
-    - meson .. . --prefix=$VIRT_PREFIX
-    - ninja install
-    - popd
-    # installing osinfo-db
-    - mkdir build
-    - cd build
-    - make -f ../Makefile VPATH=..
-    - make -f ../Makefile VPATH=.. check
-    - make -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
+.environment: &environment |
+  export VIRT_PREFIX="$HOME/build/libvirt"
+  export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
+  export C_INCLUDE_PATH="$VIRT_PREFIX/include"
+  export LD_LIBRARY_PATH="$VIRT_PREFIX/lib"
+  export PKG_CONFIG_PATH="$VIRT_PREFIX/lib/pkgconfig"
+  export XDG_DATA_DIRS="$VIRT_PREFIX/share:/usr/share:/usr/local/share"
+  export GI_TYPELIB_PATH="$VIRT_PREFIX/lib/girepository-1.0"
+  export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
+  export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
+
+.osinfo-db-tools-build: &osinfo-db-tools-build |
+  pushd /tmp/
+  git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
+  cd osinfo-db-tools
+  mkdir build
+  cd build
+  meson .. . --prefix=$VIRT_PREFIX
+  ninja install
+  popd
+
+.osinfo-db-build: &osinfo-db-build |
+  pushd .
+  mkdir build
+  cd build
+  make -f ../Makefile VPATH=..
+  make -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
+  popd
+
+.osinfo-db-check: &osinfo-db-check |
+  pushd .
+  cd build
+  make -f ../Makefile VPATH=.. check
+  popd
+
+.osinfo-db-rpm: &osinfo-db-rpm |
+  pushd .
+  cd build
+  sed -i -e 's/BuildRequires: *osinfo-db.*//' *.spec*
+  rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
+  popd
 
 fedora-29:
-  <<: *job_definition
+  script:
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+    - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-29:latest
 
 fedora-30:
-  <<: *job_definition
+  script:
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+    - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-30:latest
 
 fedora-rawhide:
-  <<: *job_definition
+  script:
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+    - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
 
 debian-10:
-  <<: *job_definition
+  script:
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
   image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
 
 debian-sid:
-  <<: *job_definition
+  script:
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
   image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
