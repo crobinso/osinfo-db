@@ -12,7 +12,7 @@
     <upgrades id="http://endlessos.com/eos/3.5"/>
     <derives-from id="http://endlessos.com/eos/3.5"/>
 
-    <release-date>2019-08-06</release-date>
+    <release-date>2019-06-11</release-date>
 
 
     <!-- TODO: many of these devices were surely supported on older versions of

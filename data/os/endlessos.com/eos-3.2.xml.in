@@ -12,7 +12,7 @@
     <upgrades id="http://endlessos.com/eos/3.1"/>
     <derives-from id="http://endlessos.com/eos/3.1"/>
 
-    <release-date>2017-09-22</release-date>
+    <release-date>2017-07-18</release-date>
 
     <eol-date>2017-10-24</eol-date>
 
