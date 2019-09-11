@@ -49,7 +49,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/base/eos-eos3.6-amd64-amd64.190805-162211.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/base/eos-eos3.6-amd64-amd64.190910-121905.base.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-base$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -62,7 +62,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/en/eos-eos3.6-amd64-amd64.190805-163051.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/en/eos-eos3.6-amd64-amd64.190910-121907.en.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-en$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -75,7 +75,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/es/eos-eos3.6-amd64-amd64.190805-165658.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/es/eos-eos3.6-amd64-amd64.190910-125010.es.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-es$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -88,7 +88,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/fr/eos-eos3.6-amd64-amd64.190805-173623.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/fr/eos-eos3.6-amd64-amd64.190910-130706.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-fr$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -101,7 +101,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="id"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/id/eos-eos3.6-amd64-amd64.190805-213528.id.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/id/eos-eos3.6-amd64-amd64.190910-165243.id.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-id$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -114,7 +114,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/pt_BR/eos-eos3.6-amd64-amd64.190806-001449.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/pt_BR/eos-eos3.6-amd64-amd64.190910-141633.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -127,7 +127,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="th"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/th/eos-eos3.6-amd64-amd64.190805-212050.th.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/th/eos-eos3.6-amd64-amd64.190910-145521.th.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-th$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -140,7 +140,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="vi"/>
-      <url>https://images-dl.endlessm.com/release/3.6.2/eos-amd64-amd64/vi/eos-eos3.6-amd64-amd64.190805-214207.vi.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.6.3/eos-amd64-amd64/vi/eos-eos3.6-amd64-amd64.190910-152705.vi.iso</url>
       <iso>
         <volume-id>Endless-OS-3-6-\d+-vi$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
