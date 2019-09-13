@@ -198,7 +198,7 @@
     </installer>
 
     <!-- virtio block device driver -->
-    <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.141/w7/x86" pre-installable="true" signed="false">
+    <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w7/x86" pre-installable="true" signed="false">
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
@@ -206,7 +206,7 @@
       <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
     </driver>
 
-    <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.141/w7/amd64" pre-installable="true" signed="false">
+    <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w7/amd64" pre-installable="true" signed="false">
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
