@@ -14,7 +14,7 @@
     <eol-date>2019-05-29</eol-date>
 
     <media arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/28/AtomicWorkstation/x86_64/iso/Fedora-AtomicWorkstation-ostree-x86_64-28-1.1.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/28/AtomicWorkstation/x86_64/iso/Fedora-AtomicWorkstation-ostree-x86_64-28-1.1.iso</url>
       <iso>
         <volume-id>Fedora-AW-ostree-x86_64-28</volume-id>
         <system-id>LINUX</system-id>
