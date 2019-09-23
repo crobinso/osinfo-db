@@ -562,6 +562,11 @@
           <ref name='bool'/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name="priority">
+          <ref name='num'/>
+        </attribute>
+      </optional>
       <interleave>
         <zeroOrMore>
           <element name='file'>
