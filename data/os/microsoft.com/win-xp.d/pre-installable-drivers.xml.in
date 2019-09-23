@@ -1,0 +1,28 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://microsoft.com/win/xp">
+    <short-id>winxp</short-id>
+    <_name>Microsoft Windows XP</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+
+    <!-- virtio block device driver -->
+    <driver arch="i686" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/winxp/x86" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <!-- For now we require this for pre-installation but we should probably generate this too -->
+      <file>txtsetup.oem</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </driver>
+
+    <driver arch="x86_64" location="https://zeenix.fedorapeople.org/drivers/win-tools-1/preinst/winxp/amd64" pre-installable="true" signed="false">
+      <file>viostor.cat</file>
+      <file>viostor.inf</file>
+      <file>viostor.sys</file>
+      <!-- For now we require this for pre-installation but we should probably generate this too -->
+      <file>txtsetup.oem</file>
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </driver>
+  </os>
+</libosinfo>
