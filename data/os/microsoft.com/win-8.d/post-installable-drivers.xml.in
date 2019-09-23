@@ -1,0 +1,52 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://microsoft.com/win/8">
+    <short-id>win8</short-id>
+    <_name>Microsoft Windows 8</_name>
+    <_vendor>Microsoft Corporation</_vendor>
+
+    <!-- All virtio and QXL device drivers, and spice-vdagent -->
+    <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/postinst/spice-guest-tools/0.141" signed="false">
+      <file>spice-guest-tools-0.141.exe</file>
+      <file>spice-guest-tools-0.141.cmd</file>
+      <file>qxl-0.141.cer</file>
+      <file>virtio-0.141.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+    </driver>
+
+    <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/postinst/spice-guest-tools/0.141" signed="false">
+      <file>spice-guest-tools-0.141.exe</file>
+      <file>spice-guest-tools-0.141.cmd</file>
+      <file>qxl-0.141.cer</file>
+      <file>virtio-0.141.cer</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block-->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+    </driver>
+  </os>
+</libosinfo>
