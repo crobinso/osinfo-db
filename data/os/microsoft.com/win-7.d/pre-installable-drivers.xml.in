@@ -6,8 +6,61 @@
     <_name>Microsoft Windows 7</_name>
     <_vendor>Microsoft Corporation</_vendor>
 
-    <!-- virtio block device driver -->
     <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w7/x86" pre-installable="true" signed="false">
+      <file>WdfCoInstaller01009.dll</file>
+
+      <file>balloon.cat</file>
+      <file>balloon.inf</file>
+      <file>balloon.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+
+      <file>netkvm.cat</file>
+      <file>netkvm.inf</file>
+      <file>netkvm.sys</file>
+      <file>netkvmco.dll</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+
+      <file>pvpanic.cat</file>
+      <file>pvpanic.inf</file>
+      <file>pvpanic.sys</file>
+
+      <file>qemupciserial.cat</file>
+      <file>qemupciserial.inf</file>
+
+      <file>qxl.cat</file>
+      <file>qxl.inf</file>
+      <file>qxl.sys</file>
+      <file>qxldd.dll</file>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+
+      <file>viohidkmdf.sys</file>
+      <file>vioinput.cat</file>
+      <file>vioinput.inf</file>
+      <file>vioinput.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+
+      <file>viorng.cat</file>
+      <file>viorng.inf</file>
+      <file>viorng.sys</file>
+      <file>viorngci.dll</file>
+      <file>viorngum.dll</file>
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+
+      <file>vioscsi.cat</file>
+      <file>vioscsi.inf</file>
+      <file>vioscsi.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+
+      <file>vioser.cat</file>
+      <file>vioser.inf</file>
+      <file>vioser.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
@@ -16,6 +69,60 @@
     </driver>
 
     <driver arch="x86_64" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w7/amd64" pre-installable="true" signed="false">
+      <file>WdfCoInstaller01009.dll</file>
+
+      <file>balloon.cat</file>
+      <file>balloon.inf</file>
+      <file>balloon.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+
+      <file>netkvm.cat</file>
+      <file>netkvm.inf</file>
+      <file>netkvm.sys</file>
+      <file>netkvmco.dll</file>
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+
+      <file>pvpanic.cat</file>
+      <file>pvpanic.inf</file>
+      <file>pvpanic.sys</file>
+
+      <file>qemupciserial.cat</file>
+      <file>qemupciserial.inf</file>
+
+      <file>qxl.cat</file>
+      <file>qxl.inf</file>
+      <file>qxl.sys</file>
+      <file>qxldd.dll</file>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+
+      <file>viohidkmdf.sys</file>
+      <file>vioinput.cat</file>
+      <file>vioinput.inf</file>
+      <file>vioinput.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+
+      <file>viorng.cat</file>
+      <file>viorng.inf</file>
+      <file>viorng.sys</file>
+      <file>viorngci.dll</file>
+      <file>viorngum.dll</file>
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+
+      <file>vioscsi.cat</file>
+      <file>vioscsi.inf</file>
+      <file>vioscsi.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+
+      <file>vioser.cat</file>
+      <file>vioser.inf</file>
+      <file>vioser.sys</file>
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+
       <file>viostor.cat</file>
       <file>viostor.inf</file>
       <file>viostor.sys</file>
