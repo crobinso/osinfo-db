@@ -562,18 +562,20 @@
           <ref name='bool'/>
         </attribute>
       </optional>
-      <zeroOrMore>
-        <element name='file'>
-          <text/>
-        </element>
-      </zeroOrMore>
-      <oneOrMore>
-        <element name='device'>
-          <attribute name='id'>
-            <ref name='url'/>
-          </attribute>
-        </element>
-      </oneOrMore>
+      <interleave>
+        <zeroOrMore>
+          <element name='file'>
+            <text/>
+          </element>
+        </zeroOrMore>
+        <oneOrMore>
+          <element name='device'>
+            <attribute name='id'>
+              <ref name='url'/>
+            </attribute>
+          </element>
+        </oneOrMore>
+      </interleave>
     </element>
   </define>
 
