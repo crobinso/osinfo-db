@@ -142,8 +142,17 @@
             <xsl:when test="os/distro = 'centos'">
               <xsl:text>http://mirror.centos.org/centos/</xsl:text>
               <xsl:call-template name="version"/>
-              <xsl:text>/os/</xsl:text>
-              <xsl:call-template name="arch"/>
+              <xsl:choose>
+                <xsl:when test="os/distro &lt; 8">
+                  <xsl:text>/os/</xsl:text>
+                  <xsl:call-template name="arch"/>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:text>/BaseOS/</xsl:text>
+                  <xsl:call-template name="arch"/>
+                  <xsl:text>/os/</xsl:text>
+                </xsl:otherwise>
+              </xsl:choose>
             </xsl:when>
           </xsl:choose>
         </xsl:template>
