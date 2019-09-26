@@ -87,8 +87,11 @@
             <xsl:when test="os/version &lt; 7">
               <xsl:text>6</xsl:text>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="os/version &lt; 8">
               <xsl:text>7</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>8</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
