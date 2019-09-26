@@ -136,7 +136,7 @@
     </media>
 
     <variant id="bn">
-      <_name>Endless OS Bengali</_name>
+      <_name>Endless OS Bangla</_name>
     </variant>
 
     <media arch="x86_64" live="true">
