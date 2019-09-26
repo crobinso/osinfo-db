@@ -193,7 +193,7 @@ firstboot --disable
 autopart
 reboot
 
-<xsl:if test="script/installation-source = 'network'">
+<xsl:if test="script/installation-source = 'network' or contains(media/variant, 'netinst')">
 url --url=<xsl:call-template name="installation-url"/>
   <xsl:if test="os/version &gt; 7 or os/version = '8-unknown'">
 repo --name=AppStream --baseurl=<xsl:call-template name="appstream-url"/>
