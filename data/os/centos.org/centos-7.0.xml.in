@@ -22,9 +22,7 @@
     </variant>
 
     <media arch="x86_64">
-      <!-- Due to attacks, CentOS decided to forbid access to this image
-      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-DVD.iso</url>
-      -->
+      <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-DVD-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
@@ -35,7 +33,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-gnome"/>
-      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveGNOME.iso</url>
+      <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-x86_64-(Live)?GNOME*</volume-id>
@@ -46,7 +44,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-kde"/>
-      <url>https://buildlogs.centos.org/rolling/7/isos/x86_64/CentOS-7-x86_64-LiveKDE.iso</url>
+      <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-x86_64-LiveKDE*</volume-id>
