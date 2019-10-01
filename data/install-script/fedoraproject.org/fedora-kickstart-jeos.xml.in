@@ -6,6 +6,8 @@
     <expected-filename>fedora.ks</expected-filename>
     <config>
       <param name="admin-password" policy="required"/>
+      <param name="user-login" policy="optional"/>
+      <param name="user-password" policy="optional"/>
       <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
@@ -222,6 +224,11 @@ url <xsl:call-template name="url-or-mirrorlist"/>
 %end
 
 %post --erroronfail
+
+if test -n '<xsl:value-of select="config/user-login"/>' &amp;&amp; test -n '<xsl:value-of select="config/user-password"/>'; then
+  useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
+  echo '<xsl:value-of select="config/user-password"/>' |passwd --stdin <xsl:value-of select="config/user-login"/>
+fi
 
 # Create an osinfo-install-successful file in /root
 touch /root/osinfo-install-successful
