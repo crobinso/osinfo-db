@@ -17,6 +17,11 @@
 
       <!-- Account options -->
       <param name="admin-password" policy="required"/>
+
+      <!-- User account options -->
+      <param name="user-login" policy="optional"/>
+      <param name="user-password" policy="optional"/>
+      <param name="user-realname" policy="optional"/>
     </config>
     <injection-method>disk</injection-method>
     <injection-method>initrd</injection-method>
@@ -313,6 +318,16 @@ touch /root/osinfo-install-successful
                 <user_password><xsl:value-of select="config/admin-password"/></user_password>
                 <username>root</username>
               </user>
+              <xsl:if test="config/user-login != '' and config/user-password != ''">
+                <user>
+                  <encrypted config:type="boolean">false</encrypted>
+                  <xsl:if test="config/user-realname != ''">
+                    <fullname><xsl:value-of select="config/user-realname"/></fullname>
+                  </xsl:if>
+                  <username><xsl:value-of select="config/user-login"/></username>
+                  <user_password><xsl:value-of select="config/user-password"/></user_password>
+                </user>
+              </xsl:if>
             </users>
           </profile>
         </xsl:template>
