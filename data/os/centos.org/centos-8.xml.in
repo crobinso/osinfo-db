@@ -127,10 +127,7 @@
 
       <recommended>
         <cpu>1000000000</cpu>
-        <!--
         <ram>1073741824</ram>
-        -->
-        <ram>3221225472</ram>
         <storage>10737418240</storage>
       </recommended>
 
