@@ -61,6 +61,15 @@ centos-7:
     - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-centos-7:latest
 
+debian-9:
+  script:
+    - *multilib-deb
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+  image: quay.io/libvirt/buildenv-libosinfo-debian-9:latest
+
 debian-10:
   script:
     - *multilib-deb
