@@ -15,6 +15,9 @@
     <release-date>2014-07-07</release-date>
     <eol-date>2024-06-30</eol-date>
 
+    <variant id="live">
+      <_name>CentOS 7</_name>
+    </variant>
     <variant id="live-gnome">
       <_name>CentOS 7 (GNOME)</_name>
     </variant>
@@ -49,6 +52,16 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-(x86_64-(Live)?KDE|live-KDE-x86_64)</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz0</kernel>
+      <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="live"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-7-livecd-x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
