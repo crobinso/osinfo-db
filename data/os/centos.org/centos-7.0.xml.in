@@ -13,6 +13,7 @@
     <clones id="http://redhat.com/rhel/7.7"/>
 
     <release-date>2014-07-07</release-date>
+    <eol-date>2024-06-30</eol-date>
 
     <variant id="live-gnome">
       <_name>CentOS 7 (GNOME)</_name>
