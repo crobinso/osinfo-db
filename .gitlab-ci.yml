@@ -117,3 +117,12 @@ fedora-rawhide:
     - *osinfo-db-check
     - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
+
+ubuntu-16:
+  script:
+    - *multilib-deb
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-16:latest
