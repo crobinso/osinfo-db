@@ -1,4 +1,5 @@
 .environment: &environment |
+  export NINJA="ninja"
   export VIRT_PREFIX="$HOME/build/libvirt"
   export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
   export C_INCLUDE_PATH="$VIRT_PREFIX/include"
@@ -16,7 +17,7 @@
   mkdir build
   cd build
   meson .. . --prefix=$VIRT_PREFIX
-  ninja install
+  $NINJA install
   popd
 
 .osinfo-db-build: &osinfo-db-build |
