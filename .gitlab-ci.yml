@@ -1,12 +1,18 @@
+.multilib-deb: &multilib-deb |
+  multilib=$(dpkg-architecture -q DEB_TARGET_MULTIARCH)
+
+.multilib-rpm: &multilib-rpm |
+  multilib=$(rpm --eval '%{_lib}')
+
 .environment: &environment |
   export NINJA="ninja"
   export VIRT_PREFIX="$HOME/build/libvirt"
   export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
   export C_INCLUDE_PATH="$VIRT_PREFIX/include"
-  export LD_LIBRARY_PATH="$VIRT_PREFIX/lib"
-  export PKG_CONFIG_PATH="$VIRT_PREFIX/lib/pkgconfig"
+  export LD_LIBRARY_PATH="$VIRT_PREFIX/$multilib"
+  export PKG_CONFIG_PATH="$VIRT_PREFIX/$multilib/pkgconfig"
   export XDG_DATA_DIRS="$VIRT_PREFIX/share:/usr/share:/usr/local/share"
-  export GI_TYPELIB_PATH="$VIRT_PREFIX/lib/girepository-1.0"
+  export GI_TYPELIB_PATH="$VIRT_PREFIX/$multilib/girepository-1.0"
   export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
   export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
 
@@ -43,6 +49,7 @@
 
 fedora-29:
   script:
+    - *multilib-rpm
     - *environment
     - *osinfo-db-tools-build
     - *osinfo-db-build
@@ -52,6 +59,7 @@ fedora-29:
 
 fedora-30:
   script:
+    - *multilib-rpm
     - *environment
     - *osinfo-db-tools-build
     - *osinfo-db-build
@@ -61,6 +69,7 @@ fedora-30:
 
 fedora-rawhide:
   script:
+    - *multilib-rpm
     - *environment
     - *osinfo-db-tools-build
     - *osinfo-db-build
@@ -70,6 +79,7 @@ fedora-rawhide:
 
 debian-10:
   script:
+    - *multilib-deb
     - *environment
     - *osinfo-db-tools-build
     - *osinfo-db-build
@@ -78,6 +88,7 @@ debian-10:
 
 debian-sid:
   script:
+    - *multilib-deb
     - *environment
     - *osinfo-db-tools-build
     - *osinfo-db-build
