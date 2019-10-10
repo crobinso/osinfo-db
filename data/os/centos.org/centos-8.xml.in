@@ -12,6 +12,7 @@
     <clones id="http://redhat.com/rhel/8.0"/>
 
     <release-date>2019-09-24</release-date>
+    <eol-date>2029-05-31</eol-date>
 
     <variant id="netinst">
       <_name>CentOS 8</_name>
