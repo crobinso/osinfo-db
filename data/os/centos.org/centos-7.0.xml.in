@@ -37,7 +37,7 @@
       <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>CentOS-7-x86_64-(Live)?GNOME*</volume-id>
+        <volume-id>CentOS-7-(x86_64-(Live)?GNOME|live-GNOME-x86_64)</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
@@ -48,7 +48,7 @@
       <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>CentOS-7-x86_64-LiveKDE*</volume-id>
+        <volume-id>CentOS-7-(x86_64-(Live)?KDE|live-KDE-x86_64)</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
