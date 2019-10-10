@@ -47,6 +47,24 @@
   rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
   popd
 
+debian-10:
+  script:
+    - *multilib-deb
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+  image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
+
+debian-sid:
+  script:
+    - *multilib-deb
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+  image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
+
 fedora-29:
   script:
     - *multilib-rpm
@@ -76,21 +94,3 @@ fedora-rawhide:
     - *osinfo-db-check
     - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
-
-debian-10:
-  script:
-    - *multilib-deb
-    - *environment
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-  image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
-
-debian-sid:
-  script:
-    - *multilib-deb
-    - *environment
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-  image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
