@@ -16,6 +16,9 @@
   export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
   export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
 
+.environment-centos-7: &environment-centos-7 |
+  export NINJA="ninja-build"
+
 .osinfo-db-tools-build: &osinfo-db-tools-build |
   pushd /tmp/
   git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
@@ -46,6 +49,17 @@
   sed -i -e 's/BuildRequires: *osinfo-db.*//' *.spec*
   rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
   popd
+
+centos-7:
+  script:
+    - *multilib-rpm
+    - *environment
+    - *environment-centos-7
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+    - *osinfo-db-rpm
+  image: quay.io/libvirt/buildenv-libosinfo-centos-7:latest
 
 debian-10:
   script:
