@@ -126,7 +126,7 @@
         <xsl:template match="/command-line">
           <xsl:text>autoyast=</xsl:text>
           <xsl:choose>
-            <xsl:when test="script-preferred-injection-method = 'initrd'">
+            <xsl:when test="script/preferred-injection-method = 'initrd'">
               <xsl:text>file:///</xsl:text>
             </xsl:when>
             <xsl:otherwise>
