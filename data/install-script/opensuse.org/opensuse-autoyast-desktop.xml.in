@@ -318,16 +318,19 @@ touch /root/osinfo-install-successful
               </packages>
               <patterns config:type="list">
                 <pattern>apparmor</pattern>
-                <pattern>apparmor_opt</pattern>
                 <pattern>console</pattern>
                 <pattern>enhanced_base</pattern>
-                <pattern>enhanced_base_opt</pattern>
                 <pattern>fonts</pattern>
                 <pattern>gnome_basis</pattern>
                 <pattern>gnome</pattern>
                 <pattern>print_server</pattern>
                 <pattern>sw_management</pattern>
                 <pattern>yast2_basis</pattern>
+                <!-- Those patterns are not present in Tumbleweed anymore -->
+                <xsl:if test="not(contains(os/version, 'tumbleweed'))">
+                  <pattern>apparmor_opt</pattern>
+                  <pattern>enhanced_base_opt</pattern>
+                </xsl:if>
                 <!-- Those patterns are only present in Leap 42.2 and 42.3 -->
                 <xsl:if test="contains(os/version, '42')">
                   <pattern>devel_basis</pattern>
