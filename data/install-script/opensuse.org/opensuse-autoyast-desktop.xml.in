@@ -164,32 +164,6 @@
 
         <xsl:template match="/install-script-config">
           <profile xmlns="http://www.suse.com/1.0/yast2ns" xmlns:config="http://www.suse.com/1.0/configns">
-            <bootloader>
-              <device_map config:type="list">
-                <device_map_entry>
-                  <firmware>hd0</firmware>
-                  <linux><xsl:call-template name="target-disk"/></linux>
-                </device_map_entry>
-              </device_map>
-              <global>
-                <activate>true</activate>
-                <append>resume=<xsl:call-template name="target-disk"/>1 splash=silent quiet showopts</append>
-                <boot_boot>false</boot_boot>
-                <boot_extended>false</boot_extended>
-                <boot_mbr>false</boot_mbr>
-                <boot_root>true</boot_root>
-                <default>0</default>
-                <distributor/>
-                <failsafe_disabled>true</failsafe_disabled>
-                <generic_mbr>true</generic_mbr>
-                <gfxmode>auto</gfxmode>
-                <os_prober>true</os_prober>
-                <terminal>gfxterm</terminal>
-                <timeout config:type="integer">8</timeout>
-                <vgamode/>
-              </global>
-              <loader_type>grub2</loader_type>
-            </bootloader>
             <firewall>
               <enable_firewall config:type="boolean">false</enable_firewall>
               <start_firewall config:type="boolean">false</start_firewall>
