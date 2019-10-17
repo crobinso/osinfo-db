@@ -268,18 +268,6 @@ touch /root/osinfo-install-successful
                 </xsl:if>
               </patterns>
             </software>
-            <sysconfig config:type="list">
-              <sysconfig_entry>
-                <sysconfig_key>DISPLAYMANAGER</sysconfig_key>
-                <sysconfig_path>/etc/sysconfig/displaymanager</sysconfig_path>
-                <sysconfig_value>gdm</sysconfig_value>
-              </sysconfig_entry>
-              <sysconfig_entry>
-                <sysconfig_key>DEFAULT_WM</sysconfig_key>
-                <sysconfig_path>/etc/sysconfig/windowmanager</sysconfig_path>
-                <sysconfig_value>gnome</sysconfig_value>
-              </sysconfig_entry>
-            </sysconfig>
             <timezone>
               <hwclock>UTC</hwclock>
               <timezone><xsl:value-of select="config/l10n-timezone"/></timezone>
