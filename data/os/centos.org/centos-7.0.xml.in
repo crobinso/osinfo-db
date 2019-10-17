@@ -24,6 +24,9 @@
     <variant id="live-kde">
       <_name>CentOS 7 (KDE)</_name>
     </variant>
+    <variant id="minimal">
+      <_name>CentOS 7</_name>
+    </variant>
 
     <media arch="x86_64">
       <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-DVD-1908.iso</url>
@@ -65,6 +68,127 @@
       </iso>
       <kernel>isolinux/vmlinuz0</kernel>
       <initrd>isolinux/initrd0.img</initrd>
+    </media>
+
+    <!-- 1406 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>592500736</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1503 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>665958400</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1511 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>632262656</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1611 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>712212480</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1708 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>829872128</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1804 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>949536768</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1810 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>962060288</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 1908 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>986845184</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
     </media>
 
     <tree arch="x86_64">
