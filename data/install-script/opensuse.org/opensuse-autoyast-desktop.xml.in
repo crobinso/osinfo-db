@@ -204,9 +204,6 @@
 if test -z '<xsl:value-of select="config/user-password"/>'; then
 pam-config -a --unix-nullok
 pam-config -a --nullok
-
-#Enable passwordless login for users that are part of the nopasswdlogin group
-sed -i '3 i auth sufficient pam_succeed_if.so user ingroup nopasswdlogin' /etc/pam.d/gdm-password
 fi
 
 if test -n '<xsl:value-of select="config/avatar-location"/>'; then
@@ -283,15 +280,6 @@ touch /root/osinfo-install-successful
               <skel>/etc/skel</skel>
               <umask>022</umask>
             </user_defaults>
-            <xsl:if test="config/user-password = ''">
-              <groups config:type="list">
-                <group>
-                  <group_password>x</group_password>
-                  <groupname>nopasswdlogin</groupname>
-                  <userlist><xsl:value-of select="config/user-login"/></userlist>
-                </group>
-              </groups>
-            </xsl:if>
             <users config:type="list">
               <user>
                 <encrypted config:type="boolean">false</encrypted>
@@ -310,6 +298,14 @@ touch /root/osinfo-install-successful
                 <username><xsl:value-of select="config/user-login"/></username>
               </user>
             </users>
+            <login_settings>
+              <autologin_user><xsl:value-of select="config/user-login"/></autologin_user>
+              <xsl:if test="config/user-password = ''">
+                <!-- According to AutoYaST documentation, password-less login only affects
+                     graphical login. -->
+                <password_less_login config:type="boolean">true</password_less_login>
+              </xsl:if>
+            </login_settings>
           </profile>
         </xsl:template>
       </xsl:stylesheet>
