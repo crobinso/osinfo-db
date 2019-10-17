@@ -166,16 +166,6 @@
               <keymap><xsl:call-template name="l10n-keyboard"/></keymap>
             </keyboard>
             <language><xsl:call-template name="l10n-language"/></language>
-          <networking>
-            <interfaces  config:type="list">
-              <interface>
-                <bootproto>dhcp</bootproto>
-                  <device><xsl:call-template name="network-device"/></device>
-                  <startmode>auto</startmode>
-                  <usercontrol>no</usercontrol>
-                </interface>
-            </interfaces>
-          </networking>
             <report>
               <errors>
                 <log config:type="boolean">true</log>
