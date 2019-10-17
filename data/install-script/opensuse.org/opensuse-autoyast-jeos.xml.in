@@ -191,13 +191,6 @@
                 </interface>
             </interfaces>
           </networking>
-          <partitioning config:type="list">
-            <drive>
-              <device><xsl:call-template name="target-disk"/></device>
-              <type config:type="symbol">CT_DISK</type>
-              <use>all</use>
-            </drive>
-          </partitioning>
             <report>
               <errors>
                 <log config:type="boolean">true</log>
