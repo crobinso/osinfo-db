@@ -7,9 +7,6 @@
     <profile>jeos</profile>
     <expected-filename>autoinst.xml</expected-filename>
     <config>
-      <!-- System options -->
-      <param name="target-disk" policy="optional"/>
-
       <!-- Localization options -->
       <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
@@ -32,18 +29,6 @@
         version="1.0">
 
         <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
-
-        <xsl:template name="target-disk">
-          <xsl:choose>
-            <xsl:when test="config/target-disk != ''">
-              <xsl:value-of select="config/target-disk"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <!-- virtio -->
-              <xsl:text>/dev/vda</xsl:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:template>
 
         <xsl:template name="l10n-language">
           <xsl:choose>
