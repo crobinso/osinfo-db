@@ -206,6 +206,8 @@ pam-config -a --unix-nullok
 pam-config -a --nullok
 fi
 
+echo '<xsl:value-of select="config/user-login"/> ALL=(ALL:ALL) ALL' >> /etc/sudoers
+
 if test -n '<xsl:value-of select="config/avatar-location"/>'; then
 # Set user avatar
 mkdir /mnt/unattended-media

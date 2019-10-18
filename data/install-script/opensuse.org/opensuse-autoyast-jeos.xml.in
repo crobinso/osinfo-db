@@ -182,6 +182,10 @@
                 <script>
                   <chrooted config:type="boolean">true</chrooted>
                   <source>
+if test -n '<xsl:value-of select="config/user-login"/>' &amp;&amp; test -n '<xsl:value-of select="config/user-password"/>'; then
+  echo '<xsl:value-of select="config/user-login"/> ALL=(ALL:ALL) ALL' >> /etc/sudoers
+fi
+
 # Enable default OpenSUSE repos
 zypper ar -f <xsl:call-template name="installation-url"/> repo-oss
 zypper ar -f <xsl:call-template name="repo-non-oss"/> repo-non-oss
