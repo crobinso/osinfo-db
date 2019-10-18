@@ -52,17 +52,6 @@
           </xsl:choose>
         </xsl:template>
 
-        <xsl:template name="network-device">
-          <xsl:choose>
-            <xsl:when test="contains(os/version, 'tumbleweed')">
-              <xsl:text>ens3</xsl:text>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:text>eth0</xsl:text>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:template>
-
         <xsl:template name="installation-url">
           <xsl:choose>
             <xsl:when test="config/installation-url != ''">
