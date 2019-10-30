@@ -28,6 +28,8 @@ import json
 import jinja2
 import os
 import requests
+import subprocess
+import tempfile
 
 import gi
 
@@ -40,6 +42,13 @@ DATA_DIR = os.path.relpath(
     os.path.abspath(
         os.path.join(
             os.path.dirname(__file__), "..", "..", "data", "os", "endlessos.com"
+        )
+    )
+)
+ISODATA_DIR = os.path.relpath(
+    os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__), "..", "..", "tests", "isodata", "eos"
         )
     )
 )
@@ -114,6 +123,35 @@ def all_personalities_for_branch(images):
     }
 
 
+def fetch_isodata(branch, iso):
+    iso_url = BASE_URL + "/" + iso["file"]
+    isodata_file = os.path.join(ISODATA_DIR, branch, os.path.basename(iso_url) + ".txt")
+
+    if os.path.exists(isodata_file):
+        return
+    print(f"Fetching first 2MiB of {iso_url}...")
+
+    response = requests.get(iso_url, headers={"Range": f"bytes=0-2097152"}, stream=True)
+    with tempfile.NamedTemporaryFile(suffix=os.path.basename(iso_url)) as f:
+        for chunk in response.iter_content(chunk_size=8096):
+            f.write(chunk)
+
+        f.flush()
+
+        os.makedirs(os.path.dirname(isodata_file), exist_ok=True)
+        with open(isodata_file, "w") as g:
+            subprocess.run(
+                ("isoinfo", "-d", "-i", f.name),
+                stdout=g,
+                check=True,
+            )
+
+
+def fetch_all_isodata(image):
+    for personality_images in image["personality_images"].values():
+        fetch_isodata(image["branch"], personality_images["iso"])
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -185,6 +223,9 @@ def main():
         )
         with open(os.path.join(DATA_DIR, f"eos-{current_series}.xml.in"), "w") as f:
             f.write(xml)
+
+        if eol_date is None:
+            fetch_all_isodata(image)
 
 
 if __name__ == "__main__":
