@@ -103,7 +103,7 @@ d-i partman/confirm boolean true
 d-i partman/confirm_nooverwrite boolean true
 
 d-i passwd/root-login boolean true
-<xsl:if test="config/user-login == '' or config/user-password == ''">
+<xsl:if test="config/user-login = '' or config/user-password = ''">
 d-i passwd/make-user boolean false
 </xsl:if>
 d-i passwd/root-password password <xsl:value-of select="config/admin-password"/>
