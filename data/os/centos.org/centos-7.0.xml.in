@@ -30,12 +30,110 @@
     <variant id="netinstall">
       <_name>CentOS 7</_name>
     </variant>
+    <variant id="everything">
+      <_name>CentOS 7</_name>
+    </variant>
 
     <media arch="x86_64">
       <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-DVD-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1406 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>7061702656</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1503 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>7591401472</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1511 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>7769387008</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1611 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>8280440832</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1708 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>8694097920</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1804 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>9396461568</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1810 -->
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>10743574528</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 1908 -->
+    <media arch="x86_64">
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1908.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>11025934336</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
