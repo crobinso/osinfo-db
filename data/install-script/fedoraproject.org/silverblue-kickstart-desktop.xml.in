@@ -106,8 +106,11 @@ autopart
   <xsl:when test="os/version &lt; 29">
 ostreesetup --osname="fedora-workstation" --remote="fedora-<xsl:value-of select="os/version"/>" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/workstation" --nogpg
   </xsl:when>
-  <xsl:otherwise>
+  <xsl:when test="os/version = 29">
 ostreesetup --osname="fedora-silverblue" --remote="fedora-<xsl:value-of select="os/version"/>" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/silverblue" --nogpg
+  </xsl:when>
+  <xsl:otherwise>
+ostreesetup --osname="fedora-silverblue" --remote="fedora" --url="file:///ostree/repo" --ref="fedora/<xsl:value-of select="os/version"/>/<xsl:value-of select="config/hardware-arch"/>/silverblue" --nogpg
   </xsl:otherwise>
 </xsl:choose>
 graphical
@@ -144,8 +147,10 @@ AutomaticLogin=<xsl:value-of select="config/user-login"/>
 [debug]
 " > /etc/gdm/custom.conf
 
+<xsl:if test="os/version &lt; 30">
 rm -f /etc/ostree/remotes.d/fedora-'<xsl:value-of select="os/version"/>'.conf
 ostree remote add --if-not-exists --set=gpgkeypath=/etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-<xsl:value-of select="os/version"/>-primary fedora-<xsl:value-of select="os/version"/> 'https://dl.fedoraproject.org/atomic/repo/'
+</xsl:if>
 
 # Create an osinfo-install-successful file in /root
 touch /root/osinfo-install-successful
