@@ -119,7 +119,7 @@
             </xsl:when>
             <xsl:when test="os/distro = centos">
               <xsl:choose>
-                <xsl:when test="os/distro &lt; 8">
+                <xsl:when test="os/version &lt; 8">
                   <xsl:text>/os/</xsl:text>
                   <xsl:call-template name="arch"/>
                 </xsl:when>
