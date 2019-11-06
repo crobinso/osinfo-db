@@ -94,6 +94,9 @@
             </xsl:when>
             <xsl:otherwise>
               <xsl:text>8</xsl:text>
+              <xsl:if test="contains(os/name, 'Stream')">
+                <xsl:text>-stream</xsl:text>
+              </xsl:if>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>

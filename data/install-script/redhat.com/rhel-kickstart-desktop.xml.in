@@ -116,6 +116,9 @@
             </xsl:when>
             <xsl:otherwise>
               <xsl:text>8</xsl:text>
+              <xsl:if test="contains(os/name, 'Stream')">
+                <xsl:text>-stream</xsl:text>
+              </xsl:if>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
@@ -195,7 +198,7 @@ reboot
 
 <xsl:if test="script/installation-source = 'network' or contains(media/variant, 'netinst')">
 url --url=<xsl:call-template name="installation-url"/>
-  <xsl:if test="os/version &gt; 7 or os/version = '8-unknown'">
+  <xsl:if test="os/version &gt; 7 or os/version = '8-unknown' or contains(os/name, 'Stream')">
 repo --name=AppStream --baseurl=<xsl:call-template name="appstream-url"/>
   </xsl:if>
 </xsl:if>
