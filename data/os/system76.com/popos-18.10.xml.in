@@ -13,6 +13,7 @@
     <clones id="http://ubuntu.com/ubuntu/18.10"/>
 
     <release-date>2018-04-30</release-date>
+    <eol-date>2019-07-18</eol-date>
 
     <media arch="x86_64" live="true">
       <iso>
