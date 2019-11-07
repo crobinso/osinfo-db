@@ -11,6 +11,8 @@
 
     <release-date>2017-10-19</release-date>
 
+    <firmware arch="x86_64" type="efi"/>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
