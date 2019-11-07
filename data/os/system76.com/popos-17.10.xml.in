@@ -11,6 +11,7 @@
     <clones id="http://ubuntu.com/ubuntu/17.10"/>
 
     <release-date>2017-10-19</release-date>
+    <eol-date>2018-07-19</eol-date>
 
     <firmware arch="x86_64" type="efi"/>
 
