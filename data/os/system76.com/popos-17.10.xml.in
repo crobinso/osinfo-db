@@ -8,6 +8,7 @@
     <_vendor>System76, Inc.</_vendor>
     <family>linux</family>
     <distro>popos</distro>
+    <clones id="http://ubuntu.com/ubuntu/17.10"/>
 
     <release-date>2017-10-19</release-date>
 
