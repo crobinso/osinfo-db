@@ -10,6 +10,7 @@
     <distro>popos</distro>
     <upgrades id="http://system76.com/popos/17.10"/>
     <derives-from id="http://system76.com/popos/17.10"/>
+    <clones id="http://ubuntu.com/ubuntu/18.04"/>
 
     <release-date>2018-04-30</release-date>
 
