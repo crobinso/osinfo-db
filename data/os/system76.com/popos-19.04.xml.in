@@ -1,0 +1,47 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://system76.com/popos/19.04">
+    <short-id>popos19.04</short-id>
+    <_name>Pop!_OS 19.04</_name>
+    <version>19.04</version>
+    <_vendor>System76, Inc.</_vendor>
+    <family>linux</family>
+    <distro>popos</distro>
+    <upgrades id="http://system76.com/popos/18.10"/>
+    <derives-from id="http://system76.com/popos/18.10"/>
+    <clones id="http://ubuntu.com/ubuntu/19.04"/>
+
+    <release-date>2019-04-19</release-date>
+    <eol-date>2020-01-18</eol-date>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>Pop_OS 19.04 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>Pop_OS 19.04 amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>16106127360</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>4294967296</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
