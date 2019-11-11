@@ -108,6 +108,16 @@ fedora-30:
     - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-30:latest
 
+fedora-31:
+  script:
+    - *multilib-rpm
+    - *environment
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+    - *osinfo-db-rpm
+  image: quay.io/libvirt/buildenv-libosinfo-fedora-31:latest
+
 fedora-rawhide:
   script:
     - *multilib-rpm
