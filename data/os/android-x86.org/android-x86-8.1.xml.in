@@ -13,7 +13,6 @@
     <release-date>2019-01-15</release-date>
 
     <media arch="x86_64" live="true">
-      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86_64-8.1-r1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
@@ -24,7 +23,6 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://cznic.dl.osdn.jp/android-x86/69704/android-x86-8.1-r1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
