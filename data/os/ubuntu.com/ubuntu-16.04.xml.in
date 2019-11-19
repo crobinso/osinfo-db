@@ -99,6 +99,17 @@
       <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
+    <tree arch="i686">
+      <url>http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-i386</url>
+      <kernel>current/images/netboot/ubuntu-installer/i386/linux</kernel>
+      <initrd>current/images/netboot/ubuntu-installer/i386/initrd.gz</initrd>
+    </tree>
+    <tree arch="x86_64">
+      <url>http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64</url>
+      <kernel>current/images/netboot/ubuntu-installer/amd64/linux</kernel>
+      <initrd>current/images/netboot/ubuntu-installer/amd64/initrd.gz</initrd>
+    </tree>
+
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img</url>
     </image>
