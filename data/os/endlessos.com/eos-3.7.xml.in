@@ -22,7 +22,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.191024-140028.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/base/eos-eos3.7-amd64-amd64.191118-152416.base.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-base$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -35,7 +35,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/en/eos-eos3.7-amd64-amd64.191024-140028.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/en/eos-eos3.7-amd64-amd64.191118-221847.en.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-en$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -48,9 +48,22 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/es/eos-eos3.7-amd64-amd64.191024-172250.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/es/eos-eos3.7-amd64-amd64.191118-214608.es.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-es$</volume-id>
+        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="es_GT">
+      <_name>Endless OS Spanish (Guatemala)</_name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="es_GT"/>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/es_GT/eos-eos3.7-amd64-amd64.191119-110043.es_GT.iso</url>
+      <iso>
+        <volume-id>Endless-OS-3-7-\d+-es_GT$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -61,7 +74,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/fr/eos-eos3.7-amd64-amd64.191024-140030.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/fr/eos-eos3.7-amd64-amd64.191118-152437.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-fr$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -74,7 +87,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="id"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/id/eos-eos3.7-amd64-amd64.191024-140032.id.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/id/eos-eos3.7-amd64-amd64.191118-230735.id.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-id$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -87,7 +100,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/pt_BR/eos-eos3.7-amd64-amd64.191024-140032.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/pt_BR/eos-eos3.7-amd64-amd64.191118-152458.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -100,7 +113,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="th"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/th/eos-eos3.7-amd64-amd64.191024-140039.th.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/th/eos-eos3.7-amd64-amd64.191118-152455.th.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-th$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -113,7 +126,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="vi"/>
-      <url>https://images-dl.endlessm.com/release/3.7.3/eos-amd64-amd64/vi/eos-eos3.7-amd64-amd64.191024-140039.vi.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.7.4/eos-amd64-amd64/vi/eos-eos3.7-amd64-amd64.191118-152459.vi.iso</url>
       <iso>
         <volume-id>Endless-OS-3-7-\d+-vi$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
