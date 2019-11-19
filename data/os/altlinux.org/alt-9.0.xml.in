@@ -1,0 +1,155 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/9.0">
+    <short-id>alt9.0</short-id>
+    <_name>ALT 9.0</_name>
+    <version>9.0</version>
+    <_vendor>BaseALT</_vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Vaccinium</codename>
+    <upgrades id="http://altlinux.org/alt/8.2"/>
+    <derives-from id="http://altlinux.org/alt/8.2"/>
+
+    <release-date>2019-10-28</release-date>
+    <eol-date>2022-12-20</eol-date>
+
+    <firmware arch="x86_64" type="efi"/>
+
+    <variant id="workstation">
+      <_name>ALT Workstation 9.0</_name>
+    </variant>
+    <variant id="education">
+      <_name>ALT Education 9.0</_name>
+    </variant>
+    <variant id="server">
+      <_name>ALT Server 9.0</_name>
+    </variant>
+
+    <!-- Workstation -->
+    <media arch="aarch64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/workstation/aarch64/alt-workstation-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>alt0/vmlinuz</kernel>
+      <initrd>alt0/full.cz</initrd>
+    </media>
+
+    <media arch="i686">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/workstation/i586/alt-workstation-9.0-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 9\.0(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/workstation/x86_64/alt-workstation-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Server -->
+    <media arch="aarch64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server/aarch64/alt-server-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server/ppc64le/alt-server-9.0-ppc64le.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 9\.0(\.\d+)* ppc64le</volume-id>
+        <publisher-id>BaseALT Ltd</publisher-id>
+      </iso>
+      <kernel>alt0/vmlinuz</kernel>
+      <initrd>alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server/x86_64/alt-server-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Education -->
+    <media arch="aarch64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/education/aarch64/alt-education-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
+    </media>
+
+    <media arch="i686">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/education/i586/alt-education-9.0-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 9\.0(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/education/x86_64/alt-education-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
