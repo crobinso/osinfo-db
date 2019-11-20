@@ -27,6 +27,8 @@
       <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
       <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
     </devices>
 
     <!-- Education -->

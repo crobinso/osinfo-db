@@ -34,6 +34,10 @@
       <_name>ALT 8.2 Simply</_name>
     </variant>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
+    </devices>
+
     <!-- Workstation -->
     <media arch="i686">
       <variant id="workstation"/>
