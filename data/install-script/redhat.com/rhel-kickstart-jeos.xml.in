@@ -163,7 +163,6 @@ clearpart --all --drives=<xsl:call-template name="target-disk"/>
 autopart
 reboot
 
-<xsl:value-of select="media/variant"/>
 <xsl:if test="script/installation-source = 'network' or contains(media/variant, 'netinst')">
 url --url=<xsl:call-template name="installation-url"/>
 </xsl:if>
