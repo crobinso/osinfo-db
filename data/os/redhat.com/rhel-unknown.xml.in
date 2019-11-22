@@ -75,6 +75,10 @@
         <ram>1610612736</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
     </resources>
   </os>
 </libosinfo>
