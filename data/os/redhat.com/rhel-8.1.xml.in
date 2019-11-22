@@ -97,13 +97,13 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
-        <ram>1073741824</ram>
+        <ram>1610612736</ram>
         <storage>10737418240</storage>
       </minimum>
 
       <recommended>
         <cpu>1000000000</cpu>
-        <ram>1073741824</ram>
+        <ram>1610612736</ram>
         <storage>21474836480</storage>
       </recommended>
 
