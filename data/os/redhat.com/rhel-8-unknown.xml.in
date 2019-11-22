@@ -100,7 +100,7 @@
       <recommended>
         <cpu>1000000000</cpu>
         <ram>1073741824</ram>
-        <storage>10737418240</storage>
+        <storage>21474836480</storage>
       </recommended>
 
       <network-install>
