@@ -19,6 +19,12 @@
 .environment-centos-7: &environment-centos-7 |
   export NINJA="ninja-build"
 
+.dco: &dco |
+  pushd .
+  pwd
+  ./scripts/require-dco.sh
+  popd
+
 .osinfo-db-tools-build: &osinfo-db-tools-build |
   pushd /tmp/
   git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
@@ -55,6 +61,7 @@ centos-7:
     - *multilib-rpm
     - *environment
     - *environment-centos-7
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -65,6 +72,7 @@ debian-9:
   script:
     - *multilib-deb
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -74,6 +82,7 @@ debian-10:
   script:
     - *multilib-deb
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -83,6 +92,7 @@ debian-sid:
   script:
     - *multilib-deb
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -92,6 +102,7 @@ fedora-30:
   script:
     - *multilib-rpm
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -102,6 +113,7 @@ fedora-31:
   script:
     - *multilib-rpm
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -112,6 +124,7 @@ fedora-rawhide:
   script:
     - *multilib-rpm
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -122,6 +135,7 @@ ubuntu-1604:
   script:
     - *multilib-deb
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
@@ -131,6 +145,7 @@ ubuntu-1804:
   script:
     - *multilib-deb
     - *environment
+    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
