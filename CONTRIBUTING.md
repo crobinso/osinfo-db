@@ -20,7 +20,6 @@ A Guide for Committers
 * All patches must be reviewed before pushing, with some exceptions:
   - Fixing breakage such as dead URLs
   - Trivial changes (obvious updates)
-* Reviewers should add a `Reviewed-by:` tag to the commit message
 * The repository should have no merge commits
 
 Reviewers should use the following workflow to merge a merge request:
