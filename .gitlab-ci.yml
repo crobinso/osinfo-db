@@ -142,6 +142,16 @@ fedora-rawhide:
     - *osinfo-db-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
 
+opensuse-151:
+  script:
+    - *multilib-rpm
+    - *environment
+    - *dco
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+  image: quay.io/libvirt/buildenv-libosinfo-opensuse-151:latest
+
 ubuntu-1604:
   script:
     - *multilib-deb
