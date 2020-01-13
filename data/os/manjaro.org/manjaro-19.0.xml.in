@@ -1,0 +1,123 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://manjaro.org/manjaro/19.0">
+    <short-id>manjaro19.0</short-id>
+    <_name>Manjaro 19.0</_name>
+    <version>19.0</version>
+    <_vendor>Manjaro</_vendor>
+    <family>linux</family>
+    <distro>Manjaro</distro>
+    <codename>Kyria</codename>
+    <derives-from id="http://archlinux.org/archlinux/rolling"/>
+    <release-date>2020-02-25</release-date>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>4294967296</ram>
+        <storage>26843545600</storage>
+      </recommended>
+    </resources>
+
+
+    <variant id="architect">
+      <_name>Manjaro 19.0 Architect</_name>
+    </variant>
+
+    <variant id="gnome">
+      <_name>Manjaro 19.0 GNOME</_name>
+    </variant>
+
+    <variant id="gnome-minimal">
+      <_name>Manjaro 19.0 GNOME (Minimal)</_name>
+    </variant>
+
+    <variant id="kde">
+      <_name>Manjaro 19.0 KDE</_name>
+    </variant>
+
+    <variant id="kde-minimal">
+      <_name>Manjaro 19.0 KDE (Minimal)</_name>
+    </variant>
+
+    <variant id="xfce">
+      <_name>Manjaro 19.0 XFCE</_name>
+    </variant>
+
+    <variant id="xfce-minimal">
+      <_name>Manjaro 19.0 XFCE (Minimal)</_name>
+    </variant>
+
+
+    <media arch="x86_64" live="true">
+      <variant id="architect"/>
+      <iso>
+        <volume-id>MANJARO_ARCHITECT_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome"/>
+      <iso>
+        <volume-id>MANJARO_GNOME_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome-minimal"/>
+      <iso>
+        <volume-id>MANJARO_GNOMEM_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="kde"/>
+      <iso>
+        <volume-id>MANJARO_KDE_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="kde-minimal"/>
+      <iso>
+        <volume-id>MANJARO_KDEM_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="xfce"/>
+      <iso>
+        <volume-id>MANJARO_XFCE_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="xfce-minimal"/>
+      <iso>
+        <volume-id>MANJARO_XFCEM_190</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>
