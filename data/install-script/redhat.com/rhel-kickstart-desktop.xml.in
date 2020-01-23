@@ -36,7 +36,7 @@
             <xsl:when test="config/target-disk != ''">
               <xsl:value-of select="config/target-disk"/>
             </xsl:when>
-            <xsl:when test="os/version &gt; 5.5">
+            <xsl:when test="os/version &gt; 5.5 or contains(os/version, '-unknown')">
               <!-- virtio -->
               <xsl:text>/dev/vda</xsl:text>
             </xsl:when>
@@ -53,7 +53,7 @@
               <xsl:when test="config/script-disk != ''">
                 <xsl:value-of select="config/script-disk"/>
               </xsl:when>
-              <xsl:when test="os/version &gt; 5.5">
+              <xsl:when test="os/version &gt; 5.5 or contains(os/version, '-unknown')">
                 <xsl:text>/dev/sda</xsl:text>
               </xsl:when>
               <xsl:otherwise>
@@ -71,7 +71,7 @@
             <xsl:when test="config/avatar-disk != ''">
               <xsl:value-of select="config/avatar-disk"/>
             </xsl:when>
-            <xsl:when test="os/version &gt; 5.5">
+            <xsl:when test="os/version &gt; 5.5 or contains(os/version, '-unknown')">
               <xsl:text>/dev/sda</xsl:text>
             </xsl:when>
             <xsl:otherwise>
@@ -95,7 +95,7 @@
           <xsl:value-of select="script/expected-filename"/>
           <xsl:if test="script/installation-source = 'network'">
             <xsl:choose>
-              <xsl:when test="os/version &lt; 7">
+              <xsl:when test="os/version &lt; 7 or os/version = '6-unknown'">
                 <xsl:text> method=</xsl:text>
               </xsl:when>
               <xsl:otherwise>
@@ -108,10 +108,10 @@
 
         <xsl:template name="version">
           <xsl:choose>
-            <xsl:when test="os/version &lt; 7">
+            <xsl:when test="os/version &lt; 7 or os/version = '6-unknown'">
               <xsl:text>6</xsl:text>
             </xsl:when>
-            <xsl:when test="os/version &lt; 8">
+            <xsl:when test="os/version &lt; 8 or os/version = '7-unknown'">
               <xsl:text>7</xsl:text>
             </xsl:when>
             <xsl:otherwise>
@@ -172,7 +172,7 @@
         <xsl:template match="/install-script-config">
 # Install script for <xsl:value-of select="os/short-id"/> profile <xsl:value-of select="script/profile"/>
 <xsl:if test="script/installation-source = 'media'">
-  <xsl:if test="os/version &lt; 8">
+  <xsl:if test="os/version &lt; 8 or os/version = '6-unknown' or os/version = '7-unknown'">
 install
   </xsl:if>
 cdrom
@@ -182,7 +182,7 @@ lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
 firewall --disabled
-<xsl:if test="os/version &lt; 8">
+<xsl:if test="os/version &lt; 8 or os/version = '6-unknown' or os/version = '7-unknown'">
 authconfig --enableshadow --enablemd5
 </xsl:if>
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
@@ -206,13 +206,13 @@ repo --name=AppStream --baseurl=<xsl:call-template name="appstream-url"/>
 %packages
 @core
 <xsl:choose>
-  <xsl:when test="os/version &lt; 7">
+  <xsl:when test="os/version &lt; 7 or os/version = '6-unknown'">
 @basic-desktop
 @general-desktop
 @desktop-platform
   </xsl:when>
   <xsl:otherwise>
-    <xsl:if test="os/version &lt; 8">
+    <xsl:if test="os/version &lt; 8 or os/version = '7-unknown'">
 @x11
     </xsl:if>
 @gnome-desktop
