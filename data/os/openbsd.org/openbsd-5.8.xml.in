@@ -38,7 +38,7 @@
 
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/5.8/i386/cd58.iso</url>
+      <url>https://cloudflare.cdn.openbsd.org/openbsd/5.8/i386/cd58.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2015 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/i386    5\.8 boot-only CD</volume-id>
@@ -49,7 +49,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/pub/OpenBSD/5.8/amd64/cd58.iso</url>
+      <url>https://cloudflare.cdn.openbsd.org/openbsd/5.8/amd64/cd58.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2015 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/amd64   5\.8 boot-only CD</volume-id>
