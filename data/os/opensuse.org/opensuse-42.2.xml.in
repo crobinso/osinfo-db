@@ -30,7 +30,6 @@
     </devices>
 
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/leap/42.2/iso/openSUSE-Leap-42.2-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-42.2-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
