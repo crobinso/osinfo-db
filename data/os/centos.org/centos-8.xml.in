@@ -20,7 +20,6 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-BaseOS-x86_64</volume-id>
@@ -31,7 +30,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8-x86_64-1905-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-BaseOS-x86_64</volume-id>
@@ -43,7 +41,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8-aarch64-1905-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-BaseOS-aarch64</volume-id>
@@ -54,7 +51,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8-aarch64-1905-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-BaseOS-aarch64</volume-id>
@@ -65,7 +61,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8-ppc64le-1905-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS_8_BaseOS_ppc64le</volume-id>
@@ -75,7 +70,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8-ppc64le-1905-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-BaseOS-ppc64le</volume-id>
