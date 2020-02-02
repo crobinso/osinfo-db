@@ -18,6 +18,74 @@
       <_name>CentOS 8</_name>
     </variant>
 
+    <!-- 1911 Release -->
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-1-1911-x86_64-dvd</volume-id>
+        <volume-size>624963584</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.1.1911-x86_64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-1-1911-x86_64-dvd</volume-id>
+        <volume-size>7554934784</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.1.1911-aarch64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-1-1911-aarch64-dvd</volume-id>
+        <volume-size>551677952</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.1.1911-aarch64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-1-1911-aarch64-dvd</volume-id>
+        <volume-size>5449809920</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.1.1911-ppc64le-boot.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS_8_1_1911_ppc64le_dvd</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.1.1911-ppc64le-dvd1.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS-8-1-1911-ppc64le-dvd</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <!-- 1905 Release -->
     <media arch="x86_64">
       <variant id="netinst"/>
       <iso>
