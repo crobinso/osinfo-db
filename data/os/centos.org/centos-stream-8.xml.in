@@ -58,6 +58,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-x86_64</volume-id>
+        <volume-size>8571703296</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -78,6 +79,7 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-aarch64</volume-id>
+        <volume-size>6340927488</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
