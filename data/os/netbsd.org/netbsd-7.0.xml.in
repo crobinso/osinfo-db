@@ -13,7 +13,9 @@
     <release-date>2015-09-25</release-date>
 
     <media arch="x86_64">
+      <!--
       <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/images/NetBSD-7.0-amd64.iso</url>
+        -->
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_70</volume-id>
@@ -37,7 +39,9 @@
       </iso>
     </media>
     <media arch="i686">
+      <!--
       <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-7.0/images/NetBSD-7.0-i386.iso</url>
+        -->
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_70</volume-id>
