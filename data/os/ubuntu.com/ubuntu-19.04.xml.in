@@ -91,30 +91,31 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-amd64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-amd64.img</url>
     </image>
 
     <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-amd64.vmdk</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-amd64.vmdk</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-arm64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-arm64.img</url>
     </image>
 
     <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-armhf.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-armhf.img</url>
     </image>
 
     <image arch="i686" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-i386.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-i386.img</url>
     </image>
+
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-ppc64el.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-ppc64el.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/disco/current/disco-server-cloudimg-s390x.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/disco/release/ubuntu-19.04-server-cloudimg-s390x.img</url>
     </image>
 
     <installer>
