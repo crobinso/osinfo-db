@@ -45,7 +45,6 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-x86_64</volume-id>
@@ -56,7 +55,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-x86_64</volume-id>
@@ -67,7 +65,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-aarch64</volume-id>
@@ -78,7 +75,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-BaseOS-aarch64</volume-id>
@@ -88,7 +84,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-ppc64le-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS_Stream_BaseOS_ppc64le</volume-id>
@@ -98,7 +93,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-ppc64le-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-Stream-BaseOS-ppc64le</volume-id>
