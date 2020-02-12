@@ -39,9 +39,13 @@ environment variable to the build system. For example:
 Patch submissions
 =================
 
-Patch submissions are welcomed from any interested contributor. Please
-use the libosinfo list as the preferred way for patch submissions, or
-discussions about the code:
+Patch submissions are welcomed from any interested contributor.
+The preferred way to submit patches for libosinfo is opening a
+Merge Request against:
+
+    https://gitlab.com/libosinfo/.
+
+General discussions can also happen at the mailing list:
 
     https://www.redhat.com/mailman/listinfo/libosinfo
 
