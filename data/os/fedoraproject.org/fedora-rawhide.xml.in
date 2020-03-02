@@ -120,5 +120,10 @@
       </network-install>
     </resources>
 
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+
   </os>
 </libosinfo>
