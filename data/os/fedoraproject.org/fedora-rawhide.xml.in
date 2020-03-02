@@ -8,8 +8,8 @@
     <_vendor>Fedora Project</_vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <upgrades id="http://fedoraproject.org/fedora/29"/>
-    <derives-from id="http://fedoraproject.org/fedora/29"/>
+    <upgrades id="http://fedoraproject.org/fedora/31"/>
+    <derives-from id="http://fedoraproject.org/fedora/31"/>
     <release-status>prerelease</release-status>
 
     <variant id="workstation">
