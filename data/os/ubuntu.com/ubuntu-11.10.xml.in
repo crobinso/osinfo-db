@@ -16,6 +16,8 @@
     <release-date>2011-10-13</release-date>
     <eol-date>2013-05-09</eol-date>
 
+    <firmware arch="x86_64" type="efi"/>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
