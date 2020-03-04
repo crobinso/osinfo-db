@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+
+  <os id="http://asianux.com/asianux/8.0">
+    <short-id>asianux8.0</short-id>
+    <name>Asianux Server 8</name>
+    <version>8.0</version>
+    <vendor>Asianux Project</vendor>
+    <family>linux</family>
+    <distro>asianux</distro>
+    <codename>Peony</codename>
+    <upgrades id="http://asianux.com/asianux/7.3"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Asianux-Server-8-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
