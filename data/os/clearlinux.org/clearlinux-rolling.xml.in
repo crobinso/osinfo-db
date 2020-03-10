@@ -40,7 +40,7 @@
     </devices>
 
     <media live="true" arch="x86_64">
-      <url>https://download.clearlinux.org/releases/32310/clear/clear-32310-live-server.iso</url>
+      <url>https://download.clearlinux.org/releases/32550/clear/clear-32550-live-server.iso</url>
       <iso>
         <volume-id>CLR_ISO</volume-id>
       </iso>
@@ -49,7 +49,7 @@
     </media>
 
     <media live="true" arch="x86_64">
-      <url>https://download.clearlinux.org/releases/32310/clear/clear-32310-live-desktop.iso</url>
+      <url>https://download.clearlinux.org/releases/32550/clear/clear-32550-live-desktop.iso</url>
       <iso>
         <volume-id>CLR_ISO</volume-id>
       </iso>
