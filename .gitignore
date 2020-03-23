@@ -2,7 +2,6 @@ po/.intltool-merge-cache
 po/stamp-it
 po/*.gmo
 po/POTFILES.in
-po/osinfo-db.pot
 data/*/*/*.xml
 data/*/*/*/*.xml
 data/schema/osinfo.rng
