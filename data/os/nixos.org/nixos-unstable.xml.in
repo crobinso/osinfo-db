@@ -1,0 +1,63 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://nixos.org/nixos/unstable">
+    <short-id>nixos-unstable</short-id>
+    <_name>NixOS Unstable</_name>
+    <version>unstable</version>
+    <_vendor>NixOS</_vendor>
+    <family>linux</family>
+    <distro>nixos</distro>
+
+    <upgrades id="http://nixos.org/nixos/20.03"/>
+    <derives-from id="http://nixos.org/nixos/20.03"/>
+
+    <resources arch="all">
+      <minimum>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="minimal">
+      <_name>NixOS Unstable (minimal installation CD)</_name>
+    </variant>
+    <variant id="plasma5">
+      <_name>NixOS Unstable (Plasma 5 installation CD)</_name>
+    </variant>
+
+    <media arch="i686" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-i686-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-20.09-i686</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-20.09-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="plasma5"/>
+      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-plasma5-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-plasma5-20.09-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>

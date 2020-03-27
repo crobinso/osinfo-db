@@ -1,0 +1,33 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://nixos.org/nixos/unknown">
+    <short-id>nixos-unknown</short-id>
+    <_name>NixOS</_name>
+    <_vendor>NixOS</_vendor>
+    <family>linux</family>
+    <distro>nixos</distro>
+
+    <upgrades id="http://nixos.org/nixos/unstable"/>
+    <derives-from id="http://nixos.org/nixos/unstable"/>
+
+    <resources arch="all">
+      <minimum>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <media arch="all" live="true">
+      <iso>
+        <volume-id>nixos-.*-(2[1-9]|[3-9][0-9]).\d\d-.*</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>

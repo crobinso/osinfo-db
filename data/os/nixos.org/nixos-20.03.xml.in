@@ -1,0 +1,93 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://nixos.org/nixos/20.03">
+    <short-id>nixos-20.03</short-id>
+    <_name>NixOS 20.03</_name>
+    <version>20.03</version>
+    <_vendor>NixOS</_vendor>
+    <family>linux</family>
+    <distro>nixos</distro>
+    <codename>Markhor</codename>
+
+    <release-date>2020-04-20</release-date>
+
+    <firmware arch="x86_64" type="efi"/>
+    <firmware arch="i686" type="efi"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1002"/> <!-- virtio-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1004"/> <!-- virtio-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1af4/1009"/> <!-- virtio-9p -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
+      <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+      <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+    </devices>
+
+    <resources arch="all">
+      <minimum>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="minimal">
+      <_name>NixOS 20.03 (minimal installation CD)</_name>
+    </variant>
+    <variant id="plasma5">
+      <_name>NixOS 20.03 (Plasma 5 installation CD)</_name>
+    </variant>
+
+    <media arch="i686" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-20.03/latest-nixos-minimal-i686-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-20.03-i686</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-20.03/latest-nixos-minimal-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-20.03-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="plasma5"/>
+      <url>https://channels.nixos.org/nixos-20.03/latest-nixos-plasma5-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-plasma5-20.03-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>
