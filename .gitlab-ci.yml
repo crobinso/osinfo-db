@@ -52,7 +52,16 @@
   rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
   popd
 
-centos-7:
+.x86_64-build-job-deb: &x86_64-build-job-deb
+  script:
+    - *multilib-deb
+    - *environment
+    - *dco
+    - *osinfo-db-tools-build
+    - *osinfo-db-build
+    - *osinfo-db-check
+
+.x86_64-build-job-rpm: &x86_64-build-job-rpm
   script:
     - *multilib-rpm
     - *environment
@@ -61,80 +70,37 @@ centos-7:
     - *osinfo-db-build
     - *osinfo-db-check
     - *osinfo-db-rpm
+
+centos-7:
+  <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-centos-7:latest
 
 centos-8:
-  script:
-    - *multilib-rpm
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-    - *osinfo-db-rpm
+  <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-centos-8:latest
 
 debian-9:
-  script:
-    - *multilib-deb
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
+  <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-debian-9:latest
 
 debian-10:
-  script:
-    - *multilib-deb
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
+  <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
 
 debian-sid:
-  script:
-    - *multilib-deb
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
+  <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
 
 fedora-30:
-  script:
-    - *multilib-rpm
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-    - *osinfo-db-rpm
+  <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-30:latest
 
 fedora-31:
-  script:
-    - *multilib-rpm
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-    - *osinfo-db-rpm
+  <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-31:latest
 
 fedora-rawhide:
-  script:
-    - *multilib-rpm
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-    - *osinfo-db-rpm
+  <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
 
 opensuse-151:
@@ -148,21 +114,9 @@ opensuse-151:
   image: quay.io/libvirt/buildenv-libosinfo-opensuse-151:latest
 
 ubuntu-1604:
-  script:
-    - *multilib-deb
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
+  <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-ubuntu-1604:latest
 
 ubuntu-1804:
-  script:
-    - *multilib-deb
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
+  <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-ubuntu-1804:latest
