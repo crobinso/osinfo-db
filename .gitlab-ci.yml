@@ -5,7 +5,6 @@
   multilib=$(rpm --eval '%{_lib}')
 
 .environment: &environment |
-  export NINJA="ninja"
   export VIRT_PREFIX="$HOME/build/libvirt"
   export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
   export C_INCLUDE_PATH="$VIRT_PREFIX/include"
@@ -15,9 +14,6 @@
   export GI_TYPELIB_PATH="$VIRT_PREFIX/$multilib/girepository-1.0"
   export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
   export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
-
-.environment-centos-7: &environment-centos-7 |
-  export NINJA="ninja-build"
 
 .dco: &dco |
   pushd .
@@ -60,7 +56,6 @@ centos-7:
   script:
     - *multilib-rpm
     - *environment
-    - *environment-centos-7
     - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
