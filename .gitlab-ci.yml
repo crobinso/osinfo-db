@@ -35,14 +35,14 @@
   pushd .
   mkdir build
   cd build
-  make -f ../Makefile VPATH=..
-  make -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
+  $MAKE -f ../Makefile VPATH=..
+  $MAKE -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
   popd
 
 .osinfo-db-check: &osinfo-db-check |
   pushd .
   cd build
-  make -f ../Makefile VPATH=.. check
+  $MAKE -f ../Makefile VPATH=.. check
   popd
 
 .osinfo-db-rpm: &osinfo-db-rpm |
