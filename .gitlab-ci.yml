@@ -6,7 +6,7 @@
 
 .environment: &environment |
   export VIRT_PREFIX="$HOME/build/libvirt"
-  export PATH="$VIRT_PREFIX/bin:$HOME/.ccache/bin:$PATH"
+  export PATH="$VIRT_PREFIX/bin:$PATH"
   export C_INCLUDE_PATH="$VIRT_PREFIX/include"
   export LD_LIBRARY_PATH="$VIRT_PREFIX/$multilib"
   export PKG_CONFIG_PATH="$VIRT_PREFIX/$multilib/pkgconfig"
@@ -14,6 +14,10 @@
   export GI_TYPELIB_PATH="$VIRT_PREFIX/$multilib/girepository-1.0"
   export OSINFO_SYSTEM_DIR="$VIRT_PREFIX/share/osinfo"
   export MAKEFLAGS="-j $(getconf _NPROCESSORS_ONLN)"
+  export CCACHE_BASEDIR="$(pwd)"
+  export CCACHE_DIR="$CCACHE_BASEDIR/ccache"
+  export CCACHE_MAXSIZE="50M"
+  export PATH="$CCACHE_WRAPPERSDIR:$PATH"
 
 .dco: &dco |
   pushd .
@@ -53,6 +57,10 @@
   popd
 
 .x86_64-build-job-deb: &x86_64-build-job-deb
+  cache:
+    paths:
+      - ccache
+    key: "$CI_JOB_NAME"
   script:
     - *multilib-deb
     - *environment
@@ -62,6 +70,10 @@
     - *osinfo-db-check
 
 .x86_64-build-job-rpm: &x86_64-build-job-rpm
+  cache:
+    paths:
+      - ccache
+    key: "$CI_JOB_NAME"
   script:
     - *multilib-rpm
     - *environment
@@ -104,6 +116,10 @@ fedora-rawhide:
   image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
 
 opensuse-151:
+  cache:
+    paths:
+      - ccache
+    key: "$CI_JOB_NAME"
   script:
     - *multilib-rpm
     - *environment
