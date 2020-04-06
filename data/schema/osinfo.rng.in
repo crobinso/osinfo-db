@@ -642,6 +642,11 @@
             <text/>
           </element>
         </optional>
+        <optional>
+          <element name="cloud-image-username">
+            <text/>
+          </element>
+        </optional>
       </interleave>
     </element>
   </define>
