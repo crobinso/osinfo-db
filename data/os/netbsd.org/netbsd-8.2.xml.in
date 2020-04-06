@@ -1,0 +1,75 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/8.2">
+    <short-id>netbsd8.2</short-id>
+    <_name>NetBSD 8.2</_name>
+    <version>8.2</version>
+    <_vendor>NetBSD Project</_vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/8.1"/>
+    <derives-from id="http://netbsd.org/netbsd/8.0"/>
+
+    <variant id="netinst">
+      <_name>NetBSD 8.2 Network Install</_name>
+    </variant>
+    <variant id="netinst-serial-console">
+      <_name>NetBSD 8.2 Network Install (Serial Console)</_name>
+    </variant>
+
+    <release-date>2020-02-14</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/images/NetBSD-8.2-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>757454848</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>233365504</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>233365504</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/images/NetBSD-8.2-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>715309056</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>215074816</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_82</volume-id>
+        <volume-size>215074816</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
