@@ -542,6 +542,8 @@
       </network-install>
     </resources>
 
+    <cloud-image-username>centos</cloud-image-username>
+
     <installer>
       <script id='http://redhat.com/rhel/kickstart/jeos'/>
       <script id='http://redhat.com/rhel/kickstart/desktop'/>

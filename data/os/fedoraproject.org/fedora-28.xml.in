@@ -132,6 +132,8 @@
       </recommended>
     </resources>
 
+    <cloud-image-username>fedora</cloud-image-username>
+
     <installer>
       <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
       <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>

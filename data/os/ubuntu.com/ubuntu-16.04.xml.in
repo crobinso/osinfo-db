@@ -147,6 +147,8 @@
       <url>https://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-s390x-disk1.img</url>
     </image>
 
+    <cloud-image-username>ubuntu</cloud-image-username>
+
     <installer>
       <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>

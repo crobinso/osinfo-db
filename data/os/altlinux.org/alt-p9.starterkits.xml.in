@@ -73,5 +73,7 @@
       </recommended>
     </resources>
 
+    <cloud-image-username>altlinux</cloud-image-username>
+
   </os>
 </libosinfo>

@@ -210,6 +210,8 @@
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-arm64.raw</url>
     </image>
 
+    <cloud-image-username>debian</cloud-image-username>
+
     <installer>
       <script id='http://debian.org/debian/preseed/jeos'/>
       <script id='http://debian.org/debian/preseed/desktop'/>
