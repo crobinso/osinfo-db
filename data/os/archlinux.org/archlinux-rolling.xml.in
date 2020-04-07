@@ -10,6 +10,8 @@
 
     <release-status>rolling</release-status>
 
+    <firmware arch="x86_64" type="efi"/>
+
     <devices>
       <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
