@@ -26,6 +26,8 @@ DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 SCHEMA_FILES_IN = data/schema/osinfo.rng.in
 SCHEMA_FILES = data/schema/osinfo.rng
 
+PO_FILES = $(wildcard $(VPATH)/po/*.po)
+
 ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
 ZANATA = zanata
@@ -67,7 +69,7 @@ mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
 	rpmbuild --define "_sourcedir `pwd`" -ba mingw-osinfo-db.spec
 
 
-%.xml: %.xml.in Makefile
+%.xml: %.xml.in Makefile $(PO_FILES)
 	@mkdir -p `dirname $@` po
 	$(V_I18N) LC_ALL=C $(INTLTOOL_MERGE) $(INTLTOOL_MERGE_OPTS) -x -u -c po/.intltool-merge-cache $(VPATH)/po $< $@.tmp \
 	    || { rm $@.tmp && exit 1; }
