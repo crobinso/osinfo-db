@@ -18,7 +18,7 @@ case $MAKEFLAGS in
 esac
 
 # Make things clean.
-make -k clean
+make clean
 
 make
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
