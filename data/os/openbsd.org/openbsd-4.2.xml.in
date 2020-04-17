@@ -36,7 +36,7 @@
 
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/openbsd/4.2/i386/cd42.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/4.2/i386/cd42.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2007 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/i386    4\.2 boot-only CD</volume-id>
@@ -47,7 +47,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/openbsd/4.2/amd64/cd42.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/4.2/amd64/cd42.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2007 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/amd64   4\.2 boot-only CD</volume-id>

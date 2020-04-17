@@ -40,7 +40,7 @@
 
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/openbsd/6.2/i386/cd62.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/6.2/i386/cd62.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2017 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/i386    6\.2 boot-only CD</volume-id>
@@ -51,7 +51,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://cloudflare.cdn.openbsd.org/openbsd/6.2/amd64/cd62.iso</url>
+      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/6.2/amd64/cd62.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2017 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/amd64   6\.2 boot-only CD</volume-id>
