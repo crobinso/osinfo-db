@@ -6,9 +6,6 @@ set -v
 test -n "$1" && RESULTS=$1 || RESULTS=results.log
 INSTALL_ROOT=$HOME/builder
 
-# Make things clean.
-make -k clean
-
 # If the MAKEFLAGS envvar does not yet include a -j option,
 # add -jN where N depends on the number of processors.
 case $MAKEFLAGS in
@@ -20,6 +17,9 @@ case $MAKEFLAGS in
     export MAKEFLAGS
     ;;
 esac
+
+# Make things clean.
+make -k clean
 
 make
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
