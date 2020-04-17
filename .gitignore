@@ -3,5 +3,6 @@ data/**/*.xml
 data/**/*.rng
 po/.intltool-merge-cache
 install/
+rpmbuild/
 *.spec
 *.tar.xz
