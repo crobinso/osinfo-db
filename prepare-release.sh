@@ -3,7 +3,6 @@
 set -e
 set -v
 
-test -n "$1" && RESULTS=$1 || RESULTS=results.log
 INSTALL_ROOT=$HOME/builder
 
 # If the MAKEFLAGS envvar does not yet include a -j option,
