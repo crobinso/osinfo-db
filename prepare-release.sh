@@ -21,6 +21,7 @@ esac
 make clean
 
 make
+OSINFO_DB_NETWORK_TESTS=1 make check
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
 if test -x /usr/bin/rpmbuild; then
