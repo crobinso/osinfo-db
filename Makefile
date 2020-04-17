@@ -84,7 +84,7 @@ $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
 
 clean:
 	rm -f osinfo-db-*.tar.xz
-	rm -f $(DATA_FILES) $(SCHEMA_FILES) po/POTFILES.in po/osinfo-db.pot
+	rm -f $(DATA_FILES) $(SCHEMA_FILES) po/POTFILES.in
 
 po/POTFILES.in:
 	$(V_GEN) find data -name *.xml.in | LC_ALL=C sort > $@
