@@ -23,7 +23,7 @@ make -k clean
 make
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
-if test -f /usr/bin/rpmbuild; then
+if test -x /usr/bin/rpmbuild; then
   rpmbuild --nodeps \
      --define "_sourcedir `pwd`" \
      -ba --clean osinfo-db.spec
@@ -31,7 +31,7 @@ fi
 
 if test -x /usr/bin/i686-w64-mingw32-gcc &&
    test -x /usr/bin/x86_64-w64-mingw32-gcc &&
-   test -f /usr/bin/rpmbuild; then
+   test -x /usr/bin/rpmbuild; then
   rpmbuild --nodeps \
      --define "_sourcedir `pwd`" \
      -ba --clean mingw-osinfo-db.spec
