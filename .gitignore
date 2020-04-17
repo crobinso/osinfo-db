@@ -2,5 +2,6 @@ __pycache__/
 data/**/*.xml
 data/**/*.rng
 po/.intltool-merge-cache
+install/
 *.spec
 *.tar.xz

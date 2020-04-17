@@ -3,7 +3,7 @@
 set -e
 set -v
 
-INSTALL_ROOT=$HOME/builder
+INSTALL_ROOT="$PWD/install"
 
 # If the MAKEFLAGS envvar does not yet include a -j option,
 # add -jN where N depends on the number of processors.
@@ -19,6 +19,7 @@ esac
 
 # Make things clean.
 make clean
+rm -rf "$INSTALL_ROOT"
 
 make
 OSINFO_DB_NETWORK_TESTS=1 make check
