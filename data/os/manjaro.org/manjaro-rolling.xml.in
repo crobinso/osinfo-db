@@ -1,0 +1,128 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://manjaro.org/manjaro/rolling">
+    <short-id>manjaro</short-id>
+    <_name>Manjaro</_name>
+    <_vendor>Manjaro</_vendor>
+    <family>linux</family>
+    <distro>Manjaro</distro>
+    <derives-from id="http://archlinux.org/archlinux/rolling"/>
+
+    <release-status>rolling</release-status>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>4294967296</ram>
+        <storage>26843545600</storage>
+      </recommended>
+    </resources>
+
+    <variant id="architect">
+      <_name>Manjaro Architect</_name>
+    </variant>
+
+    <variant id="gnome">
+      <_name>Manjaro GNOME</_name>
+    </variant>
+
+    <variant id="gnome-minimal">
+      <_name>Manjaro GNOME (Minimal)</_name>
+    </variant>
+
+    <variant id="kde">
+      <_name>Manjaro KDE</_name>
+    </variant>
+
+    <variant id="kde-minimal">
+      <_name>Manjaro KDE (Minimal)</_name>
+    </variant>
+
+    <variant id="xfce">
+      <_name>Manjaro XFCE</_name>
+    </variant>
+
+    <variant id="xfce-minimal">
+      <_name>Manjaro XFCE (Minimal)</_name>
+    </variant>
+
+
+    <media arch="x86_64" live="true">
+      <variant id="architect"/>
+      <url>https://osdn.net/projects/manjaro/storage/architect/19.0.2/manjaro-architect-19.0.2-200324-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_ARCHITECT_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome"/>
+      <url>https://osdn.net/projects/manjaro/storage/gnome/19.0.2/manjaro-gnome-19.0.2-200312-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_GNOME_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome-minimal"/>
+      <url>https://osdn.net/projects/manjaro/storage/gnome/19.0.2/minimal/manjaro-gnome-19.0.2-minimal-200311-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_GNOMEM_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="kde"/>
+      <url>https://osdn.net/projects/manjaro/storage/kde/19.0.2/manjaro-kde-19.0.2-200311-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_KDE_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="kde-minimal"/>
+      <url>https://osdn.net/projects/manjaro/storage/kde/19.0.2/minimal/manjaro-kde-19.0.2-minimal-200311-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_KDEM_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="xfce"/>
+      <url>https://osdn.net/projects/manjaro/storage/xfce/19.0.2/manjaro-xfce-19.0.2-200311-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_XFCE_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="xfce-minimal"/>
+      <url>https://osdn.net/projects/manjaro/storage/xfce/19.0.2/minimal/manjaro-xfce-19.0.2-minimal-200311-linux54.iso</url>
+      <iso>
+        <volume-id>MANJARO_XFCEM_</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-x86_64</kernel>
+      <initrd>boot/initramfs-x86_64.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>
