@@ -14,7 +14,7 @@
     <upgrades id="http://ubuntu.com/ubuntu/19.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/19.10"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2020-04-23</release-date>
 
     <resources arch="all">
       <minimum>
@@ -47,20 +47,8 @@
             - https://discourse.ubuntu.com/t/please-review-design-for-automated-server-installs
     -->
 
-    <media arch="x86_64">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/focal-server-amd64.iso</url>
-      <iso>
-        <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS amd64</volume-id>
-      </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
-      <installer>
-        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
-        <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
-      </installer>
-    </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/focal-live-server-amd64.iso</url>
+      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS amd64</volume-id>
       </iso>
@@ -68,62 +56,31 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-        <url>http://cdimage.ubuntu.com/daily-live/current/focal-desktop-amd64.iso</url>
-        <!-- after release date the release-build will be at <url>http://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso</url> -->
+      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 20.04(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
-    <media arch="aarch64">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/focal-server-arm64.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-server-arm64.iso</url> -->
-      <iso>
-        <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS arm64</volume-id>
-      </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
-    </media>
     <media arch="aarch64" live="true" installer-script="false">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/focal-live-server-arm64.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-arm64.iso</url> -->
+      <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS arm64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
-    </media>
-    <media arch="ppc64le">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/focal-server-ppc64el.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-server-ppc64el.iso</url> -->
-      <iso>
-        <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS ppc64</volume-id>
-      </iso>
-       <kernel>install/vmlinux</kernel>
-       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/focal-live-server-ppc64el.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-ppc64el.iso</url> -->
+      <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS ppc64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
-    <media arch="s390x">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily/current/focal-server-s390x.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-server-s390x.iso</url> -->
-      <iso>
-        <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS s390x</volume-id>
-      </iso>
-      <kernel>boot/kernel.ubuntu</kernel>
-      <initrd>boot/initrd.ubuntu</initrd>
-    </media>
     <media arch="s390x" live="true" installer-script="false">
-      <url>http://cdimage.ubuntu.com/ubuntu-server/daily-live/current/focal-live-server-s390x.iso</url>
-      <!-- after release date the release-build will be at <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-s390x.iso</url> -->
+      <url>http://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)? LTS s390x</volume-id>
       </iso>
