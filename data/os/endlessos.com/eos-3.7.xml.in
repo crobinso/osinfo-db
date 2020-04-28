@@ -14,7 +14,7 @@
 
     <release-date>2019-10-24</release-date>
 
-
+    <eol-date>2020-04-28</eol-date>
 
     <variant id="base">
       <_name>Endless OS Basic</_name>
