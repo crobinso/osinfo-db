@@ -129,10 +129,10 @@ opensuse-151:
     - *osinfo-db-check
   image: quay.io/libvirt/buildenv-libosinfo-opensuse-151:latest
 
-ubuntu-1604:
-  <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-1604:latest
-
 ubuntu-1804:
   <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-ubuntu-1804:latest
+
+ubuntu-2004:
+  <<: *x86_64-build-job-deb
+  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-2004:latest
