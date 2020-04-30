@@ -103,13 +103,13 @@ debian-sid:
   <<: *x86_64-build-job-deb
   image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
 
-fedora-30:
-  <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-fedora-30:latest
-
 fedora-31:
   <<: *x86_64-build-job-rpm
   image: quay.io/libvirt/buildenv-libosinfo-fedora-31:latest
+
+fedora-32:
+  <<: *x86_64-build-job-rpm
+  image: quay.io/libvirt/buildenv-libosinfo-fedora-32:latest
 
 fedora-rawhide:
   <<: *x86_64-build-job-rpm
