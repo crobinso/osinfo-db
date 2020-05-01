@@ -64,6 +64,7 @@ stages:
 
 .x86_64-build-job-deb: &x86_64-build-job-deb
   stage: builds
+  image: quay.io/libvirt/buildenv-libosinfo-$NAME:latest
   cache:
     paths:
       - ccache
@@ -78,6 +79,7 @@ stages:
 
 .x86_64-build-job-rpm: &x86_64-build-job-rpm
   stage: builds
+  image: quay.io/libvirt/buildenv-libosinfo-$NAME:latest
   cache:
     paths:
       - ccache
@@ -93,44 +95,55 @@ stages:
 
 centos-7:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-centos-7:latest
+  variables:
+    NAME: centos-7
 
 centos-8:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-centos-8:latest
+  variables:
+    NAME: centos-8
 
 debian-9:
   <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-debian-9:latest
+  variables:
+    NAME: debian-9
 
 debian-10:
   <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-debian-10:latest
+  variables:
+    NAME: debian-10
 
 debian-sid:
   <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-debian-sid:latest
+  variables:
+    NAME: debian-sid
 
 fedora-31:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-fedora-31:latest
+  variables:
+    NAME: fedora-31
 
 fedora-32:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-fedora-32:latest
+  variables:
+    NAME: fedora-32
 
 fedora-rawhide:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-fedora-rawhide:latest
+  variables:
+    NAME: fedora-rawhide
 
 opensuse-151:
   <<: *x86_64-build-job-rpm
-  image: quay.io/libvirt/buildenv-libosinfo-opensuse-151:latest
+  variables:
+    NAME: opensuse-151
 
 ubuntu-1804:
   <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-1804:latest
+  variables:
+    NAME: ubuntu-1804
 
 ubuntu-2004:
   <<: *x86_64-build-job-deb
-  image: quay.io/libvirt/buildenv-libosinfo-ubuntu-2004:latest
+  variables:
+    NAME: ubuntu-2004
