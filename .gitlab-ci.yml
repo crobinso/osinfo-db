@@ -50,6 +50,9 @@
   popd
 
 .osinfo-db-rpm: &osinfo-db-rpm |
+  if test "$RPM" = "skip"; then
+    exit 0
+  fi
   pushd .
   cd build
   sed -i -e 's/BuildRequires: *osinfo-db.*//' *.spec*
