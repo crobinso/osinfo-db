@@ -1,4 +1,5 @@
 stages:
+  - prebuild
   - builds
 
 .multilib: &multilib |
@@ -24,12 +25,6 @@ stages:
   export CCACHE_DIR="$CCACHE_BASEDIR/ccache"
   export CCACHE_MAXSIZE="50M"
   export PATH="$CCACHE_WRAPPERSDIR:$PATH"
-
-.dco: &dco |
-  pushd .
-  pwd
-  ./scripts/require-dco.sh
-  popd
 
 .osinfo-db-tools-build: &osinfo-db-tools-build |
   pushd /tmp/
@@ -75,11 +70,23 @@ stages:
   script:
     - *multilib
     - *native-environment
-    - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
     - *osinfo-db-check
     - *osinfo-db-rpm
+
+# Check that all commits are signed-off for the DCO.
+# Skip on "libosinfo" namespace, since we only need to run
+# this test on developer's personal forks from which
+# merge requests are submitted
+check-dco:
+  stage: prebuild
+  image: registry.gitlab.com/libvirt/libvirt-ci/check-dco:master
+  script:
+    - /check-dco libosinfo
+  except:
+    variables:
+      - $CI_PROJECT_NAMESPACE == "libosinfo"
 
 centos-7:
   <<: *native-build-job
