@@ -1,11 +1,14 @@
 stages:
   - builds
 
-.multilib-deb: &multilib-deb |
-  multilib=$(dpkg-architecture -q DEB_TARGET_MULTIARCH)
-
-.multilib-rpm: &multilib-rpm |
-  multilib=$(rpm --eval '%{_lib}')
+.multilib: &multilib |
+  dpkg_architecture=$(which dpkg-architecture 2>/dev/null || true)
+  rpm=$(which rpm 2>/dev/null || true)
+  if test -x "$dpkg_architecture"; then
+    multilib=$(dpkg-architecture -q DEB_TARGET_MULTIARCH);
+  elif test -x "$rpm"; then
+    multilib=$(rpm --eval '%{_lib}');
+  fi
 
 .environment: &environment |
   export VIRT_PREFIX="$HOME/build/libvirt"
@@ -70,7 +73,7 @@ stages:
       - ccache
     key: "$CI_JOB_NAME"
   script:
-    - *multilib-deb
+    - *multilib
     - *environment
     - *dco
     - *osinfo-db-tools-build
@@ -85,7 +88,7 @@ stages:
       - ccache
     key: "$CI_JOB_NAME"
   script:
-    - *multilib-rpm
+    - *multilib
     - *environment
     - *dco
     - *osinfo-db-tools-build
