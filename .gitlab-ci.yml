@@ -10,7 +10,7 @@ stages:
     multilib=$(rpm --eval '%{_lib}');
   fi
 
-.environment: &environment |
+.native-environment: &native-environment |
   export VIRT_PREFIX="$HOME/build/libvirt"
   export PATH="$VIRT_PREFIX/bin:$PATH"
   export C_INCLUDE_PATH="$VIRT_PREFIX/include"
@@ -65,7 +65,7 @@ stages:
   rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
   popd
 
-.x86_64-build-job-deb: &x86_64-build-job-deb
+.native-build-job: &native-build-job
   stage: builds
   image: quay.io/libvirt/buildenv-libosinfo-$NAME:latest
   cache:
@@ -74,22 +74,7 @@ stages:
     key: "$CI_JOB_NAME"
   script:
     - *multilib
-    - *environment
-    - *dco
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-
-.x86_64-build-job-rpm: &x86_64-build-job-rpm
-  stage: builds
-  image: quay.io/libvirt/buildenv-libosinfo-$NAME:latest
-  cache:
-    paths:
-      - ccache
-    key: "$CI_JOB_NAME"
-  script:
-    - *multilib
-    - *environment
+    - *native-environment
     - *dco
     - *osinfo-db-tools-build
     - *osinfo-db-build
@@ -97,56 +82,61 @@ stages:
     - *osinfo-db-rpm
 
 centos-7:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: centos-7
 
 centos-8:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: centos-8
 
 debian-9:
-  <<: *x86_64-build-job-deb
+  <<: *native-build-job
   variables:
     NAME: debian-9
+    RPM: skip
 
 debian-10:
-  <<: *x86_64-build-job-deb
+  <<: *native-build-job
   variables:
     NAME: debian-10
+    RPM: skip
 
 debian-sid:
-  <<: *x86_64-build-job-deb
+  <<: *native-build-job
   variables:
     NAME: debian-sid
+    RPM: skip
 
 fedora-31:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: fedora-31
 
 fedora-32:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: fedora-32
 
 fedora-rawhide:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: fedora-rawhide
 
 opensuse-151:
-  <<: *x86_64-build-job-rpm
+  <<: *native-build-job
   variables:
     NAME: opensuse-151
 
 ubuntu-1804:
-  <<: *x86_64-build-job-deb
+  <<: *native-build-job
   variables:
     NAME: ubuntu-1804
+    RPM: skip
 
 ubuntu-2004:
-  <<: *x86_64-build-job-deb
+  <<: *native-build-job
   variables:
     NAME: ubuntu-2004
+    RPM: skip
