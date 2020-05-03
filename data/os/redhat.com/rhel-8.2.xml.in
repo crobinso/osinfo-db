@@ -12,7 +12,7 @@
     <upgrades id="http://redhat.com/rhel/8.1"/>
     <derives-from id="http://redhat.com/rhel/8.1"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2020-04-28</release-date>
 
     <media arch="x86_64">
       <iso>
