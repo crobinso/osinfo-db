@@ -208,6 +208,7 @@
 
     <!-- 1810 -->
     <media arch="x86_64">
+      <variant id="everything"/>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
@@ -219,6 +220,7 @@
 
     <!-- 1908 -->
     <media arch="x86_64">
+      <variant id="everything"/>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
