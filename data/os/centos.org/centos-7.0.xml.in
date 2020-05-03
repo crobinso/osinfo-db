@@ -113,11 +113,22 @@
 
     <!-- 1908 -->
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
         <volume-size>4664014848</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 2003 -->
+    <media arch="x86_64">
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2003.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>4781221888</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -208,7 +219,6 @@
 
     <!-- 1908 -->
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
@@ -218,9 +228,22 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <!--2003 -->
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Everything-2003.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>10273531904</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-gnome"/>
-      <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveGNOME-1908.iso</url>
+      <url>http://isoredirect.centos.org/centos/7.8.2003/isos/x86_64/CentOS-7-x86_64-LiveGNOME-2003.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-(x86_64-(Live)?GNOME|live-GNOME-x86_64)</volume-id>
@@ -231,7 +254,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="live-kde"/>
-      <url>http://isoredirect.centos.org/centos/7.7.1908/isos/x86_64/CentOS-7-x86_64-LiveKDE-1908.iso</url>
+      <url>http://isoredirect.centos.org/centos/7.8.2003/isos/x86_64/CentOS-7-x86_64-LiveKDE-2003.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-7-(x86_64-(Live)?KDE|live-KDE-x86_64)</volume-id>
@@ -358,11 +381,26 @@
     <!-- 1908 -->
     <media arch="x86_64">
       <variant id="minimal"/>
-      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
         <volume-size>986845184</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+      <installer>
+        <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- 2003 -->
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-2003.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>1084676096</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -455,13 +493,26 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <!-- 1908 -->
     <media arch="x86_64">
       <variant id="netinstall"/>
-      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-1908.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS 7 x86_64</volume-id>
         <volume-size>578551808</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- 2003 -->
+    <media arch="x86_64">
+      <variant id="netinstall"/>
+      <url>http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-NetInstall-2003.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS 7 x86_64</volume-id>
+        <volume-size>595130368</volume-size>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
