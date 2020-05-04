@@ -40,10 +40,10 @@ Patch submissions
 =================
 
 Patch submissions are welcomed from any interested contributor.
-The preferred way to submit patches for libosinfo is opening a
+The preferred way to submit patches for osinfo-db is opening a
 Merge Request against:
 
-    https://gitlab.com/libosinfo/.
+    https://gitlab.com/libosinfo/osinfo-db
 
 General discussions can also happen at the mailing list:
 
