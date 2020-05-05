@@ -5,7 +5,11 @@
     <short-id>{{ image.branch }}</short-id>
     <_name>Endless OS {{ current_series }}</_name>
     <version>{{ current_series }}</version>
+{%- if current_series >= "3.8" %}
+    <_vendor>Endless OS LLC</_vendor>
+{%- else %}
     <_vendor>Endless Mobile, Inc</_vendor>
+{%- endif %}
     <family>linux</family>
     <distro>eos</distro>
 {% if previous_series %}
