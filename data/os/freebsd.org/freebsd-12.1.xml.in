@@ -1,0 +1,45 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freebsd.org/freebsd/12.1">
+    <short-id>freebsd12.1</short-id>
+    <_name>FreeBSD 12.1</_name>
+    <version>12.1</version>
+    <_vendor>FreeBSD Project</_vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/12.0"/>
+    <derives-from id="http://freebsd.org/freebsd/12.0"/>
+
+    <release-date>2019-11-04</release-date>
+
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>12_1_RELEASE_AMD64_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>12_1_RELEASE_AMD64_CD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>12_1_RELEASE_I386_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+            <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>12_1_RELEASE_I386_CD</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
