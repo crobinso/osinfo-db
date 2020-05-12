@@ -16,6 +16,7 @@ INTLTOOL_MERGE = intltool-merge
 INTLTOOL_EXTRACT = intltool-extract
 INTLTOOL_UPDATE = intltool-update
 XGETTEXT = xgettext
+MSGMERGE = msgmerge
 
 GETTEXT_PACKAGE = osinfo-db
 
@@ -105,8 +106,7 @@ update-po:
         for file in *.po; do \
 	  lang=`echo $$file | $(SED) -e 's/.po//'`; \
           echo "$$lang:"; \
-          result="`$(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --dist -o $$lang.new.po $$lang`"; \
-          if $$result; then \
+          if $(MSGMERGE) --previous -o $$lang.new.po $$lang osinfo-db.pot; then \
             if cmp $$lang.po $$lang.new.po >/dev/null 2>&1; then \
               rm -f $$lang.new.po; \
             else \
