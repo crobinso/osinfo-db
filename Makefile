@@ -33,8 +33,6 @@ ITS_RULES = $(VPATH)/po/itstool/its/osinfo-db.its
 
 ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
-ZANATA = zanata
-
 PYTHON = python3
 
 V = 0
@@ -94,12 +92,6 @@ po/POTFILES.in:
 
 po/osinfo-db.pot: po/POTFILES.in $(DATA_FILES_IN)
 	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) --itstool -o $@ --package-name $(GETTEXT_PACKAGE) $(sort $(DATA_FILES_IN))
-
-po-push: po/osinfo-db.pot
-	(cd po && $(ZANATA) push --push-type source)
-
-po-pull: po/osinfo-db.pot
-	(cd po && $(ZANATA) pull)
 
 update-po:
 	cd po && \
