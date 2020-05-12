@@ -15,6 +15,7 @@ OSINFO_DB_TARGET = --user
 INTLTOOL_MERGE = intltool-merge
 INTLTOOL_EXTRACT = intltool-extract
 INTLTOOL_UPDATE = intltool-update
+XGETTEXT = xgettext
 
 GETTEXT_PACKAGE = osinfo-db
 
@@ -91,7 +92,7 @@ po/POTFILES.in:
 	$(V_GEN) find data -name *.xml.in | LC_ALL=C sort > $@
 
 po/osinfo-db.pot: po/POTFILES.in $(DATA_FILES_IN)
-	$(V_GEN) cd po && $(INTLTOOL_UPDATE) --gettext-package $(GETTEXT_PACKAGE) --pot
+	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) --itstool -o $@ --package-name $(GETTEXT_PACKAGE) $(sort $(DATA_FILES_IN))
 
 po-push: po/osinfo-db.pot
 	(cd po && $(ZANATA) push --push-type source)
