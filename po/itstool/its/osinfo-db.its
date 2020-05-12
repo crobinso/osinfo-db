@@ -1,0 +1,8 @@
+<its:rules
+    xmlns:its="http://www.w3.org/2005/11/its"
+    version="2.0">
+  <!-- Disable the extraction of all the tags by default. -->
+  <its:translateRule selector="//libosinfo" translate="no"/>
+  <!-- Extract the content of <_name> & <_vendor> tags. -->
+  <its:translateRule selector="//_name | //_vendor" translate="yes"/>
+</its:rules>

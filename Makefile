@@ -27,6 +27,7 @@ SCHEMA_FILES_IN = data/schema/osinfo.rng.in
 SCHEMA_FILES = data/schema/osinfo.rng
 
 PO_FILES = $(wildcard $(VPATH)/po/*.po)
+ITS_RULES = $(VPATH)/po/itstool/its/osinfo-db.its
 
 ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
