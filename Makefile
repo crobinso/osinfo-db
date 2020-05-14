@@ -13,8 +13,6 @@ DESTDIR = /
 OSINFO_DB_TARGET = --user
 
 INTLTOOL_MERGE = intltool-merge
-INTLTOOL_EXTRACT = intltool-extract
-INTLTOOL_UPDATE = intltool-update
 XGETTEXT = xgettext
 MSGMERGE = msgmerge
 
@@ -85,12 +83,9 @@ $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
 
 clean:
 	rm -f osinfo-db-*.tar.xz
-	rm -f $(DATA_FILES) $(SCHEMA_FILES) po/POTFILES.in
+	rm -f $(DATA_FILES) $(SCHEMA_FILES)
 
-po/POTFILES.in:
-	$(V_GEN) find data -name *.xml.in | LC_ALL=C sort > $@
-
-po/osinfo-db.pot: po/POTFILES.in $(DATA_FILES_IN)
+po/osinfo-db.pot: $(DATA_FILES_IN)
 	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) --itstool -o $@ --package-name $(GETTEXT_PACKAGE) $(sort $(DATA_FILES_IN))
 
 update-po:
