@@ -66,7 +66,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="gnome"/>
-      <url>https://osdn.net/projects/manjaro/storage/gnome/19.0.2/manjaro-gnome-19.0.2-200312-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/gnome/20.0.1/manjaro-gnome-20.0.1-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_GNOME_</volume-id>
       </iso>
@@ -76,7 +76,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="gnome-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/gnome/19.0.2/minimal/manjaro-gnome-19.0.2-minimal-200311-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/gnome/20.0.1/minimal/manjaro-gnome-20.0.1-minimal-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_GNOMEM_</volume-id>
       </iso>
@@ -86,7 +86,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="kde"/>
-      <url>https://osdn.net/projects/manjaro/storage/kde/19.0.2/manjaro-kde-19.0.2-200311-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/kde/20.0.1/manjaro-kde-20.0.1-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_KDE_</volume-id>
       </iso>
@@ -96,7 +96,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="kde-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/kde/19.0.2/minimal/manjaro-kde-19.0.2-minimal-200311-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/kde/20.0.1/minimal/manjaro-kde-20.0.1-minimal-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_KDEM_</volume-id>
       </iso>
@@ -106,7 +106,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="xfce"/>
-      <url>https://osdn.net/projects/manjaro/storage/xfce/19.0.2/manjaro-xfce-19.0.2-200311-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/xfce/20.0.1/manjaro-xfce-20.0.1-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_XFCE_</volume-id>
       </iso>
@@ -116,7 +116,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="xfce-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/xfce/19.0.2/minimal/manjaro-xfce-19.0.2-minimal-200311-linux54.iso</url>
+      <url>https://osdn.net/projects/manjaro/storage/xfce/20.0.1/minimal/manjaro-xfce-20.0.1-minimal-200511-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_XFCEM_</volume-id>
       </iso>
