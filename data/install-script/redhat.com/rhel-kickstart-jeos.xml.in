@@ -152,7 +152,7 @@ text
 keyboard us
 lang <xsl:value-of select="config/l10n-language"/>
 skipx
-network --bootproto dhcp
+network --onboot yes --bootproto dhcp
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
 <xsl:if test="os/version &lt; 8 or os/version = '6-unknown' or os/version = '7-unknown'">
