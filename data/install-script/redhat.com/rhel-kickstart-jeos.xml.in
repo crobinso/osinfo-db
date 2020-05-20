@@ -8,6 +8,7 @@
       <param name="admin-password" policy="required"/>
       <param name="user-login" policy="optional"/>
       <param name="user-password" policy="optional"/>
+      <param name="hostname" policy="optional"/>
       <param name="l10n-keyboard" policy="optional"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
@@ -152,7 +153,7 @@ text
 keyboard us
 lang <xsl:value-of select="config/l10n-language"/>
 skipx
-network --onboot yes --bootproto dhcp
+network --onboot yes --bootproto dhcp --hostname=<xsl:value-of select="config/hostname"/>
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
 <xsl:if test="os/version &lt; 8 or os/version = '6-unknown' or os/version = '7-unknown'">
