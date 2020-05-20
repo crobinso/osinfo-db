@@ -65,7 +65,7 @@
               <xsl:value-of select="config/hostname"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="os/short-id"/>
+              <xsl:text>locahost</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:template>
