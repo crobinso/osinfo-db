@@ -10,6 +10,7 @@
       <param name="user-realname" policy="optional"/>
       <param name="user-login" policy="optional"/>
       <param name="user-password" policy="optional"/>
+      <param name="hostname" policy="optional"/>
       <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-timezone" policy="optional"/>
       <param name="l10n-language" policy="optional"/>
@@ -72,6 +73,17 @@
           </xsl:choose>
         </xsl:template>
 
+        <xsl:template name="hostname">
+          <xsl:choose>
+            <xsl:when test="config/hostname != ''">
+              <xsl:value-of select="config/hostname"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>locahost</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template match="/command-line">
             <xsl:text> keyboard-configuration/xkb-keymap=</xsl:text>
             <xsl:call-template name="l10n-keyboard"/>
@@ -84,7 +96,7 @@ d-i console-setup/ask_detect boolean false
 d-i console-setup/layoutcode string <xsl:call-template name="l10n-keyboard"/>
 
 d-i netcfg/choose_interface select auto
-d-i netcfg/get_hostname string localhost
+d-i netcfg/get_hostname string <xsl:call-template name="hostname"/>
 d-i netcfg/get_domain string localdomain
 d-i netcfg/disable_dhcp     boolean false
 d-i mirror/http/proxy string
