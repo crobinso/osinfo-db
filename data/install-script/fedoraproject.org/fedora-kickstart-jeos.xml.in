@@ -168,7 +168,7 @@ langsupport --default <xsl:value-of select="config/l10n-language"/> <xsl:value-o
 mouse generic3ps/2 --device psaux
 </xsl:if>
 skipx
-network --bootproto dhcp
+network --onboot yes --bootproto dhcp
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
 <xsl:choose>
