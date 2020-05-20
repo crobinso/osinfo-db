@@ -8,6 +8,7 @@
       <param name="admin-password" policy="required"/>
       <param name="user-login" policy="optional"/>
       <param name="user-password" policy="optional"/>
+      <param name="hostname" policy="optional"/>
       <param name="l10n-keyboard" policy="optional" value-map="http://x.org/x11-keyboard"/>
       <param name="l10n-language" policy="optional"/>
       <param name="l10n-timezone" policy="optional"/>
@@ -168,7 +169,7 @@ langsupport --default <xsl:value-of select="config/l10n-language"/> <xsl:value-o
 mouse generic3ps/2 --device psaux
 </xsl:if>
 skipx
-network --onboot yes --bootproto dhcp
+network --onboot yes --bootproto dhcp --hostname=<xsl:value-of select="config/hostname"/>
 rootpw <xsl:value-of select="config/admin-password"/>
 firewall --disabled
 <xsl:choose>
