@@ -31,6 +31,17 @@
 
         <xsl:output method="text"/>
 
+        <xsl:template name="hostname">
+          <xsl:choose>
+            <xsl:when test="config/hostname != ''">
+              <xsl:value-of select="config/hostname"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>localhost</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:template>
+
         <xsl:template name="target-disk">
           <xsl:choose>
             <xsl:when test="config/target-disk != ''">
@@ -179,7 +190,7 @@ cdrom
 </xsl:if>
 keyboard us
 lang <xsl:value-of select="config/l10n-language"/>
-network --onboot yes --bootproto dhcp --hostname=<xsl:value-of select="config/hostname"/>
+network --onboot yes --bootproto dhcp --hostname=<xsl:call-template name="hostname"/>
 rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
 firewall --disabled
 <xsl:if test="os/version &lt; 8 or os/version = '6-unknown' or os/version = '7-unknown'">
