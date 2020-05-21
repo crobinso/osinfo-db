@@ -5,7 +5,7 @@
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 10:47+0200\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
