@@ -89,7 +89,7 @@ install
 </xsl:if>
 keyboard '<xsl:value-of select="config/l10n-keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
-network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
+network --onboot yes --bootproto dhcp --hostname=<xsl:value-of select="config/hostname"/>
 <xsl:if test="os/version &lt; 31">
 rootpw <xsl:value-of select="config/admin-password"/>
 </xsl:if>
