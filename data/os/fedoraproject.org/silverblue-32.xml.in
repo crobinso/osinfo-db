@@ -60,12 +60,12 @@
       </minimum>
 
       <recommended>
-        <ram>2147483648</ram>
+        <ram>3221225472</ram>
         <storage>21474836480</storage>
       </recommended>
 
       <network-install>
-        <ram>5368709120</ram>
+        <ram>6442450944</ram>
       </network-install>
     </resources>
 
