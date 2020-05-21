@@ -10,8 +10,8 @@
         <param name="l10n-timezone" policy="optional"/>
         <param name="hostname" policy="optional"/>
         <param name="user-login" policy="required"/>
-        <param name="user-password" policy="optional"/>
-        <param name="admin-password" policy="optional"/>
+        <param name="user-password" policy="required"/>
+        <param name="admin-password" policy="required"/>
         <param name="target-disk" policy="optional"/>
         <param name="script-disk" policy="optional"/>
     </config>
@@ -90,7 +90,12 @@ install
 keyboard '<xsl:value-of select="config/l10n-keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --noipv6 --hostname=<xsl:value-of select="config/hostname"/>
-rootpw dummyPa55w0rd # Actual password set (or unset) in %post below
+<xsl:if test="os/version &lt; 31">
+rootpw <xsl:value-of select="config/admin-password"/>
+</xsl:if>
+<xsl:if test="os/version &gt; 30">
+user --name <xsl:value-of select="config/user-login"/> --password <xsl:value-of select="config/user-password"/> --groups "wheel"
+</xsl:if>
 firewall --disabled
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
@@ -117,19 +122,6 @@ graphical
 reboot
 
 %post --erroronfail
-
-useradd -G wheel <xsl:value-of select="config/user-login"/> # Add user
-if test -z '<xsl:value-of select="config/user-password"/>'; then
-    passwd -d <xsl:value-of select="config/user-login"/> # Make user account passwordless
-else
-    echo '<xsl:value-of select="config/user-password"/>' |passwd --stdin <xsl:value-of select="config/user-login"/>
-fi
-
-if test -z '<xsl:value-of select="config/admin-password"/>'; then
-    passwd -d root # Make root account passwordless
-else
-    echo '<xsl:value-of select="config/admin-password"/>' |passwd --stdin root
-fi
 
 # Enable autologin
 echo "[daemon]
