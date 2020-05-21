@@ -140,6 +140,7 @@
               <ask-list config:type="list"/>
               <mode>
                 <confirm config:type="boolean">false</confirm>
+                <second_stage config:type="boolean">false</second_stage>
                 <final_reboot config:type="boolean">true</final_reboot>
               </mode>
               <proposals config:type="list"/>
