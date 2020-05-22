@@ -4,13 +4,14 @@
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
 # Rodrigo de Araujo Sousa Fonseca <rodrigodearaujo@fedoraproject.org>, 2017. #zanata
 # Manuela Silva <mmsrs@sky.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 10:47+0200\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
-"Last-Translator: Manuela Silva <mmsrs@sky.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pt/>\n"
 "Language: pt\n"
@@ -1783,7 +1784,7 @@ msgstr "Fedora 27 Server"
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-28.xml.in:6
 msgid "Fedora 28"
-msgstr ""
+msgstr "Fedora 28"
 
 #. (itstool) path: variant/_name
 #. (itstool) path: variant/_name
@@ -1801,9 +1802,8 @@ msgstr "Fedora 28 Server"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-29.xml.in:6
-#, fuzzy
 msgid "Fedora 29"
-msgstr "Fedora 9 "
+msgstr "Fedora 29"
 
 #. (itstool) path: variant/_name
 #. (itstool) path: variant/_name
