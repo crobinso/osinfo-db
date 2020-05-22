@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 10:47+0200\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
 "Language: tr\n"
@@ -1874,10 +1875,8 @@ msgstr "Fedora 31 Everything"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 32"
-msgstr "Fedora 30"
+msgstr "Fedora 32"
 
 #. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:17
