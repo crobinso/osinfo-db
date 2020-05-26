@@ -26,6 +26,10 @@
       <_name>Fedora 32 Everything</_name>
     </variant>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
+    </devices>
+
     <!-- Workstation -->
 
     <!-- Live -->
