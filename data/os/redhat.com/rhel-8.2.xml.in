@@ -14,6 +14,10 @@
 
     <release-date>2020-04-28</release-date>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
+    </devices>
+
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
