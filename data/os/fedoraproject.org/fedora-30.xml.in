@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/29"/>
 
     <release-date>2019-04-30</release-date>
+    <eol-date>2020-05-26</eol-date>
 
     <variant id="workstation">
       <_name>Fedora 30 Workstation</_name>
