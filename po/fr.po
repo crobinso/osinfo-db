@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 10:47+0200\n"
-"PO-Revision-Date: 2020-01-19 05:16+0000\n"
+"PO-Revision-Date: 2020-05-27 13:10+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
-"Language-Team: French <https://translate.stg.fedoraproject.org/projects/"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: Weblate 4.0.4\n"
 
 #. (itstool) path: device/_vendor
 #. (itstool) path: device/_vendor
@@ -602,17 +602,13 @@ msgstr "CirrOS 0.4.0"
 
 #. (itstool) path: os/_name
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Linux 7"
 msgid "Clear Linux OS"
-msgstr "Red Hat Linux 7"
+msgstr "Clear Linux OS"
 
 #. (itstool) path: os/_vendor
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:7
-#, fuzzy
-#| msgid "Microsoft Corporation"
 msgid "Intel Corporation"
-msgstr "Microsoft Corporation"
+msgstr "Intel Corporation"
 
 #. (itstool) path: os/_name
 #: data/os/debian.org/debian-1.1.xml.in:7
@@ -1495,17 +1491,13 @@ msgstr "Endless OS 3.7"
 
 #. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.8.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS 3.8"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS 3.8"
 
 #. (itstool) path: os/_vendor
 #: data/os/endlessos.com/eos-3.8.xml.in:8
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS LLC"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS LLC"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-1.xml.in:6
@@ -1887,33 +1879,25 @@ msgstr "Fedora 31 Everything"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 32"
-msgstr "Fedora 30"
+msgstr "Fedora 32"
 
 #. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:17
-#, fuzzy
-#| msgid "Fedora 22 Workstation"
 msgid "Fedora 32 Workstation"
-msgstr "Fedora 22 Workstation"
+msgstr "Fedora 32 Workstation"
 
 #. (itstool) path: variant/_name
 #. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:20
 #: data/os/fedoraproject.org/fedora-32.xml.in:23
-#, fuzzy
-#| msgid "Fedora 22 Server"
 msgid "Fedora 32 Server"
-msgstr "Fedora 22 Server"
+msgstr "Fedora 32 Server"
 
 #. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 32 Everything"
-msgstr "Fedora 30 Everything"
+msgstr "Fedora 32 Everything"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
@@ -1992,10 +1976,8 @@ msgstr "Fedora Silverblue 31"
 
 #. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-32.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 32"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 32"
 
 #. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
@@ -2169,10 +2151,8 @@ msgstr "FreeBSD 12.0"
 
 #. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-12.1.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.1"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.1"
 
 #. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
@@ -2772,42 +2752,42 @@ msgstr "Mandriva Enterprise Server 5.1"
 #: data/os/manjaro.org/manjaro-rolling.xml.in:6
 #: data/os/manjaro.org/manjaro-rolling.xml.in:7
 msgid "Manjaro"
-msgstr ""
+msgstr "Manjaro"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
 msgid "Manjaro Architect"
-msgstr ""
+msgstr "Manjaro Architect"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
-msgstr ""
+msgstr "Manjaro GNOME"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:37
 msgid "Manjaro GNOME (Minimal)"
-msgstr ""
+msgstr "Manjaro GNOME (Minimal)"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:41
 msgid "Manjaro KDE"
-msgstr ""
+msgstr "Manjaro KDE"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:45
 msgid "Manjaro KDE (Minimal)"
-msgstr ""
+msgstr "Manjaro KDE (Minimal)"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:49
 msgid "Manjaro XFCE"
-msgstr ""
+msgstr "Manjaro XFCE"
 
 #. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:53
 msgid "Manjaro XFCE (Minimal)"
-msgstr ""
+msgstr "Manjaro XFCE (Minimal)"
 
 #. (itstool) path: os/_name
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
@@ -3361,17 +3341,13 @@ msgstr "NetBSD 8.1 Network Install"
 
 #. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 8.0"
 msgid "NetBSD 8.2"
-msgstr "NetBSD 8.0"
+msgstr "NetBSD 8.2"
 
 #. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 8.2 Network Install"
-msgstr "NetBSD 8.1 Network Install"
+msgstr "NetBSD 8.2 Network Install"
 
 #. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:17
