@@ -1,5 +1,6 @@
 stages:
   - prebuild
+  - containers
   - builds
 
 .multilib: &multilib |
@@ -25,6 +26,23 @@ stages:
   export CCACHE_DIR="$CCACHE_BASEDIR/ccache"
   export CCACHE_MAXSIZE="50M"
   export PATH="$CCACHE_WRAPPERSDIR:$PATH"
+
+.container_job_template: &container_job_definition
+  image: docker:stable
+  stage: containers
+  services:
+    - docker:dind
+  before_script:
+    - export TAG="$CI_REGISTRY_IMAGE/ci-$NAME:latest"
+    - export COMMON_TAG="$CI_REGISTRY/libosinfo/osinfo-db/ci-$NAME:latest"
+    - docker info
+    - docker login registry.gitlab.com -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD"
+  script:
+    - docker pull "$TAG" || docker pull "$COMMON_TAG" || true
+    - docker build --cache-from "$TAG" --cache-from "$COMMON_TAG" --tag "$TAG" -f "ci/ci-$NAME.Dockerfile" ci
+    - docker push "$TAG"
+  after_script:
+    - docker logout
 
 .osinfo-db-tools-build: &osinfo-db-tools-build |
   pushd /tmp/
@@ -62,7 +80,7 @@ stages:
 
 .native-build-job: &native-build-job
   stage: builds
-  image: quay.io/libvirt/buildenv-libosinfo-$NAME:latest
+  image: $CI_REGISTRY_IMAGE/ci-$NAME:latest
   cache:
     paths:
       - ccache
@@ -87,6 +105,64 @@ check-dco:
   except:
     variables:
       - $CI_PROJECT_NAMESPACE == "libosinfo"
+
+
+centos-7-container:
+  <<: *container_job_definition
+  variables:
+    NAME: centos-7
+
+centos-8-container:
+  <<: *container_job_definition
+  variables:
+    NAME: centos-8
+
+debian-9-container:
+  <<: *container_job_definition
+  variables:
+    NAME: debian-9
+
+debian-10-container:
+  <<: *container_job_definition
+  variables:
+    NAME: debian-10
+
+debian-sid-container:
+  <<: *container_job_definition
+  variables:
+    NAME: debian-sid
+
+fedora-31-container:
+  <<: *container_job_definition
+  variables:
+    NAME: fedora-31
+
+fedora-32-container:
+  <<: *container_job_definition
+  variables:
+    NAME: fedora-32
+
+fedora-rawhide-container:
+  <<: *container_job_definition
+  variables:
+    NAME: fedora-rawhide
+
+opensuse-151-container:
+  <<: *container_job_definition
+  variables:
+    NAME: opensuse-151
+    RPM: skip
+
+ubuntu-1804-container:
+  <<: *container_job_definition
+  variables:
+    NAME: ubuntu-1804
+
+ubuntu-2004-container:
+  <<: *container_job_definition
+  variables:
+    NAME: ubuntu-2004
+
 
 centos-7:
   <<: *native-build-job
