@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-14 10:47+0200\n"
-"PO-Revision-Date: 2020-05-27 13:10+0000\n"
+"PO-Revision-Date: 2020-05-29 02:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fr/>\n"
@@ -3351,36 +3351,28 @@ msgstr "NetBSD 8.2 Network Install"
 
 #. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 8.2 Network Install (Serial Console)"
-msgstr "NetBSD 8.1 Network Install"
+msgstr "NetBSD 8.2 Network Install (Serial Console)"
 
 #. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 1.0"
 msgid "NetBSD 9.0"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 9.0"
 
 #. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 9.0 Network Install"
-msgstr "NetBSD 8.1 Network Install"
+msgstr "NetBSD 9.0 Network Install"
 
 #. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 9.0 Network Install (Serial Console)"
-msgstr "NetBSD 8.1 Network Install"
+msgstr "NetBSD 9.0 Network Install (Serial Console)"
 
 #. (itstool) path: os/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
-msgstr ""
+msgstr "NixOS 20.03"
 
 #. (itstool) path: os/_vendor
 #. (itstool) path: os/_name
@@ -3391,32 +3383,32 @@ msgstr ""
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
 msgid "NixOS"
-msgstr ""
+msgstr "NixOS"
 
 #. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (CD d’installation minimal)"
 
 #. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
 
 #. (itstool) path: os/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
-msgstr ""
+msgstr "NixOS Unstable"
 
 #. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
-msgstr ""
+msgstr "NixOS Unstable (CD d’installation minimal)"
 
 #. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS Unstable (CD d’installation Plasma 5)"
 
 #. (itstool) path: os/_name
 #: data/os/novell.com/netware-4.xml.in:6
@@ -4537,10 +4529,8 @@ msgstr "Red Hat Enterprise Linux 7.7"
 
 #. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.8.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 7.0"
 msgid "Red Hat Enterprise Linux 7.8"
-msgstr "Red Hat Enterprise Linux 7.0"
+msgstr "Red Hat Enterprise Linux 7.8"
 
 #. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
@@ -4559,10 +4549,8 @@ msgstr "Red Hat Enterprise Linux 8.1"
 
 #. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-8.2.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.2"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.2"
 
 #. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -5434,10 +5422,8 @@ msgstr "Ubuntu 19.10"
 
 #. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 5.04"
 msgid "Ubuntu 20.04"
-msgstr "Ubuntu 5.04"
+msgstr "Ubuntu 20.04"
 
 #. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
