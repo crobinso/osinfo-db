@@ -74,8 +74,7 @@ stages:
   fi
   pushd .
   cd build
-  sed -i -e 's/BuildRequires: *osinfo-db.*//' *.spec*
-  rpmbuild --clean --define "_topdir `pwd`/rpmbuild" --define "_sourcedir `pwd`" -ba osinfo-db.spec
+  rpmbuild --nodeps --define "_sourcedir $PWD" -ba osinfo-db.spec
   popd
 
 .native-build-job: &native-build-job
