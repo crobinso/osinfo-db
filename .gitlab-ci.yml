@@ -154,7 +154,6 @@ opensuse-151-container:
   <<: *container_job_definition
   variables:
     NAME: opensuse-151
-    RPM: skip
 
 ubuntu-1804-container:
   <<: *container_job_definition
