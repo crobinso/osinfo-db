@@ -69,12 +69,11 @@ stages:
   popd
 
 .osinfo-db-rpm: &osinfo-db-rpm |
-  if test "$RPM" = "skip"; then
-    exit 0
-  fi
   pushd .
   cd build
-  rpmbuild --nodeps --define "_sourcedir $PWD" -ba osinfo-db.spec
+  if test -x /usr/bin/rpmbuild && test "$RPM" != "skip"; then
+    rpmbuild --nodeps --define "_sourcedir $PWD" -ba osinfo-db.spec
+  fi
   popd
 
 .native-build-job: &native-build-job
@@ -187,19 +186,16 @@ debian-9:
   <<: *native-build-job
   variables:
     NAME: debian-9
-    RPM: skip
 
 debian-10:
   <<: *native-build-job
   variables:
     NAME: debian-10
-    RPM: skip
 
 debian-sid:
   <<: *native-build-job
   variables:
     NAME: debian-sid
-    RPM: skip
 
 fedora-31:
   <<: *native-build-job
@@ -225,10 +221,8 @@ ubuntu-1804:
   <<: *native-build-job
   variables:
     NAME: ubuntu-1804
-    RPM: skip
 
 ubuntu-2004:
   <<: *native-build-job
   variables:
     NAME: ubuntu-2004
-    RPM: skip
