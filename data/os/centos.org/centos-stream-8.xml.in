@@ -43,10 +43,76 @@
       <_name>CentOS Stream 8</_name>
     </variant>
 
+    <!-- 20200629 release -->
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20200629-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
+        <volume-size>684177408</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20200629-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
+        <volume-size>8850888704</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20200629-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
+        <volume-size>606529536</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20200629-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
+        <volume-size>6519154688</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20200629-boot.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS_Stream_8_ppc64le_dvd</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20200629-dvd1.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
     <!-- 20191219 release -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20191219-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -57,7 +123,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20191219-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -69,7 +134,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20191219-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -80,7 +144,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20191219-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -88,26 +151,6 @@
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
-    </media>
-
-    <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20191219-boot.iso</url>
-      <iso>
-        <system-id>PPC</system-id>
-        <volume-id>CentOS_Stream_8_ppc64le_dvd</volume-id>
-      </iso>
-      <kernel>ppc/ppc64/vmlinuz</kernel>
-      <initrd>ppc/ppc64/initrd.img</initrd>
-    </media>
-
-    <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20191219-dvd1.iso</url>
-      <iso>
-        <system-id>PPC</system-id>
-        <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
-      </iso>
-      <kernel>ppc/ppc64/vmlinuz</kernel>
-      <initrd>ppc/ppc64/initrd.img</initrd>
     </media>
 
     <!-- First release -->
