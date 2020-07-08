@@ -26,6 +26,9 @@ DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 SCHEMA_FILES_IN = data/schema/osinfo.rng.in
 SCHEMA_FILES = data/schema/osinfo.rng
 
+SPEC_FILES_IN = osinfo-db.spec.in mingw-osinfo-db.spec.in
+SPEC_FILES = $(SPEC_FILES_IN:%.in=%)
+
 PO_FILES = $(wildcard $(VPATH)/po/*.po)
 ITS_RULES = $(VPATH)/po/gettext/its/osinfo-db.its
 
@@ -49,7 +52,7 @@ V_EXP_1 =
 
 ABS_TOPDIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
-all: $(ARCHIVE) osinfo-db.spec mingw-osinfo-db.spec
+all: $(ARCHIVE) $(SPEC_FILES)
 
 install: $(ARCHIVE)
 	$(OSINFO_DB_IMPORT) --root $(DESTDIR) $(OSINFO_DB_TARGET) $(ARCHIVE)
@@ -77,7 +80,7 @@ $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
 
 clean:
 	rm -f osinfo-db-*.tar.xz
-	rm -f $(DATA_FILES) $(SCHEMA_FILES)
+	rm -f $(DATA_FILES) $(SCHEMA_FILES) $(SPEC_FILES)
 
 po/osinfo-db.pot: $(DATA_FILES_IN)
 	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) -F -o $@ --package-name $(GETTEXT_PACKAGE) $(DATA_FILES_IN)
