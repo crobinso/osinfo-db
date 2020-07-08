@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<locatingRules>
+  <locatingRule name="osinfo-db" pattern="*.xml">
+    <documentRule localName="libosinfo" target="osinfo-db.its"/>
+  </locatingRule>
+</locatingRules>
