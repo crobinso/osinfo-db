@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.2">
     <short-id>macosx10.2</short-id>
-    <_name>MacOS X Jaguar</_name>
+    <name>MacOS X Jaguar</name>
     <version>10.2</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Jaguar</codename>

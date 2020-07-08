@@ -5,9 +5,9 @@
     <short-id>debian4</short-id>
     <short-id>debian4.0</short-id>
     <short-id>debianetch</short-id>
-    <_name>Debian GNU/Linux 4.0</_name>
+    <name>Debian GNU/Linux 4.0</name>
     <version>4.0</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>etch</codename>

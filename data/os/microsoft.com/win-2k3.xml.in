@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/2k3">
     <short-id>win2k3</short-id>
-    <_name>Microsoft Windows Server 2003</_name>
+    <name>Microsoft Windows Server 2003</name>
     <version>5.2</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/2k"/>

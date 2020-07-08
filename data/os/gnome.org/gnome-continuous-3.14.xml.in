@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://gnome.org/gnome-continuous/3.14">
     <short-id>gnome-continuous-3.14</short-id>
-    <_name>GNOME 3.14</_name>
+    <name>GNOME 3.14</name>
     <version>3.14</version>
-    <_vendor>GNOME Project</_vendor>
+    <vendor>GNOME Project</vendor>
     <family>linux</family>
     <distro>gnome</distro>
     <derives-from id="http://gnome.org/gnome-continuous/3.12"/>

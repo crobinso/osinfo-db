@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/8">
     <short-id>win8</short-id>
-    <_name>Microsoft Windows 8</_name>
+    <name>Microsoft Windows 8</name>
     <version>6.2</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/7"/>
@@ -15,16 +15,16 @@
     <eol-date>2018-01-09</eol-date>
 
     <variant id="debug">
-      <_name>Microsoft Windows 8 Debug Check Build</_name>
+      <name>Microsoft Windows 8 Debug Check Build</name>
     </variant>
     <variant id="enterprise">
-      <_name>Microsoft Windows 8 Enterprise</_name>
+      <name>Microsoft Windows 8 Enterprise</name>
     </variant>
     <variant id="enterprise-debug">
-      <_name>Microsoft Windows 8 Enterprise Debug Check Build</_name>
+      <name>Microsoft Windows 8 Enterprise Debug Check Build</name>
     </variant>
     <variant id="professional">
-      <_name>Microsoft Windows 8 Professional</_name>
+      <name>Microsoft Windows 8 Professional</name>
     </variant>
 
     <!-- No Variant -->

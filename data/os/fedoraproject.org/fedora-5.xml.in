@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/5">
     <short-id>fedora5</short-id>
-    <_name>Fedora Core 5</_name>
+    <name>Fedora Core 5</name>
     <version>5</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Bordeaux</codename>

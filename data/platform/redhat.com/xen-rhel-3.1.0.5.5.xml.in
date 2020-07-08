@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <platform id="http://redhat.com/xen-rhel/3.1.0.5.5">
     <short-id>xen-rhel-3.1.0.5.5</short-id>
-    <_name>Xen 3.1.0 (RHEL 5.5)</_name>
-    <_vendor>Red Hat, Inc.</_vendor>
+    <name>Xen 3.1.0 (RHEL 5.5)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.1.0.5.5</version>
 
     <upgrades id="http://redhat.com/xen-rhel/3.1.0.5.4"/>

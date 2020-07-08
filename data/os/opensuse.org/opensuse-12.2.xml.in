@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://opensuse.org/opensuse/12.2">
     <short-id>opensuse12.2</short-id>
-    <_name>openSUSE 12.2</_name>
+    <name>openSUSE 12.2</name>
     <version>12.2</version>
-    <_vendor>openSUSE</_vendor>
+    <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/12.1" />

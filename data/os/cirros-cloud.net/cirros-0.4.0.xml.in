@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://cirros-cloud.net/cirros/0.4.0">
     <short-id>cirros0.4.0</short-id>
-    <_name>CirrOS 0.4.0</_name>
+    <name>CirrOS 0.4.0</name>
     <version>0.4.0</version>
-    <_vendor>CirrOS</_vendor>
+    <vendor>CirrOS</vendor>
     <family>linux</family>
     <distro>cirros</distro>
     <upgrades id="http://cirros-cloud.net/cirros/0.3.5"/>

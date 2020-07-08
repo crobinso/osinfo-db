@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.3">
     <short-id>macosx10.3</short-id>
-    <_name>MacOS X Panther</_name>
+    <name>MacOS X Panther</name>
     <version>10.3</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Panther</codename>

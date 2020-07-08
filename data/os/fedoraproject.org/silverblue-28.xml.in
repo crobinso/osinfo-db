@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/silverblue/28">
     <short-id>silverblue28</short-id>
-    <_name>Fedora Silverblue 28</_name>
+    <name>Fedora Silverblue 28</name>
     <version>28</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <derives-from id="http://fedoraproject.org/fedora/27"/>

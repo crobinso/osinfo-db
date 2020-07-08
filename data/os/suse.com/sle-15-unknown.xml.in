@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/sle/15-unknown">
     <short-id>sle15-unknown</short-id>
-    <_name>SUSE Linux Enterprise 15 Unknown</_name>
+    <name>SUSE Linux Enterprise 15 Unknown</name>
     <version>15-unknown</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sle</distro>
     <upgrades id="http://suse.com/sle/15"/>

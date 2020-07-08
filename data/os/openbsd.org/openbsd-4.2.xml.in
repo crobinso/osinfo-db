@@ -3,17 +3,17 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://openbsd.org/openbsd/4.2">
     <short-id>openbsd4.2</short-id>
-    <_name>OpenBSD 4.2</_name>
+    <name>OpenBSD 4.2</name>
     <version>4.2</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <_vendor>OpenBSD Project</_vendor>
+    <vendor>OpenBSD Project</vendor>
 
     <release-date>2007-11-01</release-date>
     <eol-date>2008-11-01</eol-date>
 
     <variant id="netinst">
-      <_name>OpenBSD 4.2</_name>
+      <name>OpenBSD 4.2</name>
     </variant>
 
     <media arch="i686">

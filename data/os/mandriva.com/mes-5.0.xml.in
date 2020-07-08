@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://mandriva.com/mes/5.0">
     <short-id>mes5</short-id>
-    <_name>Mandriva Enterprise Server 5.0</_name>
+    <name>Mandriva Enterprise Server 5.0</name>
     <version>5.0</version>
-    <_vendor>Mandriva</_vendor>
+    <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mes</distro>
 

@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/winnt/3.1">
     <short-id>winnt3.1</short-id>
-    <_name>Microsoft Windows NT Server 3.1</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows NT Server 3.1</name>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>winnt</distro>
     <version>3.1</version>

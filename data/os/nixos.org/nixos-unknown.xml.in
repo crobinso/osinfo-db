@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://nixos.org/nixos/unknown">
     <short-id>nixos-unknown</short-id>
-    <_name>NixOS</_name>
-    <_vendor>NixOS</_vendor>
+    <name>NixOS</name>
+    <vendor>NixOS</vendor>
     <family>linux</family>
     <distro>nixos</distro>
 

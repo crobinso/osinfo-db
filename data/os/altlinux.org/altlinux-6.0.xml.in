@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/altlinux/6.0">
     <short-id>altlinux6.0</short-id>
-    <_name>ALT Linux 6.0</_name>
+    <name>ALT Linux 6.0</name>
     <version>6.0</version>
-    <_vendor>ALTLinux</_vendor>
+    <vendor>ALTLinux</vendor>
     <family>linux</family>
     <distro>altlinux</distro>
     <codename>Centaurus</codename>

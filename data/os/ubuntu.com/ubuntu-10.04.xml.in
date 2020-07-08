@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/10.04">
     <short-id>ubuntu10.04</short-id>
     <short-id>ubuntulucid</short-id>
-    <_name>Ubuntu 10.04 LTS</_name>
+    <name>Ubuntu 10.04 LTS</name>
     <version>10.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Lucid Lynx</codename>

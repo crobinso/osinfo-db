@@ -4,9 +4,9 @@
   <os id="http://debian.org/debian/2.0">
     <short-id>debian2.0</short-id>
     <short-id>debianhamm</short-id>
-    <_name>Debian GNU/Linux 2.0</_name>
+    <name>Debian GNU/Linux 2.0</name>
     <version>2.0</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>hamm</codename>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhel/5.5">
     <short-id>rhel5.5</short-id>
-    <_name>Red Hat Enterprise Linux 5.5</_name>
+    <name>Red Hat Enterprise Linux 5.5</name>
     <version>5.5</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Tikanga</codename>

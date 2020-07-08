@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://gentoo.org/gentoo/rolling">
     <short-id>gentoo</short-id>
-    <_name>Gentoo Linux</_name>
-    <_vendor>Gentoo Foundation</_vendor>
+    <name>Gentoo Linux</name>
+    <vendor>Gentoo Foundation</vendor>
     <family>linux</family>
     <distro>gentoo</distro>
 

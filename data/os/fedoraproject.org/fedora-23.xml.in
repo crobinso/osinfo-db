@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/23">
     <short-id>fedora23</short-id>
-    <_name>Fedora 23</_name>
+    <name>Fedora 23</name>
     <version>23</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/22"/>
@@ -15,16 +15,16 @@
     <eol-date>2016-12-20</eol-date>
 
     <variant id="workstation">
-      <_name>Fedora 23 Workstation</_name>
+      <name>Fedora 23 Workstation</name>
     </variant>
     <variant id="workstation-netinst">
-      <_name>Fedora 23 Workstation</_name>
+      <name>Fedora 23 Workstation</name>
     </variant>
     <variant id="server">
-      <_name>Fedora 23 Server</_name>
+      <name>Fedora 23 Server</name>
     </variant>
     <variant id="server-netinst">
-      <_name>Fedora 23 Server</_name>
+      <name>Fedora 23 Server</name>
     </variant>
 
     <devices>

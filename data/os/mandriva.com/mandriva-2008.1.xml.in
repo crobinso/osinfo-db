@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://mandriva.com/mandriva/2008.1">
     <short-id>mandriva2008.1</short-id>
-    <_name>Mandriva Linux 2008 Spring</_name>
-    <_vendor>Mandriva</_vendor>
+    <name>Mandriva Linux 2008 Spring</name>
+    <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandriva</distro>
     <version>2008.1</version>

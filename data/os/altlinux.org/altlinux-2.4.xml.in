@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/altlinux/2.4">
     <short-id>altlinux2.4</short-id>
-    <_name>ALT Linux 2.4</_name>
+    <name>ALT Linux 2.4</name>
     <version>2.4</version>
-    <_vendor>ALTLinux</_vendor>
+    <vendor>ALTLinux</vendor>
     <family>linux</family>
     <distro>altlinux</distro>
     <codename>Citron</codename>

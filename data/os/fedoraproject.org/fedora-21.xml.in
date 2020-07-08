@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/21">
     <short-id>fedora21</short-id>
-    <_name>Fedora 21</_name>
+    <name>Fedora 21</name>
     <version>21</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/20"/>
@@ -15,16 +15,16 @@
     <eol-date>2015-12-01</eol-date>
 
     <variant id="workstation">
-      <_name>Fedora 21 Workstation</_name>
+      <name>Fedora 21 Workstation</name>
     </variant>
     <variant id="server">
-      <_name>Fedora 21 Server</_name>
+      <name>Fedora 21 Server</name>
     </variant>
     <variant id="netinst">
-      <_name>Fedora 21</_name>
+      <name>Fedora 21</name>
     </variant>
     <variant id="cloud">
-      <_name>Fedora 21 Cloud</_name>
+      <name>Fedora 21 Cloud</name>
     </variant>
 
     <!-- Workstation -->

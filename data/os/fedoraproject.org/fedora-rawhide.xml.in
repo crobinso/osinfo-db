@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/rawhide">
     <short-id>fedora-rawhide</short-id>
-    <_name>Fedora Rawhide</_name>
+    <name>Fedora Rawhide</name>
     <version>Rawhide</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/32"/>
@@ -13,13 +13,13 @@
     <release-status>prerelease</release-status>
 
     <variant id="workstation">
-      <_name>Fedora Rawhide Workstation</_name>
+      <name>Fedora Rawhide Workstation</name>
     </variant>
     <variant id="server">
-      <_name>Fedora Rawhide Server</_name>
+      <name>Fedora Rawhide Server</name>
     </variant>
     <variant id="everything-netinst">
-      <_name>Fedora Rawhide Everything</_name>
+      <name>Fedora Rawhide Everything</name>
     </variant>
 
     <media arch="x86_64">

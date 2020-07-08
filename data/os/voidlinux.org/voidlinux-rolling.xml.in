@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://voidlinux.org/voidlinux/rolling">
     <short-id>voidlinux</short-id>
-    <_name>Void Linux</_name>
-    <_vendor>Void Linux</_vendor>
+    <name>Void Linux</name>
+    <vendor>Void Linux</vendor>
     <family>linux</family>
     <distro>voidlinux</distro>
 

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://freebsd.org/freebsd/6.0">
     <short-id>freebsd6.0</short-id>
-    <_name>FreeBSD 6.0</_name>
+    <name>FreeBSD 6.0</name>
     <version>6.0</version>
-    <_vendor>FreeBSD Project</_vendor>
+    <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
     <upgrades id="http://freebsd.org/freebsd/5.5"/>

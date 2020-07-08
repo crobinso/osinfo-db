@@ -4,9 +4,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://elementary.io/elementary/5.0">
     <short-id>elementary5.0</short-id>
-    <_name>Elementary OS 5.0 Juno</_name>
+    <name>Elementary OS 5.0 Juno</name>
     <version>5.0</version>
-    <_vendor>Elementary, Inc.</_vendor>
+    <vendor>Elementary, Inc.</vendor>
     <distro>elementaryos</distro>
     <codename>Juno</codename>
     <derives-from id="http://ubuntu.com/ubuntu/18.04"/>

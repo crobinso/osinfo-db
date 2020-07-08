@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://mandriva.com/mandrake/9.0">
     <short-id>mandrake9.0</short-id>
-    <_name>Mandrake Linux 9.0</_name>
-    <_vendor>Mandriva</_vendor>
+    <name>Mandrake Linux 9.0</name>
+    <vendor>Mandriva</vendor>
     <family>linux</family>
     <distro>mandrake</distro>
     <codename>Dolphin</codename>

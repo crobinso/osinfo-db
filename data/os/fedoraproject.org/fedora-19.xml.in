@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/19">
     <short-id>fedora19</short-id>
-    <_name>Fedora 19</_name>
+    <name>Fedora 19</name>
     <version>19</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Schrödinger's Cat</codename>

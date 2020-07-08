@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/unknown">
     <short-id>fedora-unknown</short-id>
-    <_name>Fedora</_name>
+    <name>Fedora</name>
     <version>unknown</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/rawhide"/>

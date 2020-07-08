@@ -3,8 +3,8 @@
 
   <os id="http://clearlinux.org/clearlinux/rolling">
     <short-id>clearlinux</short-id>
-    <_name>Clear Linux OS</_name>
-    <_vendor>Intel Corporation</_vendor>
+    <name>Clear Linux OS</name>
+    <vendor>Intel Corporation</vendor>
     <family>linux</family>
     <distro>clearlinux</distro>
 

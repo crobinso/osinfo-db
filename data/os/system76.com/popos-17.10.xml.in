@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://system76.com/popos/17.10">
     <short-id>popos17.10</short-id>
-    <_name>Pop!_OS 17.10</_name>
+    <name>Pop!_OS 17.10</name>
     <version>17.10</version>
-    <_vendor>System76, Inc.</_vendor>
+    <vendor>System76, Inc.</vendor>
     <family>linux</family>
     <distro>popos</distro>
     <clones id="http://ubuntu.com/ubuntu/17.10"/>

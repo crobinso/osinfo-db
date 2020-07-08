@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <platform id="http://redhat.com/xen-rhel/3.0.3.5.0">
     <short-id>xen-rhel-3.0.3.5.0</short-id>
-    <_name>Xen 3.0.3 (RHEL 5.0)</_name>
-    <_vendor>Red Hat, Inc.</_vendor>
+    <name>Xen 3.0.3 (RHEL 5.0)</name>
+    <vendor>Red Hat, Inc.</vendor>
     <version>3.0.3.5.0</version>
 
     <derives-from id="http://xen.org/xen/3.0.3"/>

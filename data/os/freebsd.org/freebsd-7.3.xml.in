@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://freebsd.org/freebsd/7.3">
     <short-id>freebsd7.3</short-id>
-    <_name>FreeBSD 7.3</_name>
+    <name>FreeBSD 7.3</name>
     <version>7.3</version>
-    <_vendor>FreeBSD Project</_vendor>
+    <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
 

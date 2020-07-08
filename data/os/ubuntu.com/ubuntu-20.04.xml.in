@@ -5,9 +5,9 @@
   <os id="http://ubuntu.com/ubuntu/20.04">
     <short-id>ubuntu20.04</short-id>
     <short-id>ubuntufocal</short-id>
-    <_name>Ubuntu 20.04</_name>
+    <name>Ubuntu 20.04</name>
     <version>20.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Focal Fossa</codename>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/xp">
     <short-id>winxp</short-id>
-    <_name>Microsoft Windows XP</_name>
+    <name>Microsoft Windows XP</name>
     <version>5.1</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/2k"/>

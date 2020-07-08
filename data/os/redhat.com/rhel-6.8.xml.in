@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhel/6.8">
     <short-id>rhel6.8</short-id>
-    <_name>Red Hat Enterprise Linux 6.8</_name>
+    <name>Red Hat Enterprise Linux 6.8</name>
     <version>6.8</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Santiago</codename>

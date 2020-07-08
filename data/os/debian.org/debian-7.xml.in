@@ -4,9 +4,9 @@
   <os id="http://debian.org/debian/7">
     <short-id>debian7</short-id>
     <short-id>debianwheezy</short-id>
-    <_name>Debian 7</_name>
+    <name>Debian 7</name>
     <version>7</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>wheezy</codename>

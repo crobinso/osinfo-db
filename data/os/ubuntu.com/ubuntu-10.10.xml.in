@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/10.10">
     <short-id>ubuntu10.10</short-id>
     <short-id>ubuntumaverick</short-id>
-    <_name>Ubuntu 10.10</_name>
+    <name>Ubuntu 10.10</name>
     <version>10.10</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Maverick Meerkat</codename>

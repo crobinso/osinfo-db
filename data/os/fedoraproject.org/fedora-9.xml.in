@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/9">
     <short-id>fedora9</short-id>
-    <_name>Fedora 9</_name>
+    <name>Fedora 9</name>
     <version>9</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Sulphur</codename>

@@ -1,9 +1,9 @@
 <libosinfo version="0.0.1">
   <os id="http://haiku-os.org/haiku/r1alpha2">
     <short-id>haikur1alpha2</short-id>
-    <_name>Haiku R1/Alpha2</_name>
+    <name>Haiku R1/Alpha2</name>
     <version>r1alpha2</version>
-    <_vendor>Haiku, Inc.</_vendor>
+    <vendor>Haiku, Inc.</vendor>
     <family>haiku</family>
     <distro>haiku</distro>
     <upgrades id="http://haiku-os.org/haiku/r1alpha1"/>

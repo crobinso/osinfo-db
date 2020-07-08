@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <platform id="http://linux-kvm.org/qemu-kvm/1.1.2">
     <short-id>qemu-kvm-1.1.2</short-id>
-    <_name>QEMU-KVM 1.1.2</_name>
-    <_vendor>linux-kvm.org</_vendor>
+    <name>QEMU-KVM 1.1.2</name>
+    <vendor>linux-kvm.org</vendor>
     <version>1.1.2</version>
     <release-date>2012-09-10</release-date>
     <upgrades id="http://linux-kvm.org/qemu-kvm/1.1.1"/>

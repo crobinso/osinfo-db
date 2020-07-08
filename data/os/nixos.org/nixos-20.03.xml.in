@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://nixos.org/nixos/20.03">
     <short-id>nixos-20.03</short-id>
-    <_name>NixOS 20.03</_name>
+    <name>NixOS 20.03</name>
     <version>20.03</version>
-    <_vendor>NixOS</_vendor>
+    <vendor>NixOS</vendor>
     <family>linux</family>
     <distro>nixos</distro>
     <codename>Markhor</codename>
@@ -54,10 +54,10 @@
     </resources>
 
     <variant id="minimal">
-      <_name>NixOS 20.03 (minimal installation CD)</_name>
+      <name>NixOS 20.03 (minimal installation CD)</name>
     </variant>
     <variant id="plasma5">
-      <_name>NixOS 20.03 (Plasma 5 installation CD)</_name>
+      <name>NixOS 20.03 (Plasma 5 installation CD)</name>
     </variant>
 
     <media arch="i686" live="true">

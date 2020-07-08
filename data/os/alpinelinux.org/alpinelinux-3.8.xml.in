@@ -4,9 +4,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://alpinelinux.org/alpinelinux/3.8">
     <short-id>alpinelinux3.8</short-id>
-    <_name>Alpine Linux 3.8</_name>
+    <name>Alpine Linux 3.8</name>
     <version>3.8</version>
-    <_vendor>Alpine Linux Project</_vendor>
+    <vendor>Alpine Linux Project</vendor>
     <family>linux</family>
     <distro>alpinelinux</distro>
     <upgrades id="http://alpinelinux.org/alpinelinux/3.7"/>
@@ -28,16 +28,16 @@
     </resources>
 
     <variant id="standard">
-      <_name>Alpinelinux 3.8 Standard</_name>
+      <name>Alpinelinux 3.8 Standard</name>
     </variant>
     <variant id="extended">
-      <_name>Alpinelinux 3.8 Extended</_name>
+      <name>Alpinelinux 3.8 Extended</name>
     </variant>
     <variant id="virtual">
-      <_name>Alpinelinux 3.8 Virtual</_name>
+      <name>Alpinelinux 3.8 Virtual</name>
     </variant>
     <variant id="xen">
-      <_name>Alpinelinux 3.8 Xen</_name>
+      <name>Alpinelinux 3.8 Xen</name>
     </variant>
 
     <!-- Standard Installer !-->

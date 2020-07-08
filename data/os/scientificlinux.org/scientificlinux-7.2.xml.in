@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://scientificlinux.org/scientificlinux/7.2">
     <short-id>scientificlinux7.2</short-id>
-    <_name>Scientific Linux 7.2</_name>
+    <name>Scientific Linux 7.2</name>
     <version>7.2</version>
-    <_vendor>Scientific Linux</_vendor>
+    <vendor>Scientific Linux</vendor>
     <family>linux</family>
     <distro>scientificlinux</distro>
     <upgrades id="http://scientificlinux.org/scientificlinux/7.1"/>

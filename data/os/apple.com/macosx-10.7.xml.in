@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.7">
     <short-id>macosx10.7</short-id>
-    <_name>MacOS X Lion</_name>
+    <name>MacOS X Lion</name>
     <version>10.7</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Lion</codename>

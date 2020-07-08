@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://manjaro.org/manjaro/rolling">
     <short-id>manjaro</short-id>
-    <_name>Manjaro</_name>
-    <_vendor>Manjaro</_vendor>
+    <name>Manjaro</name>
+    <vendor>Manjaro</vendor>
     <family>linux</family>
     <distro>Manjaro</distro>
     <derives-from id="http://archlinux.org/archlinux/rolling"/>
@@ -26,31 +26,31 @@
     </resources>
 
     <variant id="architect">
-      <_name>Manjaro Architect</_name>
+      <name>Manjaro Architect</name>
     </variant>
 
     <variant id="gnome">
-      <_name>Manjaro GNOME</_name>
+      <name>Manjaro GNOME</name>
     </variant>
 
     <variant id="gnome-minimal">
-      <_name>Manjaro GNOME (Minimal)</_name>
+      <name>Manjaro GNOME (Minimal)</name>
     </variant>
 
     <variant id="kde">
-      <_name>Manjaro KDE</_name>
+      <name>Manjaro KDE</name>
     </variant>
 
     <variant id="kde-minimal">
-      <_name>Manjaro KDE (Minimal)</_name>
+      <name>Manjaro KDE (Minimal)</name>
     </variant>
 
     <variant id="xfce">
-      <_name>Manjaro XFCE</_name>
+      <name>Manjaro XFCE</name>
     </variant>
 
     <variant id="xfce-minimal">
-      <_name>Manjaro XFCE (Minimal)</_name>
+      <name>Manjaro XFCE (Minimal)</name>
     </variant>
 
 

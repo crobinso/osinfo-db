@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/8">
     <short-id>win8</short-id>
-    <_name>Microsoft Windows 8</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows 8</name>
+    <vendor>Microsoft Corporation</vendor>
 
     <!-- virtio block device driver -->
     <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w8/x86" pre-installable="true" signed="false">

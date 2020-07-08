@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/sled/10.4">
     <short-id>sled10sp4</short-id>
-    <_name>SUSE Linux Enterprise Desktop 10 SP4</_name>
+    <name>SUSE Linux Enterprise Desktop 10 SP4</name>
     <version>10.4</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/10.3"/>

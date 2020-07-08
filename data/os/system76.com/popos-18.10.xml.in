@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://system76.com/popos/18.10">
     <short-id>popos18.10</short-id>
-    <_name>Pop!_OS 18.10</_name>
+    <name>Pop!_OS 18.10</name>
     <version>18.10</version>
-    <_vendor>System76, Inc.</_vendor>
+    <vendor>System76, Inc.</vendor>
     <family>linux</family>
     <distro>popos</distro>
     <upgrades id="http://system76.com/popos/18.04"/>

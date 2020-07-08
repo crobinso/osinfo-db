@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://opensuse.org/opensuse/15.1">
     <short-id>opensuse15.1</short-id>
-    <_name>openSUSE Leap 15.1</_name>
+    <name>openSUSE Leap 15.1</name>
     <version>15.1</version>
-    <_vendor>openSUSE</_vendor>
+    <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/15.0"/>
@@ -14,7 +14,7 @@
     <release-date>2019-05-22</release-date>
 
     <variant id="netinst">
-      <_name>openSUSE Leap 15.1</_name>
+      <name>openSUSE Leap 15.1</name>
     </variant>
 
     <!-- DVD -->

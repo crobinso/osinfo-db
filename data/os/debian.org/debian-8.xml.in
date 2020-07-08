@@ -4,9 +4,9 @@
   <os id="http://debian.org/debian/8">
     <short-id>debian8</short-id>
     <short-id>debianjessie</short-id>
-    <_name>Debian 8</_name>
+    <name>Debian 8</name>
     <version>8</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>jessie</codename>

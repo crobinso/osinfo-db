@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <platform id="http://qemu.org/qemu/2.0.2">
     <short-id>qemu-2.0.2</short-id>
-    <_name>QEMU 2.0.2</_name>
-    <_vendor>qemu.org</_vendor>
+    <name>QEMU 2.0.2</name>
+    <vendor>qemu.org</vendor>
     <version>2.0.2</version>
     <release-date>2014-08-18</release-date>
     <upgrades id="http://qemu.org/qemu/2.0.1"/>

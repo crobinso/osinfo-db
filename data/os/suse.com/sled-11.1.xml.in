@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/sled/11.1">
     <short-id>sled11sp1</short-id>
-    <_name>SUSE Linux Enterprise Desktop 11 SP1</_name>
+    <name>SUSE Linux Enterprise Desktop 11 SP1</name>
     <version>11.1</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sled</distro>
     <upgrades id="http://suse.com/sled/11"/>

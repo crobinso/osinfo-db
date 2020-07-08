@@ -3,11 +3,11 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://dragonflybsd.org/dragonflybsd/4.6.1">
     <short-id>dragonflybsd4.6.1</short-id>
-    <_name>DragonFlyBSD 4.6.1</_name>
+    <name>DragonFlyBSD 4.6.1</name>
     <version>4.6.1</version>
     <family>dragonflybsd</family>
     <distro>dragonflybsd</distro>
-    <_vendor>DragonFlyBSD Project</_vendor>
+    <vendor>DragonFlyBSD Project</vendor>
     <upgrades id="http://dragonflybsd.org/dragonflybsd/4.6.0"/>
 
     <release-date>2016-10-17</release-date>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/12">
     <short-id>fedora12</short-id>
-    <_name>Fedora 12</_name>
+    <name>Fedora 12</name>
     <version>12</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Constantine</codename>

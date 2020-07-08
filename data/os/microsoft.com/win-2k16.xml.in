@@ -3,19 +3,19 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/2k16">
     <short-id>win2k16</short-id>
-    <_name>Microsoft Windows Server 2016</_name>
+    <name>Microsoft Windows Server 2016</name>
     <version>10.0</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/2k12r2"/>
     <upgrades id="http://microsoft.com/win/2k12r2"/>
 
     <variant id="hyperv">
-      <_name>Windows Server 2016 for HyperV</_name>
+      <name>Windows Server 2016 for HyperV</name>
     </variant>
     <variant id="essentials">
-      <_name>Windows Server 2016 Essentials</_name>
+      <name>Windows Server 2016 Essentials</name>
     </variant>
 
     <release-date>2017-10-17</release-date>

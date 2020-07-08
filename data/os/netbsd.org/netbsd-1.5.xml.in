@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://netbsd.org/netbsd/1.5">
     <short-id>netbsd1.5</short-id>
-    <_name>NetBSD 1.5</_name>
+    <name>NetBSD 1.5</name>
     <version>1.5</version>
-    <_vendor>NetBSD Project</_vendor>
+    <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/1.4"/>

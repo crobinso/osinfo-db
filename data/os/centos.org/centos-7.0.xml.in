@@ -4,9 +4,9 @@
   <os id="http://centos.org/centos/7.0">
     <short-id>centos7.0</short-id>
     <short-id>centos7</short-id>
-    <_name>CentOS 7</_name>
+    <name>CentOS 7</name>
     <version>7</version>
-    <_vendor>CentOS</_vendor>
+    <vendor>CentOS</vendor>
     <family>linux</family>
     <distro>centos</distro>
     <upgrades id="http://centos.org/centos/6.5"/>
@@ -16,22 +16,22 @@
     <eol-date>2024-06-30</eol-date>
 
     <variant id="live">
-      <_name>CentOS 7</_name>
+      <name>CentOS 7</name>
     </variant>
     <variant id="live-gnome">
-      <_name>CentOS 7 (GNOME)</_name>
+      <name>CentOS 7 (GNOME)</name>
     </variant>
     <variant id="live-kde">
-      <_name>CentOS 7 (KDE)</_name>
+      <name>CentOS 7 (KDE)</name>
     </variant>
     <variant id="minimal">
-      <_name>CentOS 7</_name>
+      <name>CentOS 7</name>
     </variant>
     <variant id="netinstall">
-      <_name>CentOS 7</_name>
+      <name>CentOS 7</name>
     </variant>
     <variant id="everything">
-      <_name>CentOS 7</_name>
+      <name>CentOS 7</name>
     </variant>
 
     <!-- 1406 -->

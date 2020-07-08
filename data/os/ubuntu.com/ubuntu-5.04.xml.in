@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/5.04">
     <short-id>ubuntu5.04</short-id>
     <short-id>ubuntuhoary</short-id>
-    <_name>Ubuntu 5.04</_name>
+    <name>Ubuntu 5.04</name>
     <version>5.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hoary Hedgehog</codename>

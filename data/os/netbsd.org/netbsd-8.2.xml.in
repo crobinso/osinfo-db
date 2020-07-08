@@ -2,19 +2,19 @@
 
   <os id="http://netbsd.org/netbsd/8.2">
     <short-id>netbsd8.2</short-id>
-    <_name>NetBSD 8.2</_name>
+    <name>NetBSD 8.2</name>
     <version>8.2</version>
-    <_vendor>NetBSD Project</_vendor>
+    <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/8.1"/>
     <derives-from id="http://netbsd.org/netbsd/8.0"/>
 
     <variant id="netinst">
-      <_name>NetBSD 8.2 Network Install</_name>
+      <name>NetBSD 8.2 Network Install</name>
     </variant>
     <variant id="netinst-serial-console">
-      <_name>NetBSD 8.2 Network Install (Serial Console)</_name>
+      <name>NetBSD 8.2 Network Install (Serial Console)</name>
     </variant>
 
     <release-date>2020-02-14</release-date>

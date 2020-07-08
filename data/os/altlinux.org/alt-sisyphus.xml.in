@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/sisyphus">
     <short-id>alt.sisyphus</short-id>
-    <_name>ALT regular</_name>
+    <name>ALT regular</name>
     <version>sisyphus</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <upgrades id="http://altlinux.org/alt/p8.starterkits"/>

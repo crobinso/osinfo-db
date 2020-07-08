@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/me">
     <short-id>winme</short-id>
-    <_name>Microsoft Windows Millennium Edition</_name>
+    <name>Microsoft Windows Millennium Edition</name>
     <version>4.9</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/98"/>

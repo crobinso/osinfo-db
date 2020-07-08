@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://gnome.org/gnome/3.8">
     <short-id>gnome3.8</short-id>
-    <_name>GNOME 3.8</_name>
+    <name>GNOME 3.8</name>
     <version>3.8</version>
-    <_vendor>GNOME Project</_vendor>
+    <vendor>GNOME Project</vendor>
     <family>linux</family>
     <distro>gnome</distro>
     <derives-from id="http://fedoraproject.org/fedora/19"/>

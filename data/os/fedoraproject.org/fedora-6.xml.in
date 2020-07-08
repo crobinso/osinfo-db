@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/6">
     <short-id>fedora6</short-id>
-    <_name>Fedora Core 6</_name>
+    <name>Fedora Core 6</name>
     <version>6</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Zod</codename>

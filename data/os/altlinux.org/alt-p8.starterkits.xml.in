@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/p8.starterkits">
     <short-id>alt.p8</short-id>
-    <_name>ALT p8 StarterKits</_name>
+    <name>ALT p8 StarterKits</name>
     <version>p8</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <upgrades id="http://altlinux.org/alt/8.2"/>

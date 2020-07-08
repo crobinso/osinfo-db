@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/p9.starterkits">
     <short-id>alt.p9</short-id>
-    <_name>ALT p9 StarterKits</_name>
+    <name>ALT p9 StarterKits</name>
     <version>p9</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <upgrades id="http://altlinux.org/alt/p8.starterkits"/>

@@ -5,7 +5,7 @@
     <name>keyboard</name>
     <bus-type>ps2</bus-type>
     <class>input</class>
-    <_vendor>Qemu/KVM</_vendor>
+    <vendor>Qemu/KVM</vendor>
     <product>Keyboard</product>
   </device>
 </libosinfo>

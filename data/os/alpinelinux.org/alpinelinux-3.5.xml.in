@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://alpinelinux.org/alpinelinux/3.5">
     <short-id>alpinelinux3.5</short-id>
-    <_name>Alpine Linux 3.5</_name>
+    <name>Alpine Linux 3.5</name>
     <version>3.5</version>
-    <_vendor>Alpine Linux Project</_vendor>
+    <vendor>Alpine Linux Project</vendor>
     <family>linux</family>
     <distro>alpinelinux</distro>
 

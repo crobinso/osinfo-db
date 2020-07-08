@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/altlinux/1.0">
     <short-id>altlinux1.0</short-id>
-    <_name>Mandrake RE Spring 2001</_name>
+    <name>Mandrake RE Spring 2001</name>
     <version>1.0</version>
-    <_vendor>ALTLinux</_vendor>
+    <vendor>ALTLinux</vendor>
     <family>linux</family>
     <distro>altlinux</distro>
     <clones id="http://mandriva.com/mandrake/7.2"/>

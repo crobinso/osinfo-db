@@ -3,25 +3,25 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/2k12r2">
     <short-id>win2k12r2</short-id>
-    <_name>Microsoft Windows Server 2012 R2</_name>
+    <name>Microsoft Windows Server 2012 R2</name>
     <version>6.3</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/2k12"/>
     <upgrades id="http://microsoft.com/win/2k12"/>
 
     <variant id="storage">
-      <_name>Windows Server 2012 R2 Storage</_name>
+      <name>Windows Server 2012 R2 Storage</name>
     </variant>
     <variant id="hyperv">
-      <_name>Windows Server 2012 R2 for HyperV</_name>
+      <name>Windows Server 2012 R2 for HyperV</name>
     </variant>
     <variant id="essentials">
-      <_name>Windows Server 2012 R2 Essentials</_name>
+      <name>Windows Server 2012 R2 Essentials</name>
     </variant>
     <variant id="volume-license">
-      <_name>Windows Server 2012 R2 Volume License</_name>
+      <name>Windows Server 2012 R2 Volume License</name>
     </variant>
 
     <release-date>2013-10-18</release-date>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/silverblue/32">
     <short-id>silverblue32</short-id>
-    <_name>Fedora Silverblue 32</_name>
+    <name>Fedora Silverblue 32</name>
     <version>32</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/silverblue/31"/>

@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/15.04">
     <short-id>ubuntu15.04</short-id>
     <short-id>ubuntutvivid</short-id>
-    <_name>Ubuntu 15.04</_name>
+    <name>Ubuntu 15.04</name>
     <version>15.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Vivid Vervet</codename>

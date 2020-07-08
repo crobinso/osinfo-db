@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://android-x86.org/android-x86/8.1">
     <short-id>android-x86-8.1</short-id>
-    <_name>Android-x86 8.1</_name>
+    <name>Android-x86 8.1</name>
     <version>8.1</version>
-    <_vendor>Android-x86</_vendor>
+    <vendor>Android-x86</vendor>
     <family>linux</family>
     <distro>android-x86</distro>
     <codename>oreo-x86</codename>

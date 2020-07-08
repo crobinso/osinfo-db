@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/11">
     <short-id>fedora11</short-id>
-    <_name>Fedora 11</_name>
+    <name>Fedora 11</name>
     <version>11</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Leonidas</codename>

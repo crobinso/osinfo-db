@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://centos.org/centos/8">
     <short-id>centos8</short-id>
-    <_name>CentOS 8</_name>
+    <name>CentOS 8</name>
     <version>8</version>
-    <_vendor>CentOS</_vendor>
+    <vendor>CentOS</vendor>
     <family>linux</family>
     <distro>centos</distro>
     <upgrades id="http://centos.org/centos/7.0"/>
@@ -15,7 +15,7 @@
     <eol-date>2029-05-31</eol-date>
 
     <variant id="netinst">
-      <_name>CentOS 8</_name>
+      <name>CentOS 8</name>
     </variant>
 
     <!-- 2004 Release -->

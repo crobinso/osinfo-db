@@ -2,19 +2,19 @@
 
   <os id="http://netbsd.org/netbsd/9.0">
     <short-id>netbsd9.0</short-id>
-    <_name>NetBSD 9.0</_name>
+    <name>NetBSD 9.0</name>
     <version>9.0</version>
-    <_vendor>NetBSD Project</_vendor>
+    <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/8.0"/>
     <derives-from id="http://netbsd.org/netbsd/8.0"/>
 
     <variant id="netinst">
-      <_name>NetBSD 9.0 Network Install</_name>
+      <name>NetBSD 9.0 Network Install</name>
     </variant>
     <variant id="netinst-serial-console">
-      <_name>NetBSD 9.0 Network Install (Serial Console)</_name>
+      <name>NetBSD 9.0 Network Install (Serial Console)</name>
     </variant>
 
     <release-date>2020-02-14</release-date>

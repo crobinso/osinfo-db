@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/14.10">
     <short-id>ubuntu14.10</short-id>
     <short-id>ubuntututopic</short-id>
-    <_name>Ubuntu 14.10</_name>
+    <name>Ubuntu 14.10</name>
     <version>14.10</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Utopic Unicorn</codename>

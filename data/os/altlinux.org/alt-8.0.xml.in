@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/8.0">
     <short-id>alt8.0</short-id>
-    <_name>ALT 8 Education</_name>
+    <name>ALT 8 Education</name>
     <version>8.0</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <codename>Hypericum</codename>

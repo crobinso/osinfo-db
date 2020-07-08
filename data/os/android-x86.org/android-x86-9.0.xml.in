@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://android-x86.org/android-x86/9.0">
     <short-id>android-x86-9.0</short-id>
-    <_name>Android-x86 9.0</_name>
+    <name>Android-x86 9.0</name>
     <version>9.0</version>
-    <_vendor>Android-x86</_vendor>
+    <vendor>Android-x86</vendor>
     <family>linux</family>
     <distro>android-x86</distro>
     <codename>pie-x86</codename>

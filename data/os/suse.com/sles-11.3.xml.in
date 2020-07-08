@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/sles/11.3">
     <short-id>sles11sp3</short-id>
-    <_name>SUSE Linux Enterprise Server 11 SP3</_name>
+    <name>SUSE Linux Enterprise Server 11 SP3</name>
     <version>11.3</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/11.2"/>

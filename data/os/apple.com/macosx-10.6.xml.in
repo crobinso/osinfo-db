@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.6">
     <short-id>macosx10.6</short-id>
-    <_name>MacOS X Snow Leopard</_name>
+    <name>MacOS X Snow Leopard</name>
     <version>10.6</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Snow Leopard</codename>

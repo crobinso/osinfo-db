@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://novell.com/netware/5">
     <short-id>netware5</short-id>
-    <_name>Novell Netware 5</_name>
-    <_vendor>Novell</_vendor>
+    <name>Novell Netware 5</name>
+    <vendor>Novell</vendor>
     <family>netware</family>
     <distro>netware</distro>
     <version>5</version>

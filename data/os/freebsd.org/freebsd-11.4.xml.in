@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://freebsd.org/freebsd/11.4">
     <short-id>freebsd11.4</short-id>
-    <_name>FreeBSD 11.4</_name>
+    <name>FreeBSD 11.4</name>
     <version>11.4</version>
-    <_vendor>FreeBSD Project</_vendor>
+    <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
     <upgrades id="http://freebsd.org/freebsd/11.3"/>

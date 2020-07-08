@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://freebsd.org/freebsd/9.2">
     <short-id>freebsd9.2</short-id>
-    <_name>FreeBSD 9.2</_name>
+    <name>FreeBSD 9.2</name>
     <version>9.2</version>
-    <_vendor>FreeBSD Project</_vendor>
+    <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
     <upgrades id="http://freebsd.org/freebsd/9.1"/>

@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://mageia.org/mageia/1">
     <short-id>mageia1</short-id>
-    <_name>Mageia 1</_name>
-    <_vendor>Mageia</_vendor>
+    <name>Mageia 1</name>
+    <vendor>Mageia</vendor>
     <family>linux</family>
     <distro>mageia</distro>
     <version>1</version>

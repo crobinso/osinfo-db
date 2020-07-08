@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/13.04">
     <short-id>ubuntu13.04</short-id>
     <short-id>ubunturaring</short-id>
-    <_name>Ubuntu 13.04</_name>
+    <name>Ubuntu 13.04</name>
     <version>13.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Raring Ringtail</codename>

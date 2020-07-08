@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/vista">
     <short-id>winvista</short-id>
-    <_name>Microsoft Windows Vista</_name>
+    <name>Microsoft Windows Vista</name>
     <version>6.0</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/xp"/>

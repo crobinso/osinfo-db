@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://archlinux.org/archlinux/rolling">
     <short-id>archlinux</short-id>
-    <_name>Arch Linux</_name>
-    <_vendor>Arch Linux</_vendor>
+    <name>Arch Linux</name>
+    <vendor>Arch Linux</vendor>
     <family>linux</family>
     <distro>archlinux</distro>
 

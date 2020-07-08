@@ -2,9 +2,9 @@
 
   <os id="http://netbsd.org/netbsd/6.1">
     <short-id>netbsd6.1</short-id>
-    <_name>NetBSD 6.1</_name>
+    <name>NetBSD 6.1</name>
     <version>6.1</version>
-    <_vendor>NetBSD Project</_vendor>
+    <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/6.0"/>

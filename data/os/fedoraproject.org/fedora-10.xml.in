@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/10">
     <short-id>fedora10</short-id>
-    <_name>Fedora 10</_name>
+    <name>Fedora 10</name>
     <version>10</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Cambridge</codename>

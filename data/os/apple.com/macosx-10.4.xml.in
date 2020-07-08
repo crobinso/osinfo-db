@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.4">
     <short-id>macosx10.4</short-id>
-    <_name>MacOS X Tiger</_name>
+    <name>MacOS X Tiger</name>
     <version>10.4</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Tiger</codename>

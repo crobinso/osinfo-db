@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/95">
     <short-id>win95</short-id>
-    <_name>Microsoft Windows 95</_name>
+    <name>Microsoft Windows 95</name>
     <version>4.0</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>win9x</family>
     <distro>win</distro>
     <upgrades id="http://microsoft.com/win/3.1"/>

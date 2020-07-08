@@ -1,9 +1,9 @@
 <libosinfo version="0.0.1">
   <os id="http://oracle.com/ol/6.6">
     <short-id>ol6.6</short-id>
-    <_name>Oracle Linux 6.6</_name>
+    <name>Oracle Linux 6.6</name>
     <version>6.6</version>
-    <_vendor>Oracle America</_vendor>
+    <vendor>Oracle America</vendor>
     <family>linux</family>
     <distro>ol</distro>
     <clones id="http://redhat.com/rhel/6.6"/>

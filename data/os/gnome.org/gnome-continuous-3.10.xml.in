@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://gnome.org/gnome-continuous/3.10">
     <short-id>gnome-continuous-3.10</short-id>
-    <_name>GNOME 3.10</_name>
+    <name>GNOME 3.10</name>
     <version>3.10</version>
-    <_vendor>GNOME Project</_vendor>
+    <vendor>GNOME Project</vendor>
     <family>linux</family>
     <distro>gnome</distro>
     <upgrades id="http://gnome.org/gnome/3.8"/>

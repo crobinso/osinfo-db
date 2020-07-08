@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhl/5.0">
     <short-id>rhl5.0</short-id>
-    <_name>Red Hat Linux 5.0</_name>
+    <name>Red Hat Linux 5.0</name>
     <version>5.0</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhl</distro>
     <codename>Hurricane</codename>

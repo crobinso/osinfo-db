@@ -4,9 +4,9 @@
   <os id="http://debian.org/debian/1.2">
     <short-id>debian1.2</short-id>
     <short-id>debianrex</short-id>
-    <_name>Debian GNU/Linux 1.2</_name>
+    <name>Debian GNU/Linux 1.2</name>
     <version>1.2</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>rex</codename>

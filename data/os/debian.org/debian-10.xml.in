@@ -4,9 +4,9 @@
   <os id="http://debian.org/debian/10">
     <short-id>debian10</short-id>
     <short-id>debianbuster</short-id>
-    <_name>Debian 10</_name>
+    <name>Debian 10</name>
     <version>10</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>buster</codename>
@@ -30,10 +30,10 @@
     </resources>
 
     <variant id="universal">
-      <_name>Debian 10</_name>
+      <name>Debian 10</name>
     </variant>
     <variant id="universal-netinst">
-      <_name>Debian 10</_name>
+      <name>Debian 10</name>
     </variant>
 
     <!-- Network installer -->

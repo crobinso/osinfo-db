@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/7.04">
     <short-id>ubuntu7.04</short-id>
     <short-id>ubuntufeisty</short-id>
-    <_name>Ubuntu 7.04</_name>
+    <name>Ubuntu 7.04</name>
     <version>7.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Feisty Fawn</codename>

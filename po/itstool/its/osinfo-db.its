@@ -3,6 +3,6 @@
     version="2.0">
   <!-- Disable the extraction of all the tags by default. -->
   <its:translateRule selector="//libosinfo" translate="no"/>
-  <!-- Extract the content of <_name> & <_vendor> tags. -->
-  <its:translateRule selector="//_name | //_vendor" translate="yes"/>
+  <!-- Extract the content of <name> & <vendor> tags. -->
+  <its:translateRule selector="//name | //vendor" translate="yes"/>
 </its:rules>

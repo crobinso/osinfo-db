@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/10">
     <short-id>win10</short-id>
-    <_name>Microsoft Windows 10</_name>
+    <name>Microsoft Windows 10</name>
     <version>10.0</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/8.1"/>
@@ -14,16 +14,16 @@
     <release-date>2015-07-29</release-date>
 
     <variant id="education">
-      <_name>Microsoft Windows 10 Education</_name>
+      <name>Microsoft Windows 10 Education</name>
     </variant>
     <variant id="enterprise">
-      <_name>Microsoft Windows 10 Enterprise</_name>
+      <name>Microsoft Windows 10 Enterprise</name>
     </variant>
     <variant id="enterprise-ltsb">
-      <_name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch)</_name>
+      <name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch)</name>
     </variant>
     <variant id="enterprise-ltsb-eval">
-      <_name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation</_name>
+      <name>Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation</name>
     </variant>
 
     <!-- Education -->

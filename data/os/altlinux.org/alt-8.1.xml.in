@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/8.1">
     <short-id>alt8.1</short-id>
-    <_name>ALT 8.1</_name>
+    <name>ALT 8.1</name>
     <version>8.1</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <codename>Hypericum</codename>
@@ -16,13 +16,13 @@
     <eol-date>2017-12-30</eol-date>
 
     <variant id="workstation">
-      <_name>ALT 8.1 Workstation</_name>
+      <name>ALT 8.1 Workstation</name>
     </variant>
     <variant id="kworkstation">
-      <_name>ALT 8.1 Workstation K</_name>
+      <name>ALT 8.1 Workstation K</name>
     </variant>
     <variant id="kworkstation-live">
-      <_name>ALT 8.1 Workstation K</_name>
+      <name>ALT 8.1 Workstation K</name>
     </variant>
 
     <!-- Workstation -->

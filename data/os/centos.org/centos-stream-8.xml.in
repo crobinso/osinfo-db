@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://centos.org/centos-stream/8">
     <short-id>centos-stream8</short-id>
-    <_name>CentOS Stream 8</_name>
+    <name>CentOS Stream 8</name>
     <version>8</version>
-    <_vendor>CentOS</_vendor>
+    <vendor>CentOS</vendor>
     <family>linux</family>
     <distro>centos</distro>
 
@@ -40,7 +40,7 @@
     <kernel-url-argument>inst.repo</kernel-url-argument>
 
     <variant id="netinst">
-      <_name>CentOS Stream 8</_name>
+      <name>CentOS Stream 8</name>
     </variant>
 
     <!-- 20200629 release -->

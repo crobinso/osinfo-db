@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://oracle.com/solaris/11">
     <short-id>solaris11</short-id>
-    <_name>Oracle Solaris 11</_name>
+    <name>Oracle Solaris 11</name>
     <version>11</version>
-    <_vendor>Oracle</_vendor>
+    <vendor>Oracle</vendor>
     <family>solaris</family>
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris/10"/>

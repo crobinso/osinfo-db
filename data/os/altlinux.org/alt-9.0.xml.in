@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://altlinux.org/alt/9.0">
     <short-id>alt9.0</short-id>
-    <_name>ALT 9.0</_name>
+    <name>ALT 9.0</name>
     <version>9.0</version>
-    <_vendor>BaseALT</_vendor>
+    <vendor>BaseALT</vendor>
     <family>linux</family>
     <distro>alt</distro>
     <codename>Vaccinium</codename>
@@ -18,13 +18,13 @@
     <firmware arch="x86_64" type="efi"/>
 
     <variant id="workstation">
-      <_name>ALT Workstation 9.0</_name>
+      <name>ALT Workstation 9.0</name>
     </variant>
     <variant id="education">
-      <_name>ALT Education 9.0</_name>
+      <name>ALT Education 9.0</name>
     </variant>
     <variant id="server">
-      <_name>ALT Server 9.0</_name>
+      <name>ALT Server 9.0</name>
     </variant>
 
     <!-- Workstation -->

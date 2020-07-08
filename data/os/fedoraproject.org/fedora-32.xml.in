@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/32">
     <short-id>fedora32</short-id>
-    <_name>Fedora 32</_name>
+    <name>Fedora 32</name>
     <version>32</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/31"/>
@@ -14,16 +14,16 @@
     <release-date>2020-04-28</release-date>
 
     <variant id="workstation">
-      <_name>Fedora 32 Workstation</_name>
+      <name>Fedora 32 Workstation</name>
     </variant>
     <variant id="server">
-      <_name>Fedora 32 Server</_name>
+      <name>Fedora 32 Server</name>
     </variant>
     <variant id="server-netinst">
-      <_name>Fedora 32 Server</_name>
+      <name>Fedora 32 Server</name>
     </variant>
     <variant id="everything-netinst">
-      <_name>Fedora 32 Everything</_name>
+      <name>Fedora 32 Everything</name>
     </variant>
 
     <devices>

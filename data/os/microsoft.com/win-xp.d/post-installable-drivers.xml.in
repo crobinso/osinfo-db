@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/xp">
     <short-id>winxp</short-id>
-    <_name>Microsoft Windows XP</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows XP</name>
+    <vendor>Microsoft Corporation</vendor>
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
     <driver arch="i686" location="https://zeenix.fedorapeople.org/drivers/win-tools/postinst" signed="false">

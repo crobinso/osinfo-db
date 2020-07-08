@@ -1,9 +1,9 @@
 <libosinfo version="0.0.1">
   <os id="http://haiku-os.org/haiku/nightly">
     <short-id>haikunightly</short-id>
-    <_name>Haiku Nightly</_name>
+    <name>Haiku Nightly</name>
     <version>nightly</version>
-    <_vendor>Haiku, Inc.</_vendor>
+    <vendor>Haiku, Inc.</vendor>
     <family>haiku</family>
     <distro>haiku</distro>
     <upgrades id="http://haiku-os.org/haiku/r1alpha4.1"/>

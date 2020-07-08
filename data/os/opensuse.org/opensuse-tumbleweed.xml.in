@@ -3,19 +3,19 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://opensuse.org/opensuse/tumbleweed">
     <short-id>opensusetumbleweed</short-id>
-    <_name>openSUSE Tumbleweed</_name>
+    <name>openSUSE Tumbleweed</name>
     <version>tumbleweed</version>
-    <_vendor>openSUSE</_vendor>
+    <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/15.0"/>
     <derives-from id="http://opensuse.org/opensuse/15.0"/>
 
     <variant id="netinst">
-      <_name>openSUSE Tumbleweed</_name>
+      <name>openSUSE Tumbleweed</name>
     </variant>
     <variant id="kubic">
-      <_name>openSUSE Tumbleweed (Kubic)</_name>
+      <name>openSUSE Tumbleweed (Kubic)</name>
     </variant>
 
     <!-- DVD Image -->

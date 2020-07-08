@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://opensuse.org/opensuse/42.3">
     <short-id>opensuse42.3</short-id>
-    <_name>openSUSE Leap 42.3</_name>
+    <name>openSUSE Leap 42.3</name>
     <version>42.3</version>
-    <_vendor>openSUSE</_vendor>
+    <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/42.2" />
@@ -15,7 +15,7 @@
     <eol-date>2019-01-31</eol-date>
 
     <variant id="netinst">
-      <_name>openSUSE Leap 42.3</_name>
+      <name>openSUSE Leap 42.3</name>
     </variant>
 
     <!-- DVD -->

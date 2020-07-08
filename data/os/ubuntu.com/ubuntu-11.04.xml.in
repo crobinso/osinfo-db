@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/11.04">
     <short-id>ubuntu11.04</short-id>
     <short-id>ubuntunatty</short-id>
-    <_name>Ubuntu 11.04</_name>
+    <name>Ubuntu 11.04</name>
     <version>11.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Natty Narwhal</codename>

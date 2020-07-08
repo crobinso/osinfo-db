@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/3.1">
     <short-id>win3.1</short-id>
-    <_name>Microsoft Windows 3.1</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows 3.1</name>
+    <vendor>Microsoft Corporation</vendor>
     <family>win16</family>
     <distro>win</distro>
     <version>3.1</version>

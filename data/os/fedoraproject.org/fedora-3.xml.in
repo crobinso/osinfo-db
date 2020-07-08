@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/3">
     <short-id>fedora3</short-id>
-    <_name>Fedora Core 3</_name>
+    <name>Fedora Core 3</name>
     <version>3</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Heidelberg</codename>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://opensuse.org/opensuse/factory">
     <short-id>opensuse-factory</short-id>
-    <_name>openSUSE</_name>
+    <name>openSUSE</name>
     <version>factory</version>
-    <_vendor>openSUSE</_vendor>
+    <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
     <upgrades id="http://opensuse.org/opensuse/tumbleweed"/>

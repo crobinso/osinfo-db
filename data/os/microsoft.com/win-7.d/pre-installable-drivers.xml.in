@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/7">
     <short-id>win7</short-id>
-    <_name>Microsoft Windows 7</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows 7</name>
+    <vendor>Microsoft Corporation</vendor>
 
     <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/preinst/virtio-win/0.1.171/w7/x86" pre-installable="true" signed="false">
       <file>WdfCoInstaller01009.dll</file>

@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/9.04">
     <short-id>ubuntu9.04</short-id>
     <short-id>ubuntujaunty</short-id>
-    <_name>Ubuntu 9.04</_name>
+    <name>Ubuntu 9.04</name>
     <version>9.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Jaunty Jackalope</codename>

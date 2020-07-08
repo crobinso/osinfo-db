@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://nixos.org/nixos/unstable">
     <short-id>nixos-unstable</short-id>
-    <_name>NixOS Unstable</_name>
+    <name>NixOS Unstable</name>
     <version>unstable</version>
-    <_vendor>NixOS</_vendor>
+    <vendor>NixOS</vendor>
     <family>linux</family>
     <distro>nixos</distro>
 
@@ -24,10 +24,10 @@
     </resources>
 
     <variant id="minimal">
-      <_name>NixOS Unstable (minimal installation CD)</_name>
+      <name>NixOS Unstable (minimal installation CD)</name>
     </variant>
     <variant id="plasma5">
-      <_name>NixOS Unstable (Plasma 5 installation CD)</_name>
+      <name>NixOS Unstable (Plasma 5 installation CD)</name>
     </variant>
 
     <media arch="i686" live="true">

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://apple.com/macosx/10.0">
     <short-id>macosx10.0</short-id>
-    <_name>MacOS X Cheetah</_name>
+    <name>MacOS X Cheetah</name>
     <version>10.0</version>
-    <_vendor>Apple Inc.</_vendor>
+    <vendor>Apple Inc.</vendor>
     <family>darwin</family>
     <distro>osx</distro>
     <codename>Cheetah</codename>

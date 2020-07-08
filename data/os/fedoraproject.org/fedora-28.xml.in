@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/28">
     <short-id>fedora28</short-id>
-    <_name>Fedora 28</_name>
+    <name>Fedora 28</name>
     <version>28</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <upgrades id="http://fedoraproject.org/fedora/27"/>
@@ -15,16 +15,16 @@
     <eol-date>2019-05-29</eol-date>
 
     <variant id="workstation">
-      <_name>Fedora 28 Workstation</_name>
+      <name>Fedora 28 Workstation</name>
     </variant>
     <variant id="workstation-netinst">
-      <_name>Fedora 28 Workstation</_name>
+      <name>Fedora 28 Workstation</name>
     </variant>
     <variant id="server">
-      <_name>Fedora 28 Server</_name>
+      <name>Fedora 28 Server</name>
     </variant>
     <variant id="server-netinst">
-      <_name>Fedora 28 Server</_name>
+      <name>Fedora 28 Server</name>
     </variant>
 
     <!-- Workstation -->

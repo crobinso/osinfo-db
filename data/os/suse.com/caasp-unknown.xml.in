@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/caasp/unknown">
     <short-id>caasp-unknown</short-id>
-    <_name>SUSE CaaS Platform Unknown</_name>
+    <name>SUSE CaaS Platform Unknown</name>
     <version>unknown</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <vendor xml:lang="fr">SUSE</vendor>
     <family>linux</family>
     <distro>caasp</distro>

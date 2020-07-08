@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://suse.com/sles/12.5">
     <short-id>sles12sp5</short-id>
-    <_name>SUSE Linux Enterprise Server 12 SP5</_name>
+    <name>SUSE Linux Enterprise Server 12 SP5</name>
     <version>12.5</version>
-    <_vendor>SUSE</_vendor>
+    <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sles</distro>
     <upgrades id="http://suse.com/sles/12.4"/>

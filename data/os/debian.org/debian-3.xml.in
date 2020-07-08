@@ -5,9 +5,9 @@
     <short-id>debian3</short-id>
     <short-id>debian3.0</short-id>
     <short-id>debianwoody</short-id>
-    <_name>Debian GNU/Linux 3.0</_name>
+    <name>Debian GNU/Linux 3.0</name>
     <version>3.0</version>
-    <_vendor>Debian Project</_vendor>
+    <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
     <codename>woody</codename>

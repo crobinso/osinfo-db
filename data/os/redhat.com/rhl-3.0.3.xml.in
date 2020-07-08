@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhl/3.0.3">
     <short-id>rhl3.0.3</short-id>
-    <_name>Red Hat Linux 3.0.3</_name>
+    <name>Red Hat Linux 3.0.3</name>
     <version>3.0.3</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhl</distro>
     <codename>Picasso</codename>

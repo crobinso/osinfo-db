@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhel/4.6">
     <short-id>rhel4.6</short-id>
-    <_name>Red Hat Enterprise Linux 4.6</_name>
+    <name>Red Hat Enterprise Linux 4.6</name>
     <version>4.6</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Nahant</codename>

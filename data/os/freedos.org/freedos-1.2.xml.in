@@ -3,19 +3,19 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://freedos.org/freedos/1.2">
     <short-id>freedos1.2</short-id>
-    <_name>FreeDOS 1.2</_name>
+    <name>FreeDOS 1.2</name>
     <version>1.2</version>
-    <_vendor>FreeDOS</_vendor>
+    <vendor>FreeDOS</vendor>
     <family>linux</family>
     <distro>freedos</distro>
 
     <release-date>2016-12-25</release-date>
 
     <variant id="standard">
-      <_name>FreeDOS 1.2 "Standard" Installer</_name>
+      <name>FreeDOS 1.2 "Standard" Installer</name>
     </variant>
     <variant id="legacy">
-      <_name>FreeDOS 1.2 "Legacy" Installer</_name>
+      <name>FreeDOS 1.2 "Legacy" Installer</name>
     </variant>
 
     <media arch="x86_64">

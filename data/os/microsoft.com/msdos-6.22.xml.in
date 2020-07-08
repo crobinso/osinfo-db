@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/msdos/6.22">
     <short-id>msdos6.22</short-id>
-    <_name>Microsoft MS-DOS 6.22</_name>
-    <_vendor>Microsoft</_vendor>
+    <name>Microsoft MS-DOS 6.22</name>
+    <vendor>Microsoft</vendor>
     <version>6.22</version>
     <family>msdos</family>
     <distro>msdos</distro>

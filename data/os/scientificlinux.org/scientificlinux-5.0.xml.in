@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://scientificlinux.org/scientificlinux/5.0">
     <short-id>scientificlinux5.0</short-id>
-    <_name>Scientific Linux 5.0</_name>
+    <name>Scientific Linux 5.0</name>
     <version>5.0</version>
-    <_vendor>Scientific Linux</_vendor>
+    <vendor>Scientific Linux</vendor>
     <family>linux</family>
     <distro>scientificlinux</distro>
     <clones id="http://redhat.com/rhel/5.0"/>

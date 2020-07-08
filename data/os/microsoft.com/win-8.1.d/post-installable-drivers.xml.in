@@ -3,8 +3,8 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/8.1">
     <short-id>win8.1</short-id>
-    <_name>Microsoft Windows 8.1</_name>
-    <_vendor>Microsoft Corporation</_vendor>
+    <name>Microsoft Windows 8.1</name>
+    <vendor>Microsoft Corporation</vendor>
 
     <!-- All virtio and QXL device drivers, and spice-vdagent -->
     <driver arch="i686" location="https://fedorapeople.org/groups/virt/unattended/drivers/postinst/spice-guest-tools/0.141" signed="false">

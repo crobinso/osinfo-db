@@ -3,11 +3,11 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://dragonflybsd.org/dragonflybsd/3.2.1">
     <short-id>dragonflybsd3.2.1</short-id>
-    <_name>DragonFlyBSD 3.2.1</_name>
+    <name>DragonFlyBSD 3.2.1</name>
     <version>3.2.1</version>
     <family>dragonflybsd</family>
     <distro>dragonflybsd</distro>
-    <_vendor>DragonFlyBSD Project</_vendor>
+    <vendor>DragonFlyBSD Project</vendor>
     <upgrades id="http://dragonflybsd.org/dragonflybsd/3.0.1"/>
 
     <release-date>2012-11-02</release-date>

@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://sun.com/solaris/10">
     <short-id>solaris10</short-id>
-    <_name>Solaris 10</_name>
+    <name>Solaris 10</name>
     <version>10</version>
-    <_vendor>Sun</_vendor>
+    <vendor>Sun</vendor>
     <family>solaris</family>
     <distro>solaris</distro>
     <upgrades id="http://sun.com/solaris/9"/>

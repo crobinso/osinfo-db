@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://endlessos.com/eos/3.6">
     <short-id>eos3.6</short-id>
-    <_name>Endless OS 3.6</_name>
+    <name>Endless OS 3.6</name>
     <version>3.6</version>
-    <_vendor>Endless Mobile, Inc</_vendor>
+    <vendor>Endless Mobile, Inc</vendor>
     <family>linux</family>
     <distro>eos</distro>
 
@@ -47,7 +47,7 @@
 
 
     <variant id="base">
-      <_name>Endless OS Basic</_name>
+      <name>Endless OS Basic</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -60,7 +60,7 @@
     </media>
 
     <variant id="en">
-      <_name>Endless OS English</_name>
+      <name>Endless OS English</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -73,7 +73,7 @@
     </media>
 
     <variant id="es">
-      <_name>Endless OS Spanish</_name>
+      <name>Endless OS Spanish</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -86,7 +86,7 @@
     </media>
 
     <variant id="fr">
-      <_name>Endless OS French</_name>
+      <name>Endless OS French</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -99,7 +99,7 @@
     </media>
 
     <variant id="id">
-      <_name>Endless OS Indonesian</_name>
+      <name>Endless OS Indonesian</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -112,7 +112,7 @@
     </media>
 
     <variant id="pt_BR">
-      <_name>Endless OS Portuguese (Brazil)</_name>
+      <name>Endless OS Portuguese (Brazil)</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -125,7 +125,7 @@
     </media>
 
     <variant id="th">
-      <_name>Endless OS Thai</_name>
+      <name>Endless OS Thai</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -138,7 +138,7 @@
     </media>
 
     <variant id="vi">
-      <_name>Endless OS Vietnamese</_name>
+      <name>Endless OS Vietnamese</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -152,7 +152,7 @@
 
 
     <variant id="other">
-      <_name>Endless OS (other)</_name>
+      <name>Endless OS (other)</name>
     </variant>
 
     <media arch="all" live="true">

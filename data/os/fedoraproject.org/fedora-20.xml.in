@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/fedora/20">
     <short-id>fedora20</short-id>
-    <_name>Fedora 20</_name>
+    <name>Fedora 20</name>
     <version>20</version>
-    <_vendor>Fedora Project</_vendor>
+    <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
     <codename>Heisenbug</codename>

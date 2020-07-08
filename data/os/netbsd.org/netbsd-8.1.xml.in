@@ -2,16 +2,16 @@
 
   <os id="http://netbsd.org/netbsd/8.1">
     <short-id>netbsd8.1</short-id>
-    <_name>NetBSD 8.1</_name>
+    <name>NetBSD 8.1</name>
     <version>8.1</version>
-    <_vendor>NetBSD Project</_vendor>
+    <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
     <upgrades id="http://netbsd.org/netbsd/8.1"/>
     <derives-from id="http://netbsd.org/netbsd/8.0"/>
 
     <variant id="netinst">
-      <_name>NetBSD 8.1 Network Install</_name>
+      <name>NetBSD 8.1 Network Install</name>
     </variant>
 
     <release-date>2019-05-31</release-date>

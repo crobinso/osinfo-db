@@ -3,11 +3,11 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://openbsd.org/openbsd/5.9">
     <short-id>openbsd5.9</short-id>
-    <_name>OpenBSD 5.9</_name>
+    <name>OpenBSD 5.9</name>
     <version>5.9</version>
     <family>openbsd</family>
     <distro>openbsd</distro>
-    <_vendor>OpenBSD Project</_vendor>
+    <vendor>OpenBSD Project</vendor>
     <upgrades id='http://openbsd.org/openbsd/5.8'/>
     <derives-from id='http://openbsd.org/openbsd/5.8'/>
 
@@ -15,7 +15,7 @@
     <eol-date>2017-04-11</eol-date>
 
     <variant id="netinst">
-      <_name>OpenBSD 5.9</_name>
+      <name>OpenBSD 5.9</name>
     </variant>
 
     <media arch="i686">

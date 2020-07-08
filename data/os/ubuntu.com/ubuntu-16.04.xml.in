@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/16.04">
     <short-id>ubuntu16.04</short-id>
     <short-id>ubuntutxenial</short-id>
-    <_name>Ubuntu 16.04</_name>
+    <name>Ubuntu 16.04</name>
     <version>16.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Xenial Xerus</codename>

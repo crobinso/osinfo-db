@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://microsoft.com/win/7">
     <short-id>win7</short-id>
-    <_name>Microsoft Windows 7</_name>
+    <name>Microsoft Windows 7</name>
     <version>6.1</version>
-    <_vendor>Microsoft Corporation</_vendor>
+    <vendor>Microsoft Corporation</vendor>
     <family>winnt</family>
     <distro>win</distro>
     <derives-from id="http://microsoft.com/win/vista"/>
@@ -15,25 +15,25 @@
     <eol-date>2015-01-13</eol-date>
 
     <variant id="debug">
-      <_name>Microsoft Windows 7 Debug Checked Build</_name>
+      <name>Microsoft Windows 7 Debug Checked Build</name>
     </variant>
     <variant id="starter">
-      <_name>Microsoft Windows 7 Starter</_name>
+      <name>Microsoft Windows 7 Starter</name>
     </variant>
     <variant id="home-basic">
-      <_name>Microsoft Windows 7 Home Basic</_name>
+      <name>Microsoft Windows 7 Home Basic</name>
     </variant>
     <variant id="home-premium">
-      <_name>Microsoft Windows 7 Home Premium</_name>
+      <name>Microsoft Windows 7 Home Premium</name>
     </variant>
     <variant id="professional">
-      <_name>Microsoft Windows 7 Professional</_name>
+      <name>Microsoft Windows 7 Professional</name>
     </variant>
     <variant id="enterprise">
-      <_name>Microsoft Windows 7 Enterprise</_name>
+      <name>Microsoft Windows 7 Enterprise</name>
     </variant>
     <variant id="ultimate">
-      <_name>Microsoft Windows 7 Ultimate</_name>
+      <name>Microsoft Windows 7 Ultimate</name>
     </variant>
 
     <!-- Debug -->

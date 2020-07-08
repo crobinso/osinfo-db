@@ -3,9 +3,9 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://redhat.com/rhel/7.5">
     <short-id>rhel7.5</short-id>
-    <_name>Red Hat Enterprise Linux 7.5</_name>
+    <name>Red Hat Enterprise Linux 7.5</name>
     <version>7.5</version>
-    <_vendor>Red Hat, Inc</_vendor>
+    <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Maipo</codename>
@@ -15,7 +15,7 @@
     <release-date>2018-04-10</release-date>
 
     <variant id="rhel-alt">
-      <_name>Red Hat Enterprise Linux 7.5 Alternate Architectures</_name>
+      <name>Red Hat Enterprise Linux 7.5 Alternate Architectures</name>
     </variant>
 
     <media arch="x86_64">

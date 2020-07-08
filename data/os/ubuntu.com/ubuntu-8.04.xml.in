@@ -4,9 +4,9 @@
   <os id="http://ubuntu.com/ubuntu/8.04">
     <short-id>ubuntu8.04</short-id>
     <short-id>ubuntuhardy</short-id>
-    <_name>Ubuntu 8.04 LTS</_name>
+    <name>Ubuntu 8.04 LTS</name>
     <version>8.04</version>
-    <_vendor>Canonical Ltd</_vendor>
+    <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
     <codename>Hardy Heron</codename>

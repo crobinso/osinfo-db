@@ -3,12 +3,12 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://endlessos.com/eos/{{ current_series }}">
     <short-id>{{ image.branch }}</short-id>
-    <_name>Endless OS {{ current_series }}</_name>
+    <name>Endless OS {{ current_series }}</name>
     <version>{{ current_series }}</version>
 {%- if current_series >= "3.8" %}
-    <_vendor>Endless OS LLC</_vendor>
+    <vendor>Endless OS LLC</vendor>
 {%- else %}
-    <_vendor>Endless Mobile, Inc</_vendor>
+    <vendor>Endless Mobile, Inc</vendor>
 {%- endif %}
     <family>linux</family>
     <distro>eos</distro>
@@ -51,7 +51,7 @@
 {% endif %}
 {% for personality, images in image.personality_images.items() | sort %}
     <variant id="{{ personality }}">
-      <_name>Endless OS {{ personality | personality_name }}</_name>
+      <name>Endless OS {{ personality | personality_name }}</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -65,7 +65,7 @@
 {% endfor %}
 {% for personality in retired_personalities | sort %}
     <variant id="{{ personality }}">
-      <_name>Endless OS {{ personality | personality_name }}</_name>
+      <name>Endless OS {{ personality | personality_name }}</name>
     </variant>
 
     <media arch="x86_64" live="true">
@@ -77,7 +77,7 @@
     </media>
 {% endfor %}
     <variant id="other">
-      <_name>Endless OS (other)</_name>
+      <name>Endless OS (other)</name>
     </variant>
 
     <media arch="all" live="true">
