@@ -10,6 +10,7 @@ URL: https://libosinfo.org/
 
 BuildArch: noarch
 
+BuildRequires: gettext
 BuildRequires: osinfo-db-tools
 
 BuildRequires: mingw32-filesystem >= 95

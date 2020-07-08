@@ -15,6 +15,7 @@ OSINFO_DB_TARGET = --user
 INTLTOOL_MERGE = intltool-merge
 XGETTEXT = xgettext
 MSGMERGE = msgmerge
+MSGFMT = msgfmt
 
 GETTEXT_PACKAGE = osinfo-db
 
@@ -70,9 +71,7 @@ mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
 
 %.xml: %.xml.in Makefile $(PO_FILES)
 	@mkdir -p `dirname $@` po
-	$(V_I18N) LC_ALL=C $(INTLTOOL_MERGE) $(INTLTOOL_MERGE_OPTS) -x -u -c po/.intltool-merge-cache $(VPATH)/po $< $@.tmp \
-	    || { rm $@.tmp && exit 1; }
-	@mv $@.tmp $@
+	$(V_I18N) env XDG_DATA_DIRS=$(VPATH)/po $(MSGFMT) --xml --template $< -d $(VPATH)/po -o $@
 
 %.rng: %.rng.in Makefile
 	@mkdir -p `dirname $@` po

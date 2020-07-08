@@ -15,6 +15,7 @@ Dependencies
 ============
 
 - Required:
+  - gettext
   - osinfo-db-tools
   - intltool
 - Optional (for testing):
