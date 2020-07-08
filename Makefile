@@ -85,23 +85,10 @@ po/osinfo-db.pot: $(DATA_FILES_IN)
 update-po:
 	cd po && \
         for file in *.po; do \
-	  lang=`echo $$file | $(SED) -e 's/.po//'`; \
+	  lang=`basename $$file .po`; \
           echo "$$lang:"; \
-          if $(MSGMERGE) --previous -o $$lang.new.po $$lang osinfo-db.pot; then \
-            if cmp $$lang.po $$lang.new.po >/dev/null 2>&1; then \
-              rm -f $$lang.new.po; \
-            else \
-              if mv -f $$lang.new.po $$lang.po; then \
-                :; \
-              else \
-                echo "msgmerge for $$lang.po failed: cannot move $$lang.new.po to $$lang.po" 1>&2; \
-                rm -f $$lang.new.po; \
-                exit 1; \
-              fi; \
-            fi; \
-          else \
-            echo "msgmerge for $$lang.gmo failed!"; \
-            rm -f $$lang.new.po; \
+          if ! $(MSGMERGE) --previous -o $$file $$file osinfo-db.pot; then \
+            echo "msgmerge for $$file failed!"; \
           fi; \
         done
 
