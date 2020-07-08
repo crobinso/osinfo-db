@@ -80,7 +80,7 @@ clean:
 	rm -f $(DATA_FILES) $(SCHEMA_FILES)
 
 po/osinfo-db.pot: $(DATA_FILES_IN)
-	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) --itstool -o $@ --package-name $(GETTEXT_PACKAGE) $(sort $(DATA_FILES_IN))
+	$(V_GEN) $(XGETTEXT) --its $(ITS_RULES) -F -o $@ --package-name $(GETTEXT_PACKAGE) $(DATA_FILES_IN)
 
 update-po:
 	cd po && \
