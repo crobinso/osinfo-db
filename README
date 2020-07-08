@@ -17,7 +17,6 @@ Dependencies
 - Required:
   - gettext
   - osinfo-db-tools
-  - intltool
 - Optional (for testing):
   - python3
   - python3-lxml

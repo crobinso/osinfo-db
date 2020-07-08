@@ -7,7 +7,6 @@ Release: 1%{?dist}
 License: GPLv2+
 Source: https://releases.pagure.org/libosinfo/%{name}-%{version}.tar.xz
 URL: https://libosinfo.org/
-BuildRequires: intltool
 BuildRequires: gettext
 BuildRequires: osinfo-db-tools
 BuildArch: noarch

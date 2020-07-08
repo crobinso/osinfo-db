@@ -1,7 +1,6 @@
 __pycache__/
 data/**/*.xml
 data/**/*.rng
-po/.intltool-merge-cache
 install/
 rpmbuild/
 *.spec

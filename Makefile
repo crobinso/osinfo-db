@@ -12,7 +12,6 @@ OSINFO_DB_IMPORT = osinfo-db-import
 DESTDIR = /
 OSINFO_DB_TARGET = --user
 
-INTLTOOL_MERGE = intltool-merge
 XGETTEXT = xgettext
 MSGMERGE = msgmerge
 MSGFMT = msgfmt
@@ -47,10 +46,6 @@ V_GEN_1 =
 V_EXP = $(V_EXP_$(V))
 V_EXP_0 = @echo "  EXP      " $@;
 V_EXP_1 =
-
-INTLTOOL_MERGE_OPTS = $(INTLTOOL_MERGE_OPTS_$(V))
-INTLTOOL_MERGE_OPTS_0 = -q
-INTLTOOL_MERGE_OPTS_1 =
 
 ABS_TOPDIR = $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
