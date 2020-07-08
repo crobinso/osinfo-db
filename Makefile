@@ -65,11 +65,11 @@ mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
 
 
 %.xml: %.xml.in Makefile $(PO_FILES)
-	@mkdir -p `dirname $@` po
+	@mkdir -p `dirname $@`
 	$(V_I18N) env XDG_DATA_DIRS=$(VPATH)/po $(MSGFMT) --xml --template $< -d $(VPATH)/po -o $@
 
 %.rng: %.rng.in Makefile
-	@mkdir -p `dirname $@` po
+	@mkdir -p `dirname $@`
 	$(V_GEN) $(SED) -e "s/@VERSION@/$(TODAY)/" < $< > $@
 
 $(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
