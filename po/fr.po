@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-14 10:47+0200\n"
+"POT-Creation-Date: 2020-07-08 17:23+0200\n"
 "PO-Revision-Date: 2020-05-29 02:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -23,27 +23,207 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.0.4\n"
 
-#. (itstool) path: device/_vendor
-#. (itstool) path: device/_vendor
+#: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
+msgid "ib700"
+msgstr ""
+
+#: data/device/ibm.com/ps2-keyboard.xml.in:5
+msgid "keyboard"
+msgstr ""
+
 #: data/device/ibm.com/ps2-keyboard.xml.in:8
 #: data/device/ibm.com/ps2-mouse.xml.in:8
 msgid "Qemu/KVM"
 msgstr "Qemu/KVM"
 
-#. (itstool) path: device/_vendor
+#: data/device/ibm.com/ps2-mouse.xml.in:5
+msgid "mouse"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1000-0012.d/class.xml.in:5
+msgid "lsi"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1013-00b8.d/class.xml.in:5
+msgid "cirrus"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1022-2000.d/class.xml.in:5
+msgid "pcnet"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1033-0194.d/class.xml.in:5
+msgid "nec-xhci"
+msgstr ""
+
+#: data/device/pcisig.com/pci-10ec-8029.d/class.xml.in:5
+msgid "ne2k_pci"
+msgstr ""
+
+#: data/device/pcisig.com/pci-10ec-8139.d/class.xml.in:5
+msgid "rtl8139"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1234-1111.xml.in:5
+msgid "vga"
+msgstr ""
+
 #: data/device/pcisig.com/pci-1234-1111.xml.in:8
 msgid "QEMU"
 msgstr "QEMU"
 
-#. (itstool) path: os/_name
+#: data/device/pcisig.com/pci-1274-5000.d/class.xml.in:5
+msgid "es1370"
+msgstr ""
+
+#: data/device/pcisig.com/pci-15ad-0710.d/class.xml.in:5
+msgid "vmvga"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1000.d/class.xml.in:5
+msgid "virtio-net"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1001.d/class.xml.in:5
+msgid "virtio-block"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1002.d/class.xml.in:5
+msgid "virtio-balloon"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1003.d/class.xml.in:5
+msgid "virtio-console"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1004.d/class.xml.in:5
+msgid "virtio-scsi"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1005.d/class.xml.in:5
+msgid "virtio-rng"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1009.d/class.xml.in:5
+msgid "virtio-9p"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1041.d/class.xml.in:5
+msgid "virtio1.0-net"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1042.d/class.xml.in:5
+msgid "virtio1.0-block"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1043.d/class.xml.in:5
+msgid "virtio1.0-console"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1044.d/class.xml.in:5
+msgid "virtio1.0-rng"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1045.d/class.xml.in:5
+msgid "virtio1.0-balloon"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1048.d/class.xml.in:5
+msgid "virtio1.0-scsi"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1049.d/class.xml.in:5
+msgid "virtio1.0-9p"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1050.d/class.xml.in:5
+msgid "virtio1.0-gpu"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-1052.d/class.xml.in:5
+msgid "virtio1.0-input"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
+msgid "virtio1.0-fs"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1b36-0004.d/class.xml.in:5
+msgid "qemu-xhci"
+msgstr ""
+
+#: data/device/pcisig.com/pci-1b36-0100.d/class.xml.in:5
+msgid "qxl"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-100e.d/class.xml.in:5
+msgid "e1000"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-10d3.d/class.xml.in:5
+msgid "e1000e"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-2415.d/class.xml.in:5
+msgid "ac97"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-25ab.d/class.xml.in:5
+msgid "6300esb"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-2668.d/class.xml.in:5
+msgid "ich6"
+msgstr ""
+
+#: data/device/pcisig.com/pci-8086-293e.d/class.xml.in:5
+msgid "ich9-hda"
+msgstr ""
+
+#: data/device/qemu.org/chipset-x86-q35.xml.in:5
+msgid "qemu-x86-q35"
+msgstr ""
+
+#: data/device/usb.org/usb-80ee-0021.d/class.xml.in:5
+msgid "tablet"
+msgstr ""
+
+#: data/device/xen.org/xen-console.xml.in:9
+msgid "xen-console"
+msgstr ""
+
+#: data/device/xen.org/xen-pci.xml.in:9
+msgid "xen-pci"
+msgstr ""
+
+#: data/device/xen.org/xen-vbd.xml.in:9
+msgid "xen-vbd"
+msgstr ""
+
+#: data/device/xen.org/xen-vfb.xml.in:9
+msgid "xen-vfb"
+msgstr ""
+
+#: data/device/xen.org/xen-vif.xml.in:9
+msgid "xen-vif"
+msgstr ""
+
+#: data/device/xen.org/xen-vkbd.xml.in:9
+msgid "xen-vkbd"
+msgstr ""
+
+#: data/device/xen.org/xen-vscsi.xml.in:9
+msgid "xen-vscsi"
+msgstr ""
+
+#: data/device/xen.org/xen-vtpm.xml.in:8
+msgid "xen-vtpm"
+msgstr ""
+
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
 msgstr "Alpine Linux 3.5"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -51,53 +231,38 @@ msgstr "Alpine Linux 3.5"
 msgid "Alpine Linux Project"
 msgstr "Projet Alpine Linux"
 
-#. (itstool) path: os/_name
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:7
 msgid "Alpine Linux 3.6"
 msgstr "Alpine Linux 3.6"
 
-#. (itstool) path: os/_name
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:7
 msgid "Alpine Linux 3.7"
 msgstr "Alpine Linux 3.7"
 
-#. (itstool) path: os/_name
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:7
 msgid "Alpine Linux 3.8"
 msgstr "Alpine Linux 3.8"
 
-#. (itstool) path: variant/_name
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:31
 msgid "Alpinelinux 3.8 Standard"
 msgstr "Alpinelinux 3.8 Standard"
 
-#. (itstool) path: variant/_name
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:34
 msgid "Alpinelinux 3.8 Extended"
 msgstr "Alpinelinux 3.8 Extended"
 
-#. (itstool) path: variant/_name
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:37
 msgid "Alpinelinux 3.8 Virtual"
 msgstr "Alpinelinux 3.8 Virtual"
 
-#. (itstool) path: variant/_name
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:40
 msgid "Alpinelinux 3.8 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
 msgstr "ALT 8 Education"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
@@ -106,102 +271,73 @@ msgstr "ALT 8 Education"
 msgid "BaseALT"
 msgstr "BaseALT"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-8.1.xml.in:6
 msgid "ALT 8.1"
 msgstr "ALT 8.1"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.1.xml.in:19
 msgid "ALT 8.1 Workstation"
 msgstr "ALT 8.1 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.1.xml.in:22
 #: data/os/altlinux.org/alt-8.1.xml.in:25
 msgid "ALT 8.1 Workstation K"
 msgstr "ALT 8.1 Workstation K"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-8.2.xml.in:6
 msgid "ALT 8.2"
 msgstr "ALT 8.2"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.2.xml.in:19
 msgid "ALT 8.2 Workstation"
 msgstr "ALT 8.2 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.2.xml.in:22
 #: data/os/altlinux.org/alt-8.2.xml.in:25
 msgid "ALT 8.2 Workstation K"
 msgstr "ALT 8.2 Workstation K"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.2.xml.in:28
 msgid "ALT 8.2 Server"
 msgstr "ALT 8.2 Server"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-8.2.xml.in:31
 #: data/os/altlinux.org/alt-8.2.xml.in:34
 msgid "ALT 8.2 Simply"
 msgstr "ALT 8.2 Simply"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-9.0.xml.in:6
 msgid "ALT 9.0"
 msgstr "ALT 9.0"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-9.0.xml.in:21
 msgid "ALT Workstation 9.0"
 msgstr "ALT Workstation 9.0"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-9.0.xml.in:24
 msgid "ALT Education 9.0"
 msgstr "ALT Education 9.0"
 
-#. (itstool) path: variant/_name
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Server 9.0"
 msgstr "ALT Server 9.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
 msgstr "ALT p8 StarterKits"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:6
 msgid "ALT p9 StarterKits"
 msgstr "ALT p9 StarterKits"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/alt-sisyphus.xml.in:6
 msgid "ALT regular"
 msgstr "ALT regular"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-1.0.xml.in:6
 msgid "Mandrake RE Spring 2001"
 msgstr "Mandrake RE Spring 2001"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/altlinux.org/altlinux-1.0.xml.in:8
 #: data/os/altlinux.org/altlinux-2.0.xml.in:8
 #: data/os/altlinux.org/altlinux-2.2.xml.in:8
@@ -215,81 +351,59 @@ msgstr "Mandrake RE Spring 2001"
 msgid "ALTLinux"
 msgstr "ALTLinux"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-2.0.xml.in:6
 msgid "ALT Linux 2.0"
 msgstr "ALT Linux 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-2.2.xml.in:6
 msgid "ALT Linux 2.2"
 msgstr "ALT Linux 2.2"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-2.4.xml.in:6
 msgid "ALT Linux 2.4"
 msgstr "ALT Linux 2.4"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-3.0.xml.in:6
 msgid "ALT Linux 3.0"
 msgstr "ALT Linux 3.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-4.0.xml.in:6
 msgid "ALT Linux 4.0"
 msgstr "ALT Linux 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-4.1.xml.in:6
 msgid "ALT Linux 4.1"
 msgstr "ALT Linux 4.1"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-5.0.xml.in:6
 msgid "ALT Linux 5.0"
 msgstr "ALT Linux 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-6.0.xml.in:6
 msgid "ALT Linux 6.0"
 msgstr "ALT Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/altlinux.org/altlinux-7.0.xml.in:6
 msgid "ALT Linux 7.0"
 msgstr "ALT Linux 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/android-x86.org/android-x86-8.1.xml.in:6
 msgid "Android-x86 8.1"
 msgstr "Android-x86 8.1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/android-x86.org/android-x86-8.1.xml.in:8
 #: data/os/android-x86.org/android-x86-9.0.xml.in:8
 msgid "Android-x86"
 msgstr "Android-x86"
 
-#. (itstool) path: os/_name
 #: data/os/android-x86.org/android-x86-9.0.xml.in:6
 msgid "Android-x86 9.0"
 msgstr "Android-x86 9.0"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.0.xml.in:6
 msgid "MacOS X Cheetah"
 msgstr "MacOS X Cheetah"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/apple.com/macosx-10.0.xml.in:8
 #: data/os/apple.com/macosx-10.1.xml.in:8
 #: data/os/apple.com/macosx-10.2.xml.in:8
@@ -301,79 +415,92 @@ msgstr "MacOS X Cheetah"
 msgid "Apple Inc."
 msgstr "Apple Inc."
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.1.xml.in:6
 msgid "MacOS X Puma"
 msgstr "MacOS X Puma"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.2.xml.in:6
 msgid "MacOS X Jaguar"
 msgstr "MacOS X Jaguar"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.3.xml.in:6
 msgid "MacOS X Panther"
 msgstr "MacOS X Panther"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.4.xml.in:6
 msgid "MacOS X Tiger"
 msgstr "MacOS X Tiger"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.5.xml.in:6
 msgid "MacOS X Leopard"
 msgstr "MacOS X Leopard"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.6.xml.in:6
 msgid "MacOS X Snow Leopard"
 msgstr "MacOS X Snow Leopard"
 
-#. (itstool) path: os/_name
 #: data/os/apple.com/macosx-10.7.xml.in:6
 msgid "MacOS X Lion"
 msgstr "MacOS X Lion"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
 #: data/os/archlinux.org/archlinux-rolling.xml.in:6
 #: data/os/archlinux.org/archlinux-rolling.xml.in:7
 msgid "Arch Linux"
 msgstr "Arch Linux"
 
-#. (itstool) path: os/_name
+#: data/os/asianux.com/asianux-4.6.xml.in:6
+msgid "Asianux Server 4 SP6"
+msgstr ""
+
+#: data/os/asianux.com/asianux-4.6.xml.in:7
+#: data/os/asianux.com/asianux-4.7.xml.in:7
+#: data/os/asianux.com/asianux-7.0.xml.in:8
+#: data/os/asianux.com/asianux-7.1.xml.in:8
+#: data/os/asianux.com/asianux-7.2.xml.in:8
+#: data/os/asianux.com/asianux-7.3.xml.in:8
+#: data/os/asianux.com/asianux-8.0.xml.in:8
+#: data/os/asianux.com/asianux-unknown.xml.in:8
+#, fuzzy
+#| msgid "Debian Project"
+msgid "Asianux Project"
+msgstr "Projet Debian"
+
+#: data/os/asianux.com/asianux-4.7.xml.in:6
+msgid "Asianux Server 4 SP7"
+msgstr ""
+
+#: data/os/asianux.com/asianux-7.0.xml.in:6
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "Asianux Server 7"
+msgstr "ALT Server 9.0"
+
+#: data/os/asianux.com/asianux-7.1.xml.in:6
+msgid "Asianux Server 7 SP1"
+msgstr ""
+
+#: data/os/asianux.com/asianux-7.2.xml.in:6
+msgid "Asianux Server 7 SP2"
+msgstr ""
+
+#: data/os/asianux.com/asianux-7.3.xml.in:6
+msgid "Asianux Server 7 SP3"
+msgstr ""
+
+#: data/os/asianux.com/asianux-8.0.xml.in:6
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "Asianux Server 8"
+msgstr "ALT Server 9.0"
+
+#: data/os/asianux.com/asianux-unknown.xml.in:6
+msgid "Asianux unknown"
+msgstr ""
+
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
 msgstr "CentOS 5.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/centos.org/centos-5.0.xml.in:8
 #: data/os/centos.org/centos-5.1.xml.in:8
 #: data/os/centos.org/centos-5.10.xml.in:8
@@ -402,121 +529,94 @@ msgstr "CentOS 5.0"
 msgid "CentOS"
 msgstr "CentOS"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.1.xml.in:6
 msgid "CentOS 5.1"
 msgstr "CentOS 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.10.xml.in:6
 msgid "CentOS 5.10"
 msgstr "CentOS 5.10"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.11.xml.in:6
 msgid "CentOS 5.11"
 msgstr "CentOS 5.11"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.2.xml.in:6
 msgid "CentOS 5.2"
 msgstr "CentOS 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.3.xml.in:6
 msgid "CentOS 5.3"
 msgstr "CentOS 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.4.xml.in:6
 msgid "CentOS 5.4"
 msgstr "CentOS 5.4"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.5.xml.in:6
 msgid "CentOS 5.5"
 msgstr "CentOS 5.5"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.6.xml.in:6
 msgid "CentOS 5.6"
 msgstr "CentOS 5.6"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.7.xml.in:6
 msgid "CentOS 5.7"
 msgstr "CentOS 5.7"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.8.xml.in:6
 msgid "CentOS 5.8"
 msgstr "CentOS 5.8"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-5.9.xml.in:6
 msgid "CentOS 5.9"
 msgstr "CentOS 5.9"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.0.xml.in:6
 msgid "CentOS 6.0"
 msgstr "CentOS 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.1.xml.in:6
 msgid "CentOS 6.1"
 msgstr "CentOS 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.10.xml.in:6
 msgid "CentOS 6.10"
 msgstr "CentOS 6.10"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.2.xml.in:6
 msgid "CentOS 6.2"
 msgstr "CentOS 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.3.xml.in:6
 msgid "CentOS 6.3"
 msgstr "CentOS 6.3"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.4.xml.in:6
 msgid "CentOS 6.4"
 msgstr "CentOS 6.4"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.5.xml.in:6
 msgid "CentOS 6.5"
 msgstr "CentOS 6.5"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.6.xml.in:6
 msgid "CentOS 6.6"
 msgstr "CentOS 6.6"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.7.xml.in:6
 msgid "CentOS 6.7"
 msgstr "CentOS 6.7"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.8.xml.in:6
 msgid "CentOS 6.8"
 msgstr "CentOS 6.8"
 
-#. (itstool) path: os/_name
 #: data/os/centos.org/centos-6.9.xml.in:6
 msgid "CentOS 6.9"
 msgstr "CentOS 6.9"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/centos.org/centos-7.0.xml.in:7
 #: data/os/centos.org/centos-7.0.xml.in:19
 #: data/os/centos.org/centos-7.0.xml.in:28
@@ -525,41 +625,27 @@ msgstr "CentOS 6.9"
 msgid "CentOS 7"
 msgstr "CentOS 7"
 
-#. (itstool) path: variant/_name
 #: data/os/centos.org/centos-7.0.xml.in:22
 msgid "CentOS 7 (GNOME)"
 msgstr "CentOS 7 (GNOME)"
 
-#. (itstool) path: variant/_name
 #: data/os/centos.org/centos-7.0.xml.in:25
 msgid "CentOS 7 (KDE)"
 msgstr "CentOS 7 (KDE)"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/centos.org/centos-8.xml.in:6 data/os/centos.org/centos-8.xml.in:18
 msgid "CentOS 8"
 msgstr "CentOS 8"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/centos.org/centos-stream-8.xml.in:6
 #: data/os/centos.org/centos-stream-8.xml.in:43
 msgid "CentOS Stream 8"
 msgstr "CentOS Stream 8"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:6
 msgid "CirrOS 0.3.0"
 msgstr "CirrOS 0.3.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.2.xml.in:8
@@ -570,67 +656,42 @@ msgstr "CirrOS 0.3.0"
 msgid "CirrOS"
 msgstr "CirrOS"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:6
 msgid "CirrOS 0.3.1"
 msgstr "CirrOS 0.3.1"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.2.xml.in:6
 msgid "CirrOS 0.3.2"
 msgstr "CirrOS 0.3.2"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.3.xml.in:6
 msgid "CirrOS 0.3.3"
 msgstr "CirrOS 0.3.3"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.4.xml.in:6
 msgid "CirrOS 0.3.4"
 msgstr "CirrOS 0.3.4"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:6
 msgid "CirrOS 0.3.5"
 msgstr "CirrOS 0.3.5"
 
-#. (itstool) path: os/_name
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:6
 msgid "CirrOS 0.4.0"
 msgstr "CirrOS 0.4.0"
 
-#. (itstool) path: os/_name
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
 msgid "Clear Linux OS"
 msgstr "Clear Linux OS"
 
-#. (itstool) path: os/_vendor
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:7
 msgid "Intel Corporation"
 msgstr "Intel Corporation"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-1.1.xml.in:7
 msgid "Debian GNU/Linux 1.1"
 msgstr "Debian GNU/Linux 1.1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/debian.org/debian-1.1.xml.in:9
 #: data/os/debian.org/debian-1.2.xml.in:9
 #: data/os/debian.org/debian-1.3.xml.in:9 data/os/debian.org/debian-10.xml.in:9
@@ -645,158 +706,72 @@ msgstr "Debian GNU/Linux 1.1"
 msgid "Debian Project"
 msgstr "Projet Debian"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-1.2.xml.in:7
 msgid "Debian GNU/Linux 1.2"
 msgstr "Debian GNU/Linux 1.2"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-1.3.xml.in:7
 msgid "Debian GNU/Linux 1.3"
 msgstr "Debian GNU/Linux 1.3"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/debian.org/debian-10.xml.in:7 data/os/debian.org/debian-10.xml.in:33
 #: data/os/debian.org/debian-10.xml.in:36
 msgid "Debian 10"
 msgstr "Debian 10"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
 msgstr "Debian GNU/Linux 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-2.1.xml.in:7
 msgid "Debian GNU/Linux 2.1"
 msgstr "Debian GNU/Linux 2.1"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-2.2.xml.in:7
 msgid "Debian GNU/Linux 2.2"
 msgstr "Debian GNU/Linux 2.2"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-3.1.xml.in:7
 msgid "Debian GNU/Linux 3.1"
 msgstr "Debian GNU/Linux 3.1"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-3.xml.in:8
 msgid "Debian GNU/Linux 3.0"
 msgstr "Debian GNU/Linux 3.0"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-4.xml.in:8
 msgid "Debian GNU/Linux 4.0"
 msgstr "Debian GNU/Linux 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-5.xml.in:8
 msgid "Debian GNU/Linux 5.0"
 msgstr "Debian GNU/Linux 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-6.xml.in:8
 msgid "Debian 6.0"
 msgstr "Debian 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-7.xml.in:7
 msgid "Debian 7"
 msgstr "Debian 7"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-8.xml.in:7
 msgid "Debian 8"
 msgstr "Debian 8"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/debian.org/debian-9.xml.in:7 data/os/debian.org/debian-9.xml.in:47
 #: data/os/debian.org/debian-9.xml.in:50
 msgid "Debian 9"
 msgstr "Debian 9"
 
-#. (itstool) path: os/_name
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
 msgstr "Debian testing"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
 msgstr "DragonFlyBSD 1.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:10
 #: data/os/dragonflybsd.org/dragonflybsd-1.0A.xml.in:10
 #: data/os/dragonflybsd.org/dragonflybsd-1.10.0.xml.in:10
@@ -866,353 +841,278 @@ msgstr "DragonFlyBSD 1.0"
 msgid "DragonFlyBSD Project"
 msgstr "Projet DragonFlyBSD"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.0A.xml.in:6
 msgid "DragonFlyBSD 1.0A"
 msgstr "DragonFlyBSD 1.0A"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.10.0.xml.in:6
 msgid "DragonFlyBSD 1.10.0"
 msgstr "DragonFlyBSD 1.10.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.10.1.xml.in:6
 msgid "DragonFlyBSD 1.10.1"
 msgstr "DragonFlyBSD 1.10.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.0.xml.in:6
 msgid "DragonFlyBSD 1.12.0"
 msgstr "DragonFlyBSD 1.12.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.1.xml.in:6
 msgid "DragonFlyBSD 1.12.1"
 msgstr "DragonFlyBSD 1.12.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.2.xml.in:6
 msgid "DragonFlyBSD 1.12.2"
 msgstr "DragonFlyBSD 1.12.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.0.xml.in:6
 msgid "DragonFlyBSD 1.2.0"
 msgstr "DragonFlyBSD 1.2.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.1.xml.in:6
 msgid "DragonFlyBSD 1.2.1"
 msgstr "DragonFlyBSD 1.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.2.xml.in:6
 msgid "DragonFlyBSD 1.2.2"
 msgstr "DragonFlyBSD 1.2.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.3.xml.in:6
 msgid "DragonFlyBSD 1.2.3"
 msgstr "DragonFlyBSD 1.2.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.4.xml.in:6
 msgid "DragonFlyBSD 1.2.4"
 msgstr "DragonFlyBSD 1.2.4"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.5.xml.in:6
 msgid "DragonFlyBSD 1.2.5"
 msgstr "DragonFlyBSD 1.2.5"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.6.xml.in:6
 msgid "DragonFlyBSD 1.2.6"
 msgstr "DragonFlyBSD 1.2.6"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.4.0.xml.in:6
 msgid "DragonFlyBSD 1.4.0"
 msgstr "DragonFlyBSD 1.4.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.4.4.xml.in:6
 msgid "DragonFlyBSD 1.4.4"
 msgstr "DragonFlyBSD 1.4.4"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.6.0.xml.in:6
 msgid "DragonFlyBSD 1.6.0"
 msgstr "DragonFlyBSD 1.6.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.8.0.xml.in:6
 msgid "DragonFlyBSD 1.8.0"
 msgstr "DragonFlyBSD 1.8.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-1.8.1.xml.in:6
 msgid "DragonFlyBSD 1.8.1"
 msgstr "DragonFlyBSD 1.8.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.0.0.xml.in:6
 msgid "DragonFlyBSD 2.0.0"
 msgstr "DragonFlyBSD 2.0.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.0.1.xml.in:6
 msgid "DragonFlyBSD 2.0.1"
 msgstr "DragonFlyBSD 2.0.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.10.1.xml.in:6
 msgid "DragonFlyBSD 2.10.1"
 msgstr "DragonFlyBSD 2.10.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.2.0.xml.in:6
 msgid "DragonFlyBSD 2.2.0"
 msgstr "DragonFlyBSD 2.2.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.2.1.xml.in:6
 msgid "DragonFlyBSD 2.2.1"
 msgstr "DragonFlyBSD 2.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.4.0.xml.in:6
 msgid "DragonFlyBSD 2.4.0"
 msgstr "DragonFlyBSD 2.4.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.4.1.xml.in:6
 msgid "DragonFlyBSD 2.4.1"
 msgstr "DragonFlyBSD 2.4.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.1.xml.in:6
 msgid "DragonFlyBSD 2.6.1"
 msgstr "DragonFlyBSD 2.6.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.2.xml.in:6
 msgid "DragonFlyBSD 2.6.2"
 msgstr "DragonFlyBSD 2.6.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.3.xml.in:6
 msgid "DragonFlyBSD 2.6.3"
 msgstr "DragonFlyBSD 2.6.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-2.8.2.xml.in:6
 msgid "DragonFlyBSD 2.8.2"
 msgstr "DragonFlyBSD 2.8.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.0.1.xml.in:6
 msgid "DragonFlyBSD 3.0.1"
 msgstr "DragonFlyBSD 3.0.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.2.1.xml.in:6
 msgid "DragonFlyBSD 3.2.1"
 msgstr "DragonFlyBSD 3.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.1.xml.in:6
 msgid "DragonFlyBSD 3.4.1"
 msgstr "DragonFlyBSD 3.4.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.2.xml.in:6
 msgid "DragonFlyBSD 3.4.2"
 msgstr "DragonFlyBSD 3.4.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.3.xml.in:6
 msgid "DragonFlyBSD 3.4.3"
 msgstr "DragonFlyBSD 3.4.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.0.xml.in:6
 msgid "DragonFlyBSD 3.6.0"
 msgstr "DragonFlyBSD 3.6.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.1.xml.in:6
 msgid "DragonFlyBSD 3.6.1"
 msgstr "DragonFlyBSD 3.6.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.2.xml.in:6
 msgid "DragonFlyBSD 3.6.2"
 msgstr "DragonFlyBSD 3.6.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.0.xml.in:6
 msgid "DragonFlyBSD 3.8.0"
 msgstr "DragonFlyBSD 3.8.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.1.xml.in:6
 msgid "DragonFlyBSD 3.8.1"
 msgstr "DragonFlyBSD 3.8.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.2.xml.in:6
 msgid "DragonFlyBSD 3.8.2"
 msgstr "DragonFlyBSD 3.8.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.0.0.xml.in:6
 msgid "DragonFlyBSD 4.0.0"
 msgstr "DragonFlyBSD 4.0.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.0.1.xml.in:6
 msgid "DragonFlyBSD 4.0.1"
 msgstr "DragonFlyBSD 4.0.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.0.xml.in:6
 msgid "DragonFlyBSD 4.2.0"
 msgstr "DragonFlyBSD 4.2.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.1.xml.in:6
 msgid "DragonFlyBSD 4.2.1"
 msgstr "DragonFlyBSD 4.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.3.xml.in:6
 msgid "DragonFlyBSD 4.2.3"
 msgstr "DragonFlyBSD 4.2.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.4.xml.in:6
 msgid "DragonFlyBSD 4.2.4"
 msgstr "DragonFlyBSD 4.2.4"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.1.xml.in:6
 msgid "DragonFlyBSD 4.4.1"
 msgstr "DragonFlyBSD 4.4.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.2.xml.in:6
 msgid "DragonFlyBSD 4.4.2"
 msgstr "DragonFlyBSD 4.4.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.3.xml.in:6
 msgid "DragonFlyBSD 4.4.3"
 msgstr "DragonFlyBSD 4.4.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.0.xml.in:6
 msgid "DragonFlyBSD 4.6.0"
 msgstr "DragonFlyBSD 4.6.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.1.xml.in:6
 msgid "DragonFlyBSD 4.6.1"
 msgstr "DragonFlyBSD 4.6.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.2.xml.in:6
 msgid "DragonFlyBSD 4.6.2"
 msgstr "DragonFlyBSD 4.6.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.8.0.xml.in:6
 msgid "DragonFlyBSD 4.8.0"
 msgstr "DragonFlyBSD 4.8.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-4.8.1.xml.in:6
 msgid "DragonFlyBSD 4.8.1"
 msgstr "DragonFlyBSD 4.8.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.0.xml.in:6
 msgid "DragonFlyBSD 5.0.0"
 msgstr "DragonFlyBSD 5.0.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.1.xml.in:6
 msgid "DragonFlyBSD 5.0.1"
 msgstr "DragonFlyBSD 5.0.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.2.xml.in:6
 msgid "DragonFlyBSD 5.0.2"
 msgstr "DragonFlyBSD 5.0.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.0.xml.in:6
 msgid "DragonFlyBSD 5.2.0"
 msgstr "DragonFlyBSD 5.2.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.1.xml.in:6
 msgid "DragonFlyBSD 5.2.1"
 msgstr "DragonFlyBSD 5.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.2.xml.in:6
 msgid "DragonFlyBSD 5.2.2"
 msgstr "DragonFlyBSD 5.2.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.0.xml.in:6
 msgid "DragonFlyBSD 5.4.0"
 msgstr "DragonFlyBSD 5.4.0"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.1.xml.in:6
 msgid "DragonFlyBSD 5.4.1"
 msgstr "DragonFlyBSD 5.4.1"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.2.xml.in:6
 msgid "DragonFlyBSD 5.4.2"
 msgstr "DragonFlyBSD 5.4.2"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.3.xml.in:6
 msgid "DragonFlyBSD 5.4.3"
 msgstr "DragonFlyBSD 5.4.3"
 
-#. (itstool) path: os/_name
 #: data/os/dragonflybsd.org/dragonflybsd-5.6.xml.in:6
 msgid "DragonFlyBSD 5.6"
 msgstr "DragonFlyBSD 5.6"
 
-#. (itstool) path: os/_name
 #: data/os/elementary.io/elementary-5.0.xml.in:7
 msgid "Elementary OS 5.0 Juno"
 msgstr "Elementary OS 5.0 Juno"
 
-#. (itstool) path: os/_vendor
 #: data/os/elementary.io/elementary-5.0.xml.in:9
 msgid "Elementary, Inc."
 msgstr "Elementary, Inc."
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:6
 msgid "Endless OS 3.1"
 msgstr "Endless OS 3.1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/endlessos.com/eos-3.1.xml.in:8
 #: data/os/endlessos.com/eos-3.2.xml.in:8
 #: data/os/endlessos.com/eos-3.3.xml.in:8
@@ -1223,10 +1123,6 @@ msgstr "Endless OS 3.1"
 msgid "Endless Mobile, Inc"
 msgstr "Endless Mobile, Inc"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:19
 #: data/os/endlessos.com/eos-3.2.xml.in:22
 #: data/os/endlessos.com/eos-3.3.xml.in:22
@@ -1234,14 +1130,6 @@ msgstr "Endless Mobile, Inc"
 msgid "Endless OS Arabic"
 msgstr "Endless OS Arabe"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:32
 #: data/os/endlessos.com/eos-3.2.xml.in:35
 #: data/os/endlessos.com/eos-3.3.xml.in:35
@@ -1253,19 +1141,10 @@ msgstr "Endless OS Arabe"
 msgid "Endless OS Basic"
 msgstr "Endless OS Basique"
 
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:45
 msgid "Endless OS Bengali"
 msgstr "Endless OS Bengali"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:58
 #: data/os/endlessos.com/eos-3.2.xml.in:61
 #: data/os/endlessos.com/eos-3.3.xml.in:61
@@ -1277,14 +1156,6 @@ msgstr "Endless OS Bengali"
 msgid "Endless OS English"
 msgstr "Endless OS Anglais"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:71
 #: data/os/endlessos.com/eos-3.2.xml.in:74
 #: data/os/endlessos.com/eos-3.3.xml.in:74
@@ -1296,11 +1167,6 @@ msgstr "Endless OS Anglais"
 msgid "Endless OS Spanish"
 msgstr "Endless OS Espagnol"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:84
 #: data/os/endlessos.com/eos-3.2.xml.in:87
 #: data/os/endlessos.com/eos-3.3.xml.in:87
@@ -1309,10 +1175,6 @@ msgstr "Endless OS Espagnol"
 msgid "Endless OS Spanish (Guatemala)"
 msgstr "Endless OS Espagnol (Guatemala)"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:97
 #: data/os/endlessos.com/eos-3.2.xml.in:100
 #: data/os/endlessos.com/eos-3.3.xml.in:100
@@ -1320,14 +1182,6 @@ msgstr "Endless OS Espagnol (Guatemala)"
 msgid "Endless OS Spanish (Mexico)"
 msgstr "Endless OS Espagnol (Mexique)"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:110
 #: data/os/endlessos.com/eos-3.2.xml.in:113
 #: data/os/endlessos.com/eos-3.3.xml.in:113
@@ -1339,14 +1193,6 @@ msgstr "Endless OS Espagnol (Mexique)"
 msgid "Endless OS French"
 msgstr "Endless OS Français"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:123
 #: data/os/endlessos.com/eos-3.2.xml.in:126
 #: data/os/endlessos.com/eos-3.3.xml.in:126
@@ -1358,14 +1204,6 @@ msgstr "Endless OS Français"
 msgid "Endless OS Indonesian"
 msgstr "Endless OS Indonésien"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:136
 #: data/os/endlessos.com/eos-3.2.xml.in:139
 #: data/os/endlessos.com/eos-3.3.xml.in:139
@@ -1377,14 +1215,6 @@ msgstr "Endless OS Indonésien"
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS Portugais (Brésil)"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:149
 #: data/os/endlessos.com/eos-3.2.xml.in:152
 #: data/os/endlessos.com/eos-3.3.xml.in:152
@@ -1396,14 +1226,6 @@ msgstr "Endless OS Portugais (Brésil)"
 msgid "Endless OS Thai"
 msgstr "Endless OS Thaï"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:162
 #: data/os/endlessos.com/eos-3.2.xml.in:165
 #: data/os/endlessos.com/eos-3.3.xml.in:165
@@ -1415,10 +1237,6 @@ msgstr "Endless OS Thaï"
 msgid "Endless OS Vietnamese"
 msgstr "Endless OS Vietnamien"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:175
 #: data/os/endlessos.com/eos-3.2.xml.in:178
 #: data/os/endlessos.com/eos-3.3.xml.in:178
@@ -1426,19 +1244,10 @@ msgstr "Endless OS Vietnamien"
 msgid "Endless OS Chinese (China)"
 msgstr "Endless OS Chinois (Chine)"
 
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:189
 msgid "Endless OS Southeast Asia"
 msgstr "Endless OS Asie du Sud-Est"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.1.xml.in:201
 #: data/os/endlessos.com/eos-3.2.xml.in:192
 #: data/os/endlessos.com/eos-3.3.xml.in:192
@@ -1450,99 +1259,48 @@ msgstr "Endless OS Asie du Sud-Est"
 msgid "Endless OS (other)"
 msgstr "Endless OS (autres)"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
 msgstr "Endless OS 3.2"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/endlessos.com/eos-3.2.xml.in:48
 #: data/os/endlessos.com/eos-3.3.xml.in:48
 #: data/os/endlessos.com/eos-3.4.xml.in:139
 msgid "Endless OS Bangla"
 msgstr "Endless OS Bangla"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.3.xml.in:6
 msgid "Endless OS 3.3"
 msgstr "Endless OS 3.3"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.4.xml.in:6
 msgid "Endless OS 3.4"
 msgstr "Endless OS 3.4"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.5.xml.in:6
 msgid "Endless OS 3.5"
 msgstr "Endless OS 3.5"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.6.xml.in:6
 msgid "Endless OS 3.6"
 msgstr "Endless OS 3.6"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.7.xml.in:6
 msgid "Endless OS 3.7"
 msgstr "Endless OS 3.7"
 
-#. (itstool) path: os/_name
 #: data/os/endlessos.com/eos-3.8.xml.in:6
 msgid "Endless OS 3.8"
 msgstr "Endless OS 3.8"
 
-#. (itstool) path: os/_vendor
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 msgid "Endless OS LLC"
 msgstr "Endless OS LLC"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-1.xml.in:6
 msgid "Fedora Core 1"
 msgstr "Fedora Core 1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/fedoraproject.org/fedora-1.xml.in:8
 #: data/os/fedoraproject.org/fedora-10.xml.in:8
 #: data/os/fedoraproject.org/fedora-11.xml.in:8
@@ -1585,461 +1343,312 @@ msgstr "Fedora Core 1"
 msgid "Fedora Project"
 msgstr "Projet Fedora"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-10.xml.in:6
 msgid "Fedora 10"
 msgstr "Fedora 10"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-11.xml.in:6
 msgid "Fedora 11"
 msgstr "Fedora 11"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-12.xml.in:6
 msgid "Fedora 12"
 msgstr "Fedora 12"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-13.xml.in:6
 msgid "Fedora 13"
 msgstr "Fedora 13"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-14.xml.in:6
 msgid "Fedora 14"
 msgstr "Fedora 14"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-15.xml.in:6
 msgid "Fedora 15"
 msgstr "Fedora 15"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-16.xml.in:6
 msgid "Fedora 16"
 msgstr "Fedora 16"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-17.xml.in:6
 msgid "Fedora 17"
 msgstr "Fedora 17"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-18.xml.in:6
 msgid "Fedora 18"
 msgstr "Fedora 18"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-19.xml.in:6
 msgid "Fedora 19"
 msgstr "Fedora 19"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-2.xml.in:6
 msgid "Fedora Core 2"
 msgstr "Fedora Core 2"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-20.xml.in:6
 msgid "Fedora 20"
 msgstr "Fedora 20"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-21.xml.in:6
 #: data/os/fedoraproject.org/fedora-21.xml.in:24
 msgid "Fedora 21"
 msgstr "Fedora 21"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-21.xml.in:18
 msgid "Fedora 21 Workstation"
 msgstr "Fedora 21 Workstation"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-21.xml.in:21
 msgid "Fedora 21 Server"
 msgstr "Fedora 21 Server"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-21.xml.in:27
 msgid "Fedora 21 Cloud"
 msgstr "Fedora 21 Cloud"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-22.xml.in:6
 msgid "Fedora 22"
 msgstr "Fedora 22"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-22.xml.in:18
 #: data/os/fedoraproject.org/fedora-22.xml.in:21
 msgid "Fedora 22 Workstation"
 msgstr "Fedora 22 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-22.xml.in:24
 #: data/os/fedoraproject.org/fedora-22.xml.in:27
 msgid "Fedora 22 Server"
 msgstr "Fedora 22 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-23.xml.in:6
 msgid "Fedora 23"
 msgstr "Fedora 23"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-23.xml.in:18
 #: data/os/fedoraproject.org/fedora-23.xml.in:21
 msgid "Fedora 23 Workstation"
 msgstr "Fedora 23 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-23.xml.in:24
 #: data/os/fedoraproject.org/fedora-23.xml.in:27
 msgid "Fedora 23 Server"
 msgstr "Fedora 23 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-24.xml.in:6
 msgid "Fedora 24"
 msgstr "Fedora 24"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-24.xml.in:22
 #: data/os/fedoraproject.org/fedora-24.xml.in:25
 msgid "Fedora 24 Workstation"
 msgstr "Fedora 24 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-24.xml.in:28
 #: data/os/fedoraproject.org/fedora-24.xml.in:31
 msgid "Fedora 24 Server"
 msgstr "Fedora 24 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-25.xml.in:6
 msgid "Fedora 25"
 msgstr "Fedora 25"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-25.xml.in:18
 #: data/os/fedoraproject.org/fedora-25.xml.in:21
 msgid "Fedora 25 Workstation"
 msgstr "Fedora 25 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-25.xml.in:24
 #: data/os/fedoraproject.org/fedora-25.xml.in:27
 msgid "Fedora 25 Server"
 msgstr "Fedora 25 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-26.xml.in:6
 msgid "Fedora 26"
 msgstr "Fedora 26"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-26.xml.in:18
 #: data/os/fedoraproject.org/fedora-26.xml.in:21
 msgid "Fedora 26 Workstation"
 msgstr "Fedora 26 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-26.xml.in:24
 #: data/os/fedoraproject.org/fedora-26.xml.in:27
 msgid "Fedora 26 Server"
 msgstr "Fedora 26 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-27.xml.in:6
 msgid "Fedora 27"
 msgstr "Fedora 27"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-27.xml.in:18
 #: data/os/fedoraproject.org/fedora-27.xml.in:21
 #: data/os/fedoraproject.org/fedora-27.xml.in:24
 msgid "Fedora 27 Workstation"
 msgstr "Fedora 27 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-27.xml.in:27
 #: data/os/fedoraproject.org/fedora-27.xml.in:30
 msgid "Fedora 27 Server"
 msgstr "Fedora 27 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-28.xml.in:6
 msgid "Fedora 28"
 msgstr "Fedora 28"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-28.xml.in:18
 #: data/os/fedoraproject.org/fedora-28.xml.in:21
 msgid "Fedora 28 Workstation"
 msgstr "Fedora 28 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-28.xml.in:24
 #: data/os/fedoraproject.org/fedora-28.xml.in:27
 msgid "Fedora 28 Server"
 msgstr "Fedora 28 Server"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-29.xml.in:6
 msgid "Fedora 29"
 msgstr "Fedora 29"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-29.xml.in:18
 #: data/os/fedoraproject.org/fedora-29.xml.in:21
 msgid "Fedora 29 Workstation"
 msgstr "Fedora 29 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-29.xml.in:24
 #: data/os/fedoraproject.org/fedora-29.xml.in:27
 msgid "Fedora 29 Server"
 msgstr "Fedora 29 Server"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-29.xml.in:30
 msgid "Fedora 29 Everything"
 msgstr "Fedora 29 Everything"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-3.xml.in:6
 msgid "Fedora Core 3"
 msgstr "Fedora Core 3"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-30.xml.in:6
 msgid "Fedora 30"
 msgstr "Fedora 30"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#: data/os/fedoraproject.org/fedora-30.xml.in:17
-#: data/os/fedoraproject.org/fedora-30.xml.in:20
+#: data/os/fedoraproject.org/fedora-30.xml.in:18
+#: data/os/fedoraproject.org/fedora-30.xml.in:21
 msgid "Fedora 30 Workstation"
 msgstr "Fedora 30 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
-#: data/os/fedoraproject.org/fedora-30.xml.in:23
-#: data/os/fedoraproject.org/fedora-30.xml.in:26
+#: data/os/fedoraproject.org/fedora-30.xml.in:24
+#: data/os/fedoraproject.org/fedora-30.xml.in:27
 msgid "Fedora 30 Server"
 msgstr "Fedora 30 Server"
 
-#. (itstool) path: variant/_name
-#: data/os/fedoraproject.org/fedora-30.xml.in:29
+#: data/os/fedoraproject.org/fedora-30.xml.in:30
 msgid "Fedora 30 Everything"
 msgstr "Fedora 30 Everything"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-31.xml.in:6
 msgid "Fedora 31"
 msgstr "Fedora 31"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-31.xml.in:17
 msgid "Fedora 31 Workstation"
 msgstr "Fedora 31 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-31.xml.in:20
 #: data/os/fedoraproject.org/fedora-31.xml.in:23
 msgid "Fedora 31 Server"
 msgstr "Fedora 31 Server"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-31.xml.in:26
 msgid "Fedora 31 Everything"
 msgstr "Fedora 31 Everything"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:6
 msgid "Fedora 32"
 msgstr "Fedora 32"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:17
 msgid "Fedora 32 Workstation"
 msgstr "Fedora 32 Workstation"
 
-#. (itstool) path: variant/_name
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:20
 #: data/os/fedoraproject.org/fedora-32.xml.in:23
 msgid "Fedora 32 Server"
 msgstr "Fedora 32 Server"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-32.xml.in:26
 msgid "Fedora 32 Everything"
 msgstr "Fedora 32 Everything"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
 msgstr "Fedora Core 5"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-6.xml.in:6
 msgid "Fedora Core 6"
 msgstr "Fedora Core 6"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-7.xml.in:6
 msgid "Fedora 7"
 msgstr "Fedora 7"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-8.xml.in:6
 msgid "Fedora 8"
 msgstr "Fedora 8"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-9.xml.in:6
 msgid "Fedora 9"
 msgstr "Fedora 9"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
 msgstr "Fedora Rawhide"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:16
 msgid "Fedora Rawhide Workstation"
 msgstr "Fedora Rawhide Workstation"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:19
 msgid "Fedora Rawhide Server"
 msgstr "Fedora Rawhide Server"
 
-#. (itstool) path: variant/_name
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:22
 msgid "Fedora Rawhide Everything"
 msgstr "Fedora Rawhide Everything"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/fedora-unknown.xml.in:6
 msgid "Fedora"
 msgstr "Fedora"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-28.xml.in:6
 msgid "Fedora Silverblue 28"
 msgstr "Fedora Silverblue 28"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-29.xml.in:6
 msgid "Fedora Silverblue 29"
 msgstr "Fedora Silverblue 29"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-30.xml.in:6
 msgid "Fedora Silverblue 30"
 msgstr "Fedora Silverblue 30"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-31.xml.in:6
 msgid "Fedora Silverblue 31"
 msgstr "Fedora Silverblue 31"
 
-#. (itstool) path: os/_name
 #: data/os/fedoraproject.org/silverblue-32.xml.in:6
 msgid "Fedora Silverblue 32"
 msgstr "Fedora Silverblue 32"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
 msgstr "FreeBSD 1.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/freebsd.org/freebsd-1.0.xml.in:8
 #: data/os/freebsd.org/freebsd-10.0.xml.in:8
 #: data/os/freebsd.org/freebsd-10.1.xml.in:8
@@ -2050,6 +1659,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-11.1.xml.in:8
 #: data/os/freebsd.org/freebsd-11.2.xml.in:8
 #: data/os/freebsd.org/freebsd-11.3.xml.in:8
+#: data/os/freebsd.org/freebsd-11.4.xml.in:8
 #: data/os/freebsd.org/freebsd-12.0.xml.in:8
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
@@ -2099,321 +1709,260 @@ msgstr "FreeBSD 1.0"
 msgid "FreeBSD Project"
 msgstr "Projet FreeBSD"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-10.0.xml.in:6
 msgid "FreeBSD 10.0"
 msgstr "FreeBSD 10.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-10.1.xml.in:6
 msgid "FreeBSD 10.1"
 msgstr "FreeBSD 10.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-10.2.xml.in:6
 msgid "FreeBSD 10.2"
 msgstr "FreeBSD 10.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-10.3.xml.in:6
 msgid "FreeBSD 10.3"
 msgstr "FreeBSD 10.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-10.4.xml.in:6
 msgid "FreeBSD 10.4"
 msgstr "FreeBSD 10.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-11.0.xml.in:6
 msgid "FreeBSD 11.0"
 msgstr "FreeBSD 11.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-11.1.xml.in:6
 msgid "FreeBSD 11.1"
 msgstr "FreeBSD 11.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-11.2.xml.in:6
 msgid "FreeBSD 11.2"
 msgstr "FreeBSD 11.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-11.3.xml.in:6
 msgid "FreeBSD 11.3"
 msgstr "FreeBSD 11.3"
 
-#. (itstool) path: os/_name
+#: data/os/freebsd.org/freebsd-11.4.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 11.0"
+msgid "FreeBSD 11.4"
+msgstr "FreeBSD 11.0"
+
 #: data/os/freebsd.org/freebsd-12.0.xml.in:6
 msgid "FreeBSD 12.0"
 msgstr "FreeBSD 12.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-12.1.xml.in:6
 msgid "FreeBSD 12.1"
 msgstr "FreeBSD 12.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
 msgstr "FreeBSD 2.0.5"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-2.0.xml.in:6
 msgid "FreeBSD 2.0"
 msgstr "FreeBSD 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:6
 msgid "FreeBSD 2.2.8"
 msgstr "FreeBSD 2.2.8"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-2.2.9.xml.in:6
 msgid "FreeBSD 2.2.9"
 msgstr "FreeBSD 2.2.9"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-3.0.xml.in:6
 msgid "FreeBSD 3.0"
 msgstr "FreeBSD 3.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-3.2.xml.in:6
 msgid "FreeBSD 3.2"
 msgstr "FreeBSD 3.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.0.xml.in:6
 msgid "FreeBSD 4.0"
 msgstr "FreeBSD 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.1.xml.in:6
 msgid "FreeBSD 4.1"
 msgstr "FreeBSD 4.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.10.xml.in:6
 msgid "FreeBSD 4.10"
 msgstr "FreeBSD 4.10"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.11.xml.in:6
 msgid "FreeBSD 4.11"
 msgstr "FreeBSD 4.11"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.2.xml.in:6
 msgid "FreeBSD 4.2"
 msgstr "FreeBSD 4.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.3.xml.in:6
 msgid "FreeBSD 4.3"
 msgstr "FreeBSD 4.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.4.xml.in:6
 msgid "FreeBSD 4.4"
 msgstr "FreeBSD 4.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.5.xml.in:6
 msgid "FreeBSD 4.5"
 msgstr "FreeBSD 4.5"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.6.xml.in:6
 msgid "FreeBSD 4.6"
 msgstr "FreeBSD 4.6"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.7.xml.in:6
 msgid "FreeBSD 4.7"
 msgstr "FreeBSD 4.7"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.8.xml.in:6
 msgid "FreeBSD 4.8"
 msgstr "FreeBSD 4.8"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-4.9.xml.in:6
 msgid "FreeBSD 4.9"
 msgstr "FreeBSD 4.9"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.0.xml.in:6
 msgid "FreeBSD 5.0"
 msgstr "FreeBSD 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.1.xml.in:6
 msgid "FreeBSD 5.1"
 msgstr "FreeBSD 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.2.1.xml.in:6
 msgid "FreeBSD 5.2.1"
 msgstr "FreeBSD 5.2.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.2.xml.in:6
 msgid "FreeBSD 5.2"
 msgstr "FreeBSD 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.3.xml.in:6
 msgid "FreeBSD 5.3"
 msgstr "FreeBSD 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.4.xml.in:6
 msgid "FreeBSD 5.4"
 msgstr "FreeBSD 5.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-5.5.xml.in:6
 msgid "FreeBSD 5.5"
 msgstr "FreeBSD 5.5"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-6.0.xml.in:6
 msgid "FreeBSD 6.0"
 msgstr "FreeBSD 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-6.1.xml.in:6
 msgid "FreeBSD 6.1"
 msgstr "FreeBSD 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-6.2.xml.in:6
 msgid "FreeBSD 6.2"
 msgstr "FreeBSD 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-6.3.xml.in:6
 msgid "FreeBSD 6.3"
 msgstr "FreeBSD 6.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-6.4.xml.in:6
 msgid "FreeBSD 6.4"
 msgstr "FreeBSD 6.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-7.0.xml.in:6
 msgid "FreeBSD 7.0"
 msgstr "FreeBSD 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-7.1.xml.in:6
 msgid "FreeBSD 7.1"
 msgstr "FreeBSD 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-7.2.xml.in:6
 msgid "FreeBSD 7.2"
 msgstr "FreeBSD 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-7.3.xml.in:6
 msgid "FreeBSD 7.3"
 msgstr "FreeBSD 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-7.4.xml.in:6
 msgid "FreeBSD 7.4"
 msgstr "FreeBSD 7.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-8.0.xml.in:6
 msgid "FreeBSD 8.0"
 msgstr "FreeBSD 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-8.1.xml.in:6
 msgid "FreeBSD 8.1"
 msgstr "FreeBSD 8.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-8.2.xml.in:6
 msgid "FreeBSD 8.2"
 msgstr "FreeBSD 8.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-8.3.xml.in:6
 msgid "FreeBSD 8.3"
 msgstr "FreeBSD 8.3"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-8.4.xml.in:6
 msgid "FreeBSD 8.4"
 msgstr "FreeBSD 8.4"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-9.0.xml.in:6
 msgid "FreeBSD 9.0"
 msgstr "FreeBSD 9.0"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-9.1.xml.in:6
 msgid "FreeBSD 9.1"
 msgstr "FreeBSD 9.1"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-9.2.xml.in:6
 msgid "FreeBSD 9.2"
 msgstr "FreeBSD 9.2"
 
-#. (itstool) path: os/_name
 #: data/os/freebsd.org/freebsd-9.3.xml.in:6
 msgid "FreeBSD 9.3"
 msgstr "FreeBSD 9.3"
 
-#. (itstool) path: os/_name
 #: data/os/freedos.org/freedos-1.2.xml.in:6
 msgid "FreeDOS 1.2"
 msgstr "FreeDOS 1.2"
 
-#. (itstool) path: os/_vendor
 #: data/os/freedos.org/freedos-1.2.xml.in:8
 msgid "FreeDOS"
 msgstr "FreeDOS"
 
-#. (itstool) path: variant/_name
 #: data/os/freedos.org/freedos-1.2.xml.in:15
 msgid "FreeDOS 1.2 \"Standard\" Installer"
 msgstr "FreeDOS 1.2 \"Standard\" Installer"
 
-#. (itstool) path: variant/_name
 #: data/os/freedos.org/freedos-1.2.xml.in:18
 msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgstr "FreeDOS 1.2 \"Legacy\" Installer"
 
-#. (itstool) path: os/_name
 #: data/os/gentoo.org/gentoo-rolling.xml.in:6
 msgid "Gentoo Linux"
 msgstr "Gentoo Linux"
 
-#. (itstool) path: os/_vendor
 #: data/os/gentoo.org/gentoo-rolling.xml.in:7
 msgid "Gentoo Foundation"
 msgstr "Fondation Gentoo"
 
-#. (itstool) path: os/_name
 #: data/os/gnome.org/gnome-3.6.xml.in:6
 msgid "GNOME 3.6"
 msgstr "GNOME 3.6"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/gnome.org/gnome-3.6.xml.in:8 data/os/gnome.org/gnome-3.8.xml.in:8
 #: data/os/gnome.org/gnome-continuous-3.10.xml.in:8
 #: data/os/gnome.org/gnome-continuous-3.12.xml.in:8
@@ -2421,37 +1970,26 @@ msgstr "GNOME 3.6"
 msgid "GNOME Project"
 msgstr "Projet GNOME"
 
-#. (itstool) path: os/_name
 #: data/os/gnome.org/gnome-3.8.xml.in:6
 msgid "GNOME 3.8"
 msgstr "GNOME 3.8"
 
-#. (itstool) path: os/_name
 #: data/os/gnome.org/gnome-continuous-3.10.xml.in:6
 msgid "GNOME 3.10"
 msgstr "GNOME 3.10"
 
-#. (itstool) path: os/_name
 #: data/os/gnome.org/gnome-continuous-3.12.xml.in:6
 msgid "GNOME 3.12"
 msgstr "GNOME 3.12"
 
-#. (itstool) path: os/_name
 #: data/os/gnome.org/gnome-continuous-3.14.xml.in:6
 msgid "GNOME 3.14"
 msgstr "GNOME 3.14"
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
 msgstr "Haiku Nightly"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/haiku-os.org/haiku-nightly.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha2.xml.in:6
@@ -2461,109 +1999,60 @@ msgstr "Haiku Nightly"
 msgid "Haiku, Inc."
 msgstr "Haiku, Inc."
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-r1alpha1.xml.in:4
 msgid "Haiku R1/Alpha1"
 msgstr "Haiku R1/Alpha1"
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-r1alpha2.xml.in:4
 msgid "Haiku R1/Alpha2"
 msgstr "Haiku R1/Alpha2"
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:4
 msgid "Haiku R1/Alpha3"
 msgstr "Haiku R1/Alpha3"
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:4
 msgid "Haiku R1/Alpha4.1"
 msgstr "Haiku R1/Alpha4.1"
 
-#. (itstool) path: os/_name
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/Beta1"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
 msgstr "Mageia 1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/mageia.org/mageia-1.xml.in:7 data/os/mageia.org/mageia-2.xml.in:7
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
 msgid "Mageia"
 msgstr "Mageia"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-2.xml.in:6
 msgid "Mageia 2"
 msgstr "Mageia 2"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-3.xml.in:6
 msgid "Mageia 3"
 msgstr "Mageia 3"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-4.xml.in:6
 msgid "Mageia 4"
 msgstr "Mageia 4"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-5.xml.in:6
 msgid "Mageia 5"
 msgstr "Mageia 5"
 
-#. (itstool) path: os/_name
 #: data/os/mageia.org/mageia-6.xml.in:6
 msgid "Mageia 6"
 msgstr "Mageia 6"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
 msgstr "Mandrake Linux 10.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/mandriva.com/mandrake-10.0.xml.in:7
 #: data/os/mandriva.com/mandrake-10.1.xml.in:7
 #: data/os/mandriva.com/mandrake-10.2.xml.in:7
@@ -2597,249 +2086,171 @@ msgstr "Mandrake Linux 10.0"
 msgid "Mandriva"
 msgstr "Mandriva"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-10.1.xml.in:6
 msgid "Mandrake Linux 10.1"
 msgstr "Mandrake Linux 10.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-10.2.xml.in:6
 msgid "Mandrake Linux 10.2"
 msgstr "Mandrake Linux 10.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-5.1.xml.in:6
 msgid "Mandrake Linux 5.1"
 msgstr "Mandrake Linux 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-5.2.xml.in:6
 msgid "Mandrake Linux 5.2"
 msgstr "Mandrake Linux 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-5.3.xml.in:6
 msgid "Mandrake Linux 5.3"
 msgstr "Mandrake Linux 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-6.0.xml.in:6
 msgid "Mandrake Linux 6.0"
 msgstr "Mandrake Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-6.1.xml.in:6
 msgid "Mandrake Linux 6.1"
 msgstr "Mandrake Linux 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-7.0.xml.in:6
 msgid "Mandrake Linux 7.0"
 msgstr "Mandrake Linux 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-7.1.xml.in:6
 msgid "Mandrake Linux 7.1"
 msgstr "Mandrake Linux 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-7.2.xml.in:6
 msgid "Mandrake Linux 7.2"
 msgstr "Mandrake Linux 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-8.0.xml.in:6
 msgid "Mandrake Linux 8.0"
 msgstr "Mandrake Linux 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-8.1.xml.in:6
 msgid "Mandrake Linux 8.1"
 msgstr "Mandrake Linux 8.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-8.2.xml.in:6
 msgid "Mandrake Linux 8.2"
 msgstr "Mandrake Linux 8.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-9.0.xml.in:6
 msgid "Mandrake Linux 9.0"
 msgstr "Mandrake Linux 9.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-9.1.xml.in:6
 msgid "Mandrake Linux 9.1"
 msgstr "Mandrake Linux 9.1"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandrake-9.2.xml.in:6
 msgid "Mandrake Linux 9.2"
 msgstr "Mandrake Linux 9.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2006.0.xml.in:6
 msgid "Mandriva Linux 2006.0"
 msgstr "Mandriva Linux 2006.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2007.1.xml.in:6
 msgid "Mandriva Linux 2007 Spring"
 msgstr "Mandriva Linux 2007 Spring"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2007.xml.in:6
 msgid "Mandriva Linux 2007"
 msgstr "Mandriva Linux 2007"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2008.0.xml.in:6
 msgid "Mandriva Linux 2008"
 msgstr "Mandriva Linux 2008"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2008.1.xml.in:6
 msgid "Mandriva Linux 2008 Spring"
 msgstr "Mandriva Linux 2008 Spring"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2009.0.xml.in:6
 msgid "Mandriva Linux 2009"
 msgstr "Mandriva Linux 2009"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2009.1.xml.in:6
 msgid "Mandriva Linux 2009 Spring"
 msgstr "Mandriva Linux 2009 Spring"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2010.0.xml.in:6
 msgid "Mandriva Linux 2010"
 msgstr "Mandriva Linux 2010"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2010.1.xml.in:6
 msgid "Mandriva Linux 2010 Spring"
 msgstr "Mandriva Linux 2010 Spring"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2010.2.xml.in:6
 msgid "Mandriva Linux 2010.2"
 msgstr "Mandriva Linux 2010.2"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mandriva-2011.xml.in:6
 msgid "Mandriva Linux 2011"
 msgstr "Mandriva Linux 2011"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mbs-1.0.xml.in:6
 msgid "Mandriva Business Server 1.0"
 msgstr "Mandriva Business Server 1.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mes-5.0.xml.in:6
 msgid "Mandriva Enterprise Server 5.0"
 msgstr "Mandriva Enterprise Server 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/mandriva.com/mes-5.1.xml.in:6
 msgid "Mandriva Enterprise Server 5.1"
 msgstr "Mandriva Enterprise Server 5.1"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
 #: data/os/manjaro.org/manjaro-rolling.xml.in:6
 #: data/os/manjaro.org/manjaro-rolling.xml.in:7
 msgid "Manjaro"
 msgstr "Manjaro"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
 msgid "Manjaro Architect"
 msgstr "Manjaro Architect"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
 msgstr "Manjaro GNOME"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:37
 msgid "Manjaro GNOME (Minimal)"
 msgstr "Manjaro GNOME (Minimal)"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:41
 msgid "Manjaro KDE"
 msgstr "Manjaro KDE"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:45
 msgid "Manjaro KDE (Minimal)"
 msgstr "Manjaro KDE (Minimal)"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:49
 msgid "Manjaro XFCE"
 msgstr "Manjaro XFCE"
 
-#. (itstool) path: variant/_name
 #: data/os/manjaro.org/manjaro-rolling.xml.in:53
 msgid "Manjaro XFCE (Minimal)"
 msgstr "Manjaro XFCE (Minimal)"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
 msgid "Microsoft MS-DOS 6.22"
 msgstr "Microsoft MS-DOS 6.22"
 
-#. (itstool) path: os/_vendor
 #: data/os/microsoft.com/msdos-6.22.xml.in:7
 msgid "Microsoft"
 msgstr "Microsoft"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-1.0.xml.in:6
 msgid "Microsoft Windows 1.0"
 msgstr "Microsoft Windows 1.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/microsoft.com/win-1.0.xml.in:7
 #: data/os/microsoft.com/win-10.d/post-installable-drivers.xml.in:7
 #: data/os/microsoft.com/win-10.d/pre-installable-drivers.xml.in:7
@@ -2875,327 +2286,237 @@ msgstr "Microsoft Windows 1.0"
 msgid "Microsoft Corporation"
 msgstr "Microsoft Corporation"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-10.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-10.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-10.xml.in:6
 msgid "Microsoft Windows 10"
 msgstr "Microsoft Windows 10"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-10.xml.in:17
 msgid "Microsoft Windows 10 Education"
 msgstr "Microsoft Windows 10 Éducation"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-10.xml.in:20
 msgid "Microsoft Windows 10 Enterprise"
 msgstr "Microsoft Windows 10 Entreprise"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-10.xml.in:23
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
 msgstr "Microsoft Windows 10 Entreprise (Long Term Servicing Branch)"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-10.xml.in:26
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
 msgstr ""
 "Microsoft Windows 10 Entreprise (Long Term Servicing Branch) Évaluation"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
 msgstr "Microsoft Windows 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2.1.xml.in:6
 msgid "Microsoft Windows 2.1"
 msgstr "Microsoft Windows 2.1"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k.xml.in:6
 msgid "Microsoft Windows 2000"
 msgstr "Microsoft Windows 2000"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k12.xml.in:6
 msgid "Microsoft Windows Server 2012"
 msgstr "Microsoft Windows Server 2012"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12.xml.in:22
 msgid "Windows Server 2012 Storage"
 msgstr "Windows Server 2012 Storage"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12.xml.in:25
 msgid "Windows Server 2012 for HyperV"
 msgstr "Windows Server 2012 pour HyperV"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12.xml.in:28
 msgid "Windows Server 2012 Essentials"
 msgstr "Windows Server 2012 Essentials"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12.xml.in:31
 msgid "Windows Server 2012 Volume License"
 msgstr "Windows Server 2012 Volume License"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k12r2.xml.in:6
 msgid "Microsoft Windows Server 2012 R2"
 msgstr "Microsoft Windows Server 2012 R2"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12r2.xml.in:15
 msgid "Windows Server 2012 R2 Storage"
 msgstr "Windows Server 2012 R2 Storage"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12r2.xml.in:18
 msgid "Windows Server 2012 R2 for HyperV"
 msgstr "Windows Server 2012 R2 pour HyperV"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12r2.xml.in:21
 msgid "Windows Server 2012 R2 Essentials"
 msgstr "Windows Server 2012 R2 Essentials"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k12r2.xml.in:24
 msgid "Windows Server 2012 R2 Volume License"
 msgstr "Windows Server 2012 R2 Volume License"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k16.xml.in:6
 msgid "Microsoft Windows Server 2016"
 msgstr "Microsoft Windows Server 2016"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k16.xml.in:15
 msgid "Windows Server 2016 for HyperV"
 msgstr "Windows Server 2016 pour HyperV"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-2k16.xml.in:18
 msgid "Windows Server 2016 Essentials"
 msgstr "Windows Server 2016 Essentials"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
 msgstr "Microsoft Windows Server 2019"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k3.xml.in:6
 msgid "Microsoft Windows Server 2003"
 msgstr "Microsoft Windows Server 2003"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k3r2.xml.in:6
 msgid "Microsoft Windows Server 2003 R2"
 msgstr "Microsoft Windows Server 2003 R2"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k8.xml.in:6
 msgid "Microsoft Windows Server 2008"
 msgstr "Microsoft Windows Server 2008"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-2k8r2.xml.in:6
 msgid "Microsoft Windows Server 2008 R2"
 msgstr "Microsoft Windows Server 2008 R2"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-3.1.xml.in:6
 msgid "Microsoft Windows 3.1"
 msgstr "Microsoft Windows 3.1"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-7.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.xml.in:6
 msgid "Microsoft Windows 7"
 msgstr "Microsoft Windows 7"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:18
 msgid "Microsoft Windows 7 Debug Checked Build"
 msgstr "Microsoft Windows 7 Debug Checked Build"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:21
 msgid "Microsoft Windows 7 Starter"
 msgstr "Microsoft Windows 7 Starter"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:24
 msgid "Microsoft Windows 7 Home Basic"
 msgstr "Microsoft Windows 7 Édition Familiale Basique"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:27
 msgid "Microsoft Windows 7 Home Premium"
 msgstr "Microsoft Windows 7 Édition Familiale Premium"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:30
 msgid "Microsoft Windows 7 Professional"
 msgstr "Microsoft Windows 7 Professionnel"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:33
 msgid "Microsoft Windows 7 Enterprise"
 msgstr "Microsoft Windows 7 Entreprise"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-7.xml.in:36
 msgid "Microsoft Windows 7 Ultimate"
 msgstr "Microsoft Windows 7 Édition Intégrale"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-8.1.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.xml.in:6
 msgid "Microsoft Windows 8.1"
 msgstr "Microsoft Windows 8.1"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.1.xml.in:18
 msgid "Microsoft Windows 8.1 Debug Checked Build"
 msgstr "Microsoft Windows 8.1 Debug Checked Build"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.1.xml.in:21
 msgid "Microsoft Windows 8.1 Enterprise Debug Checked Build"
 msgstr "Microsoft Windows 8.1 Entreprise Debug Checked Build"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.1.xml.in:24
 msgid "Microsoft Windows 8.1 Professional"
 msgstr "Microsoft Windows 8.1 Professionnel"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.1.xml.in:27
 msgid "Microsoft Windows 8.1 Enterprise"
 msgstr "Microsoft Windows 8.1 Entreprise"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-8.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.xml.in:6
 msgid "Microsoft Windows 8"
 msgstr "Microsoft Windows 8"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.xml.in:18
 msgid "Microsoft Windows 8 Debug Check Build"
 msgstr "Microsoft Windows 8 Debug Check Build"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.xml.in:21
 msgid "Microsoft Windows 8 Enterprise"
 msgstr "Microsoft Windows 8 Entreprise"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.xml.in:24
 msgid "Microsoft Windows 8 Enterprise Debug Check Build"
 msgstr "Microsoft Windows 8 Entreprise Debug Check Build"
 
-#. (itstool) path: variant/_name
 #: data/os/microsoft.com/win-8.xml.in:27
 msgid "Microsoft Windows 8 Professional"
 msgstr "Microsoft Windows 8 Professionnel"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-95.xml.in:6
 msgid "Microsoft Windows 95"
 msgstr "Microsoft Windows 95"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-98.xml.in:6
 msgid "Microsoft Windows 98"
 msgstr "Microsoft Windows 98"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-me.xml.in:6
 msgid "Microsoft Windows Millennium Edition"
 msgstr "Microsoft Windows Édition Millennium"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-vista.xml.in:6
 msgid "Microsoft Windows Vista"
 msgstr "Microsoft Windows Vista"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/win-xp.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.xml.in:6
 msgid "Microsoft Windows XP"
 msgstr "Microsoft Windows XP"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/winnt-3.1.xml.in:6
 msgid "Microsoft Windows NT Server 3.1"
 msgstr "Microsoft Windows NT Server 3.1"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/winnt-3.5.xml.in:6
 msgid "Microsoft Windows NT Server 3.5"
 msgstr "Microsoft Windows NT Server 3.5"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/winnt-3.51.xml.in:6
 msgid "Microsoft Windows NT Server 3.51"
 msgstr "Microsoft Windows NT Server 3.51"
 
-#. (itstool) path: os/_name
 #: data/os/microsoft.com/winnt-4.0.xml.in:6
 msgid "Microsoft Windows NT Server 4.0"
 msgstr "Microsoft Windows NT Server 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
 msgstr "NetBSD 0.8"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/netbsd.org/netbsd-0.8.xml.in:8
 #: data/os/netbsd.org/netbsd-0.9.xml.in:8
 #: data/os/netbsd.org/netbsd-1.0.xml.in:8
@@ -3224,160 +2545,126 @@ msgstr "NetBSD 0.8"
 msgid "NetBSD Project"
 msgstr "Projet NetBSD"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-0.9.xml.in:6
 msgid "NetBSD 0.9"
 msgstr "NetBSD 0.9"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.0.xml.in:6
 msgid "NetBSD 1.0"
 msgstr "NetBSD 1.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.1.xml.in:6
 msgid "NetBSD 1.1"
 msgstr "NetBSD 1.1"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.2.xml.in:6
 msgid "NetBSD 1.2"
 msgstr "NetBSD 1.2"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.3.xml.in:6
 msgid "NetBSD 1.3"
 msgstr "NetBSD 1.3"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.4.xml.in:6
 msgid "NetBSD 1.4"
 msgstr "NetBSD 1.4"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.5.xml.in:6
 msgid "NetBSD 1.5"
 msgstr "NetBSD 1.5"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-1.6.xml.in:6
 msgid "NetBSD 1.6"
 msgstr "NetBSD 1.6"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-2.0.xml.in:6
 msgid "NetBSD 2.0"
 msgstr "NetBSD 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-3.0.xml.in:6
 msgid "NetBSD 3.0"
 msgstr "NetBSD 3.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-4.0.xml.in:6
 msgid "NetBSD 4.0"
 msgstr "NetBSD 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-5.0.xml.in:6
 msgid "NetBSD 5.0"
 msgstr "NetBSD 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-5.1.xml.in:6
 msgid "NetBSD 5.1"
 msgstr "NetBSD 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-6.0.xml.in:5
 msgid "NetBSD 6.0"
 msgstr "NetBSD 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-6.1.xml.in:5
 msgid "NetBSD 6.1"
 msgstr "NetBSD 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-7.0.xml.in:5
 msgid "NetBSD 7.0"
 msgstr "NetBSD 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-7.1.1.xml.in:5
 msgid "NetBSD 7.1.1"
 msgstr "NetBSD 7.1.1"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-7.1.2.xml.in:5
 msgid "NetBSD 7.1.2"
 msgstr "NetBSD 7.1.2"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-7.1.xml.in:5
 msgid "NetBSD 7.1"
 msgstr "NetBSD 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-7.2.xml.in:5
 msgid "NetBSD 7.2"
 msgstr "NetBSD 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-8.0.xml.in:5
 msgid "NetBSD 8.0"
 msgstr "NetBSD 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-8.1.xml.in:5
 msgid "NetBSD 8.1"
 msgstr "NetBSD 8.1"
 
-#. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.1.xml.in:14
 msgid "NetBSD 8.1 Network Install"
 msgstr "NetBSD 8.1 Network Install"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:5
 msgid "NetBSD 8.2"
 msgstr "NetBSD 8.2"
 
-#. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:14
 msgid "NetBSD 8.2 Network Install"
 msgstr "NetBSD 8.2 Network Install"
 
-#. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-8.2.xml.in:17
 msgid "NetBSD 8.2 Network Install (Serial Console)"
 msgstr "NetBSD 8.2 Network Install (Serial Console)"
 
-#. (itstool) path: os/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:5
 msgid "NetBSD 9.0"
 msgstr "NetBSD 9.0"
 
-#. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:14
 msgid "NetBSD 9.0 Network Install"
 msgstr "NetBSD 9.0 Network Install"
 
-#. (itstool) path: variant/_name
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
 msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgstr "NetBSD 9.0 Network Install (Serial Console)"
 
-#. (itstool) path: os/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
 msgstr "NixOS 20.03"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
@@ -3385,84 +2672,48 @@ msgstr "NixOS 20.03"
 msgid "NixOS"
 msgstr "NixOS"
 
-#. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
 msgstr "NixOS 20.03 (CD d’installation minimal)"
 
-#. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
 
-#. (itstool) path: os/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
 msgstr "NixOS Unstable"
 
-#. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
 msgstr "NixOS Unstable (CD d’installation minimal)"
 
-#. (itstool) path: variant/_name
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgstr "NixOS Unstable (CD d’installation Plasma 5)"
 
-#. (itstool) path: os/_name
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
 msgstr "Novell Netware 4"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/novell.com/netware-4.xml.in:7 data/os/novell.com/netware-5.xml.in:7
 #: data/os/novell.com/netware-6.xml.in:7
 msgid "Novell"
 msgstr "Novell"
 
-#. (itstool) path: os/_name
 #: data/os/novell.com/netware-5.xml.in:6
 msgid "Novell Netware 5"
 msgstr "Novell Netware 5"
 
-#. (itstool) path: os/_name
 #: data/os/novell.com/netware-6.xml.in:6
 msgid "Novell Netware 6"
 msgstr "Novell Netware 6"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
 msgid "OpenBSD 4.2"
 msgstr "OpenBSD 4.2"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/openbsd.org/openbsd-4.2.xml.in:10
 #: data/os/openbsd.org/openbsd-4.3.xml.in:10
 #: data/os/openbsd.org/openbsd-4.4.xml.in:10
@@ -3486,190 +2737,131 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.4.xml.in:10
 #: data/os/openbsd.org/openbsd-6.5.xml.in:10
 #: data/os/openbsd.org/openbsd-6.6.xml.in:10
+#: data/os/openbsd.org/openbsd-6.7.xml.in:10
 msgid "OpenBSD Project"
 msgstr "Projet OpenBSD"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.3.xml.in:6
 #: data/os/openbsd.org/openbsd-4.3.xml.in:18
 msgid "OpenBSD 4.3"
 msgstr "OpenBSD 4.3"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.4.xml.in:6
 #: data/os/openbsd.org/openbsd-4.4.xml.in:18
 msgid "OpenBSD 4.4"
 msgstr "OpenBSD 4.4"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.5.xml.in:6
 #: data/os/openbsd.org/openbsd-4.5.xml.in:18
 msgid "OpenBSD 4.5"
 msgstr "OpenBSD 4.5"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.8.xml.in:6
 #: data/os/openbsd.org/openbsd-4.8.xml.in:18
 msgid "OpenBSD 4.8"
 msgstr "OpenBSD 4.8"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-4.9.xml.in:6
 #: data/os/openbsd.org/openbsd-4.9.xml.in:18
 msgid "OpenBSD 4.9"
 msgstr "OpenBSD 4.9"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.0.xml.in:6
 #: data/os/openbsd.org/openbsd-5.0.xml.in:18
 msgid "OpenBSD 5.0"
 msgstr "OpenBSD 5.0"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.1.xml.in:6
 #: data/os/openbsd.org/openbsd-5.1.xml.in:18
 msgid "OpenBSD 5.1"
 msgstr "OpenBSD 5.1"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.2.xml.in:6
 #: data/os/openbsd.org/openbsd-5.2.xml.in:18
 msgid "OpenBSD 5.2"
 msgstr "OpenBSD 5.2"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.3.xml.in:6
 #: data/os/openbsd.org/openbsd-5.3.xml.in:18
 msgid "OpenBSD 5.3"
 msgstr "OpenBSD 5.3"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.4.xml.in:6
 #: data/os/openbsd.org/openbsd-5.4.xml.in:18
 msgid "OpenBSD 5.4"
 msgstr "OpenBSD 5.4"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.5.xml.in:6
 #: data/os/openbsd.org/openbsd-5.5.xml.in:18
 msgid "OpenBSD 5.5"
 msgstr "OpenBSD 5.5"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.6.xml.in:6
 #: data/os/openbsd.org/openbsd-5.6.xml.in:18
 msgid "OpenBSD 5.6"
 msgstr "OpenBSD 5.6"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.7.xml.in:6
 #: data/os/openbsd.org/openbsd-5.7.xml.in:18
 msgid "OpenBSD 5.7"
 msgstr "OpenBSD 5.7"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.8.xml.in:6
 #: data/os/openbsd.org/openbsd-5.8.xml.in:18
 msgid "OpenBSD 5.8"
 msgstr "OpenBSD 5.8"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-5.9.xml.in:6
 #: data/os/openbsd.org/openbsd-5.9.xml.in:18
 msgid "OpenBSD 5.9"
 msgstr "OpenBSD 5.9"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.0.xml.in:6
 #: data/os/openbsd.org/openbsd-6.0.xml.in:18
 msgid "OpenBSD 6.0"
 msgstr "OpenBSD 6.0"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.1.xml.in:6
 #: data/os/openbsd.org/openbsd-6.1.xml.in:18
 msgid "OpenBSD 6.1"
 msgstr "OpenBSD 6.1"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.2.xml.in:6
 #: data/os/openbsd.org/openbsd-6.2.xml.in:18
 msgid "OpenBSD 6.2"
 msgstr "OpenBSD 6.2"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.3.xml.in:6
 #: data/os/openbsd.org/openbsd-6.3.xml.in:18
 msgid "OpenBSD 6.3"
 msgstr "OpenBSD 6.3"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.4.xml.in:6
 #: data/os/openbsd.org/openbsd-6.4.xml.in:17
 msgid "OpenBSD 6.4"
 msgstr "OpenBSD 6.4"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.5.xml.in:6
 #: data/os/openbsd.org/openbsd-6.5.xml.in:18
 msgid "OpenBSD 6.5"
 msgstr "OpenBSD 6.5"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/openbsd.org/openbsd-6.6.xml.in:6
 #: data/os/openbsd.org/openbsd-6.6.xml.in:18
 msgid "OpenBSD 6.6"
 msgstr "OpenBSD 6.6"
 
-#. (itstool) path: os/_name
+#: data/os/openbsd.org/openbsd-6.7.xml.in:6
+#: data/os/openbsd.org/openbsd-6.7.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 6.0"
+msgid "OpenBSD 6.7"
+msgstr "OpenBSD 6.0"
+
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
 msgstr "openSUSE 10.2"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
 #: data/os/opensuse.org/opensuse-10.2.xml.in:8
 #: data/os/opensuse.org/opensuse-10.3.xml.in:8
 #: data/os/opensuse.org/opensuse-11.0.xml.in:8
@@ -3695,146 +2887,86 @@ msgstr "openSUSE 10.2"
 msgid "openSUSE"
 msgstr "openSUSE"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-10.3.xml.in:6
 msgid "openSUSE 10.3"
 msgstr "openSUSE 10.3"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-11.0.xml.in:6
 msgid "openSUSE 11.0"
 msgstr "openSUSE 11.0"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-11.1.xml.in:6
 msgid "openSUSE 11.1"
 msgstr "openSUSE 11.1"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-11.2.xml.in:6
 msgid "openSUSE 11.2"
 msgstr "openSUSE 11.2"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-11.3.xml.in:6
 msgid "openSUSE 11.3"
 msgstr "openSUSE 11.3"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-11.4.xml.in:6
 msgid "openSUSE 11.4"
 msgstr "openSUSE 11.4"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-12.1.xml.in:6
 msgid "openSUSE 12.1"
 msgstr "openSUSE 12.1"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-12.2.xml.in:6
 msgid "openSUSE 12.2"
 msgstr "openSUSE 12.2"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-12.3.xml.in:6
 msgid "openSUSE 12.3"
 msgstr "openSUSE 12.3"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-13.1.xml.in:6
 msgid "openSUSE 13.1"
 msgstr "openSUSE 13.1"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-13.2.xml.in:6
 msgid "openSUSE 13.2"
 msgstr "openSUSE 13.2"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/opensuse.org/opensuse-15.0.xml.in:6
 #: data/os/opensuse.org/opensuse-15.0.xml.in:17
 msgid "openSUSE Leap 15.0"
 msgstr "openSUSE Leap 15.0"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
 #: data/os/opensuse.org/opensuse-15.1.xml.in:17
 msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
 msgstr "openSUSE Leap 42.1"
 
-#. (itstool) path: os/_name
 #: data/os/opensuse.org/opensuse-42.2.xml.in:6
 msgid "openSUSE Leap 42.2"
 msgstr "openSUSE Leap 42.2"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/opensuse.org/opensuse-42.3.xml.in:6
 #: data/os/opensuse.org/opensuse-42.3.xml.in:18
 msgid "openSUSE Leap 42.3"
 msgstr "openSUSE Leap 42.3"
 
-#. (itstool) path: os/_name
-#. (itstool) path: variant/_name
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:6
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:15
 msgid "openSUSE Tumbleweed"
 msgstr "openSUSE Tumbleweed"
 
-#. (itstool) path: variant/_name
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:18
 msgid "openSUSE Tumbleweed (Kubic)"
 msgstr "openSUSE Tumbleweed (Kubic)"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.4.xml.in:4
 msgid "Oracle Enterprise Linux 4.4"
 msgstr "Oracle Enterprise Linux 4.4"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/oracle.com/oel-4.4.xml.in:6 data/os/oracle.com/oel-4.5.xml.in:6
 #: data/os/oracle.com/oel-4.6.xml.in:6 data/os/oracle.com/oel-4.7.xml.in:6
 #: data/os/oracle.com/oel-4.8.xml.in:6 data/os/oracle.com/oel-4.9.xml.in:6
@@ -3857,303 +2989,170 @@ msgstr "Oracle Enterprise Linux 4.4"
 msgid "Oracle America"
 msgstr "Oracle America"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.5.xml.in:4
 msgid "Oracle Enterprise Linux 4.5"
 msgstr "Oracle Enterprise Linux 4.5"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.6.xml.in:4
 msgid "Oracle Enterprise Linux 4.6"
 msgstr "Oracle Enterprise Linux 4.6"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.7.xml.in:4
 msgid "Oracle Enterprise Linux 4.7"
 msgstr "Oracle Enterprise Linux 4.7"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.8.xml.in:4
 msgid "Oracle Enterprise Linux 4.8"
 msgstr "Oracle Enterprise Linux 4.8"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-4.9.xml.in:4
 msgid "Oracle Enterprise Linux 4.9"
 msgstr "Oracle Enterprise Linux 4.9"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-5.0.xml.in:4
 msgid "Oracle Enterprise Linux 5.0"
 msgstr "Oracle Enterprise Linux 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-5.1.xml.in:4
 msgid "Oracle Enterprise Linux 5.1"
 msgstr "Oracle Enterprise Linux 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-5.2.xml.in:4
 msgid "Oracle Enterprise Linux 5.2"
 msgstr "Oracle Enterprise Linux 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-5.3.xml.in:4
 msgid "Oracle Enterprise Linux 5.3"
 msgstr "Oracle Enterprise Linux 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/oel-5.4.xml.in:4
 msgid "Oracle Enterprise Linux 5.4"
 msgstr "Oracle Enterprise Linux 5.4"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.10.xml.in:4
 msgid "Oracle Linux 5.10"
 msgstr "Oracle Linux 5.10"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.11.xml.in:4
 msgid "Oracle Linux 5.11"
 msgstr "Oracle Linux 5.11"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.5.xml.in:4
 msgid "Oracle Linux 5.5"
 msgstr "Oracle Linux 5.5"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.6.xml.in:4
 msgid "Oracle Linux 5.6"
 msgstr "Oracle Linux 5.6"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.7.xml.in:4
 msgid "Oracle Linux 5.7"
 msgstr "Oracle Linux 5.7"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.8.xml.in:4
 msgid "Oracle Linux 5.8"
 msgstr "Oracle Linux 5.8"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-5.9.xml.in:4
 msgid "Oracle Linux 5.9"
 msgstr "Oracle Linux 5.9"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.0.xml.in:4
 msgid "Oracle Linux 6.0"
 msgstr "Oracle Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.1.xml.in:4
 msgid "Oracle Linux 6.1"
 msgstr "Oracle Linux 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.10.xml.in:4
 msgid "Oracle Linux 6.10"
 msgstr "Oracle Linux 6.10"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.2.xml.in:4
 msgid "Oracle Linux 6.2"
 msgstr "Oracle Linux 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.3.xml.in:4
 msgid "Oracle Linux 6.3"
 msgstr "Oracle Linux 6.3"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.4.xml.in:4
 msgid "Oracle Linux 6.4"
 msgstr "Oracle Linux 6.4"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.5.xml.in:4
 msgid "Oracle Linux 6.5"
 msgstr "Oracle Linux 6.5"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.6.xml.in:4
 msgid "Oracle Linux 6.6"
 msgstr "Oracle Linux 6.6"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.7.xml.in:4
 msgid "Oracle Linux 6.7"
 msgstr "Oracle Linux 6.7"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.8.xml.in:4
 msgid "Oracle Linux 6.8"
 msgstr "Oracle Linux 6.8"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-6.9.xml.in:4
 msgid "Oracle Linux 6.9"
 msgstr "Oracle Linux 6.9"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.0.xml.in:4
 msgid "Oracle Linux 7.0"
 msgstr "Oracle Linux 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.1.xml.in:4
 msgid "Oracle Linux 7.1"
 msgstr "Oracle Linux 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.2.xml.in:4
 msgid "Oracle Linux 7.2"
 msgstr "Oracle Linux 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.3.xml.in:4
 msgid "Oracle Linux 7.3"
 msgstr "Oracle Linux 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.4.xml.in:4
 msgid "Oracle Linux 7.4"
 msgstr "Oracle Linux 7.4"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.5.xml.in:4
 msgid "Oracle Linux 7.5"
 msgstr "Oracle Linux 7.5"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-7.6.xml.in:4
 msgid "Oracle Linux 7.6"
 msgstr "Oracle Linux 7.6"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
 msgstr "Oracle Solaris 11"
 
-#. (itstool) path: os/_vendor
 #: data/os/oracle.com/solaris-11.xml.in:8
 msgid "Oracle"
 msgstr "Oracle"
 
-#. (itstool) path: os/_name
 #: data/os/pureos.net/pureos-8.xml.in:6
 msgid "PureOS"
 msgstr "PureOS"
 
-#. (itstool) path: os/_vendor
 #: data/os/pureos.net/pureos-8.xml.in:8
 msgid "Purism, SPC"
 msgstr "Purism, SPC"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
 msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/redhat.com/rhel-2.1.1.xml.in:8
 #: data/os/redhat.com/rhel-2.1.2.xml.in:8
 #: data/os/redhat.com/rhel-2.1.3.xml.in:8
@@ -4189,7 +3188,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-7.2.xml.in:8 data/os/redhat.com/rhel-7.3.xml.in:8
 #: data/os/redhat.com/rhel-7.4.xml.in:8 data/os/redhat.com/rhel-7.5.xml.in:8
 #: data/os/redhat.com/rhel-7.6.xml.in:8 data/os/redhat.com/rhel-7.7.xml.in:8
-#: data/os/redhat.com/rhel-7.8.xml.in:8
+#: data/os/redhat.com/rhel-7.8.xml.in:8 data/os/redhat.com/rhel-7.9.xml.in:8
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8
@@ -4212,512 +3211,392 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
 msgstr "Red Hat Enterprise Linux 2.1 Update 2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.3.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 3"
 msgstr "Red Hat Enterprise Linux 2.1 Update 3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.4.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 4"
 msgstr "Red Hat Enterprise Linux 2.1 Update 4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.5.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 5"
 msgstr "Red Hat Enterprise Linux 2.1 Update 5"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.6.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 6"
 msgstr "Red Hat Enterprise Linux 2.1 Update 6"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.7.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 7"
 msgstr "Red Hat Enterprise Linux 2.1 Update 7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-2.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1"
 msgstr "Red Hat Enterprise Linux 2.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.1.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 1"
 msgstr "Red Hat Enterprise Linux 3 Update 1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.2.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 2"
 msgstr "Red Hat Enterprise Linux 3 Update 2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.3.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 3"
 msgstr "Red Hat Enterprise Linux 3 Update 3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.4.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 4"
 msgstr "Red Hat Enterprise Linux 3 Update 4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.5.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 5"
 msgstr "Red Hat Enterprise Linux 3 Update 5"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.6.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 6"
 msgstr "Red Hat Enterprise Linux 3 Update 6"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.7.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 7"
 msgstr "Red Hat Enterprise Linux 3 Update 7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.8.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 8"
 msgstr "Red Hat Enterprise Linux 3 Update 8"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.9.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 9"
 msgstr "Red Hat Enterprise Linux 3 Update 9"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-3.xml.in:6
 msgid "Red Hat Enterprise Linux 3"
 msgstr "Red Hat Enterprise Linux 3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.0.xml.in:6
 msgid "Red Hat Enterprise Linux 4.0"
 msgstr "Red Hat Enterprise Linux 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.1.xml.in:6
 msgid "Red Hat Enterprise Linux 4.1"
 msgstr "Red Hat Enterprise Linux 4.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.2.xml.in:6
 msgid "Red Hat Enterprise Linux 4.2"
 msgstr "Red Hat Enterprise Linux 4.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.3.xml.in:6
 msgid "Red Hat Enterprise Linux 4.3"
 msgstr "Red Hat Enterprise Linux 4.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.4.xml.in:6
 msgid "Red Hat Enterprise Linux 4.4"
 msgstr "Red Hat Enterprise Linux 4.4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.5.xml.in:6
 msgid "Red Hat Enterprise Linux 4.5"
 msgstr "Red Hat Enterprise Linux 4.5"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.6.xml.in:6
 msgid "Red Hat Enterprise Linux 4.6"
 msgstr "Red Hat Enterprise Linux 4.6"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.7.xml.in:6
 msgid "Red Hat Enterprise Linux 4.7"
 msgstr "Red Hat Enterprise Linux 4.7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.8.xml.in:6
 msgid "Red Hat Enterprise Linux 4.8"
 msgstr "Red Hat Enterprise Linux 4.8"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-4.9.xml.in:6
 msgid "Red Hat Enterprise Linux 4.9"
 msgstr "Red Hat Enterprise Linux 4.9"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.0.xml.in:6
 msgid "Red Hat Enterprise Linux 5.0"
 msgstr "Red Hat Enterprise Linux 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.1.xml.in:6
 msgid "Red Hat Enterprise Linux 5.1"
 msgstr "Red Hat Enterprise Linux 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.10.xml.in:6
 msgid "Red Hat Enterprise Linux 5.10"
 msgstr "Red Hat Enterprise Linux 5.10"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.11.xml.in:6
 msgid "Red Hat Enterprise Linux 5.11"
 msgstr "Red Hat Enterprise Linux 5.11"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.2.xml.in:6
 msgid "Red Hat Enterprise Linux 5.2"
 msgstr "Red Hat Enterprise Linux 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.3.xml.in:6
 msgid "Red Hat Enterprise Linux 5.3"
 msgstr "Red Hat Enterprise Linux 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.4.xml.in:6
 msgid "Red Hat Enterprise Linux 5.4"
 msgstr "Red Hat Enterprise Linux 5.4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.5.xml.in:6
 msgid "Red Hat Enterprise Linux 5.5"
 msgstr "Red Hat Enterprise Linux 5.5"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.6.xml.in:6
 msgid "Red Hat Enterprise Linux 5.6"
 msgstr "Red Hat Enterprise Linux 5.6"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.7.xml.in:6
 msgid "Red Hat Enterprise Linux 5.7"
 msgstr "Red Hat Enterprise Linux 5.7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.8.xml.in:6
 msgid "Red Hat Enterprise Linux 5.8"
 msgstr "Red Hat Enterprise Linux 5.8"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-5.9.xml.in:6
 msgid "Red Hat Enterprise Linux 5.9"
 msgstr "Red Hat Enterprise Linux 5.9"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 6 Unknown"
 msgstr "Red Hat Enterprise Linux 6 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.0.xml.in:6
 msgid "Red Hat Enterprise Linux 6.0"
 msgstr "Red Hat Enterprise Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.1.xml.in:6
 msgid "Red Hat Enterprise Linux 6.1"
 msgstr "Red Hat Enterprise Linux 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.10.xml.in:6
 msgid "Red Hat Enterprise Linux 6.10"
 msgstr "Red Hat Enterprise Linux 6.10"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.2.xml.in:6
 msgid "Red Hat Enterprise Linux 6.2"
 msgstr "Red Hat Enterprise Linux 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.3.xml.in:6
 msgid "Red Hat Enterprise Linux 6.3"
 msgstr "Red Hat Enterprise Linux 6.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.4.xml.in:6
 msgid "Red Hat Enterprise Linux 6.4"
 msgstr "Red Hat Enterprise Linux 6.4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.5.xml.in:6
 msgid "Red Hat Enterprise Linux 6.5"
 msgstr "Red Hat Enterprise Linux 6.5"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.6.xml.in:6
 msgid "Red Hat Enterprise Linux 6.6"
 msgstr "Red Hat Enterprise Linux 6.6"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.7.xml.in:6
 msgid "Red Hat Enterprise Linux 6.7"
 msgstr "Red Hat Enterprise Linux 6.7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.8.xml.in:6
 msgid "Red Hat Enterprise Linux 6.8"
 msgstr "Red Hat Enterprise Linux 6.8"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-6.9.xml.in:6
 msgid "Red Hat Enterprise Linux 6.9"
 msgstr "Red Hat Enterprise Linux 6.9"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 7 Unknown"
 msgstr "Red Hat Enterprise Linux 7 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux 7.0"
 msgstr "Red Hat Enterprise Linux 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux 7.1"
 msgstr "Red Hat Enterprise Linux 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux 7.2"
 msgstr "Red Hat Enterprise Linux 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux 7.3"
 msgstr "Red Hat Enterprise Linux 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux 7.4"
 msgstr "Red Hat Enterprise Linux 7.4"
 
-#. (itstool) path: variant/_name
 #: data/os/redhat.com/rhel-7.4.xml.in:18
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.4 Alternate Architectures"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.5.xml.in:6
 msgid "Red Hat Enterprise Linux 7.5"
 msgstr "Red Hat Enterprise Linux 7.5"
 
-#. (itstool) path: variant/_name
 #: data/os/redhat.com/rhel-7.5.xml.in:18
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.5 Alternate Architectures"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.6.xml.in:6
 msgid "Red Hat Enterprise Linux 7.6"
 msgstr "Red Hat Enterprise Linux 7.6"
 
-#. (itstool) path: variant/_name
 #: data/os/redhat.com/rhel-7.6.xml.in:18
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.6 Alternate Architectures"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.7.xml.in:6
 msgid "Red Hat Enterprise Linux 7.7"
 msgstr "Red Hat Enterprise Linux 7.7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-7.8.xml.in:6
 msgid "Red Hat Enterprise Linux 7.8"
 msgstr "Red Hat Enterprise Linux 7.8"
 
-#. (itstool) path: os/_name
+#: data/os/redhat.com/rhel-7.9.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 7.0"
+msgid "Red Hat Enterprise Linux 7.9"
+msgstr "Red Hat Enterprise Linux 7.0"
+
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 8 Unknown"
 msgstr "Red Hat Enterprise Linux 8 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-8.0.xml.in:6
 msgid "Red Hat Enterprise Linux 8.0"
 msgstr "Red Hat Enterprise Linux 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-8.1.xml.in:6
 msgid "Red Hat Enterprise Linux 8.1"
 msgstr "Red Hat Enterprise Linux 8.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
 msgstr "Red Hat Enterprise Linux 8.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.1"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.2"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.3"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-atomic-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.4"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.4"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhel-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux Unknown"
 msgstr "Red Hat Enterprise Linux Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-1.0.xml.in:6
 msgid "Red Hat Linux 1.0"
 msgstr "Red Hat Linux 1.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-1.1.xml.in:6
 msgid "Red Hat Linux 1.1"
 msgstr "Red Hat Linux 1.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-2.0.xml.in:6
 msgid "Red Hat Linux 2.0"
 msgstr "Red Hat Linux 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-2.1.xml.in:6
 msgid "Red Hat Linux 2.1"
 msgstr "Red Hat Linux 2.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-3.0.3.xml.in:6
 msgid "Red Hat Linux 3.0.3"
 msgstr "Red Hat Linux 3.0.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-4.0.xml.in:6
 msgid "Red Hat Linux 4.0"
 msgstr "Red Hat Linux 4.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-4.1.xml.in:6
 msgid "Red Hat Linux 4.1"
 msgstr "Red Hat Linux 4.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-4.2.xml.in:6
 msgid "Red Hat Linux 4.2"
 msgstr "Red Hat Linux 4.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-5.0.xml.in:6
 msgid "Red Hat Linux 5.0"
 msgstr "Red Hat Linux 5.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-5.1.xml.in:6
 msgid "Red Hat Linux 5.1"
 msgstr "Red Hat Linux 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-5.2.xml.in:6
 msgid "Red Hat Linux 5.2"
 msgstr "Red Hat Linux 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-6.0.xml.in:6
 msgid "Red Hat Linux 6.0"
 msgstr "Red Hat Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-6.1.xml.in:6
 msgid "Red Hat Linux 6.1"
 msgstr "Red Hat Linux 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-6.2.xml.in:6
 msgid "Red Hat Linux 6.2"
 msgstr "Red Hat Linux 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-7.1.xml.in:6
 msgid "Red Hat Linux 7.1"
 msgstr "Red Hat Linux 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-7.2.xml.in:6
 msgid "Red Hat Linux 7.2"
 msgstr "Red Hat Linux 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-7.3.xml.in:6
 msgid "Red Hat Linux 7.3"
 msgstr "Red Hat Linux 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-7.xml.in:6
 msgid "Red Hat Linux 7"
 msgstr "Red Hat Linux 7"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-8.0.xml.in:6
 msgid "Red Hat Linux 8.0"
 msgstr "Red Hat Linux 8.0"
 
-#. (itstool) path: os/_name
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
 msgstr "Red Hat Linux 9"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:6
 msgid "Scientific Linux 5.0"
 msgstr "Scientific Linux 5.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-5.1.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-5.10.xml.in:8
@@ -4752,230 +3631,152 @@ msgstr "Scientific Linux 5.0"
 msgid "Scientific Linux"
 msgstr "Scientific Linux"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.1.xml.in:6
 msgid "Scientific Linux 5.1"
 msgstr "Scientific Linux 5.1"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.10.xml.in:6
 msgid "Scientific Linux 5.10"
 msgstr "Scientific Linux 5.10"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.11.xml.in:6
 msgid "Scientific Linux 5.11"
 msgstr "Scientific Linux 5.11"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.2.xml.in:6
 msgid "Scientific Linux 5.2"
 msgstr "Scientific Linux 5.2"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.3.xml.in:6
 msgid "Scientific Linux 5.3"
 msgstr "Scientific Linux 5.3"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.4.xml.in:6
 msgid "Scientific Linux 5.4"
 msgstr "Scientific Linux 5.4"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.5.xml.in:6
 msgid "Scientific Linux 5.5"
 msgstr "Scientific Linux 5.5"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.6.xml.in:6
 msgid "Scientific Linux 5.6"
 msgstr "Scientific Linux 5.6"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.7.xml.in:6
 msgid "Scientific Linux 5.7"
 msgstr "Scientific Linux 5.7"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.8.xml.in:6
 msgid "Scientific Linux 5.8"
 msgstr "Scientific Linux 5.8"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-5.9.xml.in:6
 msgid "Scientific Linux 5.9"
 msgstr "Scientific Linux 5.9"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.0.xml.in:6
 msgid "Scientific Linux 6.0"
 msgstr "Scientific Linux 6.0"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.1.xml.in:6
 msgid "Scientific Linux 6.1"
 msgstr "Scientific Linux 6.1"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.10.xml.in:6
 msgid "Scientific Linux 6.10"
 msgstr "Scientific Linux 6.10"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.2.xml.in:6
 msgid "Scientific Linux 6.2"
 msgstr "Scientific Linux 6.2"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.3.xml.in:6
 msgid "Scientific Linux 6.3"
 msgstr "Scientific Linux 6.3"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.4.xml.in:6
 msgid "Scientific Linux 6.4"
 msgstr "Scientific Linux 6.4"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.5.xml.in:6
 msgid "Scientific Linux 6.5"
 msgstr "Scientific Linux 6.5"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.6.xml.in:6
 msgid "Scientific Linux 6.6"
 msgstr "Scientific Linux 6.6"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.7.xml.in:6
 msgid "Scientific Linux 6.7"
 msgstr "Scientific Linux 6.7"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.8.xml.in:6
 msgid "Scientific Linux 6.8"
 msgstr "Scientific Linux 6.8"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-6.9.xml.in:6
 msgid "Scientific Linux 6.9"
 msgstr "Scientific Linux 6.9"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7-unknown.xml.in:6
 msgid "Scientific Linux 7 Unknown"
 msgstr "Scientific Linux 7 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.0.xml.in:6
 msgid "Scientific Linux 7.0"
 msgstr "Scientific Linux 7.0"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.1.xml.in:6
 msgid "Scientific Linux 7.1"
 msgstr "Scientific Linux 7.1"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.2.xml.in:6
 msgid "Scientific Linux 7.2"
 msgstr "Scientific Linux 7.2"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.3.xml.in:6
 msgid "Scientific Linux 7.3"
 msgstr "Scientific Linux 7.3"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.4.xml.in:6
 msgid "Scientific Linux 7.4"
 msgstr "Scientific Linux 7.4"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.5.xml.in:6
 msgid "Scientific Linux 7.5"
 msgstr "Scientific Linux 7.5"
 
-#. (itstool) path: os/_name
 #: data/os/scientificlinux.org/scientificlinux-7.6.xml.in:6
 msgid "Scientific Linux 7.6"
 msgstr "Scientific Linux 7.6"
 
-#. (itstool) path: os/_name
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
 msgstr "OpenSolaris 2009.06"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/sun.com/opensolaris-2009.06.xml.in:8
 #: data/os/sun.com/solaris-10.xml.in:8 data/os/sun.com/solaris-9.xml.in:8
 msgid "Sun"
 msgstr "Sun"
 
-#. (itstool) path: os/_name
 #: data/os/sun.com/solaris-10.xml.in:6
 msgid "Solaris 10"
 msgstr "Solaris 10"
 
-#. (itstool) path: os/_name
 #: data/os/sun.com/solaris-9.xml.in:6
 msgid "Solaris 9"
 msgstr "Solaris 9"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/caasp-1.0.xml.in:6
 msgid "SUSE CaaS Platform 1.0"
 msgstr "SUSE CaaS Platform 1.0"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:8
-#: data/os/suse.com/caasp-3.0.xml.in:8 data/os/suse.com/caasp-unknown.xml.in:8
+#: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-1.0.xml.in:9
+#: data/os/suse.com/caasp-2.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:9
+#: data/os/suse.com/caasp-3.0.xml.in:8 data/os/suse.com/caasp-3.0.xml.in:9
+#: data/os/suse.com/caasp-unknown.xml.in:8
+#: data/os/suse.com/caasp-unknown.xml.in:9
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
 #: data/os/suse.com/sle-15.xml.in:8 data/os/suse.com/sle-unknown.xml.in:8
 #: data/os/suse.com/sled-10.1.xml.in:8 data/os/suse.com/sled-10.2.xml.in:8
@@ -5000,231 +3801,182 @@ msgstr "SUSE CaaS Platform 1.0"
 msgid "SUSE"
 msgstr "SUSE"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/caasp-2.0.xml.in:6
 msgid "SUSE CaaS Platform 2.0"
 msgstr "SUSE CaaS Platform 2.0"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/caasp-3.0.xml.in:6
 msgid "SUSE CaaS Platform 3.0"
 msgstr "SUSE CaaS Platform 3.0"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/caasp-unknown.xml.in:6
 msgid "SUSE CaaS Platform Unknown"
 msgstr "SUSE CaaS Platform Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sle-15-unknown.xml.in:6
 msgid "SUSE Linux Enterprise 15 Unknown"
 msgstr "SUSE Linux Enterprise 15 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sle-15.1.xml.in:6
 msgid "SUSE Linux Enterprise 15 SP1"
 msgstr "SUSE Linux Enterprise 15 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
 msgstr "SUSE Linux Enterprise 15"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sle-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Unknown"
 msgstr "SUSE Linux Enterprise Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP1"
 msgstr "SUSE Linux Enterprise Desktop 10 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-10.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP2"
 msgstr "SUSE Linux Enterprise Desktop 10 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-10.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP3"
 msgstr "SUSE Linux Enterprise Desktop 10 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-10.4.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP4"
 msgstr "SUSE Linux Enterprise Desktop 10 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-10.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10"
 msgstr "SUSE Linux Enterprise Desktop 10"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-11.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP1"
 msgstr "SUSE Linux Enterprise Desktop 11 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-11.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP2"
 msgstr "SUSE Linux Enterprise Desktop 11 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-11.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP3"
 msgstr "SUSE Linux Enterprise Desktop 11 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-11.4.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP4"
 msgstr "SUSE Linux Enterprise Desktop 11 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-11.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11"
 msgstr "SUSE Linux Enterprise Desktop 11"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 Unknown"
 msgstr "SUSE Linux Enterprise Desktop 12 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP1"
 msgstr "SUSE Linux Enterprise Desktop 12 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP2"
 msgstr "SUSE Linux Enterprise Desktop 12 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP3"
 msgstr "SUSE Linux Enterprise Desktop 12 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.4.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP4"
 msgstr "SUSE Linux Enterprise Desktop 12 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.5.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP5"
 msgstr "SUSE Linux Enterprise Desktop 12 SP5"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-12.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12"
 msgstr "SUSE Linux Enterprise Desktop 12"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sled-9.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 9"
 msgstr "SUSE Linux Enterprise Desktop 9"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
 msgstr "SUSE Linux Enterprise Server 10 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-10.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP2"
 msgstr "SUSE Linux Enterprise Server 10 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-10.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP3"
 msgstr "SUSE Linux Enterprise Server 10 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-10.4.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP4"
 msgstr "SUSE Linux Enterprise Server 10 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-10.xml.in:6
 msgid "SUSE Linux Enterprise Server 10"
 msgstr "SUSE Linux Enterprise Server 10"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-11.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP1"
 msgstr "SUSE Linux Enterprise Server 11 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-11.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP2"
 msgstr "SUSE Linux Enterprise Server 11 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-11.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP3"
 msgstr "SUSE Linux Enterprise Server 11 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-11.4.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP4"
 msgstr "SUSE Linux Enterprise Server 11 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-11.xml.in:6
 msgid "SUSE Linux Enterprise Server 11"
 msgstr "SUSE Linux Enterprise Server 11"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 Unknown"
 msgstr "SUSE Linux Enterprise Server 12 Inconnue"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP1"
 msgstr "SUSE Linux Enterprise Server 12 SP1"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP2"
 msgstr "SUSE Linux Enterprise Server 12 SP2"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP3"
 msgstr "SUSE Linux Enterprise Server 12 SP3"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.4.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP4"
 msgstr "SUSE Linux Enterprise Server 12 SP4"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.5.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP5"
 msgstr "SUSE Linux Enterprise Server 12 SP5"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-12.xml.in:6
 msgid "SUSE Linux Enterprise Server 12"
 msgstr "SUSE Linux Enterprise Server 12"
 
-#. (itstool) path: os/_name
 #: data/os/suse.com/sles-9.xml.in:6
 msgid "SUSE Linux Enterprise Server 9"
 msgstr "SUSE Linux Enterprise Server 9"
 
-#. (itstool) path: os/_name
 #: data/os/system76.com/popos-17.10.xml.in:6
 msgid "Pop!_OS 17.10"
 msgstr "Pop!_OS 17.10"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/system76.com/popos-17.10.xml.in:8
 #: data/os/system76.com/popos-18.04.xml.in:8
 #: data/os/system76.com/popos-18.10.xml.in:8
@@ -5233,63 +3985,26 @@ msgstr "Pop!_OS 17.10"
 msgid "System76, Inc."
 msgstr "System76, Inc."
 
-#. (itstool) path: os/_name
 #: data/os/system76.com/popos-18.04.xml.in:6
 msgid "Pop!_OS 18.04"
 msgstr "Pop!_OS 18.04"
 
-#. (itstool) path: os/_name
 #: data/os/system76.com/popos-18.10.xml.in:6
 msgid "Pop!_OS 18.10"
 msgstr "Pop!_OS 18.10"
 
-#. (itstool) path: os/_name
 #: data/os/system76.com/popos-19.04.xml.in:6
 msgid "Pop!_OS 19.04"
 msgstr "Pop!_OS 19.04"
 
-#. (itstool) path: os/_name
 #: data/os/system76.com/popos-19.10.xml.in:6
 msgid "Pop!_OS 19.10"
 msgstr "Pop!_OS 19.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
 msgstr "Ubuntu 10.04 LTS"
 
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
-#. (itstool) path: os/_vendor
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-10.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-11.04.xml.in:9
@@ -5325,179 +4040,139 @@ msgstr "Ubuntu 10.04 LTS"
 msgid "Canonical Ltd"
 msgstr "Canonical Ltd"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-10.10.xml.in:7
 msgid "Ubuntu 10.10"
 msgstr "Ubuntu 10.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-11.04.xml.in:7
 msgid "Ubuntu 11.04"
 msgstr "Ubuntu 11.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-11.10.xml.in:7
 msgid "Ubuntu 11.10"
 msgstr "Ubuntu 11.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-12.04.xml.in:7
 msgid "Ubuntu 12.04 LTS"
 msgstr "Ubuntu 12.04 LTS"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-12.10.xml.in:7
 msgid "Ubuntu 12.10"
 msgstr "Ubuntu 12.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-13.04.xml.in:7
 msgid "Ubuntu 13.04"
 msgstr "Ubuntu 13.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-13.10.xml.in:7
 msgid "Ubuntu 13.10"
 msgstr "Ubuntu 13.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-14.04.xml.in:7
 msgid "Ubuntu 14.04 LTS"
 msgstr "Ubuntu 14.04 LTS"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-14.10.xml.in:7
 msgid "Ubuntu 14.10"
 msgstr "Ubuntu 14.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-15.04.xml.in:7
 msgid "Ubuntu 15.04"
 msgstr "Ubuntu 15.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-15.10.xml.in:7
 msgid "Ubuntu 15.10"
 msgstr "Ubuntu 15.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-16.04.xml.in:7
 msgid "Ubuntu 16.04"
 msgstr "Ubuntu 16.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-16.10.xml.in:7
 msgid "Ubuntu 16.10"
 msgstr "Ubuntu 16.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-17.04.xml.in:7
 msgid "Ubuntu 17.04"
 msgstr "Ubuntu 17.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-17.10.xml.in:7
 msgid "Ubuntu 17.10"
 msgstr "Ubuntu 17.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-18.04.xml.in:8
 msgid "Ubuntu 18.04 LTS"
 msgstr "Ubuntu 18.04 LTS"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-18.10.xml.in:8
 msgid "Ubuntu 18.10"
 msgstr "Ubuntu 18.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-19.04.xml.in:8
 msgid "Ubuntu 19.04"
 msgstr "Ubuntu 19.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:8
 msgid "Ubuntu 19.10"
 msgstr "Ubuntu 19.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
 msgid "Ubuntu 20.04"
 msgstr "Ubuntu 20.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
 msgstr "Ubuntu 4.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:7
 msgid "Ubuntu 5.04"
 msgstr "Ubuntu 5.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:7
 msgid "Ubuntu 5.10"
 msgstr "Ubuntu 5.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-6.06.xml.in:7
 msgid "Ubuntu 6.06 LTS"
 msgstr "Ubuntu 6.06 LTS"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-6.10.xml.in:7
 msgid "Ubuntu 6.10"
 msgstr "Ubuntu 6.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-7.04.xml.in:7
 msgid "Ubuntu 7.04"
 msgstr "Ubuntu 7.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-7.10.xml.in:7
 msgid "Ubuntu 7.10"
 msgstr "Ubuntu 7.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-8.04.xml.in:7
 msgid "Ubuntu 8.04 LTS"
 msgstr "Ubuntu 8.04 LTS"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-8.10.xml.in:7
 msgid "Ubuntu 8.10"
 msgstr "Ubuntu 8.10"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-9.04.xml.in:7
 msgid "Ubuntu 9.04"
 msgstr "Ubuntu 9.04"
 
-#. (itstool) path: os/_name
 #: data/os/ubuntu.com/ubuntu-9.10.xml.in:7
 msgid "Ubuntu 9.10"
 msgstr "Ubuntu 9.10"
 
-#. (itstool) path: os/_name
-#. (itstool) path: os/_vendor
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:6
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:7
 msgid "Void Linux"
 msgstr "Void Linux"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.1.xml.in:6
 msgid "QEMU-KVM 1.0.1"
 msgstr "QEMU-KVM 1.0.1"
 
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.1.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.0.xml.in:7
@@ -5507,70 +4182,30 @@ msgstr "QEMU-KVM 1.0.1"
 msgid "linux-kvm.org"
 msgstr "linux-kvm.org"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.xml.in:6
 msgid "QEMU-KVM 1.0"
 msgstr "QEMU-KVM 1.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.0.xml.in:6
 msgid "QEMU-KVM 1.1.0"
 msgstr "QEMU-KVM 1.1.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.1.xml.in:6
 msgid "QEMU-KVM 1.1.1"
 msgstr "QEMU-KVM 1.1.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.2.xml.in:6
 msgid "QEMU-KVM 1.1.2"
 msgstr "QEMU-KVM 1.1.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/linux-kvm.org/qemu-kvm-1.2.0.xml.in:6
 msgid "QEMU-KVM 1.2.0"
 msgstr "QEMU-KVM 1.2.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.0.1.xml.in:6
 msgid "QEMU 1.0.1"
 msgstr "QEMU 1.0.1"
 
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
 #: data/platform/qemu.org/qemu-1.0.1.xml.in:7
 #: data/platform/qemu.org/qemu-1.0.xml.in:7
 #: data/platform/qemu.org/qemu-1.1.1-1.xml.in:7
@@ -5608,184 +4243,142 @@ msgstr "QEMU 1.0.1"
 msgid "qemu.org"
 msgstr "qemu.org"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.0.xml.in:6
 msgid "QEMU 1.0"
 msgstr "QEMU 1.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.1.1-1.xml.in:6
 msgid "QEMU 1.1.1-1"
 msgstr "QEMU 1.1.1-1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.1.1.xml.in:6
 msgid "QEMU 1.1.1"
 msgstr "QEMU 1.1.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.1.2.xml.in:6
 msgid "QEMU 1.1.2"
 msgstr "QEMU 1.1.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.1.xml.in:6
 msgid "QEMU 1.1"
 msgstr "QEMU 1.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.2.0.xml.in:6
 msgid "QEMU 1.2.0"
 msgstr "QEMU 1.2.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.2.1.xml.in:6
 msgid "QEMU 1.2.1"
 msgstr "QEMU 1.2.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.2.2.xml.in:6
 msgid "QEMU 1.2.2"
 msgstr "QEMU 1.2.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.3.0.xml.in:6
 msgid "QEMU 1.3.0"
 msgstr "QEMU 1.3.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.3.1.xml.in:6
 msgid "QEMU 1.3.1"
 msgstr "QEMU 1.3.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.4.0.xml.in:6
 msgid "QEMU 1.4.0"
 msgstr "QEMU 1.4.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.4.1.xml.in:6
 msgid "QEMU 1.4.1"
 msgstr "QEMU 1.4.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.4.2.xml.in:6
 msgid "QEMU 1.4.2"
 msgstr "QEMU 1.4.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.5.0.xml.in:6
 msgid "QEMU 1.5.0"
 msgstr "QEMU 1.5.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.5.1.xml.in:6
 msgid "QEMU 1.5.1"
 msgstr "QEMU 1.5.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.5.2.xml.in:6
 msgid "QEMU 1.5.2"
 msgstr "QEMU 1.5.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.5.3.xml.in:6
 msgid "QEMU 1.5.3"
 msgstr "QEMU 1.5.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.6.0.xml.in:6
 msgid "QEMU 1.6.0"
 msgstr "QEMU 1.6.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.6.1.xml.in:6
 msgid "QEMU 1.6.1"
 msgstr "QEMU 1.6.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.6.2.xml.in:6
 msgid "QEMU 1.6.2"
 msgstr "QEMU 1.6.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.7.0.xml.in:6
 msgid "QEMU 1.7.0"
 msgstr "QEMU 1.7.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.7.1.xml.in:6
 msgid "QEMU 1.7.1"
 msgstr "QEMU 1.7.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-1.7.2.xml.in:6
 msgid "QEMU 1.7.2"
 msgstr "QEMU 1.7.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.0.0.xml.in:6
 msgid "QEMU 2.0.0"
 msgstr "QEMU 2.0.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.0.1.xml.in:6
 msgid "QEMU 2.0.1"
 msgstr "QEMU 2.0.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.0.2.xml.in:6
 msgid "QEMU 2.0.2"
 msgstr "QEMU 2.0.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.1.0.xml.in:6
 msgid "QEMU 2.1.0"
 msgstr "QEMU 2.1.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.1.1.xml.in:6
 msgid "QEMU 2.1.1"
 msgstr "QEMU 2.1.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.1.2.xml.in:6
 msgid "QEMU 2.1.2"
 msgstr "QEMU 2.1.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.1.3.xml.in:6
 msgid "QEMU 2.1.3"
 msgstr "QEMU 2.1.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.2.0.xml.in:6
 msgid "QEMU 2.2.0"
 msgstr "QEMU 2.2.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.2.1.xml.in:6
 msgid "QEMU 2.2.1"
 msgstr "QEMU 2.2.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/qemu.org/qemu-2.3.0.xml.in:6
 msgid "QEMU 2.3.0"
 msgstr "QEMU 2.3.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.0.3.5.0.xml.in:6
 msgid "Xen 3.0.3 (RHEL 5.0)"
 msgstr "Xen 3.0.3 (RHEL 5.0)"
 
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
 #: data/platform/redhat.com/xen-rhel-3.0.3.5.0.xml.in:7
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.1.xml.in:7
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.2.xml.in:7
@@ -5797,66 +4390,38 @@ msgstr "Xen 3.0.3 (RHEL 5.0)"
 msgid "Red Hat, Inc."
 msgstr "Red Hat, Inc."
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.1.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.1)"
 msgstr "Xen 3.1.0 (RHEL 5.1)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.2.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.2)"
 msgstr "Xen 3.1.0 (RHEL 5.2)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.3.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.3)"
 msgstr "Xen 3.1.0 (RHEL 5.3)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.4.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.4)"
 msgstr "Xen 3.1.0 (RHEL 5.4)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.5.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.5)"
 msgstr "Xen 3.1.0 (RHEL 5.5)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.6)"
 msgstr "Xen 3.1.0 (RHEL 5.6)"
 
-#. (itstool) path: platform/_name
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.7.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.7)"
 msgstr "Xen 3.1.0 (RHEL 5.7)"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.0.2.xml.in:6
 msgid "Xen 3.0.2"
 msgstr "Xen 3.0.2"
 
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
-#. (itstool) path: platform/_vendor
 #: data/platform/xen.org/xen-3.0.2.xml.in:7
 #: data/platform/xen.org/xen-3.0.3.xml.in:7
 #: data/platform/xen.org/xen-3.0.4.xml.in:7
@@ -5880,97 +4445,78 @@ msgstr "Xen 3.0.2"
 msgid "Citrix Systems, Inc."
 msgstr "Citrix Systems, Inc."
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.0.3.xml.in:6
 msgid "Xen 3.0.3"
 msgstr "Xen 3.0.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.0.4.xml.in:6
 msgid "Xen 3.0.4"
 msgstr "Xen 3.0.4"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.1.0.xml.in:6
 msgid "Xen 3.1.0"
 msgstr "Xen 3.1.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.1.3.xml.in:6
 msgid "Xen 3.1.3"
 msgstr "Xen 3.1.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.1.4.xml.in:6
 msgid "Xen 3.1.4"
 msgstr "Xen 3.1.4"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.2.0.xml.in:6
 msgid "Xen 3.2.0"
 msgstr "Xen 3.2.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.2.1.xml.in:6
 msgid "Xen 3.2.1"
 msgstr "Xen 3.2.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.2.2.xml.in:6
 msgid "Xen 3.2.2"
 msgstr "Xen 3.2.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.2.3.xml.in:6
 msgid "Xen 3.2.3"
 msgstr "Xen 3.2.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.3.0.xml.in:6
 msgid "Xen 3.3.0"
 msgstr "Xen 3.3.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.3.1.xml.in:6
 msgid "Xen 3.3.1"
 msgstr "Xen 3.3.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.3.2.xml.in:6
 msgid "Xen 3.3.2"
 msgstr "Xen 3.3.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.4.0.xml.in:6
 msgid "Xen 3.4.0"
 msgstr "Xen 3.4.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.4.1.xml.in:6
 msgid "Xen 3.4.1"
 msgstr "Xen 3.4.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.4.2.xml.in:6
 msgid "Xen 3.4.2"
 msgstr "Xen 3.4.2"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-3.4.3.xml.in:6
 msgid "Xen 3.4.3"
 msgstr "Xen 3.4.3"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-4.0.0.xml.in:6
 msgid "Xen 4.0.0"
 msgstr "Xen 4.0.0"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-4.0.1.xml.in:6
 msgid "Xen 4.0.1"
 msgstr "Xen 4.0.1"
 
-#. (itstool) path: platform/_name
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
