@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 17:23+0200\n"
-"PO-Revision-Date: 2020-07-09 17:36+0000\n"
+"PO-Revision-Date: 2020-07-10 06:30+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -486,7 +486,7 @@ msgstr "Asianux Server 8"
 
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
-msgstr ""
+msgstr "Asianux (sconosciuto)"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
@@ -756,9 +756,8 @@ msgid "Debian 9"
 msgstr "Debian 9"
 
 #: data/os/debian.org/debian-testing.xml.in:6
-#, fuzzy
 msgid "Debian testing"
-msgstr "Debian Testing"
+msgstr "Debian testing"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
@@ -1099,7 +1098,7 @@ msgstr "Elementary OS 5.0 Juno"
 
 #: data/os/elementary.io/elementary-5.0.xml.in:9
 msgid "Elementary, Inc."
-msgstr ""
+msgstr "Elementary, Inc."
 
 #: data/os/endlessos.com/eos-3.1.xml.in:6
 msgid "Endless OS 3.1"
@@ -2667,11 +2666,11 @@ msgstr "NixOS"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (CD di installazione minima)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -2977,9 +2976,8 @@ msgstr "Oracle Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-7.3.xml.in:6 data/os/oracle.com/ol-7.4.xml.in:6
 #: data/os/oracle.com/ol-7.5.xml.in:6 data/os/oracle.com/ol-7.6.xml.in:6
 #: data/os/oracle.com/ol-8.0.xml.in:6
-#, fuzzy
 msgid "Oracle America"
-msgstr "Oracle"
+msgstr "Oracle America"
 
 #: data/os/oracle.com/oel-4.5.xml.in:4
 msgid "Oracle Enterprise Linux 4.5"
@@ -3139,7 +3137,7 @@ msgstr "PureOS"
 
 #: data/os/pureos.net/pureos-8.xml.in:8
 msgid "Purism, SPC"
-msgstr ""
+msgstr "Purism, SPC"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
@@ -3360,9 +3358,8 @@ msgid "Red Hat Enterprise Linux 5.9"
 msgstr "Red Hat Enterprise Linux 5.9"
 
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6 Unknown"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat Enterprise Linux 6 (sconosciuto)"
 
 #: data/os/redhat.com/rhel-6.0.xml.in:6
 msgid "Red Hat Enterprise Linux 6.0"
@@ -3409,9 +3406,8 @@ msgid "Red Hat Enterprise Linux 6.9"
 msgstr "Red Hat Enterprise Linux 6.9"
 
 #: data/os/redhat.com/rhel-7-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7 Unknown"
-msgstr "Red Hat Enterprise Linux 7.0"
+msgstr "Red Hat Enterprise Linux 7 (sconosciuto)"
 
 #: data/os/redhat.com/rhel-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux 7.0"
@@ -3469,9 +3465,8 @@ msgid "Red Hat Enterprise Linux 7.9"
 msgstr "Red Hat Enterprise Linux 7.9"
 
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8 Unknown"
-msgstr "Red Hat Enterprise Linux 4.8"
+msgstr "Red Hat Enterprise Linux 8 (sconosciuto)"
 
 #: data/os/redhat.com/rhel-8.0.xml.in:6
 msgid "Red Hat Enterprise Linux 8.0"
@@ -3506,9 +3501,8 @@ msgid "Red Hat Enterprise Linux Atomic Host 7.4"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.4"
 
 #: data/os/redhat.com/rhel-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Unknown"
-msgstr "Red Hat Enterprise Linux 3"
+msgstr "Red Hat Enterprise Linux (sconosciuto)"
 
 #: data/os/redhat.com/rhl-1.0.xml.in:6
 msgid "Red Hat Linux 1.0"
@@ -3718,7 +3712,7 @@ msgstr "Scientific Linux 6.9"
 
 #: data/os/scientificlinux.org/scientificlinux-7-unknown.xml.in:6
 msgid "Scientific Linux 7 Unknown"
-msgstr ""
+msgstr "Scientific Linux 7 (sconosciuto)"
 
 #: data/os/scientificlinux.org/scientificlinux-7.0.xml.in:6
 msgid "Scientific Linux 7.0"
@@ -3811,9 +3805,8 @@ msgid "SUSE CaaS Platform Unknown"
 msgstr ""
 
 #: data/os/suse.com/sle-15-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 Unknown"
-msgstr "SUSE Linux Enterprise Desktop 9"
+msgstr "SUSE Linux Enterprise 15 (sconosciuto)"
 
 #: data/os/suse.com/sle-15.1.xml.in:6
 msgid "SUSE Linux Enterprise 15 SP1"
@@ -3824,9 +3817,8 @@ msgid "SUSE Linux Enterprise 15"
 msgstr "SUSE Linux Enterprise 15"
 
 #: data/os/suse.com/sle-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Unknown"
-msgstr "SUSE Linux Enterprise Desktop 9"
+msgstr "SUSE Linux Enterprise (sconosciuto)"
 
 #: data/os/suse.com/sled-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP1"
@@ -3869,9 +3861,8 @@ msgid "SUSE Linux Enterprise Desktop 11"
 msgstr "SUSE Linux Enterprise Desktop 11"
 
 #: data/os/suse.com/sled-12-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 Unknown"
-msgstr "SUSE Linux Enterprise Desktop 12"
+msgstr "SUSE Linux Enterprise Desktop 12 (sconosciuto)"
 
 #: data/os/suse.com/sled-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP1"
@@ -3942,9 +3933,8 @@ msgid "SUSE Linux Enterprise Server 11"
 msgstr "SUSE Linux Enterprise Server 11"
 
 #: data/os/suse.com/sles-12-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 Unknown"
-msgstr "SUSE Linux Enterprise Server 12"
+msgstr "SUSE Linux Enterprise Server 12 (sconosciuto)"
 
 #: data/os/suse.com/sles-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP1"
