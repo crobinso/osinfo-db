@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 17:23+0200\n"
-"PO-Revision-Date: 2020-07-10 06:30+0000\n"
+"PO-Revision-Date: 2020-07-11 07:27+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -2627,7 +2627,7 @@ msgstr "NetBSD 8.1"
 
 #: data/os/netbsd.org/netbsd-8.1.xml.in:14
 msgid "NetBSD 8.1 Network Install"
-msgstr "NetBSD 8.1 Install da rete"
+msgstr "NetBSD 8.1 (installazione da rete)"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:5
 msgid "NetBSD 8.2"
@@ -2635,11 +2635,11 @@ msgstr "NetBSD 8.2"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:14
 msgid "NetBSD 8.2 Network Install"
-msgstr "NetBSD 8.2 Installazione da rete"
+msgstr "NetBSD 8.2 (installazione da rete)"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:17
 msgid "NetBSD 8.2 Network Install (Serial Console)"
-msgstr "NetBSD 8.2 Installazione da rete (console seriale)"
+msgstr "NetBSD 8.2 (installazione da rete, console seriale)"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:5
 msgid "NetBSD 9.0"
@@ -2647,11 +2647,11 @@ msgstr "NetBSD 9.0"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:14
 msgid "NetBSD 9.0 Network Install"
-msgstr "NetBSD 9.0 Installazione da rete"
+msgstr "NetBSD 9.0 (installazione da rete)"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
 msgid "NetBSD 9.0 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 Installazione da rete (console seriale)"
+msgstr "NetBSD 9.0 (installazione da rete, console seriale)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
