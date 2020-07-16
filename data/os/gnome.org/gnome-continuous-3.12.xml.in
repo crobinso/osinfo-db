@@ -12,6 +12,8 @@
     <upgrades id="http://gnome.org/gnome-continuous/3.10"/>
     <release-status>snapshot</release-status>
 
+    <eol-date>2015-06-24</eol-date>
+
     <resources arch="all">
       <minimum>
         <n-cpus>2</n-cpus>

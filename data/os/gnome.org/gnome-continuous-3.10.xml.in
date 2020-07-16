@@ -11,6 +11,7 @@
     <upgrades id="http://gnome.org/gnome/3.8"/>
 
     <release-date>2013-09-25</release-date>
+    <eol-date>2014-11-13</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->

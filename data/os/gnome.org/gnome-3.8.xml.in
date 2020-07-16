@@ -12,6 +12,7 @@
     <upgrades id="http://gnome.org/gnome/3.6"/>
 
     <release-date>2013-03-27</release-date>
+    <eol-date>2014-07-29</eol-date>
 
     <media arch="i686" live="true">
       <iso>
