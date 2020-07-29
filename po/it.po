@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-28 08:50+0200\n"
-"PO-Revision-Date: 2020-07-27 22:57+0000\n"
+"PO-Revision-Date: 2020-07-29 15:29+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -2040,10 +2040,8 @@ msgid "Mageia 6"
 msgstr "Mageia 6"
 
 #: data/os/mageia.org/mageia-7.xml.in:6
-#, fuzzy
-#| msgid "Mageia 1"
 msgid "Mageia 7"
-msgstr "Mageia 1"
+msgstr "Mageia 7"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
@@ -2938,10 +2936,8 @@ msgstr "openSUSE Leap 15.1"
 
 #: data/os/opensuse.org/opensuse-15.2.xml.in:6
 #: data/os/opensuse.org/opensuse-15.2.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.2"
-msgstr "openSUSE Leap 15.0"
+msgstr "openSUSE Leap 15.2"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
