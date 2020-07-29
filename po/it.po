@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-08 17:23+0200\n"
-"PO-Revision-Date: 2020-07-11 07:27+0000\n"
+"PO-Revision-Date: 2020-07-27 22:57+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -26,7 +26,7 @@ msgstr "ib700"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:5
 msgid "keyboard"
-msgstr ""
+msgstr "tastiera"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:8
 #: data/device/ibm.com/ps2-mouse.xml.in:8
@@ -183,7 +183,7 @@ msgstr "qemu-x86-q35"
 
 #: data/device/usb.org/usb-80ee-0021.d/class.xml.in:5
 msgid "tablet"
-msgstr ""
+msgstr "tavoletta"
 
 #: data/device/xen.org/xen-console.xml.in:9
 msgid "xen-console"
@@ -1236,9 +1236,8 @@ msgid "Endless OS Chinese (China)"
 msgstr "Endless OS (cinese, Cina)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:189
-#, fuzzy
 msgid "Endless OS Southeast Asia"
-msgstr "Endless OS (tailandese)"
+msgstr "Endless OS (sud-est asiatico)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:201
 #: data/os/endlessos.com/eos-3.2.xml.in:192
@@ -1248,9 +1247,8 @@ msgstr "Endless OS (tailandese)"
 #: data/os/endlessos.com/eos-3.6.xml.in:155
 #: data/os/endlessos.com/eos-3.7.xml.in:139
 #: data/os/endlessos.com/eos-3.8.xml.in:125
-#, fuzzy
 msgid "Endless OS (other)"
-msgstr "Endless OS (tailandese)"
+msgstr "Endless OS (altro)"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
@@ -1287,9 +1285,8 @@ msgid "Endless OS 3.8"
 msgstr "Endless OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
-#, fuzzy
 msgid "Endless OS LLC"
-msgstr "Endless OS 3.3"
+msgstr "Endless OS LLC"
 
 #: data/os/fedoraproject.org/fedora-1.xml.in:6
 msgid "Fedora Core 1"
@@ -2205,7 +2202,7 @@ msgstr "Manjaro"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
 msgid "Manjaro Architect"
-msgstr ""
+msgstr "Manjaro Architect"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
@@ -3761,7 +3758,7 @@ msgstr "Solaris 9"
 
 #: data/os/suse.com/caasp-1.0.xml.in:6
 msgid "SUSE CaaS Platform 1.0"
-msgstr ""
+msgstr "SUSE CaaS Platform 1.0"
 
 #: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-1.0.xml.in:9
 #: data/os/suse.com/caasp-2.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:9
@@ -3794,15 +3791,15 @@ msgstr "SUSE"
 
 #: data/os/suse.com/caasp-2.0.xml.in:6
 msgid "SUSE CaaS Platform 2.0"
-msgstr ""
+msgstr "SUSE CaaS Platform 2.0"
 
 #: data/os/suse.com/caasp-3.0.xml.in:6
 msgid "SUSE CaaS Platform 3.0"
-msgstr ""
+msgstr "SUSE CaaS Platform 3.0"
 
 #: data/os/suse.com/caasp-unknown.xml.in:6
 msgid "SUSE CaaS Platform Unknown"
-msgstr ""
+msgstr "SUSE CaaS Platform (sconosciuto)"
 
 #: data/os/suse.com/sle-15-unknown.xml.in:6
 msgid "SUSE Linux Enterprise 15 Unknown"
