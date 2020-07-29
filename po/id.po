@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-08 17:23+0200\n"
+"POT-Creation-Date: 2020-07-28 08:50+0200\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -2021,6 +2021,7 @@ msgstr "Mageia 1"
 #: data/os/mageia.org/mageia-1.xml.in:7 data/os/mageia.org/mageia-2.xml.in:7
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
+#: data/os/mageia.org/mageia-7.xml.in:7
 msgid "Mageia"
 msgstr "Mageia"
 
@@ -2043,6 +2044,12 @@ msgstr "Mageia 5"
 #: data/os/mageia.org/mageia-6.xml.in:6
 msgid "Mageia 6"
 msgstr "Mageia 6"
+
+#: data/os/mageia.org/mageia-7.xml.in:6
+#, fuzzy
+#| msgid "Mageia 1"
+msgid "Mageia 7"
+msgstr "Mageia 1"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
@@ -2871,6 +2878,7 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-13.2.xml.in:8
 #: data/os/opensuse.org/opensuse-15.0.xml.in:8
 #: data/os/opensuse.org/opensuse-15.1.xml.in:8
+#: data/os/opensuse.org/opensuse-15.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.1.xml.in:8
 #: data/os/opensuse.org/opensuse-42.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.3.xml.in:8
@@ -2927,7 +2935,7 @@ msgid "openSUSE 13.2"
 msgstr "openSUSE 13.2"
 
 #: data/os/opensuse.org/opensuse-15.0.xml.in:6
-#: data/os/opensuse.org/opensuse-15.0.xml.in:17
+#: data/os/opensuse.org/opensuse-15.0.xml.in:18
 msgid "openSUSE Leap 15.0"
 msgstr "openSUSE Leap 15.0"
 
@@ -2935,6 +2943,13 @@ msgstr "openSUSE Leap 15.0"
 #: data/os/opensuse.org/opensuse-15.1.xml.in:17
 msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"
+
+#: data/os/opensuse.org/opensuse-15.2.xml.in:6
+#: data/os/opensuse.org/opensuse-15.2.xml.in:17
+#, fuzzy
+#| msgid "openSUSE Leap 15.0"
+msgid "openSUSE Leap 15.2"
+msgstr "openSUSE Leap 15.0"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
