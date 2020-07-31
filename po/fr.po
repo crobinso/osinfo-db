@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-28 08:50+0200\n"
-"PO-Revision-Date: 2020-05-29 02:40+0000\n"
+"PO-Revision-Date: 2020-07-31 09:29+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fr/>\n"
@@ -21,15 +21,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.0.4\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
-msgstr ""
+msgstr "ib700"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:5
 msgid "keyboard"
-msgstr ""
+msgstr "clavier"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:8
 #: data/device/ibm.com/ps2-mouse.xml.in:8
@@ -38,35 +38,35 @@ msgstr "Qemu/KVM"
 
 #: data/device/ibm.com/ps2-mouse.xml.in:5
 msgid "mouse"
-msgstr ""
+msgstr "souris"
 
 #: data/device/pcisig.com/pci-1000-0012.d/class.xml.in:5
 msgid "lsi"
-msgstr ""
+msgstr "lsi"
 
 #: data/device/pcisig.com/pci-1013-00b8.d/class.xml.in:5
 msgid "cirrus"
-msgstr ""
+msgstr "cirrus"
 
 #: data/device/pcisig.com/pci-1022-2000.d/class.xml.in:5
 msgid "pcnet"
-msgstr ""
+msgstr "pcnet"
 
 #: data/device/pcisig.com/pci-1033-0194.d/class.xml.in:5
 msgid "nec-xhci"
-msgstr ""
+msgstr "nec-xhci"
 
 #: data/device/pcisig.com/pci-10ec-8029.d/class.xml.in:5
 msgid "ne2k_pci"
-msgstr ""
+msgstr "ne2k_pci"
 
 #: data/device/pcisig.com/pci-10ec-8139.d/class.xml.in:5
 msgid "rtl8139"
-msgstr ""
+msgstr "rtl8139"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:5
 msgid "vga"
-msgstr ""
+msgstr "vga"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:8
 msgid "QEMU"
@@ -74,151 +74,151 @@ msgstr "QEMU"
 
 #: data/device/pcisig.com/pci-1274-5000.d/class.xml.in:5
 msgid "es1370"
-msgstr ""
+msgstr "es1370"
 
 #: data/device/pcisig.com/pci-15ad-0710.d/class.xml.in:5
 msgid "vmvga"
-msgstr ""
+msgstr "vmvga"
 
 #: data/device/pcisig.com/pci-1af4-1000.d/class.xml.in:5
 msgid "virtio-net"
-msgstr ""
+msgstr "virtio-net"
 
 #: data/device/pcisig.com/pci-1af4-1001.d/class.xml.in:5
 msgid "virtio-block"
-msgstr ""
+msgstr "virtio-block"
 
 #: data/device/pcisig.com/pci-1af4-1002.d/class.xml.in:5
 msgid "virtio-balloon"
-msgstr ""
+msgstr "virtio-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1003.d/class.xml.in:5
 msgid "virtio-console"
-msgstr ""
+msgstr "virtio-console"
 
 #: data/device/pcisig.com/pci-1af4-1004.d/class.xml.in:5
 msgid "virtio-scsi"
-msgstr ""
+msgstr "virtio-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1005.d/class.xml.in:5
 msgid "virtio-rng"
-msgstr ""
+msgstr "virtio-rng"
 
 #: data/device/pcisig.com/pci-1af4-1009.d/class.xml.in:5
 msgid "virtio-9p"
-msgstr ""
+msgstr "virtio-9p"
 
 #: data/device/pcisig.com/pci-1af4-1041.d/class.xml.in:5
 msgid "virtio1.0-net"
-msgstr ""
+msgstr "virtio1.0-net"
 
 #: data/device/pcisig.com/pci-1af4-1042.d/class.xml.in:5
 msgid "virtio1.0-block"
-msgstr ""
+msgstr "virtio1.0-block"
 
 #: data/device/pcisig.com/pci-1af4-1043.d/class.xml.in:5
 msgid "virtio1.0-console"
-msgstr ""
+msgstr "virtio1.0-console"
 
 #: data/device/pcisig.com/pci-1af4-1044.d/class.xml.in:5
 msgid "virtio1.0-rng"
-msgstr ""
+msgstr "virtio1.0-rng"
 
 #: data/device/pcisig.com/pci-1af4-1045.d/class.xml.in:5
 msgid "virtio1.0-balloon"
-msgstr ""
+msgstr "virtio1.0-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1048.d/class.xml.in:5
 msgid "virtio1.0-scsi"
-msgstr ""
+msgstr "virtio1.0-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1049.d/class.xml.in:5
 msgid "virtio1.0-9p"
-msgstr ""
+msgstr "virtio1.0-9p"
 
 #: data/device/pcisig.com/pci-1af4-1050.d/class.xml.in:5
 msgid "virtio1.0-gpu"
-msgstr ""
+msgstr "virtio1.0-gpu"
 
 #: data/device/pcisig.com/pci-1af4-1052.d/class.xml.in:5
 msgid "virtio1.0-input"
-msgstr ""
+msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
-msgstr ""
+msgstr "virtio1.0-fs"
 
 #: data/device/pcisig.com/pci-1b36-0004.d/class.xml.in:5
 msgid "qemu-xhci"
-msgstr ""
+msgstr "qemu-xhci"
 
 #: data/device/pcisig.com/pci-1b36-0100.d/class.xml.in:5
 msgid "qxl"
-msgstr ""
+msgstr "qxl"
 
 #: data/device/pcisig.com/pci-8086-100e.d/class.xml.in:5
 msgid "e1000"
-msgstr ""
+msgstr "e1000"
 
 #: data/device/pcisig.com/pci-8086-10d3.d/class.xml.in:5
 msgid "e1000e"
-msgstr ""
+msgstr "e1000e"
 
 #: data/device/pcisig.com/pci-8086-2415.d/class.xml.in:5
 msgid "ac97"
-msgstr ""
+msgstr "ac97"
 
 #: data/device/pcisig.com/pci-8086-25ab.d/class.xml.in:5
 msgid "6300esb"
-msgstr ""
+msgstr "6300esb"
 
 #: data/device/pcisig.com/pci-8086-2668.d/class.xml.in:5
 msgid "ich6"
-msgstr ""
+msgstr "ich6"
 
 #: data/device/pcisig.com/pci-8086-293e.d/class.xml.in:5
 msgid "ich9-hda"
-msgstr ""
+msgstr "ich9-hda"
 
 #: data/device/qemu.org/chipset-x86-q35.xml.in:5
 msgid "qemu-x86-q35"
-msgstr ""
+msgstr "qemu-x86-q35"
 
 #: data/device/usb.org/usb-80ee-0021.d/class.xml.in:5
 msgid "tablet"
-msgstr ""
+msgstr "tablette"
 
 #: data/device/xen.org/xen-console.xml.in:9
 msgid "xen-console"
-msgstr ""
+msgstr "xen-console"
 
 #: data/device/xen.org/xen-pci.xml.in:9
 msgid "xen-pci"
-msgstr ""
+msgstr "xen-pci"
 
 #: data/device/xen.org/xen-vbd.xml.in:9
 msgid "xen-vbd"
-msgstr ""
+msgstr "xen-vbd"
 
 #: data/device/xen.org/xen-vfb.xml.in:9
 msgid "xen-vfb"
-msgstr ""
+msgstr "xen-vfb"
 
 #: data/device/xen.org/xen-vif.xml.in:9
 msgid "xen-vif"
-msgstr ""
+msgstr "xen-vif"
 
 #: data/device/xen.org/xen-vkbd.xml.in:9
 msgid "xen-vkbd"
-msgstr ""
+msgstr "xen-vkbd"
 
 #: data/device/xen.org/xen-vscsi.xml.in:9
 msgid "xen-vscsi"
-msgstr ""
+msgstr "xen-vscsi"
 
 #: data/device/xen.org/xen-vtpm.xml.in:8
 msgid "xen-vtpm"
-msgstr ""
+msgstr "xen-vtpm"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -450,7 +450,7 @@ msgstr "Arch Linux"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
-msgstr ""
+msgstr "Asianux Server 4 SP6"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:7
 #: data/os/asianux.com/asianux-4.7.xml.in:7
@@ -460,42 +460,36 @@ msgstr ""
 #: data/os/asianux.com/asianux-7.3.xml.in:8
 #: data/os/asianux.com/asianux-8.0.xml.in:8
 #: data/os/asianux.com/asianux-unknown.xml.in:8
-#, fuzzy
-#| msgid "Debian Project"
 msgid "Asianux Project"
-msgstr "Projet Debian"
+msgstr "Projet Asianux"
 
 #: data/os/asianux.com/asianux-4.7.xml.in:6
 msgid "Asianux Server 4 SP7"
-msgstr ""
+msgstr "Asianux Server 4 SP7"
 
 #: data/os/asianux.com/asianux-7.0.xml.in:6
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "Asianux Server 7"
-msgstr "ALT Server 9.0"
+msgstr "Asianux Server 7"
 
 #: data/os/asianux.com/asianux-7.1.xml.in:6
 msgid "Asianux Server 7 SP1"
-msgstr ""
+msgstr "Asianux Server 7 SP1"
 
 #: data/os/asianux.com/asianux-7.2.xml.in:6
 msgid "Asianux Server 7 SP2"
-msgstr ""
+msgstr "Asianux Server 7 SP2"
 
 #: data/os/asianux.com/asianux-7.3.xml.in:6
 msgid "Asianux Server 7 SP3"
-msgstr ""
+msgstr "Asianux Server 7 SP3"
 
 #: data/os/asianux.com/asianux-8.0.xml.in:6
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "Asianux Server 8"
-msgstr "ALT Server 9.0"
+msgstr "Asianux Server 8"
 
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
-msgstr ""
+msgstr "Asianux inconnu"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
@@ -1746,10 +1740,8 @@ msgid "FreeBSD 11.3"
 msgstr "FreeBSD 11.3"
 
 #: data/os/freebsd.org/freebsd-11.4.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 11.0"
 msgid "FreeBSD 11.4"
-msgstr "FreeBSD 11.0"
+msgstr "FreeBSD 11.4"
 
 #: data/os/freebsd.org/freebsd-12.0.xml.in:6
 msgid "FreeBSD 12.0"
@@ -2051,10 +2043,8 @@ msgid "Mageia 6"
 msgstr "Mageia 6"
 
 #: data/os/mageia.org/mageia-7.xml.in:6
-#, fuzzy
-#| msgid "Mageia 1"
 msgid "Mageia 7"
-msgstr "Mageia 1"
+msgstr "Mageia 7"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
@@ -2860,10 +2850,8 @@ msgstr "OpenBSD 6.6"
 
 #: data/os/openbsd.org/openbsd-6.7.xml.in:6
 #: data/os/openbsd.org/openbsd-6.7.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 6.0"
 msgid "OpenBSD 6.7"
-msgstr "OpenBSD 6.0"
+msgstr "OpenBSD 6.7"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -2951,10 +2939,8 @@ msgstr "openSUSE Leap 15.1"
 
 #: data/os/opensuse.org/opensuse-15.2.xml.in:6
 #: data/os/opensuse.org/opensuse-15.2.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.2"
-msgstr "openSUSE Leap 15.0"
+msgstr "openSUSE Leap 15.2"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
@@ -3483,10 +3469,8 @@ msgid "Red Hat Enterprise Linux 7.8"
 msgstr "Red Hat Enterprise Linux 7.8"
 
 #: data/os/redhat.com/rhel-7.9.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 7.0"
 msgid "Red Hat Enterprise Linux 7.9"
-msgstr "Red Hat Enterprise Linux 7.0"
+msgstr "Red Hat Enterprise Linux 7.9"
 
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 8 Unknown"
