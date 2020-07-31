@@ -153,24 +153,6 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
-    <media arch="ppc64le">
-      <iso>
-        <system-id>PPC</system-id>
-        <volume-id>CentOS_Stream_8_ppc64le_dvd</volume-id>
-      </iso>
-      <kernel>ppc/ppc64/vmlinuz</kernel>
-      <initrd>ppc/ppc64/initrd.img</initrd>
-    </media>
-
-    <media arch="ppc64le">
-      <iso>
-        <system-id>PPC</system-id>
-        <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
-      </iso>
-      <kernel>ppc/ppc64/vmlinuz</kernel>
-      <initrd>ppc/ppc64/initrd.img</initrd>
-    </media>
-
     <!-- 20191219 release -->
     <media arch="x86_64">
       <variant id="netinst"/>
