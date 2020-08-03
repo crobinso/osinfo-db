@@ -14,5 +14,36 @@
     <eol-date>2014-01-30</eol-date>
     <upgrades id="http://redhat.com/rhel/3"/>
     <derives-from id="http://redhat.com/rhel/3"/>
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>838860800</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="i686">
+      <minimum>
+        <ram>268435456</ram>
+        <storage>838860800</storage>
+      </minimum>
+
+      <maximum>
+        <n-cpus>16</n-cpus>
+        <ram>68719476736</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <ram>268435456</ram>
+        <storage>838860800</storage>
+      </minimum>
+
+      <maximum>
+        <n-cpus>8</n-cpus>
+        <ram>137438953472</ram>
+      </maximum>
+    </resources>
   </os>
 </libosinfo>
