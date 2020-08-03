@@ -51,6 +51,20 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <ram>536870912</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="i686">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>1073741824</storage>
       </minimum>
 
       <recommended>
@@ -60,6 +74,25 @@
       </recommended>
 
       <maximum>
+        <n-cpus>32</n-cpus>
+        <ram>17179869184</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>448</n-cpus>
         <ram>13194139533312</ram>
       </maximum>
     </resources>
