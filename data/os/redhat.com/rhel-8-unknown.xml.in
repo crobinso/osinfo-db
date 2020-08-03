@@ -87,6 +87,70 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>340</n-cpus>
+        <ram>17592186044416</ram>
+      </maximum>
+
+      <network-install>
+        <ram>2147483648</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
     </resources>
 
     <resources arch="all">
@@ -102,14 +166,6 @@
         <ram>1610612736</ram>
         <storage>21474836480</storage>
       </recommended>
-
-      <maximum>
-        <ram>26388279066624</ram>
-      </maximum>
-
-      <network-install>
-        <ram>3221225472</ram>
-      </network-install>
     </resources>
 
     <installer>
