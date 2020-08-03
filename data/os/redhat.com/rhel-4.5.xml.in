@@ -14,5 +14,36 @@
 
     <release-date>2007-05-01</release-date>
     <eol-date>2015-02-28</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>838860800</storage>
+      </minimum>
+    </resources>
+
+    <resources arch="i686">
+      <minimum>
+        <ram>268435456</ram>
+        <storage>838860800</storage>
+      </minimum>
+
+      <maximum>
+        <n-cpus>32</n-cpus>
+        <ram>68719476736</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <ram>268435456</ram>
+        <storage>838860800</storage>
+      </minimum>
+
+      <maximum>
+        <n-cpus>64</n-cpus>
+        <ram>274877906944</ram>
+      </maximum>
+    </resources>
   </os>
 </libosinfo>
