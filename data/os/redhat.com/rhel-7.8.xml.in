@@ -96,6 +96,11 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
     </resources>
 
     <resources arch="ppc64le">
@@ -111,6 +116,50 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>13194139533312</ram>
+      </maximum>
+
+      <network-install>
+        <ram>1610612736</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>10995116277760</ram>
+      </maximum>
     </resources>
 
     <resources arch="all">
@@ -126,14 +175,6 @@
         <ram>1073741824</ram>
         <storage>21474836480</storage>
       </recommended>
-
-      <maximum>
-        <ram>13194139533312</ram>
-      </maximum>
-
-      <network-install>
-        <ram>1610612736</ram>
-      </network-install>
     </resources>
 
     <installer>

@@ -83,6 +83,50 @@
         <ram>2147483648</ram>
         <storage>21474836480</storage>
       </recommended>
+
+      <maximum>
+        <n-cpus>192</n-cpus>
+        <ram>2199023255552</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>288</n-cpus>
+        <ram>3298534883328</ram>
+      </maximum>
+
+      <network-install>
+        <ram>1610612736</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>10995116277760</ram>
+      </maximum>
     </resources>
 
     <resources arch="all">
@@ -98,14 +142,6 @@
         <ram>1073741824</ram>
         <storage>21474836480</storage>
       </recommended>
-
-      <maximum>
-        <ram>3298534883328</ram>
-      </maximum>
-
-      <network-install>
-        <ram>1610612736</ram>
-      </network-install>
     </resources>
 
     <kernel-url-argument>inst.repo</kernel-url-argument>
