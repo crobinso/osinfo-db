@@ -14,5 +14,46 @@
 
     <release-date>2009-01-20</release-date>
     <eol-date>2020-03-31</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <storage>1073741824</storage>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <storage>5368709120</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="i686">
+      <minimum>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+
+      <maximum>
+        <n-cpus>32</n-cpus>
+        <ram>17179869184</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <ram>1073741824</ram>
+      </recommended>
+
+      <maximum>
+        <n-cpus>160</n-cpus>
+        <ram>1099511627776</ram>
+      </maximum>
+    </resources>
   </os>
 </libosinfo>
