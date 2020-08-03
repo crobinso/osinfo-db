@@ -12,7 +12,7 @@
     <derives-from id="http://opensuse.org/opensuse/13.2" />
 
     <release-date>2015-11-04</release-date>
-    <eol-date>2017-05-04</eol-date>
+    <eol-date>2017-05-17</eol-date>
 
     <media arch="x86_64">
       <url>http://download.opensuse.org/distribution/leap/42.1/iso/openSUSE-Leap-42.1-DVD-x86_64.iso</url>
