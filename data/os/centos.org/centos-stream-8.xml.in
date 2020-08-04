@@ -46,7 +46,6 @@
     <!-- 20200730 release -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20200730-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -57,7 +56,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20200730-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -69,7 +67,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20200730-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -80,7 +77,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-20200730-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -91,7 +87,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20200730-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS_Stream_8_ppc64le_dvd</volume-id>
@@ -101,7 +96,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-20200730-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
