@@ -180,8 +180,8 @@
     </tree>
     <tree arch="armv7l">
       <url>http://deb.debian.org/debian/dists/stretch/main/installer-armhf</url>
-      <kernel>current/images/netboot/debian-installer/armhf/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/armhf/initrd.gz</initrd>
+      <kernel>current/images/netboot/vmlinuz</kernel>
+      <initrd>current/images/netboot/initrd.gz</initrd>
     </tree>
     <tree arch="s390x">
       <url>http://deb.debian.org/debian/dists/stretch/main/installer-s390x</url>
