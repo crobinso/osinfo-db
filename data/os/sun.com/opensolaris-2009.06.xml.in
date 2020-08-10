@@ -10,6 +10,7 @@
     <distro>opensolaris</distro>
 
     <release-date>2009-06-01</release-date>
+    <eol-date>2014-06-01</eol-date>
 
     <devices>
       <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
