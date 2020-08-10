@@ -10,5 +10,6 @@
     <distro>msdos</distro>
 
     <release-date>1994-06-01</release-date>
+    <eol-date>2001-12-31</eol-date>
   </os>
 </libosinfo>
