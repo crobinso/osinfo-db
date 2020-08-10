@@ -238,6 +238,14 @@ class Tree(_XMLBase):
             return Treeinfo(treeinfo)
         return None
 
+    @_cache_property
+    def kernel(self):
+        return self._get_text('kernel')
+
+    @_cache_property
+    def initrd(self):
+        return self._get_text('initrd')
+
 
 class Treeinfo(_XMLBase):
     @_cache_property
