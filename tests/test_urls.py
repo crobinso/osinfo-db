@@ -29,7 +29,17 @@ def _collect_os_urls():
         urls = []
         urls.extend([i.url for i in osxml.images if i.url])
         urls.extend([m.url for m in osxml.medias if m.url])
-        urls.extend([t.url for t in osxml.trees if t.url])
+        for t in osxml.trees:
+            if not t.url:
+                continue
+            urls.append(t.url)
+            url = t.url
+            if not url.endswith('/'):
+                url += '/'
+            if t.kernel:
+                urls.append(url + t.kernel)
+            if t.initrd:
+                urls.append(url + t.initrd)
         if urls:
             ret.append((osxml.shortid, urls))
 
