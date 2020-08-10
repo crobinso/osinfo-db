@@ -14,5 +14,6 @@
     <derives-from id="http://debian.org/debian/1.1"/>
 
     <release-date>1996-12-12</release-date>
+    <eol-date>1998-06-05</eol-date>
   </os>
 </libosinfo>
