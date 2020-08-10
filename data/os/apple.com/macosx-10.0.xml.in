@@ -11,5 +11,6 @@
     <codename>Cheetah</codename>
 
     <release-date>2001-03-24</release-date>
+    <eol-date>2003-12-31</eol-date>
   </os>
 </libosinfo>

@@ -12,6 +12,7 @@
     <upgrades id="http://apple.com/macosx/10.6" />
 
     <release-date>2011-07-20</release-date>
+    <eol-date>2014-09-30</eol-date>
 
     <resources arch="all">
       <minimum>

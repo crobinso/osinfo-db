@@ -12,5 +12,6 @@
     <upgrades id="http://apple.com/macosx/10.1" />
 
     <release-date>2002-09-24</release-date>
+    <eol-date>2005-12-31</eol-date>
   </os>
 </libosinfo>
