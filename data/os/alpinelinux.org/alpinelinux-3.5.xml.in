@@ -9,6 +9,9 @@
     <family>linux</family>
     <distro>alpinelinux</distro>
 
+    <release-date>2016-12-22</release-date>
+    <eol-date>2018-11-01</eol-date>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>

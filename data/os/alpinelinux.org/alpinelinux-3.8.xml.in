@@ -12,6 +12,9 @@
     <upgrades id="http://alpinelinux.org/alpinelinux/3.7"/>
     <derives-from id="http://alpinelinux.org/alpinelinux/3.7"/>
 
+    <release-date>2018-06-26</release-date>
+    <eol-date>2020-05-01</eol-date>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
