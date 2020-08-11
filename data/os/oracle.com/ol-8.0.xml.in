@@ -8,7 +8,7 @@
     <distro>ol</distro>
     <clones id="http://redhat.com/rhel/8.0"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2019-07-18</release-date>
 
     <media arch="x86_64">
       <iso>
