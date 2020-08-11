@@ -11,7 +11,7 @@
     <upgrades id='http://openbsd.org/openbsd/6.2'/>
     <derives-from id='http://openbsd.org/openbsd/6.2'/>
 
-    <release-date>2018-04-02</release-date>
+    <release-date>2018-04-15</release-date>
     <eol-date>2019-05-03</eol-date>
 
     <variant id="netinst">
