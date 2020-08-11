@@ -12,6 +12,7 @@
     <derives-from id="http://freebsd.org/freebsd/10.3"/>
 
     <release-date>2016-10-10</release-date>
+    <eol-date>2017-10-30</eol-date>
 
     <media arch="x86_64">
       <iso>

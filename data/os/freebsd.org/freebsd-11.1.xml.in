@@ -12,6 +12,7 @@
     <derives-from id="http://freebsd.org/freebsd/11.0"/>
 
     <release-date>2017-07-26</release-date>
+    <eol-date>2018-09-30</eol-date>
 
     <media arch="x86_64">
       <iso>
