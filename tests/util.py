@@ -67,7 +67,7 @@ class _Files():
 
     def oses(self, filter_media=False, filter_trees=False, filter_images=False,
             filter_devices=False, filter_resources=False, filter_dates=False,
-            filter_related=False, filter_firmwares=False):
+            filter_related=False, filter_firmwares=False, filter_installscripts=False):
         """
         Return a list of osinfo.Os objects
 
@@ -95,6 +95,8 @@ class _Files():
             oses = [o for o in oses if self.getosxml_related(o)]
         if filter_firmwares:
             oses = [o for o in oses if o.firmwares]
+        if filter_installscripts:
+            oses = [o for o in oses if o.installscripts]
         return oses
 
     def getosxml_related(self, osxml):
