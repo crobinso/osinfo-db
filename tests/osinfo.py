@@ -164,6 +164,12 @@ class Os(_XMLBase):
             firmwares.append(Firmware(firmware))
         return firmwares
 
+    @_cache_property
+    def installscripts(self):
+        return [s.attrib['id']
+                for i in self._root.findall('installer')
+                for s in i.findall('script')]
+
 
 class Resources(_XMLBase):
     @_cache_property
