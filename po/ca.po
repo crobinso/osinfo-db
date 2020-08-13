@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-28 08:50+0200\n"
+"POT-Creation-Date: 2020-08-13 11:32+0200\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -239,19 +239,19 @@ msgstr "Alpine Linux 3.7"
 msgid "Alpine Linux 3.8"
 msgstr "Alpine Linux 3.8"
 
-#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:31
+#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:34
 msgid "Alpinelinux 3.8 Standard"
 msgstr "Alpinelinux 3.8 estàndard"
 
-#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:37
 msgid "Alpinelinux 3.8 Extended"
 msgstr "Alpine Linux 3.8 estesa"
 
-#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:40
 msgid "Alpinelinux 3.8 Virtual"
 msgstr "Alpinelinux 3.8 virtual"
 
-#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:43
 msgid "Alpinelinux 3.8 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
@@ -2897,7 +2897,7 @@ msgid "OpenBSD 6.3"
 msgstr "OpenBSD 6.3"
 
 #: data/os/openbsd.org/openbsd-6.4.xml.in:6
-#: data/os/openbsd.org/openbsd-6.4.xml.in:17
+#: data/os/openbsd.org/openbsd-6.4.xml.in:18
 #, fuzzy
 msgid "OpenBSD 6.4"
 msgstr "OpenBSD 6.0"
@@ -3059,7 +3059,9 @@ msgstr "Red Hat Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-7.1.xml.in:6 data/os/oracle.com/ol-7.2.xml.in:6
 #: data/os/oracle.com/ol-7.3.xml.in:6 data/os/oracle.com/ol-7.4.xml.in:6
 #: data/os/oracle.com/ol-7.5.xml.in:6 data/os/oracle.com/ol-7.6.xml.in:6
-#: data/os/oracle.com/ol-8.0.xml.in:6
+#: data/os/oracle.com/ol-7.7.xml.in:6 data/os/oracle.com/ol-7.8.xml.in:6
+#: data/os/oracle.com/ol-8.0.xml.in:6 data/os/oracle.com/ol-8.1.xml.in:6
+#: data/os/oracle.com/ol-8.2.xml.in:6
 #, fuzzy
 msgid "Oracle America"
 msgstr "Oracle"
@@ -3239,9 +3241,29 @@ msgstr "Mandrake Linux 7.0"
 msgid "Oracle Linux 7.6"
 msgstr "Mandrake Linux 7.0"
 
+#: data/os/oracle.com/ol-7.7.xml.in:4
+#, fuzzy
+msgid "Oracle Linux 7.7"
+msgstr "Mandrake Linux 7.0"
+
+#: data/os/oracle.com/ol-7.8.xml.in:4
+#, fuzzy
+msgid "Oracle Linux 7.8"
+msgstr "Mandrake Linux 7.0"
+
 #: data/os/oracle.com/ol-8.0.xml.in:4
 #, fuzzy
 msgid "Oracle Linux 8.0"
+msgstr "Mandrake Linux 8.0"
+
+#: data/os/oracle.com/ol-8.1.xml.in:4
+#, fuzzy
+msgid "Oracle Linux 8.1"
+msgstr "Mandrake Linux 8.0"
+
+#: data/os/oracle.com/ol-8.2.xml.in:4
+#, fuzzy
+msgid "Oracle Linux 8.2"
 msgstr "Mandrake Linux 8.0"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
@@ -3302,7 +3324,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-7.8.xml.in:8 data/os/redhat.com/rhel-7.9.xml.in:8
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
-#: data/os/redhat.com/rhel-8.2.xml.in:8
+#: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -3612,6 +3634,11 @@ msgstr "Red Hat Enterprise Linux 8.1"
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 #, fuzzy
 msgid "Red Hat Enterprise Linux 8.2"
+msgstr "Red Hat Enterprise Linux 8.0"
+
+#: data/os/redhat.com/rhel-8.3.xml.in:6
+#, fuzzy
+msgid "Red Hat Enterprise Linux 8.3"
 msgstr "Red Hat Enterprise Linux 8.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -3927,13 +3954,13 @@ msgstr ""
 #: data/os/suse.com/caasp-unknown.xml.in:8
 #: data/os/suse.com/caasp-unknown.xml.in:9
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
-#: data/os/suse.com/sle-15.xml.in:8 data/os/suse.com/sle-unknown.xml.in:8
-#: data/os/suse.com/sled-10.1.xml.in:8 data/os/suse.com/sled-10.2.xml.in:8
-#: data/os/suse.com/sled-10.3.xml.in:8 data/os/suse.com/sled-10.4.xml.in:8
-#: data/os/suse.com/sled-10.xml.in:8 data/os/suse.com/sled-11.1.xml.in:8
-#: data/os/suse.com/sled-11.2.xml.in:8 data/os/suse.com/sled-11.3.xml.in:8
-#: data/os/suse.com/sled-11.4.xml.in:8 data/os/suse.com/sled-11.xml.in:8
-#: data/os/suse.com/sled-12-unknown.xml.in:8
+#: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.xml.in:8
+#: data/os/suse.com/sle-unknown.xml.in:8 data/os/suse.com/sled-10.1.xml.in:8
+#: data/os/suse.com/sled-10.2.xml.in:8 data/os/suse.com/sled-10.3.xml.in:8
+#: data/os/suse.com/sled-10.4.xml.in:8 data/os/suse.com/sled-10.xml.in:8
+#: data/os/suse.com/sled-11.1.xml.in:8 data/os/suse.com/sled-11.2.xml.in:8
+#: data/os/suse.com/sled-11.3.xml.in:8 data/os/suse.com/sled-11.4.xml.in:8
+#: data/os/suse.com/sled-11.xml.in:8 data/os/suse.com/sled-12-unknown.xml.in:8
 #: data/os/suse.com/sled-12.1.xml.in:8 data/os/suse.com/sled-12.2.xml.in:8
 #: data/os/suse.com/sled-12.3.xml.in:8 data/os/suse.com/sled-12.4.xml.in:8
 #: data/os/suse.com/sled-12.5.xml.in:8 data/os/suse.com/sled-12.xml.in:8
@@ -3970,6 +3997,11 @@ msgstr "SUSE Linux Enterprise Desktop 9"
 #: data/os/suse.com/sle-15.1.xml.in:6
 #, fuzzy
 msgid "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise Server 10 SP1"
+
+#: data/os/suse.com/sle-15.2.xml.in:6
+#, fuzzy
+msgid "SUSE Linux Enterprise 15 SP2"
 msgstr "SUSE Linux Enterprise Server 10 SP1"
 
 #: data/os/suse.com/sle-15.xml.in:6
