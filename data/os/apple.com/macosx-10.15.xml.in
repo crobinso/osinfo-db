@@ -1,0 +1,27 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://apple.com/macosx/10.15">
+    <short-id>macosx10.15</short-id>
+    <name>macOS Catalian</name>
+    <version>10.15</version>
+    <vendor>Apple Inc.</vendor>
+    <family>darwin</family>
+    <distro>osx</distro>
+    <codename>Lion</codename>
+    <upgrades id="http://apple.com/macosx/10.6" />
+
+    <release-date>2020-03-20</release-date>
+    <eol-date>2014-09-30</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>2</n-cpus>
+        <cpu>1600000000</cpu>
+        <ram>2147483648</ram>
+        <storage>7516192768</storage>
+      </minimum>
+    </resources>
+
+  </os>
+</libosinfo>

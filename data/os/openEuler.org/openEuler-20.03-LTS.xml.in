@@ -1,0 +1,58 @@
+<libosinfo version="0.0.1">
+ <os id="http://openeuler.org/openeuler-20.03-LTS">
+    <short-id>openEuler-20.03-LTS</short-id>
+    <name>openEuler-20.03-LTS</name>
+    <family>linux</family>
+    <distro>openEuler</distro>
+    <upgrades id="http://openeuler.org/openeuler-20.03-LTS"/>
+    <derives-from id="http://openeuler.org/openeuler-20.03-LTS"/>
+
+    <release-date>2020-03-26</release-date>
+	
+	<variant id="server">
+      <name>openEuler-20.03-LTS Server</name>
+    </variant>
+
+    <media arch="x86_64">
+	<variant id="server"/>
+      <url>https://repo.openeuler.org/openEuler-20.03-LTS/ISO/x86_64/openEuler-20.03-LTS-x86_64-dvd.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>openEuler-20.03-LTS-x86_64-dvd</volume-id>
+		<system-id>LINUX</system-id>
+        <publisher-id>openEuler LINUX</publisher-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+	<variant id="server"/>
+      <url>https://repo.openeuler.org/openEuler-20.03-LTS/ISO/aarch64/openEuler-20.03-LTS-aarch64-dvd.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>openEuler-20.03-LTS-aarch64-dvd</volume-id>
+		<system-id>LINUX</system-id>
+        <publisher-id>openEuler LINUX</publisher-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+	
+  </os>
+</libosinfo>
