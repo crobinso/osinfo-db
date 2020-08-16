@@ -1,0 +1,59 @@
+<libosinfo version="0.0.1">
+ <os id="http://cdimage.deepin.com/releases-archive/15.9/">
+    <short-id>deepin-15.9</short-id>
+    <name>deepin-15.9</name>
+    <family>linux</family>
+    <distro>Deepin</distro>
+    <upgrades id="http://cdimage.deepin.com/releases-archive/15.9/"/>
+    <derives-from id="http://cdimage.deepin.com/releases-archive/15.9/"/>
+
+    <release-date>2019-06-16</release-date>
+	
+	<variant id="desktop">
+      <name>deepin-15.9</name>
+    </variant>
+
+    <media arch="x86_64">
+	<variant id="desktop"/>
+      <url>http://cdimage.deepin.com/releases-archive/15.9/deepin-15.9.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>deepin-15.9</volume-id>
+		<system-id>LINUX</system-id>
+        <publisher-id>Deepin</publisher-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+  <media arch="i386">
+        <variant id="desktop"/>
+      <url>http://cdimage.deepin.com/releases-archive/15.9/deepin_2014_final_i386.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>deepin-15.9</volume-id>
+                <system-id>LINUX</system-id>
+        <publisher-id>Deepin</publisher-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+	
+  </os>
+</libosinfo>

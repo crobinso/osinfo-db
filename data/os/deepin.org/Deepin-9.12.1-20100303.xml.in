@@ -1,0 +1,46 @@
+<libosinfo version="0.0.1">
+ <os id="http://cdimage.deepin.com/releases-archive/9.12/">
+    <short-id>Deepin-09.12.1-20100303</short-id>
+    <name>Deepin-09.12.1-20100303-final</name>
+    <family>linux</family>
+    <distro>Deepin</distro>
+    <upgrades id="http://cdimage.deepin.com/releases-archive/9.12/"/>
+    <derives-from id="http://cdimage.deepin.com/releases-archive/9.12/"/>
+
+    <release-date>2020-03-26</release-date>
+	
+	<variant id="desktop">
+      <name>Deepin-09.12.1-20100303-final</name>
+    </variant>
+
+    <media arch="x86_64">
+	<variant id="desktop"/>
+      <url>http://cdimage.deepin.com/releases-archive/9.12/Deepin-09.12.1-20100303-final.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Deepin-09.12.1-20100303-final</volume-id>
+		<system-id>LINUX</system-id>
+        <publisher-id>Deepin</publisher-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </recommended>
+    </resources>
+	
+  </os>
+</libosinfo>

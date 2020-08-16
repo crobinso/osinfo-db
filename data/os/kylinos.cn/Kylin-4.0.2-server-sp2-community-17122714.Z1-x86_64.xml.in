@@ -1,0 +1,61 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://kylinos.cn/scheme/server.html">
+    <short-id>kylin4.0.2sp2</short-id>
+    <short-id>kylin4.0.2</short-id>
+    <name>Kylin 4.0.2</name>
+    <version>4.0.2sp2</version>
+    <vendor>Kylin Ltd</vendor>
+    <family>linux</family>
+    <distro>kylin</distro>
+    <codename>Juniper</codename>
+    <upgrades id="http://nudt.dl.360tpcdn.com/data/"/>
+    <derives-from id="http://nudt.dl.360tpcdn.com/data/Kylin-4.0.2-server-sp2-community-17122714.Z1-x86_64.iso"/>
+
+    <release-date>2016-04-21</release-date>
+    <eol-date>2021-04-21</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64">
+      <url>http://nudt.dl.360tpcdn.com/data/Kylin-4.0.2-server-sp2_Community-20171127-x86_64.iso</url>
+      <iso>
+        <volume-id>Kylin-server 4.0.2(.\d\+?)? LTS amd64</volume-id>
+      </iso>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
+      <installer>
+        <script id='http://nudt.dl.360tpcdn.com/data'/>
+        <script id='http://nudt.dl.360tpcdn.com/data/Kylin-4.0.2-server-sp2_Community-20171127-x86_64.iso'/>
+      </installer>
+      </media>  
+      
+      <media arch="x86_64" live="true">
+      <url>http://nudt.dl.360tpcdn.com/data/Kylin-4.0.2-server-sp2_Community-20171127-x86_64.iso</url>
+      <iso>
+        <volume-id>Kylin-server-4.0.2-sp2(.\d\+?)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+      </media>
+      <installer>
+        <script id='http://nudt.dl.360tpcdn.com/data/Kylin-4.0.2-server-sp2_Community-20171127-x86_64.iso'/>
+      </installer>
+   <installer>
+      <script id='http://nudt.dl.360tpcdn.com/data'/>
+    </installer>
+  </os>
+</libosinfo>
