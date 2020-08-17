@@ -1,0 +1,90 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cs2c.com.cn/neokylin/6.9">
+    <short-id>neokylin6.9</short-id>
+    <name>NeoKylin Linux Advanced Server 6</name>
+    <version>6.9</version>
+    <vendor>CS2C, Inc</vendor>
+    <family>linux</family>
+    <distro>neokylin</distro>
+    <codename>Santiago</codename>
+
+    <release-date>2017-03-21</release-date>
+    <eol-date>2023-11-30</eol-date>
+
+    <firmware type="efi" arch="x86_64"/>
+    <firmware type="efi" arch="i686"/>
+
+    <media arch="i686">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>NEOKYLIN-6.9 .*.i386.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*NeoKylin Linux Advanced Server.*.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="ppc64">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^6.9$</version>
+        <arch>ppc64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^6.9$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="i686">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^6.9$</version>
+        <arch>i386</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^6.9$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+      </minimum>
+
+      <recommended>
+        <cpu>400000000</cpu>
+        <ram>1073741824</ram>
+        <storage>9663676416</storage>
+      </recommended>
+
+      <maximum>
+        <ram>13194139533312</ram>
+      </maximum>
+    </resources>
+
+    <installer>
+      <script id='http://cs2c.com.cn/neokylin/kickstart/jeos'/>
+      <script id='http://cs2c.com.cn/neokylin/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

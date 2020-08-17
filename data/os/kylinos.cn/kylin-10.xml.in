@@ -1,0 +1,140 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://kylin.cn/kylin/10.0">
+    <short-id>kylin10.0</short-id>
+    <name>Kylin Linux Advanced Server V10</name>
+    <family>linux</family>
+    <distro>kylin</distro>
+    <codename>Maipo</codename>
+
+    <release-date>2018-10-30</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Kylin.*10.*.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+       <iso>
+         <system-id>LINUX</system-id>
+         <volume-id>Kylin.*10.*.*$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="ppc64">
+       <iso>
+         <system-id>PPC</system-id>
+         <volume-id>Kylin.*10.*ppc64.*$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="ppc64le">
+       <iso>
+         <system-id>PPC</system-id>
+         <volume-id>Kylin.*10.*ppc64le.*$</volume-id>
+       </iso>
+     </media>
+
+    <media arch="s390x">
+       <iso>
+         <system-id>LINUX</system-id>
+         <volume-id>Kylin.*10.*s390x*$</volume-id>
+       </iso>
+     </media>
+
+    <tree arch="ppc64">
+      <treeinfo>
+        <family>Kylin Linux Advanced Server$</family>
+        <version>^7.6$</version>
+        <arch>ppc64$</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <treeinfo>
+        <family>Kylin Linux Advanced Server$</family>
+        <version>^7.6$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>Kylin Linux Advanced Server$</family>
+        <version>^7.6$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Kylin Linux Advanced Server$</family>
+        <version>^7.6$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="ppc64">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="ppc64le">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <ram>13194139533312</ram>
+      </maximum>
+
+      <network-install>
+        <ram>1610612736</ram>
+      </network-install>
+    </resources>
+
+    <installer>
+      <script id='http://kylin.cn/kylin/kickstart/jeos'/>
+      <script id='http://kylin.cn/kylin/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

@@ -67,5 +67,5 @@ variable to the build system. For example:
 
     $ export OSINFO_DB_NETWORK_TESTS=1
     $ make check
-
+If you want to update the translations , you need to make po/osinfo-db.pot and make update-po
 --End

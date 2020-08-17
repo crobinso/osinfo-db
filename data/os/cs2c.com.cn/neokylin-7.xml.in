@@ -1,0 +1,117 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cs2c.com.cn/neokylin/7.0">
+    <short-id>neokylin7.0</short-id>
+    <name>NeoKylin Linux Advanced Server 7</name>
+    <version>7.0</version>
+    <vendor>CS2C, Inc</vendor>
+    <family>linux</family>
+    <distro>neokylin</distro>
+    <codename>Maipo</codename>
+
+    <release-date>2014-06-10</release-date>
+
+    <firmware type="efi" arch="x86_64"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> 
+      <device id="http://pcisig.com/pci/8086/2415"/> 
+      <device id="http://usb.org/usb/80ee/0021"/> 
+      <device id="http://pcisig.com/pci/8086/2668"/> 
+      <device id="http://pcisig.com/pci/1af4/1001"/> 
+      <device id="http://pcisig.com/pci/1af4/1000"/> 
+      <device id="http://pcisig.com/pci/1af4/1003"/> 
+      <device id="http://pcisig.com/pci/1af4/1005"/> 
+      <device id="http://pcisig.com/pci/1033/0194"/> 
+      <device id="http://pcisig.com/pci/1b36/0004"/> 
+    </devices>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>nsV7|NeoKylin.*7.*$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>nsV7|NeoKylin.*7.*$</volume-id>
+      </iso>
+       <kernel>isolinux/vmlinuz</kernel>
+       <initrd>isolinux/initrd.img</initrd>
+     </media>
+
+    <tree arch="ppc64">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^7.0$</version>
+        <arch>ppc64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^7.0$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>NeoKylin Linux Advanced Server</family>
+        <version>^7.0$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="ppc64">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <ram>3298534883328</ram>
+      </maximum>
+
+      <network-install>
+        <ram>1610612736</ram>
+      </network-install>
+    </resources>
+
+    <kernel-url-argument>inst.repo</kernel-url-argument>
+
+    <installer>
+      <script id='http://cs2c.com.cn/neokylin/kickstart/jeos'/>
+      <script id='http://cs2c.com.cn/neokylin/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

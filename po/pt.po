@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-13 11:32+0200\n"
+"POT-Creation-Date: 2020-08-17 15:09+0800\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -404,6 +404,7 @@ msgstr ""
 
 #: data/os/apple.com/macosx-10.0.xml.in:8
 #: data/os/apple.com/macosx-10.1.xml.in:8
+#: data/os/apple.com/macosx-10.15.xml.in:8
 #: data/os/apple.com/macosx-10.2.xml.in:8
 #: data/os/apple.com/macosx-10.3.xml.in:8
 #: data/os/apple.com/macosx-10.4.xml.in:8
@@ -415,6 +416,10 @@ msgstr ""
 
 #: data/os/apple.com/macosx-10.1.xml.in:6
 msgid "MacOS X Puma"
+msgstr ""
+
+#: data/os/apple.com/macosx-10.15.xml.in:6
+msgid "macOS Catalian"
 msgstr ""
 
 #: data/os/apple.com/macosx-10.2.xml.in:6
@@ -686,6 +691,19 @@ msgstr ""
 msgid "Intel Corporation"
 msgstr ""
 
+#: data/os/cs2c.com.cn/neokylin-6.xml.in:6
+msgid "NeoKylin Linux Advanced Server 6"
+msgstr ""
+
+#: data/os/cs2c.com.cn/neokylin-6.xml.in:8
+#: data/os/cs2c.com.cn/neokylin-7.xml.in:8
+msgid "CS2C, Inc"
+msgstr ""
+
+#: data/os/cs2c.com.cn/neokylin-7.xml.in:6
+msgid "NeoKylin Linux Advanced Server 7"
+msgstr ""
+
 #: data/os/debian.org/debian-1.1.xml.in:7
 msgid "Debian GNU/Linux 1.1"
 msgstr ""
@@ -764,6 +782,70 @@ msgstr ""
 
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
+msgstr ""
+
+#: data/os/deepin.org/Deepin-9.12-final.xml.in:6
+#: data/os/deepin.org/Deepin-9.12-final.xml.in:15
+msgid "Deepin-9.12-final"
+msgstr ""
+
+#: data/os/deepin.org/Deepin-9.12.1-20100303.xml.in:6
+#: data/os/deepin.org/Deepin-9.12.1-20100303.xml.in:15
+msgid "Deepin-09.12.1-20100303-final"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.1.xml.in:6
+#: data/os/deepin.org/deepin-15.1.xml.in:15
+msgid "deepin-15.1"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.2.xml.in:6
+#: data/os/deepin.org/deepin-15.2.xml.in:15
+msgid "deepin-15.2"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.3.xml.in:6
+#: data/os/deepin.org/deepin-15.3.xml.in:15
+msgid "deepin-15.3"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.4.xml.in:6
+#: data/os/deepin.org/deepin-15.4.xml.in:15
+msgid "deepin-15.4"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.5.xml.in:6
+#: data/os/deepin.org/deepin-15.5.xml.in:15
+msgid "deepin-15.5"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.6.xml.in:6
+#: data/os/deepin.org/deepin-15.6.xml.in:15
+msgid "deepin-15.6"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.7.xml.in:6
+#: data/os/deepin.org/deepin-15.7.xml.in:15
+msgid "deepin-15.7"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.8.xml.in:6
+#: data/os/deepin.org/deepin-15.8.xml.in:15
+msgid "deepin-15.8"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.9.xml.in:6
+#: data/os/deepin.org/deepin-15.9.xml.in:15
+msgid "deepin-15.9"
+msgstr ""
+
+#: data/os/deepin.org/deepin-15.xml.in:6 data/os/deepin.org/deepin-15.xml.in:15
+msgid "deepin-15"
+msgstr ""
+
+#: data/os/deepin.org/deepin-2014-final.xml.in:6
+#: data/os/deepin.org/deepin-2014-final.xml.in:15
+msgid "deepin-2014-final"
 msgstr ""
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
@@ -2017,6 +2099,20 @@ msgstr ""
 msgid "Haiku R1/Beta1"
 msgstr ""
 
+#: data/os/kylinos.cn/Kylin-4.0.2-desktop-sp2_Community-20171127-x86_64.xml.in:7
+#: data/os/kylinos.cn/Kylin-4.0.2-server-sp2-community-17122714.Z1-x86_64.xml.in:7
+msgid "Kylin 4.0.2"
+msgstr ""
+
+#: data/os/kylinos.cn/Kylin-4.0.2-desktop-sp2_Community-20171127-x86_64.xml.in:9
+#: data/os/kylinos.cn/Kylin-4.0.2-server-sp2-community-17122714.Z1-x86_64.xml.in:9
+msgid "Kylin Ltd"
+msgstr ""
+
+#: data/os/kylinos.cn/kylin-10.xml.in:6
+msgid "Kylin Linux Advanced Server V10"
+msgstr ""
+
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
 msgstr ""
@@ -2709,6 +2805,14 @@ msgstr ""
 
 #: data/os/novell.com/netware-6.xml.in:6
 msgid "Novell Netware 6"
+msgstr ""
+
+#: data/os/openEuler.org/openEuler-20.03-LTS.xml.in:6
+msgid "openEuler-20.03-LTS"
+msgstr ""
+
+#: data/os/openEuler.org/openEuler-20.03-LTS.xml.in:15
+msgid "openEuler-20.03-LTS Server"
 msgstr ""
 
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
