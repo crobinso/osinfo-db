@@ -11,6 +11,8 @@
     <upgrades id="http://redhat.com/rhel-atomic/7.2"/>
     <derives-from id="http://redhat.com/rhel-atomic/7.2"/>
 
+    <eol-date>2020-08-06</eol-date>
+
     <!-- 7.3.0-3 -->
     <media arch="x86_64">
       <iso>

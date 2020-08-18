@@ -11,6 +11,7 @@
     <derives-from id="http://redhat.com/rhel/7.0"/>
 
     <release-date>2014-06-10</release-date>
+    <eol-date>2020-08-06</eol-date>
 
     <media arch="x86_64">
       <iso>
