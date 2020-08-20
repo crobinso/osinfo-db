@@ -11,7 +11,7 @@
     <upgrades id="http://scientificlinux.org/scientificlinux/5.10"/>
     <clones id="http://redhat.com/rhel/5.11"/>
 
-    <release-date>2013-11-11</release-date>
+    <release-date>2014-11-13</release-date>
     <eol-date>2017-03-31</eol-date>
 
     <tree arch="x86_64">
