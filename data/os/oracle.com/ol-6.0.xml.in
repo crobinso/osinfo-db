@@ -8,7 +8,7 @@
     <distro>ol</distro>
     <clones id="http://redhat.com/rhel/6.0"/>
 
-    <release-date>2010-02-10</release-date>
+    <release-date>2011-02-11</release-date>
     <eol-date>2024-03-31</eol-date>
 
     <media arch="x86_64">
