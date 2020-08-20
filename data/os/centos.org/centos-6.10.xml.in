@@ -11,7 +11,7 @@
     <upgrades id="http://centos.org/centos/6.9"/>
     <clones id="http://redhat.com/rhel/6.10"/>
 
-    <release-date>2017-04-05</release-date>
+    <release-date>2018-07-03</release-date>
     <eol-date>2020-11-30</eol-date>
 
     <!-- DVD -->
