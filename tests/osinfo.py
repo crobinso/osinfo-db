@@ -204,6 +204,13 @@ class Image(_XMLBase):
     def url(self):
         return self._get_text('url')
 
+    @_cache_property
+    def variant(self):
+        variant = self._root.find('variant')
+        if variant is not None:
+            return variant.attrib['id']
+        return None
+
 
 class Media(_XMLBase):
     @_cache_property
