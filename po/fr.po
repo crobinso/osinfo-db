@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-13 11:32+0200\n"
-"PO-Revision-Date: 2020-07-31 09:29+0000\n"
+"PO-Revision-Date: 2020-08-21 03:29+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fr/>\n"
@@ -3133,32 +3133,24 @@ msgid "Oracle Linux 7.6"
 msgstr "Oracle Linux 7.6"
 
 #: data/os/oracle.com/ol-7.7.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.7"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.7"
 
 #: data/os/oracle.com/ol-7.8.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.8"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.8"
 
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
 #: data/os/oracle.com/ol-8.1.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.1"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.2.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.2"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.2"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -3515,10 +3507,8 @@ msgid "Red Hat Enterprise Linux 8.2"
 msgstr "Red Hat Enterprise Linux 8.2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.3"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -3853,10 +3843,8 @@ msgid "SUSE Linux Enterprise 15 SP1"
 msgstr "SUSE Linux Enterprise 15 SP1"
 
 #: data/os/suse.com/sle-15.2.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP2"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP2"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
