@@ -12,6 +12,10 @@
     <release-date>2019-07-01</release-date>
     <eol-date>2020-12-30</eol-date>
 
+    <variant id="netinst">
+      <name>Mageia 7</name>
+    </variant>
+
     <media arch="i686">
       <iso>
         <volume-id>Mageia-7(.1)?-i586</volume-id>
@@ -47,6 +51,22 @@
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <iso>
+        <volume-id>Mageia-7(.1)?-i686-netinstall</volume-id>
+      </iso>
+      <kernel>isolinux/i386/vmlinuz</kernel>
+      <initrd>isolinux/i386/all.rdz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <iso>
+        <volume-id>Mageia-7(.1)?-x86_64-netinstall</volume-id>
+      </iso>
+      <kernel>isolinux/x86_64/vmlinuz</kernel>
+      <initrd>isolinux/x86_64/all.rdz</initrd>
     </media>
 
     <resources arch="all">
