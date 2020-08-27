@@ -18,6 +18,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>MAGEIA.ORG</publisher-id>
       </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/all.rdz</initrd>
     </media>
     <media arch="x86_64">
       <iso>
@@ -25,6 +27,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>MAGEIA.ORG</publisher-id>
       </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/all.rdz</initrd>
     </media>
     <media live="true" arch="i686">
       <iso>
@@ -32,6 +36,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>MAGEIA.ORG</publisher-id>
       </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
     </media>
     <media live="true" arch="x86_64">
       <iso>
@@ -39,6 +45,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>MAGEIA.ORG</publisher-id>
       </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
     </media>
 
     <resources arch="all">
