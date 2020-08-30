@@ -20,11 +20,23 @@
     <variant id="workstation">
       <name>ALT Workstation 9.0</name>
     </variant>
+    <variant id="kworkstation">
+      <name>ALT Workstation K 9.0</name>
+    </variant>
     <variant id="education">
       <name>ALT Education 9.0</name>
     </variant>
     <variant id="server">
       <name>ALT Server 9.0</name>
+    </variant>
+    <variant id="server-v">
+      <name>ALT Virtualization Server 9.0</name>
+    </variant>
+    <variant id="simply">
+      <name>ALT Simply 9.0</name>
+    </variant>
+    <variant id="simply-live">
+      <name>ALT Simply live 9.0</name>
     </variant>
 
     <!-- Workstation -->
@@ -59,6 +71,20 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Workstation 9\.0(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/kworkstation/alt-kworkstation-9.0-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>9.0/X86_64</application-id>
       </iso>
       <kernel>syslinux/alt0/vmlinuz</kernel>
       <initrd>syslinux/alt0/full.cz</initrd>
@@ -101,6 +127,43 @@
       <initrd>syslinux/alt0/full.cz</initrd>
     </media>
 
+    <!-- Server-V  -->
+    <media arch="aarch64">
+      <variant id="server-v"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/aarch64/server-v-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server-V 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>alt0/vmlinuz</kernel>
+      <initrd>alt0/full.cz</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="server-v"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/ppc64le/server-v-9.0-ppc64le.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server-V 9\.0(\.\d+)* ppc64le</volume-id>
+        <publisher-id>BaseALT Ltd</publisher-id>
+      </iso>
+      <kernel>alt0/vmlinuz</kernel>
+      <initrd>alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="server-v"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/x86_64/server-v-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server-V 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
     <!-- Education -->
     <media arch="aarch64">
       <variant id="education"/>
@@ -136,6 +199,80 @@
       </iso>
       <kernel>syslinux/alt0/vmlinuz</kernel>
       <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Simply -->
+    <media arch="i686">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-9.0-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.0(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
+    </media>
+
+    <!-- Simply Live -->
+    <media arch="i686" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-live-9.0-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.0(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-live-9.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-live-9.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
     </media>
 
     <resources arch="all">
