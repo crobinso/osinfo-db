@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-13 11:32+0200\n"
+"POT-Creation-Date: 2020-09-07 12:31+0200\n"
 "PO-Revision-Date: 2020-08-14 15:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -261,6 +261,7 @@ msgstr "ALT 8 Education"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
+#: data/os/altlinux.org/alt-9.1.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
@@ -311,12 +312,84 @@ msgid "ALT Workstation 9.0"
 msgstr "ALT Workstation 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "ALT Workstation K 9.0"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
 msgstr "ALT Education 9.0"
 
-#: data/os/altlinux.org/alt-9.0.xml.in:27
+#: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Server 9.0"
 msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.0.xml.in:33
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Virtualization Server 9.0"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.0.xml.in:36
+#, fuzzy
+#| msgid "ALT 8.2 Simply"
+msgid "ALT Simply 9.0"
+msgstr "ALT 8.2 Simply"
+
+#: data/os/altlinux.org/alt-9.0.xml.in:39
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Simply live 9.0"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:6
+#, fuzzy
+#| msgid "ALT 9.0"
+msgid "ALT 9.1"
+msgstr "ALT 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "ALT Workstation 9.1"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "ALT Workstation K 9.1"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:25
+#, fuzzy
+#| msgid "ALT Education 9.0"
+msgid "ALT Education 9.1"
+msgstr "ALT Education 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:28
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Server 9.1"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:31
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Virtualization Server 9.1"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:34
+#, fuzzy
+#| msgid "ALT 8.2 Simply"
+msgid "ALT Simply 9.1"
+msgstr "ALT 8.2 Simply"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:37
+#, fuzzy
+#| msgid "ALT 8.2 Simply"
+msgid "ALT Simply live 9.1"
+msgstr "ALT 8.2 Simply"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -1974,6 +2047,14 @@ msgstr "GNOME 3.12"
 msgid "GNOME 3.14"
 msgstr "GNOME 3.14"
 
+#: data/os/guix.gnu.org/guix-1.1.xml.in:6
+msgid "Guix 1.1"
+msgstr ""
+
+#: data/os/guix.gnu.org/guix-1.1.xml.in:8
+msgid "Guix Contributors"
+msgstr ""
+
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
 msgstr "Haiku Nightly"
@@ -2038,7 +2119,7 @@ msgstr "Mageia 5"
 msgid "Mageia 6"
 msgstr "Mageia 6"
 
-#: data/os/mageia.org/mageia-7.xml.in:6
+#: data/os/mageia.org/mageia-7.xml.in:6 data/os/mageia.org/mageia-7.xml.in:16
 msgid "Mageia 7"
 msgstr "Mageia 7"
 
