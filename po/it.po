@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-07 12:31+0200\n"
-"PO-Revision-Date: 2020-09-11 09:16+0000\n"
-"Last-Translator: Milo Casagrande <milo@milo.name>\n"
+"PO-Revision-Date: 2020-09-11 09:18+0000\n"
+"Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
 "Language: it\n"
@@ -2724,7 +2724,7 @@ msgstr "NixOS"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
-msgstr "NixOS 20.03 (CD di installazione minima)"
+msgstr "NixOS 20.03 (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
@@ -2736,11 +2736,11 @@ msgstr "NixOS non stabile"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
-msgstr "NixOS non stabile (CD installazione minima)"
+msgstr "NixOS non stabile (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (Plasma 5 installation CD)"
-msgstr "NixOS non stabile (CD installazione Plasm 5)"
+msgstr "NixOS non stabile (CD di installazione di Plasma 5)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
