@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Milo Casagrande <milo@milo.name>, 2018. #zanata
-# Milo Casagrande <milo@milo.name>, 2019. #zanata
+# Milo Casagrande <milo@milo.name>, 2018. #zanata, 2020.
+# Milo Casagrande <milo@milo.name>, 2019. #zanata, 2020.
 # Pino Toscano <toscano.pino@tiscali.it>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-07 12:31+0200\n"
-"PO-Revision-Date: 2020-09-09 06:29+0000\n"
-"Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
+"PO-Revision-Date: 2020-09-11 09:16+0000\n"
+"Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
 "Language: it\n"
@@ -378,7 +378,7 @@ msgstr "ALT p9 StarterKits"
 
 #: data/os/altlinux.org/alt-sisyphus.xml.in:6
 msgid "ALT regular"
-msgstr ""
+msgstr "ALT regular"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:6
 msgid "Mandrake RE Spring 2001"
@@ -2030,11 +2030,11 @@ msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
 msgid "Guix Contributors"
-msgstr ""
+msgstr "Collaboratori Guix"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
-msgstr ""
+msgstr "Haiku Nightly"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha1.xml.in:6
@@ -2356,9 +2356,8 @@ msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
 msgstr "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
 
 #: data/os/microsoft.com/win-10.xml.in:26
-#, fuzzy
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
-msgstr "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
+msgstr "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
@@ -2733,15 +2732,15 @@ msgstr "NixOS 20.03 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
-msgstr ""
+msgstr "NixOS non stabile"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
-msgstr ""
+msgstr "NixOS non stabile (CD installazione minima)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS non stabile (CD installazione Plasm 5)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
@@ -3513,27 +3512,24 @@ msgid "Red Hat Enterprise Linux 7.4"
 msgstr "Red Hat Enterprise Linux 7.4"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 7.4"
+msgstr "Red Hat Enterprise Linux 7.4 (architetture alternative)"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:6
 msgid "Red Hat Enterprise Linux 7.5"
 msgstr "Red Hat Enterprise Linux 7.5"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 7.5"
+msgstr "Red Hat Enterprise Linux 7.5 (architetture alternative)"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:6
 msgid "Red Hat Enterprise Linux 7.6"
 msgstr "Red Hat Enterprise Linux 7.6"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat Enterprise Linux 7.6 (architetture alternative)"
 
 #: data/os/redhat.com/rhel-7.7.xml.in:6
 msgid "Red Hat Enterprise Linux 7.7"
