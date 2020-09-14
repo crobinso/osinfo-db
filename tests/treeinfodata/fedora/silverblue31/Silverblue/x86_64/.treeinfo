@@ -1,0 +1,21 @@
+[general]
+timestamp = 1571868860.4480796
+family = Fedora
+version = 31
+name = Fedora-31
+variant = Silverblue
+arch = x86_64
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+efiboot.img = images/efiboot.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
