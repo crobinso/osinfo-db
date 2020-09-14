@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:5be8debd3e8fb4e86b9fbf67c7eb66ea598d2b7ad0c7ba8d505ce88067b43444
+images/efiboot.img = sha256:a353ed232e91aadf08f0b83242a9bce4c78d2b06780333323bd92421f9498fb3
+images/install.img = sha256:93295a22fdc2a454884fda14323d11c67a40cc75447f9e99a01c31f7297d77e4
+images/macboot.img = sha256:dcd8fef5d3c4fde6533c537a77c7e538589b93872001a04afbe67ab8545fcb9b
+images/pxeboot/initrd.img = sha256:277cd6c7adf77c7e63d73bbb2cded8ef9e2d3a2f100000e92ff1f8396513cd8b
+images/pxeboot/vmlinuz = sha256:d4738d03dbbe083ca610d0821d0a8f1488bebbdccef54ce33e3adb35fda00129
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Fedora
+name = Fedora 31
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1571871312
+variant = Server
+variants = Server
+version = 31
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+macboot.img = images/macboot.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Fedora
+short = Fedora
+version = 31
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1571871312
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

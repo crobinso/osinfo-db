@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:261c6456f04c58aeb96e99fd7a7c0714326b2b9c9aaa97e0e4d0c683186dd6e3
+images/install.img = sha256:ac649596b639134af5935b06b7dc0f485e7aeb37794d3c429c6c6b2b09309e60
+images/pxeboot/initrd-lpae.img = sha256:20967ec2792e6fe75dcd0701b6cae4871c920d717b99197c639ae9555a111eea
+images/pxeboot/initrd.img = sha256:29e92cff6772566f450b854d7a3824f5f6192d90b565a774f995a40cdc18f480
+images/pxeboot/vmlinuz = sha256:06632ab94139104084525501b3a2d3c3348b316bd17421474fbf3693c99eb0ed
+images/pxeboot/vmlinuz-lpae = sha256:190848ca6cbffa50051168ce2a6bf1b5d8fd065da4a87280d9b633cfe4f07484
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = armhfp
+family = Fedora
+name = Fedora 31
+packagedir = Packages
+platforms = armhfp,lpae
+repository = .
+timestamp = 1571871252
+variant = Everything
+variants = Everything
+version = 31
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-armhfp]
+boot.iso = images/boot.iso
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-lpae]
+initrd = images/pxeboot/initrd-lpae.img
+kernel = images/pxeboot/vmlinuz-lpae
+
+[release]
+name = Fedora
+short = Fedora
+version = 31
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = armhfp
+build_timestamp = 1571871252
+platforms = armhfp,lpae
+variants = Everything
+
+[variant-Everything]
+id = Everything
+name = Everything
+packages = Packages
+repository = .
+type = variant
+uid = Everything
+
