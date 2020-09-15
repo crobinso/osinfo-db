@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-07 12:31+0200\n"
+"POT-Creation-Date: 2020-09-15 16:38+0200\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -1406,6 +1406,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/fedora-30.xml.in:8
 #: data/os/fedoraproject.org/fedora-31.xml.in:8
 #: data/os/fedoraproject.org/fedora-32.xml.in:8
+#: data/os/fedoraproject.org/fedora-33.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1419,6 +1420,9 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-30.xml.in:8
 #: data/os/fedoraproject.org/silverblue-31.xml.in:8
 #: data/os/fedoraproject.org/silverblue-32.xml.in:8
+#: data/os/fedoraproject.org/silverblue-33.xml.in:8
+#: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
+#: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
 msgstr "Projecte Fedora"
 
@@ -1678,6 +1682,29 @@ msgstr "Fedora Server 22"
 msgid "Fedora 32 Everything"
 msgstr "Fedora Server 23"
 
+#: data/os/fedoraproject.org/fedora-33.xml.in:6
+#, fuzzy
+msgid "Fedora 33"
+msgstr "Fedora 10"
+
+#: data/os/fedoraproject.org/fedora-33.xml.in:17
+#, fuzzy
+#| msgid "Fedora 23 Workstation"
+msgid "Fedora 33 Workstation"
+msgstr "Fedora Workstation 23"
+
+#: data/os/fedoraproject.org/fedora-33.xml.in:20
+#: data/os/fedoraproject.org/fedora-33.xml.in:23
+#, fuzzy
+#| msgid "Fedora 23 Server"
+msgid "Fedora 33 Server"
+msgstr "Fedora Server 23"
+
+#: data/os/fedoraproject.org/fedora-33.xml.in:26
+#, fuzzy
+msgid "Fedora 33 Everything"
+msgstr "Fedora Server 23"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -1748,6 +1775,23 @@ msgstr "Fedora Silverblue 31"
 #, fuzzy
 msgid "Fedora Silverblue 32"
 msgstr "Fedora Silverblue 30"
+
+#: data/os/fedoraproject.org/silverblue-33.xml.in:6
+#, fuzzy
+msgid "Fedora Silverblue 33"
+msgstr "Fedora Silverblue 30"
+
+#: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 28"
+msgid "Fedora Silverblue Rawhide"
+msgstr "Fedora Silverblue 28"
+
+#: data/os/fedoraproject.org/silverblue-unknown.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 28"
+msgid "Fedora Silverblue"
+msgstr "Fedora Silverblue 28"
 
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
@@ -4244,6 +4288,7 @@ msgstr "Pop!_OS 17.10"
 #: data/os/system76.com/popos-18.10.xml.in:8
 #: data/os/system76.com/popos-19.04.xml.in:8
 #: data/os/system76.com/popos-19.10.xml.in:8
+#: data/os/system76.com/popos-20.04.xml.in:8
 msgid "System76, Inc."
 msgstr "System76, Inc."
 
@@ -4265,6 +4310,11 @@ msgstr "Pop!_OS 17.10"
 #: data/os/system76.com/popos-19.10.xml.in:6
 msgid "Pop!_OS 19.10"
 msgstr "Pop!_OS 19.10"
+
+#: data/os/system76.com/popos-20.04.xml.in:6
+#, fuzzy
+msgid "Pop!_OS 20.04"
+msgstr "Pop!_OS 17.10"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
