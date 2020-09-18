@@ -13,7 +13,6 @@
     <release-date>2019-11-15</release-date>
 
     <media arch="x86_64" live="true">
-      <url>https://www.fosshub.com/Android-x86.html?dwl=android-x86_64-9.0-rc1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
@@ -24,7 +23,6 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>https://www.fosshub.com/Android-x86.html?dwl=android-x86-9.0-rc1.iso</url>
       <iso>
         <volume-id>Android-x86 LiveCD</volume-id>
         <system-id>LINUX</system-id>
