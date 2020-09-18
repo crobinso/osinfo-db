@@ -19,3 +19,4 @@ boot.iso = images/boot.iso
 [images-xen]
 kernel = images/pxeboot/vmlinuz
 initrd = images/pxeboot/initrd.img
+

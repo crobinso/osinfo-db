@@ -1,0 +1,63 @@
+[checksums]
+images/boot.iso = sha256:c67876a5602faa17f68b40ccf2628799b87454aa67700f0f57eec15c6ccdd98c
+images/efiboot.img = sha256:39659e208d746e1afc88784f12d8bbd58b074aafca4a65b70be877e22afb3936
+images/install.img = sha256:4807e94ec4bd55b02a0f217dd19d34a4824ab04466092dd3ff9ca4bb67e8c3b6
+images/pxeboot/initrd.img = sha256:dbffac7f93e35b936dfecc73cbf47e79f7c304fbd84b5df3aaf896ed695ec28e
+images/pxeboot/vmlinuz = sha256:151fb7b594cb096e25769688cc748eefafeea133894878271bf9c428dba2cc71
+
+[general]
+arch = x86_64
+family = CentOS Linux
+name = CentOS Linux 8
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1591654006
+variant = BaseOS
+variants = BaseOS
+version = 8
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = CentOS Linux
+short = CentOS
+version = 8
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1591654006
+platforms = x86_64,xen
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os/
+type = variant
+uid = AppStream
+

@@ -1,10 +1,10 @@
 [checksums]
-images/boot.iso = sha256:28ec069ae8518a05b36746846018772d0a3e1065a48f64f7e4ddcee4410525c1
-images/install.img = sha256:9edf3a0625ad9c21a0cf2e8a0f4efa18a2b53d0989cc8ea0d39a10ff868fadc3
-images/pxeboot/initrd-lpae.img = sha256:f6f6288f9fda2101124d5eded7754772ceb2ce1350f841a625196730f5d31753
-images/pxeboot/initrd.img = sha256:7dfcb65c4d4243d0784c287567309412011b108cbae364be51e00732f41cc095
-images/pxeboot/vmlinuz = sha256:4cdf4cfa4d761f661cd1e23235016b3f2d898dfc1817700427e3c5d1d3d0fbda
-images/pxeboot/vmlinuz-lpae = sha256:13848c51152744dc272c44f114e20037cc8c699c8f029f52b68e585b70e6f626
+images/boot.iso = sha256:ee48f811795a45bf9d1f7b805ece953ec53245feecfca6790808131dd94850b6
+images/install.img = sha256:a04eaaed71203616a0534598df121c2495adc5b3a3336b419d7c7b9551e85da9
+images/pxeboot/initrd-lpae.img = sha256:8ebffe5ca7d046c7e29baeef029dadd7f5d52b9f11e112d5992c98d57056612e
+images/pxeboot/initrd.img = sha256:f334e03434c7b39fddc54f247d5bceed13e9f765cdc27597155a2ac6b92e56b6
+images/pxeboot/vmlinuz = sha256:d0d806a13bd339660835408811fcc88530e7f27a0e15f4c0560cd6d188183d04
+images/pxeboot/vmlinuz-lpae = sha256:477b4de0ee6680bc1a20054683a100b344a72a3f20b72b2c113058097add0aac
 
 [general]
 ; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
@@ -15,7 +15,7 @@ name = Fedora Rawhide
 packagedir = Packages
 platforms = armhfp,lpae
 repository = .
-timestamp = 1566249991
+timestamp = 1600332291
 variant = Everything
 variants = Everything
 version = Rawhide
@@ -43,7 +43,7 @@ mainimage = images/install.img
 
 [tree]
 arch = armhfp
-build_timestamp = 1566249991
+build_timestamp = 1600332291
 platforms = armhfp,lpae
 variants = Everything
 

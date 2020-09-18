@@ -1,9 +1,9 @@
 [checksums]
-images/boot.iso = sha256:2ab47b707cfac40c9b6abe38e3848de59b5c7ec0d27fff778468596bd2c66391
-images/efiboot.img = sha256:7c94d7c60ef4c25c746065d8bbf8211ec4e20a3b1671bb16f452be7263f10835
-images/install.img = sha256:b8648644d392ca34b19e72a31c1c0c4d1490c627c8b9739b3e05f9df83324d56
-images/pxeboot/initrd.img = sha256:f79c60598186779a791e98432578c61d1fd872ce174e1e90f1a4afb8ad005211
-images/pxeboot/vmlinuz = sha256:719e1680483a1b8030939efe3147b8bc2db64d56cb4c25f2b5d0b1037b7d9960
+images/boot.iso = sha256:98d95779e9c573b33ed73d67c3d454de09e54fb07a78c3547979405ec3018b45
+images/efiboot.img = sha256:9d6887d1c1e3ee7a9ccc59bfedb36d030a493112af09b1f2d6e0dc6619ea9d3c
+images/install.img = sha256:ec0d58a40a4dbaf3e04669357c57bd8a4070fcbbd6ace5e45eced317062ae371
+images/pxeboot/initrd.img = sha256:04003c385744e131c4f5ebd699fcd23050bc3af1fa480eab38376d594a0a2115
+images/pxeboot/vmlinuz = sha256:431a1f4899270fdfb1c9198b76b48615192da9f2db50372443dc5a4505742bf4
 
 [general]
 ; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
@@ -14,7 +14,7 @@ name = Fedora Rawhide
 packagedir = Packages
 platforms = aarch64
 repository = .
-timestamp = 1566249982
+timestamp = 1600332283
 variant = Everything
 variants = Everything
 version = Rawhide
@@ -39,7 +39,7 @@ mainimage = images/install.img
 
 [tree]
 arch = aarch64
-build_timestamp = 1566249982
+build_timestamp = 1600332283
 platforms = aarch64
 variants = Everything
 
