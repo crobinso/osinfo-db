@@ -1,13 +1,13 @@
 CD-ROM is in ISO 9660 format
 System id: LINUX
 Volume id: openSUSE-12.3-DVD-i5860110
-Volume set id:
+Volume set id: 
 Publisher id: SUSE LINUX GmbH
 Data preparer id: KIWI - http://opensuse.github.com/kiwi
 Application id: openSUSE-12.3-DVD-i586-Build0110-Media
-Copyright File id:
-Abstract File id:
-Bibliographic File id:
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048

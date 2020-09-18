@@ -3,16 +3,16 @@ System id:
 Volume id: openSUSE_Leap_15.1_KDE_Live
 Volume set id: 
 Publisher id: SUSE LINUX GMBH
-Data preparer id: KIWI - HTTP://SUSE.GITHUB.COM/KIWI
-Application id: 0X970F5E35
+Data preparer id: KIWI - HTTPS://GITHUB.COM/OSINSIDE/KIWI
+Application id: 0X603DE403
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 453632
-El Torito VD version 1 found, boot catalog is in sector 262
+Volume size is: 451316
+El Torito VD version 1 found, boot catalog is in sector 266
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
@@ -26,4 +26,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 4
-        Bootoff 107 263
+        Bootoff 10B 267
