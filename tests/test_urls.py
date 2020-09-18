@@ -13,6 +13,18 @@ from . import util
 
 class UrlType(enum.Enum):
     URL_GENERIC = 1
+    URL_ISO = 2
+
+
+iso_content_types = {
+    # proper ISO mimetype
+    'application/x-iso9660-image',
+    # generic data
+    'application/octet-stream',
+    'binary/octet-stream',
+    # ISO files on archive.netbsd.org
+    'text/plain',
+}
 
 
 def _check_url(url, url_type):
@@ -28,7 +40,11 @@ def _check_url(url, url_type):
     logging.info("response: %s; code: %d; content-type: %s",
                  http.client.responses[response.status_code],
                  response.status_code, content_type)
-    return response.ok
+    if not response.ok:
+        return False
+    if url_type == UrlType.URL_ISO:
+        return content_type in iso_content_types
+    return True
 
 
 def _collect_os_urls():
@@ -40,7 +56,7 @@ def _collect_os_urls():
     for osxml in util.DataFiles.oses():
         urls = []
         urls.extend([(i.url, UrlType.URL_GENERIC) for i in osxml.images if i.url])
-        urls.extend([(m.url, UrlType.URL_GENERIC) for m in osxml.medias if m.url])
+        urls.extend([(m.url, UrlType.URL_ISO) for m in osxml.medias if m.url])
         for t in osxml.trees:
             if not t.url:
                 continue
