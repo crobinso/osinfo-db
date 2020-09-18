@@ -14,9 +14,15 @@ def _check_url(url):
     logging.info("url: %s", url)
     headers = {'user-agent': 'Wget/1.0'}
     response = requests.head(url, allow_redirects=True, headers=headers)
-    logging.info("response: %s; code: %d",
+    content_type = response.headers.get('content-type')
+    if content_type:
+        try:
+            content_type = content_type[0:content_type.index(';')]
+        except ValueError:
+            pass
+    logging.info("response: %s; code: %d; content-type: %s",
                  http.client.responses[response.status_code],
-                 response.status_code)
+                 response.status_code, content_type)
     return response.ok
 
 
