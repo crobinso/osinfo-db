@@ -1,6 +1,7 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
+import enum
 import http
 import logging
 
@@ -10,8 +11,12 @@ import requests
 from . import util
 
 
-def _check_url(url):
-    logging.info("url: %s", url)
+class UrlType(enum.Enum):
+    URL_GENERIC = 1
+
+
+def _check_url(url, url_type):
+    logging.info("url: %s, type: %s", url, url_type)
     headers = {'user-agent': 'Wget/1.0'}
     response = requests.head(url, allow_redirects=True, headers=headers)
     content_type = response.headers.get('content-type')
@@ -34,19 +39,19 @@ def _collect_os_urls():
 
     for osxml in util.DataFiles.oses():
         urls = []
-        urls.extend([i.url for i in osxml.images if i.url])
-        urls.extend([m.url for m in osxml.medias if m.url])
+        urls.extend([(i.url, UrlType.URL_GENERIC) for i in osxml.images if i.url])
+        urls.extend([(m.url, UrlType.URL_GENERIC) for m in osxml.medias if m.url])
         for t in osxml.trees:
             if not t.url:
                 continue
-            urls.append(t.url)
+            urls.append((t.url, UrlType.URL_GENERIC))
             url = t.url
             if not url.endswith('/'):
                 url += '/'
             if t.kernel:
-                urls.append(url + t.kernel)
+                urls.append((url + t.kernel, UrlType.URL_GENERIC))
             if t.initrd:
-                urls.append(url + t.initrd)
+                urls.append((url + t.initrd, UrlType.URL_GENERIC))
         if urls:
             ret.append((osxml.shortid, urls))
 
@@ -58,7 +63,7 @@ def _collect_os_urls():
 def test_urls(testdata):
     urls = testdata[1]
     broken = []
-    for url in urls:
-        if not _check_url(url):
+    for (url, url_type) in urls:
+        if not _check_url(url, url_type):
             broken.append(url)
     assert broken == []
