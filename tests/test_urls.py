@@ -12,7 +12,8 @@ from . import util
 
 def _check_url(url):
     logging.info("url: %s", url)
-    response = requests.head(url, allow_redirects=True)
+    headers = {'user-agent': 'Wget/1.0'}
+    response = requests.head(url, allow_redirects=True, headers=headers)
     logging.info("response: %s; code: %d",
                  http.client.responses[response.status_code],
                  response.status_code)
