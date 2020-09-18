@@ -337,7 +337,7 @@
       <url>http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
-        <version>^Stream$</version>
+        <version>^8$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
@@ -346,7 +346,7 @@
       <url>http://mirror.centos.org/centos/8-stream/BaseOS/aarch64/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
-        <version>^Stream$</version>
+        <version>^8$</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
@@ -355,7 +355,7 @@
       <url>http://mirror.centos.org/centos/8-stream/BaseOS/ppc64le/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
-        <version>^Stream$</version>
+        <version>^8$</version>
         <arch>ppc64le</arch>
       </treeinfo>
     </tree>
@@ -363,7 +363,7 @@
     <tree arch="all">
       <treeinfo>
         <family>CentOS Stream</family>
-        <version>^Stream$</version>
+        <version>^8$</version>
       </treeinfo>
     </tree>
 
