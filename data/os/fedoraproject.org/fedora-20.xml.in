@@ -36,6 +36,14 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+    <media arch="ppc64">
+      <url>http://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-DVD.iso</url>
+      <iso>
+        <volume-id>Fedora 20 ppc64</volume-id>
+        <system-id>PPC</system-id>
+        <volume-size>4625244160</volume-size>
+      </iso>
+    </media>
 
     <!-- Network Installer -->
     <media arch="i686">
@@ -59,8 +67,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="ppc64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-DVD.iso</url>
-
+      <url>http://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-netinst.iso</url>
       <iso>
         <volume-id>Fedora_20_ppc64</volume-id>
         <system-id>PPC</system-id>
