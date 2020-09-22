@@ -1,0 +1,38 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/14.2">
+    <short-id>slackware14.2</short-id>
+    <name>Slackware 14.2</name>
+    <version>14.2</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+
+    <release-date>2016-07-01</release-date>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </devices>
+
+    <media arch="i686">
+      <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware-14.2-iso/slackware-14.2-install-d1.iso</url>
+      <iso>
+        <volume-id>S14.2d1</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware install 1</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware64-14.2-iso/slackware64-14.2-install-dvd.iso</url>
+      <iso>
+        <volume-id>SlackDVD</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware64 14.2 DVD</application-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
