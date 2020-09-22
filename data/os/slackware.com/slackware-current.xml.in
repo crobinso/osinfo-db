@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/current">
+    <short-id>slackware-current</short-id>
+    <name>Slackware -current</name>
+    <version>current</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackware/14.2"/>
+    <derives-from id="http://slackware.com/slackware/14.2"/>
+
+  </os>
+</libosinfo>
