@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-15 16:38+0200\n"
-"PO-Revision-Date: 2020-08-07 11:29+0000\n"
-"Last-Translator: Kukuh Syafaat <kukuh@syafaat.id>\n"
+"PO-Revision-Date: 2020-09-24 09:29+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -312,10 +312,8 @@ msgid "ALT Workstation 9.0"
 msgstr "ALT Workstation 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation K 9.0"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
@@ -326,70 +324,48 @@ msgid "ALT Server 9.0"
 msgstr "ALT Server 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:33
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Virtualization Server 9.0"
-msgstr "ALT Server 9.0"
+msgstr "ALT Virtualization Server 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:36
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply 9.0"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:39
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Simply live 9.0"
-msgstr "ALT Server 9.0"
+msgstr "ALT Simply live 9.0"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 9.1"
-msgstr "ALT 9.0"
+msgstr "ALT 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 9.1"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation K 9.1"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 9.1"
-msgstr "ALT Education 9.0"
+msgstr "ALT Education 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Server 9.1"
-msgstr "ALT Server 9.0"
+msgstr "ALT Server 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:31
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Virtualization Server 9.1"
-msgstr "ALT Server 9.0"
+msgstr "ALT Virtualization Server 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:34
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply 9.1"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply live 9.1"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply live 9.1"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -1649,29 +1625,21 @@ msgid "Fedora 32 Everything"
 msgstr "Fedora 32 Everything"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 33"
-msgstr "Fedora 30"
+msgstr "Fedora 33"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:17
-#, fuzzy
-#| msgid "Fedora 23 Workstation"
 msgid "Fedora 33 Workstation"
-msgstr "Fedora 23 Workstation"
+msgstr "Fedora 33 Workstation"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:20
 #: data/os/fedoraproject.org/fedora-33.xml.in:23
-#, fuzzy
-#| msgid "Fedora 23 Server"
 msgid "Fedora 33 Server"
-msgstr "Fedora 23 Server"
+msgstr "Fedora 33 Server"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 33 Everything"
-msgstr "Fedora 30 Everything"
+msgstr "Fedora 33 Everything"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -1738,22 +1706,16 @@ msgid "Fedora Silverblue 32"
 msgstr "Fedora Silverblue 32"
 
 #: data/os/fedoraproject.org/silverblue-33.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 33"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 33"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 28"
 msgid "Fedora Silverblue Rawhide"
-msgstr "Fedora Silverblue 28"
+msgstr "Fedora Silverblue Rawhide"
 
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 28"
 msgid "Fedora Silverblue"
-msgstr "Fedora Silverblue 28"
+msgstr "Fedora Silverblue"
 
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
@@ -2096,11 +2058,11 @@ msgstr "GNOME 3.14"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:6
 msgid "Guix 1.1"
-msgstr ""
+msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
 msgid "Guix Contributors"
-msgstr ""
+msgstr "Guix Contributors"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
@@ -3257,32 +3219,24 @@ msgid "Oracle Linux 7.6"
 msgstr "Oracle Linux 7.6"
 
 #: data/os/oracle.com/ol-7.7.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.7"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.7"
 
 #: data/os/oracle.com/ol-7.8.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.8"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.8"
 
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
 #: data/os/oracle.com/ol-8.1.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.1"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.2.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.2"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.2"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -3639,10 +3593,8 @@ msgid "Red Hat Enterprise Linux 8.2"
 msgstr "Red Hat Enterprise Linux 8.2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.3"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -3977,10 +3929,8 @@ msgid "SUSE Linux Enterprise 15 SP1"
 msgstr "SUSE Linux Enterprise 15 SP1"
 
 #: data/os/suse.com/sle-15.2.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP2"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP2"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4164,10 +4114,8 @@ msgid "Pop!_OS 19.10"
 msgstr "Pop!_OS 19.10"
 
 #: data/os/system76.com/popos-20.04.xml.in:6
-#, fuzzy
-#| msgid "Pop!_OS 18.04"
 msgid "Pop!_OS 20.04"
-msgstr "Pop!_OS 18.04"
+msgstr "Pop!_OS 20.04"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
