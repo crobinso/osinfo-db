@@ -2,7 +2,7 @@
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/coreos/stable">
-    <short-id>fcos-stable</short-id>
+    <short-id>fedora-coreos-stable</short-id>
     <name>Fedora CoreOS</name>
     <version>Stable</version>
     <vendor>Fedora Project</vendor>

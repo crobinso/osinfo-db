@@ -2,7 +2,7 @@
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/coreos/next">
-    <short-id>fcos-next</short-id>
+    <short-id>fedora-coreos-next</short-id>
     <name>Fedora CoreOS</name>
     <version>Next</version>
     <vendor>Fedora Project</vendor>

@@ -2,7 +2,7 @@
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://fedoraproject.org/coreos/testing">
-    <short-id>fcos-testing</short-id>
+    <short-id>fedora-coreos-testing</short-id>
     <name>Fedora CoreOS</name>
     <version>Testing</version>
     <vendor>Fedora Project</vendor>
