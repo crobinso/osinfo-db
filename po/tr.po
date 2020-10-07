@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-06 16:09+0200\n"
-"PO-Revision-Date: 2020-09-16 18:29+0000\n"
+"PO-Revision-Date: 2020-10-07 08:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -1339,10 +1339,8 @@ msgstr "Endless OS LLC"
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
 #: data/os/fedoraproject.org/coreos-testing.xml.in:6
-#, fuzzy
-#| msgid "Fedora Core 1"
 msgid "Fedora CoreOS"
-msgstr "Fedora Core 1"
+msgstr "Fedora CoreOS"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:8
 #: data/os/fedoraproject.org/coreos-stable.xml.in:8
