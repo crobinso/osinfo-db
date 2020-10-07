@@ -22,7 +22,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.200901-004416.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.8.7/eos-amd64-amd64/base/eos-eos3.8-amd64-amd64.201005-194955.base.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-base$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -35,7 +35,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/en/eos-eos3.8-amd64-amd64.200901-014554.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.8.7/eos-amd64-amd64/en/eos-eos3.8-amd64-amd64.201005-173603.en.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-en$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -48,7 +48,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/es/eos-eos3.8-amd64-amd64.200901-004716.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.8.7/eos-amd64-amd64/es/eos-eos3.8-amd64-amd64.201005-180533.es.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-es$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -61,22 +61,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/fr/eos-eos3.8-amd64-amd64.200901-004956.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.8.7/eos-amd64-amd64/fr/eos-eos3.8-amd64-amd64.201005-181236.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-fr$</volume-id>
-        <publisher-id>ENDLESS COMPUTERS</publisher-id>
-      </iso>
-    </media>
-
-    <variant id="id">
-      <name>Endless OS Indonesian</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="id"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/id/eos-eos3.8-amd64-amd64.200901-014120.id.iso</url>
-      <iso>
-        <volume-id>Endless-OS-3-8-\d+-id$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -87,9 +74,22 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/pt_BR/eos-eos3.8-amd64-amd64.200901-005232.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.8.7/eos-amd64-amd64/pt_BR/eos-eos3.8-amd64-amd64.201005-183542.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-pt_BR$</volume-id>
+        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+      </iso>
+    </media>
+
+
+    <variant id="id">
+      <name>Endless OS Indonesian</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="id"/>
+      <iso>
+        <volume-id>Endless-OS-3-8-\d+-id$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
@@ -100,7 +100,6 @@
 
     <media arch="x86_64" live="true">
       <variant id="th"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/th/eos-eos3.8-amd64-amd64.200901-013618.th.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-th$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
@@ -113,13 +112,11 @@
 
     <media arch="x86_64" live="true">
       <variant id="vi"/>
-      <url>https://images-dl.endlessm.com/release/3.8.6/eos-amd64-amd64/vi/eos-eos3.8-amd64-amd64.200901-014710.vi.iso</url>
       <iso>
         <volume-id>Endless-OS-3-8-\d+-vi$</volume-id>
         <publisher-id>ENDLESS COMPUTERS</publisher-id>
       </iso>
     </media>
-
 
     <variant id="other">
       <name>Endless OS (other)</name>
