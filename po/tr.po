@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-15 16:38+0200\n"
+"POT-Creation-Date: 2020-10-06 16:09+0200\n"
 "PO-Revision-Date: 2020-09-16 18:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -1336,10 +1336,17 @@ msgstr "Endless OS 3.8"
 msgid "Endless OS LLC"
 msgstr "Endless OS LLC"
 
-#: data/os/fedoraproject.org/fedora-1.xml.in:6
-msgid "Fedora Core 1"
+#: data/os/fedoraproject.org/coreos-next.xml.in:6
+#: data/os/fedoraproject.org/coreos-stable.xml.in:6
+#: data/os/fedoraproject.org/coreos-testing.xml.in:6
+#, fuzzy
+#| msgid "Fedora Core 1"
+msgid "Fedora CoreOS"
 msgstr "Fedora Core 1"
 
+#: data/os/fedoraproject.org/coreos-next.xml.in:8
+#: data/os/fedoraproject.org/coreos-stable.xml.in:8
+#: data/os/fedoraproject.org/coreos-testing.xml.in:8
 #: data/os/fedoraproject.org/fedora-1.xml.in:8
 #: data/os/fedoraproject.org/fedora-10.xml.in:8
 #: data/os/fedoraproject.org/fedora-11.xml.in:8
@@ -1385,6 +1392,10 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
 msgstr "Fedora Projesi"
+
+#: data/os/fedoraproject.org/fedora-1.xml.in:6
+msgid "Fedora Core 1"
+msgstr "Fedora Core 1"
 
 #: data/os/fedoraproject.org/fedora-10.xml.in:6
 msgid "Fedora 10"
