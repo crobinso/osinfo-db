@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-06 16:09+0200\n"
+"POT-Creation-Date: 2020-10-14 13:25+0200\n"
 "PO-Revision-Date: 2020-10-06 15:31+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
@@ -1244,7 +1244,7 @@ msgstr "Endless OS (francuski)"
 #: data/os/endlessos.com/eos-3.5.xml.in:74
 #: data/os/endlessos.com/eos-3.6.xml.in:102
 #: data/os/endlessos.com/eos-3.7.xml.in:74
-#: data/os/endlessos.com/eos-3.8.xml.in:72
+#: data/os/endlessos.com/eos-3.8.xml.in:86
 msgid "Endless OS Indonesian"
 msgstr "Endless OS (indonezyjski)"
 
@@ -1255,7 +1255,7 @@ msgstr "Endless OS (indonezyjski)"
 #: data/os/endlessos.com/eos-3.5.xml.in:87
 #: data/os/endlessos.com/eos-3.6.xml.in:115
 #: data/os/endlessos.com/eos-3.7.xml.in:87
-#: data/os/endlessos.com/eos-3.8.xml.in:85
+#: data/os/endlessos.com/eos-3.8.xml.in:72
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS (brazylijski portugalski)"
 
@@ -1277,7 +1277,7 @@ msgstr "Endless OS (tajski)"
 #: data/os/endlessos.com/eos-3.5.xml.in:113
 #: data/os/endlessos.com/eos-3.6.xml.in:141
 #: data/os/endlessos.com/eos-3.7.xml.in:113
-#: data/os/endlessos.com/eos-3.8.xml.in:111
+#: data/os/endlessos.com/eos-3.8.xml.in:110
 msgid "Endless OS Vietnamese"
 msgstr "Endless OS (wietnamski)"
 
@@ -1299,7 +1299,7 @@ msgstr "Endless OS (Azja Południowo-Wschodnia)"
 #: data/os/endlessos.com/eos-3.5.xml.in:127
 #: data/os/endlessos.com/eos-3.6.xml.in:155
 #: data/os/endlessos.com/eos-3.7.xml.in:139
-#: data/os/endlessos.com/eos-3.8.xml.in:125
+#: data/os/endlessos.com/eos-3.8.xml.in:122
 msgid "Endless OS (other)"
 msgstr "Endless OS (inne)"
 
@@ -3872,6 +3872,21 @@ msgstr "Scientific Linux 7.5"
 msgid "Scientific Linux 7.6"
 msgstr "Scientific Linux 7.6"
 
+#: data/os/slackware.com/slackware-14.2.xml.in:6
+msgid "Slackware 14.2"
+msgstr ""
+
+#: data/os/slackware.com/slackware-14.2.xml.in:8
+#: data/os/slackware.com/slackware-current.xml.in:8
+#, fuzzy
+#| msgid "Alpine Linux Project"
+msgid "Slackware Linux Project"
+msgstr "Alpine Linux Project"
+
+#: data/os/slackware.com/slackware-current.xml.in:6
+msgid "Slackware -current"
+msgstr ""
+
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
 msgstr "OpenSolaris 2009.06"
@@ -4156,6 +4171,7 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-19.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -4248,6 +4264,12 @@ msgstr "Ubuntu 19.10"
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
 msgid "Ubuntu 20.04"
+msgstr "Ubuntu 20.04"
+
+#: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 20.04"
+msgid "Ubuntu 20.10"
 msgstr "Ubuntu 20.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7

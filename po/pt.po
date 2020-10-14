@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-06 16:09+0200\n"
+"POT-Creation-Date: 2020-10-14 13:25+0200\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -1271,7 +1271,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.5.xml.in:74
 #: data/os/endlessos.com/eos-3.6.xml.in:102
 #: data/os/endlessos.com/eos-3.7.xml.in:74
-#: data/os/endlessos.com/eos-3.8.xml.in:72
+#: data/os/endlessos.com/eos-3.8.xml.in:86
 msgid "Endless OS Indonesian"
 msgstr ""
 
@@ -1282,7 +1282,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.5.xml.in:87
 #: data/os/endlessos.com/eos-3.6.xml.in:115
 #: data/os/endlessos.com/eos-3.7.xml.in:87
-#: data/os/endlessos.com/eos-3.8.xml.in:85
+#: data/os/endlessos.com/eos-3.8.xml.in:72
 msgid "Endless OS Portuguese (Brazil)"
 msgstr ""
 
@@ -1304,7 +1304,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.5.xml.in:113
 #: data/os/endlessos.com/eos-3.6.xml.in:141
 #: data/os/endlessos.com/eos-3.7.xml.in:113
-#: data/os/endlessos.com/eos-3.8.xml.in:111
+#: data/os/endlessos.com/eos-3.8.xml.in:110
 msgid "Endless OS Vietnamese"
 msgstr ""
 
@@ -1326,7 +1326,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.5.xml.in:127
 #: data/os/endlessos.com/eos-3.6.xml.in:155
 #: data/os/endlessos.com/eos-3.7.xml.in:139
-#: data/os/endlessos.com/eos-3.8.xml.in:125
+#: data/os/endlessos.com/eos-3.8.xml.in:122
 msgid "Endless OS (other)"
 msgstr ""
 
@@ -3926,6 +3926,21 @@ msgstr ""
 msgid "Scientific Linux 7.6"
 msgstr ""
 
+#: data/os/slackware.com/slackware-14.2.xml.in:6
+msgid "Slackware 14.2"
+msgstr ""
+
+#: data/os/slackware.com/slackware-14.2.xml.in:8
+#: data/os/slackware.com/slackware-current.xml.in:8
+#, fuzzy
+#| msgid "Alpine Linux Project"
+msgid "Slackware Linux Project"
+msgstr "Projeto Alpine Linux"
+
+#: data/os/slackware.com/slackware-current.xml.in:6
+msgid "Slackware -current"
+msgstr ""
+
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
 msgstr ""
@@ -4210,6 +4225,7 @@ msgstr ""
 #: data/os/ubuntu.com/ubuntu-19.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -4302,6 +4318,10 @@ msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
 msgid "Ubuntu 20.04"
+msgstr ""
+
+#: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
+msgid "Ubuntu 20.10"
 msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
