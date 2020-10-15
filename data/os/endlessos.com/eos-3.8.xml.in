@@ -5,7 +5,7 @@
     <short-id>eos3.8</short-id>
     <name>Endless OS 3.8</name>
     <version>3.8</version>
-    <vendor>Endless OS LLC</vendor>
+    <vendor>Endless OS Foundation LLC</vendor>
     <family>linux</family>
     <distro>eos</distro>
 

@@ -6,7 +6,7 @@
     <name>Endless OS {{ current_series }}</name>
     <version>{{ current_series }}</version>
 {%- if current_series >= "3.8" %}
-    <vendor>Endless OS LLC</vendor>
+    <vendor>Endless OS Foundation LLC</vendor>
 {%- else %}
     <vendor>Endless Mobile, Inc</vendor>
 {%- endif %}
