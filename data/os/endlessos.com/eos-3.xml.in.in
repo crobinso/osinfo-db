@@ -59,7 +59,7 @@
       <url>{{ base_url }}/{{ images.iso.file }}</url>
       <iso>
         <volume-id>Endless-OS-{{ current_series | replace(".", "-") }}-\d+-{{ personality }}$</volume-id>
-        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+        <publisher-id>{{ current_series | publisher_id }}</publisher-id>
       </iso>
     </media>
 {% endfor %}
@@ -72,7 +72,7 @@
       <variant id="{{ personality }}"/>
       <iso>
         <volume-id>Endless-OS-{{ current_series | replace(".", "-") }}-\d+-{{ personality }}$</volume-id>
-        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+        <publisher-id>{{ current_series | publisher_id }}</publisher-id>
       </iso>
     </media>
 {% endfor %}
@@ -84,7 +84,7 @@
       <variant id="other"/>
       <iso>
         <volume-id>\D+-{{ current_series | replace(".", "-") }}-\d+</volume-id>
-        <publisher-id>ENDLESS COMPUTERS</publisher-id>
+        <publisher-id>{{ current_series | publisher_id }}</publisher-id>
       </iso>
     </media>
 

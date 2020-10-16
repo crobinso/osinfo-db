@@ -23,7 +23,7 @@ old branch is marked as end-of-life as of the first release on the new branch.
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import argparse
 import datetime
-import distutils.version
+from distutils.version import LooseVersion
 import json
 import jinja2
 import os
@@ -84,6 +84,13 @@ def personality_name(personality):
         return locale_name
 
     return personality
+
+
+def publisher_id(branch):
+    if LooseVersion(branch) >= LooseVersion("3.9"):
+        return "ENDLESS OS FOUNDATION LLC"
+    else:
+        return "ENDLESS COMPUTERS"
 
 
 def series(branch):
@@ -169,7 +176,7 @@ def main():
         manifest = response.json()
 
     images = list(manifest["images"].values())
-    images.sort(key=lambda i: distutils.version.LooseVersion(i["version"]))
+    images.sort(key=lambda i: LooseVersion(i["version"]))
     images_by_branch = {}
     for image in images:
         images_by_branch.setdefault(image["branch"], []).append(image)
@@ -181,6 +188,7 @@ def main():
         undefined=jinja2.StrictUndefined,
     )
     env.filters["personality_name"] = personality_name
+    env.filters["publisher_id"] = publisher_id
     template = env.get_template("eos-3.xml.in.in")
 
     for branch in images_by_branch:
