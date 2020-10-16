@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-14 13:25+0200\n"
-"PO-Revision-Date: 2020-10-07 08:16+0000\n"
+"PO-Revision-Date: 2020-10-15 21:30+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -3869,18 +3869,16 @@ msgstr "Scientific Linux 7.6"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:6
 msgid "Slackware 14.2"
-msgstr ""
+msgstr "Slackware 14.2"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:8
 #: data/os/slackware.com/slackware-current.xml.in:8
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "Slackware Linux Project"
-msgstr "Alpine Linux Projesi"
+msgstr "Slackware Linux Projesi"
 
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
-msgstr ""
+msgstr "Slackware -current"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
@@ -4262,10 +4260,8 @@ msgid "Ubuntu 20.04"
 msgstr "Ubuntu 20.04"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 20.04"
 msgid "Ubuntu 20.10"
-msgstr "Ubuntu 20.04"
+msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
