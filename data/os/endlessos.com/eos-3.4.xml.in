@@ -12,7 +12,9 @@
     <upgrades id="http://endlessos.com/eos/3.3"/>
     <derives-from id="http://endlessos.com/eos/3.3"/>
 
+
     <release-date>2018-05-15</release-date>
+
 
     <eol-date>2018-11-09</eol-date>
 

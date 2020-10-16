@@ -16,7 +16,9 @@
     <upgrades id="http://endlessos.com/eos/{{ previous_series }}"/>
     <derives-from id="http://endlessos.com/eos/{{ previous_series }}"/>
 {% endif %}
+{% if release_date %}
     <release-date>{{ release_date }}</release-date>
+{% endif %}
 {% if eol_date %}
     <eol-date>{{ eol_date }}</eol-date>
 {% endif %}

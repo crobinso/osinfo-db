@@ -1,0 +1,107 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://endlessos.com/eos/3.10">
+    <short-id>eos3.10</short-id>
+    <name>Endless OS 3.10</name>
+    <version>3.10</version>
+    <vendor>Endless Mobile, Inc</vendor>
+    <family>linux</family>
+    <distro>eos</distro>
+
+    <upgrades id="http://endlessos.com/eos/3.9"/>
+    <derives-from id="http://endlessos.com/eos/3.9"/>
+
+
+
+
+
+
+    <variant id="base">
+      <name>Endless OS Basic</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="base"/>
+      <iso>
+        <volume-id>Endless-OS-3-10-\d+-base$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="en">
+      <name>Endless OS English</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="en"/>
+      <iso>
+        <volume-id>Endless-OS-3-10-\d+-en$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="es">
+      <name>Endless OS Spanish</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="es"/>
+      <iso>
+        <volume-id>Endless-OS-3-10-\d+-es$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="fr">
+      <name>Endless OS French</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="fr"/>
+      <iso>
+        <volume-id>Endless-OS-3-10-\d+-fr$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="pt_BR">
+      <name>Endless OS Portuguese (Brazil)</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="pt_BR"/>
+      <iso>
+        <volume-id>Endless-OS-3-10-\d+-pt_BR$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="other">
+      <name>Endless OS (other)</name>
+    </variant>
+
+    <media arch="all" live="true">
+      <variant id="other"/>
+      <iso>
+        <volume-id>\D+-3-10-\d+</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
