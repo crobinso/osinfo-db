@@ -47,9 +47,7 @@ DATA_DIR = os.path.relpath(
 )
 ISODATA_DIR = os.path.relpath(
     os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__), "..", "..", "tests", "isodata", "eos"
-        )
+        os.path.join(os.path.dirname(__file__), "..", "..", "tests", "isodata", "eos")
     )
 )
 
@@ -148,9 +146,7 @@ def fetch_isodata(branch, iso):
         os.makedirs(os.path.dirname(isodata_file), exist_ok=True)
         with open(isodata_file, "w") as g:
             subprocess.run(
-                ("isoinfo", "-d", "-i", f.name),
-                stdout=g,
-                check=True,
+                ("isoinfo", "-d", "-i", f.name), stdout=g, check=True,
             )
 
 
