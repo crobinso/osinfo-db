@@ -1,0 +1,17 @@
+[general]
+timestamp = 1603140474.18656
+family = Fedora
+version = 33
+name = Fedora-33
+variant = Silverblue
+arch = ppc64le
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-ppc64le]
+kernel = ppc/ppc64/vmlinuz
+initrd = ppc/ppc64/initrd.img
+zimage = 
+boot.iso = images/boot.iso
