@@ -11,9 +11,10 @@
     <upgrades id="http://fedoraproject.org/silverblue/32"/>
     <derives-from id="http://fedoraproject.org/silverblue/32"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2020-10-27</release-date>
 
     <media arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/33/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-33-1.2.iso</url>
       <iso>
         <volume-id>Fedora-SB-ostree-x86_64-33</volume-id>
       </iso>
@@ -22,6 +23,7 @@
     </media>
 
     <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/33/Silverblue/x86_64/os</url>
       <treeinfo>
         <family>Fedora</family>
         <variant>Silverblue</variant>
