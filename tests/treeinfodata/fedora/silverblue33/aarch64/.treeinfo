@@ -1,0 +1,17 @@
+[general]
+timestamp = 1603140434.7854142
+family = Fedora
+version = 33
+name = Fedora-33
+variant = Silverblue
+arch = aarch64
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-aarch64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+efiboot.img = images/efiboot.img
+boot.iso = images/boot.iso
