@@ -1,0 +1,46 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://system76.com/popos/20.10">
+    <short-id>popos20.10</short-id>
+    <name>Pop!_OS 20.10</name>
+    <version>20.10</version>
+    <vendor>System76, Inc.</vendor>
+    <family>linux</family>
+    <distro>popos</distro>
+    <upgrades id="http://system76.com/popos/20.04"/>
+    <derives-from id="http://system76.com/popos/20.04"/>
+    <clones id="http://ubuntu.com/ubuntu/20.10"/>
+
+    <release-date>2020-10-23</release-date>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>Pop_OS 20.10 amd64 Nvidia</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>Pop_OS 20.10 amd64 Intel</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz.efi</kernel>
+      <initrd>casper/initrd.gz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>2147483648</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>4294967296</ram>
+        <storage>26843545600</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
