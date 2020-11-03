@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://libosinfo.org/linux/2016">
+    <short-id>linux2016</short-id>
+    <name>Generic Linux 2016</name>
+    <version>2016</version>
+    <vendor>Libosinfo</vendor>
+    <family>linux</family>
+    <derives-from id="http://ubuntu.com/ubuntu/16.04"/>
+
+    <release-date>2016-01-01</release-date>
+    <eol-date>2021-01-01</eol-date>
+
+    <resources arch='all' inherit='true'/>
+  </os>
+</libosinfo>
