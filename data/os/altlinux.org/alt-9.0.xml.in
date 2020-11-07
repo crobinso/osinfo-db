@@ -130,7 +130,7 @@
     <!-- Server-V  -->
     <media arch="aarch64">
       <variant id="server-v"/>
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/aarch64/server-v-9.0-aarch64.iso</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/aarch64/alt-server-v-9.0-aarch64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>ALT Server-V 9\.0(\.\d+)* aarch64</volume-id>
@@ -142,7 +142,7 @@
 
     <media arch="ppc64le">
       <variant id="server-v"/>
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/ppc64le/server-v-9.0-ppc64le.iso</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/ppc64le/alt-server-v-9.0-ppc64le.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>ALT Server-V 9\.0(\.\d+)* ppc64le</volume-id>
@@ -154,7 +154,7 @@
 
     <media arch="x86_64">
       <variant id="server-v"/>
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/x86_64/server-v-9.0-x86_64.iso</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/x86_64/alt-server-v-9.0-x86_64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>ALT Server-V 9\.0(\.\d+)* x86_64</volume-id>
