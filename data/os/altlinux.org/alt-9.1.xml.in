@@ -138,7 +138,7 @@
 
     <media arch="x86_64">
       <variant id="server-v"/>
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/x86_64/server-v-9.1-x86_64.iso</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/server-v/x86_64/alt-server-v-9.1-x86_64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>ALT Server-V 9\.1(\.\d+)* x86_64</volume-id>
