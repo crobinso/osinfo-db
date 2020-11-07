@@ -88,12 +88,6 @@
       <initrd>casper/initrd</initrd>
     </media>
 
-    <tree arch="x86_64">
-      <url>http://archive.ubuntu.com/ubuntu/dists/groovy/main/installer-amd64</url>
-      <kernel>current/legacy-images/netboot/ubuntu-installer/amd64/linux</kernel>
-      <initrd>current/legacy-images/netboot/ubuntu-installer/amd64/initrd.gz</initrd>
-    </tree>
-
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-amd64.img</url>
     </image>
