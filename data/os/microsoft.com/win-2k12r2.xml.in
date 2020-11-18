@@ -24,7 +24,8 @@
       <name>Windows Server 2012 R2 Volume License</name>
     </variant>
 
-    <release-date>2013-10-18</release-date>
+    <release-date>2013-11-25</release-date>
+    <eol-date>2023-10-10</eol-date>
 
     <media arch="x86_64">
       <iso>
