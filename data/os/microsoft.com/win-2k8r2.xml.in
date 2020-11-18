@@ -12,7 +12,7 @@
     <upgrades id="http://microsoft.com/win/2k8"/>
 
     <release-date>2009-10-22</release-date>
-    <eol-date>2013-07-09</eol-date>
+    <eol-date>2013-01-14</eol-date>
 
     <devices>
       <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
