@@ -11,7 +11,8 @@
     <derives-from id="http://microsoft.com/win/2k8r2"/>
     <upgrades id="http://microsoft.com/win/2k8r2"/>
 
-    <release-date>2012-09-04</release-date>
+    <release-date>2012-10-30</release-date>
+    <eol-date>2023-10-10</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
