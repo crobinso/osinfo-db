@@ -12,7 +12,7 @@
     <upgrades id="http://microsoft.com/win/vista"/>
 
     <release-date>2009-10-22</release-date>
-    <eol-date>2015-01-13</eol-date>
+    <eol-date>2029-01-14</eol-date>
 
     <variant id="debug">
       <name>Microsoft Windows 7 Debug Checked Build</name>
