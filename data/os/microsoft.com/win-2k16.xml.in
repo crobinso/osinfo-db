@@ -11,14 +11,15 @@
     <derives-from id="http://microsoft.com/win/2k12r2"/>
     <upgrades id="http://microsoft.com/win/2k12r2"/>
 
+    <release-date>2016-10-15</release-date>
+    <eol-date>2027-01-12</eol-date>
+
     <variant id="hyperv">
       <name>Windows Server 2016 for HyperV</name>
     </variant>
     <variant id="essentials">
       <name>Windows Server 2016 Essentials</name>
     </variant>
-
-    <release-date>2017-10-17</release-date>
 
     <media arch="x86_64">
       <iso>
