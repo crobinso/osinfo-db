@@ -11,7 +11,8 @@
     <derives-from id="http://microsoft.com/win/8.1"/>
     <upgrades id="http://microsoft.com/win/8.1"/>
 
-    <release-date>2015-07-29</release-date>
+    <release-date>2018-11-13</release-date>
+    <eol-date>2029-01-09</eol-date>
 
     <variant id="education">
       <name>Microsoft Windows 10 Education</name>
