@@ -11,8 +11,8 @@
     <derives-from id="http://microsoft.com/win/8"/>
     <upgrades id="http://microsoft.com/win/8"/>
 
-    <release-date>2013-10-17</release-date>
-    <eol-date>2018-01-09</eol-date>
+    <release-date>2013-11-13</release-date>
+    <eol-date>2023-01-10</eol-date>
 
     <variant id="debug">
       <name>Microsoft Windows 8.1 Debug Checked Build</name>
