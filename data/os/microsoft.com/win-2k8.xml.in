@@ -11,8 +11,8 @@
     <derives-from id="http://microsoft.com/win/2k3r2"/>
     <upgrades id="http://microsoft.com/win/2k3r2"/>
 
-    <release-date>2008-02-27</release-date>
-    <eol-date>2013-07-09</eol-date>
+    <release-date>2008-05-06</release-date>
+    <eol-date>2020-01-14</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
