@@ -11,7 +11,8 @@
     <derives-from id="http://microsoft.com/win/2k16"/>
     <upgrades id="http://microsoft.com/win/2k16"/>
 
-    <release-date>2018-10-02</release-date>
+    <release-date>2018-11-13</release-date>
+    <eol-date>2029-01-09</eol-date>
 
     <resources arch="x86_64">
       <minimum>
