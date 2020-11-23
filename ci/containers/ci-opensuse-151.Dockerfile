@@ -2,15 +2,12 @@ FROM registry.opensuse.org/opensuse/leap:15.1
 
 RUN zypper update -y && \
     zypper install -y \
-           bash \
-           bash-completion \
            ca-certificates \
            ccache \
            gcc \
            gettext \
            git \
            glib2-devel \
-           glibc-devel \
            glibc-locale \
            intltool \
            itstool \
@@ -21,9 +18,6 @@ RUN zypper update -y && \
            libxslt-devel \
            make \
            ninja \
-           patch \
-           perl \
-           perl-App-cpanminus \
            pkgconfig \
            python3 \
            python3-lxml \
@@ -43,9 +37,7 @@ RUN pip3 install \
          meson==0.54.0
 
 ENV LANG "en_US.UTF-8"
-
 ENV MAKE "/usr/bin/make"
 ENV NINJA "/usr/bin/ninja"
 ENV PYTHON "/usr/bin/python3"
-
 ENV CCACHE_WRAPPERSDIR "/usr/libexec/ccache-wrappers"
