@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-14 13:25+0200\n"
+"POT-Creation-Date: 2020-11-23 11:37+0100\n"
 "PO-Revision-Date: 2020-10-15 21:30+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -1153,6 +1153,7 @@ msgid "Endless OS 3.1"
 msgstr "Endless OS 3.1"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:8
+#: data/os/endlessos.com/eos-3.10.xml.in:8
 #: data/os/endlessos.com/eos-3.2.xml.in:8
 #: data/os/endlessos.com/eos-3.3.xml.in:8
 #: data/os/endlessos.com/eos-3.4.xml.in:8
@@ -1163,20 +1164,22 @@ msgid "Endless Mobile, Inc"
 msgstr "Endless Mobile, Inc"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:19
-#: data/os/endlessos.com/eos-3.2.xml.in:22
-#: data/os/endlessos.com/eos-3.3.xml.in:22
-#: data/os/endlessos.com/eos-3.4.xml.in:127
+#: data/os/endlessos.com/eos-3.2.xml.in:24
+#: data/os/endlessos.com/eos-3.3.xml.in:24
+#: data/os/endlessos.com/eos-3.4.xml.in:129
 msgid "Endless OS Arabic"
 msgstr "Endless OS Arapça"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:32
-#: data/os/endlessos.com/eos-3.2.xml.in:35
-#: data/os/endlessos.com/eos-3.3.xml.in:35
-#: data/os/endlessos.com/eos-3.4.xml.in:22
-#: data/os/endlessos.com/eos-3.5.xml.in:22
-#: data/os/endlessos.com/eos-3.6.xml.in:50
-#: data/os/endlessos.com/eos-3.7.xml.in:22
-#: data/os/endlessos.com/eos-3.8.xml.in:20
+#: data/os/endlessos.com/eos-3.10.xml.in:21
+#: data/os/endlessos.com/eos-3.2.xml.in:37
+#: data/os/endlessos.com/eos-3.3.xml.in:37
+#: data/os/endlessos.com/eos-3.4.xml.in:24
+#: data/os/endlessos.com/eos-3.5.xml.in:24
+#: data/os/endlessos.com/eos-3.6.xml.in:52
+#: data/os/endlessos.com/eos-3.7.xml.in:24
+#: data/os/endlessos.com/eos-3.8.xml.in:24
+#: data/os/endlessos.com/eos-3.9.xml.in:22
 msgid "Endless OS Basic"
 msgstr "Endless OS Basic"
 
@@ -1185,101 +1188,109 @@ msgid "Endless OS Bengali"
 msgstr "Endless OS Bengalce"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:58
-#: data/os/endlessos.com/eos-3.2.xml.in:61
-#: data/os/endlessos.com/eos-3.3.xml.in:61
-#: data/os/endlessos.com/eos-3.4.xml.in:35
-#: data/os/endlessos.com/eos-3.5.xml.in:35
-#: data/os/endlessos.com/eos-3.6.xml.in:63
-#: data/os/endlessos.com/eos-3.7.xml.in:35
-#: data/os/endlessos.com/eos-3.8.xml.in:33
+#: data/os/endlessos.com/eos-3.10.xml.in:33
+#: data/os/endlessos.com/eos-3.2.xml.in:63
+#: data/os/endlessos.com/eos-3.3.xml.in:63
+#: data/os/endlessos.com/eos-3.4.xml.in:37
+#: data/os/endlessos.com/eos-3.5.xml.in:37
+#: data/os/endlessos.com/eos-3.6.xml.in:65
+#: data/os/endlessos.com/eos-3.7.xml.in:37
+#: data/os/endlessos.com/eos-3.8.xml.in:37
+#: data/os/endlessos.com/eos-3.9.xml.in:35
 msgid "Endless OS English"
 msgstr "Endless OS İngilizce"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:71
-#: data/os/endlessos.com/eos-3.2.xml.in:74
-#: data/os/endlessos.com/eos-3.3.xml.in:74
-#: data/os/endlessos.com/eos-3.4.xml.in:48
-#: data/os/endlessos.com/eos-3.5.xml.in:48
-#: data/os/endlessos.com/eos-3.6.xml.in:76
-#: data/os/endlessos.com/eos-3.7.xml.in:48
-#: data/os/endlessos.com/eos-3.8.xml.in:46
+#: data/os/endlessos.com/eos-3.10.xml.in:45
+#: data/os/endlessos.com/eos-3.2.xml.in:76
+#: data/os/endlessos.com/eos-3.3.xml.in:76
+#: data/os/endlessos.com/eos-3.4.xml.in:50
+#: data/os/endlessos.com/eos-3.5.xml.in:50
+#: data/os/endlessos.com/eos-3.6.xml.in:78
+#: data/os/endlessos.com/eos-3.7.xml.in:50
+#: data/os/endlessos.com/eos-3.8.xml.in:50
+#: data/os/endlessos.com/eos-3.9.xml.in:48
 msgid "Endless OS Spanish"
 msgstr "Endless OS İspanyolca"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:84
-#: data/os/endlessos.com/eos-3.2.xml.in:87
-#: data/os/endlessos.com/eos-3.3.xml.in:87
-#: data/os/endlessos.com/eos-3.4.xml.in:151
-#: data/os/endlessos.com/eos-3.7.xml.in:127
+#: data/os/endlessos.com/eos-3.2.xml.in:89
+#: data/os/endlessos.com/eos-3.3.xml.in:89
+#: data/os/endlessos.com/eos-3.4.xml.in:153
+#: data/os/endlessos.com/eos-3.7.xml.in:129
 msgid "Endless OS Spanish (Guatemala)"
 msgstr "Endless OS İspanyolca (Guatemala)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:97
-#: data/os/endlessos.com/eos-3.2.xml.in:100
-#: data/os/endlessos.com/eos-3.3.xml.in:100
-#: data/os/endlessos.com/eos-3.4.xml.in:163
+#: data/os/endlessos.com/eos-3.2.xml.in:102
+#: data/os/endlessos.com/eos-3.3.xml.in:102
+#: data/os/endlessos.com/eos-3.4.xml.in:165
 msgid "Endless OS Spanish (Mexico)"
 msgstr "Endless OS İspanyolca (Meksika)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:110
-#: data/os/endlessos.com/eos-3.2.xml.in:113
-#: data/os/endlessos.com/eos-3.3.xml.in:113
-#: data/os/endlessos.com/eos-3.4.xml.in:61
-#: data/os/endlessos.com/eos-3.5.xml.in:61
-#: data/os/endlessos.com/eos-3.6.xml.in:89
-#: data/os/endlessos.com/eos-3.7.xml.in:61
-#: data/os/endlessos.com/eos-3.8.xml.in:59
+#: data/os/endlessos.com/eos-3.10.xml.in:57
+#: data/os/endlessos.com/eos-3.2.xml.in:115
+#: data/os/endlessos.com/eos-3.3.xml.in:115
+#: data/os/endlessos.com/eos-3.4.xml.in:63
+#: data/os/endlessos.com/eos-3.5.xml.in:63
+#: data/os/endlessos.com/eos-3.6.xml.in:91
+#: data/os/endlessos.com/eos-3.7.xml.in:63
+#: data/os/endlessos.com/eos-3.8.xml.in:63
+#: data/os/endlessos.com/eos-3.9.xml.in:61
 msgid "Endless OS French"
 msgstr "Endless OS Fransızca"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:123
-#: data/os/endlessos.com/eos-3.2.xml.in:126
-#: data/os/endlessos.com/eos-3.3.xml.in:126
-#: data/os/endlessos.com/eos-3.4.xml.in:74
-#: data/os/endlessos.com/eos-3.5.xml.in:74
-#: data/os/endlessos.com/eos-3.6.xml.in:102
-#: data/os/endlessos.com/eos-3.7.xml.in:74
-#: data/os/endlessos.com/eos-3.8.xml.in:86
+#: data/os/endlessos.com/eos-3.2.xml.in:128
+#: data/os/endlessos.com/eos-3.3.xml.in:128
+#: data/os/endlessos.com/eos-3.4.xml.in:76
+#: data/os/endlessos.com/eos-3.5.xml.in:76
+#: data/os/endlessos.com/eos-3.6.xml.in:104
+#: data/os/endlessos.com/eos-3.7.xml.in:76
+#: data/os/endlessos.com/eos-3.8.xml.in:90
 msgid "Endless OS Indonesian"
 msgstr "Endless OS Endonezce"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:136
-#: data/os/endlessos.com/eos-3.2.xml.in:139
-#: data/os/endlessos.com/eos-3.3.xml.in:139
-#: data/os/endlessos.com/eos-3.4.xml.in:87
-#: data/os/endlessos.com/eos-3.5.xml.in:87
-#: data/os/endlessos.com/eos-3.6.xml.in:115
-#: data/os/endlessos.com/eos-3.7.xml.in:87
-#: data/os/endlessos.com/eos-3.8.xml.in:72
+#: data/os/endlessos.com/eos-3.10.xml.in:69
+#: data/os/endlessos.com/eos-3.2.xml.in:141
+#: data/os/endlessos.com/eos-3.3.xml.in:141
+#: data/os/endlessos.com/eos-3.4.xml.in:89
+#: data/os/endlessos.com/eos-3.5.xml.in:89
+#: data/os/endlessos.com/eos-3.6.xml.in:117
+#: data/os/endlessos.com/eos-3.7.xml.in:89
+#: data/os/endlessos.com/eos-3.8.xml.in:76
+#: data/os/endlessos.com/eos-3.9.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS Portekizce (Brezilya)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:149
-#: data/os/endlessos.com/eos-3.2.xml.in:152
-#: data/os/endlessos.com/eos-3.3.xml.in:152
-#: data/os/endlessos.com/eos-3.4.xml.in:100
-#: data/os/endlessos.com/eos-3.5.xml.in:100
-#: data/os/endlessos.com/eos-3.6.xml.in:128
-#: data/os/endlessos.com/eos-3.7.xml.in:100
-#: data/os/endlessos.com/eos-3.8.xml.in:98
+#: data/os/endlessos.com/eos-3.2.xml.in:154
+#: data/os/endlessos.com/eos-3.3.xml.in:154
+#: data/os/endlessos.com/eos-3.4.xml.in:102
+#: data/os/endlessos.com/eos-3.5.xml.in:102
+#: data/os/endlessos.com/eos-3.6.xml.in:130
+#: data/os/endlessos.com/eos-3.7.xml.in:102
+#: data/os/endlessos.com/eos-3.8.xml.in:102
 msgid "Endless OS Thai"
 msgstr "Endless OS Tayca"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:162
-#: data/os/endlessos.com/eos-3.2.xml.in:165
-#: data/os/endlessos.com/eos-3.3.xml.in:165
-#: data/os/endlessos.com/eos-3.4.xml.in:113
-#: data/os/endlessos.com/eos-3.5.xml.in:113
-#: data/os/endlessos.com/eos-3.6.xml.in:141
-#: data/os/endlessos.com/eos-3.7.xml.in:113
-#: data/os/endlessos.com/eos-3.8.xml.in:110
+#: data/os/endlessos.com/eos-3.2.xml.in:167
+#: data/os/endlessos.com/eos-3.3.xml.in:167
+#: data/os/endlessos.com/eos-3.4.xml.in:115
+#: data/os/endlessos.com/eos-3.5.xml.in:115
+#: data/os/endlessos.com/eos-3.6.xml.in:143
+#: data/os/endlessos.com/eos-3.7.xml.in:115
+#: data/os/endlessos.com/eos-3.8.xml.in:114
 msgid "Endless OS Vietnamese"
 msgstr "Endless OS Vietnamca"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:175
-#: data/os/endlessos.com/eos-3.2.xml.in:178
-#: data/os/endlessos.com/eos-3.3.xml.in:178
-#: data/os/endlessos.com/eos-3.4.xml.in:175
+#: data/os/endlessos.com/eos-3.2.xml.in:180
+#: data/os/endlessos.com/eos-3.3.xml.in:180
+#: data/os/endlessos.com/eos-3.4.xml.in:177
 msgid "Endless OS Chinese (China)"
 msgstr "Endless OS Çince (Çin)"
 
@@ -1288,23 +1299,31 @@ msgid "Endless OS Southeast Asia"
 msgstr "Endless OS Güneydoğu Asya"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:201
-#: data/os/endlessos.com/eos-3.2.xml.in:192
-#: data/os/endlessos.com/eos-3.3.xml.in:192
-#: data/os/endlessos.com/eos-3.4.xml.in:187
-#: data/os/endlessos.com/eos-3.5.xml.in:127
-#: data/os/endlessos.com/eos-3.6.xml.in:155
-#: data/os/endlessos.com/eos-3.7.xml.in:139
-#: data/os/endlessos.com/eos-3.8.xml.in:122
+#: data/os/endlessos.com/eos-3.10.xml.in:81
+#: data/os/endlessos.com/eos-3.2.xml.in:194
+#: data/os/endlessos.com/eos-3.3.xml.in:194
+#: data/os/endlessos.com/eos-3.4.xml.in:189
+#: data/os/endlessos.com/eos-3.5.xml.in:129
+#: data/os/endlessos.com/eos-3.6.xml.in:157
+#: data/os/endlessos.com/eos-3.7.xml.in:141
+#: data/os/endlessos.com/eos-3.8.xml.in:126
+#: data/os/endlessos.com/eos-3.9.xml.in:88
 msgid "Endless OS (other)"
 msgstr "Endless OS (diğer)"
+
+#: data/os/endlessos.com/eos-3.10.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 3.1"
+msgid "Endless OS 3.10"
+msgstr "Endless OS 3.1"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
 msgstr "Endless OS 3.2"
 
-#: data/os/endlessos.com/eos-3.2.xml.in:48
-#: data/os/endlessos.com/eos-3.3.xml.in:48
-#: data/os/endlessos.com/eos-3.4.xml.in:139
+#: data/os/endlessos.com/eos-3.2.xml.in:50
+#: data/os/endlessos.com/eos-3.3.xml.in:50
+#: data/os/endlessos.com/eos-3.4.xml.in:141
 msgid "Endless OS Bangla"
 msgstr "Endless OS Bengalce"
 
@@ -1333,8 +1352,17 @@ msgid "Endless OS 3.8"
 msgstr "Endless OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
-msgid "Endless OS LLC"
+#: data/os/endlessos.com/eos-3.9.xml.in:8
+#, fuzzy
+#| msgid "Endless OS LLC"
+msgid "Endless OS Foundation LLC"
 msgstr "Endless OS LLC"
+
+#: data/os/endlessos.com/eos-3.9.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 3.1"
+msgid "Endless OS 3.9"
+msgstr "Endless OS 3.1"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
@@ -1743,6 +1771,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-11.4.xml.in:8
 #: data/os/freebsd.org/freebsd-12.0.xml.in:8
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
+#: data/os/freebsd.org/freebsd-12.2.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -1837,6 +1866,12 @@ msgstr "FreeBSD 12.0"
 #: data/os/freebsd.org/freebsd-12.1.xml.in:6
 msgid "FreeBSD 12.1"
 msgstr "FreeBSD 12.1"
+
+#: data/os/freebsd.org/freebsd-12.2.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 12.0"
+msgid "FreeBSD 12.2"
+msgstr "FreeBSD 12.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -2105,6 +2140,35 @@ msgstr "Haiku R1/Alpha4.1"
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/Beta1"
+
+#: data/os/libosinfo.org/linux-2016.xml.in:7
+#, fuzzy
+#| msgid "Mandriva Linux 2010"
+msgid "Generic Linux 2016"
+msgstr "Mandriva Linux 2010"
+
+#: data/os/libosinfo.org/linux-2016.xml.in:9
+#: data/os/libosinfo.org/linux-2018.xml.in:9
+#: data/os/libosinfo.org/linux-2020.xml.in:9
+#: data/os/libosinfo.org/unknown.xml.in:8
+msgid "Libosinfo"
+msgstr ""
+
+#: data/os/libosinfo.org/linux-2018.xml.in:7
+#, fuzzy
+#| msgid "Mandriva Linux 2010"
+msgid "Generic Linux 2018"
+msgstr "Mandriva Linux 2010"
+
+#: data/os/libosinfo.org/linux-2020.xml.in:7
+#, fuzzy
+#| msgid "Mandriva Linux 2007"
+msgid "Generic Linux 2020"
+msgstr "Mandriva Linux 2007"
+
+#: data/os/libosinfo.org/unknown.xml.in:7
+msgid "Unknown"
+msgstr ""
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
@@ -2384,19 +2448,19 @@ msgstr "Microsoft Corporation"
 msgid "Microsoft Windows 10"
 msgstr "Microsoft Windows 10"
 
-#: data/os/microsoft.com/win-10.xml.in:17
+#: data/os/microsoft.com/win-10.xml.in:18
 msgid "Microsoft Windows 10 Education"
 msgstr "Microsoft Windows 10 Education"
 
-#: data/os/microsoft.com/win-10.xml.in:20
+#: data/os/microsoft.com/win-10.xml.in:21
 msgid "Microsoft Windows 10 Enterprise"
 msgstr "Microsoft Windows 10 Enterprise"
 
-#: data/os/microsoft.com/win-10.xml.in:23
+#: data/os/microsoft.com/win-10.xml.in:24
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
 msgstr "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
 
-#: data/os/microsoft.com/win-10.xml.in:26
+#: data/os/microsoft.com/win-10.xml.in:27
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
 msgstr ""
 "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
@@ -2417,19 +2481,19 @@ msgstr "Microsoft Windows 2000"
 msgid "Microsoft Windows Server 2012"
 msgstr "Microsoft Windows Server 2012"
 
-#: data/os/microsoft.com/win-2k12.xml.in:22
+#: data/os/microsoft.com/win-2k12.xml.in:23
 msgid "Windows Server 2012 Storage"
 msgstr "Windows Server 2012 Storage"
 
-#: data/os/microsoft.com/win-2k12.xml.in:25
+#: data/os/microsoft.com/win-2k12.xml.in:26
 msgid "Windows Server 2012 for HyperV"
 msgstr "Windows Server 2012 for HyperV"
 
-#: data/os/microsoft.com/win-2k12.xml.in:28
+#: data/os/microsoft.com/win-2k12.xml.in:29
 msgid "Windows Server 2012 Essentials"
 msgstr "Windows Server 2012 Essentials"
 
-#: data/os/microsoft.com/win-2k12.xml.in:31
+#: data/os/microsoft.com/win-2k12.xml.in:32
 msgid "Windows Server 2012 Volume License"
 msgstr "Windows Server 2012 Volume License"
 
@@ -2457,11 +2521,11 @@ msgstr "Windows Server 2012 R2 Volume License"
 msgid "Microsoft Windows Server 2016"
 msgstr "Microsoft Windows Server 2016"
 
-#: data/os/microsoft.com/win-2k16.xml.in:15
+#: data/os/microsoft.com/win-2k16.xml.in:18
 msgid "Windows Server 2016 for HyperV"
 msgstr "Windows Server 2016 for HyperV"
 
-#: data/os/microsoft.com/win-2k16.xml.in:18
+#: data/os/microsoft.com/win-2k16.xml.in:21
 msgid "Windows Server 2016 Essentials"
 msgstr "Windows Server 2016 Essentials"
 
@@ -4116,6 +4180,7 @@ msgstr "Pop!_OS 17.10"
 #: data/os/system76.com/popos-19.04.xml.in:8
 #: data/os/system76.com/popos-19.10.xml.in:8
 #: data/os/system76.com/popos-20.04.xml.in:8
+#: data/os/system76.com/popos-20.10.xml.in:8
 msgid "System76, Inc."
 msgstr "System76, Inc."
 
@@ -4137,6 +4202,12 @@ msgstr "Pop!_OS 19.10"
 
 #: data/os/system76.com/popos-20.04.xml.in:6
 msgid "Pop!_OS 20.04"
+msgstr "Pop!_OS 20.04"
+
+#: data/os/system76.com/popos-20.10.xml.in:6
+#, fuzzy
+#| msgid "Pop!_OS 20.04"
+msgid "Pop!_OS 20.10"
 msgstr "Pop!_OS 20.04"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
