@@ -18,7 +18,5 @@ HOSTS=$($LCITOOL hosts | grep -v -E "(freebsd|macos)")
 
 for host in $HOSTS
 do
-    name="ci-${host#libvirt-}"
-
-    $LCITOOL dockerfile $host osinfo-db-tools,osinfo-db >$name.Dockerfile
+    $LCITOOL dockerfile $host osinfo-db-tools,osinfo-db > ci-$host.Dockerfile
 done
