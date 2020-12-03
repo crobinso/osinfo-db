@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 11:37+0100\n"
+"POT-Creation-Date: 2020-12-02 14:10+0100\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -2913,6 +2913,7 @@ msgid "NixOS 20.03"
 msgstr ""
 
 #: data/os/nixos.org/nixos-20.03.xml.in:8
+#: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -2927,6 +2928,23 @@ msgstr ""
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr ""
 
+#: data/os/nixos.org/nixos-20.09.xml.in:6
+msgid "NixOS 20.09"
+msgstr ""
+
+#: data/os/nixos.org/nixos-20.09.xml.in:30
+msgid "NixOS 20.09 (minimal installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-20.09.xml.in:33
+#: data/os/nixos.org/nixos-unstable.xml.in:30
+msgid "NixOS Unstable (GNOME installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-20.09.xml.in:36
+msgid "NixOS 20.09 (Plasma 5 installation CD)"
+msgstr ""
+
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
 msgstr ""
@@ -2935,7 +2953,7 @@ msgstr ""
 msgid "NixOS Unstable (minimal installation CD)"
 msgstr ""
 
-#: data/os/nixos.org/nixos-unstable.xml.in:30
+#: data/os/nixos.org/nixos-unstable.xml.in:33
 msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgstr ""
 

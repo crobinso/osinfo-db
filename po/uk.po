@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-23 11:37+0100\n"
+"POT-Creation-Date: 2020-12-02 14:10+0100\n"
 "PO-Revision-Date: 2020-11-24 16:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -2813,6 +2813,7 @@ msgid "NixOS 20.03"
 msgstr "NixOS 20.03"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:8
+#: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -2827,6 +2828,31 @@ msgstr "NixOS 20.03 (мінімальний КД для встановлення
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (КД для встановлення з Плазмою 5)"
 
+#: data/os/nixos.org/nixos-20.09.xml.in:6
+#, fuzzy
+#| msgid "NixOS 20.03"
+msgid "NixOS 20.09"
+msgstr "NixOS 20.03"
+
+#: data/os/nixos.org/nixos-20.09.xml.in:30
+#, fuzzy
+#| msgid "NixOS 20.03 (minimal installation CD)"
+msgid "NixOS 20.09 (minimal installation CD)"
+msgstr "NixOS 20.03 (мінімальний КД для встановлення)"
+
+#: data/os/nixos.org/nixos-20.09.xml.in:33
+#: data/os/nixos.org/nixos-unstable.xml.in:30
+#, fuzzy
+#| msgid "NixOS Unstable (minimal installation CD)"
+msgid "NixOS Unstable (GNOME installation CD)"
+msgstr "NixOS нестабільна (мінімальний КД для встановлення)"
+
+#: data/os/nixos.org/nixos-20.09.xml.in:36
+#, fuzzy
+#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
+msgid "NixOS 20.09 (Plasma 5 installation CD)"
+msgstr "NixOS 20.03 (КД для встановлення з Плазмою 5)"
+
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
 msgstr "NixOS нестабільна"
@@ -2835,7 +2861,7 @@ msgstr "NixOS нестабільна"
 msgid "NixOS Unstable (minimal installation CD)"
 msgstr "NixOS нестабільна (мінімальний КД для встановлення)"
 
-#: data/os/nixos.org/nixos-unstable.xml.in:30
+#: data/os/nixos.org/nixos-unstable.xml.in:33
 msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgstr "NixOS нестабільна (КД для встановлення з Плазмою 5)"
 
