@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-02 14:10+0100\n"
-"PO-Revision-Date: 2020-11-24 16:35+0000\n"
+"PO-Revision-Date: 2020-12-03 21:35+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -2825,29 +2825,21 @@ msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:6
-#, fuzzy
-#| msgid "NixOS 20.03"
 msgid "NixOS 20.09"
-msgstr "NixOS 20.03"
+msgstr "NixOS 20.09"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:30
-#, fuzzy
-#| msgid "NixOS 20.03 (minimal installation CD)"
 msgid "NixOS 20.09 (minimal installation CD)"
-msgstr "NixOS 20.03 (CD di installazione minimale)"
+msgstr "NixOS 20.09 (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
-#, fuzzy
-#| msgid "NixOS Unstable (minimal installation CD)"
 msgid "NixOS Unstable (GNOME installation CD)"
-msgstr "NixOS non stabile (CD di installazione minimale)"
+msgstr "NixOS non stabile (CD di installazione di GNOME)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
-#, fuzzy
-#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
-msgstr "NixOS 20.03 (CD di installazione di Plasma 5)"
+msgstr "NixOS 20.09 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
