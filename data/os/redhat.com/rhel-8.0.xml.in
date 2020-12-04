@@ -11,7 +11,7 @@
     <codename>Ootpa</codename>
     <upgrades id="http://redhat.com/rhel/7.6"/>
 
-    <release-date>2018-05-07</release-date>
+    <release-date>2019-05-07</release-date>
 
     <firmware arch="x86_64" type="efi"/>
 
