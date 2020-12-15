@@ -213,7 +213,9 @@ url <xsl:call-template name="url-or-mirrorlist"/>
   </xsl:when>
   <xsl:otherwise>
 @standard
+<xsl:if test="os/version &lt; 33">
 @epiphany
+</xsl:if>
 @firefox
 @multimedia
   </xsl:otherwise>
