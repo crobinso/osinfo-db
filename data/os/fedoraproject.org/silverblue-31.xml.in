@@ -12,9 +12,10 @@
     <derives-from id="http://fedoraproject.org/silverblue/30"/>
 
     <release-date>2019-10-29</release-date>
+    <eol-date>2020-11-24</eol-date>
 
     <media arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-SB-ostree-x86_64-31</volume-id>
       </iso>
@@ -23,7 +24,7 @@
     </media>
 
     <media arch="aarch64" installer-script="false">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Silverblue/aarch64/iso/Fedora-Silverblue-ostree-aarch64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Silverblue/aarch64/iso/Fedora-Silverblue-ostree-aarch64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-SB-ostree-aarch64-31</volume-id>
       </iso>
@@ -32,7 +33,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Silverblue/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Silverblue/x86_64/os</url>
       <treeinfo>
         <family>Fedora</family>
         <variant>Silverblue</variant>
@@ -42,7 +43,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Silverblue/aarch64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Silverblue/aarch64/os</url>
       <treeinfo>
         <family>Fedora</family>
         <variant>Silverblue</variant>
