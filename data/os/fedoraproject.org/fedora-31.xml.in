@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/30"/>
 
     <release-date>2019-10-29</release-date>
+    <eol-date>2020-11-24</eol-date>
 
     <variant id="workstation">
       <name>Fedora 31 Workstation</name>
@@ -31,7 +32,7 @@
     <!-- Live -->
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-31.*</volume-id>
       </iso>
@@ -44,7 +45,7 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-dvd-x86_64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-dvd-x86_64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-31</volume-id>
         <system-id>LINUX</system-id>
@@ -59,7 +60,7 @@
     <!-- Network Installer !-->
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-31</volume-id>
       </iso>
@@ -73,7 +74,7 @@
     <!-- DVD -->
     <media arch="aarch64" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-dvd-aarch64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-dvd-aarch64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-31</volume-id>
         <system-id>LINUX</system-id>
@@ -88,7 +89,7 @@
     <!-- Network Installer !-->
     <media arch="aarch64" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-netinst-aarch64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-netinst-aarch64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-31</volume-id>
       </iso>
@@ -99,7 +100,7 @@
     <!-- DVD -->
     <media arch="armv7l" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-dvd-armhfp-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-dvd-armhfp-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-armhfp-31</volume-id>
         <system-id>LINUX</system-id>
@@ -111,7 +112,7 @@
     <!-- Network Installer !-->
     <media arch="armv7l" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-netinst-armhfp-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-netinst-armhfp-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-armhfp-31</volume-id>
       </iso>
@@ -125,7 +126,7 @@
     <!-- Everything -->
     <media arch="x86_64">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/x86_64/iso/Fedora-Server-netinst-x86_64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-x86_64-31</volume-id>
       </iso>
@@ -139,7 +140,7 @@
 
     <media arch="aarch64" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-netinst-aarch64-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/aarch64/iso/Fedora-Server-netinst-aarch64-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-aarch64-31</volume-id>
       </iso>
@@ -149,7 +150,7 @@
 
     <media arch="armv7l" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-netinst-armhfp-31-1.9.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/armhfp/iso/Fedora-Server-netinst-armhfp-31-1.9.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-armhfp-31</volume-id>
       </iso>
@@ -158,7 +159,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/x86_64/os</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -169,7 +170,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/aarch64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/aarch64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -180,7 +181,7 @@
     </tree>
 
     <tree arch="armv7l">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Server/armhfp/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Server/armhfp/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -191,7 +192,7 @@
     </tree>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Everything/x86_64/os</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -202,7 +203,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/aarch64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Everything/aarch64/os/</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -213,7 +214,7 @@
     </tree>
 
     <tree arch="armv7l">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/31/Everything/armhfp/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/31/Everything/armhfp/os/</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -224,11 +225,11 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/31/Cloud/x86_64/images/Fedora-Cloud-Base-31-1.9.x86_64.qcow2</url>
+      <url>https://dl.fedoraproject.org/pub/archive/fedora/linux/releases/31/Cloud/x86_64/images/Fedora-Cloud-Base-31-1.9.x86_64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/31/Cloud/aarch64/images/Fedora-Cloud-Base-31-1.9.aarch64.qcow2</url>
+      <url>https://dl.fedoraproject.org/pub/archive/fedora/linux/releases/31/Cloud/aarch64/images/Fedora-Cloud-Base-31-1.9.aarch64.qcow2</url>
     </image>
 
     <!-- No install media or tree is provided for Fedora 31 Cloud variant -->
