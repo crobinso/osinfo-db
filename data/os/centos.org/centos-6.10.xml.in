@@ -95,7 +95,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://mirror.centos.org/centos-6/6.10/os/x86_64/</url>
+      <url>http://vault.centos.org/6.10/os/x86_64/</url>
       <treeinfo>
         <family>CentOS</family>
         <version>6.10</version>
@@ -103,7 +103,7 @@
       </treeinfo>
     </tree>
     <tree arch="i686">
-      <url>http://mirror.centos.org/centos-6/6.10/os/i386/</url>
+      <url>http://vault.centos.org/6.10/os/i386/</url>
       <treeinfo>
         <family>CentOS</family>
         <version>6.10</version>
