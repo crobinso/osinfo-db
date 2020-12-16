@@ -16,13 +16,13 @@
 
     <tree arch="x86_64">
       <!-- treeinfo here has incorrect version 6.1 -->
-      <url>http://ftp1.scientificlinux.org/linux/scientific/6.3/x86_64/os/</url>
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/6.3/x86_64/os/</url>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </tree>
     <tree arch="i686">
       <!-- treeinfo here has incorrect version 6.2 -->
-      <url>http://ftp1.scientificlinux.org/linux/scientific/6.3/i386/os/</url>
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/6.3/i386/os/</url>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </tree>
