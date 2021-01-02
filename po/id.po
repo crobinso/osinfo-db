@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-02 14:10+0100\n"
-"PO-Revision-Date: 2020-09-24 09:29+0000\n"
+"PO-Revision-Date: 2020-12-19 03:36+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -1312,10 +1312,8 @@ msgid "Endless OS (other)"
 msgstr "Endless OS (lainnya)"
 
 #: data/os/endlessos.com/eos-3.10.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS 3.10"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS 3.10"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
@@ -1353,24 +1351,18 @@ msgstr "Endless OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
-#, fuzzy
-#| msgid "Endless OS LLC"
 msgid "Endless OS Foundation LLC"
-msgstr "Endless OS LLC"
+msgstr "Endless OS Foundation LLC"
 
 #: data/os/endlessos.com/eos-3.9.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS 3.9"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS 3.9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
 #: data/os/fedoraproject.org/coreos-testing.xml.in:6
-#, fuzzy
-#| msgid "Fedora Core 1"
 msgid "Fedora CoreOS"
-msgstr "Fedora Core 1"
+msgstr "Fedora CoreOS"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:8
 #: data/os/fedoraproject.org/coreos-stable.xml.in:8
@@ -1870,10 +1862,8 @@ msgid "FreeBSD 12.1"
 msgstr "FreeBSD 12.1"
 
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.2"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.2"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -2144,33 +2134,27 @@ msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/Beta1"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2016"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic Linux 2016"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
-msgstr ""
+msgstr "Libosinfo"
 
 #: data/os/libosinfo.org/linux-2018.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2018"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic Linux 2018"
 
 #: data/os/libosinfo.org/linux-2020.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2007"
 msgid "Generic Linux 2020"
-msgstr "Mandriva Linux 2007"
+msgstr "Generic Linux 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
-msgstr ""
+msgstr "Tidak Dikenal"
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
@@ -2840,29 +2824,21 @@ msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:6
-#, fuzzy
-#| msgid "NixOS 20.03"
 msgid "NixOS 20.09"
-msgstr "NixOS 20.03"
+msgstr "NixOS 20.09"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:30
-#, fuzzy
-#| msgid "NixOS 20.03 (minimal installation CD)"
 msgid "NixOS 20.09 (minimal installation CD)"
-msgstr "NixOS 20.03 (CD instalasi minimal)"
+msgstr "NixOS 20.09 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
-#, fuzzy
-#| msgid "NixOS Unstable (minimal installation CD)"
 msgid "NixOS Unstable (GNOME installation CD)"
-msgstr "NixOS Unstable (CD instalasi minimal)"
+msgstr "NixOS Unstable (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
-#, fuzzy
-#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
-msgstr "NixOS 20.03 (CD instalasi Plasma 5)"
+msgstr "NixOS 20.09 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3961,18 +3937,16 @@ msgstr "Scientific Linux 7.6"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:6
 msgid "Slackware 14.2"
-msgstr ""
+msgstr "Slackware 14.2"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:8
 #: data/os/slackware.com/slackware-current.xml.in:8
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "Slackware Linux Project"
-msgstr "Alpine Linux Project"
+msgstr "Proyek Linux Slackware"
 
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
-msgstr ""
+msgstr "Slackware -current"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
@@ -4235,10 +4209,8 @@ msgid "Pop!_OS 20.04"
 msgstr "Pop!_OS 20.04"
 
 #: data/os/system76.com/popos-20.10.xml.in:6
-#, fuzzy
-#| msgid "Pop!_OS 20.04"
 msgid "Pop!_OS 20.10"
-msgstr "Pop!_OS 20.04"
+msgstr "Pop!_OS 20.10"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
@@ -4361,10 +4333,8 @@ msgid "Ubuntu 20.04"
 msgstr "Ubuntu 20.04"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 20.04"
 msgid "Ubuntu 20.10"
-msgstr "Ubuntu 20.04"
+msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
