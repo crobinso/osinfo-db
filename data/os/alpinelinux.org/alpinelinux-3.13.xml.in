@@ -9,8 +9,8 @@
     <vendor>Alpine Linux Project</vendor>
     <family>linux</family>
     <distro>alpinelinux</distro>
-    <upgrades id="http://alpinelinux.org/alpinelinux/3.11"/>
-    <derives-from id="http://alpinelinux.org/alpinelinux/3.11"/>
+    <upgrades id="http://alpinelinux.org/alpinelinux/3.12"/>
+    <derives-from id="http://alpinelinux.org/alpinelinux/3.12"/>
 
     <resources arch="all">
       <minimum>
