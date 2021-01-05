@@ -44,6 +44,12 @@
     </variant>
 
     <!-- Standard Installer !-->
+    <media arch="aarch64">
+      <variant id="standard"/>
+      <iso>
+        <volume-id>alpine-std 3.11.\d aarch64$</volume-id>
+      </iso>
+    </media>
     <media arch="i686">
       <variant id="standard"/>
       <iso>
@@ -84,6 +90,12 @@
     </media>
 
     <!-- Virtual Installer !-->
+    <media arch="aarch64">
+      <variant id="virtual"/>
+      <iso>
+        <volume-id>alpine-virt 3.11.\d aarch64$</volume-id>
+      </iso>
+    </media>
     <media arch="i686">
       <variant id="virtual"/>
       <iso>
