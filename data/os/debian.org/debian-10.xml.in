@@ -41,6 +41,10 @@
     <variant id="generic">
       <name>Debian 10 (Generic)</name>
     </variant>
+    <variant id="nocloud">
+      <name>Debian 10 (No Cloud)</name>
+    </variant>
+
 
     <!-- Network installer -->
     <media arch="i686">
@@ -218,6 +222,11 @@
     <image arch="ppc64le" format="qcow2" cloud-init="true">
       <variant id="generic"/>
       <url>https://cdimage.debian.org/cdimage/cloud/buster/20210129-530/debian-10-generic-ppc64el-20210129-530.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2">
+      <variant id="nocloud"/>
+      <url>https://cdimage.debian.org/cdimage/cloud/buster/20210129-530/debian-10-nocloud-amd64-20210129-530.qcow2</url>
     </image>
 
     <installer>
