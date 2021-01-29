@@ -41,6 +41,9 @@
     <variant id="generic">
       <name>Debian 10 (Generic)</name>
     </variant>
+    <variant id="genericcloud">
+      <name>Debian 10 (Generic Cloud)</name>
+    </variant>
     <variant id="nocloud">
       <name>Debian 10 (No Cloud)</name>
     </variant>
@@ -202,6 +205,11 @@
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
       <url>https://cdimage.debian.org/cdimage/cloud/buster/20210129-530/debian-10-generic-amd64-20210129-530.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <variant id="genericcloud"/>
+      <url>https://cdimage.debian.org/cdimage/cloud/buster/20210129-530/debian-10-genericcloud-amd64-20210129-530.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
