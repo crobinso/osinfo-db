@@ -49,6 +49,9 @@
     <variant id="universal-netinst">
       <name>Debian 9</name>
     </variant>
+    <variant id="openstack">
+      <name>Debian 9 (OpenStack)</name>
+    </variant>
 
     <!-- Network installer -->
     <media arch="i686">
@@ -195,18 +198,22 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-amd64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="raw" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-amd64.raw</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-arm64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="raw" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-9/debian-9-openstack-arm64.raw</url>
     </image>
 

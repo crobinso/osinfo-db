@@ -35,6 +35,9 @@
     <variant id="universal-netinst">
       <name>Debian 10</name>
     </variant>
+    <variant id="openstack">
+      <name>Debian 10 (OpenStack)</name>
+    </variant>
 
     <!-- Network installer -->
     <media arch="i686">
@@ -180,18 +183,22 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-amd64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="raw" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-amd64.raw</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-arm64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="raw" cloud-init="true">
+      <variant id="openstack"/>
       <url>https://cloud.debian.org/images/cloud/OpenStack/current-10/debian-10-openstack-arm64.raw</url>
     </image>
 
