@@ -80,6 +80,13 @@ def test_urls(testdata):
     urls = testdata[1]
     broken = []
     for (url, url_type) in urls:
-        if not _check_url(url, url_type):
+        # As some distro URLs are flaky, let's give it a try 3 times
+        # before actually failing.
+        for i in range(3):
+            ok = _check_url(url, url_type)
+            if ok:
+                break
+
+        if not ok:
             broken.append(url)
     assert broken == []
