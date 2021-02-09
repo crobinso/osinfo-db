@@ -19,6 +19,10 @@ provisioning of new virtual machines
 
 %install
 osinfo-db-import  --root %{buildroot} --dir %{_datadir}/osinfo %{SOURCE0}
+%if 0%{?rhel}
+# Remove the upstream virtio-win / spice-guest-tools drivers
+find %{buildroot}/%{_datadir}/osinfo/os/microsoft.com/ -name "win-*.d" -type d -exec rm -rf {} +
+%endif
 
 %files
 %dir %{_datadir}/osinfo/
