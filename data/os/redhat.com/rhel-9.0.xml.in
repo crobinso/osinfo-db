@@ -1,0 +1,210 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://redhat.com/rhel/9.0">
+    <short-id>rhel9.0</short-id>
+    <name>Red Hat Enterprise Linux 9.0</name>
+    <version>9.0</version>
+    <vendor>Red Hat, Inc</vendor>
+    <family>linux</family>
+    <distro>rhel</distro>
+    <codename>Plow</codename>
+    <upgrades id="http://redhat.com/rhel/8.4"/>
+
+    <release-status>prerelease</release-status>
+
+    <firmware arch="x86_64" type="efi"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
+      <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
+      <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+      <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
+    </devices>
+
+    <!-- RHEL 9.0 entries have to cope both with 9.0 and 9.0.x regexes for
+         medias' volume-id and trees' version -->
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>RHEL[_-]9[_-]0[_-](([0-9]|[1-9][0-9])[_-])?BaseOS[_-]ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
+      </iso>
+    </media>
+
+    <media arch="s390x">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-s390x</volume-id>
+      </iso>
+    </media>
+
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^9.0(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^9.0(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^9.0(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Red Hat Enterprise Linux</family>
+        <version>^9.0(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="ppc64le">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>340</n-cpus>
+        <ram>17592186044416</ram>
+      </maximum>
+
+      <network-install>
+        <ram>2147483648</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
