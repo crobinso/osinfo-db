@@ -8,7 +8,7 @@
     <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <derives-from id="http://fedoraproject.org/fedora/32"/>
+    <derives-from id="http://fedoraproject.org/fedora/33"/>
 
     <release-status>rolling</release-status>
 
