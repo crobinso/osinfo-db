@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-09 18:23+0100\n"
-"PO-Revision-Date: 2020-12-03 21:35+0000\n"
+"PO-Revision-Date: 2021-02-10 15:18+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -217,10 +217,8 @@ msgid "xen-vtpm"
 msgstr "xen-vtpm"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.10"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.10"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
@@ -235,118 +233,80 @@ msgid "Alpine Linux Project"
 msgstr "Alpine Linux Projesi"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.10 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.10 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.10 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.10 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.10 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.10 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.10 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.11"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.11"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.11 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.11 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.11 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.11 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.11 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.11 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.11 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.11 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.12"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.12"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.12 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.12 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.12 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.12 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.12 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.12 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.12 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.12 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.13"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.13"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.13 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.13 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.13 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.13 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.13 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.13 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.13 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -381,34 +341,24 @@ msgid "Alpinelinux 3.8 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.9"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.9"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.9 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.9 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.9 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.9 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.9 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.9 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.9 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -914,26 +864,20 @@ msgid "Debian 10"
 msgstr "Debian 10"
 
 #: data/os/debian.org/debian-10.xml.in:39
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 10 (OpenStack)"
-msgstr "Debian 10"
+msgstr "Debian 10 (OpenStack)"
 
 #: data/os/debian.org/debian-10.xml.in:42
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 10 (Generic)"
-msgstr "Debian 10"
+msgstr "Debian 10 (Genel)"
 
 #: data/os/debian.org/debian-10.xml.in:45
 msgid "Debian 10 (Generic Cloud)"
-msgstr ""
+msgstr "Debian 10 (Bulut, Genel)"
 
 #: data/os/debian.org/debian-10.xml.in:48
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 10 (No Cloud)"
-msgstr "Debian 10"
+msgstr "Debian 10 (NoCloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -982,17 +926,15 @@ msgstr "Debian 9"
 
 #: data/os/debian.org/debian-9.xml.in:53
 msgid "Debian 9 (OpenStack)"
-msgstr ""
+msgstr "Debian 9 (OpenStack)"
 
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
-msgstr "Debian Testing"
+msgstr "Debian testing"
 
 #: data/os/debian.org/debian-testing.xml.in:29
-#, fuzzy
-#| msgid "Debian testing"
 msgid "Debian testing (OpenStack)"
-msgstr "Debian Testing"
+msgstr "Debian testing (OpenStack)"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
@@ -3862,10 +3804,8 @@ msgid "Red Hat Enterprise Linux 8.3"
 msgstr "Red Hat Enterprise Linux 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.4"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.4"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
