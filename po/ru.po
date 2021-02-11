@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 14:10+0100\n"
+"POT-Creation-Date: 2021-02-09 18:23+0100\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -216,15 +216,100 @@ msgstr ""
 msgid "xen-vtpm"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
-msgid "Alpine Linux 3.5"
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
+msgid "Alpine Linux 3.10"
 msgstr ""
 
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:9
 msgid "Alpine Linux Project"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:34
+msgid "Alpinelinux 3.10 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:37
+msgid "Alpinelinux 3.10 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:40
+msgid "Alpinelinux 3.10 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:43
+msgid "Alpinelinux 3.10 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:7
+msgid "Alpine Linux 3.11"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
+msgid "Alpinelinux 3.11 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
+msgid "Alpinelinux 3.11 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
+msgid "Alpinelinux 3.11 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
+msgid "Alpinelinux 3.11 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
+msgid "Alpine Linux 3.12"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:34
+msgid "Alpinelinux 3.12 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:37
+msgid "Alpinelinux 3.12 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:40
+msgid "Alpinelinux 3.12 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:43
+msgid "Alpinelinux 3.12 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:7
+msgid "Alpine Linux 3.13"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
+msgid "Alpinelinux 3.13 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
+msgid "Alpinelinux 3.13 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
+msgid "Alpinelinux 3.13 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
+msgid "Alpinelinux 3.13 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
+msgid "Alpine Linux 3.5"
 msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:7
@@ -253,6 +338,26 @@ msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:43
 msgid "Alpinelinux 3.8 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:7
+msgid "Alpine Linux 3.9"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:34
+msgid "Alpinelinux 3.9 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:37
+msgid "Alpinelinux 3.9 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:40
+msgid "Alpinelinux 3.9 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:43
+msgid "Alpinelinux 3.9 Xen"
 msgstr ""
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
@@ -758,6 +863,22 @@ msgstr ""
 msgid "Debian 10"
 msgstr ""
 
+#: data/os/debian.org/debian-10.xml.in:39
+msgid "Debian 10 (OpenStack)"
+msgstr ""
+
+#: data/os/debian.org/debian-10.xml.in:42
+msgid "Debian 10 (Generic)"
+msgstr ""
+
+#: data/os/debian.org/debian-10.xml.in:45
+msgid "Debian 10 (Generic Cloud)"
+msgstr ""
+
+#: data/os/debian.org/debian-10.xml.in:48
+msgid "Debian 10 (No Cloud)"
+msgstr ""
+
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
 msgstr ""
@@ -803,8 +924,16 @@ msgstr ""
 msgid "Debian 9"
 msgstr ""
 
+#: data/os/debian.org/debian-9.xml.in:53
+msgid "Debian 9 (OpenStack)"
+msgstr ""
+
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
+msgstr ""
+
+#: data/os/debian.org/debian-testing.xml.in:29
+msgid "Debian testing (OpenStack)"
 msgstr ""
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
@@ -1625,16 +1754,16 @@ msgstr ""
 msgid "Fedora 31"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-31.xml.in:17
+#: data/os/fedoraproject.org/fedora-31.xml.in:18
 msgid "Fedora 31 Workstation"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-31.xml.in:20
-#: data/os/fedoraproject.org/fedora-31.xml.in:23
+#: data/os/fedoraproject.org/fedora-31.xml.in:21
+#: data/os/fedoraproject.org/fedora-31.xml.in:24
 msgid "Fedora 31 Server"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-31.xml.in:26
+#: data/os/fedoraproject.org/fedora-31.xml.in:27
 msgid "Fedora 31 Everything"
 msgstr ""
 
@@ -3373,6 +3502,7 @@ msgstr ""
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
+#: data/os/redhat.com/rhel-8.4.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -3670,6 +3800,10 @@ msgstr ""
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
 msgid "Red Hat Enterprise Linux 8.3"
+msgstr ""
+
+#: data/os/redhat.com/rhel-8.4.xml.in:6
+msgid "Red Hat Enterprise Linux 8.4"
 msgstr ""
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
