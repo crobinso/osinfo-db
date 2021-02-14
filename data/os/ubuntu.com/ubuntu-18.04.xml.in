@@ -34,7 +34,7 @@
     <media arch="x86_64" live="true" installer-script="false">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 18.04(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
@@ -42,7 +42,7 @@
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 18.04(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
@@ -53,7 +53,7 @@
     <media arch="aarch64">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-arm64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 18.04(.\d\+?)? LTS arm64</volume-id>
+        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS arm64</volume-id>
       </iso>
       <kernel>install/vmlinuz</kernel>
       <initrd>install/initrd.gz</initrd>
@@ -61,7 +61,7 @@
     <media arch="ppc64le">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-ppc64el.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 18.04(.\d\+?)? LTS ppc64</volume-id>
+        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS ppc64</volume-id>
       </iso>
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
@@ -69,7 +69,7 @@
     <media arch="s390x">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-s390x.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 18.04(.\d\+?)? LTS s390x</volume-id>
+        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS s390x</volume-id>
       </iso>
       <kernel>boot/kernel.ubuntu</kernel>
       <initrd>boot/initrd.ubuntu</initrd>
