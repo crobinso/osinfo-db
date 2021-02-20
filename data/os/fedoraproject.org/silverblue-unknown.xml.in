@@ -15,7 +15,7 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>Fedora-SB-ostree-x86_64-[3-9][4-9]</volume-id>
+        <volume-id>Fedora-SB-ostree-x86_64-(3[5-9]|[4-9][0-9])</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -25,7 +25,7 @@
       <treeinfo>
         <family>Fedora</family>
         <variant>Silverblue</variant>
-        <version>[3-9][4-9]</version>
+        <version>(3[5-9]|[4-9][0-9])</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
