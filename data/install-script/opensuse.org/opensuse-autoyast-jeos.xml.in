@@ -153,7 +153,6 @@
                 <import_gpg_key config:type="boolean">true</import_gpg_key>
               </signature-handling>
               <storage>
-                <partition_alignment config:type="symbol">align_optimal</partition_alignment>
                 <start_multipath config:type="boolean">false</start_multipath>
               </storage>
             </general>
@@ -166,7 +165,9 @@
               </keyboard_values>
               <keymap><xsl:call-template name="l10n-keyboard"/></keymap>
             </keyboard>
-            <language><xsl:call-template name="l10n-language"/></language>
+            <language>
+              <language><xsl:call-template name="l10n-language"/></language>
+            </language>
             <networking>
               <dns>
                 <hostname><xsl:call-template name="hostname"/></hostname>
