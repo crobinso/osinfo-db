@@ -7,214 +7,217 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-09 18:23+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-02-25 11:40+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
+"libosinfo/osinfo-db/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
-msgstr ""
+msgstr "ib700"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:5
 msgid "keyboard"
-msgstr ""
+msgstr "näppäimistö"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:8
 #: data/device/ibm.com/ps2-mouse.xml.in:8
 msgid "Qemu/KVM"
-msgstr ""
+msgstr "Qemu/KVM"
 
 #: data/device/ibm.com/ps2-mouse.xml.in:5
 msgid "mouse"
-msgstr ""
+msgstr "hiiri"
 
 #: data/device/pcisig.com/pci-1000-0012.d/class.xml.in:5
 msgid "lsi"
-msgstr ""
+msgstr "lsi"
 
 #: data/device/pcisig.com/pci-1013-00b8.d/class.xml.in:5
 msgid "cirrus"
-msgstr ""
+msgstr "cirrus"
 
 #: data/device/pcisig.com/pci-1022-2000.d/class.xml.in:5
 msgid "pcnet"
-msgstr ""
+msgstr "pcnet"
 
 #: data/device/pcisig.com/pci-1033-0194.d/class.xml.in:5
 msgid "nec-xhci"
-msgstr ""
+msgstr "nec-xhci"
 
 #: data/device/pcisig.com/pci-10ec-8029.d/class.xml.in:5
 msgid "ne2k_pci"
-msgstr ""
+msgstr "ne2k_pci"
 
 #: data/device/pcisig.com/pci-10ec-8139.d/class.xml.in:5
 msgid "rtl8139"
-msgstr ""
+msgstr "rtl8139"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:5
 msgid "vga"
-msgstr ""
+msgstr "vga"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:8
 msgid "QEMU"
-msgstr ""
+msgstr "QEMU"
 
 #: data/device/pcisig.com/pci-1274-5000.d/class.xml.in:5
 msgid "es1370"
-msgstr ""
+msgstr "es1370"
 
 #: data/device/pcisig.com/pci-15ad-0710.d/class.xml.in:5
 msgid "vmvga"
-msgstr ""
+msgstr "vmvga"
 
 #: data/device/pcisig.com/pci-1af4-1000.d/class.xml.in:5
 msgid "virtio-net"
-msgstr ""
+msgstr "virtio-net"
 
 #: data/device/pcisig.com/pci-1af4-1001.d/class.xml.in:5
 msgid "virtio-block"
-msgstr ""
+msgstr "virtio-lohko"
 
 #: data/device/pcisig.com/pci-1af4-1002.d/class.xml.in:5
 msgid "virtio-balloon"
-msgstr ""
+msgstr "virtio-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1003.d/class.xml.in:5
 msgid "virtio-console"
-msgstr ""
+msgstr "virtio-konsoli"
 
 #: data/device/pcisig.com/pci-1af4-1004.d/class.xml.in:5
 msgid "virtio-scsi"
-msgstr ""
+msgstr "virtio-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1005.d/class.xml.in:5
 msgid "virtio-rng"
-msgstr ""
+msgstr "virtio-rng"
 
 #: data/device/pcisig.com/pci-1af4-1009.d/class.xml.in:5
 msgid "virtio-9p"
-msgstr ""
+msgstr "virtio-9p"
 
 #: data/device/pcisig.com/pci-1af4-1041.d/class.xml.in:5
 msgid "virtio1.0-net"
-msgstr ""
+msgstr "virtio1.0-net"
 
 #: data/device/pcisig.com/pci-1af4-1042.d/class.xml.in:5
 msgid "virtio1.0-block"
-msgstr ""
+msgstr "virtio1.0-lohko"
 
 #: data/device/pcisig.com/pci-1af4-1043.d/class.xml.in:5
 msgid "virtio1.0-console"
-msgstr ""
+msgstr "virtio1.0-konsoli"
 
 #: data/device/pcisig.com/pci-1af4-1044.d/class.xml.in:5
 msgid "virtio1.0-rng"
-msgstr ""
+msgstr "virtio1.0-rng"
 
 #: data/device/pcisig.com/pci-1af4-1045.d/class.xml.in:5
 msgid "virtio1.0-balloon"
-msgstr ""
+msgstr "virtio1.0-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1048.d/class.xml.in:5
 msgid "virtio1.0-scsi"
-msgstr ""
+msgstr "virtio1.0-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1049.d/class.xml.in:5
 msgid "virtio1.0-9p"
-msgstr ""
+msgstr "virtio1.0-9p"
 
 #: data/device/pcisig.com/pci-1af4-1050.d/class.xml.in:5
 msgid "virtio1.0-gpu"
-msgstr ""
+msgstr "virtio1.0-gpu"
 
 #: data/device/pcisig.com/pci-1af4-1052.d/class.xml.in:5
 msgid "virtio1.0-input"
-msgstr ""
+msgstr "virtio1.0-sisääntulo"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
-msgstr ""
+msgstr "virtio1.0-fs"
 
 #: data/device/pcisig.com/pci-1b36-0004.d/class.xml.in:5
 msgid "qemu-xhci"
-msgstr ""
+msgstr "qemu-xhci"
 
 #: data/device/pcisig.com/pci-1b36-0100.d/class.xml.in:5
 msgid "qxl"
-msgstr ""
+msgstr "qxl"
 
 #: data/device/pcisig.com/pci-8086-100e.d/class.xml.in:5
 msgid "e1000"
-msgstr ""
+msgstr "e1000"
 
 #: data/device/pcisig.com/pci-8086-10d3.d/class.xml.in:5
 msgid "e1000e"
-msgstr ""
+msgstr "e1000e"
 
 #: data/device/pcisig.com/pci-8086-2415.d/class.xml.in:5
 msgid "ac97"
-msgstr ""
+msgstr "ac97"
 
 #: data/device/pcisig.com/pci-8086-25ab.d/class.xml.in:5
 msgid "6300esb"
-msgstr ""
+msgstr "6300esb"
 
 #: data/device/pcisig.com/pci-8086-2668.d/class.xml.in:5
 msgid "ich6"
-msgstr ""
+msgstr "ich6"
 
 #: data/device/pcisig.com/pci-8086-293e.d/class.xml.in:5
 msgid "ich9-hda"
-msgstr ""
+msgstr "ich9-hda"
 
 #: data/device/qemu.org/chipset-x86-q35.xml.in:5
 msgid "qemu-x86-q35"
-msgstr ""
+msgstr "qemu-x86-q35"
 
 #: data/device/usb.org/usb-80ee-0021.d/class.xml.in:5
 msgid "tablet"
-msgstr ""
+msgstr "piirtopöytä"
 
 #: data/device/xen.org/xen-console.xml.in:9
 msgid "xen-console"
-msgstr ""
+msgstr "xen-konsoli"
 
 #: data/device/xen.org/xen-pci.xml.in:9
 msgid "xen-pci"
-msgstr ""
+msgstr "xen-pci"
 
 #: data/device/xen.org/xen-vbd.xml.in:9
 msgid "xen-vbd"
-msgstr ""
+msgstr "xen-vbd"
 
 #: data/device/xen.org/xen-vfb.xml.in:9
 msgid "xen-vfb"
-msgstr ""
+msgstr "xen-vfb"
 
 #: data/device/xen.org/xen-vif.xml.in:9
 msgid "xen-vif"
-msgstr ""
+msgstr "xen-vif"
 
 #: data/device/xen.org/xen-vkbd.xml.in:9
 msgid "xen-vkbd"
-msgstr ""
+msgstr "xen-vkbd"
 
 #: data/device/xen.org/xen-vscsi.xml.in:9
 msgid "xen-vscsi"
-msgstr ""
+msgstr "xen-vscsi"
 
 #: data/device/xen.org/xen-vtpm.xml.in:8
 msgid "xen-vtpm"
-msgstr ""
+msgstr "xen-vtpm"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
-msgstr ""
+msgstr "Alpine Linux 3.10"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
@@ -226,43 +229,43 @@ msgstr ""
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:9
 msgid "Alpine Linux Project"
-msgstr ""
+msgstr "Alpine Linux Project"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:34
 msgid "Alpinelinux 3.10 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.10 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:37
 msgid "Alpinelinux 3.10 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.10 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:40
 msgid "Alpinelinux 3.10 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.10 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:43
 msgid "Alpinelinux 3.10 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:7
 msgid "Alpine Linux 3.11"
-msgstr ""
+msgstr "Alpine Linux 3.11"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
 msgid "Alpinelinux 3.11 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.11 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
 msgid "Alpinelinux 3.11 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.11 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
 msgid "Alpinelinux 3.11 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.11 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
 msgid "Alpinelinux 3.11 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.11 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
 msgid "Alpine Linux 3.12"
@@ -1487,7 +1490,7 @@ msgstr ""
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
 #: data/os/fedoraproject.org/coreos-testing.xml.in:6
 msgid "Fedora CoreOS"
-msgstr ""
+msgstr "Fedora CoreOS"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:8
 #: data/os/fedoraproject.org/coreos-stable.xml.in:8
@@ -1536,342 +1539,342 @@ msgstr ""
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
-msgstr ""
+msgstr "Fedora Project"
 
 #: data/os/fedoraproject.org/fedora-1.xml.in:6
 msgid "Fedora Core 1"
-msgstr ""
+msgstr "Fedora Core 1"
 
 #: data/os/fedoraproject.org/fedora-10.xml.in:6
 msgid "Fedora 10"
-msgstr ""
+msgstr "Fedora 10"
 
 #: data/os/fedoraproject.org/fedora-11.xml.in:6
 msgid "Fedora 11"
-msgstr ""
+msgstr "Fedora 11"
 
 #: data/os/fedoraproject.org/fedora-12.xml.in:6
 msgid "Fedora 12"
-msgstr ""
+msgstr "Fedora 12"
 
 #: data/os/fedoraproject.org/fedora-13.xml.in:6
 msgid "Fedora 13"
-msgstr ""
+msgstr "Fedora 13"
 
 #: data/os/fedoraproject.org/fedora-14.xml.in:6
 msgid "Fedora 14"
-msgstr ""
+msgstr "Fedora 14"
 
 #: data/os/fedoraproject.org/fedora-15.xml.in:6
 msgid "Fedora 15"
-msgstr ""
+msgstr "Fedora 15"
 
 #: data/os/fedoraproject.org/fedora-16.xml.in:6
 msgid "Fedora 16"
-msgstr ""
+msgstr "Fedora 16"
 
 #: data/os/fedoraproject.org/fedora-17.xml.in:6
 msgid "Fedora 17"
-msgstr ""
+msgstr "Fedora 17"
 
 #: data/os/fedoraproject.org/fedora-18.xml.in:6
 msgid "Fedora 18"
-msgstr ""
+msgstr "Fedora 18"
 
 #: data/os/fedoraproject.org/fedora-19.xml.in:6
 msgid "Fedora 19"
-msgstr ""
+msgstr "Fedora 19"
 
 #: data/os/fedoraproject.org/fedora-2.xml.in:6
 msgid "Fedora Core 2"
-msgstr ""
+msgstr "Fedora Core 2"
 
 #: data/os/fedoraproject.org/fedora-20.xml.in:6
 msgid "Fedora 20"
-msgstr ""
+msgstr "Fedora 20"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:6
 #: data/os/fedoraproject.org/fedora-21.xml.in:24
 msgid "Fedora 21"
-msgstr ""
+msgstr "Fedora 21"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:18
 msgid "Fedora 21 Workstation"
-msgstr ""
+msgstr "Fedora 21 -työasema"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:21
 msgid "Fedora 21 Server"
-msgstr ""
+msgstr "Fedora 21 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:27
 msgid "Fedora 21 Cloud"
-msgstr ""
+msgstr "Fedora 21 -pilvi"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:6
 msgid "Fedora 22"
-msgstr ""
+msgstr "Fedora 22"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:18
 #: data/os/fedoraproject.org/fedora-22.xml.in:21
 msgid "Fedora 22 Workstation"
-msgstr ""
+msgstr "Fedora 22 -työasema"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:24
 #: data/os/fedoraproject.org/fedora-22.xml.in:27
 msgid "Fedora 22 Server"
-msgstr ""
+msgstr "Fedora 22 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:6
 msgid "Fedora 23"
-msgstr ""
+msgstr "Fedora 23"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:18
 #: data/os/fedoraproject.org/fedora-23.xml.in:21
 msgid "Fedora 23 Workstation"
-msgstr ""
+msgstr "Fedora 23 -työasema"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:24
 #: data/os/fedoraproject.org/fedora-23.xml.in:27
 msgid "Fedora 23 Server"
-msgstr ""
+msgstr "Fedora 23 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:6
 msgid "Fedora 24"
-msgstr ""
+msgstr "Fedora 24"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:22
 #: data/os/fedoraproject.org/fedora-24.xml.in:25
 msgid "Fedora 24 Workstation"
-msgstr ""
+msgstr "Fedora 24 -työasema"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:28
 #: data/os/fedoraproject.org/fedora-24.xml.in:31
 msgid "Fedora 24 Server"
-msgstr ""
+msgstr "Fedora 24 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:6
 msgid "Fedora 25"
-msgstr ""
+msgstr "Fedora 25"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:18
 #: data/os/fedoraproject.org/fedora-25.xml.in:21
 msgid "Fedora 25 Workstation"
-msgstr ""
+msgstr "Fedora 25 -työasema"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:24
 #: data/os/fedoraproject.org/fedora-25.xml.in:27
 msgid "Fedora 25 Server"
-msgstr ""
+msgstr "Fedora 25 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:6
 msgid "Fedora 26"
-msgstr ""
+msgstr "Fedora 26"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:18
 #: data/os/fedoraproject.org/fedora-26.xml.in:21
 msgid "Fedora 26 Workstation"
-msgstr ""
+msgstr "Fedora 26 -työasema"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:24
 #: data/os/fedoraproject.org/fedora-26.xml.in:27
 msgid "Fedora 26 Server"
-msgstr ""
+msgstr "Fedora 26 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:6
 msgid "Fedora 27"
-msgstr ""
+msgstr "Fedora 27"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:18
 #: data/os/fedoraproject.org/fedora-27.xml.in:21
 #: data/os/fedoraproject.org/fedora-27.xml.in:24
 msgid "Fedora 27 Workstation"
-msgstr ""
+msgstr "Fedora 27 -työasema"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:27
 #: data/os/fedoraproject.org/fedora-27.xml.in:30
 msgid "Fedora 27 Server"
-msgstr ""
+msgstr "Fedora 27 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:6
 msgid "Fedora 28"
-msgstr ""
+msgstr "Fedora 28"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:18
 #: data/os/fedoraproject.org/fedora-28.xml.in:21
 msgid "Fedora 28 Workstation"
-msgstr ""
+msgstr "Fedora 28 -työasema"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:24
 #: data/os/fedoraproject.org/fedora-28.xml.in:27
 msgid "Fedora 28 Server"
-msgstr ""
+msgstr "Fedora 28 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:6
 msgid "Fedora 29"
-msgstr ""
+msgstr "Fedora 29"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:18
 #: data/os/fedoraproject.org/fedora-29.xml.in:21
 msgid "Fedora 29 Workstation"
-msgstr ""
+msgstr "Fedora 29 -työasema"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:24
 #: data/os/fedoraproject.org/fedora-29.xml.in:27
 msgid "Fedora 29 Server"
-msgstr ""
+msgstr "Fedora 29 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:30
 msgid "Fedora 29 Everything"
-msgstr ""
+msgstr "Fedora 29 Everything"
 
 #: data/os/fedoraproject.org/fedora-3.xml.in:6
 msgid "Fedora Core 3"
-msgstr ""
+msgstr "Fedora Core 3"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:6
 msgid "Fedora 30"
-msgstr ""
+msgstr "Fedora 30"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:18
 #: data/os/fedoraproject.org/fedora-30.xml.in:21
 msgid "Fedora 30 Workstation"
-msgstr ""
+msgstr "Fedora 30 -työasema"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:24
 #: data/os/fedoraproject.org/fedora-30.xml.in:27
 msgid "Fedora 30 Server"
-msgstr ""
+msgstr "Fedora 30 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:30
 msgid "Fedora 30 Everything"
-msgstr ""
+msgstr "Fedora 30 Everything"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:6
 msgid "Fedora 31"
-msgstr ""
+msgstr "Fedora 31"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:18
 msgid "Fedora 31 Workstation"
-msgstr ""
+msgstr "Fedora 31 -työasema"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:21
 #: data/os/fedoraproject.org/fedora-31.xml.in:24
 msgid "Fedora 31 Server"
-msgstr ""
+msgstr "Fedora 31 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:27
 msgid "Fedora 31 Everything"
-msgstr ""
+msgstr "Fedora 31 Everything"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:6
 msgid "Fedora 32"
-msgstr ""
+msgstr "Fedora 32"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:17
 msgid "Fedora 32 Workstation"
-msgstr ""
+msgstr "Fedora 32 -työasema"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:20
 #: data/os/fedoraproject.org/fedora-32.xml.in:23
 msgid "Fedora 32 Server"
-msgstr ""
+msgstr "Fedora 32 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:26
 msgid "Fedora 32 Everything"
-msgstr ""
+msgstr "Fedora 32 Everything"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:6
 msgid "Fedora 33"
-msgstr ""
+msgstr "Fedora 33"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:17
 msgid "Fedora 33 Workstation"
-msgstr ""
+msgstr "Fedora 33 -työasema"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:20
 #: data/os/fedoraproject.org/fedora-33.xml.in:23
 msgid "Fedora 33 Server"
-msgstr ""
+msgstr "Fedora 33 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:26
 msgid "Fedora 33 Everything"
-msgstr ""
+msgstr "Fedora 33 Everything"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
-msgstr ""
+msgstr "Fedora Core 4"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
-msgstr ""
+msgstr "Fedora Core 5"
 
 #: data/os/fedoraproject.org/fedora-6.xml.in:6
 msgid "Fedora Core 6"
-msgstr ""
+msgstr "Fedora Core 6"
 
 #: data/os/fedoraproject.org/fedora-7.xml.in:6
 msgid "Fedora 7"
-msgstr ""
+msgstr "Fedora 7"
 
 #: data/os/fedoraproject.org/fedora-8.xml.in:6
 msgid "Fedora 8"
-msgstr ""
+msgstr "Fedora 8"
 
 #: data/os/fedoraproject.org/fedora-9.xml.in:6
 msgid "Fedora 9"
-msgstr ""
+msgstr "Fedora 9"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
-msgstr ""
+msgstr "Fedora Rawhide"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:16
 msgid "Fedora Rawhide Workstation"
-msgstr ""
+msgstr "Fedora Rawhide -työasema"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:19
 msgid "Fedora Rawhide Server"
-msgstr ""
+msgstr "Fedora Rawhide -palvelin"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:22
 msgid "Fedora Rawhide Everything"
-msgstr ""
+msgstr "Fedora Rawhide Everything"
 
 #: data/os/fedoraproject.org/fedora-unknown.xml.in:6
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: data/os/fedoraproject.org/silverblue-28.xml.in:6
 msgid "Fedora Silverblue 28"
-msgstr ""
+msgstr "Fedora Silverblue 28"
 
 #: data/os/fedoraproject.org/silverblue-29.xml.in:6
 msgid "Fedora Silverblue 29"
-msgstr ""
+msgstr "Fedora Silverblue 29"
 
 #: data/os/fedoraproject.org/silverblue-30.xml.in:6
 msgid "Fedora Silverblue 30"
-msgstr ""
+msgstr "Fedora Silverblue 30"
 
 #: data/os/fedoraproject.org/silverblue-31.xml.in:6
 msgid "Fedora Silverblue 31"
-msgstr ""
+msgstr "Fedora Silverblue 31"
 
 #: data/os/fedoraproject.org/silverblue-32.xml.in:6
 msgid "Fedora Silverblue 32"
-msgstr ""
+msgstr "Fedora Silverblue 32"
 
 #: data/os/fedoraproject.org/silverblue-33.xml.in:6
 msgid "Fedora Silverblue 33"
-msgstr ""
+msgstr "Fedora Silverblue 33"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
-msgstr ""
+msgstr "Fedora Silverblue Rawhide"
 
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:6
 msgid "Fedora Silverblue"
-msgstr ""
+msgstr "Fedora Silverblue"
 
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
@@ -2279,7 +2282,7 @@ msgstr ""
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
-msgstr ""
+msgstr "Tuntematon"
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
@@ -3516,7 +3519,7 @@ msgstr ""
 #: data/os/redhat.com/rhl-7.xml.in:8 data/os/redhat.com/rhl-8.0.xml.in:8
 #: data/os/redhat.com/rhl-9.xml.in:8
 msgid "Red Hat, Inc"
-msgstr ""
+msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
