@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 16:54+0100\n"
-"PO-Revision-Date: 2021-02-25 11:40+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2021-02-27 07:40+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
 "Language: fi\n"
@@ -269,95 +270,95 @@ msgstr "Alpinelinux 3.11 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
 msgid "Alpine Linux 3.12"
-msgstr ""
+msgstr "Alpine Linux 3.12"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:34
 msgid "Alpinelinux 3.12 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.12 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:37
 msgid "Alpinelinux 3.12 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.12 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:40
 msgid "Alpinelinux 3.12 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.12 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:43
 msgid "Alpinelinux 3.12 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.12 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:7
 msgid "Alpine Linux 3.13"
-msgstr ""
+msgstr "Alpine Linux 3.13"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
 msgid "Alpinelinux 3.13 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.13 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
 msgid "Alpinelinux 3.13 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.13 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
 msgid "Alpinelinux 3.13 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.13 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 msgid "Alpinelinux 3.13 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
-msgstr ""
+msgstr "Alpine Linux 3.5"
 
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:7
 msgid "Alpine Linux 3.6"
-msgstr ""
+msgstr "Alpine Linux 3.6"
 
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:7
 msgid "Alpine Linux 3.7"
-msgstr ""
+msgstr "Alpine Linux 3.7"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:7
 msgid "Alpine Linux 3.8"
-msgstr ""
+msgstr "Alpine Linux 3.8"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:34
 msgid "Alpinelinux 3.8 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.8 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:37
 msgid "Alpinelinux 3.8 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.8 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:40
 msgid "Alpinelinux 3.8 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.8 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:43
 msgid "Alpinelinux 3.8 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:7
 msgid "Alpine Linux 3.9"
-msgstr ""
+msgstr "Alpine Linux 3.9"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:34
 msgid "Alpinelinux 3.9 Standard"
-msgstr ""
+msgstr "Alpinelinux 3.9 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:37
 msgid "Alpinelinux 3.9 Extended"
-msgstr ""
+msgstr "Alpinelinux 3.9 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:40
 msgid "Alpinelinux 3.9 Virtual"
-msgstr ""
+msgstr "Alpinelinux 3.9 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:43
 msgid "Alpinelinux 3.9 Xen"
-msgstr ""
+msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -1803,29 +1804,21 @@ msgid "Fedora 33 Everything"
 msgstr "Fedora 33 Everything"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 34"
-msgstr "Fedora 30"
+msgstr "Fedora 34"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:17
-#, fuzzy
-#| msgid "Fedora 24 Workstation"
 msgid "Fedora 34 Workstation"
-msgstr "Fedora 24 -työasema"
+msgstr "Fedora 34 -työasema"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:20
 #: data/os/fedoraproject.org/fedora-34.xml.in:23
-#, fuzzy
-#| msgid "Fedora 24 Server"
 msgid "Fedora 34 Server"
-msgstr "Fedora 24 -palvelin"
+msgstr "Fedora 34 -palvelin"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 34 Everything"
-msgstr "Fedora 30 Everything"
+msgstr "Fedora 34 Everything"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -1896,10 +1889,8 @@ msgid "Fedora Silverblue 33"
 msgstr "Fedora Silverblue 33"
 
 #: data/os/fedoraproject.org/silverblue-34.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 34"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 34"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -4779,7 +4770,7 @@ msgstr ""
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in:7
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.7.xml.in:7
 msgid "Red Hat, Inc."
-msgstr ""
+msgstr "Red Hat, Inc."
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.1.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.1)"
