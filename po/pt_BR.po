@@ -1,11 +1,11 @@
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 16:54+0100\n"
-"PO-Revision-Date: 2020-08-08 14:29+0000\n"
+"PO-Revision-Date: 2021-03-01 17:40+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/libosinfo/osinfo-db/pt_BR/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -214,10 +214,8 @@ msgid "xen-vtpm"
 msgstr "xen-vtpm"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.10"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.10"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
@@ -232,118 +230,80 @@ msgid "Alpine Linux Project"
 msgstr "Projeto Alpine Linux"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.10 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.10 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.10 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.10 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.10 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.10 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.10 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.11"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.11"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.11 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.11 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.11 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.11 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.11 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.11 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.11 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.11 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.12"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.12"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.12 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.12 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.12 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.12 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.12 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.12 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.12 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.12 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.13"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.13"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.13 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.13 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.13 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.13 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.13 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.13 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.13 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -378,34 +338,24 @@ msgid "Alpinelinux 3.8 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.9"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.9"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.9 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.9 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.9 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.9 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.9 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.9 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.9 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -464,10 +414,8 @@ msgid "ALT Workstation 9.0"
 msgstr "ALT Workstation 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation K 9.0"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
@@ -478,70 +426,48 @@ msgid "ALT Server 9.0"
 msgstr "ALT Server 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:33
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Virtualization Server 9.0"
-msgstr "ALT Server 9.0"
+msgstr "ALT Virtualization Server 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:36
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply 9.0"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:39
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Simply live 9.0"
-msgstr "ALT Server 9.0"
+msgstr "ALT Simply live 9.0"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 9.1"
-msgstr "ALT 9.0"
+msgstr "ALT 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 9.1"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation K 9.1"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 9.1"
-msgstr "ALT Education 9.0"
+msgstr "ALT Education 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Server 9.1"
-msgstr "ALT Server 9.0"
+msgstr "ALT Server 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:31
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Virtualization Server 9.1"
-msgstr "ALT Server 9.0"
+msgstr "ALT Virtualization Server 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:34
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply 9.1"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
-#, fuzzy
-#| msgid "ALT 8.2 Simply"
 msgid "ALT Simply live 9.1"
-msgstr "ALT 8.2 Simply"
+msgstr "ALT Simply live 9.1"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -935,26 +861,20 @@ msgid "Debian 10"
 msgstr "Debian 10"
 
 #: data/os/debian.org/debian-10.xml.in:39
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 10 (OpenStack)"
-msgstr "Debian 10"
+msgstr "Debian 10 (OpenStack)"
 
 #: data/os/debian.org/debian-10.xml.in:42
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 10 (Generic)"
-msgstr "Debian 10"
+msgstr "Debian 10 (Generic)"
 
 #: data/os/debian.org/debian-10.xml.in:45
 msgid "Debian 10 (Generic Cloud)"
-msgstr ""
+msgstr "Debian 10 (Generic Cloud)"
 
 #: data/os/debian.org/debian-10.xml.in:48
-#, fuzzy
-#| msgid "Debian Woody"
 msgid "Debian 10 (No Cloud)"
-msgstr "Debian Woody"
+msgstr "Debian 10 (No Cloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -1003,17 +923,15 @@ msgstr "Debian 9"
 
 #: data/os/debian.org/debian-9.xml.in:53
 msgid "Debian 9 (OpenStack)"
-msgstr ""
+msgstr "Debian 9 (OpenStack)"
 
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
 msgstr "Debian testing"
 
 #: data/os/debian.org/debian-testing.xml.in:29
-#, fuzzy
-#| msgid "Debian testing"
 msgid "Debian testing (OpenStack)"
-msgstr "Debian testing"
+msgstr "Debian testing (OpenStack)"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
@@ -1520,10 +1438,8 @@ msgid "Endless OS (other)"
 msgstr "Endless OS (outro)"
 
 #: data/os/endlessos.com/eos-3.10.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS 3.10"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS 3.10"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
@@ -1561,24 +1477,18 @@ msgstr "Endless OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
-#, fuzzy
-#| msgid "Endless OS LLC"
 msgid "Endless OS Foundation LLC"
-msgstr "Endless OS LLC"
+msgstr "Endless OS Foundation LLC"
 
 #: data/os/endlessos.com/eos-3.9.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.1"
 msgid "Endless OS 3.9"
-msgstr "Endless OS 3.1"
+msgstr "Endless OS 3.9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
 #: data/os/fedoraproject.org/coreos-testing.xml.in:6
-#, fuzzy
-#| msgid "Fedora Core 1"
 msgid "Fedora CoreOS"
-msgstr "Fedora Core 1"
+msgstr "Fedora CoreOS"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:8
 #: data/os/fedoraproject.org/coreos-stable.xml.in:8
@@ -1874,54 +1784,38 @@ msgid "Fedora 32 Everything"
 msgstr "Fedora 32 Everything"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 33"
-msgstr "Fedora 30"
+msgstr "Fedora 33"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:17
-#, fuzzy
-#| msgid "Fedora 23 Workstation"
 msgid "Fedora 33 Workstation"
-msgstr "Fedora 23 Workstation"
+msgstr "Fedora 33 Workstation"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:20
 #: data/os/fedoraproject.org/fedora-33.xml.in:23
-#, fuzzy
-#| msgid "Fedora 23 Server"
 msgid "Fedora 33 Server"
-msgstr "Fedora 23 Server"
+msgstr "Fedora 33 Server"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 33 Everything"
-msgstr "Fedora 30 Everything"
+msgstr "Fedora 33 Everything"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 34"
-msgstr "Fedora 30"
+msgstr "Fedora 34"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:17
-#, fuzzy
-#| msgid "Fedora 24 Workstation"
 msgid "Fedora 34 Workstation"
-msgstr "Fedora 24 Workstation"
+msgstr "Fedora 34 Workstation"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:20
 #: data/os/fedoraproject.org/fedora-34.xml.in:23
-#, fuzzy
-#| msgid "Fedora 24 Server"
 msgid "Fedora 34 Server"
-msgstr "Fedora 24 Server"
+msgstr "Fedora 34 Server"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 34 Everything"
-msgstr "Fedora 30 Everything"
+msgstr "Fedora 34 Everything"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -1988,28 +1882,20 @@ msgid "Fedora Silverblue 32"
 msgstr "Fedora Silverblue 32"
 
 #: data/os/fedoraproject.org/silverblue-33.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 33"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 33"
 
 #: data/os/fedoraproject.org/silverblue-34.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 34"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 34"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 28"
 msgid "Fedora Silverblue Rawhide"
-msgstr "Fedora Silverblue 28"
+msgstr "Fedora Silverblue Rawhide"
 
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 28"
 msgid "Fedora Silverblue"
-msgstr "Fedora Silverblue 28"
+msgstr "Fedora Silverblue"
 
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
@@ -2125,10 +2011,8 @@ msgid "FreeBSD 12.1"
 msgstr "FreeBSD 12.1"
 
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.2"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.2"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -2359,11 +2243,11 @@ msgstr "GNOME 3.14"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:6
 msgid "Guix 1.1"
-msgstr ""
+msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
 msgid "Guix Contributors"
-msgstr ""
+msgstr "Contribuidores do Guix"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
@@ -2399,33 +2283,27 @@ msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/Beta1"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2016"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic Linux 2016"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
-msgstr ""
+msgstr "Libosinfo"
 
 #: data/os/libosinfo.org/linux-2018.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2018"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic Linux 2018"
 
 #: data/os/libosinfo.org/linux-2020.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2007"
 msgid "Generic Linux 2020"
-msgstr "Mandriva Linux 2007"
+msgstr "Generic Linux 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
@@ -3087,36 +2965,28 @@ msgstr "NixOS"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
-msgstr "NixOS 20.03 (minimal installation CD)"
+msgstr "NixOS 20.03 (CD de instalação mínima)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
-msgstr "NixOS 20.03 (Plasma 5 installation CD)"
+msgstr "NixOS 20.03 (CD de instalação com Plasma 5)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:6
-#, fuzzy
-#| msgid "NixOS 20.03"
 msgid "NixOS 20.09"
-msgstr "NixOS 20.03"
+msgstr "NixOS 20.09"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:30
-#, fuzzy
-#| msgid "NixOS 20.03 (minimal installation CD)"
 msgid "NixOS 20.09 (minimal installation CD)"
-msgstr "NixOS 20.03 (minimal installation CD)"
+msgstr "NixOS 20.03 (CD de instalação mínima)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
-#, fuzzy
-#| msgid "NixOS Unstable (minimal installation CD)"
 msgid "NixOS Unstable (GNOME installation CD)"
-msgstr "NixOS Unstable (minimal installation CD)"
+msgstr "NixOS Unstable (CD de instalação com GNOME)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
-#, fuzzy
-#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
-msgstr "NixOS 20.03 (Plasma 5 installation CD)"
+msgstr "NixOS 20.09 (CD de instalação com Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3124,11 +2994,11 @@ msgstr "NixOS Unstable"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
-msgstr "NixOS Unstable (minimal installation CD)"
+msgstr "NixOS Unstable (CD de instalação mínima)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
 msgid "NixOS Unstable (Plasma 5 installation CD)"
-msgstr "NixOS Unstable (Plasma 5 installation CD)"
+msgstr "NixOS Unstable (CD de instalação com Plasma 5)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
@@ -3574,32 +3444,24 @@ msgid "Oracle Linux 7.6"
 msgstr "Oracle Linux 7.6"
 
 #: data/os/oracle.com/ol-7.7.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.7"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.7"
 
 #: data/os/oracle.com/ol-7.8.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.8"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.8"
 
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
 #: data/os/oracle.com/ol-8.1.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.1"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.2.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.2"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.2"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -3959,28 +3821,20 @@ msgid "Red Hat Enterprise Linux 8.2"
 msgstr "Red Hat Enterprise Linux 8.2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.4"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.4"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 6 Unknown"
 msgid "Red Hat Enterprise Linux 9 Unknown"
-msgstr "Red Hat Enterprise Linux 6 desconhecido"
+msgstr "Red Hat Enterprise Linux 9 desconhecido"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 9.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -4246,18 +4100,16 @@ msgstr "Scientific Linux 7.6"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:6
 msgid "Slackware 14.2"
-msgstr ""
+msgstr "Slackware 14.2"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:8
 #: data/os/slackware.com/slackware-current.xml.in:8
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "Slackware Linux Project"
-msgstr "Projeto Alpine Linux"
+msgstr "Projeto Slackware Linux"
 
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
-msgstr ""
+msgstr "Slackware -current"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
@@ -4330,10 +4182,8 @@ msgid "SUSE Linux Enterprise 15 SP1"
 msgstr "SUSE Linux Enterprise 15 SP1"
 
 #: data/os/suse.com/sle-15.2.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP2"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP2"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4518,16 +4368,12 @@ msgid "Pop!_OS 19.10"
 msgstr "Pop!_OS 19.10"
 
 #: data/os/system76.com/popos-20.04.xml.in:6
-#, fuzzy
-#| msgid "Pop!_OS 18.04"
 msgid "Pop!_OS 20.04"
-msgstr "Pop!_OS 18.04"
+msgstr "Pop!_OS 20.04"
 
 #: data/os/system76.com/popos-20.10.xml.in:6
-#, fuzzy
-#| msgid "Pop!_OS 18.04"
 msgid "Pop!_OS 20.10"
-msgstr "Pop!_OS 18.04"
+msgstr "Pop!_OS 20.10"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
@@ -4650,10 +4496,8 @@ msgid "Ubuntu 20.04"
 msgstr "Ubuntu 20.04"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 20.04"
 msgid "Ubuntu 20.10"
-msgstr "Ubuntu 20.04"
+msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
