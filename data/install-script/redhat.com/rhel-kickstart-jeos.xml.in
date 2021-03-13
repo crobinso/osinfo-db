@@ -154,6 +154,13 @@
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:when>
+            <xsl:when test="os/distro = 'almalinux'">
+              <xsl:text>http://repo.almalinux.org/almalinux/</xsl:text>
+              <xsl:call-template name="version"/>
+              <xsl:text>/BaseOS/</xsl:text>
+              <xsl:call-template name="arch"/>
+              <xsl:text>/os/</xsl:text>
+            </xsl:when>
           </xsl:choose>
         </xsl:template>
 

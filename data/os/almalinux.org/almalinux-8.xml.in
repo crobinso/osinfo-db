@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <os id="http://almalinux.org/almalinux/8">
+    <short-id>almalinux8</short-id>
+    <name>AlmaLinux 8</name>
+    <version>8</version>
+    <vendor>AlmaLinux</vendor>
+    <family>linux</family>
+    <distro>almalinux</distro>
+    <codename>Purple Manul</codename>
+    <clones id="http://redhat.com/rhel/8.3"/>
+    <release-date>2021-03-30</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>AlmaLinux-8.*-x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>http://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^8$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="all">
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^8$</version>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+  </os>
+</libosinfo>
