@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 13:50+0100\n"
-"PO-Revision-Date: 2021-02-25 16:09+0000\n"
+"PO-Revision-Date: 2021-03-19 16:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -222,16 +222,12 @@ msgid "xen-vtpm"
 msgstr "xen-vtpm"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:5
-#, fuzzy
-#| msgid "Alpine Linux 3.8"
 msgid "AlmaLinux 8"
-msgstr "Alpine Linux 3.8"
+msgstr "AlmaLinux 8"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:7
-#, fuzzy
-#| msgid "ALTLinux"
 msgid "AlmaLinux"
-msgstr "ALT Linux"
+msgstr "AlmaLinux"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -4513,10 +4509,8 @@ msgid "Ubuntu 19.10"
 msgstr "Ubuntu 19.10"
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 10.04 LTS"
 msgid "Ubuntu 20.04 LTS"
-msgstr "Ubuntu 10.04 LTS"
+msgstr "Ubuntu 20.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
 msgid "Ubuntu 20.10"
