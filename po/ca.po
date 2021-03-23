@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-25 16:54+0100\n"
+"POT-Creation-Date: 2021-03-19 13:50+0100\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -215,6 +215,18 @@ msgstr ""
 #: data/device/xen.org/xen-vtpm.xml.in:8
 msgid "xen-vtpm"
 msgstr ""
+
+#: data/os/almalinux.org/almalinux-8.xml.in:5
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-8.xml.in:7
+#, fuzzy
+#| msgid "ALTLinux"
+msgid "AlmaLinux"
+msgstr "ALTLinux"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 #, fuzzy
@@ -4781,9 +4793,9 @@ msgstr "Ubuntu 9.10"
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
 #, fuzzy
-#| msgid "Ubuntu 5.04"
-msgid "Ubuntu 20.04"
-msgstr "Ubuntu 5.04"
+#| msgid "Ubuntu 10.04 LTS"
+msgid "Ubuntu 20.04 LTS"
+msgstr "Ubuntu 10.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
 #, fuzzy
@@ -5191,6 +5203,11 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#, fuzzy
+#~| msgid "Ubuntu 5.04"
+#~ msgid "Ubuntu 20.04"
+#~ msgstr "Ubuntu 5.04"
 
 #~ msgid "Debian Buzz"
 #~ msgstr "Debian Buzz"
