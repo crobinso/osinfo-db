@@ -24,6 +24,8 @@ iso_content_types = {
     'binary/octet-stream',
     # ISO files on archive.netbsd.org
     'text/plain',
+    # a few openSUSE Live images
+    'application/x-up-download',
 }
 
 
