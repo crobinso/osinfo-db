@@ -1,21 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Tomoyuki KATO <tomo@dream.daynight.jp>, 2013
-# Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
+# This file is distributed under the same license as the osinfo-db package.
 # simmon <simmon@nplob.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-19 13:50+0100\n"
-"PO-Revision-Date: 2021-04-05 14:01+0000\n"
+"PO-Revision-Date: 2021-04-05 14:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
-"Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
-"libosinfo/osinfo-db/ja/>\n"
-"Language: ja\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"libosinfo/osinfo-db/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,48 +20,48 @@ msgstr ""
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
-msgstr ""
+msgstr "ib700"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:5
 msgid "keyboard"
-msgstr ""
+msgstr "키보드"
 
 #: data/device/ibm.com/ps2-keyboard.xml.in:8
 #: data/device/ibm.com/ps2-mouse.xml.in:8
 msgid "Qemu/KVM"
-msgstr "QEMU/KVM"
+msgstr "Qemu/KVM"
 
 #: data/device/ibm.com/ps2-mouse.xml.in:5
 msgid "mouse"
-msgstr ""
+msgstr "마우스"
 
 #: data/device/pcisig.com/pci-1000-0012.d/class.xml.in:5
 msgid "lsi"
-msgstr ""
+msgstr "lsi"
 
 #: data/device/pcisig.com/pci-1013-00b8.d/class.xml.in:5
 msgid "cirrus"
-msgstr ""
+msgstr "cirrus"
 
 #: data/device/pcisig.com/pci-1022-2000.d/class.xml.in:5
 msgid "pcnet"
-msgstr ""
+msgstr "pcnet"
 
 #: data/device/pcisig.com/pci-1033-0194.d/class.xml.in:5
 msgid "nec-xhci"
-msgstr ""
+msgstr "nec-xhci"
 
 #: data/device/pcisig.com/pci-10ec-8029.d/class.xml.in:5
 msgid "ne2k_pci"
-msgstr ""
+msgstr "ne2k_pci"
 
 #: data/device/pcisig.com/pci-10ec-8139.d/class.xml.in:5
 msgid "rtl8139"
-msgstr ""
+msgstr "rtl8139"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:5
 msgid "vga"
-msgstr ""
+msgstr "vga"
 
 #: data/device/pcisig.com/pci-1234-1111.xml.in:8
 msgid "QEMU"
@@ -73,168 +69,163 @@ msgstr "QEMU"
 
 #: data/device/pcisig.com/pci-1274-5000.d/class.xml.in:5
 msgid "es1370"
-msgstr ""
+msgstr "es1370"
 
 #: data/device/pcisig.com/pci-15ad-0710.d/class.xml.in:5
 msgid "vmvga"
-msgstr ""
+msgstr "vmvga"
 
 #: data/device/pcisig.com/pci-1af4-1000.d/class.xml.in:5
 msgid "virtio-net"
-msgstr ""
+msgstr "virtio-net"
 
 #: data/device/pcisig.com/pci-1af4-1001.d/class.xml.in:5
 msgid "virtio-block"
-msgstr ""
+msgstr "virtio-block"
 
 #: data/device/pcisig.com/pci-1af4-1002.d/class.xml.in:5
 msgid "virtio-balloon"
-msgstr ""
+msgstr "virtio-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1003.d/class.xml.in:5
 msgid "virtio-console"
-msgstr ""
+msgstr "virtio-console"
 
 #: data/device/pcisig.com/pci-1af4-1004.d/class.xml.in:5
 msgid "virtio-scsi"
-msgstr ""
+msgstr "virtio-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1005.d/class.xml.in:5
 msgid "virtio-rng"
-msgstr ""
+msgstr "virtio-rng"
 
 #: data/device/pcisig.com/pci-1af4-1009.d/class.xml.in:5
 msgid "virtio-9p"
-msgstr ""
+msgstr "virtio-9p"
 
 #: data/device/pcisig.com/pci-1af4-1041.d/class.xml.in:5
 msgid "virtio1.0-net"
-msgstr ""
+msgstr "virtio1.0-net"
 
 #: data/device/pcisig.com/pci-1af4-1042.d/class.xml.in:5
 msgid "virtio1.0-block"
-msgstr ""
+msgstr "virtio1.0-block"
 
 #: data/device/pcisig.com/pci-1af4-1043.d/class.xml.in:5
 msgid "virtio1.0-console"
-msgstr ""
+msgstr "virtio1.0-console"
 
 #: data/device/pcisig.com/pci-1af4-1044.d/class.xml.in:5
 msgid "virtio1.0-rng"
-msgstr ""
+msgstr "virtio1.0-rng"
 
 #: data/device/pcisig.com/pci-1af4-1045.d/class.xml.in:5
 msgid "virtio1.0-balloon"
-msgstr ""
+msgstr "virtio1.0-balloon"
 
 #: data/device/pcisig.com/pci-1af4-1048.d/class.xml.in:5
 msgid "virtio1.0-scsi"
-msgstr ""
+msgstr "virtio1.0-scsi"
 
 #: data/device/pcisig.com/pci-1af4-1049.d/class.xml.in:5
 msgid "virtio1.0-9p"
-msgstr ""
+msgstr "virtio1.0-9p"
 
 #: data/device/pcisig.com/pci-1af4-1050.d/class.xml.in:5
 msgid "virtio1.0-gpu"
-msgstr ""
+msgstr "virtio1.0-gpu"
 
 #: data/device/pcisig.com/pci-1af4-1052.d/class.xml.in:5
 msgid "virtio1.0-input"
-msgstr ""
+msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
-msgstr ""
+msgstr "virtio1.0-fs"
 
 #: data/device/pcisig.com/pci-1b36-0004.d/class.xml.in:5
 msgid "qemu-xhci"
-msgstr ""
+msgstr "qemu-xhci"
 
 #: data/device/pcisig.com/pci-1b36-0100.d/class.xml.in:5
 msgid "qxl"
-msgstr ""
+msgstr "qxl"
 
 #: data/device/pcisig.com/pci-8086-100e.d/class.xml.in:5
 msgid "e1000"
-msgstr ""
+msgstr "e1000"
 
 #: data/device/pcisig.com/pci-8086-10d3.d/class.xml.in:5
 msgid "e1000e"
-msgstr ""
+msgstr "e1000e"
 
 #: data/device/pcisig.com/pci-8086-2415.d/class.xml.in:5
 msgid "ac97"
-msgstr ""
+msgstr "ac97"
 
 #: data/device/pcisig.com/pci-8086-25ab.d/class.xml.in:5
 msgid "6300esb"
-msgstr ""
+msgstr "6300esb"
 
 #: data/device/pcisig.com/pci-8086-2668.d/class.xml.in:5
 msgid "ich6"
-msgstr ""
+msgstr "ich6"
 
 #: data/device/pcisig.com/pci-8086-293e.d/class.xml.in:5
 msgid "ich9-hda"
-msgstr ""
+msgstr "ich9-hda"
 
 #: data/device/qemu.org/chipset-x86-q35.xml.in:5
 msgid "qemu-x86-q35"
-msgstr ""
+msgstr "qemu-x86-q35"
 
 #: data/device/usb.org/usb-80ee-0021.d/class.xml.in:5
 msgid "tablet"
-msgstr ""
+msgstr "테블릿"
 
 #: data/device/xen.org/xen-console.xml.in:9
 msgid "xen-console"
-msgstr ""
+msgstr "xen-console"
 
 #: data/device/xen.org/xen-pci.xml.in:9
 msgid "xen-pci"
-msgstr ""
+msgstr "xen-pci"
 
 #: data/device/xen.org/xen-vbd.xml.in:9
 msgid "xen-vbd"
-msgstr ""
+msgstr "xen-vbd"
 
 #: data/device/xen.org/xen-vfb.xml.in:9
 msgid "xen-vfb"
-msgstr ""
+msgstr "xen-vfb"
 
 #: data/device/xen.org/xen-vif.xml.in:9
 msgid "xen-vif"
-msgstr ""
+msgstr "xen-vif"
 
 #: data/device/xen.org/xen-vkbd.xml.in:9
 msgid "xen-vkbd"
-msgstr ""
+msgstr "xen-vkbd"
 
 #: data/device/xen.org/xen-vscsi.xml.in:9
 msgid "xen-vscsi"
-msgstr ""
+msgstr "xen-vscsi"
 
 #: data/device/xen.org/xen-vtpm.xml.in:8
 msgid "xen-vtpm"
-msgstr ""
+msgstr "xen-vtpm"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:5
-#, fuzzy
-#| msgid "Red Hat Linux 7"
 msgid "AlmaLinux 8"
-msgstr "Red Hat Linux 7"
+msgstr "AlmaLinux 8"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:7
-#, fuzzy
-#| msgid "Red Hat Linux 7"
 msgid "AlmaLinux"
-msgstr "Red Hat Linux 7"
+msgstr "AlmaLinux"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
-#, fuzzy
 msgid "Alpine Linux 3.10"
-msgstr "Mandrake Linux 5.1"
+msgstr "알파인 리눅스 3.10"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
@@ -246,143 +237,139 @@ msgstr "Mandrake Linux 5.1"
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:9
 msgid "Alpine Linux Project"
-msgstr ""
+msgstr "알파인 리눅스 프로젝트"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:34
 msgid "Alpinelinux 3.10 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.10 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:37
 msgid "Alpinelinux 3.10 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.10 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:40
 msgid "Alpinelinux 3.10 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.10 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:43
 msgid "Alpinelinux 3.10 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:7
-#, fuzzy
 msgid "Alpine Linux 3.11"
-msgstr "Mandrake Linux 5.1"
+msgstr "알파인 리눅스 3.11"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
 msgid "Alpinelinux 3.11 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.11 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
 msgid "Alpinelinux 3.11 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.11 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
 msgid "Alpinelinux 3.11 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.11 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
 msgid "Alpinelinux 3.11 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.11 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:7
-#, fuzzy
 msgid "Alpine Linux 3.12"
-msgstr "Mandrake Linux 6.1"
+msgstr "알파인 리눅스 3.12"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:34
 msgid "Alpinelinux 3.12 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.12 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:37
 msgid "Alpinelinux 3.12 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.12 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:40
 msgid "Alpinelinux 3.12 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.12 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:43
 msgid "Alpinelinux 3.12 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.12 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:7
-#, fuzzy
 msgid "Alpine Linux 3.13"
-msgstr "Mandrake Linux 6.1"
+msgstr "알파인 리눅스 3.13"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
 msgid "Alpinelinux 3.13 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.13 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
 msgid "Alpinelinux 3.13 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.13 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
 msgid "Alpinelinux 3.13 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.13 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 msgid "Alpinelinux 3.13 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
-msgstr ""
+msgstr "알파인 리눅스 3.5"
 
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:7
 msgid "Alpine Linux 3.6"
-msgstr ""
+msgstr "알파인 리눅스 3.6"
 
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:7
 msgid "Alpine Linux 3.7"
-msgstr ""
+msgstr "알파인 리눅스 3.7"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:7
 msgid "Alpine Linux 3.8"
-msgstr ""
+msgstr "알파인 리눅스 3.8"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:34
 msgid "Alpinelinux 3.8 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.8 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:37
 msgid "Alpinelinux 3.8 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.8 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:40
 msgid "Alpinelinux 3.8 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.8 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.8.xml.in:43
 msgid "Alpinelinux 3.8 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:7
-#, fuzzy
 msgid "Alpine Linux 3.9"
-msgstr "Mandrake Linux 5.1"
+msgstr "알파인 리눅스 3.9"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:34
 msgid "Alpinelinux 3.9 Standard"
-msgstr ""
+msgstr "알파인리눅스 3.9 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:37
 msgid "Alpinelinux 3.9 Extended"
-msgstr ""
+msgstr "알파인리눅스 3.9 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:40
 msgid "Alpinelinux 3.9 Virtual"
-msgstr ""
+msgstr "알파인리눅스 3.9 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.9.xml.in:43
 msgid "Alpinelinux 3.9 Xen"
-msgstr ""
+msgstr "알파인리눅스 3.9 Xen"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
-msgstr ""
+msgstr "ALT 8 교육"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
@@ -391,125 +378,122 @@ msgstr ""
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
 msgid "BaseALT"
-msgstr ""
+msgstr "기본 ALT"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:6
 msgid "ALT 8.1"
-msgstr ""
+msgstr "ALT 8.1"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:19
 msgid "ALT 8.1 Workstation"
-msgstr ""
+msgstr "ALT 8.1 웍스테이션"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:22
 #: data/os/altlinux.org/alt-8.1.xml.in:25
 msgid "ALT 8.1 Workstation K"
-msgstr ""
+msgstr "ALT 8.1 웍스테이션 K"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:6
 msgid "ALT 8.2"
-msgstr ""
+msgstr "ALT 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:19
 msgid "ALT 8.2 Workstation"
-msgstr ""
+msgstr "ALT 8.2 웍스테이션"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:22
 #: data/os/altlinux.org/alt-8.2.xml.in:25
 msgid "ALT 8.2 Workstation K"
-msgstr ""
+msgstr "ALT 8.2 웍스테이션 K"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:28
-#, fuzzy
 msgid "ALT 8.2 Server"
-msgstr "Fedora 12"
+msgstr "ALT 8.2 서버"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:31
 #: data/os/altlinux.org/alt-8.2.xml.in:34
 msgid "ALT 8.2 Simply"
-msgstr ""
+msgstr "ALT 8.2 간편"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:6
 msgid "ALT 9.0"
-msgstr ""
+msgstr "ALT 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:21
 msgid "ALT Workstation 9.0"
-msgstr ""
+msgstr "ALT 웍스테이션 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
 msgid "ALT Workstation K 9.0"
-msgstr ""
+msgstr "ALT 9.0 웍스테이션 K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
-msgstr ""
+msgstr "ALT 교육용 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Server 9.0"
-msgstr ""
+msgstr "ALT 서버 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:33
 msgid "ALT Virtualization Server 9.0"
-msgstr ""
+msgstr "ALT 가상 서버 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:36
 msgid "ALT Simply 9.0"
-msgstr ""
+msgstr "ALT 간편용 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:39
 msgid "ALT Simply live 9.0"
-msgstr ""
+msgstr "ALT 간편용 라이브 9.0"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
 msgid "ALT 9.1"
-msgstr ""
+msgstr "ALT 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
-#, fuzzy
 msgid "ALT Workstation 9.1"
-msgstr "Fedora 12"
+msgstr "ALT 웍스테이션 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:22
 msgid "ALT Workstation K 9.1"
-msgstr ""
+msgstr "ALT 웍스테이션 K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
 msgid "ALT Education 9.1"
-msgstr ""
+msgstr "ALT 교육용 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
-#, fuzzy
 msgid "ALT Server 9.1"
-msgstr "Fedora 12"
+msgstr "ALT 서버 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:31
 msgid "ALT Virtualization Server 9.1"
-msgstr ""
+msgstr "ALT 가상화 서버 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:34
 msgid "ALT Simply 9.1"
-msgstr ""
+msgstr "ALT 간편용 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply live 9.1"
-msgstr ""
+msgstr "ALT 간편용 라이브 9.1"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
-msgstr ""
+msgstr "ALT p8 시작용구성"
 
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:6
 msgid "ALT p9 StarterKits"
-msgstr ""
+msgstr "ALT p9 시작용구성"
 
 #: data/os/altlinux.org/alt-sisyphus.xml.in:6
 msgid "ALT regular"
-msgstr ""
+msgstr "ALT 정규"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:6
 msgid "Mandrake RE Spring 2001"
-msgstr ""
+msgstr "맨드레이크 RE Spring 2001"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:8
 #: data/os/altlinux.org/altlinux-2.0.xml.in:8
@@ -522,60 +506,60 @@ msgstr ""
 #: data/os/altlinux.org/altlinux-6.0.xml.in:8
 #: data/os/altlinux.org/altlinux-7.0.xml.in:8
 msgid "ALTLinux"
-msgstr ""
+msgstr "ALT리눅스"
 
 #: data/os/altlinux.org/altlinux-2.0.xml.in:6
 msgid "ALT Linux 2.0"
-msgstr ""
+msgstr "ALT 리눅스 2.0"
 
 #: data/os/altlinux.org/altlinux-2.2.xml.in:6
 msgid "ALT Linux 2.2"
-msgstr ""
+msgstr "ALT 리눅스 2.2"
 
 #: data/os/altlinux.org/altlinux-2.4.xml.in:6
 msgid "ALT Linux 2.4"
-msgstr ""
+msgstr "ALT 리눅스 2.4"
 
 #: data/os/altlinux.org/altlinux-3.0.xml.in:6
 msgid "ALT Linux 3.0"
-msgstr ""
+msgstr "ALT 리눅스 3.0"
 
 #: data/os/altlinux.org/altlinux-4.0.xml.in:6
 msgid "ALT Linux 4.0"
-msgstr ""
+msgstr "ALT 리눅스 4.0"
 
 #: data/os/altlinux.org/altlinux-4.1.xml.in:6
 msgid "ALT Linux 4.1"
-msgstr ""
+msgstr "ALT 리눅스 4.1"
 
 #: data/os/altlinux.org/altlinux-5.0.xml.in:6
 msgid "ALT Linux 5.0"
-msgstr ""
+msgstr "ALT 리눅스 5.0"
 
 #: data/os/altlinux.org/altlinux-6.0.xml.in:6
 msgid "ALT Linux 6.0"
-msgstr ""
+msgstr "ALT 리눅스 6.0"
 
 #: data/os/altlinux.org/altlinux-7.0.xml.in:6
 msgid "ALT Linux 7.0"
-msgstr ""
+msgstr "ALT 리눅스 7.0"
 
 #: data/os/android-x86.org/android-x86-8.1.xml.in:6
 msgid "Android-x86 8.1"
-msgstr ""
+msgstr "안드로이드-x86 8.1"
 
 #: data/os/android-x86.org/android-x86-8.1.xml.in:8
 #: data/os/android-x86.org/android-x86-9.0.xml.in:8
 msgid "Android-x86"
-msgstr ""
+msgstr "안드로이드-x86"
 
 #: data/os/android-x86.org/android-x86-9.0.xml.in:6
 msgid "Android-x86 9.0"
-msgstr ""
+msgstr "안드로이드-x86 9.0"
 
 #: data/os/apple.com/macosx-10.0.xml.in:6
 msgid "MacOS X Cheetah"
-msgstr "MacOS X Cheetah"
+msgstr "맥OS X 치타"
 
 #: data/os/apple.com/macosx-10.0.xml.in:8
 #: data/os/apple.com/macosx-10.1.xml.in:8
@@ -590,40 +574,40 @@ msgstr "Apple Inc."
 
 #: data/os/apple.com/macosx-10.1.xml.in:6
 msgid "MacOS X Puma"
-msgstr "MacOS X Puma"
+msgstr "맥OS X 퓨마"
 
 #: data/os/apple.com/macosx-10.2.xml.in:6
 msgid "MacOS X Jaguar"
-msgstr ""
+msgstr "맥OS X 재규어"
 
 #: data/os/apple.com/macosx-10.3.xml.in:6
 msgid "MacOS X Panther"
-msgstr "MacOS X Panther"
+msgstr "맥OS X 표범(Panther)"
 
 #: data/os/apple.com/macosx-10.4.xml.in:6
 msgid "MacOS X Tiger"
-msgstr "MacOS X Tiger"
+msgstr "맥OS X 호랑이"
 
 #: data/os/apple.com/macosx-10.5.xml.in:6
 msgid "MacOS X Leopard"
-msgstr "MacOS X Leopard"
+msgstr "맥OS 표범(Leopard)"
 
 #: data/os/apple.com/macosx-10.6.xml.in:6
 msgid "MacOS X Snow Leopard"
-msgstr "MacOS X Snow Leopard"
+msgstr "MacOS X 눈 표범"
 
 #: data/os/apple.com/macosx-10.7.xml.in:6
 msgid "MacOS X Lion"
-msgstr "MacOS X Lion"
+msgstr "MacOS X 사자"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:6
 #: data/os/archlinux.org/archlinux-rolling.xml.in:7
 msgid "Arch Linux"
-msgstr ""
+msgstr "아치리눅스"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
-msgstr ""
+msgstr "Asianux 서버 4 SP6"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:7
 #: data/os/asianux.com/asianux-4.7.xml.in:7
@@ -633,43 +617,40 @@ msgstr ""
 #: data/os/asianux.com/asianux-7.3.xml.in:8
 #: data/os/asianux.com/asianux-8.0.xml.in:8
 #: data/os/asianux.com/asianux-unknown.xml.in:8
-#, fuzzy
-#| msgid "Debian Project"
 msgid "Asianux Project"
-msgstr "Debian プロジェクト"
+msgstr "Asianux 프로젝트"
 
 #: data/os/asianux.com/asianux-4.7.xml.in:6
 msgid "Asianux Server 4 SP7"
-msgstr ""
+msgstr "Asianux 서버 4 SP7"
 
 #: data/os/asianux.com/asianux-7.0.xml.in:6
 msgid "Asianux Server 7"
-msgstr ""
+msgstr "Asianux 서버 7"
 
 #: data/os/asianux.com/asianux-7.1.xml.in:6
 msgid "Asianux Server 7 SP1"
-msgstr ""
+msgstr "Asianux 서버 7 SP1"
 
 #: data/os/asianux.com/asianux-7.2.xml.in:6
 msgid "Asianux Server 7 SP2"
-msgstr ""
+msgstr "Asianux 서버 7 SP2"
 
 #: data/os/asianux.com/asianux-7.3.xml.in:6
 msgid "Asianux Server 7 SP3"
-msgstr ""
+msgstr "Asianux 서버 7 SP3"
 
 #: data/os/asianux.com/asianux-8.0.xml.in:6
 msgid "Asianux Server 8"
-msgstr ""
+msgstr "Asianux 서버 8"
 
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
-msgstr ""
+msgstr "Asianux 알지 못함"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
-#, fuzzy
 msgid "CentOS 5.0"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.0"
 
 #: data/os/centos.org/centos-5.0.xml.in:8
 #: data/os/centos.org/centos-5.1.xml.in:8
@@ -697,142 +678,124 @@ msgstr "CentOS 6.0"
 #: data/os/centos.org/centos-7.0.xml.in:9 data/os/centos.org/centos-8.xml.in:8
 #: data/os/centos.org/centos-stream-8.xml.in:8
 msgid "CentOS"
-msgstr "CentOS"
+msgstr "센트오에스"
 
 #: data/os/centos.org/centos-5.1.xml.in:6
-#, fuzzy
 msgid "CentOS 5.1"
-msgstr "CentOS 6.1"
+msgstr "센트오에스 5.1"
 
 #: data/os/centos.org/centos-5.10.xml.in:6
-#, fuzzy
 msgid "CentOS 5.10"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.10"
 
 #: data/os/centos.org/centos-5.11.xml.in:6
-#, fuzzy
 msgid "CentOS 5.11"
-msgstr "CentOS 6.1"
+msgstr "센트오에스 5.11"
 
 #: data/os/centos.org/centos-5.2.xml.in:6
-#, fuzzy
 msgid "CentOS 5.2"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.2"
 
 #: data/os/centos.org/centos-5.3.xml.in:6
-#, fuzzy
 msgid "CentOS 5.3"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.3"
 
 #: data/os/centos.org/centos-5.4.xml.in:6
-#, fuzzy
 msgid "CentOS 5.4"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.4"
 
 #: data/os/centos.org/centos-5.5.xml.in:6
-#, fuzzy
 msgid "CentOS 5.5"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.5"
 
 #: data/os/centos.org/centos-5.6.xml.in:6
-#, fuzzy
 msgid "CentOS 5.6"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.6"
 
 #: data/os/centos.org/centos-5.7.xml.in:6
-#, fuzzy
 msgid "CentOS 5.7"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.7"
 
 #: data/os/centos.org/centos-5.8.xml.in:6
-#, fuzzy
 msgid "CentOS 5.8"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.8"
 
 #: data/os/centos.org/centos-5.9.xml.in:6
-#, fuzzy
 msgid "CentOS 5.9"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 5.9"
 
 #: data/os/centos.org/centos-6.0.xml.in:6
 msgid "CentOS 6.0"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 6.0"
 
 #: data/os/centos.org/centos-6.1.xml.in:6
 msgid "CentOS 6.1"
-msgstr "CentOS 6.1"
+msgstr "센트오에스 6.1"
 
 #: data/os/centos.org/centos-6.10.xml.in:6
-#, fuzzy
 msgid "CentOS 6.10"
-msgstr "CentOS 6.1"
+msgstr "센트오에스 6.10"
 
 #: data/os/centos.org/centos-6.2.xml.in:6
 msgid "CentOS 6.2"
-msgstr ""
+msgstr "센트오에스 6.2"
 
 #: data/os/centos.org/centos-6.3.xml.in:6
 msgid "CentOS 6.3"
-msgstr ""
+msgstr "센트오에스 6.3"
 
 #: data/os/centos.org/centos-6.4.xml.in:6
 msgid "CentOS 6.4"
-msgstr ""
+msgstr "센트오에스 6.4"
 
 #: data/os/centos.org/centos-6.5.xml.in:6
 msgid "CentOS 6.5"
-msgstr ""
+msgstr "센트오에스 6.5"
 
 #: data/os/centos.org/centos-6.6.xml.in:6
-#, fuzzy
 msgid "CentOS 6.6"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 6.6"
 
 #: data/os/centos.org/centos-6.7.xml.in:6
-#, fuzzy
 msgid "CentOS 6.7"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 6.7"
 
 #: data/os/centos.org/centos-6.8.xml.in:6
 msgid "CentOS 6.8"
-msgstr ""
+msgstr "센트오에스 6.8"
 
 #: data/os/centos.org/centos-6.9.xml.in:6
 msgid "CentOS 6.9"
-msgstr ""
+msgstr "센트오에스 6.9"
 
 #: data/os/centos.org/centos-7.0.xml.in:7
 #: data/os/centos.org/centos-7.0.xml.in:19
 #: data/os/centos.org/centos-7.0.xml.in:28
 #: data/os/centos.org/centos-7.0.xml.in:31
 #: data/os/centos.org/centos-7.0.xml.in:34
-#, fuzzy
 msgid "CentOS 7"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 7"
 
 #: data/os/centos.org/centos-7.0.xml.in:22
-#, fuzzy
 msgid "CentOS 7 (GNOME)"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 7 (그놈)"
 
 #: data/os/centos.org/centos-7.0.xml.in:25
-#, fuzzy
 msgid "CentOS 7 (KDE)"
-msgstr "CentOS 6.0"
+msgstr "센트오에스 7 (KDE)"
 
 #: data/os/centos.org/centos-8.xml.in:6 data/os/centos.org/centos-8.xml.in:18
-#, fuzzy
 msgid "CentOS 8"
-msgstr "CentOS"
+msgstr "센트오에스 8"
 
 #: data/os/centos.org/centos-stream-8.xml.in:6
 #: data/os/centos.org/centos-stream-8.xml.in:43
 msgid "CentOS Stream 8"
-msgstr ""
+msgstr "센트오에스 스트림 8"
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:6
 msgid "CirrOS 0.3.0"
-msgstr ""
+msgstr "CirrOS 0.3.0"
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:8
@@ -842,48 +805,43 @@ msgstr ""
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:8
 msgid "CirrOS"
-msgstr ""
+msgstr "CirrOS"
 
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:6
 msgid "CirrOS 0.3.1"
-msgstr ""
+msgstr "CirrOS 0.3.1"
 
 #: data/os/cirros-cloud.net/cirros-0.3.2.xml.in:6
 msgid "CirrOS 0.3.2"
-msgstr ""
+msgstr "CirrOS 0.3.2"
 
 #: data/os/cirros-cloud.net/cirros-0.3.3.xml.in:6
 msgid "CirrOS 0.3.3"
-msgstr ""
+msgstr "CirrOS 0.3.3"
 
 #: data/os/cirros-cloud.net/cirros-0.3.4.xml.in:6
 msgid "CirrOS 0.3.4"
-msgstr ""
+msgstr "CirrOS 0.3.4"
 
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:6
 msgid "CirrOS 0.3.5"
-msgstr ""
+msgstr "CirrOS 0.3.5"
 
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:6
 msgid "CirrOS 0.4.0"
-msgstr ""
+msgstr "CirrOS 0.4.0"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Linux 7"
 msgid "Clear Linux OS"
-msgstr "Red Hat Linux 7"
+msgstr "Clear 리눅스 OS"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:7
-#, fuzzy
-#| msgid "Microsoft Corporation"
 msgid "Intel Corporation"
-msgstr "Microsoft Corporation"
+msgstr "인텔"
 
 #: data/os/debian.org/debian-1.1.xml.in:7
-#, fuzzy
 msgid "Debian GNU/Linux 1.1"
-msgstr "Red Hat Linux 1.1"
+msgstr "데비안 GNU/Linux 1.1"
 
 #: data/os/debian.org/debian-1.1.xml.in:9
 #: data/os/debian.org/debian-1.2.xml.in:9
@@ -897,113 +855,97 @@ msgstr "Red Hat Linux 1.1"
 #: data/os/debian.org/debian-8.xml.in:9 data/os/debian.org/debian-9.xml.in:9
 #: data/os/debian.org/debian-testing.xml.in:8
 msgid "Debian Project"
-msgstr "Debian プロジェクト"
+msgstr "데비안 프로젝트"
 
 #: data/os/debian.org/debian-1.2.xml.in:7
-#, fuzzy
 msgid "Debian GNU/Linux 1.2"
-msgstr "Mandrake Linux 10.2"
+msgstr "데비안 GNU/Linux 1.2"
 
 #: data/os/debian.org/debian-1.3.xml.in:7
 msgid "Debian GNU/Linux 1.3"
-msgstr ""
+msgstr "데비안 GNU/Linux 1.3"
 
 #: data/os/debian.org/debian-10.xml.in:7 data/os/debian.org/debian-10.xml.in:33
 #: data/os/debian.org/debian-10.xml.in:36
-#, fuzzy
 msgid "Debian 10"
-msgstr "Debian Bo"
+msgstr "데비안 10"
 
 #: data/os/debian.org/debian-10.xml.in:39
-#, fuzzy
 msgid "Debian 10 (OpenStack)"
-msgstr "Debian Bo"
+msgstr "데비안 10 (오픈스택)"
 
 #: data/os/debian.org/debian-10.xml.in:42
-#, fuzzy
 msgid "Debian 10 (Generic)"
-msgstr "Debian Bo"
+msgstr "데비안 10 (일반)"
 
 #: data/os/debian.org/debian-10.xml.in:45
 msgid "Debian 10 (Generic Cloud)"
-msgstr ""
+msgstr "데비안 10 (일반 클라우드)"
 
 #: data/os/debian.org/debian-10.xml.in:48
-#, fuzzy
-#| msgid "Debian Woody"
 msgid "Debian 10 (No Cloud)"
-msgstr "Debian Woody"
+msgstr "데비안 10 (클라우드 아님)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
-#, fuzzy
 msgid "Debian GNU/Linux 2.0"
-msgstr "Red Hat Linux 2.0"
+msgstr "데바안 GNU/리눅스 2.0"
 
 #: data/os/debian.org/debian-2.1.xml.in:7
-#, fuzzy
 msgid "Debian GNU/Linux 2.1"
-msgstr "Red Hat Linux 2.1"
+msgstr "데비안 GNU/Linux 2.1"
 
 #: data/os/debian.org/debian-2.2.xml.in:7
 msgid "Debian GNU/Linux 2.2"
-msgstr ""
+msgstr "데비안 GNU/Linux 2.2"
 
 #: data/os/debian.org/debian-3.1.xml.in:7
 msgid "Debian GNU/Linux 3.1"
-msgstr ""
+msgstr "데비안 GNU/Linux 3.1"
 
 #: data/os/debian.org/debian-3.xml.in:8
-#, fuzzy
 msgid "Debian GNU/Linux 3.0"
-msgstr "Red Hat Linux 3.0.3"
+msgstr "데비안 GNU/Linux 3.0"
 
 #: data/os/debian.org/debian-4.xml.in:8
-#, fuzzy
 msgid "Debian GNU/Linux 4.0"
-msgstr "Red Hat Linux 4.0"
+msgstr "데비안 GNU/Linux 4.0"
 
 #: data/os/debian.org/debian-5.xml.in:8
-#, fuzzy
 msgid "Debian GNU/Linux 5.0"
-msgstr "Red Hat Linux 5.0"
+msgstr "데비안 GNU/Linux 5.0"
 
 #: data/os/debian.org/debian-6.xml.in:8
-#, fuzzy
 msgid "Debian 6.0"
-msgstr "Debian Bo"
+msgstr "데비안 6.0"
 
 #: data/os/debian.org/debian-7.xml.in:7
-#, fuzzy
 msgid "Debian 7"
-msgstr "Debian Bo"
+msgstr "데비안 7"
 
 #: data/os/debian.org/debian-8.xml.in:7
-#, fuzzy
 msgid "Debian 8"
-msgstr "Debian Bo"
+msgstr "데비안 8"
 
 #: data/os/debian.org/debian-9.xml.in:7 data/os/debian.org/debian-9.xml.in:47
 #: data/os/debian.org/debian-9.xml.in:50
 msgid "Debian 9"
-msgstr ""
+msgstr "데비안 9"
 
 #: data/os/debian.org/debian-9.xml.in:53
 msgid "Debian 9 (OpenStack)"
-msgstr ""
+msgstr "데바안 9 (오픈스택)"
 
 #: data/os/debian.org/debian-testing.xml.in:6
-#, fuzzy
 msgid "Debian testing"
-msgstr "Debian Lenny"
+msgstr "데비안 시험"
 
 #: data/os/debian.org/debian-testing.xml.in:29
-#, fuzzy
 msgid "Debian testing (OpenStack)"
-msgstr "Debian Lenny"
+msgstr "데비안 시험 (오픈스택)"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:10
 #: data/os/dragonflybsd.org/dragonflybsd-1.0A.xml.in:10
@@ -1071,282 +1013,280 @@ msgstr ""
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.2.xml.in:10
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.3.xml.in:10
 #: data/os/dragonflybsd.org/dragonflybsd-5.6.xml.in:10
-#, fuzzy
 msgid "DragonFlyBSD Project"
-msgstr "FreeBSD プロジェクト"
+msgstr "DragonFlyBSD 프로젝트"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.0A.xml.in:6
 msgid "DragonFlyBSD 1.0A"
-msgstr ""
+msgstr "DragonFlyBSD 1.0A"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.10.0.xml.in:6
 msgid "DragonFlyBSD 1.10.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.10.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.10.1.xml.in:6
 msgid "DragonFlyBSD 1.10.1"
-msgstr ""
+msgstr "DragonFlyBSD 1.10.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.0.xml.in:6
 msgid "DragonFlyBSD 1.12.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.12.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.1.xml.in:6
 msgid "DragonFlyBSD 1.12.1"
-msgstr ""
+msgstr "DragonFlyBSD 1.12.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.12.2.xml.in:6
 msgid "DragonFlyBSD 1.12.2"
-msgstr ""
+msgstr "DragonFlyBSD 1.12.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.0.xml.in:6
 msgid "DragonFlyBSD 1.2.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.1.xml.in:6
 msgid "DragonFlyBSD 1.2.1"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.2.xml.in:6
 msgid "DragonFlyBSD 1.2.2"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.3.xml.in:6
 msgid "DragonFlyBSD 1.2.3"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.4.xml.in:6
 msgid "DragonFlyBSD 1.2.4"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.4"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.5.xml.in:6
 msgid "DragonFlyBSD 1.2.5"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.5"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.2.6.xml.in:6
 msgid "DragonFlyBSD 1.2.6"
-msgstr ""
+msgstr "DragonFlyBSD 1.2.6"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.4.0.xml.in:6
 msgid "DragonFlyBSD 1.4.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.4.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.4.4.xml.in:6
 msgid "DragonFlyBSD 1.4.4"
-msgstr ""
+msgstr "DragonFlyBSD 1.4.4"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.6.0.xml.in:6
 msgid "DragonFlyBSD 1.6.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.6.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.8.0.xml.in:6
 msgid "DragonFlyBSD 1.8.0"
-msgstr ""
+msgstr "DragonFlyBSD 1.8.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-1.8.1.xml.in:6
 msgid "DragonFlyBSD 1.8.1"
-msgstr ""
+msgstr "DragonFlyBSD 1.8.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.0.0.xml.in:6
 msgid "DragonFlyBSD 2.0.0"
-msgstr ""
+msgstr "DragonFlyBSD 2.0.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.0.1.xml.in:6
 msgid "DragonFlyBSD 2.0.1"
-msgstr ""
+msgstr "DragonFlyBSD 2.0.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.10.1.xml.in:6
 msgid "DragonFlyBSD 2.10.1"
-msgstr ""
+msgstr "DragonFlyBSD 2.10.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.2.0.xml.in:6
 msgid "DragonFlyBSD 2.2.0"
-msgstr ""
+msgstr "DragonFlyBSD 2.2.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.2.1.xml.in:6
 msgid "DragonFlyBSD 2.2.1"
-msgstr ""
+msgstr "DragonFlyBSD 2.2.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.4.0.xml.in:6
 msgid "DragonFlyBSD 2.4.0"
-msgstr ""
+msgstr "DragonFlyBSD 2.4.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.4.1.xml.in:6
 msgid "DragonFlyBSD 2.4.1"
-msgstr ""
+msgstr "DragonFlyBSD 2.4.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.1.xml.in:6
 msgid "DragonFlyBSD 2.6.1"
-msgstr ""
+msgstr "DragonFlyBSD 2.6.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.2.xml.in:6
 msgid "DragonFlyBSD 2.6.2"
-msgstr ""
+msgstr "DragonFlyBSD 2.6.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.6.3.xml.in:6
 msgid "DragonFlyBSD 2.6.3"
-msgstr ""
+msgstr "DragonFlyBSD 2.6.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-2.8.2.xml.in:6
 msgid "DragonFlyBSD 2.8.2"
-msgstr ""
+msgstr "DragonFlyBSD 2.8.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.0.1.xml.in:6
 msgid "DragonFlyBSD 3.0.1"
-msgstr ""
+msgstr "DragonFlyBSD 3.0.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.2.1.xml.in:6
 msgid "DragonFlyBSD 3.2.1"
-msgstr ""
+msgstr "DragonFlyBSD 3.2.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.1.xml.in:6
 msgid "DragonFlyBSD 3.4.1"
-msgstr ""
+msgstr "DragonFlyBSD 3.4.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.2.xml.in:6
 msgid "DragonFlyBSD 3.4.2"
-msgstr ""
+msgstr "DragonFlyBSD 3.4.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.4.3.xml.in:6
 msgid "DragonFlyBSD 3.4.3"
-msgstr ""
+msgstr "DragonFlyBSD 3.4.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.0.xml.in:6
 msgid "DragonFlyBSD 3.6.0"
-msgstr ""
+msgstr "DragonFlyBSD 3.6.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.1.xml.in:6
 msgid "DragonFlyBSD 3.6.1"
-msgstr ""
+msgstr "DragonFlyBSD 3.6.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.6.2.xml.in:6
 msgid "DragonFlyBSD 3.6.2"
-msgstr ""
+msgstr "DragonFlyBSD 3.6.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.0.xml.in:6
 msgid "DragonFlyBSD 3.8.0"
-msgstr ""
+msgstr "DragonFlyBSD 3.8.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.1.xml.in:6
 msgid "DragonFlyBSD 3.8.1"
-msgstr ""
+msgstr "DragonFlyBSD 3.8.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-3.8.2.xml.in:6
 msgid "DragonFlyBSD 3.8.2"
-msgstr ""
+msgstr "DragonFlyBSD 3.8.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.0.0.xml.in:6
 msgid "DragonFlyBSD 4.0.0"
-msgstr ""
+msgstr "DragonFlyBSD 4.0.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.0.1.xml.in:6
 msgid "DragonFlyBSD 4.0.1"
-msgstr ""
+msgstr "DragonFlyBSD 4.0.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.0.xml.in:6
 msgid "DragonFlyBSD 4.2.0"
-msgstr ""
+msgstr "DragonFlyBSD 4.2.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.1.xml.in:6
 msgid "DragonFlyBSD 4.2.1"
-msgstr ""
+msgstr "DragonFlyBSD 4.2.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.3.xml.in:6
 msgid "DragonFlyBSD 4.2.3"
-msgstr ""
+msgstr "DragonFlyBSD 4.2.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.2.4.xml.in:6
 msgid "DragonFlyBSD 4.2.4"
-msgstr ""
+msgstr "DragonFlyBSD 4.2.4"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.1.xml.in:6
 msgid "DragonFlyBSD 4.4.1"
-msgstr ""
+msgstr "DragonFlyBSD 4.4.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.2.xml.in:6
 msgid "DragonFlyBSD 4.4.2"
-msgstr ""
+msgstr "DragonFlyBSD 4.4.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.4.3.xml.in:6
 msgid "DragonFlyBSD 4.4.3"
-msgstr ""
+msgstr "DragonFlyBSD 4.4.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.0.xml.in:6
 msgid "DragonFlyBSD 4.6.0"
-msgstr ""
+msgstr "DragonFlyBSD 4.6.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.1.xml.in:6
 msgid "DragonFlyBSD 4.6.1"
-msgstr ""
+msgstr "DragonFlyBSD 4.6.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.6.2.xml.in:6
 msgid "DragonFlyBSD 4.6.2"
-msgstr ""
+msgstr "DragonFlyBSD 4.6.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.8.0.xml.in:6
 msgid "DragonFlyBSD 4.8.0"
-msgstr ""
+msgstr "DragonFlyBSD 4.8.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-4.8.1.xml.in:6
 msgid "DragonFlyBSD 4.8.1"
-msgstr ""
+msgstr "DragonFlyBSD 4.8.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.0.xml.in:6
 msgid "DragonFlyBSD 5.0.0"
-msgstr ""
+msgstr "DragonFlyBSD 5.0.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.1.xml.in:6
 msgid "DragonFlyBSD 5.0.1"
-msgstr ""
+msgstr "DragonFlyBSD 5.0.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.0.2.xml.in:6
 msgid "DragonFlyBSD 5.0.2"
-msgstr ""
+msgstr "DragonFlyBSD 5.0.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.0.xml.in:6
 msgid "DragonFlyBSD 5.2.0"
-msgstr ""
+msgstr "DragonFlyBSD 5.2.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.1.xml.in:6
-#, fuzzy
 msgid "DragonFlyBSD 5.2.1"
-msgstr "FreeBSD 5.2.1"
+msgstr "DragonFlyBSD 5.2.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.2.2.xml.in:6
 msgid "DragonFlyBSD 5.2.2"
-msgstr ""
+msgstr "DragonFlyBSD 5.2.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.0.xml.in:6
 msgid "DragonFlyBSD 5.4.0"
-msgstr ""
+msgstr "DragonFlyBSD 5.4.0"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.1.xml.in:6
 msgid "DragonFlyBSD 5.4.1"
-msgstr ""
+msgstr "DragonFlyBSD 5.4.1"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.2.xml.in:6
 msgid "DragonFlyBSD 5.4.2"
-msgstr ""
+msgstr "DragonFlyBSD 5.4.2"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.4.3.xml.in:6
 msgid "DragonFlyBSD 5.4.3"
-msgstr ""
+msgstr "DragonFlyBSD 5.4.3"
 
 #: data/os/dragonflybsd.org/dragonflybsd-5.6.xml.in:6
 msgid "DragonFlyBSD 5.6"
-msgstr ""
+msgstr "DragonFlyBSD 5.6"
 
 #: data/os/elementary.io/elementary-5.0.xml.in:7
 msgid "Elementary OS 5.0 Juno"
-msgstr ""
+msgstr "엘리멘트리 OS 5.0 쥬노"
 
 #: data/os/elementary.io/elementary-5.0.xml.in:9
 msgid "Elementary, Inc."
-msgstr ""
+msgstr "Elementary, Inc."
 
 #: data/os/endlessos.com/eos-3.1.xml.in:6
 msgid "Endless OS 3.1"
-msgstr ""
+msgstr "엔들리스 OS 3.1"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:8
 #: data/os/endlessos.com/eos-3.10.xml.in:8
@@ -1357,14 +1297,14 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:8
 #: data/os/endlessos.com/eos-3.7.xml.in:8
 msgid "Endless Mobile, Inc"
-msgstr ""
+msgstr "엔들리스 모바일, Inc"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:19
 #: data/os/endlessos.com/eos-3.2.xml.in:24
 #: data/os/endlessos.com/eos-3.3.xml.in:24
 #: data/os/endlessos.com/eos-3.4.xml.in:129
 msgid "Endless OS Arabic"
-msgstr ""
+msgstr "엔들리스 OS 아랍어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:32
 #: data/os/endlessos.com/eos-3.10.xml.in:21
@@ -1377,11 +1317,11 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:22
 msgid "Endless OS Basic"
-msgstr ""
+msgstr "엔들리스 OS 기본"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:45
 msgid "Endless OS Bengali"
-msgstr ""
+msgstr "엔들리스 OS 뱅골"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:58
 #: data/os/endlessos.com/eos-3.10.xml.in:33
@@ -1394,7 +1334,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:35
 msgid "Endless OS English"
-msgstr ""
+msgstr "엔들리스 OS 영어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:71
 #: data/os/endlessos.com/eos-3.10.xml.in:45
@@ -1407,7 +1347,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:48
 msgid "Endless OS Spanish"
-msgstr ""
+msgstr "엔들리스 OS 스페인"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:84
 #: data/os/endlessos.com/eos-3.2.xml.in:89
@@ -1415,14 +1355,14 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.4.xml.in:153
 #: data/os/endlessos.com/eos-3.7.xml.in:129
 msgid "Endless OS Spanish (Guatemala)"
-msgstr ""
+msgstr "엔들리스 OS 스페인어 (과테말라)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:97
 #: data/os/endlessos.com/eos-3.2.xml.in:102
 #: data/os/endlessos.com/eos-3.3.xml.in:102
 #: data/os/endlessos.com/eos-3.4.xml.in:165
 msgid "Endless OS Spanish (Mexico)"
-msgstr ""
+msgstr "엔들리스 OS 스페인어 (멕시코)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:110
 #: data/os/endlessos.com/eos-3.10.xml.in:57
@@ -1435,7 +1375,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:61
 msgid "Endless OS French"
-msgstr ""
+msgstr "엔들리스 OS 프랑스어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:123
 #: data/os/endlessos.com/eos-3.2.xml.in:128
@@ -1446,7 +1386,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:76
 #: data/os/endlessos.com/eos-3.8.xml.in:90
 msgid "Endless OS Indonesian"
-msgstr ""
+msgstr "엔들리스 OS 인도네시아어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:136
 #: data/os/endlessos.com/eos-3.10.xml.in:69
@@ -1459,7 +1399,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
-msgstr ""
+msgstr "엔들리스 OS 포르투갈어 (브라질)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:149
 #: data/os/endlessos.com/eos-3.2.xml.in:154
@@ -1470,7 +1410,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:102
 #: data/os/endlessos.com/eos-3.8.xml.in:102
 msgid "Endless OS Thai"
-msgstr ""
+msgstr "엔들리스 OS 태국어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:162
 #: data/os/endlessos.com/eos-3.2.xml.in:167
@@ -1481,18 +1421,18 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:115
 #: data/os/endlessos.com/eos-3.8.xml.in:114
 msgid "Endless OS Vietnamese"
-msgstr ""
+msgstr "엔들리스 OS 베트남어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:175
 #: data/os/endlessos.com/eos-3.2.xml.in:180
 #: data/os/endlessos.com/eos-3.3.xml.in:180
 #: data/os/endlessos.com/eos-3.4.xml.in:177
 msgid "Endless OS Chinese (China)"
-msgstr ""
+msgstr "엔들리스 OS 중국어 (중국)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:189
 msgid "Endless OS Southeast Asia"
-msgstr ""
+msgstr "엔들리스 OS 동남아시아"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:201
 #: data/os/endlessos.com/eos-3.10.xml.in:81
@@ -1505,62 +1445,60 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:88
 msgid "Endless OS (other)"
-msgstr ""
+msgstr "엔들리스 OS (기타)"
 
 #: data/os/endlessos.com/eos-3.10.xml.in:6
 msgid "Endless OS 3.10"
-msgstr ""
+msgstr "엔들리스 OS 3.10"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:6
 msgid "Endless OS 3.2"
-msgstr ""
+msgstr "엔들리스 OS 3.2"
 
 #: data/os/endlessos.com/eos-3.2.xml.in:50
 #: data/os/endlessos.com/eos-3.3.xml.in:50
 #: data/os/endlessos.com/eos-3.4.xml.in:141
 msgid "Endless OS Bangla"
-msgstr ""
+msgstr "엔들리스 OS 방글라데시"
 
 #: data/os/endlessos.com/eos-3.3.xml.in:6
 msgid "Endless OS 3.3"
-msgstr ""
+msgstr "엔들리스 OS 3.3"
 
 #: data/os/endlessos.com/eos-3.4.xml.in:6
 msgid "Endless OS 3.4"
-msgstr ""
+msgstr "엔들리스 OS 3.4"
 
 #: data/os/endlessos.com/eos-3.5.xml.in:6
 msgid "Endless OS 3.5"
-msgstr ""
+msgstr "엔들리스 OS 3.5"
 
 #: data/os/endlessos.com/eos-3.6.xml.in:6
 msgid "Endless OS 3.6"
-msgstr ""
+msgstr "엔들리스 OS 3.6"
 
 #: data/os/endlessos.com/eos-3.7.xml.in:6
 msgid "Endless OS 3.7"
-msgstr ""
+msgstr "엔들리스 OS 3.7"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:6
 msgid "Endless OS 3.8"
-msgstr ""
+msgstr "엔들리스 OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
 msgid "Endless OS Foundation LLC"
-msgstr ""
+msgstr "엔들리스 OS 재단 LLC"
 
 #: data/os/endlessos.com/eos-3.9.xml.in:6
 msgid "Endless OS 3.9"
-msgstr ""
+msgstr "엔들리스 OS 3.9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
 #: data/os/fedoraproject.org/coreos-testing.xml.in:6
-#, fuzzy
-#| msgid "Fedora Core 1"
 msgid "Fedora CoreOS"
-msgstr "Fedora Core 1"
+msgstr "페도라 CoreOS"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:8
 #: data/os/fedoraproject.org/coreos-stable.xml.in:8
@@ -1611,393 +1549,363 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
-msgstr "Fedora Project"
+msgstr "페도라 프로젝트"
 
 #: data/os/fedoraproject.org/fedora-1.xml.in:6
 msgid "Fedora Core 1"
-msgstr "Fedora Core 1"
+msgstr "페도라 코어 1"
 
 #: data/os/fedoraproject.org/fedora-10.xml.in:6
 msgid "Fedora 10"
-msgstr "Fedora 10"
+msgstr "페도라 10"
 
 #: data/os/fedoraproject.org/fedora-11.xml.in:6
 msgid "Fedora 11"
-msgstr "Fedora 11"
+msgstr "페도라 11"
 
 #: data/os/fedoraproject.org/fedora-12.xml.in:6
 msgid "Fedora 12"
-msgstr "Fedora 12"
+msgstr "페도라 12"
 
 #: data/os/fedoraproject.org/fedora-13.xml.in:6
 msgid "Fedora 13"
-msgstr "Fedora 13"
+msgstr "페도라 13"
 
 #: data/os/fedoraproject.org/fedora-14.xml.in:6
 msgid "Fedora 14"
-msgstr "Fedora 14"
+msgstr "페도라 14"
 
 #: data/os/fedoraproject.org/fedora-15.xml.in:6
 msgid "Fedora 15"
-msgstr "Fedora 15"
+msgstr "페도라 15"
 
 #: data/os/fedoraproject.org/fedora-16.xml.in:6
 msgid "Fedora 16"
-msgstr "Fedora 16"
+msgstr "페도라 16"
 
 #: data/os/fedoraproject.org/fedora-17.xml.in:6
 msgid "Fedora 17"
-msgstr "Fedora 17"
+msgstr "페도라 17"
 
 #: data/os/fedoraproject.org/fedora-18.xml.in:6
 msgid "Fedora 18"
-msgstr "Fedora 18"
+msgstr "페도라 18"
 
 #: data/os/fedoraproject.org/fedora-19.xml.in:6
 msgid "Fedora 19"
-msgstr ""
+msgstr "페도라 19"
 
 #: data/os/fedoraproject.org/fedora-2.xml.in:6
 msgid "Fedora Core 2"
-msgstr "Fedora Core 2"
+msgstr "페도라 코어 2"
 
 #: data/os/fedoraproject.org/fedora-20.xml.in:6
 msgid "Fedora 20"
-msgstr ""
+msgstr "페도라 20"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:6
 #: data/os/fedoraproject.org/fedora-21.xml.in:24
 msgid "Fedora 21"
-msgstr ""
+msgstr "페도라 21"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:18
 msgid "Fedora 21 Workstation"
-msgstr ""
+msgstr "페도라 21 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:21
 msgid "Fedora 21 Server"
-msgstr ""
+msgstr "페도라 22 서버"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:27
 msgid "Fedora 21 Cloud"
-msgstr ""
+msgstr "페도라 21 클라우드"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:6
 msgid "Fedora 22"
-msgstr ""
+msgstr "페도라 22"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:18
 #: data/os/fedoraproject.org/fedora-22.xml.in:21
 msgid "Fedora 22 Workstation"
-msgstr ""
+msgstr "페도라 22 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:24
 #: data/os/fedoraproject.org/fedora-22.xml.in:27
 msgid "Fedora 22 Server"
-msgstr ""
+msgstr "페도라 22 서버"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:6
-#, fuzzy
 msgid "Fedora 23"
-msgstr "Fedora 12"
+msgstr "페도라 23"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:18
 #: data/os/fedoraproject.org/fedora-23.xml.in:21
 msgid "Fedora 23 Workstation"
-msgstr ""
+msgstr "페도라 22 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:24
 #: data/os/fedoraproject.org/fedora-23.xml.in:27
-#, fuzzy
 msgid "Fedora 23 Server"
-msgstr "Fedora 12"
+msgstr "페도라 23 서버"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:6
-#, fuzzy
 msgid "Fedora 24"
-msgstr "Fedora 12"
+msgstr "페도라 24"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:22
 #: data/os/fedoraproject.org/fedora-24.xml.in:25
 msgid "Fedora 24 Workstation"
-msgstr ""
+msgstr "페도라 22 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:28
 #: data/os/fedoraproject.org/fedora-24.xml.in:31
-#, fuzzy
 msgid "Fedora 24 Server"
-msgstr "Fedora 12"
+msgstr "페도라 24 서버"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:6
 msgid "Fedora 25"
-msgstr ""
+msgstr "페도라 25"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:18
 #: data/os/fedoraproject.org/fedora-25.xml.in:21
 msgid "Fedora 25 Workstation"
-msgstr ""
+msgstr "페도라 25 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:24
 #: data/os/fedoraproject.org/fedora-25.xml.in:27
 msgid "Fedora 25 Server"
-msgstr ""
+msgstr "페도라 25 서버"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:6
 msgid "Fedora 26"
-msgstr ""
+msgstr "페도라 26"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:18
 #: data/os/fedoraproject.org/fedora-26.xml.in:21
 msgid "Fedora 26 Workstation"
-msgstr ""
+msgstr "페도라 26 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:24
 #: data/os/fedoraproject.org/fedora-26.xml.in:27
 msgid "Fedora 26 Server"
-msgstr ""
+msgstr "페도라 26 서버"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:6
 msgid "Fedora 27"
-msgstr ""
+msgstr "페도라 27"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:18
 #: data/os/fedoraproject.org/fedora-27.xml.in:21
 #: data/os/fedoraproject.org/fedora-27.xml.in:24
 msgid "Fedora 27 Workstation"
-msgstr ""
+msgstr "페도라 27 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:27
 #: data/os/fedoraproject.org/fedora-27.xml.in:30
 msgid "Fedora 27 Server"
-msgstr ""
+msgstr "페도라 27 서버"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:6
 msgid "Fedora 28"
-msgstr ""
+msgstr "페도라 28"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:18
 #: data/os/fedoraproject.org/fedora-28.xml.in:21
 msgid "Fedora 28 Workstation"
-msgstr ""
+msgstr "페도라 28 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:24
 #: data/os/fedoraproject.org/fedora-28.xml.in:27
 msgid "Fedora 28 Server"
-msgstr ""
+msgstr "페도라 28 서버"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:6
-#, fuzzy
 msgid "Fedora 29"
-msgstr "Fedora 9"
+msgstr "페도라 29"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:18
 #: data/os/fedoraproject.org/fedora-29.xml.in:21
 msgid "Fedora 29 Workstation"
-msgstr ""
+msgstr "페도라 29 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:24
 #: data/os/fedoraproject.org/fedora-29.xml.in:27
-#, fuzzy
 msgid "Fedora 29 Server"
-msgstr "Fedora 12"
+msgstr "페도라 29 서버"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:30
-#, fuzzy
 msgid "Fedora 29 Everything"
-msgstr "Fedora 12"
+msgstr "페도라 29 전체"
 
 #: data/os/fedoraproject.org/fedora-3.xml.in:6
 msgid "Fedora Core 3"
-msgstr "Fedora Core 3"
+msgstr "페도라 코어 3"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:6
-#, fuzzy
 msgid "Fedora 30"
-msgstr "Fedora 10"
+msgstr "페도라 30"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:18
 #: data/os/fedoraproject.org/fedora-30.xml.in:21
 msgid "Fedora 30 Workstation"
-msgstr ""
+msgstr "페도라 30 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:24
 #: data/os/fedoraproject.org/fedora-30.xml.in:27
-#, fuzzy
 msgid "Fedora 30 Server"
-msgstr "Fedora 12"
+msgstr "페도라 30 서버"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:30
-#, fuzzy
 msgid "Fedora 30 Everything"
-msgstr "Fedora 12"
+msgstr "페도라 30 전체"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:6
-#, fuzzy
 msgid "Fedora 31"
-msgstr "Fedora 10"
+msgstr "페도라 31"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:18
 msgid "Fedora 31 Workstation"
-msgstr ""
+msgstr "페도라 31 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:21
 #: data/os/fedoraproject.org/fedora-31.xml.in:24
-#, fuzzy
 msgid "Fedora 31 Server"
-msgstr "Fedora 12"
+msgstr "페도라 31 서버"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:27
-#, fuzzy
 msgid "Fedora 31 Everything"
-msgstr "Fedora 12"
+msgstr "페도라 31 전체"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:6
-#, fuzzy
 msgid "Fedora 32"
-msgstr "Fedora 10"
+msgstr "페도라 32"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:17
-#, fuzzy
 msgid "Fedora 32 Workstation"
-msgstr "Fedora 12"
+msgstr "페도라 32 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:20
 #: data/os/fedoraproject.org/fedora-32.xml.in:23
-#, fuzzy
 msgid "Fedora 32 Server"
-msgstr "Fedora 12"
+msgstr "페도라 32 서버"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:26
-#, fuzzy
 msgid "Fedora 32 Everything"
-msgstr "Fedora 12"
+msgstr "페도라 32 전체"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:6
-#, fuzzy
 msgid "Fedora 33"
-msgstr "Fedora 10"
+msgstr "페도라 33"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:17
-#, fuzzy
 msgid "Fedora 33 Workstation"
-msgstr "Fedora 12"
+msgstr "페도라 33 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:20
 #: data/os/fedoraproject.org/fedora-33.xml.in:23
-#, fuzzy
 msgid "Fedora 33 Server"
-msgstr "Fedora 12"
+msgstr "페도라 33 서버"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:26
-#, fuzzy
 msgid "Fedora 33 Everything"
-msgstr "Fedora 12"
+msgstr "페도라 33 전체"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:6
 msgid "Fedora 34"
-msgstr "Fedora 34"
+msgstr "페도라 34"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:17
 msgid "Fedora 34 Workstation"
-msgstr "Fedora 34 Workstation"
+msgstr "페도라 34 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:20
 #: data/os/fedoraproject.org/fedora-34.xml.in:23
 msgid "Fedora 34 Server"
-msgstr "Fedora 12 サーバ"
+msgstr "페도라 34 서버"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:26
 msgid "Fedora 34 Everything"
-msgstr "Fedora 34 すべて"
+msgstr "페도라 34 전체"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
-msgstr "Fedora Core 4"
+msgstr "페도라 코어 4"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
-msgstr "Fedora Core 5"
+msgstr "페도라 코어 5"
 
 #: data/os/fedoraproject.org/fedora-6.xml.in:6
 msgid "Fedora Core 6"
-msgstr "Fedora Core 6"
+msgstr "페도라 코어 6"
 
 #: data/os/fedoraproject.org/fedora-7.xml.in:6
 msgid "Fedora 7"
-msgstr "Fedora 7"
+msgstr "페도라 7"
 
 #: data/os/fedoraproject.org/fedora-8.xml.in:6
 msgid "Fedora 8"
-msgstr "Fedora 8"
+msgstr "페도라 8"
 
 #: data/os/fedoraproject.org/fedora-9.xml.in:6
 msgid "Fedora 9"
-msgstr "Fedora 9"
+msgstr "페도라 9"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
-#, fuzzy
 msgid "Fedora Rawhide"
-msgstr "Fedora 7"
+msgstr "페도라 개발판"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:16
 msgid "Fedora Rawhide Workstation"
-msgstr ""
+msgstr "페도라 개발판 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:19
-#, fuzzy
 msgid "Fedora Rawhide Server"
-msgstr "Fedora 12"
+msgstr "페도라 개발판 서버"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:22
 msgid "Fedora Rawhide Everything"
-msgstr ""
+msgstr "페도라 개발판 전체"
 
 #: data/os/fedoraproject.org/fedora-unknown.xml.in:6
 msgid "Fedora"
-msgstr ""
+msgstr "페도라"
 
 #: data/os/fedoraproject.org/silverblue-28.xml.in:6
 msgid "Fedora Silverblue 28"
-msgstr ""
+msgstr "페도라 실버블루 28"
 
 #: data/os/fedoraproject.org/silverblue-29.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue 29"
-msgstr "Fedora Core 2"
+msgstr "페도라 실버블루 29"
 
 #: data/os/fedoraproject.org/silverblue-30.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue 30"
-msgstr "Fedora Core 3"
+msgstr "페도라 실버블루 30"
 
 #: data/os/fedoraproject.org/silverblue-31.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue 31"
-msgstr "Fedora Core 1"
+msgstr "페도라 실버블루 31"
 
 #: data/os/fedoraproject.org/silverblue-32.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue 32"
-msgstr "Fedora Core 3"
+msgstr "페도라 실버블루 32"
 
 #: data/os/fedoraproject.org/silverblue-33.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue 33"
-msgstr "Fedora Core 3"
+msgstr "페도라 실버블루 33"
 
 #: data/os/fedoraproject.org/silverblue-34.xml.in:6
 msgid "Fedora Silverblue 34"
-msgstr "Fedora Silverblue 34"
+msgstr "페도라 실버블루 34"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue Rawhide"
-msgstr "Fedora Core 2"
+msgstr "페도라 실버블루 개발판"
 
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:6
-#, fuzzy
 msgid "Fedora Silverblue"
-msgstr "Fedora Core 2"
+msgstr "페도라 실버블루"
 
 #: data/os/freebsd.org/freebsd-1.0.xml.in:6
 msgid "FreeBSD 1.0"
@@ -2062,67 +1970,59 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-9.2.xml.in:8
 #: data/os/freebsd.org/freebsd-9.3.xml.in:8
 msgid "FreeBSD Project"
-msgstr "FreeBSD プロジェクト"
+msgstr "FreeBSD 프로젝트"
 
 #: data/os/freebsd.org/freebsd-10.0.xml.in:6
 msgid "FreeBSD 10.0"
-msgstr ""
+msgstr "FreeBSD 10.0"
 
 #: data/os/freebsd.org/freebsd-10.1.xml.in:6
 msgid "FreeBSD 10.1"
-msgstr ""
+msgstr "FreeBSD 10.1"
 
 #: data/os/freebsd.org/freebsd-10.2.xml.in:6
-#, fuzzy
 msgid "FreeBSD 10.2"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 10.2"
 
 #: data/os/freebsd.org/freebsd-10.3.xml.in:6
-#, fuzzy
 msgid "FreeBSD 10.3"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 10.3"
 
 #: data/os/freebsd.org/freebsd-10.4.xml.in:6
 msgid "FreeBSD 10.4"
-msgstr ""
+msgstr "FreeBSD 10.4"
 
 #: data/os/freebsd.org/freebsd-11.0.xml.in:6
 msgid "FreeBSD 11.0"
-msgstr ""
+msgstr "FreeBSD 11.0"
 
 #: data/os/freebsd.org/freebsd-11.1.xml.in:6
 msgid "FreeBSD 11.1"
-msgstr ""
+msgstr "FreeBSD 11.1"
 
 #: data/os/freebsd.org/freebsd-11.2.xml.in:6
-#, fuzzy
 msgid "FreeBSD 11.2"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 11.2"
 
 #: data/os/freebsd.org/freebsd-11.3.xml.in:6
-#, fuzzy
 msgid "FreeBSD 11.3"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 11.3"
 
 #: data/os/freebsd.org/freebsd-11.4.xml.in:6
-#, fuzzy
 msgid "FreeBSD 11.4"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 11.4"
 
 #: data/os/freebsd.org/freebsd-12.0.xml.in:6
-#, fuzzy
 msgid "FreeBSD 12.0"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 12.0"
 
 #: data/os/freebsd.org/freebsd-12.1.xml.in:6
-#, fuzzy
 msgid "FreeBSD 12.1"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 12.1"
 
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
-#, fuzzy
 msgid "FreeBSD 12.2"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 12.2"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -2278,11 +2178,11 @@ msgstr "FreeBSD 8.2"
 
 #: data/os/freebsd.org/freebsd-8.3.xml.in:6
 msgid "FreeBSD 8.3"
-msgstr ""
+msgstr "FreeBSD 8.3"
 
 #: data/os/freebsd.org/freebsd-8.4.xml.in:6
 msgid "FreeBSD 8.4"
-msgstr ""
+msgstr "FreeBSD 8.4"
 
 #: data/os/freebsd.org/freebsd-9.0.xml.in:6
 msgid "FreeBSD 9.0"
@@ -2290,78 +2190,78 @@ msgstr "FreeBSD 9.0"
 
 #: data/os/freebsd.org/freebsd-9.1.xml.in:6
 msgid "FreeBSD 9.1"
-msgstr ""
+msgstr "FreeBSD 9.1"
 
 #: data/os/freebsd.org/freebsd-9.2.xml.in:6
 msgid "FreeBSD 9.2"
-msgstr ""
+msgstr "FreeBSD 9.2"
 
 #: data/os/freebsd.org/freebsd-9.3.xml.in:6
 msgid "FreeBSD 9.3"
-msgstr ""
+msgstr "FreeBSD 9.3"
 
 #: data/os/freedos.org/freedos-1.2.xml.in:6
 msgid "FreeDOS 1.2"
-msgstr ""
+msgstr "프리도스 1.2"
 
 #: data/os/freedos.org/freedos-1.2.xml.in:8
 msgid "FreeDOS"
-msgstr ""
+msgstr "프리도스"
 
 #: data/os/freedos.org/freedos-1.2.xml.in:15
 msgid "FreeDOS 1.2 \"Standard\" Installer"
-msgstr ""
+msgstr "프리도스 1.2 \"표준\" 설치자"
 
 #: data/os/freedos.org/freedos-1.2.xml.in:18
 msgid "FreeDOS 1.2 \"Legacy\" Installer"
-msgstr ""
+msgstr "프리도스 1.2 \"기존\" 설치자"
 
 #: data/os/gentoo.org/gentoo-rolling.xml.in:6
 msgid "Gentoo Linux"
-msgstr ""
+msgstr "젠투리눅스"
 
 #: data/os/gentoo.org/gentoo-rolling.xml.in:7
 msgid "Gentoo Foundation"
-msgstr ""
+msgstr "젠투 재단"
 
 #: data/os/gnome.org/gnome-3.6.xml.in:6
 msgid "GNOME 3.6"
-msgstr "GNOME 3.6"
+msgstr "그놈 3.6"
 
 #: data/os/gnome.org/gnome-3.6.xml.in:8 data/os/gnome.org/gnome-3.8.xml.in:8
 #: data/os/gnome.org/gnome-continuous-3.10.xml.in:8
 #: data/os/gnome.org/gnome-continuous-3.12.xml.in:8
 #: data/os/gnome.org/gnome-continuous-3.14.xml.in:8
 msgid "GNOME Project"
-msgstr "GNOME プロジェクト"
+msgstr "그놈 프로젝트"
 
 #: data/os/gnome.org/gnome-3.8.xml.in:6
 msgid "GNOME 3.8"
-msgstr ""
+msgstr "그놈 3.8"
 
 #: data/os/gnome.org/gnome-continuous-3.10.xml.in:6
 msgid "GNOME 3.10"
-msgstr ""
+msgstr "그놈 3.10"
 
 #: data/os/gnome.org/gnome-continuous-3.12.xml.in:6
 msgid "GNOME 3.12"
-msgstr ""
+msgstr "그놈 3.12"
 
 #: data/os/gnome.org/gnome-continuous-3.14.xml.in:6
 msgid "GNOME 3.14"
-msgstr ""
+msgstr "그놈 3.14"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:6
 msgid "Guix 1.1"
-msgstr ""
+msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
 msgid "Guix Contributors"
-msgstr ""
+msgstr "Guix 공헌자"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
-msgstr ""
+msgstr "Haiku Nightly"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha1.xml.in:6
@@ -2369,97 +2269,90 @@ msgstr ""
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
-#, fuzzy
 msgid "Haiku, Inc."
-msgstr "Red Hat, Inc."
+msgstr "Haiku, Inc."
 
 #: data/os/haiku-os.org/haiku-r1alpha1.xml.in:4
 msgid "Haiku R1/Alpha1"
-msgstr ""
+msgstr "Haiku R1/알파1"
 
 #: data/os/haiku-os.org/haiku-r1alpha2.xml.in:4
 msgid "Haiku R1/Alpha2"
-msgstr ""
+msgstr "Haiku R1/알파2"
 
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:4
 msgid "Haiku R1/Alpha3"
-msgstr ""
+msgstr "Haiku R1/알파3"
 
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:4
 msgid "Haiku R1/Alpha4.1"
-msgstr ""
+msgstr "Haiku R1/알파4.1"
 
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
-msgstr ""
+msgstr "Haiku R1/베타1"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2016"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic 리눅스 2016"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
-msgstr ""
+msgstr "Libosinfo"
 
 #: data/os/libosinfo.org/linux-2018.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2010"
 msgid "Generic Linux 2018"
-msgstr "Mandriva Linux 2010"
+msgstr "Generic 리눅스 2018"
 
 #: data/os/libosinfo.org/linux-2020.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Linux 2007"
 msgid "Generic Linux 2020"
-msgstr "Mandriva Linux 2007"
+msgstr "Generic 리눅스 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
-msgstr ""
+msgstr "알지 못함"
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
-msgstr ""
+msgstr "Mageia 1"
 
 #: data/os/mageia.org/mageia-1.xml.in:7 data/os/mageia.org/mageia-2.xml.in:7
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
 #: data/os/mageia.org/mageia-7.xml.in:7
 msgid "Mageia"
-msgstr ""
+msgstr "Mageia"
 
 #: data/os/mageia.org/mageia-2.xml.in:6
 msgid "Mageia 2"
-msgstr ""
+msgstr "Mageia 2"
 
 #: data/os/mageia.org/mageia-3.xml.in:6
 msgid "Mageia 3"
-msgstr ""
+msgstr "Mageia 3"
 
 #: data/os/mageia.org/mageia-4.xml.in:6
 msgid "Mageia 4"
-msgstr ""
+msgstr "Mageia 4"
 
 #: data/os/mageia.org/mageia-5.xml.in:6
 msgid "Mageia 5"
-msgstr ""
+msgstr "Mageia 5"
 
 #: data/os/mageia.org/mageia-6.xml.in:6
 msgid "Mageia 6"
-msgstr ""
+msgstr "Mageia 6"
 
 #: data/os/mageia.org/mageia-7.xml.in:6 data/os/mageia.org/mageia-7.xml.in:16
 msgid "Mageia 7"
-msgstr ""
+msgstr "Mageia 7"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
-msgstr "Mandrake Linux 10.0"
+msgstr "멘드레이크 리눅스 10.0"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:7
 #: data/os/mandriva.com/mandrake-10.1.xml.in:7
@@ -2496,168 +2389,168 @@ msgstr "Mandriva"
 
 #: data/os/mandriva.com/mandrake-10.1.xml.in:6
 msgid "Mandrake Linux 10.1"
-msgstr "Mandrake Linux 10.1"
+msgstr "멘드레이크 리눅스 10.1"
 
 #: data/os/mandriva.com/mandrake-10.2.xml.in:6
 msgid "Mandrake Linux 10.2"
-msgstr "Mandrake Linux 10.2"
+msgstr "멘드레이크 리눅스 10.2"
 
 #: data/os/mandriva.com/mandrake-5.1.xml.in:6
 msgid "Mandrake Linux 5.1"
-msgstr "Mandrake Linux 5.1"
+msgstr "멘드레이크 리눅스 5.1"
 
 #: data/os/mandriva.com/mandrake-5.2.xml.in:6
 msgid "Mandrake Linux 5.2"
-msgstr "Mandrake Linux 5.2"
+msgstr "멘드레이크 리눅스 5.2"
 
 #: data/os/mandriva.com/mandrake-5.3.xml.in:6
 msgid "Mandrake Linux 5.3"
-msgstr "Mandrake Linux 5.3"
+msgstr "멘드레이크 리눅스 5.3"
 
 #: data/os/mandriva.com/mandrake-6.0.xml.in:6
 msgid "Mandrake Linux 6.0"
-msgstr "Mandrake Linux 6.0"
+msgstr "멘드레이크 리눅스 6.0"
 
 #: data/os/mandriva.com/mandrake-6.1.xml.in:6
 msgid "Mandrake Linux 6.1"
-msgstr "Mandrake Linux 6.1"
+msgstr "멘드레이크 리눅스 6.1"
 
 #: data/os/mandriva.com/mandrake-7.0.xml.in:6
 msgid "Mandrake Linux 7.0"
-msgstr "Mandrake Linux 7.0"
+msgstr "멘드레이크 리눅스 7.0"
 
 #: data/os/mandriva.com/mandrake-7.1.xml.in:6
 msgid "Mandrake Linux 7.1"
-msgstr "Mandrake Linux 7.1"
+msgstr "멘드레이크 리눅스 7.1"
 
 #: data/os/mandriva.com/mandrake-7.2.xml.in:6
 msgid "Mandrake Linux 7.2"
-msgstr "Mandrake Linux 7.2"
+msgstr "멘드레이크 리눅스 7.2"
 
 #: data/os/mandriva.com/mandrake-8.0.xml.in:6
 msgid "Mandrake Linux 8.0"
-msgstr "Mandrake Linux 8.0"
+msgstr "멘드레이크 리눅스 8.0"
 
 #: data/os/mandriva.com/mandrake-8.1.xml.in:6
 msgid "Mandrake Linux 8.1"
-msgstr "Mandrake Linux 8.1"
+msgstr "멘드레이크 리눅스 8.1"
 
 #: data/os/mandriva.com/mandrake-8.2.xml.in:6
 msgid "Mandrake Linux 8.2"
-msgstr "Mandrake Linux 8.2"
+msgstr "멘드레이크 리눅스 8.2"
 
 #: data/os/mandriva.com/mandrake-9.0.xml.in:6
 msgid "Mandrake Linux 9.0"
-msgstr "Mandrake Linux 9.0"
+msgstr "멘드레이크 리눅스 9.0"
 
 #: data/os/mandriva.com/mandrake-9.1.xml.in:6
 msgid "Mandrake Linux 9.1"
-msgstr "Mandrake Linux 9.1"
+msgstr "멘드레이크 리눅스 9.1"
 
 #: data/os/mandriva.com/mandrake-9.2.xml.in:6
 msgid "Mandrake Linux 9.2"
-msgstr "Mandrake Linux 9.2"
+msgstr "멘드레이크 리눅스 9.2"
 
 #: data/os/mandriva.com/mandriva-2006.0.xml.in:6
 msgid "Mandriva Linux 2006.0"
-msgstr "Mandriva Linux 2006.0"
+msgstr "맨드리바 리눅스 2006.0"
 
 #: data/os/mandriva.com/mandriva-2007.1.xml.in:6
 msgid "Mandriva Linux 2007 Spring"
-msgstr "Mandriva Linux 2007 Spring"
+msgstr "맨드리바 리눅스 2007 봄"
 
 #: data/os/mandriva.com/mandriva-2007.xml.in:6
 msgid "Mandriva Linux 2007"
-msgstr "Mandriva Linux 2007"
+msgstr "맨드리바 리눅스 2007"
 
 #: data/os/mandriva.com/mandriva-2008.0.xml.in:6
 msgid "Mandriva Linux 2008"
-msgstr "Mandriva Linux 2008"
+msgstr "맨드리바 리눅스 2008"
 
 #: data/os/mandriva.com/mandriva-2008.1.xml.in:6
 msgid "Mandriva Linux 2008 Spring"
-msgstr "Mandriva Linux 2008 Spring"
+msgstr "맨드리바 리눅스 2008 봄"
 
 #: data/os/mandriva.com/mandriva-2009.0.xml.in:6
 msgid "Mandriva Linux 2009"
-msgstr "Mandriva Linux 2009"
+msgstr "맨드리바 리눅스 2009"
 
 #: data/os/mandriva.com/mandriva-2009.1.xml.in:6
 msgid "Mandriva Linux 2009 Spring"
-msgstr "Mandriva Linux 2009 Spring"
+msgstr "맨드리바 리눅스 2009 봄"
 
 #: data/os/mandriva.com/mandriva-2010.0.xml.in:6
 msgid "Mandriva Linux 2010"
-msgstr "Mandriva Linux 2010"
+msgstr "맨드리바 리눅스 2010"
 
 #: data/os/mandriva.com/mandriva-2010.1.xml.in:6
 msgid "Mandriva Linux 2010 Spring"
-msgstr "Mandriva Linux 2010 Spring"
+msgstr "맨드리바 리눅스 2010 봄"
 
 #: data/os/mandriva.com/mandriva-2010.2.xml.in:6
 msgid "Mandriva Linux 2010.2"
-msgstr "Mandriva Linux 2010.2"
+msgstr "맨드리바 리눅스 2010.2"
 
 #: data/os/mandriva.com/mandriva-2011.xml.in:6
 msgid "Mandriva Linux 2011"
-msgstr "Mandriva Linux 2011"
+msgstr "맨드리바 리눅스 2011"
 
 #: data/os/mandriva.com/mbs-1.0.xml.in:6
 msgid "Mandriva Business Server 1.0"
-msgstr ""
+msgstr "맨드리바 업무용 서버 1.0"
 
 #: data/os/mandriva.com/mes-5.0.xml.in:6
 msgid "Mandriva Enterprise Server 5.0"
-msgstr "Mandriva Enterprise Server 5.0"
+msgstr "맨드리바 기업용 서버 5.0"
 
 #: data/os/mandriva.com/mes-5.1.xml.in:6
 msgid "Mandriva Enterprise Server 5.1"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "맨드리바 기업용 서버 5.1"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:6
 #: data/os/manjaro.org/manjaro-rolling.xml.in:7
 msgid "Manjaro"
-msgstr ""
+msgstr "만자로"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
 msgid "Manjaro Architect"
-msgstr ""
+msgstr "만자로 구조"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
-msgstr ""
+msgstr "만자로 그놈"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:37
 msgid "Manjaro GNOME (Minimal)"
-msgstr ""
+msgstr "만자로 그놈(최소)"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:41
 msgid "Manjaro KDE"
-msgstr ""
+msgstr "만자로 KDE"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:45
 msgid "Manjaro KDE (Minimal)"
-msgstr ""
+msgstr "만자로 KDE (최소)"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:49
 msgid "Manjaro XFCE"
-msgstr ""
+msgstr "만자로 XFCE"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:53
 msgid "Manjaro XFCE (Minimal)"
-msgstr ""
+msgstr "만자로 XFCE (최소)"
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
 msgid "Microsoft MS-DOS 6.22"
-msgstr "Microsoft MS-DOS 6.22"
+msgstr "MS 도스 6.22"
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:7
 msgid "Microsoft"
-msgstr "Microsoft"
+msgstr "마이크로스프트"
 
 #: data/os/microsoft.com/win-1.0.xml.in:6
 msgid "Microsoft Windows 1.0"
-msgstr "Microsoft Windows 1.0"
+msgstr "마이크로소프트 윈도우즈 1.0"
 
 #: data/os/microsoft.com/win-1.0.xml.in:7
 #: data/os/microsoft.com/win-10.d/post-installable-drivers.xml.in:7
@@ -2698,231 +2591,227 @@ msgstr "Microsoft Corporation"
 #: data/os/microsoft.com/win-10.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-10.xml.in:6
 msgid "Microsoft Windows 10"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 10"
 
 #: data/os/microsoft.com/win-10.xml.in:18
 msgid "Microsoft Windows 10 Education"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 10 교육용"
 
 #: data/os/microsoft.com/win-10.xml.in:21
 msgid "Microsoft Windows 10 Enterprise"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 10 기업용"
 
 #: data/os/microsoft.com/win-10.xml.in:24
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 10 기업용 (장기 지원 부분)"
 
 #: data/os/microsoft.com/win-10.xml.in:27
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 10 기업용 ( 장기 지원 부분) 평가판"
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
-msgstr "Microsoft Windows 2.0"
+msgstr "마이크로소프트 윈도우즈 2.0"
 
 #: data/os/microsoft.com/win-2.1.xml.in:6
 msgid "Microsoft Windows 2.1"
-msgstr "Microsoft Windows 2.1"
+msgstr "마이크로소프트 윈도우즈 2.1"
 
 #: data/os/microsoft.com/win-2k.xml.in:6
 msgid "Microsoft Windows 2000"
-msgstr "Microsoft Windows 2000"
+msgstr "마이크로소프트 윈도우즈 2000"
 
 #: data/os/microsoft.com/win-2k12.xml.in:6
 msgid "Microsoft Windows Server 2012"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 서버 2012"
 
 #: data/os/microsoft.com/win-2k12.xml.in:23
 msgid "Windows Server 2012 Storage"
-msgstr ""
+msgstr "윈도우즈 서버 2012 저장소"
 
 #: data/os/microsoft.com/win-2k12.xml.in:26
 msgid "Windows Server 2012 for HyperV"
-msgstr ""
+msgstr "하이퍼브이를 위한 윈도우즈 서버 2012"
 
 #: data/os/microsoft.com/win-2k12.xml.in:29
 msgid "Windows Server 2012 Essentials"
-msgstr ""
+msgstr "윈도우즈 서버 2012 에센셜"
 
 #: data/os/microsoft.com/win-2k12.xml.in:32
 msgid "Windows Server 2012 Volume License"
-msgstr ""
+msgstr "윈도우즈 서버 2012 볼륨 라이센스"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:6
 msgid "Microsoft Windows Server 2012 R2"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 서버 2012 R2"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:15
 msgid "Windows Server 2012 R2 Storage"
-msgstr ""
+msgstr "윈도우즈 서버 2012 R2 저장소"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:18
 msgid "Windows Server 2012 R2 for HyperV"
-msgstr ""
+msgstr "하이퍼브이를 위한 윈도우즈 서버 2012 R2"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:21
 msgid "Windows Server 2012 R2 Essentials"
-msgstr ""
+msgstr "윈도우 서버 2012 R2 에센셜"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:24
 msgid "Windows Server 2012 R2 Volume License"
-msgstr ""
+msgstr "윈도우즈 서버 2012 R2 볼륨 라이센스"
 
 #: data/os/microsoft.com/win-2k16.xml.in:6
 msgid "Microsoft Windows Server 2016"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 서버 2016"
 
 #: data/os/microsoft.com/win-2k16.xml.in:18
 msgid "Windows Server 2016 for HyperV"
-msgstr ""
+msgstr "하이퍼브이를 위한 윈도우즈 서버 2016"
 
 #: data/os/microsoft.com/win-2k16.xml.in:21
 msgid "Windows Server 2016 Essentials"
-msgstr ""
+msgstr "윈도우즈 서버 2016 에센셜"
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
-#, fuzzy
 msgid "Microsoft Windows Server 2019"
-msgstr "Microsoft Windows Server 2003"
+msgstr "마이크로소프트 윈도우즈 서버 2019"
 
 #: data/os/microsoft.com/win-2k3.xml.in:6
 msgid "Microsoft Windows Server 2003"
-msgstr "Microsoft Windows Server 2003"
+msgstr "마이크로소프트 윈도우즈 서버 2003"
 
 #: data/os/microsoft.com/win-2k3r2.xml.in:6
 msgid "Microsoft Windows Server 2003 R2"
-msgstr "Microsoft Windows Server 2003 R2"
+msgstr "마이크로소프트 윈도우즈 서버 2003 R2"
 
 #: data/os/microsoft.com/win-2k8.xml.in:6
 msgid "Microsoft Windows Server 2008"
-msgstr "Microsoft Windows Server 2008"
+msgstr "마이크로스프트 윈도우즈 서버 2008"
 
 #: data/os/microsoft.com/win-2k8r2.xml.in:6
 msgid "Microsoft Windows Server 2008 R2"
-msgstr "Microsoft Windows Server 2008 R2"
+msgstr "마이크로소프트 윈도우즈 서버 2008 R2"
 
 #: data/os/microsoft.com/win-3.1.xml.in:6
 msgid "Microsoft Windows 3.1"
-msgstr "Microsoft Windows 3.1"
+msgstr "마이크로소프트 윈도우즈 3.1"
 
 #: data/os/microsoft.com/win-7.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.xml.in:6
 msgid "Microsoft Windows 7"
-msgstr "Microsoft Windows 7"
+msgstr "마이크로소프트 윈도우즈 7"
 
 #: data/os/microsoft.com/win-7.xml.in:18
 msgid "Microsoft Windows 7 Debug Checked Build"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 디버그 확인된 구성"
 
 #: data/os/microsoft.com/win-7.xml.in:21
 msgid "Microsoft Windows 7 Starter"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 초급"
 
 #: data/os/microsoft.com/win-7.xml.in:24
 msgid "Microsoft Windows 7 Home Basic"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 홈 베이직"
 
 #: data/os/microsoft.com/win-7.xml.in:27
 msgid "Microsoft Windows 7 Home Premium"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 홈 프리미엄"
 
 #: data/os/microsoft.com/win-7.xml.in:30
 msgid "Microsoft Windows 7 Professional"
-msgstr ""
+msgstr "마이크로소트 윈도우즈 7 프로페셔널"
 
 #: data/os/microsoft.com/win-7.xml.in:33
 msgid "Microsoft Windows 7 Enterprise"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 기업용"
 
 #: data/os/microsoft.com/win-7.xml.in:36
 msgid "Microsoft Windows 7 Ultimate"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 7 얼티메이트"
 
 #: data/os/microsoft.com/win-8.1.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.xml.in:6
 msgid "Microsoft Windows 8.1"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8.1"
 
 #: data/os/microsoft.com/win-8.1.xml.in:18
 msgid "Microsoft Windows 8.1 Debug Checked Build"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8.1 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.1.xml.in:21
 msgid "Microsoft Windows 8.1 Enterprise Debug Checked Build"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8.1 기업용 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.1.xml.in:24
 msgid "Microsoft Windows 8.1 Professional"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8.1 프로페셔널"
 
 #: data/os/microsoft.com/win-8.1.xml.in:27
 msgid "Microsoft Windows 8.1 Enterprise"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8.1 기업용"
 
 #: data/os/microsoft.com/win-8.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.xml.in:6
 msgid "Microsoft Windows 8"
-msgstr "Microsoft Windows 8"
+msgstr "마이크로소프트 윈도우즈 8"
 
 #: data/os/microsoft.com/win-8.xml.in:18
-#, fuzzy
 msgid "Microsoft Windows 8 Debug Check Build"
-msgstr "Microsoft Windows 8"
+msgstr "마이크로소프트 윈도우즈 8 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.xml.in:21
-#, fuzzy
 msgid "Microsoft Windows 8 Enterprise"
-msgstr "Microsoft Windows 8"
+msgstr "마이크로소프트 윈도우즈 8 기업용"
 
 #: data/os/microsoft.com/win-8.xml.in:24
 msgid "Microsoft Windows 8 Enterprise Debug Check Build"
-msgstr ""
+msgstr "마이크로소프트 윈도우즈 8 기업용 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.xml.in:27
-#, fuzzy
 msgid "Microsoft Windows 8 Professional"
-msgstr "Microsoft Windows 8"
+msgstr "마이크로소프트 윈도우즈 8 프로페셔널"
 
 #: data/os/microsoft.com/win-95.xml.in:6
 msgid "Microsoft Windows 95"
-msgstr "Microsoft Windows 95"
+msgstr "마이크로소프트 윈도우즈 95"
 
 #: data/os/microsoft.com/win-98.xml.in:6
 msgid "Microsoft Windows 98"
-msgstr "Microsoft Windows 98"
+msgstr "마이크로소프트 윈도우즈 98"
 
 #: data/os/microsoft.com/win-me.xml.in:6
 msgid "Microsoft Windows Millennium Edition"
-msgstr "Microsoft Windows Millennium Edition"
+msgstr "마이크로소프트 윈도우즈 밀레니엄 판"
 
 #: data/os/microsoft.com/win-vista.xml.in:6
 msgid "Microsoft Windows Vista"
-msgstr "Microsoft Windows Vista"
+msgstr "마이크로소프트 윈도우즈 비스타"
 
 #: data/os/microsoft.com/win-xp.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.xml.in:6
 msgid "Microsoft Windows XP"
-msgstr "Microsoft Windows XP"
+msgstr "마이크로소프트 윈도우즈 XP"
 
 #: data/os/microsoft.com/winnt-3.1.xml.in:6
 msgid "Microsoft Windows NT Server 3.1"
-msgstr "Microsoft Windows NT Server 3.1"
+msgstr "마이크로소프트 윈도우즈 NT 서버 3.1"
 
 #: data/os/microsoft.com/winnt-3.5.xml.in:6
 msgid "Microsoft Windows NT Server 3.5"
-msgstr "Microsoft Windows NT Server 3.5"
+msgstr "마이크로소프트 윈도우즈 NT 서버 3.5"
 
 #: data/os/microsoft.com/winnt-3.51.xml.in:6
 msgid "Microsoft Windows NT Server 3.51"
-msgstr "Microsoft Windows NT Server 3.51"
+msgstr "마이크로소프트 윈도우즈 NT 서버 3.51"
 
 #: data/os/microsoft.com/winnt-4.0.xml.in:6
 msgid "Microsoft Windows NT Server 4.0"
-msgstr "Microsoft Windows NT Server 4.0"
+msgstr "마이크로소프트 윈도우즈 NT 서버 4.0"
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
@@ -2954,7 +2843,7 @@ msgstr "NetBSD 0.8"
 #: data/os/netbsd.org/netbsd-8.2.xml.in:7
 #: data/os/netbsd.org/netbsd-9.0.xml.in:7
 msgid "NetBSD Project"
-msgstr "NetBSD プロジェクト"
+msgstr "NetBSD 프로젝트"
 
 #: data/os/netbsd.org/netbsd-0.9.xml.in:6
 msgid "NetBSD 0.9"
@@ -3010,77 +2899,71 @@ msgstr "NetBSD 5.1"
 
 #: data/os/netbsd.org/netbsd-6.0.xml.in:5
 msgid "NetBSD 6.0"
-msgstr ""
+msgstr "NetBSD 6.0"
 
 #: data/os/netbsd.org/netbsd-6.1.xml.in:5
 msgid "NetBSD 6.1"
-msgstr ""
+msgstr "NetBSD 6.1"
 
 #: data/os/netbsd.org/netbsd-7.0.xml.in:5
 msgid "NetBSD 7.0"
-msgstr ""
+msgstr "NetBSD 7.0"
 
 #: data/os/netbsd.org/netbsd-7.1.1.xml.in:5
 msgid "NetBSD 7.1.1"
-msgstr ""
+msgstr "NetBSD 7.1.1"
 
 #: data/os/netbsd.org/netbsd-7.1.2.xml.in:5
 msgid "NetBSD 7.1.2"
-msgstr ""
+msgstr "NetBSD 7.1.2"
 
 #: data/os/netbsd.org/netbsd-7.1.xml.in:5
 msgid "NetBSD 7.1"
-msgstr ""
+msgstr "NetBSD 7.1"
 
 #: data/os/netbsd.org/netbsd-7.2.xml.in:5
-#, fuzzy
 msgid "NetBSD 7.2"
-msgstr "NetBSD 1.2"
+msgstr "NetBSD 7.2"
 
 #: data/os/netbsd.org/netbsd-8.0.xml.in:5
-#, fuzzy
 msgid "NetBSD 8.0"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 8.0"
 
 #: data/os/netbsd.org/netbsd-8.1.xml.in:5
-#, fuzzy
 msgid "NetBSD 8.1"
-msgstr "NetBSD 1.1"
+msgstr "NetBSD 8.1"
 
 #: data/os/netbsd.org/netbsd-8.1.xml.in:14
 msgid "NetBSD 8.1 Network Install"
-msgstr ""
+msgstr "NetBSD 8.1 네트워크 설치"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:5
-#, fuzzy
 msgid "NetBSD 8.2"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 8.2"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:14
 msgid "NetBSD 8.2 Network Install"
-msgstr ""
+msgstr "NetBSD 8.2 네트워크 설치"
 
 #: data/os/netbsd.org/netbsd-8.2.xml.in:17
 msgid "NetBSD 8.2 Network Install (Serial Console)"
-msgstr ""
+msgstr "NetBSD 8.2 네트워크 설치 (시리얼 콘솔)"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 1.0"
 msgid "NetBSD 9.0"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 9.0"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:14
 msgid "NetBSD 9.0 Network Install"
-msgstr ""
+msgstr "NetBSD 9.0 네트워크 설치"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
 msgid "NetBSD 9.0 Network Install (Serial Console)"
-msgstr ""
+msgstr "NetBSD 9.0 네트워크 설치 (시리얼 콘솔)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
-msgstr ""
+msgstr "NixOS 20.03"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-20.09.xml.in:8
@@ -3088,61 +2971,61 @@ msgstr ""
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
 msgid "NixOS"
-msgstr ""
+msgstr "NixOS"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:57
 msgid "NixOS 20.03 (minimal installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:60
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS 20.03 (플래즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:6
 msgid "NixOS 20.09"
-msgstr ""
+msgstr "NixOS 20.09"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:30
 msgid "NixOS 20.09 (minimal installation CD)"
-msgstr ""
+msgstr "NixOS 20.09 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
-msgstr ""
+msgstr "NixOS 불안정판 (그놈 설치 CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS 20.09 (플래즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
-msgstr ""
+msgstr "NixOS 불안정판"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
-msgstr ""
+msgstr "NixOS 불안정판 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
 msgid "NixOS Unstable (Plasma 5 installation CD)"
-msgstr ""
+msgstr "NixOS 불안정판 (플래즈마 5 설치 CD)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
-msgstr "Novell Netware 4"
+msgstr "노벨 넷웨어 4"
 
 #: data/os/novell.com/netware-4.xml.in:7 data/os/novell.com/netware-5.xml.in:7
 #: data/os/novell.com/netware-6.xml.in:7
 msgid "Novell"
-msgstr "Novell"
+msgstr "노벨"
 
 #: data/os/novell.com/netware-5.xml.in:6
 msgid "Novell Netware 5"
-msgstr "Novell Netware 5"
+msgstr "노벨 넷웨어 5"
 
 #: data/os/novell.com/netware-6.xml.in:6
 msgid "Novell Netware 6"
-msgstr "Novell Netware 6"
+msgstr "노벨 넷웨어 6"
 
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
@@ -3174,7 +3057,7 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.6.xml.in:10
 #: data/os/openbsd.org/openbsd-6.7.xml.in:10
 msgid "OpenBSD Project"
-msgstr "OpenBSD プロジェクト"
+msgstr "OpenBSD 프로젝트"
 
 #: data/os/openbsd.org/openbsd-4.3.xml.in:6
 #: data/os/openbsd.org/openbsd-4.3.xml.in:18
@@ -3209,95 +3092,91 @@ msgstr "OpenBSD 5.0"
 #: data/os/openbsd.org/openbsd-5.1.xml.in:6
 #: data/os/openbsd.org/openbsd-5.1.xml.in:18
 msgid "OpenBSD 5.1"
-msgstr ""
+msgstr "OpenBSD 5.1"
 
 #: data/os/openbsd.org/openbsd-5.2.xml.in:6
 #: data/os/openbsd.org/openbsd-5.2.xml.in:18
 msgid "OpenBSD 5.2"
-msgstr ""
+msgstr "OpenBSD 5.2"
 
 #: data/os/openbsd.org/openbsd-5.3.xml.in:6
 #: data/os/openbsd.org/openbsd-5.3.xml.in:18
 msgid "OpenBSD 5.3"
-msgstr ""
+msgstr "OpenBSD 5.3"
 
 #: data/os/openbsd.org/openbsd-5.4.xml.in:6
 #: data/os/openbsd.org/openbsd-5.4.xml.in:18
 msgid "OpenBSD 5.4"
-msgstr ""
+msgstr "OpenBSD 5.4"
 
 #: data/os/openbsd.org/openbsd-5.5.xml.in:6
 #: data/os/openbsd.org/openbsd-5.5.xml.in:18
 msgid "OpenBSD 5.5"
-msgstr ""
+msgstr "OpenBSD 5.5"
 
 #: data/os/openbsd.org/openbsd-5.6.xml.in:6
 #: data/os/openbsd.org/openbsd-5.6.xml.in:18
 msgid "OpenBSD 5.6"
-msgstr ""
+msgstr "OpenBSD 5.6"
 
 #: data/os/openbsd.org/openbsd-5.7.xml.in:6
 #: data/os/openbsd.org/openbsd-5.7.xml.in:18
 msgid "OpenBSD 5.7"
-msgstr ""
+msgstr "OpenBSD 5.7"
 
 #: data/os/openbsd.org/openbsd-5.8.xml.in:6
 #: data/os/openbsd.org/openbsd-5.8.xml.in:18
 msgid "OpenBSD 5.8"
-msgstr ""
+msgstr "OpenBSD 5.8"
 
 #: data/os/openbsd.org/openbsd-5.9.xml.in:6
 #: data/os/openbsd.org/openbsd-5.9.xml.in:18
 msgid "OpenBSD 5.9"
-msgstr ""
+msgstr "OpenBSD 5.9"
 
 #: data/os/openbsd.org/openbsd-6.0.xml.in:6
 #: data/os/openbsd.org/openbsd-6.0.xml.in:18
 msgid "OpenBSD 6.0"
-msgstr ""
+msgstr "OpenBSD 6.0"
 
 #: data/os/openbsd.org/openbsd-6.1.xml.in:6
 #: data/os/openbsd.org/openbsd-6.1.xml.in:18
 msgid "OpenBSD 6.1"
-msgstr ""
+msgstr "OpenBSD 6.1"
 
 #: data/os/openbsd.org/openbsd-6.2.xml.in:6
 #: data/os/openbsd.org/openbsd-6.2.xml.in:18
 msgid "OpenBSD 6.2"
-msgstr ""
+msgstr "OpenBSD 6.2"
 
 #: data/os/openbsd.org/openbsd-6.3.xml.in:6
 #: data/os/openbsd.org/openbsd-6.3.xml.in:18
 msgid "OpenBSD 6.3"
-msgstr ""
+msgstr "OpenBSD 6.3"
 
 #: data/os/openbsd.org/openbsd-6.4.xml.in:6
 #: data/os/openbsd.org/openbsd-6.4.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.4"
-msgstr "OpenBSD 4.4"
+msgstr "OpenBSD 6.4"
 
 #: data/os/openbsd.org/openbsd-6.5.xml.in:6
 #: data/os/openbsd.org/openbsd-6.5.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.5"
-msgstr "OpenBSD 4.5"
+msgstr "OpenBSD 6.5"
 
 #: data/os/openbsd.org/openbsd-6.6.xml.in:6
 #: data/os/openbsd.org/openbsd-6.6.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.6"
-msgstr "OpenBSD 4.2"
+msgstr "OpenBSD 6.6"
 
 #: data/os/openbsd.org/openbsd-6.7.xml.in:6
 #: data/os/openbsd.org/openbsd-6.7.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.7"
-msgstr "OpenBSD 4.4"
+msgstr "OpenBSD 6.7"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
-msgstr "openSUSE 10.2"
+msgstr "오픈수세 10.2"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:8
 #: data/os/opensuse.org/opensuse-10.3.xml.in:8
@@ -3323,96 +3202,92 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-unknown.xml.in:6
 #: data/os/opensuse.org/opensuse-unknown.xml.in:8
 msgid "openSUSE"
-msgstr "openSUSE"
+msgstr "오픈수세"
 
 #: data/os/opensuse.org/opensuse-10.3.xml.in:6
 msgid "openSUSE 10.3"
-msgstr "openSUSE 10.3"
+msgstr "오픈수세 10.3"
 
 #: data/os/opensuse.org/opensuse-11.0.xml.in:6
 msgid "openSUSE 11.0"
-msgstr "openSUSE 11.0"
+msgstr "오픈수세 11.0"
 
 #: data/os/opensuse.org/opensuse-11.1.xml.in:6
 msgid "openSUSE 11.1"
-msgstr "openSUSE 11.1"
+msgstr "오픈수세 11.1"
 
 #: data/os/opensuse.org/opensuse-11.2.xml.in:6
 msgid "openSUSE 11.2"
-msgstr "openSUSE 11.2"
+msgstr "오픈수세 11.2"
 
 #: data/os/opensuse.org/opensuse-11.3.xml.in:6
 msgid "openSUSE 11.3"
-msgstr "openSUSE 11.3"
+msgstr "오픈수세 11.3"
 
 #: data/os/opensuse.org/opensuse-11.4.xml.in:6
 msgid "openSUSE 11.4"
-msgstr "openSUSE 11.4"
+msgstr "오픈수세 11.4"
 
 #: data/os/opensuse.org/opensuse-12.1.xml.in:6
 msgid "openSUSE 12.1"
-msgstr "openSUSE 12.1"
+msgstr "오픈수세 12.1"
 
 #: data/os/opensuse.org/opensuse-12.2.xml.in:6
 msgid "openSUSE 12.2"
-msgstr ""
+msgstr "오픈수세 12.2"
 
 #: data/os/opensuse.org/opensuse-12.3.xml.in:6
 msgid "openSUSE 12.3"
-msgstr ""
+msgstr "오픈수세 12.3"
 
 #: data/os/opensuse.org/opensuse-13.1.xml.in:6
 msgid "openSUSE 13.1"
-msgstr ""
+msgstr "오픈수세 13.1"
 
 #: data/os/opensuse.org/opensuse-13.2.xml.in:6
 msgid "openSUSE 13.2"
-msgstr ""
+msgstr "오픈수세 13.2"
 
 #: data/os/opensuse.org/opensuse-15.0.xml.in:6
 #: data/os/opensuse.org/opensuse-15.0.xml.in:18
 msgid "openSUSE Leap 15.0"
-msgstr ""
+msgstr "오픈수세 립 15.0"
 
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
 #: data/os/opensuse.org/opensuse-15.1.xml.in:17
-#, fuzzy
 msgid "openSUSE Leap 15.1"
-msgstr "openSUSE 12.1"
+msgstr "오픈수세 립 15.1"
 
 #: data/os/opensuse.org/opensuse-15.2.xml.in:6
 #: data/os/opensuse.org/opensuse-15.2.xml.in:17
-#, fuzzy
 msgid "openSUSE Leap 15.2"
-msgstr "openSUSE 12.1"
+msgstr "오픈수세 립 15.2"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
-#, fuzzy
 msgid "openSUSE Leap 42.1"
-msgstr "openSUSE 12.1"
+msgstr "오픈수세 립 42.1"
 
 #: data/os/opensuse.org/opensuse-42.2.xml.in:6
 msgid "openSUSE Leap 42.2"
-msgstr ""
+msgstr "오픈수세 립 42.2"
 
 #: data/os/opensuse.org/opensuse-42.3.xml.in:6
 #: data/os/opensuse.org/opensuse-42.3.xml.in:18
 msgid "openSUSE Leap 42.3"
-msgstr ""
+msgstr "오픈수세 립 42.3"
 
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:6
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:15
 msgid "openSUSE Tumbleweed"
-msgstr ""
+msgstr "오픈수세 텀블위드"
 
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:18
 msgid "openSUSE Tumbleweed (Kubic)"
-msgstr ""
+msgstr "오픈수세 텀블위드(Kubic)"
 
 #: data/os/oracle.com/oel-4.4.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.4"
-msgstr "Red Hat Enterprise Linux 4.4"
+msgstr "오라클 기업용 리눅스 4.4"
 
 #: data/os/oracle.com/oel-4.4.xml.in:6 data/os/oracle.com/oel-4.5.xml.in:6
 #: data/os/oracle.com/oel-4.6.xml.in:6 data/os/oracle.com/oel-4.7.xml.in:6
@@ -3436,227 +3311,187 @@ msgstr "Red Hat Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-8.0.xml.in:6 data/os/oracle.com/ol-8.1.xml.in:6
 #: data/os/oracle.com/ol-8.2.xml.in:6
 msgid "Oracle America"
-msgstr ""
+msgstr "오라클 미국"
 
 #: data/os/oracle.com/oel-4.5.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.5"
-msgstr "Red Hat Enterprise Linux 4.5"
+msgstr "오라클 기업용 리눅스 4.5"
 
 #: data/os/oracle.com/oel-4.6.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.6"
-msgstr "Red Hat Enterprise Linux 4.6"
+msgstr "오라클 기업용 리눅스 4.6"
 
 #: data/os/oracle.com/oel-4.7.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.7"
-msgstr "Red Hat Enterprise Linux 4.7"
+msgstr "오라클 기업용 리눅스 4.7"
 
 #: data/os/oracle.com/oel-4.8.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.8"
-msgstr "Red Hat Enterprise Linux 4.8"
+msgstr "오라클 기업용 4.8"
 
 #: data/os/oracle.com/oel-4.9.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.9"
-msgstr "Red Hat Enterprise Linux 4.9"
+msgstr "오라클 기업용 4.9"
 
 #: data/os/oracle.com/oel-5.0.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.0"
-msgstr "Red Hat Enterprise Linux 5.0"
+msgstr "오라클 기업용 리눅스 5.0"
 
 #: data/os/oracle.com/oel-5.1.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.1"
-msgstr "Red Hat Enterprise Linux 5.1"
+msgstr "오라클 기업용 리눅스 5.1"
 
 #: data/os/oracle.com/oel-5.2.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.2"
-msgstr "Red Hat Enterprise Linux 5.2"
+msgstr "오라클 기업용 리눅스 5.2"
 
 #: data/os/oracle.com/oel-5.3.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.3"
-msgstr "Red Hat Enterprise Linux 5.3"
+msgstr "오라클 기업용 리눅스 5.3"
 
 #: data/os/oracle.com/oel-5.4.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.4"
-msgstr "Red Hat Enterprise Linux 5.4"
+msgstr "오라클 기업용 리눅스 5.4"
 
 #: data/os/oracle.com/ol-5.10.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.10"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.10"
 
 #: data/os/oracle.com/ol-5.11.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.11"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.11"
 
 #: data/os/oracle.com/ol-5.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.5"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.5"
 
 #: data/os/oracle.com/ol-5.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.6"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.6"
 
 #: data/os/oracle.com/ol-5.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.7"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.7"
 
 #: data/os/oracle.com/ol-5.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.8"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.8"
 
 #: data/os/oracle.com/ol-5.9.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.9"
-msgstr "Mandrake Linux 5.1"
+msgstr "오라클 리눅스 5.9"
 
 #: data/os/oracle.com/ol-6.0.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.0"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.0"
 
 #: data/os/oracle.com/ol-6.1.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.1"
-msgstr "Mandrake Linux 6.1"
+msgstr "오라클 리눅스 6.1"
 
 #: data/os/oracle.com/ol-6.10.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.10"
-msgstr "Mandrake Linux 6.1"
+msgstr "오라클 리눅스 6.10"
 
 #: data/os/oracle.com/ol-6.2.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.2"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.2"
 
 #: data/os/oracle.com/ol-6.3.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.3"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.3"
 
 #: data/os/oracle.com/ol-6.4.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.4"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.4"
 
 #: data/os/oracle.com/ol-6.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.5"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.5"
 
 #: data/os/oracle.com/ol-6.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.6"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.6"
 
 #: data/os/oracle.com/ol-6.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.7"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.7"
 
 #: data/os/oracle.com/ol-6.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.8"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.8"
 
 #: data/os/oracle.com/ol-6.9.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.9"
-msgstr "Mandrake Linux 6.0"
+msgstr "오라클 리눅스 6.9"
 
 #: data/os/oracle.com/ol-7.0.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.0"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.0"
 
 #: data/os/oracle.com/ol-7.1.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.1"
-msgstr "Mandrake Linux 7.1"
+msgstr "오라클 리눅스 7.1"
 
 #: data/os/oracle.com/ol-7.2.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.2"
-msgstr "Mandrake Linux 7.2"
+msgstr "오라클 리눅스 7.2"
 
 #: data/os/oracle.com/ol-7.3.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.3"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.3"
 
 #: data/os/oracle.com/ol-7.4.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.4"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.4"
 
 #: data/os/oracle.com/ol-7.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.5"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.5"
 
 #: data/os/oracle.com/ol-7.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.6"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.6"
 
 #: data/os/oracle.com/ol-7.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.7"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.7"
 
 #: data/os/oracle.com/ol-7.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.8"
-msgstr "Mandrake Linux 7.0"
+msgstr "오라클 리눅스 7.8"
 
 #: data/os/oracle.com/ol-8.0.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 8.0"
-msgstr "Mandrake Linux 8.0"
+msgstr "오라클 리눅스 8.0"
 
 #: data/os/oracle.com/ol-8.1.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 8.1"
-msgstr "Mandrake Linux 8.0"
+msgstr "오라클 리눅스 8.1"
 
 #: data/os/oracle.com/ol-8.2.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 8.2"
-msgstr "Mandrake Linux 8.0"
+msgstr "오라클 리눅스 8.2"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
-msgstr ""
+msgstr "오라클 솔라리스 11"
 
 #: data/os/oracle.com/solaris-11.xml.in:8
 msgid "Oracle"
-msgstr ""
+msgstr "오라클"
 
 #: data/os/pureos.net/pureos-8.xml.in:6
 msgid "PureOS"
-msgstr ""
+msgstr "퓨어OS"
 
 #: data/os/pureos.net/pureos-8.xml.in:8
 msgid "Purism, SPC"
-msgstr ""
+msgstr "퓨리즘, SPC"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat 기업용 리눅스 2.1 업데이트 1"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:8
 #: data/os/redhat.com/rhel-2.1.2.xml.in:8
@@ -3721,430 +3556,403 @@ msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
-msgstr "Red Hat Enterprise Linux 2.1 Update 2"
+msgstr "Red Hat 기업용 리눅스 2.1 업데이트 2"
 
 #: data/os/redhat.com/rhel-2.1.3.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 3"
-msgstr "Red Hat Enterprise Linux 2.1 Update 3"
+msgstr "d Hat 기업용 리눅스 2.1 업데이트 3"
 
 #: data/os/redhat.com/rhel-2.1.4.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 4"
-msgstr "Red Hat Enterprise Linux 2.1 Update 4"
+msgstr "d Hat 기업용 리눅스 2.1 업데이트 4"
 
 #: data/os/redhat.com/rhel-2.1.5.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 5"
-msgstr "Red Hat Enterprise Linux 2.1 Update 5"
+msgstr "d Hat 기업용 리눅스 2.1 업데이트 5"
 
 #: data/os/redhat.com/rhel-2.1.6.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 6"
-msgstr "Red Hat Enterprise Linux 2.1 Update 6"
+msgstr "d Hat 기업용 리눅스 2.1 업데이트 6"
 
 #: data/os/redhat.com/rhel-2.1.7.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 7"
-msgstr "Red Hat Enterprise Linux 2.1 Update 7"
+msgstr "Red Hat 기업용 리눅스 2.1 업데이트 7"
 
 #: data/os/redhat.com/rhel-2.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1"
-msgstr "Red Hat Enterprise Linux 2.1"
+msgstr "Red Hat 기업용 리눅스 2.1"
 
 #: data/os/redhat.com/rhel-3.1.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 1"
-msgstr "Red Hat Enterprise Linux 3 Update 1"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 1"
 
 #: data/os/redhat.com/rhel-3.2.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 2"
-msgstr "Red Hat Enterprise Linux 3 Update 2"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 2"
 
 #: data/os/redhat.com/rhel-3.3.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 3"
-msgstr "Red Hat Enterprise Linux 3 Update 3"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 3"
 
 #: data/os/redhat.com/rhel-3.4.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 4"
-msgstr "Red Hat Enterprise Linux 3 Update 4"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 4"
 
 #: data/os/redhat.com/rhel-3.5.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 5"
-msgstr "Red Hat Enterprise Linux 3 Update 5"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 5"
 
 #: data/os/redhat.com/rhel-3.6.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 6"
-msgstr "Red Hat Enterprise Linux 3 Update 6"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 6"
 
 #: data/os/redhat.com/rhel-3.7.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 7"
-msgstr "Red Hat Enterprise Linux 3 Update 7"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 7"
 
 #: data/os/redhat.com/rhel-3.8.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 8"
-msgstr "Red Hat Enterprise Linux 3 Update 8"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 8"
 
 #: data/os/redhat.com/rhel-3.9.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 9"
-msgstr "Red Hat Enterprise Linux 3 Update 9"
+msgstr "Red Hat 기업용 리눅스 3 업데이트 9"
 
 #: data/os/redhat.com/rhel-3.xml.in:6
 msgid "Red Hat Enterprise Linux 3"
-msgstr "Red Hat Enterprise Linux 3"
+msgstr "Red Hat 기업용 리눅스 3"
 
 #: data/os/redhat.com/rhel-4.0.xml.in:6
 msgid "Red Hat Enterprise Linux 4.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 4.0"
 
 #: data/os/redhat.com/rhel-4.1.xml.in:6
 msgid "Red Hat Enterprise Linux 4.1"
-msgstr "Red Hat Enterprise Linux 4.1"
+msgstr "Red Hat 기업용 리눅스 4.1"
 
 #: data/os/redhat.com/rhel-4.2.xml.in:6
 msgid "Red Hat Enterprise Linux 4.2"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 4.2"
 
 #: data/os/redhat.com/rhel-4.3.xml.in:6
 msgid "Red Hat Enterprise Linux 4.3"
-msgstr "Red Hat Enterprise Linux 4.3"
+msgstr "Red Hat 기업용 리눅스 4.3"
 
 #: data/os/redhat.com/rhel-4.4.xml.in:6
 msgid "Red Hat Enterprise Linux 4.4"
-msgstr "Red Hat Enterprise Linux 4.4"
+msgstr "Red Hat 기업용 리눅스 4.4"
 
 #: data/os/redhat.com/rhel-4.5.xml.in:6
 msgid "Red Hat Enterprise Linux 4.5"
-msgstr "Red Hat Enterprise Linux 4.5"
+msgstr "Red Hat 기업용 리눅스 4.5"
 
 #: data/os/redhat.com/rhel-4.6.xml.in:6
 msgid "Red Hat Enterprise Linux 4.6"
-msgstr "Red Hat Enterprise Linux 4.6"
+msgstr "Red Hat 기업용 리눅스 4.6"
 
 #: data/os/redhat.com/rhel-4.7.xml.in:6
 msgid "Red Hat Enterprise Linux 4.7"
-msgstr "Red Hat Enterprise Linux 4.7"
+msgstr "Red Hat 기업용 리눅스 4.7"
 
 #: data/os/redhat.com/rhel-4.8.xml.in:6
 msgid "Red Hat Enterprise Linux 4.8"
-msgstr "Red Hat Enterprise Linux 4.8"
+msgstr "Red Hat 기업용 리눅스 4.8"
 
 #: data/os/redhat.com/rhel-4.9.xml.in:6
 msgid "Red Hat Enterprise Linux 4.9"
-msgstr "Red Hat Enterprise Linux 4.9"
+msgstr "Red Hat 기업용 리눅스 4.9"
 
 #: data/os/redhat.com/rhel-5.0.xml.in:6
 msgid "Red Hat Enterprise Linux 5.0"
-msgstr "Red Hat Enterprise Linux 5.0"
+msgstr "Red Hat 기업용 리눅스 5.0"
 
 #: data/os/redhat.com/rhel-5.1.xml.in:6
 msgid "Red Hat Enterprise Linux 5.1"
-msgstr "Red Hat Enterprise Linux 5.1"
+msgstr "Red Hat 기업용 리눅스 5.1"
 
 #: data/os/redhat.com/rhel-5.10.xml.in:6
 msgid "Red Hat Enterprise Linux 5.10"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 5.10"
 
 #: data/os/redhat.com/rhel-5.11.xml.in:6
 msgid "Red Hat Enterprise Linux 5.11"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 5.11"
 
 #: data/os/redhat.com/rhel-5.2.xml.in:6
 msgid "Red Hat Enterprise Linux 5.2"
-msgstr "Red Hat Enterprise Linux 5.2"
+msgstr "Red Hat 기업용 리눅스 5.2"
 
 #: data/os/redhat.com/rhel-5.3.xml.in:6
 msgid "Red Hat Enterprise Linux 5.3"
-msgstr "Red Hat Enterprise Linux 5.3"
+msgstr "Red Hat 기업용 리눅스 5.3"
 
 #: data/os/redhat.com/rhel-5.4.xml.in:6
 msgid "Red Hat Enterprise Linux 5.4"
-msgstr "Red Hat Enterprise Linux 5.4"
+msgstr "Red Hat 기업용 리눅스 5.4"
 
 #: data/os/redhat.com/rhel-5.5.xml.in:6
 msgid "Red Hat Enterprise Linux 5.5"
-msgstr "Red Hat Enterprise Linux 5.5"
+msgstr "Red Hat 기업용 리눅스 5.5"
 
 #: data/os/redhat.com/rhel-5.6.xml.in:6
 msgid "Red Hat Enterprise Linux 5.6"
-msgstr "Red Hat Enterprise Linux 5.6"
+msgstr "Red Hat 기업용 리눅스 5.6"
 
 #: data/os/redhat.com/rhel-5.7.xml.in:6
 msgid "Red Hat Enterprise Linux 5.7"
-msgstr "Red Hat Enterprise Linux 5.7"
+msgstr "Red Hat 기업용 리눅스 5.7"
 
 #: data/os/redhat.com/rhel-5.8.xml.in:6
 msgid "Red Hat Enterprise Linux 5.8"
-msgstr "Red Hat Enterprise Linux 5.8"
+msgstr "Red Hat 기업용 리눅스 5.8"
 
 #: data/os/redhat.com/rhel-5.9.xml.in:6
 msgid "Red Hat Enterprise Linux 5.9"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 5.9"
 
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6 Unknown"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat 기업용 리눅스 6 알지못함"
 
 #: data/os/redhat.com/rhel-6.0.xml.in:6
 msgid "Red Hat Enterprise Linux 6.0"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat 기업용 리눅스 6.0"
 
 #: data/os/redhat.com/rhel-6.1.xml.in:6
 msgid "Red Hat Enterprise Linux 6.1"
-msgstr "Red Hat Enterprise Linux 6.1"
+msgstr "Red Hat 기업용 리눅스 6.1"
 
 #: data/os/redhat.com/rhel-6.10.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.10"
-msgstr "Red Hat Enterprise Linux 6.1"
+msgstr "Red Hat 기업용 리눅스 6.10"
 
 #: data/os/redhat.com/rhel-6.2.xml.in:6
 msgid "Red Hat Enterprise Linux 6.2"
-msgstr "Red Hat Enterprise Linux 6.2"
+msgstr "Red Hat 기업용 리눅스 6.2"
 
 #: data/os/redhat.com/rhel-6.3.xml.in:6
 msgid "Red Hat Enterprise Linux 6.3"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 6.3"
 
 #: data/os/redhat.com/rhel-6.4.xml.in:6
 msgid "Red Hat Enterprise Linux 6.4"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 6.4"
 
 #: data/os/redhat.com/rhel-6.5.xml.in:6
 msgid "Red Hat Enterprise Linux 6.5"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 6.5"
 
 #: data/os/redhat.com/rhel-6.6.xml.in:6
 msgid "Red Hat Enterprise Linux 6.6"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 6.6"
 
 #: data/os/redhat.com/rhel-6.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.7"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat 기업용 리눅스 6.7"
 
 #: data/os/redhat.com/rhel-6.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.8"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat 기업용 리눅스 6.8"
 
 #: data/os/redhat.com/rhel-6.9.xml.in:6
 msgid "Red Hat Enterprise Linux 6.9"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 6.9"
 
 #: data/os/redhat.com/rhel-7-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7 Unknown"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7 알지못함"
 
 #: data/os/redhat.com/rhel-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux 7.0"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 7.0"
 
 #: data/os/redhat.com/rhel-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux 7.1"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 7.1"
 
 #: data/os/redhat.com/rhel-7.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.2"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7.2"
 
 #: data/os/redhat.com/rhel-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux 7.3"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 7.3"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux 7.4"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 7.4"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat 기업용 리눅스 7.4 대체 구조"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:6
 msgid "Red Hat Enterprise Linux 7.5"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 7.5"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat 기업용 리눅스 7.5 대체 구조"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.6"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7.6"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat 기업용 리눅스 7.6 대체 구조"
 
 #: data/os/redhat.com/rhel-7.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.7"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7.7"
 
 #: data/os/redhat.com/rhel-7.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.8"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7.8"
 
 #: data/os/redhat.com/rhel-7.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.9"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 7.9"
 
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8 Unknown"
-msgstr "Red Hat Enterprise Linux 4.8"
+msgstr "Red Hat 기업용 리눅스 8 알지못함"
 
 #: data/os/redhat.com/rhel-8.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 8 .0"
 
 #: data/os/redhat.com/rhel-8.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.1"
-msgstr "Red Hat Enterprise Linux 2.1"
+msgstr "Red Hat 기업용 리눅스 8 .1"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.2"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 8 .2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.4"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 8.4"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 9 Unknown"
-msgstr "Red Hat Enterprise Linux 6.0"
+msgstr "Red Hat 기업용 리눅스 9 알지못함"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 9.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat 기업용 리눅스 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.0"
 
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.1"
-msgstr ""
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.1"
 
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.2"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.2"
 
 #: data/os/redhat.com/rhel-atomic-7.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.3"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.3"
 
 #: data/os/redhat.com/rhel-atomic-7.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.4"
-msgstr "Red Hat Enterprise Linux 4.2"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.4"
 
 #: data/os/redhat.com/rhel-unknown.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Unknown"
-msgstr "Red Hat Enterprise Linux 3"
+msgstr "Red Hat 기업용 리눅스 알지못함"
 
 #: data/os/redhat.com/rhl-1.0.xml.in:6
 msgid "Red Hat Linux 1.0"
-msgstr "Red Hat Linux 1.0"
+msgstr "Red Hat 리눅스 1.0"
 
 #: data/os/redhat.com/rhl-1.1.xml.in:6
 msgid "Red Hat Linux 1.1"
-msgstr "Red Hat Linux 1.1"
+msgstr "Red Hat 리눅스 1.1"
 
 #: data/os/redhat.com/rhl-2.0.xml.in:6
 msgid "Red Hat Linux 2.0"
-msgstr "Red Hat Linux 2.0"
+msgstr "Red Hat 리눅스 2.0"
 
 #: data/os/redhat.com/rhl-2.1.xml.in:6
 msgid "Red Hat Linux 2.1"
-msgstr "Red Hat Linux 2.1"
+msgstr "Red Hat 리눅스 2.1"
 
 #: data/os/redhat.com/rhl-3.0.3.xml.in:6
 msgid "Red Hat Linux 3.0.3"
-msgstr "Red Hat Linux 3.0.3"
+msgstr "Red Hat 리눅스 3.0.3"
 
 #: data/os/redhat.com/rhl-4.0.xml.in:6
 msgid "Red Hat Linux 4.0"
-msgstr "Red Hat Linux 4.0"
+msgstr "Red Hat 리눅스 4.0"
 
 #: data/os/redhat.com/rhl-4.1.xml.in:6
 msgid "Red Hat Linux 4.1"
-msgstr "Red Hat Linux 4.1"
+msgstr "Red Hat 리눅스 4.1"
 
 #: data/os/redhat.com/rhl-4.2.xml.in:6
 msgid "Red Hat Linux 4.2"
-msgstr "Red Hat Linux 4.2"
+msgstr "Red Hat 리눅스 4.2"
 
 #: data/os/redhat.com/rhl-5.0.xml.in:6
 msgid "Red Hat Linux 5.0"
-msgstr "Red Hat Linux 5.0"
+msgstr "Red Hat 리눅스 5.0"
 
 #: data/os/redhat.com/rhl-5.1.xml.in:6
 msgid "Red Hat Linux 5.1"
-msgstr "Red Hat Linux 5.1"
+msgstr "Red Hat 리눅스 5.1"
 
 #: data/os/redhat.com/rhl-5.2.xml.in:6
 msgid "Red Hat Linux 5.2"
-msgstr "Red Hat Linux 5.2"
+msgstr "Red Hat 리눅스 5.2"
 
 #: data/os/redhat.com/rhl-6.0.xml.in:6
 msgid "Red Hat Linux 6.0"
-msgstr "Red Hat Linux 6.0"
+msgstr "Red Hat 리눅스 6.0"
 
 #: data/os/redhat.com/rhl-6.1.xml.in:6
 msgid "Red Hat Linux 6.1"
-msgstr "Red Hat Linux 6.1"
+msgstr "Red Hat 리눅스 6.1"
 
 #: data/os/redhat.com/rhl-6.2.xml.in:6
 msgid "Red Hat Linux 6.2"
-msgstr "Red Hat Linux 6.2"
+msgstr "Red Hat 리눅스 6.2"
 
 #: data/os/redhat.com/rhl-7.1.xml.in:6
 msgid "Red Hat Linux 7.1"
-msgstr "Red Hat Linux 7.1"
+msgstr "Red Hat 리눅스 7.1"
 
 #: data/os/redhat.com/rhl-7.2.xml.in:6
 msgid "Red Hat Linux 7.2"
-msgstr "Red Hat Linux 7.2"
+msgstr "Red Hat 리눅스 7.2"
 
 #: data/os/redhat.com/rhl-7.3.xml.in:6
 msgid "Red Hat Linux 7.3"
-msgstr "Red Hat Linux 7.3"
+msgstr "Red Hat 리눅스 7.3"
 
 #: data/os/redhat.com/rhl-7.xml.in:6
 msgid "Red Hat Linux 7"
-msgstr "Red Hat Linux 7"
+msgstr "Red Hat 리눅스 7"
 
 #: data/os/redhat.com/rhl-8.0.xml.in:6
 msgid "Red Hat Linux 8.0"
-msgstr "Red Hat Linux 8.0"
+msgstr "Red Hat 리눅스 8.0"
 
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
-msgstr "Red Hat Linux 9"
+msgstr "Red Hat 리눅스 9"
 
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.0"
-msgstr "Red Hat Linux 5.0"
+msgstr "사이언티픽 리눅스 5.0"
 
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-5.1.xml.in:8
@@ -4178,174 +3986,161 @@ msgstr "Red Hat Linux 5.0"
 #: data/os/scientificlinux.org/scientificlinux-7.5.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-7.6.xml.in:8
 msgid "Scientific Linux"
-msgstr ""
+msgstr "사이언티픽 리눅스"
 
 #: data/os/scientificlinux.org/scientificlinux-5.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.1"
-msgstr "Red Hat Linux 5.1"
+msgstr "사이언티픽 리눅스 5.1"
 
 #: data/os/scientificlinux.org/scientificlinux-5.10.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.10"
-msgstr "Red Hat Linux 5.1"
+msgstr "사이언티픽 리눅스 5.10"
 
 #: data/os/scientificlinux.org/scientificlinux-5.11.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.11"
-msgstr "Red Hat Linux 5.1"
+msgstr "사이언티픽 리눅스 5.11"
 
 #: data/os/scientificlinux.org/scientificlinux-5.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.2"
-msgstr "Red Hat Linux 5.2"
+msgstr "사이언티픽 리눅스 5.2"
 
 #: data/os/scientificlinux.org/scientificlinux-5.3.xml.in:6
 msgid "Scientific Linux 5.3"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.3"
 
 #: data/os/scientificlinux.org/scientificlinux-5.4.xml.in:6
 msgid "Scientific Linux 5.4"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.4"
 
 #: data/os/scientificlinux.org/scientificlinux-5.5.xml.in:6
 msgid "Scientific Linux 5.5"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.5"
 
 #: data/os/scientificlinux.org/scientificlinux-5.6.xml.in:6
 msgid "Scientific Linux 5.6"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.6"
 
 #: data/os/scientificlinux.org/scientificlinux-5.7.xml.in:6
 msgid "Scientific Linux 5.7"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.7"
 
 #: data/os/scientificlinux.org/scientificlinux-5.8.xml.in:6
 msgid "Scientific Linux 5.8"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.8"
 
 #: data/os/scientificlinux.org/scientificlinux-5.9.xml.in:6
 msgid "Scientific Linux 5.9"
-msgstr ""
+msgstr "사이언티픽 리눅스 5.9"
 
 #: data/os/scientificlinux.org/scientificlinux-6.0.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.0"
-msgstr "Red Hat Linux 6.0"
+msgstr "사이언티픽 리눅스 6.0"
 
 #: data/os/scientificlinux.org/scientificlinux-6.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.1"
-msgstr "Red Hat Linux 6.1"
+msgstr "사이언티픽 리눅스 6.1"
 
 #: data/os/scientificlinux.org/scientificlinux-6.10.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.10"
-msgstr "Red Hat Linux 6.1"
+msgstr "사이언티픽 리눅스 6.10"
 
 #: data/os/scientificlinux.org/scientificlinux-6.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.2"
-msgstr "Red Hat Linux 6.2"
+msgstr "사이언티픽 리눅스 6.2"
 
 #: data/os/scientificlinux.org/scientificlinux-6.3.xml.in:6
 msgid "Scientific Linux 6.3"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.3"
 
 #: data/os/scientificlinux.org/scientificlinux-6.4.xml.in:6
 msgid "Scientific Linux 6.4"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.4"
 
 #: data/os/scientificlinux.org/scientificlinux-6.5.xml.in:6
 msgid "Scientific Linux 6.5"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.5"
 
 #: data/os/scientificlinux.org/scientificlinux-6.6.xml.in:6
 msgid "Scientific Linux 6.6"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.6"
 
 #: data/os/scientificlinux.org/scientificlinux-6.7.xml.in:6
 msgid "Scientific Linux 6.7"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.7"
 
 #: data/os/scientificlinux.org/scientificlinux-6.8.xml.in:6
 msgid "Scientific Linux 6.8"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.8"
 
 #: data/os/scientificlinux.org/scientificlinux-6.9.xml.in:6
 msgid "Scientific Linux 6.9"
-msgstr ""
+msgstr "사이언티픽 리눅스 6.9"
 
 #: data/os/scientificlinux.org/scientificlinux-7-unknown.xml.in:6
 msgid "Scientific Linux 7 Unknown"
-msgstr ""
+msgstr "사이언티픽 리눅스 7.0 알지못함"
 
 #: data/os/scientificlinux.org/scientificlinux-7.0.xml.in:6
 msgid "Scientific Linux 7.0"
-msgstr ""
+msgstr "사이언티픽 리눅스 7.0"
 
 #: data/os/scientificlinux.org/scientificlinux-7.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.1"
-msgstr "Red Hat Linux 7.1"
+msgstr "사이언티픽 리눅스 7.1"
 
 #: data/os/scientificlinux.org/scientificlinux-7.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.2"
-msgstr "Red Hat Linux 7.2"
+msgstr "사이언티픽 리눅스 7.2"
 
 #: data/os/scientificlinux.org/scientificlinux-7.3.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.3"
-msgstr "Red Hat Linux 7.3"
+msgstr "사이언티픽 리눅스 7.3"
 
 #: data/os/scientificlinux.org/scientificlinux-7.4.xml.in:6
 msgid "Scientific Linux 7.4"
-msgstr ""
+msgstr "사이언티픽 리눅스 7.4"
 
 #: data/os/scientificlinux.org/scientificlinux-7.5.xml.in:6
 msgid "Scientific Linux 7.5"
-msgstr ""
+msgstr "사이언티픽 리눅스 7.5"
 
 #: data/os/scientificlinux.org/scientificlinux-7.6.xml.in:6
 msgid "Scientific Linux 7.6"
-msgstr ""
+msgstr "사이언티픽 리눅스 7.6"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:6
 msgid "Slackware 14.2"
-msgstr ""
+msgstr "슬랙웨어 14.2"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:8
 #: data/os/slackware.com/slackware-current.xml.in:8
-#, fuzzy
-#| msgid "Debian Project"
 msgid "Slackware Linux Project"
-msgstr "Debian プロジェクト"
+msgstr "슬랙웨어 리눅스 프로젝트"
 
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
-msgstr ""
+msgstr "슬랙웨어-현재"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
-msgstr ""
+msgstr "오픈솔라리스 2009.06"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:8
 #: data/os/sun.com/solaris-10.xml.in:8 data/os/sun.com/solaris-9.xml.in:8
 msgid "Sun"
-msgstr "Sun"
+msgstr "선"
 
 #: data/os/sun.com/solaris-10.xml.in:6
 msgid "Solaris 10"
-msgstr ""
+msgstr "솔라리스10"
 
 #: data/os/sun.com/solaris-9.xml.in:6
 msgid "Solaris 9"
-msgstr ""
+msgstr "솔라리스9"
 
 #: data/os/suse.com/caasp-1.0.xml.in:6
 msgid "SUSE CaaS Platform 1.0"
-msgstr ""
+msgstr "수세 CaaS 기반 1.0"
 
 #: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-1.0.xml.in:9
 #: data/os/suse.com/caasp-2.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:9
@@ -4374,199 +4169,187 @@ msgstr ""
 #: data/os/suse.com/sles-12.5.xml.in:8 data/os/suse.com/sles-12.xml.in:8
 #: data/os/suse.com/sles-9.xml.in:8
 msgid "SUSE"
-msgstr ""
+msgstr "수세"
 
 #: data/os/suse.com/caasp-2.0.xml.in:6
 msgid "SUSE CaaS Platform 2.0"
-msgstr ""
+msgstr "수세 CaaS 기반 2.0"
 
 #: data/os/suse.com/caasp-3.0.xml.in:6
 msgid "SUSE CaaS Platform 3.0"
-msgstr ""
+msgstr "수세 CaaS 기반 3.0"
 
 #: data/os/suse.com/caasp-unknown.xml.in:6
 msgid "SUSE CaaS Platform Unknown"
-msgstr ""
+msgstr "수세 CaaS 기반 알지못함"
 
 #: data/os/suse.com/sle-15-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 Unknown"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 15 알지못함"
 
 #: data/os/suse.com/sle-15.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP1"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 15 SP1"
 
 #: data/os/suse.com/sle-15.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP2"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 15 SP2"
 
 #: data/os/suse.com/sle-15.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 15"
 
 #: data/os/suse.com/sle-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Unknown"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 알지못함"
 
 #: data/os/suse.com/sled-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP1"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP1"
 
 #: data/os/suse.com/sled-10.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP2"
 
 #: data/os/suse.com/sled-10.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP3"
 
 #: data/os/suse.com/sled-10.4.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP4"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP4"
 
 #: data/os/suse.com/sled-10.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10"
 
 #: data/os/suse.com/sled-11.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP1"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 11 SP1"
 
 #: data/os/suse.com/sled-11.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 11 SP2"
 
 #: data/os/suse.com/sled-11.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 11 SP3"
 
 #: data/os/suse.com/sled-11.4.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11 SP4"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 11 SP4"
 
 #: data/os/suse.com/sled-11.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 11"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 11"
 
 #: data/os/suse.com/sled-12-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 Unknown"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 데스크탑 12 알지못함"
 
 #: data/os/suse.com/sled-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP1"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 12 SP1"
 
 #: data/os/suse.com/sled-12.2.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 12 SP2"
 
 #: data/os/suse.com/sled-12.3.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 12 SP3"
 
 #: data/os/suse.com/sled-12.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP4"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 데스크탑 12 SP4"
 
 #: data/os/suse.com/sled-12.5.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP5"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 데스크탑 12 SP5"
 
 #: data/os/suse.com/sled-12.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 12"
 
 #: data/os/suse.com/sled-9.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 9"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 9"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP1"
 
 #: data/os/suse.com/sles-10.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP2"
 
 #: data/os/suse.com/sles-10.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP3"
 
 #: data/os/suse.com/sles-10.4.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP4"
-msgstr ""
+msgstr "수세 리눅스 기업용 데스크탑 10 SP4"
 
 #: data/os/suse.com/sles-10.xml.in:6
 msgid "SUSE Linux Enterprise Server 10"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 10"
 
 #: data/os/suse.com/sles-11.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP1"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 11 SP1"
 
 #: data/os/suse.com/sles-11.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 11 SP2"
 
 #: data/os/suse.com/sles-11.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 11 SP3"
 
 #: data/os/suse.com/sles-11.4.xml.in:6
 msgid "SUSE Linux Enterprise Server 11 SP4"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 11 SP4"
 
 #: data/os/suse.com/sles-11.xml.in:6
 msgid "SUSE Linux Enterprise Server 11"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 11"
 
 #: data/os/suse.com/sles-12-unknown.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 Unknown"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 서버 12 알지못함"
 
 #: data/os/suse.com/sles-12.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP1"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 서버 12 SP1"
 
 #: data/os/suse.com/sles-12.2.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP2"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 12 SP2"
 
 #: data/os/suse.com/sles-12.3.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP3"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 12 SP3"
 
 #: data/os/suse.com/sles-12.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP4"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 서버 12 SP4"
 
 #: data/os/suse.com/sles-12.5.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP5"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "수세 리눅스 기업용 서버 12 SP5"
 
 #: data/os/suse.com/sles-12.xml.in:6
 msgid "SUSE Linux Enterprise Server 12"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 12"
 
 #: data/os/suse.com/sles-9.xml.in:6
 msgid "SUSE Linux Enterprise Server 9"
-msgstr ""
+msgstr "수세 리눅스 기업용 서버 9"
 
 #: data/os/system76.com/popos-17.10.xml.in:6
 msgid "Pop!_OS 17.10"
-msgstr ""
+msgstr "팝!_OS 17.10"
 
 #: data/os/system76.com/popos-17.10.xml.in:8
 #: data/os/system76.com/popos-18.04.xml.in:8
@@ -4576,35 +4359,35 @@ msgstr ""
 #: data/os/system76.com/popos-20.04.xml.in:8
 #: data/os/system76.com/popos-20.10.xml.in:8
 msgid "System76, Inc."
-msgstr ""
+msgstr "System76, Inc."
 
 #: data/os/system76.com/popos-18.04.xml.in:6
 msgid "Pop!_OS 18.04"
-msgstr ""
+msgstr "팝!_OS 18.04"
 
 #: data/os/system76.com/popos-18.10.xml.in:6
 msgid "Pop!_OS 18.10"
-msgstr ""
+msgstr "팝!_OS 18.10"
 
 #: data/os/system76.com/popos-19.04.xml.in:6
 msgid "Pop!_OS 19.04"
-msgstr ""
+msgstr "팝!_OS 19.04"
 
 #: data/os/system76.com/popos-19.10.xml.in:6
 msgid "Pop!_OS 19.10"
-msgstr ""
+msgstr "팝!_OS 19.10"
 
 #: data/os/system76.com/popos-20.04.xml.in:6
 msgid "Pop!_OS 20.04"
-msgstr ""
+msgstr "팝!_OS 20.04"
 
 #: data/os/system76.com/popos-20.10.xml.in:6
 msgid "Pop!_OS 20.10"
-msgstr ""
+msgstr "팝!_OS 20.10"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
-msgstr ""
+msgstr "우분투 10.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-10.10.xml.in:9
@@ -4644,140 +4427,140 @@ msgstr "Canonical Ltd"
 
 #: data/os/ubuntu.com/ubuntu-10.10.xml.in:7
 msgid "Ubuntu 10.10"
-msgstr ""
+msgstr "우분투 10.10"
 
 #: data/os/ubuntu.com/ubuntu-11.04.xml.in:7
 msgid "Ubuntu 11.04"
-msgstr ""
+msgstr "우분투 11.04"
 
 #: data/os/ubuntu.com/ubuntu-11.10.xml.in:7
 msgid "Ubuntu 11.10"
-msgstr ""
+msgstr "우분투 11.10"
 
 #: data/os/ubuntu.com/ubuntu-12.04.xml.in:7
 msgid "Ubuntu 12.04 LTS"
-msgstr ""
+msgstr "우분투 12.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-12.10.xml.in:7
 msgid "Ubuntu 12.10"
-msgstr ""
+msgstr "우분투 12.10"
 
 #: data/os/ubuntu.com/ubuntu-13.04.xml.in:7
 msgid "Ubuntu 13.04"
-msgstr ""
+msgstr "우분투 13.04"
 
 #: data/os/ubuntu.com/ubuntu-13.10.xml.in:7
 msgid "Ubuntu 13.10"
-msgstr ""
+msgstr "우분투 13.10"
 
 #: data/os/ubuntu.com/ubuntu-14.04.xml.in:7
 msgid "Ubuntu 14.04 LTS"
-msgstr ""
+msgstr "우분투 14.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-14.10.xml.in:7
 msgid "Ubuntu 14.10"
-msgstr ""
+msgstr "우분투 14.10"
 
 #: data/os/ubuntu.com/ubuntu-15.04.xml.in:7
 msgid "Ubuntu 15.04"
-msgstr ""
+msgstr "우분투 15.05"
 
 #: data/os/ubuntu.com/ubuntu-15.10.xml.in:7
 msgid "Ubuntu 15.10"
-msgstr ""
+msgstr "우분투 15.10"
 
 #: data/os/ubuntu.com/ubuntu-16.04.xml.in:7
 msgid "Ubuntu 16.04"
-msgstr ""
+msgstr "우분투 16.04"
 
 #: data/os/ubuntu.com/ubuntu-16.10.xml.in:7
 msgid "Ubuntu 16.10"
-msgstr ""
+msgstr "우분투 16.10"
 
 #: data/os/ubuntu.com/ubuntu-17.04.xml.in:7
 msgid "Ubuntu 17.04"
-msgstr ""
+msgstr "우분투 17.04"
 
 #: data/os/ubuntu.com/ubuntu-17.10.xml.in:7
 msgid "Ubuntu 17.10"
-msgstr ""
+msgstr "우분투 17.10"
 
 #: data/os/ubuntu.com/ubuntu-18.04.xml.in:8
 msgid "Ubuntu 18.04 LTS"
-msgstr ""
+msgstr "우분투 18.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-18.10.xml.in:8
 msgid "Ubuntu 18.10"
-msgstr ""
+msgstr "우분투 18.10"
 
 #: data/os/ubuntu.com/ubuntu-19.04.xml.in:8
 msgid "Ubuntu 19.04"
-msgstr ""
+msgstr "우분투 19.04"
 
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:8
 msgid "Ubuntu 19.10"
-msgstr ""
+msgstr "우분투 19.10"
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
 msgid "Ubuntu 20.04 LTS"
-msgstr ""
+msgstr "우분투 20.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
 msgid "Ubuntu 20.10"
-msgstr ""
+msgstr "우분투 20.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
-msgstr ""
+msgstr "우분투 4.10"
 
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:7
 msgid "Ubuntu 5.04"
-msgstr ""
+msgstr "우분투 5.04"
 
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:7
 msgid "Ubuntu 5.10"
-msgstr ""
+msgstr "우분투 5.10"
 
 #: data/os/ubuntu.com/ubuntu-6.06.xml.in:7
 msgid "Ubuntu 6.06 LTS"
-msgstr ""
+msgstr "우분투 6.06 LTS"
 
 #: data/os/ubuntu.com/ubuntu-6.10.xml.in:7
 msgid "Ubuntu 6.10"
-msgstr ""
+msgstr "우분투 6.10"
 
 #: data/os/ubuntu.com/ubuntu-7.04.xml.in:7
 msgid "Ubuntu 7.04"
-msgstr ""
+msgstr "우분투 7.04"
 
 #: data/os/ubuntu.com/ubuntu-7.10.xml.in:7
 msgid "Ubuntu 7.10"
-msgstr ""
+msgstr "우분투 7.10"
 
 #: data/os/ubuntu.com/ubuntu-8.04.xml.in:7
 msgid "Ubuntu 8.04 LTS"
-msgstr ""
+msgstr "우분투 8.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-8.10.xml.in:7
 msgid "Ubuntu 8.10"
-msgstr ""
+msgstr "우분투 8.10"
 
 #: data/os/ubuntu.com/ubuntu-9.04.xml.in:7
 msgid "Ubuntu 9.04"
-msgstr ""
+msgstr "우분투 9.04"
 
 #: data/os/ubuntu.com/ubuntu-9.10.xml.in:7
 msgid "Ubuntu 9.10"
-msgstr ""
+msgstr "우분투 9.10"
 
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:6
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:7
 msgid "Void Linux"
-msgstr ""
+msgstr "보이드 리눅스"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.1.xml.in:6
 msgid "QEMU-KVM 1.0.1"
-msgstr ""
+msgstr "QEMU-KVM 1.0.1"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.1.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.xml.in:7
@@ -4786,31 +4569,31 @@ msgstr ""
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.2.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.2.0.xml.in:7
 msgid "linux-kvm.org"
-msgstr ""
+msgstr "linux-kvm.org"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.xml.in:6
 msgid "QEMU-KVM 1.0"
-msgstr ""
+msgstr "QEMU-KVM 1.0"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.0.xml.in:6
 msgid "QEMU-KVM 1.1.0"
-msgstr ""
+msgstr "QEMU-KVM 1.1.0"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.1.xml.in:6
 msgid "QEMU-KVM 1.1.1"
-msgstr ""
+msgstr "QEMU-KVM 1.1.1"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.2.xml.in:6
 msgid "QEMU-KVM 1.1.2"
-msgstr ""
+msgstr "QEMU-KVM 1.1.2"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.2.0.xml.in:6
 msgid "QEMU-KVM 1.2.0"
-msgstr ""
+msgstr "QEMU-KVM 1.2.0"
 
 #: data/platform/qemu.org/qemu-1.0.1.xml.in:6
 msgid "QEMU 1.0.1"
-msgstr ""
+msgstr "QEMU 1.0.1"
 
 #: data/platform/qemu.org/qemu-1.0.1.xml.in:7
 #: data/platform/qemu.org/qemu-1.0.xml.in:7
@@ -4847,139 +4630,139 @@ msgstr ""
 #: data/platform/qemu.org/qemu-2.2.1.xml.in:7
 #: data/platform/qemu.org/qemu-2.3.0.xml.in:7
 msgid "qemu.org"
-msgstr ""
+msgstr "qemu.org"
 
 #: data/platform/qemu.org/qemu-1.0.xml.in:6
 msgid "QEMU 1.0"
-msgstr ""
+msgstr "QEMU 1.0"
 
 #: data/platform/qemu.org/qemu-1.1.1-1.xml.in:6
 msgid "QEMU 1.1.1-1"
-msgstr ""
+msgstr "QEMU 1.1.1-1"
 
 #: data/platform/qemu.org/qemu-1.1.1.xml.in:6
 msgid "QEMU 1.1.1"
-msgstr ""
+msgstr "QEMU 1.1.1"
 
 #: data/platform/qemu.org/qemu-1.1.2.xml.in:6
 msgid "QEMU 1.1.2"
-msgstr ""
+msgstr "QEMU 1.1.2"
 
 #: data/platform/qemu.org/qemu-1.1.xml.in:6
 msgid "QEMU 1.1"
-msgstr ""
+msgstr "QEMU 1.1"
 
 #: data/platform/qemu.org/qemu-1.2.0.xml.in:6
 msgid "QEMU 1.2.0"
-msgstr ""
+msgstr "QEMU 1.2.0"
 
 #: data/platform/qemu.org/qemu-1.2.1.xml.in:6
 msgid "QEMU 1.2.1"
-msgstr ""
+msgstr "QEMU 1.2.1"
 
 #: data/platform/qemu.org/qemu-1.2.2.xml.in:6
 msgid "QEMU 1.2.2"
-msgstr ""
+msgstr "QEMU 1.2.2"
 
 #: data/platform/qemu.org/qemu-1.3.0.xml.in:6
 msgid "QEMU 1.3.0"
-msgstr ""
+msgstr "QEMU 1.3.0"
 
 #: data/platform/qemu.org/qemu-1.3.1.xml.in:6
 msgid "QEMU 1.3.1"
-msgstr ""
+msgstr "QEMU 1.3.1"
 
 #: data/platform/qemu.org/qemu-1.4.0.xml.in:6
 msgid "QEMU 1.4.0"
-msgstr ""
+msgstr "QEMU 1.4.0"
 
 #: data/platform/qemu.org/qemu-1.4.1.xml.in:6
 msgid "QEMU 1.4.1"
-msgstr ""
+msgstr "QEMU 1.4.1"
 
 #: data/platform/qemu.org/qemu-1.4.2.xml.in:6
 msgid "QEMU 1.4.2"
-msgstr ""
+msgstr "QEMU 1.4.2"
 
 #: data/platform/qemu.org/qemu-1.5.0.xml.in:6
 msgid "QEMU 1.5.0"
-msgstr ""
+msgstr "QEMU 1.5.0"
 
 #: data/platform/qemu.org/qemu-1.5.1.xml.in:6
 msgid "QEMU 1.5.1"
-msgstr ""
+msgstr "QEMU 1.5.1"
 
 #: data/platform/qemu.org/qemu-1.5.2.xml.in:6
 msgid "QEMU 1.5.2"
-msgstr ""
+msgstr "QEMU 1.5.2"
 
 #: data/platform/qemu.org/qemu-1.5.3.xml.in:6
 msgid "QEMU 1.5.3"
-msgstr ""
+msgstr "QEMU 1.5.3"
 
 #: data/platform/qemu.org/qemu-1.6.0.xml.in:6
 msgid "QEMU 1.6.0"
-msgstr ""
+msgstr "QEMU 1.6.0"
 
 #: data/platform/qemu.org/qemu-1.6.1.xml.in:6
 msgid "QEMU 1.6.1"
-msgstr ""
+msgstr "QEMU 1.6.1"
 
 #: data/platform/qemu.org/qemu-1.6.2.xml.in:6
 msgid "QEMU 1.6.2"
-msgstr ""
+msgstr "QEMU 1.6.2"
 
 #: data/platform/qemu.org/qemu-1.7.0.xml.in:6
 msgid "QEMU 1.7.0"
-msgstr ""
+msgstr "QEMU 1.7.0"
 
 #: data/platform/qemu.org/qemu-1.7.1.xml.in:6
 msgid "QEMU 1.7.1"
-msgstr ""
+msgstr "QEMU 1.7.1"
 
 #: data/platform/qemu.org/qemu-1.7.2.xml.in:6
 msgid "QEMU 1.7.2"
-msgstr ""
+msgstr "QEMU 1.7.2"
 
 #: data/platform/qemu.org/qemu-2.0.0.xml.in:6
 msgid "QEMU 2.0.0"
-msgstr ""
+msgstr "QEMU 2.0.0"
 
 #: data/platform/qemu.org/qemu-2.0.1.xml.in:6
 msgid "QEMU 2.0.1"
-msgstr ""
+msgstr "QEMU 2.0.1"
 
 #: data/platform/qemu.org/qemu-2.0.2.xml.in:6
 msgid "QEMU 2.0.2"
-msgstr ""
+msgstr "QEMU 2.0.2"
 
 #: data/platform/qemu.org/qemu-2.1.0.xml.in:6
 msgid "QEMU 2.1.0"
-msgstr ""
+msgstr "QEMU 2.1.0"
 
 #: data/platform/qemu.org/qemu-2.1.1.xml.in:6
 msgid "QEMU 2.1.1"
-msgstr ""
+msgstr "QEMU 2.1.1"
 
 #: data/platform/qemu.org/qemu-2.1.2.xml.in:6
 msgid "QEMU 2.1.2"
-msgstr ""
+msgstr "QEMU 2.1.2"
 
 #: data/platform/qemu.org/qemu-2.1.3.xml.in:6
 msgid "QEMU 2.1.3"
-msgstr ""
+msgstr "QEMU 2.1.3"
 
 #: data/platform/qemu.org/qemu-2.2.0.xml.in:6
 msgid "QEMU 2.2.0"
-msgstr ""
+msgstr "QEMU 2.2.0"
 
 #: data/platform/qemu.org/qemu-2.2.1.xml.in:6
 msgid "QEMU 2.2.1"
-msgstr ""
+msgstr "QEMU 2.2.0"
 
 #: data/platform/qemu.org/qemu-2.3.0.xml.in:6
 msgid "QEMU 2.3.0"
-msgstr ""
+msgstr "QEMU 2.3.0"
 
 #: data/platform/redhat.com/xen-rhel-3.0.3.5.0.xml.in:6
 msgid "Xen 3.0.3 (RHEL 5.0)"
@@ -5061,7 +4844,7 @@ msgstr "Xen 3.0.4"
 
 #: data/platform/xen.org/xen-3.1.0.xml.in:6
 msgid "Xen 3.1.0"
-msgstr ""
+msgstr "Xen 3.1.0"
 
 #: data/platform/xen.org/xen-3.1.3.xml.in:6
 msgid "Xen 3.1.3"
@@ -5081,7 +4864,7 @@ msgstr "Xen 3.2.1"
 
 #: data/platform/xen.org/xen-3.2.2.xml.in:6
 msgid "Xen 3.2.2"
-msgstr "Xen 3.2.2"
+msgstr "Xen 3.2.1"
 
 #: data/platform/xen.org/xen-3.2.3.xml.in:6
 msgid "Xen 3.2.3"
@@ -5126,27 +4909,3 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
-
-#~ msgid "Debian Buzz"
-#~ msgstr "Debian Buzz"
-
-#~ msgid "Debian Rex"
-#~ msgstr "Debian Rex"
-
-#~ msgid "Debian Hamm"
-#~ msgstr "Debian Hamm"
-
-#~ msgid "Debian Potato"
-#~ msgstr "Debian Potato"
-
-#~ msgid "Debian Sarge"
-#~ msgstr "Debian Sarge"
-
-#~ msgid "Debian Etch"
-#~ msgstr "Debian Etch"
-
-#~ msgid "Debian Lenny"
-#~ msgstr "Debian Lenny"
-
-#~ msgid "Debian Squeeze"
-#~ msgstr "Debian Squeeze"
