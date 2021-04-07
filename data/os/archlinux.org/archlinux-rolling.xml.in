@@ -28,6 +28,7 @@
       <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
       <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
       <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
       <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
       <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
       <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
