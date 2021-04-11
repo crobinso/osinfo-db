@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-19 13:50+0100\n"
+"POT-Creation-Date: 2021-04-11 15:53+0200\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -2476,7 +2476,7 @@ msgstr "Mageia 1"
 #: data/os/mageia.org/mageia-1.xml.in:7 data/os/mageia.org/mageia-2.xml.in:7
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
-#: data/os/mageia.org/mageia-7.xml.in:7
+#: data/os/mageia.org/mageia-7.xml.in:7 data/os/mageia.org/mageia-8.xml.in:7
 msgid "Mageia"
 msgstr "Mageia"
 
@@ -2504,6 +2504,12 @@ msgstr "Mageia 6"
 #, fuzzy
 #| msgid "Mageia 1"
 msgid "Mageia 7"
+msgstr "Mageia 1"
+
+#: data/os/mageia.org/mageia-8.xml.in:6 data/os/mageia.org/mageia-8.xml.in:16
+#, fuzzy
+#| msgid "Mageia 1"
+msgid "Mageia 8"
 msgstr "Mageia 1"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
@@ -3363,6 +3369,7 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-15.0.xml.in:8
 #: data/os/opensuse.org/opensuse-15.1.xml.in:8
 #: data/os/opensuse.org/opensuse-15.2.xml.in:8
+#: data/os/opensuse.org/opensuse-15.3.xml.in:8
 #: data/os/opensuse.org/opensuse-42.1.xml.in:8
 #: data/os/opensuse.org/opensuse-42.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.3.xml.in:8
@@ -3433,6 +3440,12 @@ msgstr "openSUSE Leap 42.1"
 #: data/os/opensuse.org/opensuse-15.2.xml.in:17
 #, fuzzy
 msgid "openSUSE Leap 15.2"
+msgstr "openSUSE Leap 42.1"
+
+#: data/os/opensuse.org/opensuse-15.3.xml.in:6
+#: data/os/opensuse.org/opensuse-15.3.xml.in:17
+#, fuzzy
+msgid "openSUSE Leap 15.3"
 msgstr "openSUSE Leap 42.1"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
