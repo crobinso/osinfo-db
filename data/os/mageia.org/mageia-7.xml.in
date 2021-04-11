@@ -10,7 +10,7 @@
     <version>7</version>
     <derives-from id="http://mageia.org/mageia/6"/>
     <release-date>2019-07-01</release-date>
-    <eol-date>2020-12-30</eol-date>
+    <eol-date>2021-05-31</eol-date>
 
     <variant id="netinst">
       <name>Mageia 7</name>
