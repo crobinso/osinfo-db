@@ -225,21 +225,6 @@ fi
 
 echo '<xsl:value-of select="config/user-login"/> ALL=(ALL:ALL) ALL' >> /etc/sudoers
 
-if test -n '<xsl:value-of select="config/avatar-location"/>'; then
-# Set user avatar
-mkdir /mnt/unattended-media
-mount <xsl:call-template name="avatar-disk"/> /mnt/unattended-media
-cp /mnt/unattended-media<xsl:value-of select="config/avatar-location"/> /var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
-umount /mnt/unattended-media
-
-echo "
-[User]
-Language=<xsl:value-of select="config/l10n-language"/>.UTF-8
-XSession=gnome
-Icon=/var/lib/AccountsService/icons/<xsl:value-of select="config/user-login"/>
-" >> /var/lib/AccountsService/users/<xsl:value-of select="config/user-login"/>
-fi
-
 # Enable default OpenSUSE repos
 zypper ar -f <xsl:call-template name="installation-url"/> repo-oss
 zypper ar -f <xsl:call-template name="repo-non-oss"/> repo-non-oss
