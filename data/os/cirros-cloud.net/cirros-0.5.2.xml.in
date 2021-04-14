@@ -1,0 +1,25 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cirros-cloud.net/cirros/0.5.2">
+    <short-id>cirros0.5.2</short-id>
+    <name>CirrOS 0.5.2</name>
+    <version>0.5.2</version>
+    <vendor>CirrOS</vendor>
+    <family>linux</family>
+    <distro>cirros</distro>
+    <upgrades id="http://cirros-cloud.net/cirros/0.5.1"/>
+    <derives-from id="http://cirros-cloud.net/cirros/0.5.1"/>
+
+    <release-date>2021-03-06</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>52428800</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>
