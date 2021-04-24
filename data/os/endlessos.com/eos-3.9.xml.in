@@ -24,7 +24,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210219-011139.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/base/eos-eos3.9-amd64-amd64.210423-215210.base.iso</url>
       <iso>
         <volume-id>Endless-OS-3-9-\d+-base$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -37,7 +37,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/en/eos-eos3.9-amd64-amd64.210219-011337.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/en/eos-eos3.9-amd64-amd64.210423-215453.en.iso</url>
       <iso>
         <volume-id>Endless-OS-3-9-\d+-en$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -50,7 +50,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/es/eos-eos3.9-amd64-amd64.210219-011934.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/es/eos-eos3.9-amd64-amd64.210423-215521.es.iso</url>
       <iso>
         <volume-id>Endless-OS-3-9-\d+-es$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -63,7 +63,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/fr/eos-eos3.9-amd64-amd64.210219-012825.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/fr/eos-eos3.9-amd64-amd64.210423-220833.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-3-9-\d+-fr$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -76,7 +76,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/3.9.3/eos-amd64-amd64/pt_BR/eos-eos3.9-amd64-amd64.210219-020258.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/3.9.4/eos-amd64-amd64/pt_BR/eos-eos3.9-amd64-amd64.210423-223700.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-3-9-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
