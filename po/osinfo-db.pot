@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-11 15:53+0200\n"
+"POT-Creation-Date: 2021-05-11 00:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,19 +258,19 @@ msgstr ""
 msgid "Alpine Linux 3.11"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:62
 msgid "Alpinelinux 3.11 Standard"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:65
 msgid "Alpinelinux 3.11 Extended"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:68
 msgid "Alpinelinux 3.11 Virtual"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:71
 msgid "Alpinelinux 3.11 Xen"
 msgstr ""
 
@@ -803,6 +803,9 @@ msgstr ""
 #: data/os/cirros-cloud.net/cirros-0.3.4.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.0.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:8
 msgid "CirrOS"
 msgstr ""
 
@@ -828,6 +831,18 @@ msgstr ""
 
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:6
 msgid "CirrOS 0.4.0"
+msgstr ""
+
+#: data/os/cirros-cloud.net/cirros-0.5.0.xml.in:6
+msgid "CirrOS 0.5.0"
+msgstr ""
+
+#: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:6
+msgid "CirrOS 0.5.1"
+msgstr ""
+
+#: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:6
+msgid "CirrOS 0.5.2"
 msgstr ""
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
@@ -1924,6 +1939,7 @@ msgstr ""
 #: data/os/freebsd.org/freebsd-12.0.xml.in:8
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
+#: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2021,6 +2037,10 @@ msgstr ""
 
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
 msgid "FreeBSD 12.2"
+msgstr ""
+
+#: data/os/freebsd.org/freebsd-13.0.xml.in:6
+msgid "FreeBSD 13.0"
 msgstr ""
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
