@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-11 15:53+0200\n"
+"POT-Creation-Date: 2021-05-11 00:18+0200\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -280,25 +280,25 @@ msgstr "Alpinelinux 3.8 Xen"
 msgid "Alpine Linux 3.11"
 msgstr "Alpine Linux 3.5"
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:62
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.11 Standard"
 msgstr "Alpinelinux 3.8 Standard"
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:65
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.11 Extended"
 msgstr "Alpinelinux 3.8 Extended"
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:68
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.11 Virtual"
 msgstr "Alpinelinux 3.8 Virtual"
 
-#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:43
+#: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:71
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.11 Xen"
@@ -863,6 +863,9 @@ msgstr "CirrOS 0.3.0"
 #: data/os/cirros-cloud.net/cirros-0.3.4.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.0.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:8
+#: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:8
 msgid "CirrOS"
 msgstr "CirrOS"
 
@@ -889,6 +892,24 @@ msgstr "CirrOS 0.3.5"
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:6
 msgid "CirrOS 0.4.0"
 msgstr "CirrOS 0.4.0"
+
+#: data/os/cirros-cloud.net/cirros-0.5.0.xml.in:6
+#, fuzzy
+#| msgid "CirrOS 0.3.0"
+msgid "CirrOS 0.5.0"
+msgstr "CirrOS 0.3.0"
+
+#: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:6
+#, fuzzy
+#| msgid "CirrOS 0.3.1"
+msgid "CirrOS 0.5.1"
+msgstr "CirrOS 0.3.1"
+
+#: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:6
+#, fuzzy
+#| msgid "CirrOS 0.3.2"
+msgid "CirrOS 0.5.2"
+msgstr "CirrOS 0.3.2"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
 msgid "Clear Linux OS"
@@ -2002,6 +2023,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.0.xml.in:8
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
+#: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2100,6 +2122,12 @@ msgstr "FreeBSD 12.1"
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
 msgid "FreeBSD 12.2"
 msgstr "FreeBSD 12.2"
+
+#: data/os/freebsd.org/freebsd-13.0.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 1.0"
+msgid "FreeBSD 13.0"
+msgstr "FreeBSD 1.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
