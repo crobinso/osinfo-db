@@ -227,8 +227,6 @@ touch /root/osinfo-install-successful
               </products>
               <packages config:type="list">
                 <package>autoyast2-installation</package>
-                <package>dhcp-client</package>
-                <package>dhcp-tools</package>
               </packages>
               <patterns config:type="list">
                 <pattern>apparmor</pattern>
