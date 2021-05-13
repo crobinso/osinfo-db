@@ -222,6 +222,9 @@ touch /root/osinfo-install-successful
               <default_target>multi-user</default_target>
             </services-manager>
             <software>
+              <products config:type="list">
+                <product>openSUSE</product>
+              </products>
               <packages config:type="list">
                 <package>autoyast2-installation</package>
                 <package>dhcp-client</package>
