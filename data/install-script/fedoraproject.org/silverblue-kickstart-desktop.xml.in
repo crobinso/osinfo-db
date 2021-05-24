@@ -102,10 +102,10 @@ keyboard '<xsl:value-of select="config/l10n-keyboard"/>'
 lang <xsl:value-of select="config/l10n-language"/>
 network --onboot yes --bootproto dhcp --hostname=<xsl:call-template name="hostname"/>
 <xsl:if test="os/version &lt; 31">
-rootpw <xsl:value-of select="config/admin-password"/>
+rootpw '<xsl:value-of select="config/admin-password"/>'
 </xsl:if>
 <xsl:if test="os/version &gt; 30">
-user --name <xsl:value-of select="config/user-login"/> --password <xsl:value-of select="config/user-password"/> --groups "wheel"
+user --name <xsl:value-of select="config/user-login"/> --password '<xsl:value-of select="config/user-password"/>' --groups "wheel"
 </xsl:if>
 firewall --disabled
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
