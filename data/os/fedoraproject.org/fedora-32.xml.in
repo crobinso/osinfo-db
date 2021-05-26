@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/31"/>
 
     <release-date>2020-04-28</release-date>
+    <eol-date>2021-05-25</eol-date>
 
     <variant id="workstation">
       <name>Fedora 32 Workstation</name>
