@@ -56,7 +56,6 @@
 
     <media arch="x86_64" live="true">
       <variant id="architect"/>
-      <url>https://osdn.net/projects/manjaro/storage/architect/20.0.2/manjaro-architect-20.0.2-200601-linux56.iso</url>
       <iso>
         <volume-id>MANJARO_ARCHITECT_</volume-id>
       </iso>
@@ -66,7 +65,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="gnome"/>
-      <url>https://osdn.net/projects/manjaro/storage/gnome/20.2.1/manjaro-gnome-20.2.1-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/gnome/21.0.5/manjaro-gnome-21.0.5-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_GNOME_</volume-id>
       </iso>
@@ -76,7 +75,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="gnome-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/gnome/20.2.1/minimal/manjaro-gnome-20.2.1-minimal-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/gnome/21.0.5/manjaro-gnome-21.0.5-minimal-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_GNOMEM_</volume-id>
       </iso>
@@ -86,7 +85,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="kde"/>
-      <url>https://osdn.net/projects/manjaro/storage/kde/20.2.1/manjaro-kde-20.2.1-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/kde/21.0.5/manjaro-kde-21.0.5-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_KDE_</volume-id>
       </iso>
@@ -96,7 +95,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="kde-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/kde/20.2.1/minimal/manjaro-kde-20.2.1-minimal-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/kde/21.0.5/manjaro-kde-21.0.5-minimal-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_KDEM_</volume-id>
       </iso>
@@ -106,7 +105,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="xfce"/>
-      <url>https://osdn.net/projects/manjaro/storage/xfce/20.2.1/manjaro-xfce-20.2.1-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/xfce/21.0.5/manjaro-xfce-21.0.5-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_XFCE_</volume-id>
       </iso>
@@ -116,7 +115,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="xfce-minimal"/>
-      <url>https://osdn.net/projects/manjaro/storage/xfce/20.2.1/minimal/manjaro-xfce-20.2.1-minimal-210103-linux59.iso</url>
+      <url>https://download.manjaro.org/xfce/21.0.5/manjaro-xfce-21.0.5-minimal-210519-linux510.iso</url>
       <iso>
         <volume-id>MANJARO_XFCEM_</volume-id>
       </iso>
