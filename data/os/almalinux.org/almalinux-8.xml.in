@@ -7,7 +7,6 @@
     <vendor>AlmaLinux</vendor>
     <family>linux</family>
     <distro>almalinux</distro>
-    <codename>Purple Manul</codename>
     <clones id="http://redhat.com/rhel/8.4"/>
     <release-date>2021-03-30</release-date>
 
