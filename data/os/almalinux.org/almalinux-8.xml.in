@@ -18,6 +18,14 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>AlmaLinux-8.*-aarch64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
 
     <tree arch="x86_64">
       <url>http://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/</url>
@@ -25,6 +33,14 @@
         <family>AlmaLinux</family>
         <version>^8$</version>
         <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="aarch64">
+      <url>http://repo.almalinux.org/almalinux/8/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^8$</version>
+        <arch>aarch64</arch>
       </treeinfo>
     </tree>
     <tree arch="all">
