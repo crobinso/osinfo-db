@@ -40,7 +40,7 @@
       <variant id="minimal"/>
       <url>https://channels.nixos.org/nixos-21.05/latest-nixos-minimal-i686-linux.iso</url>
       <iso>
-        <volume-id>nixos-minimal-21.05-i686</volume-id>
+        <volume-id>nixos-minimal-21.0[35]-i686</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
@@ -50,7 +50,7 @@
       <variant id="minimal"/>
       <url>https://channels.nixos.org/nixos-21.05/latest-nixos-minimal-x86_64-linux.iso</url>
       <iso>
-        <volume-id>nixos-minimal-21.05-x86_64</volume-id>
+        <volume-id>nixos-minimal-21.0[35]-x86_64</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
@@ -60,7 +60,7 @@
       <variant id="gnome"/>
       <url>https://channels.nixos.org/nixos-21.05/latest-nixos-gnome-x86_64-linux.iso</url>
       <iso>
-        <volume-id>nixos-gnome-21.05-x86_64</volume-id>
+        <volume-id>nixos-gnome-21.0[35]-x86_64</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
@@ -70,7 +70,7 @@
       <variant id="plasma5"/>
       <url>https://channels.nixos.org/nixos-21.05/latest-nixos-plasma5-x86_64-linux.iso</url>
       <iso>
-        <volume-id>nixos-plasma5-21.05-x86_64</volume-id>
+        <volume-id>nixos-plasma5-21.0[35]-x86_64</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
