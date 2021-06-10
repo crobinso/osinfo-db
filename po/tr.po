@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-08 09:15+0200\n"
-"PO-Revision-Date: 2021-05-12 11:51+0000\n"
+"PO-Revision-Date: 2021-06-09 16:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -3027,22 +3027,16 @@ msgid "NixOS 20.09 (Plasma 5 installation CD)"
 msgstr "NixOS 20.09 (Plasma 5 kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 20.03"
 msgid "NixOS 21.05"
-msgstr "NixOS 20.03"
+msgstr "NixOS 21.05"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 20.03 (minimal installation CD)"
 msgid "NixOS 21.05 (minimal installation CD)"
-msgstr "NixOS 20.03 (asgari kurulum CD'si)"
+msgstr "NixOS 21.05 (asgari kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
-msgstr "NixOS 20.03 (Plasma 5 kurulum CD'si)"
+msgstr "NixOS 21.05 (Plasma 5 kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3224,17 +3218,13 @@ msgstr "OpenBSD 6.7"
 
 #: data/os/openbsd.org/openbsd-6.8.xml.in:6
 #: data/os/openbsd.org/openbsd-6.8.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 6.0"
 msgid "OpenBSD 6.8"
-msgstr "OpenBSD 6.0"
+msgstr "OpenBSD 6.8"
 
 #: data/os/openbsd.org/openbsd-6.9.xml.in:6
 #: data/os/openbsd.org/openbsd-6.9.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 6.0"
 msgid "OpenBSD 6.9"
-msgstr "OpenBSD 6.0"
+msgstr "OpenBSD 6.9"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
