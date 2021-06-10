@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 00:18+0200\n"
+"POT-Creation-Date: 2021-06-08 09:15+0200\n"
 "PO-Revision-Date: 2021-02-27 07:40+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -1798,16 +1798,16 @@ msgstr "Fedora 31 Everything"
 msgid "Fedora 32"
 msgstr "Fedora 32"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:17
+#: data/os/fedoraproject.org/fedora-32.xml.in:18
 msgid "Fedora 32 Workstation"
 msgstr "Fedora 32 -työasema"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:20
-#: data/os/fedoraproject.org/fedora-32.xml.in:23
+#: data/os/fedoraproject.org/fedora-32.xml.in:21
+#: data/os/fedoraproject.org/fedora-32.xml.in:24
 msgid "Fedora 32 Server"
 msgstr "Fedora 32 -palvelin"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:26
+#: data/os/fedoraproject.org/fedora-32.xml.in:27
 msgid "Fedora 32 Everything"
 msgstr "Fedora 32 Everything"
 
@@ -2994,6 +2994,7 @@ msgstr ""
 
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-20.09.xml.in:8
+#: data/os/nixos.org/nixos-21.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3017,12 +3018,25 @@ msgid "NixOS 20.09 (minimal installation CD)"
 msgstr ""
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
+#: data/os/nixos.org/nixos-21.05.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr ""
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-21.05.xml.in:6
+msgid "NixOS 21.05"
+msgstr ""
+
+#: data/os/nixos.org/nixos-21.05.xml.in:30
+msgid "NixOS 21.05 (minimal installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-21.05.xml.in:36
+msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgstr ""
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
@@ -3083,6 +3097,8 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-6.5.xml.in:10
 #: data/os/openbsd.org/openbsd-6.6.xml.in:10
 #: data/os/openbsd.org/openbsd-6.7.xml.in:10
+#: data/os/openbsd.org/openbsd-6.8.xml.in:10
+#: data/os/openbsd.org/openbsd-6.9.xml.in:10
 msgid "OpenBSD Project"
 msgstr ""
 
@@ -3199,6 +3215,16 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-6.7.xml.in:6
 #: data/os/openbsd.org/openbsd-6.7.xml.in:18
 msgid "OpenBSD 6.7"
+msgstr ""
+
+#: data/os/openbsd.org/openbsd-6.8.xml.in:6
+#: data/os/openbsd.org/openbsd-6.8.xml.in:18
+msgid "OpenBSD 6.8"
+msgstr ""
+
+#: data/os/openbsd.org/openbsd-6.9.xml.in:6
+#: data/os/openbsd.org/openbsd-6.9.xml.in:18
+msgid "OpenBSD 6.9"
 msgstr ""
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6

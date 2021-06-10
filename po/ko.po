@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-11 00:18+0200\n"
+"POT-Creation-Date: 2021-06-08 09:15+0200\n"
 "PO-Revision-Date: 2021-05-12 11:51+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -1795,16 +1795,16 @@ msgstr "페도라 31 전체"
 msgid "Fedora 32"
 msgstr "페도라 32"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:17
+#: data/os/fedoraproject.org/fedora-32.xml.in:18
 msgid "Fedora 32 Workstation"
 msgstr "페도라 32 웍스테이션"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:20
-#: data/os/fedoraproject.org/fedora-32.xml.in:23
+#: data/os/fedoraproject.org/fedora-32.xml.in:21
+#: data/os/fedoraproject.org/fedora-32.xml.in:24
 msgid "Fedora 32 Server"
 msgstr "페도라 32 서버"
 
-#: data/os/fedoraproject.org/fedora-32.xml.in:26
+#: data/os/fedoraproject.org/fedora-32.xml.in:27
 msgid "Fedora 32 Everything"
 msgstr "페도라 32 전체"
 
@@ -2991,6 +2991,7 @@ msgstr "NixOS 20.03"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-20.09.xml.in:8
+#: data/os/nixos.org/nixos-21.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3014,6 +3015,7 @@ msgid "NixOS 20.09 (minimal installation CD)"
 msgstr "NixOS 20.09 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
+#: data/os/nixos.org/nixos-21.05.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS 불안정판 (그놈 설치 CD)"
@@ -3021,6 +3023,24 @@ msgstr "NixOS 불안정판 (그놈 설치 CD)"
 #: data/os/nixos.org/nixos-20.09.xml.in:36
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
 msgstr "NixOS 20.09 (플래즈마 5 설치 CD)"
+
+#: data/os/nixos.org/nixos-21.05.xml.in:6
+#, fuzzy
+#| msgid "NixOS 20.03"
+msgid "NixOS 21.05"
+msgstr "NixOS 20.03"
+
+#: data/os/nixos.org/nixos-21.05.xml.in:30
+#, fuzzy
+#| msgid "NixOS 20.03 (minimal installation CD)"
+msgid "NixOS 21.05 (minimal installation CD)"
+msgstr "NixOS 20.03 (최소 설치 CD)"
+
+#: data/os/nixos.org/nixos-21.05.xml.in:36
+#, fuzzy
+#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
+msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgstr "NixOS 20.03 (플래즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3080,6 +3100,8 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.5.xml.in:10
 #: data/os/openbsd.org/openbsd-6.6.xml.in:10
 #: data/os/openbsd.org/openbsd-6.7.xml.in:10
+#: data/os/openbsd.org/openbsd-6.8.xml.in:10
+#: data/os/openbsd.org/openbsd-6.9.xml.in:10
 msgid "OpenBSD Project"
 msgstr "OpenBSD 프로젝트"
 
@@ -3197,6 +3219,20 @@ msgstr "OpenBSD 6.6"
 #: data/os/openbsd.org/openbsd-6.7.xml.in:18
 msgid "OpenBSD 6.7"
 msgstr "OpenBSD 6.7"
+
+#: data/os/openbsd.org/openbsd-6.8.xml.in:6
+#: data/os/openbsd.org/openbsd-6.8.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 6.0"
+msgid "OpenBSD 6.8"
+msgstr "OpenBSD 6.0"
+
+#: data/os/openbsd.org/openbsd-6.9.xml.in:6
+#: data/os/openbsd.org/openbsd-6.9.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 6.0"
+msgid "OpenBSD 6.9"
+msgstr "OpenBSD 6.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
