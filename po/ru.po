@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 09:15+0200\n"
+"POT-Creation-Date: 2021-06-11 14:33+0200\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -678,6 +678,7 @@ msgstr ""
 #: data/os/centos.org/centos-6.9.xml.in:8
 #: data/os/centos.org/centos-7.0.xml.in:9 data/os/centos.org/centos-8.xml.in:8
 #: data/os/centos.org/centos-stream-8.xml.in:8
+#: data/os/centos.org/centos-stream-9.xml.in:8
 msgid "CentOS"
 msgstr ""
 
@@ -792,6 +793,11 @@ msgstr ""
 #: data/os/centos.org/centos-stream-8.xml.in:6
 #: data/os/centos.org/centos-stream-8.xml.in:43
 msgid "CentOS Stream 8"
+msgstr ""
+
+#: data/os/centos.org/centos-stream-9.xml.in:6
+#: data/os/centos.org/centos-stream-9.xml.in:42
+msgid "CentOS Stream 9"
 msgstr ""
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:6
