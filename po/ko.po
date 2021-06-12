@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-11 14:33+0200\n"
-"PO-Revision-Date: 2021-06-09 16:04+0000\n"
+"PO-Revision-Date: 2021-06-12 20:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -796,10 +796,8 @@ msgstr "센트오에스 스트림 8"
 
 #: data/os/centos.org/centos-stream-9.xml.in:6
 #: data/os/centos.org/centos-stream-9.xml.in:42
-#, fuzzy
-#| msgid "CentOS Stream 8"
 msgid "CentOS Stream 9"
-msgstr "센트오에스 스트림 8"
+msgstr "센트오에스 스트림 9"
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:6
 msgid "CirrOS 0.3.0"
