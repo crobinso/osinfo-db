@@ -1,17 +1,17 @@
 CD-ROM is in ISO 9660 format
 System id: LINUX
-Volume id: openSUSE-Leap-15.3-DVD-x86_64117
+Volume id: openSUSE-Leap-15.3-DVD-x86_64160
 Volume set id: 
 Publisher id: SUSE LINUX GmbH
 Data preparer id: KIWI - http://opensuse.github.com/kiwi
-Application id: openSUSE-Leap-15.3-DVD-x86_64-Build117.13-Media
+Application id: openSUSE-Leap-15.3-DVD-x86_64-Build160.3-Media
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 2262642
+Volume size is: 2287671
 El Torito VD version 1 found, boot catalog is in sector 20
 
 Joliet with UCS level 3 found.
@@ -30,4 +30,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 4
-        Bootoff 15DA 5594
+        Bootoff 12F0 4848

@@ -4,14 +4,14 @@ Volume id: openSUSE_Leap_15.3_Rescue_CD
 Volume set id: 
 Publisher id: SUSE LINUX GMBH
 Data preparer id: KIWI - HTTPS://GITHUB.COM/OSINSIDE/KIWI
-Application id: 0X7CD1439A
+Application id: 0X6BEB69E2
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 305839
+Volume size is: 306532
 El Torito VD version 1 found, boot catalog is in sector 266
 
 Joliet with UCS level 3 found.
