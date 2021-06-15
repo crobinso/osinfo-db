@@ -46,7 +46,6 @@
 
     <media arch="x86_64">
       <iso>
-        <system-id>LINUX</system-id>
         <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
@@ -55,7 +54,6 @@
 
     <media arch="ppc64le">
       <iso>
-        <system-id>PPC</system-id>
         <volume-id>RHEL[_-]9[_-]0[_-](([0-9]|[1-9][0-9])[_-])?BaseOS[_-]ppc64le</volume-id>
       </iso>
       <kernel>ppc/ppc64/vmlinuz</kernel>
@@ -64,14 +62,12 @@
 
     <media arch="aarch64">
       <iso>
-        <system-id>LINUX</system-id>
         <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
       </iso>
     </media>
 
     <media arch="s390x">
       <iso>
-        <system-id>LINUX</system-id>
         <volume-id>RHEL-9-0-(([0-9]|[1-9][0-9])-)?BaseOS-s390x</volume-id>
       </iso>
     </media>
