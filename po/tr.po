@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-16 05:34+0200\n"
-"PO-Revision-Date: 2021-06-12 20:04+0000\n"
+"PO-Revision-Date: 2021-06-17 15:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -4266,10 +4266,8 @@ msgid "SUSE Linux Enterprise 15 SP2"
 msgstr "SUSE Linux Enterprise 15 SP2"
 
 #: data/os/suse.com/sle-15.3.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP3"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP3"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4352,10 +4350,8 @@ msgid "SUSE Linux Enterprise Desktop 9"
 msgstr "SUSE Linux Enterprise Desktop 9"
 
 #: data/os/suse.com/slem-5.0.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15"
 msgid "SUSE Linux Enterprise Micro"
-msgstr "SUSE Linux Enterprise 15"
+msgstr "SUSE Linux Enterprise Micro"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
