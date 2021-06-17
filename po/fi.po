@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-11 14:33+0200\n"
+"POT-Creation-Date: 2021-06-16 05:34+0200\n"
 "PO-Revision-Date: 2021-02-27 07:40+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -4213,22 +4213,28 @@ msgstr ""
 #: data/os/suse.com/caasp-unknown.xml.in:8
 #: data/os/suse.com/caasp-unknown.xml.in:9
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
-#: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.xml.in:8
-#: data/os/suse.com/sle-unknown.xml.in:8 data/os/suse.com/sled-10.1.xml.in:8
-#: data/os/suse.com/sled-10.2.xml.in:8 data/os/suse.com/sled-10.3.xml.in:8
-#: data/os/suse.com/sled-10.4.xml.in:8 data/os/suse.com/sled-10.xml.in:8
-#: data/os/suse.com/sled-11.1.xml.in:8 data/os/suse.com/sled-11.2.xml.in:8
-#: data/os/suse.com/sled-11.3.xml.in:8 data/os/suse.com/sled-11.4.xml.in:8
-#: data/os/suse.com/sled-11.xml.in:8 data/os/suse.com/sled-12-unknown.xml.in:8
+#: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.3.xml.in:8
+#: data/os/suse.com/sle-15.xml.in:8 data/os/suse.com/sle-unknown.xml.in:8
+#: data/os/suse.com/sled-10.1.xml.in:8 data/os/suse.com/sled-10.2.xml.in:8
+#: data/os/suse.com/sled-10.3.xml.in:8 data/os/suse.com/sled-10.4.xml.in:8
+#: data/os/suse.com/sled-10.xml.in:8 data/os/suse.com/sled-11.1.xml.in:8
+#: data/os/suse.com/sled-11.2.xml.in:8 data/os/suse.com/sled-11.3.xml.in:8
+#: data/os/suse.com/sled-11.4.xml.in:8 data/os/suse.com/sled-11.xml.in:8
+#: data/os/suse.com/sled-12-unknown.xml.in:8
 #: data/os/suse.com/sled-12.1.xml.in:8 data/os/suse.com/sled-12.2.xml.in:8
 #: data/os/suse.com/sled-12.3.xml.in:8 data/os/suse.com/sled-12.4.xml.in:8
 #: data/os/suse.com/sled-12.5.xml.in:8 data/os/suse.com/sled-12.xml.in:8
-#: data/os/suse.com/sled-9.xml.in:8 data/os/suse.com/sles-10.1.xml.in:8
-#: data/os/suse.com/sles-10.2.xml.in:8 data/os/suse.com/sles-10.3.xml.in:8
-#: data/os/suse.com/sles-10.4.xml.in:8 data/os/suse.com/sles-10.xml.in:8
-#: data/os/suse.com/sles-11.1.xml.in:8 data/os/suse.com/sles-11.2.xml.in:8
-#: data/os/suse.com/sles-11.3.xml.in:8 data/os/suse.com/sles-11.4.xml.in:8
-#: data/os/suse.com/sles-11.xml.in:8 data/os/suse.com/sles-12-unknown.xml.in:8
+#: data/os/suse.com/sled-9.xml.in:8 data/os/suse.com/slem-5.0.xml.in:8
+#: data/os/suse.com/slem-5.0.xml.in:9 data/os/suse.com/slem-5.0.xml.in:10
+#: data/os/suse.com/slem-5.0.xml.in:11 data/os/suse.com/slem-5.0.xml.in:12
+#: data/os/suse.com/slem-5.0.xml.in:13 data/os/suse.com/slem-5.0.xml.in:14
+#: data/os/suse.com/slem-5.0.xml.in:15 data/os/suse.com/slem-5.0.xml.in:16
+#: data/os/suse.com/sles-10.1.xml.in:8 data/os/suse.com/sles-10.2.xml.in:8
+#: data/os/suse.com/sles-10.3.xml.in:8 data/os/suse.com/sles-10.4.xml.in:8
+#: data/os/suse.com/sles-10.xml.in:8 data/os/suse.com/sles-11.1.xml.in:8
+#: data/os/suse.com/sles-11.2.xml.in:8 data/os/suse.com/sles-11.3.xml.in:8
+#: data/os/suse.com/sles-11.4.xml.in:8 data/os/suse.com/sles-11.xml.in:8
+#: data/os/suse.com/sles-12-unknown.xml.in:8
 #: data/os/suse.com/sles-12.1.xml.in:8 data/os/suse.com/sles-12.2.xml.in:8
 #: data/os/suse.com/sles-12.3.xml.in:8 data/os/suse.com/sles-12.4.xml.in:8
 #: data/os/suse.com/sles-12.5.xml.in:8 data/os/suse.com/sles-12.xml.in:8
@@ -4258,6 +4264,10 @@ msgstr ""
 
 #: data/os/suse.com/sle-15.2.xml.in:6
 msgid "SUSE Linux Enterprise 15 SP2"
+msgstr ""
+
+#: data/os/suse.com/sle-15.3.xml.in:6
+msgid "SUSE Linux Enterprise 15 SP3"
 msgstr ""
 
 #: data/os/suse.com/sle-15.xml.in:6
@@ -4338,6 +4348,10 @@ msgstr ""
 
 #: data/os/suse.com/sled-9.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 9"
+msgstr ""
+
+#: data/os/suse.com/slem-5.0.xml.in:6
+msgid "SUSE Linux Enterprise Micro"
 msgstr ""
 
 #: data/os/suse.com/sles-10.1.xml.in:6
