@@ -18,6 +18,77 @@
       <name>CentOS 8</name>
     </variant>
 
+    <!-- 2105 Release -->
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-4-2105-x86_64-dvd</volume-id>
+        <volume-size>757659648</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-4-2105-x86_64-dvd</volume-id>
+        <volume-size>9928339456</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.4.2105-aarch64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-4-2105-aarch64-dvd</volume-id>
+        <volume-size>677838848</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.4.2105-aarch64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>CentOS-8-4-2105-aarch64-dvd</volume-id>
+        <volume-size>7325042688</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="netinst"/>
+      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.4.2105-ppc64le-boot.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS-8-4-2105-ppc64le-dvd</volume-id>
+        <volume-size>722780160</volume-size>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.4.2105-ppc64le-dvd1.iso</url>
+      <iso>
+        <system-id>PPC</system-id>
+        <volume-id>CentOS-8-4-2105-ppc64le-dvd</volume-id>
+        <volume-size>8484990976</volume-size>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+
     <!-- 2011 Release -->
     <media arch="x86_64">
       <variant id="netinst"/>
