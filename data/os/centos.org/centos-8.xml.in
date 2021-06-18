@@ -21,7 +21,6 @@
     <!-- 2011 Release -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-3-2011-x86_64-dvd</volume-id>
@@ -32,7 +31,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.3.2011-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-3-2011-x86_64-dvd</volume-id>
@@ -44,7 +42,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.3.2011-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-3-2011-aarch64-dvd</volume-id>
@@ -55,7 +52,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.3.2011-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-3-2011-aarch64-dvd</volume-id>
@@ -66,7 +62,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64le-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS_8_3_2011_ppc64le_dvd</volume-id>
@@ -76,7 +71,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.3.2011-ppc64le-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-3-2011-ppc64le-dvd</volume-id>
