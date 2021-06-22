@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-16 05:34+0200\n"
+"POT-Creation-Date: 2021-06-21 22:33+0200\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -240,6 +240,7 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.11.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -341,6 +342,31 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 #, fuzzy
 msgid "Alpinelinux 3.13 Xen"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:7
+#, fuzzy
+msgid "Alpine Linux 3.14"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:34
+#, fuzzy
+msgid "Alpinelinux 3.14 Standard"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:37
+#, fuzzy
+msgid "Alpinelinux 3.14 Extended"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:40
+#, fuzzy
+msgid "Alpinelinux 3.14 Virtual"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:43
+#, fuzzy
+msgid "Alpinelinux 3.14 Xen"
 msgstr "ALT Linux 3.0"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
