@@ -12,6 +12,9 @@
     <upgrades id="http://alpinelinux.org/alpinelinux/3.12"/>
     <derives-from id="http://alpinelinux.org/alpinelinux/3.12"/>
 
+    <release-date>2021-01-14</release-date>
+    <eol-date>2022-11-01</eol-date>
+
     <resources arch="all">
       <minimum>
         <cpu>1000000000</cpu>
