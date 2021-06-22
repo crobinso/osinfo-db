@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 22:33+0200\n"
-"PO-Revision-Date: 2021-06-17 15:04+0000\n"
+"PO-Revision-Date: 2021-06-22 07:41+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -317,34 +317,24 @@ msgid "Alpinelinux 3.13 Xen"
 msgstr "알파인리눅스 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.14"
-msgstr "알파인 리눅스 3.10"
+msgstr "알파인 리눅스 3.14"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.14 Standard"
-msgstr "알파인리눅스 3.10 표준"
+msgstr "알파인리눅스 3.14 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.14 Extended"
-msgstr "알파인리눅스 3.10 확장"
+msgstr "알파인리눅스 3.14 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.14 Virtual"
-msgstr "알파인리눅스 3.10 가상"
+msgstr "알파인리눅스 3.14 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.14 Xen"
-msgstr "알파인리눅스 3.10 Xen"
+msgstr "알파인리눅스 3.14 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
