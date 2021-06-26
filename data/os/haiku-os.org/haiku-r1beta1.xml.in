@@ -10,6 +10,7 @@
     <derives-from id="http://haiku-os.org/haiku/r1alpha4.1"/>
 
     <release-date>2018-09-28</release-date>
+    <eol-date>2020-06-09</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
