@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-21 22:33+0200\n"
-"PO-Revision-Date: 2021-02-27 07:40+0000\n"
+"PO-Revision-Date: 2021-07-12 14:42+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -217,14 +217,12 @@ msgid "xen-vtpm"
 msgstr "xen-vtpm"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:5
-#, fuzzy
-#| msgid "Alpine Linux 3.8"
 msgid "AlmaLinux 8"
-msgstr "Alpine Linux 3.8"
+msgstr "AlmaLinux 8"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:7
 msgid "AlmaLinux"
-msgstr ""
+msgstr "AlmaLinux"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -320,34 +318,24 @@ msgid "Alpinelinux 3.13 Xen"
 msgstr "Alpinelinux 3.13 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.14"
-msgstr "Alpine Linux 3.10"
+msgstr "Alpine Linux 3.14"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.14 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.14 Standardi"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.14 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.14 laajennettu"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.14 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.14 Virtuaali"
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.14 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.14 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -412,11 +400,11 @@ msgstr ""
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
 msgid "BaseALT"
-msgstr ""
+msgstr "BaseALT"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:6
 msgid "ALT 8.1"
-msgstr ""
+msgstr "ALT 8.1"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:19
 msgid "ALT 8.1 Workstation"
@@ -429,7 +417,7 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-8.2.xml.in:6
 msgid "ALT 8.2"
-msgstr ""
+msgstr "ALT 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:19
 msgid "ALT 8.2 Workstation"
@@ -451,7 +439,7 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.0.xml.in:6
 msgid "ALT 9.0"
-msgstr ""
+msgstr "ALT 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:21
 msgid "ALT Workstation 9.0"
@@ -483,7 +471,7 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
 msgid "ALT 9.1"
-msgstr ""
+msgstr "ALT 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
 msgid "ALT Workstation 9.1"
@@ -527,7 +515,7 @@ msgstr ""
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:6
 msgid "Mandrake RE Spring 2001"
-msgstr ""
+msgstr "Mandrake RE Spring 2001"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:8
 #: data/os/altlinux.org/altlinux-2.0.xml.in:8
@@ -540,60 +528,60 @@ msgstr ""
 #: data/os/altlinux.org/altlinux-6.0.xml.in:8
 #: data/os/altlinux.org/altlinux-7.0.xml.in:8
 msgid "ALTLinux"
-msgstr ""
+msgstr "ALTLinux"
 
 #: data/os/altlinux.org/altlinux-2.0.xml.in:6
 msgid "ALT Linux 2.0"
-msgstr ""
+msgstr "ALT Linux 2.0"
 
 #: data/os/altlinux.org/altlinux-2.2.xml.in:6
 msgid "ALT Linux 2.2"
-msgstr ""
+msgstr "ALT Linux 2.2"
 
 #: data/os/altlinux.org/altlinux-2.4.xml.in:6
 msgid "ALT Linux 2.4"
-msgstr ""
+msgstr "ALT Linux 2.4"
 
 #: data/os/altlinux.org/altlinux-3.0.xml.in:6
 msgid "ALT Linux 3.0"
-msgstr ""
+msgstr "ALT Linux 3.0"
 
 #: data/os/altlinux.org/altlinux-4.0.xml.in:6
 msgid "ALT Linux 4.0"
-msgstr ""
+msgstr "ALT Linux 4.0"
 
 #: data/os/altlinux.org/altlinux-4.1.xml.in:6
 msgid "ALT Linux 4.1"
-msgstr ""
+msgstr "ALT Linux 4.1"
 
 #: data/os/altlinux.org/altlinux-5.0.xml.in:6
 msgid "ALT Linux 5.0"
-msgstr ""
+msgstr "ALT Linux 5.0"
 
 #: data/os/altlinux.org/altlinux-6.0.xml.in:6
 msgid "ALT Linux 6.0"
-msgstr ""
+msgstr "ALT Linux 6.0"
 
 #: data/os/altlinux.org/altlinux-7.0.xml.in:6
 msgid "ALT Linux 7.0"
-msgstr ""
+msgstr "ALT Linux 7.0"
 
 #: data/os/android-x86.org/android-x86-8.1.xml.in:6
 msgid "Android-x86 8.1"
-msgstr ""
+msgstr "Android-x86 8.1"
 
 #: data/os/android-x86.org/android-x86-8.1.xml.in:8
 #: data/os/android-x86.org/android-x86-9.0.xml.in:8
 msgid "Android-x86"
-msgstr ""
+msgstr "Android-x86"
 
 #: data/os/android-x86.org/android-x86-9.0.xml.in:6
 msgid "Android-x86 9.0"
-msgstr ""
+msgstr "Android-x86 9.0"
 
 #: data/os/apple.com/macosx-10.0.xml.in:6
 msgid "MacOS X Cheetah"
-msgstr ""
+msgstr "MacOS X Cheetah"
 
 #: data/os/apple.com/macosx-10.0.xml.in:8
 #: data/os/apple.com/macosx-10.1.xml.in:8
@@ -604,40 +592,40 @@ msgstr ""
 #: data/os/apple.com/macosx-10.6.xml.in:8
 #: data/os/apple.com/macosx-10.7.xml.in:8
 msgid "Apple Inc."
-msgstr ""
+msgstr "Apple Inc."
 
 #: data/os/apple.com/macosx-10.1.xml.in:6
 msgid "MacOS X Puma"
-msgstr ""
+msgstr "MacOS X Puma"
 
 #: data/os/apple.com/macosx-10.2.xml.in:6
 msgid "MacOS X Jaguar"
-msgstr ""
+msgstr "MacOS X Jaguar"
 
 #: data/os/apple.com/macosx-10.3.xml.in:6
 msgid "MacOS X Panther"
-msgstr ""
+msgstr "MacOS X Panther"
 
 #: data/os/apple.com/macosx-10.4.xml.in:6
 msgid "MacOS X Tiger"
-msgstr ""
+msgstr "MacOS X Tiger"
 
 #: data/os/apple.com/macosx-10.5.xml.in:6
 msgid "MacOS X Leopard"
-msgstr ""
+msgstr "MacOS X Leopard"
 
 #: data/os/apple.com/macosx-10.6.xml.in:6
 msgid "MacOS X Snow Leopard"
-msgstr ""
+msgstr "MacOS X Snow Leopard"
 
 #: data/os/apple.com/macosx-10.7.xml.in:6
 msgid "MacOS X Lion"
-msgstr ""
+msgstr "MacOS X Lion"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:6
 #: data/os/archlinux.org/archlinux-rolling.xml.in:7
 msgid "Arch Linux"
-msgstr ""
+msgstr "Arch Linux"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
@@ -684,7 +672,7 @@ msgstr ""
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
-msgstr ""
+msgstr "CentOS 5.0"
 
 #: data/os/centos.org/centos-5.0.xml.in:8
 #: data/os/centos.org/centos-5.1.xml.in:8
@@ -713,23 +701,23 @@ msgstr ""
 #: data/os/centos.org/centos-stream-8.xml.in:8
 #: data/os/centos.org/centos-stream-9.xml.in:8
 msgid "CentOS"
-msgstr ""
+msgstr "CentOS"
 
 #: data/os/centos.org/centos-5.1.xml.in:6
 msgid "CentOS 5.1"
-msgstr ""
+msgstr "CentOS 5.1"
 
 #: data/os/centos.org/centos-5.10.xml.in:6
 msgid "CentOS 5.10"
-msgstr ""
+msgstr "CentOS 5.10"
 
 #: data/os/centos.org/centos-5.11.xml.in:6
 msgid "CentOS 5.11"
-msgstr ""
+msgstr "CentOS 5.11"
 
 #: data/os/centos.org/centos-5.2.xml.in:6
 msgid "CentOS 5.2"
-msgstr ""
+msgstr "CentOS 5.2"
 
 #: data/os/centos.org/centos-5.3.xml.in:6
 msgid "CentOS 5.3"
@@ -910,7 +898,7 @@ msgstr ""
 #: data/os/debian.org/debian-8.xml.in:9 data/os/debian.org/debian-9.xml.in:9
 #: data/os/debian.org/debian-testing.xml.in:8
 msgid "Debian Project"
-msgstr ""
+msgstr "Debian projekti"
 
 #: data/os/debian.org/debian-1.2.xml.in:7
 msgid "Debian GNU/Linux 1.2"
@@ -931,7 +919,7 @@ msgstr ""
 
 #: data/os/debian.org/debian-10.xml.in:42
 msgid "Debian 10 (Generic)"
-msgstr ""
+msgstr "Debian 10 (Geneerinen)"
 
 #: data/os/debian.org/debian-10.xml.in:45
 msgid "Debian 10 (Generic Cloud)"
