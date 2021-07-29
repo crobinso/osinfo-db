@@ -1,0 +1,44 @@
+<libosinfo version="0.0.1">
+  <os id="http://haiku-os.org/haiku/r1beta3">
+    <short-id>haikur1beta3</short-id>
+    <name>Haiku R1/Beta3</name>
+    <version>r1beta3</version>
+    <vendor>Haiku, Inc.</vendor>
+    <family>haiku</family>
+    <distro>haiku</distro>
+    <upgrades id="http://haiku-os.org/haiku/r1beta2"/>
+    <derives-from id="http://haiku-os.org/haiku/r1beta2"/>
+
+    <release-date>2021-07-25</release-date>
+
+    <media arch="i686" live="true">
+      <iso>
+        <volume-id>haiku-r1~beta3-x86$</volume-id>
+        <volume-size>3328000</volume-size>
+      </iso>
+      <url>https://cdn.haiku-os.org/haiku-release/r1beta3/haiku-r1beta3-x86_gcc2h-anyboot.iso</url>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>haiku-r1~beta3-x86_64</volume-id>
+        <volume-size>6277120</volume-size>
+      </iso>
+      <url>https://cdn.haiku-os.org/haiku-release/r1beta3/haiku-r1beta3-x86_64-anyboot.iso</url>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>536870912</ram>
+        <storage>2147483648</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
