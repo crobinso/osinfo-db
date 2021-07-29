@@ -6,8 +6,8 @@
     <vendor>Haiku, Inc.</vendor>
     <family>haiku</family>
     <distro>haiku</distro>
-    <upgrades id="http://haiku-os.org/haiku/r1beta2"/>
-    <derives-from id="http://haiku-os.org/haiku/r1beta2"/>
+    <upgrades id="http://haiku-os.org/haiku/r1beta3"/>
+    <derives-from id="http://haiku-os.org/haiku/r1beta3"/>
     <release-status>snapshot</release-status>
 
     <media arch="i686" live="true">
