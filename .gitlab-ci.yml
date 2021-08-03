@@ -106,11 +106,6 @@ check-dco:
       - $CI_PROJECT_NAMESPACE == "libosinfo"
 
 
-centos-7-container:
-  <<: *container_job_definition
-  variables:
-    NAME: centos-7
-
 centos-8-container:
   <<: *container_job_definition
   variables:
@@ -166,11 +161,6 @@ ubuntu-2004-container:
   variables:
     NAME: ubuntu-2004
 
-
-centos-7:
-  <<: *native-build-job
-  variables:
-    NAME: centos-7
 
 centos-8:
   <<: *native-build-job
