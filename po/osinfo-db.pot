@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-21 22:33+0200\n"
+"POT-Creation-Date: 2021-08-04 14:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -299,19 +299,19 @@ msgstr ""
 msgid "Alpine Linux 3.13"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
 msgid "Alpinelinux 3.13 Standard"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
 msgid "Alpinelinux 3.13 Extended"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 msgid "Alpinelinux 3.13 Virtual"
 msgstr ""
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:43
 msgid "Alpinelinux 3.13 Xen"
 msgstr ""
 
@@ -2315,6 +2315,8 @@ msgstr ""
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:6
 msgid "Haiku, Inc."
 msgstr ""
 
@@ -2336,6 +2338,14 @@ msgstr ""
 
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:4
+msgid "Haiku R1/Beta2"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
+msgid "Haiku R1/Beta3"
 msgstr ""
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
@@ -3331,7 +3341,7 @@ msgid "openSUSE Leap 15.0"
 msgstr ""
 
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
-#: data/os/opensuse.org/opensuse-15.1.xml.in:17
+#: data/os/opensuse.org/opensuse-15.1.xml.in:18
 msgid "openSUSE Leap 15.1"
 msgstr ""
 
