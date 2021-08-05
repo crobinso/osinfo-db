@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-04 14:39+0200\n"
-"PO-Revision-Date: 2021-06-22 07:41+0000\n"
+"PO-Revision-Date: 2021-08-05 19:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2342,16 +2342,12 @@ msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/베타1"
 
 #: data/os/haiku-os.org/haiku-r1beta2.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta2"
-msgstr "Haiku R1/베타1"
+msgstr "Haiku R1/베타2"
 
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta3"
-msgstr "Haiku R1/베타1"
+msgstr "Haiku R1/베타3"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
 msgid "Generic Linux 2016"
