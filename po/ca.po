@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-21 22:33+0200\n"
+"POT-Creation-Date: 2021-08-04 14:39+0200\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -337,25 +337,25 @@ msgstr "Alpinelinux 3.8 Xen"
 msgid "Alpine Linux 3.13"
 msgstr "Alpine Linux 3.5"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.13 Standard"
 msgstr "Alpinelinux 3.8 estàndard"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.13 Extended"
 msgstr "Alpine Linux 3.8 estesa"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.13 Virtual"
 msgstr "Alpinelinux 3.8 virtual"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:43
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.13 Xen"
@@ -2486,6 +2486,8 @@ msgstr ""
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:6
 #, fuzzy
 msgid "Haiku, Inc."
 msgstr "Red Hat, Inc."
@@ -2508,6 +2510,14 @@ msgstr ""
 
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:4
+msgid "Haiku R1/Beta2"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
+msgid "Haiku R1/Beta3"
 msgstr ""
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
@@ -3532,7 +3542,7 @@ msgid "openSUSE Leap 15.0"
 msgstr "openSUSE Leap 15.0"
 
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
-#: data/os/opensuse.org/opensuse-15.1.xml.in:17
+#: data/os/opensuse.org/opensuse-15.1.xml.in:18
 #, fuzzy
 msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"

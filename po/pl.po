@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-21 22:33+0200\n"
+"POT-Creation-Date: 2021-08-04 14:39+0200\n"
 "PO-Revision-Date: 2021-06-22 14:59+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
@@ -306,19 +306,19 @@ msgstr "Alpinelinux 3.12 Xen"
 msgid "Alpine Linux 3.13"
 msgstr "Alpine Linux 3.13"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:31
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
 msgid "Alpinelinux 3.13 Standard"
 msgstr "Alpinelinux 3.13 Standard"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:34
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
 msgid "Alpinelinux 3.13 Extended"
 msgstr "Alpinelinux 3.13 Extended"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:37
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
 msgid "Alpinelinux 3.13 Virtual"
 msgstr "Alpinelinux 3.13 Virtual"
 
-#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:40
+#: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:43
 msgid "Alpinelinux 3.13 Xen"
 msgstr "Alpinelinux 3.13 Xen"
 
@@ -2322,6 +2322,8 @@ msgstr "Haiku Nightly"
 #: data/os/haiku-os.org/haiku-r1alpha3.xml.in:6
 #: data/os/haiku-os.org/haiku-r1alpha4.1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:6
 msgid "Haiku, Inc."
 msgstr "Haiku, Inc."
 
@@ -2343,6 +2345,18 @@ msgstr "Haiku R1/Alpha4.1"
 
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:4
 msgid "Haiku R1/Beta1"
+msgstr "Haiku R1/Beta1"
+
+#: data/os/haiku-os.org/haiku-r1beta2.xml.in:4
+#, fuzzy
+#| msgid "Haiku R1/Beta1"
+msgid "Haiku R1/Beta2"
+msgstr "Haiku R1/Beta1"
+
+#: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
+#, fuzzy
+#| msgid "Haiku R1/Beta1"
+msgid "Haiku R1/Beta3"
 msgstr "Haiku R1/Beta1"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
@@ -3339,7 +3353,7 @@ msgid "openSUSE Leap 15.0"
 msgstr "openSUSE Leap 15.0"
 
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
-#: data/os/opensuse.org/opensuse-15.1.xml.in:17
+#: data/os/opensuse.org/opensuse-15.1.xml.in:18
 msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"
 
