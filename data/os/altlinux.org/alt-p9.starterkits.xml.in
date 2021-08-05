@@ -40,24 +40,12 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-aarch64.qcow2</url>
     </image>
 
-    <image arch="aarch64" format="raw" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-aarch64.img</url>
-    </image>
-
     <image arch="i686" format="qcow2" cloud-init="true">
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-i586.qcow2</url>
     </image>
 
-    <image arch="i686" format="raw" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-i586.img</url>
-    </image>
-
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-x86_64.qcow2</url>
-    </image>
-
-    <image arch="x86_64" format="raw" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/cloud/alt-p9-cloud-x86_64.img</url>
     </image>
 
     <resources arch="all">
