@@ -185,6 +185,80 @@
       <initrd>syslinux/alt0/full.cz</initrd>
     </media>
 
+    <!-- Simply -->
+    <media arch="i686">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-9.1-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.1(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-9.1-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.1(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-9.1.1-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 9\.1(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
+    </media>
+
+    <!-- Simply Live -->
+    <media arch="i686" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/i586/slinux-live-9.1-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.1(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/x86_64/slinux-live-9.1-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.1(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/simply/aarch64/slinux-live-9.1.1-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 9\.1(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
+    </media>
+
 
     <resources arch="all">
       <minimum>
