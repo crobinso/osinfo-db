@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-06 11:56+0200\n"
+"POT-Creation-Date: 2021-08-06 12:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3661,7 +3661,7 @@ msgstr ""
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
-#: data/os/redhat.com/rhel-8.4.xml.in:8
+#: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
@@ -3965,6 +3965,10 @@ msgstr ""
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
 msgid "Red Hat Enterprise Linux 8.4"
+msgstr ""
+
+#: data/os/redhat.com/rhel-8.5.xml.in:6
+msgid "Red Hat Enterprise Linux 8.5"
 msgstr ""
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
