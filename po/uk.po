@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-04 14:39+0200\n"
+"POT-Creation-Date: 2021-08-06 12:22+0200\n"
 "PO-Revision-Date: 2021-08-05 19:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -400,7 +400,8 @@ msgstr "ALT 8 Education"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
-#: data/os/altlinux.org/alt-9.1.xml.in:8
+#: data/os/altlinux.org/alt-9.1.xml.in:8 data/os/altlinux.org/alt-9.2.xml.in:8
+#: data/os/altlinux.org/alt-p10.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
@@ -505,6 +506,60 @@ msgstr "ALT Simply 9.1"
 #: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply live 9.1"
 msgstr "ALT Simply live 9.1"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:6
+#, fuzzy
+#| msgid "ALT 9.0"
+msgid "ALT 9.2"
+msgstr "ALT 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "ALT Workstation 9.2"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation K 9.0"
+msgid "ALT Workstation K 9.2"
+msgstr "ALT Workstation K 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:25
+#, fuzzy
+#| msgid "ALT Education 9.0"
+msgid "ALT Education 9.2"
+msgstr "ALT Education 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:28
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Server 9.2"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:31
+#, fuzzy
+#| msgid "ALT Virtualization Server 9.0"
+msgid "ALT Virtualization Server 9.2"
+msgstr "ALT Virtualization Server 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:34
+#, fuzzy
+#| msgid "ALT Simply 9.0"
+msgid "ALT Simply 9.2"
+msgstr "ALT Simply 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:37
+#, fuzzy
+#| msgid "ALT Simply live 9.0"
+msgid "ALT Simply live 9.2"
+msgstr "ALT Simply live 9.0"
+
+#: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
+#, fuzzy
+#| msgid "ALT p8 StarterKits"
+msgid "ALT p10 StarterKits"
+msgstr "ALT p8 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -3632,7 +3687,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
-#: data/os/redhat.com/rhel-8.4.xml.in:8
+#: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
@@ -3937,6 +3992,12 @@ msgstr "Red Hat Enterprise Linux 8.3"
 #: data/os/redhat.com/rhel-8.4.xml.in:6
 msgid "Red Hat Enterprise Linux 8.4"
 msgstr "Red Hat Enterprise Linux 8.4"
+
+#: data/os/redhat.com/rhel-8.5.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 8.0"
+msgid "Red Hat Enterprise Linux 8.5"
+msgstr "Red Hat Enterprise Linux 8.0"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"

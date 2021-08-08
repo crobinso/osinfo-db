@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-04 14:39+0200\n"
+"POT-Creation-Date: 2021-08-06 12:22+0200\n"
 "PO-Revision-Date: 2021-07-12 14:42+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -395,7 +395,8 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
-#: data/os/altlinux.org/alt-9.1.xml.in:8
+#: data/os/altlinux.org/alt-9.1.xml.in:8 data/os/altlinux.org/alt-9.2.xml.in:8
+#: data/os/altlinux.org/alt-p10.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
@@ -499,6 +500,48 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply live 9.1"
+msgstr ""
+
+#: data/os/altlinux.org/alt-9.2.xml.in:6
+#, fuzzy
+#| msgid "ALT 9.0"
+msgid "ALT 9.2"
+msgstr "ALT 9.0"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:19
+#, fuzzy
+#| msgid "Fedora 21 Workstation"
+msgid "ALT Workstation 9.2"
+msgstr "Fedora 21 -työasema"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:22
+msgid "ALT Workstation K 9.2"
+msgstr ""
+
+#: data/os/altlinux.org/alt-9.2.xml.in:25
+#, fuzzy
+#| msgid "ALT Linux 2.2"
+msgid "ALT Education 9.2"
+msgstr "ALT Linux 2.2"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:28
+msgid "ALT Server 9.2"
+msgstr ""
+
+#: data/os/altlinux.org/alt-9.2.xml.in:31
+msgid "ALT Virtualization Server 9.2"
+msgstr ""
+
+#: data/os/altlinux.org/alt-9.2.xml.in:34
+msgid "ALT Simply 9.2"
+msgstr ""
+
+#: data/os/altlinux.org/alt-9.2.xml.in:37
+msgid "ALT Simply live 9.2"
+msgstr ""
+
+#: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
+msgid "ALT p10 StarterKits"
 msgstr ""
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
@@ -3626,7 +3669,7 @@ msgstr ""
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
-#: data/os/redhat.com/rhel-8.4.xml.in:8
+#: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
@@ -3930,6 +3973,10 @@ msgstr ""
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
 msgid "Red Hat Enterprise Linux 8.4"
+msgstr ""
+
+#: data/os/redhat.com/rhel-8.5.xml.in:6
+msgid "Red Hat Enterprise Linux 8.5"
 msgstr ""
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
