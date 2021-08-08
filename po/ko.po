@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-06 12:22+0200\n"
-"PO-Revision-Date: 2021-08-05 19:04+0000\n"
+"PO-Revision-Date: 2021-08-06 18:25+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -502,58 +502,40 @@ msgid "ALT Simply live 9.1"
 msgstr "ALT 간편용 라이브 9.1"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 9.2"
-msgstr "ALT 9.0"
+msgstr "ALT 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 9.2"
-msgstr "ALT 웍스테이션 9.0"
+msgstr "ALT 웍스테이션 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K 9.2"
-msgstr "ALT 9.0 웍스테이션 K 9.0"
+msgstr "ALT 9.0 웍스테이션 K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 9.2"
-msgstr "ALT 교육용 9.0"
+msgstr "ALT 교육용 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Server 9.2"
-msgstr "ALT 서버 9.0"
+msgstr "ALT 서버 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Virtualization Server 9.0"
 msgid "ALT Virtualization Server 9.2"
-msgstr "ALT 가상 서버 9.0"
+msgstr "ALT 가상 서버 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Simply 9.0"
 msgid "ALT Simply 9.2"
-msgstr "ALT 간편용 9.0"
+msgstr "ALT 간편용 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Simply live 9.0"
 msgid "ALT Simply live 9.2"
-msgstr "ALT 간편용 라이브 9.0"
+msgstr "ALT 간편용 라이브 9.2"
 
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p8 StarterKits"
 msgid "ALT p10 StarterKits"
-msgstr "ALT p8 시작용구성"
+msgstr "ALT p10 시작용구성"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -3987,10 +3969,8 @@ msgid "Red Hat Enterprise Linux 8.4"
 msgstr "Red Hat 기업용 리눅스 8.4"
 
 #: data/os/redhat.com/rhel-8.5.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.5"
-msgstr "Red Hat 기업용 리눅스 8 .0"
+msgstr "Red Hat 기업용 리눅스 8 .5"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
