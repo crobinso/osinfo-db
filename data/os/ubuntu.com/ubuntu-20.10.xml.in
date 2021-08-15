@@ -15,6 +15,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/20.04"/>
 
     <release-date>2020-10-22</release-date>
+    <eol-date>2021-07-22</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -89,27 +90,27 @@
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-amd64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-amd64.img</url>
     </image>
 
     <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-amd64.vmdk</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-amd64.vmdk</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-arm64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-arm64.img</url>
     </image>
 
     <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-armhf.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-armhf.img</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-ppc64el.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-ppc64el.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-s390x.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/groovy/release/ubuntu-20.10-server-cloudimg-s390x.img</url>
     </image>
 
     <installer>
