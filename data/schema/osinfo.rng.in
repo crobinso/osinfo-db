@@ -820,6 +820,7 @@
     <choice>
       <value>aarch64</value>
       <value>alpha</value>
+      <value>armv6l</value>
       <value>armv7l</value>
       <value>cris</value>
       <value>i686</value>
@@ -839,6 +840,8 @@
       <value>ppc64</value>
       <value>ppc64le</value>
       <value>ppcemb</value>
+      <value>riscv32</value>
+      <value>riscv64</value>
       <value>s390</value>
       <value>s390x</value>
       <value>sh4</value>
