@@ -8,8 +8,8 @@
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/debian/10"/>
-    <derives-from id="http://debian.org/debian/10"/>
+    <upgrades id="http://debian.org/debian/11"/>
+    <derives-from id="http://debian.org/debian/11"/>
 
     <resources arch="all">
       <minimum>
