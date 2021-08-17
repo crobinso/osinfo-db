@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-15 16:02+0200\n"
-"PO-Revision-Date: 2021-08-08 20:04+0000\n"
+"PO-Revision-Date: 2021-08-17 19:04+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -444,15 +444,15 @@ msgstr "ALT 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:21
 msgid "ALT Workstation 9.0"
-msgstr ""
+msgstr "ALT työasema 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
 msgid "ALT Workstation K 9.0"
-msgstr ""
+msgstr "ALT työasema K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
-msgstr ""
+msgstr "ALT koulutus 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Server 9.0"
@@ -476,15 +476,15 @@ msgstr "ALT 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
 msgid "ALT Workstation 9.1"
-msgstr ""
+msgstr "ALT työasema 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:22
 msgid "ALT Workstation K 9.1"
-msgstr ""
+msgstr "ALT työasema K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
 msgid "ALT Education 9.1"
-msgstr ""
+msgstr "ALT koulutus 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Server 9.1"
@@ -512,7 +512,7 @@ msgstr "ALT työasema 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:22
 msgid "ALT Workstation K 9.2"
-msgstr ""
+msgstr "ALT työasema K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
 msgid "ALT Education 9.2"
@@ -968,28 +968,20 @@ msgstr ""
 
 #: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:33
 #: data/os/debian.org/debian-11.xml.in:36
-#, fuzzy
-#| msgid "Debian Project"
 msgid "Debian 11"
-msgstr "Debian projekti"
+msgstr "Debian 11"
 
 #: data/os/debian.org/debian-11.xml.in:39
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 11 (OpenStack)"
-msgstr "Debian 10 (Geneerinen)"
+msgstr "Debian 11 (OpenStack)"
 
 #: data/os/debian.org/debian-11.xml.in:42
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 11 (Generic)"
-msgstr "Debian 10 (Geneerinen)"
+msgstr "Debian 11 (Yleinen)"
 
 #: data/os/debian.org/debian-11.xml.in:45
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 11 (Generic Cloud)"
-msgstr "Debian 10 (Geneerinen)"
+msgstr "Debian 11 (Yleinen pilvi)"
 
 #: data/os/debian.org/debian-11.xml.in:48
 msgid "Debian 11 (No Cloud)"
