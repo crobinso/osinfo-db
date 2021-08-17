@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-15 16:02+0200\n"
-"PO-Revision-Date: 2021-08-08 20:04+0000\n"
+"PO-Revision-Date: 2021-08-15 15:34+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -969,34 +969,24 @@ msgstr "Debian 10 (No Cloud)"
 
 #: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:33
 #: data/os/debian.org/debian-11.xml.in:36
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 11"
-msgstr "Debian 10"
+msgstr "Debian 11"
 
 #: data/os/debian.org/debian-11.xml.in:39
-#, fuzzy
-#| msgid "Debian 10 (OpenStack)"
 msgid "Debian 11 (OpenStack)"
-msgstr "Debian 10 (OpenStack)"
+msgstr "Debian 11 (OpenStack)"
 
 #: data/os/debian.org/debian-11.xml.in:42
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 11 (Generic)"
-msgstr "Debian 10 (Generic)"
+msgstr "Debian 11 (Generic)"
 
 #: data/os/debian.org/debian-11.xml.in:45
-#, fuzzy
-#| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 11 (Generic Cloud)"
-msgstr "Debian 10 (Generic Cloud)"
+msgstr "Debian 11 (Generic Cloud)"
 
 #: data/os/debian.org/debian-11.xml.in:48
-#, fuzzy
-#| msgid "Debian 10 (No Cloud)"
 msgid "Debian 11 (No Cloud)"
-msgstr "Debian 10 (No Cloud)"
+msgstr "Debian 11 (No Cloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -4693,10 +4683,8 @@ msgid "Ubuntu 20.10"
 msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 11.04"
 msgid "Ubuntu 21.04"
-msgstr "Ubuntu 11.04"
+msgstr "Ubuntu 21.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
