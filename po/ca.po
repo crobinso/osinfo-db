@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-06 12:22+0200\n"
+"POT-Creation-Date: 2021-08-15 16:02+0200\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -1031,7 +1031,7 @@ msgstr "Debian GNU/Linux 1.1"
 #: data/os/debian.org/debian-1.1.xml.in:9
 #: data/os/debian.org/debian-1.2.xml.in:9
 #: data/os/debian.org/debian-1.3.xml.in:9 data/os/debian.org/debian-10.xml.in:9
-#: data/os/debian.org/debian-2.0.xml.in:9
+#: data/os/debian.org/debian-11.xml.in:9 data/os/debian.org/debian-2.0.xml.in:9
 #: data/os/debian.org/debian-2.1.xml.in:9
 #: data/os/debian.org/debian-2.2.xml.in:9
 #: data/os/debian.org/debian-3.1.xml.in:9 data/os/debian.org/debian-3.xml.in:10
@@ -1075,6 +1075,37 @@ msgstr ""
 #, fuzzy
 #| msgid "Debian Woody"
 msgid "Debian 10 (No Cloud)"
+msgstr "Debian Woody"
+
+#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:33
+#: data/os/debian.org/debian-11.xml.in:36
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 11"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-11.xml.in:39
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 11 (OpenStack)"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-11.xml.in:42
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 11 (Generic)"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-11.xml.in:45
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 11 (Generic Cloud)"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-11.xml.in:48
+#, fuzzy
+#| msgid "Debian Woody"
+msgid "Debian 11 (No Cloud)"
 msgstr "Debian Woody"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
@@ -4887,6 +4918,7 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -4991,6 +5023,12 @@ msgstr "Ubuntu 10.04 LTS"
 #| msgid "Ubuntu 5.04"
 msgid "Ubuntu 20.10"
 msgstr "Ubuntu 5.04"
+
+#: data/os/ubuntu.com/ubuntu-21.04.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 11.04"
+msgid "Ubuntu 21.04"
+msgstr "Ubuntu 11.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
