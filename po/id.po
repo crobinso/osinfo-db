@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-15 16:02+0200\n"
-"PO-Revision-Date: 2021-07-07 07:04+0000\n"
-"Last-Translator: Kukuh Syafaat <kukuh@syafaat.id>\n"
+"PO-Revision-Date: 2021-08-17 19:04+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -503,58 +503,40 @@ msgid "ALT Simply live 9.1"
 msgstr "ALT Simply live 9.1"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 9.2"
-msgstr "ALT 9.0"
+msgstr "ALT 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 9.2"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K 9.2"
-msgstr "ALT Workstation K 9.0"
+msgstr "ALT Workstation K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 9.2"
-msgstr "ALT Education 9.0"
+msgstr "ALT Education 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Server 9.2"
-msgstr "ALT Server 9.0"
+msgstr "ALT Server 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Virtualization Server 9.0"
 msgid "ALT Virtualization Server 9.2"
-msgstr "ALT Virtualization Server 9.0"
+msgstr "ALT Virtualization Server 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Simply 9.0"
 msgid "ALT Simply 9.2"
-msgstr "ALT Simply 9.0"
+msgstr "ALT Simply 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Simply live 9.0"
 msgid "ALT Simply live 9.2"
-msgstr "ALT Simply live 9.0"
+msgstr "ALT Simply live 9.2"
 
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p8 StarterKits"
 msgid "ALT p10 StarterKits"
-msgstr "ALT p8 StarterKits"
+msgstr "ALT p10 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -986,34 +968,24 @@ msgstr "Debian 10 (Bukan Cloud)"
 
 #: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:33
 #: data/os/debian.org/debian-11.xml.in:36
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 11"
-msgstr "Debian 10"
+msgstr "Debian 11"
 
 #: data/os/debian.org/debian-11.xml.in:39
-#, fuzzy
-#| msgid "Debian 10 (OpenStack)"
 msgid "Debian 11 (OpenStack)"
-msgstr "Debian 10 (OpenStack)"
+msgstr "Debian 11 (OpenStack)"
 
 #: data/os/debian.org/debian-11.xml.in:42
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 11 (Generic)"
-msgstr "Debian 10 (Generik)"
+msgstr "Debian 11 (Generik)"
 
 #: data/os/debian.org/debian-11.xml.in:45
-#, fuzzy
-#| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 11 (Generic Cloud)"
-msgstr "Debian 10 (Cloud Generik)"
+msgstr "Debian 11 (Cloud Generik)"
 
 #: data/os/debian.org/debian-11.xml.in:48
-#, fuzzy
-#| msgid "Debian 10 (No Cloud)"
 msgid "Debian 11 (No Cloud)"
-msgstr "Debian 10 (Bukan Cloud)"
+msgstr "Debian 11 (Bukan Cloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -2429,16 +2401,12 @@ msgid "Haiku R1/Beta1"
 msgstr "Haiku R1/Beta1"
 
 #: data/os/haiku-os.org/haiku-r1beta2.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta2"
-msgstr "Haiku R1/Beta1"
+msgstr "Haiku R1/Beta2"
 
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta3"
-msgstr "Haiku R1/Beta1"
+msgstr "Haiku R1/Beta3"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
 msgid "Generic Linux 2016"
@@ -4024,10 +3992,8 @@ msgid "Red Hat Enterprise Linux 8.4"
 msgstr "Red Hat Enterprise Linux 8.4"
 
 #: data/os/redhat.com/rhel-8.5.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.5"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.5"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
@@ -4716,10 +4682,8 @@ msgid "Ubuntu 20.10"
 msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 11.04"
 msgid "Ubuntu 21.04"
-msgstr "Ubuntu 11.04"
+msgstr "Ubuntu 21.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
