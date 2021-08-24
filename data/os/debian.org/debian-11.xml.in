@@ -35,9 +35,6 @@
     <variant id="universal-netinst">
       <name>Debian 11</name>
     </variant>
-    <variant id="openstack">
-      <name>Debian 11 (OpenStack)</name>
-    </variant>
     <variant id="generic">
       <name>Debian 11 (Generic)</name>
     </variant>
@@ -192,18 +189,6 @@
       <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
     </tree>
 
-<!--
-    <image arch="x86_64" format="qcow2" cloud-init="true">
-      <variant id="openstack"/>
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current-11/debian-11-openstack-amd64.qcow2</url>
-    </image>
-
-    <image arch="x86_64" format="raw" cloud-init="true">
-      <variant id="openstack"/>
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current-11/debian-11-openstack-amd64.raw</url>
-    </image>
--->
-
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
       <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-generic-amd64.qcow2</url>
@@ -213,18 +198,6 @@
       <variant id="genericcloud"/>
       <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2</url>
     </image>
-
-<!--
-    <image arch="aarch64" format="qcow2" cloud-init="true">
-      <variant id="openstack"/>
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current-11/debian-11-openstack-arm64.qcow2</url>
-    </image>
-
-    <image arch="aarch64" format="raw" cloud-init="true">
-      <variant id="openstack"/>
-      <url>https://cloud.debian.org/images/cloud/OpenStack/current-11/debian-11-openstack-arm64.raw</url>
-    </image>
--->
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
