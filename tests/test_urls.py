@@ -14,6 +14,7 @@ from . import util
 class UrlType(enum.Enum):
     URL_GENERIC = 1
     URL_ISO = 2
+    URL_INITRD = 3
 
 
 iso_content_types = {
@@ -26,6 +27,14 @@ iso_content_types = {
     'text/plain',
     # a few openSUSE Live images
     'application/x-up-download',
+}
+
+
+initrd_content_types = {
+    # generic data
+    'application/octet-stream',
+    # gzip-compressed
+    'application/x-gzip',
 }
 
 
@@ -46,6 +55,8 @@ def _check_url(url, url_type):
         return False
     if url_type == UrlType.URL_ISO:
         return content_type in iso_content_types
+    if url_type == UrlType.URL_INITRD and content_type:
+        return content_type in initrd_content_types
     return True
 
 
@@ -69,7 +80,7 @@ def _collect_os_urls():
             if t.kernel:
                 urls.append((url + t.kernel, UrlType.URL_GENERIC))
             if t.initrd:
-                urls.append((url + t.initrd, UrlType.URL_GENERIC))
+                urls.append((url + t.initrd, UrlType.URL_INITRD))
         if urls:
             ret.append((osxml.shortid, urls))
 
