@@ -37,6 +37,8 @@
         <system-id>LINUX</system-id>
         <volume-id>RHEL-8-3-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
       </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="s390x">
