@@ -35,6 +35,8 @@
          <system-id>PPC</system-id>
          <volume-id>RHEL[_-]8[_-]([6-9]|[1-9][0-9])([_-]([0-9]|[1-9][0-9]))?.*ppc64le$</volume-id>
        </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
      </media>
 
     <media arch="s390x">
