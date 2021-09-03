@@ -1,0 +1,195 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://rockylinux.org/rocky/8.4">
+    <short-id>rocky8.4</short-id>
+    <name>Rocky Linux 8.4</name>
+    <version>8.4</version>
+    <vendor>Rocky Enterprise Software Foundation</vendor>
+    <family>linux</family>
+    <distro>rocky</distro>
+    <codename>Green Obsidian</codename>
+    <clones id="http://redhat.com/rhel/8.4"/>
+    <release-date>2021-06-21</release-date>
+    <eol-date>2029-05-31</eol-date>
+
+    <variant id="netinst">
+      <name>Rocky 8.4</name>
+    </variant>
+
+    <variant id="minimal">
+      <name>Rocky 8.4</name>
+    </variant>
+
+    <variant id="everything">
+      <name>Rocky 8.4</name>
+    </variant>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
+        <volume-size>754974720</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
+        <volume-size>1980760064</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
+        <volume-size>9907994624</volume-size>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-boot.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
+        <volume-size>677509120</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="minimal"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-minimal.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
+        <volume-size>1661190144</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="everything"/>
+      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
+        <volume-size>7303860224</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://download.rockylinux.org/pub/rocky/8.4/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^8.4$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.rockylinux.org/pub/rocky/8.4/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^8.4$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+  </os>
+</libosinfo>

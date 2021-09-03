@@ -182,6 +182,13 @@
               <xsl:call-template name="arch"/>
               <xsl:text>/os/</xsl:text>
             </xsl:when>
+            <xsl:when test="os/distro = 'rocky'">
+              <xsl:text>https://download.rockylinux.org/pub/rocky/</xsl:text>
+              <xsl:call-template name="version"/>
+              <xsl:text>/BaseOS/</xsl:text>
+              <xsl:call-template name="arch"/>
+              <xsl:text>/os/</xsl:text>
+            </xsl:when>
           </xsl:choose>
         </xsl:template>
 
