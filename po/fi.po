@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-15 16:02+0200\n"
+"POT-Creation-Date: 2021-09-01 16:47+0200\n"
 "PO-Revision-Date: 2021-08-17 19:04+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -972,18 +972,14 @@ msgid "Debian 11"
 msgstr "Debian 11"
 
 #: data/os/debian.org/debian-11.xml.in:39
-msgid "Debian 11 (OpenStack)"
-msgstr "Debian 11 (OpenStack)"
-
-#: data/os/debian.org/debian-11.xml.in:42
 msgid "Debian 11 (Generic)"
 msgstr "Debian 11 (Yleinen)"
 
-#: data/os/debian.org/debian-11.xml.in:45
+#: data/os/debian.org/debian-11.xml.in:42
 msgid "Debian 11 (Generic Cloud)"
 msgstr "Debian 11 (Yleinen pilvi)"
 
-#: data/os/debian.org/debian-11.xml.in:48
+#: data/os/debian.org/debian-11.xml.in:45
 msgid "Debian 11 (No Cloud)"
 msgstr ""
 
@@ -2681,6 +2677,7 @@ msgstr ""
 #: data/os/microsoft.com/win-2k12r2.xml.in:8
 #: data/os/microsoft.com/win-2k16.xml.in:8
 #: data/os/microsoft.com/win-2k19.xml.in:8
+#: data/os/microsoft.com/win-2k22.xml.in:8
 #: data/os/microsoft.com/win-2k3.xml.in:8
 #: data/os/microsoft.com/win-2k3r2.xml.in:8
 #: data/os/microsoft.com/win-2k8.xml.in:8
@@ -2795,6 +2792,10 @@ msgstr ""
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
+msgstr ""
+
+#: data/os/microsoft.com/win-2k22.xml.in:6
+msgid "Microsoft Windows Server 2022"
 msgstr ""
 
 #: data/os/microsoft.com/win-2k3.xml.in:6
@@ -5084,3 +5085,6 @@ msgstr ""
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr ""
+
+#~ msgid "Debian 11 (OpenStack)"
+#~ msgstr "Debian 11 (OpenStack)"

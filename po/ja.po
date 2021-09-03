@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-15 16:02+0200\n"
+"POT-Creation-Date: 2021-09-01 16:47+0200\n"
 "PO-Revision-Date: 2021-04-05 14:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -1033,20 +1033,15 @@ msgstr "Debian Bo"
 
 #: data/os/debian.org/debian-11.xml.in:39
 #, fuzzy
-msgid "Debian 11 (OpenStack)"
+msgid "Debian 11 (Generic)"
 msgstr "Debian Bo"
 
 #: data/os/debian.org/debian-11.xml.in:42
 #, fuzzy
-msgid "Debian 11 (Generic)"
-msgstr "Debian Bo"
-
-#: data/os/debian.org/debian-11.xml.in:45
-#, fuzzy
 msgid "Debian 11 (Generic Cloud)"
 msgstr "Debian Bo"
 
-#: data/os/debian.org/debian-11.xml.in:48
+#: data/os/debian.org/debian-11.xml.in:45
 #, fuzzy
 #| msgid "Debian Woody"
 msgid "Debian 11 (No Cloud)"
@@ -2807,6 +2802,7 @@ msgstr "Microsoft Windows 1.0"
 #: data/os/microsoft.com/win-2k12r2.xml.in:8
 #: data/os/microsoft.com/win-2k16.xml.in:8
 #: data/os/microsoft.com/win-2k19.xml.in:8
+#: data/os/microsoft.com/win-2k22.xml.in:8
 #: data/os/microsoft.com/win-2k3.xml.in:8
 #: data/os/microsoft.com/win-2k3r2.xml.in:8
 #: data/os/microsoft.com/win-2k8.xml.in:8
@@ -2922,6 +2918,11 @@ msgstr ""
 #: data/os/microsoft.com/win-2k19.xml.in:6
 #, fuzzy
 msgid "Microsoft Windows Server 2019"
+msgstr "Microsoft Windows Server 2003"
+
+#: data/os/microsoft.com/win-2k22.xml.in:6
+#, fuzzy
+msgid "Microsoft Windows Server 2022"
 msgstr "Microsoft Windows Server 2003"
 
 #: data/os/microsoft.com/win-2k3.xml.in:6
@@ -5326,6 +5327,10 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#, fuzzy
+#~ msgid "Debian 11 (OpenStack)"
+#~ msgstr "Debian Bo"
 
 #~ msgid "Debian Buzz"
 #~ msgstr "Debian Buzz"
