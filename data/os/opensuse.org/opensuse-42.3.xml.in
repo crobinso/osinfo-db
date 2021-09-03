@@ -20,7 +20,7 @@
 
     <!-- DVD -->
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-42.3-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
@@ -33,7 +33,7 @@
     <!-- Network -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-NET-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/42.3/iso/openSUSE-Leap-42.3-NET-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-42.3-NET-x86_64*</volume-id>
         <system-id>LINUX</system-id>

@@ -20,7 +20,7 @@
 
     <!-- DVD -->
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-15.0-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
@@ -33,7 +33,7 @@
     <!-- Network -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-Leap-15.0-NET-x86_64*</volume-id>
         <system-id>LINUX</system-id>
@@ -44,7 +44,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://download.opensuse.org/pub/opensuse/distribution/leap/15.0/repo/oss/</url>
+      <url>https://download.opensuse.org/pub/opensuse/distribution/leap/15.0/repo/oss/</url>
       <treeinfo>
         <family>openSUSE Leap</family>
         <version>15.0</version>

@@ -15,7 +15,7 @@
     <eol-date>2017-01-17</eol-date>
 
     <media arch="i686">
-      <url>http://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-i586.iso</url>
+      <url>https://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-13.2-DVD</volume-id>
         <system-id>LINUX</system-id>
@@ -25,7 +25,7 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/13.2/iso/openSUSE-13.2-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-13.2-DVD-x86_64</volume-id>
         <system-id>LINUX</system-id>

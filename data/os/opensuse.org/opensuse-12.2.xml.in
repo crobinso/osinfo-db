@@ -17,7 +17,7 @@
     <firmware arch="x86_64" type="efi"/>
 
     <media arch="i686">
-      <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-i586.iso</url>
+      <url>https://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-i586.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-i586-Build0167</volume-id>
         <system-id>LINUX</system-id>
@@ -27,7 +27,7 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-DVD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE-DVD-x86_640167</volume-id>
         <system-id>LINUX</system-id>
@@ -38,7 +38,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-GNOME-LiveCD-i686.iso</url>
+      <url>https://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-GNOME-LiveCD-i686.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
@@ -48,7 +48,7 @@
       <initrd>boot/i386/loader/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-GNOME-LiveCD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/12.2/iso/openSUSE-12.2-GNOME-LiveCD-x86_64.iso</url>
       <iso>
         <volume-id>openSUSE Live CD.*</volume-id>
         <system-id>LINUX</system-id>
