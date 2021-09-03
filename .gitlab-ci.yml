@@ -1,7 +1,7 @@
 stages:
-  - prebuild
   - containers
   - builds
+  - sanity_checks
 
 .multilib: &multilib |
   dpkg_architecture=$(which dpkg-architecture 2>/dev/null || true)
@@ -27,59 +27,9 @@ stages:
   export CCACHE_MAXSIZE="50M"
   export PATH="$CCACHE_WRAPPERSDIR:$PATH"
 
-.container_job_template: &container_job_definition
-  image: docker:stable
-  stage: containers
-  services:
-    - name: registry.gitlab.com/libvirt/libvirt-ci/docker-dind:master
-      alias: docker
-  before_script:
-    - export TAG="$CI_REGISTRY_IMAGE/ci-$NAME:latest"
-    - export COMMON_TAG="$CI_REGISTRY/libosinfo/osinfo-db/ci-$NAME:latest"
-    - docker info
-    - docker login registry.gitlab.com -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD"
-  script:
-    - docker pull "$TAG" || docker pull "$COMMON_TAG" || true
-    - docker build --cache-from "$TAG" --cache-from "$COMMON_TAG" --tag "$TAG" -f "ci/containers/ci-$NAME.Dockerfile" ci
-    - docker push "$TAG"
-  after_script:
-    - docker logout
 
-.osinfo-db-tools-build: &osinfo-db-tools-build |
-  pushd /tmp/
-  git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
-  cd osinfo-db-tools
-  mkdir build
-  cd build
-  meson .. . --prefix=$VIRT_PREFIX
-  $NINJA install
-  popd
-
-.osinfo-db-build: &osinfo-db-build |
-  pushd .
-  mkdir build
-  cd build
-  $MAKE -f ../Makefile VPATH=..
-  $MAKE -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
-  popd
-
-.osinfo-db-check: &osinfo-db-check |
-  pushd .
-  cd build
-  $MAKE -f ../Makefile VPATH=.. check
-  popd
-
-.osinfo-db-rpm: &osinfo-db-rpm |
-  pushd .
-  cd build
-  if test -x /usr/bin/rpmbuild && test "$RPM" != "skip"; then
-    rpmbuild --nodeps --define "_sourcedir $PWD" -ba osinfo-db.spec
-  fi
-  popd
-
-.native-build-job: &native-build-job
-  stage: builds
-  image: $CI_REGISTRY_IMAGE/ci-$NAME:latest
+.native_build_job:
+  extends: .gitlab_native_build_job
   cache:
     paths:
       - ccache
@@ -87,122 +37,22 @@ stages:
   script:
     - *multilib
     - *native-environment
-    - *osinfo-db-tools-build
-    - *osinfo-db-build
-    - *osinfo-db-check
-    - *osinfo-db-rpm
+    - pushd /tmp/
+    - git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
+    - cd osinfo-db-tools
+    - mkdir build
+    - cd build
+    - meson .. . --prefix=$VIRT_PREFIX
+    - $NINJA install
+    - popd
+    - mkdir build
+    - cd build
+    - $MAKE -f ../Makefile VPATH=..
+    - $MAKE -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
+    - $MAKE -f ../Makefile VPATH=.. check
+    - if test -x /usr/bin/rpmbuild && test "$RPM" != "skip";
+      then
+        rpmbuild --nodeps --define "_sourcedir $PWD" -ba osinfo-db.spec;
+      fi
 
-# Check that all commits are signed-off for the DCO.
-# Skip on "libosinfo" namespace, since we only need to run
-# this test on developer's personal forks from which
-# merge requests are submitted
-check-dco:
-  stage: prebuild
-  image: registry.gitlab.com/libvirt/libvirt-ci/check-dco:master
-  script:
-    - /check-dco libosinfo
-  except:
-    variables:
-      - $CI_PROJECT_NAMESPACE == "libosinfo"
-
-
-centos-8-container:
-  <<: *container_job_definition
-  variables:
-    NAME: centos-8
-
-centos-stream-container:
-  <<: *container_job_definition
-  variables:
-    NAME: centos-stream
-
-debian-10-container:
-  <<: *container_job_definition
-  variables:
-    NAME: debian-10
-
-debian-sid-container:
-  <<: *container_job_definition
-  variables:
-    NAME: debian-sid
-
-fedora-32-container:
-  <<: *container_job_definition
-  variables:
-    NAME: fedora-32
-
-fedora-33-container:
-  <<: *container_job_definition
-  variables:
-    NAME: fedora-33
-
-fedora-rawhide-container:
-  <<: *container_job_definition
-  variables:
-    NAME: fedora-rawhide
-
-opensuse-151-container:
-  <<: *container_job_definition
-  variables:
-    NAME: opensuse-151
-
-ubuntu-1804-container:
-  <<: *container_job_definition
-  variables:
-    NAME: ubuntu-1804
-
-ubuntu-2004-container:
-  <<: *container_job_definition
-  variables:
-    NAME: ubuntu-2004
-
-
-centos-8:
-  <<: *native-build-job
-  variables:
-    NAME: centos-8
-
-centos-stream:
-  <<: *native-build-job
-  variables:
-    NAME: centos-stream
-
-debian-10:
-  <<: *native-build-job
-  variables:
-    NAME: debian-10
-
-debian-sid:
-  <<: *native-build-job
-  variables:
-    NAME: debian-sid
-
-fedora-32:
-  <<: *native-build-job
-  variables:
-    NAME: fedora-32
-
-fedora-33:
-  <<: *native-build-job
-  variables:
-    NAME: fedora-33
-
-fedora-rawhide:
-  <<: *native-build-job
-  variables:
-    NAME: fedora-rawhide
-
-opensuse-151:
-  <<: *native-build-job
-  variables:
-    NAME: opensuse-151
-
-ubuntu-1804:
-  <<: *native-build-job
-  variables:
-    NAME: ubuntu-1804
-
-ubuntu-2004:
-  <<: *native-build-job
-  variables:
-    NAME: ubuntu-2004
+include: '/ci/gitlab.yml'
