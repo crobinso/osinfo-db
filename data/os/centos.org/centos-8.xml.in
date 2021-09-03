@@ -21,7 +21,7 @@
     <!-- 2111 Release -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://vault.centos.org/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-boot.iso</url>
+      <url>https://vault.centos.org/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-5-2111-x86_64-dvd</volume-id>
@@ -32,7 +32,7 @@
     </media>
 
     <media arch="x86_64">
-        <url>http://vault.centos.org/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-dvd1.iso</url>
+        <url>https://vault.centos.org/8.5.2111/isos/x86_64/CentOS-8.5.2111-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-5-2111-x86_64-dvd</volume-id>
@@ -44,7 +44,7 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://vault.centos.org/8.5.2111/isos/aarch64/CentOS-8.5.2111-aarch64-boot.iso</url>
+      <url>https://vault.centos.org/8.5.2111/isos/aarch64/CentOS-8.5.2111-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-5-2111-aarch64-dvd</volume-id>
@@ -55,7 +55,7 @@
     </media>
 
     <media arch="aarch64">
-        <url>http://vault.centos.org/8.5.2111/isos/aarch64/CentOS-8.5.2111-aarch64-dvd1.iso</url>
+        <url>https://vault.centos.org/8.5.2111/isos/aarch64/CentOS-8.5.2111-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-5-2111-aarch64-dvd</volume-id>
@@ -67,7 +67,7 @@
 
     <media arch="ppc64le">
       <variant id="netinst"/>
-      <url>http://vault.centos.org/8.5.2111/isos/ppc64le/CentOS-8.5.2111-ppc64le-boot.iso</url>
+      <url>https://vault.centos.org/8.5.2111/isos/ppc64le/CentOS-8.5.2111-ppc64le-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-5-2111-ppc64le-dvd</volume-id>
@@ -78,7 +78,7 @@
     </media>
 
     <media arch="ppc64le">
-        <url>http://vault.centos.org/8.5.2111/isos/ppc64le/CentOS-8.5.2111-ppc64le-dvd1.iso</url>
+        <url>https://vault.centos.org/8.5.2111/isos/ppc64le/CentOS-8.5.2111-ppc64le-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-5-2111-ppc64le-dvd</volume-id>
@@ -400,7 +400,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://vault.centos.org/centos/8/BaseOS/x86_64/os/</url>
+      <url>https://vault.centos.org/centos/8/BaseOS/x86_64/os/</url>
       <treeinfo>
         <family>CentOS Linux</family>
         <version>^8$</version>
@@ -409,7 +409,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>http://vault.centos.org/centos/8/BaseOS/aarch64/os/</url>
+      <url>https://vault.centos.org/centos/8/BaseOS/aarch64/os/</url>
       <treeinfo>
         <family>CentOS Linux</family>
         <version>^8$</version>
@@ -418,7 +418,7 @@
     </tree>
 
     <tree arch="ppc64le">
-      <url>http://vault.centos.org/centos/8/BaseOS/ppc64le/os/</url>
+      <url>https://vault.centos.org/centos/8/BaseOS/ppc64le/os/</url>
       <treeinfo>
         <family>CentOS Linux</family>
         <version>^8$</version>

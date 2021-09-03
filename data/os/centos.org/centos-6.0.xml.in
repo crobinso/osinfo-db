@@ -33,7 +33,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://vault.centos.org/6.0/os/x86_64/</url>
+      <url>https://vault.centos.org/6.0/os/x86_64/</url>
       <treeinfo>
         <family>CentOS</family>
         <version>6.0</version>
@@ -41,7 +41,7 @@
       </treeinfo>
     </tree>
     <tree arch="i686">
-      <url>http://vault.centos.org/6.0/os/i386/</url>
+      <url>https://vault.centos.org/6.0/os/i386/</url>
       <treeinfo>
         <family>CentOS</family>
         <version>6.0</version>

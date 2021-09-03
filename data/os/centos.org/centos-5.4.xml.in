@@ -16,12 +16,12 @@
 
     <tree arch="x86_64">
       <!-- Strangely centos5.4 x86_64 lacks treeinfo, but i386 has it... -->
-      <url>http://vault.centos.org/5.4/os/x86_64/</url>
+      <url>https://vault.centos.org/5.4/os/x86_64/</url>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </tree>
     <tree arch="i686">
-      <url>http://vault.centos.org/5.4/os/i386/</url>
+      <url>https://vault.centos.org/5.4/os/i386/</url>
       <treeinfo>
         <family>CentOS</family>
         <version>5.4</version>

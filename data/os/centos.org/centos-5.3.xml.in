@@ -15,12 +15,12 @@
     <eol-date>2017-03-31</eol-date>
 
     <tree arch="x86_64">
-      <url>http://vault.centos.org/5.3/os/x86_64/</url>
+      <url>https://vault.centos.org/5.3/os/x86_64/</url>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </tree>
     <tree arch="i686">
-      <url>http://vault.centos.org/5.3/os/i386/</url>
+      <url>https://vault.centos.org/5.3/os/i386/</url>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </tree>
