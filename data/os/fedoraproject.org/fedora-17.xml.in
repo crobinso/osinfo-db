@@ -20,7 +20,7 @@
     </devices>
 
     <media arch="i686">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/i386/iso/Fedora-17-i386-DVD.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/i386/iso/Fedora-17-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 17 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -31,7 +31,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/iso/Fedora-17-x86_64-DVD.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/iso/Fedora-17-x86_64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 17 x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -43,7 +43,7 @@
 
     <!-- GNOME -->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/i686/Fedora-17-i686-Live-Desktop.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/i686/Fedora-17-i686-Live-Desktop.iso</url>
       <iso>
         <volume-id>Fedora-17-i686-Live-Desktop</volume-id>
         <system-id>LINUX</system-id>
@@ -55,7 +55,7 @@
 
     <!-- KDE-->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/i686/Fedora-17-i686-Live-KDE.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/i686/Fedora-17-i686-Live-KDE.iso</url>
       <iso>
         <volume-id>Fedora-17-i686-Live-KDE</volume-id>
         <system-id>LINUX</system-id>
@@ -67,7 +67,7 @@
 
     <!-- GNOME -->
     <media arch="x86_64" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/x86_64/Fedora-17-x86_64-Live-Desktop.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/x86_64/Fedora-17-x86_64-Live-Desktop.iso</url>
       <iso>
         <volume-id>Fedora-17-x86_64-Live-Desktop</volume-id>
         <system-id>LINUX</system-id>
@@ -79,7 +79,7 @@
 
     <!-- KDE-->
     <media arch="x86_64" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/x86_64/Fedora-17-x86_64-Live-KDE.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Live/x86_64/Fedora-17-x86_64-Live-KDE.iso</url>
       <iso>
         <volume-id>Fedora-17-x86_64-Live-KDE</volume-id>
         <system-id>LINUX</system-id>
@@ -90,7 +90,7 @@
     </media>
 
     <tree arch="i686">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/i386/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>17</version>
@@ -98,7 +98,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/17/Fedora/x86_64/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>17</version>

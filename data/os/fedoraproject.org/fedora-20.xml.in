@@ -17,7 +17,7 @@
 
     <!-- Installer DVD -->
     <media arch="i686">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-DVD.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-DVD.iso</url>
       <iso>
         <volume-id>Fedora 20 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -27,7 +27,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 20 x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -37,7 +37,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="ppc64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-DVD.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-DVD.iso</url>
       <iso>
         <volume-id>Fedora 20 ppc64</volume-id>
         <system-id>PPC</system-id>
@@ -47,7 +47,7 @@
 
     <!-- Network Installer -->
     <media arch="i686">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-netinst.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/iso/Fedora-20-i386-netinst.iso</url>
       <iso>
         <volume-id>Fedora 20 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -57,7 +57,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-netinst.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-netinst.iso</url>
       <iso>
         <volume-id>Fedora 20 x86_64</volume-id>
         <system-id>LINUX</system-id>
@@ -67,7 +67,7 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
     <media arch="ppc64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-netinst.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/20/Fedora/ppc64/iso/Fedora-20-ppc64-netinst.iso</url>
       <iso>
         <volume-id>Fedora_20_ppc64</volume-id>
         <system-id>PPC</system-id>
@@ -77,7 +77,7 @@
 
     <!-- GNOME -->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/i386/Fedora-Live-Desktop-i686-20-1.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/i386/Fedora-Live-Desktop-i686-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-Desktop-i686-20</volume-id>
         <system-id>LINUX</system-id>
@@ -87,7 +87,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/x86_64/Fedora-Live-Desktop-x86_64-20-1.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/x86_64/Fedora-Live-Desktop-x86_64-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-Desktop-x86_64-20</volume-id>
         <system-id>LINUX</system-id>
@@ -99,7 +99,7 @@
 
     <!-- KDE -->
     <media arch="i686" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/i386/Fedora-Live-KDE-i686-20-1.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/i386/Fedora-Live-KDE-i686-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-KDE-i686-20</volume-id>
         <system-id>LINUX</system-id>
@@ -109,7 +109,7 @@
       <initrd>isolinux/initrd0.img</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/x86_64/Fedora-Live-KDE-x86_64-20-1.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Live/x86_64/Fedora-Live-KDE-x86_64-20-1.iso</url>
       <iso>
         <volume-id>Fedora-Live-KDE-x86_64-20</volume-id>
         <system-id>LINUX</system-id>
@@ -120,7 +120,7 @@
     </media>
 
     <tree arch="i686">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/i386/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>20</version>
@@ -128,7 +128,7 @@
       </treeinfo>
     </tree>
     <tree arch="x86_64">
-      <url>http://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/20/Fedora/x86_64/os/</url>
       <treeinfo>
         <family>Fedora</family>
         <version>20</version>

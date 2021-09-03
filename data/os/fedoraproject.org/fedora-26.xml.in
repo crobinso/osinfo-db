@@ -71,7 +71,7 @@
     <!-- Network Installer !-->
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Server/x86_64/iso/Fedora-Server-netinst-x86_64-26-1.5.iso</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Server/x86_64/iso/Fedora-Server-netinst-x86_64-26-1.5.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-26</volume-id>
         <system-id>LINUX</system-id>
@@ -82,7 +82,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Server/x86_64/os/</url>
+      <url>https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/26/Server/x86_64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
