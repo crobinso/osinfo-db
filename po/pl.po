@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 16:47+0200\n"
-"PO-Revision-Date: 2021-08-15 14:29+0000\n"
+"PO-Revision-Date: 2021-09-01 16:36+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2801,10 +2801,8 @@ msgid "Microsoft Windows Server 2019"
 msgstr "Microsoft Windows Server 2019"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
-#, fuzzy
-#| msgid "Microsoft Windows Server 2012"
 msgid "Microsoft Windows Server 2022"
-msgstr "Microsoft Windows Server 2012"
+msgstr "Microsoft Windows Server 2022"
 
 #: data/os/microsoft.com/win-2k3.xml.in:6
 msgid "Microsoft Windows Server 2003"
