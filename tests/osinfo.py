@@ -231,6 +231,12 @@ class Media(_XMLBase):
             return variant.attrib['id']
         return None
 
+    @_cache_property
+    def installscripts(self):
+        return [s.attrib['id']
+                for i in self._root.findall('installer')
+                for s in i.findall('script')]
+
 
 class Tree(_XMLBase):
     @_cache_property
