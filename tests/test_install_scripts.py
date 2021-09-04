@@ -8,3 +8,10 @@ from . import util
 def test_install_scripts(osxml):
     for script in osxml.installscripts:
         assert util.DataFiles.installscripts()[script]
+
+
+@util.os_parametrize('osxml', filter_media=True)
+def test_media_install_scripts(osxml):
+    for media in osxml.medias:
+        for script in media.installscripts:
+            assert util.DataFiles.installscripts()[script]
