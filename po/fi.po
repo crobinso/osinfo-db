@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 16:47+0200\n"
-"PO-Revision-Date: 2021-08-17 19:04+0000\n"
+"PO-Revision-Date: 2021-09-06 16:04+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -948,11 +948,11 @@ msgstr ""
 #: data/os/debian.org/debian-10.xml.in:7 data/os/debian.org/debian-10.xml.in:33
 #: data/os/debian.org/debian-10.xml.in:36
 msgid "Debian 10"
-msgstr ""
+msgstr "Debian 10"
 
 #: data/os/debian.org/debian-10.xml.in:39
 msgid "Debian 10 (OpenStack)"
-msgstr ""
+msgstr "Debian 10 (OpenStack)"
 
 #: data/os/debian.org/debian-10.xml.in:42
 msgid "Debian 10 (Generic)"
@@ -960,7 +960,7 @@ msgstr "Debian 10 (Geneerinen)"
 
 #: data/os/debian.org/debian-10.xml.in:45
 msgid "Debian 10 (Generic Cloud)"
-msgstr ""
+msgstr "Debian 10 (Yleinen pilvi)"
 
 #: data/os/debian.org/debian-10.xml.in:48
 msgid "Debian 10 (No Cloud)"
@@ -1030,7 +1030,7 @@ msgstr ""
 
 #: data/os/debian.org/debian-9.xml.in:53
 msgid "Debian 9 (OpenStack)"
-msgstr ""
+msgstr "Debian 9 (OpenStack)"
 
 #: data/os/debian.org/debian-testing.xml.in:6
 msgid "Debian testing"
