@@ -1,0 +1,36 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://guix.gnu.org/guix/latest">
+    <short-id>guix-latest</short-id>
+    <name>Guix latest</name>
+    <vendor>Guix Contributors</vendor>
+    <family>linux</family>
+    <distro>guix</distro>
+
+    <upgrades id="http://guix.gnu.org/guix/1.3"/>
+    <derives-from id="http://guix.gnu.org/guix/1.3"/>
+
+    <media arch="x86_64">
+      <url>https://ci.guix.gnu.org/search/latest/ISO-9660?query=spec:images+status:success+system:x86_64-linux+image.iso</url>
+      <iso>
+        <volume-id>GUIX_X86_64-LINUX_\w{7}</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>initrd/initrd.cpio.gz</initrd>
+    </media>
+
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>4294967296</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
