@@ -1,0 +1,48 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://guix.gnu.org/guix/1.3">
+    <short-id>guix-1.3</short-id>
+    <name>Guix 1.3</name>
+    <version>1.3</version>
+    <vendor>Guix Contributors</vendor>
+    <family>linux</family>
+    <distro>guix</distro>
+    <upgrades id="http://guix.gnu.org/guix/1.1"/>
+    <derives-from id="http://guix.gnu.org/guix/1.1"/>
+
+    <release-date>2021-05-11</release-date>
+
+    <media arch="i686">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.3.0.i686-linux.iso</url>
+      <iso>
+        <volume-id>GUIX_I686-LINUX_1.3.0</volume-id>
+        <volume-size>636252160</volume-size>
+      </iso>
+      <kernel>gnu/store/506a8398hzkdqcm6y7r45fm0dvpaagks-linux-libre-5.4.31/bzImage</kernel>
+      <initrd>gnu/store/f1gga79nhl5if3rmm9n793c6jmdkb0j9-raw-initrd/initrd.cpio.gz</initrd>
+    </media>
+    <media arch="x86_64">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.3.0.x86_64-linux.iso</url>
+      <iso>
+        <volume-id>GUIX_X86_64-LINUX_1.3.0</volume-id>
+        <volume-size>638605312</volume-size>
+      </iso>
+      <kernel>gnu/store/g56i8savnfr7981fil03idkjl0syj29d-linux-libre-5.4.31/bzImage</kernel>
+      <initrd>gnu/store/33mpn6f0hy4m73m4isd5lg83qxwclld8-raw-initrd/initrd.cpio.gz</initrd>
+    </media>
+
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>4294967296</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
