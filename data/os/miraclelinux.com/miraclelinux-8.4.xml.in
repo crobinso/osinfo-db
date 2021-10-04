@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+
+  <os id="http://miraclelinux.com/miraclelinux/8.4">
+    <short-id>miraclelinux8.4</short-id>
+    <name>MIRACLE LINUX 8.4</name>
+    <version>8.4</version>
+    <vendor>Cybertrust Japan Co., Ltd.</vendor>
+    <family>linux</family>
+    <distro>miraclelinux</distro>
+    <codename>Peony</codename>
+    <upgrades id="http://asianux.com/asianux/8.0"/>
+    <derives-from id="http://asianux.com/asianux/8.0"/>
+    <release-date>2021-10-04</release-date>
+
+    <firmware arch="x86_64" type="efi"/>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
+      <device id="http://usb.org/usb/80ee/0021"/>    <!-- tablet -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
+      <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
+      <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+    </devices>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>MIRACLE-LINUX-8-4-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+  </os>
+</libosinfo>
