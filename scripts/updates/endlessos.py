@@ -57,7 +57,6 @@ ISODATA_DIR = os.path.relpath(
 # ('en', 'pt_BR') or 'base' (which contains almost no pre-installed apps).
 NON_LOCALE_PERSONALITIES = {"base": "Basic", "sea": "Southeast Asia"}
 
-
 def personality_name(personality):
     # TODO: this is adapted from our installer, but we should include this information
     # in the releases-eos-3.json file.
@@ -103,10 +102,23 @@ def adj(series, delta):
 
 
 def predecessor(series):
+    # Branching/Numbering scheme changed slightly in the transition from
+    # eos3.9 → eos4.0 and eos5.0
+    if series == "4.0":
+        return "3.9"
+    if series == "5.0":
+        return "4.0"
     return adj(series, -1)
 
 
 def successor(series):
+    # Branching/Numbering scheme changed slightly in the transition from
+    # eos3.9 → eos4.0 and eos5.0
+    if series == "3.9":
+        return "4.0"
+    if series == "4.0":
+        return "5.0"
+
     return adj(series, 1)
 
 
@@ -233,11 +245,12 @@ def main():
 
     # Depending on where we are in the development cycle, there are either 1 or
     # 2 branches of Endless OS for which unreleased images exist, beyond the
-    # latest public eos3.X branch:
+    # latest public eosX.Y branch:
     #
-    # - if we have branched for the next release series, eos3.(X+1)
-    # - the master branch, which is eos3.(X+1) if we haven't branched, and
-    #   eos3.(X+2) if we have
+    # - if we have branched for the next release series, eosX.(Y+1) or
+    #   eos(X+1).0
+    # - the master branch, which is eos(X+1).0 if we haven't branched, and
+    #   eos(X+2).0 if we have
     #
     # Assume we are in the "2 branches" case, since it is harmless to match
     # images which don't exist.
