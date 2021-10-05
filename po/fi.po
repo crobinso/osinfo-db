@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-24 08:45+0200\n"
-"PO-Revision-Date: 2021-09-06 16:04+0000\n"
+"PO-Revision-Date: 2021-10-05 11:05+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -391,7 +391,7 @@ msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
-msgstr ""
+msgstr "ALT 8 koulutus"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
 #: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
@@ -409,12 +409,12 @@ msgstr "ALT 8.1"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:19
 msgid "ALT 8.1 Workstation"
-msgstr ""
+msgstr "ALT 8.1 työasema"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:22
 #: data/os/altlinux.org/alt-8.1.xml.in:25
 msgid "ALT 8.1 Workstation K"
-msgstr ""
+msgstr "ALT 8.1 työasema K"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:6
 msgid "ALT 8.2"
@@ -422,16 +422,16 @@ msgstr "ALT 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:19
 msgid "ALT 8.2 Workstation"
-msgstr ""
+msgstr "ALT 8.2 työasema"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:22
 #: data/os/altlinux.org/alt-8.2.xml.in:25
 msgid "ALT 8.2 Workstation K"
-msgstr ""
+msgstr "ALT 8.2 työasema K"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:28
 msgid "ALT 8.2 Server"
-msgstr ""
+msgstr "ALT 8.2 palvelin"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:31
 #: data/os/altlinux.org/alt-8.2.xml.in:34
@@ -1013,7 +1013,7 @@ msgstr ""
 
 #: data/os/debian.org/debian-6.xml.in:8
 msgid "Debian 6.0"
-msgstr ""
+msgstr "Debian 6.0"
 
 #: data/os/debian.org/debian-7.xml.in:7
 msgid "Debian 7"
@@ -4121,10 +4121,8 @@ msgid "Rocky Enterprise Software Foundation"
 msgstr ""
 
 #: data/os/rockylinux.org/rocky-8.4.xml.in:6
-#, fuzzy
-#| msgid "ALT Linux 2.4"
 msgid "Rocky Linux 8.4"
-msgstr "ALT Linux 2.4"
+msgstr "Rocky Linux 8.4"
 
 #: data/os/rockylinux.org/rocky-8.4.xml.in:17
 #: data/os/rockylinux.org/rocky-8.4.xml.in:21
@@ -4134,17 +4132,15 @@ msgstr ""
 
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 msgid "Rocky Linux 8.5"
-msgstr ""
+msgstr "Rocky Linux 8.5"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
 msgstr ""
 
 #: data/os/rockylinux.org/rocky-9.0.xml.in:6
-#, fuzzy
-#| msgid "ALT Linux 2.0"
 msgid "Rocky Linux 9.0"
-msgstr "ALT Linux 2.0"
+msgstr "Rocky Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
