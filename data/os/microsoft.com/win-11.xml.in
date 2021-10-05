@@ -1,0 +1,37 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://microsoft.com/win/11">
+    <short-id>win11</short-id>
+    <name>Microsoft Windows 11</name>
+    <version>11.0</version>
+    <vendor>Microsoft Corporation</vendor>
+    <family>winnt</family>
+    <distro>win</distro>
+    <derives-from id="http://microsoft.com/win/10"/>
+    <upgrades id="http://microsoft.com/win/10"/>
+
+    <release-date>2021-10-05</release-date>
+
+    <firmware arch="x86_64" type="efi"/>
+    <firmware arch="x86_64" type="bios" supported="false"/>
+
+    <!-- No Variant -->
+    <media arch="x86_64" installer-reboots="2">
+      <iso>
+        <volume-id>^(J_)?(CCSN?A|C?CCOMA)_X64FREE?_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
+      </iso>
+    </media>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>2</n-cpus>
+        <ram>4294967296</ram>
+        <storage>68719476736</storage>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>

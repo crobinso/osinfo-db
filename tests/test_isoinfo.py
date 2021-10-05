@@ -32,6 +32,13 @@ def _get_isodatapaths():
 def test_iso_detection(testdata):
     osname, isodatapaths = testdata
     for isodatapath in isodatapaths:
+        # A symlink indicates an ISO from another version
+        # that is ambiguous and so accidentally matches
+        # this distro too. We ignore them here, because
+        # we'll validate against the primary OS version
+        if isodatapath.is_symlink():
+            continue
+
         detected = []
         isodatamedia = isodata.get_isodatamedia(isodatapath)
         for osxml2 in util.DataFiles.oses():
@@ -58,7 +65,18 @@ def test_iso_detection(testdata):
                     if osxml2.shortid not in detected:
                         detected.append(osxml2.shortid)
 
-        if detected == [osname]:
+        ok = True
+        for osid in detected:
+            # Primary (correct) match
+            if osid == osname:
+                continue
+
+            # Ambiguous (incorrect) matches, where we can't
+            # distinguish from a different distro version
+            link = Path(isodatapath.parent.parent, osid, isodatapath.name)
+            if not link.exists():
+                ok = False
+        if ok:
             continue
 
         raise AssertionError(
