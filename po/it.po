@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-01 16:47+0200\n"
+"POT-Creation-Date: 2021-09-24 08:45+0200\n"
 "PO-Revision-Date: 2021-09-03 05:47+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -4108,6 +4108,57 @@ msgstr "Red Hat Linux 8.0"
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
 msgstr "Red Hat Linux 9"
+
+#: data/os/rockylinux.org/rocky-8-unknown.xml.in:6
+#, fuzzy
+#| msgid "Scientific Linux 7 Unknown"
+msgid "Rocky Linux 8 Unknown"
+msgstr "Scientific Linux 7 (sconosciuto)"
+
+#: data/os/rockylinux.org/rocky-8-unknown.xml.in:8
+#: data/os/rockylinux.org/rocky-8.4.xml.in:8
+#: data/os/rockylinux.org/rocky-8.5.xml.in:8
+#: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
+#: data/os/rockylinux.org/rocky-9.0.xml.in:8
+#: data/os/rockylinux.org/rocky-unknown.xml.in:8
+msgid "Rocky Enterprise Software Foundation"
+msgstr ""
+
+#: data/os/rockylinux.org/rocky-8.4.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Rocky Linux 8.4"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/rockylinux.org/rocky-8.4.xml.in:17
+#: data/os/rockylinux.org/rocky-8.4.xml.in:21
+#: data/os/rockylinux.org/rocky-8.4.xml.in:25
+msgid "Rocky 8.4"
+msgstr ""
+
+#: data/os/rockylinux.org/rocky-8.5.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Rocky Linux 8.5"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
+#, fuzzy
+#| msgid "Scientific Linux 7 Unknown"
+msgid "Rocky Linux 9 Unknown"
+msgstr "Scientific Linux 7 (sconosciuto)"
+
+#: data/os/rockylinux.org/rocky-9.0.xml.in:6
+#, fuzzy
+#| msgid "Mandrake Linux 9.0"
+msgid "Rocky Linux 9.0"
+msgstr "Mandrake Linux 9.0"
+
+#: data/os/rockylinux.org/rocky-unknown.xml.in:6
+#, fuzzy
+#| msgid "Scientific Linux 7 Unknown"
+msgid "Rocky Linux Unknown"
+msgstr "Scientific Linux 7 (sconosciuto)"
 
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:6
 msgid "Scientific Linux 5.0"
