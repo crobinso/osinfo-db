@@ -1,8 +1,8 @@
 [checksums]
-images/boot.iso = sha256:04f13a9ec0a360dd4518ba7355ecd932e568c8471141af1e2c2c532db83e021c
-images/install.img = sha256:8b689a180077e6363dc2b45182daea11524b7c804bdb798bff20987e63099523
-ppc/ppc64/initrd.img = sha256:123fcc3251be700a127b388cb81842f8afb22b86174eb5c0b2bee04c480fbc43
-ppc/ppc64/vmlinuz = sha256:a1029574671dd847706b82f2a185d265193968b241982b7b1ff9e96422c4c0f1
+images/boot.iso = sha256:4c047e6708fd218cf97a863091a02e84708bc840ec1af314f3b5a8100c6fc5f7
+images/install.img = sha256:0cdbd461e915c5de3d2bb488350b895fc5e02f00d19ad637a2f9f1dcccce1f14
+ppc/ppc64/initrd.img = sha256:877078436062b1f6dc998225a4538e8646dd06efefbccc4fd486300196303f4f
+ppc/ppc64/vmlinuz = sha256:a555692988624d51368bff98f3563f169b4e63ec7c1eb5cbf2796901b2b2788c
 
 [general]
 arch = ppc64le
@@ -11,7 +11,7 @@ name = CentOS Stream 8
 packagedir = Packages
 platforms = ppc64le
 repository = .
-timestamp = 1599776181
+timestamp = 1635396377
 variant = BaseOS
 variants = BaseOS
 version = 8
@@ -35,7 +35,7 @@ mainimage = images/install.img
 
 [tree]
 arch = ppc64le
-build_timestamp = 1599776181
+build_timestamp = 1635396377
 platforms = ppc64le
 variants = BaseOS,AppStream
 
