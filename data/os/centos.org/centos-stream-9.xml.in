@@ -42,7 +42,117 @@
       <name>CentOS Stream 9</name>
     </variant>
 
-    <!-- Generic -->
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/aarch64/iso/CentOS-Stream-9-latest-aarch64-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/aarch64/iso/CentOS-Stream-9-latest-aarch64-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="netinst"/>
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/ppc64le/iso/CentOS-Stream-9-latest-ppc64le-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/ppc64le/iso/CentOS-Stream-9-latest-ppc64le-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <variant id="netinst"/>
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/s390x/iso/CentOS-Stream-9-latest-s390x-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-s390x</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/s390x/iso/CentOS-Stream-9-latest-s390x-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-9-BaseOS-s390x</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^9$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^9$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^9$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>http://mirror.stream.centos.org/9-stream/BaseOS/s390x/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^9$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
 
     <tree arch="all">
       <treeinfo>
