@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:a263b4c81ef8e629a7930a2d42538748a39dc32c4f40fb4d7cc5eb4642ec74a2
+images/efiboot.img = sha256:39673a6be85c45b309b7f53620d0ab257c18083765cd01fa2fcc1664344373b9
+images/install.img = sha256:e0c12b2294a5a95a57021bddbb666ca5f7472680ebf6b7326ea6132e81aae0e3
+images/pxeboot/initrd.img = sha256:ed72a8a8c6a04deb3e2f2bd3488cd401fc3372fd8e26ec8631b013e2fe23b290
+images/pxeboot/vmlinuz = sha256:7c93cec05b8d468183ed3995b961272e90f1b11a9f0fcbc12b4a27eca4e5f8dc
+
+[general]
+arch = aarch64
+family = CentOS Stream
+name = CentOS Stream 9
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1635262584
+variant = BaseOS
+variants = BaseOS
+version = 9
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = CentOS Stream
+short = CentOS-Stream
+version = 9
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1635262584
+platforms = aarch64
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os/
+type = variant
+uid = AppStream
+

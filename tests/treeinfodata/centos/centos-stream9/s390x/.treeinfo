@@ -1,0 +1,65 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:434143272bc26978cfecc935ef751617d73f07d3e009d8619dcca78ed2523ccb
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:1e32630822e744167f82f5ec976068bcb736209aaaae14b8a7a6f5eef91ae1ae
+images/initrd.img = sha256:454a4b4214024a1fcc01944ba4b8ea657ced739563978f23df3aa869eddeace9
+images/install.img = sha256:e4d28862e59d3300b6cd8fd73e47263b117900b89543c6ea24ff6ed48d3713dd
+images/kernel.img = sha256:4c4c9e3cccbe8f4f031b8583bada58f197bbcb08b2cedc397a583ee35f6fe674
+
+[general]
+arch = s390x
+family = CentOS Stream
+name = CentOS Stream 9
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1635262593
+variant = BaseOS
+variants = BaseOS
+version = 9
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+
+[release]
+name = CentOS Stream
+short = CentOS-Stream
+version = 9
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1635262593
+platforms = s390x
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/s390x/os/Packages
+repository = ../../../AppStream/s390x/os/
+type = variant
+uid = AppStream
+

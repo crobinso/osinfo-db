@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:4f49ce8a9b5e9a2a5e39e851ee11509dc3029796a4ee663a60046b5f838cb490
+images/install.img = sha256:631f80f26238d42c0a1ac3065247a21583c1022610e1ff1f9c6b2b3effc982a1
+ppc/ppc64/initrd.img = sha256:5c453d3ca27529761da0eb4a8c41a3cdec20496d00b7a4be74f84e8fa8ec9837
+ppc/ppc64/vmlinuz = sha256:5168e3a4a9be13fe0a1479b38fad5fc55743b89e3b158084a4dd566c94e335f4
+
+[general]
+arch = ppc64le
+family = CentOS Stream
+name = CentOS Stream 9
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1635262588
+variant = BaseOS
+variants = BaseOS
+version = 9
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = CentOS Stream
+short = CentOS-Stream
+version = 9
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1635262588
+platforms = ppc64le
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/ppc64le/os/Packages
+repository = ../../../AppStream/ppc64le/os/
+type = variant
+uid = AppStream
+
