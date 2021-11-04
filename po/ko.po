@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-02 16:33+0100\n"
-"PO-Revision-Date: 2021-09-25 18:05+0000\n"
+"PO-Revision-Date: 2021-11-04 07:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -1926,29 +1926,21 @@ msgid "Fedora 34 Everything"
 msgstr "페도라 34 전체"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:6
-#, fuzzy
-#| msgid "Fedora 30"
 msgid "Fedora 35"
-msgstr "페도라 30"
+msgstr "페도라 35"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:17
-#, fuzzy
-#| msgid "Fedora 25 Workstation"
 msgid "Fedora 35 Workstation"
-msgstr "페도라 25 웍스테이션"
+msgstr "페도라 35 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:20
 #: data/os/fedoraproject.org/fedora-35.xml.in:23
-#, fuzzy
-#| msgid "Fedora 25 Server"
 msgid "Fedora 35 Server"
-msgstr "페도라 25 서버"
+msgstr "페도라 35 서버"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:26
-#, fuzzy
-#| msgid "Fedora 30 Everything"
 msgid "Fedora 35 Everything"
-msgstr "페도라 30 전체"
+msgstr "페도라 35 전체"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -2023,10 +2015,8 @@ msgid "Fedora Silverblue 34"
 msgstr "페도라 실버블루 34"
 
 #: data/os/fedoraproject.org/silverblue-35.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 35"
-msgstr "페도라 실버블루 30"
+msgstr "페도라 실버블루 35"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -4758,10 +4748,8 @@ msgid "Ubuntu 21.04"
 msgstr "우분투 21.04"
 
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 21.04"
 msgid "Ubuntu 21.10"
-msgstr "우분투 21.04"
+msgstr "우분투 21.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
