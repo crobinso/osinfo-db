@@ -26,8 +26,6 @@ exec "$@"' > /usr/bin/nosync && \
         git \
         glib2-devel \
         glibc-langpack-en \
-        intltool \
-        itstool \
         json-glib-devel \
         libarchive-devel \
         libsoup-devel \

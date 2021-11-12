@@ -16,8 +16,6 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
             gcc \
             gettext \
             git \
-            intltool \
-            itstool \
             libarchive-dev \
             libglib2.0-dev \
             libjson-glib-dev \
