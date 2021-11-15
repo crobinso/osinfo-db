@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-02 16:33+0100\n"
+"POT-Creation-Date: 2021-11-12 12:13+0100\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -849,7 +849,7 @@ msgid "CentOS 8"
 msgstr ""
 
 #: data/os/centos.org/centos-stream-8.xml.in:6
-#: data/os/centos.org/centos-stream-8.xml.in:43
+#: data/os/centos.org/centos-stream-8.xml.in:44
 msgid "CentOS Stream 8"
 msgstr ""
 
@@ -2381,7 +2381,17 @@ msgid "Guix 1.1"
 msgstr ""
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
+#: data/os/guix.gnu.org/guix-1.3.xml.in:8
+#: data/os/guix.gnu.org/guix-latest.xml.in:7
 msgid "Guix Contributors"
+msgstr ""
+
+#: data/os/guix.gnu.org/guix-1.3.xml.in:6
+msgid "Guix 1.3"
+msgstr ""
+
+#: data/os/guix.gnu.org/guix-latest.xml.in:6
+msgid "Guix latest"
 msgstr ""
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
@@ -2955,6 +2965,14 @@ msgstr ""
 
 #: data/os/microsoft.com/winnt-4.0.xml.in:6
 msgid "Microsoft Windows NT Server 4.0"
+msgstr ""
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
+msgid "MIRACLE LINUX 8.4"
+msgstr ""
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
+msgid "Cybertrust Japan Co., Ltd."
 msgstr ""
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
