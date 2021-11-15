@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-12 12:13+0100\n"
-"PO-Revision-Date: 2021-11-04 07:05+0000\n"
+"PO-Revision-Date: 2021-11-12 17:01+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2387,14 +2387,12 @@ msgid "Guix Contributors"
 msgstr "Guix'e Katkıda Bulunanlar"
 
 #: data/os/guix.gnu.org/guix-1.3.xml.in:6
-#, fuzzy
-#| msgid "Guix 1.1"
 msgid "Guix 1.3"
-msgstr "Guix 1.1"
+msgstr "Guix 1.3"
 
 #: data/os/guix.gnu.org/guix-latest.xml.in:6
 msgid "Guix latest"
-msgstr ""
+msgstr "Guix en güncel"
 
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
@@ -2972,11 +2970,11 @@ msgstr "Microsoft Windows NT Server 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
 msgid "MIRACLE LINUX 8.4"
-msgstr ""
+msgstr "MIRACLE LINUX 8.4"
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
 msgid "Cybertrust Japan Co., Ltd."
-msgstr ""
+msgstr "Cybertrust Japan Co., Ltd."
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
