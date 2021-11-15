@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-02 16:33+0100\n"
-"PO-Revision-Date: 2021-11-04 07:05+0000\n"
+"PO-Revision-Date: 2021-11-10 15:44+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -849,6 +849,7 @@ msgstr "센트오에스 8"
 
 #: data/os/centos.org/centos-stream-8.xml.in:6
 #: data/os/centos.org/centos-stream-8.xml.in:43
+#: data/os/centos.org/centos-stream-8.xml.in:44
 msgid "CentOS Stream 8"
 msgstr "센트오에스 스트림 8"
 
@@ -1753,7 +1754,7 @@ msgstr "페도라 24"
 #: data/os/fedoraproject.org/fedora-24.xml.in:22
 #: data/os/fedoraproject.org/fedora-24.xml.in:25
 msgid "Fedora 24 Workstation"
-msgstr "페도라 22 웍스테이션"
+msgstr "페도라 24 웍스테이션"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:28
 #: data/os/fedoraproject.org/fedora-24.xml.in:31
@@ -2380,6 +2381,8 @@ msgid "Guix 1.1"
 msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
+#: data/os/guix.gnu.org/guix-1.3.xml.in:8
+#: data/os/guix.gnu.org/guix-latest.xml.in:7
 msgid "Guix Contributors"
 msgstr "Guix 공헌자"
 
@@ -5151,6 +5154,22 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#: data/os/guix.gnu.org/guix-1.3.xml.in:6
+msgid "Guix 1.3"
+msgstr "Guix 1.3"
+
+#: data/os/guix.gnu.org/guix-latest.xml.in:6
+msgid "Guix latest"
+msgstr "최신 Guix"
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
+msgid "MIRACLE LINUX 8.4"
+msgstr "미라클 리눅스 8.4"
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
+msgid "Cybertrust Japan Co., Ltd."
+msgstr "Cybertrust Japan Co., Ltd."
 
 #~ msgid "Debian 11 (OpenStack)"
 #~ msgstr "데비안 11 (오픈스택)"
