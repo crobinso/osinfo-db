@@ -189,6 +189,13 @@
               <xsl:call-template name="arch"/>
               <xsl:text>/os/</xsl:text>
             </xsl:when>
+            <xsl:when test="os/distro = 'circle'">
+              <xsl:text>https://mirror.cclinux.org/pub/circle/</xsl:text>
+              <xsl:call-template name="version"/>
+              <xsl:text>/BaseOS/</xsl:text>
+              <xsl:call-template name="arch"/>
+              <xsl:text>/os/</xsl:text>
+            </xsl:when>
           </xsl:choose>
         </xsl:template>
 

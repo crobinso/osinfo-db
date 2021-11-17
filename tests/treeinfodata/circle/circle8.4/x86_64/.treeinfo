@@ -1,0 +1,62 @@
+[checksums]
+images/boot.iso = sha256:55534fc898460f1463ece7b35e6f41ba48d26a7387a6ee778bfd83f9570e1052
+images/efiboot.img = sha256:24bba6cc3ad5217201d8830d8857d753872b303a0f7ffa49cc415ac7ae715c2b
+images/install.img = sha256:e4eb4ba6b6a169b7d54f30a23dd9dc770fae8f34dcba751c6b92bca63808fecb
+images/pxeboot/initrd.img = sha256:164ed88e7c77206030f55f90823db358b6a8f537220a4dde5463e5b894530ed5
+images/pxeboot/vmlinuz = sha256:d13173c91c9f2af6f12a446c07cf6b968858cb4ec9173abc0d77a541920a6449
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Circle Linux
+name = Circle Linux 8
+packagedir = Packages
+platforms = x86_64
+repository = .
+timestamp = 1635385573
+variant = BaseOS
+variants = BaseOS
+version = 8.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+
+[release]
+name = Circle Linux
+short = Circle
+version = 8.4
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1635385573
+platforms = x86_64
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os/
+type = variant
+uid = AppStream
+

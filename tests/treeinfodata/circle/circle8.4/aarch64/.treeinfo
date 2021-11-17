@@ -1,0 +1,55 @@
+[checksums]
+images/boot.iso = sha256:25fbe829fafb3f5a58657bdd5a0a5fd51576486ea341418c5c89d570f9991ed6
+images/efiboot.img = sha256:fb9f607d8cea51671ccdff93096a108e90cdd852035f5315921e388b709ff2df
+images/install.img = sha256:07daed84a625a5e7ec381d14d85375fefc0de0da9765a835378a56587d945b91
+images/pxeboot/initrd.img = sha256:8de0b6198ec3e63c11922bc74e395046b611f06df03a2fa2fc3e29a047be3661
+images/pxeboot/vmlinuz = sha256:1caadb585e9014148bb0e07d8e23f9d17445279957ef3dab6494c65b65cd3766
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Circle Linux
+name = Circle Linux 8
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1635385573
+variant = BaseOS
+variants = BaseOS
+version = 8.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[release]
+name = Circle Linux
+short = Circle
+version = 8.4
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1635385573
+platforms = aarch64
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os/
+type = variant
+uid = AppStream
+

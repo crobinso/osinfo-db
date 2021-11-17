@@ -1,0 +1,52 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cclinux.org/circle/unknown">
+    <short-id>circle-unknown</short-id>
+    <name>Circle Linux Unknown</name>
+    <version>unknown</version>
+    <vendor>Circle Linux Project</vendor>
+    <family>linux</family>
+    <distro>circle</distro>
+    <upgrades id="http://cclinux.org/circle/9-unknown"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Circle-[1-9][0-9]-([0-9]|[1-9][0-9])-x86_64-.+$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+       <iso>
+         <system-id>LINUX</system-id>
+         <volume-id>Circle-[1-9][0-9]-([0-9]|[1-9][0-9])-aarch64-.+$</volume-id>
+       </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+  </os>
+</libosinfo>

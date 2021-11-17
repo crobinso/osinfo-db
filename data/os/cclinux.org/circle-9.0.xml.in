@@ -1,0 +1,107 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://cclinux.org/circle/9.0">
+    <short-id>circle9.0</short-id>
+    <name>Circle Linux 9.0</name>
+    <version>9.0</version>
+    <vendor>Circle Linux Project</vendor>
+    <family>linux</family>
+    <distro>circle</distro>
+    <clones id="http://redhat.com/rhel/9.0"/>
+    <upgrades id="http://cclinux.org/circle/8.4"/>
+
+    <release-status>prerelease</release-status>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Circle-9-0-x86_64-.+$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <volume-id>Circle-9-0-aarch64-.+$</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Circle Linux</family>
+        <version>^9.0$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Circle Linux</family>
+        <version>^9.0$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
