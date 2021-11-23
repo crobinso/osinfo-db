@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/7.9">
+    <short-id>ol7.9</short-id>
+    <name>Oracle Linux 7.9</name>
+    <version>7.9</version>
+    <vendor>Oracle America</vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/7.9"/>
+
+    <release-date>2020-10-07</release-date>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-7.9 Server.x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-7.9 Server.aarch64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>
