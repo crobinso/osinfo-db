@@ -14,68 +14,10 @@
 
 
 
+    <eol-date>2021-11-24</eol-date>
 
 
 
-    <variant id="base">
-      <name>Endless OS Basic</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="base"/>
-      <iso>
-        <volume-id>Endless-OS-3-10-\d+-base$</volume-id>
-        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
-      </iso>
-    </media>
-
-    <variant id="en">
-      <name>Endless OS English</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="en"/>
-      <iso>
-        <volume-id>Endless-OS-3-10-\d+-en$</volume-id>
-        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
-      </iso>
-    </media>
-
-    <variant id="es">
-      <name>Endless OS Spanish</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="es"/>
-      <iso>
-        <volume-id>Endless-OS-3-10-\d+-es$</volume-id>
-        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
-      </iso>
-    </media>
-
-    <variant id="fr">
-      <name>Endless OS French</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="fr"/>
-      <iso>
-        <volume-id>Endless-OS-3-10-\d+-fr$</volume-id>
-        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
-      </iso>
-    </media>
-
-    <variant id="pt_BR">
-      <name>Endless OS Portuguese (Brazil)</name>
-    </variant>
-
-    <media arch="x86_64" live="true">
-      <variant id="pt_BR"/>
-      <iso>
-        <volume-id>Endless-OS-3-10-\d+-pt_BR$</volume-id>
-        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
-      </iso>
-    </media>
 
     <variant id="other">
       <name>Endless OS (other)</name>
