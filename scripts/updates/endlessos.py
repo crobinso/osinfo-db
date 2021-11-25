@@ -243,39 +243,6 @@ def main():
         if eol_date is None:
             fetch_all_isodata(image)
 
-    # Depending on where we are in the development cycle, there are either 1 or
-    # 2 branches of Endless OS for which unreleased images exist, beyond the
-    # latest public eosX.Y branch:
-    #
-    # - if we have branched for the next release series, eosX.(Y+1) or
-    #   eos(X+1).0
-    # - the master branch, which is eos(X+1).0 if we haven't branched, and
-    #   eos(X+2).0 if we have
-    #
-    # Assume we are in the "2 branches" case, since it is harmless to match
-    # images which don't exist.
-    future_series = [next_series, successor(next_series)]
-    # Assume that future branches will have the same set of personalities as
-    # the latest public release.
-    future_personalities = image["personality_images"].keys()
-
-    for current_series in future_series:
-        xml = template.render(
-            base_url=BASE_URL,
-            image={
-                "branch": f"eos{current_series}",
-                # No (public) download URLs
-                "personality_images": {},
-            },
-            release_date=None,
-            current_series=current_series,
-            previous_series=predecessor(current_series),
-            eol_date=None,
-            retired_personalities=future_personalities,
-        )
-        with open(os.path.join(DATA_DIR, f"eos-{current_series}.xml.in"), "w") as f:
-            f.write(xml)
-
 
 if __name__ == "__main__":
     main()
