@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/32"/>
 
     <release-date>2020-10-27</release-date>
+    <eol-date>2021-11-30</eol-date>
 
     <variant id="workstation">
       <name>Fedora 33 Workstation</name>
