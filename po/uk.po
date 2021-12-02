@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-29 16:32+0100\n"
-"PO-Revision-Date: 2021-11-12 17:01+0000\n"
+"PO-Revision-Date: 2021-11-30 11:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -344,34 +344,24 @@ msgid "Alpinelinux 3.14 Xen"
 msgstr "Alpinelinux 3.14 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.15"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.15"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.15 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.15 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.15 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.15 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.15 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.15 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.15 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.15 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -1630,10 +1620,8 @@ msgid "Endless OS 3.9"
 msgstr "Endless OS 3.9"
 
 #: data/os/endlessos.com/eos-4.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 3.10"
 msgid "Endless OS 4.0"
-msgstr "Endless OS 3.10"
+msgstr "Endless OS 4.0"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
