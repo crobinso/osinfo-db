@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-02 16:33+0100\n"
+"POT-Creation-Date: 2021-11-29 16:32+0100\n"
 "PO-Revision-Date: 2021-11-10 15:44+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -232,6 +232,7 @@ msgstr "알파인 리눅스 3.10"
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -335,6 +336,36 @@ msgstr "알파인리눅스 3.14 가상"
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:43
 msgid "Alpinelinux 3.14 Xen"
 msgstr "알파인리눅스 3.14 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Alpine Linux 3.15"
+msgstr "알파인 리눅스 3.5"
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Standard"
+msgid "Alpinelinux 3.15 Standard"
+msgstr "알파인리눅스 3.10 표준"
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Extended"
+msgid "Alpinelinux 3.15 Extended"
+msgstr "알파인리눅스 3.10 확장"
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Virtual"
+msgid "Alpinelinux 3.15 Virtual"
+msgstr "알파인리눅스 3.10 가상"
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Xen"
+msgid "Alpinelinux 3.15 Xen"
+msgstr "알파인리눅스 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -848,7 +879,6 @@ msgid "CentOS 8"
 msgstr "센트오에스 8"
 
 #: data/os/centos.org/centos-stream-8.xml.in:6
-#: data/os/centos.org/centos-stream-8.xml.in:43
 #: data/os/centos.org/centos-stream-8.xml.in:44
 msgid "CentOS Stream 8"
 msgstr "센트오에스 스트림 8"
@@ -1404,7 +1434,6 @@ msgid "Endless OS Arabic"
 msgstr "엔들리스 OS 아랍어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:32
-#: data/os/endlessos.com/eos-3.10.xml.in:21
 #: data/os/endlessos.com/eos-3.2.xml.in:37
 #: data/os/endlessos.com/eos-3.3.xml.in:37
 #: data/os/endlessos.com/eos-3.4.xml.in:24
@@ -1412,7 +1441,8 @@ msgstr "엔들리스 OS 아랍어"
 #: data/os/endlessos.com/eos-3.6.xml.in:52
 #: data/os/endlessos.com/eos-3.7.xml.in:24
 #: data/os/endlessos.com/eos-3.8.xml.in:24
-#: data/os/endlessos.com/eos-3.9.xml.in:22
+#: data/os/endlessos.com/eos-3.9.xml.in:24
+#: data/os/endlessos.com/eos-4.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr "엔들리스 OS 기본"
 
@@ -1421,7 +1451,6 @@ msgid "Endless OS Bengali"
 msgstr "엔들리스 OS 뱅골"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:58
-#: data/os/endlessos.com/eos-3.10.xml.in:33
 #: data/os/endlessos.com/eos-3.2.xml.in:63
 #: data/os/endlessos.com/eos-3.3.xml.in:63
 #: data/os/endlessos.com/eos-3.4.xml.in:37
@@ -1429,12 +1458,12 @@ msgstr "엔들리스 OS 뱅골"
 #: data/os/endlessos.com/eos-3.6.xml.in:65
 #: data/os/endlessos.com/eos-3.7.xml.in:37
 #: data/os/endlessos.com/eos-3.8.xml.in:37
-#: data/os/endlessos.com/eos-3.9.xml.in:35
+#: data/os/endlessos.com/eos-3.9.xml.in:37
+#: data/os/endlessos.com/eos-4.0.xml.in:35
 msgid "Endless OS English"
 msgstr "엔들리스 OS 영어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:71
-#: data/os/endlessos.com/eos-3.10.xml.in:45
 #: data/os/endlessos.com/eos-3.2.xml.in:76
 #: data/os/endlessos.com/eos-3.3.xml.in:76
 #: data/os/endlessos.com/eos-3.4.xml.in:50
@@ -1442,7 +1471,8 @@ msgstr "엔들리스 OS 영어"
 #: data/os/endlessos.com/eos-3.6.xml.in:78
 #: data/os/endlessos.com/eos-3.7.xml.in:50
 #: data/os/endlessos.com/eos-3.8.xml.in:50
-#: data/os/endlessos.com/eos-3.9.xml.in:48
+#: data/os/endlessos.com/eos-3.9.xml.in:50
+#: data/os/endlessos.com/eos-4.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr "엔들리스 OS 스페인"
 
@@ -1462,7 +1492,6 @@ msgid "Endless OS Spanish (Mexico)"
 msgstr "엔들리스 OS 스페인어 (멕시코)"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:110
-#: data/os/endlessos.com/eos-3.10.xml.in:57
 #: data/os/endlessos.com/eos-3.2.xml.in:115
 #: data/os/endlessos.com/eos-3.3.xml.in:115
 #: data/os/endlessos.com/eos-3.4.xml.in:63
@@ -1470,7 +1499,8 @@ msgstr "엔들리스 OS 스페인어 (멕시코)"
 #: data/os/endlessos.com/eos-3.6.xml.in:91
 #: data/os/endlessos.com/eos-3.7.xml.in:63
 #: data/os/endlessos.com/eos-3.8.xml.in:63
-#: data/os/endlessos.com/eos-3.9.xml.in:61
+#: data/os/endlessos.com/eos-3.9.xml.in:63
+#: data/os/endlessos.com/eos-4.0.xml.in:61
 msgid "Endless OS French"
 msgstr "엔들리스 OS 프랑스어"
 
@@ -1486,7 +1516,6 @@ msgid "Endless OS Indonesian"
 msgstr "엔들리스 OS 인도네시아어"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:136
-#: data/os/endlessos.com/eos-3.10.xml.in:69
 #: data/os/endlessos.com/eos-3.2.xml.in:141
 #: data/os/endlessos.com/eos-3.3.xml.in:141
 #: data/os/endlessos.com/eos-3.4.xml.in:89
@@ -1494,7 +1523,8 @@ msgstr "엔들리스 OS 인도네시아어"
 #: data/os/endlessos.com/eos-3.6.xml.in:117
 #: data/os/endlessos.com/eos-3.7.xml.in:89
 #: data/os/endlessos.com/eos-3.8.xml.in:76
-#: data/os/endlessos.com/eos-3.9.xml.in:74
+#: data/os/endlessos.com/eos-3.9.xml.in:76
+#: data/os/endlessos.com/eos-4.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "엔들리스 OS 포르투갈어 (브라질)"
 
@@ -1532,7 +1562,7 @@ msgid "Endless OS Southeast Asia"
 msgstr "엔들리스 OS 동남아시아"
 
 #: data/os/endlessos.com/eos-3.1.xml.in:201
-#: data/os/endlessos.com/eos-3.10.xml.in:81
+#: data/os/endlessos.com/eos-3.10.xml.in:23
 #: data/os/endlessos.com/eos-3.2.xml.in:194
 #: data/os/endlessos.com/eos-3.3.xml.in:194
 #: data/os/endlessos.com/eos-3.4.xml.in:189
@@ -1540,7 +1570,8 @@ msgstr "엔들리스 OS 동남아시아"
 #: data/os/endlessos.com/eos-3.6.xml.in:157
 #: data/os/endlessos.com/eos-3.7.xml.in:141
 #: data/os/endlessos.com/eos-3.8.xml.in:126
-#: data/os/endlessos.com/eos-3.9.xml.in:88
+#: data/os/endlessos.com/eos-3.9.xml.in:90
+#: data/os/endlessos.com/eos-4.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr "엔들리스 OS (기타)"
 
@@ -1584,12 +1615,19 @@ msgstr "엔들리스 OS 3.8"
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
+#: data/os/endlessos.com/eos-4.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr "엔들리스 OS 재단 LLC"
 
 #: data/os/endlessos.com/eos-3.9.xml.in:6
 msgid "Endless OS 3.9"
 msgstr "엔들리스 OS 3.9"
+
+#: data/os/endlessos.com/eos-4.0.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 3.10"
+msgid "Endless OS 4.0"
+msgstr "엔들리스 OS 3.10"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
@@ -2386,6 +2424,14 @@ msgstr "Guix 1.1"
 msgid "Guix Contributors"
 msgstr "Guix 공헌자"
 
+#: data/os/guix.gnu.org/guix-1.3.xml.in:6
+msgid "Guix 1.3"
+msgstr "Guix 1.3"
+
+#: data/os/guix.gnu.org/guix-latest.xml.in:6
+msgid "Guix latest"
+msgstr "최신 Guix"
+
 #: data/os/haiku-os.org/haiku-nightly.xml.in:4
 msgid "Haiku Nightly"
 msgstr "Haiku Nightly"
@@ -2958,6 +3004,14 @@ msgstr "마이크로소프트 윈도우즈 NT 서버 3.51"
 #: data/os/microsoft.com/winnt-4.0.xml.in:6
 msgid "Microsoft Windows NT Server 4.0"
 msgstr "마이크로소프트 윈도우즈 NT 서버 4.0"
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
+msgid "MIRACLE LINUX 8.4"
+msgstr "미라클 리눅스 8.4"
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
+msgid "Cybertrust Japan Co., Ltd."
+msgstr "Cybertrust Japan Co., Ltd."
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
@@ -5154,22 +5208,6 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
-
-#: data/os/guix.gnu.org/guix-1.3.xml.in:6
-msgid "Guix 1.3"
-msgstr "Guix 1.3"
-
-#: data/os/guix.gnu.org/guix-latest.xml.in:6
-msgid "Guix latest"
-msgstr "최신 Guix"
-
-#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
-msgid "MIRACLE LINUX 8.4"
-msgstr "미라클 리눅스 8.4"
-
-#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
-msgid "Cybertrust Japan Co., Ltd."
-msgstr "Cybertrust Japan Co., Ltd."
 
 #~ msgid "Debian 11 (OpenStack)"
 #~ msgstr "데비안 11 (오픈스택)"

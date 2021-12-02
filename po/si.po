@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-12 12:13+0100\n"
+"POT-Creation-Date: 2021-11-29 16:32+0100\n"
 "PO-Revision-Date: 2021-08-19 07:04+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/"
@@ -232,6 +232,7 @@ msgstr ""
 #: data/os/alpinelinux.org/alpinelinux-3.12.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -334,6 +335,26 @@ msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:43
 msgid "Alpinelinux 3.14 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:7
+msgid "Alpine Linux 3.15"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:34
+msgid "Alpinelinux 3.15 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:37
+msgid "Alpinelinux 3.15 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:40
+msgid "Alpinelinux 3.15 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:43
+msgid "Alpinelinux 3.15 Xen"
 msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -1403,7 +1424,6 @@ msgid "Endless OS Arabic"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:32
-#: data/os/endlessos.com/eos-3.10.xml.in:21
 #: data/os/endlessos.com/eos-3.2.xml.in:37
 #: data/os/endlessos.com/eos-3.3.xml.in:37
 #: data/os/endlessos.com/eos-3.4.xml.in:24
@@ -1411,7 +1431,8 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:52
 #: data/os/endlessos.com/eos-3.7.xml.in:24
 #: data/os/endlessos.com/eos-3.8.xml.in:24
-#: data/os/endlessos.com/eos-3.9.xml.in:22
+#: data/os/endlessos.com/eos-3.9.xml.in:24
+#: data/os/endlessos.com/eos-4.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr ""
 
@@ -1420,7 +1441,6 @@ msgid "Endless OS Bengali"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:58
-#: data/os/endlessos.com/eos-3.10.xml.in:33
 #: data/os/endlessos.com/eos-3.2.xml.in:63
 #: data/os/endlessos.com/eos-3.3.xml.in:63
 #: data/os/endlessos.com/eos-3.4.xml.in:37
@@ -1428,12 +1448,12 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:65
 #: data/os/endlessos.com/eos-3.7.xml.in:37
 #: data/os/endlessos.com/eos-3.8.xml.in:37
-#: data/os/endlessos.com/eos-3.9.xml.in:35
+#: data/os/endlessos.com/eos-3.9.xml.in:37
+#: data/os/endlessos.com/eos-4.0.xml.in:35
 msgid "Endless OS English"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:71
-#: data/os/endlessos.com/eos-3.10.xml.in:45
 #: data/os/endlessos.com/eos-3.2.xml.in:76
 #: data/os/endlessos.com/eos-3.3.xml.in:76
 #: data/os/endlessos.com/eos-3.4.xml.in:50
@@ -1441,7 +1461,8 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:78
 #: data/os/endlessos.com/eos-3.7.xml.in:50
 #: data/os/endlessos.com/eos-3.8.xml.in:50
-#: data/os/endlessos.com/eos-3.9.xml.in:48
+#: data/os/endlessos.com/eos-3.9.xml.in:50
+#: data/os/endlessos.com/eos-4.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr ""
 
@@ -1461,7 +1482,6 @@ msgid "Endless OS Spanish (Mexico)"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:110
-#: data/os/endlessos.com/eos-3.10.xml.in:57
 #: data/os/endlessos.com/eos-3.2.xml.in:115
 #: data/os/endlessos.com/eos-3.3.xml.in:115
 #: data/os/endlessos.com/eos-3.4.xml.in:63
@@ -1469,7 +1489,8 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:91
 #: data/os/endlessos.com/eos-3.7.xml.in:63
 #: data/os/endlessos.com/eos-3.8.xml.in:63
-#: data/os/endlessos.com/eos-3.9.xml.in:61
+#: data/os/endlessos.com/eos-3.9.xml.in:63
+#: data/os/endlessos.com/eos-4.0.xml.in:61
 msgid "Endless OS French"
 msgstr ""
 
@@ -1485,7 +1506,6 @@ msgid "Endless OS Indonesian"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:136
-#: data/os/endlessos.com/eos-3.10.xml.in:69
 #: data/os/endlessos.com/eos-3.2.xml.in:141
 #: data/os/endlessos.com/eos-3.3.xml.in:141
 #: data/os/endlessos.com/eos-3.4.xml.in:89
@@ -1493,7 +1513,8 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:117
 #: data/os/endlessos.com/eos-3.7.xml.in:89
 #: data/os/endlessos.com/eos-3.8.xml.in:76
-#: data/os/endlessos.com/eos-3.9.xml.in:74
+#: data/os/endlessos.com/eos-3.9.xml.in:76
+#: data/os/endlessos.com/eos-4.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr ""
 
@@ -1531,7 +1552,7 @@ msgid "Endless OS Southeast Asia"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.1.xml.in:201
-#: data/os/endlessos.com/eos-3.10.xml.in:81
+#: data/os/endlessos.com/eos-3.10.xml.in:23
 #: data/os/endlessos.com/eos-3.2.xml.in:194
 #: data/os/endlessos.com/eos-3.3.xml.in:194
 #: data/os/endlessos.com/eos-3.4.xml.in:189
@@ -1539,7 +1560,8 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.6.xml.in:157
 #: data/os/endlessos.com/eos-3.7.xml.in:141
 #: data/os/endlessos.com/eos-3.8.xml.in:126
-#: data/os/endlessos.com/eos-3.9.xml.in:88
+#: data/os/endlessos.com/eos-3.9.xml.in:90
+#: data/os/endlessos.com/eos-4.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr ""
 
@@ -1583,11 +1605,16 @@ msgstr ""
 
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
+#: data/os/endlessos.com/eos-4.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr ""
 
 #: data/os/endlessos.com/eos-3.9.xml.in:6
 msgid "Endless OS 3.9"
+msgstr ""
+
+#: data/os/endlessos.com/eos-4.0.xml.in:6
+msgid "Endless OS 4.0"
 msgstr ""
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
