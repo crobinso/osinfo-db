@@ -1,0 +1,58 @@
+[checksums]
+images/boot.iso = sha256:5a0dc65d1308e47b51a49e23f1030b5ee0f0ece3702483a8a6554382e893333c
+images/efiboot.img = sha256:c971bc0c47e968401ea489979ebf0ed34c1732d71112646ab7477451423c1b63
+images/install.img = sha256:0b534bd0b54a3ccf67a89187dd8aa1c70d53cf8921a5336cf2dd7a82f7548d2a
+images/pxeboot/initrd.img = sha256:c2009d7428c11f993540a94465b829907ceedb2d38c33ed1cb9ddc86765132d4
+images/pxeboot/vmlinuz = sha256:0a10bf6826eefb396a81099253ebd08e587151e7d32bf2227669aa6031763299
+
+[general]
+arch = x86_64
+family = Rocky Linux
+name = Rocky Linux 8
+packagedir = Packages
+platforms = x86_64
+repository = .
+timestamp = 1636882114
+variant = BaseOS
+variants = BaseOS
+version = 8.5
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 8.5
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1636882114
+platforms = x86_64
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+type = variant
+uid = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os/
