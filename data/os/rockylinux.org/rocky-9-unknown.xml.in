@@ -8,6 +8,7 @@
     <vendor>Rocky Enterprise Software Foundation</vendor>
     <family>linux</family>
     <distro>rocky</distro>
+    <codename>Blue Onyx</codename>
     <upgrades id="http://rockylinux.org/rocky/9.0"/>
     <derives-from id="http://rockylinux.org/rocky/9.0"/>
 

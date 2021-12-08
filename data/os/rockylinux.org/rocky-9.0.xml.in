@@ -8,7 +8,8 @@
     <vendor>Rocky Enterprise Software Foundation</vendor>
     <family>linux</family>
     <distro>rocky</distro>
-    <upgrades id="http://rockylinux.org/rocky/8.4"/>
+    <codename>Blue Onyx</codename>
+    <upgrades id="http://rockylinux.org/rocky/8.5"/>
 
     <release-status>prerelease</release-status>
 
