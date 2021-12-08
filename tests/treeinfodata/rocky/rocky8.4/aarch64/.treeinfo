@@ -3,7 +3,7 @@ images/boot.iso = sha256:5132b38d908dc9f9578bd97cb078094dbe2fc1302883b10785c2bca
 images/efiboot.img = sha256:c4c398452b7da67d8e9b77a9eb9c544a18ea87f4947efd14c4d462bbe88b7283
 images/install.img = sha256:d06c0bb07a5d3406b520e2d6648e7ea09089142099e503051d45a90009b242f9
 images/pxeboot/initrd.img = sha256:6b6e1ea5bd576ff3282733da4ff81fae528e53704097b252b49b8ff37fbaa692
-images/pxeboot/vmlinuz = sha256:6b6e1ea5bd576ff3282733da4ff81fae528e53704097b252b49b8ff37fbaa692
+images/pxeboot/vmlinuz = sha256:55739d8c1486662e661931b07100d9c01c43f3339624d5a7689034421cf5df3d
 
 [general]
 ; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
@@ -14,7 +14,7 @@ name = Rocky Linux 8
 packagedir = Packages
 platforms = aarch64
 repository = .
-timestamp = 1629823140
+timestamp = 1624205563
 variant = BaseOS
 variants = BaseOS
 version = 8.4
@@ -39,9 +39,9 @@ mainimage = images/install.img
 
 [tree]
 arch = aarch64
-build_timestamp = 1629823140
+build_timestamp = 1624205563
 platforms = aarch64
-variants = BaseOS
+variants = BaseOS,AppStream
 
 [variant-BaseOS]
 id = BaseOS
@@ -51,3 +51,10 @@ repository = .
 type = variant
 uid = BaseOS
 
+[variant-AppStream]
+id = AppStream
+name = AppStream
+type = variant
+uid = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os/
