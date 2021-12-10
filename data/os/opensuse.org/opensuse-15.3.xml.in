@@ -19,9 +19,9 @@
 
     <!-- DVD -->
     <media arch="x86_64">
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-DVD-x86_64*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -32,9 +32,9 @@
     <!-- Network -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-NET-x86_64*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-NET-x86_64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -44,9 +44,9 @@
 
     <!-- DVD -->
     <media arch="aarch64">
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-DVD-aarch64*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-DVD-aarch64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -57,9 +57,9 @@
     <!-- Network -->
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-aarch64.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-aarch64-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-NET-aarch64*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-NET-aarch64*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -69,9 +69,9 @@
 
     <!-- DVD -->
     <media arch="ppc64le">
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-DVD-ppc64le*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-DVD-ppc64le*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -82,9 +82,9 @@
     <!-- Network -->
     <media arch="ppc64le">
       <variant id="netinst"/>
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-NET-ppc64le*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-NET-ppc64le*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -94,9 +94,9 @@
 
     <!-- DVD -->
     <media arch="s390x">
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-s390x.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-s390x-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-DVD-s390x*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-DVD-s390x*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
@@ -107,9 +107,9 @@
     <!-- Network -->
     <media arch="s390x">
       <variant id="netinst"/>
-      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x.iso</url>
+      <url>https://download.opensuse.org/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Media.iso</url>
       <iso>
-        <volume-id>openSUSE-Leap-15.3-NET-s390x*</volume-id>
+        <volume-id>openSUSE-Leap-15.3(-\d+)?-NET-s390x*</volume-id>
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
