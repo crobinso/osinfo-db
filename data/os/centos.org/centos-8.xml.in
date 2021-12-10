@@ -21,7 +21,6 @@
     <!-- 2105 Release -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-4-2105-x86_64-dvd</volume-id>
@@ -32,7 +31,6 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8/isos/x86_64/CentOS-8.4.2105-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-4-2105-x86_64-dvd</volume-id>
@@ -44,7 +42,6 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.4.2105-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-4-2105-aarch64-dvd</volume-id>
@@ -55,7 +52,6 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8/isos/aarch64/CentOS-8.4.2105-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-8-4-2105-aarch64-dvd</volume-id>
@@ -67,7 +63,6 @@
 
     <media arch="ppc64le">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.4.2105-ppc64le-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-4-2105-ppc64le-dvd</volume-id>
@@ -78,7 +73,6 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8/isos/ppc64le/CentOS-8.4.2105-ppc64le-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-8-4-2105-ppc64le-dvd</volume-id>
