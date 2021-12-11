@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://guix.gnu.org/guix/hurd-latest">
+    <short-id>guix-hurd-latest</short-id>
+    <name>Guix Hurd Latest</name>
+    <vendor>Guix Contributors</vendor>
+    <family>hurd</family>
+    <distro>guix</distro>
+    <upgrades id="http://guix.gnu.org/guix/1.3"/>
+    <derives-from id="http://guix.gnu.org/guix/1.3"/>
+
+    <variant id="qcow2">
+      <name>GuixSD GNU Hurd QCOW2</name>
+    </variant>
+
+    <image arch="x86_64" format="qcow2">
+      <variant id="qcow2"/>
+      <url>https://ci.guix.gnu.org/search/latest/image?query=spec:images+status:success+system:x86_64-linux+hurd-barebones.qcow2</url>
+    </image>
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>4294967296</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
