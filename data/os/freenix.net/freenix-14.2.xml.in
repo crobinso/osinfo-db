@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freenix.net/freenix/14.2">
+    <short-id>freenix14.2</short-id>
+    <name>Freenix 14.2</name>
+    <version>14.2</version>
+    <vendor>Freenix Project</vendor>
+    <family>linux</family>
+    <distro>freenix</distro>
+    <release-date>2020-11-30</release-date>
+    <derives-from id="http://slackware.com/slackware/14.2"/>
+
+    <variant id="freenix">
+      <name>freenix</name>
+    </variant>
+
+    <!-- x86_64 -->
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="freenix"/>
+      <url>https://freenix.net/fxp-iso/freeslack64-14.2-iso/freeslack64-14.2-install-dvd.iso</url>
+      <iso>
+        <volume-id>FXPDVD.*</volume-id>
+      </iso>
+    </media>
+
+  </os>
+</libosinfo>
+
