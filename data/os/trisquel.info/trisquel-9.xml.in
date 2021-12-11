@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://trisquel.info/trisquel/9">
+    <short-id>trisquel9</short-id>
+    <name>Trisquel</name>
+    <version>9</version>
+    <vendor>The Trisquel Project</vendor>
+    <family>linux</family>
+    <distro>trisquel</distro>
+    <release-date>2021-10-16</release-date>
+    <derives-from id="http://ubuntu.com/ubuntu/18.04"/>
+
+    <variant id="trisquel">
+      <name>Trisquel 9</name>
+    </variant>
+    <variant id="triskel">
+      <name>Triskel 9</name>
+    </variant>
+    <variant id="mini">
+      <name>Trisquel 9 Mini</name>
+    </variant>
+    <variant id="sugar-toast">
+      <name>Trisquel 9 Sugar Toast</name>
+    </variant>
+
+    <!-- x86_64 -->
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="trisquel"/>
+      <url>https://cdimage.trisquel.info/trisquel-images/trisquel_9.0.1_amd64.iso</url>
+      <iso>
+        <volume-id>trisquel 9.0.1 amd64.*</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="mini"/>
+      <url>https://cdimage.trisquel.info/trisquel-images/trisquel-mini_9.0.1_amd64.iso</url>
+      <iso>
+        <volume-id>trisquel-mini 9.0.1 amd64.*</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="sugar-toast"/>
+      <url>https://cdimage.trisquel.info/trisquel-images/trisquel-sugar_9.0.1_amd64.iso</url>
+      <iso>
+        <volume-id>trisquel-sugar 9.0.1 amd64.*</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="triskel"/>
+      <url>https://cdimage.trisquel.info/trisquel-images/triskel_9.0.1_amd64.iso</url>
+      <iso>
+        <volume-id>triskel 9.0.1 amd64.*</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+
+
+    <resources arch="all">
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
