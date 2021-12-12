@@ -1,0 +1,55 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://pureos.net/pureos/10">
+    <short-id>pureos10</short-id>
+    <name>PureOS</name>
+    <version>10</version>
+    <vendor>Purism, SPC</vendor>
+    <family>linux</family>
+    <distro>pureos</distro>
+    <derives-from id="http://debian.org/debian/10"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <variant id="gnome">
+      <name>PureOS 10 GNOME</name>
+    </variant>
+    <variant id="kde">
+      <name>PureOS 10 KDE</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome"/>
+      <url>https://downloads.puri.sm/byzantium/gnome/2021-10-10/pureos-10~devel-gnome-live-20211010_amd64.iso</url>
+      <iso>
+        <volume-id>PureOS 10~devel gnome \(live\)</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="kde"/>
+      <url>https://downloads.puri.sm/byzantium/plasma/2021-10-10/pureos-10~devel-plasma-live-20211010_amd64.iso</url>
+      <iso>
+	<volume-id>PureOS 10~devel plasma \(live\)</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+
+</libosinfo>

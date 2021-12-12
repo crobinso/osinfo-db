@@ -1,0 +1,37 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://pureos.net/pureos/9">
+    <short-id>pureos9</short-id>
+    <name>PureOS</name>
+    <version>9</version>
+    <vendor>Purism, SPC</vendor>
+    <family>linux</family>
+    <distro>pureos</distro>
+    <derives-from id="http://debian.org/debian/9"/>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>16106127360</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64" live="true">
+      <url>https://downloads.puri.sm/amber/live/gnome/2020-08-06/pureos-9.0-gnome-live_20200806-amd64.hybrid.iso</url>
+      <iso>
+	<volume-id>PureOS 9.0 GNOME Live</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd.img</initrd>
+    </media>
+  </os>
+
+</libosinfo>
