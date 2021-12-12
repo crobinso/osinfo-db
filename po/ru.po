@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 16:32+0100\n"
+"POT-Creation-Date: 2021-12-09 16:40+0100\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -726,6 +726,51 @@ msgstr ""
 
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8-unknown.xml.in:6
+msgid "Circle Linux 8 Unknown"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8-unknown.xml.in:8
+#: data/os/cclinux.org/circle-8.4.xml.in:8
+#: data/os/cclinux.org/circle-8.5.xml.in:8
+#: data/os/cclinux.org/circle-9-unknown.xml.in:8
+#: data/os/cclinux.org/circle-9.0.xml.in:8
+#: data/os/cclinux.org/circle-unknown.xml.in:8
+msgid "Circle Linux Project"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8.4.xml.in:6
+msgid "Circle Linux 8.4"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8.4.xml.in:17
+#: data/os/cclinux.org/circle-8.4.xml.in:21
+#: data/os/cclinux.org/circle-8.4.xml.in:25
+msgid "Circle 8.4"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8.5.xml.in:6
+msgid "Circle Linux 8.5"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8.5.xml.in:20
+#: data/os/cclinux.org/circle-8.5.xml.in:24
+#: data/os/cclinux.org/circle-8.5.xml.in:28
+msgid "Circle 8.5"
+msgstr ""
+
+#: data/os/cclinux.org/circle-9-unknown.xml.in:6
+msgid "Circle Linux 9 Unknown"
+msgstr ""
+
+#: data/os/cclinux.org/circle-9.0.xml.in:6
+msgid "Circle Linux 9.0"
+msgstr ""
+
+#: data/os/cclinux.org/circle-unknown.xml.in:6
+msgid "Circle Linux Unknown"
 msgstr ""
 
 #: data/os/centos.org/centos-5.0.xml.in:6
@@ -1923,16 +1968,16 @@ msgstr ""
 msgid "Fedora 33"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:17
+#: data/os/fedoraproject.org/fedora-33.xml.in:18
 msgid "Fedora 33 Workstation"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:20
-#: data/os/fedoraproject.org/fedora-33.xml.in:23
+#: data/os/fedoraproject.org/fedora-33.xml.in:21
+#: data/os/fedoraproject.org/fedora-33.xml.in:24
 msgid "Fedora 33 Server"
 msgstr ""
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:26
+#: data/os/fedoraproject.org/fedora-33.xml.in:27
 msgid "Fedora 33 Everything"
 msgstr ""
 
@@ -4182,6 +4227,7 @@ msgstr ""
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
 #: data/os/rockylinux.org/rocky-8.5.xml.in:8
+#: data/os/rockylinux.org/rocky-8.6.xml.in:8
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-9.0.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
@@ -4200,6 +4246,16 @@ msgstr ""
 
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 msgid "Rocky Linux 8.5"
+msgstr ""
+
+#: data/os/rockylinux.org/rocky-8.5.xml.in:18
+#: data/os/rockylinux.org/rocky-8.5.xml.in:22
+#: data/os/rockylinux.org/rocky-8.5.xml.in:26
+msgid "Rocky 8.5"
+msgstr ""
+
+#: data/os/rockylinux.org/rocky-8.6.xml.in:6
+msgid "Rocky Linux 8.6"
 msgstr ""
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-29 16:32+0100\n"
+"POT-Creation-Date: 2021-12-09 16:40+0100\n"
 "PO-Revision-Date: 2021-11-30 11:38+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -728,6 +728,65 @@ msgstr "Asianux Server 8"
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
 msgstr "Asianux (sconosciuto)"
+
+#: data/os/cclinux.org/circle-8-unknown.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 8 Unknown"
+msgid "Circle Linux 8 Unknown"
+msgstr "Rocky Linux 8 (sconosciuto)"
+
+#: data/os/cclinux.org/circle-8-unknown.xml.in:8
+#: data/os/cclinux.org/circle-8.4.xml.in:8
+#: data/os/cclinux.org/circle-8.5.xml.in:8
+#: data/os/cclinux.org/circle-9-unknown.xml.in:8
+#: data/os/cclinux.org/circle-9.0.xml.in:8
+#: data/os/cclinux.org/circle-unknown.xml.in:8
+#, fuzzy
+#| msgid "Alpine Linux Project"
+msgid "Circle Linux Project"
+msgstr "Progetto Alpine Linux"
+
+#: data/os/cclinux.org/circle-8.4.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Circle Linux 8.4"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/cclinux.org/circle-8.4.xml.in:17
+#: data/os/cclinux.org/circle-8.4.xml.in:21
+#: data/os/cclinux.org/circle-8.4.xml.in:25
+msgid "Circle 8.4"
+msgstr ""
+
+#: data/os/cclinux.org/circle-8.5.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Circle Linux 8.5"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/cclinux.org/circle-8.5.xml.in:20
+#: data/os/cclinux.org/circle-8.5.xml.in:24
+#: data/os/cclinux.org/circle-8.5.xml.in:28
+msgid "Circle 8.5"
+msgstr ""
+
+#: data/os/cclinux.org/circle-9-unknown.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 9 Unknown"
+msgid "Circle Linux 9 Unknown"
+msgstr "Rocky Linux 9 (sconosciuto)"
+
+#: data/os/cclinux.org/circle-9.0.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 6.0"
+msgid "Circle Linux 9.0"
+msgstr "Oracle Linux 6.0"
+
+#: data/os/cclinux.org/circle-unknown.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux Unknown"
+msgid "Circle Linux Unknown"
+msgstr "Rocky Linux 7 (sconosciuto)"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
@@ -1924,16 +1983,16 @@ msgstr "Fedora 32 Everything"
 msgid "Fedora 33"
 msgstr "Fedora 33"
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:17
+#: data/os/fedoraproject.org/fedora-33.xml.in:18
 msgid "Fedora 33 Workstation"
 msgstr "Fedora 33 Workstation"
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:20
-#: data/os/fedoraproject.org/fedora-33.xml.in:23
+#: data/os/fedoraproject.org/fedora-33.xml.in:21
+#: data/os/fedoraproject.org/fedora-33.xml.in:24
 msgid "Fedora 33 Server"
 msgstr "Fedora 33 Server"
 
-#: data/os/fedoraproject.org/fedora-33.xml.in:26
+#: data/os/fedoraproject.org/fedora-33.xml.in:27
 msgid "Fedora 33 Everything"
 msgstr "Fedora 33 Everything"
 
@@ -4184,6 +4243,7 @@ msgstr "Rocky Linux 8 (sconosciuto)"
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
 #: data/os/rockylinux.org/rocky-8.5.xml.in:8
+#: data/os/rockylinux.org/rocky-8.6.xml.in:8
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-9.0.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
@@ -4203,6 +4263,20 @@ msgstr "Rocky 8.4"
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 msgid "Rocky Linux 8.5"
 msgstr "Rocky Linux 8.5"
+
+#: data/os/rockylinux.org/rocky-8.5.xml.in:18
+#: data/os/rockylinux.org/rocky-8.5.xml.in:22
+#: data/os/rockylinux.org/rocky-8.5.xml.in:26
+#, fuzzy
+#| msgid "Rocky 8.4"
+msgid "Rocky 8.5"
+msgstr "Rocky 8.4"
+
+#: data/os/rockylinux.org/rocky-8.6.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 8.4"
+msgid "Rocky Linux 8.6"
+msgstr "Rocky Linux 8.4"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
