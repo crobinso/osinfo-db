@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:40+0100\n"
-"PO-Revision-Date: 2021-12-02 04:16+0000\n"
+"PO-Revision-Date: 2021-12-10 13:23+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -728,10 +728,8 @@ msgid "Asianux unknown"
 msgstr "Asianux 알지 못함"
 
 #: data/os/cclinux.org/circle-8-unknown.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8 Unknown"
 msgid "Circle Linux 8 Unknown"
-msgstr "록키 리눅스 8 알지못함"
+msgstr "써클 리눅스 8 알지못함"
 
 #: data/os/cclinux.org/circle-8-unknown.xml.in:8
 #: data/os/cclinux.org/circle-8.4.xml.in:8
@@ -739,52 +737,40 @@ msgstr "록키 리눅스 8 알지못함"
 #: data/os/cclinux.org/circle-9-unknown.xml.in:8
 #: data/os/cclinux.org/circle-9.0.xml.in:8
 #: data/os/cclinux.org/circle-unknown.xml.in:8
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "Circle Linux Project"
-msgstr "알파인 리눅스 프로젝트"
+msgstr "써클 리눅스 프로젝트"
 
 #: data/os/cclinux.org/circle-8.4.xml.in:6
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Circle Linux 8.4"
-msgstr "오라클 리눅스 8.0"
+msgstr "써클 리눅스 8.4"
 
 #: data/os/cclinux.org/circle-8.4.xml.in:17
 #: data/os/cclinux.org/circle-8.4.xml.in:21
 #: data/os/cclinux.org/circle-8.4.xml.in:25
 msgid "Circle 8.4"
-msgstr ""
+msgstr "써클 8.4"
 
 #: data/os/cclinux.org/circle-8.5.xml.in:6
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Circle Linux 8.5"
-msgstr "오라클 리눅스 8.0"
+msgstr "써클 리눅스 8.5"
 
 #: data/os/cclinux.org/circle-8.5.xml.in:20
 #: data/os/cclinux.org/circle-8.5.xml.in:24
 #: data/os/cclinux.org/circle-8.5.xml.in:28
 msgid "Circle 8.5"
-msgstr ""
+msgstr "써클 8.5"
 
 #: data/os/cclinux.org/circle-9-unknown.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 9 Unknown"
 msgid "Circle Linux 9 Unknown"
-msgstr "록키 리눅스 9 알지못함"
+msgstr "써클 리눅스 9 알지못함"
 
 #: data/os/cclinux.org/circle-9.0.xml.in:6
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Circle Linux 9.0"
-msgstr "오라클 리눅스 6.0"
+msgstr "써클 리눅스 9.0"
 
 #: data/os/cclinux.org/circle-unknown.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux Unknown"
 msgid "Circle Linux Unknown"
-msgstr "록키 리눅스 알지못함"
+msgstr "써클 리눅스 알지못함"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
@@ -4264,16 +4250,12 @@ msgstr "록키 리눅스 8.5"
 #: data/os/rockylinux.org/rocky-8.5.xml.in:18
 #: data/os/rockylinux.org/rocky-8.5.xml.in:22
 #: data/os/rockylinux.org/rocky-8.5.xml.in:26
-#, fuzzy
-#| msgid "Rocky 8.4"
 msgid "Rocky 8.5"
-msgstr "록키 8.4"
+msgstr "록키 8.5"
 
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux 8.6"
-msgstr "록키 리눅스 8.4"
+msgstr "록키 리눅스 8.6"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
