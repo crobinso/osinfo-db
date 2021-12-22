@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 16:40+0100\n"
+"POT-Creation-Date: 2021-12-17 12:39+0100\n"
 "PO-Revision-Date: 2021-12-10 13:23+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -2117,6 +2117,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.0.xml.in:8
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
+#: data/os/freebsd.org/freebsd-12.3.xml.in:8
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
@@ -2216,6 +2217,12 @@ msgstr "FreeBSD 12.1"
 #: data/os/freebsd.org/freebsd-12.2.xml.in:6
 msgid "FreeBSD 12.2"
 msgstr "FreeBSD 12.2"
+
+#: data/os/freebsd.org/freebsd-12.3.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 12.0"
+msgid "FreeBSD 12.3"
+msgstr "FreeBSD 12.0"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
 msgid "FreeBSD 13.0"
@@ -2413,6 +2420,22 @@ msgstr "FreeDOS 1.2 \"Standard\" Kurucu"
 msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgstr "FreeDOS 1.2 \"Legacy\" Kurucu"
 
+#: data/os/freenix.net/freenix-14.2.xml.in:7
+#, fuzzy
+#| msgid "FreeBSD 4.2"
+msgid "Freenix 14.2"
+msgstr "FreeBSD 4.2"
+
+#: data/os/freenix.net/freenix-14.2.xml.in:9
+#, fuzzy
+#| msgid "FreeBSD Project"
+msgid "Freenix Project"
+msgstr "FreeBSD Projesi"
+
+#: data/os/freenix.net/freenix-14.2.xml.in:16
+msgid "freenix"
+msgstr ""
+
 #: data/os/gentoo.org/gentoo-rolling.xml.in:6
 msgid "Gentoo Linux"
 msgstr "Gentoo Linux"
@@ -2454,6 +2477,7 @@ msgstr "Guix 1.1"
 
 #: data/os/guix.gnu.org/guix-1.1.xml.in:8
 #: data/os/guix.gnu.org/guix-1.3.xml.in:8
+#: data/os/guix.gnu.org/guix-hurd-latest.xml.in:7
 #: data/os/guix.gnu.org/guix-latest.xml.in:7
 msgid "Guix Contributors"
 msgstr "Guix'e Katkıda Bulunanlar"
@@ -2461,6 +2485,16 @@ msgstr "Guix'e Katkıda Bulunanlar"
 #: data/os/guix.gnu.org/guix-1.3.xml.in:6
 msgid "Guix 1.3"
 msgstr "Guix 1.3"
+
+#: data/os/guix.gnu.org/guix-hurd-latest.xml.in:6
+#, fuzzy
+#| msgid "Guix latest"
+msgid "Guix Hurd Latest"
+msgstr "Guix en güncel"
+
+#: data/os/guix.gnu.org/guix-hurd-latest.xml.in:14
+msgid "GuixSD GNU Hurd QCOW2"
+msgstr ""
 
 #: data/os/guix.gnu.org/guix-latest.xml.in:6
 msgid "Guix latest"
@@ -2508,6 +2542,24 @@ msgstr "Haiku R1/Beta2"
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
 msgid "Haiku R1/Beta3"
 msgstr "Haiku R1/Beta3"
+
+#: data/os/hyperbola.info/hyperbola-03.xml.in:7
+msgid "Hyperbola"
+msgstr ""
+
+#: data/os/hyperbola.info/hyperbola-03.xml.in:9
+#, fuzzy
+#| msgid "Fedora Project"
+msgid "Hyperbola Project"
+msgstr "Fedora Projesi"
+
+#: data/os/hyperbola.info/hyperbola-03.xml.in:15
+msgid "Hypebola 03"
+msgstr ""
+
+#: data/os/hyperbola.info/hyperbola-03.xml.in:18
+msgid "Hypetalking 03"
+msgstr ""
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
 msgid "Generic Linux 2016"
@@ -3575,8 +3627,10 @@ msgstr "Oracle Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-7.3.xml.in:6 data/os/oracle.com/ol-7.4.xml.in:6
 #: data/os/oracle.com/ol-7.5.xml.in:6 data/os/oracle.com/ol-7.6.xml.in:6
 #: data/os/oracle.com/ol-7.7.xml.in:6 data/os/oracle.com/ol-7.8.xml.in:6
-#: data/os/oracle.com/ol-8.0.xml.in:6 data/os/oracle.com/ol-8.1.xml.in:6
-#: data/os/oracle.com/ol-8.2.xml.in:6
+#: data/os/oracle.com/ol-7.9.xml.in:6 data/os/oracle.com/ol-8.0.xml.in:6
+#: data/os/oracle.com/ol-8.1.xml.in:6 data/os/oracle.com/ol-8.2.xml.in:6
+#: data/os/oracle.com/ol-8.3.xml.in:6 data/os/oracle.com/ol-8.4.xml.in:6
+#: data/os/oracle.com/ol-8.5.xml.in:6
 msgid "Oracle America"
 msgstr "Oracle America"
 
@@ -3728,6 +3782,12 @@ msgstr "Oracle Linux 7.7"
 msgid "Oracle Linux 7.8"
 msgstr "Oracle Linux 7.8"
 
+#: data/os/oracle.com/ol-7.9.xml.in:4
+#, fuzzy
+#| msgid "Oracle Linux 7.0"
+msgid "Oracle Linux 7.9"
+msgstr "Oracle Linux 7.0"
+
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
@@ -3739,6 +3799,24 @@ msgstr "Oracle Linux 8.1"
 #: data/os/oracle.com/ol-8.2.xml.in:4
 msgid "Oracle Linux 8.2"
 msgstr "Oracle Linux 8.2"
+
+#: data/os/oracle.com/ol-8.3.xml.in:4
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.3"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-8.4.xml.in:4
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.4"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-8.5.xml.in:4
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.5"
+msgstr "Oracle Linux 8.0"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -4719,6 +4797,32 @@ msgstr "Pop!_OS 20.04"
 #: data/os/system76.com/popos-20.10.xml.in:6
 msgid "Pop!_OS 20.10"
 msgstr "Pop!_OS 20.10"
+
+#: data/os/trisquel.info/trisquel-9.xml.in:7
+msgid "Trisquel"
+msgstr ""
+
+#: data/os/trisquel.info/trisquel-9.xml.in:9
+#, fuzzy
+#| msgid "Alpine Linux Project"
+msgid "The Trisquel Project"
+msgstr "Alpine Linux Projesi"
+
+#: data/os/trisquel.info/trisquel-9.xml.in:16
+msgid "Trisquel 9"
+msgstr ""
+
+#: data/os/trisquel.info/trisquel-9.xml.in:19
+msgid "Triskel 9"
+msgstr ""
+
+#: data/os/trisquel.info/trisquel-9.xml.in:22
+msgid "Trisquel 9 Mini"
+msgstr ""
+
+#: data/os/trisquel.info/trisquel-9.xml.in:25
+msgid "Trisquel 9 Sugar Toast"
+msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
