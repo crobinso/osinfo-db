@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-17 12:39+0100\n"
-"PO-Revision-Date: 2021-12-07 16:16+0000\n"
+"PO-Revision-Date: 2021-12-22 20:16+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -4337,10 +4337,8 @@ msgid "Rocky 8.5"
 msgstr "Rocky Linux 8.5"
 
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux 8.6"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux 8.6"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
