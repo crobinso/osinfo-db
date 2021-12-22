@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-17 12:39+0100\n"
-"PO-Revision-Date: 2021-12-10 13:23+0000\n"
+"PO-Revision-Date: 2021-12-20 09:16+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2224,10 +2224,8 @@ msgid "FreeBSD 12.2"
 msgstr "FreeBSD 12.2"
 
 #: data/os/freebsd.org/freebsd-12.3.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.3"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.3"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
 msgid "FreeBSD 13.0"
@@ -2426,20 +2424,16 @@ msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgstr "Встановлювач FreeDOS 1.2 «Legacy»"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:7
-#, fuzzy
-#| msgid "FreeBSD 4.2"
 msgid "Freenix 14.2"
-msgstr "FreeBSD 4.2"
+msgstr "Freenix 14.2"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:9
-#, fuzzy
-#| msgid "FreeBSD Project"
 msgid "Freenix Project"
-msgstr "Проєкт FreeBSD"
+msgstr "Проєкт Freenix"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:16
 msgid "freenix"
-msgstr ""
+msgstr "freenix"
 
 #: data/os/gentoo.org/gentoo-rolling.xml.in:6
 msgid "Gentoo Linux"
@@ -2492,14 +2486,12 @@ msgid "Guix 1.3"
 msgstr "Guix 1.3"
 
 #: data/os/guix.gnu.org/guix-hurd-latest.xml.in:6
-#, fuzzy
-#| msgid "Guix latest"
 msgid "Guix Hurd Latest"
-msgstr "Guix найсвіжіший"
+msgstr "Guix Hurd найсвіжіший"
 
 #: data/os/guix.gnu.org/guix-hurd-latest.xml.in:14
 msgid "GuixSD GNU Hurd QCOW2"
-msgstr ""
+msgstr "GuixSD GNU Hurd QCOW2"
 
 #: data/os/guix.gnu.org/guix-latest.xml.in:6
 msgid "Guix latest"
@@ -2550,21 +2542,19 @@ msgstr "Haiku R1/Beta3"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
 msgid "Hyperbola"
-msgstr ""
+msgstr "Hyperbola"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:9
-#, fuzzy
-#| msgid "Fedora Project"
 msgid "Hyperbola Project"
-msgstr "Проєкт Fedora"
+msgstr "Проєкт Hyperbola"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:15
 msgid "Hypebola 03"
-msgstr ""
+msgstr "Hypebola 03"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:18
 msgid "Hypetalking 03"
-msgstr ""
+msgstr "Hypetalking 03"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
 msgid "Generic Linux 2016"
@@ -3788,10 +3778,8 @@ msgid "Oracle Linux 7.8"
 msgstr "Oracle Linux 7.8"
 
 #: data/os/oracle.com/ol-7.9.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 7.0"
 msgid "Oracle Linux 7.9"
-msgstr "Oracle Linux 7.0"
+msgstr "Oracle Linux 7.9"
 
 #: data/os/oracle.com/ol-8.0.xml.in:4
 msgid "Oracle Linux 8.0"
@@ -3806,22 +3794,16 @@ msgid "Oracle Linux 8.2"
 msgstr "Oracle Linux 8.2"
 
 #: data/os/oracle.com/ol-8.3.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.3"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.3"
 
 #: data/os/oracle.com/ol-8.4.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.4"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.4"
 
 #: data/os/oracle.com/ol-8.5.xml.in:4
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.5"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -4805,29 +4787,27 @@ msgstr "Pop!_OS 20.10"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:7
 msgid "Trisquel"
-msgstr ""
+msgstr "Trisquel"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:9
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "The Trisquel Project"
-msgstr "Проєкт Alpine Linux"
+msgstr "Проєкт Trisquel"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:16
 msgid "Trisquel 9"
-msgstr ""
+msgstr "Trisquel 9"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:19
 msgid "Triskel 9"
-msgstr ""
+msgstr "Triskel 9"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:22
 msgid "Trisquel 9 Mini"
-msgstr ""
+msgstr "Trisquel 9 Mini"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:25
 msgid "Trisquel 9 Sugar Toast"
-msgstr ""
+msgstr "Trisquel 9 Sugar Toast"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
 msgid "Ubuntu 10.04 LTS"
