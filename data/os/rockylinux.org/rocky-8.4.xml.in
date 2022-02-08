@@ -27,7 +27,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
@@ -39,7 +39,7 @@
 
     <media arch="x86_64">
       <variant id="minimal"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
@@ -51,7 +51,7 @@
 
     <media arch="x86_64">
       <variant id="everything"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/x86_64/Rocky-8.4-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-x86_64-dvd$</volume-id>
@@ -72,7 +72,7 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-boot.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
@@ -84,7 +84,7 @@
 
     <media arch="aarch64">
       <variant id="minimal"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-minimal.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-minimal.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
@@ -96,7 +96,7 @@
 
     <media arch="aarch64">
       <variant id="everything"/>
-      <url>https://download.rockylinux.org/pub/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/isos/aarch64/Rocky-8.4-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>Rocky-8-4-aarch64-dvd$</volume-id>
@@ -116,7 +116,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://download.rockylinux.org/pub/rocky/8.4/BaseOS/x86_64/os/</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/BaseOS/x86_64/os/</url>
       <treeinfo>
         <family>Rocky Linux</family>
         <version>^8.4$</version>
@@ -125,7 +125,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.rockylinux.org/pub/rocky/8.4/BaseOS/aarch64/os/</url>
+      <url>https://download.rockylinux.org/vault/rocky/8.4/BaseOS/aarch64/os/</url>
       <treeinfo>
         <family>Rocky Linux</family>
         <version>^8.4$</version>
