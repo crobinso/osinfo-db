@@ -183,6 +183,14 @@
       <initrd>boot/aarch64/loader/initrd</initrd>
     </media>
 
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://download.opensuse.org/repositories/Cloud:/Images:/Leap_15.3/images/openSUSE-Leap-15.3.aarch64-NoCloud.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://download.opensuse.org/repositories/Cloud:/Images:/Leap_15.3/images/openSUSE-Leap-15.3.x86_64-NoCloud.qcow2</url>
+    </image>
+
     <tree arch="x86_64">
       <url>https://download.opensuse.org/pub/opensuse/distribution/leap/15.3/repo/oss/</url>
       <treeinfo>
