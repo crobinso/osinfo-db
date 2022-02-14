@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-11 15:05+0100\n"
-"PO-Revision-Date: 2021-12-20 09:16+0000\n"
+"PO-Revision-Date: 2022-02-14 01:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3480,10 +3480,8 @@ msgstr "OpenBSD 6.9"
 
 #: data/os/openbsd.org/openbsd-7.0.xml.in:6
 #: data/os/openbsd.org/openbsd-7.0.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 5.0"
 msgid "OpenBSD 7.0"
-msgstr "OpenBSD 5.0"
+msgstr "OpenBSD 7.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -3827,16 +3825,12 @@ msgid "Purism, SPC"
 msgstr "Purism, SPC"
 
 #: data/os/pureos.net/pureos-10.xml.in:28
-#, fuzzy
-#| msgid "CentOS 7 (GNOME)"
 msgid "PureOS 10 GNOME"
-msgstr "CentOS 7 (GNOME)"
+msgstr "PureOS 10 GNOME"
 
 #: data/os/pureos.net/pureos-10.xml.in:31
-#, fuzzy
-#| msgid "PureOS"
 msgid "PureOS 10 KDE"
-msgstr "PureOS"
+msgstr "PureOS 10 KDE"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
