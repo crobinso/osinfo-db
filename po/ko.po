@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-17 12:39+0100\n"
+"POT-Creation-Date: 2022-02-11 15:05+0100\n"
 "PO-Revision-Date: 2021-12-20 09:16+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -3347,6 +3347,7 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.7.xml.in:10
 #: data/os/openbsd.org/openbsd-6.8.xml.in:10
 #: data/os/openbsd.org/openbsd-6.9.xml.in:10
+#: data/os/openbsd.org/openbsd-7.0.xml.in:10
 msgid "OpenBSD Project"
 msgstr "OpenBSD 프로젝트"
 
@@ -3474,6 +3475,13 @@ msgstr "OpenBSD 6.8"
 #: data/os/openbsd.org/openbsd-6.9.xml.in:18
 msgid "OpenBSD 6.9"
 msgstr "OpenBSD 6.9"
+
+#: data/os/openbsd.org/openbsd-7.0.xml.in:6
+#: data/os/openbsd.org/openbsd-7.0.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 5.0"
+msgid "OpenBSD 7.0"
+msgstr "OpenBSD 5.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -3806,13 +3814,27 @@ msgstr "오라클 솔라리스 11"
 msgid "Oracle"
 msgstr "오라클"
 
-#: data/os/pureos.net/pureos-8.xml.in:6
+#: data/os/pureos.net/pureos-10.xml.in:6 data/os/pureos.net/pureos-8.xml.in:6
+#: data/os/pureos.net/pureos-9.xml.in:6
 msgid "PureOS"
 msgstr "퓨어OS"
 
-#: data/os/pureos.net/pureos-8.xml.in:8
+#: data/os/pureos.net/pureos-10.xml.in:8 data/os/pureos.net/pureos-8.xml.in:8
+#: data/os/pureos.net/pureos-9.xml.in:8
 msgid "Purism, SPC"
 msgstr "퓨리즘, SPC"
+
+#: data/os/pureos.net/pureos-10.xml.in:28
+#, fuzzy
+#| msgid "CentOS 7 (GNOME)"
+msgid "PureOS 10 GNOME"
+msgstr "센트오에스 7 (그놈)"
+
+#: data/os/pureos.net/pureos-10.xml.in:31
+#, fuzzy
+#| msgid "PureOS"
+msgid "PureOS 10 KDE"
+msgstr "퓨어OS"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"

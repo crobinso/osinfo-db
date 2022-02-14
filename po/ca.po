@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-17 12:39+0100\n"
+"POT-Creation-Date: 2022-02-11 15:05+0100\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -3597,6 +3597,7 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.7.xml.in:10
 #: data/os/openbsd.org/openbsd-6.8.xml.in:10
 #: data/os/openbsd.org/openbsd-6.9.xml.in:10
+#: data/os/openbsd.org/openbsd-7.0.xml.in:10
 msgid "OpenBSD Project"
 msgstr "Projecte OpenBSD"
 
@@ -3733,6 +3734,13 @@ msgstr "OpenBSD 6.0"
 #| msgid "OpenBSD 6.0"
 msgid "OpenBSD 6.9"
 msgstr "OpenBSD 6.0"
+
+#: data/os/openbsd.org/openbsd-7.0.xml.in:6
+#: data/os/openbsd.org/openbsd-7.0.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 5.0"
+msgid "OpenBSD 7.0"
+msgstr "OpenBSD 5.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -4117,12 +4125,24 @@ msgstr "Oracle Solaris 11"
 msgid "Oracle"
 msgstr "Oracle"
 
-#: data/os/pureos.net/pureos-8.xml.in:6
+#: data/os/pureos.net/pureos-10.xml.in:6 data/os/pureos.net/pureos-8.xml.in:6
+#: data/os/pureos.net/pureos-9.xml.in:6
 msgid "PureOS"
 msgstr ""
 
-#: data/os/pureos.net/pureos-8.xml.in:8
+#: data/os/pureos.net/pureos-10.xml.in:8 data/os/pureos.net/pureos-8.xml.in:8
+#: data/os/pureos.net/pureos-9.xml.in:8
 msgid "Purism, SPC"
+msgstr ""
+
+#: data/os/pureos.net/pureos-10.xml.in:28
+#, fuzzy
+#| msgid "CentOS 7 (GNOME)"
+msgid "PureOS 10 GNOME"
+msgstr "CentOS 7 (GNOME)"
+
+#: data/os/pureos.net/pureos-10.xml.in:31
+msgid "PureOS 10 KDE"
 msgstr ""
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
