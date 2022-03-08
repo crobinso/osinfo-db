@@ -20,6 +20,7 @@ exec "$@"' > /usr/bin/nosync && \
     nosync dnf install -y \
         ca-certificates \
         ccache \
+        cppi \
         gcc \
         gettext \
         git \

@@ -10,6 +10,7 @@ RUN zypper update -y && \
     zypper install -y \
            ca-certificates \
            ccache \
+           cppi \
            gcc \
            gettext-runtime \
            git \
@@ -38,8 +39,7 @@ RUN zypper update -y && \
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/cc && \
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/gcc
 
-RUN pip3 install \
-         meson==0.56.0
+RUN pip3 install meson==0.56.0
 
 ENV LANG "en_US.UTF-8"
 ENV MAKE "/usr/bin/make"

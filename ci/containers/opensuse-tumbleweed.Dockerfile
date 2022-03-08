@@ -10,6 +10,7 @@ RUN zypper update -y && \
     zypper install -y \
            ca-certificates \
            ccache \
+           cppi \
            gcc \
            gettext-runtime \
            git \
