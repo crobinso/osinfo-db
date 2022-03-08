@@ -10,8 +10,7 @@
   stage: containers
   needs: []
   services:
-    - name: registry.gitlab.com/libvirt/libvirt-ci/docker-dind:master
-      alias: docker
+    - docker:dind
   before_script:
     - export TAG="$CI_REGISTRY_IMAGE/ci-$NAME:latest"
     - export COMMON_TAG="$CI_REGISTRY/libosinfo/osinfo-db/ci-$NAME:latest"
@@ -49,13 +48,6 @@ check-dco:
 
 
 # Native container jobs
-
-x86_64-centos-8-container:
-  extends: .container_job
-  allow_failure: false
-  variables:
-    NAME: centos-8
-
 
 x86_64-centos-stream-8-container:
   extends: .container_job
@@ -142,15 +134,6 @@ x86_64-ubuntu-2004-container:
 
 
 # Native build jobs
-
-x86_64-centos-8:
-  extends: .native_build_job
-  needs:
-    - x86_64-centos-8-container
-  allow_failure: false
-  variables:
-    NAME: centos-8
-
 
 x86_64-centos-stream-8:
   extends: .native_build_job
