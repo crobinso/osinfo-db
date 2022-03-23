@@ -24,7 +24,14 @@ def pytest_configure(config):
 
     # Needed for test reproducibility on any system not using a UTF-8 locale
     locale.setlocale(locale.LC_ALL, 'C')
-    locale.setlocale(locale.LC_CTYPE, 'en_US.UTF-8')
+    for loc in ["C.UTF-8", "C.utf8", "UTF-8", "en_US.UTF-8"]:
+        try:
+            locale.setlocale(locale.LC_CTYPE, loc)
+            break
+        except locale.Error:
+            pass
+    else:
+        raise locale.Error("No UTF-8 locale found")
 
     # Default to --log-level=info if not otherwise specified
     if (hasattr(config.option, "log_level") and
