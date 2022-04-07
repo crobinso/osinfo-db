@@ -50,15 +50,6 @@
 
 
     <!-- Network installer -->
-    <media arch="i686">
-      <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/i386/iso-cd/debian-10.10.0-i386-netinst.iso</url>
-      <iso>
-        <volume-id>Debian 10.\d+.\d+ i386 n</volume-id>
-      </iso>
-      <kernel>install.386/vmlinuz</kernel>
-      <initrd>install.386/initrd.gz</initrd>
-    </media>
     <media arch="x86_64">
       <variant id="universal-netinst"/>
       <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-cd/debian-10.10.0-amd64-netinst.iso</url>
@@ -67,6 +58,15 @@
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/i386/iso-cd/debian-10.10.0-i386-netinst.iso</url>
+      <iso>
+        <volume-id>Debian 10.\d+.\d+ i386 n</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
       <variant id="universal-netinst"/>
@@ -106,15 +106,6 @@
     </media>
 
     <!-- DVD -->
-    <media arch="i686">
-      <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/i386/iso-dvd/debian-10.10.0-i386-DVD-1.iso</url>
-      <iso>
-        <volume-id>Debian 10.\d+.\d+ i386 \d+</volume-id>
-      </iso>
-      <kernel>install.386/vmlinuz</kernel>
-      <initrd>install.386/initrd.gz</initrd>
-    </media>
     <media arch="x86_64">
       <variant id="universal"/>
       <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/amd64/iso-dvd/debian-10.10.0-amd64-DVD-1.iso</url>
@@ -123,6 +114,15 @@
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.10.0/i386/iso-dvd/debian-10.10.0-i386-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian 10.\d+.\d+ i386 \d+</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
       <variant id="universal"/>
@@ -161,15 +161,15 @@
       <initrd>boot/root.bin</initrd>
     </media>
 
-    <tree arch="i686">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-i386</url>
-      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
-    </tree>
     <tree arch="x86_64">
       <url>http://deb.debian.org/debian/dists/buster/main/installer-amd64</url>
       <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
       <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+    <tree arch="i686">
+      <url>http://deb.debian.org/debian/dists/buster/main/installer-i386</url>
+      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
     </tree>
     <tree arch="aarch64">
       <url>http://deb.debian.org/debian/dists/buster/main/installer-arm64</url>
