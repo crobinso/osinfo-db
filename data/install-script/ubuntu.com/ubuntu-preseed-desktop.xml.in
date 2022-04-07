@@ -63,9 +63,18 @@
               </xsl:template>
 
               <xsl:template match="/install-script-config">
+# Configuration inspired by
+# https://bazaar.launchpad.net/~ubuntu-test-case-dev/ubuntu-test-cases/desktop/view/head:/preseeds/default.cfg
 d-i pkgsel/include string ubuntu-desktop
 d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
 d-i netcfg/get_hostname string <xsl:call-template name="hostname"/>
+
+<xsl:choose>
+  <xsl:when test="os/version &gt; 17.10">
+    d-i ubiquity/install_oem false
+    d-i ubiquity/use_nonfree true
+  </xsl:when>
+</xsl:choose>
 
 d-i partman-auto/disk string <xsl:call-template name="target-disk"/>
 d-i partman-auto/init_automatically_partition select Use the largest continuous free space
