@@ -29,6 +29,10 @@
       </recommended>
     </resources>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
+    </devices>
+
     <variant id="universal">
       <name>Debian 11</name>
     </variant>
