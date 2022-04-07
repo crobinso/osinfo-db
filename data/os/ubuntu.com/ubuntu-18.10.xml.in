@@ -52,6 +52,9 @@
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/18.10/ubuntu-18.10-desktop-amd64.iso</url>

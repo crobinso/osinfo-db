@@ -31,13 +31,7 @@
     </resources>
 
     <!-- installer-script limitations
-         1. The Desktop Media was supposed to be able to run the very same
-            preseed file used with the server media (for a "desktop"
-            installation) but fails.
-            People from Canonical were already contacted about this and
-            once it's solved, we can remove the installer-script="false"
-            attribute and add support for the "desktop" installer script
-         2. Server-Live media run with the new subiquity installer.
+            Server-Live media run with the new subiquity installer.
             The new style for automated install provided isn't supported
             yet in libosinfo and associated tools, therefore for now
             it is marked installer-script="false"
@@ -55,13 +49,16 @@
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
-    <media arch="x86_64" live="true" installer-script="false">
+    <media arch="x86_64" live="true">
       <url>https://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 21.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
+      <installer>
+        <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
+      </installer>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
       <url>https://cdimage.ubuntu.com/ubuntu/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso</url>
