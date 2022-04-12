@@ -14,6 +14,7 @@
     <derives-from id="http://debian.org/debian/8"/>
 
     <release-date>2017-06-17</release-date>
+    <eol-date>2022-06-30</eol-date>
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
