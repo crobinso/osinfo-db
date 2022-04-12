@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-15 13:13+0100\n"
-"PO-Revision-Date: 2021-12-22 20:16+0000\n"
+"PO-Revision-Date: 2022-03-03 20:16+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -428,22 +428,16 @@ msgid "BaseALT"
 msgstr "BaseALT"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 10.0"
-msgstr "ALT työasema 9.0"
+msgstr "ALT työasema 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K 10.0"
-msgstr "ALT työasema K 9.0"
+msgstr "ALT työasema K 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 10.0"
-msgstr "ALT koulutus 9.0"
+msgstr "ALT koulutus 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
 #, fuzzy
