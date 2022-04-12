@@ -4,13 +4,14 @@
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-15 13:13+0100\n"
-"PO-Revision-Date: 2022-04-12 09:33+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"PO-Revision-Date: 2022-04-12 22:08+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
 "Language: ko\n"
@@ -704,7 +705,7 @@ msgstr "MacOS X Tiger"
 
 #: data/os/apple.com/macosx-10.5.xml.in:6
 msgid "MacOS X Leopard"
-msgstr "MacOS X Leopard"
+msgstr "MacOS X 레오파드"
 
 #: data/os/apple.com/macosx-10.6.xml.in:6
 msgid "MacOS X Snow Leopard"
