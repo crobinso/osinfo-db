@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the osinfo-db package.
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-15 13:13+0100\n"
-"PO-Revision-Date: 2022-02-17 01:16+0000\n"
-"Last-Translator: Kim InSoo <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-04-12 09:33+0000\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
 "Language: ko\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -672,7 +673,7 @@ msgstr "안드로이드-x86 9.0"
 
 #: data/os/apple.com/macosx-10.0.xml.in:6
 msgid "MacOS X Cheetah"
-msgstr "맥OS X 치타"
+msgstr "MacOS X Cheetah"
 
 #: data/os/apple.com/macosx-10.0.xml.in:8
 #: data/os/apple.com/macosx-10.1.xml.in:8
@@ -687,31 +688,31 @@ msgstr "Apple Inc."
 
 #: data/os/apple.com/macosx-10.1.xml.in:6
 msgid "MacOS X Puma"
-msgstr "맥OS X 퓨마"
+msgstr "MacOS X Puma"
 
 #: data/os/apple.com/macosx-10.2.xml.in:6
 msgid "MacOS X Jaguar"
-msgstr "맥OS X 재규어"
+msgstr "MacOS X Jaguar"
 
 #: data/os/apple.com/macosx-10.3.xml.in:6
 msgid "MacOS X Panther"
-msgstr "맥OS X 표범(Panther)"
+msgstr "MacOS X Panther"
 
 #: data/os/apple.com/macosx-10.4.xml.in:6
 msgid "MacOS X Tiger"
-msgstr "맥OS X 호랑이"
+msgstr "MacOS X Tiger"
 
 #: data/os/apple.com/macosx-10.5.xml.in:6
 msgid "MacOS X Leopard"
-msgstr "맥OS 표범(Leopard)"
+msgstr "MacOS X Leopard"
 
 #: data/os/apple.com/macosx-10.6.xml.in:6
 msgid "MacOS X Snow Leopard"
-msgstr "MacOS X 눈 표범"
+msgstr "MacOS X Snow Leopard"
 
 #: data/os/apple.com/macosx-10.7.xml.in:6
 msgid "MacOS X Lion"
-msgstr "MacOS X 사자"
+msgstr "MacOS X Lion"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:6
 #: data/os/archlinux.org/archlinux-rolling.xml.in:7
@@ -720,7 +721,7 @@ msgstr "아치리눅스"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
-msgstr "Asianux 서버 4 SP6"
+msgstr "아시아눅스 서버 4 SP6"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:7
 #: data/os/asianux.com/asianux-4.7.xml.in:7
@@ -731,39 +732,39 @@ msgstr "Asianux 서버 4 SP6"
 #: data/os/asianux.com/asianux-8.0.xml.in:8
 #: data/os/asianux.com/asianux-unknown.xml.in:8
 msgid "Asianux Project"
-msgstr "Asianux 프로젝트"
+msgstr "아시아눅스 프로젝트"
 
 #: data/os/asianux.com/asianux-4.7.xml.in:6
 msgid "Asianux Server 4 SP7"
-msgstr "Asianux 서버 4 SP7"
+msgstr "아시아눅스 서버 4 SP7"
 
 #: data/os/asianux.com/asianux-7.0.xml.in:6
 msgid "Asianux Server 7"
-msgstr "Asianux 서버 7"
+msgstr "아시아눅스 서버 7"
 
 #: data/os/asianux.com/asianux-7.1.xml.in:6
 msgid "Asianux Server 7 SP1"
-msgstr "Asianux 서버 7 SP1"
+msgstr "아시아눅스 서버 7 SP1"
 
 #: data/os/asianux.com/asianux-7.2.xml.in:6
 msgid "Asianux Server 7 SP2"
-msgstr "Asianux 서버 7 SP2"
+msgstr "아시아눅스 서버 7 SP2"
 
 #: data/os/asianux.com/asianux-7.3.xml.in:6
 msgid "Asianux Server 7 SP3"
-msgstr "Asianux 서버 7 SP3"
+msgstr "아시아눅스 서버 7 SP3"
 
 #: data/os/asianux.com/asianux-8.0.xml.in:6
 msgid "Asianux Server 8"
-msgstr "Asianux 서버 8"
+msgstr "아시아눅스 서버 8"
 
 #: data/os/asianux.com/asianux-unknown.xml.in:6
 msgid "Asianux unknown"
-msgstr "Asianux 알지 못함"
+msgstr "아시아눅스 (알 수 없음)"
 
 #: data/os/cclinux.org/circle-8-unknown.xml.in:6
 msgid "Circle Linux 8 Unknown"
-msgstr "써클 리눅스 8 알지못함"
+msgstr "써클 리눅스 8 (알 수 없음)"
 
 #: data/os/cclinux.org/circle-8-unknown.xml.in:8
 #: data/os/cclinux.org/circle-8.4.xml.in:8
@@ -796,7 +797,7 @@ msgstr "써클 8.5"
 
 #: data/os/cclinux.org/circle-9-unknown.xml.in:6
 msgid "Circle Linux 9 Unknown"
-msgstr "써클 리눅스 9 알지못함"
+msgstr "써클 리눅스 9 (알 수 없음)"
 
 #: data/os/cclinux.org/circle-9.0.xml.in:6
 msgid "Circle Linux 9.0"
@@ -804,7 +805,7 @@ msgstr "써클 리눅스 9.0"
 
 #: data/os/cclinux.org/circle-unknown.xml.in:6
 msgid "Circle Linux Unknown"
-msgstr "써클 리눅스 알지못함"
+msgstr "써클 리눅스 (알 수 없음)"
 
 #: data/os/centos.org/centos-5.0.xml.in:6
 msgid "CentOS 5.0"
@@ -1012,7 +1013,7 @@ msgstr "CirrOS 0.5.2"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
 msgid "Clear Linux OS"
-msgstr "Clear 리눅스 OS"
+msgstr "클리어 리눅스 OS"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:7
 msgid "Intel Corporation"
@@ -1084,7 +1085,7 @@ msgstr "데비안 11 (클라우드 아님)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
-msgstr "데바안 GNU/리눅스 2.0"
+msgstr "데비안 GNU/Linux 2.0"
 
 #: data/os/debian.org/debian-2.1.xml.in:7
 msgid "Debian GNU/Linux 2.1"
@@ -1474,7 +1475,7 @@ msgstr "DragonFlyBSD 5.6"
 
 #: data/os/elementary.io/elementary-5.0.xml.in:7
 msgid "Elementary OS 5.0 Juno"
-msgstr "엘리멘트리 OS 5.0 쥬노"
+msgstr "엘리멘터리 OS 5.0 쥬노"
 
 #: data/os/elementary.io/elementary-5.0.xml.in:9
 msgid "Elementary, Inc."
@@ -1814,7 +1815,7 @@ msgstr "페도라 21"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:18
 msgid "Fedora 21 Workstation"
-msgstr "페도라 21 웍스테이션"
+msgstr "페도라 21 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-21.xml.in:21
 msgid "Fedora 21 Server"
@@ -1831,7 +1832,7 @@ msgstr "페도라 22"
 #: data/os/fedoraproject.org/fedora-22.xml.in:18
 #: data/os/fedoraproject.org/fedora-22.xml.in:21
 msgid "Fedora 22 Workstation"
-msgstr "페도라 22 웍스테이션"
+msgstr "페도라 22 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-22.xml.in:24
 #: data/os/fedoraproject.org/fedora-22.xml.in:27
@@ -1845,7 +1846,7 @@ msgstr "페도라 23"
 #: data/os/fedoraproject.org/fedora-23.xml.in:18
 #: data/os/fedoraproject.org/fedora-23.xml.in:21
 msgid "Fedora 23 Workstation"
-msgstr "페도라 22 웍스테이션"
+msgstr "페도라 22 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-23.xml.in:24
 #: data/os/fedoraproject.org/fedora-23.xml.in:27
@@ -1859,7 +1860,7 @@ msgstr "페도라 24"
 #: data/os/fedoraproject.org/fedora-24.xml.in:22
 #: data/os/fedoraproject.org/fedora-24.xml.in:25
 msgid "Fedora 24 Workstation"
-msgstr "페도라 24 웍스테이션"
+msgstr "페도라 24 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-24.xml.in:28
 #: data/os/fedoraproject.org/fedora-24.xml.in:31
@@ -1873,7 +1874,7 @@ msgstr "페도라 25"
 #: data/os/fedoraproject.org/fedora-25.xml.in:18
 #: data/os/fedoraproject.org/fedora-25.xml.in:21
 msgid "Fedora 25 Workstation"
-msgstr "페도라 25 웍스테이션"
+msgstr "페도라 25 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-25.xml.in:24
 #: data/os/fedoraproject.org/fedora-25.xml.in:27
@@ -1887,7 +1888,7 @@ msgstr "페도라 26"
 #: data/os/fedoraproject.org/fedora-26.xml.in:18
 #: data/os/fedoraproject.org/fedora-26.xml.in:21
 msgid "Fedora 26 Workstation"
-msgstr "페도라 26 웍스테이션"
+msgstr "페도라 26 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-26.xml.in:24
 #: data/os/fedoraproject.org/fedora-26.xml.in:27
@@ -1902,7 +1903,7 @@ msgstr "페도라 27"
 #: data/os/fedoraproject.org/fedora-27.xml.in:21
 #: data/os/fedoraproject.org/fedora-27.xml.in:24
 msgid "Fedora 27 Workstation"
-msgstr "페도라 27 웍스테이션"
+msgstr "페도라 27 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-27.xml.in:27
 #: data/os/fedoraproject.org/fedora-27.xml.in:30
@@ -1916,7 +1917,7 @@ msgstr "페도라 28"
 #: data/os/fedoraproject.org/fedora-28.xml.in:18
 #: data/os/fedoraproject.org/fedora-28.xml.in:21
 msgid "Fedora 28 Workstation"
-msgstr "페도라 28 웍스테이션"
+msgstr "페도라 28 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-28.xml.in:24
 #: data/os/fedoraproject.org/fedora-28.xml.in:27
@@ -1930,7 +1931,7 @@ msgstr "페도라 29"
 #: data/os/fedoraproject.org/fedora-29.xml.in:18
 #: data/os/fedoraproject.org/fedora-29.xml.in:21
 msgid "Fedora 29 Workstation"
-msgstr "페도라 29 웍스테이션"
+msgstr "페도라 29 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-29.xml.in:24
 #: data/os/fedoraproject.org/fedora-29.xml.in:27
@@ -1952,7 +1953,7 @@ msgstr "페도라 30"
 #: data/os/fedoraproject.org/fedora-30.xml.in:18
 #: data/os/fedoraproject.org/fedora-30.xml.in:21
 msgid "Fedora 30 Workstation"
-msgstr "페도라 30 웍스테이션"
+msgstr "페도라 30 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-30.xml.in:24
 #: data/os/fedoraproject.org/fedora-30.xml.in:27
@@ -1969,7 +1970,7 @@ msgstr "페도라 31"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:18
 msgid "Fedora 31 Workstation"
-msgstr "페도라 31 웍스테이션"
+msgstr "페도라 31 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-31.xml.in:21
 #: data/os/fedoraproject.org/fedora-31.xml.in:24
@@ -1986,7 +1987,7 @@ msgstr "페도라 32"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:18
 msgid "Fedora 32 Workstation"
-msgstr "페도라 32 웍스테이션"
+msgstr "페도라 32 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-32.xml.in:21
 #: data/os/fedoraproject.org/fedora-32.xml.in:24
@@ -2003,7 +2004,7 @@ msgstr "페도라 33"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:18
 msgid "Fedora 33 Workstation"
-msgstr "페도라 33 웍스테이션"
+msgstr "페도라 33 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-33.xml.in:21
 #: data/os/fedoraproject.org/fedora-33.xml.in:24
@@ -2020,7 +2021,7 @@ msgstr "페도라 34"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:17
 msgid "Fedora 34 Workstation"
-msgstr "페도라 34 웍스테이션"
+msgstr "페도라 34 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-34.xml.in:20
 #: data/os/fedoraproject.org/fedora-34.xml.in:23
@@ -2037,7 +2038,7 @@ msgstr "페도라 35"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:17
 msgid "Fedora 35 Workstation"
-msgstr "페도라 35 웍스테이션"
+msgstr "페도라 35 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-35.xml.in:20
 #: data/os/fedoraproject.org/fedora-35.xml.in:23
@@ -2078,7 +2079,7 @@ msgstr "페도라 개발판"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:16
 msgid "Fedora Rawhide Workstation"
-msgstr "페도라 개발판 웍스테이션"
+msgstr "페도라 개발판 워크스테이션"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:19
 msgid "Fedora Rawhide Server"
@@ -2465,7 +2466,7 @@ msgstr "freenix"
 
 #: data/os/gentoo.org/gentoo-rolling.xml.in:6
 msgid "Gentoo Linux"
-msgstr "젠투리눅스"
+msgstr "젠투 리눅스"
 
 #: data/os/gentoo.org/gentoo-rolling.xml.in:7
 msgid "Gentoo Foundation"
@@ -2605,7 +2606,7 @@ msgstr "Generic 리눅스 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
-msgstr "알지 못함"
+msgstr "(알 수 없음)"
 
 #: data/os/mageia.org/mageia-1.xml.in:6
 msgid "Mageia 1"
@@ -2838,7 +2839,7 @@ msgstr "만자로 XFCE (최소)"
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
 msgid "Microsoft MS-DOS 6.22"
-msgstr "MS 도스 6.22"
+msgstr "마이크로소프트 MS-DOS 6.22"
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:7
 msgid "Microsoft"
@@ -2846,7 +2847,7 @@ msgstr "마이크로스프트"
 
 #: data/os/microsoft.com/win-1.0.xml.in:6
 msgid "Microsoft Windows 1.0"
-msgstr "마이크로소프트 윈도우즈 1.0"
+msgstr "마이크로소프트 윈도우 1.0"
 
 #: data/os/microsoft.com/win-1.0.xml.in:7
 #: data/os/microsoft.com/win-10.d/post-installable-drivers.xml.in:7
@@ -2888,67 +2889,67 @@ msgstr "Microsoft Corporation"
 #: data/os/microsoft.com/win-10.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-10.xml.in:6
 msgid "Microsoft Windows 10"
-msgstr "마이크로소프트 윈도우즈 10"
+msgstr "마이크로소프트 윈도우 10"
 
 #: data/os/microsoft.com/win-10.xml.in:18
 msgid "Microsoft Windows 10 Education"
-msgstr "마이크로소프트 윈도우즈 10 교육용"
+msgstr "마이크로소프트 윈도우 10 교육용"
 
 #: data/os/microsoft.com/win-10.xml.in:21
 msgid "Microsoft Windows 10 Enterprise"
-msgstr "마이크로소프트 윈도우즈 10 기업용"
+msgstr "마이크로소프트 윈도우 10 기업용"
 
 #: data/os/microsoft.com/win-10.xml.in:24
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch)"
-msgstr "마이크로소프트 윈도우즈 10 기업용 (장기 지원 부분)"
+msgstr "마이크로소프트 윈도우 10 기업용 (장기 지원판)"
 
 #: data/os/microsoft.com/win-10.xml.in:27
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
-msgstr "마이크로소프트 윈도우즈 10 기업용 ( 장기 지원 부분) 평가판"
+msgstr "마이크로소프트 윈도우 10 기업용 (장기 지원판) 평가판"
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
-msgstr "마이크로소프트 윈도우즈 2.0"
+msgstr "마이크로소프트 윈도우 2.0"
 
 #: data/os/microsoft.com/win-2.1.xml.in:6
 msgid "Microsoft Windows 2.1"
-msgstr "마이크로소프트 윈도우즈 2.1"
+msgstr "마이크로소프트 윈도우 2.1"
 
 #: data/os/microsoft.com/win-2k.xml.in:6
 msgid "Microsoft Windows 2000"
-msgstr "마이크로소프트 윈도우즈 2000"
+msgstr "마이크로소프트 윈도우 2000"
 
 #: data/os/microsoft.com/win-2k12.xml.in:6
 msgid "Microsoft Windows Server 2012"
-msgstr "마이크로소프트 윈도우즈 서버 2012"
+msgstr "마이크로소프트 윈도우 서버 2012"
 
 #: data/os/microsoft.com/win-2k12.xml.in:23
 msgid "Windows Server 2012 Storage"
-msgstr "윈도우즈 서버 2012 저장소"
+msgstr "윈도우 서버 2012 스토릿지"
 
 #: data/os/microsoft.com/win-2k12.xml.in:26
 msgid "Windows Server 2012 for HyperV"
-msgstr "하이퍼브이를 위한 윈도우즈 서버 2012"
+msgstr "HyperV용 윈도우 서버 2012"
 
 #: data/os/microsoft.com/win-2k12.xml.in:29
 msgid "Windows Server 2012 Essentials"
-msgstr "윈도우즈 서버 2012 에센셜"
+msgstr "윈도우 서버 2012 에센셜"
 
 #: data/os/microsoft.com/win-2k12.xml.in:32
 msgid "Windows Server 2012 Volume License"
-msgstr "윈도우즈 서버 2012 볼륨 라이센스"
+msgstr "윈도우 서버 2012 볼륨 라이센스"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:6
 msgid "Microsoft Windows Server 2012 R2"
-msgstr "마이크로소프트 윈도우즈 서버 2012 R2"
+msgstr "마이크로소프트 윈도우 서버 2012 R2"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:15
 msgid "Windows Server 2012 R2 Storage"
-msgstr "윈도우즈 서버 2012 R2 저장소"
+msgstr "윈도우 서버 2012 R2 스토릿지"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:18
 msgid "Windows Server 2012 R2 for HyperV"
-msgstr "하이퍼브이를 위한 윈도우즈 서버 2012 R2"
+msgstr "HyperV용 윈도우 서버 2012 R2"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:21
 msgid "Windows Server 2012 R2 Essentials"
@@ -2956,163 +2957,163 @@ msgstr "윈도우 서버 2012 R2 에센셜"
 
 #: data/os/microsoft.com/win-2k12r2.xml.in:24
 msgid "Windows Server 2012 R2 Volume License"
-msgstr "윈도우즈 서버 2012 R2 볼륨 라이센스"
+msgstr "윈도우 서버 2012 R2 볼륨 라이센스"
 
 #: data/os/microsoft.com/win-2k16.xml.in:6
 msgid "Microsoft Windows Server 2016"
-msgstr "마이크로소프트 윈도우즈 서버 2016"
+msgstr "마이크로소프트 윈도우 서버 2016"
 
 #: data/os/microsoft.com/win-2k16.xml.in:18
 msgid "Windows Server 2016 for HyperV"
-msgstr "하이퍼브이를 위한 윈도우즈 서버 2016"
+msgstr "HyperV용 윈도우 서버 2016"
 
 #: data/os/microsoft.com/win-2k16.xml.in:21
 msgid "Windows Server 2016 Essentials"
-msgstr "윈도우즈 서버 2016 에센셜"
+msgstr "윈도우 서버 2016 에센셜"
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
-msgstr "마이크로소프트 윈도우즈 서버 2019"
+msgstr "마이크로소프트 윈도우 서버 2019"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
 msgid "Microsoft Windows Server 2022"
-msgstr "마이크로소프트 윈도우즈 서버 2022"
+msgstr "마이크로소프트 윈도우 서버 2022"
 
 #: data/os/microsoft.com/win-2k3.xml.in:6
 msgid "Microsoft Windows Server 2003"
-msgstr "마이크로소프트 윈도우즈 서버 2003"
+msgstr "마이크로소프트 윈도우 서버 2003"
 
 #: data/os/microsoft.com/win-2k3r2.xml.in:6
 msgid "Microsoft Windows Server 2003 R2"
-msgstr "마이크로소프트 윈도우즈 서버 2003 R2"
+msgstr "마이크로소프트 윈도우 서버 2003 R2"
 
 #: data/os/microsoft.com/win-2k8.xml.in:6
 msgid "Microsoft Windows Server 2008"
-msgstr "마이크로스프트 윈도우즈 서버 2008"
+msgstr "마이크로스프트 윈도우 서버 2008"
 
 #: data/os/microsoft.com/win-2k8r2.xml.in:6
 msgid "Microsoft Windows Server 2008 R2"
-msgstr "마이크로소프트 윈도우즈 서버 2008 R2"
+msgstr "마이크로소프트 윈도우 서버 2008 R2"
 
 #: data/os/microsoft.com/win-3.1.xml.in:6
 msgid "Microsoft Windows 3.1"
-msgstr "마이크로소프트 윈도우즈 3.1"
+msgstr "마이크로소프트 윈도우 3.1"
 
 #: data/os/microsoft.com/win-7.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-7.xml.in:6
 msgid "Microsoft Windows 7"
-msgstr "마이크로소프트 윈도우즈 7"
+msgstr "마이크로소프트 윈도우 7"
 
 #: data/os/microsoft.com/win-7.xml.in:18
 msgid "Microsoft Windows 7 Debug Checked Build"
-msgstr "마이크로소프트 윈도우즈 7 디버그 확인된 구성"
+msgstr "마이크로소프트 윈도우 7 디버그 확인된 구성"
 
 #: data/os/microsoft.com/win-7.xml.in:21
 msgid "Microsoft Windows 7 Starter"
-msgstr "마이크로소프트 윈도우즈 7 초급"
+msgstr "마이크로소프트 윈도우 7 초급"
 
 #: data/os/microsoft.com/win-7.xml.in:24
 msgid "Microsoft Windows 7 Home Basic"
-msgstr "마이크로소프트 윈도우즈 7 홈 베이직"
+msgstr "마이크로소프트 윈도우 7 홈 베이직"
 
 #: data/os/microsoft.com/win-7.xml.in:27
 msgid "Microsoft Windows 7 Home Premium"
-msgstr "마이크로소프트 윈도우즈 7 홈 프리미엄"
+msgstr "마이크로소프트 윈도우 7 홈 프리미엄"
 
 #: data/os/microsoft.com/win-7.xml.in:30
 msgid "Microsoft Windows 7 Professional"
-msgstr "마이크로소트 윈도우즈 7 프로페셔널"
+msgstr "마이크로소트 윈도우 7 프로페셔널"
 
 #: data/os/microsoft.com/win-7.xml.in:33
 msgid "Microsoft Windows 7 Enterprise"
-msgstr "마이크로소프트 윈도우즈 7 기업용"
+msgstr "마이크로소프트 윈도우 7 기업용"
 
 #: data/os/microsoft.com/win-7.xml.in:36
 msgid "Microsoft Windows 7 Ultimate"
-msgstr "마이크로소프트 윈도우즈 7 얼티메이트"
+msgstr "마이크로소프트 윈도우 7 얼티메이트"
 
 #: data/os/microsoft.com/win-8.1.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.1.xml.in:6
 msgid "Microsoft Windows 8.1"
-msgstr "마이크로소프트 윈도우즈 8.1"
+msgstr "마이크로소프트 윈도우 8.1"
 
 #: data/os/microsoft.com/win-8.1.xml.in:18
 msgid "Microsoft Windows 8.1 Debug Checked Build"
-msgstr "마이크로소프트 윈도우즈 8.1 디버그 확인용 구성"
+msgstr "마이크로소프트 윈도우 8.1 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.1.xml.in:21
 msgid "Microsoft Windows 8.1 Enterprise Debug Checked Build"
-msgstr "마이크로소프트 윈도우즈 8.1 기업용 디버그 확인용 구성"
+msgstr "마이크로소프트 윈도우 8.1 기업용 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.1.xml.in:24
 msgid "Microsoft Windows 8.1 Professional"
-msgstr "마이크로소프트 윈도우즈 8.1 프로페셔널"
+msgstr "마이크로소프트 윈도우 8.1 프로페셔널"
 
 #: data/os/microsoft.com/win-8.1.xml.in:27
 msgid "Microsoft Windows 8.1 Enterprise"
-msgstr "마이크로소프트 윈도우즈 8.1 기업용"
+msgstr "마이크로소프트 윈도우 8.1 기업용"
 
 #: data/os/microsoft.com/win-8.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-8.xml.in:6
 msgid "Microsoft Windows 8"
-msgstr "마이크로소프트 윈도우즈 8"
+msgstr "마이크로소프트 윈도우 8"
 
 #: data/os/microsoft.com/win-8.xml.in:18
 msgid "Microsoft Windows 8 Debug Check Build"
-msgstr "마이크로소프트 윈도우즈 8 디버그 확인용 구성"
+msgstr "마이크로소프트 윈도우 8 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.xml.in:21
 msgid "Microsoft Windows 8 Enterprise"
-msgstr "마이크로소프트 윈도우즈 8 기업용"
+msgstr "마이크로소프트 윈도우 8 기업용"
 
 #: data/os/microsoft.com/win-8.xml.in:24
 msgid "Microsoft Windows 8 Enterprise Debug Check Build"
-msgstr "마이크로소프트 윈도우즈 8 기업용 디버그 확인용 구성"
+msgstr "마이크로소프트 윈도우 8 기업용 디버그 확인용 구성"
 
 #: data/os/microsoft.com/win-8.xml.in:27
 msgid "Microsoft Windows 8 Professional"
-msgstr "마이크로소프트 윈도우즈 8 프로페셔널"
+msgstr "마이크로소프트 윈도우 8 프로페셔널"
 
 #: data/os/microsoft.com/win-95.xml.in:6
 msgid "Microsoft Windows 95"
-msgstr "마이크로소프트 윈도우즈 95"
+msgstr "마이크로소프트 윈도우 95"
 
 #: data/os/microsoft.com/win-98.xml.in:6
 msgid "Microsoft Windows 98"
-msgstr "마이크로소프트 윈도우즈 98"
+msgstr "마이크로소프트 윈도우 98"
 
 #: data/os/microsoft.com/win-me.xml.in:6
 msgid "Microsoft Windows Millennium Edition"
-msgstr "마이크로소프트 윈도우즈 밀레니엄 판"
+msgstr "마이크로소프트 윈도우 밀레니엄 판"
 
 #: data/os/microsoft.com/win-vista.xml.in:6
 msgid "Microsoft Windows Vista"
-msgstr "마이크로소프트 윈도우즈 비스타"
+msgstr "마이크로소프트 윈도우 비스타"
 
 #: data/os/microsoft.com/win-xp.d/post-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.d/pre-installable-drivers.xml.in:6
 #: data/os/microsoft.com/win-xp.xml.in:6
 msgid "Microsoft Windows XP"
-msgstr "마이크로소프트 윈도우즈 XP"
+msgstr "마이크로소프트 윈도우 XP"
 
 #: data/os/microsoft.com/winnt-3.1.xml.in:6
 msgid "Microsoft Windows NT Server 3.1"
-msgstr "마이크로소프트 윈도우즈 NT 서버 3.1"
+msgstr "마이크로소프트 윈도우 NT 서버 3.1"
 
 #: data/os/microsoft.com/winnt-3.5.xml.in:6
 msgid "Microsoft Windows NT Server 3.5"
-msgstr "마이크로소프트 윈도우즈 NT 서버 3.5"
+msgstr "마이크로소프트 윈도우 NT 서버 3.5"
 
 #: data/os/microsoft.com/winnt-3.51.xml.in:6
 msgid "Microsoft Windows NT Server 3.51"
-msgstr "마이크로소프트 윈도우즈 NT 서버 3.51"
+msgstr "마이크로소프트 윈도우 NT 서버 3.51"
 
 #: data/os/microsoft.com/winnt-4.0.xml.in:6
 msgid "Microsoft Windows NT Server 4.0"
-msgstr "마이크로소프트 윈도우즈 NT 서버 4.0"
+msgstr "마이크로소프트 윈도우 NT 서버 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
 msgid "MIRACLE LINUX 8.4"
@@ -3335,7 +3336,7 @@ msgstr "NixOS 불안정판 (플래즈마 5 설치 CD)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
-msgstr "노벨 넷웨어 4"
+msgstr "노벨 네트웨어 4"
 
 #: data/os/novell.com/netware-4.xml.in:7 data/os/novell.com/netware-5.xml.in:7
 #: data/os/novell.com/netware-6.xml.in:7
@@ -3344,11 +3345,11 @@ msgstr "노벨"
 
 #: data/os/novell.com/netware-5.xml.in:6
 msgid "Novell Netware 5"
-msgstr "노벨 넷웨어 5"
+msgstr "노벨 네트웨어 5"
 
 #: data/os/novell.com/netware-6.xml.in:6
 msgid "Novell Netware 6"
-msgstr "노벨 넷웨어 6"
+msgstr "노벨 네트웨어 6"
 
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
@@ -3866,7 +3867,7 @@ msgstr "퓨어 OS 10 KDE"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
-msgstr "Red Hat 기업용 리눅스 2.1 업데이트 1"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 1"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:8
 #: data/os/redhat.com/rhel-2.1.2.xml.in:8
@@ -3931,407 +3932,407 @@ msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
-msgstr "Red Hat 기업용 리눅스 2.1 업데이트 2"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 2"
 
 #: data/os/redhat.com/rhel-2.1.3.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 3"
-msgstr "d Hat 기업용 리눅스 2.1 업데이트 3"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 3"
 
 #: data/os/redhat.com/rhel-2.1.4.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 4"
-msgstr "d Hat 기업용 리눅스 2.1 업데이트 4"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 4"
 
 #: data/os/redhat.com/rhel-2.1.5.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 5"
-msgstr "d Hat 기업용 리눅스 2.1 업데이트 5"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 5"
 
 #: data/os/redhat.com/rhel-2.1.6.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 6"
-msgstr "d Hat 기업용 리눅스 2.1 업데이트 6"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 6"
 
 #: data/os/redhat.com/rhel-2.1.7.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 7"
-msgstr "Red Hat 기업용 리눅스 2.1 업데이트 7"
+msgstr "레드햇 기업용 리눅스 2.1 업데이트 7"
 
 #: data/os/redhat.com/rhel-2.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1"
-msgstr "Red Hat 기업용 리눅스 2.1"
+msgstr "레드햇 기업용 리눅스 2.1"
 
 #: data/os/redhat.com/rhel-3.1.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 1"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 1"
+msgstr "레드햇 기업용 리눅스 3 업데이트 1"
 
 #: data/os/redhat.com/rhel-3.2.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 2"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 2"
+msgstr "레드햇 기업용 리눅스 3 업데이트 2"
 
 #: data/os/redhat.com/rhel-3.3.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 3"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 3"
+msgstr "레드햇 기업용 리눅스 3 업데이트 3"
 
 #: data/os/redhat.com/rhel-3.4.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 4"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 4"
+msgstr "레드햇 기업용 리눅스 3 업데이트 4"
 
 #: data/os/redhat.com/rhel-3.5.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 5"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 5"
+msgstr "레드햇 기업용 리눅스 3 업데이트 5"
 
 #: data/os/redhat.com/rhel-3.6.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 6"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 6"
+msgstr "레드햇 기업용 리눅스 3 업데이트 6"
 
 #: data/os/redhat.com/rhel-3.7.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 7"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 7"
+msgstr "레드햇 기업용 리눅스 3 업데이트 7"
 
 #: data/os/redhat.com/rhel-3.8.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 8"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 8"
+msgstr "레드햇 기업용 리눅스 3 업데이트 8"
 
 #: data/os/redhat.com/rhel-3.9.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 9"
-msgstr "Red Hat 기업용 리눅스 3 업데이트 9"
+msgstr "레드햇 기업용 리눅스 3 업데이트 9"
 
 #: data/os/redhat.com/rhel-3.xml.in:6
 msgid "Red Hat Enterprise Linux 3"
-msgstr "Red Hat 기업용 리눅스 3"
+msgstr "레드햇 기업용 리눅스 3"
 
 #: data/os/redhat.com/rhel-4.0.xml.in:6
 msgid "Red Hat Enterprise Linux 4.0"
-msgstr "Red Hat 기업용 리눅스 4.0"
+msgstr "레드햇 기업용 리눅스 4.0"
 
 #: data/os/redhat.com/rhel-4.1.xml.in:6
 msgid "Red Hat Enterprise Linux 4.1"
-msgstr "Red Hat 기업용 리눅스 4.1"
+msgstr "레드햇 기업용 리눅스 4.1"
 
 #: data/os/redhat.com/rhel-4.2.xml.in:6
 msgid "Red Hat Enterprise Linux 4.2"
-msgstr "Red Hat 기업용 리눅스 4.2"
+msgstr "레드햇 기업용 리눅스 4.2"
 
 #: data/os/redhat.com/rhel-4.3.xml.in:6
 msgid "Red Hat Enterprise Linux 4.3"
-msgstr "Red Hat 기업용 리눅스 4.3"
+msgstr "레드햇 기업용 리눅스 4.3"
 
 #: data/os/redhat.com/rhel-4.4.xml.in:6
 msgid "Red Hat Enterprise Linux 4.4"
-msgstr "Red Hat 기업용 리눅스 4.4"
+msgstr "레드햇 기업용 리눅스 4.4"
 
 #: data/os/redhat.com/rhel-4.5.xml.in:6
 msgid "Red Hat Enterprise Linux 4.5"
-msgstr "Red Hat 기업용 리눅스 4.5"
+msgstr "레드햇 기업용 리눅스 4.5"
 
 #: data/os/redhat.com/rhel-4.6.xml.in:6
 msgid "Red Hat Enterprise Linux 4.6"
-msgstr "Red Hat 기업용 리눅스 4.6"
+msgstr "레드햇 기업용 리눅스 4.6"
 
 #: data/os/redhat.com/rhel-4.7.xml.in:6
 msgid "Red Hat Enterprise Linux 4.7"
-msgstr "Red Hat 기업용 리눅스 4.7"
+msgstr "레드햇 기업용 리눅스 4.7"
 
 #: data/os/redhat.com/rhel-4.8.xml.in:6
 msgid "Red Hat Enterprise Linux 4.8"
-msgstr "Red Hat 기업용 리눅스 4.8"
+msgstr "레드햇 기업용 리눅스 4.8"
 
 #: data/os/redhat.com/rhel-4.9.xml.in:6
 msgid "Red Hat Enterprise Linux 4.9"
-msgstr "Red Hat 기업용 리눅스 4.9"
+msgstr "레드햇 기업용 리눅스 4.9"
 
 #: data/os/redhat.com/rhel-5.0.xml.in:6
 msgid "Red Hat Enterprise Linux 5.0"
-msgstr "Red Hat 기업용 리눅스 5.0"
+msgstr "레드햇 기업용 리눅스 5.0"
 
 #: data/os/redhat.com/rhel-5.1.xml.in:6
 msgid "Red Hat Enterprise Linux 5.1"
-msgstr "Red Hat 기업용 리눅스 5.1"
+msgstr "레드햇 기업용 리눅스 5.1"
 
 #: data/os/redhat.com/rhel-5.10.xml.in:6
 msgid "Red Hat Enterprise Linux 5.10"
-msgstr "Red Hat 기업용 리눅스 5.10"
+msgstr "레드햇 기업용 리눅스 5.10"
 
 #: data/os/redhat.com/rhel-5.11.xml.in:6
 msgid "Red Hat Enterprise Linux 5.11"
-msgstr "Red Hat 기업용 리눅스 5.11"
+msgstr "레드햇 기업용 리눅스 5.11"
 
 #: data/os/redhat.com/rhel-5.2.xml.in:6
 msgid "Red Hat Enterprise Linux 5.2"
-msgstr "Red Hat 기업용 리눅스 5.2"
+msgstr "레드햇 기업용 리눅스 5.2"
 
 #: data/os/redhat.com/rhel-5.3.xml.in:6
 msgid "Red Hat Enterprise Linux 5.3"
-msgstr "Red Hat 기업용 리눅스 5.3"
+msgstr "레드햇 기업용 리눅스 5.3"
 
 #: data/os/redhat.com/rhel-5.4.xml.in:6
 msgid "Red Hat Enterprise Linux 5.4"
-msgstr "Red Hat 기업용 리눅스 5.4"
+msgstr "레드햇 기업용 리눅스 5.4"
 
 #: data/os/redhat.com/rhel-5.5.xml.in:6
 msgid "Red Hat Enterprise Linux 5.5"
-msgstr "Red Hat 기업용 리눅스 5.5"
+msgstr "레드햇 기업용 리눅스 5.5"
 
 #: data/os/redhat.com/rhel-5.6.xml.in:6
 msgid "Red Hat Enterprise Linux 5.6"
-msgstr "Red Hat 기업용 리눅스 5.6"
+msgstr "레드햇 기업용 리눅스 5.6"
 
 #: data/os/redhat.com/rhel-5.7.xml.in:6
 msgid "Red Hat Enterprise Linux 5.7"
-msgstr "Red Hat 기업용 리눅스 5.7"
+msgstr "레드햇 기업용 리눅스 5.7"
 
 #: data/os/redhat.com/rhel-5.8.xml.in:6
 msgid "Red Hat Enterprise Linux 5.8"
-msgstr "Red Hat 기업용 리눅스 5.8"
+msgstr "레드햇 기업용 리눅스 5.8"
 
 #: data/os/redhat.com/rhel-5.9.xml.in:6
 msgid "Red Hat Enterprise Linux 5.9"
-msgstr "Red Hat 기업용 리눅스 5.9"
+msgstr "레드햇 기업용 리눅스 5.9"
 
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 6 Unknown"
-msgstr "Red Hat 기업용 리눅스 6 알지못함"
+msgstr "레드햇 기업용 리눅스 6 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-6.0.xml.in:6
 msgid "Red Hat Enterprise Linux 6.0"
-msgstr "Red Hat 기업용 리눅스 6.0"
+msgstr "레드햇 기업용 리눅스 6.0"
 
 #: data/os/redhat.com/rhel-6.1.xml.in:6
 msgid "Red Hat Enterprise Linux 6.1"
-msgstr "Red Hat 기업용 리눅스 6.1"
+msgstr "레드햇 기업용 리눅스 6.1"
 
 #: data/os/redhat.com/rhel-6.10.xml.in:6
 msgid "Red Hat Enterprise Linux 6.10"
-msgstr "Red Hat 기업용 리눅스 6.10"
+msgstr "레드햇 기업용 리눅스 6.10"
 
 #: data/os/redhat.com/rhel-6.2.xml.in:6
 msgid "Red Hat Enterprise Linux 6.2"
-msgstr "Red Hat 기업용 리눅스 6.2"
+msgstr "레드햇 기업용 리눅스 6.2"
 
 #: data/os/redhat.com/rhel-6.3.xml.in:6
 msgid "Red Hat Enterprise Linux 6.3"
-msgstr "Red Hat 기업용 리눅스 6.3"
+msgstr "레드햇 기업용 리눅스 6.3"
 
 #: data/os/redhat.com/rhel-6.4.xml.in:6
 msgid "Red Hat Enterprise Linux 6.4"
-msgstr "Red Hat 기업용 리눅스 6.4"
+msgstr "레드햇 기업용 리눅스 6.4"
 
 #: data/os/redhat.com/rhel-6.5.xml.in:6
 msgid "Red Hat Enterprise Linux 6.5"
-msgstr "Red Hat 기업용 리눅스 6.5"
+msgstr "레드햇 기업용 리눅스 6.5"
 
 #: data/os/redhat.com/rhel-6.6.xml.in:6
 msgid "Red Hat Enterprise Linux 6.6"
-msgstr "Red Hat 기업용 리눅스 6.6"
+msgstr "레드햇 기업용 리눅스 6.6"
 
 #: data/os/redhat.com/rhel-6.7.xml.in:6
 msgid "Red Hat Enterprise Linux 6.7"
-msgstr "Red Hat 기업용 리눅스 6.7"
+msgstr "레드햇 기업용 리눅스 6.7"
 
 #: data/os/redhat.com/rhel-6.8.xml.in:6
 msgid "Red Hat Enterprise Linux 6.8"
-msgstr "Red Hat 기업용 리눅스 6.8"
+msgstr "레드햇 기업용 리눅스 6.8"
 
 #: data/os/redhat.com/rhel-6.9.xml.in:6
 msgid "Red Hat Enterprise Linux 6.9"
-msgstr "Red Hat 기업용 리눅스 6.9"
+msgstr "레드햇 기업용 리눅스 6.9"
 
 #: data/os/redhat.com/rhel-7-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 7 Unknown"
-msgstr "Red Hat 기업용 리눅스 7 알지못함"
+msgstr "레드햇 기업용 리눅스 7 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux 7.0"
-msgstr "Red Hat 기업용 리눅스 7.0"
+msgstr "레드햇 기업용 리눅스 7.0"
 
 #: data/os/redhat.com/rhel-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux 7.1"
-msgstr "Red Hat 기업용 리눅스 7.1"
+msgstr "레드햇 기업용 리눅스 7.1"
 
 #: data/os/redhat.com/rhel-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux 7.2"
-msgstr "Red Hat 기업용 리눅스 7.2"
+msgstr "레드햇 기업용 리눅스 7.2"
 
 #: data/os/redhat.com/rhel-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux 7.3"
-msgstr "Red Hat 기업용 리눅스 7.3"
+msgstr "레드햇 기업용 리눅스 7.3"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux 7.4"
-msgstr "Red Hat 기업용 리눅스 7.4"
+msgstr "레드햇 기업용 리눅스 7.4"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:18
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
-msgstr "Red Hat 기업용 리눅스 7.4 대체 구조"
+msgstr "레드햇 기업용 리눅스 7.4 대체 아키텍처"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:6
 msgid "Red Hat Enterprise Linux 7.5"
-msgstr "Red Hat 기업용 리눅스 7.5"
+msgstr "레드햇 기업용 리눅스 7.5"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:18
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
-msgstr "Red Hat 기업용 리눅스 7.5 대체 구조"
+msgstr "레드햇 기업용 리눅스 7.5 대체 아키텍처"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:6
 msgid "Red Hat Enterprise Linux 7.6"
-msgstr "Red Hat 기업용 리눅스 7.6"
+msgstr "레드햇 기업용 리눅스 7.6"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:18
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
-msgstr "Red Hat 기업용 리눅스 7.6 대체 구조"
+msgstr "레드햇 기업용 리눅스 7.6 대체 아키텍처"
 
 #: data/os/redhat.com/rhel-7.7.xml.in:6
 msgid "Red Hat Enterprise Linux 7.7"
-msgstr "Red Hat 기업용 리눅스 7.7"
+msgstr "레드햇 기업용 리눅스 7.7"
 
 #: data/os/redhat.com/rhel-7.8.xml.in:6
 msgid "Red Hat Enterprise Linux 7.8"
-msgstr "Red Hat 기업용 리눅스 7.8"
+msgstr "레드햇 기업용 리눅스 7.8"
 
 #: data/os/redhat.com/rhel-7.9.xml.in:6
 msgid "Red Hat Enterprise Linux 7.9"
-msgstr "Red Hat 기업용 리눅스 7.9"
+msgstr "레드햇 기업용 리눅스 7.9"
 
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 8 Unknown"
-msgstr "Red Hat 기업용 리눅스 8 알지못함"
+msgstr "레드햇 기업용 리눅스 8 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-8.0.xml.in:6
 msgid "Red Hat Enterprise Linux 8.0"
-msgstr "Red Hat 기업용 리눅스 8 .0"
+msgstr "레드햇 기업용 리눅스 8 .0"
 
 #: data/os/redhat.com/rhel-8.1.xml.in:6
 msgid "Red Hat Enterprise Linux 8.1"
-msgstr "Red Hat 기업용 리눅스 8 .1"
+msgstr "레드햇 기업용 리눅스 8 .1"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
-msgstr "Red Hat 기업용 리눅스 8 .2"
+msgstr "레드햇 기업용 리눅스 8 .2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "Red Hat 기업용 리눅스 8.3"
+msgstr "레드햇 기업용 리눅스 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
 msgid "Red Hat Enterprise Linux 8.4"
-msgstr "Red Hat 기업용 리눅스 8.4"
+msgstr "레드햇 기업용 리눅스 8.4"
 
 #: data/os/redhat.com/rhel-8.5.xml.in:6
 msgid "Red Hat Enterprise Linux 8.5"
-msgstr "Red Hat 기업용 리눅스 8 .5"
+msgstr "레드햇 기업용 리눅스 8 .5"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
-msgstr "Red Hat 기업용 리눅스 9 알지못함"
+msgstr "레드햇 기업용 리눅스 9 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
 msgid "Red Hat Enterprise Linux 9.0"
-msgstr "Red Hat 기업용 리눅스 9.0"
+msgstr "레드햇 기업용 리눅스 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
-msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.0"
+msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.0"
 
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.1"
-msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.1"
+msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.1"
 
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.2"
-msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.2"
+msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.2"
 
 #: data/os/redhat.com/rhel-atomic-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.3"
-msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.3"
+msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.3"
 
 #: data/os/redhat.com/rhel-atomic-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.4"
-msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.4"
+msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.4"
 
 #: data/os/redhat.com/rhel-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux Unknown"
-msgstr "Red Hat 기업용 리눅스 알지못함"
+msgstr "레드햇 기업용 리눅스 (알 수 없음)"
 
 #: data/os/redhat.com/rhl-1.0.xml.in:6
 msgid "Red Hat Linux 1.0"
-msgstr "Red Hat 리눅스 1.0"
+msgstr "레드햇 리눅스 1.0"
 
 #: data/os/redhat.com/rhl-1.1.xml.in:6
 msgid "Red Hat Linux 1.1"
-msgstr "Red Hat 리눅스 1.1"
+msgstr "레드햇 리눅스 1.1"
 
 #: data/os/redhat.com/rhl-2.0.xml.in:6
 msgid "Red Hat Linux 2.0"
-msgstr "Red Hat 리눅스 2.0"
+msgstr "레드햇 리눅스 2.0"
 
 #: data/os/redhat.com/rhl-2.1.xml.in:6
 msgid "Red Hat Linux 2.1"
-msgstr "Red Hat 리눅스 2.1"
+msgstr "레드햇 리눅스 2.1"
 
 #: data/os/redhat.com/rhl-3.0.3.xml.in:6
 msgid "Red Hat Linux 3.0.3"
-msgstr "Red Hat 리눅스 3.0.3"
+msgstr "레드햇 리눅스 3.0.3"
 
 #: data/os/redhat.com/rhl-4.0.xml.in:6
 msgid "Red Hat Linux 4.0"
-msgstr "Red Hat 리눅스 4.0"
+msgstr "레드햇 리눅스 4.0"
 
 #: data/os/redhat.com/rhl-4.1.xml.in:6
 msgid "Red Hat Linux 4.1"
-msgstr "Red Hat 리눅스 4.1"
+msgstr "레드햇 리눅스 4.1"
 
 #: data/os/redhat.com/rhl-4.2.xml.in:6
 msgid "Red Hat Linux 4.2"
-msgstr "Red Hat 리눅스 4.2"
+msgstr "레드햇 리눅스 4.2"
 
 #: data/os/redhat.com/rhl-5.0.xml.in:6
 msgid "Red Hat Linux 5.0"
-msgstr "Red Hat 리눅스 5.0"
+msgstr "레드햇 리눅스 5.0"
 
 #: data/os/redhat.com/rhl-5.1.xml.in:6
 msgid "Red Hat Linux 5.1"
-msgstr "Red Hat 리눅스 5.1"
+msgstr "레드햇 리눅스 5.1"
 
 #: data/os/redhat.com/rhl-5.2.xml.in:6
 msgid "Red Hat Linux 5.2"
-msgstr "Red Hat 리눅스 5.2"
+msgstr "레드햇 리눅스 5.2"
 
 #: data/os/redhat.com/rhl-6.0.xml.in:6
 msgid "Red Hat Linux 6.0"
-msgstr "Red Hat 리눅스 6.0"
+msgstr "레드햇 리눅스 6.0"
 
 #: data/os/redhat.com/rhl-6.1.xml.in:6
 msgid "Red Hat Linux 6.1"
-msgstr "Red Hat 리눅스 6.1"
+msgstr "레드햇 리눅스 6.1"
 
 #: data/os/redhat.com/rhl-6.2.xml.in:6
 msgid "Red Hat Linux 6.2"
-msgstr "Red Hat 리눅스 6.2"
+msgstr "레드햇 리눅스 6.2"
 
 #: data/os/redhat.com/rhl-7.1.xml.in:6
 msgid "Red Hat Linux 7.1"
-msgstr "Red Hat 리눅스 7.1"
+msgstr "레드햇 리눅스 7.1"
 
 #: data/os/redhat.com/rhl-7.2.xml.in:6
 msgid "Red Hat Linux 7.2"
-msgstr "Red Hat 리눅스 7.2"
+msgstr "레드햇 리눅스 7.2"
 
 #: data/os/redhat.com/rhl-7.3.xml.in:6
 msgid "Red Hat Linux 7.3"
-msgstr "Red Hat 리눅스 7.3"
+msgstr "레드햇 리눅스 7.3"
 
 #: data/os/redhat.com/rhl-7.xml.in:6
 msgid "Red Hat Linux 7"
-msgstr "Red Hat 리눅스 7"
+msgstr "레드햇 리눅스 7"
 
 #: data/os/redhat.com/rhl-8.0.xml.in:6
 msgid "Red Hat Linux 8.0"
-msgstr "Red Hat 리눅스 8.0"
+msgstr "레드햇 리눅스 8.0"
 
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
-msgstr "Red Hat 리눅스 9"
+msgstr "레드햇 리눅스 9"
 
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:6
 msgid "Rocky Linux 8 Unknown"
-msgstr "록키 리눅스 8 알지못함"
+msgstr "록키 리눅스 8 (알 수 없음)"
 
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
@@ -4369,7 +4370,7 @@ msgstr "록키 리눅스 8.6"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
-msgstr "록키 리눅스 9 알지못함"
+msgstr "록키 리눅스 9 (알 수 없음)"
 
 #: data/os/rockylinux.org/rocky-9.0.xml.in:6
 msgid "Rocky Linux 9.0"
@@ -4377,7 +4378,7 @@ msgstr "록키 리눅스 9.0"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
-msgstr "록키 리눅스 알지못함"
+msgstr "록키 리눅스 (알 수 없음)"
 
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:6
 msgid "Scientific Linux 5.0"
@@ -4507,7 +4508,7 @@ msgstr "사이언티픽 리눅스 6.9"
 
 #: data/os/scientificlinux.org/scientificlinux-7-unknown.xml.in:6
 msgid "Scientific Linux 7 Unknown"
-msgstr "사이언티픽 리눅스 7.0 알지못함"
+msgstr "사이언티픽 리눅스 7.0 (알 수 없음)"
 
 #: data/os/scientificlinux.org/scientificlinux-7.0.xml.in:6
 msgid "Scientific Linux 7.0"
@@ -4616,11 +4617,11 @@ msgstr "수세 CaaS 기반 3.0"
 
 #: data/os/suse.com/caasp-unknown.xml.in:6
 msgid "SUSE CaaS Platform Unknown"
-msgstr "수세 CaaS 기반 알지못함"
+msgstr "수세 CaaS 기반 (알 수 없음)"
 
 #: data/os/suse.com/sle-15-unknown.xml.in:6
 msgid "SUSE Linux Enterprise 15 Unknown"
-msgstr "수세 리눅스 기업용 15 알지못함"
+msgstr "수세 리눅스 기업용 15 (알 수 없음)"
 
 #: data/os/suse.com/sle-15.1.xml.in:6
 msgid "SUSE Linux Enterprise 15 SP1"
@@ -4640,7 +4641,7 @@ msgstr "수세 리눅스 기업용 15"
 
 #: data/os/suse.com/sle-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Unknown"
-msgstr "수세 리눅스 기업용 알지못함"
+msgstr "수세 리눅스 기업용 (알 수 없음)"
 
 #: data/os/suse.com/sled-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 10 SP1"
@@ -4684,7 +4685,7 @@ msgstr "수세 리눅스 기업용 데스크탑 11"
 
 #: data/os/suse.com/sled-12-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 Unknown"
-msgstr "수세 리눅스 기업용 데스크탑 12 알지못함"
+msgstr "수세 리눅스 기업용 데스크탑 12 (알 수 없음)"
 
 #: data/os/suse.com/sled-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Desktop 12 SP1"
@@ -4760,7 +4761,7 @@ msgstr "수세 리눅스 기업용 서버 11"
 
 #: data/os/suse.com/sles-12-unknown.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 Unknown"
-msgstr "수세 리눅스 기업용 서버 12 알지못함"
+msgstr "수세 리눅스 기업용 서버 12 (알 수 없음)"
 
 #: data/os/suse.com/sles-12.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 12 SP1"
