@@ -35,14 +35,6 @@
       <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
     </devices>
 
-    <media arch="x86_64" live="true" installer-script="false">
-      <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-amd64.iso</url>
-      <iso>
-        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
-      </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
-    </media>
     <media arch="x86_64" live="true">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-desktop-amd64.iso</url>
       <iso>
@@ -53,6 +45,14 @@
       <installer>
         <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       </installer>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64">
       <url>http://old-releases.ubuntu.com/releases/bionic/ubuntu-18.04.3-server-arm64.iso</url>

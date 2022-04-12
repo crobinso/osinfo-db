@@ -48,17 +48,17 @@
     -->
 
     <media arch="x86_64" live="true" installer-script="false">
-      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04.4-live-server-amd64.iso</url>
+      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04.4-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 20.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu 20.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04.4-desktop-amd64.iso</url>
+      <url>http://releases.ubuntu.com/20.04/ubuntu-20.04.4-live-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 20.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu-Server 20.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>

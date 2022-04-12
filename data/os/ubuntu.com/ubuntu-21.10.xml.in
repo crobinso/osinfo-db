@@ -41,14 +41,6 @@
             - https://discourse.ubuntu.com/t/please-review-design-for-automated-server-installs
     -->
 
-    <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/21.10/ubuntu-21.10-live-server-amd64.iso</url>
-      <iso>
-        <volume-id>Ubuntu-Server 21.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
-      </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
-    </media>
     <media arch="x86_64" live="true">
       <url>https://releases.ubuntu.com/21.10/ubuntu-21.10-desktop-amd64.iso</url>
       <iso>
@@ -59,6 +51,14 @@
       <installer>
         <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       </installer>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <url>https://releases.ubuntu.com/21.10/ubuntu-21.10-live-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 21.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
       <url>https://cdimage.ubuntu.com/ubuntu/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso</url>
