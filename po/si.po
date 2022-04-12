@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-11 15:05+0100\n"
+"POT-Creation-Date: 2022-02-15 13:13+0100\n"
 "PO-Revision-Date: 2021-08-19 07:04+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/"
@@ -409,18 +409,51 @@ msgstr ""
 msgid "Alpinelinux 3.9 Xen"
 msgstr ""
 
-#: data/os/altlinux.org/alt-8.0.xml.in:6
-msgid "ALT 8 Education"
+#: data/os/altlinux.org/alt-10.0.xml.in:6
+msgid "ALT 10.0"
 msgstr ""
 
-#: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
-#: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
-#: data/os/altlinux.org/alt-9.1.xml.in:8 data/os/altlinux.org/alt-9.2.xml.in:8
+#: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
+#: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
+#: data/os/altlinux.org/alt-9.0.xml.in:8 data/os/altlinux.org/alt-9.1.xml.in:8
+#: data/os/altlinux.org/alt-9.2.xml.in:8
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
 msgid "BaseALT"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:19
+msgid "ALT Workstation 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:22
+msgid "ALT Workstation K 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:25
+msgid "ALT Education 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:28
+msgid "ALT Server 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:31
+msgid "ALT Virtualization Server 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:34
+msgid "ALT Simply 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-10.0.xml.in:37
+msgid "ALT Simply live 10.0"
+msgstr ""
+
+#: data/os/altlinux.org/alt-8.0.xml.in:6
+msgid "ALT 8 Education"
 msgstr ""
 
 #: data/os/altlinux.org/alt-8.1.xml.in:6

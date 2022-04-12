@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-11 15:05+0100\n"
+"POT-Creation-Date: 2022-02-15 13:13+0100\n"
 "PO-Revision-Date: 2021-12-20 09:16+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -411,19 +411,68 @@ msgstr "Alpinelinux 3.9 Virtual"
 msgid "Alpinelinux 3.9 Xen"
 msgstr "Alpinelinux 3.9 Xen"
 
-#: data/os/altlinux.org/alt-8.0.xml.in:6
-msgid "ALT 8 Education"
-msgstr "ALT 8 Education"
+#: data/os/altlinux.org/alt-10.0.xml.in:6
+#, fuzzy
+#| msgid "ALT 9.0"
+msgid "ALT 10.0"
+msgstr "ALT 9.0"
 
-#: data/os/altlinux.org/alt-8.0.xml.in:8 data/os/altlinux.org/alt-8.1.xml.in:8
-#: data/os/altlinux.org/alt-8.2.xml.in:8 data/os/altlinux.org/alt-9.0.xml.in:8
-#: data/os/altlinux.org/alt-9.1.xml.in:8 data/os/altlinux.org/alt-9.2.xml.in:8
+#: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
+#: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
+#: data/os/altlinux.org/alt-9.0.xml.in:8 data/os/altlinux.org/alt-9.1.xml.in:8
+#: data/os/altlinux.org/alt-9.2.xml.in:8
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
 msgid "BaseALT"
 msgstr "BaseALT"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "ALT Workstation 10.0"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation K 9.0"
+msgid "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:25
+#, fuzzy
+#| msgid "ALT Education 9.0"
+msgid "ALT Education 10.0"
+msgstr "ALT Education 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:28
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "ALT Server 10.0"
+msgstr "ALT Server 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:31
+#, fuzzy
+#| msgid "ALT Virtualization Server 9.0"
+msgid "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:34
+#, fuzzy
+#| msgid "ALT Simply 9.0"
+msgid "ALT Simply 10.0"
+msgstr "ALT Simply 9.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:37
+#, fuzzy
+#| msgid "ALT Simply live 9.0"
+msgid "ALT Simply live 10.0"
+msgstr "ALT Simply live 9.0"
+
+#: data/os/altlinux.org/alt-8.0.xml.in:6
+msgid "ALT 8 Education"
+msgstr "ALT 8 Education"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:6
 msgid "ALT 8.1"
