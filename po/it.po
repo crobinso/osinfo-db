@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Milo Casagrande <milo@milo.name>, 2018. #zanata, 2020.
 # Milo Casagrande <milo@milo.name>, 2019. #zanata, 2020.
-# Pino Toscano <toscano.pino@tiscali.it>, 2020, 2021.
+# Pino Toscano <toscano.pino@tiscali.it>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-15 13:13+0100\n"
-"PO-Revision-Date: 2021-12-20 09:16+0000\n"
+"PO-Revision-Date: 2022-02-20 12:16+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -412,10 +412,8 @@ msgid "Alpinelinux 3.9 Xen"
 msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 10.0"
-msgstr "ALT 9.0"
+msgstr "ALT 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
@@ -429,46 +427,32 @@ msgid "BaseALT"
 msgstr "BaseALT"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "ALT Workstation 10.0"
-msgstr "ALT Workstation 9.0"
+msgstr "ALT Workstation 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K 10.0"
-msgstr "ALT Workstation K 9.0"
+msgstr "ALT Workstation K 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
-#, fuzzy
-#| msgid "ALT Education 9.0"
 msgid "ALT Education 10.0"
-msgstr "ALT Education 9.0"
+msgstr "ALT Education 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
-#, fuzzy
-#| msgid "ALT Server 9.0"
 msgid "ALT Server 10.0"
-msgstr "ALT Server 9.0"
+msgstr "ALT Server 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:31
-#, fuzzy
-#| msgid "ALT Virtualization Server 9.0"
 msgid "ALT Virtualization Server 10.0"
-msgstr "ALT Virtualization Server 9.0"
+msgstr "ALT Virtualization Server 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:34
-#, fuzzy
-#| msgid "ALT Simply 9.0"
 msgid "ALT Simply 10.0"
-msgstr "ALT Simply 9.0"
+msgstr "ALT Simply 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:37
-#, fuzzy
-#| msgid "ALT Simply live 9.0"
 msgid "ALT Simply live 10.0"
-msgstr "ALT Simply live 9.0"
+msgstr "ALT Simply live 10.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -3530,10 +3514,8 @@ msgstr "OpenBSD 6.9"
 
 #: data/os/openbsd.org/openbsd-7.0.xml.in:6
 #: data/os/openbsd.org/openbsd-7.0.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 5.0"
 msgid "OpenBSD 7.0"
-msgstr "OpenBSD 5.0"
+msgstr "OpenBSD 7.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -3877,16 +3859,12 @@ msgid "Purism, SPC"
 msgstr "Purism, SPC"
 
 #: data/os/pureos.net/pureos-10.xml.in:28
-#, fuzzy
-#| msgid "CentOS 7 (GNOME)"
 msgid "PureOS 10 GNOME"
-msgstr "CentOS 7 (GNOME)"
+msgstr "PureOS 10 (GNOME)"
 
 #: data/os/pureos.net/pureos-10.xml.in:31
-#, fuzzy
-#| msgid "PureOS"
 msgid "PureOS 10 KDE"
-msgstr "PureOS"
+msgstr "PureOS 10 (KDE)"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
