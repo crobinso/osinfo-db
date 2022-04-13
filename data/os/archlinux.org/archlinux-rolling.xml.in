@@ -47,6 +47,7 @@
     </resources>
 
     <media arch="x86_64" live="true">
+      <url>https://geo.mirror.pkgbuild.com/iso/latest/archlinux-x86_64.iso</url>
       <iso>
         <volume-id>ARCH_\d{6}</volume-id>
         <publisher-id>ARCH LINUX &lt;HTTPS?://(WWW.)?ARCHLINUX.ORG&gt;</publisher-id>
