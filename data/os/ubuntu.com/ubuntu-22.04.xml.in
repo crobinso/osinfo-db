@@ -16,7 +16,6 @@
     <upgrades id="http://ubuntu.com/ubuntu/21.10"/>
     <derives-from id="http://ubuntu.com/ubuntu/21.10"/>
 
-    <release-status>prerelease</release-status>
     <release-date>2022-04-21</release-date>
 
     <resources arch="all">
