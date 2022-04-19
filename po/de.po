@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-15 13:13+0100\n"
+"POT-Creation-Date: 2022-04-18 09:40+0200\n"
 "PO-Revision-Date: 2021-12-12 15:15+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
@@ -1143,23 +1143,23 @@ msgstr ""
 msgid "Debian 10 (No Cloud)"
 msgstr "Debian Woody"
 
-#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:33
-#: data/os/debian.org/debian-11.xml.in:36
+#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:37
+#: data/os/debian.org/debian-11.xml.in:40
 #, fuzzy
 msgid "Debian 11"
 msgstr "Debian Bo"
 
-#: data/os/debian.org/debian-11.xml.in:39
+#: data/os/debian.org/debian-11.xml.in:43
 #, fuzzy
 msgid "Debian 11 (Generic)"
 msgstr "Debian Bo"
 
-#: data/os/debian.org/debian-11.xml.in:42
+#: data/os/debian.org/debian-11.xml.in:46
 #, fuzzy
 msgid "Debian 11 (Generic Cloud)"
 msgstr "Debian Bo"
 
-#: data/os/debian.org/debian-11.xml.in:45
+#: data/os/debian.org/debian-11.xml.in:49
 #, fuzzy
 #| msgid "Debian Woody"
 msgid "Debian 11 (No Cloud)"
@@ -1213,12 +1213,12 @@ msgstr "Debian Bo"
 msgid "Debian 8"
 msgstr "Debian Bo"
 
-#: data/os/debian.org/debian-9.xml.in:7 data/os/debian.org/debian-9.xml.in:47
-#: data/os/debian.org/debian-9.xml.in:50
+#: data/os/debian.org/debian-9.xml.in:7 data/os/debian.org/debian-9.xml.in:48
+#: data/os/debian.org/debian-9.xml.in:51
 msgid "Debian 9"
 msgstr ""
 
-#: data/os/debian.org/debian-9.xml.in:53
+#: data/os/debian.org/debian-9.xml.in:54
 msgid "Debian 9 (OpenStack)"
 msgstr ""
 
@@ -5175,6 +5175,7 @@ msgstr ""
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5279,6 +5280,10 @@ msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:8
 msgid "Ubuntu 21.10"
+msgstr ""
+
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
+msgid "Ubuntu 22.04 LTS"
 msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
