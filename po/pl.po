@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-18 09:40+0200\n"
-"PO-Revision-Date: 2022-02-15 17:40+0000\n"
+"PO-Revision-Date: 2022-04-18 09:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -4994,10 +4994,8 @@ msgid "Ubuntu 21.10"
 msgstr "Ubuntu 21.10"
 
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
-#, fuzzy
-#| msgid "Ubuntu 12.04 LTS"
 msgid "Ubuntu 22.04 LTS"
-msgstr "Ubuntu 12.04 LTS"
+msgstr "Ubuntu 22.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
