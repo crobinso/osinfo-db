@@ -32,6 +32,10 @@
       </recommended>
     </resources>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1050" supported="false"/> <!-- virtio1.0-gpu -->
+    </devices>
+
     <!-- installer-script limitations
             Server-Live media run with the new subiquity installer.
             The new style for automated install provided isn't supported
