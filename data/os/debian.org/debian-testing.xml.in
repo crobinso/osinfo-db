@@ -28,9 +28,31 @@
     <variant id="universal">
       <name>Debian testing</name>
     </variant>
+    <variant id="universal-netinst">
+      <name>Debian testing</name>
+    </variant>
     <variant id="openstack">
       <name>Debian testing (OpenStack)</name>
     </variant>
+
+    <media arch="x86_64">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing amd64 n</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/i386/iso-cd/debian-testing-i386-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing i386 n</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
 
     <media arch="x86_64">
       <variant id="universal"/>
