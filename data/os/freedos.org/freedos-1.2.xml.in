@@ -20,7 +20,7 @@
 
     <media arch="x86_64">
       <variant id="standard"/>
-      <url>http://www.freedos.org/download/download/FD12CD.iso</url>
+      <url>https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12CD.iso</url>
       <iso>
         <volume-id>FD-SETUP</volume-id>
         <system-id>LINUX</system-id>
@@ -29,7 +29,7 @@
 
     <media arch="x86_64">
       <variant id="legacy"/>
-      <url>http://www.freedos.org/download/download/FD12LGCY.iso</url>
+      <url>https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12LGCY.iso</url>
       <iso>
         <volume-id>FDI-CD</volume-id>
         <system-id>LINUX</system-id>
