@@ -14,28 +14,28 @@
     <release-date>2019-11-04</release-date>
 
     <media arch="x86_64">
-      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-dvd1.iso</url>
+      <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-dvd1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>12_1_RELEASE_AMD64_DVD</volume-id>
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-disc1.iso</url>
+      <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-amd64-disc1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>12_1_RELEASE_AMD64_CD</volume-id>
       </iso>
     </media>
     <media arch="i686">
-      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-dvd1.iso</url>
+      <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-dvd1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>12_1_RELEASE_I386_DVD</volume-id>
       </iso>
     </media>
     <media arch="i686">
-            <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-disc1.iso</url>
+      <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/12.1/FreeBSD-12.1-RELEASE-i386-disc1.iso</url>
       <iso>
         <system-id>FreeBSD</system-id>
         <volume-id>12_1_RELEASE_I386_CD</volume-id>
