@@ -65,7 +65,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.04/release/ubuntu-21.04-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.04(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
@@ -73,7 +72,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.04/release/ubuntu-21.04-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.04(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
@@ -81,7 +79,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.04/release/ubuntu-21.04-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.04(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>
