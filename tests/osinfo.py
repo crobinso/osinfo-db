@@ -74,7 +74,8 @@ class Os(_XMLBase):
         devicelist = self._root.find('devices')
         if devicelist is not None:
             for device in devicelist.findall('device'):
-                devices.append(device.get('id'))
+                if device.get("supported") != "false":
+                    devices.append(device.get('id'))
         return devices
 
     @_cache_property
