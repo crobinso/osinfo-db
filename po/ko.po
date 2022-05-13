@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-11 07:37+0200\n"
-"PO-Revision-Date: 2022-04-19 19:17+0000\n"
+"PO-Revision-Date: 2022-05-13 02:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3328,22 +3328,16 @@ msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgstr "NixOS 21.05 (플래즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 21.11"
-msgstr "NixOS 21.05"
+msgstr "NixOS 21.11"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 21.11 (minimal installation CD)"
-msgstr "NixOS 21.05 (최소 설치 CD)"
+msgstr "NixOS 21.11 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.05 (플래즈마 5 설치 CD)"
+msgstr "NixOS 21.15 (플래즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
