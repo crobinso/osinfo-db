@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-18 09:40+0200\n"
+"POT-Creation-Date: 2022-05-11 07:37+0200\n"
 "PO-Revision-Date: 2022-04-19 19:17+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -1137,10 +1137,12 @@ msgid "Debian 9 (OpenStack)"
 msgstr "Debian 9 (OpenStack)"
 
 #: data/os/debian.org/debian-testing.xml.in:6
+#: data/os/debian.org/debian-testing.xml.in:29
+#: data/os/debian.org/debian-testing.xml.in:32
 msgid "Debian testing"
 msgstr "Debian testing"
 
-#: data/os/debian.org/debian-testing.xml.in:29
+#: data/os/debian.org/debian-testing.xml.in:35
 msgid "Debian testing (OpenStack)"
 msgstr "Debian testing (OpenStack)"
 
@@ -3283,6 +3285,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-21.05.xml.in:8
+#: data/os/nixos.org/nixos-21.11.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3307,6 +3310,7 @@ msgstr "NixOS 20.09 (мінімальний КД для встановлення
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-21.05.xml.in:33
+#: data/os/nixos.org/nixos-21.11.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS нестабільна (КД з GNOME для встановлення)"
@@ -3325,6 +3329,24 @@ msgstr "NixOS 21.05 (мінімальний КД для встановлення
 
 #: data/os/nixos.org/nixos-21.05.xml.in:36
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgstr "NixOS 21.05 (КД для встановлення з Плазмою 5)"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:6
+#, fuzzy
+#| msgid "NixOS 21.05"
+msgid "NixOS 21.11"
+msgstr "NixOS 21.05"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:30
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 21.11 (minimal installation CD)"
+msgstr "NixOS 21.05 (мінімальний КД для встановлення)"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:36
+#, fuzzy
+#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgstr "NixOS 21.05 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6

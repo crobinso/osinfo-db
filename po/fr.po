@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-18 09:40+0200\n"
+"POT-Creation-Date: 2022-05-11 07:37+0200\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -1280,10 +1280,12 @@ msgid "Debian 9 (OpenStack)"
 msgstr ""
 
 #: data/os/debian.org/debian-testing.xml.in:6
+#: data/os/debian.org/debian-testing.xml.in:29
+#: data/os/debian.org/debian-testing.xml.in:32
 msgid "Debian testing"
 msgstr "Debian testing"
 
-#: data/os/debian.org/debian-testing.xml.in:29
+#: data/os/debian.org/debian-testing.xml.in:35
 #, fuzzy
 #| msgid "Debian testing"
 msgid "Debian testing (OpenStack)"
@@ -3470,6 +3472,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-20.03.xml.in:8
 #: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-21.05.xml.in:8
+#: data/os/nixos.org/nixos-21.11.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3494,6 +3497,7 @@ msgstr "NixOS 20.09 (CD d’installation minimal)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-21.05.xml.in:33
+#: data/os/nixos.org/nixos-21.11.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS Unstable (CD d’installation GNOME)"
@@ -3518,6 +3522,24 @@ msgstr "NixOS 20.03 (CD d’installation minimal)"
 #, fuzzy
 #| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:6
+#, fuzzy
+#| msgid "NixOS 20.03"
+msgid "NixOS 21.11"
+msgstr "NixOS 20.03"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:30
+#, fuzzy
+#| msgid "NixOS 20.03 (minimal installation CD)"
+msgid "NixOS 21.11 (minimal installation CD)"
+msgstr "NixOS 20.03 (CD d’installation minimal)"
+
+#: data/os/nixos.org/nixos-21.11.xml.in:36
+#, fuzzy
+#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
+msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
