@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-11 07:37+0200\n"
-"PO-Revision-Date: 2022-04-19 19:17+0000\n"
+"PO-Revision-Date: 2022-05-11 07:10+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3332,22 +3332,16 @@ msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgstr "NixOS 21.05 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 21.11"
-msgstr "NixOS 21.05"
+msgstr "NixOS 21.11"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 21.11 (minimal installation CD)"
-msgstr "NixOS 21.05 (мінімальний КД для встановлення)"
+msgstr "NixOS 21.11 (мінімальний КД для встановлення)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.05 (КД для встановлення з Плазмою 5)"
+msgstr "NixOS 21.11 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
