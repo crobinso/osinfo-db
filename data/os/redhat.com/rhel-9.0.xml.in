@@ -11,7 +11,7 @@
     <codename>Plow</codename>
     <upgrades id="http://redhat.com/rhel/8.4"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2022-05-17</release-date>
 
     <firmware arch="x86_64" type="efi"/>
 
