@@ -1,0 +1,53 @@
+[checksums]
+images/boot.iso = sha256:7920d7537d9deb8aa2bdb79019fb9919c2036e070cf33c3b946affd9d213cbf4
+images/efiboot.img = sha256:7c6f249327fdfa9962784d805ff9ac67512305b3750af271611d4b4e2548f389
+images/install.img = sha256:6ffd5721773f9cbf4e3079cf511f5fbc2449405e87dfc713111803deddc9978c
+images/pxeboot/initrd.img = sha256:0036fe5060717403969ee7448dfd4169a478e53f12ed88819bdc35dcf17acb06
+images/pxeboot/vmlinuz = sha256:9c1841c1419568fdf50e8c9b0a3a097658b19d8b74f570d456a5702638328d82
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Fedora
+name = Fedora ELN
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1654536192
+variant = BaseOS
+variants = BaseOS
+version = ELN
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Fedora
+short = Fedora
+version = ELN
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1654536192
+platforms = aarch64
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
