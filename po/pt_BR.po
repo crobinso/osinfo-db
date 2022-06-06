@@ -1,11 +1,11 @@
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-11 07:37+0200\n"
-"PO-Revision-Date: 2021-09-06 16:04+0000\n"
+"PO-Revision-Date: 2022-06-06 04:18+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/libosinfo/osinfo-db/pt_BR/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -336,16 +336,12 @@ msgid "Alpinelinux 3.14 Xen"
 msgstr "Alpinelinux 3.14 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.5"
 msgid "Alpine Linux 3.15"
-msgstr "Alpine Linux 3.5"
+msgstr "Alpine Linux 3.15"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.15 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.15 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:37
 #, fuzzy
