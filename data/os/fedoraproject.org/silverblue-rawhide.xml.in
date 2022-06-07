@@ -8,8 +8,8 @@
     <vendor>Fedora Project</vendor>
     <family>linux</family>
     <distro>fedora</distro>
-    <upgrades id="http://fedoraproject.org/silverblue/35"/>
-    <derives-from id="http://fedoraproject.org/silverblue/35"/>
+    <upgrades id="http://fedoraproject.org/silverblue/36"/>
+    <derives-from id="http://fedoraproject.org/silverblue/36"/>
 
     <release-status>prerelease</release-status>
 
