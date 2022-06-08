@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-11 07:37+0200\n"
+"POT-Creation-Date: 2022-06-06 08:33+0200\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -242,6 +242,7 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -393,6 +394,31 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:43
 #, fuzzy
 msgid "Alpinelinux 3.15 Xen"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:7
+#, fuzzy
+msgid "Alpine Linux 3.16"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:34
+#, fuzzy
+msgid "Alpinelinux 3.16 Standard"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:37
+#, fuzzy
+msgid "Alpinelinux 3.16 Extended"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:40
+#, fuzzy
+msgid "Alpinelinux 3.16 Virtual"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
+#, fuzzy
+msgid "Alpinelinux 3.16 Xen"
 msgstr "ALT Linux 3.0"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -1874,6 +1900,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/fedora-33.xml.in:8
 #: data/os/fedoraproject.org/fedora-34.xml.in:8
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
+#: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1890,6 +1917,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-33.xml.in:8
 #: data/os/fedoraproject.org/silverblue-34.xml.in:8
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
+#: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2224,6 +2252,30 @@ msgstr "Fedora 25 Server"
 msgid "Fedora 35 Everything"
 msgstr "Fedora 23 Server"
 
+#: data/os/fedoraproject.org/fedora-36.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Linux 6.0"
+msgid "Fedora Linux 36"
+msgstr "Red Hat Linux 6.0"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:17
+#, fuzzy
+#| msgid "Fedora 21 Workstation"
+msgid "Fedora Workstation 36"
+msgstr "Fedora 21 Workstation"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:20
+#: data/os/fedoraproject.org/fedora-36.xml.in:23
+#, fuzzy
+#| msgid "Fedora 21 Server"
+msgid "Fedora Server 36"
+msgstr "Fedora 21 Server"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:26
+#, fuzzy
+msgid "Fedora Everything 36"
+msgstr "Fedora 21 Server"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -2310,6 +2362,11 @@ msgstr "Fedora Core 3"
 msgid "Fedora Silverblue 35"
 msgstr "Fedora Core 3"
 
+#: data/os/fedoraproject.org/silverblue-36.xml.in:6
+#, fuzzy
+msgid "Fedora Silverblue 36"
+msgstr "Fedora Core 3"
+
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 #, fuzzy
 msgid "Fedora Silverblue Rawhide"
@@ -2340,6 +2397,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
 #: data/os/freebsd.org/freebsd-12.3.xml.in:8
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
+#: data/os/freebsd.org/freebsd-13.1.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2455,6 +2513,12 @@ msgstr "FreeBSD 1.0"
 #, fuzzy
 #| msgid "FreeBSD 1.0"
 msgid "FreeBSD 13.0"
+msgstr "FreeBSD 1.0"
+
+#: data/os/freebsd.org/freebsd-13.1.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 1.0"
+msgid "FreeBSD 13.1"
 msgstr "FreeBSD 1.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
@@ -3504,6 +3568,7 @@ msgstr ""
 #: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-21.05.xml.in:8
 #: data/os/nixos.org/nixos-21.11.xml.in:8
+#: data/os/nixos.org/nixos-22.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3529,6 +3594,7 @@ msgstr ""
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-21.05.xml.in:33
 #: data/os/nixos.org/nixos-21.11.xml.in:33
+#: data/os/nixos.org/nixos-22.05.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr ""
@@ -3559,6 +3625,18 @@ msgstr ""
 
 #: data/os/nixos.org/nixos-21.11.xml.in:36
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-22.05.xml.in:6
+msgid "NixOS 22.05"
+msgstr ""
+
+#: data/os/nixos.org/nixos-22.05.xml.in:30
+msgid "NixOS 22.05 (minimal installation CD)"
+msgstr ""
+
+#: data/os/nixos.org/nixos-22.05.xml.in:36
+msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr ""
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
@@ -4210,6 +4288,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
+#: data/os/redhat.com/rhel-8.6.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
@@ -4536,6 +4615,11 @@ msgstr "Red Hat Enterprise Linux 4.0"
 #: data/os/redhat.com/rhel-8.5.xml.in:6
 #, fuzzy
 msgid "Red Hat Enterprise Linux 8.5"
+msgstr "Red Hat Enterprise Linux 4.0"
+
+#: data/os/redhat.com/rhel-8.6.xml.in:6
+#, fuzzy
+msgid "Red Hat Enterprise Linux 8.6"
 msgstr "Red Hat Enterprise Linux 4.0"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6

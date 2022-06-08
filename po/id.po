@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-11 07:37+0200\n"
+"POT-Creation-Date: 2022-06-06 08:33+0200\n"
 "PO-Revision-Date: 2021-12-04 09:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -234,6 +234,7 @@ msgstr "Alpine Linux 3.10"
 #: data/os/alpinelinux.org/alpinelinux-3.13.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -357,6 +358,36 @@ msgstr "Alpinelinux 3.15 Virtual"
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:43
 msgid "Alpinelinux 3.15 Xen"
 msgstr "Alpinelinux 3.15 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.6"
+msgid "Alpine Linux 3.16"
+msgstr "Alpine Linux 3.6"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Standard"
+msgid "Alpinelinux 3.16 Standard"
+msgstr "Alpinelinux 3.10 Standard"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Extended"
+msgid "Alpinelinux 3.16 Extended"
+msgstr "Alpinelinux 3.10 Extended"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Virtual"
+msgid "Alpinelinux 3.16 Virtual"
+msgstr "Alpinelinux 3.10 Virtual"
+
+#: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Xen"
+msgid "Alpinelinux 3.16 Xen"
+msgstr "Alpinelinux 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -1752,6 +1783,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/fedora-33.xml.in:8
 #: data/os/fedoraproject.org/fedora-34.xml.in:8
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
+#: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1768,6 +1800,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/silverblue-33.xml.in:8
 #: data/os/fedoraproject.org/silverblue-34.xml.in:8
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
+#: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2066,6 +2099,31 @@ msgstr "Fedora 35 Server"
 msgid "Fedora 35 Everything"
 msgstr "Fedora 35 Everything"
 
+#: data/os/fedoraproject.org/fedora-36.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Linux 6.0"
+msgid "Fedora Linux 36"
+msgstr "Red Hat Linux 6.0"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:17
+#, fuzzy
+#| msgid "Fedora 21 Workstation"
+msgid "Fedora Workstation 36"
+msgstr "Fedora 21 Workstation"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:20
+#: data/os/fedoraproject.org/fedora-36.xml.in:23
+#, fuzzy
+#| msgid "Fedora 21 Server"
+msgid "Fedora Server 36"
+msgstr "Fedora 21 Server"
+
+#: data/os/fedoraproject.org/fedora-36.xml.in:26
+#, fuzzy
+#| msgid "Fedora 29 Everything"
+msgid "Fedora Everything 36"
+msgstr "Fedora 29 Everything"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -2142,6 +2200,12 @@ msgstr "Fedora Silverblue 34"
 msgid "Fedora Silverblue 35"
 msgstr "Fedora Silverblue 35"
 
+#: data/os/fedoraproject.org/silverblue-36.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 30"
+msgid "Fedora Silverblue 36"
+msgstr "Fedora Silverblue 30"
+
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
 msgstr "Fedora Silverblue Rawhide"
@@ -2170,6 +2234,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
 #: data/os/freebsd.org/freebsd-12.3.xml.in:8
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
+#: data/os/freebsd.org/freebsd-13.1.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2277,6 +2342,12 @@ msgstr "FreeBSD 12.0"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
 msgid "FreeBSD 13.0"
+msgstr "FreeBSD 13.0"
+
+#: data/os/freebsd.org/freebsd-13.1.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 13.0"
+msgid "FreeBSD 13.1"
 msgstr "FreeBSD 13.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
@@ -3307,6 +3378,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-20.09.xml.in:8
 #: data/os/nixos.org/nixos-21.05.xml.in:8
 #: data/os/nixos.org/nixos-21.11.xml.in:8
+#: data/os/nixos.org/nixos-22.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3332,6 +3404,7 @@ msgstr "NixOS 20.09 (CD instalasi minimal)"
 #: data/os/nixos.org/nixos-20.09.xml.in:33
 #: data/os/nixos.org/nixos-21.05.xml.in:33
 #: data/os/nixos.org/nixos-21.11.xml.in:33
+#: data/os/nixos.org/nixos-22.05.xml.in:33
 #: data/os/nixos.org/nixos-unstable.xml.in:30
 msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS Unstable (CD instalasi GNOME)"
@@ -3368,6 +3441,24 @@ msgstr "NixOS 21.05 (CD instalasi minimal)"
 #, fuzzy
 #| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
+msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
+
+#: data/os/nixos.org/nixos-22.05.xml.in:6
+#, fuzzy
+#| msgid "NixOS 21.05"
+msgid "NixOS 22.05"
+msgstr "NixOS 21.05"
+
+#: data/os/nixos.org/nixos-22.05.xml.in:30
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 22.05 (minimal installation CD)"
+msgstr "NixOS 21.05 (CD instalasi minimal)"
+
+#: data/os/nixos.org/nixos-22.05.xml.in:36
+#, fuzzy
+#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
@@ -3971,6 +4062,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
+#: data/os/redhat.com/rhel-8.6.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
@@ -4279,6 +4371,12 @@ msgstr "Red Hat Enterprise Linux 8.4"
 #: data/os/redhat.com/rhel-8.5.xml.in:6
 msgid "Red Hat Enterprise Linux 8.5"
 msgstr "Red Hat Enterprise Linux 8.5"
+
+#: data/os/redhat.com/rhel-8.6.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 8.0"
+msgid "Red Hat Enterprise Linux 8.6"
+msgstr "Red Hat Enterprise Linux 8.0"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
