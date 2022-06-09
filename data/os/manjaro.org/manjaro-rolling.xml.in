@@ -25,47 +25,22 @@
       </recommended>
     </resources>
 
-    <variant id="architect">
-      <name>Manjaro Architect</name>
-    </variant>
-
     <variant id="gnome">
       <name>Manjaro GNOME</name>
-    </variant>
-
-    <variant id="gnome-minimal">
-      <name>Manjaro GNOME (Minimal)</name>
     </variant>
 
     <variant id="kde">
       <name>Manjaro KDE</name>
     </variant>
 
-    <variant id="kde-minimal">
-      <name>Manjaro KDE (Minimal)</name>
-    </variant>
-
     <variant id="xfce">
       <name>Manjaro XFCE</name>
     </variant>
 
-    <variant id="xfce-minimal">
-      <name>Manjaro XFCE (Minimal)</name>
-    </variant>
-
-
-    <media arch="x86_64" live="true">
-      <variant id="architect"/>
-      <iso>
-        <volume-id>MANJARO_ARCHITECT_</volume-id>
-      </iso>
-      <kernel>boot/vmlinuz-x86_64</kernel>
-      <initrd>boot/initramfs-x86_64.img</initrd>
-    </media>
 
     <media arch="x86_64" live="true">
       <variant id="gnome"/>
-      <url>https://download.manjaro.org/gnome/21.0.5/manjaro-gnome-21.0.5-210519-linux510.iso</url>
+      <url>https://manjaro.org/download/gnome</url>
       <iso>
         <volume-id>MANJARO_GNOME_</volume-id>
       </iso>
@@ -74,18 +49,8 @@
     </media>
 
     <media arch="x86_64" live="true">
-      <variant id="gnome-minimal"/>
-      <url>https://download.manjaro.org/gnome/21.0.5/manjaro-gnome-21.0.5-minimal-210519-linux510.iso</url>
-      <iso>
-        <volume-id>MANJARO_GNOMEM_</volume-id>
-      </iso>
-      <kernel>boot/vmlinuz-x86_64</kernel>
-      <initrd>boot/initramfs-x86_64.img</initrd>
-    </media>
-
-    <media arch="x86_64" live="true">
       <variant id="kde"/>
-      <url>https://download.manjaro.org/kde/21.0.5/manjaro-kde-21.0.5-210519-linux510.iso</url>
+      <url>https://manjaro.org/download/plasma</url>
       <iso>
         <volume-id>MANJARO_KDE_</volume-id>
       </iso>
@@ -94,30 +59,10 @@
     </media>
 
     <media arch="x86_64" live="true">
-      <variant id="kde-minimal"/>
-      <url>https://download.manjaro.org/kde/21.0.5/manjaro-kde-21.0.5-minimal-210519-linux510.iso</url>
-      <iso>
-        <volume-id>MANJARO_KDEM_</volume-id>
-      </iso>
-      <kernel>boot/vmlinuz-x86_64</kernel>
-      <initrd>boot/initramfs-x86_64.img</initrd>
-    </media>
-
-    <media arch="x86_64" live="true">
       <variant id="xfce"/>
-      <url>https://download.manjaro.org/xfce/21.0.5/manjaro-xfce-21.0.5-210519-linux510.iso</url>
+      <url>https://manjaro.org/download/xfce</url>
       <iso>
         <volume-id>MANJARO_XFCE_</volume-id>
-      </iso>
-      <kernel>boot/vmlinuz-x86_64</kernel>
-      <initrd>boot/initramfs-x86_64.img</initrd>
-    </media>
-
-    <media arch="x86_64" live="true">
-      <variant id="xfce-minimal"/>
-      <url>https://download.manjaro.org/xfce/21.0.5/manjaro-xfce-21.0.5-minimal-210519-linux510.iso</url>
-      <iso>
-        <volume-id>MANJARO_XFCEM_</volume-id>
       </iso>
       <kernel>boot/vmlinuz-x86_64</kernel>
       <initrd>boot/initramfs-x86_64.img</initrd>
