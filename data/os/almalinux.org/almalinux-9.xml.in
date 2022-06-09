@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <os id="http://almalinux.org/almalinux/9">
+    <short-id>almalinux9</short-id>
+    <name>AlmaLinux 9</name>
+    <version>9</version>
+    <vendor>AlmaLinux OS Foundation</vendor>
+    <family>linux</family>
+    <distro>almalinux</distro>
+    <clones id="http://redhat.com/rhel/9.0"/>
+    <release-date>2022-05-26</release-date>
+
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>AlmaLinux-9.*-x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <volume-id>AlmaLinux-9.*-aarch64.*</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <iso>
+        <volume-id>AlmaLinux-9.*-ppc64le.*</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <iso>
+        <volume-id>AlmaLinux-9.*-s390x.*</volume-id>
+      </iso>
+    </media>
+
+
+    <tree arch="x86_64">
+      <url>https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^9$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://repo.almalinux.org/almalinux/9/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^9$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>https://repo.almalinux.org/almalinux/9/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^9$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://repo.almalinux.org/almalinux/9/BaseOS/s390x/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^9$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/AlmaLinux-9-GenericCloud-latest.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/9/cloud/aarch64/images/AlmaLinux-9-GenericCloud-latest.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/9/cloud/ppc64le/images/AlmaLinux-9-GenericCloud-latest.ppc64le.qcow2</url>
+    </image>
+
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="ppc64le">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>340</n-cpus>
+        <ram>17592186044416</ram>
+      </maximum>
+
+      <network-install>
+        <ram>2147483648</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+
+    <cloud-image-username>almalinux</cloud-image-username>
+
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+  </os>
+</libosinfo>

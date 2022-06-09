@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:fd5c6c007225ca02533f99635595e94ab3712b5348c436f0f7a2d1b60c0addc5
+images/install.img = sha256:b848deb3c3fdd13973d0888813b7dc7d7aad0b6fa8198fb83e5713a08cf0a787
+ppc/ppc64/initrd.img = sha256:3ba7578a080411bb408b80ae10bf2af31fe9c29fd2660a80eab95c452677ed22
+ppc/ppc64/vmlinuz = sha256:9619cc18928840400b7e9929c26367f79c773d2117ee0e32c7a9a3e0aca41fb9
+
+[general]
+arch = ppc64le
+family = AlmaLinux
+name = AlmaLinux 9
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1653490631
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 9
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = AlmaLinux
+short = AlmaLinux
+version = 9
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1653490631
+platforms = ppc64le
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/ppc64le/os/Packages
+repository = ../../../AppStream/ppc64le/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
