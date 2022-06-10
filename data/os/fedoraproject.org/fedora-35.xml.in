@@ -122,6 +122,32 @@
       </installer>
     </media>
 
+    <!-- DVD -->
+    <media arch="s390x" installer-script="false">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Server/s390x/iso/Fedora-Server-dvd-s390x-35-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-s390x-35</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="s390x" installer-script="false">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Server/s390x/iso/Fedora-Server-netinst-s390x-35-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-s390x-35</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
     <!-- Everything -->
     <media arch="x86_64">
       <variant id="everything-netinst"/>
@@ -157,6 +183,16 @@
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <media arch="s390x" installer-script="false">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Everything/s390x/iso/Fedora-Everything-netinst-s390x-35-1.2.iso</url>
+      <iso>
+        <volume-id>Fedora-E-dvd-s390x-35</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
     <tree arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/35/Server/x86_64/os</url>
       <variant id="server"/>
@@ -186,6 +222,17 @@
         <family>Fedora</family>
         <version>35</version>
         <arch>armhfp</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Server/s390x/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>35</version>
+        <arch>s390x</arch>
         <variant>Server</variant>
       </treeinfo>
     </tree>
@@ -223,12 +270,27 @@
       </treeinfo>
     </tree>
 
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Everything/s390x/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>35</version>
+        <arch>s390x</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/35/Cloud/x86_64/images/Fedora-Cloud-Base-35-1.2.x86_64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/35/Cloud/aarch64/images/Fedora-Cloud-Base-35-1.2.aarch64.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Cloud/s390x/images/Fedora-Cloud-Base-35-1.2.s390x.qcow2</url>
     </image>
 
     <!-- No install media or tree is provided for Fedora 34 Cloud variant -->
