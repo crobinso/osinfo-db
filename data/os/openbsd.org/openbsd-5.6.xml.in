@@ -38,7 +38,7 @@
 
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.6/i386/cd56.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.6/i386/cd56.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2014 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/i386    5\.6 boot-only CD</volume-id>
@@ -49,7 +49,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.6/amd64/cd56.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.6/amd64/cd56.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2014 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/amd64   5\.6 boot-only CD</volume-id>

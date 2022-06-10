@@ -19,7 +19,7 @@
     </variant>
 
     <media arch="i686">
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/i386/install59.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.9/i386/install59.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2016 Theo de Raadt, The OpenBSD project</publisher-id>
         <system-id>OpenBSD</system-id>
@@ -29,7 +29,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/amd64/install59.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.9/amd64/install59.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2016 Theo de Raadt, The OpenBSD project</publisher-id>
         <system-id>OpenBSD</system-id>
@@ -40,7 +40,7 @@
 
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/i386/cd59.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.9/i386/cd59.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2016 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/i386    5\.9 boot-only CD</volume-id>
@@ -51,7 +51,7 @@
 
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://ftp.eu.openbsd.org/pub/OpenBSD/5.9/amd64/cd59.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/5.9/amd64/cd59.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2016 Theo de Raadt, The OpenBSD project</publisher-id>
         <volume-id>OpenBSD/amd64   5\.9 boot-only CD</volume-id>
