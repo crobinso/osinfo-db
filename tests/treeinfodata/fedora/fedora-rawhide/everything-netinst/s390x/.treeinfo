@@ -1,0 +1,61 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:34a03a45e83e8616d17aaa19ffe15824c8dac833cfc8520e262e6979f1e1a5d3
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:14a2405b8cbb83b3d052be31739c12369b46e0841783cc3325eacf06c7e23a75
+images/initrd.img = sha256:11ba3b5ec748469441671b2a4030c9302797c2de0b05a2cbe8c2350b696a3679
+images/install.img = sha256:bdb3bed1cd134964254ebe32c1217037f14c5569f5405cae9411b32292dccf63
+images/kernel.img = sha256:c832d06e7ee8d938eb69a4d3702fe5e03c9b2bb078e8be2758ca08e85aa511e4
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Fedora
+name = Fedora Rawhide
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1654069145
+variant = Everything
+variants = Everything
+version = Rawhide
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[release]
+name = Fedora
+short = Fedora
+version = Rawhide
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1654069145
+platforms = s390x
+variants = Everything
+
+[variant-Everything]
+id = Everything
+name = Everything
+packages = Packages
+repository = .
+type = variant
+uid = Everything
+

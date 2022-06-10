@@ -69,6 +69,17 @@
       </treeinfo>
     </tree>
 
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/development/rawhide/Server/s390x/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>s390x</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
     <tree arch="x86_64">
       <variant id="everything-netinst"/>
       <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/x86_64/os</url>
@@ -98,6 +109,17 @@
         <family>Fedora</family>
         <version>Rawhide</version>
         <arch>armhfp</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/development/rawhide/Everything/s390x/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>Rawhide</version>
+        <arch>s390x</arch>
         <variant>Everything</variant>
       </treeinfo>
     </tree>
