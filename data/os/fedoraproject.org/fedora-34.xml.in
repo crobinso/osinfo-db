@@ -32,7 +32,7 @@
     <!-- Live -->
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-34.*</volume-id>
       </iso>
@@ -45,7 +45,7 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-dvd-x86_64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-dvd-x86_64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-34</volume-id>
         <system-id>LINUX</system-id>
@@ -60,7 +60,7 @@
     <!-- Network Installer !-->
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-netinst-x86_64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/x86_64/iso/Fedora-Server-netinst-x86_64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-34</volume-id>
       </iso>
@@ -74,7 +74,7 @@
     <!-- DVD -->
     <media arch="aarch64" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/aarch64/iso/Fedora-Server-dvd-aarch64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/aarch64/iso/Fedora-Server-dvd-aarch64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-34</volume-id>
         <system-id>LINUX</system-id>
@@ -89,7 +89,7 @@
     <!-- Network Installer !-->
     <media arch="aarch64" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/aarch64/iso/Fedora-Server-netinst-aarch64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/aarch64/iso/Fedora-Server-netinst-aarch64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-34</volume-id>
       </iso>
@@ -100,7 +100,7 @@
     <!-- DVD -->
     <media arch="armv7l" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/armhfp/iso/Fedora-Server-dvd-armhfp-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/armhfp/iso/Fedora-Server-dvd-armhfp-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-armhfp-34</volume-id>
         <system-id>LINUX</system-id>
@@ -112,7 +112,7 @@
     <!-- Network Installer !-->
     <media arch="armv7l" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/armhfp/iso/Fedora-Server-netinst-armhfp-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/armhfp/iso/Fedora-Server-netinst-armhfp-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-armhfp-34</volume-id>
       </iso>
@@ -126,7 +126,7 @@
     <!-- Everything -->
     <media arch="x86_64">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-x86_64-34</volume-id>
       </iso>
@@ -140,7 +140,7 @@
 
     <media arch="aarch64" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/aarch64/iso/Fedora-Everything-netinst-aarch64-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/aarch64/iso/Fedora-Everything-netinst-aarch64-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-aarch64-34</volume-id>
       </iso>
@@ -150,7 +150,7 @@
 
     <media arch="armv7l" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/armhfp/iso/Fedora-Everything-netinst-armhfp-34-1.2.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/armhfp/iso/Fedora-Everything-netinst-armhfp-34-1.2.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-armhfp-34</volume-id>
       </iso>
@@ -159,7 +159,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/x86_64/os</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -170,7 +170,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/aarch64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/aarch64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -181,7 +181,7 @@
     </tree>
 
     <tree arch="armv7l">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Server/armhfp/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Server/armhfp/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -192,7 +192,7 @@
     </tree>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/x86_64/os</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -203,7 +203,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/aarch64/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/aarch64/os/</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -214,7 +214,7 @@
     </tree>
 
     <tree arch="armv7l">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/34/Everything/armhfp/os/</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/34/Everything/armhfp/os/</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -225,11 +225,11 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/34/Cloud/x86_64/images/Fedora-Cloud-Base-34-1.2.x86_64.qcow2</url>
+      <url>https://dl.fedoraproject.org/pub/archive/fedora/linux/releases/34/Cloud/x86_64/images/Fedora-Cloud-Base-34-1.2.x86_64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/34/Cloud/aarch64/images/Fedora-Cloud-Base-34-1.2.aarch64.qcow2</url>
+      <url>https://dl.fedoraproject.org/pub/archive/fedora/linux/releases/34/Cloud/aarch64/images/Fedora-Cloud-Base-34-1.2.aarch64.qcow2</url>
     </image>
 
     <!-- No install media or tree is provided for Fedora 34 Cloud variant -->
