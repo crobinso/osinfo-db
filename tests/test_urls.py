@@ -41,7 +41,7 @@ initrd_content_types = {
 def _check_url(url, url_type):
     logging.info("url: %s, type: %s", url, url_type)
     headers = {'user-agent': 'Wget/1.0'}
-    response = requests.head(url, allow_redirects=True, headers=headers)
+    response = requests.head(url, allow_redirects=True, headers=headers, timeout=30)
     content_type = response.headers.get('content-type')
     if content_type:
         try:
