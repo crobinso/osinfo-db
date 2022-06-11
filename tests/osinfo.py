@@ -222,6 +222,10 @@ class Image(_XMLBase):
             return variant.attrib['id']
         return None
 
+    @_cache_property
+    def format(self):
+        return self._root.attrib.get("format", None)
+
 
 class Media(_XMLBase):
     @_cache_property
