@@ -15,6 +15,9 @@ class UrlType(enum.Enum):
     URL_GENERIC = 1
     URL_ISO = 2
     URL_INITRD = 3
+    URL_DISK_RAW = 4
+    URL_DISK_QCOW2 = 5
+    URL_DISK_VMDK = 6
 
 
 iso_content_types = {
@@ -38,11 +41,31 @@ initrd_content_types = {
 }
 
 
+raw_content_types = {
+}
+
+
+qcow2_content_types = {
+    # generic data
+    'application/octet-stream',
+}
+
+
+vmdk_content_types = {
+}
+
+
 def _is_content_type_allowed(content_type, url_type):
     if url_type == UrlType.URL_ISO:
         return content_type in iso_content_types
     if url_type == UrlType.URL_INITRD:
         return content_type in initrd_content_types
+    if url_type == UrlType.URL_DISK_RAW:
+        return content_type in raw_content_types
+    if url_type == UrlType.URL_DISK_QCOW2:
+        return content_type in qcow2_content_types
+    if url_type == UrlType.URL_DISK_VMDK:
+        return content_type in vmdk_content_types
     return True
 
 
@@ -74,7 +97,17 @@ def _collect_os_urls():
 
     for osxml in util.DataFiles.oses():
         urls = []
-        urls.extend([(i.url, UrlType.URL_GENERIC) for i in osxml.images if i.url])
+        for i in osxml.images:
+            if not i.url:
+                continue
+            url_type = UrlType.URL_GENERIC
+            if i.format == 'raw':
+                url_type = UrlType.URL_DISK_RAW
+            elif i.format == 'qcow2':
+                url_type = UrlType.URL_DISK_QCOW2
+            elif i.format == 'vmdk':
+                url_type = UrlType.URL_DISK_VMDK
+            urls.append((i.url, url_type))
         urls.extend([(m.url, UrlType.URL_ISO) for m in osxml.medias if m.url])
         for t in osxml.trees:
             if not t.url:
