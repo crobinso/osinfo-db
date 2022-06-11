@@ -38,6 +38,14 @@ initrd_content_types = {
 }
 
 
+def _is_content_type_allowed(content_type, url_type):
+    if url_type == UrlType.URL_ISO:
+        return content_type in iso_content_types
+    if url_type == UrlType.URL_INITRD:
+        return content_type in initrd_content_types
+    return True
+
+
 def _check_url(url, url_type):
     logging.info("url: %s, type: %s", url, url_type)
     headers = {'user-agent': 'Wget/1.0'}
@@ -53,10 +61,8 @@ def _check_url(url, url_type):
                  response.status_code, content_type)
     if not response.ok:
         return False
-    if url_type == UrlType.URL_ISO:
-        return content_type in iso_content_types
-    if url_type == UrlType.URL_INITRD and content_type:
-        return content_type in initrd_content_types
+    if content_type and not _is_content_type_allowed(content_type, url_type):
+        return False
     return True
 
 
