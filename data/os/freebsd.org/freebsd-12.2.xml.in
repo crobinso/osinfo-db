@@ -12,6 +12,7 @@
     <derives-from id="http://freebsd.org/freebsd/12.1"/>
 
     <release-date>2020-10-27</release-date>
+    <eol-date>2022-03-31</eol-date>
 
     <media arch="x86_64">
       <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/12.2/FreeBSD-12.2-RELEASE-amd64-dvd1.iso</url>
