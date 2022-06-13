@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://libosinfo.org/linux/2022">
+    <short-id>linux2022</short-id>
+    <name>Generic Linux 2022</name>
+    <version>2022</version>
+    <vendor>Libosinfo</vendor>
+    <family>linux</family>
+    <derives-from id="http://ubuntu.com/ubuntu/22.04"/>
+
+    <release-date>2022-01-01</release-date>
+    <eol-date>2027-01-01</eol-date>
+
+    <resources arch='all' inherit='true'/>
+
+    <!-- ubuntu 22.04, which we inherit from, has virtio1.0-gpu
+         explicitly disabled, due to an apparent bug on ubuntu side.
+         However virtio-gpu has been working in similar distros for years.
+         So we explicitly enable it for this generic entry. -->
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1050" supported="true"/> <!-- virtio1.0-gpu -->
+    </devices>
+  </os>
+</libosinfo>
