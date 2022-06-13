@@ -1,0 +1,33 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: openSUSE_Leap_15.4_XFCE_Live
+Volume set id: 
+Publisher id: SUSE LINUX GMBH
+Data preparer id: KIWI - HTTPS://GITHUB.COM/OSINSIDE/KIWI
+Application id: 0X68CCA439
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 439965
+El Torito VD version 1 found, boot catalog is in sector 188
+
+Joliet with UCS level 3 found.
+SUSP signatures version 1 found
+Rock Ridge signatures version 1 found
+Rock Ridge id 'RRIP_1991A'
+Eltorito validation header:
+    Hid 1
+    Arch 239 (Unknown Arch)
+    ID ''
+    Cksum AA 66 OK
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect FFFFA000
+        Bootoff 6B69D 439965
