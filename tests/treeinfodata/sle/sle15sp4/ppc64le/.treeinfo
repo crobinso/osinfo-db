@@ -1,0 +1,18 @@
+[header]
+version = 1.0
+
+[general]
+arch = ppc64le
+family = SUSE Linux Enterprise Server
+name = SUSE Linux Enterprise
+version = 15.4
+platforms = ppc64le
+
+[release]
+name = SUSE Linux Enterprise
+short = sle
+version = 15 SP4
+
+[images-ppc64le]
+kernel = boot/ppc64le/linux
+initrd = boot/ppc64le/initrd

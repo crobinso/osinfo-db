@@ -1,0 +1,18 @@
+[header]
+version = 1.0
+
+[general]
+arch = s390x
+family = SUSE Linux Enterprise Server
+name = SUSE Linux Enterprise
+version = 15.4
+platforms = s390x
+
+[release]
+name = SUSE Linux Enterprise
+short = sle
+version = 15 SP4
+
+[images-s390x]
+kernel = boot/s390x/linux
+initrd = boot/s390x/initrd
