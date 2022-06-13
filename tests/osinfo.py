@@ -79,6 +79,16 @@ class Os(_XMLBase):
         return devices
 
     @_cache_property
+    def devices_unsupported(self):
+        devices = []
+        devicelist = self._root.find('devices')
+        if devicelist is not None:
+            for device in devicelist.findall('device'):
+                if device.get("supported") == "false":
+                    devices.append(device.get('id'))
+        return devices
+
+    @_cache_property
     def images(self):
         images = []
         for image in self._root.findall('image'):
