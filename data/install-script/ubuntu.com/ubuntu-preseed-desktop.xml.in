@@ -65,6 +65,7 @@
               <xsl:template match="/install-script-config">
 # Configuration inspired by
 # https://bazaar.launchpad.net/~ubuntu-test-case-dev/ubuntu-test-cases/desktop/view/head:/preseeds/default.cfg
+# Note that some d-i preseed options will be ignored: https://wiki.ubuntu.com/UbiquityAutomation
 d-i pkgsel/include string ubuntu-desktop
 d-i debian-installer/locale string <xsl:value-of select="config/l10n-language"/>
 d-i netcfg/get_hostname string <xsl:call-template name="hostname"/>
@@ -102,8 +103,9 @@ ubiquity ubiquity/summary note
 ubiquity ubiquity/reboot boolean true
 
 # Create an osinfo-install-successful file in /root
-d-i preseed/late_command string in-target \
-    touch /root/osinfo-install-successful
+ubiquity ubiquity/success_command string \
+  touch /target/root/osinfo-install-successful
+
                 </xsl:template>
             </xsl:stylesheet>
         </template>
