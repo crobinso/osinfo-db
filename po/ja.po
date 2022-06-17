@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:33+0200\n"
+"POT-Creation-Date: 2022-06-16 05:51+0200\n"
 "PO-Revision-Date: 2021-04-05 14:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -230,6 +230,16 @@ msgstr "Red Hat Linux 7"
 #| msgid "Red Hat Linux 7"
 msgid "AlmaLinux"
 msgstr "Red Hat Linux 7"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:5
+#, fuzzy
+#| msgid "Red Hat Linux 7"
+msgid "AlmaLinux 9"
+msgstr "Red Hat Linux 7"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:7
+msgid "AlmaLinux OS Foundation"
+msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 #, fuzzy
@@ -2167,16 +2177,16 @@ msgstr "Fedora 12"
 msgid "Fedora 34"
 msgstr "Fedora 34"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:17
+#: data/os/fedoraproject.org/fedora-34.xml.in:18
 msgid "Fedora 34 Workstation"
 msgstr "Fedora 34 Workstation"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:20
-#: data/os/fedoraproject.org/fedora-34.xml.in:23
+#: data/os/fedoraproject.org/fedora-34.xml.in:21
+#: data/os/fedoraproject.org/fedora-34.xml.in:24
 msgid "Fedora 34 Server"
 msgstr "Fedora 12 サーバ"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:26
+#: data/os/fedoraproject.org/fedora-34.xml.in:27
 msgid "Fedora 34 Everything"
 msgstr "Fedora 34 すべて"
 
@@ -2808,6 +2818,7 @@ msgstr "Mandriva Linux 2010"
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
+#: data/os/libosinfo.org/linux-2022.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
 msgstr ""
@@ -2822,6 +2833,12 @@ msgstr "Mandriva Linux 2010"
 #, fuzzy
 #| msgid "Mandriva Linux 2007"
 msgid "Generic Linux 2020"
+msgstr "Mandriva Linux 2007"
+
+#: data/os/libosinfo.org/linux-2022.xml.in:7
+#, fuzzy
+#| msgid "Mandriva Linux 2007"
+msgid "Generic Linux 2022"
 msgstr "Mandriva Linux 2007"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
@@ -3030,31 +3047,15 @@ msgid "Manjaro"
 msgstr ""
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
-msgid "Manjaro Architect"
-msgstr ""
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
 msgstr ""
 
-#: data/os/manjaro.org/manjaro-rolling.xml.in:37
-msgid "Manjaro GNOME (Minimal)"
-msgstr ""
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:41
+#: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro KDE"
 msgstr ""
 
-#: data/os/manjaro.org/manjaro-rolling.xml.in:45
-msgid "Manjaro KDE (Minimal)"
-msgstr ""
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:49
+#: data/os/manjaro.org/manjaro-rolling.xml.in:37
 msgid "Manjaro XFCE"
-msgstr ""
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:53
-msgid "Manjaro XFCE (Minimal)"
 msgstr ""
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
@@ -3803,6 +3804,7 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-15.1.xml.in:8
 #: data/os/opensuse.org/opensuse-15.2.xml.in:8
 #: data/os/opensuse.org/opensuse-15.3.xml.in:8
+#: data/os/opensuse.org/opensuse-15.4.xml.in:8
 #: data/os/opensuse.org/opensuse-42.1.xml.in:8
 #: data/os/opensuse.org/opensuse-42.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.3.xml.in:8
@@ -3879,6 +3881,12 @@ msgstr "openSUSE 12.1"
 #: data/os/opensuse.org/opensuse-15.3.xml.in:17
 #, fuzzy
 msgid "openSUSE Leap 15.3"
+msgstr "openSUSE 12.1"
+
+#: data/os/opensuse.org/opensuse-15.4.xml.in:6
+#: data/os/opensuse.org/opensuse-15.4.xml.in:17
+#, fuzzy
+msgid "openSUSE Leap 15.4"
 msgstr "openSUSE 12.1"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
@@ -4951,13 +4959,13 @@ msgstr ""
 #: data/os/suse.com/caasp-unknown.xml.in:9
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
 #: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.3.xml.in:8
-#: data/os/suse.com/sle-15.xml.in:8 data/os/suse.com/sle-unknown.xml.in:8
-#: data/os/suse.com/sled-10.1.xml.in:8 data/os/suse.com/sled-10.2.xml.in:8
-#: data/os/suse.com/sled-10.3.xml.in:8 data/os/suse.com/sled-10.4.xml.in:8
-#: data/os/suse.com/sled-10.xml.in:8 data/os/suse.com/sled-11.1.xml.in:8
-#: data/os/suse.com/sled-11.2.xml.in:8 data/os/suse.com/sled-11.3.xml.in:8
-#: data/os/suse.com/sled-11.4.xml.in:8 data/os/suse.com/sled-11.xml.in:8
-#: data/os/suse.com/sled-12-unknown.xml.in:8
+#: data/os/suse.com/sle-15.4.xml.in:8 data/os/suse.com/sle-15.xml.in:8
+#: data/os/suse.com/sle-unknown.xml.in:8 data/os/suse.com/sled-10.1.xml.in:8
+#: data/os/suse.com/sled-10.2.xml.in:8 data/os/suse.com/sled-10.3.xml.in:8
+#: data/os/suse.com/sled-10.4.xml.in:8 data/os/suse.com/sled-10.xml.in:8
+#: data/os/suse.com/sled-11.1.xml.in:8 data/os/suse.com/sled-11.2.xml.in:8
+#: data/os/suse.com/sled-11.3.xml.in:8 data/os/suse.com/sled-11.4.xml.in:8
+#: data/os/suse.com/sled-11.xml.in:8 data/os/suse.com/sled-12-unknown.xml.in:8
 #: data/os/suse.com/sled-12.1.xml.in:8 data/os/suse.com/sled-12.2.xml.in:8
 #: data/os/suse.com/sled-12.3.xml.in:8 data/os/suse.com/sled-12.4.xml.in:8
 #: data/os/suse.com/sled-12.5.xml.in:8 data/os/suse.com/sled-12.xml.in:8
@@ -4966,6 +4974,7 @@ msgstr ""
 #: data/os/suse.com/slem-5.0.xml.in:11 data/os/suse.com/slem-5.0.xml.in:12
 #: data/os/suse.com/slem-5.0.xml.in:13 data/os/suse.com/slem-5.0.xml.in:14
 #: data/os/suse.com/slem-5.0.xml.in:15 data/os/suse.com/slem-5.0.xml.in:16
+#: data/os/suse.com/slem-5.1.xml.in:8 data/os/suse.com/slem-5.2.xml.in:8
 #: data/os/suse.com/sles-10.1.xml.in:8 data/os/suse.com/sles-10.2.xml.in:8
 #: data/os/suse.com/sles-10.3.xml.in:8 data/os/suse.com/sles-10.4.xml.in:8
 #: data/os/suse.com/sles-10.xml.in:8 data/os/suse.com/sles-11.1.xml.in:8
@@ -5009,6 +5018,11 @@ msgstr "Mandriva Enterprise Server 5.1"
 #: data/os/suse.com/sle-15.3.xml.in:6
 #, fuzzy
 msgid "SUSE Linux Enterprise 15 SP3"
+msgstr "Mandriva Enterprise Server 5.1"
+
+#: data/os/suse.com/sle-15.4.xml.in:6
+#, fuzzy
+msgid "SUSE Linux Enterprise 15 SP4"
 msgstr "Mandriva Enterprise Server 5.1"
 
 #: data/os/suse.com/sle-15.xml.in:6
@@ -5099,6 +5113,16 @@ msgstr ""
 #: data/os/suse.com/slem-5.0.xml.in:6
 #, fuzzy
 msgid "SUSE Linux Enterprise Micro"
+msgstr "Mandriva Enterprise Server 5.1"
+
+#: data/os/suse.com/slem-5.1.xml.in:6
+#, fuzzy
+msgid "SUSE Linux Enterprise Micro 5.1"
+msgstr "Mandriva Enterprise Server 5.1"
+
+#: data/os/suse.com/slem-5.2.xml.in:6
+#, fuzzy
+msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "Mandriva Enterprise Server 5.1"
 
 #: data/os/suse.com/sles-10.1.xml.in:6

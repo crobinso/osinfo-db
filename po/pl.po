@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-06 08:33+0200\n"
+"POT-Creation-Date: 2022-06-16 05:51+0200\n"
 "PO-Revision-Date: 2022-06-06 15:56+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
@@ -228,6 +228,18 @@ msgstr "AlmaLinux 8"
 #: data/os/almalinux.org/almalinux-8.xml.in:7
 msgid "AlmaLinux"
 msgstr "AlmaLinux"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:5
+#, fuzzy
+#| msgid "AlmaLinux 8"
+msgid "AlmaLinux 9"
+msgstr "AlmaLinux 8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:7
+#, fuzzy
+#| msgid "Endless OS Foundation LLC"
+msgid "AlmaLinux OS Foundation"
+msgstr "Endless OS Foundation LLC"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -2048,16 +2060,16 @@ msgstr "Fedora 33 Everything"
 msgid "Fedora 34"
 msgstr "Fedora 34"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:17
+#: data/os/fedoraproject.org/fedora-34.xml.in:18
 msgid "Fedora 34 Workstation"
 msgstr "Fedora 34 Workstation"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:20
-#: data/os/fedoraproject.org/fedora-34.xml.in:23
+#: data/os/fedoraproject.org/fedora-34.xml.in:21
+#: data/os/fedoraproject.org/fedora-34.xml.in:24
 msgid "Fedora 34 Server"
 msgstr "Fedora 34 Server"
 
-#: data/os/fedoraproject.org/fedora-34.xml.in:26
+#: data/os/fedoraproject.org/fedora-34.xml.in:27
 msgid "Fedora 34 Everything"
 msgstr "Fedora 34 Everything"
 
@@ -2647,6 +2659,7 @@ msgstr "Ogólny Linux 2016"
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
+#: data/os/libosinfo.org/linux-2022.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
 msgstr "Libosinfo"
@@ -2657,6 +2670,12 @@ msgstr "Ogólny Linux 2018"
 
 #: data/os/libosinfo.org/linux-2020.xml.in:7
 msgid "Generic Linux 2020"
+msgstr "Ogólny Linux 2020"
+
+#: data/os/libosinfo.org/linux-2022.xml.in:7
+#, fuzzy
+#| msgid "Generic Linux 2020"
+msgid "Generic Linux 2022"
 msgstr "Ogólny Linux 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
@@ -2865,32 +2884,16 @@ msgid "Manjaro"
 msgstr "Manjaro"
 
 #: data/os/manjaro.org/manjaro-rolling.xml.in:29
-msgid "Manjaro Architect"
-msgstr "Manjaro Architect"
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro GNOME"
 msgstr "Manjaro GNOME"
 
-#: data/os/manjaro.org/manjaro-rolling.xml.in:37
-msgid "Manjaro GNOME (Minimal)"
-msgstr "Manjaro GNOME (minimalny)"
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:41
+#: data/os/manjaro.org/manjaro-rolling.xml.in:33
 msgid "Manjaro KDE"
 msgstr "Manjaro KDE"
 
-#: data/os/manjaro.org/manjaro-rolling.xml.in:45
-msgid "Manjaro KDE (Minimal)"
-msgstr "Manjaro KDE (minimalny)"
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:49
+#: data/os/manjaro.org/manjaro-rolling.xml.in:37
 msgid "Manjaro XFCE"
 msgstr "Manjaro Xfce"
-
-#: data/os/manjaro.org/manjaro-rolling.xml.in:53
-msgid "Manjaro XFCE (Minimal)"
-msgstr "Manjaro Xfce (minimalny)"
 
 #: data/os/microsoft.com/msdos-6.22.xml.in:6
 msgid "Microsoft MS-DOS 6.22"
@@ -3620,6 +3623,7 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-15.1.xml.in:8
 #: data/os/opensuse.org/opensuse-15.2.xml.in:8
 #: data/os/opensuse.org/opensuse-15.3.xml.in:8
+#: data/os/opensuse.org/opensuse-15.4.xml.in:8
 #: data/os/opensuse.org/opensuse-42.1.xml.in:8
 #: data/os/opensuse.org/opensuse-42.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.3.xml.in:8
@@ -3694,6 +3698,13 @@ msgstr "openSUSE Leap 15.2"
 #: data/os/opensuse.org/opensuse-15.3.xml.in:17
 msgid "openSUSE Leap 15.3"
 msgstr "openSUSE Leap 15.3"
+
+#: data/os/opensuse.org/opensuse-15.4.xml.in:6
+#: data/os/opensuse.org/opensuse-15.4.xml.in:17
+#, fuzzy
+#| msgid "openSUSE Leap 15.0"
+msgid "openSUSE Leap 15.4"
+msgstr "openSUSE Leap 15.0"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
@@ -4668,13 +4679,13 @@ msgstr "SUSE CaaS Platform 1.0"
 #: data/os/suse.com/caasp-unknown.xml.in:9
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
 #: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.3.xml.in:8
-#: data/os/suse.com/sle-15.xml.in:8 data/os/suse.com/sle-unknown.xml.in:8
-#: data/os/suse.com/sled-10.1.xml.in:8 data/os/suse.com/sled-10.2.xml.in:8
-#: data/os/suse.com/sled-10.3.xml.in:8 data/os/suse.com/sled-10.4.xml.in:8
-#: data/os/suse.com/sled-10.xml.in:8 data/os/suse.com/sled-11.1.xml.in:8
-#: data/os/suse.com/sled-11.2.xml.in:8 data/os/suse.com/sled-11.3.xml.in:8
-#: data/os/suse.com/sled-11.4.xml.in:8 data/os/suse.com/sled-11.xml.in:8
-#: data/os/suse.com/sled-12-unknown.xml.in:8
+#: data/os/suse.com/sle-15.4.xml.in:8 data/os/suse.com/sle-15.xml.in:8
+#: data/os/suse.com/sle-unknown.xml.in:8 data/os/suse.com/sled-10.1.xml.in:8
+#: data/os/suse.com/sled-10.2.xml.in:8 data/os/suse.com/sled-10.3.xml.in:8
+#: data/os/suse.com/sled-10.4.xml.in:8 data/os/suse.com/sled-10.xml.in:8
+#: data/os/suse.com/sled-11.1.xml.in:8 data/os/suse.com/sled-11.2.xml.in:8
+#: data/os/suse.com/sled-11.3.xml.in:8 data/os/suse.com/sled-11.4.xml.in:8
+#: data/os/suse.com/sled-11.xml.in:8 data/os/suse.com/sled-12-unknown.xml.in:8
 #: data/os/suse.com/sled-12.1.xml.in:8 data/os/suse.com/sled-12.2.xml.in:8
 #: data/os/suse.com/sled-12.3.xml.in:8 data/os/suse.com/sled-12.4.xml.in:8
 #: data/os/suse.com/sled-12.5.xml.in:8 data/os/suse.com/sled-12.xml.in:8
@@ -4683,6 +4694,7 @@ msgstr "SUSE CaaS Platform 1.0"
 #: data/os/suse.com/slem-5.0.xml.in:11 data/os/suse.com/slem-5.0.xml.in:12
 #: data/os/suse.com/slem-5.0.xml.in:13 data/os/suse.com/slem-5.0.xml.in:14
 #: data/os/suse.com/slem-5.0.xml.in:15 data/os/suse.com/slem-5.0.xml.in:16
+#: data/os/suse.com/slem-5.1.xml.in:8 data/os/suse.com/slem-5.2.xml.in:8
 #: data/os/suse.com/sles-10.1.xml.in:8 data/os/suse.com/sles-10.2.xml.in:8
 #: data/os/suse.com/sles-10.3.xml.in:8 data/os/suse.com/sles-10.4.xml.in:8
 #: data/os/suse.com/sles-10.xml.in:8 data/os/suse.com/sles-11.1.xml.in:8
@@ -4723,6 +4735,12 @@ msgstr "SUSE Linux Enterprise 15 SP2"
 #: data/os/suse.com/sle-15.3.xml.in:6
 msgid "SUSE Linux Enterprise 15 SP3"
 msgstr "SUSE Linux Enterprise 15 SP3"
+
+#: data/os/suse.com/sle-15.4.xml.in:6
+#, fuzzy
+#| msgid "SUSE Linux Enterprise 15 SP1"
+msgid "SUSE Linux Enterprise 15 SP4"
+msgstr "SUSE Linux Enterprise 15 SP1"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4806,6 +4824,18 @@ msgstr "SUSE Linux Enterprise Desktop 9"
 
 #: data/os/suse.com/slem-5.0.xml.in:6
 msgid "SUSE Linux Enterprise Micro"
+msgstr "SUSE Linux Enterprise Micro"
+
+#: data/os/suse.com/slem-5.1.xml.in:6
+#, fuzzy
+#| msgid "SUSE Linux Enterprise Micro"
+msgid "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro"
+
+#: data/os/suse.com/slem-5.2.xml.in:6
+#, fuzzy
+#| msgid "SUSE Linux Enterprise Micro"
+msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "SUSE Linux Enterprise Micro"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
@@ -5481,6 +5511,18 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#~ msgid "Manjaro Architect"
+#~ msgstr "Manjaro Architect"
+
+#~ msgid "Manjaro GNOME (Minimal)"
+#~ msgstr "Manjaro GNOME (minimalny)"
+
+#~ msgid "Manjaro KDE (Minimal)"
+#~ msgstr "Manjaro KDE (minimalny)"
+
+#~ msgid "Manjaro XFCE (Minimal)"
+#~ msgstr "Manjaro Xfce (minimalny)"
 
 #~ msgid "Debian 11 (OpenStack)"
 #~ msgstr "Debian 11 (OpenStack)"
