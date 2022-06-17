@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-16 05:51+0200\n"
-"PO-Revision-Date: 2022-06-06 15:56+0000\n"
+"PO-Revision-Date: 2022-06-16 10:23+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -230,16 +230,12 @@ msgid "AlmaLinux"
 msgstr "AlmaLinux"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:5
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 9"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
-#, fuzzy
-#| msgid "Endless OS Foundation LLC"
 msgid "AlmaLinux OS Foundation"
-msgstr "Endless OS Foundation LLC"
+msgstr "AlmaLinux OS Foundation"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -2673,10 +2669,8 @@ msgid "Generic Linux 2020"
 msgstr "Ogólny Linux 2020"
 
 #: data/os/libosinfo.org/linux-2022.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2022"
-msgstr "Ogólny Linux 2020"
+msgstr "Ogólny Linux 2022"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
@@ -3701,10 +3695,8 @@ msgstr "openSUSE Leap 15.3"
 
 #: data/os/opensuse.org/opensuse-15.4.xml.in:6
 #: data/os/opensuse.org/opensuse-15.4.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.4"
-msgstr "openSUSE Leap 15.0"
+msgstr "openSUSE Leap 15.4"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
@@ -4737,10 +4729,8 @@ msgid "SUSE Linux Enterprise 15 SP3"
 msgstr "SUSE Linux Enterprise 15 SP3"
 
 #: data/os/suse.com/sle-15.4.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP4"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP4"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4827,16 +4817,12 @@ msgid "SUSE Linux Enterprise Micro"
 msgstr "SUSE Linux Enterprise Micro"
 
 #: data/os/suse.com/slem-5.1.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro"
 msgid "SUSE Linux Enterprise Micro 5.1"
-msgstr "SUSE Linux Enterprise Micro"
+msgstr "SUSE Linux Enterprise Micro 5.1"
 
 #: data/os/suse.com/slem-5.2.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro"
 msgid "SUSE Linux Enterprise Micro 5.2"
-msgstr "SUSE Linux Enterprise Micro"
+msgstr "SUSE Linux Enterprise Micro 5.2"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
