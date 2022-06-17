@@ -58,17 +58,6 @@
       </treeinfo>
     </tree>
 
-    <tree arch="armv7l">
-      <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Server/armhfp/os</url>
-      <treeinfo>
-        <family>Fedora</family>
-        <version>Rawhide</version>
-        <arch>armhfp</arch>
-        <variant>Server</variant>
-      </treeinfo>
-    </tree>
-
     <tree arch="s390x">
       <url>https://download.fedoraproject.org/pub/fedora-secondary/development/rawhide/Server/s390x/os</url>
       <variant id="server"/>
@@ -98,17 +87,6 @@
         <family>Fedora</family>
         <version>Rawhide</version>
         <arch>aarch64</arch>
-        <variant>Everything</variant>
-      </treeinfo>
-    </tree>
-
-    <tree arch="armv7l">
-      <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/development/rawhide/Everything/armhfp/os</url>
-      <treeinfo>
-        <family>Fedora</family>
-        <version>Rawhide</version>
-        <arch>armhfp</arch>
         <variant>Everything</variant>
       </treeinfo>
     </tree>
