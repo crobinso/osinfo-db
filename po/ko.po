@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-16 05:51+0200\n"
-"PO-Revision-Date: 2022-06-07 15:18+0000\n"
+"PO-Revision-Date: 2022-06-17 14:21+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -227,16 +227,12 @@ msgid "AlmaLinux"
 msgstr "AlmaLinux"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:5
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 9"
-msgstr "AlmaLinux 8"
+msgstr "알마리눅스 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
-#, fuzzy
-#| msgid "Endless OS Foundation LLC"
 msgid "AlmaLinux OS Foundation"
-msgstr "엔들리스 OS 재단 LLC"
+msgstr "알마리눅스 OS 재단"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -2670,10 +2666,8 @@ msgid "Generic Linux 2020"
 msgstr "Generic 리눅스 2020"
 
 #: data/os/libosinfo.org/linux-2022.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2022"
-msgstr "Generic 리눅스 2020"
+msgstr "제너릭 리눅스 2022"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
@@ -3697,10 +3691,8 @@ msgstr "오픈수세 립 15.3"
 
 #: data/os/opensuse.org/opensuse-15.4.xml.in:6
 #: data/os/opensuse.org/opensuse-15.4.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.4"
-msgstr "오픈수세 립 15.0"
+msgstr "오픈수세 립 15.4"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
@@ -4733,10 +4725,8 @@ msgid "SUSE Linux Enterprise 15 SP3"
 msgstr "수세 리눅스 기업용 15 SP3"
 
 #: data/os/suse.com/sle-15.4.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP4"
-msgstr "수세 리눅스 기업용 15 SP1"
+msgstr "수세 리눅스 기업용 15 SP4"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -4823,16 +4813,12 @@ msgid "SUSE Linux Enterprise Micro"
 msgstr "수세 리눅스 기업용 Micro"
 
 #: data/os/suse.com/slem-5.1.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro"
 msgid "SUSE Linux Enterprise Micro 5.1"
-msgstr "수세 리눅스 기업용 Micro"
+msgstr "수세 리눅스 기업용 Micro 5.1"
 
 #: data/os/suse.com/slem-5.2.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro"
 msgid "SUSE Linux Enterprise Micro 5.2"
-msgstr "수세 리눅스 기업용 Micro"
+msgstr "수세 리눅스 기업용 Micro 5.2"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
