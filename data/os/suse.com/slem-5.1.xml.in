@@ -8,7 +8,7 @@
     <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>slem</distro>
-    <derives-from id="http://suse.com/sle/slem5.0"/>
+    <derives-from id="http://suse.com/slem/5.0"/>
 
     <release-date>2021-10-26</release-date>
 
