@@ -10,6 +10,7 @@
     <distro>freebsd</distro>
 
     <release-date>2003-06-09</release-date>
+    <eol-date>2003-12-31</eol-date>
 
     <upgrades id="http://freebsd.org/freebsd/5.0"/>
     <derives-from id="http://freebsd.org/freebsd/5.0"/>

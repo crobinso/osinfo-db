@@ -10,6 +10,7 @@
     <distro>freebsd</distro>
 
     <release-date>2003-10-28</release-date>
+    <eol-date>2004-10-31</eol-date>
 
     <upgrades id="http://freebsd.org/freebsd/4.8"/>
     <derives-from id="http://freebsd.org/freebsd/4.8"/>
