@@ -91,6 +91,10 @@
       <url>https://repo.almalinux.org/almalinux/9/cloud/ppc64le/images/AlmaLinux-9-GenericCloud-latest.ppc64le.qcow2</url>
     </image>
 
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/9/cloud/s390x/images/AlmaLinux-9-GenericCloud-latest.s390x.qcow2</url>
+    </image>
+
 
     <resources arch="x86_64">
       <minimum>
