@@ -26,8 +26,8 @@
       <iso>
         <volume-id>Fedora-.*-dvd-x86_64-rawh</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="x86_64" live="true">
