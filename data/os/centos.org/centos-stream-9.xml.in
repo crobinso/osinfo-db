@@ -161,6 +161,10 @@
       </treeinfo>
     </tree>
 
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:9</url>
+    </image>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>

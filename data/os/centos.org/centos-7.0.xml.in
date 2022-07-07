@@ -624,6 +624,10 @@
       <url>https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud.qcow2</url>
     </image>
 
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos:7-2009</url>
+    </image>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
