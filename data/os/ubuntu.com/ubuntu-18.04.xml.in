@@ -118,6 +118,10 @@
       <url>https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-s390x.img</url>
     </image>
 
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:18.04</url>
+    </image>
+
     <installer>
       <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       <script id='http://ubuntu.com/ubuntu/preseed/jeos'/>
