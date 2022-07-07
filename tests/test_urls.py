@@ -19,6 +19,7 @@ class UrlType(enum.Enum):
     URL_DISK_QCOW2 = 5
     URL_DISK_VMDK = 6
     URL_TREEINFO = 7
+    URL_DISK_CONTAINERDISK = 8
 
 
 iso_content_types = {
@@ -66,6 +67,12 @@ treeinfo_content_types = {
 }
 
 
+containerdisk_content_types = {
+    # image manifest
+    'application/vnd.docker.distribution.manifest.v1+json',
+}
+
+
 def _is_content_type_allowed(content_type, url_type):
     if url_type == UrlType.URL_ISO:
         return content_type in iso_content_types
@@ -79,12 +86,30 @@ def _is_content_type_allowed(content_type, url_type):
         return content_type in vmdk_content_types
     if url_type == UrlType.URL_TREEINFO:
         return content_type in treeinfo_content_types
+    if url_type == UrlType.URL_DISK_CONTAINERDISK:
+        return content_type in containerdisk_content_types
     return True
+
+
+def _transform_docker_url(url):
+    """
+    Transform docker:// url into a docker registry API call
+    See: https://docs.docker.com/registry/spec/api/#existing-manifests
+    """
+    url_parts = url.split('/')
+    url = f'http://{url_parts[2]}/v2/'
+    for i in range(3, len(url_parts) - 1):
+        url += f'{url_parts[i]}/'
+    image, tag = url_parts[-1].split(':')
+    url += f'{image}/manifests/{tag}'
+    return url
 
 
 def _check_url(url, url_type):
     logging.info("url: %s, type: %s", url, url_type)
     headers = {'user-agent': 'Wget/1.0'}
+    if url_type == UrlType.URL_DISK_CONTAINERDISK:
+        url = _transform_docker_url(url)
     response = requests.head(url, allow_redirects=True, headers=headers, timeout=30)
     content_type = response.headers.get('content-type')
     if content_type:
@@ -120,6 +145,8 @@ def _collect_os_urls():
                 url_type = UrlType.URL_DISK_QCOW2
             elif i.format == 'vmdk':
                 url_type = UrlType.URL_DISK_VMDK
+            elif i.format == 'containerdisk':
+                url_type = UrlType.URL_DISK_CONTAINERDISK
             urls.append((i.url, url_type))
         urls.extend([(m.url, UrlType.URL_ISO) for m in osxml.medias if m.url])
         for t in osxml.trees:

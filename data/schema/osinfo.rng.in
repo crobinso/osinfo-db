@@ -861,6 +861,7 @@
       <value>raw</value>
       <value>vhdx</value>
       <value>vmdk</value>
+      <value>containerdisk</value>
     </choice>
   </define>
 
