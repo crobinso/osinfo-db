@@ -293,6 +293,10 @@
       <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/35/Cloud/s390x/images/Fedora-Cloud-Base-35-1.2.s390x.qcow2</url>
     </image>
 
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/fedora:35</url>
+    </image>
+
     <!-- No install media or tree is provided for Fedora 34 Cloud variant -->
 
     <resources arch="all">
