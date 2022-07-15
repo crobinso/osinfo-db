@@ -22,6 +22,7 @@ class UrlType(enum.Enum):
 
 iso_content_types = {
     # proper ISO mimetype
+    'application/x-cd-image',
     'application/x-iso9660-image',
     # generic data
     'application/octet-stream',
