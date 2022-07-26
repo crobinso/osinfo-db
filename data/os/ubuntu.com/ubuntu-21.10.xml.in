@@ -15,6 +15,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/21.04"/>
 
     <release-date>2021-10-14</release-date>
+    <eol-date>2022-07-14</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -61,7 +62,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.10/release/ubuntu-21.10-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
@@ -69,7 +69,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.10/release/ubuntu-21.10-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.10(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
@@ -77,7 +76,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/21.10/release/ubuntu-21.10-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.10(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>
@@ -86,27 +84,27 @@
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-amd64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64.img</url>
     </image>
 
     <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-amd64.vmdk</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-amd64.vmdk</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-arm64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-arm64.img</url>
     </image>
 
     <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-armhf.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-armhf.img</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-ppc64el.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-ppc64el.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-s390x.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/impish/release/ubuntu-21.10-server-cloudimg-s390x.img</url>
     </image>
 
     <installer>
