@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 11:32+0200\n"
-"PO-Revision-Date: 2022-06-17 14:21+0000\n"
+"PO-Revision-Date: 2022-07-26 10:12+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2126,10 +2126,8 @@ msgid "Fedora 9"
 msgstr "페도라 9"
 
 #: data/os/fedoraproject.org/fedora-eln.xml.in:6
-#, fuzzy
-#| msgid "Fedora 7"
 msgid "Fedora ELN"
-msgstr "페도라 7"
+msgstr "페도라 ELN"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
