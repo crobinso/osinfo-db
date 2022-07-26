@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-16 05:51+0200\n"
+"POT-Creation-Date: 2022-07-26 11:32+0200\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -1772,6 +1772,7 @@ msgstr ""
 #: data/os/fedoraproject.org/fedora-7.xml.in:8
 #: data/os/fedoraproject.org/fedora-8.xml.in:8
 #: data/os/fedoraproject.org/fedora-9.xml.in:8
+#: data/os/fedoraproject.org/fedora-eln.xml.in:8
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:8
 #: data/os/fedoraproject.org/fedora-unknown.xml.in:8
 #: data/os/fedoraproject.org/silverblue-28.xml.in:8
@@ -2120,6 +2121,10 @@ msgstr ""
 
 #: data/os/fedoraproject.org/fedora-9.xml.in:6
 msgid "Fedora 9"
+msgstr ""
+
+#: data/os/fedoraproject.org/fedora-eln.xml.in:6
+msgid "Fedora ELN"
 msgstr ""
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
