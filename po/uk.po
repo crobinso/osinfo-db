@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 11:32+0200\n"
-"PO-Revision-Date: 2022-06-16 09:09+0000\n"
+"PO-Revision-Date: 2022-07-27 19:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2129,10 +2129,8 @@ msgid "Fedora 9"
 msgstr "Fedora 9"
 
 #: data/os/fedoraproject.org/fedora-eln.xml.in:6
-#, fuzzy
-#| msgid "Fedora 7"
 msgid "Fedora ELN"
-msgstr "Fedora 7"
+msgstr "Fedora ELN"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
