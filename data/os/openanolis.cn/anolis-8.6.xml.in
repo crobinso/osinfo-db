@@ -1,0 +1,33 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://openanolis.cn/anolis/8.6">
+    <short-id>anolis8.6</short-id>
+    <name>Anolis OS 8.6</name>
+    <version>8.6</version>
+    <vendor>OpenAnolis Community</vendor>
+    <family>linux</family>
+    <distro>anolis</distro>
+    <upgrades id="http://openanolis.cn/anolis/8.4"/>
+    <derives-from id="http://openanolis.cn/anolis/8.4"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-8-x86_64-.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-8-aarch64-.*</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>

@@ -1,0 +1,32 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://openanolis.cn/anolis/8.2">
+    <short-id>anolis8.2</short-id>
+    <name>Anolis OS 8.2</name>
+    <version>8.2</version>
+    <vendor>OpenAnolis Community</vendor>
+    <family>linux</family>
+    <distro>anolis</distro>
+    <derives-from id="http://redhat.com/rhel/8.2"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-BaseOS-dvd-x86_64-8</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-BaseOS-dvd-x86_64-8</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>
