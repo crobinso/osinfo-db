@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:d40eac05a1a5130d89fe97a46ea3b91eeba980945a38dbd457f5510758751582
+images/install.img = sha256:08d0644739c82096a48901eea423d3e8c80e0cf0424f76ed489530c4397c6e39
+ppc/ppc64/initrd.img = sha256:c89eb13f0d86acb5436b6459d29ae1d14982971d85cd4982b80b98345bf17523
+ppc/ppc64/vmlinuz = sha256:17cbf164fb29fe072f2c883aece6c56ccd4bbc99bd8049c1a3ff5769e473bab3
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = ppc64le
+family = Rocky Linux
+name = Rocky Linux 9.0
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1656987215
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 9.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 9.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1656987215
+platforms = ppc64le
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/ppc64le/os/Packages
+repository = ../../../AppStream/ppc64le/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

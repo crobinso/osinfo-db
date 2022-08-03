@@ -1,9 +1,9 @@
 [checksums]
-images/boot.iso = sha256:ea6947728352a29885c6a20969d2b747efb5ccb2561d0845026231fae0410f40
-images/efiboot.img = sha256:81993e23988567a0eb8a8d6700f472b481e36c4dce75b8950985c8c8a74d21a9
-images/install.img = sha256:2a1036851c14e6d553e57fcb471b2205b1471e77596cbec3c3497e998a7ab8ef
-images/pxeboot/initrd.img = sha256:0e1f87d3e99b892c635120344dffac753d89f470e9d57dad79b9d95435157d85
-images/pxeboot/vmlinuz = sha256:17a70c820742913be21189adda33444800f63dfc19d002e3703f88b52a429780
+images/boot.iso = sha256:d61c90341cc2bebce73d5a0f5400a5b96d9d39786b6027483d621027b2fccbb7
+images/efiboot.img = sha256:023348b06556b3dcbb5020e5a023cb2c4468028ce87759aafe83e6de7ebca93d
+images/install.img = sha256:90eb5605ed3740cfdb158888042edf4762a070750763d0af365124f2da1604b5
+images/pxeboot/initrd.img = sha256:4084086c4e6424cb2583683039d7d5bce9fd94e51f1ccbfdfea534db5a598b4c
+images/pxeboot/vmlinuz = sha256:f076482d541ffbcf72996b30640319a3eb2e7c2f85c5e4d26e549677328b9ae6
 
 [general]
 arch = aarch64
@@ -12,10 +12,10 @@ name = Rocky Linux 8
 packagedir = Packages
 platforms = aarch64
 repository = .
-timestamp = 1636882095
+timestamp = 1652648623
 variant = BaseOS
 variants = BaseOS
-version = 8.5
+version = 8
 
 [header]
 type = productmd.treeinfo
@@ -30,14 +30,14 @@ kernel = images/pxeboot/vmlinuz
 [release]
 name = Rocky Linux
 short = Rocky
-version = 8.5
+version = 8
 
 [stage2]
 mainimage = images/install.img
 
 [tree]
 arch = aarch64
-build_timestamp = 1636882095
+build_timestamp = 1652648623
 platforms = aarch64
 variants = BaseOS,AppStream
 
@@ -56,3 +56,4 @@ type = variant
 uid = AppStream
 packages = ../../../AppStream/aarch64/os/Packages
 repository = ../../../AppStream/aarch64/os/
+

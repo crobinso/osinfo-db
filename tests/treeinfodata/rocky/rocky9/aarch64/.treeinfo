@@ -1,0 +1,61 @@
+[checksums]
+images/boot.iso = sha256:758490fc7a48e69ce2b3d311dcb2c68189cc37be92ca8d61642400f66d7bdbcd
+images/efiboot.img = sha256:755c162b29fbd455532902ce4f9b72c7b861d64e25ecad2d26cdc2192d213cbc
+images/install.img = sha256:edf81720b1de5608af70c3f13aea36f8ff8bc96cab29a1a3839d78ed55604a1e
+images/pxeboot/initrd.img = sha256:719229283d58b848d84eff04a3fe979bc2ca9626eadb7e6eb9d3d384e7d9ace3
+images/pxeboot/vmlinuz = sha256:02f5b59d552f1d6380cbf81b2a5898cf2925ff08b811f33a74e4a8944754dd8b
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Rocky Linux
+name = Rocky Linux 9.0
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1656986829
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 9.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 9.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1656986829
+platforms = aarch64
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

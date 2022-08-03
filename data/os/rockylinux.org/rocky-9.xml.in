@@ -1,0 +1,185 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://rockylinux.org/rocky/9">
+    <short-id>rocky9</short-id>
+    <name>Rocky Linux 9</name>
+    <version>9</version>
+    <vendor>Rocky Enterprise Software Foundation</vendor>
+    <family>linux</family>
+    <distro>rocky</distro>
+    <codename>Blue Onyx</codename>
+    <clones id="http://redhat.com/rhel/9.0"/>
+    <release-date>2022-07-14</release-date>
+    <eol-date>2032-05-31</eol-date>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Rocky-9-([0-9]|[1-9][0-9])-x86_64-.+$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-.+$</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <iso>
+        <volume-id>Rocky-9-([0-9]|[1-9][0-9])-ppc64le-.+$</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <iso>
+        <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-.+$</volume-id>
+      </iso>
+    </media>
+
+    <!-- treeinfo -->
+    <tree arch="x86_64">
+      <url>https://download.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^9(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.rockylinux.org/pub/rocky/9/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^9(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>https://download.rockylinux.org/pub/rocky/9/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^9(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://download.rockylinux.org/pub/rocky/9/BaseOS/s390x/os/</url>
+      <treeinfo>
+        <family>Rocky Linux</family>
+        <version>^9(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+    <!-- end treeinfo -->
+
+    <!-- Default resources -->
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="ppc64le">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>340</n-cpus>
+        <ram>17592186044416</ram>
+      </maximum>
+
+      <network-install>
+        <ram>2147483648</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+    <!-- End default resources -->
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

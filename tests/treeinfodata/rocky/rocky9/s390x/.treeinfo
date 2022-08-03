@@ -1,0 +1,69 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:7d80391a762b9a713f2e247d47edd247c196cff0904c2aa249072eb9633ad55e
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:f8f51e289fb3e22bb8763d8170b368b04da5a849b8ccb373320d993f89eccfda
+images/initrd.img = sha256:771efc852639b8bcb63c4cfaea31d1c552c83a7a2ea8094b7382a9d1afe961d9
+images/install.img = sha256:879ed93d918930ab979e0f9819a08a847d83d8ce9960f2370e39fcf59dc30920
+images/kernel.img = sha256:4be934a49a17ff1b9e23a04975ac74fca70252767b2a4dc57dac897f69747792
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Rocky Linux
+name = Rocky Linux 9.0
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1656986704
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 9.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 9.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1656986704
+platforms = s390x
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/s390x/os/Packages
+repository = ../../../AppStream/s390x/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
