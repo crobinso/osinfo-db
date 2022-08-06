@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 16:40+0200\n"
-"PO-Revision-Date: 2022-07-27 19:19+0000\n"
+"PO-Revision-Date: 2022-08-04 19:19+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -4312,10 +4312,8 @@ msgid "Red Hat Enterprise Linux 8.6"
 msgstr "Red Hat Enterprise Linux 8.6"
 
 #: data/os/redhat.com/rhel-8.7.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.7"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.7"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
@@ -4326,10 +4324,8 @@ msgid "Red Hat Enterprise Linux 9.0"
 msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-9.1.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.1"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.1"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -4464,10 +4460,8 @@ msgid "Rocky Linux 8.6"
 msgstr "Rocky Linux 8.6"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux 8"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux 8"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
@@ -4478,10 +4472,8 @@ msgid "Rocky Linux 9.0"
 msgstr "Rocky Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
@@ -5114,10 +5106,8 @@ msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 22.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 12.10"
 msgid "Ubuntu 22.10"
-msgstr "Ubuntu 12.10"
+msgstr "Ubuntu 22.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
