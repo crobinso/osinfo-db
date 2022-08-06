@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-26 11:32+0200\n"
+"POT-Creation-Date: 2022-08-03 16:40+0200\n"
 "PO-Revision-Date: 2022-06-08 18:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -4027,9 +4027,9 @@ msgstr ""
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
-#: data/os/redhat.com/rhel-8.6.xml.in:8
+#: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
-#: data/os/redhat.com/rhel-9.0.xml.in:8
+#: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4341,12 +4341,20 @@ msgstr ""
 msgid "Red Hat Enterprise Linux 8.6"
 msgstr ""
 
+#: data/os/redhat.com/rhel-8.7.xml.in:6
+msgid "Red Hat Enterprise Linux 8.7"
+msgstr ""
+
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
 msgstr ""
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
 msgid "Red Hat Enterprise Linux 9.0"
+msgstr ""
+
+#: data/os/redhat.com/rhel-9.1.xml.in:6
+msgid "Red Hat Enterprise Linux 9.1"
 msgstr ""
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -4461,8 +4469,10 @@ msgstr ""
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
 #: data/os/rockylinux.org/rocky-8.5.xml.in:8
 #: data/os/rockylinux.org/rocky-8.6.xml.in:8
+#: data/os/rockylinux.org/rocky-8.xml.in:8
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-9.0.xml.in:8
+#: data/os/rockylinux.org/rocky-9.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
 msgid "Rocky Enterprise Software Foundation"
 msgstr ""
@@ -4471,27 +4481,19 @@ msgstr ""
 msgid "Rocky Linux 8.4"
 msgstr "Rocky Linux 8.4"
 
-#: data/os/rockylinux.org/rocky-8.4.xml.in:17
-#: data/os/rockylinux.org/rocky-8.4.xml.in:21
-#: data/os/rockylinux.org/rocky-8.4.xml.in:25
-msgid "Rocky 8.4"
-msgstr ""
-
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 msgid "Rocky Linux 8.5"
-msgstr "Rocky Linux 8.5"
-
-#: data/os/rockylinux.org/rocky-8.5.xml.in:18
-#: data/os/rockylinux.org/rocky-8.5.xml.in:22
-#: data/os/rockylinux.org/rocky-8.5.xml.in:26
-#, fuzzy
-#| msgid "Rocky Linux 8.5"
-msgid "Rocky 8.5"
 msgstr "Rocky Linux 8.5"
 
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
 msgid "Rocky Linux 8.6"
 msgstr "Rocky Linux 8.6"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 8.4"
+msgid "Rocky Linux 8"
+msgstr "Rocky Linux 8.4"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
@@ -4499,6 +4501,12 @@ msgstr ""
 
 #: data/os/rockylinux.org/rocky-9.0.xml.in:6
 msgid "Rocky Linux 9.0"
+msgstr "Rocky Linux 9.0"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 9.0"
+msgid "Rocky Linux 9"
 msgstr "Rocky Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
@@ -5022,6 +5030,7 @@ msgstr ""
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5130,6 +5139,10 @@ msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
 msgid "Ubuntu 22.04 LTS"
+msgstr ""
+
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
+msgid "Ubuntu 22.10"
 msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
@@ -5532,6 +5545,11 @@ msgstr ""
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Rocky Linux 8.5"
+#~ msgid "Rocky 8.5"
+#~ msgstr "Rocky Linux 8.5"
 
 #~ msgid "Debian 11 (OpenStack)"
 #~ msgstr "Debian 11 (OpenStack)"

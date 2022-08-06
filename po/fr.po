@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-26 11:32+0200\n"
+"POT-Creation-Date: 2022-08-03 16:40+0200\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -4258,9 +4258,9 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
-#: data/os/redhat.com/rhel-8.6.xml.in:8
+#: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
-#: data/os/redhat.com/rhel-9.0.xml.in:8
+#: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4578,6 +4578,12 @@ msgstr "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.6"
 msgstr "Red Hat Enterprise Linux 8.0"
 
+#: data/os/redhat.com/rhel-8.7.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 8.0"
+msgid "Red Hat Enterprise Linux 8.7"
+msgstr "Red Hat Enterprise Linux 8.0"
+
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 #, fuzzy
 #| msgid "Red Hat Enterprise Linux 6 Unknown"
@@ -4588,6 +4594,12 @@ msgstr "Red Hat Enterprise Linux 6 Inconnue"
 #, fuzzy
 #| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 4.0"
+
+#: data/os/redhat.com/rhel-9.1.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 4.0"
+msgid "Red Hat Enterprise Linux 9.1"
 msgstr "Red Hat Enterprise Linux 4.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -4704,8 +4716,10 @@ msgstr "Scientific Linux 7 Inconnue"
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
 #: data/os/rockylinux.org/rocky-8.5.xml.in:8
 #: data/os/rockylinux.org/rocky-8.6.xml.in:8
+#: data/os/rockylinux.org/rocky-8.xml.in:8
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-9.0.xml.in:8
+#: data/os/rockylinux.org/rocky-9.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
 msgid "Rocky Enterprise Software Foundation"
 msgstr ""
@@ -4716,30 +4730,22 @@ msgstr ""
 msgid "Rocky Linux 8.4"
 msgstr "Oracle Linux 8.0"
 
-#: data/os/rockylinux.org/rocky-8.4.xml.in:17
-#: data/os/rockylinux.org/rocky-8.4.xml.in:21
-#: data/os/rockylinux.org/rocky-8.4.xml.in:25
-msgid "Rocky 8.4"
-msgstr ""
-
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 #, fuzzy
 #| msgid "Oracle Linux 8.0"
 msgid "Rocky Linux 8.5"
 msgstr "Oracle Linux 8.0"
 
-#: data/os/rockylinux.org/rocky-8.5.xml.in:18
-#: data/os/rockylinux.org/rocky-8.5.xml.in:22
-#: data/os/rockylinux.org/rocky-8.5.xml.in:26
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
-msgid "Rocky 8.5"
-msgstr "Oracle Linux 8.0"
-
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
 #, fuzzy
 #| msgid "Oracle Linux 8.0"
 msgid "Rocky Linux 8.6"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:6
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Rocky Linux 8"
 msgstr "Oracle Linux 8.0"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
@@ -4752,6 +4758,12 @@ msgstr "Scientific Linux 7 Inconnue"
 #, fuzzy
 #| msgid "Mandrake Linux 9.0"
 msgid "Rocky Linux 9.0"
+msgstr "Mandrake Linux 9.0"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:6
+#, fuzzy
+#| msgid "Mandrake Linux 9.0"
+msgid "Rocky Linux 9"
 msgstr "Mandrake Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
@@ -5287,6 +5299,7 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5404,6 +5417,12 @@ msgstr "Ubuntu 11.04"
 #| msgid "Ubuntu 12.04 LTS"
 msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 12.04 LTS"
+
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 12.10"
+msgid "Ubuntu 22.10"
+msgstr "Ubuntu 12.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
@@ -5805,6 +5824,11 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#, fuzzy
+#~| msgid "Oracle Linux 8.0"
+#~ msgid "Rocky 8.5"
+#~ msgstr "Oracle Linux 8.0"
 
 #~ msgid "Manjaro Architect"
 #~ msgstr "Manjaro Architect"

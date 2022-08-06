@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-26 11:32+0200\n"
+"POT-Creation-Date: 2022-08-03 16:40+0200\n"
 "PO-Revision-Date: 2022-07-26 10:12+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -3997,9 +3997,9 @@ msgstr "레드햇 기업용 리눅스 2.1 업데이트 1"
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
-#: data/os/redhat.com/rhel-8.6.xml.in:8
+#: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
-#: data/os/redhat.com/rhel-9.0.xml.in:8
+#: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4311,12 +4311,24 @@ msgstr "레드햇 기업용 리눅스 8 .5"
 msgid "Red Hat Enterprise Linux 8.6"
 msgstr "레드햇 기업용 리눅스 8 .6"
 
+#: data/os/redhat.com/rhel-8.7.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 8.0"
+msgid "Red Hat Enterprise Linux 8.7"
+msgstr "레드햇 기업용 리눅스 8 .0"
+
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
 msgstr "레드햇 기업용 리눅스 9 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
 msgid "Red Hat Enterprise Linux 9.0"
+msgstr "레드햇 기업용 리눅스 9.0"
+
+#: data/os/redhat.com/rhel-9.1.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 9.0"
+msgid "Red Hat Enterprise Linux 9.1"
 msgstr "레드햇 기업용 리눅스 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -4431,8 +4443,10 @@ msgstr "록키 리눅스 8 (알 수 없음)"
 #: data/os/rockylinux.org/rocky-8.4.xml.in:8
 #: data/os/rockylinux.org/rocky-8.5.xml.in:8
 #: data/os/rockylinux.org/rocky-8.6.xml.in:8
+#: data/os/rockylinux.org/rocky-8.xml.in:8
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:8
 #: data/os/rockylinux.org/rocky-9.0.xml.in:8
+#: data/os/rockylinux.org/rocky-9.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
 msgid "Rocky Enterprise Software Foundation"
 msgstr "록키 기업용 소프트웨어 재단"
@@ -4441,25 +4455,19 @@ msgstr "록키 기업용 소프트웨어 재단"
 msgid "Rocky Linux 8.4"
 msgstr "록키 리눅스 8.4"
 
-#: data/os/rockylinux.org/rocky-8.4.xml.in:17
-#: data/os/rockylinux.org/rocky-8.4.xml.in:21
-#: data/os/rockylinux.org/rocky-8.4.xml.in:25
-msgid "Rocky 8.4"
-msgstr "록키 8.4"
-
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
 msgid "Rocky Linux 8.5"
 msgstr "록키 리눅스 8.5"
 
-#: data/os/rockylinux.org/rocky-8.5.xml.in:18
-#: data/os/rockylinux.org/rocky-8.5.xml.in:22
-#: data/os/rockylinux.org/rocky-8.5.xml.in:26
-msgid "Rocky 8.5"
-msgstr "록키 8.5"
-
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
 msgid "Rocky Linux 8.6"
 msgstr "록키 리눅스 8.6"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 8.4"
+msgid "Rocky Linux 8"
+msgstr "록키 리눅스 8.4"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
@@ -4467,6 +4475,12 @@ msgstr "록키 리눅스 9 (알 수 없음)"
 
 #: data/os/rockylinux.org/rocky-9.0.xml.in:6
 msgid "Rocky Linux 9.0"
+msgstr "록키 리눅스 9.0"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:6
+#, fuzzy
+#| msgid "Rocky Linux 9.0"
+msgid "Rocky Linux 9"
 msgstr "록키 리눅스 9.0"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
@@ -4988,6 +5002,7 @@ msgstr "우분투 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5097,6 +5112,12 @@ msgstr "우분투 21.10"
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
 msgid "Ubuntu 22.04 LTS"
 msgstr "우분투 22.04 LTS"
+
+#: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 12.10"
+msgid "Ubuntu 22.10"
+msgstr "우분투 12.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
@@ -5498,6 +5519,12 @@ msgstr "Xen 4.0.1"
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
 msgstr "Xen 4.1.0"
+
+#~ msgid "Rocky 8.4"
+#~ msgstr "록키 8.4"
+
+#~ msgid "Rocky 8.5"
+#~ msgstr "록키 8.5"
 
 #~ msgid "Manjaro Architect"
 #~ msgstr "만자로 구조"
