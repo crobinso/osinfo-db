@@ -26,7 +26,7 @@ DATA_FILES = $(DATA_FILES_IN:$(VPATH)/%.in=%)
 SCHEMA_FILES_IN = data/schema/osinfo.rng.in
 SCHEMA_FILES = data/schema/osinfo.rng
 
-SPEC_FILES_IN = osinfo-db.spec.in mingw-osinfo-db.spec.in
+SPEC_FILES_IN = osinfo-db.spec.in
 SPEC_FILES = $(SPEC_FILES_IN:%.in=%)
 
 PO_FILES = $(wildcard $(VPATH)/po/*.po)
