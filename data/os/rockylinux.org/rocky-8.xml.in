@@ -13,6 +13,131 @@
     <release-date>2021-06-21</release-date>
     <eol-date>2029-05-31</eol-date>
 
+    <!-- All Standard Image Variants -->
+    <variant id="netinst">
+      <name>Rocky Linux 8</name>
+    </variant>
+
+    <variant id="minimal">
+      <name>Rocky Linux 8</name>
+    </variant>
+
+    <variant id="everything">
+      <name>Rocky Linux 8</name>
+    </variant>
+    <!-- End Standard Image Variants -->
+
+    <!-- All Live Image Variants -->
+    <variant id="workstation">
+      <name>Rocky Linux Workstation 8</name>
+    </variant>
+    <variant id="workstation-lite">
+      <name>Rocky Linux Workstation-Lite 8</name>
+    </variant>
+    <variant id="xfce">
+      <name>Rocky Linux XFCE 8</name>
+    </variant>
+    <!-- End Live Image Variants -->
+
+    <!-- Latest Images -->
+    <!-- x86_64 -->
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-x86_64-boot.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-x86_64-minimal.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="everything"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-x86_64-dvd.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <!-- x86_64 -->
+
+    <!-- aarch64 -->
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-aarch64-boot.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/pxeboot/vmlinuz</kernel>
+      <initrd>isolinux/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="minimal"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-aarch64-minimal.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/pxeboot/vmlinuz</kernel>
+      <initrd>isolinux/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="everything"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/isos/aarch64/Rocky-aarch64-dvd.iso</url>
+      <iso>
+        <volume-id>Rocky-8-([4-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
+      </iso>
+      <kernel>isolinux/pxeboot/vmlinuz</kernel>
+      <initrd>isolinux/pxeboot/initrd.img</initrd>
+    </media>
+    <!-- aarch64 -->
+    <!-- End Latest Images -->
+
+    <!-- Live Image Media -->
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="workstation"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/live/x86_64/Rocky-8-Workstation-x86_64-latest.iso</url>
+      <iso>
+        <volume-id>^Rocky-(Workstation-8[-]?([4-9]$|[1-9][0-9])?|8-([4-9]|[1-9][0-9])?-(Live-)?(Workstation)?$)</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="workstation-lite"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/live/x86_64/Rocky-8-Workstation-Lite-x86_64-latest.iso</url>
+      <iso>
+        <volume-id>^Rocky-(Workstation-Lite-8[-]?([4-9]$|[1-9][0-9])?|8-([4-9]|[1-9][0-9])?-(Live-)?(Workstation-Lite)?$)</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="xfce"/>
+      <url>https://dl.rockylinux.org/pub/rocky/8/live/x86_64/Rocky-8-XFCE-x86_64-latest.iso</url>
+      <iso>
+        <volume-id>^Rocky-(XFCE-8[-]?([4-9]$|[1-9][0-9])?|8-([4-9]|[1-9][0-9])?-(Live-)?(XFCE)?$)</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <!-- End Live Image Media -->
+
+    <!-- Final catch -->
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
@@ -30,6 +155,7 @@
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
     </media>
+    <!-- End final catch -->
 
     <!-- treeinfo 
          All Versions should be caught here -->
@@ -51,6 +177,18 @@
       </treeinfo>
     </tree>
     <!-- end treeinfo -->
+
+    <!-- Cloud Images -->
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://download.rockylinux.org/pub/rocky/8/images/x86_64/Rocky-8-GenericCloud.latest.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://download.rockylinux.org/pub/rocky/8/images/aarch64/Rocky-8-GenericCloud.latest.aarch64.qcow2</url>
+    </image>
+
+    <cloud-image-username>rocky</cloud-image-username>
+    <!-- End Cloud Images -->
 
     <!-- Default resources -->
     <resources arch="x86_64">
