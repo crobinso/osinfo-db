@@ -18,6 +18,7 @@ class UrlType(enum.Enum):
     URL_DISK_RAW = 4
     URL_DISK_QCOW2 = 5
     URL_DISK_VMDK = 6
+    URL_TREEINFO = 7
 
 
 iso_content_types = {
@@ -59,6 +60,12 @@ vmdk_content_types = {
 }
 
 
+treeinfo_content_types = {
+    # generic data
+    'application/octet-stream',
+}
+
+
 def _is_content_type_allowed(content_type, url_type):
     if url_type == UrlType.URL_ISO:
         return content_type in iso_content_types
@@ -70,6 +77,8 @@ def _is_content_type_allowed(content_type, url_type):
         return content_type in qcow2_content_types
     if url_type == UrlType.URL_DISK_VMDK:
         return content_type in vmdk_content_types
+    if url_type == UrlType.URL_TREEINFO:
+        return content_type in treeinfo_content_types
     return True
 
 
@@ -124,6 +133,8 @@ def _collect_os_urls():
                 urls.append((url + t.kernel, UrlType.URL_GENERIC))
             if t.initrd:
                 urls.append((url + t.initrd, UrlType.URL_INITRD))
+            if t.treeinfo:
+                urls.append((url + '.treeinfo', UrlType.URL_TREEINFO))
         if urls:
             ret.append((osxml.shortid, urls))
 
