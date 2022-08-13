@@ -30,8 +30,8 @@ def _check_uncommented_devices(osxml):
     the device string name in it. This helps readability/grepability
     """
     badlines = []
-    devlines = [l for l in open(osxml.filename).read().splitlines() if
-                "<device id" in l]
+    devlines = [line for line in open(osxml.filename).read().splitlines() if
+                "<device id" in line]
 
     for devid in osxml.devices:
         devname = DEVICE_MAP_SRC[devid].name
