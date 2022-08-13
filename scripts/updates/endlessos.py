@@ -149,7 +149,7 @@ def fetch_isodata(branch, iso):
         return
     print(f"Fetching first 2MiB of {iso_url}...")
 
-    response = requests.get(iso_url, headers={"Range": f"bytes=0-2097152"}, stream=True)
+    response = requests.get(iso_url, headers={"Range": "bytes=0-2097152"}, stream=True)
     with tempfile.NamedTemporaryFile(suffix=os.path.basename(iso_url)) as f:
         for chunk in response.iter_content(chunk_size=8096):
             f.write(chunk)
