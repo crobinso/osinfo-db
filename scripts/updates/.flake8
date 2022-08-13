@@ -1,5 +1,0 @@
-[flake8]
-# The default is 79 characters. Black, a popular Python code formatter, defaults
-# to 88 which is based on some empirical research on reducing annoying line
-# wrapping on real source code. <https://github.com/psf/black#line-length>
-max-line-length = 88
