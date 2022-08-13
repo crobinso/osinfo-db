@@ -45,7 +45,6 @@ in [2][3]. Good luck!
 """
 
 import argparse
-import doctest
 import glob
 import os.path
 import logging
