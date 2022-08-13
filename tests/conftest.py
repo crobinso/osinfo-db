@@ -40,7 +40,7 @@ def pytest_configure(config):
 
     # This will trigger some DATA_DIR validation
     from . import util
-    dummy = util
+    _ = util
 
 
 def pytest_ignore_collect(path, config):

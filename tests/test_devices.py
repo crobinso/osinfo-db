@@ -15,7 +15,6 @@ def _check_duplicate_devices(osxml):
     Ensure an OS doesn't list a device that's enabled, and not eventually
     disabled, in a parent OS
     """
-    broken = []
     related = util.DataFiles.getosxml_related(osxml)
     inherited_devices = set()
     for osxml2 in reversed(related):
