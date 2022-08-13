@@ -156,7 +156,7 @@ def find_prev_stable(new_release):
 
     # discard the new release from list if it's there to make it
     # possible to run this script multiple times
-    files = sorted(filter(lambda f: not new_release in f, files))
+    files = sorted(filter(lambda f: new_release not in f, files))
     if len(files) < 1:
         fatal("Can't find previous stable release file in %s", DATA_DIR)
     prev_file = files[-1]
