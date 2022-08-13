@@ -24,6 +24,7 @@ class _XMLBase():
     """
     Simple base class for our XML parsers
     """
+
     def __init__(self, root):
         self._root = root
         self._cache = {}

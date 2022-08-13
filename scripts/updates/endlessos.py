@@ -57,6 +57,7 @@ ISODATA_DIR = os.path.relpath(
 # ('en', 'pt_BR') or 'base' (which contains almost no pre-installed apps).
 NON_LOCALE_PERSONALITIES = {"base": "Basic", "sea": "Southeast Asia"}
 
+
 def personality_name(personality):
     # TODO: this is adapted from our installer, but we should include this information
     # in the releases-eos-3.json file.

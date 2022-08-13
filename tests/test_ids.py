@@ -30,7 +30,6 @@ def _test_validate_ids(xml, entity_type):
         assert filename == expected_filename
 
 
-
 @util.os_parametrize('osxml')
 def test_validate_os_ids(osxml):
     """

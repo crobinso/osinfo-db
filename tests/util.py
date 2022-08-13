@@ -29,6 +29,7 @@ class _Files():
     """
     Track a list of DATA_DIR files and provide APIs for querying them.
     """
+
     def __init__(self, dir_env, files_format):
         self.datadir = os.environ[dir_env]
         self.schema = os.path.join(self.datadir, 'schema', 'osinfo.rng')
@@ -44,7 +45,6 @@ class _Files():
 
         if not os.path.exists(self.datadir):
             raise RuntimeError("%s=%s doesn't exist" % (dir_env, self.datadir))
-
 
     def _get_all_xml(self):
         """
@@ -165,6 +165,7 @@ class _DataFiles(_Files):
     Track a list of DATA_DIR XML files and provide APIs for querying
     them. Meant to be initialized only once
     """
+
     def __init__(self):
         _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_DIR', '.xml')
 
@@ -238,6 +239,7 @@ class _SourceFiles(_Files):
     Track a list of DATA_SRC_DIR XML.IN files and provide APIs for querying
     them. Meant to be initialized only once
     """
+
     def __init__(self):
         _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_SRC_DIR', '.xml.in')
 
