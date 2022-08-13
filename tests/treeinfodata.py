@@ -31,7 +31,7 @@ def get_treeinfodata(filepath):
 
     config = configparser.ConfigParser()
     with open(filepath, 'r') as out:
-        config.read(filepath)
+        config.read_file(out)
         arch = ''
         family = ''
         variant = ''
