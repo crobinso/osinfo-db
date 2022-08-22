@@ -1,0 +1,64 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://univention.de/ucs/5.0">
+    <short-id>ucs5.0</short-id>
+    <name>Univention Corporate Server 5.0</name>
+    <version>5.0</version>
+    <vendor>Univention GmbH</vendor>
+    <family>linux</family>
+    <distro>ucs</distro>
+    <codename>stretch</codename>
+    <upgrades id="http://univention.de/ucs/4.4"/>
+    <derives-from id="http://univention.de/ucs/4.4"/>
+    <derives-from id="http://debian.org/debian/10"/>
+
+    <release-date>2021-05-25</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="universal">
+      <name>UCS 5.0</name>
+    </variant>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="universal"/>
+      <url>https://updates.software-univention.de/download/ucs-cds/ucs5.0-1/UCS_5.0-1-amd64.iso</url>
+      <iso>
+        <volume-id>UCS 5.0-\d+ amd64 1</volume-id>
+        <publisher-id>UNIVENTION GMBH</publisher-id>
+        <application-id>UNIVENTION CORPORATE SERVER</application-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://updates.software-univention.de/pxe/5.0-1/amd64</url>
+      <kernel>debian-installer/amd64/linux</kernel>
+      <initrd>debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+
+    <image arch="x86_64" format="qcow2" cloud-init="false">
+      <url>https://updates.software-univention.de/download/evaluation/UCS-KVM-Image.qcow2</url>
+    </image>
+
+    <installer>
+      <script id="http://debian.org/debian/preseed/jeos"/>
+      <script id="http://debian.org/debian/preseed/desktop"/>
+    </installer>
+  </os>
+</libosinfo>
