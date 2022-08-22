@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 08:45+0200\n"
-"PO-Revision-Date: 2022-08-06 14:19+0000\n"
+"PO-Revision-Date: 2022-08-12 13:02+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -4467,22 +4467,16 @@ msgid "Rocky Linux 8"
 msgstr "록키 리눅스 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:32
-#, fuzzy
-#| msgid "Rocky Linux 8"
 msgid "Rocky Linux Workstation 8"
-msgstr "록키 리눅스 8"
+msgstr "록키 리눅스 웍스테이션 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:35
-#, fuzzy
-#| msgid "Rocky Linux Unknown"
 msgid "Rocky Linux Workstation-Lite 8"
-msgstr "록키 리눅스 (알 수 없음)"
+msgstr "록키 리눅스 웍스테이션-라이트 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:38
-#, fuzzy
-#| msgid "Rocky Linux 8"
 msgid "Rocky Linux XFCE 8"
-msgstr "록키 리눅스 8"
+msgstr "록키 리눅스 XFCE 8"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
@@ -4500,28 +4494,20 @@ msgid "Rocky Linux 9"
 msgstr "록키 리눅스 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:32
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "Rocky Linux Workstation 9"
-msgstr "록키 리눅스 9"
+msgstr "록키 리눅스 웍스테이션 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:35
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "Rocky Linux Workstation-Lite 9"
-msgstr "ALT 웍스테이션 9.0"
+msgstr "록키 리눅스 웍스테이션-라이트 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:38
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "Rocky Linux KDE 9"
-msgstr "록키 리눅스 9"
+msgstr "록키 리눅스 KDE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:41
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "Rocky Linux XFCE 9"
-msgstr "록키 리눅스 9"
+msgstr "록키 리눅스 XFCE 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
