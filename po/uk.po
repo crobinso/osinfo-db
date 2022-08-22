@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 16:40+0200\n"
+"POT-Creation-Date: 2022-08-11 08:45+0200\n"
 "PO-Revision-Date: 2022-08-04 19:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -4464,7 +4464,28 @@ msgid "Rocky Linux 8.6"
 msgstr "Rocky Linux 8.6"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:6
+#: data/os/rockylinux.org/rocky-8.xml.in:18
+#: data/os/rockylinux.org/rocky-8.xml.in:22
+#: data/os/rockylinux.org/rocky-8.xml.in:26
 msgid "Rocky Linux 8"
+msgstr "Rocky Linux 8"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:32
+#, fuzzy
+#| msgid "Rocky Linux 8"
+msgid "Rocky Linux Workstation 8"
+msgstr "Rocky Linux 8"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:35
+#, fuzzy
+#| msgid "Rocky Linux Unknown"
+msgid "Rocky Linux Workstation-Lite 8"
+msgstr "Rocky Linux, невідома"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:38
+#, fuzzy
+#| msgid "Rocky Linux 8"
+msgid "Rocky Linux XFCE 8"
 msgstr "Rocky Linux 8"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
@@ -4476,7 +4497,34 @@ msgid "Rocky Linux 9.0"
 msgstr "Rocky Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:6
+#: data/os/rockylinux.org/rocky-9.xml.in:18
+#: data/os/rockylinux.org/rocky-9.xml.in:22
+#: data/os/rockylinux.org/rocky-9.xml.in:26
 msgid "Rocky Linux 9"
+msgstr "Rocky Linux 9"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:32
+#, fuzzy
+#| msgid "Rocky Linux 9"
+msgid "Rocky Linux Workstation 9"
+msgstr "Rocky Linux 9"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:35
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "Rocky Linux Workstation-Lite 9"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:38
+#, fuzzy
+#| msgid "Rocky Linux 9"
+msgid "Rocky Linux KDE 9"
+msgstr "Rocky Linux 9"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:41
+#, fuzzy
+#| msgid "Rocky Linux 9"
+msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 16:40+0200\n"
+"POT-Creation-Date: 2022-08-11 08:45+0200\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -4712,9 +4712,30 @@ msgid "Rocky Linux 8.6"
 msgstr "Alpine Linux 3.5"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:6
+#: data/os/rockylinux.org/rocky-8.xml.in:18
+#: data/os/rockylinux.org/rocky-8.xml.in:22
+#: data/os/rockylinux.org/rocky-8.xml.in:26
 #, fuzzy
 #| msgid "Alpine Linux 3.5"
 msgid "Rocky Linux 8"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:32
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux Workstation 8"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:35
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux Workstation-Lite 8"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-8.xml.in:38
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux XFCE 8"
 msgstr "Alpine Linux 3.5"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
@@ -4726,9 +4747,36 @@ msgid "Rocky Linux 9.0"
 msgstr ""
 
 #: data/os/rockylinux.org/rocky-9.xml.in:6
+#: data/os/rockylinux.org/rocky-9.xml.in:18
+#: data/os/rockylinux.org/rocky-9.xml.in:22
+#: data/os/rockylinux.org/rocky-9.xml.in:26
 #, fuzzy
 #| msgid "Alpine Linux 3.5"
 msgid "Rocky Linux 9"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:32
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux Workstation 9"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:35
+#, fuzzy
+#| msgid "ALT Workstation 9.0"
+msgid "Rocky Linux Workstation-Lite 9"
+msgstr "ALT Workstation 9.0"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:38
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux KDE 9"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/rockylinux.org/rocky-9.xml.in:41
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Rocky Linux XFCE 9"
 msgstr "Alpine Linux 3.5"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
