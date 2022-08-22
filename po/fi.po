@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-11 08:45+0200\n"
-"PO-Revision-Date: 2022-06-08 18:18+0000\n"
+"PO-Revision-Date: 2022-08-22 17:12+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -225,10 +225,8 @@ msgid "AlmaLinux"
 msgstr "AlmaLinux"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:5
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 9"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
 msgid "AlmaLinux OS Foundation"
@@ -442,10 +440,8 @@ msgid "Alpinelinux 3.9 Xen"
 msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:6
-#, fuzzy
-#| msgid "ALT 9.0"
 msgid "ALT 10.0"
-msgstr "ALT 9.0"
+msgstr "ALT 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
@@ -471,10 +467,8 @@ msgid "ALT Education 10.0"
 msgstr "ALT koulutus 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
-#, fuzzy
-#| msgid "ALT 8.2 Server"
 msgid "ALT Server 10.0"
-msgstr "ALT 8.2 palvelin"
+msgstr "ALT Server 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:31
 msgid "ALT Virtualization Server 10.0"
@@ -806,16 +800,12 @@ msgstr ""
 #: data/os/cclinux.org/circle-9-unknown.xml.in:8
 #: data/os/cclinux.org/circle-9.0.xml.in:8
 #: data/os/cclinux.org/circle-unknown.xml.in:8
-#, fuzzy
-#| msgid "Alpine Linux Project"
 msgid "Circle Linux Project"
-msgstr "Alpine Linux Project"
+msgstr "Circle Linux Projekti"
 
 #: data/os/cclinux.org/circle-8.4.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Circle Linux 8.4"
-msgstr "Rocky Linux 8.4"
+msgstr "Circle Linux 8.4"
 
 #: data/os/cclinux.org/circle-8.4.xml.in:17
 #: data/os/cclinux.org/circle-8.4.xml.in:21
@@ -824,10 +814,8 @@ msgid "Circle 8.4"
 msgstr ""
 
 #: data/os/cclinux.org/circle-8.5.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 8.5"
 msgid "Circle Linux 8.5"
-msgstr "Rocky Linux 8.5"
+msgstr "Circle Linux 8.5"
 
 #: data/os/cclinux.org/circle-8.5.xml.in:20
 #: data/os/cclinux.org/circle-8.5.xml.in:24
@@ -4493,10 +4481,8 @@ msgstr "Rocky Linux 8.6"
 #: data/os/rockylinux.org/rocky-8.xml.in:18
 #: data/os/rockylinux.org/rocky-8.xml.in:22
 #: data/os/rockylinux.org/rocky-8.xml.in:26
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux 8"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:32
 #, fuzzy
@@ -4528,10 +4514,8 @@ msgstr "Rocky Linux 9.0"
 #: data/os/rockylinux.org/rocky-9.xml.in:18
 #: data/os/rockylinux.org/rocky-9.xml.in:22
 #: data/os/rockylinux.org/rocky-9.xml.in:26
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:32
 #, fuzzy
