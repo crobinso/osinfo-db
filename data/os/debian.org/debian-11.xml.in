@@ -31,6 +31,7 @@
 
     <devices>
       <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
+      <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
     </devices>
 
     <variant id="universal">
