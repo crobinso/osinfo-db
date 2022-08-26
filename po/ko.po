@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 20:23+0200\n"
-"PO-Revision-Date: 2022-08-12 13:02+0000\n"
+"PO-Revision-Date: 2022-08-23 09:17+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -5188,10 +5188,8 @@ msgid "Ubuntu 9.10"
 msgstr "우분투 9.10"
 
 #: data/os/univention.de/ucs-4.0.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.0"
 msgid "Univention Corporate Server 4.0"
-msgstr "맨드리바 기업용 서버 5.0"
+msgstr "Univention 기업 서버 4.0"
 
 #: data/os/univention.de/ucs-4.0.xml.in:9
 #: data/os/univention.de/ucs-4.1.xml.in:8
@@ -5200,57 +5198,51 @@ msgstr "맨드리바 기업용 서버 5.0"
 #: data/os/univention.de/ucs-4.4.xml.in:8
 #: data/os/univention.de/ucs-5.0.xml.in:8
 msgid "Univention GmbH"
-msgstr ""
+msgstr "Univention GmbH"
 
 #: data/os/univention.de/ucs-4.0.xml.in:33
 msgid "UCS 4.0"
-msgstr ""
+msgstr "UCS 4.0"
 
 #: data/os/univention.de/ucs-4.1.xml.in:6
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.1"
 msgid "Univention Corporate Server 4.1"
-msgstr "맨드리바 기업용 서버 5.1"
+msgstr "Univention 기업 서버 4.1"
 
 #: data/os/univention.de/ucs-4.1.xml.in:34
 msgid "UCS 4.1"
-msgstr ""
+msgstr "UCS 4.1"
 
 #: data/os/univention.de/ucs-4.2.xml.in:6
 msgid "Univention Corporate Server 4.2"
-msgstr ""
+msgstr "Univention 기업 서버 4.2"
 
 #: data/os/univention.de/ucs-4.2.xml.in:34
 msgid "UCS 4.2"
-msgstr ""
+msgstr "UCS 4.2"
 
 #: data/os/univention.de/ucs-4.3.xml.in:6
 msgid "Univention Corporate Server 4.3"
-msgstr ""
+msgstr "Univention 기업 서버 4.3"
 
 #: data/os/univention.de/ucs-4.3.xml.in:34
 msgid "UCS 4.3"
-msgstr ""
+msgstr "UCS 4.3"
 
 #: data/os/univention.de/ucs-4.4.xml.in:6
 msgid "Univention Corporate Server 4.4"
-msgstr ""
+msgstr "Univention 기업 서버 4.4"
 
 #: data/os/univention.de/ucs-4.4.xml.in:33
 msgid "UCS 4.4"
-msgstr ""
+msgstr "UCS 4.4"
 
 #: data/os/univention.de/ucs-5.0.xml.in:6
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.0"
 msgid "Univention Corporate Server 5.0"
-msgstr "맨드리바 기업용 서버 5.0"
+msgstr "Univention 기업 서버 5.0"
 
 #: data/os/univention.de/ucs-5.0.xml.in:33
-#, fuzzy
-#| msgid "CentOS 5.0"
 msgid "UCS 5.0"
-msgstr "센트오에스 5.0"
+msgstr "UCS 5.0"
 
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:6
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:7
