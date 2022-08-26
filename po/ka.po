@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-22 20:23+0200\n"
-"PO-Revision-Date: 2022-07-22 15:19+0000\n"
+"PO-Revision-Date: 2022-08-26 05:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -2123,10 +2123,8 @@ msgid "Fedora 9"
 msgstr "Fedora 9"
 
 #: data/os/fedoraproject.org/fedora-eln.xml.in:6
-#, fuzzy
-#| msgid "Fedora 7"
 msgid "Fedora ELN"
-msgstr "Fedora 7"
+msgstr "Fedora ELN"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
@@ -4312,10 +4310,8 @@ msgid "Red Hat Enterprise Linux 8.6"
 msgstr "Red Hat Enterprise Linux 8.6"
 
 #: data/os/redhat.com/rhel-8.7.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.7"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.7"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
@@ -4326,10 +4322,8 @@ msgid "Red Hat Enterprise Linux 9.0"
 msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-9.1.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.1"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.1"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -4467,28 +4461,20 @@ msgstr "Rocky Linux 8.6"
 #: data/os/rockylinux.org/rocky-8.xml.in:18
 #: data/os/rockylinux.org/rocky-8.xml.in:22
 #: data/os/rockylinux.org/rocky-8.xml.in:26
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux 8"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:32
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux Workstation 8"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux Workstation 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:35
-#, fuzzy
-#| msgid "Rocky Linux Unknown"
 msgid "Rocky Linux Workstation-Lite 8"
-msgstr "Rocky Linux Unknown"
+msgstr "Rocky Linux Workstation-Lite 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:38
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Rocky Linux XFCE 8"
-msgstr "Rocky Linux 8.4"
+msgstr "Rocky Linux XFCE 8"
 
 #: data/os/rockylinux.org/rocky-9-unknown.xml.in:6
 msgid "Rocky Linux 9 Unknown"
@@ -4502,34 +4488,24 @@ msgstr "Rocky Linux 9.0"
 #: data/os/rockylinux.org/rocky-9.xml.in:18
 #: data/os/rockylinux.org/rocky-9.xml.in:22
 #: data/os/rockylinux.org/rocky-9.xml.in:26
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:32
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux Workstation 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux Workstation 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:35
-#, fuzzy
-#| msgid "ALT Workstation 9.0"
 msgid "Rocky Linux Workstation-Lite 9"
-msgstr "ALT Workstation 9.0"
+msgstr "Rocky Linux Workstation-Lite 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:38
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux KDE 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux KDE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:41
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Rocky Linux XFCE 9"
-msgstr "Rocky Linux 9.0"
+msgstr "Rocky Linux XFCE 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
@@ -5162,10 +5138,8 @@ msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 22.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 12.10"
 msgid "Ubuntu 22.10"
-msgstr "Ubuntu 12.10"
+msgstr "Ubuntu 22.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
@@ -5212,10 +5186,8 @@ msgid "Ubuntu 9.10"
 msgstr "Ubuntu 9.10"
 
 #: data/os/univention.de/ucs-4.0.xml.in:7
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.0"
 msgid "Univention Corporate Server 4.0"
-msgstr "Mandriva Enterprise Server 5.0"
+msgstr "Univention Corporate Server 4.0"
 
 #: data/os/univention.de/ucs-4.0.xml.in:9
 #: data/os/univention.de/ucs-4.1.xml.in:8
@@ -5224,57 +5196,51 @@ msgstr "Mandriva Enterprise Server 5.0"
 #: data/os/univention.de/ucs-4.4.xml.in:8
 #: data/os/univention.de/ucs-5.0.xml.in:8
 msgid "Univention GmbH"
-msgstr ""
+msgstr "Univention GmbH"
 
 #: data/os/univention.de/ucs-4.0.xml.in:33
 msgid "UCS 4.0"
-msgstr ""
+msgstr "UCS 4.0"
 
 #: data/os/univention.de/ucs-4.1.xml.in:6
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.1"
 msgid "Univention Corporate Server 4.1"
-msgstr "Mandriva Enterprise Server 5.1"
+msgstr "Univention Corporate Server 4.1"
 
 #: data/os/univention.de/ucs-4.1.xml.in:34
 msgid "UCS 4.1"
-msgstr ""
+msgstr "UCS 4.1"
 
 #: data/os/univention.de/ucs-4.2.xml.in:6
 msgid "Univention Corporate Server 4.2"
-msgstr ""
+msgstr "Univention Corporate Server 4.2"
 
 #: data/os/univention.de/ucs-4.2.xml.in:34
 msgid "UCS 4.2"
-msgstr ""
+msgstr "UCS 4.2"
 
 #: data/os/univention.de/ucs-4.3.xml.in:6
 msgid "Univention Corporate Server 4.3"
-msgstr ""
+msgstr "Univention Corporate Server 4.3"
 
 #: data/os/univention.de/ucs-4.3.xml.in:34
 msgid "UCS 4.3"
-msgstr ""
+msgstr "UCS 4.3"
 
 #: data/os/univention.de/ucs-4.4.xml.in:6
 msgid "Univention Corporate Server 4.4"
-msgstr ""
+msgstr "Univention Corporate Server 4.4"
 
 #: data/os/univention.de/ucs-4.4.xml.in:33
 msgid "UCS 4.4"
-msgstr ""
+msgstr "UCS 4.4"
 
 #: data/os/univention.de/ucs-5.0.xml.in:6
-#, fuzzy
-#| msgid "Mandriva Enterprise Server 5.0"
 msgid "Univention Corporate Server 5.0"
-msgstr "Mandriva Enterprise Server 5.0"
+msgstr "Univention Corporate Server 5.0"
 
 #: data/os/univention.de/ucs-5.0.xml.in:33
-#, fuzzy
-#| msgid "CentOS 5.0"
 msgid "UCS 5.0"
-msgstr "CentOS 5.0"
+msgstr "UCS 5.0"
 
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:6
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:7
