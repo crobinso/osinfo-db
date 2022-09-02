@@ -308,7 +308,8 @@ def update_unstable(new_release, next_release):
     xml_os = xml.find("os")
     if new_release not in xml_os.find("media/iso/volume-id").text:
         logging.warning(
-            "Current unstable volume-id does not contain %s - make sure the new value is correct",
+            "Current unstable volume-id does not contain %s - make sure the new value "
+            "is correct",
             new_release,
         )
     tag_replace_text(xml_os, "media/iso/volume-id", new_release, next_release)

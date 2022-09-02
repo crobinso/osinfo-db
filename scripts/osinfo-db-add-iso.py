@@ -35,7 +35,7 @@ def _parse_args():
     )
     parser = argparse.ArgumentParser(description=desc)
 
-    parser.add_argument("shortid", help="Which <os> short-id " "the ISO is media for")
+    parser.add_argument("shortid", help="Which <os> short-id the ISO is media for")
     parser.add_argument("iso", help="The path to the ISO media")
     parser.add_argument(
         "--arch",
