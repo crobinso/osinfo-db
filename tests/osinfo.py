@@ -10,6 +10,7 @@ def _cache_property(fn):
     """
     Decorator to use self._cache to cache property lookup results
     """
+
     def _wrapper(*args):
         self = args[0]
         key = str(fn)
@@ -17,10 +18,11 @@ def _cache_property(fn):
         if key not in cache:
             cache[key] = fn(*args)
         return cache[key]
+
     return property(_wrapper)
 
 
-class _XMLBase():
+class _XMLBase:
     """
     Simple base class for our XML parsers
     """
@@ -137,10 +139,7 @@ class Os(_XMLBase):
         return self._root.findall('resources')
 
     def _get_resources(self, node, resource_type):
-        valid_resources = ['minimum',
-                           'recommended',
-                           'maximum',
-                           'network-install']
+        valid_resources = ['minimum', 'recommended', 'maximum', 'network-install']
         if resource_type not in valid_resources:
             return None
         # pylint: disable=unsupported-membership-test
@@ -185,9 +184,11 @@ class Os(_XMLBase):
 
     @_cache_property
     def installscripts(self):
-        return [s.attrib['id']
-                for i in self._root.findall('installer')
-                for s in i.findall('script')]
+        return [
+            s.attrib['id']
+            for i in self._root.findall('installer')
+            for s in i.findall('script')
+        ]
 
 
 class Resources(_XMLBase):
@@ -256,9 +257,11 @@ class Media(_XMLBase):
 
     @_cache_property
     def installscripts(self):
-        return [s.attrib['id']
-                for i in self._root.findall('installer')
-                for s in i.findall('script')]
+        return [
+            s.attrib['id']
+            for i in self._root.findall('installer')
+            for s in i.findall('script')
+        ]
 
 
 class Tree(_XMLBase):

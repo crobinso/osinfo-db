@@ -2,16 +2,16 @@
 # See the COPYING file in the top-level directory.
 
 
-class _ISODataMedia():
-    def __init__(self, filename, volumeid, publisherid, systemid,
-                 applicationid, volumesize):
+class _ISODataMedia:
+    def __init__(
+        self, filename, volumeid, publisherid, systemid, applicationid, volumesize
+    ):
 
         self.filename = filename
         self.volumeid = volumeid if volumeid is not None else ''
         self.publisherid = publisherid if publisherid is not None else ''
         self.systemid = systemid if systemid is not None else ''
-        self.applicationid = applicationid \
-                if applicationid is not None else ''
+        self.applicationid = applicationid if applicationid is not None else ''
         self.volumesize = volumesize if volumesize is not None else 0
 
     def match(self, media):
@@ -19,11 +19,13 @@ class _ISODataMedia():
         if volumesize == 0:
             volumesize = self.volumesize
 
-        if bool(media.volumeid.match(self.volumeid)) and \
-           bool(media.publisherid.match(self.publisherid)) and \
-           bool(media.applicationid.match(self.applicationid)) and \
-           bool(media.systemid.match(self.systemid)) and \
-           volumesize == self.volumesize:
+        if (
+            bool(media.volumeid.match(self.volumeid))
+            and bool(media.publisherid.match(self.publisherid))
+            and bool(media.applicationid.match(self.applicationid))
+            and bool(media.systemid.match(self.systemid))
+            and volumesize == self.volumesize
+        ):
             return True
 
         return False
@@ -31,7 +33,7 @@ class _ISODataMedia():
 
 def _get_value(string, prefix, return_type=str):
     if string.startswith(prefix):
-        return return_type(string[len(prefix):].strip())
+        return return_type(string[len(prefix) :].strip())
     return None
 
 
@@ -87,5 +89,6 @@ def get_isodatamedia(filepath):
     else:
         volumesize = None
 
-    return _ISODataMedia(filepath, volumeid, publisherid, systemid,
-                         applicationid, volumesize)
+    return _ISODataMedia(
+        filepath, volumeid, publisherid, systemid, applicationid, volumesize
+    )

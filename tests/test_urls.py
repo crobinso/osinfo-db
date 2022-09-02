@@ -44,8 +44,7 @@ initrd_content_types = {
 }
 
 
-raw_content_types = {
-}
+raw_content_types = {}
 
 
 qcow2_content_types = {
@@ -57,8 +56,7 @@ qcow2_content_types = {
 }
 
 
-vmdk_content_types = {
-}
+vmdk_content_types = {}
 
 
 treeinfo_content_types = {
@@ -114,12 +112,15 @@ def _check_url(url, url_type):
     content_type = response.headers.get('content-type')
     if content_type:
         try:
-            content_type = content_type[0:content_type.index(';')]
+            content_type = content_type[0 : content_type.index(';')]
         except ValueError:
             pass
-    logging.info("response: %s; code: %d; content-type: %s",
-                 http.client.responses[response.status_code],
-                 response.status_code, content_type)
+    logging.info(
+        "response: %s; code: %d; content-type: %s",
+        http.client.responses[response.status_code],
+        response.status_code,
+        content_type,
+    )
     if not response.ok:
         return False
     if content_type and not _is_content_type_allowed(content_type, url_type):
@@ -168,8 +169,9 @@ def _collect_os_urls():
     return ret
 
 
-@pytest.mark.parametrize('testdata', _collect_os_urls(),
-        ids=lambda testdata: testdata[0])
+@pytest.mark.parametrize(
+    'testdata', _collect_os_urls(), ids=lambda testdata: testdata[0]
+)
 def test_urls(testdata):
     urls = testdata[1]
     broken = []

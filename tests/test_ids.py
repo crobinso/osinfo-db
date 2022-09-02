@@ -18,7 +18,7 @@ def _test_validate_ids(xml, entity_type):
 
     extension = bool(".d/" in expected_filename)
 
-    suffix = xml.internal_id[len('http://'):]
+    suffix = xml.internal_id[len('http://') :]
     vendor = suffix.split('/', 1)[0]
     entity_name = suffix.split('/', 1)[1].replace("/", "-")
 

@@ -4,7 +4,7 @@
 import configparser
 
 
-class _TreeinfoData():
+class _TreeinfoData:
     def __init__(self, filename, arch, family, variant, version):
 
         self.filename = filename
@@ -14,10 +14,12 @@ class _TreeinfoData():
         self.version = version or ''
 
     def match(self, treeinfo):
-        if bool(treeinfo.arch.match(self.arch)) and \
-           bool(treeinfo.family.match(self.family)) and \
-           bool(treeinfo.variant.match(self.variant)) and \
-           bool(treeinfo.version.match(self.version)):
+        if (
+            bool(treeinfo.arch.match(self.arch))
+            and bool(treeinfo.family.match(self.family))
+            and bool(treeinfo.variant.match(self.variant))
+            and bool(treeinfo.version.match(self.version))
+        ):
             return True
 
         return False

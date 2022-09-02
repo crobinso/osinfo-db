@@ -15,9 +15,7 @@ def _get_isodatapaths():
     Collect iso media data and return a list of tuples:
         (osname, isodatapaths)
     """
-    isodata_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)),
-        'isodata')
+    isodata_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'isodata')
 
     ret = []
     allpaths = glob.glob(os.path.join(isodata_path, "*", "*"))
@@ -42,10 +40,16 @@ def test_iso_detection(testdata):
                         logging.warning(
                             'ISO \'%s\' was matched by OS \'%s\' while it '
                             'should only be matched by OS \'%s\'',
-                            isodatamedia.filename, osxml2.shortid, osname)
+                            isodatamedia.filename,
+                            osxml2.shortid,
+                            osname,
+                        )
                     else:
-                        logging.info('ISO \'%s\' matched by OS \'%s\'',
-                                     isodatamedia.filename, osxml2.shortid)
+                        logging.info(
+                            'ISO \'%s\' matched by OS \'%s\'',
+                            isodatamedia.filename,
+                            osxml2.shortid,
+                        )
                     # For several distros we do not have the volume-size
                     # set as part of our DB, thus multiple detections may
                     # occur. Although this case is not the optimal, as long
@@ -56,5 +60,7 @@ def test_iso_detection(testdata):
         if detected == [osname]:
             continue
 
-        raise AssertionError("isodata: %s\nMatched=%s but expected=%s" %
-                (isodatapath, detected, [osname]))
+        raise AssertionError(
+            "isodata: %s\nMatched=%s but expected=%s"
+            % (isodatapath, detected, [osname])
+        )

@@ -21,11 +21,10 @@ def human_sort(text):
             retval = t
         return retval
 
-    return [atof(c) for c in
-            re.split(r'[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)', text)]
+    return [atof(c) for c in re.split(r'[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)', text)]
 
 
-class _Files():
+class _Files:
     """
     Track a list of DATA_DIR files and provide APIs for querying them.
     """
@@ -62,12 +61,24 @@ class _Files():
         """
         Filter XML paths by those in $DATA_DIR/$dirname
         """
-        return [p for p in self._get_all_xml() if
-                p.startswith(os.path.join(self.datadir, dirname))]
+        return [
+            p
+            for p in self._get_all_xml()
+            if p.startswith(os.path.join(self.datadir, dirname))
+        ]
 
-    def oses(self, filter_media=False, filter_trees=False, filter_images=False,
-            filter_devices=False, filter_resources=False, filter_dates=False,
-            filter_related=False, filter_firmwares=False, filter_installscripts=False):
+    def oses(
+        self,
+        filter_media=False,
+        filter_trees=False,
+        filter_images=False,
+        filter_devices=False,
+        filter_resources=False,
+        filter_dates=False,
+        filter_related=False,
+        filter_firmwares=False,
+        filter_installscripts=False,
+    ):
         """
         Return a list of osinfo.Os objects
 
@@ -225,8 +236,7 @@ def installscript_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     installscripts = DataFiles.installscripts(**kwargs).values()
-    return pytest.mark.parametrize(argname, installscripts,
-            ids=_filename_ids_cb)
+    return pytest.mark.parametrize(argname, installscripts, ids=_filename_ids_cb)
 
 
 def platform_parametrize(argname, **kwargs):

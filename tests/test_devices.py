@@ -30,8 +30,11 @@ def _check_uncommented_devices(osxml):
     the device string name in it. This helps readability/grepability
     """
     badlines = []
-    devlines = [line for line in open(osxml.filename).read().splitlines() if
-                "<device id" in line]
+    devlines = [
+        line
+        for line in open(osxml.filename).read().splitlines()
+        if "<device id" in line
+    ]
 
     for devid in osxml.devices:
         devname = DEVICE_MAP_SRC[devid].name
@@ -42,9 +45,10 @@ def _check_uncommented_devices(osxml):
                 badlines.append(devline)
 
     if badlines:
-        raise AssertionError("shortid=%s device lines don't contain a "
-                "comment with the device name:\n%s" %
-                (osxml.shortid, badlines))
+        raise AssertionError(
+            "shortid=%s device lines don't contain a "
+            "comment with the device name:\n%s" % (osxml.shortid, badlines)
+        )
 
 
 @util.os_parametrize('osxml', filter_devices=True)

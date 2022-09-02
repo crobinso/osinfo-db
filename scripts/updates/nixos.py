@@ -58,17 +58,13 @@ import requests
 
 DATA_DIR = os.path.relpath(
     os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__), "..", "..", "data", "os", "nixos.org"
-        )
+        os.path.join(os.path.dirname(__file__), "..", "..", "data", "os", "nixos.org")
     )
 )
 
 TEST_DIR = os.path.relpath(
     os.path.abspath(
-        os.path.join(
-            os.path.dirname(__file__), "..", "..", "tests", "isodata", "nixos"
-        )
+        os.path.join(os.path.dirname(__file__), "..", "..", "tests", "isodata", "nixos")
     )
 )
 
@@ -98,8 +94,11 @@ def guess_next_release(release):
 def str_regex(pattern, suggested_format):
     def validate(arg):
         if not re.match(pattern, arg):
-            raise argparse.ArgumentTypeError(f"invalid format, must be {suggested_format}")
+            raise argparse.ArgumentTypeError(
+                f"invalid format, must be {suggested_format}"
+            )
         return arg
+
     return validate
 
 
@@ -129,7 +128,8 @@ def parse_args():
         help="next release number after --release (plus 6 months by default)",
     )
     parser.add_argument(
-        "-v", "--verbose",
+        "-v",
+        "--verbose",
         action='store_true',
         help="print debugging output",
     )
@@ -165,7 +165,9 @@ def find_prev_stable(new_release):
     if m is None:
         fatal("Can't parse previous release number: %s", prev_file)
 
-    logging.info("Creating new release %s with %s as a template", new_release, prev_file)
+    logging.info(
+        "Creating new release %s with %s as a template", new_release, prev_file
+    )
     return (m[1], etree.parse(prev_file))
 
 
@@ -281,7 +283,9 @@ def create_new_stable(release, codename, release_date):
 
     for tag_to_remove in ("devices", "firmware"):
         for e in xml_os.findall(tag_to_remove):
-            logging.debug("Removing <%s> because it is inherited via derives-from", tag_to_remove)
+            logging.debug(
+                "Removing <%s> because it is inherited via derives-from", tag_to_remove
+            )
             xml_os.remove(e)
 
     set_derives_from(xml_os, prev_release)
@@ -300,7 +304,10 @@ def update_unstable(new_release, next_release):
     xml = etree.parse(UNSTABLE)
     xml_os = xml.find("os")
     if new_release not in xml_os.find("media/iso/volume-id").text:
-        logging.warning("Current unstable volume-id does not contain %s - make sure the new value is correct", new_release)
+        logging.warning(
+            "Current unstable volume-id does not contain %s - make sure the new value is correct",
+            new_release,
+        )
     tag_replace_text(xml_os, "media/iso/volume-id", new_release, next_release)
     set_derives_from(xml_os, new_release)
     xml.write(UNSTABLE)
@@ -316,7 +323,7 @@ def update_unknown(next_release):
     """
     xml = etree.parse(UNKNOWN)
     regex = regex_higher_than(next_release)
-    xml.find("os/media/iso/volume-id").text = ("nixos-.*-(" + regex + ")-.*")
+    xml.find("os/media/iso/volume-id").text = "nixos-.*-(" + regex + ")-.*"
     xml.write(UNKNOWN)
     logging.info("Updated unknown entry %s", UNKNOWN)
 
@@ -405,17 +412,35 @@ def print_instructions(release, git_add, git_rm):
     the new release.
     """
     new_release_file = os.path.join(DATA_DIR, f"nixos-{release}.xml.in")
-    logging.warning("Make sure <variant>s are up to date in %s and %s", new_release_file, UNSTABLE)
-    logging.warning("Make sure system <resources> are appropriate in %s and %s and %s", new_release_file, UNSTABLE, UNKNOWN)
-    logging.warning("If new virtual hardware is supported, add new <devices> to %s", new_release_file)
-    logging.warning("Run git add:\n%s", "\n".join(map(lambda f: f"\tgit add {f}", [new_release_file] + git_add)))
-    logging.warning("Run git rm:\n%s", "\n".join(map(lambda f: f"\tgit rm {f}", git_rm)))
+    logging.warning(
+        "Make sure <variant>s are up to date in %s and %s", new_release_file, UNSTABLE
+    )
+    logging.warning(
+        "Make sure system <resources> are appropriate in %s and %s and %s",
+        new_release_file,
+        UNSTABLE,
+        UNKNOWN,
+    )
+    logging.warning(
+        "If new virtual hardware is supported, add new <devices> to %s",
+        new_release_file,
+    )
+    logging.warning(
+        "Run git add:\n%s",
+        "\n".join(map(lambda f: f"\tgit add {f}", [new_release_file] + git_add)),
+    )
+    logging.warning(
+        "Run git rm:\n%s", "\n".join(map(lambda f: f"\tgit rm {f}", git_rm))
+    )
     logging.warning("Run git commit -a, make check, and go create a merge request!")
 
 
 def main():
     args = parse_args()
-    logging.basicConfig(format="%(levelname)s\t%(message)s", level=(logging.DEBUG if args.verbose else logging.INFO))
+    logging.basicConfig(
+        format="%(levelname)s\t%(message)s",
+        level=(logging.DEBUG if args.verbose else logging.INFO),
+    )
     check_isoinfo()
 
     stable_xml = create_new_stable(args.release, args.codename, args.release_date)
