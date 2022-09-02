@@ -130,7 +130,7 @@ def parse_args():
     parser.add_argument(
         "-v",
         "--verbose",
-        action='store_true',
+        action="store_true",
         help="print debugging output",
     )
     args = parser.parse_args()
@@ -340,7 +340,7 @@ def fetch_iso(url, directory):
     logging.debug("%s filename: %s", url, filename)
     filename = os.path.join(directory, filename)
     logging.info("Downloading %s", url)
-    with open(filename, 'wb') as fh:
+    with open(filename, "wb") as fh:
         fh.write(next(r.iter_content(chunk_size=ISO_BYTES)))
     logging.debug("Downloaded %s", filename)
     return filename
@@ -350,12 +350,12 @@ def run_isoinfo(isofile, outfile):
     """
     Runs isoinfo -d -i isofile and saves it to outfile.
     """
-    res = subprocess.run(['isoinfo', '-d', '-i', isofile], capture_output=True)
+    res = subprocess.run(["isoinfo", "-d", "-i", isofile], capture_output=True)
     if res.returncode != 0:
         logging.error("isoinfo failed on %s:\n%s", isofile, res.stderr)
         return
 
-    with open(outfile, 'wb') as fh:
+    with open(outfile, "wb") as fh:
         fh.write(res.stdout)
     logging.info("Saved isoinfo to %s", outfile)
 

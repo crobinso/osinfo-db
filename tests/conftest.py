@@ -31,7 +31,7 @@ def pytest_configure(config):
         )
 
     # Needed for test reproducibility on any system not using a UTF-8 locale
-    locale.setlocale(locale.LC_ALL, 'C')
+    locale.setlocale(locale.LC_ALL, "C")
     for loc in ["C.UTF-8", "C.utf8", "UTF-8", "en_US.UTF-8"]:
         try:
             locale.setlocale(locale.LC_CTYPE, loc)

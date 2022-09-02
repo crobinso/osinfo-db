@@ -24,23 +24,23 @@ class UrlType(enum.Enum):
 
 iso_content_types = {
     # proper ISO mimetype
-    'application/x-cd-image',
-    'application/x-iso9660-image',
+    "application/x-cd-image",
+    "application/x-iso9660-image",
     # generic data
-    'application/octet-stream',
-    'binary/octet-stream',
+    "application/octet-stream",
+    "binary/octet-stream",
     # ISO files on archive.netbsd.org
-    'text/plain',
+    "text/plain",
     # a few openSUSE Live images
-    'application/x-up-download',
+    "application/x-up-download",
 }
 
 
 initrd_content_types = {
     # generic data
-    'application/octet-stream',
+    "application/octet-stream",
     # gzip-compressed
-    'application/x-gzip',
+    "application/x-gzip",
 }
 
 
@@ -49,10 +49,10 @@ raw_content_types = {}
 
 qcow2_content_types = {
     # generic data
-    'application/octet-stream',
+    "application/octet-stream",
     # qcow2 files on fedoraproject.org mirrors; similar issue of
     # https://pagure.io/fedora-infrastructure/issue/10766
-    'application/x-troff-man',
+    "application/x-troff-man",
 }
 
 
@@ -61,13 +61,13 @@ vmdk_content_types = {}
 
 treeinfo_content_types = {
     # generic data
-    'application/octet-stream',
+    "application/octet-stream",
 }
 
 
 containerdisk_content_types = {
     # image manifest
-    'application/vnd.docker.distribution.manifest.v1+json',
+    "application/vnd.docker.distribution.manifest.v1+json",
 }
 
 
@@ -94,25 +94,25 @@ def _transform_docker_url(url):
     Transform docker:// url into a docker registry API call
     See: https://docs.docker.com/registry/spec/api/#existing-manifests
     """
-    url_parts = url.split('/')
-    url = f'http://{url_parts[2]}/v2/'
+    url_parts = url.split("/")
+    url = f"http://{url_parts[2]}/v2/"
     for i in range(3, len(url_parts) - 1):
-        url += f'{url_parts[i]}/'
-    image, tag = url_parts[-1].split(':')
-    url += f'{image}/manifests/{tag}'
+        url += f"{url_parts[i]}/"
+    image, tag = url_parts[-1].split(":")
+    url += f"{image}/manifests/{tag}"
     return url
 
 
 def _check_url(url, url_type):
     logging.info("url: %s, type: %s", url, url_type)
-    headers = {'user-agent': 'Wget/1.0'}
+    headers = {"user-agent": "Wget/1.0"}
     if url_type == UrlType.URL_DISK_CONTAINERDISK:
         url = _transform_docker_url(url)
     response = requests.head(url, allow_redirects=True, headers=headers, timeout=30)
-    content_type = response.headers.get('content-type')
+    content_type = response.headers.get("content-type")
     if content_type:
         try:
-            content_type = content_type[0 : content_type.index(';')]
+            content_type = content_type[0 : content_type.index(";")]
         except ValueError:
             pass
     logging.info(
@@ -140,13 +140,13 @@ def _collect_os_urls():
             if not i.url:
                 continue
             url_type = UrlType.URL_GENERIC
-            if i.format == 'raw':
+            if i.format == "raw":
                 url_type = UrlType.URL_DISK_RAW
-            elif i.format == 'qcow2':
+            elif i.format == "qcow2":
                 url_type = UrlType.URL_DISK_QCOW2
-            elif i.format == 'vmdk':
+            elif i.format == "vmdk":
                 url_type = UrlType.URL_DISK_VMDK
-            elif i.format == 'containerdisk':
+            elif i.format == "containerdisk":
                 url_type = UrlType.URL_DISK_CONTAINERDISK
             urls.append((i.url, url_type))
         urls.extend([(m.url, UrlType.URL_ISO) for m in osxml.medias if m.url])
@@ -155,14 +155,14 @@ def _collect_os_urls():
                 continue
             urls.append((t.url, UrlType.URL_GENERIC))
             url = t.url
-            if not url.endswith('/'):
-                url += '/'
+            if not url.endswith("/"):
+                url += "/"
             if t.kernel:
                 urls.append((url + t.kernel, UrlType.URL_GENERIC))
             if t.initrd:
                 urls.append((url + t.initrd, UrlType.URL_INITRD))
             if t.treeinfo:
-                urls.append((url + '.treeinfo', UrlType.URL_TREEINFO))
+                urls.append((url + ".treeinfo", UrlType.URL_TREEINFO))
         if urls:
             ret.append((osxml.shortid, urls))
 
@@ -170,7 +170,7 @@ def _collect_os_urls():
 
 
 @pytest.mark.parametrize(
-    'testdata', _collect_os_urls(), ids=lambda testdata: testdata[0]
+    "testdata", _collect_os_urls(), ids=lambda testdata: testdata[0]
 )
 def test_urls(testdata):
     urls = testdata[1]

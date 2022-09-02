@@ -51,11 +51,11 @@ def _check_uncommented_devices(osxml):
         )
 
 
-@util.os_parametrize('osxml', filter_devices=True)
+@util.os_parametrize("osxml", filter_devices=True)
 def test_devices_duplication(osxml):
     _check_duplicate_devices(osxml)
 
 
-@util.os_sources_parametrize('osxml', filter_devices=True)
+@util.os_sources_parametrize("osxml", filter_devices=True)
 def test_devices_comments(osxml):
     _check_uncommented_devices(osxml)

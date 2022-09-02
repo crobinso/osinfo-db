@@ -6,7 +6,7 @@ import re
 from . import util
 
 
-@util.os_parametrize('osxml')
+@util.os_parametrize("osxml")
 def test_validate_short_ids(osxml):
     invalids = []
 

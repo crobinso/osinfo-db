@@ -12,13 +12,13 @@ def _test_resources_uniqueness_by_arch(osxml):
     """Ensure there's no more than one resource element per architecture"""
     result = defaultdict(list)
     for resources in osxml.resources_list:
-        result[resources.get('arch')].append(resources)
+        result[resources.get("arch")].append(resources)
 
     for value in result.values():
         assert len(value) == 1
 
 
-@util.os_parametrize('osxml', filter_resources=True)
+@util.os_parametrize("osxml", filter_resources=True)
 def test_resources(osxml):
     _test_resources_uniqueness_by_arch(osxml)
 
@@ -26,43 +26,43 @@ def test_resources(osxml):
     _resources_helper(
         osxml,
         osxml.get_minimum_resources,
-        'minimum',
+        "minimum",
         osxml.get_recommended_resources,
-        'recommended',
+        "recommended",
     )
 
     # Ensure recommended resources are <= maximum resources
     _resources_helper(
         osxml,
         osxml.get_recommended_resources,
-        'recommended',
+        "recommended",
         osxml.get_maximum_resources,
-        'maximum',
+        "maximum",
     )
 
     # Ensure recommended resources <= network resources
     _resources_helper(
         osxml,
         osxml.get_recommended_resources,
-        'recommended',
+        "recommended",
         osxml.get_network_install_resources,
-        'network-install',
+        "network-install",
     )
 
     # Ensure network resources <= maximum resources
     _resources_helper(
         osxml,
         osxml.get_network_install_resources,
-        'network-install',
+        "network-install",
         osxml.get_maximum_resources,
-        'maximum',
+        "maximum",
     )
 
 
 def _resources_helper(osxml, smaller_func, smaller_str, bigger_func, bigger_str):
     broken = []
     for resource in osxml.resources_list:
-        logging.info("resources | arch: %s", resource.get('arch'))
+        logging.info("resources | arch: %s", resource.get("arch"))
         smaller = smaller_func(resource)
         bigger = bigger_func(resource)
 

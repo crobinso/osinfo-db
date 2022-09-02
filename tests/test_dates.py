@@ -27,7 +27,7 @@ def _parse_date(date_string):
     return _parse_iso_date(date_string)
 
 
-@util.os_parametrize('osxml', filter_dates=True)
+@util.os_parametrize("osxml", filter_dates=True)
 def test_dates(osxml):
     release_date = _parse_date(osxml.release_date)
     eol_date = _parse_date(osxml.eol_date)

@@ -47,7 +47,7 @@ class _XMLBase:
 class Os(_XMLBase):
     def __init__(self, filename):
         self.filename = filename
-        root = ET.parse(self.filename).getroot().find('os')
+        root = ET.parse(self.filename).getroot().find("os")
         super().__init__(root)
 
     def __repr__(self):
@@ -55,91 +55,91 @@ class Os(_XMLBase):
 
     @_cache_property
     def internal_id(self):
-        return self._root.get('id')
+        return self._root.get("id")
 
     @_cache_property
     def derives_from(self):
-        derives_from = self._root.find('derives-from')
+        derives_from = self._root.find("derives-from")
         if derives_from is not None:
-            return derives_from.get('id')
+            return derives_from.get("id")
         return None
 
     @_cache_property
     def clones(self):
-        clones = self._root.find('clones')
+        clones = self._root.find("clones")
         if clones is not None:
-            return clones.get('id')
+            return clones.get("id")
         return None
 
     @_cache_property
     def upgrades(self):
-        upgrades = self._root.find('upgrades')
+        upgrades = self._root.find("upgrades")
         if upgrades is not None:
-            return upgrades.get('id')
+            return upgrades.get("id")
         return None
 
     @_cache_property
     def devices(self):
         devices = []
-        devicelist = self._root.find('devices')
+        devicelist = self._root.find("devices")
         if devicelist is not None:
-            for device in devicelist.findall('device'):
+            for device in devicelist.findall("device"):
                 if device.get("supported") != "false":
-                    devices.append(device.get('id'))
+                    devices.append(device.get("id"))
         return devices
 
     @_cache_property
     def devices_unsupported(self):
         devices = []
-        devicelist = self._root.find('devices')
+        devicelist = self._root.find("devices")
         if devicelist is not None:
-            for device in devicelist.findall('device'):
+            for device in devicelist.findall("device"):
                 if device.get("supported") == "false":
-                    devices.append(device.get('id'))
+                    devices.append(device.get("id"))
         return devices
 
     @_cache_property
     def images(self):
         images = []
-        for image in self._root.findall('image'):
+        for image in self._root.findall("image"):
             images.append(Image(image))
         return images
 
     @_cache_property
     def medias(self):
         medias = []
-        for media in self._root.findall('media'):
+        for media in self._root.findall("media"):
             medias.append(Media(media))
         return medias
 
     @_cache_property
     def trees(self):
         trees = []
-        for tree in self._root.findall('tree'):
+        for tree in self._root.findall("tree"):
             trees.append(Tree(tree))
         return trees
 
     @_cache_property
     def shortid(self):
-        return self._get_text('short-id')
+        return self._get_text("short-id")
 
     @_cache_property
     def shortids(self):
         shortids = []
-        for shortid in self._root.findall('short-id'):
+        for shortid in self._root.findall("short-id"):
             shortids.append(shortid.text)
         return shortids
 
     @_cache_property
     def distro(self):
-        return self._get_text('distro')
+        return self._get_text("distro")
 
     @_cache_property
     def resources_list(self):
-        return self._root.findall('resources')
+        return self._root.findall("resources")
 
     def _get_resources(self, node, resource_type):
-        valid_resources = ['minimum', 'recommended', 'maximum', 'network-install']
+        valid_resources = ["minimum", "recommended", "maximum", "network-install"]
         if resource_type not in valid_resources:
             return None
         # pylint: disable=unsupported-membership-test
@@ -151,33 +151,33 @@ class Os(_XMLBase):
         return None
 
     def get_minimum_resources(self, node):
-        return self._get_resources(node, 'minimum')
+        return self._get_resources(node, "minimum")
 
     def get_recommended_resources(self, node):
-        return self._get_resources(node, 'recommended')
+        return self._get_resources(node, "recommended")
 
     def get_maximum_resources(self, node):
-        return self._get_resources(node, 'maximum')
+        return self._get_resources(node, "maximum")
 
     def get_network_install_resources(self, node):
-        return self._get_resources(node, 'network-install')
+        return self._get_resources(node, "network-install")
 
     @_cache_property
     def release_date(self):
-        return self._get_text('release-date')
+        return self._get_text("release-date")
 
     @_cache_property
     def eol_date(self):
-        return self._get_text('eol-date')
+        return self._get_text("eol-date")
 
     @_cache_property
     def variants(self):
-        return [v.attrib['id'] for v in self._root.findall('variant')]
+        return [v.attrib["id"] for v in self._root.findall("variant")]
 
     @_cache_property
     def firmwares(self):
         firmwares = []
-        firmwarelist = self._root.findall('firmware')
+        firmwarelist = self._root.findall("firmware")
         for firmware in firmwarelist:
             firmwares.append(Firmware(firmware))
         return firmwares
@@ -185,28 +185,28 @@ class Os(_XMLBase):
     @_cache_property
     def installscripts(self):
         return [
-            s.attrib['id']
-            for i in self._root.findall('installer')
-            for s in i.findall('script')
+            s.attrib["id"]
+            for i in self._root.findall("installer")
+            for s in i.findall("script")
         ]
 
 
 class Resources(_XMLBase):
     @_cache_property
     def cpu(self):
-        return self._get_int('cpu')
+        return self._get_int("cpu")
 
     @_cache_property
     def n_cpus(self):
-        return self._get_int('n-cpus')
+        return self._get_int("n-cpus")
 
     @_cache_property
     def ram(self):
-        return self._get_int('ram')
+        return self._get_int("ram")
 
     @_cache_property
     def storage(self):
-        return self._get_int('storage')
+        return self._get_int("storage")
 
 
 class Firmware(_XMLBase):
@@ -222,13 +222,13 @@ class Firmware(_XMLBase):
 class Image(_XMLBase):
     @_cache_property
     def url(self):
-        return self._get_text('url')
+        return self._get_text("url")
 
     @_cache_property
     def variant(self):
-        variant = self._root.find('variant')
+        variant = self._root.find("variant")
         if variant is not None:
-            return variant.attrib['id']
+            return variant.attrib["id"]
         return None
 
     @_cache_property
@@ -239,103 +239,103 @@ class Image(_XMLBase):
 class Media(_XMLBase):
     @_cache_property
     def url(self):
-        return self._get_text('url')
+        return self._get_text("url")
 
     @_cache_property
     def iso(self):
-        iso = self._root.find('iso')
+        iso = self._root.find("iso")
         if iso is not None:
             return ISO(iso)
         return None
 
     @_cache_property
     def variant(self):
-        variant = self._root.find('variant')
+        variant = self._root.find("variant")
         if variant is not None:
-            return variant.attrib['id']
+            return variant.attrib["id"]
         return None
 
     @_cache_property
     def installscripts(self):
         return [
-            s.attrib['id']
-            for i in self._root.findall('installer')
-            for s in i.findall('script')
+            s.attrib["id"]
+            for i in self._root.findall("installer")
+            for s in i.findall("script")
         ]
 
 
 class Tree(_XMLBase):
     @_cache_property
     def url(self):
-        return self._get_text('url')
+        return self._get_text("url")
 
     @_cache_property
     def variant(self):
-        variant = self._root.find('variant')
+        variant = self._root.find("variant")
         if variant is not None:
-            return variant.attrib['id']
+            return variant.attrib["id"]
         return None
 
     @_cache_property
     def treeinfo(self):
-        treeinfo = self._root.find('treeinfo')
+        treeinfo = self._root.find("treeinfo")
         if treeinfo is not None:
             return Treeinfo(treeinfo)
         return None
 
     @_cache_property
     def kernel(self):
-        return self._get_text('kernel')
+        return self._get_text("kernel")
 
     @_cache_property
     def initrd(self):
-        return self._get_text('initrd')
+        return self._get_text("initrd")
 
 
 class Treeinfo(_XMLBase):
     @_cache_property
     def arch(self):
-        return re.compile(self._get_text('arch', default=''))
+        return re.compile(self._get_text("arch", default=""))
 
     @_cache_property
     def family(self):
-        return re.compile(self._get_text('family', default=''))
+        return re.compile(self._get_text("family", default=""))
 
     @_cache_property
     def variant(self):
-        return re.compile(self._get_text('variant', default=''))
+        return re.compile(self._get_text("variant", default=""))
 
     @_cache_property
     def version(self):
-        return re.compile(self._get_text('version', default=''))
+        return re.compile(self._get_text("version", default=""))
 
 
 class ISO(_XMLBase):
     @_cache_property
     def volumeid(self):
-        return re.compile(self._get_text('volume-id', default=''))
+        return re.compile(self._get_text("volume-id", default=""))
 
     @_cache_property
     def publisherid(self):
-        return re.compile(self._get_text('publisher-id', default=''))
+        return re.compile(self._get_text("publisher-id", default=""))
 
     @_cache_property
     def applicationid(self):
-        return re.compile(self._get_text('application-id', default=''))
+        return re.compile(self._get_text("application-id", default=""))
 
     @_cache_property
     def systemid(self):
-        return re.compile(self._get_text('system-id', default=''))
+        return re.compile(self._get_text("system-id", default=""))
 
     @_cache_property
     def volumesize(self):
-        return self._get_int('volume-size', default=0)
+        return self._get_int("volume-size", default=0)
 
 
 class Device(_XMLBase):
     def __init__(self, filename):
         self.filename = filename
-        root = ET.parse(self.filename).getroot().find('device')
+        root = ET.parse(self.filename).getroot().find("device")
         super().__init__(root)
 
     @_cache_property
@@ -344,13 +344,13 @@ class Device(_XMLBase):
 
     @_cache_property
     def name(self):
-        return self._get_text('name')
+        return self._get_text("name")
 
 
 class Datamap(_XMLBase):
     def __init__(self, filename):
         self.filename = filename
-        root = ET.parse(self.filename).getroot().find('datamap')
+        root = ET.parse(self.filename).getroot().find("datamap")
         super().__init__(root)
 
     def __repr__(self):
@@ -358,13 +358,13 @@ class Datamap(_XMLBase):
 
     @_cache_property
     def internal_id(self):
-        return self._root.get('id')
+        return self._root.get("id")
 
 
 class InstallScript(_XMLBase):
     def __init__(self, filename):
         self.filename = filename
-        root = ET.parse(self.filename).getroot().find('install-script')
+        root = ET.parse(self.filename).getroot().find("install-script")
         super().__init__(root)
 
     def __repr__(self):
@@ -372,13 +372,13 @@ class InstallScript(_XMLBase):
 
     @_cache_property
     def internal_id(self):
-        return self._root.get('id')
+        return self._root.get("id")
 
 
 class Platform(_XMLBase):
     def __init__(self, filename):
         self.filename = filename
-        root = ET.parse(self.filename).getroot().find('platform')
+        root = ET.parse(self.filename).getroot().find("platform")
         super().__init__(root)
 
     def __repr__(self):
@@ -386,4 +386,4 @@ class Platform(_XMLBase):
 
     @_cache_property
     def internal_id(self):
-        return self._root.get('id')
+        return self._root.get("id")

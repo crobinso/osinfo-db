@@ -21,7 +21,7 @@ def human_sort(text):
             retval = t
         return retval
 
-    return [atof(c) for c in re.split(r'[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)', text)]
+    return [atof(c) for c in re.split(r"[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)", text)]
 
 
 class _Files:
@@ -31,7 +31,7 @@ class _Files:
 
     def __init__(self, dir_env, files_format):
         self.datadir = os.environ[dir_env]
-        self.schema = os.path.join(self.datadir, 'schema', 'osinfo.rng')
+        self.schema = os.path.join(self.datadir, "schema", "osinfo.rng")
         self._all_xml_cache = []
         self._oses_cache = []
         self._devices_cache = []
@@ -86,7 +86,7 @@ class _Files:
             instance of a FOO object
         """
         if not self._oses_cache:
-            for path in self._filter_xml('os'):
+            for path in self._filter_xml("os"):
                 self._oses_cache.append(osinfo.Os(path))
 
         oses = self._oses_cache[:]
@@ -142,32 +142,32 @@ class _Files:
 
     def devices(self):
         if not self._devices_cache:
-            for path in self._filter_xml('device'):
+            for path in self._filter_xml("device"):
                 self._devices_cache.append(osinfo.Device(path))
         return self._devices_cache
 
     def datamaps(self):
         if not self._datamaps_cache:
-            for path in self._filter_xml('datamap'):
+            for path in self._filter_xml("datamap"):
                 self._datamaps_cache.append(osinfo.Datamap(path))
         return self._datamaps_cache
 
     def installscripts(self):
         if not self._installscripts_cache:
-            for path in self._filter_xml('install-script'):
+            for path in self._filter_xml("install-script"):
                 script = osinfo.InstallScript(path)
                 self._installscripts_cache[script.internal_id] = script
         return self._installscripts_cache
 
     def platforms(self):
         if not self._platforms_cache:
-            for path in self._filter_xml('platform'):
+            for path in self._filter_xml("platform"):
                 self._platforms_cache.append(osinfo.Platform(path))
         return self._platforms_cache
 
     def firmwares(self):
         if not self._firmwares_cache:
-            for path in self._filter_xml('firmware'):
+            for path in self._filter_xml("firmware"):
                 self._firmwares_cache.append(osinfo.Firmware(path))
         return self._firmwares_cache
 
@@ -182,7 +182,7 @@ class _DataFiles(_Files):
     """
 
     def __init__(self):
-        _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_DIR', '.xml')
+        _Files.__init__(self, "INTERNAL_OSINFO_DB_DATA_DIR", ".xml")
 
 
 DataFiles = _DataFiles()
@@ -255,7 +255,7 @@ class _SourceFiles(_Files):
     """
 
     def __init__(self):
-        _Files.__init__(self, 'INTERNAL_OSINFO_DB_DATA_SRC_DIR', '.xml.in')
+        _Files.__init__(self, "INTERNAL_OSINFO_DB_DATA_SRC_DIR", ".xml.in")
 
 
 SourceFiles = _SourceFiles()

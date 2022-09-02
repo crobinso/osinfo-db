@@ -18,9 +18,9 @@ def _test_validate_ids(xml, entity_type):
 
     extension = bool(".d/" in expected_filename)
 
-    suffix = xml.internal_id[len('http://') :]
-    vendor = suffix.split('/', 1)[0]
-    entity_name = suffix.split('/', 1)[1].replace("/", "-")
+    suffix = xml.internal_id[len("http://") :]
+    vendor = suffix.split("/", 1)[0]
+    entity_name = suffix.split("/", 1)[1].replace("/", "-")
 
     if extension:
         filename = vendor + "/" + entity_name + ".d"
@@ -30,7 +30,7 @@ def _test_validate_ids(xml, entity_type):
         assert filename == expected_filename
 
 
-@util.os_parametrize('osxml')
+@util.os_parametrize("osxml")
 def test_validate_os_ids(osxml):
     """
     Ensure the OS ids are the ones supported by OsinfoLoader.
@@ -38,7 +38,7 @@ def test_validate_os_ids(osxml):
     return _test_validate_ids(osxml, "os")
 
 
-@util.device_parametrize('devicexml')
+@util.device_parametrize("devicexml")
 def test_validate_device_ids(devicexml):
     """
     Ensure the Device ids are the ones supported by OsinfoLoader.
@@ -46,7 +46,7 @@ def test_validate_device_ids(devicexml):
     return _test_validate_ids(devicexml, "device")
 
 
-@util.datamap_parametrize('datamapxml')
+@util.datamap_parametrize("datamapxml")
 def test_validate_datamap_ids(datamapxml):
     """
     Ensure the Datamap ids are the ones supported by OsinfoLoader.
@@ -54,7 +54,7 @@ def test_validate_datamap_ids(datamapxml):
     return _test_validate_ids(datamapxml, "datamap")
 
 
-@util.installscript_parametrize('installscriptxml')
+@util.installscript_parametrize("installscriptxml")
 def test_validate_installscript_ids(installscriptxml):
     """
     Ensure the InstallScript ids are the ones supported by OsinfoLoader.
@@ -62,7 +62,7 @@ def test_validate_installscript_ids(installscriptxml):
     return _test_validate_ids(installscriptxml, "install-script")
 
 
-@util.platform_parametrize('platformxml')
+@util.platform_parametrize("platformxml")
 def test_validate_platform_ids(platformxml):
     """
     Ensure the Platform ids are the ones supported by OsinfoLoader.

@@ -16,7 +16,7 @@ def _get_treeinfodatapaths():
         (osname, treeinfodatapaths)
     """
     treeinfodata_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)), 'treeinfodata'
+        os.path.dirname(os.path.realpath(__file__)), "treeinfodata"
     )
 
     ret = []
@@ -50,15 +50,15 @@ def test_treeinfo_detection(testdata):
                 if data.match(tree.treeinfo):
                     if osname != osxml2.shortid:
                         logging.warning(
-                            'treeinfo \'%s\' was matched by OS \'%s\' while '
-                            'it should only be matched by OS \'%s\'',
+                            "treeinfo '%s' was matched by OS '%s' while "
+                            "it should only be matched by OS '%s'",
                             data.filename,
                             osxml2.shortid,
                             osname,
                         )
                     else:
                         logging.info(
-                            'treeinfo \'%s\' matched by OS \'%s\'',
+                            "treeinfo '%s' matched by OS '%s'",
                             data.filename,
                             osxml2.shortid,
                         )

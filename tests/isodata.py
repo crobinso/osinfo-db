@@ -8,10 +8,10 @@ class _ISODataMedia:
     ):
 
         self.filename = filename
-        self.volumeid = volumeid if volumeid is not None else ''
-        self.publisherid = publisherid if publisherid is not None else ''
-        self.systemid = systemid if systemid is not None else ''
-        self.applicationid = applicationid if applicationid is not None else ''
+        self.volumeid = volumeid if volumeid is not None else ""
+        self.publisherid = publisherid if publisherid is not None else ""
+        self.systemid = systemid if systemid is not None else ""
+        self.applicationid = applicationid if applicationid is not None else ""
         self.volumesize = volumesize if volumesize is not None else 0
 
     def match(self, media):
@@ -38,27 +38,27 @@ def _get_value(string, prefix, return_type=str):
 
 
 def _get_volumeid(string):
-    return _get_value(string, 'Volume id: ')
+    return _get_value(string, "Volume id: ")
 
 
 def _get_publisherid(string):
-    return _get_value(string, 'Publisher id: ')
+    return _get_value(string, "Publisher id: ")
 
 
 def _get_systemid(string):
-    return _get_value(string, 'System id: ')
+    return _get_value(string, "System id: ")
 
 
 def _get_applicationid(string):
-    return _get_value(string, 'Application id: ')
+    return _get_value(string, "Application id: ")
 
 
 def _get_logicalblock(string):
-    return _get_value(string, 'Logical block size is: ', int)
+    return _get_value(string, "Logical block size is: ", int)
 
 
 def _get_volumesize(string):
-    return _get_value(string, 'Volume size is: ', int)
+    return _get_value(string, "Volume size is: ", int)
 
 
 def get_isodatamedia(filepath):
@@ -69,7 +69,7 @@ def get_isodatamedia(filepath):
     logicalblock = None
     volumesize = None
 
-    with open(filepath, 'r') as out:
+    with open(filepath, "r") as out:
         for line in out.readlines():
             if volumeid is None:
                 volumeid = _get_volumeid(line)

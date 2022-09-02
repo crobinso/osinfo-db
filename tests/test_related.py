@@ -4,7 +4,7 @@
 from . import util
 
 
-@util.os_parametrize('osxml', filter_related=True)
+@util.os_parametrize("osxml", filter_related=True)
 def test_related(osxml):
     related = util.DataFiles.getosxml_related(osxml)
     upgrades = osxml.upgrades

@@ -82,7 +82,7 @@ def _main():
     isodata = tests.isodata.get_isodatamedia(tmp.name)
     print("XML to add to %s :" % osxml.filename[len(topdir) + 1 :] + ".in")
     print()
-    print("    <media arch=\"%s\">" % options.arch)
+    print('    <media arch="%s">' % options.arch)
     print("      <url>XXX</url>")
     print("      <iso>")
 
@@ -113,5 +113,5 @@ def _main():
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(_main())

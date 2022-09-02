@@ -22,6 +22,6 @@ def _check_duplicate_firmwares(osxml):
     assert broken == []
 
 
-@util.os_parametrize('osxml', filter_firmwares=True)
+@util.os_parametrize("osxml", filter_firmwares=True)
 def test_firmwares_duplication(osxml):
     _check_duplicate_firmwares(osxml)

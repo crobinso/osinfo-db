@@ -8,10 +8,10 @@ class _TreeinfoData:
     def __init__(self, filename, arch, family, variant, version):
 
         self.filename = filename
-        self.arch = arch or ''
-        self.family = family or ''
-        self.variant = variant or ''
-        self.version = version or ''
+        self.arch = arch or ""
+        self.family = family or ""
+        self.variant = variant or ""
+        self.version = version or ""
 
     def match(self, treeinfo):
         if (
@@ -32,23 +32,23 @@ def get_treeinfodata(filepath):
     version = None
 
     config = configparser.ConfigParser()
-    with open(filepath, 'r') as out:
+    with open(filepath, "r") as out:
         config.read_file(out)
-        arch = ''
-        family = ''
-        variant = ''
-        version = ''
+        arch = ""
+        family = ""
+        variant = ""
+        version = ""
 
-        if 'arch' in config['general']:
-            arch = config['general']['arch']
+        if "arch" in config["general"]:
+            arch = config["general"]["arch"]
 
-        if 'family' in config['general']:
-            family = config['general']['family']
+        if "family" in config["general"]:
+            family = config["general"]["family"]
 
-        if 'variant' in config['general']:
-            variant = config['general']['variant']
+        if "variant" in config["general"]:
+            variant = config["general"]["variant"]
 
-        if 'version' in config['general']:
-            version = config['general']['version']
+        if "version" in config["general"]:
+            version = config["general"]["version"]
 
     return _TreeinfoData(filepath, arch, family, variant, version)
