@@ -7,7 +7,7 @@
     <vendor>NetBSD Project</vendor>
     <family>netbsd</family>
     <distro>netbsd</distro>
-    <upgrades id="http://netbsd.org/netbsd/8.1"/>
+    <upgrades id="http://netbsd.org/netbsd/8.0"/>
     <derives-from id="http://netbsd.org/netbsd/8.0"/>
 
     <variant id="netinst">
