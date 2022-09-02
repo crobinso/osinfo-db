@@ -246,9 +246,9 @@ def main():
         if eol_date is None:
             fetch_all_isodata(image)
 
-        # We had an entry for eos3.10 in osinfo-db, which actually ended up being released as
-        # eos4.0. Since we can never remove entries from osinfo-db, generate it as an EOLed clone of
-        # eos4.0, with no images.
+        # We had an entry for eos3.10 in osinfo-db, which actually ended up being
+        # released as eos4.0. Since we can never remove entries from osinfo-db,
+        # generate it as an EOLed clone of eos4.0, with no images.
         if current_series == "4.0":
             xml = template.render(
                 base_url=BASE_URL,

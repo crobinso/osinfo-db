@@ -11,32 +11,33 @@ the following:
 1) Creates new stable osinfo-db entry. This entry is based on the previous entry XML by
    substituting the release numbers and removing unnecessary tags.
 
-2) Updates the unstable entry by bumping the release number to the version that comes after the
-   new release, the current in-development version. Also <upgrades> and <derives-from> tags are
-   updated to point to the new stable entry.
+2) Updates the unstable entry by bumping the release number to the version that comes
+   after the new release, the current in-development version. Also <upgrades> and
+   <derives-from> tags are updated to point to the new stable entry.
 
-3) Updates the unknown entry with volume-id regular expression that matches all nixos ISOs
-   newer than the unstable release.
+3) Updates the unknown entry with volume-id regular expression that matches all nixos
+   ISOs newer than the unstable release.
 
 4) Downloads ISOs of the new release, runs isoinfo -d on them, and saves the result
    to tests/isodata/nixos.
 
-5) Regenerates the isodata of the unstable release - deletes the old isodata, downloads new ISOs,
-   saves the result to tests/isodata/nixos.
+5) Regenerates the isodata of the unstable release - deletes the old isodata,
+   downloads new ISOs, saves the result to tests/isodata/nixos.
 
-Please note the "derives-from" (as well as "upgrades") relation maintains following chain:
+Please note the "derives-from" (as well as "upgrades") relation maintains following
+chain:
 
  +-------+      +-------+               +-----------------+      +----------+      +---------+
  | 20.03 | <--- | 20.09 | <--- ... <--- | (latest stable) | <--- | unstable | <--- | unknown |
  +-------+      +-------+               +-----------------+      +----------+      +---------+
 
-When a release is derived from another it inherits its list of supported devices, firmware types,
-as well as its logo[1]. The purpose of the unknown entry is to recognize new NixOS releases on
-systems with outdated osinfo-db.
+When a release is derived from another it inherits its list of supported devices,
+firmware types, as well as its logo[1]. The purpose of the unknown entry is to
+recognize new NixOS releases on systems with outdated osinfo-db.
 
-It should be safe to run this script multiple times with the same --release argument. Doctests
-can be executed with "python -m doctest -v nixos.py". Future archaeologists might be interested
-in [2][3]. Good luck!
+It should be safe to run this script multiple times with the same --release argument.
+Doctests can be executed with "python -m doctest -v nixos.py". Future archaeologists
+might be interested in [2][3]. Good luck!
 
 [1] https://gitlab.gnome.org/GNOME/gnome-boxes/-/blob/master/data/osinfo/nixos-20.03.xml
 [2] https://gitlab.com/libosinfo/osinfo-db/-/merge_requests/107
@@ -191,7 +192,8 @@ def set_derives_from(xml_os, release):
         xml_os.find("upgrades").set("id", release_id)
         xml_os.find("derives-from").set("id", release_id)
     else:
-        # This branch is supposed to be used by 20.09 only and can be removed afterwards.
+        # This branch is supposed to be used by 20.09 only and can be removed
+        # afterwards.
         sib = xml_os.find("codename")
         e = etree.Element("derives-from", id=release_id)
         sib.addnext(e)
@@ -223,10 +225,11 @@ def digit_gt(s):
 
 def regex_higher_than(release):
     """
-    Returns regular expression matching all release numbers newer than the function argument.
-    Please note that the returned expression also matches release numbers that do not have
-    valid month number on the left side of the dot (e.g. 23.66). Should not matter, it
-    is only important to not match any release number that are older than the argument.
+    Returns regular expression matching all release numbers newer than the function
+    argument. Please note that the returned expression also matches release numbers
+    that do not have valid month number on the left side of the dot (e.g. 23.66).
+    Should not matter, it is only important to not match any release number that are
+    older than the argument.
 
     >>> regex_higher_than("20.03")
     '20.0[4-9]|20.[1-9]\\\\d|2[1-9].\\\\d\\\\d|[3-9]\\\\d.\\\\d\\\\d'
@@ -265,9 +268,9 @@ def regex_higher_than(release):
 
 def create_new_stable(release, codename, release_date):
     """
-    Creates new stable entry based on the previous stable entry. Replaces release numbers, sets
-    codename, release date, points derives-from to the previous entry, removes redundant tags
-    that are inherited by the derives-from pointer.
+    Creates new stable entry based on the previous stable entry. Replaces release
+    numbers, sets codename, release date, points derives-from to the previous entry,
+    removes redundant tags that are inherited by the derives-from pointer.
     """
     prev_release, xml = find_prev_stable(release)
     xml_os = xml.find("os")
@@ -297,8 +300,8 @@ def create_new_stable(release, codename, release_date):
 
 def update_unstable(new_release, next_release):
     """
-    Updates the unstable entry to have volume-id matching the next, yet-unreleased, version number.
-    Changes derives-from to point to the newly added stable release.
+    Updates the unstable entry to have volume-id matching the next, yet-unreleased,
+    version number. Changes derives-from to point to the newly added stable release.
     """
     logging.info("Updating %s to %s", UNSTABLE, next_release)
     xml = etree.parse(UNSTABLE)
@@ -317,9 +320,10 @@ def update_unstable(new_release, next_release):
 
 def update_unknown(next_release):
     """
-    Updates the regular expression of the Unknown NixOS osinfo-db entry. The expression should
-    match any version that is higher than what Unstable matches. The purpose of the Unknown entry
-    is to make it possible to match NixOS ISOs even on system with outdated osinfo-db.
+    Updates the regular expression of the Unknown NixOS osinfo-db entry. The expression
+    should match any version that is higher than what Unstable matches. The purpose
+    of the Unknown entry is to make it possible to match NixOS ISOs even on system with
+    outdated osinfo-db.
     """
     xml = etree.parse(UNKNOWN)
     regex = regex_higher_than(next_release)
@@ -330,9 +334,10 @@ def update_unknown(next_release):
 
 def fetch_iso(url, directory):
     """
-    Downloads first 2 MiB of ISO image to the given directory. As of spring 2020 the URLs in the
-    entries are redirects pointing to URLs with the ISO filename that includes build number and
-    git commit, we make sure to save the ISOs under this more descriptive name.
+    Downloads first 2 MiB of ISO image to the given directory. As of spring 2020
+    the URLs in the entries are redirects pointing to URLs with the ISO filename
+    that includes build number and git commit, we make sure to save the ISOs under
+    this more descriptive name.
     """
     r = requests.get(url, stream=True)
     r.raise_for_status()
@@ -362,8 +367,8 @@ def run_isoinfo(isofile, outfile):
 
 def process_iso(url, directory):
     """
-    Download the beginning of ISO image and run isoinfo on it. Errors are not fatal to accomodate
-    for scenario where variants are removed.
+    Download the beginning of ISO image and run isoinfo on it. Errors are not fatal
+    to accomodate for scenario where variants are removed.
     """
     try:
         isofile = fetch_iso(url, directory)
@@ -380,9 +385,9 @@ def process_iso(url, directory):
 
 def update_testdata(new_release, stable_xml, unstable_xml):
     """
-    Update testdata used by "make check". Creates isoinfo for the new release. Deletes it for
-    the previous unstable release and regenerates it from current unstable isos. "Unknown" entry
-    has no testdata.
+    Update testdata used by "make check". Creates isoinfo for the new release.
+    Deletes it for the previous unstable release and regenerates it from current
+    unstable isos. "Unknown" entry has no testdata.
     """
     add = []
     remove = []
@@ -408,8 +413,8 @@ def update_testdata(new_release, stable_xml, unstable_xml):
 
 def print_instructions(release, git_add, git_rm):
     """
-    Remind the user of manual steps that need to be done before submitting merge request with
-    the new release.
+    Remind the user of manual steps that need to be done before submitting merge
+    request with the new release.
     """
     new_release_file = os.path.join(DATA_DIR, f"nixos-{release}.xml.in")
     logging.warning(
