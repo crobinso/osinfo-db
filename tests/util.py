@@ -103,16 +103,22 @@ class _Files():
         if osxml.internal_id not in self._os_related_cache:
             directly_related = []
             if osxml.derives_from is not None:
+                found = None
                 for osxml2 in self.oses():
                     if osxml.derives_from == osxml2.internal_id:
-                        directly_related.append(osxml2)
+                        found = osxml2
                         break
+                assert found
+                directly_related.append(found)
 
             if osxml.clones is not None:
+                found = None
                 for osxml2 in self.oses():
                     if osxml.clones == osxml2.internal_id:
-                        directly_related.append(osxml2)
+                        found = osxml2
                         break
+                assert found
+                directly_related.append(found)
 
             self._os_related_cache[osxml.internal_id].extend(directly_related)
 
