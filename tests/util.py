@@ -99,24 +99,22 @@ class _Files():
             oses = [o for o in oses if o.installscripts]
         return oses
 
+    def getosxml_by_id(self, os_id):
+        for osxml in self.oses():
+            if os_id == osxml.internal_id:
+                return osxml
+        return None
+
     def getosxml_related(self, osxml):
         if osxml.internal_id not in self._os_related_cache:
             directly_related = []
             if osxml.derives_from is not None:
-                found = None
-                for osxml2 in self.oses():
-                    if osxml.derives_from == osxml2.internal_id:
-                        found = osxml2
-                        break
+                found = self.getosxml_by_id(osxml.derives_from)
                 assert found
                 directly_related.append(found)
 
             if osxml.clones is not None:
-                found = None
-                for osxml2 in self.oses():
-                    if osxml.clones == osxml2.internal_id:
-                        found = osxml2
-                        break
+                found = self.getosxml_by_id(osxml.clones)
                 assert found
                 directly_related.append(found)
 
