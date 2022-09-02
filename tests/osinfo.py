@@ -70,6 +70,13 @@ class Os(_XMLBase):
         return None
 
     @_cache_property
+    def upgrades(self):
+        upgrades = self._root.find('upgrades')
+        if upgrades is not None:
+            return upgrades.get('id')
+        return None
+
+    @_cache_property
     def devices(self):
         devices = []
         devicelist = self._root.find('devices')
