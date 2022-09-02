@@ -63,9 +63,6 @@ install: $(ARCHIVE)
 rpm: osinfo-db.spec $(ARCHIVE)
 	rpmbuild --define "_sourcedir `pwd`" -ba osinfo-db.spec
 
-mingwrpm:  mingw-osinfo-db.spec $(ARCHIVE)
-	rpmbuild --define "_sourcedir `pwd`" -ba mingw-osinfo-db.spec
-
 
 %.xml: %.xml.in Makefile $(PO_FILES)
 	@mkdir -p `dirname $@`
