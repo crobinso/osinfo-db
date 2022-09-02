@@ -1,4 +1,0 @@
-[gitpublishprofile "default"]
-base = master
-to = libosinfo@redhat.com
-prefix = osinfo-db PATCH
