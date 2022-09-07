@@ -1,0 +1,75 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://miraclelinux.com/miraclelinux/9-unknown">
+    <short-id>miraclelinux9-unknown</short-id>
+    <name>MIRACLE LINUX 9 Unknown</name>
+    <version>9-unknown</version>
+    <vendor>Cybertrust Japan Co., Ltd.</vendor>
+    <family>linux</family>
+    <distro>miraclelinux</distro>
+    <codename>Feige</codename>
+    <clones id="http://redhat.com/rhel/9-unknown"/>
+    <upgrades id="http://miraclelinux.com/miraclelinux/9.0"/>
+    <derives-from id="http://miraclelinux.com/miraclelinux/9.0"/>
+
+    <media arch="x86_64">
+      <iso>
+        <volume-id>.*MIRACLE-LINUX-9-([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>MIRACLE LINUX</family>
+        <version>^9.([1-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://redhat.com/rhel/kickstart/jeos'/>
+      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
