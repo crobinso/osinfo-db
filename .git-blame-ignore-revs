@@ -1,0 +1,8 @@
+# Format Python scripts with black
+aff0ec1466904db0b61ae7809f85643598213afc
+
+# Normalize strings in Python scripts with black
+552ac86e8b0d7130030ba6ae882d8928f091ea84
+
+# Wrap comments in Python scripts to 88 characters
+7bf49943b913ce7848cee26a63e25ba30a74ab96
