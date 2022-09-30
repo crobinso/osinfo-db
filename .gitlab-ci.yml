@@ -29,7 +29,6 @@ stages:
 
 
 .native_build_job:
-  extends: .gitlab_native_build_job
   cache:
     paths:
       - ccache
@@ -54,5 +53,15 @@ stages:
       then
         rpmbuild --nodeps --define "_without_mingw 1" --define "_sourcedir $PWD" -ba osinfo-db.spec;
       fi
+
+.native_build_job_prebuilt_env:
+  extends:
+    - .native_build_job
+    - .gitlab_native_build_job_prebuilt_env
+
+.native_build_job_local_env:
+  extends:
+    - .native_build_job
+    - .gitlab_native_build_job_local_env
 
 include: '/ci/gitlab.yml'
