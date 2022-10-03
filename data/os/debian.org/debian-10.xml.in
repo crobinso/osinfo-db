@@ -52,7 +52,7 @@
     <!-- Network installer -->
     <media arch="x86_64">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/amd64/iso-cd/debian-10.12.0-amd64-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/amd64/iso-cd/debian-10.13.0-amd64-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ amd64 n</volume-id>
       </iso>
@@ -61,7 +61,7 @@
     </media>
     <media arch="i686">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/i386/iso-cd/debian-10.12.0-i386-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/i386/iso-cd/debian-10.13.0-i386-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ i386 n</volume-id>
       </iso>
@@ -70,7 +70,7 @@
     </media>
     <media arch="aarch64">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/arm64/iso-cd/debian-10.12.0-arm64-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/arm64/iso-cd/debian-10.13.0-arm64-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ arm64 n</volume-id>
       </iso>
@@ -79,7 +79,7 @@
     </media>
     <media arch="armv7l">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/armhf/iso-cd/debian-10.12.0-armhf-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/armhf/iso-cd/debian-10.13.0-armhf-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ armhf n</volume-id>
       </iso>
@@ -88,7 +88,7 @@
     </media>
     <media arch="ppc64le">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/ppc64el/iso-cd/debian-10.12.0-ppc64el-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/ppc64el/iso-cd/debian-10.13.0-ppc64el-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ ppc64el n</volume-id>
       </iso>
@@ -97,7 +97,7 @@
     </media>
     <media arch="s390x">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/s390x/iso-cd/debian-10.12.0-s390x-netinst.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/s390x/iso-cd/debian-10.13.0-s390x-netinst.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ s390x n</volume-id>
       </iso>
@@ -108,7 +108,7 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/amd64/iso-dvd/debian-10.12.0-amd64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/amd64/iso-dvd/debian-10.13.0-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ amd64 \d+</volume-id>
       </iso>
@@ -117,7 +117,7 @@
     </media>
     <media arch="i686">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/i386/iso-dvd/debian-10.12.0-i386-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/i386/iso-dvd/debian-10.13.0-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ i386 \d+</volume-id>
       </iso>
@@ -126,7 +126,7 @@
     </media>
     <media arch="aarch64">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/arm64/iso-dvd/debian-10.12.0-arm64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/arm64/iso-dvd/debian-10.13.0-arm64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ arm64 \d+</volume-id>
       </iso>
@@ -135,7 +135,7 @@
     </media>
     <media arch="armv7l">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/armhf/iso-dvd/debian-10.12.0-armhf-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/armhf/iso-dvd/debian-10.13.0-armhf-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ armhf \d+</volume-id>
       </iso>
@@ -144,7 +144,7 @@
     </media>
     <media arch="ppc64le">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/ppc64el/iso-dvd/debian-10.12.0-ppc64el-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/ppc64el/iso-dvd/debian-10.13.0-ppc64el-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ ppc64el \d+</volume-id>
       </iso>
@@ -153,7 +153,7 @@
     </media>
     <media arch="s390x">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.12.0/s390x/iso-dvd/debian-10.12.0-s390x-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/mirror/cdimage/archive/10.13.0/s390x/iso-dvd/debian-10.13.0-s390x-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 10.\d+.\d+ s390x \d+</volume-id>
       </iso>
