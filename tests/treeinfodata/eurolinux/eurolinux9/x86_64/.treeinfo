@@ -1,0 +1,67 @@
+[checksums]
+images/efiboot.img = sha256:cd2b3721a77a4cc7a16f24a1dae77b5856f5770924a6d38bbeb180e486c5d0cf
+images/install.img = sha256:3673d688fee55cfae1a1c59af2051ed4b9b145b1df274199103872987a610f3d
+images/pxeboot/initrd.img = sha256:718b01117052d93b79edaf350052e60a982deaef02843edcf2eba591fa40b214
+images/pxeboot/vmlinuz = sha256:cc1b40436f45c99ecd39338bf07a0ff3010ce6858a87472fae69eb00e86c900b
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = EuroLinux
+name = EuroLinux 9
+packagedir = AppStream/Packages
+platforms = x86_64,xen
+repository = AppStream
+timestamp = 1655121461
+variant = AppStream
+variants = AppStream,BaseOS
+version = 9
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = EuroLinux
+short = EL
+version = 9
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1655121461
+platforms = x86_64,xen
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = AppStream/Packages
+repository = AppStream
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = BaseOS/Packages
+repository = BaseOS
+type = variant
+uid = BaseOS
+

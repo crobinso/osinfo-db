@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <os id="http://euro-linux.com/eurolinux/8">
+    <short-id>eurolinux8</short-id>
+    <name>EuroLinux 8</name>
+    <version>8</version>
+    <vendor>EuroLinux</vendor>
+    <family>linux</family>
+    <distro>eurolinux</distro>
+    <clones id="http://redhat.com/rhel/8.4"/>
+    <release-date>2021-06-24</release-date>
+
+    <media arch="x86_64">
+      <url>https://fbi.cdn.euro-linux.com/isos/EL-8-x86_64-latest-appstream.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>EL-8.*-x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="aarch64">
+      <url>https://fbi.cdn.euro-linux.com/isos/EL-8-aarch64-latest-appstream.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>EL-8.*-aarch64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://fbi.cdn.euro-linux.com/dist/eurolinux/server/8/x86_64/BaseOS/os/</url>
+      <treeinfo>
+        <family>EuroLinux</family>
+        <version>^8$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="aarch64">
+      <url>https://fbi.cdn.euro-linux.com/dist/eurolinux/server/8/aarch64/BaseOS/os/</url>
+      <treeinfo>
+        <family>EuroLinux</family>
+        <version>^8$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="all">
+      <treeinfo>
+        <family>EuroLinux</family>
+        <version>^8$</version>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+  </os>
+</libosinfo>
