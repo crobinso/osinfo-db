@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 20:23+0200\n"
+"POT-Creation-Date: 2022-10-03 13:31+0200\n"
 "PO-Revision-Date: 2022-08-23 09:17+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -1096,20 +1096,20 @@ msgstr "데비안 10 (일반 클라우드)"
 msgid "Debian 10 (No Cloud)"
 msgstr "데비안 10 (클라우드 아님)"
 
-#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:37
-#: data/os/debian.org/debian-11.xml.in:40
+#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:38
+#: data/os/debian.org/debian-11.xml.in:41
 msgid "Debian 11"
 msgstr "데비안 11"
 
-#: data/os/debian.org/debian-11.xml.in:43
+#: data/os/debian.org/debian-11.xml.in:44
 msgid "Debian 11 (Generic)"
 msgstr "데비안 11 (일반)"
 
-#: data/os/debian.org/debian-11.xml.in:46
+#: data/os/debian.org/debian-11.xml.in:47
 msgid "Debian 11 (Generic Cloud)"
 msgstr "데비안 11 (일반 클라우드)"
 
-#: data/os/debian.org/debian-11.xml.in:49
+#: data/os/debian.org/debian-11.xml.in:50
 msgid "Debian 11 (No Cloud)"
 msgstr "데비안 11 (클라우드 아님)"
 
@@ -3174,8 +3174,22 @@ msgid "MIRACLE LINUX 8.4"
 msgstr "미라클 리눅스 8.4"
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
+#: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:8
+#: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:8
 msgid "Cybertrust Japan Co., Ltd."
 msgstr "Cybertrust Japan Co., Ltd."
+
+#: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:6
+#, fuzzy
+#| msgid "MIRACLE LINUX 8.4"
+msgid "MIRACLE LINUX 9 Unknown"
+msgstr "미라클 리눅스 8.4"
+
+#: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:6
+#, fuzzy
+#| msgid "MIRACLE LINUX 8.4"
+msgid "MIRACLE LINUX 9.0"
+msgstr "미라클 리눅스 8.4"
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"

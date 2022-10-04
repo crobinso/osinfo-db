@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-22 20:23+0200\n"
+"POT-Creation-Date: 2022-10-03 13:31+0200\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -1248,26 +1248,26 @@ msgstr ""
 msgid "Debian 10 (No Cloud)"
 msgstr "Debian Woody"
 
-#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:37
-#: data/os/debian.org/debian-11.xml.in:40
+#: data/os/debian.org/debian-11.xml.in:7 data/os/debian.org/debian-11.xml.in:38
+#: data/os/debian.org/debian-11.xml.in:41
 #, fuzzy
 #| msgid "Debian 10"
 msgid "Debian 11"
 msgstr "Debian 10"
 
-#: data/os/debian.org/debian-11.xml.in:43
+#: data/os/debian.org/debian-11.xml.in:44
 #, fuzzy
 #| msgid "Debian 10"
 msgid "Debian 11 (Generic)"
 msgstr "Debian 10"
 
-#: data/os/debian.org/debian-11.xml.in:46
+#: data/os/debian.org/debian-11.xml.in:47
 #, fuzzy
 #| msgid "Debian 10"
 msgid "Debian 11 (Generic Cloud)"
 msgstr "Debian 10"
 
-#: data/os/debian.org/debian-11.xml.in:49
+#: data/os/debian.org/debian-11.xml.in:50
 #, fuzzy
 #| msgid "Debian Woody"
 msgid "Debian 11 (No Cloud)"
@@ -3395,7 +3395,17 @@ msgid "MIRACLE LINUX 8.4"
 msgstr ""
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
+#: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:8
+#: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:8
 msgid "Cybertrust Japan Co., Ltd."
+msgstr ""
+
+#: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:6
+msgid "MIRACLE LINUX 9 Unknown"
+msgstr ""
+
+#: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:6
+msgid "MIRACLE LINUX 9.0"
 msgstr ""
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
