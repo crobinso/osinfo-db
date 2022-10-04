@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 13:31+0200\n"
-"PO-Revision-Date: 2022-08-23 09:17+0000\n"
+"PO-Revision-Date: 2022-10-04 01:19+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3180,16 +3180,12 @@ msgid "Cybertrust Japan Co., Ltd."
 msgstr "Cybertrust Japan Co., Ltd."
 
 #: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 8.4"
 msgid "MIRACLE LINUX 9 Unknown"
-msgstr "MIRACLE LINUX 8.4"
+msgstr "MIRACLE LINUX 9 Bilinmeyen"
 
 #: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 8.4"
 msgid "MIRACLE LINUX 9.0"
-msgstr "MIRACLE LINUX 8.4"
+msgstr "MIRACLE LINUX 9.0"
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
