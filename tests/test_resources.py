@@ -31,6 +31,15 @@ def test_resources(osxml):
         "recommended",
     )
 
+    # Ensure minimum resources are <= maximum resources
+    _resources_helper(
+        osxml,
+        osxml.get_minimum_resources,
+        "minimum",
+        osxml.get_recommended_resources,
+        "maximum",
+    )
+
     # Ensure recommended resources are <= maximum resources
     _resources_helper(
         osxml,
@@ -38,6 +47,15 @@ def test_resources(osxml):
         "recommended",
         osxml.get_maximum_resources,
         "maximum",
+    )
+
+    # Ensure minimum resources <= network resources
+    _resources_helper(
+        osxml,
+        osxml.get_recommended_resources,
+        "minimum",
+        osxml.get_network_install_resources,
+        "network-install",
     )
 
     # Ensure recommended resources <= network resources
