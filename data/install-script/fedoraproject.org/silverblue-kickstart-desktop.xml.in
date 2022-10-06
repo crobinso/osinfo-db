@@ -64,7 +64,14 @@
         </xsl:template>
 
         <xsl:template match="/command-line">
-          <xsl:text>ks=</xsl:text>
+          <xsl:choose>
+            <xsl:when test="os/version &gt; 32">
+              <xsl:text>inst.ks=</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>ks=</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
           <xsl:choose>
             <xsl:when test="script/preferred-injection-method = 'initrd'">
               <xsl:text>file:/</xsl:text>
