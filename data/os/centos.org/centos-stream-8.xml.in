@@ -389,6 +389,18 @@
       <url>docker://quay.io/containerdisks/centos-stream:8</url>
     </image>
 
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/8-stream/aarch64/images/CentOS-Stream-GenericCloud-8-20220913.0.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/8-stream/ppc64le/images/CentOS-Stream-GenericCloud-8-20220913.0.ppc64le.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/8-stream/x86_64/images/CentOS-Stream-GenericCloud-8-20220913.0.x86_64.qcow2</url>
+    </image>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
@@ -409,8 +421,8 @@
     </resources>
 
     <installer>
-      <script id='http://redhat.com/rhel/kickstart/jeos'/>
-      <script id='http://redhat.com/rhel/kickstart/desktop'/>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
     </installer>
   </os>
 </libosinfo>
