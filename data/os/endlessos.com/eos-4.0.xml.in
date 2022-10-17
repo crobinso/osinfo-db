@@ -24,7 +24,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/4.0.4/eos-amd64-amd64/base/eos-eos4.0-amd64-amd64.220406-204708.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/4.0.10/eos-amd64-amd64/base/eos-eos4.0-amd64-amd64.221014-095210.base.iso</url>
       <iso>
         <volume-id>Endless-OS-4-0-\d+-base$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -37,7 +37,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/4.0.4/eos-amd64-amd64/en/eos-eos4.0-amd64-amd64.220406-210246.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/4.0.10/eos-amd64-amd64/en/eos-eos4.0-amd64-amd64.221014-095617.en.iso</url>
       <iso>
         <volume-id>Endless-OS-4-0-\d+-en$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -50,7 +50,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/4.0.4/eos-amd64-amd64/es/eos-eos4.0-amd64-amd64.220406-211234.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/4.0.10/eos-amd64-amd64/es/eos-eos4.0-amd64-amd64.221014-100339.es.iso</url>
       <iso>
         <volume-id>Endless-OS-4-0-\d+-es$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -63,7 +63,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/4.0.4/eos-amd64-amd64/fr/eos-eos4.0-amd64-amd64.220406-211357.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/4.0.10/eos-amd64-amd64/fr/eos-eos4.0-amd64-amd64.221014-100709.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-4-0-\d+-fr$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -76,7 +76,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/4.0.4/eos-amd64-amd64/pt_BR/eos-eos4.0-amd64-amd64.220406-212334.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/4.0.10/eos-amd64-amd64/pt_BR/eos-eos4.0-amd64-amd64.221014-103929.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-4-0-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
