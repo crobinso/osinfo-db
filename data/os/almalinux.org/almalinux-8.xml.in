@@ -86,6 +86,22 @@
       </treeinfo>
     </tree>
 
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/8/cloud/x86_64/images/AlmaLinux-8-GenericCloud-latest.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/8/cloud/aarch64/images/AlmaLinux-8-GenericCloud-latest.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/8/cloud/ppc64le/images/AlmaLinux-8-GenericCloud-latest.ppc64le.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/8/cloud/s390x/images/AlmaLinux-8-GenericCloud-latest.s390x.qcow2</url>
+    </image>
+
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
@@ -102,6 +118,8 @@
         <ram>3221225472</ram>
       </network-install>
     </resources>
+
+    <cloud-image-username>almalinux</cloud-image-username>
 
     <installer>
       <script id="http://redhat.com/rhel/kickstart/jeos"/>
