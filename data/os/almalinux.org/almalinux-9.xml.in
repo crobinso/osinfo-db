@@ -39,6 +39,8 @@
       <iso>
         <volume-id>AlmaLinux-9.*-s390x.*</volume-id>
       </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
     </media>
 
 
