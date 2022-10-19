@@ -51,6 +51,7 @@
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
+
     <tree arch="aarch64">
       <url>http://repo.almalinux.org/almalinux/8/BaseOS/aarch64/os/</url>
       <treeinfo>
@@ -59,6 +60,25 @@
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
+
+    <tree arch="ppc64le">
+      <url>https://repo.almalinux.org/almalinux/8/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^8$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://repo.almalinux.org/almalinux/8/BaseOS/s390x/os/</url>
+      <treeinfo>
+        <family>AlmaLinux</family>
+        <version>^8$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
     <tree arch="all">
       <treeinfo>
         <family>AlmaLinux</family>
