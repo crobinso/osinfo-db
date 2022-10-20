@@ -1,6 +1,6 @@
 CD-ROM is in ISO 9660 format
 System id: LINUX
-Volume id: AlmaLinux-8-4-aarch64-dvd
+Volume id: AlmaLinux-8-5-aarch64-dvd
 Volume set id: 
 Publisher id: 
 Data preparer id: 
@@ -11,8 +11,8 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 325094
-El Torito VD version 1 found, boot catalog is in sector 42
+Volume size is: 872189
+El Torito VD version 1 found, boot catalog is in sector 240
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
@@ -25,5 +25,5 @@ Eltorito validation header:
         Boot media 0 (No Emulation Boot)
         Load segment 0
         Sys type 0
-        Nsect 374C
-        Bootoff 2C 44
+        Nsect 3750
+        Bootoff DCB 3531

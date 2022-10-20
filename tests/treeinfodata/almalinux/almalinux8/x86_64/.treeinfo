@@ -1,21 +1,19 @@
 [checksums]
-images/boot.iso = sha256:1bf9bff6af3413f8f273e54c11fb45f7da63afea670eafc50dde22c45582be7a
-images/efiboot.img = sha256:f199cca5d0fa57d53b96fd3988bf15725d6ac98442a778fde6e896628844682d
-images/install.img = sha256:8af956ffeb7f3a5cd826eeef90188c0387d2fcbe0018f12b3db4a5aa5bbd9dea
-images/pxeboot/initrd.img = sha256:3191baed539a12b216d81b8b9da597dd608a9f7bde02772353ade0cd76d5636c
-images/pxeboot/vmlinuz = sha256:91bdebca63db4b615578b586a804b2c4d36dd83a0d9ddd4632b45584b0b4b31e
+images/boot.iso = sha256:de92004fcc5bb5b9af586c9b5ab0e0c7c5a5eedce4d2be85156c5dd31a4fa81b
+images/efiboot.img = sha256:50ec6d08e020f560f1b5dff9290245f7caba119bb1f4e6d53a2c539acef33b3f
+images/install.img = sha256:0c367de8e7f03294065ee3f13773c88c105fe1ee7c0a04bd84e6272b77efefc0
+images/pxeboot/initrd.img = sha256:c7d5d9b33d8a3f6640f2a73507cd2a9fdd28a36aaba7527386b2acf9fa04afad
+images/pxeboot/vmlinuz = sha256:67ba521a88630e4ea5d212e346f1b0c66092aec55933bc0ec6adb88a5de0ec07
 
 [general]
-; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
-; WARNING.1 = Read productmd documentation for details about new format.
 arch = x86_64
 family = AlmaLinux
 name = AlmaLinux 8
-packagedir = ../../../AppStream/x86_64/os/Packages
+packagedir = Packages
 platforms = x86_64,xen
-repository = ../../../AppStream/x86_64/os
-timestamp = 1613729602
-variant = AppStream
+repository = .
+timestamp = 1652291763
+variant = BaseOS
 variants = AppStream,BaseOS
 version = 8
 
@@ -43,7 +41,7 @@ mainimage = images/install.img
 
 [tree]
 arch = x86_64
-build_timestamp = 1613729602
+build_timestamp = 1652291763
 platforms = x86_64,xen
 variants = AppStream,BaseOS
 

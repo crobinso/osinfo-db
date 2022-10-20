@@ -4,7 +4,7 @@
     <short-id>almalinux8</short-id>
     <name>AlmaLinux 8</name>
     <version>8</version>
-    <vendor>AlmaLinux</vendor>
+    <vendor>AlmaLinux OS Foundation</vendor>
     <family>linux</family>
     <distro>almalinux</distro>
     <clones id="http://redhat.com/rhel/8.4"/>
