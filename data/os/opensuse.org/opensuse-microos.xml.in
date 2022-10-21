@@ -1,0 +1,40 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://opensuse.org/opensuse/microos">
+    <short-id>opensusemicroos</short-id>
+    <name>openSUSE MicroOS</name>
+    <version>microos</version>
+    <vendor>openSUSE</vendor>
+    <family>linux</family>
+    <distro>opensuse</distro>
+    <derives-from id="http://opensuse.org/opensuse/tumbleweed"/>
+
+    <media arch="x86_64">
+      <url>https://download.opensuse.org/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso</url>
+      <iso>
+        <volume-id>openSUSE-MicroOS-DVD-x86_64*</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>SUSE LLC</publisher-id>
+      </iso>
+      <kernel>boot/x86_64/loader/linux</kernel>
+      <initrd>boot/x86_64/loader/initrd</initrd>
+    </media>
+
+    <resources arch="all">
+    <!-- https://en.opensuse.org/Hardware_requirements -->
+      <minimum>
+        <cpu>1600000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>1073741824</ram>
+        <storage>4294967296</storage>
+      </minimum>
+      <recommended>
+        <cpu>2400000000</cpu>
+        <ram>4294967296</ram>
+	<storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
