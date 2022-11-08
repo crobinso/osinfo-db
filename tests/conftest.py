@@ -2,6 +2,7 @@
 # See the COPYING file in the top-level directory.
 
 import locale
+from pathlib import Path
 import os
 
 
@@ -18,17 +19,14 @@ def pytest_addoption(parser):
 
 
 def pytest_configure(config):
+    top = Path(__file__).parent.parent
     key = "INTERNAL_OSINFO_DB_DATA_DIR"
     if key not in os.environ:
-        os.environ[key] = os.path.realpath(
-            os.path.join(os.path.dirname(__file__), "..", "data")
-        )
+        os.environ[key] = str(Path(top, "data").resolve())
 
     key = "INTERNAL_OSINFO_DB_DATA_SRC_DIR"
     if key not in os.environ:
-        os.environ[key] = os.path.realpath(
-            os.path.join(os.path.dirname(__file__), "..", "data")
-        )
+        os.environ[key] = str(Path(top, "data").resolve())
 
     # Needed for test reproducibility on any system not using a UTF-8 locale
     locale.setlocale(locale.LC_ALL, "C")
@@ -58,5 +56,5 @@ def pytest_ignore_collect(path, config):
     run_network = bool(
         config.getoption("--network-tests") or os.environ.get("OSINFO_DB_NETWORK_TESTS")
     )
-    if os.path.basename(str(path)) == "test_urls.py" and not run_network:
+    if Path(path).name == "test_urls.py" and not run_network:
         return True
