@@ -4,6 +4,7 @@
 from collections import defaultdict
 
 import os
+from pathlib import Path
 import re
 
 import pytest
@@ -91,7 +92,7 @@ class _Files:
         """
         if not self._oses_cache:
             for path in self._filter_xml("os"):
-                self._oses_cache.append(osinfo.Os(path))
+                self._oses_cache.append(osinfo.Os(Path(path)))
 
         oses = self._oses_cache[:]
         if filter_media:
@@ -147,32 +148,32 @@ class _Files:
     def devices(self):
         if not self._devices_cache:
             for path in self._filter_xml("device"):
-                self._devices_cache.append(osinfo.Device(path))
+                self._devices_cache.append(osinfo.Device(Path(path)))
         return self._devices_cache
 
     def datamaps(self):
         if not self._datamaps_cache:
             for path in self._filter_xml("datamap"):
-                self._datamaps_cache.append(osinfo.Datamap(path))
+                self._datamaps_cache.append(osinfo.Datamap(Path(path)))
         return self._datamaps_cache
 
     def installscripts(self):
         if not self._installscripts_cache:
             for path in self._filter_xml("install-script"):
-                script = osinfo.InstallScript(path)
+                script = osinfo.InstallScript(Path(path))
                 self._installscripts_cache[script.internal_id] = script
         return self._installscripts_cache
 
     def platforms(self):
         if not self._platforms_cache:
             for path in self._filter_xml("platform"):
-                self._platforms_cache.append(osinfo.Platform(path))
+                self._platforms_cache.append(osinfo.Platform(Path(path)))
         return self._platforms_cache
 
     def firmwares(self):
         if not self._firmwares_cache:
             for path in self._filter_xml("firmware"):
-                self._firmwares_cache.append(osinfo.Firmware(path))
+                self._firmwares_cache.append(osinfo.Firmware(Path(path)))
         return self._firmwares_cache
 
     def xmls(self):

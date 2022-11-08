@@ -45,9 +45,9 @@ class _XMLBase:
 
 
 class Os(_XMLBase):
-    def __init__(self, filename):
-        self.filename = filename
-        root = ET.parse(self.filename).getroot().find("os")
+    def __init__(self, path):
+        self.path = path
+        root = ET.parse(self.path.open("r")).getroot().find("os")
         super().__init__(root)
 
     def __repr__(self):
@@ -333,9 +333,9 @@ class ISO(_XMLBase):
 
 
 class Device(_XMLBase):
-    def __init__(self, filename):
-        self.filename = filename
-        root = ET.parse(self.filename).getroot().find("device")
+    def __init__(self, path):
+        self.path = path
+        root = ET.parse(self.path.open("r")).getroot().find("device")
         super().__init__(root)
 
     @_cache_property
@@ -348,13 +348,13 @@ class Device(_XMLBase):
 
 
 class Datamap(_XMLBase):
-    def __init__(self, filename):
-        self.filename = filename
-        root = ET.parse(self.filename).getroot().find("datamap")
+    def __init__(self, path):
+        self.path = path
+        root = ET.parse(self.path.open("r")).getroot().find("datamap")
         super().__init__(root)
 
     def __repr__(self):
-        return "<%s filename=%s>" % (self.__class__.__name__, self.filename)
+        return "<%s path=%s>" % (self.__class__.__name__, self.path)
 
     @_cache_property
     def internal_id(self):
@@ -362,13 +362,13 @@ class Datamap(_XMLBase):
 
 
 class InstallScript(_XMLBase):
-    def __init__(self, filename):
-        self.filename = filename
-        root = ET.parse(self.filename).getroot().find("install-script")
+    def __init__(self, path):
+        self.path = path
+        root = ET.parse(self.path.open("r")).getroot().find("install-script")
         super().__init__(root)
 
     def __repr__(self):
-        return "<%s filename=%s>" % (self.__class__.__name__, self.filename)
+        return "<%s path=%s>" % (self.__class__.__name__, self.path)
 
     @_cache_property
     def internal_id(self):
@@ -376,13 +376,13 @@ class InstallScript(_XMLBase):
 
 
 class Platform(_XMLBase):
-    def __init__(self, filename):
-        self.filename = filename
-        root = ET.parse(self.filename).getroot().find("platform")
+    def __init__(self, path):
+        self.path = path
+        root = ET.parse(self.path.open("r")).getroot().find("platform")
         super().__init__(root)
 
     def __repr__(self):
-        return "<%s filename=%s>" % (self.__class__.__name__, self.filename)
+        return "<%s path=%s>" % (self.__class__.__name__, self.path)
 
     @_cache_property
     def internal_id(self):

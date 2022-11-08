@@ -32,7 +32,7 @@ def _check_uncommented_devices(osxml):
     badlines = []
     devlines = [
         line
-        for line in open(osxml.filename).read().splitlines()
+        for line in osxml.path.open("r").read().splitlines()
         if "<device id" in line
     ]
 

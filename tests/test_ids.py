@@ -14,7 +14,7 @@ def _test_validate_ids(xml, entity_type):
     check done by OsinfoLoader::osinfo_loader_check_id()
     """
     base = Path("data", entity_type)
-    relpath = Path(xml.filename).relative_to(base)
+    relpath = xml.path.relative_to(base)
 
     suffix = xml.internal_id[len("http://") :]
     vendor = suffix.split("/", 1)[0]
