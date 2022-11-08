@@ -35,7 +35,7 @@ class _Files:
     """
 
     def __init__(self, dir_env, files_format):
-        self.datadir = os.environ[dir_env]
+        self.datadir = Path(os.environ[dir_env])
         self.schema = Path(self.datadir, "schema", "osinfo.rng")
         self._all_xml_cache = []
         self._oses_cache = []
@@ -47,7 +47,7 @@ class _Files:
         self._os_related_cache = defaultdict(list)
         self._files_format = files_format
 
-        if not os.path.exists(self.datadir):
+        if not self.datadir.exists():
             raise RuntimeError("%s=%s doesn't exist" % (dir_env, self.datadir))
 
     def _get_all_xml(self):
@@ -55,21 +55,29 @@ class _Files:
         Get and cache the full list of all DATA_DIR .xml paths
         """
         if not self._all_xml_cache:
-            for (dirpath, _, filenames) in os.walk(self.datadir):
-                for filename in sorted(filenames, key=human_sort):
-                    if not filename.endswith(self._files_format):
-                        continue
-                    self._all_xml_cache.append(os.path.join(dirpath, filename))
+            for path in sorted(
+                self.datadir.rglob("*" + self._files_format), key=path_sort
+            ):
+                self._all_xml_cache.append(path)
         return self._all_xml_cache
 
     def _filter_xml(self, dirname):
         """
         Filter XML paths by those in $DATA_DIR/$dirname
         """
+
+        # Copy of pathlib.is_relative_to, new in 3.9
+        def is_relative_to(this, that):
+            try:
+                this.relative_to(that)
+                return True
+            except ValueError:
+                return False
+
         return [
             p
             for p in self._get_all_xml()
-            if p.startswith(os.path.join(self.datadir, dirname))
+            if is_relative_to(p, Path(self.datadir, dirname))
         ]
 
     def oses(
