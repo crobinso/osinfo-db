@@ -8,11 +8,11 @@ from . import util
 
 
 SCHEMA = util.DataFiles.schema
-RELAXNG = ET.RelaxNG(ET.parse(SCHEMA))
+RELAXNG = ET.RelaxNG(ET.parse(SCHEMA.open("r")))
 
 
 @pytest.mark.parametrize("path", util.DataFiles.xmls())
 def test_schema(path):
-    if not RELAXNG.validate(ET.parse(path)):
+    if not RELAXNG.validate(ET.parse(path.open("r"))):
         # pylint: disable=no-member
         raise AssertionError(str(RELAXNG.error_log.last_error))

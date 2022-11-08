@@ -36,7 +36,7 @@ class _Files:
 
     def __init__(self, dir_env, files_format):
         self.datadir = os.environ[dir_env]
-        self.schema = os.path.join(self.datadir, "schema", "osinfo.rng")
+        self.schema = Path(self.datadir, "schema", "osinfo.rng")
         self._all_xml_cache = []
         self._oses_cache = []
         self._devices_cache = []
@@ -177,7 +177,7 @@ class _Files:
         return self._firmwares_cache
 
     def xmls(self):
-        return self._get_all_xml()
+        return [Path(p) for p in self._get_all_xml()]
 
 
 class _DataFiles(_Files):
