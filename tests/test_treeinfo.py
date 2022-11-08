@@ -1,9 +1,8 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
-import glob
 import logging
-import os
+from pathlib import Path
 import pytest
 
 from . import util
@@ -15,23 +14,19 @@ def _get_treeinfodatapaths():
     Collect treeinfo data and return a list of tuples:
         (osname, treeinfodatapaths)
     """
-    treeinfodata_path = os.path.join(
-        os.path.dirname(os.path.realpath(__file__)), "treeinfodata"
-    )
+    this = Path(__file__).resolve()
+    treeinfodata_path = Path(this.parent, "treeinfodata")
 
     ret = []
-    allpaths = glob.glob(os.path.join(treeinfodata_path, "*", "*"))
-    for osdir in sorted(allpaths, key=util.human_sort):
-        osname = os.path.basename(osdir)
+    allpaths = treeinfodata_path.glob(str(Path("*", "*")))
+    for osdir in sorted(allpaths, key=util.path_sort):
         # The .treeinfo may be under the following directories schema:
         # - distro/shortid/arch
         # - distro/shortid/variant/arch/
         # That's the reason we have to take check for the .treeinfo file recursively.
-        treeinfodatapaths = glob.glob(
-            os.path.join(osdir, "**", ".treeinfo"), recursive=True
-        )
+        treeinfodatapaths = list(osdir.rglob("*.treeinfo"))
         if len(treeinfodatapaths):
-            ret.append((osname, treeinfodatapaths))
+            ret.append((osdir.name, treeinfodatapaths))
     return ret
 
 
@@ -52,14 +47,14 @@ def test_treeinfo_detection(testdata):
                         logging.warning(
                             "treeinfo '%s' was matched by OS '%s' while "
                             "it should only be matched by OS '%s'",
-                            data.filename,
+                            data.path,
                             osxml2.shortid,
                             osname,
                         )
                     else:
                         logging.info(
                             "treeinfo '%s' matched by OS '%s'",
-                            data.filename,
+                            data.path,
                             osxml2.shortid,
                         )
 

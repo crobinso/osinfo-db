@@ -5,9 +5,9 @@ import configparser
 
 
 class _TreeinfoData:
-    def __init__(self, filename, arch, family, variant, version):
+    def __init__(self, path, arch, family, variant, version):
 
-        self.filename = filename
+        self.path = path
         self.arch = arch or ""
         self.family = family or ""
         self.variant = variant or ""
@@ -32,7 +32,7 @@ def get_treeinfodata(filepath):
     version = None
 
     config = configparser.ConfigParser()
-    with open(filepath, "r") as out:
+    with filepath.open("r") as out:
         config.read_file(out)
         arch = ""
         family = ""
