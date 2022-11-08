@@ -4,10 +4,10 @@
 
 class _ISODataMedia:
     def __init__(
-        self, filename, volumeid, publisherid, systemid, applicationid, volumesize
+        self, path, volumeid, publisherid, systemid, applicationid, volumesize
     ):
 
-        self.filename = filename
+        self.path = path
         self.volumeid = volumeid if volumeid is not None else ""
         self.publisherid = publisherid if publisherid is not None else ""
         self.systemid = systemid if systemid is not None else ""
@@ -69,7 +69,7 @@ def get_isodatamedia(filepath):
     logicalblock = None
     volumesize = None
 
-    with open(filepath, "r") as out:
+    with filepath.open("r") as out:
         for line in out.readlines():
             if volumeid is None:
                 volumeid = _get_volumeid(line)

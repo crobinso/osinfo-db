@@ -24,6 +24,10 @@ def human_sort(text):
     return [atof(c) for c in re.split(r"[+-]?([0-9]+(?:[.][0-9]*)?|[.][0-9]+)", text)]
 
 
+def path_sort(path):
+    return human_sort(str(path))
+
+
 class _Files:
     """
     Track a list of DATA_DIR files and provide APIs for querying them.

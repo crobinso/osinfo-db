@@ -1,9 +1,8 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
-import glob
 import logging
-import os
+from pathlib import Path
 import pytest
 
 from . import util
@@ -15,15 +14,17 @@ def _get_isodatapaths():
     Collect iso media data and return a list of tuples:
         (osname, isodatapaths)
     """
-    isodata_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "isodata")
+    this = Path(__file__).resolve()
+    isodata_path = Path(this.parent, "isodata")
 
     ret = []
-    allpaths = glob.glob(os.path.join(isodata_path, "*", "*"))
-    for osdir in sorted(allpaths, key=util.human_sort):
-        osname = os.path.basename(osdir)
-        isodatapaths = glob.glob(os.path.join(osdir, "*.txt"))
+    osdirs = [d for d in isodata_path.glob(str(Path("*", "*"))) if d.is_dir()]
+
+    for osdir in sorted(osdirs, key=util.path_sort):
+        isodatapaths = list(osdir.glob("*.txt"))
         if len(isodatapaths):
-            ret.append((osname, isodatapaths))
+            ret.append((osdir.name, isodatapaths))
+
     return ret
 
 
@@ -40,14 +41,14 @@ def test_iso_detection(testdata):
                         logging.warning(
                             "ISO '%s' was matched by OS '%s' while it "
                             "should only be matched by OS '%s'",
-                            isodatamedia.filename,
+                            isodatamedia.path,
                             osxml2.shortid,
                             osname,
                         )
                     else:
                         logging.info(
                             "ISO '%s' matched by OS '%s'",
-                            isodatamedia.filename,
+                            isodatamedia.path,
                             osxml2.shortid,
                         )
                     # For several distros we do not have the volume-size
