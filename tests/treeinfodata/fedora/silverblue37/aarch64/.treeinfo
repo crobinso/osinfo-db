@@ -1,0 +1,18 @@
+[general]
+timestamp = 1667631332.0847158
+family = Fedora
+version = 37
+name = Fedora-37
+variant = Silverblue
+arch = aarch64
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-aarch64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+efiboot.img = images/efiboot.img
+boot.iso = images/boot.iso
+
