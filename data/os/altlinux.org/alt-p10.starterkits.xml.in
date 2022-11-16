@@ -37,15 +37,11 @@
 
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/cloud/alt-p10-cloud-aarch64.qcow2</url>
-    </image>
-
-    <image arch="i686" format="qcow2" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/cloud/alt-p10-cloud-i586.qcow2</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/cloud/aarch64/alt-p10-cloud-aarch64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/cloud/alt-p10-cloud-x86_64.qcow2</url>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/cloud/x86_64/alt-p10-cloud-x86_64.qcow2</url>
     </image>
 
     <resources arch="all">
