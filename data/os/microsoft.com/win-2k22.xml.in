@@ -14,6 +14,14 @@
     <release-date>2021-08-18</release-date>
     <eol-date>2031-10-14</eol-date>
 
+    <media arch="x86_64">
+      <iso>
+        <volume-id>^(SSS_X64CHK|SSS_X64FREE?|SSS_X64FREV)_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/7/l10n-language">[A-Z0-9]*_([A-Z]*)</l10n-language>
+      </iso>
+    </media>
+
     <resources arch="x86_64">
       <minimum>
         <cpu>1400000000</cpu>
