@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 13:31+0200\n"
-"PO-Revision-Date: 2022-08-22 17:12+0000\n"
+"PO-Revision-Date: 2022-10-24 00:19+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -539,7 +539,7 @@ msgstr "ALT koulutus 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Server 9.0"
-msgstr ""
+msgstr "ALT Server 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:33
 msgid "ALT Virtualization Server 9.0"
@@ -571,7 +571,7 @@ msgstr "ALT koulutus 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Server 9.1"
-msgstr ""
+msgstr "ALT Server 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:31
 msgid "ALT Virtualization Server 9.1"
@@ -603,7 +603,7 @@ msgstr "ALT koulutus 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Server 9.2"
-msgstr ""
+msgstr "ALT Server 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:31
 msgid "ALT Virtualization Server 9.2"
@@ -828,10 +828,8 @@ msgid "Circle Linux 9 Unknown"
 msgstr ""
 
 #: data/os/cclinux.org/circle-9.0.xml.in:6
-#, fuzzy
-#| msgid "Rocky Linux 9.0"
 msgid "Circle Linux 9.0"
-msgstr "Rocky Linux 9.0"
+msgstr "Circle Linux 9.0"
 
 #: data/os/cclinux.org/circle-unknown.xml.in:6
 msgid "Circle Linux Unknown"
@@ -3944,16 +3942,12 @@ msgid "Oracle Linux 8.3"
 msgstr "Rocky Linux 8.4"
 
 #: data/os/oracle.com/ol-8.4.xml.in:4
-#, fuzzy
-#| msgid "Rocky Linux 8.4"
 msgid "Oracle Linux 8.4"
-msgstr "Rocky Linux 8.4"
+msgstr "Oracle Linux 8.4"
 
 #: data/os/oracle.com/ol-8.5.xml.in:4
-#, fuzzy
-#| msgid "Rocky Linux 8.5"
 msgid "Oracle Linux 8.5"
-msgstr "Rocky Linux 8.5"
+msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
