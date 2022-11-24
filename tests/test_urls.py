@@ -53,6 +53,8 @@ qcow2_content_types = {
     # qcow2 files on fedoraproject.org mirrors; similar issue of
     # https://pagure.io/fedora-infrastructure/issue/10766
     "application/x-troff-man",
+    # qcow2 files on some opensuse.org mirrors
+    "text/plain",
 }
 
 
