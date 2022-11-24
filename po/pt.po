@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 13:31+0200\n"
+"POT-Creation-Date: 2022-11-23 11:33+0100\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -225,7 +225,8 @@ msgid "AlmaLinux 8"
 msgstr "Alpine Linux 3.8"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:7
-msgid "AlmaLinux"
+#: data/os/almalinux.org/almalinux-9.xml.in:7
+msgid "AlmaLinux OS Foundation"
 msgstr ""
 
 #: data/os/almalinux.org/almalinux-9.xml.in:5
@@ -233,10 +234,6 @@ msgstr ""
 #| msgid "Alpine Linux 3.8"
 msgid "AlmaLinux 9"
 msgstr "Alpine Linux 3.8"
-
-#: data/os/almalinux.org/almalinux-9.xml.in:7
-msgid "AlmaLinux OS Foundation"
-msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 #, fuzzy
@@ -1326,10 +1323,6 @@ msgstr ""
 msgid "Debian testing"
 msgstr ""
 
-#: data/os/debian.org/debian-testing.xml.in:35
-msgid "Debian testing (OpenStack)"
-msgstr ""
-
 #: data/os/dragonflybsd.org/dragonflybsd-1.0.xml.in:6
 msgid "DragonFlyBSD 1.0"
 msgstr ""
@@ -1928,6 +1921,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/fedora-34.xml.in:8
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
 #: data/os/fedoraproject.org/fedora-36.xml.in:8
+#: data/os/fedoraproject.org/fedora-37.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1946,6 +1940,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-34.xml.in:8
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
+#: data/os/fedoraproject.org/silverblue-37.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2293,6 +2288,31 @@ msgstr "Fedora 21 Server"
 msgid "Fedora Everything 36"
 msgstr "Fedora 29 Everything"
 
+#: data/os/fedoraproject.org/fedora-37.xml.in:6
+#, fuzzy
+#| msgid "Fedora 13"
+msgid "Fedora Linux 37"
+msgstr "Fedora 13"
+
+#: data/os/fedoraproject.org/fedora-37.xml.in:17
+#, fuzzy
+#| msgid "Fedora 21 Workstation"
+msgid "Fedora Workstation 37"
+msgstr "Fedora 21 Workstation"
+
+#: data/os/fedoraproject.org/fedora-37.xml.in:20
+#: data/os/fedoraproject.org/fedora-37.xml.in:23
+#, fuzzy
+#| msgid "Fedora 21 Server"
+msgid "Fedora Server 37"
+msgstr "Fedora 21 Server"
+
+#: data/os/fedoraproject.org/fedora-37.xml.in:26
+#, fuzzy
+#| msgid "Fedora 29 Everything"
+msgid "Fedora Everything 37"
+msgstr "Fedora 29 Everything"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -2385,6 +2405,12 @@ msgstr "Fedora Silverblue 30"
 #, fuzzy
 #| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 36"
+msgstr "Fedora Silverblue 30"
+
+#: data/os/fedoraproject.org/silverblue-37.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 30"
+msgid "Fedora Silverblue 37"
 msgstr "Fedora Silverblue 30"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
@@ -3128,7 +3154,8 @@ msgstr ""
 #: data/os/microsoft.com/win-1.0.xml.in:7
 #: data/os/microsoft.com/win-10.d/post-installable-drivers.xml.in:7
 #: data/os/microsoft.com/win-10.d/pre-installable-drivers.xml.in:7
-#: data/os/microsoft.com/win-10.xml.in:8 data/os/microsoft.com/win-2.0.xml.in:7
+#: data/os/microsoft.com/win-10.xml.in:8 data/os/microsoft.com/win-11.xml.in:8
+#: data/os/microsoft.com/win-2.0.xml.in:7
 #: data/os/microsoft.com/win-2.1.xml.in:7 data/os/microsoft.com/win-2k.xml.in:8
 #: data/os/microsoft.com/win-2k12.xml.in:8
 #: data/os/microsoft.com/win-2k12r2.xml.in:8
@@ -3181,6 +3208,10 @@ msgstr ""
 
 #: data/os/microsoft.com/win-10.xml.in:27
 msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
+msgstr ""
+
+#: data/os/microsoft.com/win-11.xml.in:6
+msgid "Microsoft Windows 11"
 msgstr ""
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
