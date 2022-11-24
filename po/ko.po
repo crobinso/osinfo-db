@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 11:33+0100\n"
-"PO-Revision-Date: 2022-10-03 15:22+0000\n"
+"PO-Revision-Date: 2022-11-23 16:32+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2097,29 +2097,21 @@ msgid "Fedora Everything 36"
 msgstr "페도라 전체 36"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 37"
-msgstr "페도라 리눅스 36"
+msgstr "페도라 리눅스 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 37"
-msgstr "페도라 웍스테이션 36"
+msgstr "페도라 웍스테이션 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:20
 #: data/os/fedoraproject.org/fedora-37.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 37"
-msgstr "페도라 서버 36"
+msgstr "페도라 서버 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 37"
-msgstr "페도라 전체 36"
+msgstr "페도라 전체 37"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -2206,10 +2198,8 @@ msgid "Fedora Silverblue 36"
 msgstr "페도라 실버블루 36"
 
 #: data/os/fedoraproject.org/silverblue-37.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 37"
-msgstr "페도라 실버블루 30"
+msgstr "페도라 실버블루 37"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -2989,10 +2979,8 @@ msgid "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
 msgstr "마이크로소프트 윈도우 10 기업용 (장기 지원판) 평가판"
 
 #: data/os/microsoft.com/win-11.xml.in:6
-#, fuzzy
-#| msgid "Microsoft Windows 10"
 msgid "Microsoft Windows 11"
-msgstr "마이크로소프트 윈도우 10"
+msgstr "마이크로소프트 윈도우 11"
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
