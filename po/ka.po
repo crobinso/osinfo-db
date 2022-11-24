@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-23 11:33+0100\n"
-"PO-Revision-Date: 2022-11-22 23:20+0000\n"
+"PO-Revision-Date: 2022-11-24 02:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -2094,29 +2094,21 @@ msgid "Fedora Everything 36"
 msgstr "Fedora Everything 36"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 37"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 37"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:20
 #: data/os/fedoraproject.org/fedora-37.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 37"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 37"
 
 #: data/os/fedoraproject.org/fedora-37.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 37"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 37"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -2203,10 +2195,8 @@ msgid "Fedora Silverblue 36"
 msgstr "Fedora Silverblue 36"
 
 #: data/os/fedoraproject.org/silverblue-37.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 37"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 37"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -2987,10 +2977,8 @@ msgstr ""
 "Microsoft Windows 10 Enterprise (Long Term Servicing Branch) Evaluation"
 
 #: data/os/microsoft.com/win-11.xml.in:6
-#, fuzzy
-#| msgid "Microsoft Windows 10"
 msgid "Microsoft Windows 11"
-msgstr "Microsoft Windows 10"
+msgstr "Microsoft Windows 11"
 
 #: data/os/microsoft.com/win-2.0.xml.in:6
 msgid "Microsoft Windows 2.0"
