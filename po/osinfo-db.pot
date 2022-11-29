@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 11:33+0100\n"
+"POT-Creation-Date: 2022-11-29 19:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,6 +238,7 @@ msgstr ""
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -380,6 +381,26 @@ msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
 msgid "Alpinelinux 3.16 Xen"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
+msgid "Alpine Linux 3.17"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
+msgid "Alpinelinux 3.17 Standard"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
+msgid "Alpinelinux 3.17 Extended"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
+msgid "Alpinelinux 3.17 Virtual"
+msgstr ""
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
+msgid "Alpinelinux 3.17 Xen"
 msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -3044,6 +3065,10 @@ msgstr ""
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
+msgstr ""
+
+#: data/os/microsoft.com/win-2k19.xml.in:18
+msgid "Windows Server 2019 Essentials"
 msgstr ""
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
