@@ -12,7 +12,7 @@
     <upgrades id="http://redhat.com/rhel/9.0"/>
     <derives-from id="http://redhat.com/rhel/9.0"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2022-11-15</release-date>
 
     <!-- RHEL 9.1 entries have to cope both with 9.1 and 9.1.x regexes for
          medias' volume-id and trees' version -->
