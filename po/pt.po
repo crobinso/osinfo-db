@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 11:33+0100\n"
+"POT-Creation-Date: 2022-11-29 19:23+0100\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -248,6 +248,7 @@ msgstr "Alpine Linux 3.5"
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -458,6 +459,36 @@ msgstr "Alpinelinux 3.8 Virtual"
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.16 Xen"
+msgstr "Alpinelinux 3.8 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.7"
+msgid "Alpine Linux 3.17"
+msgstr "Alpine Linux 3.7"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Standard"
+msgid "Alpinelinux 3.17 Standard"
+msgstr "Alpinelinux 3.8 Standard"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Extended"
+msgid "Alpinelinux 3.17 Extended"
+msgstr "Alpinelinux 3.8 Extended"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Virtual"
+msgid "Alpinelinux 3.17 Virtual"
+msgstr "Alpinelinux 3.8 Virtual"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Xen"
+msgid "Alpinelinux 3.17 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -3280,6 +3311,10 @@ msgstr ""
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
+msgstr ""
+
+#: data/os/microsoft.com/win-2k19.xml.in:18
+msgid "Windows Server 2019 Essentials"
 msgstr ""
 
 #: data/os/microsoft.com/win-2k22.xml.in:6

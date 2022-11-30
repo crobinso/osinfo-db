@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 11:33+0100\n"
+"POT-Creation-Date: 2022-11-29 19:23+0100\n"
 "PO-Revision-Date: 2022-10-24 00:19+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -240,6 +240,7 @@ msgstr "Alpine Linux 3.10"
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -383,6 +384,36 @@ msgstr "Alpinelinux 3.16 Virtuaali"
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
 msgid "Alpinelinux 3.16 Xen"
 msgstr "Alpinelinux 3.16 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.7"
+msgid "Alpine Linux 3.17"
+msgstr "Alpine Linux 3.7"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Standard"
+msgid "Alpinelinux 3.17 Standard"
+msgstr "Alpinelinux 3.10 Standard"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Extended"
+msgid "Alpinelinux 3.17 Extended"
+msgstr "Alpinelinux 3.10 Extended"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Virtual"
+msgid "Alpinelinux 3.17 Virtual"
+msgstr "Alpinelinux 3.10 Virtual"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Xen"
+msgid "Alpinelinux 3.17 Xen"
+msgstr "Alpinelinux 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -3066,6 +3097,10 @@ msgstr ""
 
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
+msgstr ""
+
+#: data/os/microsoft.com/win-2k19.xml.in:18
+msgid "Windows Server 2019 Essentials"
 msgstr ""
 
 #: data/os/microsoft.com/win-2k22.xml.in:6

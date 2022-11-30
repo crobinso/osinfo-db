@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 11:33+0100\n"
+"POT-Creation-Date: 2022-11-29 19:23+0100\n"
 "PO-Revision-Date: 2022-11-23 16:32+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -242,6 +242,7 @@ msgstr "알파인 리눅스 3.10"
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -385,6 +386,36 @@ msgstr "알파인리눅스 3.16 가상"
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
 msgid "Alpinelinux 3.16 Xen"
 msgstr "알파인리눅스 3.16 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.7"
+msgid "Alpine Linux 3.17"
+msgstr "알파인 리눅스 3.7"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Standard"
+msgid "Alpinelinux 3.17 Standard"
+msgstr "알파인리눅스 3.10 표준"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Extended"
+msgid "Alpinelinux 3.17 Extended"
+msgstr "알파인리눅스 3.10 확장"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Virtual"
+msgid "Alpinelinux 3.17 Virtual"
+msgstr "알파인리눅스 3.10 가상"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.10 Xen"
+msgid "Alpinelinux 3.17 Xen"
+msgstr "알파인리눅스 3.10 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -3049,6 +3080,12 @@ msgstr "윈도우 서버 2016 에센셜"
 #: data/os/microsoft.com/win-2k19.xml.in:6
 msgid "Microsoft Windows Server 2019"
 msgstr "마이크로소프트 윈도우 서버 2019"
+
+#: data/os/microsoft.com/win-2k19.xml.in:18
+#, fuzzy
+#| msgid "Windows Server 2012 Essentials"
+msgid "Windows Server 2019 Essentials"
+msgstr "윈도우 서버 2012 에센셜"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
 msgid "Microsoft Windows Server 2022"

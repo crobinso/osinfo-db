@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 11:33+0100\n"
+"POT-Creation-Date: 2022-11-29 19:23+0100\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -247,6 +247,7 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.14.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -423,6 +424,31 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:43
 #, fuzzy
 msgid "Alpinelinux 3.16 Xen"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
+#, fuzzy
+msgid "Alpine Linux 3.17"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
+#, fuzzy
+msgid "Alpinelinux 3.17 Standard"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
+#, fuzzy
+msgid "Alpinelinux 3.17 Extended"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
+#, fuzzy
+msgid "Alpinelinux 3.17 Virtual"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
+#, fuzzy
+msgid "Alpinelinux 3.17 Xen"
 msgstr "ALT Linux 3.0"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -3290,6 +3316,12 @@ msgstr "Windows Server 2012 Essentials"
 #, fuzzy
 msgid "Microsoft Windows Server 2019"
 msgstr "Microsoft Windows Server 2012"
+
+#: data/os/microsoft.com/win-2k19.xml.in:18
+#, fuzzy
+#| msgid "Windows Server 2012 Essentials"
+msgid "Windows Server 2019 Essentials"
+msgstr "Windows Server 2012 Essentials"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
 #, fuzzy
