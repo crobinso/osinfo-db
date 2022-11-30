@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-29 19:23+0100\n"
-"PO-Revision-Date: 2022-11-24 15:36+0000\n"
+"PO-Revision-Date: 2022-11-30 06:19+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
@@ -386,34 +386,24 @@ msgid "Alpinelinux 3.16 Xen"
 msgstr "Alpinelinux 3.16 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.7"
 msgid "Alpine Linux 3.17"
-msgstr "Alpine Linux 3.7"
+msgstr "Alpine Linux 3.17"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.17 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.17 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.17 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.17 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.17 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.17 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.17 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.17 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -3081,10 +3071,8 @@ msgid "Microsoft Windows Server 2019"
 msgstr "Microsoft Windows Server 2019"
 
 #: data/os/microsoft.com/win-2k19.xml.in:18
-#, fuzzy
-#| msgid "Windows Server 2012 Essentials"
 msgid "Windows Server 2019 Essentials"
-msgstr "Windows Server 2012 Essentials"
+msgstr "Windows Server 2019 Essentials"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
 msgid "Microsoft Windows Server 2022"
