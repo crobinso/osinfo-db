@@ -13,7 +13,7 @@ def _test_validate_ids(xml, entity_type):
     This check tries to mimic, in a pythonic way, the very same
     check done by OsinfoLoader::osinfo_loader_check_id()
     """
-    base = Path("data", entity_type)
+    base = Path(util.DataFiles.datadir, entity_type)
     relpath = xml.path.relative_to(base)
 
     suffix = xml.internal_id[len("http://") :]
