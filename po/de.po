@@ -4,7 +4,7 @@
 #
 # Translators:
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
 # Philipp Hahn <pmhahn+fedora@pmhahn.de>, 2022.
 # Flo H <emailtoflorian@gmail.com>, 2022.
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-29 19:23+0100\n"
-"PO-Revision-Date: 2022-11-24 15:36+0000\n"
-"Last-Translator: Flo H <emailtoflorian@gmail.com>\n"
+"PO-Revision-Date: 2022-12-05 15:19+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/de/>\n"
 "Language: de\n"
@@ -390,34 +390,24 @@ msgid "Alpinelinux 3.16 Xen"
 msgstr "Alpinelinux 3.16 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.7"
 msgid "Alpine Linux 3.17"
-msgstr "Alpine Linux 3.7"
+msgstr "Alpine Linux 3.17"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.17 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.17 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.17 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.17 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.17 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.17 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.17 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.17 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -3085,10 +3075,8 @@ msgid "Microsoft Windows Server 2019"
 msgstr "Microsoft Windows Server 2019"
 
 #: data/os/microsoft.com/win-2k19.xml.in:18
-#, fuzzy
-#| msgid "Windows Server 2012 Essentials"
 msgid "Windows Server 2019 Essentials"
-msgstr "Windows Server 2012 Essentials"
+msgstr "Windows Server 2019 Essentials"
 
 #: data/os/microsoft.com/win-2k22.xml.in:6
 msgid "Microsoft Windows Server 2022"
