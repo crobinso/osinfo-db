@@ -30,7 +30,7 @@
       <name>NixOS 22.11 (minimal installation CD)</name>
     </variant>
     <variant id="gnome">
-      <name>NixOS Unstable (GNOME installation CD)</name>
+      <name>NixOS 22.11 (GNOME installation CD)</name>
     </variant>
     <variant id="plasma5">
       <name>NixOS 22.11 (Plasma 5 installation CD)</name>

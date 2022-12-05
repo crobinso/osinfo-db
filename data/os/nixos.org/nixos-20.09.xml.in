@@ -30,7 +30,7 @@
       <name>NixOS 20.09 (minimal installation CD)</name>
     </variant>
     <variant id="gnome">
-      <name>NixOS Unstable (GNOME installation CD)</name>
+      <name>NixOS 20.09 (GNOME installation CD)</name>
     </variant>
     <variant id="plasma5">
       <name>NixOS 20.09 (Plasma 5 installation CD)</name>
