@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-29 19:23+0100\n"
+"POT-Creation-Date: 2022-12-05 19:42+0100\n"
 "PO-Revision-Date: 2022-11-30 06:19+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -3390,6 +3390,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-21.05.xml.in:8
 #: data/os/nixos.org/nixos-21.11.xml.in:8
 #: data/os/nixos.org/nixos-22.05.xml.in:8
+#: data/os/nixos.org/nixos-22.11.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3413,12 +3414,10 @@ msgid "NixOS 20.09 (minimal installation CD)"
 msgstr "NixOS 20.09 (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
-#: data/os/nixos.org/nixos-21.05.xml.in:33
-#: data/os/nixos.org/nixos-21.11.xml.in:33
-#: data/os/nixos.org/nixos-22.05.xml.in:33
-#: data/os/nixos.org/nixos-unstable.xml.in:30
-msgid "NixOS Unstable (GNOME installation CD)"
-msgstr "NixOS non stabile (CD di installazione di GNOME)"
+#, fuzzy
+#| msgid "NixOS 20.09 (minimal installation CD)"
+msgid "NixOS 20.09 (GNOME installation CD)"
+msgstr "NixOS 20.09 (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
@@ -3430,6 +3429,12 @@ msgstr "NixOS 21.05"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:30
 msgid "NixOS 21.05 (minimal installation CD)"
+msgstr "NixOS 21.05 (CD di installazione minimale)"
+
+#: data/os/nixos.org/nixos-21.05.xml.in:33
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 21.05 (GNOME installation CD)"
 msgstr "NixOS 21.05 (CD di installazione minimale)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:36
@@ -3444,6 +3449,12 @@ msgstr "NixOS 21.11"
 msgid "NixOS 21.11 (minimal installation CD)"
 msgstr "NixOS 21.11 (CD di installazione minimale)"
 
+#: data/os/nixos.org/nixos-21.11.xml.in:33
+#, fuzzy
+#| msgid "NixOS 21.11 (minimal installation CD)"
+msgid "NixOS 21.11 (GNOME installation CD)"
+msgstr "NixOS 21.11 (CD di installazione minimale)"
+
 #: data/os/nixos.org/nixos-21.11.xml.in:36
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgstr "NixOS 21.11 (CD di installazione di Plasma 5)"
@@ -3456,9 +3467,39 @@ msgstr "NixOS 22.05"
 msgid "NixOS 22.05 (minimal installation CD)"
 msgstr "NixOS 22.05 (CD di installazione minimale)"
 
+#: data/os/nixos.org/nixos-22.05.xml.in:33
+#, fuzzy
+#| msgid "NixOS 22.05 (minimal installation CD)"
+msgid "NixOS 22.05 (GNOME installation CD)"
+msgstr "NixOS 22.05 (CD di installazione minimale)"
+
 #: data/os/nixos.org/nixos-22.05.xml.in:36
 msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr "NixOS 22.05 (CD di installazione di Plasma 5)"
+
+#: data/os/nixos.org/nixos-22.11.xml.in:6
+#, fuzzy
+#| msgid "NixOS 21.11"
+msgid "NixOS 22.11"
+msgstr "NixOS 21.11"
+
+#: data/os/nixos.org/nixos-22.11.xml.in:30
+#, fuzzy
+#| msgid "NixOS 21.11 (minimal installation CD)"
+msgid "NixOS 22.11 (minimal installation CD)"
+msgstr "NixOS 21.11 (CD di installazione minimale)"
+
+#: data/os/nixos.org/nixos-22.11.xml.in:33
+#, fuzzy
+#| msgid "NixOS Unstable (GNOME installation CD)"
+msgid "NixOS 22.11 (GNOME installation CD)"
+msgstr "NixOS non stabile (CD di installazione di GNOME)"
+
+#: data/os/nixos.org/nixos-22.11.xml.in:36
+#, fuzzy
+#| msgid "NixOS 21.11 (Plasma 5 installation CD)"
+msgid "NixOS 22.11 (Plasma 5 installation CD)"
+msgstr "NixOS 21.11 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3467,6 +3508,10 @@ msgstr "NixOS non stabile"
 #: data/os/nixos.org/nixos-unstable.xml.in:27
 msgid "NixOS Unstable (minimal installation CD)"
 msgstr "NixOS non stabile (CD di installazione minimale)"
+
+#: data/os/nixos.org/nixos-unstable.xml.in:30
+msgid "NixOS Unstable (GNOME installation CD)"
+msgstr "NixOS non stabile (CD di installazione di GNOME)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
 msgid "NixOS Unstable (Plasma 5 installation CD)"
@@ -4054,8 +4099,10 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
 #: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
+#: data/os/redhat.com/rhel-8.8.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
+#: data/os/redhat.com/rhel-9.2.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4371,6 +4418,12 @@ msgstr "Red Hat Enterprise Linux 8.6"
 msgid "Red Hat Enterprise Linux 8.7"
 msgstr "Red Hat Enterprise Linux 8.7"
 
+#: data/os/redhat.com/rhel-8.8.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 8.0"
+msgid "Red Hat Enterprise Linux 8.8"
+msgstr "Red Hat Enterprise Linux 8.0"
+
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
 msgstr "Red Hat Enterprise Linux 9 (sconosciuto)"
@@ -4382,6 +4435,12 @@ msgstr "Red Hat Enterprise Linux 9.0"
 #: data/os/redhat.com/rhel-9.1.xml.in:6
 msgid "Red Hat Enterprise Linux 9.1"
 msgstr "Red Hat Enterprise Linux 9.1"
+
+#: data/os/redhat.com/rhel-9.2.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 9.0"
+msgid "Red Hat Enterprise Linux 9.2"
+msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
