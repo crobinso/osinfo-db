@@ -120,10 +120,11 @@ def _check_url(session: requests.Session, url, url_type):
         except ValueError:
             pass
     logging.info(
-        "response: %s; code: %d; content-type: %s",
+        "response: %s; code: %d; content-type: %s; url: %s",
         http.client.responses[response.status_code],
         response.status_code,
         content_type,
+        response.url,
     )
     if not response.ok:
         return False
