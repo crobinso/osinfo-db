@@ -105,12 +105,12 @@ def _transform_docker_url(url):
     return url
 
 
-def _check_url(url, url_type):
+def _check_url(session: requests.Session, url, url_type):
     logging.info("url: %s, type: %s", url, url_type)
     headers = {"user-agent": "Wget/1.0"}
     if url_type == UrlType.URL_DISK_CONTAINERDISK:
         url = _transform_docker_url(url)
-    response = requests.head(url, allow_redirects=True, headers=headers, timeout=30)
+    response = session.head(url, allow_redirects=True, headers=headers, timeout=30)
     content_type = response.headers.get("content-type")
     if content_type:
         try:
@@ -175,16 +175,18 @@ def _collect_os_urls():
     "testdata", _collect_os_urls(), ids=lambda testdata: testdata[0]
 )
 def test_urls(testdata):
-    urls = testdata[1]
-    broken = []
-    for (url, url_type) in urls:
+    with requests.Session() as session:
         # As some distro URLs are flaky, let's give it a try 3 times
         # before actually failing.
-        for i in range(3):
-            ok = _check_url(url, url_type)
-            if ok:
-                break
+        adapter = requests.adapters.HTTPAdapter(max_retries=3)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
 
-        if not ok:
-            broken.append(url)
-    assert broken == []
+        urls = testdata[1]
+        broken = []
+        for (url, url_type) in urls:
+            ok = _check_url(session, url, url_type)
+
+            if not ok:
+                broken.append(url)
+        assert broken == []
