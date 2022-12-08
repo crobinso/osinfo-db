@@ -64,6 +64,8 @@ vmdk_content_types = {}
 treeinfo_content_types = {
     # generic data
     "application/octet-stream",
+    # on some Fedora mirrors
+    "text/plain",
 }
 
 
