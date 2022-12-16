@@ -227,11 +227,6 @@
       <url>https://cdimage.debian.org/cdimage/cloud/buster/latest/debian-10-generic-arm64.qcow2</url>
     </image>
 
-    <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <variant id="generic"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/buster/latest/debian-10-generic-ppc64el.qcow2</url>
-    </image>
-
     <image arch="x86_64" format="qcow2">
       <variant id="nocloud"/>
       <url>https://cdimage.debian.org/cdimage/cloud/buster/latest/debian-10-nocloud-amd64.qcow2</url>
