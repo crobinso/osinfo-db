@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-21 15:34+0100\n"
-"PO-Revision-Date: 2022-12-05 15:19+0000\n"
+"PO-Revision-Date: 2022-12-23 19:30+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2358,10 +2358,8 @@ msgid "FreeBSD 12.3"
 msgstr "FreeBSD 12.3"
 
 #: data/os/freebsd.org/freebsd-12.4.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.4"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.4"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
 msgid "FreeBSD 13.0"
@@ -3424,10 +3422,8 @@ msgid "NixOS 20.09 (minimal installation CD)"
 msgstr "NixOS 20.09 (minimal installation CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:33
-#, fuzzy
-#| msgid "NixOS 20.09 (minimal installation CD)"
 msgid "NixOS 20.09 (GNOME installation CD)"
-msgstr "NixOS 20.09 (minimal installation CD)"
+msgstr "NixOS 20.09 (GNOME Installations-CD)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:36
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
@@ -3442,10 +3438,8 @@ msgid "NixOS 21.05 (minimal installation CD)"
 msgstr "NixOS 21.05 (minimal installation CD)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 21.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (minimal installation CD)"
+msgstr "NixOS 21.05 (GNOME Installations-CD)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:36
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
@@ -3460,10 +3454,8 @@ msgid "NixOS 21.11 (minimal installation CD)"
 msgstr "NixOS 21.11 (minimal installation CD)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 21.11 (GNOME installation CD)"
-msgstr "NixOS 21.11 (minimal installation CD)"
+msgstr "NixOS 21.11 (GNOME Installations-CD)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:36
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
@@ -3478,38 +3470,28 @@ msgid "NixOS 22.05 (minimal installation CD)"
 msgstr "NixOS 22.05 (minimal installation CD)"
 
 #: data/os/nixos.org/nixos-22.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 22.05 (minimal installation CD)"
 msgid "NixOS 22.05 (GNOME installation CD)"
-msgstr "NixOS 22.05 (minimal installation CD)"
+msgstr "NixOS 22.05 (GNOME Installations-CD)"
 
 #: data/os/nixos.org/nixos-22.05.xml.in:36
 msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr "NixOS 22.05 (Plasma 5 installation CD)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.11"
 msgid "NixOS 22.11"
-msgstr "NixOS 21.11"
+msgstr "NixOS 22.11"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 22.11 (minimal installation CD)"
-msgstr "NixOS 21.11 (minimal installation CD)"
+msgstr "NixOS 22.11 (Minimalinstallations-CD)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (GNOME installation CD)"
 msgid "NixOS 22.11 (GNOME installation CD)"
-msgstr "NixOS Unstable (GNOME installation CD)"
+msgstr "NixOS 22.11 (GNOME Installations-CD)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgid "NixOS 22.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.11 (Plasma 5 installation CD)"
+msgstr "NixOS 22.11 (Plasma 5 Installations-CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4429,10 +4411,8 @@ msgid "Red Hat Enterprise Linux 8.7"
 msgstr "Red Hat Enterprise Linux 8.7"
 
 #: data/os/redhat.com/rhel-8.8.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.8"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.8"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
@@ -4447,10 +4427,8 @@ msgid "Red Hat Enterprise Linux 9.1"
 msgstr "Red Hat Enterprise Linux 9.1"
 
 #: data/os/redhat.com/rhel-9.2.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.2"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.2"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
