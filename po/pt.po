@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-05 19:42+0100\n"
+"POT-Creation-Date: 2022-12-21 15:34+0100\n"
 "PO-Revision-Date: 2020-05-22 06:27+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -2275,20 +2275,20 @@ msgstr "Fedora 30 Everything"
 msgid "Fedora 35"
 msgstr "Fedora 30"
 
-#: data/os/fedoraproject.org/fedora-35.xml.in:17
+#: data/os/fedoraproject.org/fedora-35.xml.in:18
 #, fuzzy
 #| msgid "Fedora 25 Workstation"
 msgid "Fedora 35 Workstation"
 msgstr "Fedora 25 Workstation"
 
-#: data/os/fedoraproject.org/fedora-35.xml.in:20
-#: data/os/fedoraproject.org/fedora-35.xml.in:23
+#: data/os/fedoraproject.org/fedora-35.xml.in:21
+#: data/os/fedoraproject.org/fedora-35.xml.in:24
 #, fuzzy
 #| msgid "Fedora 25 Server"
 msgid "Fedora 35 Server"
 msgstr "Fedora 25 Server"
 
-#: data/os/fedoraproject.org/fedora-35.xml.in:26
+#: data/os/fedoraproject.org/fedora-35.xml.in:27
 #, fuzzy
 #| msgid "Fedora 30 Everything"
 msgid "Fedora 35 Everything"
@@ -2475,6 +2475,7 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.1.xml.in:8
 #: data/os/freebsd.org/freebsd-12.2.xml.in:8
 #: data/os/freebsd.org/freebsd-12.3.xml.in:8
+#: data/os/freebsd.org/freebsd-12.4.xml.in:8
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-13.1.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
@@ -2584,6 +2585,12 @@ msgstr "FreeBSD 10.2"
 #, fuzzy
 #| msgid "FreeBSD 10.2"
 msgid "FreeBSD 12.3"
+msgstr "FreeBSD 10.2"
+
+#: data/os/freebsd.org/freebsd-12.4.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 10.2"
+msgid "FreeBSD 12.4"
 msgstr "FreeBSD 10.2"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
