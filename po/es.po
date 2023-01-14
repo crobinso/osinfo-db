@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 15:34+0100\n"
+"POT-Creation-Date: 2022-12-23 20:45+0100\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -1884,6 +1884,23 @@ msgstr ""
 #: data/os/endlessos.com/eos-4.0.xml.in:6
 msgid "Endless OS 4.0"
 msgstr ""
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:5
+#, fuzzy
+msgid "EuroLinux 8"
+msgstr "Mandrake Linux 8.0"
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:7
+#: data/os/euro-linux.com/eurolinux-9.xml.in:7
+#, fuzzy
+msgid "EuroLinux"
+msgstr "ALTLinux"
+
+#: data/os/euro-linux.com/eurolinux-9.xml.in:5
+#, fuzzy
+#| msgid "Mandrake Linux 9.0"
+msgid "EuroLinux 9"
+msgstr "Mandrake Linux 9.0"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6

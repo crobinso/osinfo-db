@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 15:34+0100\n"
+"POT-Creation-Date: 2022-12-23 20:45+0100\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -1739,6 +1739,19 @@ msgstr ""
 
 #: data/os/endlessos.com/eos-4.0.xml.in:6
 msgid "Endless OS 4.0"
+msgstr ""
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:5
+msgid "EuroLinux 8"
+msgstr ""
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:7
+#: data/os/euro-linux.com/eurolinux-9.xml.in:7
+msgid "EuroLinux"
+msgstr ""
+
+#: data/os/euro-linux.com/eurolinux-9.xml.in:5
+msgid "EuroLinux 9"
 msgstr ""
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6

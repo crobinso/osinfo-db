@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-21 15:34+0100\n"
+"POT-Creation-Date: 2022-12-23 20:45+0100\n"
 "PO-Revision-Date: 2022-12-21 16:42+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -1741,6 +1741,25 @@ msgstr "Endless OS 3.9"
 #: data/os/endlessos.com/eos-4.0.xml.in:6
 msgid "Endless OS 4.0"
 msgstr "Endless OS 4.0"
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:5
+#, fuzzy
+#| msgid "Rocky Linux 8"
+msgid "EuroLinux 8"
+msgstr "Rocky Linux 8"
+
+#: data/os/euro-linux.com/eurolinux-8.xml.in:7
+#: data/os/euro-linux.com/eurolinux-9.xml.in:7
+#, fuzzy
+#| msgid "Arch Linux"
+msgid "EuroLinux"
+msgstr "Arch Linux"
+
+#: data/os/euro-linux.com/eurolinux-9.xml.in:5
+#, fuzzy
+#| msgid "Rocky Linux 9"
+msgid "EuroLinux 9"
+msgstr "Rocky Linux 9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
