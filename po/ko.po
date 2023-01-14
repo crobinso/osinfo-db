@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-23 20:45+0100\n"
-"PO-Revision-Date: 2022-12-22 10:19+0000\n"
+"PO-Revision-Date: 2022-12-24 11:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -1744,23 +1744,17 @@ msgid "Endless OS 4.0"
 msgstr "엔들리스 OS 4.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 8"
 msgid "EuroLinux 8"
-msgstr "록키 리눅스 8"
+msgstr "유로리눅스 8"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:7
 #: data/os/euro-linux.com/eurolinux-9.xml.in:7
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "EuroLinux"
-msgstr "아치리눅스"
+msgstr "유로리눅스"
 
 #: data/os/euro-linux.com/eurolinux-9.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "EuroLinux 9"
-msgstr "록키 리눅스 9"
+msgstr "유로리눅스 9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
