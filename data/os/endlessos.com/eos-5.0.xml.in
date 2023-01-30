@@ -1,0 +1,114 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://endlessos.com/eos/5.0">
+    <short-id>eos5.0</short-id>
+    <name>Endless OS 5.0</name>
+    <version>5.0</version>
+    <vendor>Endless OS Foundation LLC</vendor>
+    <family>linux</family>
+    <distro>eos</distro>
+
+    <upgrades id="http://endlessos.com/eos/4.0"/>
+    <derives-from id="http://endlessos.com/eos/4.0"/>
+
+
+    <release-date>2023-01-28</release-date>
+
+
+
+
+    <variant id="base">
+      <name>Endless OS Basic</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="base"/>
+      <url>https://images-dl.endlessm.com/release/5.0.0/eos-amd64-amd64/base/eos-eos5.0-amd64-amd64.230127-211122.base.iso</url>
+      <iso>
+        <volume-id>Endless-OS-5-0-\d+-base$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="en">
+      <name>Endless OS English</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="en"/>
+      <url>https://images-dl.endlessm.com/release/5.0.0/eos-amd64-amd64/en/eos-eos5.0-amd64-amd64.230127-212436.en.iso</url>
+      <iso>
+        <volume-id>Endless-OS-5-0-\d+-en$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="es">
+      <name>Endless OS Spanish</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="es"/>
+      <url>https://images-dl.endlessm.com/release/5.0.0/eos-amd64-amd64/es/eos-eos5.0-amd64-amd64.230127-212646.es.iso</url>
+      <iso>
+        <volume-id>Endless-OS-5-0-\d+-es$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="fr">
+      <name>Endless OS French</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="fr"/>
+      <url>https://images-dl.endlessm.com/release/5.0.0/eos-amd64-amd64/fr/eos-eos5.0-amd64-amd64.230127-213415.fr.iso</url>
+      <iso>
+        <volume-id>Endless-OS-5-0-\d+-fr$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="pt_BR">
+      <name>Endless OS Portuguese (Brazil)</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="pt_BR"/>
+      <url>https://images-dl.endlessm.com/release/5.0.0/eos-amd64-amd64/pt_BR/eos-eos5.0-amd64-amd64.230127-220328.pt_BR.iso</url>
+      <iso>
+        <volume-id>Endless-OS-5-0-\d+-pt_BR$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+
+    <variant id="other">
+      <name>Endless OS (other)</name>
+    </variant>
+
+    <media arch="all" live="true">
+      <variant id="other"/>
+      <iso>
+        <volume-id>\D+-5-0-\d+</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
