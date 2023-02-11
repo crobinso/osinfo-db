@@ -4,7 +4,7 @@
 #
 # Translators:
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023.
 # Philipp Hahn <pmhahn+fedora@pmhahn.de>, 2022.
 # Flo H <emailtoflorian@gmail.com>, 2022.
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-23 20:45+0100\n"
-"PO-Revision-Date: 2022-12-23 19:30+0000\n"
+"PO-Revision-Date: 2023-02-11 22:20+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -1746,23 +1746,17 @@ msgid "Endless OS 4.0"
 msgstr "Endless OS 4.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 8"
 msgid "EuroLinux 8"
-msgstr "Rocky Linux 8"
+msgstr "EuroLinux 8"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:7
 #: data/os/euro-linux.com/eurolinux-9.xml.in:7
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "EuroLinux"
-msgstr "Arch Linux"
+msgstr "EuroLinux"
 
 #: data/os/euro-linux.com/eurolinux-9.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "EuroLinux 9"
-msgstr "Rocky Linux 9"
+msgstr "EuroLinux 9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
