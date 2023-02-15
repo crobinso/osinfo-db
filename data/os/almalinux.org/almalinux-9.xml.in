@@ -1,5 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://almalinux.org/almalinux/9">
     <short-id>almalinux9</short-id>
     <name>AlmaLinux 9</name>
@@ -10,39 +12,193 @@
     <clones id="http://redhat.com/rhel/9.0"/>
     <release-date>2022-05-26</release-date>
 
+    <variant id="netinst">
+      <name>AlmaLinux 9</name>
+    </variant>
+
+    <variant id="minimal">
+      <name>AlmaLinux 9</name>
+    </variant>
+
+    <variant id="dvd">
+      <name>AlmaLinux 9</name>
+    </variant>
+
+    <variant id="gnome">
+      <name>AlmaLinux 9 GNOME</name>
+    </variant>
+
+    <variant id="gnome-mini">
+      <name>AlmaLinux 9 GNOME Mini</name>
+    </variant>
+
+    <variant id="kde">
+      <name>AlmaLinux 9 KDE</name>
+    </variant>
+
+    <variant id="xfce">
+      <name>AlmaLinux 9 XFCE</name>
+    </variant>
 
     <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso</url>
       <iso>
-        <volume-id>AlmaLinux-9.*-x86_64.*</volume-id>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
     </media>
 
     <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/aarch64/AlmaLinux-9-latest-aarch64-boot.iso</url>
       <iso>
-        <volume-id>AlmaLinux-9.*-aarch64.*</volume-id>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
       </iso>
-      <kernel>images/pxeboot/vmlinuz</kernel>
-      <initrd>images/pxeboot/initrd.img</initrd>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
     </media>
 
     <media arch="ppc64le">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/ppc64le/AlmaLinux-9-latest-ppc64le-boot.iso</url>
       <iso>
-        <volume-id>AlmaLinux-9.*-ppc64le.*</volume-id>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
       </iso>
-      <kernel>ppc/ppc64/vmlinuz</kernel>
-      <initrd>ppc/ppc64/initrd.img</initrd>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
     </media>
 
     <media arch="s390x">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/s390x/AlmaLinux-9-latest-s390x-boot.iso</url>
       <iso>
-        <volume-id>AlmaLinux-9.*-s390x.*</volume-id>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
       </iso>
-      <kernel>images/kernel.img</kernel>
-      <initrd>images/initrd.img</initrd>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
     </media>
 
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/aarch64/AlmaLinux-9-latest-aarch64-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/ppc64le/AlmaLinux-9-latest-ppc64le-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
+      </iso>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
+    </media>
+
+    <media arch="s390x">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/s390x/AlmaLinux-9-latest-s390x-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
+      </iso>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/aarch64/AlmaLinux-9-latest-aarch64-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/ppc64le/AlmaLinux-9-latest-ppc64le-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
+      </iso>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
+    </media>
+
+    <media arch="s390x">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/9/isos/s390x/AlmaLinux-9-latest-s390x-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
+      </iso>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="gnome"/>
+      <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-GNOME.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-Live-GNOME</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="gnome-mini"/>
+      <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-GNOME-Mini.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-Live-Mini</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="kde"/>
+      <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-KDE.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-Live-KDE</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="xfce"/>
+      <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-XFCE.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9-([0-9]|[1-9][0-9])-x86_64-Live-XFCE</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
 
     <tree arch="x86_64">
       <url>https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/</url>
@@ -80,7 +236,6 @@
       </treeinfo>
     </tree>
 
-
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <url>https://repo.almalinux.org/almalinux/9/cloud/x86_64/images/AlmaLinux-9-GenericCloud-latest.x86_64.qcow2</url>
     </image>
@@ -96,7 +251,6 @@
     <image arch="s390x" format="qcow2" cloud-init="true">
       <url>https://repo.almalinux.org/almalinux/9/cloud/s390x/images/AlmaLinux-9-GenericCloud-latest.s390x.qcow2</url>
     </image>
-
 
     <resources arch="x86_64">
       <minimum>
@@ -192,9 +346,7 @@
       </recommended>
     </resources>
 
-
     <cloud-image-username>almalinux</cloud-image-username>
-
 
     <installer>
       <script id="http://redhat.com/rhel/kickstart/jeos"/>
