@@ -47,6 +47,8 @@
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
     </devices>
 
+    <firmware arch="x86_64" type="efi"/>
+
 
     <variant id="base">
       <name>Endless OS Basic</name>
