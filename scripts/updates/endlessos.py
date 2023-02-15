@@ -223,8 +223,12 @@ def main():
         except KeyError:
             eol_date = None
         else:
-            # Date of first release in next series
-            eol_date = guess_release_date(next_series_images[0])
+            if current_series == "4.0":
+                # Endless OS 4 is still supported, in parallel to Endless OS 5
+                eol_date = None
+            else:
+                # Date of first release in next series
+                eol_date = guess_release_date(next_series_images[0])
 
         retired_personalities = (
             all_personalities_for_branch(images_by_branch[branch])
