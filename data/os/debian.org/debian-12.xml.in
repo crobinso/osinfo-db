@@ -1,0 +1,170 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://debian.org/debian/12">
+    <short-id>debian11</short-id>
+    <short-id>debianbookworm</short-id>
+    <name>Debian 12</name>
+    <version>12</version>
+    <vendor>Debian Project</vendor>
+    <family>linux</family>
+    <distro>debian</distro>
+    <codename>bookworm</codename>
+    <upgrades id="http://debian.org/debian/11"/>
+    <derives-from id="http://debian.org/debian/11"/>
+
+    <release-status>prerelease</release-status>
+
+    <variant id="universal">
+      <name>Debian 12</name>
+    </variant>
+    <variant id="universal-netinst">
+      <name>Debian 12</name>
+    </variant>
+    <variant id="generic">
+      <name>Debian 12 (Generic)</name>
+    </variant>
+    <variant id="genericcloud">
+      <name>Debian 12 (Generic Cloud)</name>
+    </variant>
+    <variant id="nocloud">
+      <name>Debian 12 (No Cloud)</name>
+    </variant>
+
+
+    <!-- Network installer -->
+    <media arch="x86_64">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ amd64 n</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ i386 n</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="aarch64">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ arm64 n</volume-id>
+      </iso>
+      <kernel>install.a64/vmlinuz</kernel>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ armhf n</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ p64el n</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal-netinst"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ s390x n</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ amd64 \d+</volume-id>
+      </iso>
+      <kernel>install.amd/vmlinuz</kernel>
+      <initrd>install.amd/initrd.gz</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ i386 \d+</volume-id>
+      </iso>
+      <kernel>install.386/vmlinuz</kernel>
+      <initrd>install.386/initrd.gz</initrd>
+    </media>
+    <media arch="aarch64">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ arm64 \d+</volume-id>
+      </iso>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ armhf \d+</volume-id>
+      </iso>
+      <kernel>install.armhf/vmlinuz</kernel>
+      <initrd>install.armhf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ p64el \d+</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal"/>
+      <iso>
+        <volume-id>Debian 12.\d+.\d+ s390x \d+</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-amd64</url>
+      <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+    <tree arch="i686">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-i386</url>
+      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
+    </tree>
+    <tree arch="aarch64">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-arm64</url>
+      <kernel>current/images/netboot/debian-installer/arm64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/arm64/initrd.gz</initrd>
+    </tree>
+    <tree arch="armv7l">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-armhf</url>
+      <kernel>current/images/netboot/vmlinuz</kernel>
+      <initrd>current/images/netboot/initrd.gz</initrd>
+    </tree>
+    <tree arch="s390x">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-s390x</url>
+      <kernel>current/images/generic/kernel.debian</kernel>
+      <initrd>current/images/generic/initrd.debian</initrd>
+    </tree>
+    <tree arch="ppc64le">
+      <url>http://deb.debian.org/debian/dists/bookworm/main/installer-ppc64el</url>
+      <kernel>current/images/netboot/debian-installer/ppc64el/vmlinux</kernel>
+      <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
+    </tree>
+
+    <installer>
+      <script id='http://debian.org/debian/preseed/jeos'/>
+      <script id='http://debian.org/debian/preseed/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
