@@ -10,6 +10,7 @@
     <derives-from id="http://haiku-os.org/haiku/r1beta2"/>
 
     <release-date>2021-07-25</release-date>
+    <eol-date>2022-12-23</eol-date>
 
     <media arch="i686" live="true">
       <iso>
