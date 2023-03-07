@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-23 20:45+0100\n"
+"POT-Creation-Date: 2023-03-06 11:50+0100\n"
 "PO-Revision-Date: 2021-08-19 07:04+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/"
@@ -215,17 +215,59 @@ msgstr ""
 msgid "xen-vtpm"
 msgstr ""
 
-#: data/os/almalinux.org/almalinux-8.xml.in:5
+#: data/os/almalinux.org/almalinux-8.xml.in:7
+#: data/os/almalinux.org/almalinux-8.xml.in:16
+#: data/os/almalinux.org/almalinux-8.xml.in:20
+#: data/os/almalinux.org/almalinux-8.xml.in:24
 msgid "AlmaLinux 8"
 msgstr ""
 
-#: data/os/almalinux.org/almalinux-8.xml.in:7
-#: data/os/almalinux.org/almalinux-9.xml.in:7
+#: data/os/almalinux.org/almalinux-8.xml.in:9
+#: data/os/almalinux.org/almalinux-9.xml.in:9
 msgid "AlmaLinux OS Foundation"
 msgstr ""
 
-#: data/os/almalinux.org/almalinux-9.xml.in:5
+#: data/os/almalinux.org/almalinux-8.xml.in:28
+msgid "AlmaLinux 8 GNOME"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-8.xml.in:32
+msgid "AlmaLinux 8 GNOME Mini"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-8.xml.in:36
+msgid "AlmaLinux 8 KDE"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-8.xml.in:40
+msgid "AlmaLinux 8 XFCE"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-8.xml.in:44
+msgid "AlmaLinux 8 MATE"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-9.xml.in:7
+#: data/os/almalinux.org/almalinux-9.xml.in:16
+#: data/os/almalinux.org/almalinux-9.xml.in:20
+#: data/os/almalinux.org/almalinux-9.xml.in:24
 msgid "AlmaLinux 9"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-9.xml.in:28
+msgid "AlmaLinux 9 GNOME"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-9.xml.in:32
+msgid "AlmaLinux 9 GNOME Mini"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-9.xml.in:36
+msgid "AlmaLinux 9 KDE"
+msgstr ""
+
+#: data/os/almalinux.org/almalinux-9.xml.in:40
+msgid "AlmaLinux 9 XFCE"
 msgstr ""
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
@@ -1556,6 +1598,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
 #: data/os/endlessos.com/eos-4.0.xml.in:22
+#: data/os/endlessos.com/eos-5.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr ""
 
@@ -1573,6 +1616,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
 #: data/os/endlessos.com/eos-4.0.xml.in:35
+#: data/os/endlessos.com/eos-5.0.xml.in:35
 msgid "Endless OS English"
 msgstr ""
 
@@ -1586,6 +1630,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
 #: data/os/endlessos.com/eos-4.0.xml.in:48
+#: data/os/endlessos.com/eos-5.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr ""
 
@@ -1614,6 +1659,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
 #: data/os/endlessos.com/eos-4.0.xml.in:61
+#: data/os/endlessos.com/eos-5.0.xml.in:61
 msgid "Endless OS French"
 msgstr ""
 
@@ -1638,6 +1684,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
 #: data/os/endlessos.com/eos-4.0.xml.in:74
+#: data/os/endlessos.com/eos-5.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr ""
 
@@ -1685,6 +1732,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
 #: data/os/endlessos.com/eos-4.0.xml.in:88
+#: data/os/endlessos.com/eos-5.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr ""
 
@@ -1729,6 +1777,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
 #: data/os/endlessos.com/eos-4.0.xml.in:8
+#: data/os/endlessos.com/eos-5.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr ""
 
@@ -1738,6 +1787,10 @@ msgstr ""
 
 #: data/os/endlessos.com/eos-4.0.xml.in:6
 msgid "Endless OS 4.0"
+msgstr ""
+
+#: data/os/endlessos.com/eos-5.0.xml.in:6
+msgid "Endless OS 5.0"
 msgstr ""
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5

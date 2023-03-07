@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-23 20:45+0100\n"
+"POT-Creation-Date: 2023-03-06 11:50+0100\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -220,23 +220,83 @@ msgstr "xen-vscsi"
 msgid "xen-vtpm"
 msgstr "xen-vtpm"
 
-#: data/os/almalinux.org/almalinux-8.xml.in:5
+#: data/os/almalinux.org/almalinux-8.xml.in:7
+#: data/os/almalinux.org/almalinux-8.xml.in:16
+#: data/os/almalinux.org/almalinux-8.xml.in:20
+#: data/os/almalinux.org/almalinux-8.xml.in:24
 #, fuzzy
 #| msgid "Alpine Linux 3.8"
 msgid "AlmaLinux 8"
 msgstr "Alpine Linux 3.8"
 
-#: data/os/almalinux.org/almalinux-8.xml.in:7
-#: data/os/almalinux.org/almalinux-9.xml.in:7
+#: data/os/almalinux.org/almalinux-8.xml.in:9
+#: data/os/almalinux.org/almalinux-9.xml.in:9
 #, fuzzy
 #| msgid "Endless OS Foundation LLC"
 msgid "AlmaLinux OS Foundation"
 msgstr "Endless OS Foundation LLC"
 
-#: data/os/almalinux.org/almalinux-9.xml.in:5
+#: data/os/almalinux.org/almalinux-8.xml.in:28
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8 GNOME"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-8.xml.in:32
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8 GNOME Mini"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-8.xml.in:36
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8 KDE"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-8.xml.in:40
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8 XFCE"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-8.xml.in:44
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 8 MATE"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:7
+#: data/os/almalinux.org/almalinux-9.xml.in:16
+#: data/os/almalinux.org/almalinux-9.xml.in:20
+#: data/os/almalinux.org/almalinux-9.xml.in:24
 #, fuzzy
 #| msgid "Alpine Linux 3.8"
 msgid "AlmaLinux 9"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:28
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 9 GNOME"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:32
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 9 GNOME Mini"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:36
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 9 KDE"
+msgstr "Alpine Linux 3.8"
+
+#: data/os/almalinux.org/almalinux-9.xml.in:40
+#, fuzzy
+#| msgid "Alpine Linux 3.8"
+msgid "AlmaLinux 9 XFCE"
 msgstr "Alpine Linux 3.8"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
@@ -1727,6 +1787,7 @@ msgstr "Endless OS Arabe"
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
 #: data/os/endlessos.com/eos-4.0.xml.in:22
+#: data/os/endlessos.com/eos-5.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr "Endless OS Basique"
 
@@ -1744,6 +1805,7 @@ msgstr "Endless OS Bengali"
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
 #: data/os/endlessos.com/eos-4.0.xml.in:35
+#: data/os/endlessos.com/eos-5.0.xml.in:35
 msgid "Endless OS English"
 msgstr "Endless OS Anglais"
 
@@ -1757,6 +1819,7 @@ msgstr "Endless OS Anglais"
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
 #: data/os/endlessos.com/eos-4.0.xml.in:48
+#: data/os/endlessos.com/eos-5.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr "Endless OS Espagnol"
 
@@ -1785,6 +1848,7 @@ msgstr "Endless OS Espagnol (Mexique)"
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
 #: data/os/endlessos.com/eos-4.0.xml.in:61
+#: data/os/endlessos.com/eos-5.0.xml.in:61
 msgid "Endless OS French"
 msgstr "Endless OS Français"
 
@@ -1809,6 +1873,7 @@ msgstr "Endless OS Indonésien"
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
 #: data/os/endlessos.com/eos-4.0.xml.in:74
+#: data/os/endlessos.com/eos-5.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS Portugais (Brésil)"
 
@@ -1856,6 +1921,7 @@ msgstr "Endless OS Asie du Sud-Est"
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
 #: data/os/endlessos.com/eos-4.0.xml.in:88
+#: data/os/endlessos.com/eos-5.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr "Endless OS (autres)"
 
@@ -1900,6 +1966,7 @@ msgstr "Endless OS 3.8"
 #: data/os/endlessos.com/eos-3.8.xml.in:8
 #: data/os/endlessos.com/eos-3.9.xml.in:8
 #: data/os/endlessos.com/eos-4.0.xml.in:8
+#: data/os/endlessos.com/eos-5.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr "Endless OS Foundation LLC"
 
@@ -1911,6 +1978,12 @@ msgstr "Endless OS 3.9"
 #, fuzzy
 #| msgid "Endless OS 3.10"
 msgid "Endless OS 4.0"
+msgstr "Endless OS 3.10"
+
+#: data/os/endlessos.com/eos-5.0.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 3.10"
+msgid "Endless OS 5.0"
 msgstr "Endless OS 3.10"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
