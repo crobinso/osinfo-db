@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2020, 2021, 2022, 2023.
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-06 11:50+0100\n"
-"PO-Revision-Date: 2022-12-24 11:19+0000\n"
+"PO-Revision-Date: 2023-03-07 03:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -20,9 +20,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -234,34 +234,24 @@ msgid "AlmaLinux OS Foundation"
 msgstr "AlmaLinux OS Foundation"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME Mini"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 KDE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 KDE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 XFCE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 XFCE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:44
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 MATE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 MATE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
 #: data/os/almalinux.org/almalinux-9.xml.in:16
@@ -271,28 +261,20 @@ msgid "AlmaLinux 9"
 msgstr "AlmaLinux 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME Mini"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 KDE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 KDE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 XFCE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 XFCE"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -1814,10 +1796,8 @@ msgid "Endless OS 4.0"
 msgstr "Endless OS 4.0"
 
 #: data/os/endlessos.com/eos-5.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 4.0"
 msgid "Endless OS 5.0"
-msgstr "Endless OS 4.0"
+msgstr "Endless OS 5.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
