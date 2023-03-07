@@ -4,14 +4,14 @@
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2022, 2023.
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-06 11:50+0100\n"
-"PO-Revision-Date: 2023-02-09 22:20+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"PO-Revision-Date: 2023-03-07 12:42+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
 "Language: ko\n"
@@ -231,34 +231,24 @@ msgid "AlmaLinux OS Foundation"
 msgstr "AlmaLinux OS Foundation"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME"
-msgstr "알마리눅스 8"
+msgstr "알마리눅스 8 그놈"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME Mini"
-msgstr "알마리눅스 8"
+msgstr "알마리눅스 8 그놈 미니"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 KDE"
-msgstr "알마리눅스 8"
+msgstr "알마리눅스 8 KDE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 XFCE"
-msgstr "알마리눅스 8"
+msgstr "알마리눅스 8 XFCE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:44
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 MATE"
-msgstr "알마리눅스 8"
+msgstr "알마리눅스 8 메이트"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
 #: data/os/almalinux.org/almalinux-9.xml.in:16
@@ -268,28 +258,20 @@ msgid "AlmaLinux 9"
 msgstr "알마리눅스 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME"
-msgstr "알마리눅스 9"
+msgstr "알마리눅스 9 그놈"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME Mini"
-msgstr "알마리눅스 9"
+msgstr "알마리눅스 9 그놈 미니"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 KDE"
-msgstr "알마리눅스 9"
+msgstr "알마리눅스 9 KDE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 XFCE"
-msgstr "알마리눅스 9"
+msgstr "알마리눅스 9 XFCE"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -1811,10 +1793,8 @@ msgid "Endless OS 4.0"
 msgstr "엔들리스 OS 4.0"
 
 #: data/os/endlessos.com/eos-5.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 4.0"
 msgid "Endless OS 5.0"
-msgstr "엔들리스 OS 4.0"
+msgstr "엔들리스 OS 5.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
