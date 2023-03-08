@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 14:11+0100\n"
-"PO-Revision-Date: 2023-03-07 12:42+0000\n"
+"PO-Revision-Date: 2023-03-08 00:21+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -1176,28 +1176,20 @@ msgstr "데비안 11 (클라우드 아님)"
 
 #: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
 #: data/os/debian.org/debian-12.xml.in:22
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 12"
-msgstr "데비안 10"
+msgstr "데비안 12"
 
 #: data/os/debian.org/debian-12.xml.in:25
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 12 (Generic)"
-msgstr "데비안 10 (일반)"
+msgstr "데비안 12 (일반)"
 
 #: data/os/debian.org/debian-12.xml.in:28
-#, fuzzy
-#| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 12 (Generic Cloud)"
-msgstr "데비안 10 (일반 클라우드)"
+msgstr "데비안 12 (일반 클라우드)"
 
 #: data/os/debian.org/debian-12.xml.in:31
-#, fuzzy
-#| msgid "Debian 10 (No Cloud)"
 msgid "Debian 12 (No Cloud)"
-msgstr "데비안 10 (클라우드 아님)"
+msgstr "데비안 12 (클라우드 아님)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -2770,10 +2762,8 @@ msgid "Haiku R1/Beta3"
 msgstr "하이쿠 R1/베타3"
 
 #: data/os/haiku-os.org/haiku-r1beta4.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta4"
-msgstr "하이쿠 R1/베타1"
+msgstr "하이쿠 R1/베타4"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
 msgid "Hyperbola"
@@ -3791,17 +3781,13 @@ msgstr "오픈BSD 7.0"
 
 #: data/os/openbsd.org/openbsd-7.1.xml.in:6
 #: data/os/openbsd.org/openbsd-7.1.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.1"
-msgstr "오픈BSD 7.0"
+msgstr "오픈BSD 7.1"
 
 #: data/os/openbsd.org/openbsd-7.2.xml.in:6
 #: data/os/openbsd.org/openbsd-7.2.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.2"
-msgstr "오픈BSD 7.0"
+msgstr "오픈BSD 7.2"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
