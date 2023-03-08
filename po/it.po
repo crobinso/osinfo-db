@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 14:11+0100\n"
-"PO-Revision-Date: 2023-03-06 16:20+0000\n"
+"PO-Revision-Date: 2023-03-07 16:03+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -1175,28 +1175,20 @@ msgstr "Debian 11 (No Cloud)"
 
 #: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
 #: data/os/debian.org/debian-12.xml.in:22
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 12"
-msgstr "Debian 10"
+msgstr "Debian 12"
 
 #: data/os/debian.org/debian-12.xml.in:25
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 12 (Generic)"
-msgstr "Debian 10 (Generic)"
+msgstr "Debian 12 (Generic)"
 
 #: data/os/debian.org/debian-12.xml.in:28
-#, fuzzy
-#| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 12 (Generic Cloud)"
-msgstr "Debian 10 (Generic Cloud)"
+msgstr "Debian 12 (Generic Cloud)"
 
 #: data/os/debian.org/debian-12.xml.in:31
-#, fuzzy
-#| msgid "Debian 10 (No Cloud)"
 msgid "Debian 12 (No Cloud)"
-msgstr "Debian 10 (No Cloud)"
+msgstr "Debian 12 (No Cloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -2769,10 +2761,8 @@ msgid "Haiku R1/Beta3"
 msgstr "Haiku R1/Beta3"
 
 #: data/os/haiku-os.org/haiku-r1beta4.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta4"
-msgstr "Haiku R1/Beta1"
+msgstr "Haiku R1/Beta4"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
 msgid "Hyperbola"
@@ -3791,17 +3781,13 @@ msgstr "OpenBSD 7.0"
 
 #: data/os/openbsd.org/openbsd-7.1.xml.in:6
 #: data/os/openbsd.org/openbsd-7.1.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.1"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.1"
 
 #: data/os/openbsd.org/openbsd-7.2.xml.in:6
 #: data/os/openbsd.org/openbsd-7.2.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.2"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.2"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
