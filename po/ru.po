@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-06 11:50+0100\n"
+"POT-Creation-Date: 2023-03-07 14:11+0100\n"
 "PO-Revision-Date: 2020-09-05 02:29+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -1114,7 +1114,8 @@ msgstr ""
 #: data/os/debian.org/debian-1.1.xml.in:9
 #: data/os/debian.org/debian-1.2.xml.in:9
 #: data/os/debian.org/debian-1.3.xml.in:9 data/os/debian.org/debian-10.xml.in:9
-#: data/os/debian.org/debian-11.xml.in:9 data/os/debian.org/debian-2.0.xml.in:9
+#: data/os/debian.org/debian-11.xml.in:9 data/os/debian.org/debian-12.xml.in:9
+#: data/os/debian.org/debian-2.0.xml.in:9
 #: data/os/debian.org/debian-2.1.xml.in:9
 #: data/os/debian.org/debian-2.2.xml.in:9
 #: data/os/debian.org/debian-3.1.xml.in:9 data/os/debian.org/debian-3.xml.in:10
@@ -1169,6 +1170,23 @@ msgstr ""
 
 #: data/os/debian.org/debian-11.xml.in:50
 msgid "Debian 11 (No Cloud)"
+msgstr ""
+
+#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
+#: data/os/debian.org/debian-12.xml.in:22
+msgid "Debian 12"
+msgstr ""
+
+#: data/os/debian.org/debian-12.xml.in:25
+msgid "Debian 12 (Generic)"
+msgstr ""
+
+#: data/os/debian.org/debian-12.xml.in:28
+msgid "Debian 12 (Generic Cloud)"
+msgstr ""
+
+#: data/os/debian.org/debian-12.xml.in:31
+msgid "Debian 12 (No Cloud)"
 msgstr ""
 
 #: data/os/debian.org/debian-2.0.xml.in:7
@@ -2709,6 +2727,7 @@ msgstr ""
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta2.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta4.xml.in:6
 msgid "Haiku, Inc."
 msgstr ""
 
@@ -2738,6 +2757,10 @@ msgstr ""
 
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
 msgid "Haiku R1/Beta3"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta4.xml.in:4
+msgid "Haiku R1/Beta4"
 msgstr ""
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
@@ -3619,6 +3642,8 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-6.8.xml.in:10
 #: data/os/openbsd.org/openbsd-6.9.xml.in:10
 #: data/os/openbsd.org/openbsd-7.0.xml.in:10
+#: data/os/openbsd.org/openbsd-7.1.xml.in:10
+#: data/os/openbsd.org/openbsd-7.2.xml.in:10
 msgid "OpenBSD Project"
 msgstr ""
 
@@ -3750,6 +3775,16 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-7.0.xml.in:6
 #: data/os/openbsd.org/openbsd-7.0.xml.in:18
 msgid "OpenBSD 7.0"
+msgstr ""
+
+#: data/os/openbsd.org/openbsd-7.1.xml.in:6
+#: data/os/openbsd.org/openbsd-7.1.xml.in:18
+msgid "OpenBSD 7.1"
+msgstr ""
+
+#: data/os/openbsd.org/openbsd-7.2.xml.in:6
+#: data/os/openbsd.org/openbsd-7.2.xml.in:18
+msgid "OpenBSD 7.2"
 msgstr ""
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6

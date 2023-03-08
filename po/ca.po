@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-06 11:50+0100\n"
+"POT-Creation-Date: 2023-03-07 14:11+0100\n"
 "PO-Revision-Date: 2020-01-09 20:15+0000\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <https://translate.stg.fedoraproject.org/projects/"
@@ -1292,7 +1292,8 @@ msgstr "Debian GNU/Linux 1.1"
 #: data/os/debian.org/debian-1.1.xml.in:9
 #: data/os/debian.org/debian-1.2.xml.in:9
 #: data/os/debian.org/debian-1.3.xml.in:9 data/os/debian.org/debian-10.xml.in:9
-#: data/os/debian.org/debian-11.xml.in:9 data/os/debian.org/debian-2.0.xml.in:9
+#: data/os/debian.org/debian-11.xml.in:9 data/os/debian.org/debian-12.xml.in:9
+#: data/os/debian.org/debian-2.0.xml.in:9
 #: data/os/debian.org/debian-2.1.xml.in:9
 #: data/os/debian.org/debian-2.2.xml.in:9
 #: data/os/debian.org/debian-3.1.xml.in:9 data/os/debian.org/debian-3.xml.in:10
@@ -1361,6 +1362,31 @@ msgstr "Debian 10"
 #, fuzzy
 #| msgid "Debian Woody"
 msgid "Debian 11 (No Cloud)"
+msgstr "Debian Woody"
+
+#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
+#: data/os/debian.org/debian-12.xml.in:22
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 12"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-12.xml.in:25
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 12 (Generic)"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-12.xml.in:28
+#, fuzzy
+#| msgid "Debian 10"
+msgid "Debian 12 (Generic Cloud)"
+msgstr "Debian 10"
+
+#: data/os/debian.org/debian-12.xml.in:31
+#, fuzzy
+#| msgid "Debian Woody"
+msgid "Debian 12 (No Cloud)"
 msgstr "Debian Woody"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
@@ -3014,6 +3040,7 @@ msgstr ""
 #: data/os/haiku-os.org/haiku-r1beta1.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta2.xml.in:6
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:6
+#: data/os/haiku-os.org/haiku-r1beta4.xml.in:6
 #, fuzzy
 msgid "Haiku, Inc."
 msgstr "Red Hat, Inc."
@@ -3044,6 +3071,10 @@ msgstr ""
 
 #: data/os/haiku-os.org/haiku-r1beta3.xml.in:4
 msgid "Haiku R1/Beta3"
+msgstr ""
+
+#: data/os/haiku-os.org/haiku-r1beta4.xml.in:4
+msgid "Haiku R1/Beta4"
 msgstr ""
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
@@ -3955,6 +3986,8 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-6.8.xml.in:10
 #: data/os/openbsd.org/openbsd-6.9.xml.in:10
 #: data/os/openbsd.org/openbsd-7.0.xml.in:10
+#: data/os/openbsd.org/openbsd-7.1.xml.in:10
+#: data/os/openbsd.org/openbsd-7.2.xml.in:10
 msgid "OpenBSD Project"
 msgstr "Projecte OpenBSD"
 
@@ -4097,6 +4130,20 @@ msgstr "OpenBSD 6.0"
 #, fuzzy
 #| msgid "OpenBSD 5.0"
 msgid "OpenBSD 7.0"
+msgstr "OpenBSD 5.0"
+
+#: data/os/openbsd.org/openbsd-7.1.xml.in:6
+#: data/os/openbsd.org/openbsd-7.1.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 5.0"
+msgid "OpenBSD 7.1"
+msgstr "OpenBSD 5.0"
+
+#: data/os/openbsd.org/openbsd-7.2.xml.in:6
+#: data/os/openbsd.org/openbsd-7.2.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 5.0"
+msgid "OpenBSD 7.2"
 msgstr "OpenBSD 5.0"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
