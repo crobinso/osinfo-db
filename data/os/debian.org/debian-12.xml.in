@@ -2,7 +2,7 @@
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://debian.org/debian/12">
-    <short-id>debian11</short-id>
+    <short-id>debian12</short-id>
     <short-id>debianbookworm</short-id>
     <name>Debian 12</name>
     <version>12</version>
