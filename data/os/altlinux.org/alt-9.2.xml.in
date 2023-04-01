@@ -21,6 +21,9 @@
     <variant id="kworkstation">
       <name>ALT Workstation K 9.2</name>
     </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 9.2</name>
+    </variant>
     <variant id="education">
       <name>ALT Education 9.2</name>
     </variant>
@@ -72,6 +75,32 @@
       </iso>
       <kernel>syslinux/alt0/vmlinuz</kernel>
       <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p9/images/kworkstation/alt-kworkstation-9.2-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT 9\.2(\.\d+)* Workstation K x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
+    </media>
+
+    <!-- Workstation K Live -->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p9/kworkstation/alt-kworkstation-9.2-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT 9\.2(\.\d+)* Workstation K Live x86_6</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <!-- Server -->
