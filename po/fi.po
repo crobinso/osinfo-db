@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 14:11+0100\n"
-"PO-Revision-Date: 2023-01-14 02:20+0000\n"
+"PO-Revision-Date: 2023-03-29 01:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -229,34 +229,24 @@ msgid "AlmaLinux OS Foundation"
 msgstr ""
 
 #: data/os/almalinux.org/almalinux-8.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME Mini"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 KDE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 KDE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 XFCE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 XFCE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:44
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 MATE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 MATE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
 #: data/os/almalinux.org/almalinux-9.xml.in:16
@@ -266,28 +256,20 @@ msgid "AlmaLinux 9"
 msgstr "AlmaLinux 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME Mini"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 KDE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 KDE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 XFCE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 XFCE"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -554,11 +536,11 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-10.0.xml.in:34
 msgid "ALT Simply 10.0"
-msgstr ""
+msgstr "ALT Simply 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:37
 msgid "ALT Simply live 10.0"
-msgstr ""
+msgstr "ALT Simply live 10.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -597,7 +579,7 @@ msgstr "ALT 8.2 palvelin"
 #: data/os/altlinux.org/alt-8.2.xml.in:31
 #: data/os/altlinux.org/alt-8.2.xml.in:34
 msgid "ALT 8.2 Simply"
-msgstr ""
+msgstr "ALT 8.2 Simply"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:6
 msgid "ALT 9.0"
@@ -625,11 +607,11 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.0.xml.in:36
 msgid "ALT Simply 9.0"
-msgstr ""
+msgstr "ALT Simply 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:39
 msgid "ALT Simply live 9.0"
-msgstr ""
+msgstr "ALT Simply live 9.0"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
 msgid "ALT 9.1"
@@ -657,11 +639,11 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.1.xml.in:34
 msgid "ALT Simply 9.1"
-msgstr ""
+msgstr "ALT Simply 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply live 9.1"
-msgstr ""
+msgstr "ALT Simply live 9.1"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:6
 msgid "ALT 9.2"
@@ -689,11 +671,11 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-9.2.xml.in:34
 msgid "ALT Simply 9.2"
-msgstr ""
+msgstr "ALT Simply 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:37
 msgid "ALT Simply live 9.2"
-msgstr ""
+msgstr "ALT Simply live 9.2"
 
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
 msgid "ALT p10 StarterKits"
@@ -838,7 +820,7 @@ msgstr ""
 #: data/os/asianux.com/asianux-8.0.xml.in:8
 #: data/os/asianux.com/asianux-unknown.xml.in:8
 msgid "Asianux Project"
-msgstr ""
+msgstr "Asianux projekti"
 
 #: data/os/asianux.com/asianux-4.7.xml.in:6
 msgid "Asianux Server 4 SP7"
@@ -889,7 +871,7 @@ msgstr "Circle Linux 8.4"
 #: data/os/cclinux.org/circle-8.4.xml.in:21
 #: data/os/cclinux.org/circle-8.4.xml.in:25
 msgid "Circle 8.4"
-msgstr ""
+msgstr "Circle 8.4"
 
 #: data/os/cclinux.org/circle-8.5.xml.in:6
 msgid "Circle Linux 8.5"
@@ -899,7 +881,7 @@ msgstr "Circle Linux 8.5"
 #: data/os/cclinux.org/circle-8.5.xml.in:24
 #: data/os/cclinux.org/circle-8.5.xml.in:28
 msgid "Circle 8.5"
-msgstr ""
+msgstr "Circle 8.5"
 
 #: data/os/cclinux.org/circle-9-unknown.xml.in:6
 msgid "Circle Linux 9 Unknown"
@@ -964,11 +946,11 @@ msgstr "CentOS 5.2"
 
 #: data/os/centos.org/centos-5.3.xml.in:6
 msgid "CentOS 5.3"
-msgstr ""
+msgstr "CentOS 5.3"
 
 #: data/os/centos.org/centos-5.4.xml.in:6
 msgid "CentOS 5.4"
-msgstr ""
+msgstr "CentOS 5.4"
 
 #: data/os/centos.org/centos-5.5.xml.in:6
 msgid "CentOS 5.5"
@@ -976,63 +958,63 @@ msgstr ""
 
 #: data/os/centos.org/centos-5.6.xml.in:6
 msgid "CentOS 5.6"
-msgstr ""
+msgstr "CentOS 5.6"
 
 #: data/os/centos.org/centos-5.7.xml.in:6
 msgid "CentOS 5.7"
-msgstr ""
+msgstr "CentOS 5.7"
 
 #: data/os/centos.org/centos-5.8.xml.in:6
 msgid "CentOS 5.8"
-msgstr ""
+msgstr "CentOS 5.8"
 
 #: data/os/centos.org/centos-5.9.xml.in:6
 msgid "CentOS 5.9"
-msgstr ""
+msgstr "CentOS 5.9"
 
 #: data/os/centos.org/centos-6.0.xml.in:6
 msgid "CentOS 6.0"
-msgstr ""
+msgstr "CentOS 6.0"
 
 #: data/os/centos.org/centos-6.1.xml.in:6
 msgid "CentOS 6.1"
-msgstr ""
+msgstr "CentOS 6.1"
 
 #: data/os/centos.org/centos-6.10.xml.in:6
 msgid "CentOS 6.10"
-msgstr ""
+msgstr "CentOS 6.10"
 
 #: data/os/centos.org/centos-6.2.xml.in:6
 msgid "CentOS 6.2"
-msgstr ""
+msgstr "CentOS 6.2"
 
 #: data/os/centos.org/centos-6.3.xml.in:6
 msgid "CentOS 6.3"
-msgstr ""
+msgstr "CentOS 6.3"
 
 #: data/os/centos.org/centos-6.4.xml.in:6
 msgid "CentOS 6.4"
-msgstr ""
+msgstr "CentOS 6.4"
 
 #: data/os/centos.org/centos-6.5.xml.in:6
 msgid "CentOS 6.5"
-msgstr ""
+msgstr "CentOS 6.5"
 
 #: data/os/centos.org/centos-6.6.xml.in:6
 msgid "CentOS 6.6"
-msgstr ""
+msgstr "CentOS 6.6"
 
 #: data/os/centos.org/centos-6.7.xml.in:6
 msgid "CentOS 6.7"
-msgstr ""
+msgstr "CentOS 6.7"
 
 #: data/os/centos.org/centos-6.8.xml.in:6
 msgid "CentOS 6.8"
-msgstr ""
+msgstr "CentOS 6.8"
 
 #: data/os/centos.org/centos-6.9.xml.in:6
 msgid "CentOS 6.9"
-msgstr ""
+msgstr "CentOS 6.9"
 
 #: data/os/centos.org/centos-7.0.xml.in:7
 #: data/os/centos.org/centos-7.0.xml.in:19
@@ -1040,33 +1022,33 @@ msgstr ""
 #: data/os/centos.org/centos-7.0.xml.in:31
 #: data/os/centos.org/centos-7.0.xml.in:34
 msgid "CentOS 7"
-msgstr ""
+msgstr "CentOS 7"
 
 #: data/os/centos.org/centos-7.0.xml.in:22
 msgid "CentOS 7 (GNOME)"
-msgstr ""
+msgstr "CentOS 7 (GNOME)"
 
 #: data/os/centos.org/centos-7.0.xml.in:25
 msgid "CentOS 7 (KDE)"
-msgstr ""
+msgstr "CentOS 7 (KDE)"
 
 #: data/os/centos.org/centos-8.xml.in:6 data/os/centos.org/centos-8.xml.in:18
 msgid "CentOS 8"
-msgstr ""
+msgstr "CentOS 8"
 
 #: data/os/centos.org/centos-stream-8.xml.in:6
 #: data/os/centos.org/centos-stream-8.xml.in:44
 msgid "CentOS Stream 8"
-msgstr ""
+msgstr "CentOS Stream 8"
 
 #: data/os/centos.org/centos-stream-9.xml.in:6
 #: data/os/centos.org/centos-stream-9.xml.in:42
 msgid "CentOS Stream 9"
-msgstr ""
+msgstr "CentOS Stream 9"
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:6
 msgid "CirrOS 0.3.0"
-msgstr ""
+msgstr "CirrOS 0.3.0"
 
 #: data/os/cirros-cloud.net/cirros-0.3.0.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:8
@@ -1079,47 +1061,47 @@ msgstr ""
 #: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:8
 #: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:8
 msgid "CirrOS"
-msgstr ""
+msgstr "CirrOS"
 
 #: data/os/cirros-cloud.net/cirros-0.3.1.xml.in:6
 msgid "CirrOS 0.3.1"
-msgstr ""
+msgstr "CirrOS 0.3.1"
 
 #: data/os/cirros-cloud.net/cirros-0.3.2.xml.in:6
 msgid "CirrOS 0.3.2"
-msgstr ""
+msgstr "CirrOS 0.3.2"
 
 #: data/os/cirros-cloud.net/cirros-0.3.3.xml.in:6
 msgid "CirrOS 0.3.3"
-msgstr ""
+msgstr "CirrOS 0.3.3"
 
 #: data/os/cirros-cloud.net/cirros-0.3.4.xml.in:6
 msgid "CirrOS 0.3.4"
-msgstr ""
+msgstr "CirrOS 0.3.4"
 
 #: data/os/cirros-cloud.net/cirros-0.3.5.xml.in:6
 msgid "CirrOS 0.3.5"
-msgstr ""
+msgstr "CirrOS 0.3.5"
 
 #: data/os/cirros-cloud.net/cirros-0.4.0.xml.in:6
 msgid "CirrOS 0.4.0"
-msgstr ""
+msgstr "CirrOS 0.4.0"
 
 #: data/os/cirros-cloud.net/cirros-0.5.0.xml.in:6
 msgid "CirrOS 0.5.0"
-msgstr ""
+msgstr "CirrOS 0.5.0"
 
 #: data/os/cirros-cloud.net/cirros-0.5.1.xml.in:6
 msgid "CirrOS 0.5.1"
-msgstr ""
+msgstr "CirrOS 0.5.1"
 
 #: data/os/cirros-cloud.net/cirros-0.5.2.xml.in:6
 msgid "CirrOS 0.5.2"
-msgstr ""
+msgstr "CirrOS 0.5.2"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:6
 msgid "Clear Linux OS"
-msgstr ""
+msgstr "Clear Linux OS"
 
 #: data/os/clearlinux.org/clearlinux-rolling.xml.in:7
 msgid "Intel Corporation"
@@ -2405,7 +2387,7 @@ msgstr ""
 #: data/os/freebsd.org/freebsd-9.2.xml.in:8
 #: data/os/freebsd.org/freebsd-9.3.xml.in:8
 msgid "FreeBSD Project"
-msgstr ""
+msgstr "FreeBSD projekti"
 
 #: data/os/freebsd.org/freebsd-10.0.xml.in:6
 msgid "FreeBSD 10.0"
@@ -5427,7 +5409,7 @@ msgstr ""
 
 #: data/os/univention.de/ucs-4.0.xml.in:33
 msgid "UCS 4.0"
-msgstr ""
+msgstr "UCS 4.0"
 
 #: data/os/univention.de/ucs-4.1.xml.in:6
 msgid "Univention Corporate Server 4.1"
