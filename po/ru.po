@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
-# Alexey Shabalin <a.shabalin@gmail.com>, 2020.
+# Alexey Shabalin <a.shabalin@gmail.com>, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-07 14:11+0100\n"
-"PO-Revision-Date: 2020-09-05 02:29+0000\n"
+"PO-Revision-Date: 2023-04-01 09:20+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ru/>\n"
@@ -15,9 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: data/os/altlinux.org/alt-10.0.xml.in:6
 msgid "ALT 10.0"
-msgstr ""
+msgstr "Альт 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
@@ -512,190 +512,190 @@ msgstr ""
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
 msgid "BaseALT"
-msgstr ""
+msgstr "Базальт"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:19
 msgid "ALT Workstation 10.0"
-msgstr ""
+msgstr "Альт Рабочая cтанция 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:22
 msgid "ALT Workstation K 10.0"
-msgstr ""
+msgstr "Альт Рабочая станция К 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
 msgid "ALT Education 10.0"
-msgstr ""
+msgstr "Альт Образование 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
 msgid "ALT Server 10.0"
-msgstr ""
+msgstr "Альт Сервер 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:31
 msgid "ALT Virtualization Server 10.0"
-msgstr ""
+msgstr "Альт Сервер виртуализации 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:34
 msgid "ALT Simply 10.0"
-msgstr ""
+msgstr "Альт Симпли 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:37
 msgid "ALT Simply live 10.0"
-msgstr ""
+msgstr "Альт Симпли живая система 10.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
-msgstr ""
+msgstr "Альт Образование 8"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:6
 msgid "ALT 8.1"
-msgstr ""
+msgstr "Альт 8.1"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:19
 msgid "ALT 8.1 Workstation"
-msgstr ""
+msgstr "Альт Рабочая cтанция 8.1"
 
 #: data/os/altlinux.org/alt-8.1.xml.in:22
 #: data/os/altlinux.org/alt-8.1.xml.in:25
 msgid "ALT 8.1 Workstation K"
-msgstr ""
+msgstr "Альт Рабочая станция К 8.1"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:6
 msgid "ALT 8.2"
-msgstr ""
+msgstr "Альт 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:19
 msgid "ALT 8.2 Workstation"
-msgstr ""
+msgstr "Альт Рабочая cтанция 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:22
 #: data/os/altlinux.org/alt-8.2.xml.in:25
 msgid "ALT 8.2 Workstation K"
-msgstr ""
+msgstr "Альт Рабочая станция К 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:28
 msgid "ALT 8.2 Server"
-msgstr ""
+msgstr "Альт Сервер 8.2"
 
 #: data/os/altlinux.org/alt-8.2.xml.in:31
 #: data/os/altlinux.org/alt-8.2.xml.in:34
 msgid "ALT 8.2 Simply"
-msgstr ""
+msgstr "Альт Симпли 8.2"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:6
 msgid "ALT 9.0"
-msgstr ""
+msgstr "Альт 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:21
 msgid "ALT Workstation 9.0"
-msgstr ""
+msgstr "Альт Рабочая cтанция 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:24
 msgid "ALT Workstation K 9.0"
-msgstr ""
+msgstr "Альт Рабочая станция К 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
 msgid "ALT Education 9.0"
-msgstr ""
+msgstr "Альт Образование 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Server 9.0"
-msgstr ""
+msgstr "Альт Сервер 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:33
 msgid "ALT Virtualization Server 9.0"
-msgstr ""
+msgstr "Альт Сервер виртуализации 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:36
 msgid "ALT Simply 9.0"
-msgstr ""
+msgstr "Альт Симпли 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:39
 msgid "ALT Simply live 9.0"
-msgstr ""
+msgstr "Альт Симпли живая система 9.0"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:6
 msgid "ALT 9.1"
-msgstr ""
+msgstr "Альт 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:19
 msgid "ALT Workstation 9.1"
-msgstr ""
+msgstr "Альт Рабочая cтанция 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:22
 msgid "ALT Workstation K 9.1"
-msgstr ""
+msgstr "Альт Рабочая станция К 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
 msgid "ALT Education 9.1"
-msgstr ""
+msgstr "Альт Образование 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Server 9.1"
-msgstr ""
+msgstr "Альт Сервер 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:31
 msgid "ALT Virtualization Server 9.1"
-msgstr ""
+msgstr "Альт Сервер виртуализации 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:34
 msgid "ALT Simply 9.1"
-msgstr ""
+msgstr "Альт Симпли 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply live 9.1"
-msgstr ""
+msgstr "Альт Симпли живая система 9.1"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:6
 msgid "ALT 9.2"
-msgstr ""
+msgstr "Альт 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:19
 msgid "ALT Workstation 9.2"
-msgstr ""
+msgstr "Альт Рабочая cтанция 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:22
 msgid "ALT Workstation K 9.2"
-msgstr ""
+msgstr "Альт Рабочая станция К 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
 msgid "ALT Education 9.2"
-msgstr ""
+msgstr "Альт Образование 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Server 9.2"
-msgstr ""
+msgstr "Альт Сервер 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:31
 msgid "ALT Virtualization Server 9.2"
-msgstr ""
+msgstr "Альт Сервер виртуализации 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:34
 msgid "ALT Simply 9.2"
-msgstr ""
+msgstr "Альт Симпли 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:37
 msgid "ALT Simply live 9.2"
-msgstr ""
+msgstr "Альт Симпли живая система 9.2"
 
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
 msgid "ALT p10 StarterKits"
-msgstr ""
+msgstr "Альт Стартовый набор p10"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
-msgstr ""
+msgstr "Альт Стартовый набор p8"
 
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:6
 msgid "ALT p9 StarterKits"
-msgstr ""
+msgstr "Альт Стартовый набор p9"
 
 #: data/os/altlinux.org/alt-sisyphus.xml.in:6
 msgid "ALT regular"
-msgstr ""
+msgstr "Альт Регулярная сборка"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:6
 msgid "Mandrake RE Spring 2001"
-msgstr ""
+msgstr "Mandrake Русская редакция Весна 2001"
 
 #: data/os/altlinux.org/altlinux-1.0.xml.in:8
 #: data/os/altlinux.org/altlinux-2.0.xml.in:8
@@ -708,43 +708,43 @@ msgstr ""
 #: data/os/altlinux.org/altlinux-6.0.xml.in:8
 #: data/os/altlinux.org/altlinux-7.0.xml.in:8
 msgid "ALTLinux"
-msgstr ""
+msgstr "Альт Линукс"
 
 #: data/os/altlinux.org/altlinux-2.0.xml.in:6
 msgid "ALT Linux 2.0"
-msgstr ""
+msgstr "Альт Линукс 2.0"
 
 #: data/os/altlinux.org/altlinux-2.2.xml.in:6
 msgid "ALT Linux 2.2"
-msgstr ""
+msgstr "Альт Линукс 2.2"
 
 #: data/os/altlinux.org/altlinux-2.4.xml.in:6
 msgid "ALT Linux 2.4"
-msgstr ""
+msgstr "Альт Линукс 2.4"
 
 #: data/os/altlinux.org/altlinux-3.0.xml.in:6
 msgid "ALT Linux 3.0"
-msgstr ""
+msgstr "Альт Линукс 3.0"
 
 #: data/os/altlinux.org/altlinux-4.0.xml.in:6
 msgid "ALT Linux 4.0"
-msgstr ""
+msgstr "Альт Линукс 4.0"
 
 #: data/os/altlinux.org/altlinux-4.1.xml.in:6
 msgid "ALT Linux 4.1"
-msgstr ""
+msgstr "Альт Линукс 4.1"
 
 #: data/os/altlinux.org/altlinux-5.0.xml.in:6
 msgid "ALT Linux 5.0"
-msgstr ""
+msgstr "Альт Линукс 5.0"
 
 #: data/os/altlinux.org/altlinux-6.0.xml.in:6
 msgid "ALT Linux 6.0"
-msgstr ""
+msgstr "Альт Линукс 6.0"
 
 #: data/os/altlinux.org/altlinux-7.0.xml.in:6
 msgid "ALT Linux 7.0"
-msgstr ""
+msgstr "Альт Линукс 7.0"
 
 #: data/os/android-x86.org/android-x86-8.1.xml.in:6
 msgid "Android-x86 8.1"
