@@ -23,6 +23,9 @@
     <variant id="kworkstation">
       <name>ALT Workstation K 9.0</name>
     </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 9.0</name>
+    </variant>
     <variant id="education">
       <name>ALT Education 9.0</name>
     </variant>
@@ -83,6 +86,22 @@
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>ALT Workstation K</volume-id>
+        <volume-size>2270268</volume-size>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>9.0/X86_64</application-id>
+      </iso>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
+    </media>
+
+    <!-- Workstation K Live -->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p9/kworkstation/alt-kworkstation-9.0-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K</volume-id>
+        <volume-size>1583040</volume-size>
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>9.0/X86_64</application-id>
       </iso>
