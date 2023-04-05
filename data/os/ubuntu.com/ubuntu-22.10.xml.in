@@ -41,7 +41,7 @@
             - https://discourse.ubuntu.com/t/please-review-design-for-automated-server-installs
     -->
 
-    <media arch="x86_64" live="true" installer-script="false">
+    <media arch="x86_64" live="true" installer-script="true">
       <url>https://releases.ubuntu.com/22.10/ubuntu-22.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 22.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
