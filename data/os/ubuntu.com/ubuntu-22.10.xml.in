@@ -14,7 +14,7 @@
     <upgrades id="http://ubuntu.com/ubuntu/22.04"/>
     <derives-from id="http://ubuntu.com/ubuntu/22.04"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2022-10-20</release-date>
 
     <resources arch="all">
       <minimum>
