@@ -40,6 +40,9 @@
     <variant id="xfce">
       <name>Rocky Linux XFCE 9</name>
     </variant>
+    <variant id="cinnamon">
+      <name>Rocky Linux Cinnamon 9</name>
+    </variant>
     <!-- End Live Image Variants -->
 
     <!-- Latest Images -->
@@ -238,6 +241,16 @@
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="cinnamon"/>
+      <url>https://dl.rockylinux.org/pub/rocky/9/live/x86_64/Rocky-9-Cinnamon-x86_64-latest.iso</url>
+      <iso>
+        <volume-id>^Rocky-(Cinnamon-9[-]?([0-9]$|[1-9][0-9])?|9-([0-9]|[1-9][0-9])?-(Live-)?(Cinnamon)?$)</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
     <!-- End Live Image Media -->
 
     <!-- treeinfo -->
@@ -285,6 +298,14 @@
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <url>https://download.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-GenericCloud.latest.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://download.rockylinux.org/pub/rocky/9/images/ppc64le/Rocky-9-GenericCloud.latest.ppc64le.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://download.rockylinux.org/pub/rocky/9/images/s390x/Rocky-9-GenericCloud.latest.s390x.qcow2</url>
     </image>
 
     <cloud-image-username>rocky</cloud-image-username>
