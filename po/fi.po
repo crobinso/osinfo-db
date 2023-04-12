@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 14:11+0100\n"
+"POT-Creation-Date: 2023-04-11 07:16+0200\n"
 "PO-Revision-Date: 2023-03-29 01:20+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -503,7 +503,8 @@ msgstr "Alpinelinux 3.9 Xen"
 msgid "ALT 10.0"
 msgstr "ALT 10.0"
 
-#: data/os/altlinux.org/alt-10.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
+#: data/os/altlinux.org/alt-10.0.xml.in:8
+#: data/os/altlinux.org/alt-10.1.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
 #: data/os/altlinux.org/alt-9.0.xml.in:8 data/os/altlinux.org/alt-9.1.xml.in:8
 #: data/os/altlinux.org/alt-9.2.xml.in:8
@@ -523,23 +524,89 @@ msgid "ALT Workstation K 10.0"
 msgstr "ALT työasema K 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
+#, fuzzy
+#| msgid "ALT Workstation K 10.0"
+msgid "ALT Workstation K Live 10.0"
+msgstr "ALT työasema K 10.0"
+
+#: data/os/altlinux.org/alt-10.0.xml.in:28
 msgid "ALT Education 10.0"
 msgstr "ALT koulutus 10.0"
 
-#: data/os/altlinux.org/alt-10.0.xml.in:28
+#: data/os/altlinux.org/alt-10.0.xml.in:31
 msgid "ALT Server 10.0"
 msgstr "ALT Server 10.0"
 
-#: data/os/altlinux.org/alt-10.0.xml.in:31
+#: data/os/altlinux.org/alt-10.0.xml.in:34
 msgid "ALT Virtualization Server 10.0"
 msgstr ""
 
-#: data/os/altlinux.org/alt-10.0.xml.in:34
+#: data/os/altlinux.org/alt-10.0.xml.in:37
 msgid "ALT Simply 10.0"
 msgstr "ALT Simply 10.0"
 
-#: data/os/altlinux.org/alt-10.0.xml.in:37
+#: data/os/altlinux.org/alt-10.0.xml.in:40
 msgid "ALT Simply live 10.0"
+msgstr "ALT Simply live 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:6
+#, fuzzy
+#| msgid "ALT 10.0"
+msgid "ALT 10.1"
+msgstr "ALT 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation 10.0"
+msgid "ALT Workstation 10.1"
+msgstr "ALT työasema 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation K 10.0"
+msgid "ALT Workstation K 10.1"
+msgstr "ALT työasema K 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:25
+#, fuzzy
+#| msgid "ALT Workstation K 10.0"
+msgid "ALT Workstation K Live 10.1"
+msgstr "ALT työasema K 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:28
+#, fuzzy
+#| msgid "ALT Education 10.0"
+msgid "ALT Education 10.1"
+msgstr "ALT koulutus 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:31
+#, fuzzy
+#| msgid "ALT Education 10.0"
+msgid "ALT Education Live 10.1"
+msgstr "ALT koulutus 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:34
+#, fuzzy
+#| msgid "ALT Server 10.0"
+msgid "ALT Server 10.1"
+msgstr "ALT Server 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:37
+#, fuzzy
+#| msgid "ALT Server 10.0"
+msgid "ALT Virtualization Server 10.1"
+msgstr "ALT Server 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:40
+#, fuzzy
+#| msgid "ALT Simply 10.0"
+msgid "ALT Simply 10.1"
+msgstr "ALT Simply 10.0"
+
+#: data/os/altlinux.org/alt-10.1.xml.in:43
+#, fuzzy
+#| msgid "ALT Simply live 10.0"
+msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply live 10.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
@@ -594,22 +661,28 @@ msgid "ALT Workstation K 9.0"
 msgstr "ALT työasema K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
+#, fuzzy
+#| msgid "ALT Workstation K 9.0"
+msgid "ALT Workstation K Live 9.0"
+msgstr "ALT työasema K 9.0"
+
+#: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Education 9.0"
 msgstr "ALT koulutus 9.0"
 
-#: data/os/altlinux.org/alt-9.0.xml.in:30
+#: data/os/altlinux.org/alt-9.0.xml.in:33
 msgid "ALT Server 9.0"
 msgstr "ALT Server 9.0"
 
-#: data/os/altlinux.org/alt-9.0.xml.in:33
+#: data/os/altlinux.org/alt-9.0.xml.in:36
 msgid "ALT Virtualization Server 9.0"
 msgstr ""
 
-#: data/os/altlinux.org/alt-9.0.xml.in:36
+#: data/os/altlinux.org/alt-9.0.xml.in:39
 msgid "ALT Simply 9.0"
 msgstr "ALT Simply 9.0"
 
-#: data/os/altlinux.org/alt-9.0.xml.in:39
+#: data/os/altlinux.org/alt-9.0.xml.in:42
 msgid "ALT Simply live 9.0"
 msgstr "ALT Simply live 9.0"
 
@@ -626,22 +699,28 @@ msgid "ALT Workstation K 9.1"
 msgstr "ALT työasema K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
+#, fuzzy
+#| msgid "ALT Workstation K 9.1"
+msgid "ALT Workstation K Live 9.1"
+msgstr "ALT työasema K 9.1"
+
+#: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Education 9.1"
 msgstr "ALT koulutus 9.1"
 
-#: data/os/altlinux.org/alt-9.1.xml.in:28
+#: data/os/altlinux.org/alt-9.1.xml.in:31
 msgid "ALT Server 9.1"
 msgstr "ALT Server 9.1"
 
-#: data/os/altlinux.org/alt-9.1.xml.in:31
+#: data/os/altlinux.org/alt-9.1.xml.in:34
 msgid "ALT Virtualization Server 9.1"
 msgstr ""
 
-#: data/os/altlinux.org/alt-9.1.xml.in:34
+#: data/os/altlinux.org/alt-9.1.xml.in:37
 msgid "ALT Simply 9.1"
 msgstr "ALT Simply 9.1"
 
-#: data/os/altlinux.org/alt-9.1.xml.in:37
+#: data/os/altlinux.org/alt-9.1.xml.in:40
 msgid "ALT Simply live 9.1"
 msgstr "ALT Simply live 9.1"
 
@@ -658,22 +737,28 @@ msgid "ALT Workstation K 9.2"
 msgstr "ALT työasema K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
+#, fuzzy
+#| msgid "ALT Workstation K 9.2"
+msgid "ALT Workstation K Live 9.2"
+msgstr "ALT työasema K 9.2"
+
+#: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Education 9.2"
 msgstr "ALT koulutus 9.2"
 
-#: data/os/altlinux.org/alt-9.2.xml.in:28
+#: data/os/altlinux.org/alt-9.2.xml.in:31
 msgid "ALT Server 9.2"
 msgstr "ALT Server 9.2"
 
-#: data/os/altlinux.org/alt-9.2.xml.in:31
+#: data/os/altlinux.org/alt-9.2.xml.in:34
 msgid "ALT Virtualization Server 9.2"
 msgstr ""
 
-#: data/os/altlinux.org/alt-9.2.xml.in:34
+#: data/os/altlinux.org/alt-9.2.xml.in:37
 msgid "ALT Simply 9.2"
 msgstr "ALT Simply 9.2"
 
-#: data/os/altlinux.org/alt-9.2.xml.in:37
+#: data/os/altlinux.org/alt-9.2.xml.in:40
 msgid "ALT Simply live 9.2"
 msgstr "ALT Simply live 9.2"
 
@@ -1620,7 +1705,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:37
 #: data/os/endlessos.com/eos-3.4.xml.in:24
 #: data/os/endlessos.com/eos-3.5.xml.in:24
-#: data/os/endlessos.com/eos-3.6.xml.in:52
+#: data/os/endlessos.com/eos-3.6.xml.in:54
 #: data/os/endlessos.com/eos-3.7.xml.in:24
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
@@ -1638,7 +1723,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:63
 #: data/os/endlessos.com/eos-3.4.xml.in:37
 #: data/os/endlessos.com/eos-3.5.xml.in:37
-#: data/os/endlessos.com/eos-3.6.xml.in:65
+#: data/os/endlessos.com/eos-3.6.xml.in:67
 #: data/os/endlessos.com/eos-3.7.xml.in:37
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
@@ -1652,7 +1737,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:76
 #: data/os/endlessos.com/eos-3.4.xml.in:50
 #: data/os/endlessos.com/eos-3.5.xml.in:50
-#: data/os/endlessos.com/eos-3.6.xml.in:78
+#: data/os/endlessos.com/eos-3.6.xml.in:80
 #: data/os/endlessos.com/eos-3.7.xml.in:50
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
@@ -1681,7 +1766,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:115
 #: data/os/endlessos.com/eos-3.4.xml.in:63
 #: data/os/endlessos.com/eos-3.5.xml.in:63
-#: data/os/endlessos.com/eos-3.6.xml.in:91
+#: data/os/endlessos.com/eos-3.6.xml.in:93
 #: data/os/endlessos.com/eos-3.7.xml.in:63
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
@@ -1695,7 +1780,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:128
 #: data/os/endlessos.com/eos-3.4.xml.in:76
 #: data/os/endlessos.com/eos-3.5.xml.in:76
-#: data/os/endlessos.com/eos-3.6.xml.in:104
+#: data/os/endlessos.com/eos-3.6.xml.in:106
 #: data/os/endlessos.com/eos-3.7.xml.in:76
 #: data/os/endlessos.com/eos-3.8.xml.in:90
 msgid "Endless OS Indonesian"
@@ -1706,7 +1791,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:141
 #: data/os/endlessos.com/eos-3.4.xml.in:89
 #: data/os/endlessos.com/eos-3.5.xml.in:89
-#: data/os/endlessos.com/eos-3.6.xml.in:117
+#: data/os/endlessos.com/eos-3.6.xml.in:119
 #: data/os/endlessos.com/eos-3.7.xml.in:89
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
@@ -1720,7 +1805,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:154
 #: data/os/endlessos.com/eos-3.4.xml.in:102
 #: data/os/endlessos.com/eos-3.5.xml.in:102
-#: data/os/endlessos.com/eos-3.6.xml.in:130
+#: data/os/endlessos.com/eos-3.6.xml.in:132
 #: data/os/endlessos.com/eos-3.7.xml.in:102
 #: data/os/endlessos.com/eos-3.8.xml.in:102
 msgid "Endless OS Thai"
@@ -1731,7 +1816,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:167
 #: data/os/endlessos.com/eos-3.4.xml.in:115
 #: data/os/endlessos.com/eos-3.5.xml.in:115
-#: data/os/endlessos.com/eos-3.6.xml.in:143
+#: data/os/endlessos.com/eos-3.6.xml.in:145
 #: data/os/endlessos.com/eos-3.7.xml.in:115
 #: data/os/endlessos.com/eos-3.8.xml.in:114
 msgid "Endless OS Vietnamese"
@@ -1754,7 +1839,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.3.xml.in:194
 #: data/os/endlessos.com/eos-3.4.xml.in:189
 #: data/os/endlessos.com/eos-3.5.xml.in:129
-#: data/os/endlessos.com/eos-3.6.xml.in:157
+#: data/os/endlessos.com/eos-3.6.xml.in:159
 #: data/os/endlessos.com/eos-3.7.xml.in:141
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
@@ -5236,6 +5321,7 @@ msgstr ""
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5348,6 +5434,10 @@ msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
 msgid "Ubuntu 22.10"
+msgstr ""
+
+#: data/os/ubuntu.com/ubuntu-23.04.xml.in:8
+msgid "Ubuntu 23.04"
 msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
