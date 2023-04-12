@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-11 07:16+0200\n"
-"PO-Revision-Date: 2023-03-10 08:20+0000\n"
+"PO-Revision-Date: 2023-04-12 07:31+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -523,10 +523,8 @@ msgid "ALT Workstation K 10.0"
 msgstr "ALT Workstation K 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.0"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K Live 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
 msgid "ALT Education 10.0"
@@ -549,64 +547,44 @@ msgid "ALT Simply live 10.0"
 msgstr "ALT Simply live 10.0"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.1"
-msgstr "ALT 10.0"
+msgstr "ALT 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.1"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.1"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.1"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K Live 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.1"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:31
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education Live 10.1"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education Live 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.1"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.1"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.1"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply live 10.0"
 msgid "ALT Simply Live 10.1"
-msgstr "ALT Simply live 10.0"
+msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -660,10 +638,8 @@ msgid "ALT Workstation K 9.0"
 msgstr "ALT Workstation K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K Live 9.0"
-msgstr "ALT Workstation K 9.0"
+msgstr "ALT Workstation K Live 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Education 9.0"
@@ -698,10 +674,8 @@ msgid "ALT Workstation K 9.1"
 msgstr "ALT Workstation K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.1"
 msgid "ALT Workstation K Live 9.1"
-msgstr "ALT Workstation K 9.1"
+msgstr "ALT Workstation K Live 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Education 9.1"
@@ -736,10 +710,8 @@ msgid "ALT Workstation K 9.2"
 msgstr "ALT Workstation K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.2"
 msgid "ALT Workstation K Live 9.2"
-msgstr "ALT Workstation K 9.2"
+msgstr "ALT Workstation K Live 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Education 9.2"
@@ -5429,10 +5401,8 @@ msgid "Ubuntu 22.10"
 msgstr "Ubuntu 22.10"
 
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 13.04"
 msgid "Ubuntu 23.04"
-msgstr "Ubuntu 13.04"
+msgstr "Ubuntu 23.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
