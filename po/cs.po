@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-11 07:16+0200\n"
+"POT-Creation-Date: 2023-04-12 11:03+0200\n"
 "PO-Revision-Date: 2023-04-01 13:13+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/libosinfo/"
@@ -3666,6 +3666,14 @@ msgstr ""
 msgid "Novell Netware 6"
 msgstr ""
 
+#: data/os/omnios.org/bloody-rolling.xml.in:6
+msgid "OmniOSCE Bloody"
+msgstr ""
+
+#: data/os/omnios.org/bloody-rolling.xml.in:7
+msgid "omniosce"
+msgstr ""
+
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
 msgid "OpenBSD 4.2"
@@ -3841,6 +3849,14 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-7.2.xml.in:6
 #: data/os/openbsd.org/openbsd-7.2.xml.in:18
 msgid "OpenBSD 7.2"
+msgstr ""
+
+#: data/os/openindiana.org/hipster-rolling.xml.in:6
+msgid "OpenIndiana Hipster"
+msgstr ""
+
+#: data/os/openindiana.org/hipster-rolling.xml.in:7
+msgid "illumos"
 msgstr ""
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
@@ -4764,6 +4780,10 @@ msgstr ""
 msgid "Rocky Linux XFCE 9"
 msgstr ""
 
+#: data/os/rockylinux.org/rocky-9.xml.in:44
+msgid "Rocky Linux Cinnamon 9"
+msgstr ""
+
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
 msgstr ""
@@ -4937,6 +4957,14 @@ msgstr ""
 
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
+msgstr ""
+
+#: data/os/smartos.org/smartos-rolling.xml.in:6
+msgid "Triton SmartOS"
+msgstr ""
+
+#: data/os/smartos.org/smartos-rolling.xml.in:7
+msgid "TritonDataCenter"
 msgstr ""
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-11 07:16+0200\n"
+"POT-Creation-Date: 2023-04-12 11:03+0200\n"
 "PO-Revision-Date: 2023-04-11 15:52+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -3669,6 +3669,14 @@ msgstr "Novell Netware 5"
 msgid "Novell Netware 6"
 msgstr "Novell Netware 6"
 
+#: data/os/omnios.org/bloody-rolling.xml.in:6
+msgid "OmniOSCE Bloody"
+msgstr ""
+
+#: data/os/omnios.org/bloody-rolling.xml.in:7
+msgid "omniosce"
+msgstr ""
+
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
 msgid "OpenBSD 4.2"
@@ -3845,6 +3853,14 @@ msgstr "OpenBSD 7.1"
 #: data/os/openbsd.org/openbsd-7.2.xml.in:18
 msgid "OpenBSD 7.2"
 msgstr "OpenBSD 7.2"
+
+#: data/os/openindiana.org/hipster-rolling.xml.in:6
+msgid "OpenIndiana Hipster"
+msgstr ""
+
+#: data/os/openindiana.org/hipster-rolling.xml.in:7
+msgid "illumos"
+msgstr ""
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -4767,6 +4783,12 @@ msgstr "Rocky Linux KDE 9"
 msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux XFCE 9"
 
+#: data/os/rockylinux.org/rocky-9.xml.in:44
+#, fuzzy
+#| msgid "Rocky Linux Unknown"
+msgid "Rocky Linux Cinnamon 9"
+msgstr "Rocky Linux 7 (sconosciuto)"
+
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
 msgstr "Rocky Linux 7 (sconosciuto)"
@@ -4941,6 +4963,14 @@ msgstr "Progetto Slackware Linux"
 #: data/os/slackware.com/slackware-current.xml.in:6
 msgid "Slackware -current"
 msgstr "Slackware -current"
+
+#: data/os/smartos.org/smartos-rolling.xml.in:6
+msgid "Triton SmartOS"
+msgstr ""
+
+#: data/os/smartos.org/smartos-rolling.xml.in:7
+msgid "TritonDataCenter"
+msgstr ""
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
