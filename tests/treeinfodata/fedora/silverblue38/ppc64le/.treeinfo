@@ -1,0 +1,18 @@
+[general]
+timestamp = 1681421681.939953
+family = Fedora
+version = 38
+name = Fedora-38
+variant = Silverblue
+arch = ppc64le
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-ppc64le]
+kernel = ppc/ppc64/vmlinuz
+initrd = ppc/ppc64/initrd.img
+zimage = 
+boot.iso = images/boot.iso
+
