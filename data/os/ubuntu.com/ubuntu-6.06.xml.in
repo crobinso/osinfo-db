@@ -17,7 +17,7 @@
     <eol-date>2011-06-01</eol-date>
 
     <media arch="i686">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -26,7 +26,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -35,7 +35,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? ppc</volume-id>
         <system-id>LINUX</system-id>
@@ -44,7 +44,7 @@
       <initrd>install/powerpc/initrd.gz</initrd>
     </media>
     <media arch="parisc">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-hppa.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-hppa.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? hppa</volume-id>
         <system-id>LINUX</system-id>
@@ -53,14 +53,14 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ia64">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-ia64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-ia64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? ia64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
     </media>
     <media arch="sparc64">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-sparc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-server-sparc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.06(.\d\+?)? sparc</volume-id>
         <system-id>LINUX</system-id>
@@ -70,7 +70,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -79,7 +79,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -88,7 +88,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-desktop-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? ppc</volume-id>
         <system-id>LINUX</system-id>
@@ -98,7 +98,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -107,7 +107,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -116,7 +116,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-dvd-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? ppc</volume-id>
         <system-id>LINUX</system-id>
@@ -126,7 +126,7 @@
     </media>
 
     <media arch="parisc" live="true">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-hppa.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-hppa.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? hppa</volume-id>
         <system-id>LINUX</system-id>
@@ -135,7 +135,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ia64">
-      <url>http://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-ia64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/dapper/ubuntu-6.06-alternate-ia64.iso</url>
       <iso>
         <volume-id>Ubuntu 6.06(.\d\+?)? ia64</volume-id>
         <system-id>LINUX</system-id>

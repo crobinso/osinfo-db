@@ -15,7 +15,7 @@
     <eol-date>2006-04-30</eol-date>
 
     <media arch="i686">
-      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/warty/warty-release-install-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -24,7 +24,7 @@
       <initrd>casper/initrd.img</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-install-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/warty/warty-release-install-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 4.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -34,7 +34,7 @@
     </media>
 
     <media arch="i686" live="true" installer="false">
-      <url>http://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/warty/warty-release-live-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>

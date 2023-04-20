@@ -17,7 +17,7 @@
     <eol-date>2009-04-18</eol-date>
 
     <media arch="i686">
-      <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -26,7 +26,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -35,7 +35,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="sparc64">
-      <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-sparc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-server-sparc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 7.10(.\d\+?)? sparc</volume-id>
         <system-id>LINUX</system-id>
@@ -45,7 +45,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-desktop-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 7.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -54,7 +54,7 @@
       <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/gutsy/ubuntu-7.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 7.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>

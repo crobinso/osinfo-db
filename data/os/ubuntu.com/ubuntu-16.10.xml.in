@@ -31,7 +31,7 @@
     </resources>
 
     <media arch="i686">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? i386</volume-id>
       </iso>
@@ -42,7 +42,7 @@
       </installer>
     </media>
     <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? amd64</volume-id>
       </iso>
@@ -53,7 +53,7 @@
       </installer>
     </media>
     <media arch="i686" live="true">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 16.10(.\d\+?)? i386</volume-id>
       </iso>
@@ -61,7 +61,7 @@
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 16.10(.\d\+?)? amd64</volume-id>
       </iso>
@@ -69,7 +69,7 @@
       <initrd>casper/initrd.lz</initrd>
     </media>
     <media arch="aarch64">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-arm64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? arm64</volume-id>
       </iso>
@@ -77,13 +77,13 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? ppc</volume-id>
       </iso>
     </media>
     <media arch="ppc64le">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-ppc64el.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? ppc64</volume-id>
       </iso>
@@ -91,7 +91,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="s390x">
-      <url>http://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-s390x.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? s390x</volume-id>
       </iso>

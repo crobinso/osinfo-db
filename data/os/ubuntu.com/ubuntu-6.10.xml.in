@@ -17,7 +17,7 @@
     <eol-date>2008-04-26</eol-date>
 
     <media arch="i686">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
@@ -26,7 +26,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -35,7 +35,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.10(.\d\+?)? ppc</volume-id>
         <system-id>LINUX</system-id>
@@ -44,7 +44,7 @@
       <initrd>install/powerpc/initrd.gz</initrd>
     </media>
     <media arch="sparc64">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-sparc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-sparc.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 6.10(.\d\+?)? sparc</volume-id>
         <system-id>LINUX</system-id>
@@ -54,7 +54,7 @@
     </media>
 
     <media arch="i686" live="true">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-i386.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-i386.iso</url>
       <iso>
         <volume-id>Ubuntu 6.10 i386</volume-id>
         <system-id>LINUX</system-id>
@@ -63,7 +63,7 @@
       <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 6.10 amd64</volume-id>
         <system-id>LINUX</system-id>
@@ -72,7 +72,7 @@
       <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="ppc" live="true">
-      <url>http://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-powerpc.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-desktop-powerpc.iso</url>
       <iso>
         <volume-id>Ubuntu 6.10 ppc</volume-id>
         <system-id>LINUX</system-id>
