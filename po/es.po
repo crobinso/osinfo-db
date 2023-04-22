@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-12 11:03+0200\n"
+"POT-Creation-Date: 2023-04-22 08:10+0200\n"
 "PO-Revision-Date: 2018-05-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/libosinfo/"
@@ -2100,6 +2100,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
 #: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-37.xml.in:8
+#: data/os/fedoraproject.org/fedora-38.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -2119,6 +2120,7 @@ msgstr "Fedora Core 1"
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
+#: data/os/fedoraproject.org/silverblue-38.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2501,6 +2503,30 @@ msgstr "Fedora 21 Server"
 msgid "Fedora Everything 37"
 msgstr "Fedora 21 Server"
 
+#: data/os/fedoraproject.org/fedora-38.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Linux 6.0"
+msgid "Fedora Linux 38"
+msgstr "Red Hat Linux 6.0"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:17
+#, fuzzy
+#| msgid "Fedora 21 Workstation"
+msgid "Fedora Workstation 38"
+msgstr "Fedora 21 Workstation"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:20
+#: data/os/fedoraproject.org/fedora-38.xml.in:23
+#, fuzzy
+#| msgid "Fedora 21 Server"
+msgid "Fedora Server 38"
+msgstr "Fedora 21 Server"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:26
+#, fuzzy
+msgid "Fedora Everything 38"
+msgstr "Fedora 21 Server"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -2601,6 +2627,11 @@ msgstr "Fedora Core 3"
 #: data/os/fedoraproject.org/silverblue-37.xml.in:6
 #, fuzzy
 msgid "Fedora Silverblue 37"
+msgstr "Fedora Core 3"
+
+#: data/os/fedoraproject.org/silverblue-38.xml.in:6
+#, fuzzy
+msgid "Fedora Silverblue 38"
 msgstr "Fedora Core 3"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6

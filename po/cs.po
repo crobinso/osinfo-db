@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-12 11:03+0200\n"
+"POT-Creation-Date: 2023-04-22 08:10+0200\n"
 "PO-Revision-Date: 2023-04-01 13:13+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/libosinfo/"
@@ -1921,6 +1921,7 @@ msgstr ""
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
 #: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-37.xml.in:8
+#: data/os/fedoraproject.org/fedora-38.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1940,6 +1941,7 @@ msgstr ""
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
+#: data/os/fedoraproject.org/silverblue-38.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2272,6 +2274,25 @@ msgstr ""
 msgid "Fedora Everything 37"
 msgstr ""
 
+#: data/os/fedoraproject.org/fedora-38.xml.in:6
+#, fuzzy
+#| msgid "AlmaLinux 8"
+msgid "Fedora Linux 38"
+msgstr "AlmaLinux 8"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:17
+msgid "Fedora Workstation 38"
+msgstr ""
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:20
+#: data/os/fedoraproject.org/fedora-38.xml.in:23
+msgid "Fedora Server 38"
+msgstr ""
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:26
+msgid "Fedora Everything 38"
+msgstr ""
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr ""
@@ -2358,6 +2379,10 @@ msgstr ""
 
 #: data/os/fedoraproject.org/silverblue-37.xml.in:6
 msgid "Fedora Silverblue 37"
+msgstr ""
+
+#: data/os/fedoraproject.org/silverblue-38.xml.in:6
+msgid "Fedora Silverblue 38"
 msgstr ""
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6

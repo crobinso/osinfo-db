@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-12 11:03+0200\n"
+"POT-Creation-Date: 2023-04-22 08:10+0200\n"
 "PO-Revision-Date: 2023-04-13 01:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -20,8 +20,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
@@ -1927,6 +1927,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/fedora-35.xml.in:8
 #: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-37.xml.in:8
+#: data/os/fedoraproject.org/fedora-38.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -1946,6 +1947,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/silverblue-35.xml.in:8
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
+#: data/os/fedoraproject.org/silverblue-38.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2278,6 +2280,31 @@ msgstr "Fedora Server 37"
 msgid "Fedora Everything 37"
 msgstr "Fedora Everything 37"
 
+#: data/os/fedoraproject.org/fedora-38.xml.in:6
+#, fuzzy
+#| msgid "Fedora Linux 36"
+msgid "Fedora Linux 38"
+msgstr "Fedora Linux 36"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:17
+#, fuzzy
+#| msgid "Fedora Workstation 36"
+msgid "Fedora Workstation 38"
+msgstr "Fedora Workstation 36"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:20
+#: data/os/fedoraproject.org/fedora-38.xml.in:23
+#, fuzzy
+#| msgid "Fedora Server 36"
+msgid "Fedora Server 38"
+msgstr "Fedora Server 36"
+
+#: data/os/fedoraproject.org/fedora-38.xml.in:26
+#, fuzzy
+#| msgid "Fedora Everything 36"
+msgid "Fedora Everything 38"
+msgstr "Fedora Everything 36"
+
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
@@ -2365,6 +2392,12 @@ msgstr "Fedora Silverblue 36"
 #: data/os/fedoraproject.org/silverblue-37.xml.in:6
 msgid "Fedora Silverblue 37"
 msgstr "Fedora Silverblue 37"
+
+#: data/os/fedoraproject.org/silverblue-38.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 30"
+msgid "Fedora Silverblue 38"
+msgstr "Fedora Silverblue 30"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
