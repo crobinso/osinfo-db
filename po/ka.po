@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-22 08:10+0200\n"
-"PO-Revision-Date: 2023-04-12 07:31+0000\n"
+"PO-Revision-Date: 2023-04-22 16:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -2275,29 +2275,21 @@ msgid "Fedora Everything 37"
 msgstr "Fedora Everything 37"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 38"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 38"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:20
 #: data/os/fedoraproject.org/fedora-38.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 38"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 38"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 38"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -2388,10 +2380,8 @@ msgid "Fedora Silverblue 37"
 msgstr "Fedora Silverblue 37"
 
 #: data/os/fedoraproject.org/silverblue-38.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 38"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 38"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -3702,11 +3692,11 @@ msgstr "Novell Netware 6"
 
 #: data/os/omnios.org/bloody-rolling.xml.in:6
 msgid "OmniOSCE Bloody"
-msgstr ""
+msgstr "OmniOSCE Bloody"
 
 #: data/os/omnios.org/bloody-rolling.xml.in:7
 msgid "omniosce"
-msgstr ""
+msgstr "omniosce"
 
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
@@ -3887,11 +3877,11 @@ msgstr "OpenBSD 7.2"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
-msgstr ""
+msgstr "OpenIndiana Hipster"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:7
 msgid "illumos"
-msgstr ""
+msgstr "illumos"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -4815,10 +4805,8 @@ msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux XFCE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:44
-#, fuzzy
-#| msgid "Rocky Linux Unknown"
 msgid "Rocky Linux Cinnamon 9"
-msgstr "Rocky Linux Unknown"
+msgstr "Rocky Linux Cinnamon 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
@@ -4997,11 +4985,11 @@ msgstr "Slackware -current"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:6
 msgid "Triton SmartOS"
-msgstr ""
+msgstr "Triton SmartOS"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:7
 msgid "TritonDataCenter"
-msgstr ""
+msgstr "TritonDataCenter"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
