@@ -8,6 +8,8 @@
     <vendor>Slackware Linux Project</vendor>
     <family>linux</family>
     <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackware/14.1"/>
+    <derives-from id="http://slackware.com/slackware/14.1"/>
 
     <release-date>2016-07-01</release-date>
 
@@ -30,11 +32,11 @@
       <initrd>isolinux/initrd.img</initrd>
     </tree>
 
-    <!-- Disk 1 -->
+    <!-- CD -->
     <media arch="i686">
       <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware-14.2-iso/slackware-14.2-install-d1.iso</url>
       <iso>
-        <volume-id>S14.2d1</volume-id>
+        <volume-id>S14.2d\d+</volume-id>
         <system-id>LINUX</system-id>
         <application-id>Slackware install 1</application-id>
       </iso>
@@ -104,7 +106,7 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
-	<ram>67108864</ram>
+        <ram>67108864</ram>
         <storage>1073741824</storage>
       </minimum>
 
@@ -120,7 +122,7 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
-	<ram>67108864</ram>
+        <ram>67108864</ram>
         <storage>1073741824</storage>
       </minimum>
 
@@ -136,7 +138,7 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
-	<ram>67108864</ram>
+        <ram>67108864</ram>
         <storage>1073741824</storage>
       </minimum>
 

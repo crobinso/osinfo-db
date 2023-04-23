@@ -1,0 +1,37 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/7.0">
+    <short-id>slackware7.0</short-id>
+    <name>Slackware 7.0</name>
+    <version>7.0</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackware/4.0"/>
+    <derives-from id="http://slackware.com/slackware/4.0"/>
+
+    <release-date>1999-10-25</release-date>
+    <!-- no official EOL specified, last change 2002 -->
+    <eol-date>2009-08-01</eol-date>
+
+
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>33554432</ram>
+        <storage>536870912</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>268435456</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

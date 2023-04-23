@@ -1,0 +1,34 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/3.0">
+    <short-id>slackware3.0</short-id>
+    <name>Slackware 3.0</name>
+    <version>3.0</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+
+    <release-date>1995-11-30</release-date>
+    <!-- no official EOL specified -->
+    <eol-date>2004-08-01</eol-date>
+
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>16777216</ram>
+        <storage>536870912</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>134217728</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

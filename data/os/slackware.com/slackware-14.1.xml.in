@@ -1,0 +1,112 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/14.1">
+    <short-id>slackware14.1</short-id>
+    <name>Slackware 14.1</name>
+    <version>14.1</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackware/14.0"/>
+    <derives-from id="http://slackware.com/slackware/14.0"/>
+
+    <release-date>2013-11-04</release-date>
+
+
+    <tree arch="i686">
+      <url>https://mirrors.slackware.com/slackware/slackware-14.1/</url>
+      <kernel>kernels/hugesmp.s/bzImage</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </tree>
+
+    <tree arch="x86_64">
+      <url>https://mirrors.slackware.com/slackware/slackware64-14.1/</url>
+      <kernel>kernels/huge.s/bzImage</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </tree>
+
+    <!-- CD -->
+    <media arch="i686">
+      <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware-14.1-iso/slackware-14.1-install-d1.iso</url>
+      <iso>
+        <volume-id>S14.1d\d+</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware install \d+</application-id>
+      </iso>
+    </media>
+
+    <!-- DVD -->
+    <media arch="i686">
+      <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware-14.1-iso/slackware-14.1-install-dvd.iso</url>
+      <iso>
+        <volume-id>SlackDVD</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware 14.1 DVD</application-id>
+      </iso>
+      <kernel>kernels/hugesmp.s/bzImage</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <url>https://mirrors.slackware.com/slackware/slackware-iso/slackware64-14.1-iso/slackware64-14.1-install-dvd.iso</url>
+      <iso>
+        <volume-id>SlackDVD</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware64 14.1 DVD</application-id>
+      </iso>
+      <kernel>kernels/hugesmp.s/bzImage</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>67108864</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="i686">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>67108864</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </recommended>
+    </resources>
+
+    <resources arch="x86_64">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>67108864</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>17179869184</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

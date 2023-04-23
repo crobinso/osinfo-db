@@ -1,0 +1,50 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackware/10.2">
+    <short-id>slackware10.2</short-id>
+    <name>Slackware 10.2</name>
+    <version>10.2</version>
+    <vendor>Slackware Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackware/10.1"/>
+    <derives-from id="http://slackware.com/slackware/10.1"/>
+
+    <release-date>2005-09-14</release-date>
+    <eol-date>2012-08-01</eol-date>
+
+
+    <tree arch="i686">
+      <url>https://mirrors.slackware.com/slackware/slackware-10.2/</url>
+      <kernel>kernels/bare.i/bzImage</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </tree>
+
+    <!-- CD -->
+    <media arch="i686">
+      <iso>
+        <volume-id>S10.2d\d+</volume-id>
+        <system-id>LINUX</system-id>
+        <application-id>Slackware install \d+</application-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>67108864</ram>
+        <storage>536870912</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

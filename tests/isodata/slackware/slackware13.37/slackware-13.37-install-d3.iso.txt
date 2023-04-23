@@ -1,33 +1,19 @@
 CD-ROM is in ISO 9660 format
 System id: LINUX
-Volume id: S14.2d1
+Volume id: S13.37d3
 Volume set id: 
 Publisher id: Slackware Linux, Inc. <info@slackware.com>
 Data preparer id: Slackware Linux, Inc. <info@slackware.com>
-Application id: Slackware install 1
+Application id: Slackware install 3
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 340427
-El Torito VD version 1 found, boot catalog is in sector 359
+Volume size is: 335739
 
 Joliet with UCS level 3 found.
 SUSP signatures version 1 found
 Rock Ridge signatures version 1 found
 Rock Ridge id 'RRIP_1991A'
-Eltorito validation header:
-    Hid 1
-    Arch 0 (x86)
-    ID 'Slackware Linux, Inc. <'
-    Cksum 9B A3 OK
-    Key 55 AA
-    Eltorito defaultboot header:
-        Bootid 88 (bootable)
-        Boot media 0 (No Emulation Boot)
-        Load segment 0
-        Sys type 0
-        Nsect 4
-        Bootoff 168 360

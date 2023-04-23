@@ -1,0 +1,47 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackwarearm/14.2">
+    <short-id>slackwarearm14.2</short-id>
+    <name>SlackwareARM 14.2</name>
+    <version>14.2</version>
+    <vendor>SlackwareARM Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackwarearm/14.1"/>
+    <derives-from id="http://slackware.com/slackwarearm/14.1"/>
+
+    <release-date>2016-07-01</release-date>
+    <eol-date>2023-04-08</eol-date>
+
+    <devices>
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+    </devices>
+
+
+    <tree arch="armv7l">
+      <url>http://ftp.arm.slackware.com/slackwarearm/slackwarearm-14.2/</url>
+      <kernel>kernels/armv7/zImage-armv7</kernel>
+      <initrd>isolinux/initrd-armv7.img</initrd>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>134217728</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

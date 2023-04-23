@@ -1,0 +1,40 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackwarearm/14.1">
+    <short-id>slackwarearm14.1</short-id>
+    <name>SlackwareARM 14.1</name>
+    <version>14.1</version>
+    <vendor>SlackwareARM Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackwarearm/14.0"/>
+    <derives-from id="http://slackware.com/slackwarearm/14.0"/>
+
+    <release-date>2013-11-07</release-date>
+    <eol-date>2016-09-01</eol-date>
+
+    <tree arch="armv7l">
+      <url>http://ftp.arm.slackware.com/slackwarearm/slackwarearm-14.1/</url>
+      <kernel>kernels/versatile/zImage-versatile</kernel>
+      <initrd>isolinux/initrd-versatile.img</initrd>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>134217728</ram>
+        <storage>1073741824</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>

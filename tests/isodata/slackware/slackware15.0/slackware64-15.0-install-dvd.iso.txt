@@ -1,18 +1,18 @@
 CD-ROM is in ISO 9660 format
-System id: LINUX
+System id: 
 Volume id: SlackDVD
 Volume set id: 
 Publisher id: 
-Data preparer id: 
-Application id: Slackware64 14.2 DVD
+Data preparer id: XORRISO-1.5.4 2021.02.06.123001, LIBISOBURN-1.5.4, LIBISOFS-1.5.4, LIBBURN-1.5.4
+Application id: SLACKWARE INSTALL
 Copyright File id: 
 Abstract File id: 
 Bibliographic File id: 
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1354097
-El Torito VD version 1 found, boot catalog is in sector 736
+Volume size is: 1845968
+El Torito VD version 1 found, boot catalog is in sector 835
 
 Joliet with UCS level 3 found.
 SUSP signatures version 1 found
@@ -30,4 +30,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 4
-        Bootoff 5B1 1457
+        Bootoff 614 1556

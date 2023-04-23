@@ -1,0 +1,38 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://slackware.com/slackwarearm/current">
+    <short-id>slackwarearm-current</short-id>
+    <name>SlackwareARM current</name>
+    <version>current</version>
+    <vendor>SlackwareARM Linux Project</vendor>
+    <family>linux</family>
+    <distro>slackware</distro>
+    <upgrades id="http://slackware.com/slackwarearm/15.0"/>
+    <derives-from id="http://slackware.com/slackwarearm/15.0"/>
+
+
+    <tree arch="aarch64">
+      <url>http://ftp.arm.slackware.com/slackwarearm/slackwareaarch64-current/</url>
+      <kernel>kernels/armv8/Image-armv8</kernel>
+      <initrd>installer/initrd-armv8.img</initrd>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>134217728</ram>
+        <storage>2147483648</storage>
+      </minimum>
+
+      <recommended>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>8589934592</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
