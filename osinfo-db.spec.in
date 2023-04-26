@@ -9,7 +9,7 @@ Summary: osinfo database files
 Name: osinfo-db
 Version: @VERSION@
 Release: 1%{?dist}
-License: GPLv2+
+License: GPL-2.0-or-later
 Source: https://releases.pagure.org/libosinfo/%{name}-%{version}.tar.xz
 URL: https://libosinfo.org/
 BuildRequires: gettext
