@@ -175,7 +175,8 @@ def main():
     parser.add_argument(
         "--releases-json",
         type=argparse.FileType("r"),
-        help="path to releases-eos-3.json file (default: fetch from network)",
+        metavar="PATH",
+        help=f"path to releases-eos-3.json file (default: fetch from {MANIFEST_URL})",
     )
     args = parser.parse_args()
 
