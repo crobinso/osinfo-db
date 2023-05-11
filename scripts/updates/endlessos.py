@@ -28,6 +28,7 @@ import json
 import jinja2
 import os
 import requests
+import shutil
 import subprocess
 import tempfile
 
@@ -156,13 +157,15 @@ def fetch_isodata(branch, iso):
 
         f.flush()
 
-        os.makedirs(os.path.dirname(isodata_file), exist_ok=True)
-        with open(isodata_file, "w") as g:
+        isodata_dir = os.path.dirname(isodata_file)
+        os.makedirs(isodata_dir, exist_ok=True)
+        with tempfile.NamedTemporaryFile(dir=isodata_dir) as g:
             subprocess.run(
                 ("isoinfo", "-d", "-i", f.name),
                 stdout=g,
                 check=True,
             )
+            shutil.copyfile(g.name, isodata_file)
 
 
 def fetch_all_isodata(image):
