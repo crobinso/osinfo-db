@@ -198,6 +198,7 @@ def main():
         loader=jinja2.FileSystemLoader(DATA_DIR),
         autoescape=True,
         undefined=jinja2.StrictUndefined,
+        keep_trailing_newline=True,
     )
     env.filters["personality_name"] = personality_name
     env.filters["publisher_id"] = publisher_id
