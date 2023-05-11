@@ -49,36 +49,48 @@
       <iso>
         <volume-id>alpine-std 3\.17.* aarch64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="i686">
       <variant id="standard"/>
       <iso>
         <volume-id>alpine-std 3\.17.* x86$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="x86_64">
       <variant id="standard"/>
       <iso>
         <volume-id>alpine-std 3\.17.* x86_64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="ppc64le">
       <variant id="standard"/>
       <iso>
         <volume-id>alpine-std 3\.17.* ppc64le$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="s390x">
       <variant id="standard"/>
       <iso>
         <volume-id>alpine-std 3\.17.* s390x$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="armv7l">
       <variant id="standard"/>
       <iso>
         <volume-id>alpine-std 3\.17.* armv7$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
 
     <!-- Extended Installer !-->
@@ -87,12 +99,16 @@
       <iso>
         <volume-id>alpine-ext 3\.17.* x86$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
     <media arch="x86_64">
       <variant id="extended"/>
       <iso>
         <volume-id>alpine-ext 3\.17.* x86_64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
 
     <!-- Virtual Installer !-->
@@ -101,24 +117,32 @@
       <iso>
         <volume-id>alpine-virt 3\.17.* aarch64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="i686">
       <variant id="virtual"/>
       <iso>
         <volume-id>alpine-virt 3\.17.* x86$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="x86_64">
       <variant id="virtual"/>
       <iso>
         <volume-id>alpine-virt 3\.17.* x86_64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="armv7l">
       <variant id="virtual"/>
       <iso>
         <volume-id>alpine-virt 3\.17.* armv7$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
     </media>
 
     <!-- Xen Installer !-->
@@ -127,6 +151,8 @@
       <iso>
         <volume-id>alpine-xen 3\.17.* x86_64$</volume-id>
       </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
     </media>
    </os>
  </libosinfo>
