@@ -46,6 +46,7 @@
     <!-- Standard Installer !-->
     <media arch="aarch64">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/aarch64/alpine-standard-3.17.3-aarch64.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* aarch64$</volume-id>
       </iso>
@@ -54,6 +55,7 @@
     </media>
     <media arch="i686">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86/alpine-standard-3.17.3-x86.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* x86$</volume-id>
       </iso>
@@ -62,6 +64,7 @@
     </media>
     <media arch="x86_64">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-standard-3.17.3-x86_64.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* x86_64$</volume-id>
       </iso>
@@ -70,6 +73,7 @@
     </media>
     <media arch="ppc64le">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/ppc64le/alpine-standard-3.17.3-ppc64le.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* ppc64le$</volume-id>
       </iso>
@@ -78,6 +82,7 @@
     </media>
     <media arch="s390x">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/s390x/alpine-standard-3.17.3-s390x.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* s390x$</volume-id>
       </iso>
@@ -86,6 +91,7 @@
     </media>
     <media arch="armv7l">
       <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/armv7/alpine-standard-3.17.3-armv7.iso</url>
       <iso>
         <volume-id>alpine-std 3\.17.* armv7$</volume-id>
       </iso>
@@ -96,6 +102,7 @@
     <!-- Extended Installer !-->
     <media arch="i686">
       <variant id="extended"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86/alpine-extended-3.17.3-x86.iso</url>
       <iso>
         <volume-id>alpine-ext 3\.17.* x86$</volume-id>
       </iso>
@@ -104,6 +111,7 @@
     </media>
     <media arch="x86_64">
       <variant id="extended"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-extended-3.17.3-x86_64.iso</url>
       <iso>
         <volume-id>alpine-ext 3\.17.* x86_64$</volume-id>
       </iso>
@@ -114,6 +122,7 @@
     <!-- Virtual Installer !-->
     <media arch="aarch64">
       <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/aarch64/alpine-virt-3.17.3-aarch64.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.17.* aarch64$</volume-id>
       </iso>
@@ -122,6 +131,7 @@
     </media>
     <media arch="i686">
       <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86/alpine-virt-3.17.3-x86.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.17.* x86$</volume-id>
       </iso>
@@ -130,6 +140,7 @@
     </media>
     <media arch="x86_64">
       <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-virt-3.17.3-x86_64.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.17.* x86_64$</volume-id>
       </iso>
@@ -138,6 +149,7 @@
     </media>
     <media arch="armv7l">
       <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/armv7/alpine-virt-3.17.3-armv7.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.17.* armv7$</volume-id>
       </iso>
@@ -148,6 +160,7 @@
     <!-- Xen Installer !-->
     <media arch="x86_64">
       <variant id="xen"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/x86_64/alpine-xen-3.17.3-x86_64.iso</url>
       <iso>
         <volume-id>alpine-xen 3\.17.* x86_64$</volume-id>
       </iso>
