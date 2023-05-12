@@ -65,6 +65,11 @@ def test_iso_detection(testdata):
                     if osxml2.shortid not in detected:
                         detected.append(osxml2.shortid)
 
+        if not detected:
+            raise AssertionError(
+                "isodata unmatched: %s [expected=%s]" % (isodatapath, osname)
+            )
+
         ok = True
         for osid in detected:
             # Primary (correct) match
