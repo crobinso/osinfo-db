@@ -164,7 +164,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>2792829</volume-size>
+        <volume-size>5719713792</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -177,7 +177,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* i586</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>3292380</volume-size>
+        <volume-size>6742794240</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -190,7 +190,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>3697848</volume-size>
+        <volume-size>7573192704</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -204,7 +204,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>1427441</volume-size>
+        <volume-size>2923399168</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -217,7 +217,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* i586</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>1455328</volume-size>
+        <volume-size>2980511744</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -230,7 +230,7 @@
         <system-id>LINUX</system-id>
         <volume-id>ALT Education 10\.1(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <volume-size>1617264</volume-size>
+        <volume-size>3312156672</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
