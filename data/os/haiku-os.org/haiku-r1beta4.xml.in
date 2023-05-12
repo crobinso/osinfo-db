@@ -14,7 +14,6 @@
     <media arch="i686" live="true">
       <iso>
         <volume-id>haiku-r1~beta4-x86$</volume-id>
-        <volume-size>3328000</volume-size>
       </iso>
       <url>https://ftp.osuosl.org/pub/haiku/r1beta4/haiku-r1beta4-x86_gcc2h-anyboot.iso</url>
     </media>
@@ -22,7 +21,6 @@
     <media arch="x86_64" live="true">
       <iso>
         <volume-id>haiku-r1~beta4-x86_64</volume-id>
-        <volume-size>6277120</volume-size>
       </iso>
       <url>https://ftp.osuosl.org/pub/haiku/r1beta4/haiku-r1beta4-x86_64-anyboot.iso</url>
     </media>
