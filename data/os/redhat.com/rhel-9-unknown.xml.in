@@ -9,8 +9,8 @@
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Plow</codename>
-    <upgrades id="http://redhat.com/rhel/9.2"/>
-    <derives-from id="http://redhat.com/rhel/9.2"/>
+    <upgrades id="http://redhat.com/rhel/9.3"/>
+    <derives-from id="http://redhat.com/rhel/9.3"/>
 
     <media arch="x86_64">
       <iso>
