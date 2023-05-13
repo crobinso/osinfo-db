@@ -203,7 +203,7 @@ selinux --enforcing
 </xsl:if>
 timezone --utc <xsl:value-of select="config/l10n-timezone"/>
 bootloader --location=mbr
-zerombr <xsl:if test="os/version &lt; 14">yes</xsl:if>
+zerombr
 
 clearpart --all --drives=<xsl:call-template name="target-disk"/>
 
