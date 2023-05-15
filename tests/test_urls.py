@@ -169,14 +169,12 @@ def _collect_os_urls():
             if t.treeinfo:
                 urls.append((url + ".treeinfo", UrlType.URL_TREEINFO))
         if urls:
-            ret.append((osxml.shortid, urls))
+            ret.append(pytest.param((osxml.shortid, urls), id=osxml.shortid))
 
     return ret
 
 
-@pytest.mark.parametrize(
-    "testdata", _collect_os_urls(), ids=lambda testdata: testdata[0]
-)
+@pytest.mark.parametrize("testdata", _collect_os_urls())
 def test_urls(testdata):
     with requests.Session() as session:
         # As some distro URLs are flaky, let's give it a try 3 times

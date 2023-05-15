@@ -23,12 +23,12 @@ def _get_isodatapaths():
     for osdir in sorted(osdirs, key=util.path_sort):
         isodatapaths = list(osdir.glob("*.txt"))
         if len(isodatapaths):
-            ret.append((osdir.name, isodatapaths))
+            ret.append(pytest.param((osdir.name, isodatapaths), id=osdir.name))
 
     return ret
 
 
-@pytest.mark.parametrize("testdata", _get_isodatapaths(), ids=lambda d: d[0])
+@pytest.mark.parametrize("testdata", _get_isodatapaths())
 def test_iso_detection(testdata):
     osname, isodatapaths = testdata
     for isodatapath in isodatapaths:
