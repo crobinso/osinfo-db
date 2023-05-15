@@ -23,7 +23,7 @@
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-i586*</volume-id>
         <system-id>LINUX</system-id>
-        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <publisher-id>SUSE (LINUX GmbH|LLC)</publisher-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
@@ -33,7 +33,7 @@
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-x86_64*</volume-id>
         <system-id>LINUX</system-id>
-        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <publisher-id>SUSE (LINUX GmbH|LLC)</publisher-id>
       </iso>
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
@@ -46,7 +46,7 @@
       <iso>
         <volume-id>openSUSE-Tumbleweed-(NET-i586|LegacyX86-NE)*</volume-id>
         <system-id>LINUX</system-id>
-        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <publisher-id>SUSE (LINUX GmbH|LLC)</publisher-id>
       </iso>
       <kernel>boot/i386/loader/linux</kernel>
       <initrd>boot/i386/loader/initrd</initrd>
@@ -57,7 +57,7 @@
       <iso>
         <volume-id>openSUSE-Tumbleweed-NET-x86_64*</volume-id>
         <system-id>LINUX</system-id>
-        <publisher-id>SUSE LINUX GmbH</publisher-id>
+        <publisher-id>SUSE (LINUX GmbH|LLC)</publisher-id>
       </iso>
       <kernel>boot/x86_64/loader/linux</kernel>
       <initrd>boot/x86_64/loader/initrd</initrd>
