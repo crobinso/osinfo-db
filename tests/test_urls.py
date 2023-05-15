@@ -174,12 +174,15 @@ def _collect_os_urls():
     return ret
 
 
-@pytest.fixture
+@pytest.fixture(scope="module")
 def session():
     session = requests.Session()
     # As some distro URLs are flaky, let's give it a try 3 times
     # before actually failing.
-    adapter = requests.adapters.HTTPAdapter(max_retries=3)
+    # Use an high value for pool_connections: this represents the number of
+    # urllib HTTP connection pools instantiated, each for a different host:
+    # this way, we can reuse more connections across OSes.
+    adapter = requests.adapters.HTTPAdapter(max_retries=3, pool_connections=100)
     session.mount("https://", adapter)
     session.mount("http://", adapter)
     return session
