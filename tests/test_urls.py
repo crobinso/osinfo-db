@@ -20,6 +20,7 @@ class UrlType(enum.Enum):
     URL_DISK_VMDK = 6
     URL_TREEINFO = 7
     URL_DISK_CONTAINERDISK = 8
+    URL_KERNEL = 9
 
 
 iso_content_types = {
@@ -75,6 +76,9 @@ containerdisk_content_types = {
 }
 
 
+kernel_content_types = {}
+
+
 image_formats_types = {
     "containerdisk": UrlType.URL_DISK_CONTAINERDISK,
     "qcow2": UrlType.URL_DISK_QCOW2,
@@ -98,6 +102,8 @@ def _is_content_type_allowed(content_type, url_type):
         return content_type in treeinfo_content_types
     if url_type == UrlType.URL_DISK_CONTAINERDISK:
         return content_type in containerdisk_content_types
+    if url_type == UrlType.URL_KERNEL:
+        return content_type in kernel_content_types
     return True
 
 
@@ -163,7 +169,7 @@ def _collect_os_urls():
             if not url.endswith("/"):
                 url += "/"
             if t.kernel:
-                urls.append((url + t.kernel, UrlType.URL_GENERIC))
+                urls.append((url + t.kernel, UrlType.URL_KERNEL))
             if t.initrd:
                 urls.append((url + t.initrd, UrlType.URL_INITRD))
             if t.treeinfo:
