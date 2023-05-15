@@ -61,6 +61,11 @@ def test_treeinfo_detection(testdata):
                     if osxml2.shortid not in detected:
                         detected.append(osxml2.shortid)
 
+        if not detected:
+            raise AssertionError(
+                "treeinfodata unmatched: %s [expected=%s]" % (treeinfodatapath, osname)
+            )
+
         if detected == [osname]:
             continue
 
