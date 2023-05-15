@@ -174,19 +174,23 @@ def _collect_os_urls():
     return ret
 
 
+@pytest.fixture
+def session():
+    session = requests.Session()
+    # As some distro URLs are flaky, let's give it a try 3 times
+    # before actually failing.
+    adapter = requests.adapters.HTTPAdapter(max_retries=3)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
 @pytest.mark.parametrize("urls", _collect_os_urls())
-def test_urls(urls):
-    with requests.Session() as session:
-        # As some distro URLs are flaky, let's give it a try 3 times
-        # before actually failing.
-        adapter = requests.adapters.HTTPAdapter(max_retries=3)
-        session.mount("https://", adapter)
-        session.mount("http://", adapter)
+def test_urls(urls, session):
+    broken = []
+    for (url, url_type) in urls:
+        ok = _check_url(session, url, url_type)
 
-        broken = []
-        for (url, url_type) in urls:
-            ok = _check_url(session, url, url_type)
-
-            if not ok:
-                broken.append(url)
-        assert broken == []
+        if not ok:
+            broken.append(url)
+    assert broken == []
