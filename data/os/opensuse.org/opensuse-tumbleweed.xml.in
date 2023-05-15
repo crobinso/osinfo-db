@@ -20,6 +20,7 @@
 
     <!-- DVD Image -->
     <media arch="i686">
+      <url>https://download.opensuse.org/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso</url>
       <iso>
         <volume-id>openSUSE-Tumbleweed-DVD-i586*</volume-id>
         <system-id>LINUX</system-id>
