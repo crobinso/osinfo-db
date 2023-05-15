@@ -23,14 +23,13 @@ def _get_isodatapaths():
     for osdir in sorted(osdirs, key=util.path_sort):
         isodatapaths = list(osdir.glob("*.txt"))
         if len(isodatapaths):
-            ret.append(pytest.param((osdir.name, isodatapaths), id=osdir.name))
+            ret.append(pytest.param(osdir.name, isodatapaths, id=osdir.name))
 
     return ret
 
 
-@pytest.mark.parametrize("testdata", _get_isodatapaths())
-def test_iso_detection(testdata):
-    osname, isodatapaths = testdata
+@pytest.mark.parametrize("osname,isodatapaths", _get_isodatapaths())
+def test_iso_detection(osname, isodatapaths):
     for isodatapath in isodatapaths:
         # A symlink indicates an ISO from another version
         # that is ambiguous and so accidentally matches

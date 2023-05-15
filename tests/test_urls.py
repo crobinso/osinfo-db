@@ -169,13 +169,13 @@ def _collect_os_urls():
             if t.treeinfo:
                 urls.append((url + ".treeinfo", UrlType.URL_TREEINFO))
         if urls:
-            ret.append(pytest.param((osxml.shortid, urls), id=osxml.shortid))
+            ret.append(pytest.param(urls, id=osxml.shortid))
 
     return ret
 
 
-@pytest.mark.parametrize("testdata", _collect_os_urls())
-def test_urls(testdata):
+@pytest.mark.parametrize("urls", _collect_os_urls())
+def test_urls(urls):
     with requests.Session() as session:
         # As some distro URLs are flaky, let's give it a try 3 times
         # before actually failing.
@@ -183,7 +183,6 @@ def test_urls(testdata):
         session.mount("https://", adapter)
         session.mount("http://", adapter)
 
-        urls = testdata[1]
         broken = []
         for (url, url_type) in urls:
             ok = _check_url(session, url, url_type)

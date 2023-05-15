@@ -26,13 +26,12 @@ def _get_treeinfodatapaths():
         # That's the reason we have to take check for the .treeinfo file recursively.
         treeinfodatapaths = list(osdir.rglob("*.treeinfo"))
         if len(treeinfodatapaths):
-            ret.append(pytest.param((osdir.name, treeinfodatapaths), id=osdir.name))
+            ret.append(pytest.param(osdir.name, treeinfodatapaths, id=osdir.name))
     return ret
 
 
-@pytest.mark.parametrize("testdata", _get_treeinfodatapaths())
-def test_treeinfo_detection(testdata):
-    osname, treeinfodatapaths = testdata
+@pytest.mark.parametrize("osname,treeinfodatapaths", _get_treeinfodatapaths())
+def test_treeinfo_detection(osname, treeinfodatapaths):
     for treeinfodatapath in treeinfodatapaths:
         detected = []
         data = treeinfodata.get_treeinfodata(treeinfodatapath)
