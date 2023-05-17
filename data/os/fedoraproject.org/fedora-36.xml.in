@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/35"/>
 
     <release-date>2022-05-10</release-date>
+    <eol-date>2023-05-16</eol-date>
 
     <variant id="workstation">
       <name>Fedora Workstation 36</name>

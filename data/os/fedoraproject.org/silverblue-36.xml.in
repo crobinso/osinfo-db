@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/silverblue/35"/>
 
     <release-date>2022-05-10</release-date>
+    <eol-date>2023-05-16</eol-date>
 
     <media arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/36/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-36-1.5.iso</url>
