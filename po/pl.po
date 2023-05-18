@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-12 16:29+0200\n"
-"PO-Revision-Date: 2023-04-22 08:38+0000\n"
+"PO-Revision-Date: 2023-05-12 15:47+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -454,34 +454,24 @@ msgid "Alpinelinux 3.17 Xen"
 msgstr "Alpinelinux 3.17 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.8"
 msgid "Alpine Linux 3.18"
-msgstr "Alpine Linux 3.8"
+msgstr "Alpine Linux 3.18"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.18 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.18 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.18 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.18 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.18 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.18 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.18 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.18 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -4660,10 +4650,8 @@ msgid "Red Hat Enterprise Linux 9.2"
 msgstr "Red Hat Enterprise Linux 9.2"
 
 #: data/os/redhat.com/rhel-9.3.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.3"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.3"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -5500,10 +5488,8 @@ msgid "Ubuntu 23.04"
 msgstr "Ubuntu 23.04"
 
 #: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 23.04"
 msgid "Ubuntu 23.10"
-msgstr "Ubuntu 23.04"
+msgstr "Ubuntu 23.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
