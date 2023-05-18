@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-22 08:10+0200\n"
+"POT-Creation-Date: 2023-05-12 16:29+0200\n"
 "PO-Revision-Date: 2023-04-22 16:20+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -299,6 +299,7 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.15.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -500,6 +501,31 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:43
 #, fuzzy
 msgid "Alpinelinux 3.17 Xen"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:7
+#, fuzzy
+msgid "Alpine Linux 3.18"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:34
+#, fuzzy
+msgid "Alpinelinux 3.18 Standard"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:37
+#, fuzzy
+msgid "Alpinelinux 3.18 Extended"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:40
+#, fuzzy
+msgid "Alpinelinux 3.18 Virtual"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:43
+#, fuzzy
+msgid "Alpinelinux 3.18 Xen"
 msgstr "ALT Linux 3.0"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
@@ -4652,7 +4678,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.8.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
-#: data/os/redhat.com/rhel-9.2.xml.in:8
+#: data/os/redhat.com/rhel-9.2.xml.in:8 data/os/redhat.com/rhel-9.3.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -5015,6 +5041,12 @@ msgstr "Red Hat Enterprise Linux 4.0"
 #, fuzzy
 #| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 9.2"
+msgstr "Red Hat Enterprise Linux 4.0"
+
+#: data/os/redhat.com/rhel-9.3.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 4.0"
+msgid "Red Hat Enterprise Linux 9.3"
 msgstr "Red Hat Enterprise Linux 4.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
@@ -5790,6 +5822,7 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5924,6 +5957,12 @@ msgstr "Ubuntu 12.10"
 #, fuzzy
 #| msgid "Ubuntu 13.04"
 msgid "Ubuntu 23.04"
+msgstr "Ubuntu 13.04"
+
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 13.04"
+msgid "Ubuntu 23.10"
 msgstr "Ubuntu 13.04"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
