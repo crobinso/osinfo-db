@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-18 18:07+0200\n"
-"PO-Revision-Date: 2023-05-12 15:47+0000\n"
+"PO-Revision-Date: 2023-05-19 12:05+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -4630,10 +4630,8 @@ msgid "Red Hat Enterprise Linux 8.8"
 msgstr "Red Hat Enterprise Linux 8.8"
 
 #: data/os/redhat.com/rhel-8.9.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.9"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.9"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
