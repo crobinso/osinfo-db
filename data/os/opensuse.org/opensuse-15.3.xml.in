@@ -12,6 +12,7 @@
     <derives-from id="http://opensuse.org/opensuse/15.2"/>
 
     <release-date>2021-06-02</release-date>
+    <eol-date>2022-12-31</eol-date>
 
     <variant id="netinst">
       <name>openSUSE Leap 15.3</name>
