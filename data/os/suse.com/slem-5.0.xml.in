@@ -6,14 +6,6 @@
     <name>SUSE Linux Enterprise Micro</name>
     <version>5.0</version>
     <vendor>SUSE</vendor>
-    <vendor xml:lang="ca">SUSE</vendor>
-    <vendor xml:lang="es">SUSE</vendor>
-    <vendor xml:lang="fr">SUSE</vendor>
-    <vendor xml:lang="id">SUSE</vendor>
-    <vendor xml:lang="it">SUSE</vendor>
-    <vendor xml:lang="pl">SUSE</vendor>
-    <vendor xml:lang="uk">SUSE</vendor>
-    <vendor xml:lang="fr">SUSE</vendor>
     <family>linux</family>
     <distro>slem</distro>
     <derives-from id="http://suse.com/sle/15.2"/>

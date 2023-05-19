@@ -6,7 +6,6 @@
     <name>SUSE CaaS Platform 2.0</name>
     <version>2.0</version>
     <vendor>SUSE</vendor>
-    <vendor xml:lang="fr">SUSE</vendor>
     <family>linux</family>
     <distro>caasp</distro>
     <upgrades id="http://suse.com/caasp/1.0"/>

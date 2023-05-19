@@ -6,7 +6,6 @@
     <name>SUSE CaaS Platform 1.0</name>
     <version>1.0</version>
     <vendor>SUSE</vendor>
-    <vendor xml:lang="fr">SUSE</vendor>
     <family>linux</family>
     <distro>caasp</distro>
     <derives-from id="http://suse.com/sles/12.2"/>
