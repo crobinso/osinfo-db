@@ -11,6 +11,7 @@
     <codename>Markhor</codename>
 
     <release-date>2020-04-20</release-date>
+    <eol-date>2020-10-31</eol-date>
 
     <firmware arch="x86_64" type="efi"/>
     <firmware arch="i686" type="efi"/>
