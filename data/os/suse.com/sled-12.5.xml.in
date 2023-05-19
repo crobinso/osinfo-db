@@ -11,7 +11,8 @@
     <upgrades id="http://suse.com/sled/12.4"/>
     <derives-from id="http://suse.com/sled/12.4"/>
 
-    <release-date>2019-12-06</release-date>
+    <release-date>2019-12-09</release-date>
+    <eol-date>2024-10-31</eol-date>
 
     <media arch="x86_64">
       <iso>

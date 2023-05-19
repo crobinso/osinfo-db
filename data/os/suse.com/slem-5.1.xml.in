@@ -11,6 +11,7 @@
     <derives-from id="http://suse.com/slem/5.0"/>
 
     <release-date>2021-10-26</release-date>
+    <eol-date>2025-10-31</eol-date>
 
     <media arch="x86_64">
       <iso>

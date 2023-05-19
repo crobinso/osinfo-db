@@ -12,6 +12,7 @@
     <derives-from id="http://suse.com/sle/15.1"/>
 
     <release-date>2020-07-21</release-date>
+    <eol-date>2021-12-31</eol-date>
 
     <media arch="x86_64">
       <iso>

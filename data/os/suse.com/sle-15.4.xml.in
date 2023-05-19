@@ -11,7 +11,7 @@
     <upgrades id="http://suse.com/sle/15.3"/>
     <derives-from id="http://suse.com/sle/15.3"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2022-06-21</release-date>
 
     <media arch="x86_64">
       <iso>
