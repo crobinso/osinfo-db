@@ -11,6 +11,7 @@
     <upgrades id="http://netbsd.org/netbsd/1.2"/>
     <derives-from id="http://netbsd.org/netbsd/1.2"/>
 
-    <release-date>1998-03-09</release-date>
+    <release-date>1998-01-04</release-date>
+    <eol-date>2006-05-17</eol-date>
   </os>
 </libosinfo>

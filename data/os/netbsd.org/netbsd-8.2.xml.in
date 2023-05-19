@@ -17,7 +17,7 @@
       <name>NetBSD 8.2 Network Install (Serial Console)</name>
     </variant>
 
-    <release-date>2020-02-14</release-date>
+    <release-date>2020-03-31</release-date>
 
     <media arch="x86_64">
       <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.2/images/NetBSD-8.2-amd64.iso</url>

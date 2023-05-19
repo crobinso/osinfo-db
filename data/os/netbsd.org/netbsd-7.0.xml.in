@@ -10,7 +10,8 @@
     <upgrades id="http://netbsd.org/netbsd/6.0"/>
     <derives-from id="http://netbsd.org/netbsd/6.0"/>
 
-    <release-date>2015-09-25</release-date>
+    <release-date>2015-08-25</release-date>
+    <eol-date>2020-06-30</eol-date>
 
     <media arch="x86_64">
       <url>https://archive.netbsd.org/pub/NetBSD-archive/images/7.0/NetBSD-7.0-amd64.iso</url>

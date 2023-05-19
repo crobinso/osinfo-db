@@ -12,5 +12,6 @@
     <derives-from id="http://netbsd.org/netbsd/5.0"/>
 
     <release-date>2010-11-19</release-date>
+    <eol-date>2015-11-11</eol-date>
   </os>
 </libosinfo>
