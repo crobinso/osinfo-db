@@ -10,6 +10,7 @@
     <distro>sles</distro>
 
     <release-date>2004-08-03</release-date>
+    <eol-date>2011-08-31</eol-date>
 
     <resources arch="all">
       <minimum>
