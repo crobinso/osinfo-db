@@ -13,7 +13,7 @@
     <derives-from id="http://suse.com/caasp/1.0"/>
 
     <release-date>2017-10-26</release-date>
-    <eol-date>2018-06-28</eol-date>
+    <eol-date>2018-07-31</eol-date>
 
     <media arch="x86_64">
       <iso>

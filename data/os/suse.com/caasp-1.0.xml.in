@@ -12,7 +12,7 @@
     <derives-from id="http://suse.com/sles/12.2"/>
 
     <release-date>2017-08-03</release-date>
-    <eol-date>2017-10-26</eol-date>
+    <eol-date>2017-11-26</eol-date>
 
     <media arch="x86_64">
       <iso>
