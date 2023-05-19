@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-18 18:07+0200\n"
-"PO-Revision-Date: 2023-05-18 00:20+0000\n"
+"PO-Revision-Date: 2023-05-19 00:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -4355,7 +4355,7 @@ msgstr "Red Hat 기업용 리눅스 2.1 최신화 7"
 
 #: data/os/redhat.com/rhel-2.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1"
-msgstr "레드햇 기업용 리눅스 2.1"
+msgstr "Red Hat 기업용 리눅스 2.1"
 
 #: data/os/redhat.com/rhel-3.1.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 1"
@@ -4391,373 +4391,371 @@ msgstr "Red Hat 기업용 리눅스 3 최신화 8"
 
 #: data/os/redhat.com/rhel-3.9.xml.in:6
 msgid "Red Hat Enterprise Linux 3 Update 9"
-msgstr "레드햇 기업용 리눅스 3 업데이트 9"
+msgstr "Red Hat 기업용 3 최신화 9"
 
 #: data/os/redhat.com/rhel-3.xml.in:6
 msgid "Red Hat Enterprise Linux 3"
-msgstr "레드햇 기업용 리눅스 3"
+msgstr "Red Hat 기업용 리눅스 3"
 
 #: data/os/redhat.com/rhel-4.0.xml.in:6
 msgid "Red Hat Enterprise Linux 4.0"
-msgstr "레드햇 기업용 리눅스 4.0"
+msgstr "Red Hat 기업용 리눅스 4.0"
 
 #: data/os/redhat.com/rhel-4.1.xml.in:6
 msgid "Red Hat Enterprise Linux 4.1"
-msgstr "레드햇 기업용 리눅스 4.1"
+msgstr "Red Hat 기업용 리눅스 4.1"
 
 #: data/os/redhat.com/rhel-4.2.xml.in:6
 msgid "Red Hat Enterprise Linux 4.2"
-msgstr "레드햇 기업용 리눅스 4.2"
+msgstr "Red Hat 기업용 리눅스 4.2"
 
 #: data/os/redhat.com/rhel-4.3.xml.in:6
 msgid "Red Hat Enterprise Linux 4.3"
-msgstr "레드햇 기업용 리눅스 4.3"
+msgstr "Red Hat 기업용 리눅스 4.3"
 
 #: data/os/redhat.com/rhel-4.4.xml.in:6
 msgid "Red Hat Enterprise Linux 4.4"
-msgstr "레드햇 기업용 리눅스 4.4"
+msgstr "Red Hat 기업용 리눅스 4.4"
 
 #: data/os/redhat.com/rhel-4.5.xml.in:6
 msgid "Red Hat Enterprise Linux 4.5"
-msgstr "레드햇 기업용 리눅스 4.5"
+msgstr "Red Hat 기업용 리눅스 4.5"
 
 #: data/os/redhat.com/rhel-4.6.xml.in:6
 msgid "Red Hat Enterprise Linux 4.6"
-msgstr "레드햇 기업용 리눅스 4.6"
+msgstr "Red Hat 기업용 리눅스 4.6"
 
 #: data/os/redhat.com/rhel-4.7.xml.in:6
 msgid "Red Hat Enterprise Linux 4.7"
-msgstr "레드햇 기업용 리눅스 4.7"
+msgstr "Red Hat 기업용 리눅스 4.7"
 
 #: data/os/redhat.com/rhel-4.8.xml.in:6
 msgid "Red Hat Enterprise Linux 4.8"
-msgstr "레드햇 기업용 리눅스 4.8"
+msgstr "Red Hat 기업용 리눅스 4.8"
 
 #: data/os/redhat.com/rhel-4.9.xml.in:6
 msgid "Red Hat Enterprise Linux 4.9"
-msgstr "레드햇 기업용 리눅스 4.9"
+msgstr "Red Hat 기업용 리눅스 4.9"
 
 #: data/os/redhat.com/rhel-5.0.xml.in:6
 msgid "Red Hat Enterprise Linux 5.0"
-msgstr "레드햇 기업용 리눅스 5.0"
+msgstr "Red Hat 기업용 리눅스 5.0"
 
 #: data/os/redhat.com/rhel-5.1.xml.in:6
 msgid "Red Hat Enterprise Linux 5.1"
-msgstr "레드햇 기업용 리눅스 5.1"
+msgstr "Red Hat 기업용 리눅스 5.1"
 
 #: data/os/redhat.com/rhel-5.10.xml.in:6
 msgid "Red Hat Enterprise Linux 5.10"
-msgstr "레드햇 기업용 리눅스 5.10"
+msgstr "Red Hat 기업용 리눅스 5.10"
 
 #: data/os/redhat.com/rhel-5.11.xml.in:6
 msgid "Red Hat Enterprise Linux 5.11"
-msgstr "레드햇 기업용 리눅스 5.11"
+msgstr "Red Hat 기업용 리눅스 5.11"
 
 #: data/os/redhat.com/rhel-5.2.xml.in:6
 msgid "Red Hat Enterprise Linux 5.2"
-msgstr "레드햇 기업용 리눅스 5.2"
+msgstr "Red Hat 기업용 리눅스 5.2"
 
 #: data/os/redhat.com/rhel-5.3.xml.in:6
 msgid "Red Hat Enterprise Linux 5.3"
-msgstr "레드햇 기업용 리눅스 5.3"
+msgstr "Red Hat 기업용 리눅스 5.3"
 
 #: data/os/redhat.com/rhel-5.4.xml.in:6
 msgid "Red Hat Enterprise Linux 5.4"
-msgstr "레드햇 기업용 리눅스 5.4"
+msgstr "Red Hat 기업용 리눅스 5.4"
 
 #: data/os/redhat.com/rhel-5.5.xml.in:6
 msgid "Red Hat Enterprise Linux 5.5"
-msgstr "레드햇 기업용 리눅스 5.5"
+msgstr "Red Hat 기업용 리눅스 5.5"
 
 #: data/os/redhat.com/rhel-5.6.xml.in:6
 msgid "Red Hat Enterprise Linux 5.6"
-msgstr "레드햇 기업용 리눅스 5.6"
+msgstr "Red Hat 기업용 리눅스 5.6"
 
 #: data/os/redhat.com/rhel-5.7.xml.in:6
 msgid "Red Hat Enterprise Linux 5.7"
-msgstr "레드햇 기업용 리눅스 5.7"
+msgstr "Red Hat 기업용 리눅스 5.7"
 
 #: data/os/redhat.com/rhel-5.8.xml.in:6
 msgid "Red Hat Enterprise Linux 5.8"
-msgstr "레드햇 기업용 리눅스 5.8"
+msgstr "Red Hat 기업용 리눅스 5.8"
 
 #: data/os/redhat.com/rhel-5.9.xml.in:6
 msgid "Red Hat Enterprise Linux 5.9"
-msgstr "레드햇 기업용 리눅스 5.9"
+msgstr "Red Hat 기업용 리눅스 5.9"
 
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 6 Unknown"
-msgstr "레드햇 기업용 리눅스 6 (알 수 없음)"
+msgstr "Red Hat 기업용 리눅스 6 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-6.0.xml.in:6
 msgid "Red Hat Enterprise Linux 6.0"
-msgstr "레드햇 기업용 리눅스 6.0"
+msgstr "Red Hat 기업용 리눅스 6.0"
 
 #: data/os/redhat.com/rhel-6.1.xml.in:6
 msgid "Red Hat Enterprise Linux 6.1"
-msgstr "레드햇 기업용 리눅스 6.1"
+msgstr "Red Hat 기업용 리눅스 6.1"
 
 #: data/os/redhat.com/rhel-6.10.xml.in:6
 msgid "Red Hat Enterprise Linux 6.10"
-msgstr "레드햇 기업용 리눅스 6.10"
+msgstr "Red Hat 기업용 리눅스 6.10"
 
 #: data/os/redhat.com/rhel-6.2.xml.in:6
 msgid "Red Hat Enterprise Linux 6.2"
-msgstr "레드햇 기업용 리눅스 6.2"
+msgstr "Red Hat 기업용 리눅스 6.2"
 
 #: data/os/redhat.com/rhel-6.3.xml.in:6
 msgid "Red Hat Enterprise Linux 6.3"
-msgstr "레드햇 기업용 리눅스 6.3"
+msgstr "Red Hat 기업용 리눅스 6.3"
 
 #: data/os/redhat.com/rhel-6.4.xml.in:6
 msgid "Red Hat Enterprise Linux 6.4"
-msgstr "레드햇 기업용 리눅스 6.4"
+msgstr "Red Hat 기업용 리눅스 6.4"
 
 #: data/os/redhat.com/rhel-6.5.xml.in:6
 msgid "Red Hat Enterprise Linux 6.5"
-msgstr "레드햇 기업용 리눅스 6.5"
+msgstr "Red Hat 기업용 리눅스 6.5"
 
 #: data/os/redhat.com/rhel-6.6.xml.in:6
 msgid "Red Hat Enterprise Linux 6.6"
-msgstr "레드햇 기업용 리눅스 6.6"
+msgstr "Red Hat 기업용 리눅스 6.6"
 
 #: data/os/redhat.com/rhel-6.7.xml.in:6
 msgid "Red Hat Enterprise Linux 6.7"
-msgstr "레드햇 기업용 리눅스 6.7"
+msgstr "Red Hat 기업용 리눅스 6.7"
 
 #: data/os/redhat.com/rhel-6.8.xml.in:6
 msgid "Red Hat Enterprise Linux 6.8"
-msgstr "레드햇 기업용 리눅스 6.8"
+msgstr "Red Hat 기업용 리눅스 6.8"
 
 #: data/os/redhat.com/rhel-6.9.xml.in:6
 msgid "Red Hat Enterprise Linux 6.9"
-msgstr "레드햇 기업용 리눅스 6.9"
+msgstr "Red Hat 기업용 리눅스 6.9"
 
 #: data/os/redhat.com/rhel-7-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 7 Unknown"
-msgstr "레드햇 기업용 리눅스 7 (알 수 없음)"
+msgstr "Red Hat 기업용 리눅스 7 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux 7.0"
-msgstr "레드햇 기업용 리눅스 7.0"
+msgstr "Red Hat 기업용 리눅스 7.0"
 
 #: data/os/redhat.com/rhel-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux 7.1"
-msgstr "레드햇 기업용 리눅스 7.1"
+msgstr "Red Hat 기업용 리눅스 7.1"
 
 #: data/os/redhat.com/rhel-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux 7.2"
-msgstr "레드햇 기업용 리눅스 7.2"
+msgstr "Red Hat 기업용 리눅스 7.2"
 
 #: data/os/redhat.com/rhel-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux 7.3"
-msgstr "레드햇 기업용 리눅스 7.3"
+msgstr "Red Hat 기업용 리눅스 7.3"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux 7.4"
-msgstr "레드햇 기업용 리눅스 7.4"
+msgstr "Red Hat 기업용 리눅스 7.4"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:18
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
-msgstr "레드햇 기업용 리눅스 7.4 대안 아키텍처"
+msgstr "Red Hat 기업용 리눅스 7.4 대체 구조"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:6
 msgid "Red Hat Enterprise Linux 7.5"
-msgstr "레드햇 기업용 리눅스 7.5"
+msgstr "Red Hat 기업용 리눅스 7.5"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:18
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
-msgstr "레드햇 기업용 리눅스 7.5 대안 아키텍처"
+msgstr "Red Hat 기업용 리눅스 7.5 대체 구조"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:6
 msgid "Red Hat Enterprise Linux 7.6"
-msgstr "레드햇 기업용 리눅스 7.6"
+msgstr "Red Hat 기업용 리눅스 7.6"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:18
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
-msgstr "레드햇 기업용 리눅스 7.6 대안 아키텍처"
+msgstr "Red Hat 기업용 리눅스 7.6 대체 구조"
 
 #: data/os/redhat.com/rhel-7.7.xml.in:6
 msgid "Red Hat Enterprise Linux 7.7"
-msgstr "레드햇 기업용 리눅스 7.7"
+msgstr "Red Hat 기업용 리눅스 7.7"
 
 #: data/os/redhat.com/rhel-7.8.xml.in:6
 msgid "Red Hat Enterprise Linux 7.8"
-msgstr "레드햇 기업용 리눅스 7.8"
+msgstr "Red Hat 기업용 리눅스 7.8"
 
 #: data/os/redhat.com/rhel-7.9.xml.in:6
 msgid "Red Hat Enterprise Linux 7.9"
-msgstr "레드햇 기업용 리눅스 7.9"
+msgstr "Red Hat 기업용 리눅스 7.9"
 
 #: data/os/redhat.com/rhel-8-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 8 Unknown"
-msgstr "레드햇 기업용 리눅스 8 (알 수 없음)"
+msgstr "Red Hat 기업용 리눅스 8 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-8.0.xml.in:6
 msgid "Red Hat Enterprise Linux 8.0"
-msgstr "레드햇 기업용 리눅스 8 .0"
+msgstr "Red Hat 기업용 리눅스 8 .0"
 
 #: data/os/redhat.com/rhel-8.1.xml.in:6
 msgid "Red Hat Enterprise Linux 8.1"
-msgstr "레드햇 기업용 리눅스 8 .1"
+msgstr "Red Hat 기업용 리눅스 8 .1"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
-msgstr "레드햇 기업용 리눅스 8 .2"
+msgstr "Red Hat 기업용 리눅스 8 .2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
 msgid "Red Hat Enterprise Linux 8.3"
-msgstr "레드햇 기업용 리눅스 8.3"
+msgstr "Red Hat 기업용 리눅스 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
 msgid "Red Hat Enterprise Linux 8.4"
-msgstr "레드햇 기업용 리눅스 8.4"
+msgstr "Red Hat 기업용 리눅스 8.4"
 
 #: data/os/redhat.com/rhel-8.5.xml.in:6
 msgid "Red Hat Enterprise Linux 8.5"
-msgstr "레드햇 기업용 리눅스 8 .5"
+msgstr "Red Hat 기업용 리눅스 8 .5"
 
 #: data/os/redhat.com/rhel-8.6.xml.in:6
 msgid "Red Hat Enterprise Linux 8.6"
-msgstr "레드햇 기업용 리눅스 8 .6"
+msgstr "Red Hat 기업용 리눅스 8 .6"
 
 #: data/os/redhat.com/rhel-8.7.xml.in:6
 msgid "Red Hat Enterprise Linux 8.7"
-msgstr "레드햇 기업용 리눅스 8 .7"
+msgstr "Red Hat 기업용 리눅스 8 .7"
 
 #: data/os/redhat.com/rhel-8.8.xml.in:6
 msgid "Red Hat Enterprise Linux 8.8"
-msgstr "레드햇 기업용 리눅스 8 .8"
+msgstr "Red Hat 기업용 리눅스 8 .8"
 
 #: data/os/redhat.com/rhel-8.9.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.9"
-msgstr "레드햇 기업용 리눅스 8 .0"
+msgstr "Red Hat 기업용 리눅스 8 .9"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
-msgstr "레드햇 기업용 리눅스 9 (알 수 없음)"
+msgstr "Red Hat 기업용 리눅스 9 (알 수 없음)"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
 msgid "Red Hat Enterprise Linux 9.0"
-msgstr "레드햇 기업용 리눅스 9.0"
+msgstr "Red Hat 기업용 리눅스 9.0"
 
 #: data/os/redhat.com/rhel-9.1.xml.in:6
 msgid "Red Hat Enterprise Linux 9.1"
-msgstr "레드햇 기업용 리눅스 9.1"
+msgstr "Red Hat 기업용 리눅스 9.1"
 
 #: data/os/redhat.com/rhel-9.2.xml.in:6
 msgid "Red Hat Enterprise Linux 9.2"
-msgstr "레드햇 기업용 리눅스 9.2"
+msgstr "Red Hat 기업용 리눅스 9.2"
 
 #: data/os/redhat.com/rhel-9.3.xml.in:6
 msgid "Red Hat Enterprise Linux 9.3"
-msgstr "레드햇 기업용 리눅스 9.3"
+msgstr "Red Hat 기업용 리눅스 9.3"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
-msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.0"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.0"
 
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.1"
-msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.1"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.1"
 
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.2"
-msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.2"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.2"
 
 #: data/os/redhat.com/rhel-atomic-7.3.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.3"
-msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.3"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.3"
 
 #: data/os/redhat.com/rhel-atomic-7.4.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.4"
-msgstr "레드햇 기업용 리눅스 아토믹 호스트 7.4"
+msgstr "Red Hat 기업용 리눅스 아토믹 호스트 7.4"
 
 #: data/os/redhat.com/rhel-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux Unknown"
-msgstr "레드햇 기업용 리눅스 (알 수 없음)"
+msgstr "Red Hat 기업용 리눅스 (알 수 없음)"
 
 #: data/os/redhat.com/rhl-1.0.xml.in:6
 msgid "Red Hat Linux 1.0"
-msgstr "레드햇 리눅스 1.0"
+msgstr "Red Hat 리눅스 1.0"
 
 #: data/os/redhat.com/rhl-1.1.xml.in:6
 msgid "Red Hat Linux 1.1"
-msgstr "레드햇 리눅스 1.1"
+msgstr "Red Hat 리눅스 1.1"
 
 #: data/os/redhat.com/rhl-2.0.xml.in:6
 msgid "Red Hat Linux 2.0"
-msgstr "레드햇 리눅스 2.0"
+msgstr "Red Hat 리눅스 2.0"
 
 #: data/os/redhat.com/rhl-2.1.xml.in:6
 msgid "Red Hat Linux 2.1"
-msgstr "레드햇 리눅스 2.1"
+msgstr "Red Hat 리눅스 2.1"
 
 #: data/os/redhat.com/rhl-3.0.3.xml.in:6
 msgid "Red Hat Linux 3.0.3"
-msgstr "레드햇 리눅스 3.0.3"
+msgstr "Red Hat 리눅스 3.0.3"
 
 #: data/os/redhat.com/rhl-4.0.xml.in:6
 msgid "Red Hat Linux 4.0"
-msgstr "레드햇 리눅스 4.0"
+msgstr "Red Hat 리눅스 4.0"
 
 #: data/os/redhat.com/rhl-4.1.xml.in:6
 msgid "Red Hat Linux 4.1"
-msgstr "레드햇 리눅스 4.1"
+msgstr "Red Hat 리눅스 4.1"
 
 #: data/os/redhat.com/rhl-4.2.xml.in:6
 msgid "Red Hat Linux 4.2"
-msgstr "레드햇 리눅스 4.2"
+msgstr "Red Hat 리눅스 4.2"
 
 #: data/os/redhat.com/rhl-5.0.xml.in:6
 msgid "Red Hat Linux 5.0"
-msgstr "레드햇 리눅스 5.0"
+msgstr "Red Hat 리눅스 5.0"
 
 #: data/os/redhat.com/rhl-5.1.xml.in:6
 msgid "Red Hat Linux 5.1"
-msgstr "레드햇 리눅스 5.1"
+msgstr "Red Hat 리눅스 5.1"
 
 #: data/os/redhat.com/rhl-5.2.xml.in:6
 msgid "Red Hat Linux 5.2"
-msgstr "레드햇 리눅스 5.2"
+msgstr "Red Hat 리눅스 5.2"
 
 #: data/os/redhat.com/rhl-6.0.xml.in:6
 msgid "Red Hat Linux 6.0"
-msgstr "레드햇 리눅스 6.0"
+msgstr "Red Hat 리눅스 6.0"
 
 #: data/os/redhat.com/rhl-6.1.xml.in:6
 msgid "Red Hat Linux 6.1"
-msgstr "레드햇 리눅스 6.1"
+msgstr "Red Hat 리눅스 6.1"
 
 #: data/os/redhat.com/rhl-6.2.xml.in:6
 msgid "Red Hat Linux 6.2"
-msgstr "레드햇 리눅스 6.2"
+msgstr "Red Hat 리눅스 6.2"
 
 #: data/os/redhat.com/rhl-7.1.xml.in:6
 msgid "Red Hat Linux 7.1"
-msgstr "레드햇 리눅스 7.1"
+msgstr "Red Hat 리눅스 7.1"
 
 #: data/os/redhat.com/rhl-7.2.xml.in:6
 msgid "Red Hat Linux 7.2"
-msgstr "레드햇 리눅스 7.2"
+msgstr "Red Hat 리눅스 7.2"
 
 #: data/os/redhat.com/rhl-7.3.xml.in:6
 msgid "Red Hat Linux 7.3"
-msgstr "레드햇 리눅스 7.3"
+msgstr "Red Hat 기업용 7.3"
 
 #: data/os/redhat.com/rhl-7.xml.in:6
 msgid "Red Hat Linux 7"
-msgstr "레드햇 리눅스 7"
+msgstr "Red Hat 리눅스 7"
 
 #: data/os/redhat.com/rhl-8.0.xml.in:6
 msgid "Red Hat Linux 8.0"
-msgstr "레드햇 리눅스 8.0"
+msgstr "Red Hat 리눅스 8.0"
 
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
-msgstr "레드햇 리눅스 9"
+msgstr "Red Hat 리눅스 9"
 
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:6
 msgid "Rocky Linux 8 Unknown"
@@ -4773,7 +4771,7 @@ msgstr "록키 리눅스 8 (알 수 없음)"
 #: data/os/rockylinux.org/rocky-9.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
 msgid "Rocky Enterprise Software Foundation"
-msgstr "Rocky Enterprise Software Foundation"
+msgstr "록키 기업용 소프트웨어 재단"
 
 #: data/os/rockylinux.org/rocky-8.4.xml.in:6
 msgid "Rocky Linux 8.4"
