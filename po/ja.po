@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 16:29+0200\n"
+"POT-Creation-Date: 2023-05-18 18:07+0200\n"
 "PO-Revision-Date: 2021-04-05 14:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -2445,18 +2445,18 @@ msgstr "Fedora 12"
 msgid "Fedora Linux 36"
 msgstr "Red Hat Linux 6.0"
 
-#: data/os/fedoraproject.org/fedora-36.xml.in:17
+#: data/os/fedoraproject.org/fedora-36.xml.in:18
 #, fuzzy
 msgid "Fedora Workstation 36"
 msgstr "Fedora 12"
 
-#: data/os/fedoraproject.org/fedora-36.xml.in:20
-#: data/os/fedoraproject.org/fedora-36.xml.in:23
+#: data/os/fedoraproject.org/fedora-36.xml.in:21
+#: data/os/fedoraproject.org/fedora-36.xml.in:24
 #, fuzzy
 msgid "Fedora Server 36"
 msgstr "Fedora 12"
 
-#: data/os/fedoraproject.org/fedora-36.xml.in:26
+#: data/os/fedoraproject.org/fedora-36.xml.in:27
 #, fuzzy
 msgid "Fedora Everything 36"
 msgstr "Fedora 12"
@@ -4617,7 +4617,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
 #: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
 #: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
-#: data/os/redhat.com/rhel-8.8.xml.in:8
+#: data/os/redhat.com/rhel-8.8.xml.in:8 data/os/redhat.com/rhel-8.9.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-9.2.xml.in:8 data/os/redhat.com/rhel-9.3.xml.in:8
@@ -4961,6 +4961,11 @@ msgstr "Red Hat Enterprise Linux 4.0"
 #: data/os/redhat.com/rhel-8.8.xml.in:6
 #, fuzzy
 msgid "Red Hat Enterprise Linux 8.8"
+msgstr "Red Hat Enterprise Linux 4.0"
+
+#: data/os/redhat.com/rhel-8.9.xml.in:6
+#, fuzzy
+msgid "Red Hat Enterprise Linux 8.9"
 msgstr "Red Hat Enterprise Linux 4.0"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
