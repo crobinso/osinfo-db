@@ -8,8 +8,8 @@
     <vendor>SUSE</vendor>
     <family>linux</family>
     <distro>sle</distro>
-    <upgrades id="http://suse.com/sle/15"/>
-    <derives-from id="http://suse.com/sle/15"/>
+    <upgrades id="http://suse.com/sle/15.4"/>
+    <derives-from id="http://suse.com/sle/15.4"/>
 
     <media arch="x86_64">
       <iso>
