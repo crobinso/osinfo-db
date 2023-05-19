@@ -7,15 +7,17 @@ import pytest
 from . import util
 
 
-SCHEMA = util.DataFiles.schema
-RELAXNG = ET.RelaxNG(ET.parse(SCHEMA.open("r")))
+@pytest.fixture(scope="module")
+def schema():
+    schema = ET.RelaxNG(ET.parse(util.DataFiles.schema.open("r")))
+    return schema
 
 
 @pytest.mark.parametrize("path", util.DataFiles.xmls())
-def test_schema(path):
-    if not RELAXNG.validate(ET.parse(path.open("r"))):
+def test_schema(path, schema):
+    if not schema.validate(ET.parse(path.open("r"))):
         # pylint: disable=no-member
-        raise AssertionError(str(RELAXNG.error_log.last_error))
+        raise AssertionError(str(schema.error_log.last_error))
 
 
 @pytest.mark.parametrize("path", util.SourceFiles.xmls(), ids=lambda p: p.name)
