@@ -6,7 +6,7 @@
     <name>FreeDOS 1.2</name>
     <version>1.2</version>
     <vendor>FreeDOS</vendor>
-    <family>linux</family>
+    <family>dos</family>
     <distro>freedos</distro>
 
     <release-date>2016-12-25</release-date>

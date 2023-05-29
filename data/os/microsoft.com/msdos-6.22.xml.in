@@ -6,7 +6,7 @@
     <name>Microsoft MS-DOS 6.22</name>
     <vendor>Microsoft</vendor>
     <version>6.22</version>
-    <family>msdos</family>
+    <family>dos</family>
     <distro>msdos</distro>
 
     <release-date>1994-06-01</release-date>
