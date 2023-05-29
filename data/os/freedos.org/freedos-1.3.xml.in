@@ -1,0 +1,52 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freedos.org/freedos/1.3">
+    <short-id>freedos1.3</short-id>
+    <name>FreeDOS 1.3</name>
+    <version>1.3</version>
+    <vendor>FreeDOS</vendor>
+    <family>dos</family>
+    <distro>freedos</distro>
+    <derives-from id="http://freedos.org/freedos/1.2"/>
+
+    <release-date>2022-02-20</release-date>
+
+    <variant id="standard">
+      <name>FreeDOS 1.3 "Standard" Installer</name>
+    </variant>
+    <variant id="legacy">
+      <name>FreeDOS 1.3 "Legacy" Installer</name>
+    </variant>
+
+    <media arch="i686" live="true">
+      <variant id="standard"/>
+      <iso>
+        <volume-id>FD13-LiveCD</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <media arch="i686">
+      <variant id="legacy"/>
+      <iso>
+        <volume-id>FD13-LEGACY</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>33554432</ram>
+        <storage>209715200</storage>
+      </minimum>
+
+      <recommended>
+        <ram>67108864</ram>
+        <storage>419430400</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
