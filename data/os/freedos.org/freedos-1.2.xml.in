@@ -18,7 +18,7 @@
       <name>FreeDOS 1.2 "Legacy" Installer</name>
     </variant>
 
-    <media arch="x86_64">
+    <media arch="i686">
       <variant id="standard"/>
       <url>https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12CD.iso</url>
       <iso>
@@ -27,7 +27,7 @@
       </iso>
     </media>
 
-    <media arch="x86_64">
+    <media arch="i686">
       <variant id="legacy"/>
       <url>https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.2/official/FD12LGCY.iso</url>
       <iso>
