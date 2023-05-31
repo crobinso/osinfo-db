@@ -28,7 +28,6 @@ class UniqueSet(set):
 
 
 class UrlType(UniqueSet, enum.Enum):
-    URL_GENERIC = {}
     URL_ISO = {
         # proper ISO mimetype
         "application/x-cd-image",
@@ -85,12 +84,6 @@ image_formats_types = {
 }
 
 
-def _is_content_type_allowed(content_type, url_type):
-    if url_type.name != UrlType.URL_GENERIC.name:
-        return content_type in url_type.value
-    return True
-
-
 def _transform_docker_url(url):
     """
     Transform docker:// url into a docker registry API call
@@ -124,7 +117,7 @@ def _check_url(session: requests.Session, url, url_type, real_url=None):
     )
     if not response.ok:
         return False
-    if content_type and not _is_content_type_allowed(content_type, url_type):
+    if content_type and content_type not in url_type.value:
         return False
     return True
 
@@ -137,11 +130,9 @@ def _collect_os_urls():
 
     for osxml in util.DataFiles.oses():
         urls = []
-        for i in osxml.images:
-            if not i.url:
-                continue
-            url_type = image_formats_types.get(i.format, UrlType.URL_GENERIC)
-            urls.append((i.url, url_type))
+        urls.extend(
+            [(i.url, image_formats_types[i.format]) for i in osxml.images if i.url]
+        )
         urls.extend([(m.url, UrlType.URL_ISO) for m in osxml.medias if m.url])
         for t in osxml.trees:
             if not t.url:
