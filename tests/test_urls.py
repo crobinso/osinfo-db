@@ -121,11 +121,9 @@ def _transform_docker_url(url):
     return url
 
 
-def _check_url(session: requests.Session, url, url_type):
-    logging.info("url: %s, type: %s", url, url_type)
+def _check_url(session: requests.Session, url, url_type, real_url=None):
+    logging.info("url: %s, type: %s", real_url if real_url else url, url_type)
     headers = {"user-agent": "Wget/1.0"}
-    if url_type == UrlType.URL_DISK_CONTAINERDISK:
-        url = _transform_docker_url(url)
     response = session.head(url, allow_redirects=True, headers=headers, timeout=30)
     content_type = response.headers.get("content-type")
     if content_type:
@@ -175,7 +173,21 @@ def _collect_os_urls():
             if t.treeinfo:
                 urls.append((url + ".treeinfo", UrlType.URL_TREEINFO))
         if urls:
-            ret.append(pytest.param(urls, id=osxml.shortid))
+            urls_http = []
+            urls_docker = []
+            urls_other = []
+            for url_pair in urls:
+                u = url_pair[0]
+                if u.startswith("http://") or u.startswith("https://"):
+                    urls_http.append(url_pair)
+                elif u.startswith("docker://"):
+                    urls_docker.append(url_pair)
+                else:
+                    urls_other.append(url_pair)
+            assert len(urls_http) + len(urls_docker) + len(urls_other) == len(urls)
+            ret.append(
+                pytest.param(urls_http, urls_docker, urls_other, id=osxml.shortid)
+            )
 
     return ret
 
@@ -194,12 +206,21 @@ def session():
     return session
 
 
-@pytest.mark.parametrize("urls", _collect_os_urls())
-def test_urls(urls, session):
+@pytest.mark.parametrize("urls_http,urls_docker,urls_other", _collect_os_urls())
+def test_urls(urls_http, urls_docker, urls_other, session):
     broken = []
-    for (url, url_type) in urls:
+    for (url, url_type) in urls_http:
         ok = _check_url(session, url, url_type)
 
         if not ok:
             broken.append(url)
+    for url, url_type in urls_docker:
+        http_url = _transform_docker_url(url)
+        ok = _check_url(session, http_url, url_type, real_url=url)
+
+        if not ok:
+            broken.append(url)
+    for url, _ in urls_other:
+        logging.warning("unhandled URL: %s", url)
+        broken.append(url)
     assert broken == []
