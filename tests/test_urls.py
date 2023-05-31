@@ -11,72 +11,64 @@ import requests
 from . import util
 
 
-class UrlType(enum.Enum):
-    URL_GENERIC = 1
-    URL_ISO = 2
-    URL_INITRD = 3
-    URL_DISK_RAW = 4
-    URL_DISK_QCOW2 = 5
-    URL_DISK_VMDK = 6
-    URL_TREEINFO = 7
-    URL_DISK_CONTAINERDISK = 8
-    URL_KERNEL = 9
+class UniqueSet(set):
+    """
+    Special set that is never equal to any other set.
+
+    This particular subclass of set is useful only as value in enum,
+    to ensure that enum items that have the same items are still considered
+    different; this is because enum.Enum turns duplicate values as aliases
+    for the first item.
+
+    Yes, it's an evil hack.
+    """
+
+    def __eq__(self, _):
+        return False
 
 
-iso_content_types = {
-    # proper ISO mimetype
-    "application/x-cd-image",
-    "application/x-iso9660-image",
-    # generic data
-    "application/octet-stream",
-    "binary/octet-stream",
-    # ISO files on archive.netbsd.org
-    "text/plain",
-    # a few openSUSE Live images
-    "application/x-up-download",
-}
-
-
-initrd_content_types = {
-    # generic data
-    "application/octet-stream",
-    # gzip-compressed
-    "application/x-gzip",
-}
-
-
-raw_content_types = {}
-
-
-qcow2_content_types = {
-    # generic data
-    "application/octet-stream",
-    # qcow2 files on fedoraproject.org mirrors; similar issue of
-    # https://pagure.io/fedora-infrastructure/issue/10766
-    "application/x-troff-man",
-    # qcow2 files on some opensuse.org mirrors
-    "text/plain",
-}
-
-
-vmdk_content_types = {}
-
-
-treeinfo_content_types = {
-    # generic data
-    "application/octet-stream",
-    # on some Fedora mirrors
-    "text/plain",
-}
-
-
-containerdisk_content_types = {
-    # image manifest
-    "application/vnd.docker.distribution.manifest.v1+json",
-}
-
-
-kernel_content_types = {}
+class UrlType(UniqueSet, enum.Enum):
+    URL_GENERIC = {}
+    URL_ISO = {
+        # proper ISO mimetype
+        "application/x-cd-image",
+        "application/x-iso9660-image",
+        # generic data
+        "application/octet-stream",
+        "binary/octet-stream",
+        # ISO files on archive.netbsd.org
+        "text/plain",
+        # a few openSUSE Live images
+        "application/x-up-download",
+    }
+    URL_INITRD = {
+        # generic data
+        "application/octet-stream",
+        # gzip-compressed
+        "application/x-gzip",
+    }
+    URL_DISK_RAW = {}
+    URL_DISK_QCOW2 = {
+        # generic data
+        "application/octet-stream",
+        # qcow2 files on fedoraproject.org mirrors; similar issue of
+        # https://pagure.io/fedora-infrastructure/issue/10766
+        "application/x-troff-man",
+        # qcow2 files on some opensuse.org mirrors
+        "text/plain",
+    }
+    URL_DISK_VMDK = {}
+    URL_TREEINFO = {
+        # generic data
+        "application/octet-stream",
+        # on some Fedora mirrors
+        "text/plain",
+    }
+    URL_DISK_CONTAINERDISK = {
+        # image manifest
+        "application/vnd.docker.distribution.manifest.v1+json",
+    }
+    URL_KERNEL = {}
 
 
 image_formats_types = {
@@ -88,22 +80,8 @@ image_formats_types = {
 
 
 def _is_content_type_allowed(content_type, url_type):
-    if url_type == UrlType.URL_ISO:
-        return content_type in iso_content_types
-    if url_type == UrlType.URL_INITRD:
-        return content_type in initrd_content_types
-    if url_type == UrlType.URL_DISK_RAW:
-        return content_type in raw_content_types
-    if url_type == UrlType.URL_DISK_QCOW2:
-        return content_type in qcow2_content_types
-    if url_type == UrlType.URL_DISK_VMDK:
-        return content_type in vmdk_content_types
-    if url_type == UrlType.URL_TREEINFO:
-        return content_type in treeinfo_content_types
-    if url_type == UrlType.URL_DISK_CONTAINERDISK:
-        return content_type in containerdisk_content_types
-    if url_type == UrlType.URL_KERNEL:
-        return content_type in kernel_content_types
+    if url_type.name != UrlType.URL_GENERIC.name:
+        return content_type in url_type.value
     return True
 
 
