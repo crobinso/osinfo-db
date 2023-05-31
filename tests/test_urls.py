@@ -69,6 +69,10 @@ class UrlType(UniqueSet, enum.Enum):
         "application/vnd.docker.distribution.manifest.v1+json",
     }
     URL_KERNEL = {}
+    URL_TREE = {
+        # HTML page of file listing
+        "text/html",
+    }
 
 
 image_formats_types = {
@@ -140,7 +144,7 @@ def _collect_os_urls():
         for t in osxml.trees:
             if not t.url:
                 continue
-            urls.append((t.url, UrlType.URL_GENERIC))
+            urls.append((t.url, UrlType.URL_TREE))
             url = t.url
             if not url.endswith("/"):
                 url += "/"
