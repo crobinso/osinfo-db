@@ -73,12 +73,14 @@ class UrlType(UniqueSet, enum.Enum):
         # HTML page of file listing
         "text/html",
     }
+    URL_DISK_VHDX = {}
 
 
 image_formats_types = {
     "containerdisk": UrlType.URL_DISK_CONTAINERDISK,
     "qcow2": UrlType.URL_DISK_QCOW2,
     "raw": UrlType.URL_DISK_RAW,
+    "vhdx": UrlType.URL_DISK_VHDX,
     "vmdk": UrlType.URL_DISK_VMDK,
 }
 
