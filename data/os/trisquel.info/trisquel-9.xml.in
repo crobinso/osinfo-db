@@ -9,8 +9,10 @@
     <vendor>The Trisquel Project</vendor>
     <family>linux</family>
     <distro>trisquel</distro>
-    <release-date>2021-10-16</release-date>
     <derives-from id="http://ubuntu.com/ubuntu/18.04"/>
+
+    <release-date>2021-10-16</release-date>
+    <eol-date>2023-05-30</eol-date>
 
     <variant id="trisquel">
       <name>Trisquel 9</name>
