@@ -24,7 +24,7 @@
 
     <media arch="all" live="true">
       <iso>
-        <volume-id>nixos-.*-(23.0[6-9]|23.[1-9]\d|2[4-9].\d\d|[3-9]\d.\d\d)-.*</volume-id>
+        <volume-id>nixos-.*-(23.1[2-9]|23.[2-9]\d|2[4-9].\d\d|[3-9]\d.\d\d)-.*</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
