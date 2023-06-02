@@ -14,6 +14,7 @@
     <derives-from id="http://nixos.org/nixos/22.05"/>
 
     <release-date>2022-11-30</release-date>
+    <eol-date>2023-06-30</eol-date>
 
     <resources arch="all">
       <minimum>
