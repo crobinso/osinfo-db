@@ -46,6 +46,8 @@ might be interested in [2][3]. Good luck!
 """
 
 import argparse
+import calendar
+import datetime
 import glob
 import os.path
 import logging
@@ -72,11 +74,24 @@ TEST_DIR = os.path.relpath(
 UNSTABLE = os.path.join(DATA_DIR, "nixos-unstable.xml.in")
 UNKNOWN = os.path.join(DATA_DIR, "nixos-unknown.xml.in")
 ISO_BYTES = 2 * 1024 * 1024
+SUPPORT_DURATION = 7  # months
 
 
 def fatal(*args):
     logging.critical(*args)
     sys.exit(1)
+
+
+def add_months(date, months):
+    """
+    Add `months` to the provided `date` while handling
+    all the proper wrapping for year and days.
+    """
+    month = date.month - 1 + months
+    year = date.year + month // 12
+    month = month % 12 + 1
+    day = min(date.day, calendar.monthrange(year, month)[1])
+    return datetime.date(year, month, day)
 
 
 def guess_next_release(release):
@@ -283,6 +298,9 @@ def create_new_stable(release, codename, release_date):
     tag_replace_text(xml_os, "media/iso/volume-id", prev_release, release)
     xml_os.find("codename").text = codename
     xml_os.find("release-date").text = release_date
+    xml_os.find("eol-date").text = add_months(
+        datetime.date.fromisoformat(release_date), SUPPORT_DURATION
+    )
 
     for tag_to_remove in ("devices", "firmware"):
         for e in xml_os.findall(tag_to_remove):
