@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 13:52+0200\n"
-"PO-Revision-Date: 2023-05-30 11:20+0000\n"
+"PO-Revision-Date: 2023-06-03 12:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -2743,22 +2743,16 @@ msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgstr "FreeDOS 1.2 \"Legacy\" Installer"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:6
-#, fuzzy
-#| msgid "FreeDOS 1.2"
 msgid "FreeDOS 1.3"
-msgstr "FreeDOS 1.2"
+msgstr "FreeDOS 1.3"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:16
-#, fuzzy
-#| msgid "FreeDOS 1.2 \"Standard\" Installer"
 msgid "FreeDOS 1.3 \"Standard\" Installer"
-msgstr "FreeDOS 1.2 \"Standard\" Installer"
+msgstr "FreeDOS 1.3 \"Standard\" Installer"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:19
-#, fuzzy
-#| msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgid "FreeDOS 1.3 \"Legacy\" Installer"
-msgstr "FreeDOS 1.2 \"Legacy\" Installer"
+msgstr "FreeDOS 1.3 \"Legacy\" Installer"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:7
 msgid "Freenix 14.2"
@@ -3699,28 +3693,20 @@ msgid "NixOS 22.11 (Plasma 5 installation CD)"
 msgstr "NixOS 22.11 (Plasma 5 installation CD)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 23.05"
-msgstr "NixOS 21.05"
+msgstr "NixOS 23.05"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 23.05 (minimal installation CD)"
-msgstr "NixOS 21.05 (minimal installation CD)"
+msgstr "NixOS 23.05 (minimal installation CD)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (GNOME installation CD)"
 msgid "NixOS 23.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (GNOME installation CD)"
+msgstr "NixOS 23.05 (GNOME installation CD)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 23.05 (Plasma 5 installation CD)"
-msgstr "NixOS 21.05 (Plasma 5 installation CD)"
+msgstr "NixOS 23.05 (Plasma 5 installation CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3943,10 +3929,8 @@ msgstr "OpenBSD 7.2"
 
 #: data/os/openbsd.org/openbsd-7.3.xml.in:6
 #: data/os/openbsd.org/openbsd-7.3.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.3"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.3"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
