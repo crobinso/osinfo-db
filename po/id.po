@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-18 18:07+0200\n"
+"POT-Creation-Date: 2023-06-02 13:52+0200\n"
 "PO-Revision-Date: 2022-11-30 06:19+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -2815,15 +2815,34 @@ msgid "FreeDOS 1.2"
 msgstr "FreeDOS 1.2"
 
 #: data/os/freedos.org/freedos-1.2.xml.in:8
+#: data/os/freedos.org/freedos-1.3.xml.in:8
 msgid "FreeDOS"
 msgstr "FreeDOS"
 
-#: data/os/freedos.org/freedos-1.2.xml.in:15
+#: data/os/freedos.org/freedos-1.2.xml.in:16
 msgid "FreeDOS 1.2 \"Standard\" Installer"
 msgstr "FreeDOS 1.2 \"Standard\" Installer"
 
-#: data/os/freedos.org/freedos-1.2.xml.in:18
+#: data/os/freedos.org/freedos-1.2.xml.in:19
 msgid "FreeDOS 1.2 \"Legacy\" Installer"
+msgstr "FreeDOS 1.2 \"Legacy\" Installer"
+
+#: data/os/freedos.org/freedos-1.3.xml.in:6
+#, fuzzy
+#| msgid "FreeDOS 1.2"
+msgid "FreeDOS 1.3"
+msgstr "FreeDOS 1.2"
+
+#: data/os/freedos.org/freedos-1.3.xml.in:16
+#, fuzzy
+#| msgid "FreeDOS 1.2 \"Standard\" Installer"
+msgid "FreeDOS 1.3 \"Standard\" Installer"
+msgstr "FreeDOS 1.2 \"Standard\" Installer"
+
+#: data/os/freedos.org/freedos-1.3.xml.in:19
+#, fuzzy
+#| msgid "FreeDOS 1.2 \"Legacy\" Installer"
+msgid "FreeDOS 1.3 \"Legacy\" Installer"
 msgstr "FreeDOS 1.2 \"Legacy\" Installer"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:7
@@ -3671,17 +3690,18 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-21.11.xml.in:8
 #: data/os/nixos.org/nixos-22.05.xml.in:8
 #: data/os/nixos.org/nixos-22.11.xml.in:8
+#: data/os/nixos.org/nixos-23.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
 msgid "NixOS"
 msgstr "NixOS"
 
-#: data/os/nixos.org/nixos-20.03.xml.in:57
+#: data/os/nixos.org/nixos-20.03.xml.in:58
 msgid "NixOS 20.03 (minimal installation CD)"
 msgstr "NixOS 20.03 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-20.03.xml.in:60
+#: data/os/nixos.org/nixos-20.03.xml.in:61
 msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD instalasi Plasma 5)"
 
@@ -3689,17 +3709,17 @@ msgstr "NixOS 20.03 (CD instalasi Plasma 5)"
 msgid "NixOS 20.09"
 msgstr "NixOS 20.09"
 
-#: data/os/nixos.org/nixos-20.09.xml.in:30
+#: data/os/nixos.org/nixos-20.09.xml.in:31
 msgid "NixOS 20.09 (minimal installation CD)"
 msgstr "NixOS 20.09 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-20.09.xml.in:33
+#: data/os/nixos.org/nixos-20.09.xml.in:34
 #, fuzzy
 #| msgid "NixOS 20.09 (minimal installation CD)"
 msgid "NixOS 20.09 (GNOME installation CD)"
 msgstr "NixOS 20.09 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-20.09.xml.in:36
+#: data/os/nixos.org/nixos-20.09.xml.in:37
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
 msgstr "NixOS 20.09 (CD instalasi Plasma 5)"
 
@@ -3707,17 +3727,17 @@ msgstr "NixOS 20.09 (CD instalasi Plasma 5)"
 msgid "NixOS 21.05"
 msgstr "NixOS 21.05"
 
-#: data/os/nixos.org/nixos-21.05.xml.in:30
+#: data/os/nixos.org/nixos-21.05.xml.in:31
 msgid "NixOS 21.05 (minimal installation CD)"
 msgstr "NixOS 21.05 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-21.05.xml.in:33
+#: data/os/nixos.org/nixos-21.05.xml.in:34
 #, fuzzy
 #| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 21.05 (GNOME installation CD)"
 msgstr "NixOS 21.05 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-21.05.xml.in:36
+#: data/os/nixos.org/nixos-21.05.xml.in:37
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
 
@@ -3725,17 +3745,17 @@ msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
 msgid "NixOS 21.11"
 msgstr "NixOS 21.11"
 
-#: data/os/nixos.org/nixos-21.11.xml.in:30
+#: data/os/nixos.org/nixos-21.11.xml.in:31
 msgid "NixOS 21.11 (minimal installation CD)"
 msgstr "NixOS 21.11 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-21.11.xml.in:33
+#: data/os/nixos.org/nixos-21.11.xml.in:34
 #, fuzzy
 #| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 21.11 (GNOME installation CD)"
 msgstr "NixOS 21.11 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-21.11.xml.in:36
+#: data/os/nixos.org/nixos-21.11.xml.in:37
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgstr "NixOS 21.11 (CD instalasi Plasma 5)"
 
@@ -3743,17 +3763,17 @@ msgstr "NixOS 21.11 (CD instalasi Plasma 5)"
 msgid "NixOS 22.05"
 msgstr "NixOS 22.05"
 
-#: data/os/nixos.org/nixos-22.05.xml.in:30
+#: data/os/nixos.org/nixos-22.05.xml.in:31
 msgid "NixOS 22.05 (minimal installation CD)"
 msgstr "NixOS 22.05 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-22.05.xml.in:33
+#: data/os/nixos.org/nixos-22.05.xml.in:34
 #, fuzzy
 #| msgid "NixOS 22.05 (minimal installation CD)"
 msgid "NixOS 22.05 (GNOME installation CD)"
 msgstr "NixOS 22.05 (CD instalasi minimal)"
 
-#: data/os/nixos.org/nixos-22.05.xml.in:36
+#: data/os/nixos.org/nixos-22.05.xml.in:37
 msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr "NixOS 22.05 (CD instalasi Plasma 5)"
 
@@ -3780,6 +3800,30 @@ msgstr "NixOS Unstable (CD instalasi GNOME)"
 #| msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgid "NixOS 22.11 (Plasma 5 installation CD)"
 msgstr "NixOS 21.11 (CD instalasi Plasma 5)"
+
+#: data/os/nixos.org/nixos-23.05.xml.in:6
+#, fuzzy
+#| msgid "NixOS 21.05"
+msgid "NixOS 23.05"
+msgstr "NixOS 21.05"
+
+#: data/os/nixos.org/nixos-23.05.xml.in:30
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 23.05 (minimal installation CD)"
+msgstr "NixOS 21.05 (CD instalasi minimal)"
+
+#: data/os/nixos.org/nixos-23.05.xml.in:33
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 23.05 (GNOME installation CD)"
+msgstr "NixOS 21.05 (CD instalasi minimal)"
+
+#: data/os/nixos.org/nixos-23.05.xml.in:36
+#, fuzzy
+#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgid "NixOS 23.05 (Plasma 5 installation CD)"
+msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3856,6 +3900,7 @@ msgstr "OpenBSD 4.2"
 #: data/os/openbsd.org/openbsd-7.0.xml.in:10
 #: data/os/openbsd.org/openbsd-7.1.xml.in:10
 #: data/os/openbsd.org/openbsd-7.2.xml.in:10
+#: data/os/openbsd.org/openbsd-7.3.xml.in:10
 msgid "OpenBSD Project"
 msgstr "Proyek OpenBSD"
 
@@ -4003,6 +4048,13 @@ msgstr "OpenBSD 7.0"
 msgid "OpenBSD 7.2"
 msgstr "OpenBSD 7.0"
 
+#: data/os/openbsd.org/openbsd-7.3.xml.in:6
+#: data/os/openbsd.org/openbsd-7.3.xml.in:18
+#, fuzzy
+#| msgid "OpenBSD 7.0"
+msgid "OpenBSD 7.3"
+msgstr "OpenBSD 7.0"
+
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
 msgstr ""
@@ -4098,12 +4150,12 @@ msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"
 
 #: data/os/opensuse.org/opensuse-15.2.xml.in:6
-#: data/os/opensuse.org/opensuse-15.2.xml.in:17
+#: data/os/opensuse.org/opensuse-15.2.xml.in:18
 msgid "openSUSE Leap 15.2"
 msgstr "openSUSE Leap 15.2"
 
 #: data/os/opensuse.org/opensuse-15.3.xml.in:6
-#: data/os/opensuse.org/opensuse-15.3.xml.in:17
+#: data/os/opensuse.org/opensuse-15.3.xml.in:18
 msgid "openSUSE Leap 15.3"
 msgstr "openSUSE Leap 15.3"
 
@@ -5158,11 +5210,8 @@ msgstr "Solaris 9"
 msgid "SUSE CaaS Platform 1.0"
 msgstr "SUSE CaaS Platform 1.0"
 
-#: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-1.0.xml.in:9
-#: data/os/suse.com/caasp-2.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:9
-#: data/os/suse.com/caasp-3.0.xml.in:8 data/os/suse.com/caasp-3.0.xml.in:9
-#: data/os/suse.com/caasp-unknown.xml.in:8
-#: data/os/suse.com/caasp-unknown.xml.in:9
+#: data/os/suse.com/caasp-1.0.xml.in:8 data/os/suse.com/caasp-2.0.xml.in:8
+#: data/os/suse.com/caasp-3.0.xml.in:8 data/os/suse.com/caasp-unknown.xml.in:8
 #: data/os/suse.com/sle-15-unknown.xml.in:8 data/os/suse.com/sle-15.1.xml.in:8
 #: data/os/suse.com/sle-15.2.xml.in:8 data/os/suse.com/sle-15.3.xml.in:8
 #: data/os/suse.com/sle-15.4.xml.in:8 data/os/suse.com/sle-15.xml.in:8
@@ -5176,10 +5225,6 @@ msgstr "SUSE CaaS Platform 1.0"
 #: data/os/suse.com/sled-12.3.xml.in:8 data/os/suse.com/sled-12.4.xml.in:8
 #: data/os/suse.com/sled-12.5.xml.in:8 data/os/suse.com/sled-12.xml.in:8
 #: data/os/suse.com/sled-9.xml.in:8 data/os/suse.com/slem-5.0.xml.in:8
-#: data/os/suse.com/slem-5.0.xml.in:9 data/os/suse.com/slem-5.0.xml.in:10
-#: data/os/suse.com/slem-5.0.xml.in:11 data/os/suse.com/slem-5.0.xml.in:12
-#: data/os/suse.com/slem-5.0.xml.in:13 data/os/suse.com/slem-5.0.xml.in:14
-#: data/os/suse.com/slem-5.0.xml.in:15 data/os/suse.com/slem-5.0.xml.in:16
 #: data/os/suse.com/slem-5.1.xml.in:8 data/os/suse.com/slem-5.2.xml.in:8
 #: data/os/suse.com/sles-10.1.xml.in:8 data/os/suse.com/sles-10.2.xml.in:8
 #: data/os/suse.com/sles-10.3.xml.in:8 data/os/suse.com/sles-10.4.xml.in:8
