@@ -5,7 +5,7 @@
   <os id="http://trisquel.info/trisquel/10">
     <short-id>trisquel10</short-id>
     <short-id>trisquel-nabia</short-id>
-    <name>Trisquel</name>
+    <name>Trisquel 10.0 LTS</name>
     <version>10</version>
     <vendor>The Trisquel Project</vendor>
     <family>linux</family>

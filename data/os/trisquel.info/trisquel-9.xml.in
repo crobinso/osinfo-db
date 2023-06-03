@@ -4,7 +4,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://trisquel.info/trisquel/9">
     <short-id>trisquel9</short-id>
-    <name>Trisquel</name>
+    <name>Trisquel 9.0 LTS</name>
     <version>9</version>
     <vendor>The Trisquel Project</vendor>
     <family>linux</family>

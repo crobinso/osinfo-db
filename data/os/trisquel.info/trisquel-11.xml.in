@@ -5,7 +5,7 @@
   <os id="http://trisquel.info/trisquel/11">
     <short-id>trisquel11</short-id>
     <short-id>trisquel-aramo</short-id>
-    <name>Trisquel</name>
+    <name>Trisquel 11.0 LTS</name>
     <version>11</version>
     <vendor>The Trisquel Project</vendor>
     <family>linux</family>
