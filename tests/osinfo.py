@@ -43,6 +43,18 @@ class _XMLBase:
             return int(text)
         return default
 
+    def _get_bool(self, element_name, default=None):
+        text = self._get_text(element_name)
+        if text is not None:
+            return text == "true"
+        return default
+
+    def _get_attr_bool(self, attr_name, default=None):
+        value = self._root.attrib.get(attr_name, None)
+        if value:
+            return value == "true"
+        return default
+
 
 class Os(_XMLBase):
     def __init__(self, path):
