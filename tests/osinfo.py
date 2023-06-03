@@ -334,6 +334,24 @@ class ISO(_XMLBase):
     def volumesize(self):
         return self._get_int("volume-size", default=0)
 
+    @_cache_property
+    def l10n_languages(self):
+        return [L10nLanguage(t) for t in self._root.findall("l10n-language")]
+
+
+class L10nLanguage(_XMLBase):
+    @_cache_property
+    def value(self):
+        return self._root.text
+
+    @_cache_property
+    def regex(self):
+        return self._get_attr_bool("regex", default=False)
+
+    @_cache_property
+    def l10n_language_map(self):
+        return self._root.attrib.get("l10n-language-map", None)
+
 
 class Device(_XMLBase):
     def __init__(self, path):
