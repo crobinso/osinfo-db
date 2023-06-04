@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-03 23:11+0200\n"
-"PO-Revision-Date: 2023-06-03 12:20+0000\n"
+"PO-Revision-Date: 2023-06-04 12:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -5343,10 +5343,8 @@ msgid "Pop!_OS 20.10"
 msgstr "팝!_OS 20.10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:8
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 10.0 LTS"
-msgstr "트리스퀄 9"
+msgstr "트리스퀄 10.0 LTS"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:10
 #: data/os/trisquel.info/trisquel-11.xml.in:10
@@ -5355,64 +5353,44 @@ msgid "The Trisquel Project"
 msgstr "트리스퀄 프로젝트"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:19
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 10"
-msgstr "트리스퀄 9"
+msgstr "트리스퀄 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:22
-#, fuzzy
-#| msgid "Triskel 9"
 msgid "Triskel 10"
-msgstr "트리스켈 9"
+msgstr "트리스켈 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:25
-#, fuzzy
-#| msgid "Trisquel 9 Mini"
 msgid "Trisquel 10 Mini"
-msgstr "트리스퀄 9 미니"
+msgstr "트리스퀄 10 미니"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:28
-#, fuzzy
-#| msgid "Trisquel 9 Sugar Toast"
 msgid "Trisquel 10 Sugar Toast"
-msgstr "트리스퀄 9 슈가 토스트"
+msgstr "트리스퀄 10 슈가 토스트"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:8
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 11.0 LTS"
-msgstr "트리스퀄 9"
+msgstr "트리스퀄 11.0 LTS"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:19
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 11"
-msgstr "트리스퀄 9"
+msgstr "트리스퀄 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:22
-#, fuzzy
-#| msgid "Triskel 9"
 msgid "Triskel 11"
-msgstr "트리스켈 9"
+msgstr "트리스켈 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:25
-#, fuzzy
-#| msgid "Trisquel 9 Mini"
 msgid "Trisquel 11 Mini"
-msgstr "트리스퀄 9 미니"
+msgstr "트리스퀄 11 미니"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:28
-#, fuzzy
-#| msgid "Trisquel 9 Sugar Toast"
 msgid "Trisquel 11 Sugar Toast"
-msgstr "트리스퀄 9 슈가 토스트"
+msgstr "트리스퀄 11 슈가 토스트"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:7
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 9.0 LTS"
-msgstr "트리스퀄 9"
+msgstr "트리스퀄 9.0 LTS"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:18
 msgid "Trisquel 9"
