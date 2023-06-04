@@ -390,15 +390,15 @@
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud.centos.org/centos/8-stream/aarch64/images/CentOS-Stream-GenericCloud-8-20230501.0.aarch64.qcow2</url>
+      <url>https://cloud.centos.org/centos/8-stream/aarch64/images/CentOS-Stream-GenericCloud-8-latest.aarch64.qcow2</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud.centos.org/centos/8-stream/ppc64le/images/CentOS-Stream-GenericCloud-8-20230501.0.ppc64le.qcow2</url>
+      <url>https://cloud.centos.org/centos/8-stream/ppc64le/images/CentOS-Stream-GenericCloud-8-latest.ppc64le.qcow2</url>
     </image>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud.centos.org/centos/8-stream/x86_64/images/CentOS-Stream-GenericCloud-8-20230501.0.x86_64.qcow2</url>
+      <url>https://cloud.centos.org/centos/8-stream/x86_64/images/CentOS-Stream-GenericCloud-8-latest.x86_64.qcow2</url>
     </image>
 
     <resources arch="all">
