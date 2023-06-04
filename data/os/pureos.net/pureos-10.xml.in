@@ -33,9 +33,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="gnome"/>
-      <url>https://downloads.puri.sm/byzantium/gnome/2022-05-02/pureos-10~devel-gnome-live-20220502_amd64.iso</url>
+      <url>https://downloads.puri.sm/byzantium/gnome/2023-06-02/pureos-10.3-gnome-live-20230602_amd64.iso</url>
       <iso>
-        <volume-id>PureOS 10~devel gnome \(live\)</volume-id>
+        <volume-id>PureOS 10(~devel|\.\d) gnome \(live\)</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
@@ -43,9 +43,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="kde"/>
-      <url>https://downloads.puri.sm/byzantium/plasma/2022-05-02/pureos-10~devel-plasma-live-20220502_amd64.iso</url>
+      <url>https://downloads.puri.sm/byzantium/plasma/2023-06-02/pureos-10.3-plasma-live-20230602_amd64.iso</url>
       <iso>
-	<volume-id>PureOS 10~devel plasma \(live\)</volume-id>
+	<volume-id>PureOS 10(~devel|\.\d) plasma \(live\)</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd.img</initrd>
