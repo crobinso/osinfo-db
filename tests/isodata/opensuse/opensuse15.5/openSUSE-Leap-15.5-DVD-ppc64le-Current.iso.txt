@@ -1,0 +1,16 @@
+CD-ROM is in ISO 9660 format
+System id: LINUX
+Volume id: openSUSE-Leap-15.5-DVD-ppc64le49
+Volume set id: 
+Publisher id: SUSE LINUX GmbH
+Data preparer id: KIWI - http://opensuse.github.com/kiwi
+Application id: openSUSE-Leap-15.5-DVD-ppc64le-Build491.1-Media
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 2004703
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
