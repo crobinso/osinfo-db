@@ -225,11 +225,8 @@ class Image(_XMLBase):
         return self._get_text("url")
 
     @_cache_property
-    def variant(self):
-        variant = self._root.find("variant")
-        if variant is not None:
-            return variant.attrib["id"]
-        return None
+    def variants(self):
+        return [v.attrib["id"] for v in self._root.findall("variant")]
 
     @_cache_property
     def format(self):
@@ -249,11 +246,8 @@ class Media(_XMLBase):
         return None
 
     @_cache_property
-    def variant(self):
-        variant = self._root.find("variant")
-        if variant is not None:
-            return variant.attrib["id"]
-        return None
+    def variants(self):
+        return [v.attrib["id"] for v in self._root.findall("variant")]
 
     @_cache_property
     def installscripts(self):
@@ -270,11 +264,8 @@ class Tree(_XMLBase):
         return self._get_text("url")
 
     @_cache_property
-    def variant(self):
-        variant = self._root.find("variant")
-        if variant is not None:
-            return variant.attrib["id"]
-        return None
+    def variants(self):
+        return [v.attrib["id"] for v in self._root.findall("variant")]
 
     @_cache_property
     def treeinfo(self):

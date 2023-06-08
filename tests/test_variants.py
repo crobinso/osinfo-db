@@ -5,36 +5,42 @@ from . import util
 
 
 @util.os_parametrize("osxml", filter_media=True)
-def test_existing_variant_for_media(osxml):
-    variants = osxml.variants
+def test_existing_variants_for_media(osxml):
+    os_variants = osxml.variants
     for media in osxml.medias:
-        variant = media.variant
-        if variant and variant not in variants:
-            raise AssertionError(
-                "variants: media in OS %s has variant=%s "
-                "but declared variants are %s" % (osxml.shortid, variant, variants)
-            )
+        media_variants = media.variants
+        for variant in media_variants:
+            if variant not in os_variants:
+                raise AssertionError(
+                    "variants: media in OS %s has variant=%s "
+                    "but declared variants are %s"
+                    % (osxml.shortid, variant, os_variants)
+                )
 
 
 @util.os_parametrize("osxml", filter_trees=True)
-def test_existing_variant_for_trees(osxml):
-    variants = osxml.variants
+def test_existing_variants_for_trees(osxml):
+    os_variants = osxml.variants
     for tree in osxml.trees:
-        variant = tree.variant
-        if variant and variant not in variants:
-            raise AssertionError(
-                "variants: tree in OS %s has variant=%s "
-                "but declared variants are %s" % (osxml.shortid, variant, variants)
-            )
+        tree_variants = tree.variants
+        for variant in tree_variants:
+            if variant not in os_variants:
+                raise AssertionError(
+                    "variants: tree in OS %s has variant=%s "
+                    "but declared variants are %s"
+                    % (osxml.shortid, variant, os_variants)
+                )
 
 
 @util.os_parametrize("osxml", filter_images=True)
-def test_existing_variant_for_images(osxml):
-    variants = osxml.variants
+def test_existing_variants_for_images(osxml):
+    os_variants = osxml.variants
     for image in osxml.images:
-        variant = image.variant
-        if variant and variant not in variants:
-            raise AssertionError(
-                "variants: image in OS %s has variant=%s "
-                "but declared variants are %s" % (osxml.shortid, variant, variants)
-            )
+        image_variants = image.variants
+        for variant in image_variants:
+            if variant not in os_variants:
+                raise AssertionError(
+                    "variants: media in OS %s has variant=%s "
+                    "but declared variants are %s"
+                    % (osxml.shortid, variant, os_variants)
+                )
