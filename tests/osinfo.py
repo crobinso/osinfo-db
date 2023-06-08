@@ -344,12 +344,26 @@ class Datamap(_XMLBase):
         root = ET.parse(self.path.open("r")).getroot().find("datamap")
         super().__init__(root)
 
+    @_cache_property
+    def _mapping(self):
+        return dict(self.mapping_list)
+
     def __repr__(self):
         return "<%s path=%s>" % (self.__class__.__name__, self.path)
 
     @_cache_property
     def internal_id(self):
         return self._root.get("id")
+
+    @_cache_property
+    def mapping_list(self):
+        return [
+            (entry.attrib["inval"], entry.attrib["outval"])
+            for entry in self._root.findall("entry")
+        ]
+
+    def __getitem__(self, key):
+        return self._mapping[key]
 
 
 class InstallScript(_XMLBase):
