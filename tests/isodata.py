@@ -6,7 +6,6 @@ class _ISODataMedia:
     def __init__(
         self, path, volumeid, publisherid, systemid, applicationid, volumesize
     ):
-
         self.path = path
         self.volumeid = volumeid if volumeid is not None else ""
         self.publisherid = publisherid if publisherid is not None else ""

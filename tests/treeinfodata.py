@@ -6,7 +6,6 @@ import configparser
 
 class _TreeinfoData:
     def __init__(self, path, arch, family, variant, version):
-
         self.path = path
         self.arch = arch or ""
         self.family = family or ""

@@ -184,7 +184,7 @@ def session():
 @pytest.mark.parametrize("urls_http,urls_docker,urls_other", _collect_os_urls())
 def test_urls(urls_http, urls_docker, urls_other, session):
     broken = []
-    for (url, url_type) in urls_http:
+    for url, url_type in urls_http:
         ok = _check_url(session, url, url_type)
 
         if not ok:
