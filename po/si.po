@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-03 23:11+0200\n"
+"POT-Creation-Date: 2023-06-13 07:57+0200\n"
 "PO-Revision-Date: 2021-08-19 07:04+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/"
@@ -3960,6 +3960,7 @@ msgstr ""
 #: data/os/opensuse.org/opensuse-15.2.xml.in:8
 #: data/os/opensuse.org/opensuse-15.3.xml.in:8
 #: data/os/opensuse.org/opensuse-15.4.xml.in:8
+#: data/os/opensuse.org/opensuse-15.5.xml.in:8
 #: data/os/opensuse.org/opensuse-42.1.xml.in:8
 #: data/os/opensuse.org/opensuse-42.2.xml.in:8
 #: data/os/opensuse.org/opensuse-42.3.xml.in:8
@@ -4038,6 +4039,11 @@ msgstr ""
 #: data/os/opensuse.org/opensuse-15.4.xml.in:6
 #: data/os/opensuse.org/opensuse-15.4.xml.in:17
 msgid "openSUSE Leap 15.4"
+msgstr ""
+
+#: data/os/opensuse.org/opensuse-15.5.xml.in:6
+#: data/os/opensuse.org/opensuse-15.5.xml.in:17
+msgid "openSUSE Leap 15.5"
 msgstr ""
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
