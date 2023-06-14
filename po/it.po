@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-13 07:57+0200\n"
-"PO-Revision-Date: 2023-06-04 12:20+0000\n"
+"PO-Revision-Date: 2023-06-13 12:20+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -4046,10 +4046,8 @@ msgstr "openSUSE Leap 15.4"
 
 #: data/os/opensuse.org/opensuse-15.5.xml.in:6
 #: data/os/opensuse.org/opensuse-15.5.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.5"
-msgstr "openSUSE Leap 15.0"
+msgstr "openSUSE Leap 15.5"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
