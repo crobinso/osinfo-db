@@ -18,8 +18,8 @@
       <iso>
         <volume-id>Fedora-SB-ostree-x86_64-37</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="aarch64" installer-script="false">
@@ -27,8 +27,8 @@
       <iso>
         <volume-id>Fedora-SB-ostree-aarch64-37</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="ppc64le" installer-script="false">
@@ -36,8 +36,8 @@
       <iso>
         <volume-id>Fedora-SB-ostree-ppc64le-37</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
     </media>
 
     <tree arch="x86_64">

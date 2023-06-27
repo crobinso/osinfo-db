@@ -28,8 +28,8 @@
       <iso>
         <volume-id>Fedora-SB-ostree-aarch64-32</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <tree arch="x86_64">
