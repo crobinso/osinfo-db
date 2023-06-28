@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 17:13+0200\n"
-"PO-Revision-Date: 2023-06-13 15:27+0000\n"
+"PO-Revision-Date: 2023-06-25 17:39+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -5153,10 +5153,8 @@ msgid "SUSE Linux Enterprise 15 SP4"
 msgstr "SUSE Linux Enterprise 15 SP4"
 
 #: data/os/suse.com/sle-15.5.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP5"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP5"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -5251,16 +5249,12 @@ msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "SUSE Linux Enterprise Micro 5.2"
 
 #: data/os/suse.com/slem-5.3.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.3"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.3"
 
 #: data/os/suse.com/slem-5.4.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.4"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.4"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
