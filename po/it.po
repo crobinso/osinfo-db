@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 17:13+0200\n"
-"PO-Revision-Date: 2023-06-13 12:20+0000\n"
+"PO-Revision-Date: 2023-06-25 17:39+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3680,7 +3680,7 @@ msgstr "NixOS 22.05 (CD di installazione di Plasma 5)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:6
 msgid "NixOS 22.11"
-msgstr "NixOS 21.11"
+msgstr "NixOS 22.11"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:30
 msgid "NixOS 22.11 (minimal installation CD)"
@@ -5149,10 +5149,8 @@ msgid "SUSE Linux Enterprise 15 SP4"
 msgstr "SUSE Linux Enterprise 15 SP4"
 
 #: data/os/suse.com/sle-15.5.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP5"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP5"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -5247,16 +5245,12 @@ msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "SUSE Linux Enterprise Micro 5.2"
 
 #: data/os/suse.com/slem-5.3.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.3"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.3"
 
 #: data/os/suse.com/slem-5.4.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.4"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.4"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
