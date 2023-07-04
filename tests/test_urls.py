@@ -32,6 +32,7 @@ class UrlType(UniqueSet, enum.Enum):
         # proper ISO mimetype
         "application/x-cd-image",
         "application/x-iso9660-image",
+        "application/x-iso",
         # generic data
         "application/octet-stream",
         "binary/octet-stream",
