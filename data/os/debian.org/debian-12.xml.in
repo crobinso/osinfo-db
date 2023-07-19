@@ -80,8 +80,8 @@
       <iso>
         <volume-id>Debian 12.\d+.\d+ armhf n</volume-id>
       </iso>
-      <kernel>install.armhf/vmlinuz</kernel>
-      <initrd>install.armhf/initrd.gz</initrd>
+      <kernel>install.ahf/vmlinuz</kernel>
+      <initrd>install.ahf/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <variant id="universal-netinst"/>
@@ -136,8 +136,8 @@
       <iso>
         <volume-id>Debian 12.\d+.\d+ armhf \d+</volume-id>
       </iso>
-      <kernel>install.armhf/vmlinuz</kernel>
-      <initrd>install.armhf/initrd.gz</initrd>
+      <kernel>install.ahf/vmlinuz</kernel>
+      <initrd>install.ahf/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <variant id="universal"/>
