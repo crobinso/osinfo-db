@@ -302,6 +302,10 @@ class Tree(_XMLBase):
     def initrd(self):
         return self._get_text("initrd")
 
+    @_cache_property
+    def arch(self):
+        return self._root.attrib["arch"]
+
 
 class Treeinfo(_XMLBase):
     @_cache_property
