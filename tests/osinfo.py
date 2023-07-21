@@ -269,6 +269,14 @@ class Media(_XMLBase):
             for s in i.findall("script")
         ]
 
+    @_cache_property
+    def installer_script(self):
+        return self._get_attr_bool("installer-script", default=True)
+
+    @_cache_property
+    def arch(self):
+        return self._root.attrib["arch"]
+
 
 class Tree(_XMLBase):
     @_cache_property
