@@ -1,6 +1,7 @@
 # This work is licensed under the GNU GPLv2 or later.
 # See the COPYING file in the top-level directory.
 
+import copy
 import re
 
 import lxml.etree as ET
@@ -54,6 +55,9 @@ class _XMLBase:
         if value:
             return value == "true"
         return default
+
+    def get_cloned_element(self):
+        return copy.deepcopy(self._root)
 
 
 class Os(_XMLBase):
