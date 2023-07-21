@@ -421,6 +421,36 @@ class InstallScript(_XMLBase):
     def internal_id(self):
         return self._root.get("id")
 
+    @_cache_property
+    def injection_methods(self):
+        return [t.text for t in self._root.findall("injection-method")]
+
+    @_cache_property
+    def params(self):
+        configlist = self._root.find("config")
+        if configlist is None:
+            return []
+        return [InstallScriptConfigParam(t) for t in configlist.findall("param")]
+
+    @_cache_property
+    def template(self):
+        template = self._root.find("template")[0]
+        return ET.XML(ET.tostring(template))
+
+
+class InstallScriptConfigParam(_XMLBase):
+    @_cache_property
+    def name(self):
+        return self._root.attrib["name"]
+
+    @_cache_property
+    def policy(self):
+        return self._root.attrib["policy"]
+
+    @_cache_property
+    def value_map(self):
+        return self._root.attrib.get("value-map", None)
+
 
 class Platform(_XMLBase):
     def __init__(self, path):
