@@ -81,6 +81,8 @@
       <iso>
         <volume-id>Ubuntu-Server 16.10(.\d\+?)? ppc</volume-id>
       </iso>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>https://old-releases.ubuntu.com/releases/yakkety/ubuntu-16.10-server-ppc64el.iso</url>

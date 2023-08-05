@@ -81,6 +81,8 @@
       <iso>
         <volume-id>Ubuntu-Server 16.04(.\d\+?)?(.\d\+?)? LTS ppc</volume-id>
       </iso>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <url>https://cdimage.ubuntu.com/ubuntu/releases/16.04/release/ubuntu-16.04.6-server-ppc64el.iso</url>
