@@ -58,7 +58,7 @@
         <volume-id>Ubuntu 14.04(.\d\+?)?(.\d\+?)? LTS i386</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
       <installer>
         <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       </installer>
@@ -69,7 +69,7 @@
         <volume-id>Ubuntu 14.04(.\d\+?)?(.\d\+?) ?LTS amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz.efi</kernel>
-      <initrd>casper/initrd.lz</initrd>
+      <initrd>casper/initrd</initrd>
       <installer>
         <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
       </installer>

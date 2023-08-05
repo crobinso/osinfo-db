@@ -72,8 +72,8 @@
         <volume-id>Ubuntu 5.04 ppc</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>install/vmlinuz</kernel>
-      <initrd>install/initrd.gz</initrd>
+      <kernel>install/powerpc/vmlinux</kernel>
+      <initrd>install/powerpc/initrd.gz</initrd>
     </media>
 
   </os>

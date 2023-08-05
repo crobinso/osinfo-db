@@ -20,8 +20,8 @@
         <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
       <url>https://old-releases.ubuntu.com/releases/warty/warty-release-install-amd64.iso</url>
@@ -29,8 +29,8 @@
         <volume-id>Ubuntu 4.10(.\d\+?)? amd64</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
 
     <media arch="i686" live="true" installer="false">
@@ -39,8 +39,8 @@
         <volume-id>Ubuntu 4.10(.\d\+?)? i386</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd.img</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/miniroot.gz</initrd>
     </media>
   </os>
 </libosinfo>

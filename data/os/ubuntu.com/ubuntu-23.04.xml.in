@@ -83,7 +83,7 @@
       <iso>
         <volume-id>Ubuntu-Server 23.04(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
+      <kernel>casper/vmlinux</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
@@ -91,8 +91,8 @@
       <iso>
         <volume-id>Ubuntu-Server 23.04(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">

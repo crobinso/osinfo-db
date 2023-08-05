@@ -76,16 +76,16 @@
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)?(.\d\+?)? LTS ppc64</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>casper/vmlinux</kernel>
+      <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
       <url>https://cdimage.ubuntu.com/ubuntu/releases/20.04/release/ubuntu-20.04.5-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.04(.\d\+?)?(.\d\+?)? LTS s390x</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <tree arch="x86_64">

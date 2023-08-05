@@ -51,8 +51,8 @@
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>install/vmlinuz</kernel>
+      <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
       <url>https://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.6-server-arm64.iso</url>

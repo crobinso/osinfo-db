@@ -98,8 +98,8 @@
         <volume-id>Ubuntu-Server 19.10 ppc64</volume-id>
         <volume-size>904808448</volume-size>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>casper/vmlinux</kernel>
+      <initrd>casper/initrd.gz</initrd>
     </media>
     <media arch="s390x">
       <url>https://old-releases.ubuntu.com/releases/19.10/ubuntu-19.10-server-s390x.iso</url>
@@ -115,8 +115,8 @@
         <volume-id>Ubuntu-Server 19.10 s390x</volume-id>
         <volume-size>734289920</volume-size>
       </iso>
-      <kernel>casper/vmlinuz</kernel>
-      <initrd>casper/initrd</initrd>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
     </media>
 
     <tree arch="x86_64">
