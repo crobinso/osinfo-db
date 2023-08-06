@@ -126,7 +126,7 @@
     <!-- DVD -->
     <media arch="s390x" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Server/s390x/iso/Fedora-Server-dvd-s390x-36-1.5.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Server/s390x/iso/Fedora-Server-dvd-s390x-36-1.5.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-s390x-36</volume-id>
         <system-id>LINUX</system-id>
@@ -138,7 +138,7 @@
     <!-- Network Installer !-->
     <media arch="s390x" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Server/s390x/iso/Fedora-Server-netinst-s390x-36-1.5.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Server/s390x/iso/Fedora-Server-netinst-s390x-36-1.5.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-s390x-36</volume-id>
       </iso>
@@ -186,7 +186,7 @@
 
     <media arch="s390x" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Everything/s390x/iso/Fedora-Everything-netinst-s390x-36-1.5.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Everything/s390x/iso/Fedora-Everything-netinst-s390x-36-1.5.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-s390x-36</volume-id>
       </iso>
@@ -228,7 +228,7 @@
     </tree>
 
     <tree arch="s390x">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Server/s390x/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Server/s390x/os</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -272,7 +272,7 @@
     </tree>
 
     <tree arch="s390x">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Everything/s390x/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Everything/s390x/os</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -291,7 +291,7 @@
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/36/Cloud/s390x/images/Fedora-Cloud-Base-36-1.5.s390x.qcow2</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/36/Cloud/s390x/images/Fedora-Cloud-Base-36-1.5.s390x.qcow2</url>
     </image>
 
     <image arch="x86_64" format="containerdisk" cloud-init="true">
