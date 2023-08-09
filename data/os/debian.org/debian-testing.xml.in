@@ -43,7 +43,6 @@
     </media>
     <media arch="i686">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/weekly-builds/i386/iso-cd/debian-testing-i386-netinst.iso</url>
       <iso>
         <volume-id>Debian testing i386 n</volume-id>
       </iso>
@@ -62,7 +61,6 @@
     </media>
     <media arch="i686">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/weekly-builds/i386/iso-dvd/debian-testing-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian testing i386 1</volume-id>
       </iso>
