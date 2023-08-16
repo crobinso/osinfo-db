@@ -161,8 +161,8 @@
         <system-id>PPC</system-id>
         <volume-size>730435584</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>ppc/ppc32/vmlinuz</kernel>
+      <initrd>ppc/ppc32/ramdisk.image.gz</initrd>
     </media>
 
     <!-- Disk 2 -->
@@ -223,8 +223,8 @@
         <system-id>PPC</system-id>
         <volume-size>4285673472</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>ppc/ppc32/vmlinuz</kernel>
+      <initrd>ppc/ppc32/ramdisk.image.gz</initrd>
     </media>
 
     <tree arch="i686">
