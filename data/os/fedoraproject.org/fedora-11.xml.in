@@ -51,8 +51,6 @@
         <system-id>LINUX</system-id>
         <volume-size>724916224</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 3 -->
@@ -63,8 +61,6 @@
         <system-id>LINUX</system-id>
         <volume-size>721659904</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 4 -->
@@ -75,8 +71,6 @@
         <system-id>LINUX</system-id>
         <volume-size>728756224</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 5 -->
@@ -87,8 +81,6 @@
         <system-id>LINUX</system-id>
         <volume-size>717754368</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 6 -->
@@ -99,8 +91,6 @@
         <system-id>LINUX</system-id>
         <volume-size>64604160</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- DVD -->
@@ -135,8 +125,6 @@
         <system-id>LINUX</system-id>
         <volume-size>725426176</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 3 -->
@@ -147,8 +135,6 @@
         <system-id>LINUX</system-id>
         <volume-size>727185408</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 4 -->
@@ -159,8 +145,6 @@
         <system-id>LINUX</system-id>
         <volume-size>724492288</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 5 -->
@@ -171,8 +155,6 @@
         <system-id>LINUX</system-id>
         <volume-size>724090880</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 6 -->
@@ -183,8 +165,6 @@
         <system-id>LINUX</system-id>
         <volume-size>641380352</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- DVD -->
@@ -219,8 +199,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>719245312</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 3 -->
@@ -231,8 +209,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>726794240</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 4 -->
@@ -243,8 +219,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>722802688</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 5 -->
@@ -255,8 +229,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>708642816</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 6 -->
@@ -267,8 +239,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>719030272</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 7 -->
@@ -279,8 +249,6 @@
         <system-id>PPC|LINUX</system-id>
         <volume-size>182509568</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- GNOME -->
