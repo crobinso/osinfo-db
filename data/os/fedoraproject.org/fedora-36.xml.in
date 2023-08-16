@@ -79,8 +79,8 @@
         <volume-id>Fedora-S-dvd-aarch64-36</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
       <installer>
         <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
       </installer>
@@ -93,8 +93,8 @@
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-36</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <!-- DVD -->
@@ -170,8 +170,8 @@
       <iso>
         <volume-id>Fedora-E-dvd-aarch64-36</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="armv7l" installer-script="false">
