@@ -56,8 +56,8 @@
         <system-id>LINUX</system-id>
         <volume-size>733427712</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz0</kernel>
-      <initrd>isolinux/initrd0.img</initrd>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- KDE-->
@@ -68,8 +68,8 @@
         <system-id>LINUX</system-id>
         <volume-size>719859712</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz0</kernel>
-      <initrd>isolinux/initrd0.img</initrd>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- GNOME -->
