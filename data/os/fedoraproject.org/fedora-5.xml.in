@@ -75,6 +75,8 @@
         <system-id>LINUX</system-id>
         <volume-size>3253669888</volume-size>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <!-- Disk 1 -->

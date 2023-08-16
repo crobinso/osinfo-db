@@ -43,6 +43,8 @@
         <system-id>PPC</system-id>
         <volume-size>4625244160</volume-size>
       </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
     </media>
 
     <!-- Network Installer -->
@@ -73,6 +75,8 @@
         <system-id>PPC</system-id>
         <volume-size>356321280</volume-size>
       </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
     </media>
 
     <!-- GNOME -->

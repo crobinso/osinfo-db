@@ -22,6 +22,8 @@
         <system-id>LINUX</system-id>
         <volume-size>3424749568</volume-size>
       </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
     </media>
 
     <media arch="x86_64">
