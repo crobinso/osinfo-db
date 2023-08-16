@@ -35,8 +35,8 @@
       <iso>
         <volume-id>Fedora-WS-Live-37.*</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <!-- Server -->
@@ -49,8 +49,8 @@
         <volume-id>Fedora-S-dvd-x86_64-37</volume-id>
         <system-id>LINUX</system-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
       <installer>
         <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
       </installer>
@@ -63,8 +63,8 @@
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-37</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
       <installer>
         <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
       </installer>
@@ -129,8 +129,8 @@
       <iso>
         <volume-id>Fedora-E-dvd-x86_64-37</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
       <installer>
         <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
         <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
