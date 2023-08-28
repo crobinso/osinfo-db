@@ -48,7 +48,7 @@
     -->
 
     <media arch="x86_64" live="true">
-      <url>https://releases.ubuntu.com/22.04/ubuntu-22.04.2-desktop-amd64.iso</url>
+      <url>https://releases.ubuntu.com/22.04/ubuntu-22.04.3-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 22.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
@@ -59,7 +59,7 @@
       </installer>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/22.04/ubuntu-22.04.2-live-server-amd64.iso</url>
+      <url>https://releases.ubuntu.com/22.04/ubuntu-22.04.3-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 22.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
@@ -67,7 +67,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.2-live-server-arm64.iso</url>
+      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.3-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 22.04(.\d\+?)?(.\d\+?)? LTS arm64</volume-id>
       </iso>
@@ -75,7 +75,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.2-live-server-ppc64el.iso</url>
+      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.3-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 22.04(.\d\+?)?(.\d\+?)? LTS ppc64</volume-id>
       </iso>
@@ -83,7 +83,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.2-live-server-s390x.iso</url>
+      <url>https://cdimage.ubuntu.com/ubuntu/releases/22.04/release/ubuntu-22.04.3-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 22.04(.\d\+?)?(.\d\+?)? LTS s390x</volume-id>
       </iso>
