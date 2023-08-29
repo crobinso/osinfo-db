@@ -1,0 +1,83 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://mageia.org/mageia/9">
+    <short-id>mageia9</short-id>
+    <name>Mageia 9</name>
+    <vendor>Mageia</vendor>
+    <family>linux</family>
+    <distro>mageia</distro>
+    <version>9</version>
+    <derives-from id="http://mageia.org/mageia/8"/>
+    <release-date>2023-08-27</release-date>
+    <eol-date>2025-03-31</eol-date>
+
+    <variant id="netinst">
+      <name>Mageia 9</name>
+    </variant>
+
+    <media arch="i686">
+      <iso>
+        <volume-id>Mageia-9(.1)?-i586</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>MAGEIA.ORG</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/all.rdz</initrd>
+    </media>
+    <media arch="x86_64">
+      <iso>
+        <volume-id>Mageia-9(.1)?-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>MAGEIA.ORG</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/all.rdz</initrd>
+    </media>
+    <media live="true" arch="i686">
+      <iso>
+        <volume-id>Mageia-9(.1)?-Live-(GNOME|Plasma|Xfce)-i586</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>MAGEIA.ORG</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+    <media live="true" arch="x86_64">
+      <iso>
+        <volume-id>Mageia-9(.1)?-Live-(GNOME|Plasma|Xfce)-x86_64</volume-id>
+        <system-id>LINUX</system-id>
+        <publisher-id>MAGEIA.ORG</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <iso>
+        <volume-id>Mageia-9(.1)?-i686-netinstall</volume-id>
+      </iso>
+      <kernel>isolinux/i386/vmlinuz</kernel>
+      <initrd>isolinux/i386/all.rdz</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <iso>
+        <volume-id>Mageia-9(.1)?-x86_64-netinstall</volume-id>
+      </iso>
+      <kernel>isolinux/x86_64/vmlinuz</kernel>
+      <initrd>isolinux/x86_64/all.rdz</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+        <storage>5368709120</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>
