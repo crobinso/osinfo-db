@@ -187,24 +187,6 @@ x86_64-opensuse-tumbleweed-local-env:
     NAME: opensuse-tumbleweed
 
 
-x86_64-ubuntu-1804-prebuilt-env:
-  extends: .native_build_job_prebuilt_env
-  needs:
-    - job: x86_64-ubuntu-1804-container
-      optional: true
-  allow_failure: false
-  variables:
-    NAME: ubuntu-1804
-
-x86_64-ubuntu-1804-local-env:
-  extends: .native_build_job_local_env
-  needs: []
-  allow_failure: false
-  variables:
-    IMAGE: docker.io/library/ubuntu:18.04
-    NAME: ubuntu-1804
-
-
 x86_64-ubuntu-2004-prebuilt-env:
   extends: .native_build_job_prebuilt_env
   needs:

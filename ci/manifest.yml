@@ -27,8 +27,6 @@ targets:
 
   opensuse-tumbleweed: x86_64
 
-  ubuntu-1804: x86_64
-
   ubuntu-2004: x86_64
 
   ubuntu-2204: x86_64
