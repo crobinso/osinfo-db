@@ -1,6 +1,6 @@
 CD-ROM is in ISO 9660 format
 System id: LINUX
-Volume id: Oracle-Linux-8-0-aarch64
+Volume id: OL-8-0-0-BaseOS-aarch64
 Volume set id: 
 Publisher id: 
 Data preparer id: 

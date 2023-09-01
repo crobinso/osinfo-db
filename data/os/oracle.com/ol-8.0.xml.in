@@ -13,7 +13,7 @@
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>Oracle-Linux-8-0-x86_64</volume-id>
+        <volume-id>OL-8-0-(\d-)?.*x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
@@ -22,7 +22,7 @@
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>Oracle-Linux-8-0-aarch64</volume-id>
+        <volume-id>OL-8-0-(\d-)?.*aarch64</volume-id>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
