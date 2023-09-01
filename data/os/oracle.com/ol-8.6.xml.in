@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/8.6">
+    <short-id>ol8.6</short-id>
+    <name>Oracle Linux 8.6</name>
+    <version>8.6</version>
+    <vendor>Oracle America</vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/8.6"/>
+
+    <release-date>2022-05-16</release-date>
+
+    <media arch="x86_64">
+      <url>https://yum.oracle.com/ISOS/OracleLinux/OL8/u6/x86_64/OracleLinux-R8-U6-x86_64-dvd.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-8-6-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>https://yum.oracle.com/ISOS/OracleLinux/OL8/u6/aarch64/OracleLinux-R8-U6-aarch64-dvd.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-8-6-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^8.6(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^8.6(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+  </os>
+</libosinfo>
