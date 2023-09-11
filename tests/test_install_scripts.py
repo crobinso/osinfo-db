@@ -3,6 +3,10 @@
 
 import contextlib
 import copy
+import logging
+import os
+from pathlib import Path
+import re
 
 import lxml.etree as ET
 import pytest
@@ -30,6 +34,100 @@ params_known_replacements = {
     "user-password": "guest@_l33t+pwd!",  # notsecret
     "user-realname": "Guest User",
 }
+
+
+class AutoYaSTSchemas:
+    """
+    Loader for locally available AutoYaST schemas.
+
+    This class tries to look for schemas for AutoYaST, either as available
+    in the yast2-schema-collection package in openSUSE, or in the location
+    pointed by the $INTERNAL_OSINFO_DB_AUTOYAST_SCHEMAS environment variable
+    (if set).
+
+    The result of each lookup is cached (found or not).
+    """
+
+    def __init__(self):
+        self.schemas = {}
+        self.path = None
+
+        candidate_paths = [
+            # as available in yast2-schema-collection
+            "/usr/share/YaST2/schema/autoyast/products/",
+        ]
+        # try checking using an environment variable: if this is set,
+        # it is always checked first (making it possible to override
+        # a system installation)
+        env_path = os.environ.get("INTERNAL_OSINFO_DB_AUTOYAST_SCHEMAS", None)
+        if env_path:
+            candidate_paths.insert(0, env_path)
+        base_path = next((p for p in candidate_paths if os.path.isdir(p)), None)
+        if base_path:
+            self.path = Path(base_path)
+
+    def _get_schema_path(self, os_distro, os_version, arch):
+        if os_distro == "opensuse":
+            # unknown version: no way to tell which schema it follows
+            if os_version == "unknown":
+                return None
+            # Factory is the development version / source of Tumbleweed,
+            # so use the schemas of Tumbleweed for both
+            if os_version in ["factory", "tumbleweed"]:
+                distro_string = "tw"
+            else:
+                distro_string = "leap" + os_version
+        elif os_distro in ["sle", "sles", "sled"]:
+            m = re.fullmatch(r"(\d+)(?:\.(\d+))?", os_version)
+            if m:
+                major = int(m.group(1))
+                if major < 12:
+                    distro_string = "sles-%d" % major
+                else:
+                    distro_string = "sle-%d" % major
+                if m.group(2):
+                    distro_string += "-sp" + m.group(2)
+        if not distro_string:
+            logging.warning("autoyast: unknown distro: %s/%s", os_distro, os_version)
+            return None
+
+        distro_path = self.path / distro_string
+        if not distro_path.is_dir():
+            logging.warning("autoyast: OS directory not found: %s", distro_path)
+            return None
+
+        arch_path = distro_path / arch
+        if not arch_path.is_dir():
+            logging.warning("autoyast: arch directory not found: %s", arch_path)
+            return None
+
+        # profile.rng is the "entry point" of the schema
+        schema_path = arch_path / "profile.rng"
+        if not schema_path.is_file():
+            logging.warning("autoyast: profile.rng not found in %s", arch_path)
+            return None
+
+        return schema_path
+
+    def load_schema(self, osxml, arch):
+        if self.path is None:
+            return None
+
+        # each schema may be different depending on the distribution,
+        # the distribution version, and the architecture; hence, cache the
+        # schemas based on all of these factors
+        cache_key = (osxml.distro, osxml.version, arch)
+
+        try:
+            rng = self.schemas[cache_key]
+        except KeyError:
+            schema_path = self._get_schema_path(*cache_key)
+            if schema_path:
+                rng = ET.RelaxNG(ET.parse(schema_path.open("r")))
+            else:
+                rng = None
+            self.schemas[cache_key] = rng
+        return rng
 
 
 @util.os_parametrize("osxml", filter_installscripts=True)
@@ -176,8 +274,25 @@ def _collect_scripts():
     return ret
 
 
+def _check_autoyast(osxml, autoyast_schemas, params_doc, xml):
+    arch = params_doc.find("config/hardware-arch")
+    assert arch is not None
+
+    rng = autoyast_schemas.load_schema(osxml, arch.text)
+    if rng is None:
+        return
+
+    rng.assertValid(xml)
+
+
+@pytest.fixture(scope="module")
+def autoyast_schemas():
+    autoyast_schemas = AutoYaSTSchemas()
+    return autoyast_schemas
+
+
 @pytest.mark.parametrize("osxml,testdata", _collect_scripts())
-def test_generate_scripts(osxml, testdata):
+def test_generate_scripts(osxml, testdata, autoyast_schemas):
     for script, params_doc in testdata:
         template = script.template
         transform = ET.XSLT(template)
@@ -194,7 +309,10 @@ def test_generate_scripts(osxml, testdata):
             # This is the actual install script
             if output_is_xml:
                 # It is an XML document, check it can be parsed as such
-                ET.XML(result)
+                xml = ET.XML(result)
+                if script.expected_filename == "autoinst.xml":
+                    # Looks like it may be an AutoYaST file
+                    _check_autoyast(osxml, autoyast_schemas, params_doc, xml)
         elif params_doc.tag == "command-line":
             # This is the kernel command line to use;
             # tolerate only one newline at the end (as it may happen when
