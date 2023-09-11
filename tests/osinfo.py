@@ -445,6 +445,10 @@ class InstallScript(_XMLBase):
         template = self._root.find("template")[0]
         return ET.XML(ET.tostring(template))
 
+    @_cache_property
+    def expected_filename(self):
+        return self._get_text("expected-filename")
+
 
 class InstallScriptConfigParam(_XMLBase):
     @_cache_property
