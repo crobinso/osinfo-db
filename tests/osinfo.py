@@ -206,6 +206,10 @@ class Os(_XMLBase):
             for s in i.findall("script")
         ]
 
+    @_cache_property
+    def version(self):
+        return self._get_text("version")
+
 
 class Resources(_XMLBase):
     @_cache_property
