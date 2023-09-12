@@ -26,7 +26,7 @@ Dependencies
 Build reproducibility
 =====================
 
-To build libosinfo reproduciblity, you should export the SOURCE_DATE_EPOCH[0]
+To build libosinfo reproducibly, you should export the SOURCE_DATE_EPOCH[0]
 environment variable to the build system. For example:
 
     $ export SOURCE_DATE_EPOCH="$(date +%s)"

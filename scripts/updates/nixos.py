@@ -369,7 +369,7 @@ def run_isoinfo(isofile, outfile):
 def process_iso(url, directory):
     """
     Download the beginning of ISO image and run isoinfo on it. Errors are not fatal
-    to accomodate for scenario where variants are removed.
+    to accommodate for scenario where variants are removed.
     """
     try:
         isofile = fetch_iso(url, directory)

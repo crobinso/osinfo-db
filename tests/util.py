@@ -204,7 +204,7 @@ DataFiles = _DataFiles()
 
 def _generic_ids_cb(obj, key):
     # pytest passes us a weird value when the list of entities is empty,
-    # which might happen depending on how agressively we filter. So
+    # which might happen depending on how aggressively we filter. So
     # we can't assume we are passed a specific entity instance.
     return getattr(obj, key, str(obj))
 
