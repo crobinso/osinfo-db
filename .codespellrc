@@ -1,0 +1,11 @@
+[codespell]
+# ignore
+# - the git directory; apparently codespell does not do it)
+# - po translations, as they contain non-english texts
+# - generated xml files, as they contain translations,
+#   and they are not the sources anyway
+skip = ./.git,*.po,*.xml
+# - "medias" is the used lingo for the plural of one "media",
+#   which is used in libosinfo instead of "medium"
+# - "hda" is a disk drive
+ignore-words-list = medias,hda
