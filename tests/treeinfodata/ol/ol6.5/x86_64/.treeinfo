@@ -1,0 +1,53 @@
+[general]
+family = Oracle Linux Server
+timestamp = 1385441924.36
+variant = Server
+totaldiscs = 1
+version = 6.5
+discnum = 1
+packagedir = Packages
+variants = Server
+arch = x86_64
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
+[stage2]
+mainimage = images/install.img
+
+[variant-Server]
+addons = ResilientStorage,HighAvailability,ScalableFileSystem,LoadBalancer
+repository = Server/repodata
+identity = Server/Server.cert
+
+[addon-ResilientStorage]
+repository = ResilientStorage
+name = Resilient Storage
+identity = ResilientStorage/ResilientStorage.cert
+
+[addon-HighAvailability]
+repository = HighAvailability
+name = High Availability
+identity = HighAvailability/HighAvailability.cert
+
+[addon-ScalableFileSystem]
+repository = ScalableFileSystem
+name = Scalable Filesystem Support
+identity = ScalableFileSystem/ScalableFileSystem.cert
+
+[addon-LoadBalancer]
+repository = LoadBalancer
+name = Load Balancer
+identity = LoadBalancer/LoadBalancer.cert
+
+[checksums]
+images/pxeboot/initrd.img = sha256:d336683f4858482aaf58477063c575b554ee79586e9997ee127b6857dcd9c51b
+images/pxeboot/vmlinuz = sha256:a04e33cad2791c2424b83cb13a3b7762371d8d53c8db90972ee3120fd6d79b44
+images/efiboot.img = sha256:a0370737c068e07ea465efea52707bef87d7fb9160ad70a16fb41f36e3314845
+images/install.img = sha256:007c092a1bf9bdb97e92d0822919bf2cdbc0601fb6d22d81f4685ae5511cc5d8
+images/efidisk.img = sha256:c44ee89a1100266f88274cfae65658b35dcee6aacf6ccc21dfcf1420fa7284ee

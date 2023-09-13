@@ -1,0 +1,81 @@
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+parent = Server
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+parent = Server
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Oracle Linux
+name = Oracle Linux 7.7 
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1565395736.08 
+variant = Server
+variants = Server
+version = 7.7 
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Oracle Linux
+short = OL
+version = 7.7 
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1565395736.08 
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+addons = Server-HighAvailability,Server-ResilientStorage
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+
+[checksums]
+LiveOS/squashfs.img = sha256:429350e7fbde1daf979fba5b86d21d2edddf7d7bba81a13c964bdbded22bb448
+images/pxeboot/initrd.img = sha256:40f1b0780574292cf03e22918bc4965c2b3292053537e0969118e057c6e73e9b
+images/pxeboot/upgrade.img = sha256:ecd876f6cedf65dd860c42a0f305deb358a2532ec0b9387459807c9c3a4ee1a2
+images/pxeboot/vmlinuz = sha256:44c9f096e89beea362cf943874bf5e4a7dbc21b4dd96bdbcd4698d3e02ab7ce6
+repodata/repomd.xml = sha256:1d546e941c3abfe4637ae5a1a881522b2a1f8ccfaa48ba2bf615a5354b9aa9d7
+addons/HighAvailability/repodata/repomd.xml = sha256:35885ba18e6fce379c148074a07e192127bc4d18de7458e8a2363efc3bf7c95d
+addons/ResilientStorage/repodata/repomd.xml = sha256:0f2d3bb11a8271c1e68f160a05fc6aebd927604297d507db3331e2040ecdef3f

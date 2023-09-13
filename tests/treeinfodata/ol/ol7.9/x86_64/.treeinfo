@@ -1,0 +1,77 @@
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Oracle Linux
+name = Oracle Linux 7.9
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1601956550.79
+variant = Server
+version = 7.9
+
+[header]
+version = 0.3
+
+[images-x86_64]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[product]
+name = Oracle Linux
+short = OL
+version = 7.9
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1601956550.79
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+addons = Server-HighAvailability,Server-ResilientStorage
+
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[checksums]
+LiveOS/squashfs.img = sha256:293b4768ec103b86e3c8ce97709d03781e96b9588a3e2d5b576a4aea5db50e8c
+images/pxeboot/initrd.img = sha256:b616a7c583daa327ee26ba05ab4a37c15e3da70f39a7715b3bbadf5274c3f09f
+images/pxeboot/upgrade.img = sha256:a6bd93d26cb541ed46f4deac17b91b93e0ee8edbd6a568a8908fb71284e0779b
+images/pxeboot/vmlinuz = sha256:0bc3140324e22ed3355902e12093777f275f3a649a45615665c3cf31b17d90e5
+repodata/repomd.xml = sha256:f8dc011608266b42752150879c556bf97062065fbdd99717d3512bb836a0cd72
+addons/HighAvailability/repodata/repomd.xml = sha256:bb36fe16ddf54ee072c1e72f5f19a973c4585935644d2dec2d2dd75a79997417
+addons/ResilientStorage/repodata/repomd.xml = sha256:357669f7bfd91be75767d2132d1e07b14a34f220f1780e7d73535b201b723397

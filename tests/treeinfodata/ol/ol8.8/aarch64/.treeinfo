@@ -1,0 +1,62 @@
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Oracle Linux
+name = Oracle Linux 8.8.0
+packagedir = AppStream/Packages
+platforms = aarch64
+repository = AppStream
+timestamp = 1684350288
+variant = AppStream
+variants = AppStream,BaseOS
+version = 8.8.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Oracle Linux
+short = OL
+version = 8.8.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1684350288
+platforms = aarch64
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = AppStream/Packages
+repository = AppStream
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = BaseOS/Packages
+repository = BaseOS
+type = variant
+uid = BaseOS
+
+[checksums]
+images/efiboot.img = sha256:29cfcfe74082617923ca125291e1e11e7a17249521cb9ef2552e3922b6306587
+images/install.img = sha256:fe55075e92f871f58cb6900ca117dffa4c7dae8a7489ecfc430a8eae1f6639a5
+images/pxeboot/initrd.img = sha256:a3af4e46735711a755903a082465aa5694f9ab884e464a30b92f19217f952928
+images/pxeboot/vmlinuz = sha256:6e3ae1d62a351addf72cd79a43a1a347ad5688ac4931c24ed6f064c0f60eb0f3

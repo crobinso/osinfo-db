@@ -1,0 +1,84 @@
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = aarch64
+family = Oracle Linux
+name = Oracle Linux 7.9
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1601954248.94
+variant = Server
+version = 7.9
+
+[header]
+version = 0.3
+
+[images-aarch64]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[product]
+name = Oracle Linux
+short = OL
+version = 7.9 
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1601954248.94 
+platforms = aarch64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+addons = Server-Oscl,Server-HighAvailability,Server-ResilientStorage
+
+[addon-Server-Oscl]
+id = development-gcc7 
+name = GNU Compiler Collection version 7 
+packages = addons/Oscl
+parent = Server
+repository = addons/Oscl
+type = addon
+uid = Server-Oscl
+
+[addon-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+parent = Server
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[addon-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+parent = Server
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[checksums]
+LiveOS/squashfs.img = sha256:51584d264b7ff5d69662cb84b3694eba856eb3aa7b2bdea23e00976d36156db7
+images/pxeboot/initrd.img = sha256:4d5369845c7b45b000c5c488e443f7d80081cba8d22bfb56fa3dc1571fa25bcc
+images/pxeboot/vmlinuz = sha256:0fcaef5abdfdab67682de51998c945d0fddf42f31a080efbf9db6dc63f19f611
+images/pxeboot/upgrade.img = sha256:4f34e02ed01487f1c35f31ceba5c94f68a8d14204df1b98b95607364d635f54a
+repodata/repomd.xml = sha256:ab2f7e4144ce7ee59121053bfd901f37b0f30fd127a0d3d668434b80bb4a535b
+addons/Oscl/repodata/repomd.xml = sha256:669893ee2270e938dfbb2d7674e2945100a01bb5a045eaf0627a78aee3c8a740
+addons/HighAvailability/repodata/repomd.xml = sha256:f3b0a85ef7a7bef25da8784c7742086cacc29d0bb9fb336383be77867bc429f4
+addons/ResilientStorage/repodata/repomd.xml = sha256:77ef784ce67a14a45ee6479911edd28b242671286cfb2f87e0cecc0754493813

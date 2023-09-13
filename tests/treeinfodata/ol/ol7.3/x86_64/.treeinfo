@@ -1,0 +1,86 @@
+[general]
+; WARNING.0 = THIS SECTION IS KEPT ONLY FOR COMPATIBILITY REASONS
+; WARNING.1 = Consider using other sections (product, base_product, tree, variant-*) instead
+arch = x86_64
+family = Oracle Linux
+name = Oracle Linux 7.3
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1478640796.55
+variant = Server
+version = 7.3
+
+[header]
+version = 0.3
+
+[images-x86_64]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+upgrade = images/pxeboot/upgrade.img
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[product]
+name = Oracle Linux
+short = OL
+version = 7.3 
+
+[stage2]
+mainimage = LiveOS/squashfs.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1478640796.55 
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+variants = Server-HighAvailability,Server-ResilientStorage,Server-Mysql
+
+[variant-Server-HighAvailability]
+id = HighAvailability
+name = High Availability
+packages = addons/HighAvailability
+repository = addons/HighAvailability
+type = addon
+uid = Server-HighAvailability
+
+[variant-Server-ResilientStorage]
+id = ResilientStorage
+name = Resilient Storage
+packages = addons/ResilientStorage
+repository = addons/ResilientStorage
+type = addon
+uid = Server-ResilientStorage
+
+[variant-Server-Mysql]
+id = Mysql 
+name = Mysql
+packages = addons/Mysql
+repository = addons/Mysql
+type = addon
+uid = Server-Mysql
+
+[checksums]
+LiveOS/squashfs.img = sha256:55dca66e79aad9ce6d2984343e1e7c9288ecb435729b6f51741ab9d79cc568ef
+images/pxeboot/initrd.img = sha256:b41ef9253346f8bcf2cd4a5c1e2cf35b9941a220ef399d06983773213bb54b73
+images/pxeboot/upgrade.img = sha256:d65e799c822945e849a29841ba306594d7ec20da37e7e20a8dfb940b9e061d7f
+images/pxeboot/vmlinuz = sha256:8cee8d70a3aa6dcad1b4bee1a99fe0df26bc1cc08818cc95b8b4bd33020ac4c0
+repodata/repomd.xml = sha256:707cfd039a1e35f637ce843ea0e449d007b54740bfffc90054fa78ab63c514a7
+addons/HighAvailability/repodata/repomd.xml = sha256:4d7f112d2429176ba178c826c4f167f7b4677e1b1edf3953fbb1cb0b961ff2ee
+addons/ResilientStorage/repodata/repomd.xml = sha256:5af07d7371500445f0492231676b1537ced6dd141a5d821e73ec24eefac66d39
+addons/Mysql/repodata/repomd.xml = sha256:217310abca2c43ef4978069121afb3ff75d6bb2a2f6019867c0d35fc979606d5
