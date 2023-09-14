@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
-import distutils.spawn
 import os
+import shutil
 import sys
 import tempfile
 import time
@@ -54,7 +54,7 @@ def _main():
     options = _parse_args()
 
     iso = os.path.realpath(os.path.abspath(options.iso))
-    isoinfobin = distutils.spawn.find_executable("isoinfo")
+    isoinfobin = shutil.which("isoinfo")
     if not os.path.exists(iso):
         fail("iso does not exist: %s" % iso)
     if not isoinfobin:
