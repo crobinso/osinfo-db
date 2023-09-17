@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-25 17:13+0200\n"
+"POT-Creation-Date: 2023-09-05 14:41+0200\n"
 "PO-Revision-Date: 2023-06-26 09:20+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -1252,20 +1252,20 @@ msgstr "데비안 11 (일반 클라우드)"
 msgid "Debian 11 (No Cloud)"
 msgstr "데비안 11 (클라우드 아님)"
 
-#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
-#: data/os/debian.org/debian-12.xml.in:22
+#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:33
+#: data/os/debian.org/debian-12.xml.in:36
 msgid "Debian 12"
 msgstr "데비안 12"
 
-#: data/os/debian.org/debian-12.xml.in:25
+#: data/os/debian.org/debian-12.xml.in:39
 msgid "Debian 12 (Generic)"
 msgstr "데비안 12 (일반)"
 
-#: data/os/debian.org/debian-12.xml.in:28
+#: data/os/debian.org/debian-12.xml.in:42
 msgid "Debian 12 (Generic Cloud)"
 msgstr "데비안 12 (일반 클라우드)"
 
-#: data/os/debian.org/debian-12.xml.in:31
+#: data/os/debian.org/debian-12.xml.in:45
 msgid "Debian 12 (No Cloud)"
 msgstr "데비안 12 (클라우드 아님)"
 
@@ -2931,6 +2931,7 @@ msgstr "마제이아 1"
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
 #: data/os/mageia.org/mageia-7.xml.in:7 data/os/mageia.org/mageia-8.xml.in:7
+#: data/os/mageia.org/mageia-9.xml.in:7
 msgid "Mageia"
 msgstr "마제이아"
 
@@ -2961,6 +2962,12 @@ msgstr "마제이아 7"
 #: data/os/mageia.org/mageia-8.xml.in:6 data/os/mageia.org/mageia-8.xml.in:16
 msgid "Mageia 8"
 msgstr "마제이아 8"
+
+#: data/os/mageia.org/mageia-9.xml.in:6 data/os/mageia.org/mageia-9.xml.in:16
+#, fuzzy
+#| msgid "Mageia 1"
+msgid "Mageia 9"
+msgstr "마제이아 1"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"

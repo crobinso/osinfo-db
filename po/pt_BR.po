@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-25 17:13+0200\n"
+"POT-Creation-Date: 2023-09-05 14:41+0200\n"
 "PO-Revision-Date: 2022-06-06 04:18+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -1363,26 +1363,26 @@ msgstr "Debian 11 (Generic Cloud)"
 msgid "Debian 11 (No Cloud)"
 msgstr "Debian 11 (No Cloud)"
 
-#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
-#: data/os/debian.org/debian-12.xml.in:22
+#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:33
+#: data/os/debian.org/debian-12.xml.in:36
 #, fuzzy
 #| msgid "Debian 10"
 msgid "Debian 12"
 msgstr "Debian 10"
 
-#: data/os/debian.org/debian-12.xml.in:25
+#: data/os/debian.org/debian-12.xml.in:39
 #, fuzzy
 #| msgid "Debian 10 (Generic)"
 msgid "Debian 12 (Generic)"
 msgstr "Debian 10 (Generic)"
 
-#: data/os/debian.org/debian-12.xml.in:28
+#: data/os/debian.org/debian-12.xml.in:42
 #, fuzzy
 #| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 12 (Generic Cloud)"
 msgstr "Debian 10 (Generic Cloud)"
 
-#: data/os/debian.org/debian-12.xml.in:31
+#: data/os/debian.org/debian-12.xml.in:45
 #, fuzzy
 #| msgid "Debian 10 (No Cloud)"
 msgid "Debian 12 (No Cloud)"
@@ -3126,6 +3126,7 @@ msgstr "Mageia 1"
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
 #: data/os/mageia.org/mageia-7.xml.in:7 data/os/mageia.org/mageia-8.xml.in:7
+#: data/os/mageia.org/mageia-9.xml.in:7
 msgid "Mageia"
 msgstr "Mageia"
 
@@ -3156,6 +3157,12 @@ msgstr "Mageia 7"
 #: data/os/mageia.org/mageia-8.xml.in:6 data/os/mageia.org/mageia-8.xml.in:16
 msgid "Mageia 8"
 msgstr "Mageia 8"
+
+#: data/os/mageia.org/mageia-9.xml.in:6 data/os/mageia.org/mageia-9.xml.in:16
+#, fuzzy
+#| msgid "Mageia 1"
+msgid "Mageia 9"
+msgstr "Mageia 1"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"

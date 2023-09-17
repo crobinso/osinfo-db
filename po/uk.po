@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-25 17:13+0200\n"
+"POT-Creation-Date: 2023-09-05 14:41+0200\n"
 "PO-Revision-Date: 2023-06-13 12:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -1255,20 +1255,20 @@ msgstr "Debian 11 (типовий, хмарний)"
 msgid "Debian 11 (No Cloud)"
 msgstr "Debian 11 (без хмари)"
 
-#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:19
-#: data/os/debian.org/debian-12.xml.in:22
+#: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:33
+#: data/os/debian.org/debian-12.xml.in:36
 msgid "Debian 12"
 msgstr "Debian 12"
 
-#: data/os/debian.org/debian-12.xml.in:25
+#: data/os/debian.org/debian-12.xml.in:39
 msgid "Debian 12 (Generic)"
 msgstr "Debian 12 (типовий)"
 
-#: data/os/debian.org/debian-12.xml.in:28
+#: data/os/debian.org/debian-12.xml.in:42
 msgid "Debian 12 (Generic Cloud)"
 msgstr "Debian 12 (типовий, хмарний)"
 
-#: data/os/debian.org/debian-12.xml.in:31
+#: data/os/debian.org/debian-12.xml.in:45
 msgid "Debian 12 (No Cloud)"
 msgstr "Debian 12 (без хмари)"
 
@@ -2934,6 +2934,7 @@ msgstr "Mageia 1"
 #: data/os/mageia.org/mageia-3.xml.in:7 data/os/mageia.org/mageia-4.xml.in:7
 #: data/os/mageia.org/mageia-5.xml.in:7 data/os/mageia.org/mageia-6.xml.in:7
 #: data/os/mageia.org/mageia-7.xml.in:7 data/os/mageia.org/mageia-8.xml.in:7
+#: data/os/mageia.org/mageia-9.xml.in:7
 msgid "Mageia"
 msgstr "Mageia"
 
@@ -2964,6 +2965,12 @@ msgstr "Mageia 7"
 #: data/os/mageia.org/mageia-8.xml.in:6 data/os/mageia.org/mageia-8.xml.in:16
 msgid "Mageia 8"
 msgstr "Mageia 8"
+
+#: data/os/mageia.org/mageia-9.xml.in:6 data/os/mageia.org/mageia-9.xml.in:16
+#, fuzzy
+#| msgid "Mageia 1"
+msgid "Mageia 9"
+msgstr "Mageia 1"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
