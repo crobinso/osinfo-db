@@ -95,4 +95,33 @@ publish-local-env:
     IMAGE: docker.io/library/debian:12-slim
     NAME: debian-12
 
+.web:
+  image: docker.io/library/python:3.9-alpine
+  stage: builds
+  before_script:
+    - apk add git gpg gpg-agent
+  script:
+    - ./scripts/osinfo-db-web.py
+  artifacts:
+    paths:
+      - public/
+
+# This job creates artifacts which can be browsed without making live
+web:
+  extends: .web
+  rules:
+    # Only run if it is a merge request, or a forced pipeline
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" || $RUN_PIPELINE == "1"'
+      when: on_success
+    - when: never
+
+# This job creates artifacts and publishes them to the live site
+pages:
+  extends: .web
+  rules:
+    # We can publish the website from pushes to the main branch only
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: on_success
+    - when: never
+
 include: '/ci/gitlab.yml'
