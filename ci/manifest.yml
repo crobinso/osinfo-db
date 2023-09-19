@@ -6,6 +6,10 @@ gitlab:
   namespace: libosinfo
   project: osinfo-db
 
+  jobs:
+    black: true
+    flake8: true
+
 targets:
   centos-stream-8: x86_64
 
