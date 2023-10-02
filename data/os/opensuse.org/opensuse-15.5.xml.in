@@ -75,8 +75,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/ppc64le/loader/linux</kernel>
-      <initrd>boot/ppc64le/loader/initrd</initrd>
+      <kernel>boot/ppc64le/linux</kernel>
+      <initrd>boot/ppc64le/initrd</initrd>
     </media>
 
     <!-- Network -->
@@ -88,8 +88,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/ppc64le/loader/linux</kernel>
-      <initrd>boot/ppc64le/loader/initrd</initrd>
+      <kernel>boot/ppc64le/linux</kernel>
+      <initrd>boot/ppc64le/initrd</initrd>
     </media>
 
     <!-- DVD -->
