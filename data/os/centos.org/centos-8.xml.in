@@ -50,8 +50,8 @@
         <volume-id>CentOS-8-5-2111-aarch64-dvd</volume-id>
         <volume-size>745474048</volume-size>
       </iso>
-      <kernel>IMAGES/PXEBOOT/VMLINUZ</kernel>
-      <initrd>IMAGES/PXEBOOT/INITRD.IMG</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="aarch64">
