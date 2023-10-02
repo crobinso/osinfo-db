@@ -51,8 +51,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/aarch64/loader/linux</kernel>
-      <initrd>boot/aarch64/loader/initrd</initrd>
+      <kernel>boot/aarch64/linux</kernel>
+      <initrd>boot/aarch64/initrd</initrd>
     </media>
 
     <!-- Network -->
@@ -64,8 +64,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/aarch64/loader/linux</kernel>
-      <initrd>boot/aarch64/loader/initrd</initrd>
+      <kernel>boot/aarch64/linux</kernel>
+      <initrd>boot/aarch64/initrd</initrd>
     </media>
 
     <!-- DVD -->
