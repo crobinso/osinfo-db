@@ -100,8 +100,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/s390x/loader/linux</kernel>
-      <initrd>boot/s390x/loader/initrd</initrd>
+      <kernel>boot/s390x/linux</kernel>
+      <initrd>boot/s390x/initrd</initrd>
     </media>
 
     <!-- Network -->
@@ -113,8 +113,8 @@
         <system-id>LINUX</system-id>
         <publisher-id>SUSE LINUX GmbH</publisher-id>
       </iso>
-      <kernel>boot/s390x/loader/linux</kernel>
-      <initrd>boot/s390x/loader/initrd</initrd>
+      <kernel>boot/s390x/linux</kernel>
+      <initrd>boot/s390x/initrd</initrd>
     </media>
 
     <!-- Live GNOME -->
