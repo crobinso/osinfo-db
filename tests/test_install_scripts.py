@@ -12,6 +12,7 @@ import lxml.etree as ET
 import pytest
 
 from . import util
+from . import osinfo
 
 
 # parameters that have a default in libosinfo, so they need to be set
@@ -257,16 +258,16 @@ def _collect_scripts():
                 continue
             for script_id in media_scripts:
                 script = util.DataFiles.installscripts()[script_id]
-                items = _collect_for_script_and_media(osxml, script, media)
-                combinations.extend(items)
+                items = [script, media]
+                combinations.append(items)
         if scripts:
             for tree in osxml.trees:
                 if not tree.url:
                     continue
                 for script_id in scripts:
                     script = util.DataFiles.installscripts()[script_id]
-                    items = _collect_for_script_and_tree(osxml, script, tree)
-                    combinations.extend(items)
+                    items = [script, tree]
+                    combinations.append(items)
 
         if combinations:
             ret.append(pytest.param(osxml, combinations, id=osxml.shortid))
@@ -293,7 +294,18 @@ def autoyast_schemas():
 
 @pytest.mark.parametrize("osxml,testdata", _collect_scripts())
 def test_generate_scripts(osxml, testdata, autoyast_schemas):
-    for script, params_doc in testdata:
+    # We didn't call _collect_for_script_and... from _collect_scripts
+    # as that creates massive memory usage for the whole duration of
+    # the test suite
+    fulltestdata = []
+    for script, obj in testdata:
+        if isinstance(obj, osinfo.Tree):
+            items = _collect_for_script_and_tree(osxml, script, obj)
+        else:
+            items = _collect_for_script_and_media(osxml, script, obj)
+        fulltestdata.extend(items)
+
+    for script, params_doc in fulltestdata:
         template = script.template
         transform = ET.XSLT(template)
         transform_result = transform(params_doc)
