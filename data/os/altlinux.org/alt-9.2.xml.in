@@ -112,8 +112,8 @@
         <volume-id>ALT Server 9\.2(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>EFI/BOOT/vmlinuz</kernel>
-      <initrd>EFI/BOOT/full.cz</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <media arch="ppc64le">
@@ -149,8 +149,8 @@
         <volume-id>ALT Server-V 9\.2(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>alt0/vmlinuz</kernel>
-      <initrd>alt0/full.cz</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <media arch="ppc64le">
@@ -186,8 +186,8 @@
         <volume-id>ALT Education 9\.2(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>boot/vmlinuz</kernel>
-      <initrd>boot/full.cz</initrd>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
     </media>
 
     <media arch="i686">

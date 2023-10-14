@@ -150,8 +150,8 @@
         <volume-id>ALT Server-V 9\.1(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>alt0/vmlinuz</kernel>
-      <initrd>alt0/full.cz</initrd>
+      <kernel>EFI/BOOT/vmlinuz</kernel>
+      <initrd>EFI/BOOT/full.cz</initrd>
     </media>
 
     <media arch="ppc64le">
