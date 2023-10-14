@@ -161,8 +161,8 @@
         <volume-id>ALT Server-V 9\.2(\.\d+)* ppc64le</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>alt0/vmlinuz</kernel>
-      <initrd>alt0/full.cz</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <media arch="x86_64">
