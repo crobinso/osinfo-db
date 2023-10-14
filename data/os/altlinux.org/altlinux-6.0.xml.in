@@ -34,8 +34,8 @@
         <volume-id>(ALT|Simply) Linux 6.0.\d</volume-id>
         <publisher-id>ALT Linux Team</publisher-id>
       </iso>
-      <kernel>isolinux/alt0/vmlinuz</kernel>
-      <initrd>isolinux/alt0/full.cz</initrd>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
     </media>
   </os>
 </libosinfo>

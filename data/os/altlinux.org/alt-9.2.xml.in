@@ -136,8 +136,8 @@
         <volume-id>ALT Server 9\.2(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>syslinux/alt0/vmlinuz</kernel>
-      <initrd>syslinux/alt0/full.cz</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <!-- Server-V  -->
@@ -173,8 +173,8 @@
         <volume-id>ALT Server-V 9\.2(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
       </iso>
-      <kernel>syslinux/alt0/vmlinuz</kernel>
-      <initrd>syslinux/alt0/full.cz</initrd>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/full.cz</initrd>
     </media>
 
     <!-- Education -->
