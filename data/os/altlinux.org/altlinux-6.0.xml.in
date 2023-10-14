@@ -25,8 +25,8 @@
         <volume-id>(ALT|Simply) Linux 6.0.\d</volume-id>
         <publisher-id>ALT Linux Team</publisher-id>
       </iso>
-      <kernel>isolinux/alt0/vmlinuz</kernel>
-      <initrd>isolinux/alt0/full.cz</initrd>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p6/iso/centaurus/altlinux-6.0.0-centaurus-x86_64-ru-install-dvd5.iso</url>

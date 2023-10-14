@@ -31,8 +31,8 @@
         <volume-id>ALT Linux 5.0.\d</volume-id>
         <publisher-id>ALT Linux Team</publisher-id>
       </iso>
-      <kernel>isolinux/alt0/vmlinuz</kernel>
-      <initrd>isolinux/alt0/full.cz</initrd>
+      <kernel>syslinux/alt0/vmlinuz</kernel>
+      <initrd>syslinux/alt0/full.cz</initrd>
     </media>
     <media arch="x86_64">
       <url>http://ftp.altlinux.org/pub/distributions/ALTLinux/p5/iso/ark/altlinux-5.0.0-ark-server-x86_64-ru-install-cd.iso</url>
