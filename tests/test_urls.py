@@ -100,32 +100,27 @@ def _transform_docker_url(url):
 
 
 def _check_url(session: requests.Session, url, url_type, real_url=None):
+    logging.info("url: %s, type: %s", real_url if real_url else url, url_type)
     headers = {"user-agent": "Wget/1.0"}
     response = session.head(url, allow_redirects=True, headers=headers, timeout=30)
     content_type = response.headers.get("content-type")
-    success = True
-
     if content_type:
         try:
             content_type = content_type[0 : content_type.index(";")]
         except ValueError:
             pass
-
+    logging.info(
+        "response: %s; code: %d; content-type: %s; url: %s",
+        http.client.responses[response.status_code],
+        response.status_code,
+        content_type,
+        response.url,
+    )
     if not response.ok:
-        success = False
+        return False
     if content_type and content_type not in url_type.value:
-        success = False
-    if not success:
-        logging.info("url: %s, type: %s", real_url if real_url else url, url_type)
-        logging.error(
-            "response: %s; code: %d; content-type: %s; url: %s",
-            http.client.responses[response.status_code],
-            response.status_code,
-            content_type,
-            response.url,
-        )
-
-    return success
+        return False
+    return True
 
 
 def _collect_os_urls():
