@@ -115,17 +115,22 @@ def _check_url(session: requests.Session, url, url_type, real_url=None):
             content_type = content_type[0 : content_type.index(";")]
         except ValueError:
             pass
-    logging.info(
-        "response: %s; code: %d; content-type: %s; url: %s",
+
+    msg = "response: %s; code: %d; content-type: %s; url: %s" % (
         http.client.responses[response.status_code],
         response.status_code,
         content_type,
         response.url,
     )
+
     if not response.ok:
+        logging.error(msg)
         return False
     if content_type and content_type not in url_type.value:
+        logging.error(msg)
         return False
+
+    logging.info(msg)
     return True
 
 
