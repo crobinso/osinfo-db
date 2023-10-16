@@ -102,7 +102,13 @@ def _transform_docker_url(url):
 def _check_url(session: requests.Session, url, url_type, real_url=None):
     logging.info("url: %s, type: %s", real_url if real_url else url, url_type)
     headers = {"user-agent": "Wget/1.0"}
-    response = session.head(url, allow_redirects=True, headers=headers, timeout=30)
+    try:
+        response = session.head(url, allow_redirects=True, headers=headers, timeout=30)
+    except requests.RequestException as e:
+        # do not use logging.exception() here, as there is no need to log
+        # the full traceback from requests
+        logging.error("head: %s", e)
+        return False
     content_type = response.headers.get("content-type")
     if content_type:
         try:
