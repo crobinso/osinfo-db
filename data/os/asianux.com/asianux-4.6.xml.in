@@ -4,6 +4,7 @@
   <os id="http://asianux.com/asianux/4.6">
     <short-id>asianux4.6</short-id>
     <name>Asianux Server 4 SP6</name>
+    <version>4.6</version>
     <vendor>Asianux Project</vendor>
     <family>linux</family>
     <distro>asianux</distro>

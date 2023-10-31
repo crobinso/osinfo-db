@@ -4,6 +4,7 @@
   <os id="http://asianux.com/asianux/4.7">
     <short-id>asianux4.7</short-id>
     <name>Asianux Server 4 SP7</name>
+    <version>4.7</version>
     <vendor>Asianux Project</vendor>
     <family>linux</family>
     <distro>asianux</distro>
