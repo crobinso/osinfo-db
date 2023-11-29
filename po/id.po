@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Andika Triwidada <andika@gmail.com>, 2017. #zanata, 2020, 2021, 2022.
 # Kukuh Syafaat <kukuh@syafaat.id>, 2020, 2021.
+# Arif Budiman <arifpedia@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-05 14:41+0200\n"
-"PO-Revision-Date: 2022-11-30 06:19+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2023-11-28 10:21+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
 "Language: id\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -229,34 +230,24 @@ msgid "AlmaLinux OS Foundation"
 msgstr "AlmaLinux OS Foundation"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 GNOME Mini"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 KDE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 KDE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 XFCE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 XFCE"
 
 #: data/os/almalinux.org/almalinux-8.xml.in:44
-#, fuzzy
-#| msgid "AlmaLinux 8"
 msgid "AlmaLinux 8 MATE"
-msgstr "AlmaLinux 8"
+msgstr "AlmaLinux 8 MATE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
 #: data/os/almalinux.org/almalinux-9.xml.in:16
@@ -266,28 +257,20 @@ msgid "AlmaLinux 9"
 msgstr "AlmaLinux 9"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:28
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:32
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 GNOME Mini"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 GNOME Mini"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:36
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 KDE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 KDE"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:40
-#, fuzzy
-#| msgid "AlmaLinux 9"
 msgid "AlmaLinux 9 XFCE"
-msgstr "AlmaLinux 9"
+msgstr "AlmaLinux 9 XFCE"
 
 #: data/os/alpinelinux.org/alpinelinux-3.10.xml.in:7
 msgid "Alpine Linux 3.10"
@@ -467,34 +450,24 @@ msgid "Alpinelinux 3.17 Xen"
 msgstr "Alpinelinux 3.17 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.8"
 msgid "Alpine Linux 3.18"
-msgstr "Alpine Linux 3.8"
+msgstr "Alpine Linux 3.18"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.18 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.18 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.18 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.18 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.18 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.18 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.18 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.18 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -573,10 +546,8 @@ msgid "ALT Workstation K 10.0"
 msgstr "ALT Workstation K 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.0"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K Live 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
 msgid "ALT Education 10.0"
@@ -599,64 +570,44 @@ msgid "ALT Simply live 10.0"
 msgstr "ALT Simply live 10.0"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.1"
-msgstr "ALT 10.0"
+msgstr "ALT 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.1"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.1"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.1"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K Live 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.1"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:31
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education Live 10.1"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education Live 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.1"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.1"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.1"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply live 10.0"
 msgid "ALT Simply Live 10.1"
-msgstr "ALT Simply live 10.0"
+msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -710,10 +661,8 @@ msgid "ALT Workstation K 9.0"
 msgstr "ALT Workstation K 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K Live 9.0"
-msgstr "ALT Workstation K 9.0"
+msgstr "ALT Workstation K Live 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Education 9.0"
@@ -748,10 +697,8 @@ msgid "ALT Workstation K 9.1"
 msgstr "ALT Workstation K 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.1"
 msgid "ALT Workstation K Live 9.1"
-msgstr "ALT Workstation K 9.1"
+msgstr "ALT Workstation K Live 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Education 9.1"
@@ -786,10 +733,8 @@ msgid "ALT Workstation K 9.2"
 msgstr "ALT Workstation K 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.2"
 msgid "ALT Workstation K Live 9.2"
-msgstr "ALT Workstation K 9.2"
+msgstr "ALT Workstation K Live 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Education 9.2"
@@ -1308,28 +1253,20 @@ msgstr "Debian 11 (Bukan Cloud)"
 
 #: data/os/debian.org/debian-12.xml.in:7 data/os/debian.org/debian-12.xml.in:33
 #: data/os/debian.org/debian-12.xml.in:36
-#, fuzzy
-#| msgid "Debian 10"
 msgid "Debian 12"
-msgstr "Debian 10"
+msgstr "Debian 12"
 
 #: data/os/debian.org/debian-12.xml.in:39
-#, fuzzy
-#| msgid "Debian 10 (Generic)"
 msgid "Debian 12 (Generic)"
-msgstr "Debian 10 (Generik)"
+msgstr "Debian 12 (Generic)"
 
 #: data/os/debian.org/debian-12.xml.in:42
-#, fuzzy
-#| msgid "Debian 10 (Generic Cloud)"
 msgid "Debian 12 (Generic Cloud)"
-msgstr "Debian 10 (Cloud Generik)"
+msgstr "Debian 12 (Generic Cloud)"
 
 #: data/os/debian.org/debian-12.xml.in:45
-#, fuzzy
-#| msgid "Debian 10 (No Cloud)"
 msgid "Debian 12 (No Cloud)"
-msgstr "Debian 10 (Bukan Cloud)"
+msgstr "Debian 12 (No Cloud)"
 
 #: data/os/debian.org/debian-2.0.xml.in:7
 msgid "Debian GNU/Linux 2.0"
@@ -1951,29 +1888,21 @@ msgid "Endless OS 4.0"
 msgstr "Endless OS 4.0"
 
 #: data/os/endlessos.com/eos-5.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 4.0"
 msgid "Endless OS 5.0"
-msgstr "Endless OS 4.0"
+msgstr "Endless OS 5.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 8"
 msgid "EuroLinux 8"
-msgstr "Rocky Linux 8"
+msgstr "EuroLinux 8"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:7
 #: data/os/euro-linux.com/eurolinux-9.xml.in:7
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "EuroLinux"
-msgstr "Arch Linux"
+msgstr "EuroLinux"
 
 #: data/os/euro-linux.com/eurolinux-9.xml.in:5
-#, fuzzy
-#| msgid "Rocky Linux 9"
 msgid "EuroLinux 9"
-msgstr "Rocky Linux 9"
+msgstr "EuroLinux 9"
 
 #: data/os/fedoraproject.org/coreos-next.xml.in:6
 #: data/os/fedoraproject.org/coreos-stable.xml.in:6
@@ -2369,29 +2298,21 @@ msgid "Fedora Everything 37"
 msgstr "Fedora Everything 37"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 38"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 38"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:20
 #: data/os/fedoraproject.org/fedora-38.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 38"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 38"
 
 #: data/os/fedoraproject.org/fedora-38.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 38"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 38"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
@@ -2482,10 +2403,8 @@ msgid "Fedora Silverblue 37"
 msgstr "Fedora Silverblue 37"
 
 #: data/os/fedoraproject.org/silverblue-38.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 38"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 38"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -2621,10 +2540,8 @@ msgid "FreeBSD 12.3"
 msgstr "FreeBSD 12.3"
 
 #: data/os/freebsd.org/freebsd-12.4.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 12.0"
 msgid "FreeBSD 12.4"
-msgstr "FreeBSD 12.0"
+msgstr "FreeBSD 12.4"
 
 #: data/os/freebsd.org/freebsd-13.0.xml.in:6
 msgid "FreeBSD 13.0"
@@ -2828,22 +2745,16 @@ msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgstr "FreeDOS 1.2 \"Legacy\" Installer"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:6
-#, fuzzy
-#| msgid "FreeDOS 1.2"
 msgid "FreeDOS 1.3"
-msgstr "FreeDOS 1.2"
+msgstr "FreeDOS 1.3"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:16
-#, fuzzy
-#| msgid "FreeDOS 1.2 \"Standard\" Installer"
 msgid "FreeDOS 1.3 \"Standard\" Installer"
-msgstr "FreeDOS 1.2 \"Standard\" Installer"
+msgstr "FreeDOS 1.3 \"Standard\" Installer"
 
 #: data/os/freedos.org/freedos-1.3.xml.in:19
-#, fuzzy
-#| msgid "FreeDOS 1.2 \"Legacy\" Installer"
 msgid "FreeDOS 1.3 \"Legacy\" Installer"
-msgstr "FreeDOS 1.2 \"Legacy\" Installer"
+msgstr "FreeDOS 1.3 \"Legacy\" Installer"
 
 #: data/os/freenix.net/freenix-14.2.xml.in:7
 msgid "Freenix 14.2"
@@ -2964,10 +2875,8 @@ msgid "Haiku R1/Beta3"
 msgstr "Haiku R1/Beta3"
 
 #: data/os/haiku-os.org/haiku-r1beta4.xml.in:4
-#, fuzzy
-#| msgid "Haiku R1/Beta1"
 msgid "Haiku R1/Beta4"
-msgstr "Haiku R1/Beta1"
+msgstr "Haiku R1/Beta4"
 
 #: data/os/hyperbola.info/hyperbola-03.xml.in:7
 msgid "Hyperbola"
@@ -3054,10 +2963,8 @@ msgid "Mageia 8"
 msgstr "Mageia 8"
 
 #: data/os/mageia.org/mageia-9.xml.in:6 data/os/mageia.org/mageia-9.xml.in:16
-#, fuzzy
-#| msgid "Mageia 1"
 msgid "Mageia 9"
-msgstr "Mageia 1"
+msgstr "Mageia 9"
 
 #: data/os/mandriva.com/mandrake-10.0.xml.in:6
 msgid "Mandrake Linux 10.0"
@@ -3721,10 +3628,8 @@ msgid "NixOS 20.09 (minimal installation CD)"
 msgstr "NixOS 20.09 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:34
-#, fuzzy
-#| msgid "NixOS 20.09 (minimal installation CD)"
 msgid "NixOS 20.09 (GNOME installation CD)"
-msgstr "NixOS 20.09 (CD instalasi minimal)"
+msgstr "NixOS 20.09 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-20.09.xml.in:37
 msgid "NixOS 20.09 (Plasma 5 installation CD)"
@@ -3739,10 +3644,8 @@ msgid "NixOS 21.05 (minimal installation CD)"
 msgstr "NixOS 21.05 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:34
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 21.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (CD instalasi minimal)"
+msgstr "NixOS 21.05 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-21.05.xml.in:37
 msgid "NixOS 21.05 (Plasma 5 installation CD)"
@@ -3757,10 +3660,8 @@ msgid "NixOS 21.11 (minimal installation CD)"
 msgstr "NixOS 21.11 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:34
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 21.11 (GNOME installation CD)"
-msgstr "NixOS 21.11 (CD instalasi minimal)"
+msgstr "NixOS 21.11 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-21.11.xml.in:37
 msgid "NixOS 21.11 (Plasma 5 installation CD)"
@@ -3775,62 +3676,44 @@ msgid "NixOS 22.05 (minimal installation CD)"
 msgstr "NixOS 22.05 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-22.05.xml.in:34
-#, fuzzy
-#| msgid "NixOS 22.05 (minimal installation CD)"
 msgid "NixOS 22.05 (GNOME installation CD)"
-msgstr "NixOS 22.05 (CD instalasi minimal)"
+msgstr "NixOS 22.05 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-22.05.xml.in:37
 msgid "NixOS 22.05 (Plasma 5 installation CD)"
 msgstr "NixOS 22.05 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.11"
 msgid "NixOS 22.11"
-msgstr "NixOS 21.11"
+msgstr "NixOS 22.11"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 22.11 (minimal installation CD)"
-msgstr "NixOS 21.11 (CD instalasi minimal)"
+msgstr "NixOS 22.11 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (GNOME installation CD)"
 msgid "NixOS 22.11 (GNOME installation CD)"
-msgstr "NixOS Unstable (CD instalasi GNOME)"
+msgstr "NixOS 22.11 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-22.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgid "NixOS 22.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.11 (CD instalasi Plasma 5)"
+msgstr "NixOS 22.11 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 23.05"
-msgstr "NixOS 21.05"
+msgstr "NixOS 23.05"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 23.05 (minimal installation CD)"
-msgstr "NixOS 21.05 (CD instalasi minimal)"
+msgstr "NixOS 23.05 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 23.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (CD instalasi minimal)"
+msgstr "NixOS 23.05 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-23.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 23.05 (Plasma 5 installation CD)"
-msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
+msgstr "NixOS 23.05 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -3867,11 +3750,11 @@ msgstr "Novell Netware 6"
 
 #: data/os/omnios.org/bloody-rolling.xml.in:6
 msgid "OmniOSCE Bloody"
-msgstr ""
+msgstr "OmniOSCE Bloody"
 
 #: data/os/omnios.org/bloody-rolling.xml.in:7
 msgid "omniosce"
-msgstr ""
+msgstr "omniosce"
 
 #: data/os/openbsd.org/openbsd-4.2.xml.in:6
 #: data/os/openbsd.org/openbsd-4.2.xml.in:16
@@ -4043,32 +3926,26 @@ msgstr "OpenBSD 7.0"
 
 #: data/os/openbsd.org/openbsd-7.1.xml.in:6
 #: data/os/openbsd.org/openbsd-7.1.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.1"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.1"
 
 #: data/os/openbsd.org/openbsd-7.2.xml.in:6
 #: data/os/openbsd.org/openbsd-7.2.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.2"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.2"
 
 #: data/os/openbsd.org/openbsd-7.3.xml.in:6
 #: data/os/openbsd.org/openbsd-7.3.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.3"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.3"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
-msgstr ""
+msgstr "OpenIndiana Hipster"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:7
 msgid "illumos"
-msgstr ""
+msgstr "illumos"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
 msgid "openSUSE 10.2"
@@ -4174,10 +4051,8 @@ msgstr "openSUSE Leap 15.4"
 
 #: data/os/opensuse.org/opensuse-15.5.xml.in:6
 #: data/os/opensuse.org/opensuse-15.5.xml.in:17
-#, fuzzy
-#| msgid "openSUSE Leap 15.0"
 msgid "openSUSE Leap 15.5"
-msgstr "openSUSE Leap 15.0"
+msgstr "openSUSE Leap 15.5"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
 msgid "openSUSE Leap 42.1"
@@ -4798,10 +4673,8 @@ msgid "Red Hat Enterprise Linux 8.7"
 msgstr "Red Hat Enterprise Linux 8.7"
 
 #: data/os/redhat.com/rhel-8.8.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.8"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.8"
 
 #: data/os/redhat.com/rhel-8.9.xml.in:6
 #, fuzzy
