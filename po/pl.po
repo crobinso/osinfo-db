@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-28 11:22+0100\n"
-"PO-Revision-Date: 2023-09-05 15:10+0000\n"
+"PO-Revision-Date: 2023-11-29 13:32+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3946,10 +3946,8 @@ msgstr "OpenBSD 7.3"
 
 #: data/os/openbsd.org/openbsd-7.4.xml.in:6
 #: data/os/openbsd.org/openbsd-7.4.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.4"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.4"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4663,10 +4661,8 @@ msgid "Red Hat Enterprise Linux 8.1"
 msgstr "Red Hat Enterprise Linux 8.1"
 
 #: data/os/redhat.com/rhel-8.10.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.1"
 msgid "Red Hat Enterprise Linux 8.10"
-msgstr "Red Hat Enterprise Linux 8.1"
+msgstr "Red Hat Enterprise Linux 8.10"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
@@ -4721,10 +4717,8 @@ msgid "Red Hat Enterprise Linux 9.3"
 msgstr "Red Hat Enterprise Linux 9.3"
 
 #: data/os/redhat.com/rhel-9.4.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.4"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.4"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
