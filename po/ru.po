@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 14:41+0200\n"
+"POT-Creation-Date: 2023-11-28 11:22+0100\n"
 "PO-Revision-Date: 2023-04-01 09:20+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -3821,6 +3821,7 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-7.1.xml.in:10
 #: data/os/openbsd.org/openbsd-7.2.xml.in:10
 #: data/os/openbsd.org/openbsd-7.3.xml.in:10
+#: data/os/openbsd.org/openbsd-7.4.xml.in:10
 msgid "OpenBSD Project"
 msgstr ""
 
@@ -3967,6 +3968,11 @@ msgstr ""
 #: data/os/openbsd.org/openbsd-7.3.xml.in:6
 #: data/os/openbsd.org/openbsd-7.3.xml.in:18
 msgid "OpenBSD 7.3"
+msgstr ""
+
+#: data/os/openbsd.org/openbsd-7.4.xml.in:6
+#: data/os/openbsd.org/openbsd-7.4.xml.in:18
+msgid "OpenBSD 7.4"
 msgstr ""
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
@@ -4380,13 +4386,15 @@ msgstr ""
 #: data/os/redhat.com/rhel-7.8.xml.in:8 data/os/redhat.com/rhel-7.9.xml.in:8
 #: data/os/redhat.com/rhel-8-unknown.xml.in:8
 #: data/os/redhat.com/rhel-8.0.xml.in:8 data/os/redhat.com/rhel-8.1.xml.in:8
-#: data/os/redhat.com/rhel-8.2.xml.in:8 data/os/redhat.com/rhel-8.3.xml.in:8
-#: data/os/redhat.com/rhel-8.4.xml.in:8 data/os/redhat.com/rhel-8.5.xml.in:8
-#: data/os/redhat.com/rhel-8.6.xml.in:8 data/os/redhat.com/rhel-8.7.xml.in:8
-#: data/os/redhat.com/rhel-8.8.xml.in:8 data/os/redhat.com/rhel-8.9.xml.in:8
+#: data/os/redhat.com/rhel-8.10.xml.in:8 data/os/redhat.com/rhel-8.2.xml.in:8
+#: data/os/redhat.com/rhel-8.3.xml.in:8 data/os/redhat.com/rhel-8.4.xml.in:8
+#: data/os/redhat.com/rhel-8.5.xml.in:8 data/os/redhat.com/rhel-8.6.xml.in:8
+#: data/os/redhat.com/rhel-8.7.xml.in:8 data/os/redhat.com/rhel-8.8.xml.in:8
+#: data/os/redhat.com/rhel-8.9.xml.in:8
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-9.2.xml.in:8 data/os/redhat.com/rhel-9.3.xml.in:8
+#: data/os/redhat.com/rhel-9.4.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4678,6 +4686,10 @@ msgstr ""
 msgid "Red Hat Enterprise Linux 8.1"
 msgstr ""
 
+#: data/os/redhat.com/rhel-8.10.xml.in:6
+msgid "Red Hat Enterprise Linux 8.10"
+msgstr ""
+
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
 msgstr ""
@@ -4728,6 +4740,10 @@ msgstr ""
 
 #: data/os/redhat.com/rhel-9.3.xml.in:6
 msgid "Red Hat Enterprise Linux 9.3"
+msgstr ""
+
+#: data/os/redhat.com/rhel-9.4.xml.in:6
+msgid "Red Hat Enterprise Linux 9.4"
 msgstr ""
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
