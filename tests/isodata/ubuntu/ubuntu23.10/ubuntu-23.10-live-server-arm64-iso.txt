@@ -3,7 +3,7 @@ System id:
 Volume id: Ubuntu-Server 23.10 arm64
 Volume set id: 
 Publisher id: 
-Data preparer id: XORRISO-1.5.2 2019.10.26.180001, LIBISOBURN-1.5.2, LIBISOFS-1.5.2, LIBBURN-1.5.2
+Data preparer id: XORRISO-1.5.4 2021.01.30.150001, LIBISOBURN-1.5.4, LIBISOFS-1.5.4, LIBBURN-1.5.4
 Application id: 
 Copyright File id: 
 Abstract File id: 
@@ -11,8 +11,8 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1039518
-El Torito VD version 1 found, boot catalog is in sector 650
+Volume size is: 1157478
+El Torito VD version 1 found, boot catalog is in sector 670
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
@@ -25,5 +25,5 @@ Eltorito validation header:
         Boot media 0 (No Emulation Boot)
         Load segment 0
         Sys type 0
-        Nsect 2FA0
-        Bootoff FD020 1036320
+        Nsect 34E0
+        Bootoff 119B98 1153944
