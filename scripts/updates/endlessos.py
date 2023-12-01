@@ -34,7 +34,7 @@ import tempfile
 
 import gi
 
-gi.require_version("GnomeDesktop", "3.0")
+gi.require_version("GnomeDesktop", "4.0")
 from gi.repository import GnomeDesktop  # noqa: E402
 
 BASE_URL = "https://images-dl.endlessm.com"
