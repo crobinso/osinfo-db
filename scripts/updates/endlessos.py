@@ -2,12 +2,12 @@
 """
 Refreshes data from the index of downloadable images published by Endless.
 
-Each eos3.X branch gets a separate entry in the database; when a new release is made in
+Each OS branch gets a separate entry in the database; when a new release is made in
 that series, the URLs are refreshed to mark the newest point release. When a new branch
 is released, it is annotated as updating and deriving from the previous branch, and the
 old branch is marked as end-of-life as of the first release on the new branch.
 """
-# Copyright © 2019 Endless Mobile, Inc.
+# Copyright © 2019–2023 Endless OS Foundation LLC
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
