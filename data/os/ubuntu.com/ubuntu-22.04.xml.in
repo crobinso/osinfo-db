@@ -6,7 +6,6 @@
     <short-id>ubuntu22.04</short-id>
     <short-id>ubuntujammy</short-id>
     <short-id>ubuntu-lts-latest</short-id>
-    <short-id>ubuntu-stable-latest</short-id>
     <name>Ubuntu 22.04 LTS</name>
     <version>22.04</version>
     <vendor>Canonical Ltd</vendor>
