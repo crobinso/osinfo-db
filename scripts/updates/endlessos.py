@@ -23,10 +23,10 @@ old branch is marked as end-of-life as of the first release on the new branch.
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import argparse
 import datetime
-from distutils.version import LooseVersion
 import json
 import jinja2
 import os
+import packaging.version
 import requests
 import shutil
 import subprocess
@@ -86,7 +86,7 @@ def personality_name(personality):
 
 
 def publisher_id(branch):
-    if LooseVersion(branch) >= LooseVersion("3.9"):
+    if packaging.version.Version(branch) >= packaging.version.Version("3.9"):
         return "ENDLESS OS FOUNDATION LLC"
     else:
         return "ENDLESS COMPUTERS"
@@ -191,7 +191,7 @@ def main():
         manifest = response.json()
 
     images = list(manifest["images"].values())
-    images.sort(key=lambda i: LooseVersion(i["version"]))
+    images.sort(key=lambda i: packaging.version.Version(i["version"]))
     images_by_branch = {}
     for image in images:
         images_by_branch.setdefault(image["branch"], []).append(image)
