@@ -1,22 +1,20 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://endlessos.com/eos/5.0">
-    <short-id>eos5.0</short-id>
-    <name>Endless OS 5.0</name>
-    <version>5.0</version>
+  <os id="http://endlessos.com/eos/5.1">
+    <short-id>eos5.1</short-id>
+    <name>Endless OS 5.1</name>
+    <version>5.1</version>
     <vendor>Endless OS Foundation LLC</vendor>
     <family>linux</family>
     <distro>eos</distro>
 
-    <upgrades id="http://endlessos.com/eos/4.0"/>
-    <derives-from id="http://endlessos.com/eos/4.0"/>
+    <upgrades id="http://endlessos.com/eos/5.0"/>
+    <derives-from id="http://endlessos.com/eos/5.0"/>
 
 
-    <release-date>2023-01-28</release-date>
+    <release-date>2023-12-01</release-date>
 
-
-    <eol-date>2023-12-01</eol-date>
 
 
 
@@ -26,9 +24,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/5.0.5/eos-amd64-amd64/base/eos-eos5.0-amd64-amd64.230721-090956.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/base/eos-eos5.1-amd64-amd64.231201-135419.base.iso</url>
       <iso>
-        <volume-id>Endless-OS-5-0-\d+-base$</volume-id>
+        <volume-id>Endless-OS-5-1-\d+-base$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
@@ -39,9 +37,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/5.0.5/eos-amd64-amd64/en/eos-eos5.0-amd64-amd64.230721-091005.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/en/eos-eos5.1-amd64-amd64.231201-135432.en.iso</url>
       <iso>
-        <volume-id>Endless-OS-5-0-\d+-en$</volume-id>
+        <volume-id>Endless-OS-5-1-\d+-en$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
@@ -52,9 +50,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/5.0.5/eos-amd64-amd64/es/eos-eos5.0-amd64-amd64.230721-091020.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/es/eos-eos5.1-amd64-amd64.231201-135441.es.iso</url>
       <iso>
-        <volume-id>Endless-OS-5-0-\d+-es$</volume-id>
+        <volume-id>Endless-OS-5-1-\d+-es$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
@@ -65,9 +63,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/5.0.5/eos-amd64-amd64/fr/eos-eos5.0-amd64-amd64.230721-091025.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/fr/eos-eos5.1-amd64-amd64.231201-135448.fr.iso</url>
       <iso>
-        <volume-id>Endless-OS-5-0-\d+-fr$</volume-id>
+        <volume-id>Endless-OS-5-1-\d+-fr$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
@@ -78,9 +76,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/5.0.5/eos-amd64-amd64/pt_BR/eos-eos5.0-amd64-amd64.230721-091026.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/pt_BR/eos-eos5.1-amd64-amd64.231201-135502.pt_BR.iso</url>
       <iso>
-        <volume-id>Endless-OS-5-0-\d+-pt_BR$</volume-id>
+        <volume-id>Endless-OS-5-1-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
@@ -93,7 +91,7 @@
     <media arch="all" live="true">
       <variant id="other"/>
       <iso>
-        <volume-id>\D+-5-0-\d+</volume-id>
+        <volume-id>\D+-5-1-\d+</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
       </iso>
     </media>
