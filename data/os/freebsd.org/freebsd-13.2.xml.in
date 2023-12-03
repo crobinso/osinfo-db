@@ -1,0 +1,45 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freebsd.org/freebsd/13.2">
+    <short-id>freebsd13.2</short-id>
+    <name>FreeBSD 13.2</name>
+    <version>13.2</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/13.1"/>
+    <derives-from id="http://freebsd.org/freebsd/13.1"/>
+
+    <release-date>2023-04-11</release-date>
+
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.2/FreeBSD-13.2-RELEASE-amd64-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>13_2_RELEASE_AMD64_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/13.2/FreeBSD-13.2-RELEASE-amd64-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>13_2_RELEASE_AMD64_CD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/13.2/FreeBSD-13.2-RELEASE-i386-dvd1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>13_2_RELEASE_I386_DVD</volume-id>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/13.2/FreeBSD-13.2-RELEASE-i386-disc1.iso</url>
+      <iso>
+        <system-id>FreeBSD</system-id>
+        <volume-id>13_2_RELEASE_I386_CD</volume-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
