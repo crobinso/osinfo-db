@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-04 08:55+0100\n"
-"PO-Revision-Date: 2023-11-29 13:32+0000\n"
+"PO-Revision-Date: 2023-12-04 13:22+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -1899,10 +1899,8 @@ msgid "Endless OS 5.0"
 msgstr "Endless OS 5.0"
 
 #: data/os/endlessos.com/eos-5.1.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 5.0"
 msgid "Endless OS 5.1"
-msgstr "Endless OS 5.0"
+msgstr "Endless OS 5.1"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -4306,58 +4304,40 @@ msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/ol-8.6.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.6"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.6"
 
 #: data/os/oracle.com/ol-8.7.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.7"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.7"
 
 #: data/os/oracle.com/ol-8.8.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.8"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.8"
 
 #: data/os/oracle.com/ol-8.9.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.9"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.9"
 
 #: data/os/oracle.com/ol-9-unknown.xml.in:5
-#, fuzzy
-#| msgid "Circle Linux 9 Unknown"
 msgid "Oracle Linux 9 Unknown"
-msgstr "Circle Linux 9 (sconosciuto)"
+msgstr "Oracle Linux 9 (sconosciuto)"
 
 #: data/os/oracle.com/ol-9.0.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Oracle Linux 9.0"
-msgstr "Oracle Linux 6.0"
+msgstr "Oracle Linux 9.0"
 
 #: data/os/oracle.com/ol-9.1.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.1"
 msgid "Oracle Linux 9.1"
-msgstr "Oracle Linux 6.1"
+msgstr "Oracle Linux 9.1"
 
 #: data/os/oracle.com/ol-9.2.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.2"
 msgid "Oracle Linux 9.2"
-msgstr "Oracle Linux 6.2"
+msgstr "Oracle Linux 9.2"
 
 #: data/os/oracle.com/ol-9.3.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.3"
 msgid "Oracle Linux 9.3"
-msgstr "Oracle Linux 6.3"
+msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
