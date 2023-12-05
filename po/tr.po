@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-28 11:22+0100\n"
+"POT-Creation-Date: 2023-12-04 08:55+0100\n"
 "PO-Revision-Date: 2023-09-17 14:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -1696,7 +1696,8 @@ msgstr "Endless OS Arapça"
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
 #: data/os/endlessos.com/eos-4.0.xml.in:22
-#: data/os/endlessos.com/eos-5.0.xml.in:22
+#: data/os/endlessos.com/eos-5.0.xml.in:24
+#: data/os/endlessos.com/eos-5.1.xml.in:22
 msgid "Endless OS Basic"
 msgstr "Endless OS Basic"
 
@@ -1714,7 +1715,8 @@ msgstr "Endless OS Bengalce"
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
 #: data/os/endlessos.com/eos-4.0.xml.in:35
-#: data/os/endlessos.com/eos-5.0.xml.in:35
+#: data/os/endlessos.com/eos-5.0.xml.in:37
+#: data/os/endlessos.com/eos-5.1.xml.in:35
 msgid "Endless OS English"
 msgstr "Endless OS İngilizce"
 
@@ -1728,7 +1730,8 @@ msgstr "Endless OS İngilizce"
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
 #: data/os/endlessos.com/eos-4.0.xml.in:48
-#: data/os/endlessos.com/eos-5.0.xml.in:48
+#: data/os/endlessos.com/eos-5.0.xml.in:50
+#: data/os/endlessos.com/eos-5.1.xml.in:48
 msgid "Endless OS Spanish"
 msgstr "Endless OS İspanyolca"
 
@@ -1757,7 +1760,8 @@ msgstr "Endless OS İspanyolca (Meksika)"
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
 #: data/os/endlessos.com/eos-4.0.xml.in:61
-#: data/os/endlessos.com/eos-5.0.xml.in:61
+#: data/os/endlessos.com/eos-5.0.xml.in:63
+#: data/os/endlessos.com/eos-5.1.xml.in:61
 msgid "Endless OS French"
 msgstr "Endless OS Fransızca"
 
@@ -1782,7 +1786,8 @@ msgstr "Endless OS Endonezce"
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
 #: data/os/endlessos.com/eos-4.0.xml.in:74
-#: data/os/endlessos.com/eos-5.0.xml.in:74
+#: data/os/endlessos.com/eos-5.0.xml.in:76
+#: data/os/endlessos.com/eos-5.1.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS Portekizce (Brezilya)"
 
@@ -1830,7 +1835,8 @@ msgstr "Endless OS Güneydoğu Asya"
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
 #: data/os/endlessos.com/eos-4.0.xml.in:88
-#: data/os/endlessos.com/eos-5.0.xml.in:88
+#: data/os/endlessos.com/eos-5.0.xml.in:90
+#: data/os/endlessos.com/eos-5.1.xml.in:88
 msgid "Endless OS (other)"
 msgstr "Endless OS (diğer)"
 
@@ -1876,6 +1882,7 @@ msgstr "Endless OS 3.8"
 #: data/os/endlessos.com/eos-3.9.xml.in:8
 #: data/os/endlessos.com/eos-4.0.xml.in:8
 #: data/os/endlessos.com/eos-5.0.xml.in:8
+#: data/os/endlessos.com/eos-5.1.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr "Endless OS Foundation LLC"
 
@@ -1889,6 +1896,12 @@ msgstr "Endless OS 4.0"
 
 #: data/os/endlessos.com/eos-5.0.xml.in:6
 msgid "Endless OS 5.0"
+msgstr "Endless OS 5.0"
+
+#: data/os/endlessos.com/eos-5.1.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 5.0"
+msgid "Endless OS 5.1"
 msgstr "Endless OS 5.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
@@ -4107,10 +4120,14 @@ msgstr "Oracle Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-7.3.xml.in:6 data/os/oracle.com/ol-7.4.xml.in:6
 #: data/os/oracle.com/ol-7.5.xml.in:6 data/os/oracle.com/ol-7.6.xml.in:6
 #: data/os/oracle.com/ol-7.7.xml.in:6 data/os/oracle.com/ol-7.8.xml.in:6
-#: data/os/oracle.com/ol-7.9.xml.in:6 data/os/oracle.com/ol-8.0.xml.in:6
-#: data/os/oracle.com/ol-8.1.xml.in:6 data/os/oracle.com/ol-8.2.xml.in:6
-#: data/os/oracle.com/ol-8.3.xml.in:6 data/os/oracle.com/ol-8.4.xml.in:6
-#: data/os/oracle.com/ol-8.5.xml.in:6
+#: data/os/oracle.com/ol-7.9.xml.in:6 data/os/oracle.com/ol-8.0.xml.in:7
+#: data/os/oracle.com/ol-8.1.xml.in:7 data/os/oracle.com/ol-8.2.xml.in:7
+#: data/os/oracle.com/ol-8.3.xml.in:7 data/os/oracle.com/ol-8.4.xml.in:7
+#: data/os/oracle.com/ol-8.5.xml.in:7 data/os/oracle.com/ol-8.6.xml.in:7
+#: data/os/oracle.com/ol-8.7.xml.in:7 data/os/oracle.com/ol-8.8.xml.in:7
+#: data/os/oracle.com/ol-8.9.xml.in:7 data/os/oracle.com/ol-9-unknown.xml.in:7
+#: data/os/oracle.com/ol-9.0.xml.in:7 data/os/oracle.com/ol-9.1.xml.in:7
+#: data/os/oracle.com/ol-9.2.xml.in:7 data/os/oracle.com/ol-9.3.xml.in:7
 msgid "Oracle America"
 msgstr "Oracle America"
 
@@ -4266,29 +4283,83 @@ msgstr "Oracle Linux 7.8"
 msgid "Oracle Linux 7.9"
 msgstr "Oracle Linux 7.9"
 
-#: data/os/oracle.com/ol-8.0.xml.in:4
+#: data/os/oracle.com/ol-8.0.xml.in:5
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
-#: data/os/oracle.com/ol-8.1.xml.in:4
+#: data/os/oracle.com/ol-8.1.xml.in:5
 msgid "Oracle Linux 8.1"
 msgstr "Oracle Linux 8.1"
 
-#: data/os/oracle.com/ol-8.2.xml.in:4
+#: data/os/oracle.com/ol-8.2.xml.in:5
 msgid "Oracle Linux 8.2"
 msgstr "Oracle Linux 8.2"
 
-#: data/os/oracle.com/ol-8.3.xml.in:4
+#: data/os/oracle.com/ol-8.3.xml.in:5
 msgid "Oracle Linux 8.3"
 msgstr "Oracle Linux 8.3"
 
-#: data/os/oracle.com/ol-8.4.xml.in:4
+#: data/os/oracle.com/ol-8.4.xml.in:5
 msgid "Oracle Linux 8.4"
 msgstr "Oracle Linux 8.4"
 
-#: data/os/oracle.com/ol-8.5.xml.in:4
+#: data/os/oracle.com/ol-8.5.xml.in:5
 msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
+
+#: data/os/oracle.com/ol-8.6.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.6"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-8.7.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.7"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-8.8.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.8"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-8.9.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 8.0"
+msgid "Oracle Linux 8.9"
+msgstr "Oracle Linux 8.0"
+
+#: data/os/oracle.com/ol-9-unknown.xml.in:5
+#, fuzzy
+#| msgid "Circle Linux 9 Unknown"
+msgid "Oracle Linux 9 Unknown"
+msgstr "Circle Linux 9 Bilinmeyen"
+
+#: data/os/oracle.com/ol-9.0.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 6.0"
+msgid "Oracle Linux 9.0"
+msgstr "Oracle Linux 6.0"
+
+#: data/os/oracle.com/ol-9.1.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 6.1"
+msgid "Oracle Linux 9.1"
+msgstr "Oracle Linux 6.1"
+
+#: data/os/oracle.com/ol-9.2.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 6.2"
+msgid "Oracle Linux 9.2"
+msgstr "Oracle Linux 6.2"
+
+#: data/os/oracle.com/ol-9.3.xml.in:5
+#, fuzzy
+#| msgid "Oracle Linux 6.3"
+msgid "Oracle Linux 9.3"
+msgstr "Oracle Linux 6.3"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -5483,10 +5554,10 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:11
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:11
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5593,7 +5664,7 @@ msgstr "Ubuntu 21.04"
 msgid "Ubuntu 21.10"
 msgstr "Ubuntu 21.10"
 
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:9
 msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 22.04 LTS"
 
@@ -5605,7 +5676,7 @@ msgstr "Ubuntu 22.10"
 msgid "Ubuntu 23.04"
 msgstr "Ubuntu 23.04"
 
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:9
 msgid "Ubuntu 23.10"
 msgstr "Ubuntu 23.10"
 
