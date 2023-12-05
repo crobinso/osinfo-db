@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-04 08:55+0100\n"
-"PO-Revision-Date: 2023-11-28 10:21+0000\n"
+"PO-Revision-Date: 2023-12-05 13:24+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
@@ -1899,10 +1899,8 @@ msgid "Endless OS 5.0"
 msgstr "Endless OS 5.0"
 
 #: data/os/endlessos.com/eos-5.1.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 5.0"
 msgid "Endless OS 5.1"
-msgstr "Endless OS 5.0"
+msgstr "Endless OS 5.1"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -3955,10 +3953,8 @@ msgstr "OpenBSD 7.3"
 
 #: data/os/openbsd.org/openbsd-7.4.xml.in:6
 #: data/os/openbsd.org/openbsd-7.4.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.4"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.4"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4308,58 +4304,40 @@ msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/ol-8.6.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.6"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.6"
 
 #: data/os/oracle.com/ol-8.7.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.7"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.7"
 
 #: data/os/oracle.com/ol-8.8.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.8"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.8"
 
 #: data/os/oracle.com/ol-8.9.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.9"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.9"
 
 #: data/os/oracle.com/ol-9-unknown.xml.in:5
-#, fuzzy
-#| msgid "Circle Linux 9 Unknown"
 msgid "Oracle Linux 9 Unknown"
-msgstr "Circle Linux 9 Tak Diketahui"
+msgstr "Oracle Linux 9 Tak Diketahui"
 
 #: data/os/oracle.com/ol-9.0.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Oracle Linux 9.0"
-msgstr "Oracle Linux 6.0"
+msgstr "Oracle Linux 9.0"
 
 #: data/os/oracle.com/ol-9.1.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.1"
 msgid "Oracle Linux 9.1"
-msgstr "Oracle Linux 6.1"
+msgstr "Oracle Linux 9.1"
 
 #: data/os/oracle.com/ol-9.2.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.2"
 msgid "Oracle Linux 9.2"
-msgstr "Oracle Linux 6.2"
+msgstr "Oracle Linux 9.2"
 
 #: data/os/oracle.com/ol-9.3.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.3"
 msgid "Oracle Linux 9.3"
-msgstr "Oracle Linux 6.3"
+msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -4730,10 +4708,8 @@ msgid "Red Hat Enterprise Linux 8.1"
 msgstr "Red Hat Enterprise Linux 8.1"
 
 #: data/os/redhat.com/rhel-8.10.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.1"
 msgid "Red Hat Enterprise Linux 8.10"
-msgstr "Red Hat Enterprise Linux 8.1"
+msgstr "Red Hat Enterprise Linux 8.10"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
@@ -4764,10 +4740,8 @@ msgid "Red Hat Enterprise Linux 8.8"
 msgstr "Red Hat Enterprise Linux 8.8"
 
 #: data/os/redhat.com/rhel-8.9.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.0"
 msgid "Red Hat Enterprise Linux 8.9"
-msgstr "Red Hat Enterprise Linux 8.0"
+msgstr "Red Hat Enterprise Linux 8.9"
 
 #: data/os/redhat.com/rhel-9-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 9 Unknown"
@@ -4782,22 +4756,16 @@ msgid "Red Hat Enterprise Linux 9.1"
 msgstr "Red Hat Enterprise Linux 9.1"
 
 #: data/os/redhat.com/rhel-9.2.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.2"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.2"
 
 #: data/os/redhat.com/rhel-9.3.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.3"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.3"
 
 #: data/os/redhat.com/rhel-9.4.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.4"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.4"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -4982,10 +4950,8 @@ msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux XFCE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:44
-#, fuzzy
-#| msgid "Rocky Linux Unknown"
 msgid "Rocky Linux Cinnamon 9"
-msgstr "Rocky Linux Tak Diketahui"
+msgstr "Rocky Linux Cinnamon 9"
 
 #: data/os/rockylinux.org/rocky-unknown.xml.in:6
 msgid "Rocky Linux Unknown"
@@ -5164,11 +5130,11 @@ msgstr "Slackware -current"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:6
 msgid "Triton SmartOS"
-msgstr ""
+msgstr "Triton SmartOS"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:7
 msgid "TritonDataCenter"
-msgstr ""
+msgstr "TritonDataCenter"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
 msgid "OpenSolaris 2009.06"
@@ -5255,10 +5221,8 @@ msgid "SUSE Linux Enterprise 15 SP4"
 msgstr "SUSE Linux Enterprise 15 SP4"
 
 #: data/os/suse.com/sle-15.5.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise 15 SP1"
 msgid "SUSE Linux Enterprise 15 SP5"
-msgstr "SUSE Linux Enterprise 15 SP1"
+msgstr "SUSE Linux Enterprise 15 SP5"
 
 #: data/os/suse.com/sle-15.xml.in:6
 msgid "SUSE Linux Enterprise 15"
@@ -5353,16 +5317,12 @@ msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "SUSE Linux Enterprise Micro 5.2"
 
 #: data/os/suse.com/slem-5.3.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.3"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.3"
 
 #: data/os/suse.com/slem-5.4.xml.in:6
-#, fuzzy
-#| msgid "SUSE Linux Enterprise Micro 5.1"
 msgid "SUSE Linux Enterprise Micro 5.4"
-msgstr "SUSE Linux Enterprise Micro 5.1"
+msgstr "SUSE Linux Enterprise Micro 5.4"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
 msgid "SUSE Linux Enterprise Server 10 SP1"
@@ -5475,10 +5435,8 @@ msgid "Pop!_OS 20.10"
 msgstr "Pop!_OS 20.10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:8
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 10.0 LTS"
-msgstr "Trisquel 9"
+msgstr "Trisquel 10.0 LTS"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:10
 #: data/os/trisquel.info/trisquel-11.xml.in:10
@@ -5487,64 +5445,44 @@ msgid "The Trisquel Project"
 msgstr "Proyek Trisquel"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:19
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 10"
-msgstr "Trisquel 9"
+msgstr "Trisquel 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:22
-#, fuzzy
-#| msgid "Triskel 9"
 msgid "Triskel 10"
-msgstr "Triskel 9"
+msgstr "Triskel 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:25
-#, fuzzy
-#| msgid "Trisquel 9 Mini"
 msgid "Trisquel 10 Mini"
-msgstr "Trisquel 9 Mini"
+msgstr "Trisquel 10 Mini"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:28
-#, fuzzy
-#| msgid "Trisquel 9 Sugar Toast"
 msgid "Trisquel 10 Sugar Toast"
-msgstr "Trisquel 9 Sugar Toast"
+msgstr "Trisquel 10 Sugar Toast"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:8
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 11.0 LTS"
-msgstr "Trisquel 9"
+msgstr "Trisquel 11.0 LTS"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:19
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 11"
-msgstr "Trisquel 9"
+msgstr "Trisquel 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:22
-#, fuzzy
-#| msgid "Triskel 9"
 msgid "Triskel 11"
-msgstr "Triskel 9"
+msgstr "Triskel 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:25
-#, fuzzy
-#| msgid "Trisquel 9 Mini"
 msgid "Trisquel 11 Mini"
-msgstr "Trisquel 9 Mini"
+msgstr "Trisquel 11 Mini"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:28
-#, fuzzy
-#| msgid "Trisquel 9 Sugar Toast"
 msgid "Trisquel 11 Sugar Toast"
-msgstr "Trisquel 9 Sugar Toast"
+msgstr "Trisquel 11 Sugar Toast"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:7
-#, fuzzy
-#| msgid "Trisquel 9"
 msgid "Trisquel 9.0 LTS"
-msgstr "Trisquel 9"
+msgstr "Trisquel 9.0 LTS"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:18
 msgid "Trisquel 9"
@@ -5709,16 +5647,12 @@ msgid "Ubuntu 22.10"
 msgstr "Ubuntu 22.10"
 
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 13.04"
 msgid "Ubuntu 23.04"
-msgstr "Ubuntu 13.04"
+msgstr "Ubuntu 23.04"
 
 #: data/os/ubuntu.com/ubuntu-23.10.xml.in:9
-#, fuzzy
-#| msgid "Ubuntu 13.04"
 msgid "Ubuntu 23.10"
-msgstr "Ubuntu 13.04"
+msgstr "Ubuntu 23.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
