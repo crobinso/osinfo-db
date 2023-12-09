@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:61576ae7170e35210f03aae3102048f0a9e0df7868ac726908669b4ef9cc22e9
+images/eltorito.img = sha256:bc68bd603ca3729cc04c8e1f6f7548722548700c34b782f90b1d0b8b563bce8e
+images/install.img = sha256:09720754b1434165a3a34e0123d2345e8289a674b3b3084c7d279219851b0774
+images/pxeboot/initrd.img = sha256:5bc29e2d872ceeb39a9698d42da3fb0afd7583dc7180de05a6b78bcc726674bb
+images/pxeboot/vmlinuz = sha256:5f2ef0de47f8d79d5ee9bf8b0ee6d5ba4d987c2f9a16b8b511a7c69e53931fe3
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Fedora
+name = Fedora 39
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1698800236
+variant = Server
+variants = Server
+version = 39
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+eltorito.img = images/eltorito.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Fedora
+short = Fedora
+version = 39
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1698800236
+platforms = x86_64,xen
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+

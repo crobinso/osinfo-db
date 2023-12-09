@@ -1,0 +1,263 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://fedoraproject.org/fedora/39">
+    <short-id>fedora39</short-id>
+    <name>Fedora Linux 39</name>
+    <version>39</version>
+    <vendor>Fedora Project</vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/fedora/38"/>
+    <derives-from id="http://fedoraproject.org/fedora/38"/>
+
+    <release-date>2023-11-07</release-date>
+
+    <variant id="workstation">
+      <name>Fedora Workstation 39</name>
+    </variant>
+    <variant id="server">
+      <name>Fedora Server 39</name>
+    </variant>
+    <variant id="server-netinst">
+      <name>Fedora Server 39</name>
+    </variant>
+    <variant id="everything-netinst">
+      <name>Fedora Everything 39</name>
+    </variant>
+
+    <!-- Workstation -->
+
+    <!-- Live -->
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="workstation"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-WS-Live-39.*</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+
+    <!-- DVD -->
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/x86_64/iso/Fedora-Server-dvd-x86_64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-39</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="x86_64">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/x86_64/iso/Fedora-Server-netinst-x86_64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-x86_64-39</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- DVD -->
+    <media arch="aarch64" installer-script="false">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/aarch64/iso/Fedora-Server-dvd-aarch64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-aarch64-39</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="aarch64" installer-script="false">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/aarch64/iso/Fedora-Server-netinst-aarch64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-aarch64-39</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <!-- DVD -->
+    <media arch="s390x" installer-script="false">
+      <variant id="server"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Server/s390x/iso/Fedora-Server-dvd-s390x-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-s390x-39</volume-id>
+        <system-id>LINUX</system-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <!-- Network Installer !-->
+    <media arch="s390x" installer-script="false">
+      <variant id="server-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Server/s390x/iso/Fedora-Server-netinst-s390x-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-S-dvd-s390x-39</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      </installer>
+    </media>
+
+    <!-- Everything -->
+    <media arch="x86_64">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-E-dvd-x86_64-39</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+      <installer>
+        <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+        <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+      </installer>
+    </media>
+
+    <media arch="aarch64" installer-script="false">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/aarch64/iso/Fedora-Everything-netinst-aarch64-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-E-dvd-aarch64-39</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x" installer-script="false">
+      <variant id="everything-netinst"/>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Everything/s390x/iso/Fedora-Everything-netinst-s390x-39-1.5.iso</url>
+      <iso>
+        <volume-id>Fedora-E-dvd-s390x-39</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/x86_64/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>x86_64</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Server/aarch64/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>aarch64</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Server/s390x/os</url>
+      <variant id="server"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>s390x</arch>
+        <variant>Server</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/x86_64/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>x86_64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/39/Everything/aarch64/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>aarch64</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Everything/s390x/os</url>
+      <variant id="everything-netinst"/>
+      <treeinfo>
+        <family>Fedora</family>
+        <version>39</version>
+        <arch>s390x</arch>
+        <variant>Everything</variant>
+      </treeinfo>
+    </tree>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/39/Cloud/x86_64/images/Fedora-Cloud-Base-39-1.5.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/39/Cloud/aarch64/images/Fedora-Cloud-Base-39-1.5.aarch64.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/39/Cloud/s390x/images/Fedora-Cloud-Base-39-1.5.s390x.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/fedora:39</url>
+    </image>
+
+    <!-- No install media or tree is provided for Fedora 39 Cloud variant -->
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/fedora/kickstart/jeos'/>
+      <script id='http://fedoraproject.org/fedora/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>
