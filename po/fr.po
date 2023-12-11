@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-04 08:55+0100\n"
+"POT-Creation-Date: 2023-12-06 09:07+0100\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -2744,6 +2744,8 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-12.4.xml.in:8
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-13.1.xml.in:8
+#: data/os/freebsd.org/freebsd-13.2.xml.in:8
+#: data/os/freebsd.org/freebsd-14.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2865,6 +2867,18 @@ msgstr "FreeBSD 1.0"
 #, fuzzy
 #| msgid "FreeBSD 1.0"
 msgid "FreeBSD 13.1"
+msgstr "FreeBSD 1.0"
+
+#: data/os/freebsd.org/freebsd-13.2.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 3.2"
+msgid "FreeBSD 13.2"
+msgstr "FreeBSD 3.2"
+
+#: data/os/freebsd.org/freebsd-14.0.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 1.0"
+msgid "FreeBSD 14.0"
 msgstr "FreeBSD 1.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
@@ -3953,6 +3967,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-22.05.xml.in:8
 #: data/os/nixos.org/nixos-22.11.xml.in:8
 #: data/os/nixos.org/nixos-23.05.xml.in:8
+#: data/os/nixos.org/nixos-23.11.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -4103,6 +4118,30 @@ msgstr "NixOS 20.03 (CD d’installation minimal)"
 #, fuzzy
 #| msgid "NixOS 20.03 (Plasma 5 installation CD)"
 msgid "NixOS 23.05 (Plasma 5 installation CD)"
+msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
+
+#: data/os/nixos.org/nixos-23.11.xml.in:6
+#, fuzzy
+#| msgid "NixOS 20.03"
+msgid "NixOS 23.11"
+msgstr "NixOS 20.03"
+
+#: data/os/nixos.org/nixos-23.11.xml.in:30
+#, fuzzy
+#| msgid "NixOS 20.03 (minimal installation CD)"
+msgid "NixOS 23.11 (minimal installation CD)"
+msgstr "NixOS 20.03 (CD d’installation minimal)"
+
+#: data/os/nixos.org/nixos-23.11.xml.in:33
+#, fuzzy
+#| msgid "NixOS 20.03 (minimal installation CD)"
+msgid "NixOS 23.11 (GNOME installation CD)"
+msgstr "NixOS 20.03 (CD d’installation minimal)"
+
+#: data/os/nixos.org/nixos-23.11.xml.in:36
+#, fuzzy
+#| msgid "NixOS 20.03 (Plasma 5 installation CD)"
+msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "NixOS 20.03 (CD d’installation Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
@@ -6041,6 +6080,7 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.10.xml.in:11
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -6176,6 +6216,12 @@ msgstr "Ubuntu 13.04"
 #| msgid "Ubuntu 13.04"
 msgid "Ubuntu 23.10"
 msgstr "Ubuntu 13.04"
+
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 14.04 LTS"
+msgid "Ubuntu 24.04 LTS"
+msgstr "Ubuntu 14.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
