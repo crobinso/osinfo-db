@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-06 09:07+0100\n"
-"PO-Revision-Date: 2023-11-29 13:32+0000\n"
+"PO-Revision-Date: 2023-12-07 13:51+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -1903,10 +1903,8 @@ msgid "Endless OS 5.0"
 msgstr "Endless OS 5.0"
 
 #: data/os/endlessos.com/eos-5.1.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 5.0"
 msgid "Endless OS 5.1"
-msgstr "Endless OS 5.0"
+msgstr "Endless OS 5.1"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -2571,16 +2569,12 @@ msgid "FreeBSD 13.1"
 msgstr "FreeBSD 13.1"
 
 #: data/os/freebsd.org/freebsd-13.2.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 3.2"
 msgid "FreeBSD 13.2"
-msgstr "FreeBSD 3.2"
+msgstr "FreeBSD 13.2"
 
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 1.0"
 msgid "FreeBSD 14.0"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 14.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -3748,28 +3742,20 @@ msgid "NixOS 23.05 (Plasma 5 installation CD)"
 msgstr "NixOS 23.05 (płyta CD instalacji Plasma 5)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.11"
 msgid "NixOS 23.11"
-msgstr "NixOS 21.11"
+msgstr "NixOS 23.11"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 23.11 (minimal installation CD)"
-msgstr "NixOS 21.11 (płyta CD instalacji minimalnej)"
+msgstr "NixOS 23.11 (płyta CD instalacji minimalnej)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.11 (GNOME installation CD)"
 msgid "NixOS 23.11 (GNOME installation CD)"
-msgstr "NixOS 21.11 (płyta CD instalacji z GNOME)"
+msgstr "NixOS 23.11 (płyta CD instalacji z GNOME)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgid "NixOS 23.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.11 (płyta CD instalacji Plasma 5)"
+msgstr "NixOS 23.11 (płyta CD instalacji Plasma 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4349,58 +4335,40 @@ msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/ol-8.6.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.6"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.6"
 
 #: data/os/oracle.com/ol-8.7.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.7"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.7"
 
 #: data/os/oracle.com/ol-8.8.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.8"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.8"
 
 #: data/os/oracle.com/ol-8.9.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.9"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.9"
 
 #: data/os/oracle.com/ol-9-unknown.xml.in:5
-#, fuzzy
-#| msgid "Circle Linux 9 Unknown"
 msgid "Oracle Linux 9 Unknown"
-msgstr "Circle Linux 9 (nieznany)"
+msgstr "Oracle Linux 9 (nieznany)"
 
 #: data/os/oracle.com/ol-9.0.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Oracle Linux 9.0"
-msgstr "Oracle Linux 6.0"
+msgstr "Oracle Linux 9.0"
 
 #: data/os/oracle.com/ol-9.1.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.1"
 msgid "Oracle Linux 9.1"
-msgstr "Oracle Linux 6.1"
+msgstr "Oracle Linux 9.1"
 
 #: data/os/oracle.com/ol-9.2.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.2"
 msgid "Oracle Linux 9.2"
-msgstr "Oracle Linux 6.2"
+msgstr "Oracle Linux 9.2"
 
 #: data/os/oracle.com/ol-9.3.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.3"
 msgid "Oracle Linux 9.3"
-msgstr "Oracle Linux 6.3"
+msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -5719,10 +5687,8 @@ msgid "Ubuntu 23.10"
 msgstr "Ubuntu 23.10"
 
 #: data/os/ubuntu.com/ubuntu-24.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 14.04 LTS"
 msgid "Ubuntu 24.04 LTS"
-msgstr "Ubuntu 14.04 LTS"
+msgstr "Ubuntu 24.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
