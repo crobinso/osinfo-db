@@ -16,6 +16,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/21.10"/>
 
     <release-date>2022-04-21</release-date>
+    <eol-date>2032-04-21</eol-date>
 
     <resources arch="all">
       <minimum>

@@ -14,7 +14,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/13.10"/>
 
     <release-date>2014-04-17</release-date>
-    <eol-date>2024-04-30</eol-date>
+    <eol-date>2024-04-25</eol-date>
 
     <resources arch="all">
       <minimum>
