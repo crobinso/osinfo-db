@@ -13,7 +13,7 @@
     <upgrades id="http://debian.org/debian/7"/>
     <derives-from id="http://debian.org/debian/7"/>
 
-    <release-date>2015-04-25</release-date>
+    <release-date>2015-04-26</release-date>
     <eol-date>2020-06-30</eol-date>
 
     <firmware arch="i686" type="efi"/>
