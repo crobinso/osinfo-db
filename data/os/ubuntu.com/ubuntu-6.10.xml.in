@@ -14,7 +14,7 @@
     <derives-from id="http://ubuntu.com/ubuntu/6.06"/>
 
     <release-date>2006-10-26</release-date>
-    <eol-date>2008-04-26</eol-date>
+    <eol-date>2008-04-25</eol-date>
 
     <media arch="i686">
       <url>https://old-releases.ubuntu.com/releases/edgy/ubuntu-6.10-server-i386.iso</url>
