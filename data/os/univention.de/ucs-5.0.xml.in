@@ -36,7 +36,7 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="universal"/>
-      <url>https://updates.software-univention.de/download/ucs-cds/ucs5.0-5/UCS_5.0-5-amd64.iso</url>
+      <url>https://updates.software-univention.de/download/ucs-cds/ucs5.0-6/UCS_5.0-6-amd64.iso</url>
       <iso>
         <volume-id>UCS 5.0-\d+ amd64 1</volume-id>
         <publisher-id>UNIVENTION GMBH</publisher-id>
@@ -47,7 +47,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://updates.software-univention.de/pxe/5.0-5/amd64</url>
+      <url>https://updates.software-univention.de/pxe/5.0-6/amd64</url>
       <kernel>debian-installer/amd64/linux</kernel>
       <initrd>debian-installer/amd64/initrd.gz</initrd>
     </tree>
