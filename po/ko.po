@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-12 13:47+0100\n"
-"PO-Revision-Date: 2023-12-08 22:43+0000\n"
+"PO-Revision-Date: 2023-12-13 06:44+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -472,34 +472,24 @@ msgid "Alpinelinux 3.18 Xen"
 msgstr "알파인리눅스 3.18 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.9"
 msgid "Alpine Linux 3.19"
-msgstr "알파인 리눅스 3.9"
+msgstr "알파인 리눅스 3.19"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Standard"
 msgid "Alpinelinux 3.19 Standard"
-msgstr "알파인리눅스 3.9 표준"
+msgstr "알파인리눅스 3.19 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Extended"
 msgid "Alpinelinux 3.19 Extended"
-msgstr "알파인리눅스 3.9 확장"
+msgstr "알파인리눅스 3.19 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Virtual"
 msgid "Alpinelinux 3.19 Virtual"
-msgstr "알파인리눅스 3.9 가상"
+msgstr "알파인리눅스 3.19 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Xen"
 msgid "Alpinelinux 3.19 Xen"
-msgstr "알파인리눅스 3.9 Xen"
+msgstr "알파인리눅스 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -2359,29 +2349,21 @@ msgid "Fedora Everything 38"
 msgstr "페도라 범용 38"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 39"
-msgstr "페도라 리눅스 36"
+msgstr "페도라 리눅스 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 39"
-msgstr "페도라 웍스테이션 36"
+msgstr "페도라 웍스테이션 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:20
 #: data/os/fedoraproject.org/fedora-39.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 39"
-msgstr "페도라 서버 36"
+msgstr "페도라 서버 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 39"
-msgstr "페도라 범용 36"
+msgstr "페도라 범용 39"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
