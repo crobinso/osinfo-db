@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-06 09:07+0100\n"
+"POT-Creation-Date: 2023-12-12 13:47+0100\n"
 "PO-Revision-Date: 2023-12-11 12:44+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -283,6 +283,7 @@ msgstr "Alpine Linux 3.10"
 #: data/os/alpinelinux.org/alpinelinux-3.16.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -466,6 +467,36 @@ msgstr "Alpinelinux 3.18 Virtual"
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:43
 msgid "Alpinelinux 3.18 Xen"
 msgstr "Alpinelinux 3.18 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.9"
+msgid "Alpine Linux 3.19"
+msgstr "Alpine Linux 3.9"
+
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.9 Standard"
+msgid "Alpinelinux 3.19 Standard"
+msgstr "Alpinelinux 3.9 Standard"
+
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.9 Extended"
+msgid "Alpinelinux 3.19 Extended"
+msgstr "Alpinelinux 3.9 Extended"
+
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.9 Virtual"
+msgid "Alpinelinux 3.19 Virtual"
+msgstr "Alpinelinux 3.9 Virtual"
+
+#: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.9 Xen"
+msgid "Alpinelinux 3.19 Xen"
+msgstr "Alpinelinux 3.9 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -888,8 +919,8 @@ msgstr "Arch Linux"
 msgid "Asianux Server 4 SP6"
 msgstr "Asianux Server 4 SP6"
 
-#: data/os/asianux.com/asianux-4.6.xml.in:7
-#: data/os/asianux.com/asianux-4.7.xml.in:7
+#: data/os/asianux.com/asianux-4.6.xml.in:8
+#: data/os/asianux.com/asianux-4.7.xml.in:8
 #: data/os/asianux.com/asianux-7.0.xml.in:8
 #: data/os/asianux.com/asianux-7.1.xml.in:8
 #: data/os/asianux.com/asianux-7.2.xml.in:8
@@ -1954,6 +1985,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/fedora-36.xml.in:8
 #: data/os/fedoraproject.org/fedora-37.xml.in:8
 #: data/os/fedoraproject.org/fedora-38.xml.in:8
+#: data/os/fedoraproject.org/fedora-39.xml.in:8
 #: data/os/fedoraproject.org/fedora-4.xml.in:8
 #: data/os/fedoraproject.org/fedora-5.xml.in:8
 #: data/os/fedoraproject.org/fedora-6.xml.in:8
@@ -2322,6 +2354,31 @@ msgstr "Fedora Server 38"
 #: data/os/fedoraproject.org/fedora-38.xml.in:26
 msgid "Fedora Everything 38"
 msgstr "Fedora Everything 38"
+
+#: data/os/fedoraproject.org/fedora-39.xml.in:6
+#, fuzzy
+#| msgid "Fedora Linux 36"
+msgid "Fedora Linux 39"
+msgstr "Fedora Linux 36"
+
+#: data/os/fedoraproject.org/fedora-39.xml.in:17
+#, fuzzy
+#| msgid "Fedora Workstation 36"
+msgid "Fedora Workstation 39"
+msgstr "Fedora Workstation 36"
+
+#: data/os/fedoraproject.org/fedora-39.xml.in:20
+#: data/os/fedoraproject.org/fedora-39.xml.in:23
+#, fuzzy
+#| msgid "Fedora Server 36"
+msgid "Fedora Server 39"
+msgstr "Fedora Server 36"
+
+#: data/os/fedoraproject.org/fedora-39.xml.in:26
+#, fuzzy
+#| msgid "Fedora Everything 36"
+msgid "Fedora Everything 39"
+msgstr "Fedora Everything 36"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
