@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 13:47+0100\n"
+"POT-Creation-Date: 2023-12-14 08:15+0100\n"
 "PO-Revision-Date: 2023-04-01 09:20+0000\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -2037,6 +2037,7 @@ msgstr ""
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
 #: data/os/fedoraproject.org/silverblue-38.xml.in:8
+#: data/os/fedoraproject.org/silverblue-39.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2504,6 +2505,12 @@ msgstr ""
 #: data/os/fedoraproject.org/silverblue-38.xml.in:6
 msgid "Fedora Silverblue 38"
 msgstr ""
+
+#: data/os/fedoraproject.org/silverblue-39.xml.in:6
+#, fuzzy
+#| msgid "ALT Server 9.0"
+msgid "Fedora Silverblue 39"
+msgstr "Альт Сервер 9.0"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 13:47+0100\n"
+"POT-Creation-Date: 2023-12-14 08:15+0100\n"
 "PO-Revision-Date: 2023-12-04 19:43+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -2006,6 +2006,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/silverblue-36.xml.in:8
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
 #: data/os/fedoraproject.org/silverblue-38.xml.in:8
+#: data/os/fedoraproject.org/silverblue-39.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2471,6 +2472,12 @@ msgstr "Fedora Silverblue 37"
 #: data/os/fedoraproject.org/silverblue-38.xml.in:6
 msgid "Fedora Silverblue 38"
 msgstr "Fedora Silverblue 38"
+
+#: data/os/fedoraproject.org/silverblue-39.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 30"
+msgid "Fedora Silverblue 39"
+msgstr "Fedora Silverblue 30"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
