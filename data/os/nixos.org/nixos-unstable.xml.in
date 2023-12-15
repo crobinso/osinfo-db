@@ -79,7 +79,7 @@
       <iso>
         <volume-id>nixos-minimal-24.05-aarch64</volume-id>
       </iso>
-      <kernel>boot/bzImage</kernel>
+      <kernel>boot/Image</kernel>
       <initrd>boot/initrd</initrd>
     </media>
 
@@ -89,7 +89,7 @@
       <iso>
         <volume-id>nixos-gnome-24.05-aarch64</volume-id>
       </iso>
-      <kernel>boot/bzImage</kernel>
+      <kernel>boot/Image</kernel>
       <initrd>boot/initrd</initrd>
     </media>
 
@@ -99,7 +99,7 @@
       <iso>
         <volume-id>nixos-plasma5-24.05-aarch64</volume-id>
       </iso>
-      <kernel>boot/bzImage</kernel>
+      <kernel>boot/Image</kernel>
       <initrd>boot/initrd</initrd>
     </media>
   </os>
