@@ -149,6 +149,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
     </media>
 
     <media arch="s390x">
@@ -157,6 +159,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
     </media>
 
     <media arch="s390x">
@@ -165,6 +169,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
     </media>
     <!-- s390x -->
     <!-- End Latest Images -->
@@ -198,6 +204,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-.+$</volume-id>
       </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
     </media>
     <!-- End final catch -->
 
