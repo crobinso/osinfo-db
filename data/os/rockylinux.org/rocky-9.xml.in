@@ -85,8 +85,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
-      <kernel>isolinux/pxeboot/vmlinuz</kernel>
-      <initrd>isolinux/pxeboot/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="aarch64">
@@ -95,8 +95,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
-      <kernel>isolinux/pxeboot/vmlinuz</kernel>
-      <initrd>isolinux/pxeboot/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="aarch64">
@@ -105,8 +105,8 @@
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
-      <kernel>isolinux/pxeboot/vmlinuz</kernel>
-      <initrd>isolinux/pxeboot/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
     <!-- aarch64 -->
 
