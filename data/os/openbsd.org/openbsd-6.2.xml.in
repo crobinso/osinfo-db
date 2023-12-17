@@ -29,7 +29,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>https://ftp.lysator.liu.se/pub/OpenBSD/6.2/i386/install62.iso</url>
+      <url>https://ftp.lysator.liu.se/pub/OpenBSD/6.2/amd64/install62.iso</url>
       <iso>
         <publisher-id>Copyright \(c\) 2017 Theo de Raadt, The OpenBSD project</publisher-id>
         <system-id>OpenBSD</system-id>
