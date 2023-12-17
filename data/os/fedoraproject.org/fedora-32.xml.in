@@ -130,7 +130,7 @@
     <!-- Everything -->
     <media arch="x86_64">
       <variant id="everything-netinst"/>
-      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Server/x86_64/iso/Fedora-Server-netinst-x86_64-32-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Everything/x86_64/iso/Fedora-Everything-netinst-x86_64-32-1.6.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-x86_64-32</volume-id>
       </iso>
@@ -144,7 +144,7 @@
 
     <media arch="aarch64" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Server/aarch64/iso/Fedora-Server-netinst-aarch64-32-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Everything/aarch64/iso/Fedora-Everything-netinst-aarch64-32-1.6.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-aarch64-32</volume-id>
       </iso>
@@ -154,7 +154,7 @@
 
     <media arch="armv7l" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Server/armhfp/iso/Fedora-Server-netinst-armhfp-32-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/32/Everything/armhfp/iso/Fedora-Everything-netinst-armhfp-32-1.6.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-armhfp-32</volume-id>
       </iso>
