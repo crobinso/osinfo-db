@@ -11,7 +11,7 @@
     <codename>Feige</codename>
     <upgrades id="http://miraclelinux.com/miraclelinux/8.4"/>
     <clones id="http://redhat.com/rhel/9.0"/>
-    <release-status>prerelease</release-status>
+    <release-date>2022-11-01</release-date>
 
     <media arch="x86_64">
       <iso>
