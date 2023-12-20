@@ -1,0 +1,47 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://miraclelinux.com/miraclelinux/8-unknown">
+    <short-id>miraclelinux8-unknown</short-id>
+    <name>MIRACLE LINUX 8 Unknown</name>
+    <version>8-unknown</version>
+    <vendor>Cybertrust Japan Co., Ltd.</vendor>
+    <family>linux</family>
+    <distro>miraclelinux</distro>
+    <codename>Peony</codename>
+    <upgrades id="http://miraclelinux.com/miraclelinux/8.4"/>
+    <derives-from id="http://miraclelinux.com/miraclelinux/8.4"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*MIRACLE-LINUX-8-([5-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+  </os>
+</libosinfo>
