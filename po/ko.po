@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-14 08:15+0100\n"
-"PO-Revision-Date: 2023-12-13 06:44+0000\n"
+"PO-Revision-Date: 2023-12-16 11:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2459,10 +2459,8 @@ msgid "Fedora Silverblue 38"
 msgstr "페도라 실버블루 38"
 
 #: data/os/fedoraproject.org/silverblue-39.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 39"
-msgstr "페도라 실버블루 30"
+msgstr "페도라 실버블루 39"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
