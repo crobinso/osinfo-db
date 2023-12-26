@@ -49,7 +49,7 @@
     <!-- x86_64 -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-x86_64-boot.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-boot.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
       </iso>
@@ -59,7 +59,7 @@
 
     <media arch="x86_64">
       <variant id="minimal"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-x86_64-minimal.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-minimal.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
       </iso>
@@ -69,7 +69,7 @@
 
     <media arch="x86_64">
       <variant id="everything"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-x86_64-dvd.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-dvd.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-x86_64-dvd$</volume-id>
       </iso>
@@ -81,7 +81,7 @@
     <!-- aarch64 -->
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-aarch64-boot.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-latest-aarch64-boot.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
@@ -91,7 +91,7 @@
 
     <media arch="aarch64">
       <variant id="minimal"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-aarch64-minimal.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-latest-aarch64-minimal.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
@@ -101,7 +101,7 @@
 
     <media arch="aarch64">
       <variant id="everything"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-aarch64-dvd.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9-latest-aarch64-dvd.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-aarch64-dvd$</volume-id>
       </iso>
@@ -113,7 +113,7 @@
     <!-- ppc64le -->
     <media arch="ppc64le">
       <variant id="netinst"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-ppc64le-boot.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9-latest-ppc64le-boot.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-ppc64le-dvd$</volume-id>
       </iso>
@@ -123,7 +123,7 @@
 
     <media arch="ppc64le">
       <variant id="minimal"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-ppc64le-minimal.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9-latest-ppc64le-minimal.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-ppc64le-dvd$</volume-id>
       </iso>
@@ -133,7 +133,7 @@
 
     <media arch="ppc64le">
       <variant id="everything"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-ppc64le-dvd.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/ppc64le/Rocky-9-latest-ppc64le-dvd.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-ppc64le-dvd$</volume-id>
       </iso>
@@ -145,7 +145,7 @@
     <!-- s390x -->
     <media arch="s390x">
       <variant id="netinst"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-s390x-boot.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9-latest-s390x-boot.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
@@ -153,7 +153,7 @@
 
     <media arch="s390x">
       <variant id="minimal"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-s390x-minimal.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9-latest-s390x-minimal.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
@@ -161,7 +161,7 @@
 
     <media arch="s390x">
       <variant id="everything"/>
-      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-s390x-dvd.iso</url>
+      <url>https://dl.rockylinux.org/pub/rocky/9/isos/s390x/Rocky-9-latest-s390x-dvd.iso</url>
       <iso>
         <volume-id>Rocky-9-([0-9]|[1-9][0-9])-s390x-dvd$</volume-id>
       </iso>
