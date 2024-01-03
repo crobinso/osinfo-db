@@ -24,7 +24,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/base/eos-eos5.1-amd64-amd64.231201-135419.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.1/eos-amd64-amd64/base/eos-eos5.1-amd64-amd64.240103-025438.base.iso</url>
       <iso>
         <volume-id>Endless-OS-5-1-\d+-base$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -37,7 +37,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/en/eos-eos5.1-amd64-amd64.231201-135432.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.1/eos-amd64-amd64/en/eos-eos5.1-amd64-amd64.240103-025437.en.iso</url>
       <iso>
         <volume-id>Endless-OS-5-1-\d+-en$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -50,7 +50,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/es/eos-eos5.1-amd64-amd64.231201-135441.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.1/eos-amd64-amd64/es/eos-eos5.1-amd64-amd64.240103-025438.es.iso</url>
       <iso>
         <volume-id>Endless-OS-5-1-\d+-es$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -63,7 +63,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/fr/eos-eos5.1-amd64-amd64.231201-135448.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.1/eos-amd64-amd64/fr/eos-eos5.1-amd64-amd64.240103-025438.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-5-1-\d+-fr$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -76,7 +76,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/5.1.0/eos-amd64-amd64/pt_BR/eos-eos5.1-amd64-amd64.231201-135502.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/5.1.1/eos-amd64-amd64/pt_BR/eos-eos5.1-amd64-amd64.240103-030103.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-5-1-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
