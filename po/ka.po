@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-27 12:18+0100\n"
-"PO-Revision-Date: 2023-12-22 10:36+0000\n"
+"PO-Revision-Date: 2023-12-31 05:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3492,10 +3492,8 @@ msgid "Microsoft Windows NT Server 4.0"
 msgstr "Microsoft Windows NT Server 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 9 Unknown"
 msgid "MIRACLE LINUX 8 Unknown"
-msgstr "MIRACLE LINUX 9 Unknown"
+msgstr "MIRACLE LINUX 8 Unknown"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
