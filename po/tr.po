@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
-# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-27 12:18+0100\n"
-"PO-Revision-Date: 2023-12-17 20:35+0000\n"
+"PO-Revision-Date: 2024-01-10 22:37+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3494,10 +3494,8 @@ msgid "Microsoft Windows NT Server 4.0"
 msgstr "Microsoft Windows NT Server 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 9 Unknown"
 msgid "MIRACLE LINUX 8 Unknown"
-msgstr "MIRACLE LINUX 9 Bilinmeyen"
+msgstr "MIRACLE LINUX 8 Bilinmeyen"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
