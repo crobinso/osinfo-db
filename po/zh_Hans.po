@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 08:15+0100\n"
+"POT-Creation-Date: 2023-12-27 12:18+0100\n"
 "PO-Revision-Date: 2023-12-04 19:43+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -2326,16 +2326,16 @@ msgstr "Fedora Everything 36"
 msgid "Fedora Linux 37"
 msgstr "Fedora Linux 37"
 
-#: data/os/fedoraproject.org/fedora-37.xml.in:17
+#: data/os/fedoraproject.org/fedora-37.xml.in:18
 msgid "Fedora Workstation 37"
 msgstr "Fedora Workstation 37"
 
-#: data/os/fedoraproject.org/fedora-37.xml.in:20
-#: data/os/fedoraproject.org/fedora-37.xml.in:23
+#: data/os/fedoraproject.org/fedora-37.xml.in:21
+#: data/os/fedoraproject.org/fedora-37.xml.in:24
 msgid "Fedora Server 37"
 msgstr "Fedora Server 37"
 
-#: data/os/fedoraproject.org/fedora-37.xml.in:26
+#: data/os/fedoraproject.org/fedora-37.xml.in:27
 msgid "Fedora Everything 37"
 msgstr "Fedora Everything 37"
 
@@ -3515,15 +3515,22 @@ msgstr "Microsoft Windows NT Server 3.51"
 msgid "Microsoft Windows NT Server 4.0"
 msgstr "Microsoft Windows NT Server 4.0"
 
-#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
-msgid "MIRACLE LINUX 8.4"
-msgstr "MIRACLE LINUX 8.4"
+#: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
+#, fuzzy
+#| msgid "MIRACLE LINUX 9 Unknown"
+msgid "MIRACLE LINUX 8 Unknown"
+msgstr "MIRACLE LINUX 9 Unknown"
 
+#: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:8
 msgid "Cybertrust Japan Co., Ltd."
 msgstr "Cybertrust Japan Co., Ltd."
+
+#: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
+msgid "MIRACLE LINUX 8.4"
+msgstr "MIRACLE LINUX 8.4"
 
 #: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:6
 msgid "MIRACLE LINUX 9 Unknown"
