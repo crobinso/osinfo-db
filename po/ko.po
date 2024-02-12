@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-27 12:18+0100\n"
-"PO-Revision-Date: 2023-12-16 11:35+0000\n"
+"PO-Revision-Date: 2023-12-28 14:14+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -3494,10 +3494,8 @@ msgid "Microsoft Windows NT Server 4.0"
 msgstr "마이크로소프트 윈도우 NT 서버 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 9 Unknown"
 msgid "MIRACLE LINUX 8 Unknown"
-msgstr "미라클 리눅스 9 (알 수 없음)"
+msgstr "미라클 리눅스 8 (알 수 없음)"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
