@@ -112,7 +112,7 @@ d-i pkgsel/include string openssh-server
       <xsl:if test="os/version = 12.04">
 d-i pkgsel/include string python-software-properties
       </xsl:if>
-      <!-- Let's avoid installating python-software-properties
+      <!-- Let's avoid installing python-software-properties
            for 12.10 as it'd raise an error during installation. -->
   </xsl:when>
   <xsl:otherwise>
