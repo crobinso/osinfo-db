@@ -17,7 +17,7 @@
     <release-date>2019-05-31</release-date>
 
     <media arch="x86_64">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/images/NetBSD-8.1-amd64.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/images/NetBSD-8.1-amd64.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
@@ -26,7 +26,7 @@
     </media>
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/amd64/installation/cdrom/boot.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/amd64/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
@@ -35,7 +35,7 @@
     </media>
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/amd64/installation/cdrom/boot-com.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/amd64/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
@@ -43,7 +43,7 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/images/NetBSD-8.1-i386.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/images/NetBSD-8.1-i386.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
@@ -52,7 +52,7 @@
     </media>
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/i386/installation/cdrom/boot.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/i386/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
@@ -61,7 +61,7 @@
     </media>
     <media arch="i686">
       <variant id="netinst"/>
-      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-8.1/i386/installation/cdrom/boot-com.iso</url>
+      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-8.1/i386/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_81</volume-id>
