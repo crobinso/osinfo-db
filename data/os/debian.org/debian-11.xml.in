@@ -197,27 +197,42 @@
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-generic-amd64.qcow2</url>
-    </image>
-
-    <image arch="x86_64" format="qcow2" cloud-init="true">
-      <variant id="genericcloud"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-generic-amd64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-generic-arm64.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-generic-arm64.qcow2</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-generic-ppc64el.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-generic-ppc64el.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <variant id="genericcloud"/>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-genericcloud-amd64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <variant id="genericcloud"/>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-genericcloud-arm64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="qcow2">
       <variant id="nocloud"/>
-      <url>https://cdimage.debian.org/cdimage/cloud/bullseye/latest/debian-11-nocloud-amd64.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-nocloud-amd64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2">
+      <variant id="nocloud"/>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-nocloud-arm64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2">
+      <variant id="nocloud"/>
+      <url>https://cloud.debian.org/images/cloud/bullseye/latest/debian-11-nocloud-ppc64el.qcow2</url>
     </image>
 
     <installer>
