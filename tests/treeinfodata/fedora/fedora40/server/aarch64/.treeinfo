@@ -1,0 +1,53 @@
+[checksums]
+images/boot.iso = sha256:690731ac6abba81413d97517baa80841cb122d07b296ec3f2935848be45be8fe
+images/efiboot.img = sha256:e37468562f248a0a135aff89c50c3d8966b4363367ba503317824150bc970490
+images/install.img = sha256:f0393a4e7cc13b0c9747eed89dd1af518ffe75c2d9231ba4d8fa4a837f64d19d
+images/pxeboot/initrd.img = sha256:b8069c8842ad86d3c63ba415b513aa86464624b2a7dcb9137b6e468220e0f233
+images/pxeboot/vmlinuz = sha256:57185f8b19ee9b41fafd9e79e0c61902ae9dd25230341c6eef4286923138f5a5
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Fedora
+name = Fedora 40
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1713135057
+variant = Server
+variants = Server
+version = 40
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Fedora
+short = Fedora
+version = 40
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1713135057
+platforms = aarch64
+variants = Server
+
+[variant-Server]
+id = Server
+name = Server
+packages = Packages
+repository = .
+type = variant
+uid = Server
+
