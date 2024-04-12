@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/9.4">
+    <short-id>ol9.4</short-id>
+    <name>Oracle Linux 9.4</name>
+    <version>9.4</version>
+    <vendor>Oracle America</vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <clones id="http://redhat.com/rhel/9.4"/>
+
+    <release-status>prerelease</release-status>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-9-4-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <volume-id>OL-9-4-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^9.4(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^9.4(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+  </os>
+</libosinfo>
