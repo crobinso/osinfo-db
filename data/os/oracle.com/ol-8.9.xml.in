@@ -9,7 +9,7 @@
     <distro>ol</distro>
     <clones id="http://redhat.com/rhel/8.9"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2023-11-21</release-date>
 
     <media arch="x86_64">
       <iso>
