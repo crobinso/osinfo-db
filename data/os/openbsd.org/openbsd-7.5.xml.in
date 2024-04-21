@@ -1,0 +1,63 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://openbsd.org/openbsd/7.5">
+    <short-id>openbsd7.5</short-id>
+    <name>OpenBSD 7.5</name>
+    <version>7.5</version>
+    <family>openbsd</family>
+    <distro>openbsd</distro>
+    <vendor>OpenBSD Project</vendor>
+    <upgrades id='http://openbsd.org/openbsd/7.4'/>
+    <derives-from id='http://openbsd.org/openbsd/7.4'/>
+
+    <release-date>2024-04-05</release-date>
+    <eol-date>2025-05-01</eol-date>
+
+    <variant id="netinst">
+      <name>OpenBSD 7.5</name>
+    </variant>
+
+    <media arch="i686">
+      <url>https://cdn.openbsd.org/pub/OpenBSD/7.5/i386/install75.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2024 Theo de Raadt, The OpenBSD project</publisher-id>
+        <system-id>OpenBSD</system-id>
+        <volume-id>OpenBSD/i386    7.5 Install CD</volume-id>
+        <application-id>OpenBSD 7.5 i386 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <url>https://cdn.openbsd.org/pub/OpenBSD/7.5/amd64/install75.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2024 Theo de Raadt, The OpenBSD project</publisher-id>
+        <system-id>OpenBSD</system-id>
+        <volume-id>OpenBSD/amd64   7.5 Install CD</volume-id>
+        <application-id>OpenBSD 7.5 amd64 Install CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.openbsd.org/pub/OpenBSD/7.5/i386/cd75.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2024 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/i386    7.5 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 7.5 i386 bootonly CD</application-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.openbsd.org/pub/OpenBSD/7.5/amd64/cd75.iso</url>
+      <iso>
+        <publisher-id>Copyright \(c\) 2024 Theo de Raadt, The OpenBSD project</publisher-id>
+        <volume-id>OpenBSD/amd64   7.5 boot-only CD</volume-id>
+        <system-id>OpenBSD</system-id>
+        <application-id>OpenBSD 7.5 amd64 bootonly CD</application-id>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
