@@ -105,18 +105,18 @@
     <resources arch="all">
       <minimum>
         <n-cpus>1</n-cpus>
-        <cpu>1000000000</cpu>
-        <ram>1073741824</ram>
-        <storage>10737418240</storage>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>16106127360</storage>
       </minimum>
 
       <recommended>
-        <ram>2147483648</ram>
+        <ram>4294967296</ram>
         <storage>21474836480</storage>
       </recommended>
 
       <network-install>
-        <ram>3221225472</ram>
+        <ram>4294967296</ram>
       </network-install>
     </resources>
 
