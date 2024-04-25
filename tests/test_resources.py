@@ -52,7 +52,7 @@ def test_resources(osxml):
     # Ensure minimum resources <= network resources
     _resources_helper(
         osxml,
-        osxml.get_recommended_resources,
+        osxml.get_minimum_resources,
         "minimum",
         osxml.get_network_install_resources,
         "network-install",
