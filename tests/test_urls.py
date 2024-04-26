@@ -51,6 +51,8 @@ class UrlType(UniqueSet, enum.Enum):
     URL_DISK_QCOW2 = {
         # generic data
         "application/octet-stream",
+        # qcow2 files on some mirrors
+        "application-x-qemu-disk",
         # qcow2 files on fedoraproject.org mirrors; similar issue of
         # https://pagure.io/fedora-infrastructure/issue/10766
         "application/x-troff-man",
