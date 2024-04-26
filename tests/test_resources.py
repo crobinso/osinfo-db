@@ -36,7 +36,7 @@ def test_resources(osxml):
         osxml,
         osxml.get_minimum_resources,
         "minimum",
-        osxml.get_recommended_resources,
+        osxml.get_maximum_resources,
         "maximum",
     )
 
