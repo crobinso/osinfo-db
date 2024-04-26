@@ -182,16 +182,6 @@
       <kernel>current/images/netboot/vmlinuz</kernel>
       <initrd>current/images/netboot/initrd.gz</initrd>
     </tree>
-    <tree arch="s390x">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-s390x</url>
-      <kernel>current/images/generic/kernel.debian</kernel>
-      <initrd>current/images/generic/initrd.debian</initrd>
-    </tree>
-    <tree arch="ppc64le">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-ppc64el</url>
-      <kernel>current/images/netboot/debian-installer/ppc64el/vmlinux</kernel>
-      <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
-    </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="openstack"/>
