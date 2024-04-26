@@ -31,7 +31,6 @@
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="talking"/>
-      <url>https://repo.hyperbola.info:50000/other/live_images/gnu-plus-linux-libre/hypertalking-milky-way-v0.3.1/hypertalking-milky-way-v0.3.1-dual.iso</url>
       <iso>
         <volume-id>HYPER_v031.*</volume-id>
         <volume-size>721420288</volume-size>
