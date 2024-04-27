@@ -4,13 +4,13 @@
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2022, 2023.
-# 김인수 <simmon@nplob.com>, 2022, 2023.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-26 08:03+0200\n"
-"PO-Revision-Date: 2023-12-28 14:14+0000\n"
+"PO-Revision-Date: 2024-04-27 00:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2372,29 +2372,21 @@ msgid "Fedora Core 4"
 msgstr "페도라 코어 4"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 40"
-msgstr "페도라 리눅스 36"
+msgstr "페도라 리눅스 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 40"
-msgstr "페도라 웍스테이션 36"
+msgstr "페도라 웍스테이션 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:20
 #: data/os/fedoraproject.org/fedora-40.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 40"
-msgstr "페도라 서버 36"
+msgstr "페도라 서버 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 40"
-msgstr "페도라 범용 36"
+msgstr "페도라 범용 40"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
@@ -4061,10 +4053,8 @@ msgstr "오픈BSD 7..4"
 
 #: data/os/openbsd.org/openbsd-7.5.xml.in:6
 #: data/os/openbsd.org/openbsd-7.5.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.5"
-msgstr "오픈BSD 7.0"
+msgstr "오픈BSD 7.5"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4399,10 +4389,8 @@ msgid "Oracle Linux 8.1"
 msgstr "오라클 리눅스 8.1"
 
 #: data/os/oracle.com/ol-8.10.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.1"
 msgid "Oracle Linux 8.10"
-msgstr "오라클 리눅스 8.1"
+msgstr "오라클 리눅스 8.10"
 
 #: data/os/oracle.com/ol-8.2.xml.in:5
 msgid "Oracle Linux 8.2"
@@ -4457,10 +4445,8 @@ msgid "Oracle Linux 9.3"
 msgstr "오라클 리눅스 9.3"
 
 #: data/os/oracle.com/ol-9.4.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 9.0"
 msgid "Oracle Linux 9.4"
-msgstr "오라클 리눅스 9.0"
+msgstr "오라클 리눅스 9.4"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
