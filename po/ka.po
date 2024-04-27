@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-26 08:03+0200\n"
-"PO-Revision-Date: 2023-12-31 05:36+0000\n"
+"PO-Revision-Date: 2024-04-27 22:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2369,29 +2369,21 @@ msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 40"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 40"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:20
 #: data/os/fedoraproject.org/fedora-40.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 40"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 40"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 40"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
@@ -4059,10 +4051,8 @@ msgstr "OpenBSD 7.4"
 
 #: data/os/openbsd.org/openbsd-7.5.xml.in:6
 #: data/os/openbsd.org/openbsd-7.5.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.5"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.5"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4397,10 +4387,8 @@ msgid "Oracle Linux 8.1"
 msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.10.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.1"
 msgid "Oracle Linux 8.10"
-msgstr "Oracle Linux 8.1"
+msgstr "Oracle Linux 8.10"
 
 #: data/os/oracle.com/ol-8.2.xml.in:5
 msgid "Oracle Linux 8.2"
@@ -4455,10 +4443,8 @@ msgid "Oracle Linux 9.3"
 msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/ol-9.4.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 9.0"
 msgid "Oracle Linux 9.4"
-msgstr "Oracle Linux 9.0"
+msgstr "Oracle Linux 9.4"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
