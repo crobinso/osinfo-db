@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2020, 2021, 2022, 2023, 2024.
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021, 2022, 2023, 2024.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-26 08:03+0200\n"
-"PO-Revision-Date: 2023-09-05 15:10+0000\n"
+"PO-Revision-Date: 2024-04-27 09:15+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.4\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -475,34 +475,24 @@ msgid "Alpinelinux 3.18 Xen"
 msgstr "Alpinelinux 3.18 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.9"
 msgid "Alpine Linux 3.19"
-msgstr "Alpine Linux 3.9"
+msgstr "Alpine Linux 3.19"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Standard"
 msgid "Alpinelinux 3.19 Standard"
-msgstr "Alpinelinux 3.9 Standard"
+msgstr "Alpinelinux 3.19 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Extended"
 msgid "Alpinelinux 3.19 Extended"
-msgstr "Alpinelinux 3.9 Extended"
+msgstr "Alpinelinux 3.19 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Virtual"
 msgid "Alpinelinux 3.19 Virtual"
-msgstr "Alpinelinux 3.9 Virtual"
+msgstr "Alpinelinux 3.19 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Xen"
 msgid "Alpinelinux 3.19 Xen"
-msgstr "Alpinelinux 3.9 Xen"
+msgstr "Alpinelinux 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -1934,10 +1924,8 @@ msgid "Endless OS 5.0"
 msgstr "Endless OS 5.0"
 
 #: data/os/endlessos.com/eos-5.1.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 5.0"
 msgid "Endless OS 5.1"
-msgstr "Endless OS 5.0"
+msgstr "Endless OS 5.1"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -2366,58 +2354,42 @@ msgid "Fedora Everything 38"
 msgstr "Fedora Everything 38"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 39"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 39"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:20
 #: data/os/fedoraproject.org/fedora-39.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 39"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 39"
 
 #: data/os/fedoraproject.org/fedora-39.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 39"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 39"
 
 #: data/os/fedoraproject.org/fedora-4.xml.in:6
 msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 40"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 40"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:20
 #: data/os/fedoraproject.org/fedora-40.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 40"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 40"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 40"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
@@ -2508,10 +2480,8 @@ msgid "Fedora Silverblue 38"
 msgstr "Fedora Silverblue 38"
 
 #: data/os/fedoraproject.org/silverblue-39.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 39"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 39"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -2661,16 +2631,12 @@ msgid "FreeBSD 13.1"
 msgstr "FreeBSD 13.1"
 
 #: data/os/freebsd.org/freebsd-13.2.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 3.2"
 msgid "FreeBSD 13.2"
-msgstr "FreeBSD 3.2"
+msgstr "FreeBSD 13.2"
 
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 1.0"
 msgid "FreeBSD 14.0"
-msgstr "FreeBSD 1.0"
+msgstr "FreeBSD 14.0"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -3550,10 +3516,8 @@ msgid "Microsoft Windows NT Server 4.0"
 msgstr "Microsoft Windows NT Server 4.0"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
-#, fuzzy
-#| msgid "MIRACLE LINUX 9 Unknown"
 msgid "MIRACLE LINUX 8 Unknown"
-msgstr "MIRACLE LINUX 9, невідома"
+msgstr "MIRACLE LINUX 8, невідома"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
@@ -3845,28 +3809,20 @@ msgid "NixOS 23.05 (Plasma 5 installation CD)"
 msgstr "NixOS 23.05 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.11"
 msgid "NixOS 23.11"
-msgstr "NixOS 21.11"
+msgstr "NixOS 23.11"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.11 (minimal installation CD)"
 msgid "NixOS 23.11 (minimal installation CD)"
-msgstr "NixOS 21.11 (мінімальний КД для встановлення)"
+msgstr "NixOS 23.11 (мінімальний КД для встановлення)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.11 (GNOME installation CD)"
 msgid "NixOS 23.11 (GNOME installation CD)"
-msgstr "NixOS 21.11 (КД для встановлення з GNOME)"
+msgstr "NixOS 23.11 (КД для встановлення з GNOME)"
 
 #: data/os/nixos.org/nixos-23.11.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.11 (Plasma 5 installation CD)"
 msgid "NixOS 23.11 (Plasma 5 installation CD)"
-msgstr "NixOS 21.11 (КД для встановлення з Плазмою 5)"
+msgstr "NixOS 23.11 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4096,17 +4052,13 @@ msgstr "OpenBSD 7.3"
 
 #: data/os/openbsd.org/openbsd-7.4.xml.in:6
 #: data/os/openbsd.org/openbsd-7.4.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.4"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.4"
 
 #: data/os/openbsd.org/openbsd-7.5.xml.in:6
 #: data/os/openbsd.org/openbsd-7.5.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.5"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.5"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4441,10 +4393,8 @@ msgid "Oracle Linux 8.1"
 msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.10.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.1"
 msgid "Oracle Linux 8.10"
-msgstr "Oracle Linux 8.1"
+msgstr "Oracle Linux 8.10"
 
 #: data/os/oracle.com/ol-8.2.xml.in:5
 msgid "Oracle Linux 8.2"
@@ -4463,64 +4413,44 @@ msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
 
 #: data/os/oracle.com/ol-8.6.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.6"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.6"
 
 #: data/os/oracle.com/ol-8.7.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.7"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.7"
 
 #: data/os/oracle.com/ol-8.8.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.8"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.8"
 
 #: data/os/oracle.com/ol-8.9.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.0"
 msgid "Oracle Linux 8.9"
-msgstr "Oracle Linux 8.0"
+msgstr "Oracle Linux 8.9"
 
 #: data/os/oracle.com/ol-9-unknown.xml.in:5
-#, fuzzy
-#| msgid "Circle Linux 9 Unknown"
 msgid "Oracle Linux 9 Unknown"
-msgstr "Circle Linux 9, невідома"
+msgstr "Oracle Linux 9, невідома"
 
 #: data/os/oracle.com/ol-9.0.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Oracle Linux 9.0"
-msgstr "Oracle Linux 6.0"
+msgstr "Oracle Linux 9.0"
 
 #: data/os/oracle.com/ol-9.1.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.1"
 msgid "Oracle Linux 9.1"
-msgstr "Oracle Linux 6.1"
+msgstr "Oracle Linux 9.1"
 
 #: data/os/oracle.com/ol-9.2.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.2"
 msgid "Oracle Linux 9.2"
-msgstr "Oracle Linux 6.2"
+msgstr "Oracle Linux 9.2"
 
 #: data/os/oracle.com/ol-9.3.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.3"
 msgid "Oracle Linux 9.3"
-msgstr "Oracle Linux 6.3"
+msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/ol-9.4.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 6.0"
 msgid "Oracle Linux 9.4"
-msgstr "Oracle Linux 6.0"
+msgstr "Oracle Linux 9.4"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -4891,10 +4821,8 @@ msgid "Red Hat Enterprise Linux 8.1"
 msgstr "Red Hat Enterprise Linux 8.1"
 
 #: data/os/redhat.com/rhel-8.10.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 8.1"
 msgid "Red Hat Enterprise Linux 8.10"
-msgstr "Red Hat Enterprise Linux 8.1"
+msgstr "Red Hat Enterprise Linux 8.10"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
 msgid "Red Hat Enterprise Linux 8.2"
@@ -4949,10 +4877,8 @@ msgid "Red Hat Enterprise Linux 9.3"
 msgstr "Red Hat Enterprise Linux 9.3"
 
 #: data/os/redhat.com/rhel-9.4.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.4"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.4"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -5843,10 +5769,8 @@ msgid "Ubuntu 23.10"
 msgstr "Ubuntu 23.10"
 
 #: data/os/ubuntu.com/ubuntu-24.04.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 14.04 LTS"
 msgid "Ubuntu 24.04 LTS"
-msgstr "Ubuntu 14.04 LTS"
+msgstr "Ubuntu 24.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
