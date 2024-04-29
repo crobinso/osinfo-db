@@ -36,14 +36,15 @@ stages:
   script:
     - *multilib
     - *native-environment
-    - pushd /tmp/
+    - HERE=$PWD
+    - cd /tmp
     - git clone https://gitlab.com/libosinfo/osinfo-db-tools.git
     - cd osinfo-db-tools
     - mkdir build
     - cd build
     - meson .. . --prefix=$VIRT_PREFIX
     - $NINJA install
-    - popd
+    - cd $HERE
     - mkdir build
     - cd build
     - $MAKE -f ../Makefile VPATH=..
