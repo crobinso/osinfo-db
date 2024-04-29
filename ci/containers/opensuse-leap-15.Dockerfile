@@ -15,6 +15,7 @@ RUN zypper update -y && \
            gettext-runtime \
            git \
            glib2-devel \
+           glibc-devel \
            glibc-locale \
            json-glib-devel \
            libarchive-devel \
@@ -24,6 +25,7 @@ RUN zypper update -y && \
            make \
            meson \
            ninja \
+           perl \
            pkgconfig \
            python3-base \
            python3-lxml \
@@ -32,6 +34,7 @@ RUN zypper update -y && \
            rpm-build \
            xz && \
     zypper clean --all && \
+    rm -f /usr/lib*/python3*/EXTERNALLY-MANAGED && \
     rpm -qa | sort > /packages.txt && \
     mkdir -p /usr/libexec/ccache-wrappers && \
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/cc && \

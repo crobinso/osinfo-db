@@ -5,36 +5,33 @@
 # https://gitlab.com/libvirt/libvirt-ci
 
 function install_buildenv() {
-    dnf update -y --nogpgcheck fedora-gpg-keys
-    dnf distro-sync -y
-    dnf install -y \
+    apk update
+    apk upgrade
+    apk add \
         ca-certificates \
         ccache \
-        cppi \
         gcc \
         gettext \
         git \
-        glib2-devel \
-        glibc-devel \
-        glibc-langpack-en \
-        json-glib-devel \
-        libarchive-devel \
-        libsoup-devel \
-        libxml2-devel \
-        libxslt-devel \
+        glib-dev \
+        json-glib-dev \
+        libarchive-dev \
+        libsoup-dev \
+        libxml2-dev \
+        libxslt-dev \
         make \
         meson \
-        ninja-build \
-        perl-podlators \
-        pkgconfig \
+        musl-dev \
+        perl \
+        pkgconf \
+        py3-lxml \
+        py3-pytest \
+        py3-requests \
         python3 \
-        python3-lxml \
-        python3-pytest \
-        python3-requests \
-        rpm-build \
+        samurai \
         xz
     rm -f /usr/lib*/python3*/EXTERNALLY-MANAGED
-    rpm -qa | sort > /packages.txt
+    apk list --installed | sort > /packages.txt
     mkdir -p /usr/libexec/ccache-wrappers
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/cc
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/gcc

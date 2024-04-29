@@ -29,6 +29,8 @@ stages:
 
 
 .native_build_job:
+  extends:
+    - .gitlab_native_build_job
   cache:
     paths:
       - ccache
@@ -55,18 +57,15 @@ stages:
         rpmbuild --nodeps --define "_without_mingw 1" --define "_sourcedir $PWD" -ba osinfo-db.spec;
       fi
 
-.native_build_job_prebuilt_env:
+# Going against our usual naming convention for jobs using prebuilt containers
+# here as we'll be consuming the job artifacts via a direct URL which includes
+# the GitLab job name, so let's go with a more convenient name
+publish:
   extends:
-    - .native_build_job
-    - .gitlab_native_build_job_prebuilt_env
-
-.native_build_job_local_env:
-  extends:
-    - .native_build_job
-    - .gitlab_native_build_job_local_env
-
-.publish_job:
-  before_script:
+    - .gitlab_native_build_job
+  needs:
+    - job: x86_64-debian-12-container
+      optional: true
   script:
     - apt update && apt install -y osinfo-db-tools
     - make V=1 ARCHIVE=osinfo-db-latest.tar.xz
@@ -74,26 +73,8 @@ stages:
     expire_in: 1 day
     paths:
       - osinfo-db-latest.tar.xz
-
-# Going against our usual naming convention for jobs using prebuilt containers
-# here as we'll be consuming the job artifacts via a direct URL which includes
-# the GitLab job name, so let's go with a more convenient name
-publish:
-  extends:
-    - .publish_job
-    - .gitlab_native_build_job_prebuilt_env
-  needs:
-    - job: x86_64-debian-12-container
-      optional: true
   variables:
-    NAME: debian-12
-
-publish-local-env:
-  extends:
-    - .publish_job
-    - .gitlab_native_build_job_local_env
-  variables:
-    IMAGE: docker.io/library/debian:12-slim
+    TARGET_BASE_IMAGE: docker.io/library/debian:12-slim
     NAME: debian-12
 
 .web:

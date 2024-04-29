@@ -11,7 +11,13 @@ gitlab:
     flake8: true
 
 targets:
-  centos-stream-8: x86_64
+  almalinux-9: x86_64
+
+  alpine-318: x86_64
+
+  alpine-319: x86_64
+
+  alpine-edge: x86_64
 
   centos-stream-9: x86_64
 
@@ -21,9 +27,9 @@ targets:
 
   debian-sid: x86_64
 
-  fedora-37: x86_64
+  fedora-39: x86_64
 
-  fedora-38: x86_64
+  fedora-40: x86_64
 
   fedora-rawhide: x86_64
 
@@ -31,6 +37,6 @@ targets:
 
   opensuse-tumbleweed: x86_64
 
-  ubuntu-2004: x86_64
-
   ubuntu-2204: x86_64
+
+  ubuntu-2404: x86_64

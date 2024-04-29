@@ -4,7 +4,7 @@
 #
 # https://gitlab.com/libvirt/libvirt-ci
 
-FROM registry.fedoraproject.org/fedora:37
+FROM registry.fedoraproject.org/fedora:40
 
 RUN dnf install -y nosync && \
     printf '#!/bin/sh\n\
@@ -25,6 +25,7 @@ exec "$@"\n' > /usr/bin/nosync && \
                gettext \
                git \
                glib2-devel \
+               glibc-devel \
                glibc-langpack-en \
                json-glib-devel \
                libarchive-devel \
@@ -34,6 +35,7 @@ exec "$@"\n' > /usr/bin/nosync && \
                make \
                meson \
                ninja-build \
+               perl-podlators \
                pkgconfig \
                python3 \
                python3-lxml \
@@ -43,6 +45,7 @@ exec "$@"\n' > /usr/bin/nosync && \
                xz && \
     nosync dnf autoremove -y && \
     nosync dnf clean all -y && \
+    rm -f /usr/lib*/python3*/EXTERNALLY-MANAGED && \
     rpm -qa | sort > /packages.txt && \
     mkdir -p /usr/libexec/ccache-wrappers && \
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/cc && \

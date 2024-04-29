@@ -15,6 +15,7 @@ function install_buildenv() {
             gettext \
             git \
             libarchive-dev \
+            libc6-dev \
             libglib2.0-dev \
             libjson-glib-dev \
             libsoup2.4-dev \
@@ -24,6 +25,7 @@ function install_buildenv() {
             make \
             meson \
             ninja-build \
+            perl \
             pkgconf \
             python3 \
             python3-lxml \
@@ -32,6 +34,7 @@ function install_buildenv() {
             xz-utils
     sed -Ei 's,^# (en_US\.UTF-8 .*)$,\1,' /etc/locale.gen
     dpkg-reconfigure locales
+    rm -f /usr/lib*/python3*/EXTERNALLY-MANAGED
     dpkg-query --showformat '${Package}_${Version}_${Architecture}\n' --show > /packages.txt
     mkdir -p /usr/libexec/ccache-wrappers
     ln -s /usr/bin/ccache /usr/libexec/ccache-wrappers/cc
