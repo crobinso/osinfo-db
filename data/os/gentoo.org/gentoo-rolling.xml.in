@@ -39,9 +39,14 @@
 
     <resources arch="all">
       <minimum>
-        <ram>268435456</ram>
+        <ram>2147483648</ram>
         <storage>2952790016</storage>
-      </minimum>
+    </minimum>
+
+      <recommended>
+        <ram>4294967296</ram>
+        <storage>21474836480</storage>
+      </recommended>
     </resources>
 
     <media arch="i686">
