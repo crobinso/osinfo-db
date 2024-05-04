@@ -1,0 +1,96 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://fedoraproject.org/silverblue/40">
+    <short-id>silverblue40</short-id>
+    <name>Fedora Silverblue 40</name>
+    <version>40</version>
+    <vendor>Fedora Project</vendor>
+    <family>linux</family>
+    <distro>fedora</distro>
+    <upgrades id="http://fedoraproject.org/silverblue/39"/>
+    <derives-from id="http://fedoraproject.org/silverblue/39"/>
+
+    <release-date>2024-04-23</release-date>
+
+    <media arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso</url>
+      <iso>
+        <volume-id>Fedora-SB-ostree-x86_64-40</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/aarch64/iso/Fedora-Silverblue-ostree-aarch64-40-1.14.iso</url>
+      <iso>
+        <volume-id>Fedora-SB-ostree-aarch64-40</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le" installer-script="false">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/40/Silverblue/ppc64le/iso/Fedora-Silverblue-ostree-ppc64le-40-1.14.iso</url>
+      <iso>
+        <volume-id>Fedora-SB-ostree-ppc64le-40</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <variant>Silverblue</variant>
+        <version>40</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/aarch64/os/</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <variant>Silverblue</variant>
+        <version>40</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+    
+
+    <tree arch="ppc64le">
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/40/Silverblue/ppc64le/os</url>
+      <treeinfo>
+        <family>Fedora</family>
+        <variant>Silverblue</variant>
+        <version>40</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <network-install>
+        <ram>6442450944</ram>
+      </network-install>
+    </resources>
+
+    <installer>
+      <script id='http://fedoraproject.org/silverblue/kickstart/desktop'/>
+    </installer>
+  </os>
+</libosinfo>

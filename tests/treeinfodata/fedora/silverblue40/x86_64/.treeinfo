@@ -1,0 +1,22 @@
+[general]
+timestamp = 1713134406.0311077
+family = Fedora
+version = 40
+name = Fedora-40
+variant = Silverblue
+arch = x86_64
+packagedir = 
+
+[stage2]
+mainimage = images/install.img
+
+[images-x86_64]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+eltorito.img = images/eltorito.img
+boot.iso = images/boot.iso
+
+[images-xen]
+kernel = images/pxeboot/vmlinuz
+initrd = images/pxeboot/initrd.img
+
