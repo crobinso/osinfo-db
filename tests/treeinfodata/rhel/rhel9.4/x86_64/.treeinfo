@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:9786c0b4b830bf155b45a2fbaf622a28ef9d4da7992ecaf2b434a0f34812b756
+images/efiboot.img = sha256:fb15f25dac556bff5866e1cc2b89ec8e76a558e457e6aef30442c5761e70bd70
+images/install.img = sha256:d64ef9da7a56a29b63cae630219f78f5be6793eb48be9539ff3ca1442e65c1e1
+images/pxeboot/initrd.img = sha256:a2a3b283a1b7525bab7b8ea65cb2fe000142cdf086120e869a1e82073e3a791d
+images/pxeboot/vmlinuz = sha256:b8044d54fda2c785d1bd2a6ad27f717cd7bad71deed0ae97a9e444ebc3ad44d2
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.4
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1715181875
+variant = BaseOS
+variants = BaseOS
+version = 9.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.4
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1715181875
+platforms = x86_64,xen
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

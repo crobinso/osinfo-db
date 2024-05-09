@@ -1,0 +1,61 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:b67b1c1498bc7c47096941804b490661befdd48e41215fd72f229d650f1a0f1e
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:933089361a55bcdda9d28f88735c37ef06a3f3f26a28ec3b5701976c37f22fc8
+images/initrd.img = sha256:4d656760d6d629ff1c8b8fbf076917dd264fc85ba38e0bd2718bfeac4cccda13
+images/install.img = sha256:0fd773770585cbadc88000c775dc16df5fd48b758377f18e5632107f8c840fa4
+images/kernel.img = sha256:300d9b5f50851a36f0fba99b09a3883fa28e4c13c01ded8c79c3f79f611eea22
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.4
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1715181871
+variant = BaseOS
+variants = BaseOS
+version = 9.4
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.4
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1715181871
+platforms = s390x
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
