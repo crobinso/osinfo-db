@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-26 08:03+0200\n"
+"POT-Creation-Date: 2024-05-09 12:45+0200\n"
 "PO-Revision-Date: 2024-04-26 07:20+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -2000,6 +2000,7 @@ msgstr "Fedora CoreOS"
 #: data/os/fedoraproject.org/silverblue-37.xml.in:8
 #: data/os/fedoraproject.org/silverblue-38.xml.in:8
 #: data/os/fedoraproject.org/silverblue-39.xml.in:8
+#: data/os/fedoraproject.org/silverblue-40.xml.in:8
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:8
 #: data/os/fedoraproject.org/silverblue-unknown.xml.in:8
 msgid "Fedora Project"
@@ -2336,16 +2337,16 @@ msgstr "Fedora Everything 37"
 msgid "Fedora Linux 38"
 msgstr "Fedora Linux 38"
 
-#: data/os/fedoraproject.org/fedora-38.xml.in:17
+#: data/os/fedoraproject.org/fedora-38.xml.in:18
 msgid "Fedora Workstation 38"
 msgstr "Fedora Workstation 38"
 
-#: data/os/fedoraproject.org/fedora-38.xml.in:20
-#: data/os/fedoraproject.org/fedora-38.xml.in:23
+#: data/os/fedoraproject.org/fedora-38.xml.in:21
+#: data/os/fedoraproject.org/fedora-38.xml.in:24
 msgid "Fedora Server 38"
 msgstr "Fedora Server 38"
 
-#: data/os/fedoraproject.org/fedora-38.xml.in:26
+#: data/os/fedoraproject.org/fedora-38.xml.in:27
 msgid "Fedora Everything 38"
 msgstr "Fedora Everything 38"
 
@@ -2478,6 +2479,12 @@ msgstr "Fedora Silverblue 38"
 #: data/os/fedoraproject.org/silverblue-39.xml.in:6
 msgid "Fedora Silverblue 39"
 msgstr "Fedora Silverblue 39"
+
+#: data/os/fedoraproject.org/silverblue-40.xml.in:6
+#, fuzzy
+#| msgid "Fedora Silverblue 30"
+msgid "Fedora Silverblue 40"
+msgstr "Fedora Silverblue 30"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -4524,7 +4531,7 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhel-9-unknown.xml.in:8
 #: data/os/redhat.com/rhel-9.0.xml.in:8 data/os/redhat.com/rhel-9.1.xml.in:8
 #: data/os/redhat.com/rhel-9.2.xml.in:8 data/os/redhat.com/rhel-9.3.xml.in:8
-#: data/os/redhat.com/rhel-9.4.xml.in:8
+#: data/os/redhat.com/rhel-9.4.xml.in:8 data/os/redhat.com/rhel-9.5.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:8
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:8
@@ -4875,6 +4882,12 @@ msgstr "Red Hat Enterprise Linux 9.3"
 #: data/os/redhat.com/rhel-9.4.xml.in:6
 msgid "Red Hat Enterprise Linux 9.4"
 msgstr "Red Hat Enterprise Linux 9.4"
+
+#: data/os/redhat.com/rhel-9.5.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 9.0"
+msgid "Red Hat Enterprise Linux 9.5"
+msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
