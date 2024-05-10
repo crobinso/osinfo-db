@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://ubuntu.com/ubuntu/24.10">
+    <short-id>ubuntu24.10</short-id>
+    <short-id>ubuntuoracular</short-id>
+    <name>Ubuntu 24.10</name>
+    <version>24.10</version>
+    <vendor>Canonical Ltd</vendor>
+    <family>linux</family>
+    <distro>ubuntu</distro>
+    <codename>Oracular Oriole</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/24.04"/>
+    <derives-from id="http://ubuntu.com/ubuntu/24.04"/>
+
+    <release-status>prerelease</release-status>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </minimum>
+      <recommended>
+        <cpu>2000000000</cpu>
+        <ram>4294967296</ram>
+        <storage>26843545600</storage>
+      </recommended>
+    </resources>
+
+    <!-- installer-script limitations
+            Live media runs with the new subiquity installer.
+            The new style for automated install provided isn't supported
+            yet in libosinfo and associated tools, therefore for now
+            it is marked installer-script="false"
+            More details about the new installer can be found at:
+            - https://discourse.ubuntu.com/t/server-installer-plans-for-20-04-lts/13631
+            - https://wiki.ubuntu.com/FoundationsTeam/AutomatedServerInstalls
+            - https://discourse.ubuntu.com/t/please-review-design-for-automated-server-installs
+    -->
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <url>https://cdimage.ubuntu.com/daily-live/current/oracular-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="x86_64" live="true" installer-script="false">
+      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-amd64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="aarch64" live="true" installer-script="false">
+      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-arm64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="ppc64le" live="true" installer-script="false">
+      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-ppc64el.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? ppc64</volume-id>
+      </iso>
+      <kernel>casper/vmlinux</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="s390x" live="true" installer-script="false">
+      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/pending/oracular-live-server-s390x.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? s390x</volume-id>
+      </iso>
+      <kernel>boot/kernel.ubuntu</kernel>
+      <initrd>boot/initrd.ubuntu</initrd>
+    </media>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-amd64.img</url>
+    </image>
+
+    <image arch="x86_64" format="vmdk" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-amd64.vmdk</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-arm64.img</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-ppc64el.img</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-s390x.img</url>
+    </image>
+  </os>
+</libosinfo>
