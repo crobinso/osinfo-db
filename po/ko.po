@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-09 12:45+0200\n"
-"PO-Revision-Date: 2024-04-27 00:36+0000\n"
+"PO-Revision-Date: 2024-05-10 07:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -2482,10 +2482,8 @@ msgid "Fedora Silverblue 39"
 msgstr "페도라 실버블루 39"
 
 #: data/os/fedoraproject.org/silverblue-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 40"
-msgstr "페도라 실버블루 30"
+msgstr "페도라 실버블루 40"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -4884,10 +4882,8 @@ msgid "Red Hat Enterprise Linux 9.4"
 msgstr "Red Hat 기업용 리눅스 9.4"
 
 #: data/os/redhat.com/rhel-9.5.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.5"
-msgstr "Red Hat 기업용 리눅스 9.0"
+msgstr "Red Hat 기업용 리눅스 9.5"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
