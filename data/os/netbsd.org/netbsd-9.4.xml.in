@@ -1,0 +1,75 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/9.4">
+    <short-id>netbsd9.4</short-id>
+    <name>NetBSD 9.4</name>
+    <version>9.4</version>
+    <vendor>NetBSD Project</vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/9.3"/>
+    <derives-from id="http://netbsd.org/netbsd/9.0"/>
+
+    <variant id="netinst">
+      <name>NetBSD 9.4 Network Install</name>
+    </variant>
+    <variant id="netinst-serial-console">
+      <name>NetBSD 9.4 Network Install (Serial Console)</name>
+    </variant>
+
+    <release-date>2024-04-20</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/images/NetBSD-9.4-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>518866944</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>241051648</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>241051648</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/images/NetBSD-9.4-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>632799232</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>214994944</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.4/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_94</volume-id>
+        <volume-size>214994944</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
