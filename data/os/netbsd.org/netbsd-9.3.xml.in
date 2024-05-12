@@ -1,0 +1,75 @@
+<libosinfo version="0.0.1">
+
+  <os id="http://netbsd.org/netbsd/9.3">
+    <short-id>netbsd9.3</short-id>
+    <name>NetBSD 9.3</name>
+    <version>9.3</version>
+    <vendor>NetBSD Project</vendor>
+    <family>netbsd</family>
+    <distro>netbsd</distro>
+    <upgrades id="http://netbsd.org/netbsd/9.2"/>
+    <derives-from id="http://netbsd.org/netbsd/9.0"/>
+
+    <variant id="netinst">
+      <name>NetBSD 9.3 Network Install</name>
+    </variant>
+    <variant id="netinst-serial-console">
+      <name>NetBSD 9.3 Network Install (Serial Console)</name>
+    </variant>
+
+    <release-date>2022-08-04</release-date>
+
+    <media arch="x86_64">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/images/NetBSD-9.3-amd64.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>489777152</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/amd64/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>225439744</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/amd64/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>225439744</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/images/NetBSD-9.3-i386.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>598609920</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/i386/installation/cdrom/boot.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>198391808</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <variant id="netinst-serial-console"/>
+      <url>https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/i386/installation/cdrom/boot-com.iso</url>
+      <iso>
+        <system-id>NetBSD</system-id>
+        <volume-id>NETBSD_93</volume-id>
+        <volume-size>198391808</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
