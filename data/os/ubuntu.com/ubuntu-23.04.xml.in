@@ -52,7 +52,6 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true">
-      <url>https://cdimage.ubuntu.com/releases/23.04/release/ubuntu-23.04-desktop-legacy-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 23.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
         <volume-size>3908573184</volume-size>
