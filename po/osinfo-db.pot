@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 15:30+0200\n"
+"POT-Creation-Date: 2024-05-14 16:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1713,9 +1713,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:24
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
-#: data/os/endlessos.com/eos-4.0.xml.in:22
+#: data/os/endlessos.com/eos-4.0.xml.in:24
 #: data/os/endlessos.com/eos-5.0.xml.in:24
-#: data/os/endlessos.com/eos-5.1.xml.in:22
+#: data/os/endlessos.com/eos-5.1.xml.in:24
+#: data/os/endlessos.com/eos-6.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr ""
 
@@ -1732,9 +1733,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:37
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
-#: data/os/endlessos.com/eos-4.0.xml.in:35
+#: data/os/endlessos.com/eos-4.0.xml.in:37
 #: data/os/endlessos.com/eos-5.0.xml.in:37
-#: data/os/endlessos.com/eos-5.1.xml.in:35
+#: data/os/endlessos.com/eos-5.1.xml.in:37
+#: data/os/endlessos.com/eos-6.0.xml.in:35
 msgid "Endless OS English"
 msgstr ""
 
@@ -1747,9 +1749,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:50
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
-#: data/os/endlessos.com/eos-4.0.xml.in:48
+#: data/os/endlessos.com/eos-4.0.xml.in:50
 #: data/os/endlessos.com/eos-5.0.xml.in:50
-#: data/os/endlessos.com/eos-5.1.xml.in:48
+#: data/os/endlessos.com/eos-5.1.xml.in:50
+#: data/os/endlessos.com/eos-6.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr ""
 
@@ -1777,9 +1780,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:63
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
-#: data/os/endlessos.com/eos-4.0.xml.in:61
+#: data/os/endlessos.com/eos-4.0.xml.in:63
 #: data/os/endlessos.com/eos-5.0.xml.in:63
-#: data/os/endlessos.com/eos-5.1.xml.in:61
+#: data/os/endlessos.com/eos-5.1.xml.in:63
+#: data/os/endlessos.com/eos-6.0.xml.in:61
 msgid "Endless OS French"
 msgstr ""
 
@@ -1803,9 +1807,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:89
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
-#: data/os/endlessos.com/eos-4.0.xml.in:74
+#: data/os/endlessos.com/eos-4.0.xml.in:76
 #: data/os/endlessos.com/eos-5.0.xml.in:76
-#: data/os/endlessos.com/eos-5.1.xml.in:74
+#: data/os/endlessos.com/eos-5.1.xml.in:76
+#: data/os/endlessos.com/eos-6.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr ""
 
@@ -1852,9 +1857,10 @@ msgstr ""
 #: data/os/endlessos.com/eos-3.7.xml.in:141
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
-#: data/os/endlessos.com/eos-4.0.xml.in:88
+#: data/os/endlessos.com/eos-4.0.xml.in:90
 #: data/os/endlessos.com/eos-5.0.xml.in:90
-#: data/os/endlessos.com/eos-5.1.xml.in:88
+#: data/os/endlessos.com/eos-5.1.xml.in:90
+#: data/os/endlessos.com/eos-6.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr ""
 
@@ -1901,6 +1907,7 @@ msgstr ""
 #: data/os/endlessos.com/eos-4.0.xml.in:8
 #: data/os/endlessos.com/eos-5.0.xml.in:8
 #: data/os/endlessos.com/eos-5.1.xml.in:8
+#: data/os/endlessos.com/eos-6.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr ""
 
@@ -1918,6 +1925,10 @@ msgstr ""
 
 #: data/os/endlessos.com/eos-5.1.xml.in:6
 msgid "Endless OS 5.1"
+msgstr ""
+
+#: data/os/endlessos.com/eos-6.0.xml.in:6
+msgid "Endless OS 6.0"
 msgstr ""
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
