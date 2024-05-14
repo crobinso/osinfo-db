@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 12:45+0200\n"
+"POT-Creation-Date: 2024-05-14 15:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3548,6 +3548,7 @@ msgstr ""
 #: data/os/netbsd.org/netbsd-1.4.xml.in:8
 #: data/os/netbsd.org/netbsd-1.5.xml.in:8
 #: data/os/netbsd.org/netbsd-1.6.xml.in:8
+#: data/os/netbsd.org/netbsd-10.0.xml.in:7
 #: data/os/netbsd.org/netbsd-2.0.xml.in:8
 #: data/os/netbsd.org/netbsd-3.0.xml.in:8
 #: data/os/netbsd.org/netbsd-4.0.xml.in:8
@@ -3564,6 +3565,10 @@ msgstr ""
 #: data/os/netbsd.org/netbsd-8.1.xml.in:7
 #: data/os/netbsd.org/netbsd-8.2.xml.in:7
 #: data/os/netbsd.org/netbsd-9.0.xml.in:7
+#: data/os/netbsd.org/netbsd-9.1.xml.in:7
+#: data/os/netbsd.org/netbsd-9.2.xml.in:7
+#: data/os/netbsd.org/netbsd-9.3.xml.in:7
+#: data/os/netbsd.org/netbsd-9.4.xml.in:7
 msgid "NetBSD Project"
 msgstr ""
 
@@ -3597,6 +3602,18 @@ msgstr ""
 
 #: data/os/netbsd.org/netbsd-1.6.xml.in:6
 msgid "NetBSD 1.6"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:5
+msgid "NetBSD 10.0"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:14
+msgid "NetBSD 10.0 Network Install"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:17
+msgid "NetBSD 10.0 Network Install (Serial Console)"
 msgstr ""
 
 #: data/os/netbsd.org/netbsd-2.0.xml.in:6
@@ -3681,6 +3698,54 @@ msgstr ""
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
 msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:5
+msgid "NetBSD 9.1"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:14
+msgid "NetBSD 9.1 Network Install"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:17
+msgid "NetBSD 9.1 Network Install (Serial Console)"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:5
+msgid "NetBSD 9.2"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:14
+msgid "NetBSD 9.2 Network Install"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:17
+msgid "NetBSD 9.2 Network Install (Serial Console)"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:5
+msgid "NetBSD 9.3"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:14
+msgid "NetBSD 9.3 Network Install"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:17
+msgid "NetBSD 9.3 Network Install (Serial Console)"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:5
+msgid "NetBSD 9.4"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:14
+msgid "NetBSD 9.4 Network Install"
+msgstr ""
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:17
+msgid "NetBSD 9.4 Network Install (Serial Console)"
 msgstr ""
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
@@ -5642,11 +5707,12 @@ msgstr ""
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:11
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:11
-#: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-24.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5753,7 +5819,7 @@ msgstr ""
 msgid "Ubuntu 21.10"
 msgstr ""
 
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:9
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:8
 msgid "Ubuntu 22.04 LTS"
 msgstr ""
 
@@ -5765,12 +5831,16 @@ msgstr ""
 msgid "Ubuntu 23.04"
 msgstr ""
 
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:9
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
 msgid "Ubuntu 23.10"
 msgstr ""
 
-#: data/os/ubuntu.com/ubuntu-24.04.xml.in:8
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
 msgid "Ubuntu 24.04 LTS"
+msgstr ""
+
+#: data/os/ubuntu.com/ubuntu-24.10.xml.in:8
+msgid "Ubuntu 24.10"
 msgstr ""
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
