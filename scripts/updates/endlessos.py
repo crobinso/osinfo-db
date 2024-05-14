@@ -233,8 +233,9 @@ def main():
             eol_date = None
         else:
             if current_series == "4.0":
-                # Endless OS 4 is still supported, in parallel to Endless OS 5
-                eol_date = None
+                # Endless OS 4 was an LTS release, supported in parallel with
+                # Endless OS 5.x for a time; it was discontinued on this date.
+                eol_date = datetime.date(2024, 2, 29)
             else:
                 # Date of first release in next series
                 eol_date = guess_release_date(next_series_images[0])
