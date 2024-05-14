@@ -70,7 +70,10 @@ class UrlType(UniqueSet, enum.Enum):
         # image manifest
         "application/vnd.docker.distribution.manifest.v1+json",
     }
-    URL_KERNEL = {}
+    URL_KERNEL = {
+        # generic data
+        "application/octet-stream",
+    }
     URL_TREE = {
         # HTML page of file listing
         "text/html",
