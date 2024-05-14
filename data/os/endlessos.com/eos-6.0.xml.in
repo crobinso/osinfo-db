@@ -1,0 +1,114 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://endlessos.com/eos/6.0">
+    <short-id>eos6.0</short-id>
+    <name>Endless OS 6.0</name>
+    <version>6.0</version>
+    <vendor>Endless OS Foundation LLC</vendor>
+    <family>linux</family>
+    <distro>eos</distro>
+
+    <upgrades id="http://endlessos.com/eos/5.1"/>
+    <derives-from id="http://endlessos.com/eos/5.1"/>
+
+
+    <release-date>2024-05-14</release-date>
+
+
+
+
+    <variant id="base">
+      <name>Endless OS Basic</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="base"/>
+      <url>https://images-dl.endlessm.com/release/6.0.0/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.240514-082534.base.iso</url>
+      <iso>
+        <volume-id>Endless-OS-6-0-\d+-base$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="en">
+      <name>Endless OS English</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="en"/>
+      <url>https://images-dl.endlessm.com/release/6.0.0/eos-amd64-amd64/en/eos-eos6.0-amd64-amd64.240514-082543.en.iso</url>
+      <iso>
+        <volume-id>Endless-OS-6-0-\d+-en$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="es">
+      <name>Endless OS Spanish</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="es"/>
+      <url>https://images-dl.endlessm.com/release/6.0.0/eos-amd64-amd64/es/eos-eos6.0-amd64-amd64.240514-082543.es.iso</url>
+      <iso>
+        <volume-id>Endless-OS-6-0-\d+-es$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="fr">
+      <name>Endless OS French</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="fr"/>
+      <url>https://images-dl.endlessm.com/release/6.0.0/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.240514-082553.fr.iso</url>
+      <iso>
+        <volume-id>Endless-OS-6-0-\d+-fr$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <variant id="pt_BR">
+      <name>Endless OS Portuguese (Brazil)</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="pt_BR"/>
+      <url>https://images-dl.endlessm.com/release/6.0.0/eos-amd64-amd64/pt_BR/eos-eos6.0-amd64-amd64.240514-082553.pt_BR.iso</url>
+      <iso>
+        <volume-id>Endless-OS-6-0-\d+-pt_BR$</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+
+    <variant id="other">
+      <name>Endless OS (other)</name>
+    </variant>
+
+    <media arch="all" live="true">
+      <variant id="other"/>
+      <iso>
+        <volume-id>\D+-6-0-\d+</volume-id>
+        <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
+      </iso>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </minimum>
+
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>42949672960</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
