@@ -110,6 +110,8 @@ def predecessor(series):
         return "3.9"
     if series == "5.0":
         return "4.0"
+    if series == "6.0":
+        return "5.1"
     return adj(series, -1)
 
 
@@ -120,6 +122,8 @@ def successor(series):
         return "4.0"
     if series == "4.0":
         return "5.0"
+    if series == "5.1":
+        return "6.0"
 
     return adj(series, 1)
 
