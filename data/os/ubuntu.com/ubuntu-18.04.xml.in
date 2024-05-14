@@ -31,11 +31,19 @@
       </recommended>
     </resources>
 
+    <variant id="desktop">
+      <name>Ubuntu Desktop 18.04 LTS</name>
+    </variant>
+    <variant id="server">
+      <name>Ubuntu Server 18.04 LTS</name>
+    </variant>
+
     <devices>
       <device id="http://pcisig.com/pci/1af4/1050"/> <!-- virtio1.0-gpu -->
     </devices>
 
     <media arch="x86_64" live="true">
+      <variant id="desktop"/>
       <url>https://releases.ubuntu.com/releases/bionic/ubuntu-18.04.6-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
@@ -47,6 +55,7 @@
       </installer>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.6-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
@@ -55,6 +64,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.6-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS arm64</volume-id>
@@ -63,6 +73,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.5-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS ppc64</volume-id>
@@ -71,6 +82,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="s390x">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu/releases/bionic/release/ubuntu-18.04.5-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 18.04(.\d\+?)?(.\d\+?)? LTS s390x</volume-id>

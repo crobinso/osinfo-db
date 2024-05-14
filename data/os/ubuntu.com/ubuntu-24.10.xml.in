@@ -32,6 +32,13 @@
       </recommended>
     </resources>
 
+    <variant id="desktop">
+      <name>Ubuntu Desktop 24.10</name>
+    </variant>
+    <variant id="server">
+      <name>Ubuntu Server 24.10</name>
+    </variant>
+
     <!-- installer-script limitations
             Live media runs with the new subiquity installer.
             The new style for automated install provided isn't supported
@@ -44,6 +51,7 @@
     -->
 
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="desktop"/>
       <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
@@ -52,6 +60,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="server"/>
       <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
@@ -60,6 +69,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
@@ -68,6 +78,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? ppc64</volume-id>
@@ -76,6 +87,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
+      <variant id="server"/>
       <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? s390x</volume-id>
