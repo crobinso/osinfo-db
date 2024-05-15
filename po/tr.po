@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-09 12:45+0200\n"
+"POT-Creation-Date: 2024-05-14 16:59+0200\n"
 "PO-Revision-Date: 2024-05-09 17:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -1716,9 +1716,10 @@ msgstr "Endless OS Arapça"
 #: data/os/endlessos.com/eos-3.7.xml.in:24
 #: data/os/endlessos.com/eos-3.8.xml.in:24
 #: data/os/endlessos.com/eos-3.9.xml.in:24
-#: data/os/endlessos.com/eos-4.0.xml.in:22
+#: data/os/endlessos.com/eos-4.0.xml.in:24
 #: data/os/endlessos.com/eos-5.0.xml.in:24
-#: data/os/endlessos.com/eos-5.1.xml.in:22
+#: data/os/endlessos.com/eos-5.1.xml.in:24
+#: data/os/endlessos.com/eos-6.0.xml.in:22
 msgid "Endless OS Basic"
 msgstr "Endless OS Basic"
 
@@ -1735,9 +1736,10 @@ msgstr "Endless OS Bengalce"
 #: data/os/endlessos.com/eos-3.7.xml.in:37
 #: data/os/endlessos.com/eos-3.8.xml.in:37
 #: data/os/endlessos.com/eos-3.9.xml.in:37
-#: data/os/endlessos.com/eos-4.0.xml.in:35
+#: data/os/endlessos.com/eos-4.0.xml.in:37
 #: data/os/endlessos.com/eos-5.0.xml.in:37
-#: data/os/endlessos.com/eos-5.1.xml.in:35
+#: data/os/endlessos.com/eos-5.1.xml.in:37
+#: data/os/endlessos.com/eos-6.0.xml.in:35
 msgid "Endless OS English"
 msgstr "Endless OS İngilizce"
 
@@ -1750,9 +1752,10 @@ msgstr "Endless OS İngilizce"
 #: data/os/endlessos.com/eos-3.7.xml.in:50
 #: data/os/endlessos.com/eos-3.8.xml.in:50
 #: data/os/endlessos.com/eos-3.9.xml.in:50
-#: data/os/endlessos.com/eos-4.0.xml.in:48
+#: data/os/endlessos.com/eos-4.0.xml.in:50
 #: data/os/endlessos.com/eos-5.0.xml.in:50
-#: data/os/endlessos.com/eos-5.1.xml.in:48
+#: data/os/endlessos.com/eos-5.1.xml.in:50
+#: data/os/endlessos.com/eos-6.0.xml.in:48
 msgid "Endless OS Spanish"
 msgstr "Endless OS İspanyolca"
 
@@ -1780,9 +1783,10 @@ msgstr "Endless OS İspanyolca (Meksika)"
 #: data/os/endlessos.com/eos-3.7.xml.in:63
 #: data/os/endlessos.com/eos-3.8.xml.in:63
 #: data/os/endlessos.com/eos-3.9.xml.in:63
-#: data/os/endlessos.com/eos-4.0.xml.in:61
+#: data/os/endlessos.com/eos-4.0.xml.in:63
 #: data/os/endlessos.com/eos-5.0.xml.in:63
-#: data/os/endlessos.com/eos-5.1.xml.in:61
+#: data/os/endlessos.com/eos-5.1.xml.in:63
+#: data/os/endlessos.com/eos-6.0.xml.in:61
 msgid "Endless OS French"
 msgstr "Endless OS Fransızca"
 
@@ -1806,9 +1810,10 @@ msgstr "Endless OS Endonezce"
 #: data/os/endlessos.com/eos-3.7.xml.in:89
 #: data/os/endlessos.com/eos-3.8.xml.in:76
 #: data/os/endlessos.com/eos-3.9.xml.in:76
-#: data/os/endlessos.com/eos-4.0.xml.in:74
+#: data/os/endlessos.com/eos-4.0.xml.in:76
 #: data/os/endlessos.com/eos-5.0.xml.in:76
-#: data/os/endlessos.com/eos-5.1.xml.in:74
+#: data/os/endlessos.com/eos-5.1.xml.in:76
+#: data/os/endlessos.com/eos-6.0.xml.in:74
 msgid "Endless OS Portuguese (Brazil)"
 msgstr "Endless OS Portekizce (Brezilya)"
 
@@ -1855,9 +1860,10 @@ msgstr "Endless OS Güneydoğu Asya"
 #: data/os/endlessos.com/eos-3.7.xml.in:141
 #: data/os/endlessos.com/eos-3.8.xml.in:126
 #: data/os/endlessos.com/eos-3.9.xml.in:90
-#: data/os/endlessos.com/eos-4.0.xml.in:88
+#: data/os/endlessos.com/eos-4.0.xml.in:90
 #: data/os/endlessos.com/eos-5.0.xml.in:90
-#: data/os/endlessos.com/eos-5.1.xml.in:88
+#: data/os/endlessos.com/eos-5.1.xml.in:90
+#: data/os/endlessos.com/eos-6.0.xml.in:88
 msgid "Endless OS (other)"
 msgstr "Endless OS (diğer)"
 
@@ -1904,6 +1910,7 @@ msgstr "Endless OS 3.8"
 #: data/os/endlessos.com/eos-4.0.xml.in:8
 #: data/os/endlessos.com/eos-5.0.xml.in:8
 #: data/os/endlessos.com/eos-5.1.xml.in:8
+#: data/os/endlessos.com/eos-6.0.xml.in:8
 msgid "Endless OS Foundation LLC"
 msgstr "Endless OS Foundation LLC"
 
@@ -1922,6 +1929,12 @@ msgstr "Endless OS 5.0"
 #: data/os/endlessos.com/eos-5.1.xml.in:6
 msgid "Endless OS 5.1"
 msgstr "Endless OS 5.1"
+
+#: data/os/endlessos.com/eos-6.0.xml.in:6
+#, fuzzy
+#| msgid "Endless OS 4.0"
+msgid "Endless OS 6.0"
+msgstr "Endless OS 4.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -3552,6 +3565,7 @@ msgstr "NetBSD 0.8"
 #: data/os/netbsd.org/netbsd-1.4.xml.in:8
 #: data/os/netbsd.org/netbsd-1.5.xml.in:8
 #: data/os/netbsd.org/netbsd-1.6.xml.in:8
+#: data/os/netbsd.org/netbsd-10.0.xml.in:7
 #: data/os/netbsd.org/netbsd-2.0.xml.in:8
 #: data/os/netbsd.org/netbsd-3.0.xml.in:8
 #: data/os/netbsd.org/netbsd-4.0.xml.in:8
@@ -3568,6 +3582,10 @@ msgstr "NetBSD 0.8"
 #: data/os/netbsd.org/netbsd-8.1.xml.in:7
 #: data/os/netbsd.org/netbsd-8.2.xml.in:7
 #: data/os/netbsd.org/netbsd-9.0.xml.in:7
+#: data/os/netbsd.org/netbsd-9.1.xml.in:7
+#: data/os/netbsd.org/netbsd-9.2.xml.in:7
+#: data/os/netbsd.org/netbsd-9.3.xml.in:7
+#: data/os/netbsd.org/netbsd-9.4.xml.in:7
 msgid "NetBSD Project"
 msgstr "NetBSD Projesi"
 
@@ -3602,6 +3620,24 @@ msgstr "NetBSD 1.5"
 #: data/os/netbsd.org/netbsd-1.6.xml.in:6
 msgid "NetBSD 1.6"
 msgstr "NetBSD 1.6"
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:5
+#, fuzzy
+#| msgid "NetBSD 1.0"
+msgid "NetBSD 10.0"
+msgstr "NetBSD 1.0"
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:14
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install"
+msgid "NetBSD 10.0 Network Install"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum"
+
+#: data/os/netbsd.org/netbsd-10.0.xml.in:17
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgid "NetBSD 10.0 Network Install (Serial Console)"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum (Seri Konsol)"
 
 #: data/os/netbsd.org/netbsd-2.0.xml.in:6
 msgid "NetBSD 2.0"
@@ -3685,6 +3721,78 @@ msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum"
 
 #: data/os/netbsd.org/netbsd-9.0.xml.in:17
 msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum (Seri Konsol)"
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:5
+#, fuzzy
+#| msgid "NetBSD 9.0"
+msgid "NetBSD 9.1"
+msgstr "NetBSD 9.0"
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:14
+#, fuzzy
+#| msgid "NetBSD 8.1 Network Install"
+msgid "NetBSD 9.1 Network Install"
+msgstr "NetBSD 8.1 Ağ Üzerinden Kurulum"
+
+#: data/os/netbsd.org/netbsd-9.1.xml.in:17
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgid "NetBSD 9.1 Network Install (Serial Console)"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum (Seri Konsol)"
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:5
+#, fuzzy
+#| msgid "NetBSD 9.0"
+msgid "NetBSD 9.2"
+msgstr "NetBSD 9.0"
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:14
+#, fuzzy
+#| msgid "NetBSD 8.2 Network Install"
+msgid "NetBSD 9.2 Network Install"
+msgstr "NetBSD 8.2 Ağ Üzerinden Kurulum"
+
+#: data/os/netbsd.org/netbsd-9.2.xml.in:17
+#, fuzzy
+#| msgid "NetBSD 8.2 Network Install (Serial Console)"
+msgid "NetBSD 9.2 Network Install (Serial Console)"
+msgstr "NetBSD 8.2 Ağ Üzerinden Kurulum (Seri Konsol)"
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:5
+#, fuzzy
+#| msgid "NetBSD 9.0"
+msgid "NetBSD 9.3"
+msgstr "NetBSD 9.0"
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:14
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install"
+msgid "NetBSD 9.3 Network Install"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum"
+
+#: data/os/netbsd.org/netbsd-9.3.xml.in:17
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgid "NetBSD 9.3 Network Install (Serial Console)"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum (Seri Konsol)"
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:5
+#, fuzzy
+#| msgid "NetBSD 9.0"
+msgid "NetBSD 9.4"
+msgstr "NetBSD 9.0"
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:14
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install"
+msgid "NetBSD 9.4 Network Install"
+msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum"
+
+#: data/os/netbsd.org/netbsd-9.4.xml.in:17
+#, fuzzy
+#| msgid "NetBSD 9.0 Network Install (Serial Console)"
+msgid "NetBSD 9.4 Network Install (Serial Console)"
 msgstr "NetBSD 9.0 Ağ Üzerinden Kurulum (Seri Konsol)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
@@ -5646,11 +5754,12 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:10
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:11
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:10
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:10
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:11
-#: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:10
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:12
+#: data/os/ubuntu.com/ubuntu-24.10.xml.in:10
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:9
@@ -5757,7 +5866,7 @@ msgstr "Ubuntu 21.04"
 msgid "Ubuntu 21.10"
 msgstr "Ubuntu 21.10"
 
-#: data/os/ubuntu.com/ubuntu-22.04.xml.in:9
+#: data/os/ubuntu.com/ubuntu-22.04.xml.in:8
 msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 22.04 LTS"
 
@@ -5769,13 +5878,19 @@ msgstr "Ubuntu 22.10"
 msgid "Ubuntu 23.04"
 msgstr "Ubuntu 23.04"
 
-#: data/os/ubuntu.com/ubuntu-23.10.xml.in:9
+#: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
 msgid "Ubuntu 23.10"
 msgstr "Ubuntu 23.10"
 
-#: data/os/ubuntu.com/ubuntu-24.04.xml.in:8
+#: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
 msgid "Ubuntu 24.04 LTS"
 msgstr "Ubuntu 24.04 LTS"
+
+#: data/os/ubuntu.com/ubuntu-24.10.xml.in:8
+#, fuzzy
+#| msgid "Ubuntu 4.10"
+msgid "Ubuntu 24.10"
+msgstr "Ubuntu 4.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
