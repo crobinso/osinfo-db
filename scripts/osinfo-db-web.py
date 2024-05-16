@@ -78,8 +78,11 @@ with open(nightly, "w") as fh:
         file=fh,
     )
 
-versions.sort()
-latest_version = versions[-1]
+if versions:
+    versions.sort()
+    latest_version = versions[-1]
+else:
+    latest_version = "nightly"
 
 latest_src = latest_version + ".json"
 latest_dst = WEB_ROOT / "latest.json"
