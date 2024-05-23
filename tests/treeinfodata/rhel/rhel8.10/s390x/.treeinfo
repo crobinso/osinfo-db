@@ -1,0 +1,59 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:3fe81b7323d06f75a436a9076958f854f1a1e908923bb6ca6c344f2fd214772a
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:6b21d65d336a9168a94f4d62f65ff31f8f6433f20f46009615aad99a33ed4170
+images/initrd.img = sha256:cdae620465b06f1091e56aa40b70c24677260636c16dc6ae09254de3a90a22a2
+images/install.img = sha256:64465fbe616b982db721d16862552d5b604cb090ae0e0def3232932d9ecc36f8
+images/kernel.img = sha256:5ca7667b4336cfecd122fb553a8ad9209669b66cd577e5a0487c73c53a82bc6c
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 8.10
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1716363699
+variant = BaseOS
+variants = BaseOS
+version = 8.10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 8.10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1716363699
+platforms = s390x
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
