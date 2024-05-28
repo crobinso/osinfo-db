@@ -140,7 +140,7 @@
     </media>
     <media arch="x86_64">
       <variant id="virtual"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-extended-3.20.0-x86_64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.20/releases/x86_64/alpine-virt-3.20.0-x86_64.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.20.* x86_64$</volume-id>
       </iso>
