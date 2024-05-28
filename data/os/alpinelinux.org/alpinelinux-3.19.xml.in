@@ -126,7 +126,7 @@
       <iso>
         <volume-id>alpine-virt 3\.19.* aarch64$</volume-id>
       </iso>
-	  <kernel>boot/vmlinuz-virt</kernel>
+      <kernel>boot/vmlinuz-virt</kernel>
       <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="i686">
@@ -135,7 +135,7 @@
       <iso>
         <volume-id>alpine-virt 3\.19.* x86$</volume-id>
       </iso>
-	  <kernel>boot/vmlinuz-virt</kernel>
+      <kernel>boot/vmlinuz-virt</kernel>
       <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="x86_64">
@@ -144,7 +144,7 @@
       <iso>
         <volume-id>alpine-virt 3\.19.* x86_64$</volume-id>
       </iso>
-	  <kernel>boot/vmlinuz-virt</kernel>
+      <kernel>boot/vmlinuz-virt</kernel>
       <initrd>boot/initramfs-virt</initrd>
     </media>
     <media arch="armv7l">
@@ -153,7 +153,7 @@
       <iso>
         <volume-id>alpine-virt 3\.19.* armv7$</volume-id>
       </iso>
-	  <kernel>boot/vmlinuz-virt</kernel>
+      <kernel>boot/vmlinuz-virt</kernel>
       <initrd>boot/initramfs-virt</initrd>
     </media>
 
@@ -164,7 +164,7 @@
       <iso>
         <volume-id>alpine-xen 3\.19.* x86_64$</volume-id>
       </iso>
-	  <kernel>boot/vmlinuz-lts</kernel>
+      <kernel>boot/vmlinuz-lts</kernel>
       <initrd>boot/initramfs-lts</initrd>
     </media>
    </os>
