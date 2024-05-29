@@ -167,5 +167,5 @@
       <kernel>boot/vmlinuz-lts</kernel>
       <initrd>boot/initramfs-lts</initrd>
     </media>
-   </os>
- </libosinfo>
+  </os>
+</libosinfo>

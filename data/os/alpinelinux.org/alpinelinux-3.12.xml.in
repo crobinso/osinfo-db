@@ -116,5 +116,5 @@
         <volume-id>alpine-xen 3.12.\d x86_64$</volume-id>
       </iso>
     </media>
-   </os>
- </libosinfo>
+  </os>
+</libosinfo>

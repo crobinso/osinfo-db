@@ -128,5 +128,5 @@
         <volume-id>alpine-xen 3\.16.* x86_64$</volume-id>
       </iso>
     </media>
-   </os>
- </libosinfo>
+  </os>
+</libosinfo>
