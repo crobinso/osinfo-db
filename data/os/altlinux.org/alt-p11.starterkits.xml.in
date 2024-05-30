@@ -1,0 +1,66 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/p11.starterkits">
+    <short-id>alt.p11</short-id>
+    <name>ALT p11 StarterKits</name>
+    <version>p11</version>
+    <vendor>BaseALT</vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <upgrades id="http://altlinux.org/alt/p10.starterkits"/>
+    <derives-from id="http://altlinux.org/alt/p10.starterkits"/>
+    <release-status>snapshot</release-status>
+
+
+    <!-- StarterKits -->
+    <media arch="aarch64" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT p11.*/aarch64</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>ALT-P11-.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT p11.*/i586</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>ALT-P11-.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT p11.*/x86_64</volume-id>
+        <publisher-id>ALT LINUX TEAM</publisher-id>
+        <application-id>ALT-P11-.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <cloud-image-username>altlinux</cloud-image-username>
+
+  </os>
+</libosinfo>
