@@ -1,0 +1,67 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/10.3">
+    <short-id>alt10.3</short-id>
+    <name>ALT 10.3</name>
+    <version>10.3</version>
+    <vendor>BaseALT</vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Aronia</codename>
+    <upgrades id="http://altlinux.org/alt/10.2"/>
+    <derives-from id="http://altlinux.org/alt/10.2"/>
+
+    <release-date>2024-03-21</release-date>
+    <eol-date>2025-12-31</eol-date>
+
+    <variant id="kworkstation">
+      <name>ALT Workstation K 10.3</name>
+    </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 10.3</name>
+    </variant>
+
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10.3-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.3(\.\d+)*</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.3(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Workstation K Live -->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p10/kworkstation/alt-kworkstation-10.3-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.3(\.\d+)* Live</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.3(\.\d+)* LIVE X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
