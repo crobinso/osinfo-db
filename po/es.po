@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 16:59+0200\n"
+"POT-Creation-Date: 2024-05-30 10:42+0200\n"
 "PO-Revision-Date: 2023-04-22 16:20+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -301,6 +301,7 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -552,6 +553,31 @@ msgstr "ALT Linux 3.0"
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:43
 #, fuzzy
 msgid "Alpinelinux 3.19 Xen"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
+#, fuzzy
+msgid "Alpine Linux 3.20"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
+#, fuzzy
+msgid "Alpinelinux 3.20 Standard"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
+#, fuzzy
+msgid "Alpinelinux 3.20 Extended"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
+#, fuzzy
+msgid "Alpinelinux 3.20 Virtual"
+msgstr "ALT Linux 3.0"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
+#, fuzzy
+msgid "Alpinelinux 3.20 Xen"
 msgstr "ALT Linux 3.0"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6

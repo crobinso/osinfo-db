@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 16:59+0200\n"
+"POT-Creation-Date: 2024-05-30 10:42+0200\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/"
@@ -315,6 +315,7 @@ msgstr "Alpine Linux 3.5"
 #: data/os/alpinelinux.org/alpinelinux-3.17.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:9
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:8
 #: data/os/alpinelinux.org/alpinelinux-3.6.xml.in:9
 #: data/os/alpinelinux.org/alpinelinux-3.7.xml.in:9
@@ -615,6 +616,36 @@ msgstr "Alpinelinux 3.8 Virtual"
 #, fuzzy
 #| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.19 Xen"
+msgstr "Alpinelinux 3.8 Xen"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
+#, fuzzy
+#| msgid "Alpine Linux 3.5"
+msgid "Alpine Linux 3.20"
+msgstr "Alpine Linux 3.5"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Standard"
+msgid "Alpinelinux 3.20 Standard"
+msgstr "Alpinelinux 3.8 Standard"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Extended"
+msgid "Alpinelinux 3.20 Extended"
+msgstr "Alpinelinux 3.8 Extended"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Virtual"
+msgid "Alpinelinux 3.20 Virtual"
+msgstr "Alpinelinux 3.8 Virtual"
+
+#: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
+#, fuzzy
+#| msgid "Alpinelinux 3.8 Xen"
+msgid "Alpinelinux 3.20 Xen"
 msgstr "Alpinelinux 3.8 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
