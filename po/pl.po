@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 10:42+0200\n"
-"PO-Revision-Date: 2024-05-11 10:03+0000\n"
+"PO-Revision-Date: 2024-06-01 14:55+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/pl/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -496,34 +496,24 @@ msgid "Alpinelinux 3.19 Xen"
 msgstr "Alpinelinux 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.20"
-msgstr "Alpine Linux 3.10"
+msgstr "Alpine Linux 3.20"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.20 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.20 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.20 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.20 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.20 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.20 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.20 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.20 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -1966,10 +1956,8 @@ msgid "Endless OS 5.1"
 msgstr "Endless OS 5.1"
 
 #: data/os/endlessos.com/eos-6.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 4.0"
 msgid "Endless OS 6.0"
-msgstr "Endless OS 4.0"
+msgstr "Endless OS 6.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -3657,22 +3645,16 @@ msgid "NetBSD 1.6"
 msgstr "NetBSD 1.6"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 1.0"
 msgid "NetBSD 10.0"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 10.0"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 10.0 Network Install"
-msgstr "NetBSD 9.0 (instalacja sieciowa)"
+msgstr "NetBSD 10.0 (instalacja sieciowa)"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 10.0 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 (instalacja sieciowa, konsola szeregowa)"
+msgstr "NetBSD 10.0 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/netbsd.org/netbsd-2.0.xml.in:6
 msgid "NetBSD 2.0"
@@ -3759,76 +3741,52 @@ msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgstr "NetBSD 9.0 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.1"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.1"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 9.1 Network Install"
-msgstr "NetBSD 8.1 (instalacja sieciowa)"
+msgstr "NetBSD 9.1 (instalacja sieciowa)"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.1 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 (instalacja sieciowa, konsola szeregowa)"
+msgstr "NetBSD 9.1 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.2"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.2"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.2 Network Install"
 msgid "NetBSD 9.2 Network Install"
-msgstr "NetBSD 8.2 (instalacja sieciowa)"
+msgstr "NetBSD 9.2 (instalacja sieciowa)"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 8.2 Network Install (Serial Console)"
 msgid "NetBSD 9.2 Network Install (Serial Console)"
-msgstr "NetBSD 8.2 (instalacja sieciowa, konsola szeregowa)"
+msgstr "NetBSD 9.2 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.3"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.3"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 9.3 Network Install"
-msgstr "NetBSD 9.0 (instalacja sieciowa)"
+msgstr "NetBSD 9.3 (instalacja sieciowa)"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.3 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 (instalacja sieciowa, konsola szeregowa)"
+msgstr "NetBSD 9.3 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.4"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.4"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 9.4 Network Install"
-msgstr "NetBSD 9.0 (instalacja sieciowa)"
+msgstr "NetBSD 9.4 (instalacja sieciowa)"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.4 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 (instalacja sieciowa, konsola szeregowa)"
+msgstr "NetBSD 9.4 (instalacja sieciowa, konsola szeregowa)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
@@ -5922,10 +5880,8 @@ msgid "Ubuntu 24.04 LTS"
 msgstr "Ubuntu 24.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-24.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 4.10"
 msgid "Ubuntu 24.10"
-msgstr "Ubuntu 4.10"
+msgstr "Ubuntu 24.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
