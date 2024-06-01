@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-30 10:42+0200\n"
-"PO-Revision-Date: 2024-05-15 15:36+0000\n"
+"PO-Revision-Date: 2024-06-01 14:55+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -493,34 +493,24 @@ msgid "Alpinelinux 3.19 Xen"
 msgstr "알파인리눅스 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.20"
-msgstr "알파인 리눅스 3.10"
+msgstr "알파인 리눅스 3.20"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.20 Standard"
-msgstr "알파인리눅스 3.10 표준"
+msgstr "알파인리눅스 3.20 표준"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.20 Extended"
-msgstr "알파인리눅스 3.10 확장"
+msgstr "알파인리눅스 3.20 확장"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.20 Virtual"
-msgstr "알파인리눅스 3.10 가상"
+msgstr "알파인리눅스 3.20 가상"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.20 Xen"
-msgstr "알파인리눅스 3.10 Xen"
+msgstr "알파인리눅스 3.20 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
