@@ -39,6 +39,7 @@
       <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
       <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
+      <device id="http://pcisig.com/pci/1af4/1058"/> <!-- virtio1.0-mem -->
     </devices>
 
     <!-- RHEL 9.0 entries have to cope both with 9.0 and 9.0.x regexes for
