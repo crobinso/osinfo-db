@@ -27,6 +27,10 @@
       <name>Fedora 34 Everything</name>
     </variant>
 
+    <devices>
+      <device id="http://pcisig.com/pci/1af4/1058"/> <!-- virtio1.0-mem -->
+    </devices>
+
     <!-- Workstation -->
 
     <!-- Live -->
