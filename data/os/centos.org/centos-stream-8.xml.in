@@ -47,7 +47,7 @@
     <!-- Generic -->
     <media arch="x86_64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-boot.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/x86_64/CentOS-Stream-8-20240603.0-x86_64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -57,7 +57,7 @@
     </media>
 
     <media arch="x86_64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-latest-dvd1.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/x86_64/CentOS-Stream-8-20240603.0-x86_64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-x86_64-dvd</volume-id>
@@ -68,7 +68,7 @@
 
     <media arch="aarch64">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-latest-boot.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/aarch64/CentOS-Stream-8-20240603.0-aarch64-boot.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -78,7 +78,7 @@
     </media>
 
     <media arch="aarch64">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/aarch64/CentOS-Stream-8-aarch64-latest-dvd1.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/aarch64/CentOS-Stream-8-20240603.0-aarch64-dvd1.iso</url>
       <iso>
         <system-id>LINUX</system-id>
         <volume-id>CentOS-Stream-8-aarch64-dvd</volume-id>
@@ -89,7 +89,7 @@
 
     <media arch="ppc64le">
       <variant id="netinst"/>
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-latest-boot.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/ppc64le/CentOS-Stream-8-20240603.0-ppc64le-boot.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
@@ -99,7 +99,7 @@
     </media>
 
     <media arch="ppc64le">
-      <url>http://isoredirect.centos.org/centos/8-stream/isos/ppc64le/CentOS-Stream-8-ppc64le-latest-dvd1.iso</url>
+      <url>https://vault.centos.org/8-stream/isos/ppc64le/CentOS-Stream-8-20240603.0-ppc64le-dvd1.iso</url>
       <iso>
         <system-id>PPC</system-id>
         <volume-id>CentOS-Stream-8-ppc64le-dvd</volume-id>
@@ -352,7 +352,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/</url>
+      <url>https://vault.centos.org/8-stream/BaseOS/x86_64/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
         <version>^8$</version>
@@ -361,7 +361,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>http://mirror.centos.org/centos/8-stream/BaseOS/aarch64/os/</url>
+      <url>https://vault.centos.org/8-stream/BaseOS/aarch64/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
         <version>^8$</version>
@@ -370,7 +370,7 @@
     </tree>
 
     <tree arch="ppc64le">
-      <url>http://mirror.centos.org/centos/8-stream/BaseOS/ppc64le/os/</url>
+      <url>https://vault.centos.org/8-stream/BaseOS/ppc64le/os/</url>
       <treeinfo>
         <family>CentOS Stream</family>
         <version>^8$</version>
