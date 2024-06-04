@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 13:46+0200\n"
-"PO-Revision-Date: 2024-05-30 23:36+0000\n"
+"PO-Revision-Date: 2024-06-03 22:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/tr/>\n"
@@ -655,82 +655,56 @@ msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "ALT 10.0"
+msgstr "ALT 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education Live 10.1"
 msgid "ALT Education Live 10.2"
-msgstr "ALT Education Live 10.1"
+msgstr "ALT Education Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply Live 10.1"
 msgid "ALT Simply Live 10.2"
-msgstr "ALT Simply Live 10.1"
+msgstr "ALT Simply Live 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "ALT 10.0"
+msgstr "ALT 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.3"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.3"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.3"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -884,10 +858,8 @@ msgid "ALT p10 StarterKits"
 msgstr "ALT p10 StarterKits"
 
 #: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p10 StarterKits"
 msgid "ALT p11 StarterKits"
-msgstr "ALT p10 StarterKits"
+msgstr "ALT p11 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -4011,28 +3983,20 @@ msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "NixOS 23.11 (Plasma 5 kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 24.05"
-msgstr "NixOS 21.05"
+msgstr "NixOS 24.05"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 24.05 (minimal installation CD)"
-msgstr "NixOS 21.05 (asgari kurulum CD'si)"
+msgstr "NixOS 24.05 (asgari kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (GNOME installation CD)"
 msgid "NixOS 24.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (GNOME kurulum CD'si)"
+msgstr "NixOS 24.05 (GNOME kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 24.05 (Plasma 6 installation CD)"
-msgstr "NixOS 21.05 (Plasma 5 kurulum CD'si)"
+msgstr "NixOS 24.05 (Plasma 6 kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4047,10 +4011,8 @@ msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS Unstable (GNOME kurulum CD'si)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgid "NixOS Unstable (Plasma 6 installation CD)"
-msgstr "NixOS Unstable (Plasma 5 kurulum CD'si)"
+msgstr "NixOS Unstable (Plasma 6 kurulum CD'si)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
