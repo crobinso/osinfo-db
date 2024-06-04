@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-03 13:46+0200\n"
-"PO-Revision-Date: 2024-06-01 14:55+0000\n"
+"PO-Revision-Date: 2024-06-04 08:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -656,82 +656,56 @@ msgid "ALT Simply Live 10.1"
 msgstr "ALT 단순 구성 라이브 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "ALT 10.0"
+msgstr "ALT 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "ALT 웍스테이션 10.0"
+msgstr "ALT 웍스테이션 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "ALT 9.0 웍스테이션 K 10.0"
+msgstr "ALT 웍스테이션 K 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "ALT 웍스테이션 K 라이브 10.0"
+msgstr "ALT 웍스테이션 K 라이브 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "ALT 교육용 10.0"
+msgstr "ALT 교육용 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education Live 10.1"
 msgid "ALT Education Live 10.2"
-msgstr "ALT 교육용 라이브 10.1"
+msgstr "ALT 교육용 라이브 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "ALT 서버 10.0"
+msgstr "ALT 서버 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "ALT 가상 서버 10.0"
+msgstr "ALT 가상 서버 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "ALT 단순 구성 10.0"
+msgstr "ALT 단순 구성 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply Live 10.1"
 msgid "ALT Simply Live 10.2"
-msgstr "ALT 단순 구성 라이브 10.1"
+msgstr "ALT 단순 구성 라이브 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "ALT 10.0"
+msgstr "ALT 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.3"
-msgstr "ALT 9.0 웍스테이션 K 10.0"
+msgstr "ALT 웍스테이션 K 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.3"
-msgstr "ALT 웍스테이션 K 라이브 10.0"
+msgstr "ALT 웍스테이션 K 라이브 10.3"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -885,10 +859,8 @@ msgid "ALT p10 StarterKits"
 msgstr "ALT p10 시작용 구성"
 
 #: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p10 StarterKits"
 msgid "ALT p11 StarterKits"
-msgstr "ALT p10 시작용 구성"
+msgstr "ALT p11 시작용 구성"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -4011,28 +3983,20 @@ msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "닉스OS 23.15 (플라즈마 5 설치 CD)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 24.05"
-msgstr "닉스OS 21.05"
+msgstr "닉스OS 24.05"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 24.05 (minimal installation CD)"
-msgstr "닉스OS 21.05 (최소 설치 CD)"
+msgstr "닉스OS 24.05 (최소 설치 CD)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (GNOME installation CD)"
 msgid "NixOS 24.05 (GNOME installation CD)"
-msgstr "닉스OS 21.05 (그놈 설치 CD)"
+msgstr "닉스OS 24.05 (그놈 설치 CD)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 24.05 (Plasma 6 installation CD)"
-msgstr "닉스OS 21.05 (플라즈마 5 설치 CD)"
+msgstr "닉스OS 24.05 (플라즈마 6 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4047,10 +4011,8 @@ msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "닉스OS 불안정판 (그놈 설치 CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgid "NixOS Unstable (Plasma 6 installation CD)"
-msgstr "닉스OS 불안정판 (플라즈마 5 설치 CD)"
+msgstr "닉스OS 불안정판 (플라즈마 6 설치 CD)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
