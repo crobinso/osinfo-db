@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-30 10:42+0200\n"
+"POT-Creation-Date: 2024-06-03 13:46+0200\n"
 "PO-Revision-Date: 2024-06-01 07:36+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -566,11 +566,14 @@ msgid "ALT 10.0"
 msgstr "ALT 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:8
-#: data/os/altlinux.org/alt-10.1.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
+#: data/os/altlinux.org/alt-10.1.xml.in:8
+#: data/os/altlinux.org/alt-10.2.xml.in:8
+#: data/os/altlinux.org/alt-10.3.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
 #: data/os/altlinux.org/alt-9.0.xml.in:8 data/os/altlinux.org/alt-9.1.xml.in:8
 #: data/os/altlinux.org/alt-9.2.xml.in:8
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:8
+#: data/os/altlinux.org/alt-p11.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-p9.starterkits.xml.in:8
 #: data/os/altlinux.org/alt-sisyphus.xml.in:8
@@ -648,6 +651,84 @@ msgstr "ALT Simply 10.1"
 #: data/os/altlinux.org/alt-10.1.xml.in:43
 msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply Live 10.1"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:6
+#, fuzzy
+#| msgid "ALT 10.0"
+msgid "ALT 10.2"
+msgstr "ALT 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation 10.0"
+msgid "ALT Workstation 10.2"
+msgstr "ALT Workstation 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation K 10.0"
+msgid "ALT Workstation K 10.2"
+msgstr "ALT Workstation K 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:25
+#, fuzzy
+#| msgid "ALT Workstation K Live 10.0"
+msgid "ALT Workstation K Live 10.2"
+msgstr "ALT Workstation K Live 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:28
+#, fuzzy
+#| msgid "ALT Education 10.0"
+msgid "ALT Education 10.2"
+msgstr "ALT Education 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:31
+#, fuzzy
+#| msgid "ALT Education Live 10.1"
+msgid "ALT Education Live 10.2"
+msgstr "ALT Education Live 10.1"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:34
+#, fuzzy
+#| msgid "ALT Server 10.0"
+msgid "ALT Server 10.2"
+msgstr "ALT Server 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:37
+#, fuzzy
+#| msgid "ALT Virtualization Server 10.0"
+msgid "ALT Virtualization Server 10.2"
+msgstr "ALT Virtualization Server 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:40
+#, fuzzy
+#| msgid "ALT Simply 10.0"
+msgid "ALT Simply 10.2"
+msgstr "ALT Simply 10.0"
+
+#: data/os/altlinux.org/alt-10.2.xml.in:43
+#, fuzzy
+#| msgid "ALT Simply Live 10.1"
+msgid "ALT Simply Live 10.2"
+msgstr "ALT Simply Live 10.1"
+
+#: data/os/altlinux.org/alt-10.3.xml.in:6
+#, fuzzy
+#| msgid "ALT 10.0"
+msgid "ALT 10.3"
+msgstr "ALT 10.0"
+
+#: data/os/altlinux.org/alt-10.3.xml.in:19
+#, fuzzy
+#| msgid "ALT Workstation K 10.0"
+msgid "ALT Workstation K 10.3"
+msgstr "ALT Workstation K 10.0"
+
+#: data/os/altlinux.org/alt-10.3.xml.in:22
+#, fuzzy
+#| msgid "ALT Workstation K Live 10.0"
+msgid "ALT Workstation K Live 10.3"
+msgstr "ALT Workstation K Live 10.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -798,6 +879,12 @@ msgstr "ALT Simply live 9.2"
 
 #: data/os/altlinux.org/alt-p10.starterkits.xml.in:6
 msgid "ALT p10 StarterKits"
+msgstr "ALT p10 StarterKits"
+
+#: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
+#, fuzzy
+#| msgid "ALT p10 StarterKits"
+msgid "ALT p11 StarterKits"
 msgstr "ALT p10 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
@@ -3794,6 +3881,7 @@ msgstr "NixOS 20.03"
 #: data/os/nixos.org/nixos-22.11.xml.in:8
 #: data/os/nixos.org/nixos-23.05.xml.in:8
 #: data/os/nixos.org/nixos-23.11.xml.in:8
+#: data/os/nixos.org/nixos-24.05.xml.in:8
 #: data/os/nixos.org/nixos-unknown.xml.in:6
 #: data/os/nixos.org/nixos-unknown.xml.in:7
 #: data/os/nixos.org/nixos-unstable.xml.in:8
@@ -3920,6 +4008,30 @@ msgstr "NixOS 23.11 (GNOME installation CD)"
 msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "NixOS 23.11 (Plasma 5 installation CD)"
 
+#: data/os/nixos.org/nixos-24.05.xml.in:6
+#, fuzzy
+#| msgid "NixOS 21.05"
+msgid "NixOS 24.05"
+msgstr "NixOS 21.05"
+
+#: data/os/nixos.org/nixos-24.05.xml.in:30
+#, fuzzy
+#| msgid "NixOS 21.05 (minimal installation CD)"
+msgid "NixOS 24.05 (minimal installation CD)"
+msgstr "NixOS 21.05 (minimal installation CD)"
+
+#: data/os/nixos.org/nixos-24.05.xml.in:33
+#, fuzzy
+#| msgid "NixOS 21.05 (GNOME installation CD)"
+msgid "NixOS 24.05 (GNOME installation CD)"
+msgstr "NixOS 21.05 (GNOME installation CD)"
+
+#: data/os/nixos.org/nixos-24.05.xml.in:36
+#, fuzzy
+#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
+msgid "NixOS 24.05 (Plasma 6 installation CD)"
+msgstr "NixOS 21.05 (Plasma 5 installation CD)"
+
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
 msgstr "NixOS Unstable"
@@ -3933,7 +4045,9 @@ msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS Unstable (GNOME installation CD)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
-msgid "NixOS Unstable (Plasma 5 installation CD)"
+#, fuzzy
+#| msgid "NixOS Unstable (Plasma 5 installation CD)"
+msgid "NixOS Unstable (Plasma 6 installation CD)"
 msgstr "NixOS Unstable (Plasma 5 installation CD)"
 
 #: data/os/novell.com/netware-4.xml.in:6
