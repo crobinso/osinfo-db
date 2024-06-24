@@ -74,7 +74,7 @@
     <!-- DVD -->
     <media arch="aarch64" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-dvd-aarch64-37-1.7.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-dvd-aarch64-37-1.7.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-37</volume-id>
         <system-id>LINUX</system-id>
@@ -89,7 +89,7 @@
     <!-- Network Installer !-->
     <media arch="aarch64" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-netinst-aarch64-37-1.7.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/37/Server/aarch64/iso/Fedora-Server-netinst-aarch64-37-1.7.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-aarch64-37</volume-id>
       </iso>
@@ -100,7 +100,7 @@
     <!-- DVD -->
     <media arch="s390x" installer-script="false">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Server/s390x/iso/Fedora-Server-dvd-s390x-37-1.7.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Server/s390x/iso/Fedora-Server-dvd-s390x-37-1.7.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-s390x-37</volume-id>
         <system-id>LINUX</system-id>
@@ -112,7 +112,7 @@
     <!-- Network Installer !-->
     <media arch="s390x" installer-script="false">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Server/s390x/iso/Fedora-Server-netinst-s390x-37-1.7.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Server/s390x/iso/Fedora-Server-netinst-s390x-37-1.7.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-s390x-37</volume-id>
       </iso>
@@ -150,7 +150,7 @@
 
     <media arch="s390x" installer-script="false">
       <variant id="everything-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Everything/s390x/iso/Fedora-Everything-netinst-s390x-37-1.7.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Everything/s390x/iso/Fedora-Everything-netinst-s390x-37-1.7.iso</url>
       <iso>
         <volume-id>Fedora-E-dvd-s390x-37</volume-id>
       </iso>
@@ -170,7 +170,7 @@
     </tree>
 
     <tree arch="aarch64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/aarch64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/37/Server/aarch64/os/</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -181,7 +181,7 @@
     </tree>
 
     <tree arch="s390x">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Server/s390x/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Server/s390x/os</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
@@ -214,7 +214,7 @@
     </tree>
 
     <tree arch="s390x">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Everything/s390x/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Everything/s390x/os</url>
       <variant id="everything-netinst"/>
       <treeinfo>
         <family>Fedora</family>
@@ -225,15 +225,15 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Cloud/x86_64/images/Fedora-Cloud-Base-37-1.7.x86_64.qcow2</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/37/Cloud/x86_64/images/Fedora-Cloud-Base-37-1.7.x86_64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Cloud/aarch64/images/Fedora-Cloud-Base-37-1.7.aarch64.qcow2</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/37/Cloud/aarch64/images/Fedora-Cloud-Base-37-1.7.aarch64.qcow2</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/37/Cloud/s390x/images/Fedora-Cloud-Base-37-1.7.s390x.qcow2</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora-secondary/releases/37/Cloud/s390x/images/Fedora-Cloud-Base-37-1.7.s390x.qcow2</url>
     </image>
 
     <image arch="x86_64" format="containerdisk" cloud-init="true">
