@@ -7,6 +7,7 @@ import logging
 
 import pytest
 import requests
+import urllib3
 
 from . import util
 
@@ -188,12 +189,13 @@ def _collect_os_urls():
 @pytest.fixture(scope="module")
 def session():
     session = requests.Session()
-    # As some distro URLs are flaky, let's give it a try 3 times
-    # before actually failing.
+    # As some distro URLs are flaky or rate limit requests (429) use Retry to
+    # help navigate those at the expense of taking longer.
     # Use an high value for pool_connections: this represents the number of
     # urllib HTTP connection pools instantiated, each for a different host:
     # this way, we can reuse more connections across OSes.
-    adapter = requests.adapters.HTTPAdapter(max_retries=3, pool_connections=100)
+    retries = urllib3.util.Retry(backoff_factor=1, status_forcelist=(429,), total=6)
+    adapter = requests.adapters.HTTPAdapter(max_retries=retries, pool_connections=100)
     session.mount("https://", adapter)
     session.mount("http://", adapter)
     return session
