@@ -77,6 +77,7 @@ class UrlType(UniqueSet, enum.Enum):
     URL_TREE = {
         # HTML page of file listing
         "text/html",
+        "application/xhtml+xml",
     }
     URL_DISK_VHDX = {}
 
