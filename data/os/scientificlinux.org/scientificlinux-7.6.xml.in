@@ -12,6 +12,7 @@
     <clones id="http://redhat.com/rhel/7.6"/>
 
     <release-date>2018-12-03</release-date>
+    <eol-date>2019-08-26</eol-date>
 
     <tree arch="x86_64">
       <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/7.6/x86_64/os/</url>

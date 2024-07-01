@@ -12,6 +12,7 @@
     <clones id="http://redhat.com/rhel/7.5"/>
 
     <release-date>2018-05-10</release-date>
+    <eol-date>2018-12-03</eol-date>
 
     <tree arch="x86_64">
       <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/7.5/x86_64/os/</url>
