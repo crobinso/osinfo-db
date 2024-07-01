@@ -14,7 +14,7 @@
     <release-date>2015-04-13</release-date>
 
     <tree arch="x86_64">
-      <url>http://ftp1.scientificlinux.org/linux/scientific/7.1/x86_64/os/</url>
+      <url>http://ftp1.scientificlinux.org/linux/scientific/obsolete/7.1/x86_64/os/</url>
       <treeinfo>
         <family>Scientific</family>
         <version>7.1</version>
