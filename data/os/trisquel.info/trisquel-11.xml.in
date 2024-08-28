@@ -11,6 +11,7 @@
     <family>linux</family>
     <distro>trisquel</distro>
     <codename>Aramo</codename>
+    <upgrades id="http://trisquel.info/trisquel/10"/>
     <derives-from id="http://ubuntu.com/ubuntu/22.04"/>
 
     <release-date>2023-03-19</release-date>

@@ -11,6 +11,7 @@
     <family>linux</family>
     <distro>trisquel</distro>
     <codename>Nabia</codename>
+    <upgrades id="http://trisquel.info/trisquel/9"/>
     <derives-from id="http://ubuntu.com/ubuntu/20.04"/>
 
     <release-date>2022-02-01</release-date>
