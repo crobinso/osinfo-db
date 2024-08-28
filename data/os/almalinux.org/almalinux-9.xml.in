@@ -9,6 +9,7 @@
     <vendor>AlmaLinux OS Foundation</vendor>
     <family>linux</family>
     <distro>almalinux</distro>
+    <upgrades id="http://almalinux.org/almalinux/8"/>
     <clones id="http://redhat.com/rhel/9.0"/>
     <release-date>2022-05-26</release-date>
 
