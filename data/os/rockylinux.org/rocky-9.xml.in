@@ -9,6 +9,7 @@
     <family>linux</family>
     <distro>rocky</distro>
     <codename>Blue Onyx</codename>
+    <upgrades id="http://rockylinux.org/rocky/8"/>
     <clones id="http://redhat.com/rhel/9.0"/>
     <release-date>2022-07-14</release-date>
     <eol-date>2032-05-31</eol-date>
