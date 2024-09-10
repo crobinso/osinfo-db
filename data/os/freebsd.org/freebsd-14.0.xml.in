@@ -8,8 +8,8 @@
     <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
-    <upgrades id="http://freebsd.org/freebsd/13.2"/>
-    <derives-from id="http://freebsd.org/freebsd/13.2"/>
+    <upgrades id="http://freebsd.org/freebsd/13.3"/>
+    <derives-from id="http://freebsd.org/freebsd/13.3"/>
 
     <release-date>2023-11-20</release-date>
 
