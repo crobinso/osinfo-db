@@ -11,8 +11,8 @@
     <upgrades id="http://freebsd.org/freebsd/13.0"/>
     <derives-from id="http://freebsd.org/freebsd/13.0"/>
 
-    <release-date>2022-05-12</release-date>
-    <eol-date>2022-05-16</eol-date>
+    <release-date>2022-05-16</release-date>
+    <eol-date>2023-07-31</eol-date>
 
     <media arch="x86_64">
       <url>http://ftp-archive.freebsd.org/pub/FreeBSD-Archive/old-releases/ISO-IMAGES/13.1/FreeBSD-13.1-RELEASE-amd64-dvd1.iso</url>
