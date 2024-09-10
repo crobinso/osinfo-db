@@ -5,6 +5,8 @@ import locale
 from pathlib import Path
 import os
 
+import pytest
+
 
 def pytest_addoption(parser):
     parser.addoption(
@@ -49,12 +51,23 @@ def pytest_configure(config):
     _ = util
 
 
-def pytest_ignore_collect(path, config):
+def _impl_pytest_ignore_collect(collection_path, config):
     """
     Entirely skip loading test_urls.py if the option wasn't specified
     """
     run_network = bool(
         config.getoption("--network-tests") or os.environ.get("OSINFO_DB_NETWORK_TESTS")
     )
-    if Path(path).name == "test_urls.py" and not run_network:
+    if collection_path.name == "test_urls.py" and not run_network:
         return True
+
+
+if getattr(pytest, "version_tuple", (0,)) >= (7,):
+
+    def pytest_ignore_collect(collection_path, config):
+        return _impl_pytest_ignore_collect(collection_path, config)
+
+else:
+
+    def pytest_ignore_collect(path, config):
+        return _impl_pytest_ignore_collect(Path(path), config)
