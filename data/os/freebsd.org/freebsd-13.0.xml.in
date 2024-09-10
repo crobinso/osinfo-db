@@ -8,8 +8,8 @@
     <vendor>FreeBSD Project</vendor>
     <family>freebsd</family>
     <distro>freebsd</distro>
-    <upgrades id="http://freebsd.org/freebsd/12.2"/>
-    <derives-from id="http://freebsd.org/freebsd/12.2"/>
+    <upgrades id="http://freebsd.org/freebsd/12.4"/>
+    <derives-from id="http://freebsd.org/freebsd/12.4"/>
 
     <release-date>2021-04-13</release-date>
     <eol-date>2022-08-31</eol-date>
