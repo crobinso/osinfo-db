@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-03 13:46+0200\n"
+"POT-Creation-Date: 2024-09-08 16:36+0200\n"
 "PO-Revision-Date: 2023-12-04 19:43+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -138,6 +138,12 @@ msgstr "virtio1.0-gpu"
 #: data/device/pcisig.com/pci-1af4-1052.d/class.xml.in:5
 msgid "virtio1.0-input"
 msgstr "virtio1.0-input"
+
+#: data/device/pcisig.com/pci-1af4-1058.d/class.xml.in:5
+#, fuzzy
+#| msgid "virtio1.0-net"
+msgid "virtio1.0-mem"
+msgstr "virtio1.0-net"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
@@ -1268,7 +1274,7 @@ msgid "CentOS Stream 8"
 msgstr "CentOS Stream 8"
 
 #: data/os/centos.org/centos-stream-9.xml.in:6
-#: data/os/centos.org/centos-stream-9.xml.in:42
+#: data/os/centos.org/centos-stream-9.xml.in:43
 msgid "CentOS Stream 9"
 msgstr "CentOS Stream 9"
 
@@ -4780,11 +4786,14 @@ msgstr "PureOS 10 GNOME"
 msgid "PureOS 10 KDE"
 msgstr "PureOS 10 KDE"
 
-#: data/os/redhat.com/rhel-2.1.1.xml.in:6
-msgid "Red Hat Enterprise Linux 2.1 Update 1"
-msgstr "Red Hat Enterprise Linux 2.1 Update 1"
+#: data/os/redhat.com/rhel-10-unknown.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 6 Unknown"
+msgid "Red Hat Enterprise Linux 10 Unknown"
+msgstr "Red Hat Enterprise Linux 6 Unknown"
 
-#: data/os/redhat.com/rhel-2.1.1.xml.in:8
+#: data/os/redhat.com/rhel-10-unknown.xml.in:8
+#: data/os/redhat.com/rhel-10.0.xml.in:8 data/os/redhat.com/rhel-2.1.1.xml.in:8
 #: data/os/redhat.com/rhel-2.1.2.xml.in:8
 #: data/os/redhat.com/rhel-2.1.3.xml.in:8
 #: data/os/redhat.com/rhel-2.1.4.xml.in:8
@@ -4849,6 +4858,16 @@ msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 #: data/os/redhat.com/rhl-9.xml.in:8
 msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
+
+#: data/os/redhat.com/rhel-10.0.xml.in:6
+#, fuzzy
+#| msgid "Red Hat Enterprise Linux 4.0"
+msgid "Red Hat Enterprise Linux 10.0"
+msgstr "Red Hat Enterprise Linux 4.0"
+
+#: data/os/redhat.com/rhel-2.1.1.xml.in:6
+msgid "Red Hat Enterprise Linux 2.1 Update 1"
+msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
@@ -5348,29 +5367,29 @@ msgid "Rocky Linux 9.0"
 msgstr "Rocky Linux 9.0"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:6
-#: data/os/rockylinux.org/rocky-9.xml.in:18
-#: data/os/rockylinux.org/rocky-9.xml.in:22
-#: data/os/rockylinux.org/rocky-9.xml.in:26
+#: data/os/rockylinux.org/rocky-9.xml.in:19
+#: data/os/rockylinux.org/rocky-9.xml.in:23
+#: data/os/rockylinux.org/rocky-9.xml.in:27
 msgid "Rocky Linux 9"
 msgstr "Rocky Linux 9"
 
-#: data/os/rockylinux.org/rocky-9.xml.in:32
+#: data/os/rockylinux.org/rocky-9.xml.in:33
 msgid "Rocky Linux Workstation 9"
 msgstr "Rocky Linux Workstation 9"
 
-#: data/os/rockylinux.org/rocky-9.xml.in:35
+#: data/os/rockylinux.org/rocky-9.xml.in:36
 msgid "Rocky Linux Workstation-Lite 9"
 msgstr "Rocky Linux Workstation-Lite 9"
 
-#: data/os/rockylinux.org/rocky-9.xml.in:38
+#: data/os/rockylinux.org/rocky-9.xml.in:39
 msgid "Rocky Linux KDE 9"
 msgstr "Rocky Linux KDE 9"
 
-#: data/os/rockylinux.org/rocky-9.xml.in:41
+#: data/os/rockylinux.org/rocky-9.xml.in:42
 msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux XFCE 9"
 
-#: data/os/rockylinux.org/rocky-9.xml.in:44
+#: data/os/rockylinux.org/rocky-9.xml.in:45
 msgid "Rocky Linux Cinnamon 9"
 msgstr "Rocky Linux Cinnamon 9"
 
@@ -5865,19 +5884,19 @@ msgstr "Trisquel 10.0 LTS"
 msgid "The Trisquel Project"
 msgstr "The Trisquel Project"
 
-#: data/os/trisquel.info/trisquel-10.xml.in:19
+#: data/os/trisquel.info/trisquel-10.xml.in:20
 msgid "Trisquel 10"
 msgstr "Trisquel 10"
 
-#: data/os/trisquel.info/trisquel-10.xml.in:22
+#: data/os/trisquel.info/trisquel-10.xml.in:23
 msgid "Triskel 10"
 msgstr "Triskel 10"
 
-#: data/os/trisquel.info/trisquel-10.xml.in:25
+#: data/os/trisquel.info/trisquel-10.xml.in:26
 msgid "Trisquel 10 Mini"
 msgstr "Trisquel 10 Mini"
 
-#: data/os/trisquel.info/trisquel-10.xml.in:28
+#: data/os/trisquel.info/trisquel-10.xml.in:29
 msgid "Trisquel 10 Sugar Toast"
 msgstr "Trisquel 10 Sugar Toast"
 
@@ -5885,19 +5904,19 @@ msgstr "Trisquel 10 Sugar Toast"
 msgid "Trisquel 11.0 LTS"
 msgstr "Trisquel 11.0 LTS"
 
-#: data/os/trisquel.info/trisquel-11.xml.in:19
+#: data/os/trisquel.info/trisquel-11.xml.in:20
 msgid "Trisquel 11"
 msgstr "Trisquel 11"
 
-#: data/os/trisquel.info/trisquel-11.xml.in:22
+#: data/os/trisquel.info/trisquel-11.xml.in:23
 msgid "Triskel 11"
 msgstr "Triskel 11"
 
-#: data/os/trisquel.info/trisquel-11.xml.in:25
+#: data/os/trisquel.info/trisquel-11.xml.in:26
 msgid "Trisquel 11 Mini"
 msgstr "Trisquel 11 Mini"
 
-#: data/os/trisquel.info/trisquel-11.xml.in:28
+#: data/os/trisquel.info/trisquel-11.xml.in:29
 msgid "Trisquel 11 Sugar Toast"
 msgstr "Trisquel 11 Sugar Toast"
 
