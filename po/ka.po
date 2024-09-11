@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-08 16:36+0200\n"
-"PO-Revision-Date: 2024-06-03 15:17+0000\n"
+"PO-Revision-Date: 2024-09-09 15:21+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -140,10 +140,8 @@ msgid "virtio1.0-input"
 msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-1058.d/class.xml.in:5
-#, fuzzy
-#| msgid "virtio1.0-net"
 msgid "virtio1.0-mem"
-msgstr "virtio1.0-net"
+msgstr "virtio1.0-mem"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
@@ -4657,10 +4655,8 @@ msgid "PureOS 10 KDE"
 msgstr "PureOS 10 KDE"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 6 Unknown"
 msgid "Red Hat Enterprise Linux 10 Unknown"
-msgstr "Red Hat Enterprise Linux 6 Unknown"
+msgstr "Red Hat Enterprise Linux 10 Unknown"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:8
 #: data/os/redhat.com/rhel-10.0.xml.in:8 data/os/redhat.com/rhel-2.1.1.xml.in:8
@@ -4730,10 +4726,8 @@ msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-10.0.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 10.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat Enterprise Linux 10.0"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
