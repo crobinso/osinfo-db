@@ -12,6 +12,13 @@
 
     <firmware arch="x86_64" type="efi"/>
 
+    <variant id="basic">
+      <name>Arch Linux (basic)</name>
+    </variant>
+    <variant id="cloud">
+      <name>Arch Linux (cloud)</name>
+    </variant>
+
     <devices>
       <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
@@ -54,5 +61,17 @@
         <application-id>ARCH LINUX LIVE/RESCUE (CD|DVD)</application-id>
       </iso>
     </media>
+
+    <image arch="x86_64" format="qcow2">
+      <variant id="basic"/>
+      <url>https://geo.mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-basic.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <variant id="cloud"/>
+      <url>https://geo.mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-cloudimg.qcow2</url>
+    </image>
+
+    <cloud-image-username>arch</cloud-image-username>
   </os>
 </libosinfo>
