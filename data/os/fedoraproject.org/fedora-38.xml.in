@@ -32,7 +32,7 @@
     <!-- Live -->
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="workstation"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/38/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-38-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/38/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-38-1.6.iso</url>
       <iso>
         <volume-id>Fedora-WS-Live-38.*</volume-id>
       </iso>
@@ -45,7 +45,7 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="server"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-dvd-x86_64-38-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-dvd-x86_64-38-1.6.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-38</volume-id>
         <system-id>LINUX</system-id>
@@ -60,7 +60,7 @@
     <!-- Network Installer !-->
     <media arch="x86_64">
       <variant id="server-netinst"/>
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-netinst-x86_64-38-1.6.iso</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-netinst-x86_64-38-1.6.iso</url>
       <iso>
         <volume-id>Fedora-S-dvd-x86_64-38</volume-id>
       </iso>
@@ -159,7 +159,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/x86_64/os</url>
+      <url>https://archive.fedoraproject.org/pub/archive/fedora/linux/releases/38/Server/x86_64/os</url>
       <variant id="server"/>
       <treeinfo>
         <family>Fedora</family>
