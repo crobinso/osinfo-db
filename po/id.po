@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 08:50+0200\n"
-"PO-Revision-Date: 2024-02-12 15:35+0000\n"
+"PO-Revision-Date: 2024-09-13 14:38+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -142,10 +142,8 @@ msgid "virtio1.0-input"
 msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-1058.d/class.xml.in:5
-#, fuzzy
-#| msgid "virtio1.0-net"
 msgid "virtio1.0-mem"
-msgstr "virtio1.0-net"
+msgstr "virtio1.0-mem"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
@@ -498,34 +496,24 @@ msgid "Alpinelinux 3.19 Xen"
 msgstr "Alpinelinux 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.20"
-msgstr "Alpine Linux 3.10"
+msgstr "Alpine Linux 3.20"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.20 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.20 Standar"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.20 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.20 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.20 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.20 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.20 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.20 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -671,82 +659,56 @@ msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "ALT 10.0"
+msgstr "ALT 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education Live 10.1"
 msgid "ALT Education Live 10.2"
-msgstr "ALT Education Live 10.1"
+msgstr "ALT Education Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply Live 10.1"
 msgid "ALT Simply Live 10.2"
-msgstr "ALT Simply Live 10.1"
+msgstr "ALT Simply Live 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "ALT 10.0"
+msgstr "ALT 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.3"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.3"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.3"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -900,10 +862,8 @@ msgid "ALT p10 StarterKits"
 msgstr "ALT p10 StarterKits"
 
 #: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p10 StarterKits"
 msgid "ALT p11 StarterKits"
-msgstr "ALT p10 StarterKits"
+msgstr "ALT p11 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -2055,10 +2015,8 @@ msgid "Endless OS 5.1"
 msgstr "Endless OS 5.1"
 
 #: data/os/endlessos.com/eos-6.0.xml.in:6
-#, fuzzy
-#| msgid "Endless OS 4.0"
 msgid "Endless OS 6.0"
-msgstr "Endless OS 4.0"
+msgstr "Endless OS 6.0"
 
 #: data/os/euro-linux.com/eurolinux-8.xml.in:5
 msgid "EuroLinux 8"
@@ -2509,29 +2467,21 @@ msgid "Fedora Core 4"
 msgstr "Fedora Core 4"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Linux 36"
 msgid "Fedora Linux 40"
-msgstr "Fedora Linux 36"
+msgstr "Fedora Linux 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:17
-#, fuzzy
-#| msgid "Fedora Workstation 36"
 msgid "Fedora Workstation 40"
-msgstr "Fedora Workstation 36"
+msgstr "Fedora Workstation 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:20
 #: data/os/fedoraproject.org/fedora-40.xml.in:23
-#, fuzzy
-#| msgid "Fedora Server 36"
 msgid "Fedora Server 40"
-msgstr "Fedora Server 36"
+msgstr "Fedora Server 40"
 
 #: data/os/fedoraproject.org/fedora-40.xml.in:26
-#, fuzzy
-#| msgid "Fedora Everything 36"
 msgid "Fedora Everything 40"
-msgstr "Fedora Everything 36"
+msgstr "Fedora Everything 40"
 
 #: data/os/fedoraproject.org/fedora-5.xml.in:6
 msgid "Fedora Core 5"
@@ -2626,10 +2576,8 @@ msgid "Fedora Silverblue 39"
 msgstr "Fedora Silverblue 39"
 
 #: data/os/fedoraproject.org/silverblue-40.xml.in:6
-#, fuzzy
-#| msgid "Fedora Silverblue 30"
 msgid "Fedora Silverblue 40"
-msgstr "Fedora Silverblue 30"
+msgstr "Fedora Silverblue 40"
 
 #: data/os/fedoraproject.org/silverblue-rawhide.xml.in:6
 msgid "Fedora Silverblue Rawhide"
@@ -2785,20 +2733,16 @@ msgid "FreeBSD 13.2"
 msgstr "FreeBSD 13.2"
 
 #: data/os/freebsd.org/freebsd-13.3.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 13.0"
 msgid "FreeBSD 13.3"
-msgstr "FreeBSD 13.0"
+msgstr "FreeBSD 13.3"
 
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
 msgid "FreeBSD 14.0"
 msgstr "FreeBSD 14.0"
 
 #: data/os/freebsd.org/freebsd-14.1.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 4.1"
 msgid "FreeBSD 14.1"
-msgstr "FreeBSD 4.1"
+msgstr "FreeBSD 14.1"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -3770,22 +3714,16 @@ msgid "NetBSD 1.6"
 msgstr "NetBSD 1.6"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 1.0"
 msgid "NetBSD 10.0"
-msgstr "NetBSD 1.0"
+msgstr "NetBSD 10.0"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 10.0 Network Install"
-msgstr "NetBSD 9.0 Network Install"
+msgstr "NetBSD 10.0 Network Install"
 
 #: data/os/netbsd.org/netbsd-10.0.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 10.0 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 Network Install (Konsol Serial)"
+msgstr "NetBSD 10.0 Network Install (Konsol Serial)"
 
 #: data/os/netbsd.org/netbsd-2.0.xml.in:6
 msgid "NetBSD 2.0"
@@ -3872,76 +3810,52 @@ msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgstr "NetBSD 9.0 Network Install (Konsol Serial)"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.1"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.1"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.1 Network Install"
 msgid "NetBSD 9.1 Network Install"
-msgstr "NetBSD 8.1 Network Install"
+msgstr "NetBSD 9.1 Network Install"
 
 #: data/os/netbsd.org/netbsd-9.1.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.1 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 Network Install (Konsol Serial)"
+msgstr "NetBSD 9.1 Network Install (Konsol Serial)"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.2"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.2"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 8.2 Network Install"
 msgid "NetBSD 9.2 Network Install"
-msgstr "NetBSD 8.2 Network Install"
+msgstr "NetBSD 9.2 Network Install"
 
 #: data/os/netbsd.org/netbsd-9.2.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 8.2 Network Install (Serial Console)"
 msgid "NetBSD 9.2 Network Install (Serial Console)"
-msgstr "NetBSD 8.2 Network Install (Konsol Serial)"
+msgstr "NetBSD 9.2 Network Install (Konsol Serial)"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.3"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.3"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 9.3 Network Install"
-msgstr "NetBSD 9.0 Network Install"
+msgstr "NetBSD 9.3 Network Install"
 
 #: data/os/netbsd.org/netbsd-9.3.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.3 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 Network Install (Konsol Serial)"
+msgstr "NetBSD 9.3 Network Install (Konsol Serial)"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:5
-#, fuzzy
-#| msgid "NetBSD 9.0"
 msgid "NetBSD 9.4"
-msgstr "NetBSD 9.0"
+msgstr "NetBSD 9.4"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:14
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install"
 msgid "NetBSD 9.4 Network Install"
-msgstr "NetBSD 9.0 Network Install"
+msgstr "NetBSD 9.4 Network Install"
 
 #: data/os/netbsd.org/netbsd-9.4.xml.in:17
-#, fuzzy
-#| msgid "NetBSD 9.0 Network Install (Serial Console)"
 msgid "NetBSD 9.4 Network Install (Serial Console)"
-msgstr "NetBSD 9.0 Network Install (Konsol Serial)"
+msgstr "NetBSD 9.4 Network Install (Konsol Serial)"
 
 #: data/os/nixos.org/nixos-20.03.xml.in:6
 msgid "NixOS 20.03"
@@ -4083,28 +3997,20 @@ msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "NixOS 23.11 (CD instalasi Plasma 5)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 24.05"
-msgstr "NixOS 21.05"
+msgstr "NixOS 24.05"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 24.05 (minimal installation CD)"
-msgstr "NixOS 21.05 (CD instalasi minimal)"
+msgstr "NixOS 24.05 (CD instalasi minimal)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (GNOME installation CD)"
 msgid "NixOS 24.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (CD instalasi GNOME)"
+msgstr "NixOS 24.05 (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 24.05 (Plasma 6 installation CD)"
-msgstr "NixOS 21.05 (CD instalasi Plasma 5)"
+msgstr "NixOS 24.05 (CD instalasi Plasma 6)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4119,10 +4025,8 @@ msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS Unstable (CD instalasi GNOME)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgid "NixOS Unstable (Plasma 6 installation CD)"
-msgstr "NixOS Unstable (CD instalasi Plasma 5)"
+msgstr "NixOS Unstable (CD instalasi Plasma 6)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
@@ -4341,10 +4245,8 @@ msgstr "OpenBSD 7.4"
 
 #: data/os/openbsd.org/openbsd-7.5.xml.in:6
 #: data/os/openbsd.org/openbsd-7.5.xml.in:18
-#, fuzzy
-#| msgid "OpenBSD 7.0"
 msgid "OpenBSD 7.5"
-msgstr "OpenBSD 7.0"
+msgstr "OpenBSD 7.5"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
 msgid "OpenIndiana Hipster"
@@ -4679,10 +4581,8 @@ msgid "Oracle Linux 8.1"
 msgstr "Oracle Linux 8.1"
 
 #: data/os/oracle.com/ol-8.10.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 8.1"
 msgid "Oracle Linux 8.10"
-msgstr "Oracle Linux 8.1"
+msgstr "Oracle Linux 8.10"
 
 #: data/os/oracle.com/ol-8.2.xml.in:5
 msgid "Oracle Linux 8.2"
@@ -4737,10 +4637,8 @@ msgid "Oracle Linux 9.3"
 msgstr "Oracle Linux 9.3"
 
 #: data/os/oracle.com/ol-9.4.xml.in:5
-#, fuzzy
-#| msgid "Oracle Linux 9.0"
 msgid "Oracle Linux 9.4"
-msgstr "Oracle Linux 9.0"
+msgstr "Oracle Linux 9.4"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
 msgid "Oracle Solaris 11"
@@ -4769,10 +4667,8 @@ msgid "PureOS 10 KDE"
 msgstr "PureOS 10 KDE"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 6 Unknown"
 msgid "Red Hat Enterprise Linux 10 Unknown"
-msgstr "Red Hat Enterprise Linux 6 Tak Diketahui"
+msgstr "Red Hat Enterprise Linux 10 Tak Dikenal"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:8
 #: data/os/redhat.com/rhel-10.0.xml.in:8 data/os/redhat.com/rhel-2.1.1.xml.in:8
@@ -4842,10 +4738,8 @@ msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-10.0.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 10.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat Enterprise Linux 10.0"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
@@ -5184,10 +5078,8 @@ msgid "Red Hat Enterprise Linux 9.4"
 msgstr "Red Hat Enterprise Linux 9.4"
 
 #: data/os/redhat.com/rhel-9.5.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 9.0"
 msgid "Red Hat Enterprise Linux 9.5"
-msgstr "Red Hat Enterprise Linux 9.0"
+msgstr "Red Hat Enterprise Linux 9.5"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
@@ -6083,10 +5975,8 @@ msgid "Ubuntu 24.04 LTS"
 msgstr "Ubuntu 24.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-24.10.xml.in:8
-#, fuzzy
-#| msgid "Ubuntu 4.10"
 msgid "Ubuntu 24.10"
-msgstr "Ubuntu 4.10"
+msgstr "Ubuntu 24.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
 msgid "Ubuntu 4.10"
