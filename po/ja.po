@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-08 16:36+0200\n"
+"POT-Creation-Date: 2024-09-12 08:50+0200\n"
 "PO-Revision-Date: 2021-04-05 14:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -2851,7 +2851,9 @@ msgstr "FreeBSD 1.0"
 #: data/os/freebsd.org/freebsd-13.0.xml.in:8
 #: data/os/freebsd.org/freebsd-13.1.xml.in:8
 #: data/os/freebsd.org/freebsd-13.2.xml.in:8
+#: data/os/freebsd.org/freebsd-13.3.xml.in:8
 #: data/os/freebsd.org/freebsd-14.0.xml.in:8
+#: data/os/freebsd.org/freebsd-14.1.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:8
 #: data/os/freebsd.org/freebsd-2.0.xml.in:8
 #: data/os/freebsd.org/freebsd-2.2.8.xml.in:8
@@ -2987,11 +2989,23 @@ msgstr "FreeBSD 1.0"
 msgid "FreeBSD 13.2"
 msgstr "FreeBSD 3.2"
 
+#: data/os/freebsd.org/freebsd-13.3.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 1.0"
+msgid "FreeBSD 13.3"
+msgstr "FreeBSD 1.0"
+
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
 #, fuzzy
 #| msgid "FreeBSD 1.0"
 msgid "FreeBSD 14.0"
 msgstr "FreeBSD 1.0"
+
+#: data/os/freebsd.org/freebsd-14.1.xml.in:6
+#, fuzzy
+#| msgid "FreeBSD 4.1"
+msgid "FreeBSD 14.1"
+msgstr "FreeBSD 4.1"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
