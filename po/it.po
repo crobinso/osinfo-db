@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 08:50+0200\n"
-"PO-Revision-Date: 2024-09-08 20:38+0000\n"
+"PO-Revision-Date: 2024-09-12 10:47+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -2733,20 +2733,16 @@ msgid "FreeBSD 13.2"
 msgstr "FreeBSD 13.2"
 
 #: data/os/freebsd.org/freebsd-13.3.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 13.0"
 msgid "FreeBSD 13.3"
-msgstr "FreeBSD 13.0"
+msgstr "FreeBSD 13.3"
 
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
 msgid "FreeBSD 14.0"
 msgstr "FreeBSD 14.0"
 
 #: data/os/freebsd.org/freebsd-14.1.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 4.1"
 msgid "FreeBSD 14.1"
-msgstr "FreeBSD 4.1"
+msgstr "FreeBSD 14.1"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
