@@ -91,27 +91,27 @@
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-amd64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-amd64.img</url>
     </image>
 
     <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-amd64.vmdk</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-amd64.vmdk</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-arm64.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-arm64.img</url>
     </image>
 
     <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-armhf.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-armhf.img</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-ppc64el.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-ppc64el.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/mantic/current/mantic-server-cloudimg-s390x.img</url>
+      <url>https://cloud-images.ubuntu.com/releases/mantic/release/ubuntu-23.10-server-cloudimg-s390x.img</url>
     </image>
 
     <installer>
