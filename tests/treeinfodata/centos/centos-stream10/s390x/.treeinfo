@@ -1,0 +1,67 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:4d0a43aa4548d8c5742cf179fbb145cd97ebb298ebb0c39c1cf0de23f331f7b4
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:1ba0b47a9795c5885e454abcb9db571ff0d4b8cb742563505b3381269ee5cc73
+images/initrd.img = sha256:16e8cf79debff1def4ae43e7c3b6ffdd1fb85402e03bdddba1799f4e0263ae8a
+images/install.img = sha256:e1967a7b0bba3c8221f3024d7b9aead2ca9a07e02c8d614fdd5b8f1a01033f49
+images/kernel.img = sha256:4e6b66e0390473abc5bfa575db213386e20d4529bd3df4c02c6d428609418585
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+arch = s390x
+family = CentOS Stream
+name = CentOS Stream 10
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1728999805
+variant = BaseOS
+variants = BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[release]
+name = CentOS Stream
+short = CentOS-Stream
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1728999805
+platforms = s390x
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/s390x/os/Packages
+repository = ../../../AppStream/s390x/os/
+type = variant
+uid = AppStream
+

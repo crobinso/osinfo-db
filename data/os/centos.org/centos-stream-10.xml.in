@@ -1,0 +1,213 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://centos.org/centos-stream/10">
+    <short-id>centos-stream10</short-id>
+    <name>CentOS Stream 10</name>
+    <version>10</version>
+    <vendor>CentOS</vendor>
+    <family>linux</family>
+    <distro>centos</distro>
+    <upgrades id="http://centos.org/centos-stream/9"/>
+
+    <release-status>rolling</release-status>
+
+    <devices>
+      <device id="http://pcisig.com/pci/1b36/0100"/> <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/2415"/> <!-- ac97 -->
+      <device id="http://usb.org/usb/80ee/0021"/> <!-- tablet -->
+      <device id="http://pcisig.com/pci/8086/2668"/> <!-- ich6 -->
+      <device id="http://pcisig.com/pci/1af4/1001"/> <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1003"/> <!-- virtio-console -->
+      <device id="http://pcisig.com/pci/1af4/1005"/> <!-- virtio-rng -->
+      <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0004"/> <!-- qemu-xhci -->
+      <device id="http://pcisig.com/pci/1af4/1041"/> <!-- virtio1.0-net -->
+      <device id="http://pcisig.com/pci/1af4/1042"/> <!-- virtio1.0-block -->
+      <device id="http://pcisig.com/pci/1af4/1043"/> <!-- virtio1.0-console -->
+      <device id="http://pcisig.com/pci/1af4/1044"/> <!-- virtio1.0-rng -->
+      <device id="http://pcisig.com/pci/1af4/1045"/> <!-- virtio1.0-balloon -->
+      <device id="http://pcisig.com/pci/1af4/1048"/> <!-- virtio1.0-scsi -->
+      <device id="http://pcisig.com/pci/1af4/1049"/> <!-- virtio1.0-9p -->
+      <device id="http://pcisig.com/pci/1af4/1052"/> <!-- virtio1.0-input -->
+      <device id="http://qemu.org/chipset/x86/q35"/> <!-- qemu-x86-q35 -->
+      <device id="http://pcisig.com/pci/8086/10d3"/> <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
+      <device id="http://pcisig.com/pci/1af4/1058"/> <!-- virtio1.0-mem -->
+    </devices>
+
+    <firmware arch="x86_64" type="efi"/>
+    <kernel-url-argument>inst.repo</kernel-url-argument>
+
+    <variant id="netinst">
+      <name>CentOS Stream 10</name>
+    </variant>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-x86_64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/aarch64/iso/CentOS-Stream-10-latest-aarch64-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/aarch64/iso/CentOS-Stream-10-latest-aarch64-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-aarch64</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="netinst"/>
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/ppc64le/iso/CentOS-Stream-10-latest-ppc64le-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="ppc64le">
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/ppc64le/iso/CentOS-Stream-10-latest-ppc64le-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <variant id="netinst"/>
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/s390x/iso/CentOS-Stream-10-latest-s390x-boot.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-s390x</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <media arch="s390x">
+      <url>https://mirror.stream.centos.org/10-stream/BaseOS/s390x/iso/CentOS-Stream-10-latest-s390x-dvd1.iso</url>
+      <iso>
+        <volume-id>CentOS-Stream-10-BaseOS-s390x</volume-id>
+      </iso>
+      <kernel>images/kernel.img</kernel>
+      <initrd>images/initrd.img</initrd>
+    </media>
+
+    <tree arch="x86_64">
+      <url>http://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^10$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>http://mirror.stream.centos.org/10-stream/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^10$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>http://mirror.stream.centos.org/10-stream/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^10$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>http://mirror.stream.centos.org/10-stream/BaseOS/s390x/os/</url>
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^10$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="all">
+      <treeinfo>
+        <family>CentOS Stream</family>
+        <version>^10$</version>
+      </treeinfo>
+    </tree>
+
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:10</url>
+    </image>
+
+    <image arch="aarch64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:10</url>
+    </image>
+
+    <image arch="s390x" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:10</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/10-stream/aarch64/images/CentOS-Stream-GenericCloud-10-latest.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/10-stream/ppc64le/images/CentOS-Stream-GenericCloud-10-latest.ppc64le.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/10-stream/s390x/images/CentOS-Stream-GenericCloud-10-latest.s390x.qcow2</url>
+    </image>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://cloud.centos.org/centos/10-stream/x86_64/images/CentOS-Stream-GenericCloud-10-latest.x86_64.qcow2</url>
+    </image>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>2000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>16106127360</storage>
+      </minimum>
+
+      <recommended>
+        <ram>4294967296</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+  </os>
+</libosinfo>

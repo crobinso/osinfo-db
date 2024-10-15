@@ -1,0 +1,63 @@
+[checksums]
+images/boot.iso = sha256:083bedeb91fce1ce8339e7821f9dafd40189e8e49b5cc6c303fbd0bcc67be89d
+images/eltorito.img = sha256:1e6300a1969f41a6d31fc0d8ddcd15cd2a18ef0251c87ff0a61537606ac8764a
+images/install.img = sha256:bc24338a041e9955786860263b80c51a4fb23d0b5ed09f0907bded63843ae101
+images/pxeboot/initrd.img = sha256:ac7b151683108ba1ac7d64e2acbe343349b3882786bf2edf6ec04c53e8f6ebe9
+images/pxeboot/vmlinuz = sha256:223694846707dec1b7ad366a8e81a9ddda0feb445bf0efb7f5cfe20d5e27b9c9
+
+[general]
+arch = x86_64
+family = CentOS Stream
+name = CentOS Stream 10
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1728999809
+variant = BaseOS
+variants = BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+eltorito.img = images/eltorito.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = CentOS Stream
+short = CentOS-Stream
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1728999809
+platforms = x86_64,xen
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os/
+type = variant
+uid = AppStream
+
