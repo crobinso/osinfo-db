@@ -5,6 +5,7 @@
   <os id="http://ubuntu.com/ubuntu/24.10">
     <short-id>ubuntu24.10</short-id>
     <short-id>ubuntuoracular</short-id>
+    <short-id>ubuntu-stable-latest</short-id>
     <name>Ubuntu 24.10</name>
     <version>24.10</version>
     <vendor>Canonical Ltd</vendor>
@@ -14,7 +15,8 @@
     <upgrades id="http://ubuntu.com/ubuntu/24.04"/>
     <derives-from id="http://ubuntu.com/ubuntu/24.04"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2024-10-10</release-date>
+    <eol-date>2025-07-10</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -42,7 +44,7 @@
     -->
 
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/daily-live/current/oracular-desktop-amd64.iso</url>
+      <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -50,7 +52,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-amd64.iso</url>
+      <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -58,7 +60,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-arm64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
@@ -66,7 +68,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/oracular-live-server-ppc64el.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
@@ -74,7 +76,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/pending/oracular-live-server-s390x.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/oracular/release/ubuntu-24.10-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>

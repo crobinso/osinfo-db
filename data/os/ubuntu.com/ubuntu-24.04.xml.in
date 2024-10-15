@@ -6,7 +6,6 @@
     <short-id>ubuntu24.04</short-id>
     <short-id>ubuntunoble</short-id>
     <short-id>ubuntu-lts-latest</short-id>
-    <short-id>ubuntu-stable-latest</short-id>
     <name>Ubuntu 24.04 LTS</name>
     <version>24.04</version>
     <vendor>Canonical Ltd</vendor>
