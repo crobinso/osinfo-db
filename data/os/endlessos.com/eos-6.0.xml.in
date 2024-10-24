@@ -24,7 +24,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="base"/>
-      <url>https://images-dl.endlessm.com/release/6.0.3/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.240911-142514.base.iso</url>
+      <url>https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/base/eos-eos6.0-amd64-amd64.241023-183516.base.iso</url>
       <iso>
         <volume-id>Endless-OS-6-0-\d+-base$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -37,7 +37,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="en"/>
-      <url>https://images-dl.endlessm.com/release/6.0.3/eos-amd64-amd64/en/eos-eos6.0-amd64-amd64.240911-142524.en.iso</url>
+      <url>https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/en/eos-eos6.0-amd64-amd64.241023-200926.en.iso</url>
       <iso>
         <volume-id>Endless-OS-6-0-\d+-en$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -50,7 +50,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="es"/>
-      <url>https://images-dl.endlessm.com/release/6.0.3/eos-amd64-amd64/es/eos-eos6.0-amd64-amd64.240911-143650.es.iso</url>
+      <url>https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/es/eos-eos6.0-amd64-amd64.241023-184649.es.iso</url>
       <iso>
         <volume-id>Endless-OS-6-0-\d+-es$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -63,7 +63,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="fr"/>
-      <url>https://images-dl.endlessm.com/release/6.0.3/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.240911-145631.fr.iso</url>
+      <url>https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/fr/eos-eos6.0-amd64-amd64.241023-191212.fr.iso</url>
       <iso>
         <volume-id>Endless-OS-6-0-\d+-fr$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
@@ -76,7 +76,7 @@
 
     <media arch="x86_64" live="true">
       <variant id="pt_BR"/>
-      <url>https://images-dl.endlessm.com/release/6.0.3/eos-amd64-amd64/pt_BR/eos-eos6.0-amd64-amd64.240911-154529.pt_BR.iso</url>
+      <url>https://images-dl.endlessm.com/release/6.0.4/eos-amd64-amd64/pt_BR/eos-eos6.0-amd64-amd64.241023-191427.pt_BR.iso</url>
       <iso>
         <volume-id>Endless-OS-6-0-\d+-pt_BR$</volume-id>
         <publisher-id>ENDLESS OS FOUNDATION LLC</publisher-id>
