@@ -74,7 +74,9 @@ def personality_name(personality):
     # Without appending .UTF-8, these come out as (eg):
     #   Portuguese (Brazil) [ISO-8859-1]
     personality_as_locale = f"{personality}.UTF-8"
-    locale_name = GnomeDesktop.get_language_from_locale(personality_as_locale, "en_US")
+    locale_name = GnomeDesktop.get_language_from_locale(
+        personality_as_locale, "en_US.UTF-8"
+    )
     if locale_name:
         # TODO: consider using the same API to generate translations from
         # "Endless OS Portuguese (Brazil)" to "Endless OS Portugais (Brésil)". At
