@@ -13,9 +13,9 @@ gitlab:
 targets:
   almalinux-9: x86_64
 
-  alpine-318: x86_64
-
   alpine-319: x86_64
+
+  alpine-320: x86_64
 
   alpine-edge: x86_64
 
