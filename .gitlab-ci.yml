@@ -57,6 +57,25 @@ stages:
         rpmbuild --nodeps --define "_without_mingw 1" --define "_sourcedir $PWD" -ba osinfo-db.spec;
       fi
 
+urlcheck:
+  image: python:latest
+  stage: sanity_checks
+  needs: []
+  before_script:
+    - apt-get update
+    - apt-get -y install gettext
+    - pip install pytest-xdist lxml requests
+  script:
+    - make -j$(nproc) data
+    # Overcommit 'nproc' because much of the time we'll
+    # be waiting on network I/O, and not CPU bound
+    - pytest -v -n $(expr $(nproc) '*' 4) tests/test_urls.py
+  rules:
+    - if: '$OSINFO_CI_CHECK_URLS'
+      when: on_success
+    - when: never
+
+
 # Going against our usual naming convention for jobs using prebuilt containers
 # here as we'll be consuming the job artifacts via a direct URL which includes
 # the GitLab job name, so let's go with a more convenient name

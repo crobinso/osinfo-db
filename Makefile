@@ -63,6 +63,9 @@ install: $(ARCHIVE)
 rpm: osinfo-db.spec $(ARCHIVE)
 	rpmbuild --define "_sourcedir `pwd`" -ba osinfo-db.spec
 
+data: $(DATA_FILES)
+
+schema: $(SCHEMA_FILES)
 
 %.xml: %.xml.in Makefile $(PO_FILES)
 	@mkdir -p `dirname $@`
@@ -72,7 +75,7 @@ rpm: osinfo-db.spec $(ARCHIVE)
 	@mkdir -p `dirname $@`
 	$(V_GEN) $(SED) -e "s/@VERSION@/$(TODAY)/" < $< > $@
 
-$(ARCHIVE): $(DATA_FILES) $(SCHEMA_FILES)
+$(ARCHIVE): data schema
 	$(V_EXP) $(OSINFO_DB_EXPORT) --license $(VPATH)/COPYING --version "$(TODAY)" --dir data $(ARCHIVE)
 
 clean:
