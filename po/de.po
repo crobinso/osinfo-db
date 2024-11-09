@@ -4,7 +4,7 @@
 #
 # Translators:
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023, 2024.
 # Philipp Hahn <pmhahn+fedora@pmhahn.de>, 2022.
 # Flo H <emailtoflorian@gmail.com>, 2022.
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2023-04-30 00:21+0000\n"
+"PO-Revision-Date: 2024-11-09 20:38+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -145,10 +145,8 @@ msgid "virtio1.0-input"
 msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-1058.d/class.xml.in:5
-#, fuzzy
-#| msgid "virtio1.0-net"
 msgid "virtio1.0-mem"
-msgstr "virtio1.0-net"
+msgstr "virtio1.0-mem"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
@@ -461,94 +459,64 @@ msgid "Alpinelinux 3.17 Xen"
 msgstr "Alpinelinux 3.17 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.8"
 msgid "Alpine Linux 3.18"
-msgstr "Alpine Linux 3.8"
+msgstr "Alpine Linux 3.18"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Standard"
 msgid "Alpinelinux 3.18 Standard"
-msgstr "Alpinelinux 3.8 Standard"
+msgstr "Alpinelinux 3.18 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Extended"
 msgid "Alpinelinux 3.18 Extended"
-msgstr "Alpinelinux 3.8 Extended"
+msgstr "Alpinelinux 3.18 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Virtual"
 msgid "Alpinelinux 3.18 Virtual"
-msgstr "Alpinelinux 3.8 Virtual"
+msgstr "Alpinelinux 3.18 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.18.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.8 Xen"
 msgid "Alpinelinux 3.18 Xen"
-msgstr "Alpinelinux 3.8 Xen"
+msgstr "Alpinelinux 3.18 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.9"
 msgid "Alpine Linux 3.19"
-msgstr "Alpine Linux 3.9"
+msgstr "Alpine Linux 3.19"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Standard"
 msgid "Alpinelinux 3.19 Standard"
-msgstr "Alpinelinux 3.9 Standard"
+msgstr "Alpinelinux 3.19 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Extended"
 msgid "Alpinelinux 3.19 Extended"
-msgstr "Alpinelinux 3.9 Extended"
+msgstr "Alpinelinux 3.19 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Virtual"
 msgid "Alpinelinux 3.19 Virtual"
-msgstr "Alpinelinux 3.9 Virtual"
+msgstr "Alpinelinux 3.19 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.19.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.9 Xen"
 msgid "Alpinelinux 3.19 Xen"
-msgstr "Alpinelinux 3.9 Xen"
+msgstr "Alpinelinux 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.20"
-msgstr "Alpine Linux 3.10"
+msgstr "Alpine Linux 3.20"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.20 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.20 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.20 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.20 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.20 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.20 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.20 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.20 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
