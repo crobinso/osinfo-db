@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2024-05-15 15:36+0000\n"
+"PO-Revision-Date: 2024-10-16 08:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/uk/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -146,10 +146,8 @@ msgid "virtio1.0-input"
 msgstr "virtio1.0-input"
 
 #: data/device/pcisig.com/pci-1af4-1058.d/class.xml.in:5
-#, fuzzy
-#| msgid "virtio1.0-net"
 msgid "virtio1.0-mem"
-msgstr "virtio1.0-net"
+msgstr "virtio1.0-mem"
 
 #: data/device/pcisig.com/pci-1af4-105a.d/class.xml.in:5
 msgid "virtio1.0-fs"
@@ -502,34 +500,24 @@ msgid "Alpinelinux 3.19 Xen"
 msgstr "Alpinelinux 3.19 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:7
-#, fuzzy
-#| msgid "Alpine Linux 3.10"
 msgid "Alpine Linux 3.20"
-msgstr "Alpine Linux 3.10"
+msgstr "Alpine Linux 3.20"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:34
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Standard"
 msgid "Alpinelinux 3.20 Standard"
-msgstr "Alpinelinux 3.10 Standard"
+msgstr "Alpinelinux 3.20 Standard"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:37
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Extended"
 msgid "Alpinelinux 3.20 Extended"
-msgstr "Alpinelinux 3.10 Extended"
+msgstr "Alpinelinux 3.20 Extended"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:40
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Virtual"
 msgid "Alpinelinux 3.20 Virtual"
-msgstr "Alpinelinux 3.10 Virtual"
+msgstr "Alpinelinux 3.20 Virtual"
 
 #: data/os/alpinelinux.org/alpinelinux-3.20.xml.in:43
-#, fuzzy
-#| msgid "Alpinelinux 3.10 Xen"
 msgid "Alpinelinux 3.20 Xen"
-msgstr "Alpinelinux 3.10 Xen"
+msgstr "Alpinelinux 3.20 Xen"
 
 #: data/os/alpinelinux.org/alpinelinux-3.5.xml.in:6
 msgid "Alpine Linux 3.5"
@@ -675,82 +663,56 @@ msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "ALT 10.0"
+msgstr "ALT 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education Live 10.1"
 msgid "ALT Education Live 10.2"
-msgstr "ALT Education Live 10.1"
+msgstr "ALT Education Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply Live 10.1"
 msgid "ALT Simply Live 10.2"
-msgstr "ALT Simply Live 10.1"
+msgstr "ALT Simply Live 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "ALT 10.0"
+msgstr "ALT 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.3"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.3"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.3"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -904,10 +866,8 @@ msgid "ALT p10 StarterKits"
 msgstr "ALT p10 StarterKits"
 
 #: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p10 StarterKits"
 msgid "ALT p11 StarterKits"
-msgstr "ALT p10 StarterKits"
+msgstr "ALT p11 StarterKits"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
@@ -1036,16 +996,12 @@ msgid "Arch Linux"
 msgstr "Arch Linux"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:16
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (basic)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (базова)"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:19
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (cloud)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (хмарна)"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
@@ -2789,20 +2745,16 @@ msgid "FreeBSD 13.2"
 msgstr "FreeBSD 13.2"
 
 #: data/os/freebsd.org/freebsd-13.3.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 13.0"
 msgid "FreeBSD 13.3"
-msgstr "FreeBSD 13.0"
+msgstr "FreeBSD 13.3"
 
 #: data/os/freebsd.org/freebsd-14.0.xml.in:6
 msgid "FreeBSD 14.0"
 msgstr "FreeBSD 14.0"
 
 #: data/os/freebsd.org/freebsd-14.1.xml.in:6
-#, fuzzy
-#| msgid "FreeBSD 4.1"
 msgid "FreeBSD 14.1"
-msgstr "FreeBSD 4.1"
+msgstr "FreeBSD 14.1"
 
 #: data/os/freebsd.org/freebsd-2.0.5.xml.in:6
 msgid "FreeBSD 2.0.5"
@@ -3173,10 +3125,8 @@ msgid "Generic Linux 2022"
 msgstr "Типовий Linux 2022"
 
 #: data/os/libosinfo.org/linux-2024.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2024"
-msgstr "Типовий Linux 2020"
+msgstr "Типовий Linux 2024"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
@@ -4064,28 +4014,20 @@ msgid "NixOS 23.11 (Plasma 5 installation CD)"
 msgstr "NixOS 23.11 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:6
-#, fuzzy
-#| msgid "NixOS 21.05"
 msgid "NixOS 24.05"
-msgstr "NixOS 21.05"
+msgstr "NixOS 24.05"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:30
-#, fuzzy
-#| msgid "NixOS 21.05 (minimal installation CD)"
 msgid "NixOS 24.05 (minimal installation CD)"
-msgstr "NixOS 21.05 (мінімальний КД для встановлення)"
+msgstr "NixOS 24.05 (мінімальний КД для встановлення)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:33
-#, fuzzy
-#| msgid "NixOS 21.05 (GNOME installation CD)"
 msgid "NixOS 24.05 (GNOME installation CD)"
-msgstr "NixOS 21.05 (КД для встановлення з GNOME)"
+msgstr "NixOS 24.05 (КД для встановлення з GNOME)"
 
 #: data/os/nixos.org/nixos-24.05.xml.in:36
-#, fuzzy
-#| msgid "NixOS 21.05 (Plasma 5 installation CD)"
 msgid "NixOS 24.05 (Plasma 6 installation CD)"
-msgstr "NixOS 21.05 (КД для встановлення з Плазмою 5)"
+msgstr "NixOS 24.05 (КД для встановлення з Плазмою 5)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:6
 msgid "NixOS Unstable"
@@ -4100,10 +4042,8 @@ msgid "NixOS Unstable (GNOME installation CD)"
 msgstr "NixOS нестабільна (КД з GNOME для встановлення)"
 
 #: data/os/nixos.org/nixos-unstable.xml.in:33
-#, fuzzy
-#| msgid "NixOS Unstable (Plasma 5 installation CD)"
 msgid "NixOS Unstable (Plasma 6 installation CD)"
-msgstr "NixOS нестабільна (КД для встановлення з Плазмою 5)"
+msgstr "NixOS нестабільна (КД для встановлення з Плазмою 6)"
 
 #: data/os/novell.com/netware-4.xml.in:6
 msgid "Novell Netware 4"
@@ -4744,10 +4684,8 @@ msgid "PureOS 10 KDE"
 msgstr "PureOS 10 KDE"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 6 Unknown"
 msgid "Red Hat Enterprise Linux 10 Unknown"
-msgstr "Red Hat Enterprise Linux 6 невідома"
+msgstr "Red Hat Enterprise Linux 10 невідома"
 
 #: data/os/redhat.com/rhel-10-unknown.xml.in:8
 #: data/os/redhat.com/rhel-10.0.xml.in:8 data/os/redhat.com/rhel-2.1.1.xml.in:8
@@ -4817,10 +4755,8 @@ msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
 
 #: data/os/redhat.com/rhel-10.0.xml.in:6
-#, fuzzy
-#| msgid "Red Hat Enterprise Linux 4.0"
 msgid "Red Hat Enterprise Linux 10.0"
-msgstr "Red Hat Enterprise Linux 4.0"
+msgstr "Red Hat Enterprise Linux 10.0"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
