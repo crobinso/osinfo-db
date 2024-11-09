@@ -16,6 +16,15 @@
     <variant id="netinst">
       <name>openSUSE Leap 15.5</name>
     </variant>
+    <variant id="gnome">
+      <name>openSUSE Leap 15.5 (GNOME)</name>
+    </variant>
+    <variant id="kde">
+      <name>openSUSE Leap 15.5 (KDE)</name>
+    </variant>
+    <variant id="xfce">
+      <name>openSUSE Leap 15.5 (XFCE)</name>
+    </variant>
 
     <!-- DVD -->
     <media arch="x86_64">
@@ -119,6 +128,7 @@
 
     <!-- Live GNOME -->
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="gnome"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-GNOME-Live-x86_64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_GNOME_Live</volume-id>
@@ -130,6 +140,7 @@
 
     <!-- Live GNOME -->
     <media arch="aarch64" live="true" installer-script="false">
+      <variant id="gnome"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-GNOME-Live-aarch64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_GNOME_Live</volume-id>
@@ -141,6 +152,7 @@
 
     <!-- Live KDE -->
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="kde"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-KDE-Live-x86_64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_KDE_Live</volume-id>
@@ -152,6 +164,7 @@
 
     <!-- Live KDE -->
     <media arch="aarch64" live="true" installer-script="false">
+      <variant id="kde"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-KDE-Live-aarch64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_KDE_Live</volume-id>
@@ -163,6 +176,7 @@
 
     <!-- Live XFCE -->
     <media arch="x86_64" live="true" installer-script="false">
+      <variant id="xfce"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-XFCE-Live-x86_64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_XFCE_Live</volume-id>
@@ -174,6 +188,7 @@
 
     <!-- Live XFCE -->
     <media arch="aarch64" live="true" installer-script="false">
+      <variant id="xfce"/>
       <url>https://download.opensuse.org/distribution/leap/15.5/live/openSUSE-Leap-15.5-XFCE-Live-aarch64-Media.iso</url>
       <iso>
         <volume-id>openSUSE_Leap_15.5_XFCE_Live</volume-id>
