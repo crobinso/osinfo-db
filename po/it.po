@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2024-09-12 10:47+0000\n"
+"PO-Revision-Date: 2024-10-15 11:38+0000\n"
 "Last-Translator: Pino Toscano <toscano.pino@tiscali.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/it/>\n"
@@ -992,16 +992,12 @@ msgid "Arch Linux"
 msgstr "Arch Linux"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:16
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (basic)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (base)"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:19
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (cloud)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (cloud)"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
@@ -3125,10 +3121,8 @@ msgid "Generic Linux 2022"
 msgstr "Linux generico del 2022"
 
 #: data/os/libosinfo.org/linux-2024.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2024"
-msgstr "Linux generico del 2020"
+msgstr "Linux generico del 2024"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
