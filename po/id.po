@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2024-09-13 14:38+0000\n"
+"PO-Revision-Date: 2024-10-16 08:38+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/id/>\n"
@@ -992,16 +992,12 @@ msgid "Arch Linux"
 msgstr "Arch Linux"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:16
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (basic)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (dasar)"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:19
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (cloud)"
-msgstr "Arch Linux"
+msgstr "Arch Linux (cloud)"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
@@ -1375,11 +1371,11 @@ msgstr "Debian 12"
 
 #: data/os/debian.org/debian-12.xml.in:40
 msgid "Debian 12 (Generic)"
-msgstr "Debian 12 (Generic)"
+msgstr "Debian 12 (Generik)"
 
 #: data/os/debian.org/debian-12.xml.in:43
 msgid "Debian 12 (Generic Cloud)"
-msgstr "Debian 12 (Generic Cloud)"
+msgstr "Debian 12 (Cloud Generik)"
 
 #: data/os/debian.org/debian-12.xml.in:46
 msgid "Debian 12 (No Cloud)"
@@ -3101,7 +3097,7 @@ msgstr "Hypetalking 03"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:7
 msgid "Generic Linux 2016"
-msgstr "Generic Linux 2016"
+msgstr "Linux Generik 2016"
 
 #: data/os/libosinfo.org/linux-2016.xml.in:9
 #: data/os/libosinfo.org/linux-2018.xml.in:9
@@ -3114,21 +3110,19 @@ msgstr "Libosinfo"
 
 #: data/os/libosinfo.org/linux-2018.xml.in:7
 msgid "Generic Linux 2018"
-msgstr "Generic Linux 2018"
+msgstr "Linux Generik 2018"
 
 #: data/os/libosinfo.org/linux-2020.xml.in:7
 msgid "Generic Linux 2020"
-msgstr "Generic Linux 2020"
+msgstr "Linux Generik 2020"
 
 #: data/os/libosinfo.org/linux-2022.xml.in:7
 msgid "Generic Linux 2022"
-msgstr "Generic Linux 2022"
+msgstr "Linux Generik 2022"
 
 #: data/os/libosinfo.org/linux-2024.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2024"
-msgstr "Generic Linux 2020"
+msgstr "Linux Generik 2024"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
