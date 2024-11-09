@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 08:50+0200\n"
+"POT-Creation-Date: 2024-10-15 06:59+0200\n"
 "PO-Revision-Date: 2024-09-13 05:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
@@ -255,25 +255,25 @@ msgid "AlmaLinux 8 MATE"
 msgstr "알마리눅스 8 메이트"
 
 #: data/os/almalinux.org/almalinux-9.xml.in:7
-#: data/os/almalinux.org/almalinux-9.xml.in:16
-#: data/os/almalinux.org/almalinux-9.xml.in:20
-#: data/os/almalinux.org/almalinux-9.xml.in:24
+#: data/os/almalinux.org/almalinux-9.xml.in:17
+#: data/os/almalinux.org/almalinux-9.xml.in:21
+#: data/os/almalinux.org/almalinux-9.xml.in:25
 msgid "AlmaLinux 9"
 msgstr "알마리눅스 9"
 
-#: data/os/almalinux.org/almalinux-9.xml.in:28
+#: data/os/almalinux.org/almalinux-9.xml.in:29
 msgid "AlmaLinux 9 GNOME"
 msgstr "알마리눅스 9 그놈"
 
-#: data/os/almalinux.org/almalinux-9.xml.in:32
+#: data/os/almalinux.org/almalinux-9.xml.in:33
 msgid "AlmaLinux 9 GNOME Mini"
 msgstr "알마리눅스 9 그놈 미니"
 
-#: data/os/almalinux.org/almalinux-9.xml.in:36
+#: data/os/almalinux.org/almalinux-9.xml.in:37
 msgid "AlmaLinux 9 KDE"
 msgstr "알마리눅스 9 KDE"
 
-#: data/os/almalinux.org/almalinux-9.xml.in:40
+#: data/os/almalinux.org/almalinux-9.xml.in:41
 msgid "AlmaLinux 9 XFCE"
 msgstr "알마리눅스 9 XFCE"
 
@@ -990,6 +990,18 @@ msgstr "MacOS X 라이언"
 #: data/os/archlinux.org/archlinux-rolling.xml.in:6
 #: data/os/archlinux.org/archlinux-rolling.xml.in:7
 msgid "Arch Linux"
+msgstr "아치리눅스"
+
+#: data/os/archlinux.org/archlinux-rolling.xml.in:16
+#, fuzzy
+#| msgid "Arch Linux"
+msgid "Arch Linux (basic)"
+msgstr "아치리눅스"
+
+#: data/os/archlinux.org/archlinux-rolling.xml.in:19
+#, fuzzy
+#| msgid "Arch Linux"
+msgid "Arch Linux (cloud)"
 msgstr "아치리눅스"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
@@ -3096,6 +3108,7 @@ msgstr "제너릭 리눅스 2016"
 #: data/os/libosinfo.org/linux-2018.xml.in:9
 #: data/os/libosinfo.org/linux-2020.xml.in:9
 #: data/os/libosinfo.org/linux-2022.xml.in:9
+#: data/os/libosinfo.org/linux-2024.xml.in:9
 #: data/os/libosinfo.org/unknown.xml.in:8
 msgid "Libosinfo"
 msgstr "libosinfo"
@@ -3111,6 +3124,12 @@ msgstr "제너릭 리눅스 2020"
 #: data/os/libosinfo.org/linux-2022.xml.in:7
 msgid "Generic Linux 2022"
 msgstr "제너릭 리눅스 2022"
+
+#: data/os/libosinfo.org/linux-2024.xml.in:7
+#, fuzzy
+#| msgid "Generic Linux 2020"
+msgid "Generic Linux 2024"
+msgstr "제너릭 리눅스 2020"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
