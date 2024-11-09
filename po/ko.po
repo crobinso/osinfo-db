@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2024-09-13 05:38+0000\n"
+"PO-Revision-Date: 2024-10-16 15:41+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ko/>\n"
@@ -993,16 +993,12 @@ msgid "Arch Linux"
 msgstr "아치리눅스"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:16
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (basic)"
-msgstr "아치리눅스"
+msgstr "아치리눅스 (기본)"
 
 #: data/os/archlinux.org/archlinux-rolling.xml.in:19
-#, fuzzy
-#| msgid "Arch Linux"
 msgid "Arch Linux (cloud)"
-msgstr "아치리눅스"
+msgstr "아치리눅스 (클라우드)"
 
 #: data/os/asianux.com/asianux-4.6.xml.in:6
 msgid "Asianux Server 4 SP6"
@@ -3126,10 +3122,8 @@ msgid "Generic Linux 2022"
 msgstr "제너릭 리눅스 2022"
 
 #: data/os/libosinfo.org/linux-2024.xml.in:7
-#, fuzzy
-#| msgid "Generic Linux 2020"
 msgid "Generic Linux 2024"
-msgstr "제너릭 리눅스 2020"
+msgstr "제너릭 리눅스 2024"
 
 #: data/os/libosinfo.org/unknown.xml.in:7
 msgid "Unknown"
