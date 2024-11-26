@@ -14,19 +14,21 @@
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>anolis-8-x86_64-.*</volume-id>
+        <volume-id>anolis-8-x86_64-dvd</volume-id>
+        <volume-size>10840109056</volume-size>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz-4.19.91-26.an8.x86_64</kernel>
+      <initrd>images/pxeboot/initrd-4.19.91-26.an8.x86_64.img</initrd>
     </media>
 
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>anolis-8-aarch64-.*</volume-id>
+        <volume-id>anolis-8-aarch64-dvd</volume-id>
+        <volume-size>8856154112</volume-size>
       </iso>
-      <kernel>images/pxeboot/vmlinuz</kernel>
-      <initrd>images/pxeboot/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz-4.19.91-26.an8.aarch64</kernel>
+      <initrd>images/pxeboot/initrd-4.19.91-26.an8.aarch64.img</initrd>
     </media>
 
   </os>
