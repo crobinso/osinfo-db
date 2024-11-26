@@ -166,6 +166,14 @@
       <url>docker://quay.io/containerdisks/centos-stream:9</url>
     </image>
 
+    <image arch="aarch64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:9</url>
+    </image>
+
+    <image arch="s390x" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/centos-stream:9</url>
+    </image>
+
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <url>https://cloud.centos.org/centos/9-stream/aarch64/images/CentOS-Stream-GenericCloud-9-latest.aarch64.qcow2</url>
     </image>
