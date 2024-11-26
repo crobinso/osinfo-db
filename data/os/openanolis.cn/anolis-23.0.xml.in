@@ -1,21 +1,21 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://openanolis.cn/anolis/8.2">
-    <short-id>anolis8.2</short-id>
-    <name>Anolis OS 8.2</name>
-    <version>8.2</version>
+  <os id="http://openanolis.cn/anolis/23.0">
+    <short-id>anolis23.0</short-id>
+    <name>Anolis OS 23.0</name>
+    <version>23.0</version>
     <vendor>OpenAnolis Community</vendor>
     <family>linux</family>
     <distro>anolis</distro>
-    <upgrades id="http://openanolis.cn/anolis/7.9"/>
-    <derives-from id="http://redhat.com/rhel/8.2"/>
+    <upgrades id="http://openanolis.cn/anolis/8.9"/>
+    <derives-from id="http://openanolis.cn/anolis/8.9"/>
 
     <media arch="x86_64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>anolis-BaseOS-dvd-x86_64-8</volume-id>
-        <volume-size>7636011008</volume-size>
+        <volume-id>anolis-23-x86_64-dvd</volume-id>
+        <volume-size>15390390272</volume-size>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
@@ -24,8 +24,8 @@
     <media arch="aarch64">
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>anolis-BaseOS-dvd-aarch64-8</volume-id>
-        <volume-size>6295482368</volume-size>
+        <volume-id>anolis-23-aarch64-dvd</volume-id>
+        <volume-size>14407219200</volume-size>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>

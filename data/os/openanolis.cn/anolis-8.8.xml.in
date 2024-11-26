@@ -1,0 +1,45 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://openanolis.cn/anolis/8.8">
+    <short-id>anolis8.8</short-id>
+    <name>Anolis OS 8.8</name>
+    <version>8.8</version>
+    <vendor>OpenAnolis Community</vendor>
+    <family>linux</family>
+    <distro>anolis</distro>
+    <upgrades id="http://openanolis.cn/anolis/8.6"/>
+    <derives-from id="http://openanolis.cn/anolis/8.6"/>
+
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-8-x86_64-dvd</volume-id>
+        <volume-size>16041287680</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz-5.10.134-13.an8.x86_64</kernel>
+      <initrd>images/pxeboot/initrd-5.10.134-13.an8.x86_64.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-8-aarch64-dvd</volume-id>
+        <volume-size>13308964864</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz-5.10.134-13.an8.aarch64</kernel>
+      <initrd>images/pxeboot/initrd-5.10.134-13.an8.aarch64.img</initrd>
+    </media>
+
+    <media arch="loongarch64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>anolis-8-loongarch64-dvd</volume-id>
+        <volume-size>8032514048</volume-size>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+
+  </os>
+</libosinfo>
