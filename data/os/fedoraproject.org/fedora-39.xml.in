@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/38"/>
 
     <release-date>2023-11-07</release-date>
+    <eol-date>2024-11-26</eol-date>
 
     <variant id="workstation">
       <name>Fedora Workstation 39</name>
