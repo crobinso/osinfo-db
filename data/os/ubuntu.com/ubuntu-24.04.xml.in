@@ -119,5 +119,18 @@
     <image arch="s390x" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-s390x.img</url>
     </image>
+
+    <image arch="x86_64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
+    </image>
+
+    <image arch="aarch64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
+    </image>
+
+    <image arch="s390x" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
+    </image>
+
   </os>
 </libosinfo>

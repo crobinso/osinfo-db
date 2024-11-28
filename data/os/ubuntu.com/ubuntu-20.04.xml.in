@@ -135,6 +135,13 @@
       <url>docker://quay.io/containerdisks/ubuntu:20.04</url>
     </image>
 
+    <image arch="aarch64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:20.04</url>
+    </image>
+
+    <image arch="s390x" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/ubuntu:20.04</url>
+    </image>
 
     <installer>
       <script id='http://ubuntu.com/ubuntu/preseed/desktop'/>
