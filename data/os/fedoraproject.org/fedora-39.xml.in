@@ -240,6 +240,14 @@
       <url>docker://quay.io/containerdisks/fedora:39</url>
     </image>
 
+    <image arch="aarch64" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/fedora:39</url>
+    </image>
+
+    <image arch="s390x" format="containerdisk" cloud-init="true">
+      <url>docker://quay.io/containerdisks/fedora:39</url>
+    </image>
+
     <!-- No install media or tree is provided for Fedora 39 Cloud variant -->
 
     <resources arch="all">
