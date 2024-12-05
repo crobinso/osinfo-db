@@ -1,0 +1,62 @@
+[checksums]
+images/efiboot.img = sha256:9686b958f4653f3ec390be22c09319b619c499bfd8b85027669987f616945c12
+images/install.img = sha256:f3fabc91335325aaa2aa775fdb3c07f03828bc140dd2e55d8b61dcf470eb18fe
+images/pxeboot/initrd.img = sha256:d5a033dd5925cd19060eb7ee53f6676f430424946ee1ad872887d9e5561129b3
+images/pxeboot/vmlinuz = sha256:d0aadb2e9c88bda8af61d2a324ddf7bed0abd22dc742d0b816b147e61f253625
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = aarch64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.5
+packagedir = AppStream/Packages
+platforms = aarch64
+repository = AppStream
+timestamp = 1728462152
+variant = AppStream
+variants = AppStream,BaseOS
+version = 9.5
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.5
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1728462152
+platforms = aarch64
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = AppStream/Packages
+repository = AppStream
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = BaseOS/Packages
+repository = BaseOS
+type = variant
+uid = BaseOS

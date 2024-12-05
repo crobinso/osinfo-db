@@ -1,0 +1,60 @@
+[checksums]
+images/install.img = sha256:95224e00bf120da50c008acce768198d64b42f271006670f46a4f74dd5cb7d71
+ppc/ppc64/initrd.img = sha256:e892f1dfd016be20c8ed00cae55c5fe9c08f0e7edf880a7eecdd395085516557
+ppc/ppc64/vmlinuz = sha256:0ec4e5290bfe5a62d979d8f4dfb5559b63baf0384e7c9c8074b5f2ce745588a4
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = ppc64le
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.5
+packagedir = AppStream/Packages
+platforms = ppc64le
+repository = AppStream
+timestamp = 1728462160
+variant = AppStream
+variants = AppStream,BaseOS
+version = 9.5
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.5
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1728462160
+platforms = ppc64le
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = AppStream/Packages
+repository = AppStream
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = BaseOS/Packages
+repository = BaseOS
+type = variant
+uid = BaseOS

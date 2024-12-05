@@ -1,0 +1,70 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:c7587ea028f4513de044f7d1cf0409f85219fe1838b25cc800c0a680118400fb
+images/initrd.img = sha256:21aee53aefafdf052c8b6dc4a864bf9b6978d367439bd7f5d6ca87f56b23e1f2
+images/install.img = sha256:8ba8b67dbcb6a92596008fd5b19dc2596fbeabdcc5c3e5c611b57b96c368d06a
+images/kernel.img = sha256:ab5efaa3b640ae1d37cef6080c19d376b9d6da5675ff99a8357fdf384310674d
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = s390x
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.5
+packagedir = AppStream/Packages
+platforms = s390x
+repository = AppStream
+timestamp = 1728462168
+variant = AppStream
+variants = AppStream,BaseOS
+version = 9.5
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[media]
+discnum = 1
+totaldiscs = 1
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.5
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1728462168
+platforms = s390x
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = AppStream/Packages
+repository = AppStream
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = BaseOS/Packages
+repository = BaseOS
+type = variant
+uid = BaseOS
