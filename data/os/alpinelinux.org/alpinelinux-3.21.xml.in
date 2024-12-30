@@ -46,7 +46,7 @@
     <!-- Standard Installer !-->
     <media arch="aarch64">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/v3.21/releases/aarch64/alpine-standard-3.21.0_rc2-aarch64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/v3.21/releases/aarch64/alpine-standard-3.21.0-aarch64.iso</url>
       <iso>
         <volume-id>alpine-std 3\.21.* aarch64$</volume-id>
       </iso>
