@@ -1,0 +1,63 @@
+[checksums]
+images/boot.iso = sha256:cd6e303213ca8b4d5f02cf011dcc78a34c5c4031f3bdfeb153f0ab22c101a9f4
+images/eltorito.img = sha256:1e6300a1969f41a6d31fc0d8ddcd15cd2a18ef0251c87ff0a61537606ac8764a
+images/install.img = sha256:8238983651e1899b9457ce0aa9785d8ca009718edebb591524bfdd77a5a77d0c
+images/pxeboot/initrd.img = sha256:75e7025d589050a1ced443a6a3b1e751481aef5fa6953330e383e6cc99798f40
+images/pxeboot/vmlinuz = sha256:9a424f941824fcc2aaf43cb32a93d8aa669a4f59ddbd2127b246d377921086c3
+
+[general]
+arch = x86_64
+family = AlmaLinux Kitten
+name = AlmaLinux Kitten 10
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1729239966
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+eltorito.img = images/eltorito.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = AlmaLinux Kitten
+short = AlmaLinux-Kitten
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1729239966
+platforms = x86_64,xen
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:5f57c9ff14f4eac1d4039508bc95e87aea302bbcc92e23d7426fecfbae5a9426
+images/install.img = sha256:b37a5fad29bb189b718b0f0d20f071e4e6fc519b7f2ab968a76a0bde31682596
+ppc/ppc64/initrd.img = sha256:399cdf0235423b02d83f536ad6a8d62fa0c04098f5adfef022a9758454657ad4
+ppc/ppc64/vmlinuz = sha256:1fe808d2c5ea2ac2ba50ba7fffc427c210d09cedf8a9382d8bfeb3c3d6c7b378
+
+[general]
+arch = ppc64le
+family = AlmaLinux Kitten
+name = AlmaLinux Kitten 10
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1729240560
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = AlmaLinux Kitten
+short = AlmaLinux-Kitten
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1729240560
+platforms = ppc64le
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/ppc64le/os/Packages
+repository = ../../../AppStream/ppc64le/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

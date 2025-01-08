@@ -1,0 +1,67 @@
+[checksums]
+generic.ins = sha256:5cec11a6b533034428c25f044e9572bbc2276f1695b982defdd648c77390befc
+images/boot.iso = sha256:128d90bc6ad483805714f379e79ffa65463f6dce53c06a3355761056ae635296
+images/generic.prm = sha256:6d7d39ca02fede8936e949f9ee7d810b9f63d5dd29ea751f327a33c7295f1841
+images/genericdvd.prm = sha256:9c935789d9c28894184f812b6cca28b3ce756d1ff5c80fc04b09158258e10bc6
+images/initrd.addrsize = sha256:3c05d47b6d332b7e8adf5ace464fa9821c3077b94504eb91de055d38d15da6bb
+images/initrd.img = sha256:58f173c8cdd9b58a31c1f15da9eeef849f5b19989ffa16524f505d2f691d8820
+images/install.img = sha256:aeeb72e3d90089c1f38a50b21e10a17405f74a0bb799ad02f8cdff4da276f439
+images/kernel.img = sha256:20e1a101db385c29f0a6198a7a530dc23b30ef605ac327daa68a0aefaa7b7951
+images/redhat.exec = sha256:d5bf1365b0dfb711fce6aa806ebe403dcb485538f5839aaf53c6136b072f3dff
+
+[general]
+arch = s390x
+family = AlmaLinux Kitten
+name = AlmaLinux Kitten 10
+packagedir = Packages
+platforms = s390x
+repository = .
+timestamp = 1729240464
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-s390x]
+boot.iso = images/boot.iso
+generic.ins = generic.ins
+generic.prm = images/generic.prm
+genericdvd.prm = images/genericdvd.prm
+initrd = images/initrd.img
+initrd.addrsize = images/initrd.addrsize
+kernel = images/kernel.img
+redhat.exec = images/redhat.exec
+
+[release]
+name = AlmaLinux Kitten
+short = AlmaLinux-Kitten
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = s390x
+build_timestamp = 1729240464
+platforms = s390x
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/s390x/os/Packages
+repository = ../../../AppStream/s390x/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
