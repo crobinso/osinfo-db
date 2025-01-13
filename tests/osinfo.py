@@ -379,6 +379,9 @@ class Device(_XMLBase):
         root = ET.parse(self.path.open("r")).getroot().find("device")
         super().__init__(root)
 
+    def __repr__(self):
+        return "<%s path=%s>" % (self.__class__.__name__, self.path)
+
     @_cache_property
     def internal_id(self):
         return self._root.attrib["id"]
