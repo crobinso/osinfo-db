@@ -36,6 +36,12 @@ ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
 PYTHON = python3
 
+HAS_XDIST = $(shell pytest -V -V | grep xdist >/dev/null && echo 1)
+
+MAKE_JOBS = $(shell echo $$MAKEFLAGS |  sed -e 's/ /\n/g' | grep -- '^-j' | sed -e 's/-j//')
+
+PYTEST_FLAGS = $(if $(MAKE_JOBS),$(if $(HAS_XDIST),-n $(MAKE_JOBS),),)
+
 V = 0
 
 V_I18N = $(V_I18N_$(V))
@@ -96,4 +102,4 @@ update-po:
         done
 
 check: $(DATA_FILES) $(SCHEMA_FILES)
-	INTERNAL_OSINFO_DB_DATA_DIR=data INTERNAL_OSINFO_DB_DATA_SRC_DIR=$(ABS_TOPDIR)data $(PYTHON) -m pytest $(ABS_TOPDIR)tests
+	INTERNAL_OSINFO_DB_DATA_DIR=data INTERNAL_OSINFO_DB_DATA_SRC_DIR=$(ABS_TOPDIR)data $(PYTHON) -m pytest $(PYTEST_FLAGS) $(ABS_TOPDIR)tests
