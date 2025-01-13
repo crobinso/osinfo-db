@@ -214,7 +214,7 @@ def _shortid_ids_cb(xml):
 
 
 def _filename_ids_cb(xml):
-    return _generic_ids_cb(xml, "filename")
+    return _generic_ids_cb(xml, "path")
 
 
 def os_parametrize(argname, **kwargs):
