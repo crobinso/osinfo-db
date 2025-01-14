@@ -168,7 +168,7 @@
       <variant id="gnome"/>
       <url>https://repo.almalinux.org/almalinux/8/live/x86_64/AlmaLinux-8-latest-x86_64-Live-GNOME.iso</url>
       <iso>
-        <volume-id>AlmaLinux-8(-|\.)([3-9]|[1-9][0-9])-x86_64-Live-GNOME</volume-id>
+        <volume-id>AlmaLinux-8(-|_|\.)([3-9]|[1-9][0-9])-x86_64-Live-GNOME</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
@@ -178,7 +178,7 @@
       <variant id="gnome-mini"/>
       <url>https://repo.almalinux.org/almalinux/8/live/x86_64/AlmaLinux-8-latest-x86_64-Live-GNOME-Mini.iso</url>
       <iso>
-        <volume-id>AlmaLinux-8(-|\.)([3-9]|[1-9][0-9])-x86_64-Live-Mini</volume-id>
+        <volume-id>AlmaLinux-8(-|_|\.)([3-9]|[1-9][0-9])-x86_64-Live-Mini</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
@@ -188,7 +188,7 @@
       <variant id="kde"/>
       <url>https://repo.almalinux.org/almalinux/8/live/x86_64/AlmaLinux-8-latest-x86_64-Live-KDE.iso</url>
       <iso>
-        <volume-id>AlmaLinux-8(-|\.)([3-9]|[1-9][0-9])-x86_64-Live-KDE</volume-id>
+        <volume-id>AlmaLinux-8(-|_|\.)([3-9]|[1-9][0-9])-x86_64-Live-KDE</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
@@ -198,7 +198,7 @@
       <variant id="xfce"/>
       <url>https://repo.almalinux.org/almalinux/8/live/x86_64/AlmaLinux-8-latest-x86_64-Live-XFCE.iso</url>
       <iso>
-        <volume-id>AlmaLinux-8(-|\.)([3-9]|[1-9][0-9])-x86_64-Live-XFCE</volume-id>
+        <volume-id>AlmaLinux-8(-|_|\.)([3-9]|[1-9][0-9])-x86_64-Live-XFCE</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
@@ -208,7 +208,7 @@
       <variant id="mate"/>
       <url>https://repo.almalinux.org/almalinux/8/live/x86_64/AlmaLinux-8-latest-x86_64-Live-MATE.iso</url>
       <iso>
-        <volume-id>AlmaLinux-8(-|\.)([3-9]|[1-9][0-9])-x86_64-Live-MATE</volume-id>
+        <volume-id>AlmaLinux-8(-|_|\.)([3-9]|[1-9][0-9])-x86_64-Live-MATE</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
