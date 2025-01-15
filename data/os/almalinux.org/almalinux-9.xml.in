@@ -41,6 +41,10 @@
       <name>AlmaLinux 9 XFCE</name>
     </variant>
 
+    <variant id="mate">
+      <name>AlmaLinux 9 MATE</name>
+    </variant>
+
     <media arch="x86_64">
       <variant id="netinst"/>
       <url>https://repo.almalinux.org/almalinux/9/isos/x86_64/AlmaLinux-9-latest-x86_64-boot.iso</url>
@@ -196,6 +200,16 @@
       <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-XFCE.iso</url>
       <iso>
         <volume-id>AlmaLinux-9(-|_|\.)([0-9]|[1-9][0-9])-x86_64-Live-XFCE</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="mate"/>
+      <url>https://repo.almalinux.org/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-MATE.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-9(-|_|\.)([0-9]|[1-9][0-9])-x86_64-Live-MATE</volume-id>
       </iso>
         <initrd>isolinux/initrd.img</initrd>
         <kernel>isolinux/vmlinuz</kernel>
