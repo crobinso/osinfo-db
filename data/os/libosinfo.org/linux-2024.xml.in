@@ -15,14 +15,5 @@
 
     <resources arch='all' inherit='true'/>
 
-    <!-- ubuntu 24.04, which we inherit from, has virtio1.0-gpu
-         explicitly disabled, due to an apparent bug on ubuntu side
-         from 22.04 timeframe.
-
-         However virtio-gpu has been working in similar distros for years.
-         So we explicitly enable it for this generic entry. -->
-    <devices>
-      <device id="http://pcisig.com/pci/1af4/1050" supported="true"/> <!-- virtio1.0-gpu -->
-    </devices>
   </os>
 </libosinfo>
