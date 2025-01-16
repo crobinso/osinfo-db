@@ -38,6 +38,9 @@
     <variant id="server">
       <name>Ubuntu Server 24.04 LTS</name>
     </variant>
+    <variant id="edubuntu">
+      <name>Edubuntu 24.04 LTS</name>
+    </variant>
 
     <!-- installer-script limitations
             Live media runs with the new subiquity installer.
@@ -94,6 +97,16 @@
       </iso>
       <kernel>boot/kernel.ubuntu</kernel>
       <initrd>boot/initrd.ubuntu</initrd>
+    </media>
+
+    <media arch="x86_64" live="true" installer-script="false">
+      <variant id="edubuntu"/>
+      <url>https://cdimage.ubuntu.com/edubuntu/releases/noble/release/edubuntu-24.04.1-desktop-amd64.iso</url>
+      <iso>
+        <volume-id>Edubuntu 24.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
