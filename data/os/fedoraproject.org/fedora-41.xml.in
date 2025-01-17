@@ -224,15 +224,15 @@
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/41/Cloud/x86_64/images/Fedora-Cloud-Base-Generic.x86_64-41-1.4.qcow2</url>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/41/Cloud/x86_64/images/Fedora-Cloud-Base-Generic-41-1.4.x86_64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/41/Cloud/aarch64/images/Fedora-Cloud-Base-Generic.aarch64-41-1.4.qcow2</url>
+      <url>https://download.fedoraproject.org/pub/fedora/linux/releases/41/Cloud/aarch64/images/Fedora-Cloud-Base-Generic-41-1.4.aarch64.qcow2</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Cloud/s390x/images/Fedora-Cloud-Base-Generic.s390x-41-1.4.qcow2</url>
+      <url>https://download.fedoraproject.org/pub/fedora-secondary/releases/41/Cloud/s390x/images/Fedora-Cloud-Base-Generic-41-1.4.s390x.qcow2</url>
     </image>
 
     <image arch="x86_64" format="containerdisk" cloud-init="true">
