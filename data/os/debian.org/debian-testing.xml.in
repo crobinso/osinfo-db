@@ -31,6 +31,9 @@
     <variant id="universal-netinst">
       <name>Debian testing</name>
     </variant>
+    <variant id="live">
+      <name>Debian testing (Live)</name>
+    </variant>
 
     <media arch="x86_64">
       <variant id="universal-netinst"/>
@@ -66,6 +69,17 @@
       </iso>
       <kernel>install.386/vmlinuz</kernel>
       <initrd>install.386/initrd.gz</initrd>
+    </media>
+
+    <!-- Live -->
+    <media arch="x86_64" live="true">
+      <variant id="live"/>
+      <url>https://get.debian.org/images/weekly-live-builds/amd64/iso-hybrid/debian-live-testing-amd64-gnome.iso</url>
+      <iso>
+        <volume-id>d-live testing .. amd64</volume-id>
+      </iso>
+      <kernel>install/gtk/vmlinuz</kernel>
+      <initrd>install/gtk/initrd.gz</initrd>
     </media>
 
     <tree arch="x86_64">
