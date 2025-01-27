@@ -45,6 +45,9 @@
     <variant id="nocloud">
       <name>Debian 12 (No Cloud)</name>
     </variant>
+    <variant id="live">
+      <name>Debian 12 (Live)</name>
+    </variant>
 
 
     <!-- Network installer -->
@@ -157,6 +160,17 @@
       </iso>
       <kernel>boot/linux_vm</kernel>
       <initrd>boot/root.bin</initrd>
+    </media>
+
+    <!-- Live -->
+    <media arch="x86_64" live="true">
+      <variant id="live"/>
+      <url>https://cdimage.debian.org/cdimage/release/12.10.0-live/amd64/iso-hybrid/debian-live-12.10.0-amd64-gnome.iso</url>
+      <iso>
+        <volume-id>d-live 12\.\d+\.\d+ .. amd64</volume-id>
+      </iso>
+      <kernel>install/gtk/vmlinuz</kernel>
+      <initrd>install/gtk/initrd.gz</initrd>
     </media>
 
     <tree arch="x86_64">
