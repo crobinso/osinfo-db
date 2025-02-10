@@ -51,13 +51,13 @@
 
     <media arch="i686">
       <iso>
-        <volume-id>Gentoo x86 \d{8}T\d{6}Z</volume-id>
+        <volume-id>Gentoo( |-)x86( |-)\d{8}(T\d{6}Z)?</volume-id>
       </iso>
     </media>
 
     <media arch="x86_64">
       <iso>
-        <volume-id>Gentoo amd64 \d{8}T\d{6}Z</volume-id>
+        <volume-id>Gentoo( |-)amd64( |-)\d{8}(T\d{6}Z)?</volume-id>
       </iso>
     </media>
   </os>
