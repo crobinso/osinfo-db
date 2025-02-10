@@ -60,5 +60,11 @@
         <volume-id>Gentoo( |-)amd64( |-)\d{8}(T\d{6}Z)?</volume-id>
       </iso>
     </media>
+
+    <media arch="x86_64" live="true">
+      <iso>
+        <volume-id>gentoo-amd64-livegui</volume-id>
+      </iso>
+    </media>
   </os>
 </libosinfo>
