@@ -63,7 +63,7 @@ def _main():
 
     osxml = None
     for o in tests.util.DataFiles.oses():
-        if o.shortid == options.shortid:
+        if o.distro and o.shortid == options.shortid:
             osxml = o
             break
     if not osxml:
