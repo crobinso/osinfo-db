@@ -13,8 +13,18 @@
 
     <release-date>2021-10-05</release-date>
 
+    <firmware arch="aarch64" type="efi"/>
     <firmware arch="x86_64" type="efi"/>
     <firmware arch="x86_64" type="bios" supported="false"/>
+
+    <!-- No Variant -->
+    <media arch="aarch64" installer-reboots="2">
+      <iso>
+        <volume-id>^(J_)?(CCSN?A|C?CCOMA)_A64FRE?_</volume-id>
+        <publisher-id>MICROSOFT CORPORATION</publisher-id>
+        <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
+      </iso>
+    </media>
 
     <!-- No Variant -->
     <media arch="x86_64" installer-reboots="2">
@@ -24,6 +34,15 @@
         <l10n-language regex="true" l10n-language-map="http://microsoft.com/win/8/l10n-language">[A-Z0-9_]*_([A-Z]*-[A-Z]*)</l10n-language>
       </iso>
     </media>
+
+    <resources arch="aarch64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>2</n-cpus>
+        <ram>4294967296</ram>
+        <storage>68719476736</storage>
+      </minimum>
+    </resources>
 
     <resources arch="x86_64">
       <minimum>
