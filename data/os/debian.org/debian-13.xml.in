@@ -83,6 +83,15 @@
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
+    <media arch="riscv64">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/trixie_di_alpha1/riscv64/iso-cd/debian-trixie-DI-alpha1-riscv64-netinst.iso</url>
+      <iso>
+        <volume-id>Debian trixie-DI-a\d+ riscv64 n</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
     <media arch="s390x">
       <variant id="universal-netinst"/>
       <url>https://cdimage.debian.org/cdimage/trixie_di_alpha1/s390x/iso-cd/debian-trixie-DI-alpha1-s390x-netinst.iso</url>
@@ -130,6 +139,15 @@
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
+    <media arch="riscv64">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/trixie_di_alpha1/riscv64/iso-dvd/debian-trixie-DI-alpha1-riscv64-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian trixie-DI-a\d+ riscv64 \d+</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
     <media arch="s390x">
       <variant id="universal"/>
       <url>https://cdimage.debian.org/cdimage/trixie_di_alpha1/s390x/iso-dvd/debian-trixie-DI-alpha1-s390x-DVD-1.iso</url>
@@ -160,15 +178,20 @@
       <kernel>current/images/netboot/vmlinuz</kernel>
       <initrd>current/images/netboot/initrd.gz</initrd>
     </tree>
-    <tree arch="s390x">
-      <url>http://deb.debian.org/debian/dists/trixie/main/installer-s390x</url>
-      <kernel>current/images/generic/kernel.debian</kernel>
-      <initrd>current/images/generic/initrd.debian</initrd>
-    </tree>
     <tree arch="ppc64le">
       <url>http://deb.debian.org/debian/dists/trixie/main/installer-ppc64el</url>
       <kernel>current/images/netboot/debian-installer/ppc64el/vmlinux</kernel>
       <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
+    </tree>
+    <tree arch="riscv64">
+      <url>http://deb.debian.org/debian/dists/trixie/main/installer-riscv64</url>
+      <kernel>current/images/generic/kernel.debian</kernel>
+      <initrd>current/images/generic/initrd.debian</initrd>
+    </tree>
+    <tree arch="s390x">
+      <url>http://deb.debian.org/debian/dists/trixie/main/installer-s390x</url>
+      <kernel>current/images/generic/kernel.debian</kernel>
+      <initrd>current/images/generic/initrd.debian</initrd>
     </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
