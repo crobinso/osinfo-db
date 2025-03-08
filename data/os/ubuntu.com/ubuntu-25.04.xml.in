@@ -96,6 +96,15 @@
       <kernel>casper/vmlinux</kernel>
       <initrd>casper/initrd</initrd>
     </media>
+    <media arch="riscv64" live="true" installer-script="false">
+      <variant id="server"/>
+      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/plucky-live-server-riscv64.iso</url>
+      <iso>
+        <volume-id>Ubuntu-Server 25.04(.\d\+?)?(.\d\+?)? riscv</volume-id>
+      </iso>
+      <kernel>casper/vmlinux</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
     <media arch="s390x" live="true" installer-script="false">
       <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/plucky-live-server-s390x.iso</url>
@@ -130,6 +139,10 @@
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/plucky/current/plucky-server-cloudimg-ppc64el.img</url>
+    </image>
+
+    <image arch="riscv64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/plucky/current/plucky-server-cloudimg-riscv64.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">

@@ -125,6 +125,10 @@
       <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-ppc64el.img</url>
     </image>
 
+    <image arch="riscv64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-riscv64.img</url>
+    </image>
+
     <image arch="s390x" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/oracular/current/oracular-server-cloudimg-s390x.img</url>
     </image>

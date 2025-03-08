@@ -122,6 +122,10 @@
       <url>https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-ppc64el.img</url>
     </image>
 
+    <image arch="riscv64" format="qcow2" cloud-init="true">
+      <url>https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-riscv64.img</url>
+    </image>
+
     <image arch="s390x" format="qcow2" cloud-init="true">
       <url>https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-s390x.img</url>
     </image>
