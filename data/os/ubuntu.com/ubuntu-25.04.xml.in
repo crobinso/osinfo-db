@@ -70,6 +70,15 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
+      <variant id="desktop"/>
+      <url>https://cdimage.ubuntu.com/daily-live/current/plucky-desktop-arm64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 25.04(.\d\+?)?(.\d\+?)? arm64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="aarch64" live="true" installer-script="false">
       <variant id="server"/>
       <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/plucky-live-server-arm64.iso</url>
       <iso>
