@@ -1,51 +1,56 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://redhat.com/rhel/9-unknown">
-    <short-id>rhel9-unknown</short-id>
-    <name>Red Hat Enterprise Linux 9 Unknown</name>
-    <version>9-unknown</version>
+  <os id="http://redhat.com/rhel/9.6">
+    <short-id>rhel9.6</short-id>
+    <name>Red Hat Enterprise Linux 9.6</name>
+    <version>9.6</version>
     <vendor>Red Hat, Inc</vendor>
     <family>linux</family>
     <distro>rhel</distro>
     <codename>Plow</codename>
-    <upgrades id="http://redhat.com/rhel/9.6"/>
-    <derives-from id="http://redhat.com/rhel/9.6"/>
+    <upgrades id="http://redhat.com/rhel/9.5"/>
+    <derives-from id="http://redhat.com/rhel/9.5"/>
+
+    <release-status>prerelease</release-status>
+
+    <!-- RHEL 9.6 entries have to cope both with 9.6 and 9.6.x regexes for
+         medias' volume-id and trees' version -->
 
     <media arch="x86_64">
       <iso>
-        <volume-id>.*RHEL-9-([7-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
+        <volume-id>RHEL-9-6-(([0-9]|[1-9][0-9])-)?BaseOS-x86_64</volume-id>
       </iso>
       <kernel>isolinux/vmlinuz</kernel>
       <initrd>isolinux/initrd.img</initrd>
     </media>
 
+    <media arch="ppc64le">
+      <iso>
+        <volume-id>RHEL[_-]9[_-]6[_-](([0-9]|[1-9][0-9])[_-])?BaseOS[_-]ppc64le</volume-id>
+      </iso>
+      <kernel>ppc/ppc64/vmlinuz</kernel>
+      <initrd>ppc/ppc64/initrd.img</initrd>
+    </media>
+
     <media arch="aarch64">
-       <iso>
-         <volume-id>RHEL-9-([7-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*aarch64$</volume-id>
-       </iso>
+      <iso>
+        <volume-id>RHEL-9-6-(([0-9]|[1-9][0-9])-)?BaseOS-aarch64</volume-id>
+      </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
-     </media>
-
-    <media arch="ppc64le">
-       <iso>
-         <volume-id>RHEL[_-]9[_-]([7-9]|[1-9][0-9])([_-]([0-9]|[1-9][0-9]))?.*ppc64le$</volume-id>
-       </iso>
-       <kernel>ppc/ppc64/vmlinuz</kernel>
-       <initrd>ppc/ppc64/initrd.img</initrd>
-     </media>
+    </media>
 
     <media arch="s390x">
-       <iso>
-         <volume-id>RHEL-9-([7-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*s390x$</volume-id>
-       </iso>
-     </media>
+      <iso>
+        <volume-id>RHEL-9-6-(([0-9]|[1-9][0-9])-)?BaseOS-s390x</volume-id>
+      </iso>
+    </media>
 
     <tree arch="aarch64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^9.([7-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?$</version>
+        <version>^9.6(.([0-9]|[1-9][0-9]))?$</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
@@ -53,7 +58,7 @@
     <tree arch="ppc64le">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^9.([7-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <version>^9.6(.([0-9]|[1-9][0-9]))?$</version>
         <arch>ppc64le</arch>
       </treeinfo>
     </tree>
@@ -61,7 +66,7 @@
     <tree arch="s390x">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^9.([7-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <version>^9.6(.([0-9]|[1-9][0-9]))?$</version>
         <arch>s390x</arch>
       </treeinfo>
     </tree>
@@ -69,7 +74,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Red Hat Enterprise Linux</family>
-        <version>^9.([7-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <version>^9.6(.([0-9]|[1-9][0-9]))?$</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
