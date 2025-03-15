@@ -1,13 +1,13 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://guix.gnu.org/guix/1.1">
-    <short-id>guix-1.1</short-id>
-    <name>Guix 1.1</name>
+  <os id="http://guix.gnu.org/guix-system/1.1">
+    <short-id>guix-system-1.1</short-id>
+    <name>Guix System 1.1</name>
     <version>1.1</version>
-    <vendor>Guix Contributors</vendor>
+    <vendor>GNU Guix</vendor>
     <family>linux</family>
-    <distro>guix</distro>
+    <distro>guix-system</distro>
 
     <release-date>2020-04-15</release-date>
 

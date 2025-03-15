@@ -1,15 +1,15 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://guix.gnu.org/guix/latest">
-    <short-id>guix-latest</short-id>
-    <name>Guix latest</name>
-    <vendor>Guix Contributors</vendor>
+  <os id="http://guix.gnu.org/guix-system/latest">
+    <short-id>guix-system-latest</short-id>
+    <name>Guix System (latest)</name>
+    <vendor>GNU Guix</vendor>
     <family>linux</family>
-    <distro>guix</distro>
+    <distro>guix-system</distro>
 
-    <upgrades id="http://guix.gnu.org/guix/1.3"/>
-    <derives-from id="http://guix.gnu.org/guix/1.3"/>
+    <upgrades id="http://guix.gnu.org/guix-system/1.3"/>
+    <derives-from id="http://guix.gnu.org/guix-system/1.3"/>
 
     <media arch="x86_64">
       <iso>
