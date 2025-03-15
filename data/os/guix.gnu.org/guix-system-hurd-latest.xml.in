@@ -18,16 +18,6 @@
       <variant id="qcow2"/>
     </image>
 
-    <resources arch="all">
-      <minimum>
-        <ram>536870912</ram>
-        <storage>4294967296</storage>
-      </minimum>
-
-      <recommended>
-        <ram>2147483648</ram>
-        <storage>21474836480</storage>
-      </recommended>
-    </resources>
+    <resources arch='all' inherit='true'/>
   </os>
 </libosinfo>
