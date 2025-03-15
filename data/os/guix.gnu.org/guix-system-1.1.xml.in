@@ -58,6 +58,9 @@
       <initrd>gnu/store/33mpn6f0hy4m73m4isd5lg83qxwclld8-raw-initrd/initrd.cpio.gz</initrd>
     </media>
 
+    <image arch="x86_64" format="qcow2">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-vm-image-1.1.0.x86_64-linux.xz</url>
+    </image>
 
     <resources arch="all">
       <minimum>

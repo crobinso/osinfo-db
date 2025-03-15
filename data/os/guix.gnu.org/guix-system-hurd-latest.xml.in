@@ -3,19 +3,15 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://guix.gnu.org/guix-system/hurd-latest">
     <short-id>guix-system-hurd-latest</short-id>
-    <name>Guix System Hurd (Latest)</name>
+    <name>Guix System on GNU Hurd (latest)</name>
     <vendor>GNU Guix</vendor>
     <family>hurd</family>
     <distro>guix-system</distro>
     <upgrades id="http://guix.gnu.org/guix-system/1.4"/>
     <derives-from id="http://guix.gnu.org/guix-system/1.4"/>
 
-    <variant id="qcow2">
-      <name>Guix System GNU Hurd QCOW2</name>
-    </variant>
-
     <image arch="x86_64" format="qcow2">
-      <variant id="qcow2"/>
+      <url>https://ci.guix.gnu.org/search/latest/image?query=spec:images+status:success+system:x86_64-linux+hurd-barebones.qcow2</url>
     </image>
 
     <resources arch='all' inherit='true'/>

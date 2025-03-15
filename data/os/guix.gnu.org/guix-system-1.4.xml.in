@@ -26,6 +26,10 @@
       </iso>
     </media>
 
+    <image arch="x86_64" format="qcow2">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-vm-image-1.4.0.x86_64-linux.qcow2</url>
+    </image>
+
     <resources arch='all' inherit='true'/>
   </os>
 </libosinfo>
