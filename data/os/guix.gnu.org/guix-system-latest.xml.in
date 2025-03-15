@@ -7,8 +7,8 @@
     <vendor>GNU Guix</vendor>
     <family>linux</family>
     <distro>guix-system</distro>
-    <upgrades id="http://guix.gnu.org/guix-system/1.3"/>
-    <derives-from id="http://guix.gnu.org/guix-system/1.3"/>
+    <upgrades id="http://guix.gnu.org/guix-system/1.4"/>
+    <derives-from id="http://guix.gnu.org/guix-system/1.4"/>
 
     <media arch="x86_64" installer="true">
       <iso>

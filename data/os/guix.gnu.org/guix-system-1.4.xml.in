@@ -1,0 +1,31 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://guix.gnu.org/guix-system/1.4">
+    <short-id>guix-system-1.4</short-id>
+    <name>Guix System 1.4</name>
+    <version>1.4</version>
+    <vendor>GNU Guix</vendor>
+    <family>linux</family>
+    <distro>guix-system</distro>
+    <upgrades id="http://guix.gnu.org/guix-system/1.3"/>
+    <derives-from id="http://guix.gnu.org/guix-system/1.3"/>
+    <release-date>2022-12-18</release-date>
+
+    <media arch="i686" installer="true">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.4.0.i686-linux.iso</url>
+      <iso>
+        <volume-id>GUIX_I686-LINUX_1.4.0</volume-id>
+      </iso>
+    </media>
+
+    <media arch="x86_64" installer="true">
+      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.4.0.x86_64-linux.iso</url>
+      <iso>
+        <volume-id>GUIX_X86_64-LINUX_1.4.0</volume-id>
+      </iso>
+    </media>
+
+    <resources arch='all' inherit='true'/>
+  </os>
+</libosinfo>
