@@ -11,6 +11,9 @@
 
     <release-date>2020-04-15</release-date>
 
+    <firmware arch="aarch64" type="efi"/>
+    <firmware arch="x86_64" type="efi"/>
+
     <devices>
       <device id="http://pcisig.com/pci/1033/0194"/> <!-- nec-xhci -->
       <device id="http://pcisig.com/pci/1af4/1000"/> <!-- virtio-net -->
