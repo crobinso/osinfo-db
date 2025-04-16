@@ -11,6 +11,6 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 789722
+Volume size is: 727547
 NO Joliet present
 Rock Ridge signatures version 1 found
