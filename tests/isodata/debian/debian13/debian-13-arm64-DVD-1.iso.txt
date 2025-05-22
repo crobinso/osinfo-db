@@ -1,6 +1,6 @@
 CD-ROM is in ISO 9660 format
 System id: 
-Volume id: Debian trixie-DI-a1 arm64 1
+Volume id: Debian trixie-DI-rc1 arm64 1
 Volume set id: 
 Publisher id: 
 Data preparer id: XORRISO-1.5.2 2019.10.26.180001, LIBISOBURN-1.5.2, LIBISOFS-1.5.2, LIBBURN-1.5.2
@@ -11,8 +11,8 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1933312
-El Torito VD version 1 found, boot catalog is in sector 5588
+Volume size is: 1949696
+El Torito VD version 1 found, boot catalog is in sector 5557
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
@@ -26,4 +26,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 1DA0
-        Bootoff 15D5 5589
+        Bootoff 15B6 5558
