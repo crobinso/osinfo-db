@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:f06ce9bfce7565404afe7a71326a6cc23349ca6115329f378eb9a372f265ad80
+images/efiboot.img = sha256:2bcb7abfb21a56c04d11b44f9688963919ab08140d2323d7ea22f1953a3bf180
+images/install.img = sha256:7dde06f6d6bab26b48eec519252ee44d6c8a56235c69e659dfd8323b5d173bd9
+images/pxeboot/initrd.img = sha256:7d2aa1f0eaf9877ba5fd6ec985fa9d89231eb6a88ab7735d6d2fad4449cea7ce
+images/pxeboot/vmlinuz = sha256:30b628bf0cb03e80c8e9b0185d9a265a0ef710a9b106b2a2305d08f00df90bc9
+
+[general]
+arch = aarch64
+family = AlmaLinux
+name = AlmaLinux 10
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1748159810
+variant = BaseOS
+variants = AppStream,BaseOS
+version = 10
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = AlmaLinux
+short = AlmaLinux
+version = 10
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1748159810
+platforms = aarch64
+variants = AppStream,BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os
+type = variant
+uid = AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

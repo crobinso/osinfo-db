@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://almalinux.org/almalinux/10">
+
+    <vendor>AlmaLinux OS Foundation</vendor>
+    <name>AlmaLinux 10</name>
+    <short-id>almalinux10</short-id>
+    <version>10</version>
+    <codename>Purple Lion</codename>
+    <family>linux</family>
+    <distro>almalinux</distro>
+
+    <release-date>2025-05-27</release-date>
+
+    <upgrades id="http://almalinux.org/almalinux/9"/>
+    <clones id="http://redhat.com/rhel/10-unknown"/>
+
+    <variant id="netinst">
+      <name>AlmaLinux 10</name>
+    </variant>
+
+    <variant id="minimal">
+      <name>AlmaLinux 10</name>
+    </variant>
+
+    <variant id="dvd">
+      <name>AlmaLinux 10</name>
+    </variant>
+
+    <resources arch="x86_64">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="aarch64">
+      <minimum>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>256</n-cpus>
+        <ram>1649267441664</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="ppc64le">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>4000000000</cpu>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>35184372088832</ram>
+      </maximum>
+    </resources>
+
+    <resources arch="s390x">
+      <minimum>
+        <ram>1073741824</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <storage>21474836480</storage>
+      </recommended>
+
+      <maximum>
+        <n-cpus>340</n-cpus>
+        <ram>17592186044416</ram>
+      </maximum>
+
+      <network-install>
+        <ram>2147483648</ram>
+      </network-install>
+    </resources>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <media arch="x86_64">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-boot.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/aarch64/AlmaLinux-10-latest-aarch64-boot.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/ppc64le/AlmaLinux-10-latest-ppc64le-boot.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
+      </iso>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
+    </media>
+
+    <media arch="s390x">
+      <variant id="netinst"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/s390x/AlmaLinux-10-latest-s390x-boot.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
+      </iso>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/aarch64/AlmaLinux-10-latest-aarch64-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/ppc64le/AlmaLinux-10-latest-ppc64le-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
+      </iso>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
+    </media>
+
+    <media arch="s390x">
+      <variant id="minimal"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/s390x/AlmaLinux-10-latest-s390x-minimal.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
+      </iso>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/x86_64/AlmaLinux-10-latest-x86_64-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-x86_64-dvd</volume-id>
+      </iso>
+        <initrd>isolinux/initrd.img</initrd>
+        <kernel>isolinux/vmlinuz</kernel>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/aarch64/AlmaLinux-10-latest-aarch64-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-aarch64-dvd</volume-id>
+      </iso>
+        <initrd>images/pxeboot/initrd.img</initrd>
+        <kernel>images/pxeboot/vmlinuz</kernel>
+    </media>
+
+    <media arch="ppc64le">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/ppc64le/AlmaLinux-10-latest-ppc64le-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-ppc64le-dvd</volume-id>
+      </iso>
+        <initrd>ppc/ppc64/initrd.img</initrd>
+        <kernel>ppc/ppc64/vmlinuz</kernel>
+    </media>
+
+    <media arch="s390x">
+      <variant id="dvd"/>
+      <url>https://repo.almalinux.org/almalinux/10/isos/s390x/AlmaLinux-10-latest-s390x-dvd.iso</url>
+      <iso>
+        <volume-id>AlmaLinux-10-([0-9]|[1-9][0-9])-s390x-dvd</volume-id>
+      </iso>
+        <initrd>images/initrd.img</initrd>
+        <kernel>images/kernel.img</kernel>
+    </media>
+
+    <tree arch="x86_64">
+      <url>https://repo.almalinux.org/almalinux/10/BaseOS/x86_64/os/</url>
+      <treeinfo>
+        <family>^AlmaLinux$</family>
+        <version>^10$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="aarch64">
+      <url>https://repo.almalinux.org/almalinux/10/BaseOS/aarch64/os/</url>
+      <treeinfo>
+        <family>^AlmaLinux$</family>
+        <version>^10$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="ppc64le">
+      <url>https://repo.almalinux.org/almalinux/10/BaseOS/ppc64le/os/</url>
+      <treeinfo>
+        <family>^AlmaLinux$</family>
+        <version>^10$</version>
+        <arch>ppc64le</arch>
+      </treeinfo>
+    </tree>
+
+    <tree arch="s390x">
+      <url>https://repo.almalinux.org/almalinux/10/BaseOS/os/</url>
+      <treeinfo>
+        <family>^AlmaLinux$</family>
+        <version>^10$</version>
+        <arch>s390x</arch>
+      </treeinfo>
+    </tree>
+
+    <image arch="x86_64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/10/cloud/x86_64/images/AlmaLinux-10-GenericCloud-latest.x86_64.qcow2</url>
+    </image>
+
+    <image arch="aarch64" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/10/cloud/aarch64/images/AlmaLinux-10-GenericCloud-latest.aarch64.qcow2</url>
+    </image>
+
+    <image arch="ppc64le" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/10/cloud/ppc64le/images/AlmaLinux-10-GenericCloud-latest.ppc64le.qcow2</url>
+    </image>
+
+    <image arch="s390x" format="qcow2" cloud-init="true">
+      <url>https://repo.almalinux.org/almalinux/10/cloud/s390x/images/AlmaLinux-10-GenericCloud-latest.s390x.qcow2</url>
+    </image>
+
+    <installer>
+      <script id="http://redhat.com/rhel/kickstart/jeos"/>
+      <script id="http://redhat.com/rhel/kickstart/desktop"/>
+    </installer>
+
+    <cloud-image-username>almalinux</cloud-image-username>
+  </os>
+</libosinfo>
