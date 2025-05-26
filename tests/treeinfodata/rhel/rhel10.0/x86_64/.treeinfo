@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:008eff6d005e0e418da2dc06ad323f099e02749f32d8074593abdeae4763a0fb
+images/eltorito.img = sha256:c06b8309345edc5347fec720a0d6fe52f1245b4400de0832c7c3e04ea05a68d2
+images/install.img = sha256:c5ca9229b342ea2feaff75261f6454599397854b1c14ddd56290b277d4cedab2
+images/pxeboot/initrd.img = sha256:a701f63c297980a95b9e07e26650bb7a3d3e299ff64ba3a7248ba6b39ef1a57a
+images/pxeboot/vmlinuz = sha256:b2f70b98d887a47e6dc8bca75da0b8fa5b21bdbeef962683c071977eb0bcd2dd
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = x86_64
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 10.0
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1744312719
+variant = BaseOS
+variants = BaseOS
+version = 10.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+eltorito.img = images/eltorito.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 10.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1744312719
+platforms = x86_64,xen
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+

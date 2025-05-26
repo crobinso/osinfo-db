@@ -12,7 +12,7 @@
     <upgrades id="http://redhat.com/rhel/9.5"/>
     <derives-from id="http://redhat.com/rhel/9.5"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2025-05-20</release-date>
 
     <media arch="x86_64">
       <iso>
