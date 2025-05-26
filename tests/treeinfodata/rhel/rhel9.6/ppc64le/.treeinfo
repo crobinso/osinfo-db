@@ -1,0 +1,51 @@
+[checksums]
+images/boot.iso = sha256:db6ab0dcd6caffb88b3f98d71b47b120e07f44b84f023dfc9aaf78e3790a78d8
+images/install.img = sha256:d5bb3a74a917822a0e80d93ca9e01d0535f20f8c59a8f3228202b7283adc6477
+ppc/ppc64/initrd.img = sha256:867b548c40f2577b13cadb4abd98a2b40147c6ff07278798d100f4896a87868e
+ppc/ppc64/vmlinuz = sha256:b6abfc4a598491f7dadbb08842d396882a4f7a710622b32aff2ab80e642e7755
+
+[general]
+; WARNING.0 = This section provides compatibility with pre-productmd treeinfos.
+; WARNING.1 = Read productmd documentation for details about new format.
+arch = ppc64le
+family = Red Hat Enterprise Linux
+name = Red Hat Enterprise Linux 9.6
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1744848931
+variant = BaseOS
+variants = BaseOS
+version = 9.6
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = Red Hat Enterprise Linux
+short = RHEL
+version = 9.6
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1744848931
+platforms = ppc64le
+variants = BaseOS
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
