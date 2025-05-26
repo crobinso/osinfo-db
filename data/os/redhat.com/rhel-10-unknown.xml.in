@@ -16,8 +16,8 @@
       <iso>
         <volume-id>RHEL-10-([1-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64</volume-id>
       </iso>
-      <kernel>isolinux/vmlinuz</kernel>
-      <initrd>isolinux/initrd.img</initrd>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
     </media>
 
     <media arch="aarch64">
