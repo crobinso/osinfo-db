@@ -110,7 +110,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="edubuntu"/>
-      <url>https://cdimage.ubuntu.com/edubuntu/releases/noble/release/edubuntu-24.04.1-desktop-amd64.iso</url>
+      <url>https://cdimage.ubuntu.com/edubuntu/releases/noble/release/edubuntu-24.04-latest-desktop-amd64.iso</url>
       <iso>
         <volume-id>Edubuntu 24.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
       </iso>
