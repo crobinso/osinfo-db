@@ -30,7 +30,7 @@
     </media>
 
     <tree arch="x86_64">
-      <url>https://fbi.cdn.euro-linux.com/dist/eurolinux/server/8/x86_64/BaseOS/os/</url>
+      <url>https://vault.cdn.euro-linux.com/legacy/eurolinux/8/8/BaseOS/x86_64/os/</url>
       <treeinfo>
         <family>EuroLinux</family>
         <version>^8$</version>
@@ -38,7 +38,7 @@
       </treeinfo>
     </tree>
     <tree arch="aarch64">
-      <url>https://fbi.cdn.euro-linux.com/dist/eurolinux/server/8/aarch64/BaseOS/os/</url>
+      <url>https://vault.cdn.euro-linux.com/legacy/eurolinux/8/8/BaseOS/aarch64/os/</url>
       <treeinfo>
         <family>EuroLinux</family>
         <version>^8$</version>
