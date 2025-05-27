@@ -185,8 +185,8 @@
     </tree>
     <tree arch="riscv64">
       <url>http://deb.debian.org/debian/dists/trixie/main/installer-riscv64</url>
-      <kernel>current/images/generic/kernel.debian</kernel>
-      <initrd>current/images/generic/initrd.debian</initrd>
+      <kernel>current/images/netboot/debian-installer/riscv64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/riscv64/initrd.gz</initrd>
     </tree>
     <tree arch="s390x">
       <url>http://deb.debian.org/debian/dists/trixie/main/installer-s390x</url>
