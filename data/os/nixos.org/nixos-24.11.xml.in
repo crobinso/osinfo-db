@@ -1,0 +1,99 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://nixos.org/nixos/24.11">
+    <short-id>nixos-24.11</short-id>
+    <name>NixOS 24.11</name>
+    <version>24.11</version>
+    <vendor>NixOS</vendor>
+    <family>linux</family>
+    <distro>nixos</distro>
+    <codename>Vicuña</codename>
+
+    <upgrades id="http://nixos.org/nixos/24.05"/>
+    <derives-from id="http://nixos.org/nixos/24.05"/>
+
+    <release-date>2024-11-30</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="minimal">
+      <name>NixOS 24.11 (minimal installation CD)</name>
+    </variant>
+    <variant id="gnome">
+      <name>NixOS 24.11 (GNOME installation CD)</name>
+    </variant>
+    <variant id="plasma6">
+      <name>NixOS 24.11 (Plasma 6 installation CD)</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-24.11-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="gnome"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-gnome-24.11-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="plasma6"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-plasma6-24.11-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-aarch64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-24.11-aarch64</volume-id>
+      </iso>
+      <kernel>boot/Image</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="gnome"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-aarch64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-gnome-24.11-aarch64</volume-id>
+      </iso>
+      <kernel>boot/Image</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="plasma6"/>
+      <url>https://channels.nixos.org/nixos-24.11/latest-nixos-plasma6-aarch64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-plasma6-24.11-aarch64</volume-id>
+      </iso>
+      <kernel>boot/Image</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>
