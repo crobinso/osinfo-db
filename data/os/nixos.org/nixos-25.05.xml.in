@@ -1,0 +1,76 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://nixos.org/nixos/25.05">
+    <short-id>nixos-25.05</short-id>
+    <name>NixOS 25.05</name>
+    <version>25.05</version>
+    <vendor>NixOS</vendor>
+    <family>linux</family>
+    <distro>nixos</distro>
+    <codename>Warbler</codename>
+
+    <upgrades id="http://nixos.org/nixos/24.11"/>
+    <derives-from id="http://nixos.org/nixos/24.11"/>
+
+    <release-date>2025-05-23</release-date>
+
+    <resources arch="all">
+      <minimum>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>3221225472</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+    <variant id="minimal">
+      <name>NixOS 25.05 (minimal installation CD)</name>
+    </variant>
+    <variant id="graphical">
+      <name>NixOS 25.05 (graphical installation CD)</name>
+    </variant>
+
+    <media arch="x86_64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-25.05/latest-nixos-minimal-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-25.05-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="graphical"/>
+      <url>https://channels.nixos.org/nixos-25.05/latest-nixos-graphical-x86_64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-graphical-25.05-x86_64</volume-id>
+      </iso>
+      <kernel>boot/bzImage</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="minimal"/>
+      <url>https://channels.nixos.org/nixos-25.05/latest-nixos-minimal-aarch64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-minimal-25.05-aarch64</volume-id>
+      </iso>
+      <kernel>boot/Image</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="graphical"/>
+      <url>https://channels.nixos.org/nixos-25.05/latest-nixos-graphical-aarch64-linux.iso</url>
+      <iso>
+        <volume-id>nixos-graphical-25.05-aarch64</volume-id>
+      </iso>
+      <kernel>boot/Image</kernel>
+      <initrd>boot/initrd</initrd>
+    </media>
+  </os>
+</libosinfo>
