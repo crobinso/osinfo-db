@@ -1,0 +1,59 @@
+[checksums]
+images/boot.iso = sha256:47472b142793c1941e2258365a2cec630c7a90fe35f86c04ae4d5a26455f774e
+images/efiboot.img = sha256:6668602d4aa5b28c5c6ae96c5c7a20dfd2ca8fd827e841bda07fca31dc236a30
+images/install.img = sha256:c909cdbd084cb5e87c8287867507383eeb971118531629921fbc825ec1a77902
+images/pxeboot/initrd.img = sha256:be500af5ce17f258002ceab339a8c3cf1a16c33d547cfb47e6d024e16d898763
+images/pxeboot/vmlinuz = sha256:68c3c42853d6d71c89773e4dc97ea3131c6bc2b7272b74fbfcc93f1544601bdd
+
+[general]
+arch = aarch64
+family = Rocky Linux
+name = Rocky Linux 10.0
+packagedir = Packages
+platforms = aarch64
+repository = .
+timestamp = 1748204120
+variant = BaseOS
+variants = BaseOS
+version = 10.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-aarch64]
+boot.iso = images/boot.iso
+efiboot.img = images/efiboot.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 10.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = aarch64
+build_timestamp = 1748204120
+platforms = aarch64
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+type = variant
+uid = AppStream
+packages = ../../../AppStream/aarch64/os/Packages
+repository = ../../../AppStream/aarch64/os/
+

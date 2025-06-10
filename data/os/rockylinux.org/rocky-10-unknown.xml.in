@@ -1,0 +1,15 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://rockylinux.org/rocky/10-unknown">
+    <short-id>rocky10-unknown</short-id>
+    <name>Rocky Linux 10 Unknown</name>
+    <version>10-unknown</version>
+    <vendor>Rocky Enterprise Software Foundation</vendor>
+    <family>linux</family>
+    <distro>rocky</distro>
+    <derives-from id="http://rockylinux.org/rocky/10"/>
+    <eol-date>2035-05-31</eol-date>
+    <resources arch='all' inherit='true'/>
+  </os>
+</libosinfo>

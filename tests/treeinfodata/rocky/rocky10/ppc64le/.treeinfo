@@ -1,0 +1,57 @@
+[checksums]
+images/boot.iso = sha256:3b26b497c69dabb49101cd572647a9a811ab9c25ae5e3986033ac772552fdce2
+images/install.img = sha256:ebeb617020d3c0cb8525ac065eeb6987929f3de659464042fef5478f22f9a7f1
+ppc/ppc64/initrd.img = sha256:b47a03833d8a9012aa806eb0403363a624fc573ad59e77536fd06674be92ed90
+ppc/ppc64/vmlinuz = sha256:2fddc5f61d7c65ceb02f3d95088935d4121d4d58b3b6b2247fff11fe78fe89c5
+
+[general]
+arch = ppc64le
+family = Rocky Linux
+name = Rocky Linux 10.0
+packagedir = Packages
+platforms = ppc64le
+repository = .
+timestamp = 1748204127
+variant = BaseOS
+variants = BaseOS
+version = 10.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-ppc64le]
+boot.iso = images/boot.iso
+initrd = ppc/ppc64/initrd.img
+kernel = ppc/ppc64/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 10.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = ppc64le
+build_timestamp = 1748204127
+platforms = ppc64le
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+type = variant
+uid = AppStream
+packages = ../../../AppStream/ppc64le/os/Packages
+repository = ../../../AppStream/ppc64le/os/
+

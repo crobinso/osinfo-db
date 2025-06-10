@@ -1,0 +1,63 @@
+[checksums]
+images/boot.iso = sha256:82dce55fac104fcb3d1af28d7a5c52a29a3f418db595c5e3d82f96cb63372eb8
+images/eltorito.img = sha256:c06b8309345edc5347fec720a0d6fe52f1245b4400de0832c7c3e04ea05a68d2
+images/install.img = sha256:4478d3125245ca7d4c768d0521be5549d563e74b29e706e0d5c8c2e87e8149d7
+images/pxeboot/initrd.img = sha256:a491dab333b79e6c7db7bee3a9cdb224928629deccfd6f58495e4ac9d695fb37
+images/pxeboot/vmlinuz = sha256:a90c7468fbe183c738d543206a97f951a91949e99cf8eeeb308cf036239aef3b
+
+[general]
+arch = x86_64
+family = Rocky Linux
+name = Rocky Linux 10.0
+packagedir = Packages
+platforms = x86_64,xen
+repository = .
+timestamp = 1748204137
+variant = BaseOS
+variants = BaseOS
+version = 10.0
+
+[header]
+type = productmd.treeinfo
+version = 1.2
+
+[images-x86_64]
+boot.iso = images/boot.iso
+eltorito.img = images/eltorito.img
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[images-xen]
+initrd = images/pxeboot/initrd.img
+kernel = images/pxeboot/vmlinuz
+
+[release]
+name = Rocky Linux
+short = Rocky
+version = 10.0
+
+[stage2]
+mainimage = images/install.img
+
+[tree]
+arch = x86_64
+build_timestamp = 1748204137
+platforms = x86_64,xen
+variants = BaseOS,AppStream
+
+[variant-BaseOS]
+id = BaseOS
+name = BaseOS
+packages = Packages
+repository = .
+type = variant
+uid = BaseOS
+
+[variant-AppStream]
+id = AppStream
+name = AppStream
+type = variant
+uid = AppStream
+packages = ../../../AppStream/x86_64/os/Packages
+repository = ../../../AppStream/x86_64/os/
+
