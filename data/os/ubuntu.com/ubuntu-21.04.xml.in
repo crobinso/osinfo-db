@@ -49,7 +49,7 @@
     -->
 
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/21.04/ubuntu-21.04-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/21.04/ubuntu-21.04-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 21.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -57,7 +57,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/21.04/ubuntu-21.04-live-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/21.04/ubuntu-21.04-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 21.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>

@@ -54,7 +54,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="desktop"/>
-      <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/oracular/ubuntu-24.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -63,7 +63,7 @@
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://releases.ubuntu.com/oracular/ubuntu-24.10-live-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/oracular/ubuntu-24.10-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 24.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>

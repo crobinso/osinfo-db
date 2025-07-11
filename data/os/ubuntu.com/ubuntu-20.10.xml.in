@@ -49,7 +49,7 @@
     -->
 
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/20.10/ubuntu-20.10-desktop-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/20.10/ubuntu-20.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 20.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -57,7 +57,7 @@
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
-      <url>https://releases.ubuntu.com/20.10/ubuntu-20.10-live-server-amd64.iso</url>
+      <url>https://old-releases.ubuntu.com/releases/20.10/ubuntu-20.10-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 20.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
