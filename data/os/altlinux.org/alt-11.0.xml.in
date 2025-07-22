@@ -1,0 +1,217 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/11.0">
+    <short-id>alt11.0</short-id>
+    <name>ALT 11.0</name>
+    <version>11.0</version>
+    <vendor>BaseALT</vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Prometheus</codename>
+    <upgrades id="http://altlinux.org/alt/10.3"/>
+    <derives-from id="http://altlinux.org/alt/10.3"/>
+
+    <release-date>2025-04-29</release-date>
+    <eol-date>2027-12-31</eol-date>
+
+    <variant id="workstation">
+      <name>ALT Workstation 11.0</name>
+    </variant>
+    <variant id="kworkstation">
+      <name>ALT Workstation K 11.0</name>
+    </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 11.0</name>
+    </variant>
+    <variant id="education">
+      <name>ALT Education 11.0</name>
+    </variant>
+    <variant id="education-live">
+      <name>ALT Education Live 11.0</name>
+    </variant>
+    <variant id="server">
+      <name>ALT Server 11.0</name>
+    </variant>
+    <variant id="virtualization-pve">
+      <name>ALT Virtualization PVE 11.0</name>
+    </variant>
+
+    <!-- Workstation -->
+    <media arch="x86_64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/workstation/x86_64/alt-workstation-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 11\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION 11\.0(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/workstation/aarch64/alt-workstation-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 11\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION 11\.0(\.\d+)* AARCH64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.0-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 11\.0(\.\d+)*</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 11\.0(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Workstation K Live-->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/kworkstation/alt-kworkstation-11.0-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 11\.0(\.\d+)* Live</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 11\.0(\.\d+)* LIVE X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Education -->
+    <media arch="x86_64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 11\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 11\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* AARCH64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Education Live -->
+    <media arch="x86_64" live="true">
+      <variant id="education-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-live-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 11\.0(\.\d+)* Live x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* LIVE X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="education-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-live-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education 11\.0(\.\d+)* Live aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* LIVE AARCH64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/server/x86_64/alt-server-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 11\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT SERVER 11\.0(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/server/aarch64/alt-server-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 11\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT SERVER 11\.0(\.\d+)* AARCH64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Virtualization PVE -->
+    <media arch="x86_64">
+      <variant id="virtualization-pve"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/alt-virtualization-pve-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Virtualization PVE 11\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT VIRTUALIZATION PVE 11\.0(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="virtualization-pve"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/virtualization/aarch64/alt-virtualization-pve-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Virtualization PVE 11\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT VIRTUALIZATION PVE 11\.0(\.\d+)* AARCH64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
