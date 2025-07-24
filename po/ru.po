@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2023-04-01 09:20+0000\n"
+"POT-Creation-Date: 2025-07-24 18:11+0300\n"
+"PO-Revision-Date: 2025-07-24 18:15+0300\n"
 "Last-Translator: Alexey Shabalin <a.shabalin@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/ru/>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
@@ -595,7 +595,8 @@ msgstr "Альт 10.0"
 #: data/os/altlinux.org/alt-10.0.xml.in:8
 #: data/os/altlinux.org/alt-10.1.xml.in:8
 #: data/os/altlinux.org/alt-10.2.xml.in:8
-#: data/os/altlinux.org/alt-10.3.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
+#: data/os/altlinux.org/alt-10.3.xml.in:8
+#: data/os/altlinux.org/alt-11.0.xml.in:8 data/os/altlinux.org/alt-8.0.xml.in:8
 #: data/os/altlinux.org/alt-8.1.xml.in:8 data/os/altlinux.org/alt-8.2.xml.in:8
 #: data/os/altlinux.org/alt-9.0.xml.in:8 data/os/altlinux.org/alt-9.1.xml.in:8
 #: data/os/altlinux.org/alt-9.2.xml.in:8
@@ -616,10 +617,8 @@ msgid "ALT Workstation K 10.0"
 msgstr "Альт Рабочая станция К 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.0"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К живая система 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:28
 msgid "ALT Education 10.0"
@@ -631,7 +630,7 @@ msgstr "Альт Сервер 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:34
 msgid "ALT Virtualization Server 10.0"
-msgstr "Альт Сервер виртуализации 10.0"
+msgstr "Альт Виртуализация 10.0"
 
 #: data/os/altlinux.org/alt-10.0.xml.in:37
 msgid "ALT Simply 10.0"
@@ -642,142 +641,128 @@ msgid "ALT Simply live 10.0"
 msgstr "Альт Симпли живая система 10.0"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.1"
-msgstr "Альт 10.0"
+msgstr "Альт 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.1"
-msgstr "Альт Рабочая cтанция 10.0"
+msgstr "Альт Рабочая cтанция 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.1"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.1"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К живая система 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.1"
-msgstr "Альт Образование 10.0"
+msgstr "Альт Образование 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:31
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education Live 10.1"
-msgstr "Альт Образование 10.0"
+msgstr "Альт Образование живая система 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.1"
-msgstr "Альт Сервер 10.0"
+msgstr "Альт Сервер 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.1"
-msgstr "Альт Сервер виртуализации 10.0"
+msgstr "Альт Виртуализация 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.1"
-msgstr "Альт Симпли 10.0"
+msgstr "Альт Симпли 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply live 10.0"
 msgid "ALT Simply Live 10.1"
-msgstr "Альт Симпли живая система 10.0"
+msgstr "Альт Симпли живая система 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "Альт 10.0"
+msgstr "Альт 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "Альт Рабочая cтанция 10.0"
+msgstr "Альт Рабочая cтанция 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К живая система 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "Альт Образование 10.0"
+msgstr "Альт Образование 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education Live 10.2"
-msgstr "Альт Образование 10.0"
+msgstr "Альт Образование живая система 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "Альт Сервер 10.0"
+msgstr "Альт Сервер 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "Альт Сервер виртуализации 10.0"
+msgstr "Альт Виртуализация 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "Альт Симпли 10.0"
+msgstr "Альт Симпли 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply live 10.0"
 msgid "ALT Simply Live 10.2"
-msgstr "Альт Симпли живая система 10.0"
+msgstr "Альт Симпли живая система 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "Альт 10.0"
+msgstr "Альт 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.3"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K Live 10.3"
-msgstr "Альт Рабочая станция К 10.0"
+msgstr "Альт Рабочая станция К живая система 10.3"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:6
+msgid "ALT 11.0"
+msgstr "Альт 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:19
+msgid "ALT Workstation 11.0"
+msgstr "Альт Рабочая cтанция 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:22
+msgid "ALT Workstation K 11.0"
+msgstr "Альт Рабочая станция К 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:25
+msgid "ALT Workstation K Live 11.0"
+msgstr "Альт Рабочая станция К живая система 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:28
+msgid "ALT Education 11.0"
+msgstr "Альт Образование 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:31
+msgid "ALT Education Live 11.0"
+msgstr "Альт Образование живая система 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:34
+msgid "ALT Server 11.0"
+msgstr "Альт Сервер 11.0"
+
+#: data/os/altlinux.org/alt-11.0.xml.in:37
+msgid "ALT Virtualization PVE 11.0"
+msgstr "Альт Виртуализация PVE 11.0"
 
 #: data/os/altlinux.org/alt-8.0.xml.in:6
 msgid "ALT 8 Education"
@@ -831,10 +816,8 @@ msgid "ALT Workstation K 9.0"
 msgstr "Альт Рабочая станция К 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:27
-#, fuzzy
-#| msgid "ALT Workstation K 9.0"
 msgid "ALT Workstation K Live 9.0"
-msgstr "Альт Рабочая станция К 9.0"
+msgstr "Альт Рабочая станция К живая система 9.0"
 
 #: data/os/altlinux.org/alt-9.0.xml.in:30
 msgid "ALT Education 9.0"
@@ -869,10 +852,8 @@ msgid "ALT Workstation K 9.1"
 msgstr "Альт Рабочая станция К 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.1"
 msgid "ALT Workstation K Live 9.1"
-msgstr "Альт Рабочая станция К 9.1"
+msgstr "Альт Рабочая станция К живая система 9.1"
 
 #: data/os/altlinux.org/alt-9.1.xml.in:28
 msgid "ALT Education 9.1"
@@ -907,10 +888,8 @@ msgid "ALT Workstation K 9.2"
 msgstr "Альт Рабочая станция К 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K 9.2"
 msgid "ALT Workstation K Live 9.2"
-msgstr "Альт Рабочая станция К 9.2"
+msgstr "Альт Рабочая станция К живая система 9.2"
 
 #: data/os/altlinux.org/alt-9.2.xml.in:28
 msgid "ALT Education 9.2"
@@ -937,10 +916,8 @@ msgid "ALT p10 StarterKits"
 msgstr "Альт Стартовый набор p10"
 
 #: data/os/altlinux.org/alt-p11.starterkits.xml.in:6
-#, fuzzy
-#| msgid "ALT p10 StarterKits"
 msgid "ALT p11 StarterKits"
-msgstr "Альт Стартовый набор p10"
+msgstr "Альт Стартовый набор p11"
 
 #: data/os/altlinux.org/alt-p8.starterkits.xml.in:6
 msgid "ALT p8 StarterKits"
