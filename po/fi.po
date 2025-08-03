@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2021.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2025.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2023-03-29 01:20+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2025-04-22 17:53+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -3764,7 +3764,7 @@ msgstr ""
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:6
 msgid "MIRACLE LINUX 8 Unknown"
-msgstr ""
+msgstr "MIRACLE LINUX 8 Tuntematon"
 
 #: data/os/miraclelinux.com/miraclelinux-8-unknown.xml.in:8
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:8
@@ -3775,15 +3775,15 @@ msgstr ""
 
 #: data/os/miraclelinux.com/miraclelinux-8.4.xml.in:6
 msgid "MIRACLE LINUX 8.4"
-msgstr ""
+msgstr "MIRACLE LINUX 8.4"
 
 #: data/os/miraclelinux.com/miraclelinux-9-unknown.xml.in:6
 msgid "MIRACLE LINUX 9 Unknown"
-msgstr ""
+msgstr "MIRACLE LINUX 9 Tuntematon"
 
 #: data/os/miraclelinux.com/miraclelinux-9.0.xml.in:6
 msgid "MIRACLE LINUX 9.0"
-msgstr ""
+msgstr "MIRACLE LINUX 9.0"
 
 #: data/os/netbsd.org/netbsd-0.8.xml.in:6
 msgid "NetBSD 0.8"
