@@ -30,6 +30,10 @@
       <name>Fedora 29 Everything</name>
     </variant>
 
+    <devices>
+        <device id="http://pcisig.com/pci/1af4/1053"/> <!-- virtio1.0-vsock -->
+    </devices>
+
     <!-- Workstation -->
 
     <!-- Live -->
