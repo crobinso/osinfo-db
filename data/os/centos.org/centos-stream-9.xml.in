@@ -37,6 +37,7 @@
       <device id="http://pcisig.com/pci/8086/293e"/> <!-- ich9-hda -->
       <device id="http://pcisig.com/pci/1af4/105a"/> <!-- virtio1.0-fs -->
       <device id="http://pcisig.com/pci/1af4/1058"/> <!-- virtio1.0-mem -->
+      <device id="http://pcisig.com/pci/1af4/1053"/> <!-- virtio1.0-vsock -->
     </devices>
 
     <firmware arch="x86_64" type="efi"/>
