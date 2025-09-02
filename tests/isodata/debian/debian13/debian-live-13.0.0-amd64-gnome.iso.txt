@@ -1,0 +1,29 @@
+CD-ROM is in ISO 9660 format
+System id: 
+Volume id: d-live 13.0.0 gn amd64
+Volume set id: 
+Publisher id: DEBIAN LIVE PROJECT; HTTPS://WIKI.DEBIAN.ORG/DEBIANLIVE; DEBIAN-LIVE_LISTS.DEBIAN.ORG
+Data preparer id: LIVE-BUILD 327EA0E633C02D67B7E9A03E63C0013733C4912E_2025-06-23T09:33:08+07:00; HTTPS://SALSA.DEBIAN.ORG/LIVE-TEAM/LIVE-BUILD
+Application id: DEBIAN LIVE
+Copyright File id: 
+Abstract File id: 
+Bibliographic File id: 
+Volume set size is: 1
+Volume set sequence number is: 1
+Logical block size is: 2048
+Volume size is: 1972344
+El Torito VD version 1 found, boot catalog is in sector 1626
+Joliet with UCS level 3 found
+Rock Ridge signatures version 1 found
+Eltorito validation header:
+    Hid 1
+    Arch 0 (x86)
+    ID ''
+    Key 55 AA
+    Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff CBB 3259

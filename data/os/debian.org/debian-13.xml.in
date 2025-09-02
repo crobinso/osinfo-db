@@ -13,7 +13,8 @@
     <upgrades id="http://debian.org/debian/12"/>
     <derives-from id="http://debian.org/debian/12"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2025-08-09</release-date>
+    <eol-date>2030-06-30</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -44,59 +45,62 @@
     <variant id="nocloud">
       <name>Debian 13 (No Cloud)</name>
     </variant>
+    <variant id="live">
+      <name>Debian 13 (Live)</name>
+    </variant>
 
 
     <!-- Network installer -->
     <media arch="x86_64">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/amd64/iso-cd/debian-trixie-DI-rc1-amd64-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/amd64/iso-cd/debian-13.0.0-amd64-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ amd64 n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ amd64 n</volume-id>
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/arm64/iso-cd/debian-trixie-DI-rc1-arm64-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/arm64/iso-cd/debian-13.0.0-arm64-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ arm64 n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ arm64 n</volume-id>
       </iso>
       <kernel>install.a64/vmlinuz</kernel>
       <initrd>install.a64/initrd.gz</initrd>
     </media>
     <media arch="armv7l">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/armhf/iso-cd/debian-trixie-DI-rc1-armhf-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/armhf/iso-cd/debian-13.0.0-armhf-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ armhf n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ armhf n</volume-id>
       </iso>
       <kernel>install.ahf/vmlinuz</kernel>
       <initrd>install.ahf/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/ppc64el/iso-cd/debian-trixie-DI-rc1-ppc64el-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/ppc64el/iso-cd/debian-13.0.0-ppc64el-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ p64el n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ p64el n</volume-id>
       </iso>
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="riscv64">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/riscv64/iso-cd/debian-trixie-DI-rc1-riscv64-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/riscv64/iso-cd/debian-13.0.0-riscv64-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ riscv64 n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ riscv64 n</volume-id>
       </iso>
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="s390x">
       <variant id="universal-netinst"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/s390x/iso-cd/debian-trixie-DI-rc1-s390x-netinst.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/s390x/iso-cd/debian-13.0.0-s390x-netinst.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ s390x n</volume-id>
+        <volume-id>Debian 13.\d+.\d+ s390x n</volume-id>
       </iso>
       <kernel>boot/linux_vm</kernel>
       <initrd>boot/root.bin</initrd>
@@ -105,68 +109,74 @@
     <!-- DVD -->
     <media arch="x86_64">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/amd64/iso-dvd/debian-trixie-DI-rc1-amd64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/amd64/iso-dvd/debian-13.0.0-amd64-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ amd64 \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ amd64 \d+</volume-id>
       </iso>
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/arm64/iso-dvd/debian-trixie-DI-rc1-arm64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/arm64/iso-dvd/debian-13.0.0-arm64-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ arm64 \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ arm64 \d+</volume-id>
       </iso>
       <kernel>install.a64/vmlinuz</kernel>
       <initrd>install.a64/initrd.gz</initrd>
     </media>
     <media arch="armv7l">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/armhf/iso-dvd/debian-trixie-DI-rc1-armhf-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/armhf/iso-dvd/debian-13.0.0-armhf-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ armhf \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ armhf \d+</volume-id>
       </iso>
       <kernel>install.ahf/vmlinuz</kernel>
       <initrd>install.ahf/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/ppc64el/iso-dvd/debian-trixie-DI-rc1-ppc64el-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/ppc64el/iso-dvd/debian-13.0.0-ppc64el-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ p64el \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ p64el \d+</volume-id>
       </iso>
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="riscv64">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/riscv64/iso-dvd/debian-trixie-DI-rc1-riscv64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/riscv64/iso-dvd/debian-13.0.0-riscv64-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ riscv64 \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ riscv64 \d+</volume-id>
       </iso>
       <kernel>install/vmlinux</kernel>
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="s390x">
       <variant id="universal"/>
-      <url>https://cdimage.debian.org/cdimage/trixie_di_rc1/s390x/iso-dvd/debian-trixie-DI-rc1-s390x-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0/s390x/iso-dvd/debian-13.0.0-s390x-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian trixie-DI-rc\d+ s390x \d+</volume-id>
+        <volume-id>Debian 13.\d+.\d+ s390x \d+</volume-id>
       </iso>
       <kernel>boot/linux_vm</kernel>
       <initrd>boot/root.bin</initrd>
+    </media>
+
+    <!-- Live -->
+    <media arch="x86_64" live="true">
+      <variant id="live"/>
+      <url>https://cdimage.debian.org/cdimage/release/13.0.0-live/amd64/iso-hybrid/debian-live-13.0.0-amd64-gnome.iso</url>
+      <iso>
+        <volume-id>d-live 13\.\d+\.\d+ .. amd64</volume-id>
+      </iso>
+      <kernel>install/gtk/vmlinuz</kernel>
+      <initrd>install/gtk/initrd.gz</initrd>
     </media>
 
     <tree arch="x86_64">
       <url>http://deb.debian.org/debian/dists/trixie/main/installer-amd64</url>
       <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
       <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
-    </tree>
-    <tree arch="i686">
-      <url>http://deb.debian.org/debian/dists/trixie/main/installer-i386</url>
-      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
     </tree>
     <tree arch="aarch64">
       <url>http://deb.debian.org/debian/dists/trixie/main/installer-arm64</url>
@@ -196,42 +206,52 @@
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-generic-amd64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-amd64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-generic-arm64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-arm64.qcow2</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
       <variant id="generic"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-generic-ppc64el-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-ppc64el.qcow2</url>
+    </image>
+
+    <image arch="riscv64" format="qcow2" cloud-init="true">
+      <variant id="generic"/>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-generic-riscv64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="genericcloud"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-genericcloud-amd64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-genericcloud-amd64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
       <variant id="genericcloud"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-genericcloud-arm64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-genericcloud-arm64.qcow2</url>
     </image>
 
     <image arch="x86_64" format="qcow2">
       <variant id="nocloud"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-nocloud-amd64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-nocloud-amd64.qcow2</url>
     </image>
 
     <image arch="aarch64" format="qcow2">
       <variant id="nocloud"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-nocloud-arm64-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-nocloud-arm64.qcow2</url>
     </image>
 
     <image arch="ppc64le" format="qcow2">
       <variant id="nocloud"/>
-      <url>https://cloud.debian.org/images/cloud/trixie/daily/latest/debian-13-nocloud-ppc64el-daily.qcow2</url>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-nocloud-ppc64el.qcow2</url>
+    </image>
+
+    <image arch="riscv64" format="qcow2">
+      <variant id="nocloud"/>
+      <url>https://cloud.debian.org/images/cloud/trixie/latest/debian-13-nocloud-riscv64.qcow2</url>
     </image>
 
     <installer>
