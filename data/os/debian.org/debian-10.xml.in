@@ -162,26 +162,6 @@
       <initrd>boot/root.bin</initrd>
     </media>
 
-    <tree arch="x86_64">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-amd64</url>
-      <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
-    </tree>
-    <tree arch="i686">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-i386</url>
-      <kernel>current/images/netboot/debian-installer/i386/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/i386/initrd.gz</initrd>
-    </tree>
-    <tree arch="aarch64">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-arm64</url>
-      <kernel>current/images/netboot/debian-installer/arm64/linux</kernel>
-      <initrd>current/images/netboot/debian-installer/arm64/initrd.gz</initrd>
-    </tree>
-    <tree arch="armv7l">
-      <url>http://deb.debian.org/debian/dists/buster/main/installer-armhf</url>
-      <kernel>current/images/netboot/vmlinuz</kernel>
-      <initrd>current/images/netboot/initrd.gz</initrd>
-    </tree>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
       <variant id="openstack"/>
