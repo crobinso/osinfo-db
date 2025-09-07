@@ -3,7 +3,7 @@ System id:
 Volume id: d-live testing gn amd64
 Volume set id: 
 Publisher id: DEBIAN LIVE PROJECT; HTTPS://WIKI.DEBIAN.ORG/DEBIANLIVE; DEBIAN-LIVE_LISTS.DEBIAN.ORG
-Data preparer id: LIVE-BUILD 17269ADE94FB25358DAC5D2179022EDE2D3F3777_2025-02-25T10:06:20Z; HTTPS://SALSA.DEBIAN.ORG/LIVE-TEAM/LIVE-BUILD
+Data preparer id: LIVE-BUILD C2C3F77929987C06946A210509A3231CD4DF02AE_2025-08-14T20:24:40+01:00; HTTPS://SALSA.DEBIAN.ORG/LIVE-TEAM/LIVE-BUILD
 Application id: DEBIAN LIVE
 Copyright File id: 
 Abstract File id: 
@@ -11,8 +11,8 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1892352
-El Torito VD version 1 found, boot catalog is in sector 1450
+Volume size is: 2033832
+El Torito VD version 1 found, boot catalog is in sector 1470
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
@@ -26,4 +26,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 4
-        Bootoff C0B 3083
+        Bootoff C1F 3103

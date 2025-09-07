@@ -8,8 +8,10 @@
     <vendor>Debian Project</vendor>
     <family>linux</family>
     <distro>debian</distro>
-    <upgrades id="http://debian.org/debian/12"/>
-    <derives-from id="http://debian.org/debian/12"/>
+    <upgrades id="http://debian.org/debian/13"/>
+    <derives-from id="http://debian.org/debian/13"/>
+
+    <release-status>prerelease</release-status>
 
     <resources arch="all">
       <minimum>
@@ -35,6 +37,8 @@
       <name>Debian testing (Live)</name>
     </variant>
 
+
+    <!-- Network installer -->
     <media arch="x86_64">
       <variant id="universal-netinst"/>
       <url>https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-netinst.iso</url>
@@ -44,15 +48,53 @@
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
-    <media arch="i686">
+    <media arch="aarch64">
       <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/arm64/iso-cd/debian-testing-arm64-netinst.iso</url>
       <iso>
-        <volume-id>Debian testing i386 n</volume-id>
+        <volume-id>Debian testing arm64 n</volume-id>
       </iso>
-      <kernel>install.386/vmlinuz</kernel>
-      <initrd>install.386/initrd.gz</initrd>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/armhf/iso-cd/debian-testing-armhf-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing armhf n</volume-id>
+      </iso>
+      <kernel>install.ahf/vmlinuz</kernel>
+      <initrd>install.ahf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/ppc64el/iso-cd/debian-testing-ppc64el-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing p64el n</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="riscv64">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/riscv64/iso-cd/debian-testing-riscv64-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing riscv64 n</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal-netinst"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/s390x/iso-cd/debian-testing-s390x-netinst.iso</url>
+      <iso>
+        <volume-id>Debian testing s390x n</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
     </media>
 
+    <!-- DVD -->
     <media arch="x86_64">
       <variant id="universal"/>
       <url>https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-dvd/debian-testing-amd64-DVD-1.iso</url>
@@ -62,19 +104,56 @@
       <kernel>install.amd/vmlinuz</kernel>
       <initrd>install.amd/initrd.gz</initrd>
     </media>
-    <media arch="i686">
+    <media arch="aarch64">
       <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/arm64/iso-dvd/debian-testing-arm64-DVD-1.iso</url>
       <iso>
-        <volume-id>Debian testing i386 1</volume-id>
+        <volume-id>Debian testing arm64 \d+</volume-id>
       </iso>
-      <kernel>install.386/vmlinuz</kernel>
-      <initrd>install.386/initrd.gz</initrd>
+      <kernel>install.a64/vmlinuz</kernel>
+      <initrd>install.a64/initrd.gz</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/armhf/iso-dvd/debian-testing-armhf-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian testing armhf \d+</volume-id>
+      </iso>
+      <kernel>install.ahf/vmlinuz</kernel>
+      <initrd>install.ahf/initrd.gz</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/ppc64el/iso-dvd/debian-testing-ppc64el-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian testing p64el \d+</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="riscv64">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/riscv64/iso-dvd/debian-testing-riscv64-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian testing riscv64 \d+</volume-id>
+      </iso>
+      <kernel>install/vmlinux</kernel>
+      <initrd>install/initrd.gz</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="universal"/>
+      <url>https://cdimage.debian.org/cdimage/weekly-builds/s390x/iso-dvd/debian-testing-s390x-DVD-1.iso</url>
+      <iso>
+        <volume-id>Debian testing s390x \d+</volume-id>
+      </iso>
+      <kernel>boot/linux_vm</kernel>
+      <initrd>boot/root.bin</initrd>
     </media>
 
     <!-- Live -->
     <media arch="x86_64" live="true">
       <variant id="live"/>
-      <url>https://get.debian.org/images/weekly-live-builds/amd64/iso-hybrid/debian-live-testing-amd64-gnome.iso</url>
+      <url>https://cdimage.debian.org/images/weekly-live-builds/amd64/iso-hybrid/debian-live-testing-amd64-gnome.iso</url>
       <iso>
         <volume-id>d-live testing .. amd64</volume-id>
       </iso>
@@ -86,6 +165,31 @@
       <url>http://deb.debian.org/debian/dists/testing/main/installer-amd64</url>
       <kernel>current/images/netboot/debian-installer/amd64/linux</kernel>
       <initrd>current/images/netboot/debian-installer/amd64/initrd.gz</initrd>
+    </tree>
+    <tree arch="aarch64">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-arm64</url>
+      <kernel>current/images/netboot/debian-installer/arm64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/arm64/initrd.gz</initrd>
+    </tree>
+    <tree arch="armv7l">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-armhf</url>
+      <kernel>current/images/netboot/vmlinuz</kernel>
+      <initrd>current/images/netboot/initrd.gz</initrd>
+    </tree>
+    <tree arch="ppc64le">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-ppc64el</url>
+      <kernel>current/images/netboot/debian-installer/ppc64el/vmlinux</kernel>
+      <initrd>current/images/netboot/debian-installer/ppc64el/initrd.gz</initrd>
+    </tree>
+    <tree arch="riscv64">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-riscv64</url>
+      <kernel>current/images/netboot/debian-installer/riscv64/linux</kernel>
+      <initrd>current/images/netboot/debian-installer/riscv64/initrd.gz</initrd>
+    </tree>
+    <tree arch="s390x">
+      <url>http://deb.debian.org/debian/dists/testing/main/installer-s390x</url>
+      <kernel>current/images/generic/kernel.debian</kernel>
+      <initrd>current/images/generic/initrd.debian</initrd>
     </tree>
 
     <installer>

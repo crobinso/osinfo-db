@@ -1,9 +1,9 @@
 CD-ROM is in ISO 9660 format
 System id: 
-Volume id: Debian testing i386 1
+Volume id: Debian testing armhf n
 Volume set id: 
 Publisher id: 
-Data preparer id: XORRISO-1.5.0 2018.09.15.133001, LIBISOBURN-1.5.0, LIBISOFS-1.5.0, LIBBURN-1.5.0
+Data preparer id: XORRISO-1.5.4 2021.01.30.150001, LIBISOBURN-1.5.4, LIBISOFS-1.5.4, LIBBURN-1.5.4
 Application id: 
 Copyright File id: 
 Abstract File id: 
@@ -11,13 +11,13 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1925120
-El Torito VD version 1 found, boot catalog is in sector 5750
+Volume size is: 479744
+El Torito VD version 1 found, boot catalog is in sector 1195
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
 Eltorito validation header:
     Hid 1
-    Arch 0 (x86)
+    Arch 239 (Unknown Arch)
     ID ''
     Key 55 AA
     Eltorito defaultboot header:
@@ -25,5 +25,5 @@ Eltorito validation header:
         Boot media 0 (No Emulation Boot)
         Load segment 0
         Sys type 0
-        Nsect 4
-        Bootoff 1AEF 6895
+        Nsect 320
+        Bootoff 4AC 1196
