@@ -1,0 +1,335 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/10.4">
+    <short-id>alt10.4</short-id>
+    <name>ALT 10.4</name>
+    <version>10.4</version>
+    <vendor>BaseALT</vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Aronia</codename>
+    <upgrades id="http://altlinux.org/alt/10.3"/>
+    <derives-from id="http://altlinux.org/alt/10.3"/>
+
+    <release-date>2024-10-07</release-date>
+    <eol-date>2026-06-30</eol-date>
+
+    <variant id="workstation">
+      <name>ALT Workstation 10.4</name>
+    </variant>
+    <variant id="kworkstation">
+      <name>ALT Workstation K 10.4</name>
+    </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 10.4</name>
+    </variant>
+    <variant id="education">
+      <name>ALT Education 10.4</name>
+    </variant>
+    <variant id="education-live">
+      <name>ALT Education Live 10.4</name>
+    </variant>
+    <variant id="server">
+      <name>ALT Server 10.4</name>
+    </variant>
+    <variant id="server-v">
+      <name>ALT Virtualization Server 10.4</name>
+    </variant>
+    <variant id="simply">
+      <name>ALT Simply 10.4</name>
+    </variant>
+    <variant id="simply-live">
+      <name>ALT Simply live 10.4</name>
+    </variant>
+
+    <!-- Workstation -->
+    <media arch="aarch64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/workstation/aarch64/alt-workstation-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 10\.4(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="i686">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/workstation/i586/alt-workstation-10.4-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 10\.4(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="workstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/workstation/x86_64/alt-workstation-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation 10\.4(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10.4-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.4(\.\d+)*</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.4(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Workstation K Live -->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10.4-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.4(\.\d+)* Live</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.4(\.\d+)* LIVE X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Server -->
+    <media arch="aarch64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/server/aarch64/alt-server-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 10\.4(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="server"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/server/x86_64/alt-server-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server 10\.4(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Server-V  -->
+    <media arch="aarch64">
+      <variant id="server-v"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/server-v/aarch64/alt-server-v-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server-V 10\.4(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="server-v"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/server-v/x86_64/alt-server-v-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Server-V 10\.4(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Education -->
+    <media arch="aarch64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/aarch64/alt-education-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  AARCH64.*</application-id>
+        <volume-size>6465036288</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="i686">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/i586/alt-education-10.4-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  I586.*</application-id>
+        <volume-size>7050903552</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="education"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/x86_64/alt-education-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  X86_64.*</application-id>
+        <volume-size>8323596288</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Education Live -->
+    <media arch="aarch64" live="true">
+      <variant id="education-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/aarch64/alt-education-live-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  AARCH64.*</application-id>
+        <volume-size>2819809280</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="i686" live="true">
+      <variant id="education-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/i586/alt-education-live-10.4-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  I586.*</application-id>
+        <volume-size>2709946368</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="education-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/education/x86_64/alt-education-live-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Education</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT EDUCATION  X86_64.*</application-id>
+        <volume-size>3348889600</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+
+    <!-- Simply -->
+    <media arch="i686">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/i586/slinux-10.4-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 10\.4(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/x86_64/slinux-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 10\.4(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/aarch64/slinux-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 10\.4(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Simply Live -->
+    <media arch="i686" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/i586/slinux-live-10.4-i586.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 10\.4(\.\d+)* i586</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="x86_64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/x86_64/slinux-live-10.4-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 10\.4(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64" live="true">
+      <variant id="simply-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/simply/aarch64/slinux-live-10.4-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux live 10\.4(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+
+  </os>
+</libosinfo>
