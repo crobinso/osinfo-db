@@ -98,9 +98,10 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Education 11\.0(\.\d+)* x86_64</volume-id>
+        <volume-id>ALT Education 11\.0(\.\d+)*</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>ALT EDUCATION 11\.0(\.\d+)* X86_64.*</application-id>
+        <volume-size>9687877632</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -111,9 +112,10 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-11.0-aarch64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Education 11\.0(\.\d+)* aarch64</volume-id>
+        <volume-id>ALT Education 11\.0(\.\d+)*</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>ALT EDUCATION 11\.0(\.\d+)* AARCH64.*</application-id>
+        <volume-size>8293494784</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -125,9 +127,10 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-live-11.0-x86_64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Education 11\.0(\.\d+)* Live x86_64</volume-id>
+        <volume-id>ALT Education 11\.0(\.\d+)*</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <application-id>ALT EDUCATION 11\.0(\.\d+)* LIVE X86_64.*</application-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* X86_64.*</application-id>
+        <volume-size>2203043840</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
@@ -138,9 +141,10 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/education/aarch64/alt-education-live-11.0-aarch64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Education 11\.0(\.\d+)* Live aarch64</volume-id>
+        <volume-id>ALT Education 11\.0(\.\d+)*</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
-        <application-id>ALT EDUCATION 11\.0(\.\d+)* LIVE AARCH64.*</application-id>
+        <application-id>ALT EDUCATION 11\.0(\.\d+)* AARCH64.*</application-id>
+        <volume-size>2146279424</volume-size>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
