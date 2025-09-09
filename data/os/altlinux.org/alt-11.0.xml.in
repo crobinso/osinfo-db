@@ -9,8 +9,8 @@
     <family>linux</family>
     <distro>alt</distro>
     <codename>Prometheus</codename>
-    <upgrades id="http://altlinux.org/alt/10.3"/>
-    <derives-from id="http://altlinux.org/alt/10.3"/>
+    <upgrades id="http://altlinux.org/alt/10.4"/>
+    <derives-from id="http://altlinux.org/alt/10.4"/>
 
     <release-date>2025-04-29</release-date>
     <eol-date>2027-12-31</eol-date>
