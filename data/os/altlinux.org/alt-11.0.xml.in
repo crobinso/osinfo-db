@@ -30,6 +30,9 @@
     <variant id="education-live">
       <name>ALT Education Live 11.0</name>
     </variant>
+    <variant id="simply">
+      <name>ALT Simply 11.0</name>
+    </variant>
     <variant id="server">
       <name>ALT Server 11.0</name>
     </variant>
@@ -145,6 +148,31 @@
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>ALT EDUCATION 11\.0(\.\d+)* AARCH64.*</application-id>
         <volume-size>2146279424</volume-size>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <!-- Simply -->
+    <media arch="x86_64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/simply/x86_64/slinux-11.0-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 11\.0(\.\d+)* x86_64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+
+    <media arch="aarch64">
+      <variant id="simply"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/simply/aarch64/slinux-11.0-aarch64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>Simply Linux 11\.0(\.\d+)* aarch64</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
       </iso>
       <kernel>boot/vmlinuz</kernel>
       <initrd>boot/initrd.img</initrd>
