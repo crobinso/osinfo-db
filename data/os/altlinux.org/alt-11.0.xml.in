@@ -183,7 +183,7 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/virtualization/x86_64/alt-virtualization-pve-11.0-x86_64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Virtualization PVE 11\.0(\.\d+)* x86_64</volume-id>
+        <volume-id>ALT Virtualization 11\.0(\.\d+)* x86_64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>ALT VIRTUALIZATION PVE 11\.0(\.\d+)* X86_64.*</application-id>
       </iso>
@@ -196,7 +196,7 @@
       <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p11/images/virtualization/aarch64/alt-virtualization-pve-11.0-aarch64.iso</url>
       <iso>
         <system-id>LINUX</system-id>
-        <volume-id>ALT Virtualization PVE 11\.0(\.\d+)* aarch64</volume-id>
+        <volume-id>ALT Virtualization 11\.0(\.\d+)* aarch64</volume-id>
         <publisher-id>BASEALT LTD</publisher-id>
         <application-id>ALT VIRTUALIZATION PVE 11\.0(\.\d+)* AARCH64.*</application-id>
       </iso>
