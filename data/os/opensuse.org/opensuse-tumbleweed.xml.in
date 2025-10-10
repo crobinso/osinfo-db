@@ -8,8 +8,8 @@
     <vendor>openSUSE</vendor>
     <family>linux</family>
     <distro>opensuse</distro>
-    <upgrades id="http://opensuse.org/opensuse/15.0"/>
-    <derives-from id="http://opensuse.org/opensuse/15.0"/>
+    <upgrades id="http://opensuse.org/opensuse/16.0"/>
+    <derives-from id="http://opensuse.org/opensuse/16.0"/>
 
     <variant id="netinst">
       <name>openSUSE Tumbleweed</name>
