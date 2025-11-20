@@ -213,8 +213,8 @@ def _shortid_ids_cb(xml):
     return _generic_ids_cb(xml, "shortid")
 
 
-def _filename_ids_cb(xml):
-    return _generic_ids_cb(xml, "path")
+def _internal_id_ids_cb(xml):
+    return _generic_ids_cb(xml, "internal_id")
 
 
 def os_parametrize(argname, **kwargs):
@@ -232,7 +232,7 @@ def device_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     devices = DataFiles.devices(**kwargs)
-    return pytest.mark.parametrize(argname, devices, ids=_filename_ids_cb)
+    return pytest.mark.parametrize(argname, devices, ids=_internal_id_ids_cb)
 
 
 def datamap_parametrize(argname, **kwargs):
@@ -241,7 +241,7 @@ def datamap_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     datamaps = DataFiles.datamaps(**kwargs).values()
-    return pytest.mark.parametrize(argname, datamaps, ids=_filename_ids_cb)
+    return pytest.mark.parametrize(argname, datamaps, ids=_internal_id_ids_cb)
 
 
 def installscript_parametrize(argname, **kwargs):
@@ -250,7 +250,7 @@ def installscript_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     installscripts = DataFiles.installscripts(**kwargs).values()
-    return pytest.mark.parametrize(argname, installscripts, ids=_filename_ids_cb)
+    return pytest.mark.parametrize(argname, installscripts, ids=_internal_id_ids_cb)
 
 
 def platform_parametrize(argname, **kwargs):
