@@ -479,3 +479,7 @@ class Platform(_XMLBase):
     @_cache_property
     def internal_id(self):
         return self._root.get("id")
+
+    @_cache_property
+    def shortid(self):
+        return self._get_text("short-id")

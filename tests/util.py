@@ -259,7 +259,7 @@ def platform_parametrize(argname, **kwargs):
     extra arguments to DataFiles.oses()
     """
     platforms = DataFiles.platforms(**kwargs)
-    return pytest.mark.parametrize(argname, platforms, ids=_filename_ids_cb)
+    return pytest.mark.parametrize(argname, platforms, ids=_shortid_ids_cb)
 
 
 class _SourceFiles(_Files):
