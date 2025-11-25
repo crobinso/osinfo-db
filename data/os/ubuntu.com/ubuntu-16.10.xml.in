@@ -3,6 +3,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://ubuntu.com/ubuntu/16.10">
     <short-id>ubuntu16.10</short-id>
+    <short-id>ubuntuyakkety</short-id>
     <short-id>ubuntutyakkety</short-id>
     <name>Ubuntu 16.10</name>
     <version>16.10</version>

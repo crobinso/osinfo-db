@@ -3,6 +3,7 @@
      See http://www.gnu.org/licenses/ for a copy of the license text -->
   <os id="http://ubuntu.com/ubuntu/17.04">
     <short-id>ubuntu17.04</short-id>
+    <short-id>ubuntuzesty</short-id>
     <short-id>ubuntutzesty</short-id>
     <name>Ubuntu 17.04</name>
     <version>17.04</version>
