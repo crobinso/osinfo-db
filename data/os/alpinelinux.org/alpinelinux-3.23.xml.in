@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://alpinelinux.org/alpinelinux/3.23">
+    <short-id>alpinelinux3.23</short-id>
+    <name>Alpine Linux 3.23</name>
+    <version>3.23</version>
+    <vendor>Alpine Linux Project</vendor>
+    <family>linux</family>
+    <distro>alpinelinux</distro>
+    <upgrades id="http://alpinelinux.org/alpinelinux/3.22"/>
+    <derives-from id="http://alpinelinux.org/alpinelinux/3.22"/>
+
+    <release-date>2025-12-03</release-date>
+    <eol-date>2027-11-01</eol-date>
+
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>134217728</ram>
+        <storage>1073741824</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <n-cpus>1</n-cpus>
+        <ram>805306368</ram>
+        <storage>4294967296</storage>
+      </recommended>
+    </resources>
+
+    <variant id="standard">
+      <name>Alpinelinux 3.23 Standard</name>
+    </variant>
+    <variant id="extended">
+      <name>Alpinelinux 3.23 Extended</name>
+    </variant>
+    <variant id="virtual">
+      <name>Alpinelinux 3.23 Virtual</name>
+    </variant>
+    <variant id="xen">
+      <name>Alpinelinux 3.23 Xen</name>
+    </variant>
+
+    <!-- Standard Installer !-->
+    <media arch="aarch64">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/aarch64/alpine-standard-3.23.0-aarch64.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* aarch64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86/alpine-standard-3.23.0-x86.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* x86$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86_64/alpine-standard-3.23.0-x86_64.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* x86_64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="ppc64le">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/ppc64le/alpine-standard-3.23.0-ppc64le.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* ppc64le$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="s390x">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/s390x/alpine-standard-3.23.0-s390x.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* s390x$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/armv7/alpine-standard-3.23.0-armv7.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* armv7$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="loongarch64">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/loongarch64/alpine-standard-3.23.0-loongarch64.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* loongarch64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="riscv64">
+      <variant id="standard"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/riscv64/alpine-standard-3.23.0-riscv64.iso</url>
+      <iso>
+        <volume-id>alpine-std 3\.23.* riscv64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+
+    <!-- Extended Installer !-->
+    <media arch="i686">
+      <variant id="extended"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86/alpine-extended-3.23.0-x86.iso</url>
+      <iso>
+        <volume-id>alpine-ext 3\.23.* x86$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="extended"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86_64/alpine-extended-3.23.0-x86_64.iso</url>
+      <iso>
+        <volume-id>alpine-ext 3\.23.* x86_64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+
+    <!-- Virtual Installer !-->
+    <media arch="aarch64">
+      <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/aarch64/alpine-virt-3.23.0-aarch64.iso</url>
+      <iso>
+        <volume-id>alpine-virt 3\.23.* aarch64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
+    </media>
+    <media arch="i686">
+      <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86/alpine-virt-3.23.0-x86.iso</url>
+      <iso>
+        <volume-id>alpine-virt 3\.23.* x86$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
+    </media>
+    <media arch="x86_64">
+      <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86_64/alpine-virt-3.23.0-x86_64.iso</url>
+      <iso>
+        <volume-id>alpine-virt 3\.23.* x86_64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
+    </media>
+    <media arch="armv7l">
+      <variant id="virtual"/>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.23/releases/armv7/alpine-virt-3.23.0-armv7.iso</url>
+      <iso>
+        <volume-id>alpine-virt 3\.23.* armv7$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-virt</kernel>
+      <initrd>boot/initramfs-virt</initrd>
+    </media>
+
+    <!-- Xen Installer !-->
+    <media arch="x86_64">
+      <variant id="xen"/>
+      <url>https://dl-cdn.alpinelinux.org/v3.23/releases/x86_64/alpine-xen-3.23.0-x86_64.iso</url>
+      <iso>
+        <volume-id>alpine-xen 3\.23.* x86_64$</volume-id>
+      </iso>
+      <kernel>boot/vmlinuz-lts</kernel>
+      <initrd>boot/initramfs-lts</initrd>
+    </media>
+  </os>
+</libosinfo>
