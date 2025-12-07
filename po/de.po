@@ -4,7 +4,7 @@
 #
 # Translators:
 # Daniel Berrange <dan-zanata@berrange.com>, 2016. #zanata
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023, 2024.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2023, 2024, 2025.
 # Philipp Hahn <pmhahn+fedora@pmhahn.de>, 2022.
 # Flo H <emailtoflorian@gmail.com>, 2022.
 msgid ""
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2024-11-09 20:38+0000\n"
+"PO-Revision-Date: 2025-11-04 03:54+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/"
 "libosinfo/osinfo-db/de/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.14\n"
 
 #: data/device/ibasetechnologies.net/isa-ib700.xml.in:5
 msgid "ib700"
@@ -650,10 +650,8 @@ msgid "ALT Server 10.1"
 msgstr "ALT Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.1"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.1"
 
 #: data/os/altlinux.org/alt-10.1.xml.in:40
 msgid "ALT Simply 10.1"
@@ -664,70 +662,48 @@ msgid "ALT Simply Live 10.1"
 msgstr "ALT Simply Live 10.1"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.2"
-msgstr "ALT 10.0"
+msgstr "ALT 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:19
-#, fuzzy
-#| msgid "ALT Workstation 10.0"
 msgid "ALT Workstation 10.2"
-msgstr "ALT Workstation 10.0"
+msgstr "ALT Workstation 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:22
-#, fuzzy
-#| msgid "ALT Workstation K 10.0"
 msgid "ALT Workstation K 10.2"
-msgstr "ALT Workstation K 10.0"
+msgstr "ALT Workstation K 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:25
-#, fuzzy
-#| msgid "ALT Workstation K Live 10.0"
 msgid "ALT Workstation K Live 10.2"
-msgstr "ALT Workstation K Live 10.0"
+msgstr "ALT Workstation K Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:28
-#, fuzzy
-#| msgid "ALT Education 10.0"
 msgid "ALT Education 10.2"
-msgstr "ALT Education 10.0"
+msgstr "ALT Education 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:31
-#, fuzzy
-#| msgid "ALT Education Live 10.1"
 msgid "ALT Education Live 10.2"
-msgstr "ALT Education Live 10.1"
+msgstr "ALT Education Live 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:34
-#, fuzzy
-#| msgid "ALT Server 10.0"
 msgid "ALT Server 10.2"
-msgstr "ALT Server 10.0"
+msgstr "ALT Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:37
-#, fuzzy
-#| msgid "ALT Virtualization Server 10.0"
 msgid "ALT Virtualization Server 10.2"
-msgstr "ALT Virtualization Server 10.0"
+msgstr "ALT Virtualization Server 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:40
-#, fuzzy
-#| msgid "ALT Simply 10.0"
 msgid "ALT Simply 10.2"
-msgstr "ALT Simply 10.0"
+msgstr "ALT Simply 10.2"
 
 #: data/os/altlinux.org/alt-10.2.xml.in:43
-#, fuzzy
-#| msgid "ALT Simply Live 10.1"
 msgid "ALT Simply Live 10.2"
-msgstr "ALT Simply Live 10.1"
+msgstr "ALT Simply Live 10.2"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:6
-#, fuzzy
-#| msgid "ALT 10.0"
 msgid "ALT 10.3"
-msgstr "ALT 10.0"
+msgstr "ALT 10.3"
 
 #: data/os/altlinux.org/alt-10.3.xml.in:19
 #, fuzzy
