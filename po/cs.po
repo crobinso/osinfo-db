@@ -2,13 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the osinfo-db package.
 # Pavel Borecki <pavel.borecki@gmail.com>, 2023, 2024, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
 "PO-Revision-Date: 2025-12-06 21:59+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/libosinfo/"
 "osinfo-db/cs/>\n"
 "Language: cs\n"
@@ -2515,7 +2517,7 @@ msgstr "Fedora ELN"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:6
 msgid "Fedora Rawhide"
-msgstr ""
+msgstr "Fedora Rawhide"
 
 #: data/os/fedoraproject.org/fedora-rawhide.xml.in:16
 msgid "Fedora Rawhide Workstation"
@@ -4324,7 +4326,7 @@ msgstr "openSUSE 10.2"
 #: data/os/opensuse.org/opensuse-unknown.xml.in:6
 #: data/os/opensuse.org/opensuse-unknown.xml.in:8
 msgid "openSUSE"
-msgstr ""
+msgstr "openSUSE"
 
 #: data/os/opensuse.org/opensuse-10.3.xml.in:6
 #, fuzzy
@@ -5410,7 +5412,7 @@ msgstr "Rocky Linux 8 neznámé"
 #: data/os/rockylinux.org/rocky-9.xml.in:8
 #: data/os/rockylinux.org/rocky-unknown.xml.in:8
 msgid "Rocky Enterprise Software Foundation"
-msgstr ""
+msgstr "Rocky Enterprise Software Foundation"
 
 #: data/os/rockylinux.org/rocky-8.4.xml.in:6
 #, fuzzy
