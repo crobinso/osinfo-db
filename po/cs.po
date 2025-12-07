@@ -8,9 +8,8 @@ msgstr ""
 "Project-Id-Version: osinfo-db\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 06:59+0200\n"
-"PO-Revision-Date: 2025-12-06 21:59+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2025-12-07 15:58+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/libosinfo/"
 "osinfo-db/cs/>\n"
 "Language: cs\n"
@@ -4132,133 +4131,111 @@ msgstr "OpenBSD 4.9"
 
 #: data/os/openbsd.org/openbsd-5.0.xml.in:6
 #: data/os/openbsd.org/openbsd-5.0.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.0"
 msgstr "OpenBSD 5.0"
 
 #: data/os/openbsd.org/openbsd-5.1.xml.in:6
 #: data/os/openbsd.org/openbsd-5.1.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.1"
 msgstr "OpenBSD 5.1"
 
 #: data/os/openbsd.org/openbsd-5.2.xml.in:6
 #: data/os/openbsd.org/openbsd-5.2.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.2"
 msgstr "OpenBSD 5.2"
 
 #: data/os/openbsd.org/openbsd-5.3.xml.in:6
 #: data/os/openbsd.org/openbsd-5.3.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.3"
 msgstr "OpenBSD 5.3"
 
 #: data/os/openbsd.org/openbsd-5.4.xml.in:6
 #: data/os/openbsd.org/openbsd-5.4.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.4"
 msgstr "OpenBSD 5.4"
 
 #: data/os/openbsd.org/openbsd-5.5.xml.in:6
 #: data/os/openbsd.org/openbsd-5.5.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.5"
 msgstr "OpenBSD 5.5"
 
 #: data/os/openbsd.org/openbsd-5.6.xml.in:6
 #: data/os/openbsd.org/openbsd-5.6.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.6"
 msgstr "OpenBSD 5.6"
 
 #: data/os/openbsd.org/openbsd-5.7.xml.in:6
 #: data/os/openbsd.org/openbsd-5.7.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.7"
 msgstr "OpenBSD 5.7"
 
 #: data/os/openbsd.org/openbsd-5.8.xml.in:6
 #: data/os/openbsd.org/openbsd-5.8.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.8"
 msgstr "OpenBSD 5.8"
 
 #: data/os/openbsd.org/openbsd-5.9.xml.in:6
 #: data/os/openbsd.org/openbsd-5.9.xml.in:18
-#, fuzzy
 msgid "OpenBSD 5.9"
 msgstr "OpenBSD 5.9"
 
 #: data/os/openbsd.org/openbsd-6.0.xml.in:6
 #: data/os/openbsd.org/openbsd-6.0.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.0"
 msgstr "OpenBSD 6.0"
 
 #: data/os/openbsd.org/openbsd-6.1.xml.in:6
 #: data/os/openbsd.org/openbsd-6.1.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.1"
 msgstr "OpenBSD 6.1"
 
 #: data/os/openbsd.org/openbsd-6.2.xml.in:6
 #: data/os/openbsd.org/openbsd-6.2.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.2"
 msgstr "OpenBSD 6.2"
 
 #: data/os/openbsd.org/openbsd-6.3.xml.in:6
 #: data/os/openbsd.org/openbsd-6.3.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.3"
 msgstr "OpenBSD 6.3"
 
 #: data/os/openbsd.org/openbsd-6.4.xml.in:6
 #: data/os/openbsd.org/openbsd-6.4.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.4"
 msgstr "OpenBSD 6.4"
 
 #: data/os/openbsd.org/openbsd-6.5.xml.in:6
 #: data/os/openbsd.org/openbsd-6.5.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.5"
 msgstr "OpenBSD 6.5"
 
 #: data/os/openbsd.org/openbsd-6.6.xml.in:6
 #: data/os/openbsd.org/openbsd-6.6.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.6"
 msgstr "OpenBSD 6.6"
 
 #: data/os/openbsd.org/openbsd-6.7.xml.in:6
 #: data/os/openbsd.org/openbsd-6.7.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.7"
 msgstr "OpenBSD 6.7"
 
 #: data/os/openbsd.org/openbsd-6.8.xml.in:6
 #: data/os/openbsd.org/openbsd-6.8.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.8"
 msgstr "OpenBSD 6.8"
 
 #: data/os/openbsd.org/openbsd-6.9.xml.in:6
 #: data/os/openbsd.org/openbsd-6.9.xml.in:18
-#, fuzzy
 msgid "OpenBSD 6.9"
 msgstr "OpenBSD 6.9"
 
 #: data/os/openbsd.org/openbsd-7.0.xml.in:6
 #: data/os/openbsd.org/openbsd-7.0.xml.in:18
-#, fuzzy
 msgid "OpenBSD 7.0"
 msgstr "OpenBSD 7.0"
 
 #: data/os/openbsd.org/openbsd-7.1.xml.in:6
 #: data/os/openbsd.org/openbsd-7.1.xml.in:18
-#, fuzzy
 msgid "OpenBSD 7.1"
 msgstr "OpenBSD 7.1"
 
@@ -4269,24 +4246,20 @@ msgstr "OpenBSD 7.2"
 
 #: data/os/openbsd.org/openbsd-7.3.xml.in:6
 #: data/os/openbsd.org/openbsd-7.3.xml.in:18
-#, fuzzy
 msgid "OpenBSD 7.3"
 msgstr "OpenBSD 7.3"
 
 #: data/os/openbsd.org/openbsd-7.4.xml.in:6
 #: data/os/openbsd.org/openbsd-7.4.xml.in:18
-#, fuzzy
 msgid "OpenBSD 7.4"
 msgstr "OpenBSD 7.4"
 
 #: data/os/openbsd.org/openbsd-7.5.xml.in:6
 #: data/os/openbsd.org/openbsd-7.5.xml.in:18
-#, fuzzy
 msgid "OpenBSD 7.5"
 msgstr "OpenBSD 7.5"
 
 #: data/os/openindiana.org/hipster-rolling.xml.in:6
-#, fuzzy
 msgid "OpenIndiana Hipster"
 msgstr "OpenIndiana Hipster"
 
@@ -4295,7 +4268,6 @@ msgid "illumos"
 msgstr "illumos"
 
 #: data/os/opensuse.org/opensuse-10.2.xml.in:6
-#, fuzzy
 msgid "openSUSE 10.2"
 msgstr "openSUSE 10.2"
 
@@ -4329,125 +4301,102 @@ msgid "openSUSE"
 msgstr "openSUSE"
 
 #: data/os/opensuse.org/opensuse-10.3.xml.in:6
-#, fuzzy
 msgid "openSUSE 10.3"
 msgstr "openSUSE 10.3"
 
 #: data/os/opensuse.org/opensuse-11.0.xml.in:6
-#, fuzzy
 msgid "openSUSE 11.0"
 msgstr "openSUSE 11.0"
 
 #: data/os/opensuse.org/opensuse-11.1.xml.in:6
-#, fuzzy
 msgid "openSUSE 11.1"
 msgstr "openSUSE 11.1"
 
 #: data/os/opensuse.org/opensuse-11.2.xml.in:6
-#, fuzzy
 msgid "openSUSE 11.2"
 msgstr "openSUSE 11.2"
 
 #: data/os/opensuse.org/opensuse-11.3.xml.in:6
-#, fuzzy
 msgid "openSUSE 11.3"
 msgstr "openSUSE 11.3"
 
 #: data/os/opensuse.org/opensuse-11.4.xml.in:6
-#, fuzzy
 msgid "openSUSE 11.4"
 msgstr "openSUSE 11.4"
 
 #: data/os/opensuse.org/opensuse-12.1.xml.in:6
-#, fuzzy
 msgid "openSUSE 12.1"
 msgstr "openSUSE 12.1"
 
 #: data/os/opensuse.org/opensuse-12.2.xml.in:6
-#, fuzzy
 msgid "openSUSE 12.2"
 msgstr "openSUSE 12.2"
 
 #: data/os/opensuse.org/opensuse-12.3.xml.in:6
-#, fuzzy
 msgid "openSUSE 12.3"
 msgstr "openSUSE 12.3"
 
 #: data/os/opensuse.org/opensuse-13.1.xml.in:6
-#, fuzzy
 msgid "openSUSE 13.1"
 msgstr "openSUSE 13.1"
 
 #: data/os/opensuse.org/opensuse-13.2.xml.in:6
-#, fuzzy
 msgid "openSUSE 13.2"
 msgstr "openSUSE 13.2"
 
 #: data/os/opensuse.org/opensuse-15.0.xml.in:6
 #: data/os/opensuse.org/opensuse-15.0.xml.in:18
-#, fuzzy
 msgid "openSUSE Leap 15.0"
 msgstr "openSUSE Leap 15.0"
 
 #: data/os/opensuse.org/opensuse-15.1.xml.in:6
 #: data/os/opensuse.org/opensuse-15.1.xml.in:18
-#, fuzzy
 msgid "openSUSE Leap 15.1"
 msgstr "openSUSE Leap 15.1"
 
 #: data/os/opensuse.org/opensuse-15.2.xml.in:6
 #: data/os/opensuse.org/opensuse-15.2.xml.in:18
-#, fuzzy
 msgid "openSUSE Leap 15.2"
 msgstr "openSUSE Leap 15.2"
 
 #: data/os/opensuse.org/opensuse-15.3.xml.in:6
 #: data/os/opensuse.org/opensuse-15.3.xml.in:18
-#, fuzzy
 msgid "openSUSE Leap 15.3"
 msgstr "openSUSE Leap 15.3"
 
 #: data/os/opensuse.org/opensuse-15.4.xml.in:6
 #: data/os/opensuse.org/opensuse-15.4.xml.in:17
-#, fuzzy
 msgid "openSUSE Leap 15.4"
 msgstr "openSUSE Leap 15.4"
 
 #: data/os/opensuse.org/opensuse-15.5.xml.in:6
 #: data/os/opensuse.org/opensuse-15.5.xml.in:17
-#, fuzzy
 msgid "openSUSE Leap 15.5"
 msgstr "openSUSE Leap 15.5"
 
 #: data/os/opensuse.org/opensuse-42.1.xml.in:6
-#, fuzzy
 msgid "openSUSE Leap 42.1"
 msgstr "openSUSE Leap 42.1"
 
 #: data/os/opensuse.org/opensuse-42.2.xml.in:6
-#, fuzzy
 msgid "openSUSE Leap 42.2"
 msgstr "openSUSE Leap 42.2"
 
 #: data/os/opensuse.org/opensuse-42.3.xml.in:6
 #: data/os/opensuse.org/opensuse-42.3.xml.in:18
-#, fuzzy
 msgid "openSUSE Leap 42.3"
 msgstr "openSUSE Leap 42.3"
 
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:6
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:15
-#, fuzzy
 msgid "openSUSE Tumbleweed"
 msgstr "openSUSE Tumbleweed"
 
 #: data/os/opensuse.org/opensuse-tumbleweed.xml.in:18
-#, fuzzy
 msgid "openSUSE Tumbleweed (Kubic)"
 msgstr "openSUSE Tumbleweed (Kubic)"
 
 #: data/os/oracle.com/oel-4.4.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.4"
 msgstr "Oracle Enterprise Linux 4.4"
 
@@ -4479,207 +4428,166 @@ msgstr "Oracle Enterprise Linux 4.4"
 #: data/os/oracle.com/ol-9-unknown.xml.in:7 data/os/oracle.com/ol-9.0.xml.in:7
 #: data/os/oracle.com/ol-9.1.xml.in:7 data/os/oracle.com/ol-9.2.xml.in:7
 #: data/os/oracle.com/ol-9.3.xml.in:7 data/os/oracle.com/ol-9.4.xml.in:7
-#, fuzzy
 msgid "Oracle America"
 msgstr "Oracle America"
 
 #: data/os/oracle.com/oel-4.5.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.5"
 msgstr "Oracle Enterprise Linux 4.5"
 
 #: data/os/oracle.com/oel-4.6.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.6"
 msgstr "Oracle Enterprise Linux 4.6"
 
 #: data/os/oracle.com/oel-4.7.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.7"
 msgstr "Oracle Enterprise Linux 4.7"
 
 #: data/os/oracle.com/oel-4.8.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.8"
 msgstr "Oracle Enterprise Linux 4.8"
 
 #: data/os/oracle.com/oel-4.9.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 4.9"
 msgstr "Oracle Enterprise Linux 4.9"
 
 #: data/os/oracle.com/oel-5.0.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.0"
 msgstr "Oracle Enterprise Linux 5.0"
 
 #: data/os/oracle.com/oel-5.1.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.1"
 msgstr "Oracle Enterprise Linux 5.1"
 
 #: data/os/oracle.com/oel-5.2.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.2"
 msgstr "Oracle Enterprise Linux 5.2"
 
 #: data/os/oracle.com/oel-5.3.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.3"
 msgstr "Oracle Enterprise Linux 5.3"
 
 #: data/os/oracle.com/oel-5.4.xml.in:4
-#, fuzzy
 msgid "Oracle Enterprise Linux 5.4"
 msgstr "Oracle Enterprise Linux 5.4"
 
 #: data/os/oracle.com/ol-5.10.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.10"
 msgstr "Oracle Linux 5.10"
 
 #: data/os/oracle.com/ol-5.11.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.11"
 msgstr "Oracle Linux 5.11"
 
 #: data/os/oracle.com/ol-5.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.5"
 msgstr "Oracle Linux 5.5"
 
 #: data/os/oracle.com/ol-5.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.6"
 msgstr "Oracle Linux 5.6"
 
 #: data/os/oracle.com/ol-5.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.7"
 msgstr "Oracle Linux 5.7"
 
 #: data/os/oracle.com/ol-5.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.8"
 msgstr "Oracle Linux 5.8"
 
 #: data/os/oracle.com/ol-5.9.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 5.9"
 msgstr "Oracle Linux 5.9"
 
 #: data/os/oracle.com/ol-6.0.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.0"
 msgstr "Oracle Linux 6.0"
 
 #: data/os/oracle.com/ol-6.1.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.1"
 msgstr "Oracle Linux 6.1"
 
 #: data/os/oracle.com/ol-6.10.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.10"
 msgstr "Oracle Linux 6.10"
 
 #: data/os/oracle.com/ol-6.2.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.2"
 msgstr "Oracle Linux 6.2"
 
 #: data/os/oracle.com/ol-6.3.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.3"
 msgstr "Oracle Linux 6.3"
 
 #: data/os/oracle.com/ol-6.4.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.4"
 msgstr "Oracle Linux 6.4"
 
 #: data/os/oracle.com/ol-6.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.5"
 msgstr "Oracle Linux 6.5"
 
 #: data/os/oracle.com/ol-6.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.6"
 msgstr "Oracle Linux 6.6"
 
 #: data/os/oracle.com/ol-6.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.7"
 msgstr "Oracle Linux 6.7"
 
 #: data/os/oracle.com/ol-6.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.8"
 msgstr "Oracle Linux 6.8"
 
 #: data/os/oracle.com/ol-6.9.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 6.9"
 msgstr "Oracle Linux 6.9"
 
 #: data/os/oracle.com/ol-7.0.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.0"
 msgstr "Oracle Linux 7.0"
 
 #: data/os/oracle.com/ol-7.1.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.1"
 msgstr "Oracle Linux 7.1"
 
 #: data/os/oracle.com/ol-7.2.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.2"
 msgstr "Oracle Linux 7.2"
 
 #: data/os/oracle.com/ol-7.3.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.3"
 msgstr "Oracle Linux 7.3"
 
 #: data/os/oracle.com/ol-7.4.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.4"
 msgstr "Oracle Linux 7.4"
 
 #: data/os/oracle.com/ol-7.5.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.5"
 msgstr "Oracle Linux 7.5"
 
 #: data/os/oracle.com/ol-7.6.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.6"
 msgstr "Oracle Linux 7.6"
 
 #: data/os/oracle.com/ol-7.7.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.7"
 msgstr "Oracle Linux 7.7"
 
 #: data/os/oracle.com/ol-7.8.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.8"
 msgstr "Oracle Linux 7.8"
 
 #: data/os/oracle.com/ol-7.9.xml.in:4
-#, fuzzy
 msgid "Oracle Linux 7.9"
 msgstr "Oracle Linux 7.9"
 
 #: data/os/oracle.com/ol-8.0.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.0"
 msgstr "Oracle Linux 8.0"
 
 #: data/os/oracle.com/ol-8.1.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.1"
 msgstr "Oracle Linux 8.1"
 
@@ -4688,22 +4596,18 @@ msgid "Oracle Linux 8.10"
 msgstr "Oracle Linux 8.10"
 
 #: data/os/oracle.com/ol-8.2.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.2"
 msgstr "Oracle Linux 8.2"
 
 #: data/os/oracle.com/ol-8.3.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.3"
 msgstr "Oracle Linux 8.3"
 
 #: data/os/oracle.com/ol-8.4.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.4"
 msgstr "Oracle Linux 8.4"
 
 #: data/os/oracle.com/ol-8.5.xml.in:5
-#, fuzzy
 msgid "Oracle Linux 8.5"
 msgstr "Oracle Linux 8.5"
 
@@ -4748,34 +4652,28 @@ msgid "Oracle Linux 9.4"
 msgstr "Oracle Linux 9.4"
 
 #: data/os/oracle.com/solaris-11.xml.in:6
-#, fuzzy
 msgid "Oracle Solaris 11"
 msgstr "Oracle Solaris 11"
 
 #: data/os/oracle.com/solaris-11.xml.in:8
-#, fuzzy
 msgid "Oracle"
 msgstr "Oracle"
 
 #: data/os/pureos.net/pureos-10.xml.in:6 data/os/pureos.net/pureos-8.xml.in:6
 #: data/os/pureos.net/pureos-9.xml.in:6
-#, fuzzy
 msgid "PureOS"
 msgstr "PureOS"
 
 #: data/os/pureos.net/pureos-10.xml.in:8 data/os/pureos.net/pureos-8.xml.in:8
 #: data/os/pureos.net/pureos-9.xml.in:8
-#, fuzzy
 msgid "Purism, SPC"
 msgstr "Purism, SPC"
 
 #: data/os/pureos.net/pureos-10.xml.in:28
-#, fuzzy
 msgid "PureOS 10 GNOME"
 msgstr "PureOS 10 GNOME"
 
 #: data/os/pureos.net/pureos-10.xml.in:31
-#, fuzzy
 msgid "PureOS 10 KDE"
 msgstr "PureOS 10 KDE"
 
@@ -4847,7 +4745,6 @@ msgstr "Red Hat Enterprise Linux 10 neznámá varianta"
 #: data/os/redhat.com/rhl-7.2.xml.in:8 data/os/redhat.com/rhl-7.3.xml.in:8
 #: data/os/redhat.com/rhl-7.xml.in:8 data/os/redhat.com/rhl-8.0.xml.in:8
 #: data/os/redhat.com/rhl-9.xml.in:8
-#, fuzzy
 msgid "Red Hat, Inc"
 msgstr "Red Hat, Inc"
 
@@ -4856,260 +4753,210 @@ msgid "Red Hat Enterprise Linux 10.0"
 msgstr "Red Hat Enterprise Linux 10.0"
 
 #: data/os/redhat.com/rhel-2.1.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 1"
 msgstr "Red Hat Enterprise Linux 2.1 Update 1"
 
 #: data/os/redhat.com/rhel-2.1.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 2"
 msgstr "Red Hat Enterprise Linux 2.1 Update 2"
 
 #: data/os/redhat.com/rhel-2.1.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 3"
 msgstr "Red Hat Enterprise Linux 2.1 Update 3"
 
 #: data/os/redhat.com/rhel-2.1.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 4"
 msgstr "Red Hat Enterprise Linux 2.1 Update 4"
 
 #: data/os/redhat.com/rhel-2.1.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 5"
 msgstr "Red Hat Enterprise Linux 2.1 Update 5"
 
 #: data/os/redhat.com/rhel-2.1.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1 Update 6"
 msgstr "Red Hat Enterprise Linux 2.1 Update 6"
 
 #: data/os/redhat.com/rhel-2.1.7.xml.in:6
 msgid "Red Hat Enterprise Linux 2.1 Update 7"
-msgstr ""
+msgstr "Red Hat Enterprise Linux 2.1 Update 7"
 
 #: data/os/redhat.com/rhel-2.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 2.1"
 msgstr "Red Hat Enterprise Linux 2.1"
 
 #: data/os/redhat.com/rhel-3.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 1"
 msgstr "Red Hat Enterprise Linux 3 Update 1"
 
 #: data/os/redhat.com/rhel-3.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 2"
 msgstr "Red Hat Enterprise Linux 3 Update 2"
 
 #: data/os/redhat.com/rhel-3.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 3"
 msgstr "Red Hat Enterprise Linux 3 Update 3"
 
 #: data/os/redhat.com/rhel-3.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 4"
 msgstr "Red Hat Enterprise Linux 3 Update 4"
 
 #: data/os/redhat.com/rhel-3.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 5"
 msgstr "Red Hat Enterprise Linux 3 Update 5"
 
 #: data/os/redhat.com/rhel-3.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 6"
 msgstr "Red Hat Enterprise Linux 3 Update 6"
 
 #: data/os/redhat.com/rhel-3.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 7"
 msgstr "Red Hat Enterprise Linux 3 Update 7"
 
 #: data/os/redhat.com/rhel-3.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 8"
 msgstr "Red Hat Enterprise Linux 3 Update 8"
 
 #: data/os/redhat.com/rhel-3.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3 Update 9"
 msgstr "Red Hat Enterprise Linux 3 Update 9"
 
 #: data/os/redhat.com/rhel-3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 3"
 msgstr "Red Hat Enterprise Linux 3"
 
 #: data/os/redhat.com/rhel-4.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.0"
 msgstr "Red Hat Enterprise Linux 4.0"
 
 #: data/os/redhat.com/rhel-4.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.1"
 msgstr "Red Hat Enterprise Linux 4.1"
 
 #: data/os/redhat.com/rhel-4.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.2"
 msgstr "Red Hat Enterprise Linux 4.2"
 
 #: data/os/redhat.com/rhel-4.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.3"
 msgstr "Red Hat Enterprise Linux 4.3"
 
 #: data/os/redhat.com/rhel-4.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.4"
 msgstr "Red Hat Enterprise Linux 4.4"
 
 #: data/os/redhat.com/rhel-4.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.5"
 msgstr "Red Hat Enterprise Linux 4.5"
 
 #: data/os/redhat.com/rhel-4.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.6"
 msgstr "Red Hat Enterprise Linux 4.6"
 
 #: data/os/redhat.com/rhel-4.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.7"
 msgstr "Red Hat Enterprise Linux 4.7"
 
 #: data/os/redhat.com/rhel-4.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.8"
 msgstr "Red Hat Enterprise Linux 4.8"
 
 #: data/os/redhat.com/rhel-4.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 4.9"
 msgstr "Red Hat Enterprise Linux 4.9"
 
 #: data/os/redhat.com/rhel-5.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.0"
 msgstr "Red Hat Enterprise Linux 5.0"
 
 #: data/os/redhat.com/rhel-5.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.1"
 msgstr "Red Hat Enterprise Linux 5.1"
 
 #: data/os/redhat.com/rhel-5.10.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.10"
 msgstr "Red Hat Enterprise Linux 5.10"
 
 #: data/os/redhat.com/rhel-5.11.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.11"
 msgstr "Red Hat Enterprise Linux 5.11"
 
 #: data/os/redhat.com/rhel-5.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.2"
 msgstr "Red Hat Enterprise Linux 5.2"
 
 #: data/os/redhat.com/rhel-5.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.3"
 msgstr "Red Hat Enterprise Linux 5.3"
 
 #: data/os/redhat.com/rhel-5.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.4"
 msgstr "Red Hat Enterprise Linux 5.4"
 
 #: data/os/redhat.com/rhel-5.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.5"
 msgstr "Red Hat Enterprise Linux 5.5"
 
 #: data/os/redhat.com/rhel-5.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.6"
 msgstr "Red Hat Enterprise Linux 5.6"
 
 #: data/os/redhat.com/rhel-5.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.7"
 msgstr "Red Hat Enterprise Linux 5.7"
 
 #: data/os/redhat.com/rhel-5.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.8"
 msgstr "Red Hat Enterprise Linux 5.8"
 
 #: data/os/redhat.com/rhel-5.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 5.9"
 msgstr "Red Hat Enterprise Linux 5.9"
 
 #: data/os/redhat.com/rhel-6-unknown.xml.in:6
 msgid "Red Hat Enterprise Linux 6 Unknown"
-msgstr "Red Hat Enterprise Linux 8 neznámé"
+msgstr "Red Hat Enterprise Linux 6 neznámé"
 
 #: data/os/redhat.com/rhel-6.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.0"
 msgstr "Red Hat Enterprise Linux 6.0"
 
 #: data/os/redhat.com/rhel-6.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.1"
 msgstr "Red Hat Enterprise Linux 6.1"
 
 #: data/os/redhat.com/rhel-6.10.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.10"
 msgstr "Red Hat Enterprise Linux 6.10"
 
 #: data/os/redhat.com/rhel-6.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.2"
 msgstr "Red Hat Enterprise Linux 6.2"
 
 #: data/os/redhat.com/rhel-6.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.3"
 msgstr "Red Hat Enterprise Linux 6.3"
 
 #: data/os/redhat.com/rhel-6.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.4"
 msgstr "Red Hat Enterprise Linux 6.4"
 
 #: data/os/redhat.com/rhel-6.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.5"
 msgstr "Red Hat Enterprise Linux 6.5"
 
 #: data/os/redhat.com/rhel-6.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.6"
 msgstr "Red Hat Enterprise Linux 6.6"
 
 #: data/os/redhat.com/rhel-6.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.7"
 msgstr "Red Hat Enterprise Linux 6.7"
 
 #: data/os/redhat.com/rhel-6.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.8"
 msgstr "Red Hat Enterprise Linux 6.8"
 
 #: data/os/redhat.com/rhel-6.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 6.9"
 msgstr "Red Hat Enterprise Linux 6.9"
 
@@ -5118,67 +4965,54 @@ msgid "Red Hat Enterprise Linux 7 Unknown"
 msgstr "Red Hat Enterprise Linux 7 neznámé"
 
 #: data/os/redhat.com/rhel-7.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.0"
 msgstr "Red Hat Enterprise Linux 7.0"
 
 #: data/os/redhat.com/rhel-7.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.1"
 msgstr "Red Hat Enterprise Linux 7.1"
 
 #: data/os/redhat.com/rhel-7.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.2"
 msgstr "Red Hat Enterprise Linux 7.2"
 
 #: data/os/redhat.com/rhel-7.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.3"
 msgstr "Red Hat Enterprise Linux 7.3"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.4"
 msgstr "Red Hat Enterprise Linux 7.4"
 
 #: data/os/redhat.com/rhel-7.4.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.4 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.4 Alternate Architectures"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.5"
 msgstr "Red Hat Enterprise Linux 7.5"
 
 #: data/os/redhat.com/rhel-7.5.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.5 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.5 Alternate Architectures"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.6"
 msgstr "Red Hat Enterprise Linux 7.6"
 
 #: data/os/redhat.com/rhel-7.6.xml.in:18
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.6 Alternate Architectures"
 msgstr "Red Hat Enterprise Linux 7.6 Alternate Architectures"
 
 #: data/os/redhat.com/rhel-7.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.7"
 msgstr "Red Hat Enterprise Linux 7.7"
 
 #: data/os/redhat.com/rhel-7.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.8"
 msgstr "Red Hat Enterprise Linux 7.8"
 
 #: data/os/redhat.com/rhel-7.9.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 7.9"
 msgstr "Red Hat Enterprise Linux 7.9"
 
@@ -5187,12 +5021,10 @@ msgid "Red Hat Enterprise Linux 8 Unknown"
 msgstr "Red Hat Enterprise Linux 8 neznámá"
 
 #: data/os/redhat.com/rhel-8.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.0"
 msgstr "Red Hat Enterprise Linux 8.0"
 
 #: data/os/redhat.com/rhel-8.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.1"
 msgstr "Red Hat Enterprise Linux 8.1"
 
@@ -5201,37 +5033,30 @@ msgid "Red Hat Enterprise Linux 8.10"
 msgstr "Red Hat Enterprise Linux 8.10"
 
 #: data/os/redhat.com/rhel-8.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.2"
 msgstr "Red Hat Enterprise Linux 8.2"
 
 #: data/os/redhat.com/rhel-8.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.3"
 msgstr "Red Hat Enterprise Linux 8.3"
 
 #: data/os/redhat.com/rhel-8.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.4"
 msgstr "Red Hat Enterprise Linux 8.4"
 
 #: data/os/redhat.com/rhel-8.5.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.5"
 msgstr "Red Hat Enterprise Linux 8.5"
 
 #: data/os/redhat.com/rhel-8.6.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.6"
 msgstr "Red Hat Enterprise Linux 8.6"
 
 #: data/os/redhat.com/rhel-8.7.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.7"
 msgstr "Red Hat Enterprise Linux 8.7"
 
 #: data/os/redhat.com/rhel-8.8.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 8.8"
 msgstr "Red Hat Enterprise Linux 8.8"
 
@@ -5244,17 +5069,14 @@ msgid "Red Hat Enterprise Linux 9 Unknown"
 msgstr "Red Hat Enterprise Linux 9 neznámé"
 
 #: data/os/redhat.com/rhel-9.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 9.0"
 msgstr "Red Hat Enterprise Linux 9.0"
 
 #: data/os/redhat.com/rhel-9.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 9.1"
 msgstr "Red Hat Enterprise Linux 9.1"
 
 #: data/os/redhat.com/rhel-9.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux 9.2"
 msgstr "Red Hat Enterprise Linux 9.2"
 
@@ -5271,27 +5093,22 @@ msgid "Red Hat Enterprise Linux 9.5"
 msgstr "Red Hat Enterprise Linux 9.5"
 
 #: data/os/redhat.com/rhel-atomic-7.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.0"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.0"
 
 #: data/os/redhat.com/rhel-atomic-7.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.1"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.1"
 
 #: data/os/redhat.com/rhel-atomic-7.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.2"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.2"
 
 #: data/os/redhat.com/rhel-atomic-7.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.3"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.3"
 
 #: data/os/redhat.com/rhel-atomic-7.4.xml.in:6
-#, fuzzy
 msgid "Red Hat Enterprise Linux Atomic Host 7.4"
 msgstr "Red Hat Enterprise Linux Atomic Host 7.4"
 
@@ -5300,103 +5117,84 @@ msgid "Red Hat Enterprise Linux Unknown"
 msgstr "Red Hat Enterprise Linux neznámé"
 
 #: data/os/redhat.com/rhl-1.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 1.0"
 msgstr "Red Hat Linux 1.0"
 
 #: data/os/redhat.com/rhl-1.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 1.1"
 msgstr "Red Hat Linux 1.1"
 
 #: data/os/redhat.com/rhl-2.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 2.0"
 msgstr "Red Hat Linux 2.0"
 
 #: data/os/redhat.com/rhl-2.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 2.1"
 msgstr "Red Hat Linux 2.1"
 
 #: data/os/redhat.com/rhl-3.0.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 3.0.3"
 msgstr "Red Hat Linux 3.0.3"
 
 #: data/os/redhat.com/rhl-4.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 4.0"
 msgstr "Red Hat Linux 4.0"
 
 #: data/os/redhat.com/rhl-4.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 4.1"
 msgstr "Red Hat Linux 4.1"
 
 #: data/os/redhat.com/rhl-4.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 4.2"
 msgstr "Red Hat Linux 4.2"
 
 #: data/os/redhat.com/rhl-5.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 5.0"
 msgstr "Red Hat Linux 5.0"
 
 #: data/os/redhat.com/rhl-5.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 5.1"
 msgstr "Red Hat Linux 5.1"
 
 #: data/os/redhat.com/rhl-5.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 5.2"
 msgstr "Red Hat Linux 5.2"
 
 #: data/os/redhat.com/rhl-6.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 6.0"
 msgstr "Red Hat Linux 6.0"
 
 #: data/os/redhat.com/rhl-6.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 6.1"
 msgstr "Red Hat Linux 6.1"
 
 #: data/os/redhat.com/rhl-6.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 6.2"
 msgstr "Red Hat Linux 6.2"
 
 #: data/os/redhat.com/rhl-7.1.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 7.1"
 msgstr "Red Hat Linux 7.1"
 
 #: data/os/redhat.com/rhl-7.2.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 7.2"
 msgstr "Red Hat Linux 7.2"
 
 #: data/os/redhat.com/rhl-7.3.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 7.3"
 msgstr "Red Hat Linux 7.3"
 
 #: data/os/redhat.com/rhl-7.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 7"
 msgstr "Red Hat Linux 7"
 
 #: data/os/redhat.com/rhl-8.0.xml.in:6
-#, fuzzy
 msgid "Red Hat Linux 8.0"
 msgstr "Red Hat Linux 8.0"
 
 #: data/os/redhat.com/rhl-9.xml.in:6
 msgid "Red Hat Linux 9"
-msgstr ""
+msgstr "Red Hat Linux 9"
 
 #: data/os/rockylinux.org/rocky-8-unknown.xml.in:6
 msgid "Rocky Linux 8 Unknown"
@@ -5415,17 +5213,14 @@ msgid "Rocky Enterprise Software Foundation"
 msgstr "Rocky Enterprise Software Foundation"
 
 #: data/os/rockylinux.org/rocky-8.4.xml.in:6
-#, fuzzy
 msgid "Rocky Linux 8.4"
 msgstr "Rocky Linux 8.4"
 
 #: data/os/rockylinux.org/rocky-8.5.xml.in:6
-#, fuzzy
 msgid "Rocky Linux 8.5"
 msgstr "Rocky Linux 8.5"
 
 #: data/os/rockylinux.org/rocky-8.6.xml.in:6
-#, fuzzy
 msgid "Rocky Linux 8.6"
 msgstr "Rocky Linux 8.6"
 
@@ -5433,22 +5228,18 @@ msgstr "Rocky Linux 8.6"
 #: data/os/rockylinux.org/rocky-8.xml.in:18
 #: data/os/rockylinux.org/rocky-8.xml.in:22
 #: data/os/rockylinux.org/rocky-8.xml.in:26
-#, fuzzy
 msgid "Rocky Linux 8"
 msgstr "Rocky Linux 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:32
-#, fuzzy
 msgid "Rocky Linux Workstation 8"
 msgstr "Rocky Linux Workstation 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:35
-#, fuzzy
 msgid "Rocky Linux Workstation-Lite 8"
 msgstr "Rocky Linux Workstation-Lite 8"
 
 #: data/os/rockylinux.org/rocky-8.xml.in:38
-#, fuzzy
 msgid "Rocky Linux XFCE 8"
 msgstr "Rocky Linux XFCE 8"
 
@@ -5457,7 +5248,6 @@ msgid "Rocky Linux 9 Unknown"
 msgstr "Rocky Linux 9 neznámé"
 
 #: data/os/rockylinux.org/rocky-9.0.xml.in:6
-#, fuzzy
 msgid "Rocky Linux 9.0"
 msgstr "Rocky Linux 9.0"
 
@@ -5465,32 +5255,26 @@ msgstr "Rocky Linux 9.0"
 #: data/os/rockylinux.org/rocky-9.xml.in:19
 #: data/os/rockylinux.org/rocky-9.xml.in:23
 #: data/os/rockylinux.org/rocky-9.xml.in:27
-#, fuzzy
 msgid "Rocky Linux 9"
 msgstr "Rocky Linux 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:33
-#, fuzzy
 msgid "Rocky Linux Workstation 9"
 msgstr "Rocky Linux Workstation 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:36
-#, fuzzy
 msgid "Rocky Linux Workstation-Lite 9"
 msgstr "Rocky Linux Workstation-Lite 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:39
-#, fuzzy
 msgid "Rocky Linux KDE 9"
 msgstr "Rocky Linux KDE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:42
-#, fuzzy
 msgid "Rocky Linux XFCE 9"
 msgstr "Rocky Linux XFCE 9"
 
 #: data/os/rockylinux.org/rocky-9.xml.in:45
-#, fuzzy
 msgid "Rocky Linux Cinnamon 9"
 msgstr "Rocky Linux Cinnamon 9"
 
@@ -5499,7 +5283,6 @@ msgid "Rocky Linux Unknown"
 msgstr "Rocky Linux neznámé"
 
 #: data/os/scientificlinux.org/scientificlinux-5.0.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.0"
 msgstr "Scientific Linux 5.0"
 
@@ -5534,117 +5317,94 @@ msgstr "Scientific Linux 5.0"
 #: data/os/scientificlinux.org/scientificlinux-7.4.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-7.5.xml.in:8
 #: data/os/scientificlinux.org/scientificlinux-7.6.xml.in:8
-#, fuzzy
 msgid "Scientific Linux"
 msgstr "Scientific Linux"
 
 #: data/os/scientificlinux.org/scientificlinux-5.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.1"
 msgstr "Scientific Linux 5.1"
 
 #: data/os/scientificlinux.org/scientificlinux-5.10.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.10"
 msgstr "Scientific Linux 5.10"
 
 #: data/os/scientificlinux.org/scientificlinux-5.11.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.11"
 msgstr "Scientific Linux 5.11"
 
 #: data/os/scientificlinux.org/scientificlinux-5.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.2"
 msgstr "Scientific Linux 5.2"
 
 #: data/os/scientificlinux.org/scientificlinux-5.3.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.3"
 msgstr "Scientific Linux 5.3"
 
 #: data/os/scientificlinux.org/scientificlinux-5.4.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.4"
 msgstr "Scientific Linux 5.4"
 
 #: data/os/scientificlinux.org/scientificlinux-5.5.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.5"
 msgstr "Scientific Linux 5.5"
 
 #: data/os/scientificlinux.org/scientificlinux-5.6.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.6"
 msgstr "Scientific Linux 5.6"
 
 #: data/os/scientificlinux.org/scientificlinux-5.7.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.7"
 msgstr "Scientific Linux 5.7"
 
 #: data/os/scientificlinux.org/scientificlinux-5.8.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.8"
 msgstr "Scientific Linux 5.8"
 
 #: data/os/scientificlinux.org/scientificlinux-5.9.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 5.9"
 msgstr "Scientific Linux 5.9"
 
 #: data/os/scientificlinux.org/scientificlinux-6.0.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.0"
 msgstr "Scientific Linux 6.0"
 
 #: data/os/scientificlinux.org/scientificlinux-6.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.1"
 msgstr "Scientific Linux 6.1"
 
 #: data/os/scientificlinux.org/scientificlinux-6.10.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.10"
 msgstr "Scientific Linux 6.10"
 
 #: data/os/scientificlinux.org/scientificlinux-6.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.2"
 msgstr "Scientific Linux 6.2"
 
 #: data/os/scientificlinux.org/scientificlinux-6.3.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.3"
 msgstr "Scientific Linux 6.3"
 
 #: data/os/scientificlinux.org/scientificlinux-6.4.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.4"
 msgstr "Scientific Linux 6.4"
 
 #: data/os/scientificlinux.org/scientificlinux-6.5.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.5"
 msgstr "Scientific Linux 6.5"
 
 #: data/os/scientificlinux.org/scientificlinux-6.6.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.6"
 msgstr "Scientific Linux 6.6"
 
 #: data/os/scientificlinux.org/scientificlinux-6.7.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.7"
 msgstr "Scientific Linux 6.7"
 
 #: data/os/scientificlinux.org/scientificlinux-6.8.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.8"
 msgstr "Scientific Linux 6.8"
 
 #: data/os/scientificlinux.org/scientificlinux-6.9.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 6.9"
 msgstr "Scientific Linux 6.9"
 
@@ -5653,89 +5413,72 @@ msgid "Scientific Linux 7 Unknown"
 msgstr "Scientific Linux 7 neznámé"
 
 #: data/os/scientificlinux.org/scientificlinux-7.0.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.0"
 msgstr "Scientific Linux 7.0"
 
 #: data/os/scientificlinux.org/scientificlinux-7.1.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.1"
 msgstr "Scientific Linux 7.1"
 
 #: data/os/scientificlinux.org/scientificlinux-7.2.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.2"
 msgstr "Scientific Linux 7.2"
 
 #: data/os/scientificlinux.org/scientificlinux-7.3.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.3"
 msgstr "Scientific Linux 7.3"
 
 #: data/os/scientificlinux.org/scientificlinux-7.4.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.4"
 msgstr "Scientific Linux 7.4"
 
 #: data/os/scientificlinux.org/scientificlinux-7.5.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.5"
 msgstr "Scientific Linux 7.5"
 
 #: data/os/scientificlinux.org/scientificlinux-7.6.xml.in:6
-#, fuzzy
 msgid "Scientific Linux 7.6"
 msgstr "Scientific Linux 7.6"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:6
-#, fuzzy
 msgid "Slackware 14.2"
 msgstr "Slackware 14.2"
 
 #: data/os/slackware.com/slackware-14.2.xml.in:8
 #: data/os/slackware.com/slackware-current.xml.in:8
-#, fuzzy
 msgid "Slackware Linux Project"
 msgstr "Slackware Linux Project"
 
 #: data/os/slackware.com/slackware-current.xml.in:6
-#, fuzzy
 msgid "Slackware -current"
 msgstr "Slackware -current"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:6
-#, fuzzy
 msgid "Triton SmartOS"
 msgstr "Triton SmartOS"
 
 #: data/os/smartos.org/smartos-rolling.xml.in:7
-#, fuzzy
 msgid "TritonDataCenter"
 msgstr "TritonDataCenter"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:6
-#, fuzzy
 msgid "OpenSolaris 2009.06"
 msgstr "OpenSolaris 2009.06"
 
 #: data/os/sun.com/opensolaris-2009.06.xml.in:8
 #: data/os/sun.com/solaris-10.xml.in:8 data/os/sun.com/solaris-9.xml.in:8
-#, fuzzy
 msgid "Sun"
 msgstr "Sun"
 
 #: data/os/sun.com/solaris-10.xml.in:6
-#, fuzzy
 msgid "Solaris 10"
 msgstr "Solaris 10"
 
 #: data/os/sun.com/solaris-9.xml.in:6
-#, fuzzy
 msgid "Solaris 9"
 msgstr "Solaris 9"
 
 #: data/os/suse.com/caasp-1.0.xml.in:6
-#, fuzzy
 msgid "SUSE CaaS Platform 1.0"
 msgstr "SUSE CaaS Platform 1.0"
 
@@ -5767,17 +5510,14 @@ msgstr "SUSE CaaS Platform 1.0"
 #: data/os/suse.com/sles-12.3.xml.in:8 data/os/suse.com/sles-12.4.xml.in:8
 #: data/os/suse.com/sles-12.5.xml.in:8 data/os/suse.com/sles-12.xml.in:8
 #: data/os/suse.com/sles-9.xml.in:8
-#, fuzzy
 msgid "SUSE"
 msgstr "SUSE"
 
 #: data/os/suse.com/caasp-2.0.xml.in:6
-#, fuzzy
 msgid "SUSE CaaS Platform 2.0"
 msgstr "SUSE CaaS Platform 2.0"
 
 #: data/os/suse.com/caasp-3.0.xml.in:6
-#, fuzzy
 msgid "SUSE CaaS Platform 3.0"
 msgstr "SUSE CaaS Platform 3.0"
 
@@ -5790,32 +5530,26 @@ msgid "SUSE Linux Enterprise 15 Unknown"
 msgstr "SUSE Linux Enterprise 15 neznámé"
 
 #: data/os/suse.com/sle-15.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP1"
 msgstr "SUSE Linux Enterprise 15 SP1"
 
 #: data/os/suse.com/sle-15.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP2"
 msgstr "SUSE Linux Enterprise 15 SP2"
 
 #: data/os/suse.com/sle-15.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP3"
 msgstr "SUSE Linux Enterprise 15 SP3"
 
 #: data/os/suse.com/sle-15.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP4"
 msgstr "SUSE Linux Enterprise 15 SP4"
 
 #: data/os/suse.com/sle-15.5.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15 SP5"
 msgstr "SUSE Linux Enterprise 15 SP5"
 
 #: data/os/suse.com/sle-15.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise 15"
 msgstr "SUSE Linux Enterprise 15"
 
@@ -5824,52 +5558,42 @@ msgid "SUSE Linux Enterprise Unknown"
 msgstr "SUSE Linux Enterprise neznámé"
 
 #: data/os/suse.com/sled-10.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 10 SP1"
 msgstr "SUSE Linux Enterprise Desktop 10 SP1"
 
 #: data/os/suse.com/sled-10.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 10 SP2"
 msgstr "SUSE Linux Enterprise Desktop 10 SP2"
 
 #: data/os/suse.com/sled-10.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 10 SP3"
 msgstr "SUSE Linux Enterprise Desktop 10 SP3"
 
 #: data/os/suse.com/sled-10.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 10 SP4"
 msgstr "SUSE Linux Enterprise Desktop 10 SP4"
 
 #: data/os/suse.com/sled-10.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 10"
 msgstr "SUSE Linux Enterprise Desktop 10"
 
 #: data/os/suse.com/sled-11.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 11 SP1"
 msgstr "SUSE Linux Enterprise Desktop 11 SP1"
 
 #: data/os/suse.com/sled-11.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 11 SP2"
 msgstr "SUSE Linux Enterprise Desktop 11 SP2"
 
 #: data/os/suse.com/sled-11.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 11 SP3"
 msgstr "SUSE Linux Enterprise Desktop 11 SP3"
 
 #: data/os/suse.com/sled-11.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 11 SP4"
 msgstr "SUSE Linux Enterprise Desktop 11 SP4"
 
 #: data/os/suse.com/sled-11.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 11"
 msgstr "SUSE Linux Enterprise Desktop 11"
 
@@ -5878,112 +5602,90 @@ msgid "SUSE Linux Enterprise Desktop 12 Unknown"
 msgstr "SUSE Linux Enterprise Desktop 12 neznámé"
 
 #: data/os/suse.com/sled-12.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP1"
 msgstr "SUSE Linux Enterprise Desktop 12 SP1"
 
 #: data/os/suse.com/sled-12.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP2"
 msgstr "SUSE Linux Enterprise Desktop 12 SP2"
 
 #: data/os/suse.com/sled-12.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP3"
 msgstr "SUSE Linux Enterprise Desktop 12 SP3"
 
 #: data/os/suse.com/sled-12.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP4"
 msgstr "SUSE Linux Enterprise Desktop 12 SP4"
 
 #: data/os/suse.com/sled-12.5.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12 SP5"
 msgstr "SUSE Linux Enterprise Desktop 12 SP5"
 
 #: data/os/suse.com/sled-12.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 12"
 msgstr "SUSE Linux Enterprise Desktop 12"
 
 #: data/os/suse.com/sled-9.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Desktop 9"
 msgstr "SUSE Linux Enterprise Desktop 9"
 
 #: data/os/suse.com/slem-5.0.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Micro"
 msgstr "SUSE Linux Enterprise Micro"
 
 #: data/os/suse.com/slem-5.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Micro 5.1"
 msgstr "SUSE Linux Enterprise Micro 5.1"
 
 #: data/os/suse.com/slem-5.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Micro 5.2"
 msgstr "SUSE Linux Enterprise Micro 5.2"
 
 #: data/os/suse.com/slem-5.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Micro 5.3"
 msgstr "SUSE Linux Enterprise Micro 5.3"
 
 #: data/os/suse.com/slem-5.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Micro 5.4"
 msgstr "SUSE Linux Enterprise Micro 5.4"
 
 #: data/os/suse.com/sles-10.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 10 SP1"
 msgstr "SUSE Linux Enterprise Server 10 SP1"
 
 #: data/os/suse.com/sles-10.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 10 SP2"
 msgstr "SUSE Linux Enterprise Server 10 SP2"
 
 #: data/os/suse.com/sles-10.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 10 SP3"
 msgstr "SUSE Linux Enterprise Server 10 SP3"
 
 #: data/os/suse.com/sles-10.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 10 SP4"
 msgstr "SUSE Linux Enterprise Server 10 SP4"
 
 #: data/os/suse.com/sles-10.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 10"
 msgstr "SUSE Linux Enterprise Server 10"
 
 #: data/os/suse.com/sles-11.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 11 SP1"
 msgstr "SUSE Linux Enterprise Server 11 SP1"
 
 #: data/os/suse.com/sles-11.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 11 SP2"
 msgstr "SUSE Linux Enterprise Server 11 SP2"
 
 #: data/os/suse.com/sles-11.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 11 SP3"
 msgstr "SUSE Linux Enterprise Server 11 SP3"
 
 #: data/os/suse.com/sles-11.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 11 SP4"
 msgstr "SUSE Linux Enterprise Server 11 SP4"
 
 #: data/os/suse.com/sles-11.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 11"
 msgstr "SUSE Linux Enterprise Server 11"
 
@@ -5992,42 +5694,34 @@ msgid "SUSE Linux Enterprise Server 12 Unknown"
 msgstr "SUSE Linux Enterprise Server 12 neznámé"
 
 #: data/os/suse.com/sles-12.1.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP1"
 msgstr "SUSE Linux Enterprise Server 12 SP1"
 
 #: data/os/suse.com/sles-12.2.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP2"
 msgstr "SUSE Linux Enterprise Server 12 SP2"
 
 #: data/os/suse.com/sles-12.3.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP3"
 msgstr "SUSE Linux Enterprise Server 12 SP3"
 
 #: data/os/suse.com/sles-12.4.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP4"
 msgstr "SUSE Linux Enterprise Server 12 SP4"
 
 #: data/os/suse.com/sles-12.5.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12 SP5"
 msgstr "SUSE Linux Enterprise Server 12 SP5"
 
 #: data/os/suse.com/sles-12.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 12"
 msgstr "SUSE Linux Enterprise Server 12"
 
 #: data/os/suse.com/sles-9.xml.in:6
-#, fuzzy
 msgid "SUSE Linux Enterprise Server 9"
 msgstr "SUSE Linux Enterprise Server 9"
 
 #: data/os/system76.com/popos-17.10.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 17.10"
 msgstr "Pop!_OS 17.10"
 
@@ -6038,124 +5732,100 @@ msgstr "Pop!_OS 17.10"
 #: data/os/system76.com/popos-19.10.xml.in:8
 #: data/os/system76.com/popos-20.04.xml.in:8
 #: data/os/system76.com/popos-20.10.xml.in:8
-#, fuzzy
 msgid "System76, Inc."
 msgstr "System76, Inc."
 
 #: data/os/system76.com/popos-18.04.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 18.04"
 msgstr "Pop!_OS 18.04"
 
 #: data/os/system76.com/popos-18.10.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 18.10"
 msgstr "Pop!_OS 18.10"
 
 #: data/os/system76.com/popos-19.04.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 19.04"
 msgstr "Pop!_OS 19.04"
 
 #: data/os/system76.com/popos-19.10.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 19.10"
 msgstr "Pop!_OS 19.10"
 
 #: data/os/system76.com/popos-20.04.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 20.04"
 msgstr "Pop!_OS 20.04"
 
 #: data/os/system76.com/popos-20.10.xml.in:6
-#, fuzzy
 msgid "Pop!_OS 20.10"
 msgstr "Pop!_OS 20.10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:8
-#, fuzzy
 msgid "Trisquel 10.0 LTS"
 msgstr "Trisquel 10.0 LTS"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:10
 #: data/os/trisquel.info/trisquel-11.xml.in:10
 #: data/os/trisquel.info/trisquel-9.xml.in:9
-#, fuzzy
 msgid "The Trisquel Project"
 msgstr "The Trisquel Project"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:20
-#, fuzzy
 msgid "Trisquel 10"
 msgstr "Trisquel 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:23
-#, fuzzy
 msgid "Triskel 10"
 msgstr "Triskel 10"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:26
-#, fuzzy
 msgid "Trisquel 10 Mini"
 msgstr "Trisquel 10 Mini"
 
 #: data/os/trisquel.info/trisquel-10.xml.in:29
-#, fuzzy
 msgid "Trisquel 10 Sugar Toast"
 msgstr "Trisquel 10 Sugar Toast"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:8
-#, fuzzy
 msgid "Trisquel 11.0 LTS"
 msgstr "Trisquel 11.0 LTS"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:20
-#, fuzzy
 msgid "Trisquel 11"
 msgstr "Trisquel 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:23
-#, fuzzy
 msgid "Triskel 11"
 msgstr "Triskel 11"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:26
-#, fuzzy
 msgid "Trisquel 11 Mini"
 msgstr "Trisquel 11 Mini"
 
 #: data/os/trisquel.info/trisquel-11.xml.in:29
-#, fuzzy
 msgid "Trisquel 11 Sugar Toast"
 msgstr "Trisquel 11 Sugar Toast"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:7
-#, fuzzy
 msgid "Trisquel 9.0 LTS"
 msgstr "Trisquel 9.0 LTS"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:18
-#, fuzzy
 msgid "Trisquel 9"
 msgstr "Trisquel 9"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:21
-#, fuzzy
 msgid "Triskel 9"
 msgstr "Triskel 9"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:24
-#, fuzzy
 msgid "Trisquel 9 Mini"
 msgstr "Trisquel 9 Mini"
 
 #: data/os/trisquel.info/trisquel-9.xml.in:27
-#, fuzzy
 msgid "Trisquel 9 Sugar Toast"
 msgstr "Trisquel 9 Sugar Toast"
 
 #: data/os/ubuntu.com/ubuntu-10.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 10.04 LTS"
 msgstr "Ubuntu 10.04 LTS"
 
@@ -6200,211 +5870,170 @@ msgstr "Ubuntu 10.04 LTS"
 #: data/os/ubuntu.com/ubuntu-8.10.xml.in:9
 #: data/os/ubuntu.com/ubuntu-9.04.xml.in:9
 #: data/os/ubuntu.com/ubuntu-9.10.xml.in:9
-#, fuzzy
 msgid "Canonical Ltd"
 msgstr "Canonical Ltd"
 
 #: data/os/ubuntu.com/ubuntu-10.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 10.10"
 msgstr "Ubuntu 10.10"
 
 #: data/os/ubuntu.com/ubuntu-11.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 11.04"
 msgstr "Ubuntu 11.04"
 
 #: data/os/ubuntu.com/ubuntu-11.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 11.10"
 msgstr "Ubuntu 11.10"
 
 #: data/os/ubuntu.com/ubuntu-12.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 12.04 LTS"
 msgstr "Ubuntu 12.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-12.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 12.10"
 msgstr "Ubuntu 12.10"
 
 #: data/os/ubuntu.com/ubuntu-13.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 13.04"
 msgstr "Ubuntu 13.04"
 
 #: data/os/ubuntu.com/ubuntu-13.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 13.10"
 msgstr "Ubuntu 13.10"
 
 #: data/os/ubuntu.com/ubuntu-14.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 14.04 LTS"
 msgstr "Ubuntu 14.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-14.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 14.10"
 msgstr "Ubuntu 14.10"
 
 #: data/os/ubuntu.com/ubuntu-15.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 15.04"
 msgstr "Ubuntu 15.04"
 
 #: data/os/ubuntu.com/ubuntu-15.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 15.10"
 msgstr "Ubuntu 15.10"
 
 #: data/os/ubuntu.com/ubuntu-16.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 16.04"
 msgstr "Ubuntu 16.04"
 
 #: data/os/ubuntu.com/ubuntu-16.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 16.10"
 msgstr "Ubuntu 16.10"
 
 #: data/os/ubuntu.com/ubuntu-17.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 17.04"
 msgstr "Ubuntu 17.04"
 
 #: data/os/ubuntu.com/ubuntu-17.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 17.10"
 msgstr "Ubuntu 17.10"
 
 #: data/os/ubuntu.com/ubuntu-18.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 18.04 LTS"
 msgstr "Ubuntu 18.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-18.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 18.10"
 msgstr "Ubuntu 18.10"
 
 #: data/os/ubuntu.com/ubuntu-19.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 19.04"
 msgstr "Ubuntu 19.04"
 
 #: data/os/ubuntu.com/ubuntu-19.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 19.10"
 msgstr "Ubuntu 19.10"
 
 #: data/os/ubuntu.com/ubuntu-20.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 20.04 LTS"
 msgstr "Ubuntu 20.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-20.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 20.10"
 msgstr "Ubuntu 20.10"
 
 #: data/os/ubuntu.com/ubuntu-21.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 21.04"
 msgstr "Ubuntu 21.04"
 
 #: data/os/ubuntu.com/ubuntu-21.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 21.10"
 msgstr "Ubuntu 21.10"
 
 #: data/os/ubuntu.com/ubuntu-22.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 22.04 LTS"
 msgstr "Ubuntu 22.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-22.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 22.10"
 msgstr "Ubuntu 22.10"
 
 #: data/os/ubuntu.com/ubuntu-23.04.xml.in:8
-#, fuzzy
 msgid "Ubuntu 23.04"
 msgstr "Ubuntu 23.04"
 
 #: data/os/ubuntu.com/ubuntu-23.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 23.10"
 msgstr "Ubuntu 23.10"
 
 #: data/os/ubuntu.com/ubuntu-24.04.xml.in:10
-#, fuzzy
 msgid "Ubuntu 24.04 LTS"
 msgstr "Ubuntu 24.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-24.10.xml.in:8
-#, fuzzy
 msgid "Ubuntu 24.10"
 msgstr "Ubuntu 24.10"
 
 #: data/os/ubuntu.com/ubuntu-4.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 4.10"
 msgstr "Ubuntu 4.10"
 
 #: data/os/ubuntu.com/ubuntu-5.04.xml.in:7
 msgid "Ubuntu 5.04"
-msgstr ""
+msgstr "Ubuntu 5.04"
 
 #: data/os/ubuntu.com/ubuntu-5.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 5.10"
 msgstr "Ubuntu 5.10"
 
 #: data/os/ubuntu.com/ubuntu-6.06.xml.in:7
-#, fuzzy
 msgid "Ubuntu 6.06 LTS"
 msgstr "Ubuntu 6.06 LTS"
 
 #: data/os/ubuntu.com/ubuntu-6.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 6.10"
 msgstr "Ubuntu 6.10"
 
 #: data/os/ubuntu.com/ubuntu-7.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 7.04"
 msgstr "Ubuntu 7.04"
 
 #: data/os/ubuntu.com/ubuntu-7.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 7.10"
 msgstr "Ubuntu 7.10"
 
 #: data/os/ubuntu.com/ubuntu-8.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 8.04 LTS"
 msgstr "Ubuntu 8.04 LTS"
 
 #: data/os/ubuntu.com/ubuntu-8.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 8.10"
 msgstr "Ubuntu 8.10"
 
 #: data/os/ubuntu.com/ubuntu-9.04.xml.in:7
-#, fuzzy
 msgid "Ubuntu 9.04"
 msgstr "Ubuntu 9.04"
 
 #: data/os/ubuntu.com/ubuntu-9.10.xml.in:7
-#, fuzzy
 msgid "Ubuntu 9.10"
 msgstr "Ubuntu 9.10"
 
 #: data/os/univention.de/ucs-4.0.xml.in:7
-#, fuzzy
 msgid "Univention Corporate Server 4.0"
 msgstr "Univention Corporate Server 4.0"
 
@@ -6414,73 +6043,59 @@ msgstr "Univention Corporate Server 4.0"
 #: data/os/univention.de/ucs-4.3.xml.in:8
 #: data/os/univention.de/ucs-4.4.xml.in:8
 #: data/os/univention.de/ucs-5.0.xml.in:8
-#, fuzzy
 msgid "Univention GmbH"
 msgstr "Univention GmbH"
 
 #: data/os/univention.de/ucs-4.0.xml.in:33
-#, fuzzy
 msgid "UCS 4.0"
 msgstr "UCS 4.0"
 
 #: data/os/univention.de/ucs-4.1.xml.in:6
-#, fuzzy
 msgid "Univention Corporate Server 4.1"
 msgstr "Univention Corporate Server 4.1"
 
 #: data/os/univention.de/ucs-4.1.xml.in:34
-#, fuzzy
 msgid "UCS 4.1"
 msgstr "UCS 4.1"
 
 #: data/os/univention.de/ucs-4.2.xml.in:6
-#, fuzzy
 msgid "Univention Corporate Server 4.2"
 msgstr "Univention Corporate Server 4.2"
 
 #: data/os/univention.de/ucs-4.2.xml.in:34
-#, fuzzy
 msgid "UCS 4.2"
 msgstr "UCS 4.2"
 
 #: data/os/univention.de/ucs-4.3.xml.in:6
-#, fuzzy
 msgid "Univention Corporate Server 4.3"
 msgstr "Univention Corporate Server 4.3"
 
 #: data/os/univention.de/ucs-4.3.xml.in:34
-#, fuzzy
 msgid "UCS 4.3"
 msgstr "UCS 4.3"
 
 #: data/os/univention.de/ucs-4.4.xml.in:6
-#, fuzzy
 msgid "Univention Corporate Server 4.4"
 msgstr "Univention Corporate Server 4.4"
 
 #: data/os/univention.de/ucs-4.4.xml.in:33
-#, fuzzy
 msgid "UCS 4.4"
 msgstr "UCS 4.4"
 
 #: data/os/univention.de/ucs-5.0.xml.in:6
-#, fuzzy
 msgid "Univention Corporate Server 5.0"
 msgstr "Univention Corporate Server 5.0"
 
 #: data/os/univention.de/ucs-5.0.xml.in:33
-#, fuzzy
 msgid "UCS 5.0"
 msgstr "UCS 5.0"
 
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:6
 #: data/os/voidlinux.org/voidlinux-rolling.xml.in:7
-#, fuzzy
 msgid "Void Linux"
 msgstr "Void Linux"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.1.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.0.1"
 msgstr "QEMU-KVM 1.0.1"
 
@@ -6490,37 +6105,30 @@ msgstr "QEMU-KVM 1.0.1"
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.1.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.2.xml.in:7
 #: data/platform/linux-kvm.org/qemu-kvm-1.2.0.xml.in:7
-#, fuzzy
 msgid "linux-kvm.org"
 msgstr "linux-kvm.org"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.0.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.0"
 msgstr "QEMU-KVM 1.0"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.0.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.1.0"
 msgstr "QEMU-KVM 1.1.0"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.1.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.1.1"
 msgstr "QEMU-KVM 1.1.1"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.1.2.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.1.2"
 msgstr "QEMU-KVM 1.1.2"
 
 #: data/platform/linux-kvm.org/qemu-kvm-1.2.0.xml.in:6
-#, fuzzy
 msgid "QEMU-KVM 1.2.0"
 msgstr "QEMU-KVM 1.2.0"
 
 #: data/platform/qemu.org/qemu-1.0.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.0.1"
 msgstr "QEMU 1.0.1"
 
@@ -6558,166 +6166,144 @@ msgstr "QEMU 1.0.1"
 #: data/platform/qemu.org/qemu-2.2.0.xml.in:7
 #: data/platform/qemu.org/qemu-2.2.1.xml.in:7
 #: data/platform/qemu.org/qemu-2.3.0.xml.in:7
-#, fuzzy
 msgid "qemu.org"
 msgstr "qemu.org"
 
 #: data/platform/qemu.org/qemu-1.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.0"
 msgstr "QEMU 1.0"
 
 #: data/platform/qemu.org/qemu-1.1.1-1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.1.1-1"
 msgstr "QEMU 1.1.1-1"
 
 #: data/platform/qemu.org/qemu-1.1.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.1.1"
 msgstr "QEMU 1.1.1"
 
 #: data/platform/qemu.org/qemu-1.1.2.xml.in:6
-#, fuzzy
 msgid "QEMU 1.1.2"
 msgstr "QEMU 1.1.2"
 
 #: data/platform/qemu.org/qemu-1.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.1"
 msgstr "QEMU 1.1"
 
 #: data/platform/qemu.org/qemu-1.2.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.2.0"
 msgstr "QEMU 1.2.0"
 
 #: data/platform/qemu.org/qemu-1.2.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.2.1"
 msgstr "QEMU 1.2.1"
 
 #: data/platform/qemu.org/qemu-1.2.2.xml.in:6
-#, fuzzy
 msgid "QEMU 1.2.2"
 msgstr "QEMU 1.2.2"
 
 #: data/platform/qemu.org/qemu-1.3.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.3.0"
 msgstr "QEMU 1.3.0"
 
 #: data/platform/qemu.org/qemu-1.3.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.3.1"
 msgstr "QEMU 1.3.1"
 
 #: data/platform/qemu.org/qemu-1.4.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.4.0"
 msgstr "QEMU 1.4.0"
 
 #: data/platform/qemu.org/qemu-1.4.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.4.1"
 msgstr "QEMU 1.4.1"
 
 #: data/platform/qemu.org/qemu-1.4.2.xml.in:6
-#, fuzzy
 msgid "QEMU 1.4.2"
 msgstr "QEMU 1.4.2"
 
 #: data/platform/qemu.org/qemu-1.5.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.5.0"
 msgstr "QEMU 1.5.0"
 
 #: data/platform/qemu.org/qemu-1.5.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.5.1"
 msgstr "QEMU 1.5.1"
 
 #: data/platform/qemu.org/qemu-1.5.2.xml.in:6
-#, fuzzy
 msgid "QEMU 1.5.2"
 msgstr "QEMU 1.5.2"
 
 #: data/platform/qemu.org/qemu-1.5.3.xml.in:6
-#, fuzzy
 msgid "QEMU 1.5.3"
 msgstr "QEMU 1.5.3"
 
 #: data/platform/qemu.org/qemu-1.6.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.6.0"
 msgstr "QEMU 1.6.0"
 
 #: data/platform/qemu.org/qemu-1.6.1.xml.in:6
-#, fuzzy
 msgid "QEMU 1.6.1"
 msgstr "QEMU 1.6.1"
 
 #: data/platform/qemu.org/qemu-1.6.2.xml.in:6
-#, fuzzy
 msgid "QEMU 1.6.2"
 msgstr "QEMU 1.6.2"
 
 #: data/platform/qemu.org/qemu-1.7.0.xml.in:6
-#, fuzzy
 msgid "QEMU 1.7.0"
 msgstr "QEMU 1.7.0"
 
 #: data/platform/qemu.org/qemu-1.7.1.xml.in:6
 msgid "QEMU 1.7.1"
-msgstr ""
+msgstr "QEMU 1.7.1"
 
 #: data/platform/qemu.org/qemu-1.7.2.xml.in:6
 msgid "QEMU 1.7.2"
-msgstr ""
+msgstr "QEMU 1.7.2"
 
 #: data/platform/qemu.org/qemu-2.0.0.xml.in:6
 msgid "QEMU 2.0.0"
-msgstr ""
+msgstr "QEMU 2.0.0"
 
 #: data/platform/qemu.org/qemu-2.0.1.xml.in:6
 msgid "QEMU 2.0.1"
-msgstr ""
+msgstr "QEMU 2.0.1"
 
 #: data/platform/qemu.org/qemu-2.0.2.xml.in:6
 msgid "QEMU 2.0.2"
-msgstr ""
+msgstr "QEMU 2.0.2"
 
 #: data/platform/qemu.org/qemu-2.1.0.xml.in:6
 msgid "QEMU 2.1.0"
-msgstr ""
+msgstr "QEMU 2.1.0"
 
 #: data/platform/qemu.org/qemu-2.1.1.xml.in:6
 msgid "QEMU 2.1.1"
-msgstr ""
+msgstr "QEMU 2.1.1"
 
 #: data/platform/qemu.org/qemu-2.1.2.xml.in:6
 msgid "QEMU 2.1.2"
-msgstr ""
+msgstr "QEMU 2.1.2"
 
 #: data/platform/qemu.org/qemu-2.1.3.xml.in:6
 msgid "QEMU 2.1.3"
-msgstr ""
+msgstr "QEMU 2.1.3"
 
 #: data/platform/qemu.org/qemu-2.2.0.xml.in:6
 msgid "QEMU 2.2.0"
-msgstr ""
+msgstr "QEMU 2.2.0"
 
 #: data/platform/qemu.org/qemu-2.2.1.xml.in:6
 msgid "QEMU 2.2.1"
-msgstr ""
+msgstr "QEMU 2.2.1"
 
 #: data/platform/qemu.org/qemu-2.3.0.xml.in:6
 msgid "QEMU 2.3.0"
-msgstr ""
+msgstr "QEMU 2.3.0"
 
 #: data/platform/redhat.com/xen-rhel-3.0.3.5.0.xml.in:6
 msgid "Xen 3.0.3 (RHEL 5.0)"
-msgstr ""
+msgstr "Xen 3.0.3 (RHEL 5.0)"
 
 #: data/platform/redhat.com/xen-rhel-3.0.3.5.0.xml.in:7
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.1.xml.in:7
@@ -6728,39 +6314,39 @@ msgstr ""
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in:7
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.7.xml.in:7
 msgid "Red Hat, Inc."
-msgstr ""
+msgstr "Red Hat, Inc."
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.1.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.1)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.1)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.2.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.2)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.2)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.3.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.3)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.3)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.4.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.4)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.4)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.5.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.5)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.5)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.6.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.6)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.6)"
 
 #: data/platform/redhat.com/xen-rhel-3.1.0.5.7.xml.in:6
 msgid "Xen 3.1.0 (RHEL 5.7)"
-msgstr ""
+msgstr "Xen 3.1.0 (RHEL 5.7)"
 
 #: data/platform/xen.org/xen-3.0.2.xml.in:6
 msgid "Xen 3.0.2"
-msgstr ""
+msgstr "Xen 3.0.2"
 
 #: data/platform/xen.org/xen-3.0.2.xml.in:7
 #: data/platform/xen.org/xen-3.0.3.xml.in:7
@@ -6783,80 +6369,80 @@ msgstr ""
 #: data/platform/xen.org/xen-4.0.1.xml.in:7
 #: data/platform/xen.org/xen-4.1.0.xml.in:7
 msgid "Citrix Systems, Inc."
-msgstr ""
+msgstr "Citrix Systems, Inc."
 
 #: data/platform/xen.org/xen-3.0.3.xml.in:6
 msgid "Xen 3.0.3"
-msgstr ""
+msgstr "Xen 3.0.3"
 
 #: data/platform/xen.org/xen-3.0.4.xml.in:6
 msgid "Xen 3.0.4"
-msgstr ""
+msgstr "Xen 3.0.4"
 
 #: data/platform/xen.org/xen-3.1.0.xml.in:6
 msgid "Xen 3.1.0"
-msgstr ""
+msgstr "Xen 3.1.0"
 
 #: data/platform/xen.org/xen-3.1.3.xml.in:6
 msgid "Xen 3.1.3"
-msgstr ""
+msgstr "Xen 3.1.3"
 
 #: data/platform/xen.org/xen-3.1.4.xml.in:6
 msgid "Xen 3.1.4"
-msgstr ""
+msgstr "Xen 3.1.4"
 
 #: data/platform/xen.org/xen-3.2.0.xml.in:6
 msgid "Xen 3.2.0"
-msgstr ""
+msgstr "Xen 3.2.0"
 
 #: data/platform/xen.org/xen-3.2.1.xml.in:6
 msgid "Xen 3.2.1"
-msgstr ""
+msgstr "Xen 3.2.1"
 
 #: data/platform/xen.org/xen-3.2.2.xml.in:6
 msgid "Xen 3.2.2"
-msgstr ""
+msgstr "Xen 3.2.2"
 
 #: data/platform/xen.org/xen-3.2.3.xml.in:6
 msgid "Xen 3.2.3"
-msgstr ""
+msgstr "Xen 3.2.3"
 
 #: data/platform/xen.org/xen-3.3.0.xml.in:6
 msgid "Xen 3.3.0"
-msgstr ""
+msgstr "Xen 3.3.0"
 
 #: data/platform/xen.org/xen-3.3.1.xml.in:6
 msgid "Xen 3.3.1"
-msgstr ""
+msgstr "Xen 3.3.1"
 
 #: data/platform/xen.org/xen-3.3.2.xml.in:6
 msgid "Xen 3.3.2"
-msgstr ""
+msgstr "Xen 3.3.2"
 
 #: data/platform/xen.org/xen-3.4.0.xml.in:6
 msgid "Xen 3.4.0"
-msgstr ""
+msgstr "Xen 3.4.0"
 
 #: data/platform/xen.org/xen-3.4.1.xml.in:6
 msgid "Xen 3.4.1"
-msgstr ""
+msgstr "Xen 3.4.1"
 
 #: data/platform/xen.org/xen-3.4.2.xml.in:6
 msgid "Xen 3.4.2"
-msgstr ""
+msgstr "Xen 3.4.2"
 
 #: data/platform/xen.org/xen-3.4.3.xml.in:6
 msgid "Xen 3.4.3"
-msgstr ""
+msgstr "Xen 3.4.3"
 
 #: data/platform/xen.org/xen-4.0.0.xml.in:6
 msgid "Xen 4.0.0"
-msgstr ""
+msgstr "Xen 4.0.0"
 
 #: data/platform/xen.org/xen-4.0.1.xml.in:6
 msgid "Xen 4.0.1"
-msgstr ""
+msgstr "Xen 4.0.1"
 
 #: data/platform/xen.org/xen-4.1.0.xml.in:6
 msgid "Xen 4.1.0"
-msgstr ""
+msgstr "Xen 4.1.0"
