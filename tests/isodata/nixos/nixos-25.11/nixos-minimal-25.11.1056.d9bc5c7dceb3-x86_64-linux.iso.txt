@@ -1,6 +1,6 @@
 CD-ROM is in ISO 9660 format
 System id: 
-Volume id: nixos-graphical-25.11-x86_64
+Volume id: nixos-minimal-25.11-x86_64
 Volume set id: 
 Publisher id: NIXOS
 Data preparer id: XORRISO-1.5.6 2023.06.07.180001, LIBISOBURN-1.5.6, LIBISOFS-1.5.6, LIBBURN-1.5.6
@@ -11,7 +11,7 @@ Bibliographic File id:
 Volume set size is: 1
 Volume set sequence number is: 1
 Logical block size is: 2048
-Volume size is: 1906872
+Volume size is: 775200
 El Torito VD version 1 found, boot catalog is in sector 72
 Joliet with UCS level 3 found
 Rock Ridge signatures version 1 found
@@ -26,4 +26,4 @@ Eltorito validation header:
         Load segment 0
         Sys type 0
         Nsect 4
-        Bootoff C532 50482
+        Bootoff AE9F 44703

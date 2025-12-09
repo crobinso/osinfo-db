@@ -300,7 +300,7 @@ def create_new_stable(release, codename, release_date):
     xml_os.find("release-date").text = release_date
     xml_os.find("eol-date").text = add_months(
         datetime.date.fromisoformat(release_date), SUPPORT_DURATION
-    )
+    ).isoformat()
 
     for tag_to_remove in ("devices", "firmware"):
         for e in xml_os.findall(tag_to_remove):

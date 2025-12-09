@@ -1,16 +1,20 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://nixos.org/nixos/unstable">
-    <short-id>nixos-unstable</short-id>
-    <name>NixOS Unstable</name>
-    <version>unstable</version>
+  <os id="http://nixos.org/nixos/25.11">
+    <short-id>nixos-25.11</short-id>
+    <name>NixOS 25.11</name>
+    <version>25.11</version>
     <vendor>NixOS</vendor>
     <family>linux</family>
     <distro>nixos</distro>
+    <codename>Xantusia</codename>
 
-    <upgrades id="http://nixos.org/nixos/25.11"/>
-    <derives-from id="http://nixos.org/nixos/25.11"/>
+    <upgrades id="http://nixos.org/nixos/25.05"/>
+    <derives-from id="http://nixos.org/nixos/25.05"/>
+
+    <release-date>2025-11-30</release-date>
+    <eol-date>2026-06-30</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -24,17 +28,17 @@
     </resources>
 
     <variant id="minimal">
-      <name>NixOS Unstable (minimal installation CD)</name>
+      <name>NixOS 25.11 (minimal installation CD)</name>
     </variant>
     <variant id="graphical">
-      <name>NixOS Unstable (graphical installation CD)</name>
+      <name>NixOS 25.11 (graphical installation CD)</name>
     </variant>
 
     <media arch="x86_64" live="true">
       <variant id="minimal"/>
-      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-x86_64-linux.iso</url>
+      <url>https://channels.nixos.org/nixos-25.11/latest-nixos-minimal-x86_64-linux.iso</url>
       <iso>
-        <volume-id>nixos-minimal-26.05-x86_64</volume-id>
+        <volume-id>nixos-minimal-25.11-x86_64</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
@@ -42,9 +46,9 @@
 
     <media arch="x86_64" live="true">
       <variant id="graphical"/>
-      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-graphical-x86_64-linux.iso</url>
+      <url>https://channels.nixos.org/nixos-25.11/latest-nixos-graphical-x86_64-linux.iso</url>
       <iso>
-        <volume-id>nixos-graphical-26.05-x86_64</volume-id>
+        <volume-id>nixos-graphical-25.11-x86_64</volume-id>
       </iso>
       <kernel>boot/bzImage</kernel>
       <initrd>boot/initrd</initrd>
@@ -52,9 +56,9 @@
 
     <media arch="aarch64" live="true">
       <variant id="minimal"/>
-      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-minimal-aarch64-linux.iso</url>
+      <url>https://channels.nixos.org/nixos-25.11/latest-nixos-minimal-aarch64-linux.iso</url>
       <iso>
-        <volume-id>nixos-minimal-26.05-aarch64</volume-id>
+        <volume-id>nixos-minimal-25.11-aarch64</volume-id>
       </iso>
       <kernel>boot/Image</kernel>
       <initrd>boot/initrd</initrd>
@@ -62,9 +66,9 @@
 
     <media arch="aarch64" live="true">
       <variant id="graphical"/>
-      <url>https://channels.nixos.org/nixos-unstable/latest-nixos-graphical-aarch64-linux.iso</url>
+      <url>https://channels.nixos.org/nixos-25.11/latest-nixos-graphical-aarch64-linux.iso</url>
       <iso>
-        <volume-id>nixos-graphical-26.05-aarch64</volume-id>
+        <volume-id>nixos-graphical-25.11-aarch64</volume-id>
       </iso>
       <kernel>boot/Image</kernel>
       <initrd>boot/initrd</initrd>
