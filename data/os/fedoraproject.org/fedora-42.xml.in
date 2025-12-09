@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/41"/>
 
     <release-date>2025-04-15</release-date>
+    <eol-date>2026-05-13</eol-date>
 
     <variant id="workstation">
       <name>Fedora Workstation 42</name>

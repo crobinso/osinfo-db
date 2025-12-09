@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/fedora/42"/>
 
     <release-date>2025-10-28</release-date>
+    <eol-date>2026-12-09</eol-date>
 
     <variant id="workstation">
       <name>Fedora Workstation 43</name>

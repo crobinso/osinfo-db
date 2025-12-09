@@ -12,6 +12,7 @@
     <derives-from id="http://fedoraproject.org/silverblue/39"/>
 
     <release-date>2024-04-23</release-date>
+    <eol-date>2025-05-13</eol-date>
 
     <media arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/40/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-40-1.14.iso</url>
