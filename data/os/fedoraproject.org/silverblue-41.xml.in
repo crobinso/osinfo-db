@@ -11,7 +11,7 @@
     <upgrades id="http://fedoraproject.org/silverblue/40"/>
     <derives-from id="http://fedoraproject.org/silverblue/40"/>
 
-    <release-date>2024-04-23</release-date>
+    <release-date>2024-10-29</release-date>
 
     <media arch="x86_64">
       <url>https://download.fedoraproject.org/pub/fedora/linux/releases/41/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-41-1.4.iso</url>
