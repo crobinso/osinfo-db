@@ -14,7 +14,7 @@
     <upgrades id="http://ubuntu.com/ubuntu/25.04"/>
     <derives-from id="http://ubuntu.com/ubuntu/25.04"/>
 
-    <release-status>prerelease</release-status>
+    <release-date>2025-10-09</release-date>
 
     <resources arch="all">
       <minimum>
@@ -53,7 +53,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="desktop"/>
-      <url>https://cdimage.ubuntu.com/daily-live/current/questing-desktop-amd64.iso</url>
+      <url>https://releases.ubuntu.com/questing/ubuntu-25.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu 25.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -62,7 +62,7 @@
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-amd64.iso</url>
+      <url>https://releases.ubuntu.com/questing/ubuntu-25.10-live-server-amd64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 25.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
@@ -71,7 +71,7 @@
     </media>
     <media arch="aarch64" live="true" installer-script="false">
       <variant id="desktop"/>
-      <url>https://cdimage.ubuntu.com/daily-live/current/questing-desktop-arm64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/questing/release/ubuntu-25.10-desktop-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu 25.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
@@ -80,7 +80,7 @@
     </media>
     <media arch="aarch64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-arm64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/questing/release/ubuntu-25.10-live-server-arm64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 25.10(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
@@ -89,7 +89,7 @@
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-ppc64el.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/questing/release/ubuntu-25.10-live-server-ppc64el.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 25.10(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
@@ -98,7 +98,7 @@
     </media>
     <media arch="riscv64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-riscv64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/questing/release/ubuntu-25.10-live-server-riscv64.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 25.10(.\d\+?)?(.\d\+?)? riscv</volume-id>
       </iso>
@@ -107,7 +107,7 @@
     </media>
     <media arch="s390x" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/daily-live/current/questing-live-server-s390x.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/questing/release/ubuntu-25.10-live-server-s390x.iso</url>
       <iso>
         <volume-id>Ubuntu-Server 25.10(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>
@@ -117,7 +117,7 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="edubuntu"/>
-      <url>https://cdimage.ubuntu.com/edubuntu/daily-live/current/questing-desktop-amd64.iso</url>
+      <url>https://cdimage.ubuntu.com/edubuntu/releases/questing/release/edubuntu-25.10-desktop-amd64.iso</url>
       <iso>
         <volume-id>Edubuntu 25.10(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
