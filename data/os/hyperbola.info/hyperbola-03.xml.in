@@ -43,7 +43,7 @@
       <minimum>
         <n-cpus>1</n-cpus>
         <cpu>1000000000</cpu>
-        <ram>53687091</ram>
+        <ram>49283072</ram>
         <storage>1000000000</storage>
       </minimum>
       <recommended>
