@@ -59,6 +59,8 @@ class UrlType(UniqueSet, enum.Enum):
         "application/x-troff-man",
         # qcow2 files on some opensuse.org mirrors
         "text/plain",
+        # qcow2 files on some almalinux.rog mirrors
+        "application/x-qemu-disk",
     }
     URL_DISK_VMDK = {}
     URL_TREEINFO = {
@@ -66,6 +68,8 @@ class UrlType(UniqueSet, enum.Enum):
         "application/octet-stream",
         # on some Fedora mirrors
         "text/plain",
+        # opensuse 16.0
+        "application/x-download",
     }
     URL_DISK_CONTAINERDISK = {
         # image manifest
