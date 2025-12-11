@@ -8,7 +8,7 @@
     <family>linux</family>
     <distro>clearlinux</distro>
 
-    <release-status>rolling</release-status>
+    <eol-date>2025-07-18</eol-date>
 
     <firmware arch="x86_64" type="efi"/>
 
@@ -40,16 +40,6 @@
     </devices>
 
     <media live="true" arch="x86_64">
-      <url>https://download.clearlinux.org/releases/32550/clear/clear-32550-live-server.iso</url>
-      <iso>
-        <volume-id>CLR_ISO</volume-id>
-      </iso>
-      <kernel>EFI/BOOT/BOOTX64.EFI</kernel>
-      <initrd>EFI/BOOT/initrd.gz</initrd>
-    </media>
-
-    <media live="true" arch="x86_64">
-      <url>https://download.clearlinux.org/releases/32550/clear/clear-32550-live-desktop.iso</url>
       <iso>
         <volume-id>CLR_ISO</volume-id>
       </iso>
