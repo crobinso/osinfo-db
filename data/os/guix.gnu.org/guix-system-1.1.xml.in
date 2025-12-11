@@ -42,7 +42,6 @@
     </devices>
 
     <media arch="i686" installer="true">
-      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.1.0.i686-linux.iso.xz</url>
       <iso>
         <volume-id>GUIX_IMAGE</volume-id>
         <volume-size>584865792</volume-size>
@@ -52,7 +51,6 @@
     </media>
 
     <media arch="x86_64" installer="true">
-      <url>https://ftp.gnu.org/gnu/guix/guix-system-install-1.1.0.x86_64-linux.iso.xz</url>
       <iso>
         <volume-id>GUIX_IMAGE</volume-id>
         <volume-size>586209280</volume-size>
@@ -60,10 +58,6 @@
       <kernel>gnu/store/g56i8savnfr7981fil03idkjl0syj29d-linux-libre-5.4.31/bzImage</kernel>
       <initrd>gnu/store/33mpn6f0hy4m73m4isd5lg83qxwclld8-raw-initrd/initrd.cpio.gz</initrd>
     </media>
-
-    <image arch="x86_64" format="qcow2">
-      <url>https://ftp.gnu.org/gnu/guix/guix-system-vm-image-1.1.0.x86_64-linux.xz</url>
-    </image>
 
     <resources arch="all">
       <minimum>
