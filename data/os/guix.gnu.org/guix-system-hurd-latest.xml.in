@@ -10,10 +10,6 @@
     <upgrades id="http://guix.gnu.org/guix-system/1.4"/>
     <derives-from id="http://guix.gnu.org/guix-system/1.4"/>
 
-    <image arch="x86_64" format="qcow2">
-      <url>https://ci.guix.gnu.org/search/latest/image?query=spec:images+status:success+system:x86_64-linux+hurd-barebones.qcow2</url>
-    </image>
-
     <resources arch='all' inherit='true'/>
   </os>
 </libosinfo>

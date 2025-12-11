@@ -11,7 +11,6 @@
     <derives-from id="http://guix.gnu.org/guix-system/1.4"/>
 
     <media arch="x86_64" installer="true">
-      <url>https://ci.guix.gnu.org/search/latest/ISO-9660?query=spec:images+status:success+system:x86_64-linux+image.iso</url>
       <iso>
         <volume-id>GUIX_X86_64-LINUX_\w{7}</volume-id>
       </iso>
