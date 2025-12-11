@@ -19,7 +19,6 @@
     <!-- x86_64 -->
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="freenix"/>
-      <url>https://freenix.net/fxp-iso/freenix64-14.2-iso/freenix64-14.2-install-dvd.iso</url>
       <iso>
         <volume-id>FXPDVD.*</volume-id>
       </iso>
