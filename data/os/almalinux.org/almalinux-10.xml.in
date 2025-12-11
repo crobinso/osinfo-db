@@ -271,7 +271,7 @@
     </tree>
 
     <tree arch="s390x">
-      <url>https://repo.almalinux.org/almalinux/10/BaseOS/os/</url>
+      <url>https://repo.almalinux.org/almalinux/10/BaseOS/s390x/os/</url>
       <treeinfo>
         <family>^AlmaLinux$</family>
         <version>^10$</version>
