@@ -46,7 +46,7 @@
     <!-- Standard Installer !-->
     <media arch="aarch64">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-standard-3.19.7-aarch64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-standard-3.19.9-aarch64.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* aarch64$</volume-id>
       </iso>
@@ -55,7 +55,7 @@
     </media>
     <media arch="i686">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-standard-3.19.7-x86.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-standard-3.19.9-x86.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* x86$</volume-id>
       </iso>
@@ -64,7 +64,7 @@
     </media>
     <media arch="x86_64">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-standard-3.19.7-x86_64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-standard-3.19.9-x86_64.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* x86_64$</volume-id>
       </iso>
@@ -73,7 +73,7 @@
     </media>
     <media arch="ppc64le">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/ppc64le/alpine-standard-3.19.7-ppc64le.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/ppc64le/alpine-standard-3.19.9-ppc64le.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* ppc64le$</volume-id>
       </iso>
@@ -82,7 +82,7 @@
     </media>
     <media arch="s390x">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/s390x/alpine-standard-3.19.7-s390x.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/s390x/alpine-standard-3.19.9-s390x.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* s390x$</volume-id>
       </iso>
@@ -91,7 +91,7 @@
     </media>
     <media arch="armv7l">
       <variant id="standard"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/armv7/alpine-standard-3.19.7-armv7.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/armv7/alpine-standard-3.19.9-armv7.iso</url>
       <iso>
         <volume-id>alpine-std 3\.19.* armv7$</volume-id>
       </iso>
@@ -102,7 +102,7 @@
     <!-- Extended Installer !-->
     <media arch="i686">
       <variant id="extended"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-extended-3.19.7-x86.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-extended-3.19.9-x86.iso</url>
       <iso>
         <volume-id>alpine-ext 3\.19.* x86$</volume-id>
       </iso>
@@ -111,7 +111,7 @@
     </media>
     <media arch="x86_64">
       <variant id="extended"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-extended-3.19.7-x86_64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-extended-3.19.9-x86_64.iso</url>
       <iso>
         <volume-id>alpine-ext 3\.19.* x86_64$</volume-id>
       </iso>
@@ -122,7 +122,7 @@
     <!-- Virtual Installer !-->
     <media arch="aarch64">
       <variant id="virtual"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-virt-3.19.7-aarch64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/aarch64/alpine-virt-3.19.9-aarch64.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.19.* aarch64$</volume-id>
       </iso>
@@ -131,7 +131,7 @@
     </media>
     <media arch="i686">
       <variant id="virtual"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-virt-3.19.7-x86.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86/alpine-virt-3.19.9-x86.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.19.* x86$</volume-id>
       </iso>
@@ -140,7 +140,7 @@
     </media>
     <media arch="x86_64">
       <variant id="virtual"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-extended-3.19.7-x86_64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-extended-3.19.9-x86_64.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.19.* x86_64$</volume-id>
       </iso>
@@ -149,7 +149,7 @@
     </media>
     <media arch="armv7l">
       <variant id="virtual"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/armv7/alpine-virt-3.19.7-armv7.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/armv7/alpine-virt-3.19.9-armv7.iso</url>
       <iso>
         <volume-id>alpine-virt 3\.19.* armv7$</volume-id>
       </iso>
@@ -160,7 +160,7 @@
     <!-- Xen Installer !-->
     <media arch="x86_64">
       <variant id="xen"/>
-      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-xen-3.19.7-x86_64.iso</url>
+      <url>https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-xen-3.19.9-x86_64.iso</url>
       <iso>
         <volume-id>alpine-xen 3\.19.* x86_64$</volume-id>
       </iso>
