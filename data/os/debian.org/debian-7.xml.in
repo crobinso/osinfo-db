@@ -45,7 +45,7 @@
     </resources>
 
     <media arch="i686">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/7.11.0/i386/iso-dvd/debian-7.11.0-i386-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/7.11.0/i386/iso-dvd/debian-7.11.0-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 7.\d+.\d+ i386 1</volume-id>
       </iso>
@@ -53,7 +53,7 @@
       <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/7.11.0/amd64/iso-dvd/debian-7.11.0-amd64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/7.11.0/amd64/iso-dvd/debian-7.11.0-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 7.\d+.\d+ amd64 1</volume-id>
       </iso>

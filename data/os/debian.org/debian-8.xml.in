@@ -37,7 +37,7 @@
     </resources>
 
     <media arch="i686">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/8.11.1/i386/iso-dvd/debian-8.11.1-i386-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/8.11.1/i386/iso-dvd/debian-8.11.1-i386-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d+.\d+ i386 .*</volume-id>
       </iso>
@@ -45,7 +45,7 @@
       <initrd>install.386/initrd.gz</initrd>
     </media>
     <media arch="x86_64">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/8.11.1/amd64/iso-dvd/debian-8.11.1-amd64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/8.11.1/amd64/iso-dvd/debian-8.11.1-amd64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d+.\d+ amd64 .*</volume-id>
       </iso>
@@ -53,7 +53,7 @@
       <initrd>install.amd/initrd.gz</initrd>
     </media>
     <media arch="aarch64">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/8.11.0/arm64/iso-dvd/debian-8.11.0-arm64-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/8.11.0/arm64/iso-dvd/debian-8.11.0-arm64-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d+.\d+ arm64 .*</volume-id>
       </iso>
@@ -61,7 +61,7 @@
       <initrd>install.a64/initrd.gz</initrd>
     </media>
     <media arch="ppc64le">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/8.11.0/ppc64el/iso-dvd/debian-8.11.0-ppc64el-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/8.11.0/ppc64el/iso-dvd/debian-8.11.0-ppc64el-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d+.\d+ ppc64el .*</volume-id>
       </iso>
@@ -69,7 +69,7 @@
       <initrd>install/initrd.gz</initrd>
     </media>
     <media arch="s390x">
-      <url>https://cdimage.debian.org/mirror/cdimage/archive/8.11.0/s390x/iso-dvd/debian-8.11.0-s390x-DVD-1.iso</url>
+      <url>https://cdimage.debian.org/cdimage/archive/8.11.0/s390x/iso-dvd/debian-8.11.0-s390x-DVD-1.iso</url>
       <iso>
         <volume-id>Debian 8.\d+.\d+ s390x .*</volume-id>
       </iso>
