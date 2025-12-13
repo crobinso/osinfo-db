@@ -59,16 +59,16 @@
     </resources>
 
     <variant id="standard">
-      <name>Alpinelinux 3.11 Standard</name>
+      <name>Alpine Linux 3.11 Standard</name>
     </variant>
     <variant id="extended">
-      <name>Alpinelinux 3.11 Extended</name>
+      <name>Alpine Linux 3.11 Extended</name>
     </variant>
     <variant id="virtual">
-      <name>Alpinelinux 3.11 Virtual</name>
+      <name>Alpine Linux 3.11 Virtual</name>
     </variant>
     <variant id="xen">
-      <name>Alpinelinux 3.11 Xen</name>
+      <name>Alpine Linux 3.11 Xen</name>
     </variant>
 
     <!-- Standard Installer !-->

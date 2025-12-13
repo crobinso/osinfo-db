@@ -31,16 +31,16 @@
     </resources>
 
     <variant id="standard">
-      <name>Alpinelinux 3.19 Standard</name>
+      <name>Alpine Linux 3.19 Standard</name>
     </variant>
     <variant id="extended">
-      <name>Alpinelinux 3.19 Extended</name>
+      <name>Alpine Linux 3.19 Extended</name>
     </variant>
     <variant id="virtual">
-      <name>Alpinelinux 3.19 Virtual</name>
+      <name>Alpine Linux 3.19 Virtual</name>
     </variant>
     <variant id="xen">
-      <name>Alpinelinux 3.19 Xen</name>
+      <name>Alpine Linux 3.19 Xen</name>
     </variant>
 
     <!-- Standard Installer !-->
