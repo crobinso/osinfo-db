@@ -20,6 +20,7 @@ WEB_ROOT = Path("public")
 GPG_KEYS = (
     "berrange.asc",
     "fidencio.asc",
+    "phrdina.asc",
     "toso.asc",
 )
 
