@@ -597,6 +597,11 @@
           <ref name='bool'/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name='recommended'>
+          <ref name='bool'/>
+        </attribute>
+      </optional>
     </element>
   </define>
 
