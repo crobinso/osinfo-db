@@ -26,6 +26,8 @@ make
 OSINFO_DB_NETWORK_TESTS=1 make check
 make install DESTDIR="$INSTALL_ROOT" OSINFO_DB_TARGET="--system"
 
+make dist
+
 if test -x /usr/bin/rpmbuild; then
   rpmbuild --nodeps \
      --define "_topdir $RPMBUILD_ROOT" \

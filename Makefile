@@ -34,6 +34,8 @@ ITS_RULES = $(VPATH)/po/gettext/its/osinfo-db.its
 
 ARCHIVE = osinfo-db-$(TODAY).tar.xz
 
+DIST = osinfo-db-dist-$(TODAY).tar.xz
+
 PYTHON = python3
 
 HAS_XDIST = $(shell pytest -V -V | grep xdist >/dev/null && echo 1)
@@ -84,6 +86,9 @@ schema: $(SCHEMA_FILES)
 $(ARCHIVE): data schema
 	$(V_EXP) $(OSINFO_DB_EXPORT) --license $(VPATH)/COPYING --version "$(TODAY)" --dir data $(ARCHIVE)
 
+$(DIST): $(SPEC_FILES)
+	git -C $(VPATH) archive --format tar --prefix osinfo-db-$(TODAY)/ --add-file $(CURDIR)/osinfo-db.spec HEAD | xz -c - > $(DIST)
+
 clean:
 	rm -f osinfo-db-*.tar.xz
 	rm -f $(DATA_FILES) $(SCHEMA_FILES) $(SPEC_FILES)
@@ -103,3 +108,5 @@ update-po:
 
 check: $(DATA_FILES) $(SCHEMA_FILES)
 	INTERNAL_OSINFO_DB_DATA_DIR=data INTERNAL_OSINFO_DB_DATA_SRC_DIR=$(ABS_TOPDIR)data $(PYTHON) -m pytest $(PYTEST_FLAGS) $(ABS_TOPDIR)tests
+
+dist: $(DIST)

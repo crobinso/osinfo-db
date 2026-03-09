@@ -52,9 +52,10 @@ stages:
     - $MAKE -f ../Makefile VPATH=..
     - $MAKE -f ../Makefile VPATH=.. install OSINFO_DB_TARGET="--system"
     - $MAKE -f ../Makefile VPATH=.. check
+    - $MAKE -f ../Makefile VPATH=.. dist
     - if test -x /usr/bin/rpmbuild && test "$RPM" != "skip";
       then
-        rpmbuild --nodeps --define "_without_mingw 1" --define "_sourcedir $PWD" -ba osinfo-db.spec;
+        rpmbuild --nodeps --define "_without_mingw 1" -ta osinfo-db-dist-*.tar.xz;
       fi
 
 urlcheck:
