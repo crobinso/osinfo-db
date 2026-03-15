@@ -1,0 +1,72 @@
+<libosinfo version="0.0.1">
+<!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://freebsd.org/freebsd/14.4">
+    <short-id>freebsd14.4</short-id>
+    <name>FreeBSD 14.4</name>
+    <version>14.4</version>
+    <vendor>FreeBSD Project</vendor>
+    <family>freebsd</family>
+    <distro>freebsd</distro>
+    <upgrades id="http://freebsd.org/freebsd/14.3"/>
+    <derives-from id="http://freebsd.org/freebsd/14.3"/>
+
+    <release-date>2026-03-10</release-date>
+    <eol-date>2026-12-31</eol-date>
+
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-amd64-dvd1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_AMD64_DVD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>4291366912</volume-size>
+      </iso>
+    </media>
+    <media arch="x86_64">
+      <url>https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-amd64-disc1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_AMD64_CD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>1294391296</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-i386-dvd1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_I386_DVD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>3366993920</volume-size>
+      </iso>
+    </media>
+    <media arch="i686">
+      <url>https://download.freebsd.org/ftp/releases/i386/i386/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-i386-disc1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_I386_CD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>1069725696</volume-size>
+      </iso>
+    </media>
+    <media arch="aarch64">
+      <url>https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-arm64-aarch64-dvd1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_AARCH64_DVD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>4026818560</volume-size>
+      </iso>
+    </media>
+    <media arch="aarch64">
+      <url>https://download.freebsd.org/releases/arm64/aarch64/ISO-IMAGES/14.4/FreeBSD-14.4-RELEASE-arm64-aarch64-disc1.iso</url>
+      <iso>
+        <volume-id>14_4_RELEASE_AARCH64_CD</volume-id>
+        <system-id>FreeBSD</system-id>
+        <publisher-id>THE FREEBSD PROJECT.  HTTPS://WWW.FREEBSD.ORG/</publisher-id>
+        <volume-size>1139943424</volume-size>
+      </iso>
+    </media>
+  </os>
+</libosinfo>
