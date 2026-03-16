@@ -4,7 +4,7 @@
 #
 # https://gitlab.com/libvirt/libvirt-ci
 
-FROM docker.io/library/almalinux:9
+FROM docker.io/library/almalinux:10
 
 RUN dnf --quiet update -y && \
     dnf --quiet install 'dnf-command(config-manager)' -y && \
@@ -23,7 +23,7 @@ RUN dnf --quiet update -y && \
                 glibc-langpack-en \
                 json-glib-devel \
                 libarchive-devel \
-                libsoup-devel \
+                libsoup3-devel \
                 libxml2-devel \
                 make \
                 meson \

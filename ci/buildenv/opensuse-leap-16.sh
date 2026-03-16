@@ -5,11 +5,10 @@
 # https://gitlab.com/libvirt/libvirt-ci
 
 function install_buildenv() {
-    zypper dist-upgrade -y
+    zypper update -y
     zypper install -y \
            ca-certificates \
            ccache \
-           cppi \
            gcc \
            gettext-runtime \
            git \

@@ -5,35 +5,36 @@
 # https://gitlab.com/libvirt/libvirt-ci
 
 function install_buildenv() {
-    dnf update -y
-    dnf install 'dnf-command(config-manager)' -y
-    dnf config-manager --set-enabled -y crb
-    dnf install -y epel-release
-    dnf install -y \
-        ca-certificates \
-        ccache \
-        gcc \
-        gettext \
-        git \
-        glib2-devel \
-        glibc-devel \
-        glibc-langpack-en \
-        json-glib-devel \
-        libarchive-devel \
-        libsoup-devel \
-        libxml2-devel \
-        libxslt-devel \
-        make \
-        meson \
-        ninja-build \
-        perl-podlators \
-        pkgconfig \
-        python3 \
-        python3-lxml \
-        python3-pytest \
-        python3-requests \
-        rpm-build \
-        xz
+    dnf --quiet update -y
+    dnf --quiet install 'dnf-command(config-manager)' -y
+    dnf --quiet config-manager --set-enabled -y crb
+    dnf --quiet install -y epel-release
+    dnf --quiet install almalinux-release-devel -y
+    dnf --quiet config-manager --set-enabled -y devel
+    dnf --quiet install -y \
+                ca-certificates \
+                ccache \
+                gcc \
+                gettext \
+                git \
+                glib2-devel \
+                glibc-devel \
+                glibc-langpack-en \
+                json-glib-devel \
+                libarchive-devel \
+                libsoup-devel \
+                libxml2-devel \
+                make \
+                meson \
+                ninja-build \
+                perl-podlators \
+                pkgconfig \
+                python3 \
+                python3-lxml \
+                python3-pytest \
+                python3-requests \
+                rpm-build \
+                xz
     rm -f /usr/lib*/python3*/EXTERNALLY-MANAGED
     rpm -qa | sort > /packages.txt
     mkdir -p /usr/libexec/ccache-wrappers

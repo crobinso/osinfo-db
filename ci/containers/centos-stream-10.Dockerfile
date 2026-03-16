@@ -4,14 +4,12 @@
 #
 # https://gitlab.com/libvirt/libvirt-ci
 
-FROM docker.io/library/almalinux:9
+FROM quay.io/centos/centos:stream10
 
-RUN dnf --quiet update -y && \
+RUN dnf --quiet distro-sync -y && \
     dnf --quiet install 'dnf-command(config-manager)' -y && \
     dnf --quiet config-manager --set-enabled -y crb && \
     dnf --quiet install -y epel-release && \
-    dnf --quiet install almalinux-release-devel -y && \
-    dnf --quiet config-manager --set-enabled -y devel && \
     dnf --quiet install -y \
                 ca-certificates \
                 ccache \
@@ -23,7 +21,7 @@ RUN dnf --quiet update -y && \
                 glibc-langpack-en \
                 json-glib-devel \
                 libarchive-devel \
-                libsoup-devel \
+                libsoup3-devel \
                 libxml2-devel \
                 make \
                 meson \
