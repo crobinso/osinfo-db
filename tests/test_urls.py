@@ -41,6 +41,8 @@ class UrlType(UniqueSet, enum.Enum):
         "text/plain",
         # a few openSUSE Live images
         "application/x-up-download",
+        # ISO files on downloads.getsol.us
+        "application/vnd.efi.iso",
     }
     URL_INITRD = {
         # generic data
