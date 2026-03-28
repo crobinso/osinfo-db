@@ -14,7 +14,6 @@
     <eol-date>2018-08-23</eol-date>
 
     <media arch="x86_64">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/images/NetBSD-6.0-amd64.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
@@ -22,7 +21,6 @@
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/amd64/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
@@ -30,7 +28,6 @@
       </iso>
     </media>
     <media arch="x86_64">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/amd64/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
@@ -38,7 +35,6 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/images/NetBSD-6.0-i386.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
@@ -46,7 +42,6 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/i386/installation/cdrom/boot.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
@@ -54,7 +49,6 @@
       </iso>
     </media>
     <media arch="i686">
-      <url>https://archive.netbsd.org/pub/NetBSD-archive/NetBSD-6.0/i386/installation/cdrom/boot-com.iso</url>
       <iso>
         <system-id>NetBSD</system-id>
         <volume-id>NETBSD_60</volume-id>
