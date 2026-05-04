@@ -14,7 +14,7 @@
 
     <media arch="x86_64">
       <iso>
-        <volume-id>Fedora-.*-dvd-x86_64-(4[4-9]|[5-9][0-9])</volume-id>
+        <volume-id>Fedora-.*-dvd-x86_64-(4[5-9]|[5-9][0-9])</volume-id>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
@@ -22,7 +22,7 @@
 
     <media arch="aarch64">
       <iso>
-        <volume-id>Fedora-.*-dvd-aarch64-(4[4-9]|[5-9][0-9])</volume-id>
+        <volume-id>Fedora-.*-dvd-aarch64-(4[5-9]|[5-9][0-9])</volume-id>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
@@ -30,7 +30,7 @@
 
     <media arch="s390x">
       <iso>
-        <volume-id>Fedora-.*-dvd-s390x-(4[4-9]|[5-9][0-9])</volume-id>
+        <volume-id>Fedora-.*-dvd-s390x-(4[5-9]|[5-9][0-9])</volume-id>
       </iso>
       <kernel>images/kernel.img</kernel>
       <initrd>images/initrd.img</initrd>
@@ -38,7 +38,7 @@
 
     <media arch="ppc64le">
       <iso>
-        <volume-id>Fedora-.*-dvd-ppc64le-(4[4-9]|[5-9][0-9])</volume-id>
+        <volume-id>Fedora-.*-dvd-ppc64le-(4[5-9]|[5-9][0-9])</volume-id>
       </iso>
       <kernel>ppc/ppc64/vmlinuz</kernel>
       <initrd>ppc/ppc64/initrd.img</initrd>
@@ -46,7 +46,7 @@
 
     <media arch="x86_64" live="true">
       <iso>
-        <volume-id>Fedora-.*-Live-(4[4-9]|[5-9][0-9]).*</volume-id>
+        <volume-id>Fedora-.*-Live-(4[5-9]|[5-9][0-9]).*</volume-id>
       </iso>
       <kernel>images/pxeboot/vmlinuz</kernel>
       <initrd>images/pxeboot/initrd.img</initrd>
@@ -55,7 +55,7 @@
     <tree arch="x86_64">
       <treeinfo>
         <family>Fedora</family>
-        <version>(4[4-9]|[5-9][0-9])</version>
+        <version>(4[5-9]|[5-9][0-9])</version>
         <arch>x86_64</arch>
       </treeinfo>
     </tree>
@@ -63,7 +63,7 @@
     <tree arch="aarch64">
       <treeinfo>
         <family>Fedora</family>
-        <version>(4[4-9]|[5-9][0-9])</version>
+        <version>(4[5-9]|[5-9][0-9])</version>
         <arch>aarch64</arch>
       </treeinfo>
     </tree>
@@ -71,7 +71,7 @@
     <tree arch="s390x">
       <treeinfo>
         <family>Fedora</family>
-        <version>(4[4-9]|[5-9][0-9])</version>
+        <version>(4[5-9]|[5-9][0-9])</version>
         <arch>s390x</arch>
       </treeinfo>
     </tree>
@@ -79,7 +79,7 @@
     <tree arch="ppc64le">
       <treeinfo>
         <family>Fedora</family>
-        <version>(4[4-9]|[5-9][0-9])</version>
+        <version>(4[5-9]|[5-9][0-9])</version>
         <arch>ppc64le</arch>
       </treeinfo>
     </tree>
