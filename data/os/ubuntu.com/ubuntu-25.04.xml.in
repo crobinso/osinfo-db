@@ -5,7 +5,6 @@
   <os id="http://ubuntu.com/ubuntu/25.04">
     <short-id>ubuntu25.04</short-id>
     <short-id>ubuntuplucky</short-id>
-    <short-id>ubuntu-stable-latest</short-id>
     <name>Ubuntu 25.04</name>
     <version>25.04</version>
     <vendor>Canonical Ltd</vendor>

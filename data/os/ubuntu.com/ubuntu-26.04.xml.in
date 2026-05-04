@@ -2,20 +2,22 @@
 <libosinfo version="0.0.1">
 <!-- Licensed under the GNU General Public License version 2 or later.
      See http://www.gnu.org/licenses/ for a copy of the license text -->
-  <os id="http://ubuntu.com/ubuntu/24.04">
-    <short-id>ubuntu24.04</short-id>
-    <short-id>ubuntunoble</short-id>
-    <name>Ubuntu 24.04 LTS</name>
-    <version>24.04</version>
+  <os id="http://ubuntu.com/ubuntu/26.04">
+    <short-id>ubuntu26.04</short-id>
+    <short-id>ubunturesolute</short-id>
+    <short-id>ubuntu-stable-latest</short-id>
+    <short-id>ubuntu-lts-latest</short-id>
+    <name>Ubuntu 26.04</name>
+    <version>26.04</version>
     <vendor>Canonical Ltd</vendor>
     <family>linux</family>
     <distro>ubuntu</distro>
-    <codename>Noble Numbat</codename>
-    <upgrades id="http://ubuntu.com/ubuntu/23.10"/>
-    <derives-from id="http://ubuntu.com/ubuntu/23.10"/>
+    <codename>Resolute Raccoon</codename>
+    <upgrades id="http://ubuntu.com/ubuntu/25.10"/>
+    <derives-from id="http://ubuntu.com/ubuntu/25.10"/>
 
-    <release-date>2024-04-25</release-date>
-    <eol-date>2034-04-25</eol-date>
+    <release-date>2026-04-23</release-date>
+    <eol-date>2036-04-23</eol-date>
 
     <resources arch="all">
       <minimum>
@@ -26,19 +28,20 @@
       </minimum>
       <recommended>
         <cpu>2000000000</cpu>
-        <ram>4294967296</ram>
+        <n-cpus>2</n-cpus>
+        <ram>6442450944</ram>
         <storage>26843545600</storage>
       </recommended>
     </resources>
 
     <variant id="desktop">
-      <name>Ubuntu Desktop 24.04 LTS</name>
+      <name>Ubuntu Desktop 26.04 LTS</name>
     </variant>
     <variant id="server">
-      <name>Ubuntu Server 24.04 LTS</name>
+      <name>Ubuntu Server 26.04 LTS</name>
     </variant>
     <variant id="edubuntu">
-      <name>Edubuntu 24.04 LTS</name>
+      <name>Edubuntu 26.04 LTS</name>
     </variant>
 
     <!-- installer-script limitations
@@ -54,54 +57,63 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="desktop"/>
-      <url>https://releases.ubuntu.com/noble/ubuntu-24.04-latest-desktop-amd64.iso</url>
+      <url>https://releases.ubuntu.com/resolute/ubuntu-26.04-latest-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu 24.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu 26.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://releases.ubuntu.com/noble/ubuntu-24.04-latest-live-server-amd64.iso</url>
+      <url>https://releases.ubuntu.com/resolute/ubuntu-26.04-latest-live-server-amd64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 24.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Ubuntu-Server 26.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
+      </iso>
+      <kernel>casper/vmlinuz</kernel>
+      <initrd>casper/initrd</initrd>
+    </media>
+    <media arch="aarch64" live="true" installer-script="false">
+      <variant id="desktop"/>
+      <url>https://cdimage.ubuntu.com/releases/resolute/release/ubuntu-26.04-latest-desktop-arm64.iso</url>
+      <iso>
+        <volume-id>Ubuntu 26.04(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="aarch64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-latest-live-server-arm64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/resolute/release/ubuntu-26.04-latest-live-server-arm64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 24.04(.\d\+?)?(.\d\+?)? LTS arm64</volume-id>
+        <volume-id>Ubuntu-Server 26.04(.\d\+?)?(.\d\+?)? arm64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="ppc64le" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-latest-live-server-ppc64el.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/resolute/release/ubuntu-26.04-latest-live-server-ppc64el.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 24.04(.\d\+?)?(.\d\+?)? LTS ppc64</volume-id>
+        <volume-id>Ubuntu-Server 26.04(.\d\+?)?(.\d\+?)? ppc64</volume-id>
       </iso>
       <kernel>casper/vmlinux</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="riscv64" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/ubuntu-server/noble/daily-live/current/noble-live-server-riscv64.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/resolute/release/ubuntu-26.04-latest-live-server-riscv64.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 24.04(.\d\+?)?(.\d\+?)? LTS riscv</volume-id>
+        <volume-id>Ubuntu-Server 26.04(.\d\+?)?(.\d\+?)? riscv</volume-id>
       </iso>
       <kernel>casper/vmlinux</kernel>
       <initrd>casper/initrd</initrd>
     </media>
     <media arch="s390x" live="true" installer-script="false">
       <variant id="server"/>
-      <url>https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-latest-live-server-s390x.iso</url>
+      <url>https://cdimage.ubuntu.com/releases/resolute/release/ubuntu-26.04-latest-live-server-s390x.iso</url>
       <iso>
-        <volume-id>Ubuntu-Server 24.04(.\d\+?)?(.\d\+?)? LTS s390x</volume-id>
+        <volume-id>Ubuntu-Server 26.04(.\d\+?)?(.\d\+?)? s390x</volume-id>
       </iso>
       <kernel>boot/kernel.ubuntu</kernel>
       <initrd>boot/initrd.ubuntu</initrd>
@@ -109,53 +121,36 @@
 
     <media arch="x86_64" live="true" installer-script="false">
       <variant id="edubuntu"/>
-      <url>https://cdimage.ubuntu.com/edubuntu/releases/noble/release/edubuntu-24.04-latest-desktop-amd64.iso</url>
+      <url>https://cdimages.ubuntu.com/edubuntu/releases/resolute/release/edubuntu-26.04-latest-desktop-amd64.iso</url>
       <iso>
-        <volume-id>Edubuntu 24.04(.\d\+?)?(.\d\+?)? LTS amd64</volume-id>
+        <volume-id>Edubuntu 26.04(.\d\+?)?(.\d\+?)? amd64</volume-id>
       </iso>
       <kernel>casper/vmlinuz</kernel>
       <initrd>casper/initrd</initrd>
     </media>
 
     <image arch="x86_64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.img</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-amd64.img</url>
     </image>
 
     <image arch="x86_64" format="vmdk" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-amd64.vmdk</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-amd64.vmdk</url>
     </image>
 
     <image arch="aarch64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-arm64.img</url>
-    </image>
-
-    <image arch="armv7l" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-armhf.img</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-arm64.img</url>
     </image>
 
     <image arch="ppc64le" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-ppc64el.img</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-ppc64el.img</url>
     </image>
 
     <image arch="riscv64" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-riscv64.img</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-riscv64.img</url>
     </image>
 
     <image arch="s390x" format="qcow2" cloud-init="true">
-      <url>https://cloud-images.ubuntu.com/noble/current/noble-server-cloudimg-s390x.img</url>
+      <url>https://cloud-images.ubuntu.com/resolute/current/resolute-server-cloudimg-s390x.img</url>
     </image>
-
-    <image arch="x86_64" format="containerdisk" cloud-init="true">
-      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
-    </image>
-
-    <image arch="aarch64" format="containerdisk" cloud-init="true">
-      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
-    </image>
-
-    <image arch="s390x" format="containerdisk" cloud-init="true">
-      <url>docker://quay.io/containerdisks/ubuntu:24.04</url>
-    </image>
-
   </os>
 </libosinfo>
